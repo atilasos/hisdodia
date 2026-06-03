@@ -1,0 +1,91 @@
+{
+  "id": "01-01",
+  "month": 1,
+  "day": 1,
+  "dateLabel": "1 de Janeiro",
+  "dayContext": "Dia Mundial da Paz",
+  "title": "Moleiros e Carvoeiros",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "pdf-page-1",
+      "paragraphs": [
+        "No tempo em que as velas dos moinhos rodavam ao vento, um moleiro, todo enfarinhado de carregar com sacas de farinha, cruzou-se, na estrada, com um carvoeiro todo enfarruscado de carregar com sacas de carvão.",
+        "Esquecemo-nos de dizer que ao lado do moleiro ia o filho do moleiro e ao lado do carvoeiro, o filho do carvoeiro. Nesse tempo também, os filhos dos moleiros não tinham outro destino senão ser moleiros e os filhos dos carvoeiros não podiam ambicionar outra vida senão ser carvoeiros.",
+        "- Ó pai, já viste aqueles dois tão sujos que ali vão? - disse o filho do moleiro para o moleiro.",
+        "O filho do carvoeiro ouviu o comentário e não gostou. Aliás, o pai também não gostou.",
+        "- Sujos vão eles - lançou o garoto do carvoeiro."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "Carvoeiros e moleiros pararam na estrada, enfrentando-se com ar de poucos amigos. Quem está sujo, quem não está sujo, o certo é que, depois de algumas más palavras trocadas em despique, os dois miúdos engalfinharam-se à zaragata. E os pais atrás deles.",
+        "Mãos que ameaçam, murros que se cruzam, joelhadas que fervem, e os que estavam brancos ficaram manchados de preto e os que estavam pretos ficaram manchados de branco. De mistura com o pó da estrada, uma nuvem cinzenta - cinzenta de carvão e farinha - rodeou os contendores.",
+        "Correu gente dos campos próximos a apartá-los. Não foi sem custo que os separaram, magoando-se tanto os que pediam paz como os que faziam guerra. Então um velho de respeitáveis barbas, que com os outros camponeses acudira à contenda, falou assim:",
+        "- Tão tolos são os filhos como os pais. Vejam-se agora, reparem nos nossos fatos e digam se não estão mais sujos do que estavam?",
+        "Realmente já se não distinguia qual o moleiro e qual o carvoeiro.",
+        "- Se tivessem dado um abraço, em vez de bulharem, o resultado teria sido o mesmo - continuou o velho. - E, realmente, porque se não hão-de abraçar estes trabalhadores honrados, orgulhosos da profissão que escolheram e dos fatos de trabalho que envergam? Vá, dêem um abraço, rapazes!",
+        "Os garotos, um pouco reticentes, abraçaram-se. Os homens, um pouco contravontade, abraçaram-se.",
+        "- Ena, que sujo que eu estou! - riu-se o filho do carvoeiro."
+      ]
+    },
+    {
+      "layer": "pdf-page-3",
+      "paragraphs": [
+        "- Não estás menos do que eu - riu-se o filho do moleiro.",
+        "Riram-se os filhos. Riram-se os pais. Toda a gente riu com gosto e a história acaba aqui. E bem.",
+        "FIM"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "engalfinharam-se",
+      "definition": "pegaram-se"
+    },
+    {
+      "term": "contendores",
+      "definition": "rivais / adversários"
+    },
+    {
+      "term": "zaragata",
+      "definition": "confusão ou briga"
+    },
+    {
+      "term": "reticentes",
+      "definition": "hesitantes, pouco convencidos"
+    },
+    {
+      "term": "contravontade",
+      "definition": "sem vontade; contrariados"
+    }
+  ],
+  "assets": {
+    "background": "/assets/01-01/illustration-original.jpg",
+    "icon": "/assets/01-01/icone-original.jpg",
+    "printPdf": "/assets/01-01/imprimir.pdf",
+    "originalAudioSwf": "https://web.archive.org/web/20080219024718id_/http://sons.historiadodia.pt/01/01/um.swf",
+    "rerecordedAudio": "/assets/01-01/narracao-raquel.mp3",
+    "captions": "/assets/01-01/narracao-raquel.vtt"
+  },
+  "recovery": {
+    "text": "pdf-complete",
+    "illustration": "local-original",
+    "originalAudio": "swf-reference-no-embedded-audio",
+    "rerecordedAudio": "tts-pt-pt",
+    "pdf": "local-original",
+    "completeness": "complete-pdf-text"
+  },
+  "provenance": {
+    "storyPage": "https://web.archive.org/web/20040104010647id_/http://www.historiadodia.pt:80/pt/historias/01/01/historia.aspx",
+    "printPdf": "https://web.archive.org/web/20040104010647id_/http://www.historiadodia.pt:80/pt/historias/01/01/imprimir.pdf",
+    "audioCdx": "https://web.archive.org/web/timemap/json/http://sons.historiadodia.pt/01/01/um.swf",
+    "notes": "Texto completo extraído do PDF original de impressão. A ilustração e o PDF são cópias locais dos assets originais arquivados. O SWF arquivado para áudio não contém som embebido; a narração disponível foi sintetizada em pt-PT a partir do texto completo."
+  },
+  "editorialNotes": [
+    "Pontuação e quebras de linha foram normalizadas a partir do PDF original.",
+    "A narração disponível não é a voz original de António Torrado; é uma leitura sintetizada em pt-PT para tornar a história audível no protótipo."
+  ]
+}

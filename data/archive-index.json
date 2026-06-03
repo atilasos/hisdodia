@@ -1,0 +1,14 @@
+{
+  "generatedFrom": "manual-sample",
+  "stories": [
+    {
+      "id": "01-01",
+      "month": 1,
+      "day": 1,
+      "title": "Moleiros e Carvoeiros",
+      "dateLabel": "1 de Janeiro",
+      "dayContext": "Dia Mundial da Paz",
+      "status": "partial-sample"
+    }
+  ]
+}

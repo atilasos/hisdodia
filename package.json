@@ -1,0 +1,12 @@
+{
+  "name": "historia-do-dia-reconstruction",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/**/*.test.mjs",
+    "build": "node src/site/render.mjs",
+    "serve": "node src/site/dev-server.mjs",
+    "recover:manifest": "node src/recovery/build-manifest.mjs"
+  }
+}
