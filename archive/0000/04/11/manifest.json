@@ -1,0 +1,52 @@
+{
+  "day": "04-11",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/04/11/",
+    "www.historiadodia.pt/pt/Historias/04/11/",
+    "sons.historiadodia.pt/04/11/"
+  ],
+  "capturedAt": "2026-06-03T22:11:06.223Z",
+  "cdx": {
+    "captures": 24,
+    "selected": 4,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/04/11/html/rkewtwlyho66sa7hsb46tvalsb663cok/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/04/11/historia.aspx",
+      "timestamp": "20080623121448",
+      "digest": "RKEWTWLYHO66SA7HSB46TVALSB663COK",
+      "mimetype": "text/html",
+      "bytes": 15097
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/04/11/html/rkewtwlyho66sa7hsb46tvalsb663cok/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/04/11/historia.aspx",
+      "timestamp": "20070519142838",
+      "digest": "RKEWTWLYHO66SA7HSB46TVALSB663COK",
+      "mimetype": "text/html",
+      "bytes": 4199
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/04/11/html/5flevtcxlbplllztqgdjmmrlnogemsyl/Propostas/anpuzzle/anpuzzle2.html",
+      "original": "http://www.historiadodia.pt:80/pt/historias/04/11/Propostas/anpuzzle/anpuzzle2.html",
+      "timestamp": "20080415122617",
+      "digest": "5FLEVTCXLBPLLLZTQGDJMMRLNOGEMSYL",
+      "mimetype": "text/html",
+      "bytes": 2854
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/04/11/html/w2syzm2ois24f2hcfdnqybj6njv33m7m/Propostas/home.htm",
+      "original": "http://www.historiadodia.pt:80/pt/historias/04/11/Propostas/home.htm",
+      "timestamp": "20080624064127",
+      "digest": "W2SYZM2OIS24F2HCFDNQYBJ6NJV33M7M",
+      "mimetype": "text/html",
+      "bytes": 3745
+    }
+  ]
+}

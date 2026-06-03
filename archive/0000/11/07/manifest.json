@@ -1,0 +1,133 @@
+{
+  "day": "11-07",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/11/07/",
+    "www.historiadodia.pt/pt/Historias/11/07/",
+    "sons.historiadodia.pt/11/07/"
+  ],
+  "capturedAt": "2026-06-03T22:17:22.250Z",
+  "cdx": {
+    "captures": 89,
+    "selected": 13,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/11/07/audio/xdjnkn6yexu4kesuofbvquvfuvxpzbdr/um.swf",
+      "original": "http://sons.historiadodia.pt/11/07/um.swf",
+      "timestamp": "20100614094552",
+      "digest": "XDJNKN6YEXU4KESUOFBVQUVFUVXPZBDR",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 2145
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/07/html/7bidcrpgvdcbe2a4ee6ab5fwcbddbo7c/historia.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/11/07/historia.aspx",
+      "timestamp": "20150423181530",
+      "digest": "7BIDCRPGVDCBE2A4EE6AB5FWCBDDBO7C",
+      "mimetype": "text/html",
+      "bytes": 15968
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/11/07/html/7bidcrpgvdcbe2a4ee6ab5fwcbddbo7c/historia.aspx",
+      "original": "http://www.historiadodia.pt/pt/Historias/11/07/historia.aspx",
+      "timestamp": "20131107012318",
+      "digest": "7BIDCRPGVDCBE2A4EE6AB5FWCBDDBO7C",
+      "mimetype": "text/html",
+      "bytes": 4369
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/07/html/3i42h3s6nnfq2msvx7xzkyayscx5qbyj/home.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/11/07/home.aspx",
+      "timestamp": "20071109020708",
+      "digest": "3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ",
+      "mimetype": "unk",
+      "bytes": 0
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/07/html/wz3sqtcwakf4xvkpwpiexmyatywhkquf/home.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/11/07/home.aspx",
+      "timestamp": "20131107000705",
+      "digest": "WZ3SQTCWAKF4XVKPWPIEXMYATYWHKQUF",
+      "mimetype": "text/html",
+      "bytes": 3622
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/07/images/qnt6qq4g5mkidgqd3czxstu3tbahsviv/Imagens/Background.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/11/07/Imagens/Background.jpg",
+      "timestamp": "20150423202031",
+      "digest": "QNT6QQ4G5MKIDGQD3CZXSTU3TBAHSVIV",
+      "mimetype": "image/jpeg",
+      "bytes": 28617
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/11/07/images/qnt6qq4g5mkidgqd3czxstu3tbahsviv/Imagens/Background.jpg",
+      "original": "http://www.historiadodia.pt/pt/Historias/11/07/Imagens/Background.jpg",
+      "timestamp": "20131107012329",
+      "digest": "QNT6QQ4G5MKIDGQD3CZXSTU3TBAHSVIV",
+      "mimetype": "image/jpeg",
+      "bytes": 28359
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/07/images/tzsqjl3lw3fyjwmslbbmp7v6oyq6vyjk/Imagens/entrada.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/11/07/Imagens/entrada.jpg",
+      "timestamp": "20131107002643",
+      "digest": "TZSQJL3LW3FYJWMSLBBMP7V6OYQ6VYJK",
+      "mimetype": "image/jpeg",
+      "bytes": 4860
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/07/images/5mq6wc6hzd4re34c6mml5otzmu3ucouz/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt/pt/Historias/11/07/Imagens/icone.jpg",
+      "timestamp": "20150423181518",
+      "digest": "5MQ6WC6HZD4RE34C6MML5OTZMU3UCOUZ",
+      "mimetype": "image/jpeg",
+      "bytes": 1329
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/07/html/o4vi2v2tdme2zqugcz4aadqervdgnexp/propostas/home.htm",
+      "original": "http://www.historiadodia.pt/pt/historias/11/07/propostas/home.htm",
+      "timestamp": "20131107010008",
+      "digest": "O4VI2V2TDME2ZQUGCZ4AADQERVDGNEXP",
+      "mimetype": "text/html",
+      "bytes": 4252
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/07/images/m3iumb5xbemein72mdrr5swbdopskgga/propostas/logo_franca.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/11/07/propostas/logo_franca.jpg",
+      "timestamp": "20131107010036",
+      "digest": "M3IUMB5XBEMEIN72MDRR5SWBDOPSKGGA",
+      "mimetype": "image/jpeg",
+      "bytes": 3290
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/07/images/s6cyg4x3wiym4zjheqogh6fltipzwsav/propostas/logo_legalenga.gif",
+      "original": "http://www.historiadodia.pt/pt/historias/11/07/propostas/logo_legalenga.gif",
+      "timestamp": "20131107010125",
+      "digest": "S6CYG4X3WIYM4ZJHEQOGH6FLTIPZWSAV",
+      "mimetype": "image/gif",
+      "bytes": 1154
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/07/images/7wnc5x3of2srkdvhkxknzssecu62a7gn/propostas/logo_pulgas.gif",
+      "original": "http://www.historiadodia.pt/pt/historias/11/07/propostas/logo_pulgas.gif",
+      "timestamp": "20131107010101",
+      "digest": "7WNC5X3OF2SRKDVHKXKNZSSECU62A7GN",
+      "mimetype": "image/gif",
+      "bytes": 913
+    }
+  ]
+}

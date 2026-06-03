@@ -1,0 +1,61 @@
+{
+  "day": "10-24",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/10/24/",
+    "www.historiadodia.pt/pt/Historias/10/24/",
+    "sons.historiadodia.pt/10/24/"
+  ],
+  "capturedAt": "2026-06-03T22:16:50.578Z",
+  "cdx": {
+    "captures": 24,
+    "selected": 5,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/10/24/images/xsb2ws7hbgd4ugti6kwgjvpiwbp7whfv/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/10/24/Imagens/icone.jpg",
+      "timestamp": "20070126035753",
+      "digest": "XSB2WS7HBGD4UGTI6KWGJVPIWBP7WHFV",
+      "mimetype": "image/jpeg",
+      "bytes": 1434
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/10/24/pdf/tabtaqu6wmununtpno5ghsgf6fvued77/imprimir.pdf",
+      "original": "http://www.historiadodia.pt:80/pt/historias/10/24/imprimir.pdf",
+      "timestamp": "20031026015936",
+      "digest": "TABTAQU6WMUNUNTPNO5GHSGF6FVUED77",
+      "mimetype": "application/pdf",
+      "bytes": 34708
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/10/24/pdf/tabtaqu6wmununtpno5ghsgf6fvued77/imprimir.pdf",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/10/24/imprimir.pdf",
+      "timestamp": "20031229134917",
+      "digest": "TABTAQU6WMUNUNTPNO5GHSGF6FVUED77",
+      "mimetype": "application/pdf",
+      "bytes": 26012
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/10/24/other/2pfi3szujzmbmasivg3irpoxmkon5vix/propostas/titulos_style.css",
+      "original": "http://www.historiadodia.pt/pt/historias/10/24/propostas/titulos_style.css",
+      "timestamp": "20150423162237",
+      "digest": "2PFI3SZUJZMBMASIVG3IRPOXMKON5VIX",
+      "mimetype": "text/css",
+      "bytes": 3517
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/10/24/other/2pfi3szujzmbmasivg3irpoxmkon5vix/propostas/titulos_style.css",
+      "original": "http://www.historiadodia.pt/pt/Historias/10/24/propostas/titulos_style.css",
+      "timestamp": "20131107011421",
+      "digest": "2PFI3SZUJZMBMASIVG3IRPOXMKON5VIX",
+      "mimetype": "text/css",
+      "bytes": 606
+    }
+  ]
+}

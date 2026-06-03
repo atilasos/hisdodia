@@ -1,0 +1,61 @@
+{
+  "day": "03-16",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/03/16/",
+    "www.historiadodia.pt/pt/Historias/03/16/",
+    "sons.historiadodia.pt/03/16/"
+  ],
+  "capturedAt": "2026-06-03T22:10:15.238Z",
+  "cdx": {
+    "captures": 10,
+    "selected": 5,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/03/16/html/jybjaxoz7wr2j6iuytgl756riyqgyl6r/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/03/16/historia.aspx",
+      "timestamp": "20040326005130",
+      "digest": "JYBJAXOZ7WR2J6IUYTGL756RIYQGYL6R",
+      "mimetype": "text/html",
+      "bytes": 16193
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/03/16/html/xvmxcdjbgjr6g5glv343fkbs6syfcx3g/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/03/16/historia.aspx",
+      "timestamp": "20070319185915",
+      "digest": "XVMXCDJBGJR6G5GLV343FKBS6SYFCX3G",
+      "mimetype": "text/html",
+      "bytes": 16172
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/03/16/html/xvmxcdjbgjr6g5glv343fkbs6syfcx3g/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/03/16/historia.aspx",
+      "timestamp": "20070327231132",
+      "digest": "XVMXCDJBGJR6G5GLV343FKBS6SYFCX3G",
+      "mimetype": "text/html",
+      "bytes": 4543
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/03/16/pdf/hbf3fqm2mbg73ff45gj6j43n7vp3a4ka/imprimir.pdf",
+      "original": "http://www.historiadodia.pt:80/pt/historias/03/16/imprimir.pdf",
+      "timestamp": "20070326193328",
+      "digest": "HBF3FQM2MBG73FF45GJ6J43N7VP3A4KA",
+      "mimetype": "application/pdf",
+      "bytes": 44495
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/03/16/pdf/hbf3fqm2mbg73ff45gj6j43n7vp3a4ka/imprimir.pdf",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/03/16/imprimir.pdf",
+      "timestamp": "20070330015708",
+      "digest": "HBF3FQM2MBG73FF45GJ6J43N7VP3A4KA",
+      "mimetype": "application/pdf",
+      "bytes": 22389
+    }
+  ]
+}

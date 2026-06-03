@@ -1,0 +1,61 @@
+{
+  "day": "01-22",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/01/22/",
+    "www.historiadodia.pt/pt/Historias/01/22/",
+    "sons.historiadodia.pt/01/22/"
+  ],
+  "capturedAt": "2026-06-03T22:08:32.514Z",
+  "cdx": {
+    "captures": 14,
+    "selected": 5,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/01/22/html/f27w3mwxjk26zwnd5qk33qrhgkpmgksa/home.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/01/22/home.aspx",
+      "timestamp": "20120122130047",
+      "digest": "F27W3MWXJK26ZWND5QK33QRHGKPMGKSA",
+      "mimetype": "text/html",
+      "bytes": 3568
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/01/22/images/tcvs7gepttq7fa7tuje7sng5mhjcaxx3/Imagens/entrada.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/01/22/Imagens/entrada.jpg",
+      "timestamp": "20120122131005",
+      "digest": "TCVS7GEPTTQ7FA7TUJE7SNG5MHJCAXX3",
+      "mimetype": "image/jpeg",
+      "bytes": 4320
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/01/22/images/5lagivi4up47bqgjnmcoyrud5snjflws/propostas/botaourso.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/01/22/propostas/botaourso.jpg",
+      "timestamp": "20120122134916",
+      "digest": "5LAGIVI4UP47BQGJNMCOYRUD5SNJFLWS",
+      "mimetype": "image/jpeg",
+      "bytes": 1101
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/01/22/images/232qjoizo7kxgvkm7at4is4okgup56mm/propostas/botaozoo.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/01/22/propostas/botaozoo.jpg",
+      "timestamp": "20120122134926",
+      "digest": "232QJOIZO7KXGVKM7AT4IS4OKGUP56MM",
+      "mimetype": "image/jpeg",
+      "bytes": 1111
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/01/22/html/4pe32irudobpf5ibtc6ybxfab5nms2jj/propostas/home.htm",
+      "original": "http://www.historiadodia.pt/pt/historias/01/22/propostas/home.htm",
+      "timestamp": "20110122060723",
+      "digest": "4PE32IRUDOBPF5IBTC6YBXFAB5NMS2JJ",
+      "mimetype": "text/html",
+      "bytes": 2814
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "day": "06-14",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/06/14/",
+    "www.historiadodia.pt/pt/Historias/06/14/",
+    "sons.historiadodia.pt/06/14/"
+  ],
+  "capturedAt": "2026-06-03T22:12:53.962Z",
+  "cdx": {
+    "captures": 2,
+    "selected": 1,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/06/14/images/o4iydycojetben3iv6cn56u2xrk35hz6/Imagens/entrada.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/06/14/Imagens/entrada.jpg",
+      "timestamp": "20100615174835",
+      "digest": "O4IYDYCOJETBEN3IV6CN56U2XRK35HZ6",
+      "mimetype": "image/jpeg",
+      "bytes": 6654
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "day": "07-09",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/07/09/",
+    "www.historiadodia.pt/pt/Historias/07/09/",
+    "sons.historiadodia.pt/07/09/"
+  ],
+  "capturedAt": "2026-06-03T22:13:53.009Z",
+  "cdx": {
+    "captures": 12,
+    "selected": 5,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/07/09/audio/wqi2yoqodszsl4hrj4nycfnct7adny4c/um.swf",
+      "original": "http://sons.historiadodia.pt/07/09/um.swf",
+      "timestamp": "20080315091222",
+      "digest": "WQI2YOQODSZSL4HRJ4NYCFNCT7ADNY4C",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 2146
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/07/09/html/zgtod6q4744mtqq4fmf23pgflgpycrkl/historia.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/07/09/historia.aspx",
+      "timestamp": "20080312065932",
+      "digest": "ZGTOD6Q4744MTQQ4FMF23PGFLGPYCRKL",
+      "mimetype": "text/html",
+      "bytes": 15941
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/07/09/html/3i42h3s6nnfq2msvx7xzkyayscx5qbyj/home.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/07/09/home.aspx",
+      "timestamp": "20060712004233",
+      "digest": "3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ",
+      "mimetype": "unk",
+      "bytes": 0
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/07/09/images/q2zin2aw5zhubc6dsw5lvgttkgft62gh/Imagens/Background.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/07/09/Imagens/Background.jpg",
+      "timestamp": "20080312072555",
+      "digest": "Q2ZIN2AW5ZHUBC6DSW5LVGTTKGFT62GH",
+      "mimetype": "image/jpeg",
+      "bytes": 20838
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/07/09/images/xnd2ijkrzljdsp7tdh6mn66rwg4fbgeu/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt/pt/Historias/07/09/Imagens/icone.jpg",
+      "timestamp": "20080312065922",
+      "digest": "XND2IJKRZLJDSP7TDH6MN66RWG4FBGEU",
+      "mimetype": "image/jpeg",
+      "bytes": 1556
+    }
+  ]
+}

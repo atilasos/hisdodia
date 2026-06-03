@@ -1,0 +1,25 @@
+{
+  "day": "03-20",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/03/20/",
+    "www.historiadodia.pt/pt/Historias/03/20/",
+    "sons.historiadodia.pt/03/20/"
+  ],
+  "capturedAt": "2026-06-03T22:10:17.952Z",
+  "cdx": {
+    "captures": 2,
+    "selected": 1,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/03/20/html/clsa62ondzyji2dw5sb4pzpqwggbzowu/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/03/20/historia.aspx",
+      "timestamp": "20040326025623",
+      "digest": "CLSA62ONDZYJI2DW5SB4PZPQWGGBZOWU",
+      "mimetype": "text/html",
+      "bytes": 14226
+    }
+  ]
+}

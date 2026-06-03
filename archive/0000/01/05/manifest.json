@@ -1,0 +1,115 @@
+{
+  "day": "01-05",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/01/05/",
+    "www.historiadodia.pt/pt/Historias/01/05/",
+    "sons.historiadodia.pt/01/05/"
+  ],
+  "capturedAt": "2026-06-03T22:08:27.415Z",
+  "cdx": {
+    "captures": 115,
+    "selected": 11,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "skipped-existing",
+      "path": "0000/01/05/audio/x4wjtn3xk5aksv3noga3w46bkjyfjepi/dois.swf",
+      "original": "http://sons.historiadodia.pt/01/05/dois.swf",
+      "timestamp": "20090927075933",
+      "digest": "X4WJTN3XK5AKSV3NOGA3W46BKJYFJEPI",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 357200
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/01/05/audio/apsl3qlvmvhmnocmqfc6bxd3np6kyj6y/um.swf",
+      "original": "http://sons.historiadodia.pt/01/05/um.swf",
+      "timestamp": "20100614094050",
+      "digest": "APSL3QLVMVHMNOCMQFC6BXD3NP6KYJ6Y",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 2538
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/01/05/html/oun7jumxkjm5mfnysywzsa5fbgnhy53r/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/01/05/historia.aspx",
+      "timestamp": "20040122034738",
+      "digest": "OUN7JUMXKJM5MFNYSYWZSA5FBGNHY53R",
+      "mimetype": "text/html",
+      "bytes": 4452
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/01/05/html/eqzjz2ekeo4nr73ffu2z5yvisdgmrj5z/historia.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/01/05/historia.aspx",
+      "timestamp": "20150423183410",
+      "digest": "EQZJZ2EKEO4NR73FFU2Z5YVISDGMRJ5Z",
+      "mimetype": "text/html",
+      "bytes": 4406
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/01/05/html/eqzjz2ekeo4nr73ffu2z5yvisdgmrj5z/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/01/05/historia.aspx",
+      "timestamp": "20080111165716",
+      "digest": "EQZJZ2EKEO4NR73FFU2Z5YVISDGMRJ5Z",
+      "mimetype": "text/html",
+      "bytes": 4441
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/01/05/images/l3bbhurpfve2xphrbclc527zt5zbafqk/Imagens/Background.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/01/05/Imagens/Background.jpg",
+      "timestamp": "20150423202935",
+      "digest": "L3BBHURPFVE2XPHRBCLC527ZT5ZBAFQK",
+      "mimetype": "image/jpeg",
+      "bytes": 34977
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/01/05/images/tde6hjhirbhfmz4yfx26anq7x4ua3vex/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt/pt/Historias/01/05/Imagens/icone.jpg",
+      "timestamp": "20150423183017",
+      "digest": "TDE6HJHIRBHFMZ4YFX26ANQ7X4UA3VEX",
+      "mimetype": "image/jpeg",
+      "bytes": 1704
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/01/05/pdf/3u52bmpp2o36goj4tm3zyhltknnk66mw/imprimir.pdf",
+      "original": "http://www.historiadodia.pt/pt/historias/01/05/imprimir.pdf",
+      "timestamp": "20090925230122",
+      "digest": "3U52BMPP2O36GOJ4TM3ZYHLTKNNK66MW",
+      "mimetype": "application/pdf",
+      "bytes": 62236
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/01/05/images/in2kvf4hsjhng7gm2angpvthscyhby6w/Propostas/berlengas.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/01/05/Propostas/berlengas.jpg",
+      "timestamp": "20090925230403",
+      "digest": "IN2KVF4HSJHNG7GM2ANGPVTHSCYHBY6W",
+      "mimetype": "image/jpeg",
+      "bytes": 1858
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/01/05/images/vsulichewo6poec67a5jyxdstlqj6kdd/Propostas/gaivotas1.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/01/05/Propostas/gaivotas1.jpg",
+      "timestamp": "20090925230347",
+      "digest": "VSULICHEWO6POEC67A5JYXDSTLQJ6KDD",
+      "mimetype": "image/jpeg",
+      "bytes": 1685
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/01/05/html/3iqlj2ifg5l5pav6loqnf3eueyum5eiy/Propostas/home.htm",
+      "original": "http://www.historiadodia.pt/pt/historias/01/05/Propostas/home.htm",
+      "timestamp": "20090925225207",
+      "digest": "3IQLJ2IFG5L5PAV6LOQNF3EUEYUM5EIY",
+      "mimetype": "text/html",
+      "bytes": 1437
+    }
+  ]
+}

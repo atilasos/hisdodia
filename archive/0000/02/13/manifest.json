@@ -1,0 +1,52 @@
+{
+  "day": "02-13",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/02/13/",
+    "www.historiadodia.pt/pt/Historias/02/13/",
+    "sons.historiadodia.pt/02/13/"
+  ],
+  "capturedAt": "2026-06-03T22:09:25.459Z",
+  "cdx": {
+    "captures": 13,
+    "selected": 4,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/02/13/audio/j5otvqlmpqfkgnuswnqb6tsykycwb7vj/dois.swf",
+      "original": "http://sons.historiadodia.pt/02/13/dois.swf",
+      "timestamp": "20080219025105",
+      "digest": "J5OTVQLMPQFKGNUSWNQB6TSYKYCWB7VJ",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 415284
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/02/13/html/e4tynjtsuvtddvhfoevlc44kwdvavgqc/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/02/13/historia.aspx",
+      "timestamp": "20100507204825",
+      "digest": "E4TYNJTSUVTDDVHFOEVLC44KWDVAVGQC",
+      "mimetype": "text/html",
+      "bytes": 18706
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/02/13/html/wspzajzroqntsvdpouzw72m7dis5mty2/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/02/13/historia.aspx",
+      "timestamp": "20040215162939",
+      "digest": "WSPZAJZROQNTSVDPOUZW72M7DIS5MTY2",
+      "mimetype": "text/html",
+      "bytes": 18727
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/02/13/html/doco727wr2ao6utdbcn2ycryudmqiuwk/Propostas/pares02_13.html",
+      "original": "http://www.historiadodia.pt/pt/historias/02/13/Propostas/pares02_13.html",
+      "timestamp": "20080214010311",
+      "digest": "DOCO727WR2AO6UTDBCN2YCRYUDMQIUWK",
+      "mimetype": "text/html",
+      "bytes": 2149
+    }
+  ]
+}

@@ -24,11 +24,23 @@ export function storyPageUrl({ month, day }) {
 }
 
 export async function fetchCdx(pattern, options = {}) {
-  const response = await fetch(buildCdxUrl(pattern, options));
-  if (!response.ok) {
-    throw new Error(`CDX request failed with ${response.status} for ${pattern}`);
+  const timeoutMs = options.timeoutMs ?? 20000;
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetch(buildCdxUrl(pattern, options), { signal: controller.signal });
+    if (!response.ok) {
+      throw new Error(`CDX request failed with ${response.status} for ${pattern}`);
+    }
+    const rows = await response.json();
+    const [header, ...captures] = rows;
+    return captures.map((capture) => Object.fromEntries(header.map((key, index) => [key, capture[index]])));
+  } catch (error) {
+    if (error.name === 'AbortError') {
+      throw new Error(`CDX request timed out after ${timeoutMs}ms for ${pattern}`);
+    }
+    throw error;
+  } finally {
+    clearTimeout(timeout);
   }
-  const rows = await response.json();
-  const [header, ...captures] = rows;
-  return captures.map((capture) => Object.fromEntries(header.map((key, index) => [key, capture[index]])));
 }

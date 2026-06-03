@@ -1,0 +1,79 @@
+{
+  "day": "11-17",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/11/17/",
+    "www.historiadodia.pt/pt/Historias/11/17/",
+    "sons.historiadodia.pt/11/17/"
+  ],
+  "capturedAt": "2026-06-03T22:17:41.149Z",
+  "cdx": {
+    "captures": 48,
+    "selected": 7,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/11/17/html/mhcsgfo2brq7pkaxecyw6yvczyj5inew/historia.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/11/17/historia.aspx",
+      "timestamp": "20150423153125",
+      "digest": "MHCSGFO2BRQ7PKAXECYW6YVCZYJ5INEW",
+      "mimetype": "text/html",
+      "bytes": 15796
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/17/images/yjd7c7b5ycfcfygv7hiabglg3wuvin4x/Imagens/Background.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/11/17/Imagens/Background.jpg",
+      "timestamp": "20150423153136",
+      "digest": "YJD7C7B5YCFCFYGV7HIABGLG3WUVIN4X",
+      "mimetype": "image/jpeg",
+      "bytes": 32018
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/17/pdf/7hyp4awdjqfzhpokhphf7lkawm2l2c3u/imprimir.pdf",
+      "original": "http://www.historiadodia.pt/pt/historias/11/17/imprimir.pdf",
+      "timestamp": "20150423162508",
+      "digest": "7HYP4AWDJQFZHPOKHPHF7LKAWM2L2C3U",
+      "mimetype": "application/pdf",
+      "bytes": 89647
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/17/html/npbs76na4ur7bahtp3ucvo3s654exbce/Propostas/home.htm",
+      "original": "http://www.historiadodia.pt/pt/historias/11/17/Propostas/home.htm",
+      "timestamp": "20150423153148",
+      "digest": "NPBS76NA4UR7BAHTP3UCVO3S654EXBCE",
+      "mimetype": "text/html",
+      "bytes": 4293
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/17/images/rsajgoskf6ei7cwkds35zyytmy3cbrkx/Propostas/logo_bolacha1.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/11/17/Propostas/logo_bolacha1.jpg",
+      "timestamp": "20150423162622",
+      "digest": "RSAJGOSKF6EI7CWKDS35ZYYTMY3CBRKX",
+      "mimetype": "image/jpeg",
+      "bytes": 4934
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/17/images/dpprz2eufyvxmlvibwz3bviiimtixk7l/Propostas/logo_jogo.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/11/17/Propostas/logo_jogo.jpg",
+      "timestamp": "20150423162559",
+      "digest": "DPPRZ2EUFYVXMLVIBWZ3BVIIIMTIXK7L",
+      "mimetype": "image/jpeg",
+      "bytes": 2955
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/17/images/o6pxs74plc54nsjo5of7m4xpggl7iumd/Propostas/logo_receita.gif",
+      "original": "http://www.historiadodia.pt/pt/historias/11/17/Propostas/logo_receita.gif",
+      "timestamp": "20150423162610",
+      "digest": "O6PXS74PLC54NSJO5OF7M4XPGGL7IUMD",
+      "mimetype": "image/gif",
+      "bytes": 990
+    }
+  ]
+}

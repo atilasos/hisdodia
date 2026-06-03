@@ -1,0 +1,88 @@
+{
+  "day": "06-23",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/06/23/",
+    "www.historiadodia.pt/pt/Historias/06/23/",
+    "sons.historiadodia.pt/06/23/"
+  ],
+  "capturedAt": "2026-06-03T22:13:10.950Z",
+  "cdx": {
+    "captures": 18,
+    "selected": 8,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/06/23/html/y6pwiq3qsfbhjkb7gmsuhc47u6qh2xbq/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/06/23/historia.aspx",
+      "timestamp": "20090607085311",
+      "digest": "Y6PWIQ3QSFBHJKB7GMSUHC47U6QH2XBQ",
+      "mimetype": "text/html",
+      "bytes": 23269
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/23/html/5rebvxqyllcokgqoxdazqyoyp453lfd2/home.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/06/23/home.aspx",
+      "timestamp": "20090623141552",
+      "digest": "5REBVXQYLLCOKGQOXDAZQYOYP453LFD2",
+      "mimetype": "text/html",
+      "bytes": 3625
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/23/images/4zxjwwzsg62v5b2kiwcppnz6snzy4qea/Imagens/entrada.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/06/23/Imagens/entrada.jpg",
+      "timestamp": "20090623142705",
+      "digest": "4ZXJWWZSG62V5B2KIWCPPNZ6SNZY4QEA",
+      "mimetype": "image/jpeg",
+      "bytes": 7009
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/23/pdf/7vueqcwbzckiuikpyuqduk5weeboio5p/imprimir.pdf",
+      "original": "http://www.historiadodia.pt:80/pt/historias/06/23/imprimir.pdf",
+      "timestamp": "20090617004052",
+      "digest": "7VUEQCWBZCKIUIKPYUQDUK5WEEBOIO5P",
+      "mimetype": "application/pdf",
+      "bytes": 54896
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/23/images/bt4nt67xt7ctat3qzbwrrbz6n3uadoac/propostas/areia1.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/06/23/propostas/areia1.jpg",
+      "timestamp": "20090623145620",
+      "digest": "BT4NT67XT7CTAT3QZBWRRBZ6N3UADOAC",
+      "mimetype": "image/jpeg",
+      "bytes": 33081
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/23/images/z4bjvguweopx74d3hsxowi7axkff53cm/propostas/areia2.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/06/23/propostas/areia2.jpg",
+      "timestamp": "20090623145603",
+      "digest": "Z4BJVGUWEOPX74D3HSXOWI7AXKFF53CM",
+      "mimetype": "image/jpeg",
+      "bytes": 31820
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/23/html/sxfe3w45hptpgixvof6r3yw6jkze3oox/propostas/home.htm",
+      "original": "http://www.historiadodia.pt/pt/historias/06/23/propostas/home.htm",
+      "timestamp": "20090623145550",
+      "digest": "SXFE3W45HPTPGIXVOF6R3YW6JKZE3OOX",
+      "mimetype": "text/html",
+      "bytes": 2997
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/23/html/rqaahlj5bofg4oad6vzaihq7rxrsznps/historia.aspxhttp_/www.scienceart.nl/Frames/HOMEpage.htmhttp_/w3.ualg.pt/~jdias/oceangeol/3_SEDIMENTOL/3E_Morfoscopia.htmlWeber",
+      "original": "https://historiadodia.pt/pt/historias/06/23/historia.aspxhttp:/www.scienceart.nl/Frames/HOMEpage.htmhttp:/w3.ualg.pt/~jdias/oceangeol/3_SEDIMENTOL/3E_Morfoscopia.htmlWeber",
+      "timestamp": "20240621010614",
+      "digest": "RQAAHLJ5BOFG4OAD6VZAIHQ7RXRSZNPS",
+      "mimetype": "text/html",
+      "bytes": 1473
+    }
+  ]
+}

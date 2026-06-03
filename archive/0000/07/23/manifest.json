@@ -1,0 +1,25 @@
+{
+  "day": "07-23",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/07/23/",
+    "www.historiadodia.pt/pt/Historias/07/23/",
+    "sons.historiadodia.pt/07/23/"
+  ],
+  "capturedAt": "2026-06-03T22:14:11.060Z",
+  "cdx": {
+    "captures": 2,
+    "selected": 1,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/07/23/images/a4gowjgpu5dnj65bxpbcci2pzdele4ja/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/07/23/Imagens/icone.jpg",
+      "timestamp": "20070127071726",
+      "digest": "A4GOWJGPU5DNJ65BXPBCCI2PZDELE4JA",
+      "mimetype": "image/jpeg",
+      "bytes": 1601
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+.anomeautores {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+	text-decoration: none;
+}
+.aprofissao {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+	text-decoration: none;
+}
+.home-titulos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	line-height: normal;
+	color: #666666;
+	text-decoration: none;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+
+}
+.home-data {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #666666;
+	text-decoration: none;
+}
+.home-descricao {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+	text-decoration: none;
+}
+.home-hoje {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+	text-decoration: none;
+}
+.barra-titulos-um {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+.barra-subtitulos-dois {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.arquivo-descricao {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+	text-decoration: none;
+}
+.arquivo-data {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+	text-decoration: none;
+}
+.arquivo-titulos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+}
+.alink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #999999;
+	text-decoration: none;
+}
+.propostas-descricao {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #666666;
+	text-decoration: none;
+}
+.proposta-titulos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+	text-decoration: none;
+}

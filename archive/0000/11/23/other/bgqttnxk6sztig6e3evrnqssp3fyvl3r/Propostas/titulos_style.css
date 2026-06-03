@@ -1,0 +1,275 @@
+BODY
+{
+	SCROLLBAR-FACE-COLOR: #FFff90;
+	SCROLLBAR-HIGHLIGHT-COLOR: #666666;
+	SCROLLBAR-SHADOW-COLOR: #999999;
+	SCROLLBAR-3DLIGHT-COLOR: #ffff90;
+	SCROLLBAR-ARROW-COLOR: #333333;
+	SCROLLBAR-TRACK-COLOR: #ffffdf;
+	SCROLLBAR-DARKSHADOW-COLOR: #333333;
+    BACKGROUND-COLOR: #ffffdf
+}
+
+.atitulohistoria{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: none;
+	color: #0000BB;
+	text-decoration: none;
+}
+
+
+.anomeautores {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #666666;
+	text-decoration: none;
+}
+
+
+.anomeilustrador {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #666666;
+	text-decoration: none;
+}
+
+
+.anometradutor {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #666666;
+	text-decoration: none;
+}
+
+
+.aprofissao {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+	text-decoration: none;
+}
+.home-titulos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	color: #666666;
+	text-decoration: none;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+
+}
+.home-data {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+	text-decoration: none;
+}
+.home-descricao {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+	text-decoration: none;
+}
+.home-hoje {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: none;
+	color: #0000CC;
+	text-decoration: none;
+}
+.barra-titulos-um {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: none;
+	color: #FF6600;
+	text-decoration: none;
+
+}
+.barra-subtitulos-dois {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: none;
+	color: #0000CC;
+	text-decoration: none;
+}
+.arquivo-descricao {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: none;
+	color: #666666;
+	text-decoration: none;
+}
+.arquivo-data {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+	text-decoration: none;
+}
+.arquivo-titulos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	color: #666666;
+	text-decoration: none;
+}
+.alink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #999999;
+	text-decoration: none;
+}
+.propostas-descricao {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+	text-decoration: none;
+}
+.proposta-titulos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #666666;
+	text-decoration: none;
+}
+.hoje-azul {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	color: #0000CC;
+	text-decoration: none;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: none;
+
+}
+.m-texto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #666666;
+	text-decoration: none;
+}
+.m-titulos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #0033CC;
+	text-decoration: none;
+}
+.home-descricao-hoje {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #0000CC;
+	text-decoration: none;
+}
+.barra-subtitulos-dois-activo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #FF6600;
+	text-decoration: none;
+}
+.propostas-barra-titulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: none;
+	color: #0000FF;
+	text-decoration: none;
+}

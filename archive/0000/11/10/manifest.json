@@ -1,0 +1,43 @@
+{
+  "day": "11-10",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/11/10/",
+    "www.historiadodia.pt/pt/Historias/11/10/",
+    "sons.historiadodia.pt/11/10/"
+  ],
+  "capturedAt": "2026-06-03T22:17:23.785Z",
+  "cdx": {
+    "captures": 12,
+    "selected": 3,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/11/10/html/fyslllkm6kpuzhllacpfnsyvlto47ia2/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/11/10/historia.aspx",
+      "timestamp": "20081212023449",
+      "digest": "FYSLLLKM6KPUZHLLACPFNSYVLTO47IA2",
+      "mimetype": "text/html",
+      "bytes": 20244
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/11/10/html/fyslllkm6kpuzhllacpfnsyvlto47ia2/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/11/10/historia.aspx",
+      "timestamp": "20071119151843",
+      "digest": "FYSLLLKM6KPUZHLLACPFNSYVLTO47IA2",
+      "mimetype": "text/html",
+      "bytes": 4908
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/10/images/fvmenagfglux4nufolet4xzthlt36eqd/Imagens/entrada.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/11/10/Imagens/entrada.jpg",
+      "timestamp": "20131109183514",
+      "digest": "FVMENAGFGLUX4NUFOLET4XZTHLT36EQD",
+      "mimetype": "image/jpeg",
+      "bytes": 5556
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "day": "04-18",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/04/18/",
+    "www.historiadodia.pt/pt/Historias/04/18/",
+    "sons.historiadodia.pt/04/18/"
+  ],
+  "capturedAt": "2026-06-03T22:11:17.007Z",
+  "cdx": {
+    "captures": 2,
+    "selected": 1,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/04/18/pdf/txlhl6jweikhaqm33dgflv4427qblvd4/imprimir.pdf",
+      "original": "http://historiadodia.pt/pt/historias/04/18/imprimir.pdf",
+      "timestamp": "20240605070936",
+      "digest": "TXLHL6JWEIKHAQM33DGFLV4427QBLVD4",
+      "mimetype": "unk",
+      "bytes": 1511
+    }
+  ]
+}

@@ -1,0 +1,919 @@
+<html>
+<head><meta name="author" content="Created with Hot Potatoes by Half-Baked Software, registered to UNREGISTERED."></meta><meta name="keywords" content="Hot Potatoes, Half-Baked Software, Windows, University of Victoria"></meta>
+<title>
+
+</title>
+
+
+<style type="text/css">
+
+body{
+	font-family: Geneva,Arial;
+	background-color: #eeeecc;
+	color: #333333;
+ 
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+input.AnswerBox{
+	font-family:  Geneva,Arial;
+	font-size: larger;
+}
+
+.ClueText{
+	font-size: smaller;
+}
+
+p{
+	text-align: justify;
+	margin: 0px;
+}
+
+.ExerciseTitle{
+	text-align: center;
+	font-size: larger;
+}
+
+.ExerciseSubtitle{
+	text-align: center;
+	font-size: normal;
+	text-align: center;
+}
+
+div.ExerciseText{
+	margin: 0px;
+	padding: 0px;
+}
+
+div.FeedbackText{
+	margin: 0px;
+	padding: 0px;
+}
+
+span.Instructions{
+
+}
+
+span.GridLetter{
+	color: #000000;
+	background-color: #ffffff;
+	font-weight: bold;
+	vertical-align: baseline;
+}
+
+
+td{
+	color: #333333;
+}
+
+div.Titles{
+	text-align: center;
+	margin-bottom: 4px;
+	color: #666633;
+}
+
+span.ClueTitle{
+	font-weight: bold;
+	font-size: larger;
+	text-decoration: underline;
+}
+
+.FeedbackText{
+
+}
+
+div.Feedback {
+	background-color: #eeeecc;
+	left: 1px;
+	top: 33%;
+	z-index: 1;
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+	text-align: center;
+	color: #666633;
+	position: absolute;
+	display: none;
+	font-size: smaller;
+}
+
+div.Titles{
+	padding-top: 10px;
+	text-align: center;
+	margin-bottom: 4px;
+}
+
+table#ExTable{
+	padding: 0px;
+	margin: 0px;
+}
+
+div.ExerciseDiv{
+	color: #333333;
+}
+
+div.StdDiv{
+	background-color: #eeeeee;
+	text-align: center;
+	font-size: smaller;
+	color: #333333;
+	padding: 8px;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #333333;
+	margin: 1px;
+}
+
+
+div.FunctionButtonBar{
+	background-color: #eeeeee;
+	text-align: center;
+}
+
+span.FunctionButton {
+	font-size: smaller;
+	background-color: #eeeeee;
+	color: #333333;
+	text-align: center;
+	display: block;
+	border-style: solid;
+	border-color: #eeeeee;
+	border-width: 2px;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+	cursor: hand;	
+	margin: auto;	
+}
+
+div.NavButtonBar{
+	background-color: #eeeeee;
+	text-align: center;
+	padding: 1px;
+}
+
+div.NavButtonBar span {
+	font-size: smaller;
+	display: block;
+	border-style: solid;
+	border-color: #eeeeee;
+	border-width: 2px;
+	padding: 2px 2px 2px 2px;
+	color: #000000;
+	cursor: pointer;
+	cursor: hand;		
+}
+
+a{
+	color: #0000ff;
+}
+
+a: visited{
+	color: #0000cc;
+}
+
+a:hover{
+	color: #0000ff;
+}
+
+</style>
+
+
+<script language="javascript" type="text/javascript">
+
+//<![CDATA[
+
+<!--
+
+// BrowserCheck Object
+
+function BrowserCheck() {
+	var b = navigator.appName
+	this.mac = (navigator.appVersion.indexOf('Mac') != -1)
+	if (b=="Netscape") this.b = 'ns'
+	else if (b=="Microsoft Internet Explorer") this.b = 'ie'
+	else this.b = b
+	this.version = navigator.appVersion
+	this.v = parseInt(this.version)
+	this.ns = (this.b=="ns" && this.v>=5)
+	this.ns5 = (this.b=="ns" && this.v==5)
+	this.ns6 = (this.b=="ns" && this.v==5)
+	this.ie = (this.b=="ie" && this.v>=4)
+	this.ie4 = (this.version.indexOf('MSIE 4')>0)
+	this.ie5 = (this.version.indexOf('MSIE 5')>0)
+	if (this.mac) this.ie = this.ie5
+	this.ie5mac = (this.ie5 && this.mac);
+	this.min = (this.ns||this.ie)
+}
+
+is = new BrowserCheck();
+
+if ((is.min == false)||(is.ie5mac)){
+	alert('Your browser can\'t handle this page. You need NS6 or IE5 on Windows, or NS6 on Mac.');
+//	history.back();
+}
+
+function PageDim(){
+//Get the page width and height
+	this.W = 600;
+	this.H = 400;
+	if (is.ns) this.W = window.innerWidth;
+	if (is.ie) this.W = document.body.clientWidth;
+	if (is.ns) this.H = window.innerHeight;
+	if (is.ie) this.H = document.body.clientHeight;
+}
+
+var pg = null;
+var InGap = false;
+
+function SuppressBackspace(e){ 
+	if (InGap == true){
+		return;
+	}
+	 if (is.ns) {
+		thisKey = e.keyCode;
+	}
+	else {
+		thisKey = window.event.keyCode;
+	}
+
+var Suppress = false;
+
+//Hide the feedback window if showing
+	if (thisKey == 13){
+		if (document.getElementById('FeedbackDiv').style.display != 'none'){
+			HideFeedback();
+			Suppress = true;
+		}
+	}
+
+	if (thisKey == 8) {
+		Suppress = true;
+	}
+
+	if (Suppress == true){
+		if (is.ie){
+			window.event.returnValue = false;	
+			window.event.cancelBubble = true;
+		}
+		else{
+			e.preventDefault();
+		}
+	}
+}
+
+var NavLightColor = '#f6f6f6';
+var NavShadeColor = '#777777';
+var NavBarColor = '#eeeeee';
+var FuncLightColor = '#f6f6f6';
+var FuncShadeColor = '#777777';
+var ExBGColor = '#eeeeee';
+
+function NavBtnOver(Btn){
+	Btn.style.padding = '1px 3px 3px 1px';
+	Btn.style.borderLeftColor = NavLightColor;
+	Btn.style.borderTopColor = NavLightColor;
+	Btn.style.borderRightColor = NavShadeColor;
+	Btn.style.borderBottomColor = NavShadeColor;
+}
+
+function NavBtnOut(Btn){
+	Btn.style.borderColor = NavBarColor;
+	Btn.style.padding = '2px 2px 2px 2px';
+}
+
+function NavBtnDown(Btn){
+	Btn.style.borderLeftColor = NavShadeColor;
+	Btn.style.borderTopColor = NavShadeColor;
+	Btn.style.borderRightColor = NavLightColor;
+	Btn.style.borderBottomColor = NavLightColor;
+	Btn.style.padding = '3px 1px 1px 3px';
+}
+
+function FuncBtnOver(Btn){
+	Btn.style.padding = '2px 7px 4px 5px';
+	Btn.style.borderLeftColor = FuncLightColor;
+	Btn.style.borderTopColor = FuncLightColor;
+	Btn.style.borderRightColor = FuncShadeColor;
+	Btn.style.borderBottomColor = FuncShadeColor;
+}
+
+function FuncBtnOut(Btn){
+	Btn.style.borderColor = '#eeeeee';
+	Btn.style.padding = '3px 6px 3px 6px';
+}
+
+function FuncBtnDown(Btn){
+	Btn.style.borderLeftColor = FuncShadeColor;
+	Btn.style.borderTopColor = FuncShadeColor;
+	Btn.style.borderRightColor = FuncLightColor;
+	Btn.style.borderBottomColor = FuncLightColor;
+	Btn.style.padding = '4px 5px 2px 7px';
+}
+
+var topZ = 100;
+
+var CurrentBox = -1;
+var Feedback = '';
+var CluesAcross = 'horizontal:';
+var CluesDown = 'vertical:';
+var Correct = 'Correcto! parab&#233;ns.';
+var Incorrect = 'tens algumas respostas incorrectas.'; 
+var GiveHint = 'mais uma letra correcta.';
+var YourScoreIs = 'a tua pontua&#231;&#227;o &#233;:';
+var BuiltGrid = '';
+var BuiltExercise = '';
+var Penalties = 0;
+var FirstShow = true;
+var ReadingURL = '[ReadingURL]';
+var TempReading = '';
+
+var CurrBoxElement = null;
+
+
+
+var GridOpener = '<center><table border="1" cellpadding="0" cellspacing="0">';
+var GridRowOpener = '<tr>';
+var GridRowCloser = '</tr>';
+
+var BlankCell = '<td bgcolor="#000000" width="30" height="30">&nbsp;</td>';
+var LetterOnlyCell = '<td bgcolor="#ffffff" width="30" height="30" align="center" valign="middle"><span class="GridLetter">[Letter]</span></td>';
+var NumLetterCell = '<td bgcolor="#ffffff" style="cursor: pointer; cursor: hand;" width="30" height="30" align="center" valign="top" onclick="ShowClue([ClueNum],[x],[y])"><sup><a href="javascript:DoNothing()" onclick="ShowClue([ClueNum],[x],[y])">[ClueNum]</a></sup>&nbsp;<span class="GridLetter">[Letter]</span></td>';
+
+var GridCloser = '</table></center><br />';
+
+var GetAnswerOpener = '<div class="FunctionButtonBar"><form name="AnswerForm" action="" onSubmit="return false;">';
+GetAnswerOpener += '<table border="0" align="center" cellpadding="2" cellspacing="2">';
+
+
+var GetAnswer = '<tr><td valign="top"><span class="ClueText">[ThisClue]</span></td>';
+GetAnswer += '<td valign="top"><input type="text" class="AnswerBox" name="[BoxName]" size="[AnsLength]" maxlength="[AnsLength]" onfocus="InGap=true;"></input></td>';
+
+GetAnswer += '<td valign="top"><span class="FunctionButton" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" ';
+GetAnswer += 'onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOver(this)" ';
+GetAnswer += 'onclick="EnterAnswer(document.AnswerForm.[BoxName].value,[boolAcross],[AnsLength],[x],[y])">';
+GetAnswer += '&nbsp;Enter&nbsp;</span></td>';
+
+
+GetAnswer += '<td valign="top"><span class="FunctionButton" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" ';
+GetAnswer += 'onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOver(this)" ';
+GetAnswer += ' onclick="ShowHint([boolAcross],[x],[y],\'document.AnswerForm.[BoxName]\')">';
+GetAnswer += '&nbsp;pontua&#231;&#227;o&nbsp;</span></td>';
+
+
+GetAnswer += '</tr>';
+
+var GetAnswerCloser = '</table></form></div>';
+
+function WriteFeedback(Feedback){
+	var Output = Feedback + '<br /><br />';
+	document.getElementById('FeedbackContent').innerHTML = Output;
+	var FDiv = document.getElementById('FeedbackDiv');
+//Calculate and set its left setting
+	topZ++;
+	FDiv.style.zIndex = topZ;
+
+//Position the feedback div
+	pg = new PageDim();
+	FDiv.style.left = Math.floor(pg.W/3) + 'px';
+	FDiv.style.width = Math.floor(pg.W/3) + 'px';
+//Set the top again in case the window has been resized
+	if (is.ns){
+		FDiv.style.top = Math.floor(pg.H/3) + window.pageYOffset + 'px';
+	}
+	else{
+		FDiv.style.top = Math.floor(pg.H/3) + document.body.scrollTop + 'px';
+	}
+	FDiv.style.display = 'block';
+
+
+
+	InGap = false;
+}
+
+function HideFeedback(){
+	document.getElementById('FeedbackContent').innerHTML = '';
+	document.getElementById('FeedbackDiv').style.display='none';
+}
+
+function WriteToInstructions(Feedback) {
+	Feedback = '<span class="FeedbackText">' + Feedback + '</span>';
+	document.getElementById('InstructionsDiv').innerHTML = Feedback;
+
+}
+
+function WriteClue(ClueText) {
+	document.getElementById('ClueDiv').innerHTML = ClueText;
+
+}
+
+
+
+
+function StartUp(){
+	if (is.ns){
+		window.addEventListener('keypress',SuppressBackspace,false);
+	}
+	else{
+//alert('not netscape; is.min=' + is.min + '; is.ie5mac=' + is.ie5mac);
+		if ((is.min == true)&&(is.ie5mac == false)){
+			document.attachEvent('onkeydown',SuppressBackspace);
+			window.attachEvent('onkeydown',SuppressBackspace);
+		}
+	}
+
+
+
+
+
+	BuildExercise();
+	DisplayExercise();
+
+
+}
+
+
+function BuildExercise(){
+	var OutString = '';
+	var Temp = '';
+	var GridStuff = GridOpener;	
+
+	for (var i=0; i<L.length; i++){
+		GridStuff += GridRowOpener;
+		for (var j=0; j<L[i].length; j++){
+//If the cell is blank, add a black cell
+			if (L[i][j] == ''){
+				GridStuff += BlankCell;
+			}
+//else there's a letter there
+			else{
+//If there's a clue number, add it
+				if (C[i][j] > 0){
+					Temp = NumLetterCell;
+					Temp = ReplaceStuff('[ClueNum]', C[i][j], Temp);
+//Add location info
+					Temp = ReplaceStuff('[x]', i, Temp);
+					Temp = ReplaceStuff('[y]', j, Temp);
+				}
+//Otherwise add a blank cell
+				else{
+					Temp = LetterOnlyCell;
+				}
+
+//If the cell is already answered, add the letter from the Guess array
+				if (G[i][j] != ''){
+					Temp = ReplaceStuff('[Letter]', G[i][j], Temp);
+				}
+//Otherwise, put in a non-breaking space
+				else{
+					Temp = ReplaceStuff('[Letter]', '&nbsp;', Temp);
+				}
+				GridStuff += Temp;
+			}
+		}
+		GridStuff += GridRowCloser;
+	}
+
+	GridStuff += GridCloser;
+
+//Put the final pieces together
+	OutString = GridStuff;
+	BuiltExercise = OutString;
+}
+
+function DisplayExercise(){
+//Build the output string
+	var OutString = '';
+	OutString += BuiltExercise;
+
+//Write it to the main div
+	document.getElementById('GridDiv').innerHTML = OutString;
+
+
+}
+
+function BuildClue(ClueNum,x,y,Across){
+	var OutString = '';
+	if (Across == true){
+		if (ClueNum >= A.length){
+			return '';
+		}	
+		if (A[ClueNum] == null){
+			return '';
+		}
+		
+		OutString = GetAnswer;
+		OutString = ReplaceStuff('[ThisClue]', ClueNum + '. ' + A[ClueNum], OutString);
+		OutString = ReplaceStuff('[BoxName]', 'BA'+ClueNum, OutString);
+//Find out how long the answer is
+		AnsLength = 0;
+		i = x;
+		j = y;
+		while (j<L[i].length){
+			if (L[i][j] != ''){
+				AnsLength++;
+			}
+			else{
+				break;
+			}
+			j++;
+		}
+		OutString = ReplaceStuff('[AnsLength]', AnsLength, OutString);
+		OutString = ReplaceStuff('[boolAcross]', 'true', OutString);
+	}
+	else{
+		if (ClueNum >= D.length){
+			return '';
+		}	
+		if (D[ClueNum] == null){
+			return '';
+		}
+		
+		OutString = GetAnswer;
+		OutString = ReplaceStuff('[ThisClue]', ClueNum + '. ' + D[ClueNum], OutString);
+		OutString = ReplaceStuff('[BoxName]', 'BD'+ClueNum, OutString);
+//Find out how long the answer is
+		AnsLength = 0;
+		i = x;
+		j = y;
+		while (i<L.length){
+			if (L[i][j] != ''){
+				AnsLength++;
+			}
+			else{
+				break;
+			}
+			i++;
+		}
+		OutString = ReplaceStuff('[AnsLength]', AnsLength, OutString);
+		OutString = ReplaceStuff('[boolAcross]', 'false', OutString);
+	}
+	OutString = ReplaceStuff('[x]', x ,OutString);
+	OutString = ReplaceStuff('[y]', y, OutString);
+	return OutString;
+}
+
+function ShowClue(ClueNum,x,y){
+	var OutString = '';
+	var Temp = '';
+	var ThisClue = '';
+	var AnsLength = 0;
+	var i;
+	var j;
+	CurrBoxElement = ClueNum;
+	if (A[ClueNum] != null){
+		ThisClue = GetAnswer;
+		Temp = 'horizontal: ' + ClueNum + '. ' + A[ClueNum];
+		ThisClue = ReplaceStuff('[ThisClue]', Temp, ThisClue);		
+		OutString += ThisClue;
+		OutString = ReplaceStuff('[BoxName]', 'BA'+ClueNum, OutString);
+//Find out how long the answer is
+		AnsLength = 0;
+		i = x;
+		j = y;
+		while (j<L[i].length){
+			if (L[i][j] != ''){
+				AnsLength++;
+			}
+			else{
+				break;
+			}
+			j++;
+		}
+		OutString = ReplaceStuff('[AnsLength]', AnsLength, OutString);
+		OutString = ReplaceStuff('[boolAcross]', 'true', OutString);
+	}
+	if (D[ClueNum] != null){
+		ThisClue = GetAnswer;
+		Temp = 'vertical: ' + ClueNum + '. ' + D[ClueNum];
+		ThisClue = ReplaceStuff('[ThisClue]', Temp, ThisClue);
+		OutString += ThisClue;
+		OutString = ReplaceStuff('[BoxName]', 'BD'+ClueNum, OutString);
+//Find out how long the answer is
+		AnsLength = 0;
+		i = x;
+		j = y;
+		while (i<L.length){
+			if (L[i][j] != ''){
+				AnsLength++;
+			}
+			else{
+				break;
+			}
+			i++;
+		}
+		OutString = ReplaceStuff('[AnsLength]', AnsLength, OutString);
+		OutString = ReplaceStuff('[boolAcross]', 'false', OutString);
+	}
+	OutString = GetAnswerOpener + OutString + GetAnswerCloser;
+	OutString = ReplaceStuff('[x]', x ,OutString);
+	OutString = ReplaceStuff('[y]', y, OutString);
+	WriteClue(OutString); 
+	if (eval('document.AnswerForm.BA' + ClueNum) != null){
+		eval('document.AnswerForm.BA' + ClueNum).focus();
+	}
+	else{
+		if (eval('document.AnswerForm.BD' + ClueNum) != null){
+			eval('document.AnswerForm.BD' + ClueNum).focus();
+		}
+	}
+}
+
+function EnterAnswer(Guess,Across,AnsLength,x,y){
+	Guess = Guess.toUpperCase();
+
+	var i=x;
+	var j=y;
+	var Letter = 0;
+	while (Letter < AnsLength){
+		if (Letter < Guess.length){
+			G[i][j] = Guess.charAt(Letter);
+		}
+		if (Across == true){
+			j++;
+		}
+		else{
+			i++;
+		}
+		Letter++;
+	}
+
+	BuildExercise();
+	DisplayExercise();
+	InGap = false;
+	CurrBox = null;
+}
+
+function ShowHint(Across,x,y,BoxName){
+	var i=x;
+	var j=y;
+	var OutString = '';
+	if (Across==true){
+		while (j<L[i].length){
+			if (L[i][j] != ''){
+				OutString += L[i][j];
+				if (G[i][j] != L[i][j]){
+					G[i][j] = L[i][j];
+					Penalties++;
+					break;
+				}
+			}
+			else{
+				break;
+			}
+		j++;
+		}
+	}
+	else{
+		while (i<L.length){
+			if (L[i][j] != ''){
+				OutString += L[i][j];
+				if (G[i][j] != L[i][j]){
+					G[i][j] = L[i][j];
+					Penalties++;
+					break;
+				}
+			}
+			else{
+				break;
+			}
+		i++;
+		}
+	}
+	if (eval(BoxName) != null){
+		eval(BoxName).value = OutString;
+	}
+}
+
+function ReplaceStuff(Token, Replacement, InString){
+	var i = InString.indexOf(Token);
+	var FirstBit = '';
+	var LastBit = '';
+	while (i>-1){
+		FirstBit = InString.substring(0, i);
+		LastBit = InString.substring(i + Token.length, InString.length);	
+		InString = FirstBit + Replacement + LastBit;
+		i = InString.indexOf(Token);
+	}
+	return InString;
+}
+
+L = new Array();
+L[0] = new Array('','','','','','','','','P','','','','','');
+L[1] = new Array('','N','O','G','U','E','I','R','A','','','','','');
+L[2] = new Array('','','','','','','','','L','','','','','');
+L[3] = new Array('','','','','','','L','I','M','O','E','I','R','O');
+L[4] = new Array('','','L','','','','','','E','','','','','L');
+L[5] = new Array('','','A','Z','I','N','H','E','I','R','A','','','I');
+L[6] = new Array('','','R','','','','','','R','','','','','V');
+L[7] = new Array('','','A','','','','','','A','','S','','','E');
+L[8] = new Array('P','I','N','H','E','I','R','O','','','O','','','I');
+L[9] = new Array('','','J','','','','','','','','B','','','R');
+L[10] = new Array('','','E','','M','A','C','I','E','I','R','A','','A');
+L[11] = new Array('','','I','','','','','','','','E','','','');
+L[12] = new Array('','','R','','','','','','','','I','','','');
+L[13] = new Array('','C','A','S','T','A','N','H','E','I','R','O','','');
+L[14] = new Array('','','','','','','','','','','O','','','');
+
+
+C = new Array();
+C[0] = new Array(0,0,0,0,0,0,0,0,1,0,0,0,0,0);
+C[1] = new Array(0,2,0,0,0,0,0,0,0,0,0,0,0,0);
+C[2] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+C[3] = new Array(0,0,0,0,0,0,3,0,0,0,0,0,0,4);
+C[4] = new Array(0,0,5,0,0,0,0,0,0,0,0,0,0,0);
+C[5] = new Array(0,0,6,0,0,0,0,0,0,0,0,0,0,0);
+C[6] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+C[7] = new Array(0,0,0,0,0,0,0,0,0,0,7,0,0,0);
+C[8] = new Array(8,0,0,0,0,0,0,0,0,0,0,0,0,0);
+C[9] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+C[10] = new Array(0,0,0,0,9,0,0,0,0,0,0,0,0,0);
+C[11] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+C[12] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+C[13] = new Array(0,10,0,0,0,0,0,0,0,0,0,0,0,0);
+C[14] = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+
+
+G = new Array();
+G[0] = new Array('','','','','','','','','','','','','','');
+G[1] = new Array('','','','','','','','','','','','','','');
+G[2] = new Array('','','','','','','','','','','','','','');
+G[3] = new Array('','','','','','','','','','','','','','');
+G[4] = new Array('','','','','','','','','','','','','','');
+G[5] = new Array('','','','','','','','','','','','','','');
+G[6] = new Array('','','','','','','','','','','','','','');
+G[7] = new Array('','','','','','','','','','','','','','');
+G[8] = new Array('','','','','','','','','','','','','','');
+G[9] = new Array('','','','','','','','','','','','','','');
+G[10] = new Array('','','','','','','','','','','','','','');
+G[11] = new Array('','','','','','','','','','','','','','');
+G[12] = new Array('','','','','','','','','','','','','','');
+G[13] = new Array('','','','','','','','','','','','','','');
+G[14] = new Array('','','','','','','','','','','','','','');
+
+
+A = new Array();
+A[2]='O seu fruto &#233; a noz';
+A[3]='O seu fruto &#233; o lim&#227;o';
+A[6]='O seu fruto &#233; a bolota';
+A[8]='O seu fruto &#233; o pinh&#227;o';
+A[9]='O seu fruto &#233; a ma&#231;&#227;';
+A[10]='O seu fruto &#233; a castanha';
+
+
+D = new Array();
+D[1]='O seu fruto &#233; a t&#226;mara';
+D[4]='O seu fruto &#233; a azeitona';
+D[5]='O seu fruto &#233; a laranja';
+D[7]='O seu fruto &#233; a lande';
+
+
+
+function CheckAnswers(){
+
+	var AllCorrect = true;
+	var TotLetters = 0;
+	var CorrectLetters = 0;
+
+//Check each letter
+	for (var i=0; i<L.length; i++){
+		for (var j=0; j<L[i].length; j++){
+			if (L[i][j] != ''){
+				TotLetters++;
+				if (G[i][j] != L[i][j]){
+					G[i][j] = '';
+					AllCorrect = false;
+				}
+				else{
+					CorrectLetters++;
+				}
+			}
+		}
+	}
+
+	var Score = Math.floor(((CorrectLetters-Penalties) * 100)/TotLetters);
+
+//Compile the output
+	var Output = '';
+
+	if (AllCorrect == true){
+		WriteClue('&nbsp;');
+		Output = Correct + '<br />';
+	}
+
+	Output += YourScoreIs + ' ' + Score + '%.<br />';
+	if (AllCorrect == false){
+		Output += Incorrect;
+		Penalties++;
+	}
+	BuildExercise();
+	WriteFeedback(Output);
+	WriteToInstructions(Output);
+
+		
+
+
+	DisplayExercise();
+}
+
+
+
+
+
+
+
+function DoNothing(){}
+
+function Blank(){
+	return '<html><body>&copy;Half-Baked Software. Loading...</body></html>';
+}
+
+//-->
+
+//]]>
+
+</script>
+
+
+</head>
+<!--<body>Fool those dumb ad-inserting ISPs</body>-->
+
+<body onload="StartUp()">
+
+<div class="WholePage">
+
+
+
+
+<div class="Titles">
+<span class="ExerciseTitle"></span><br />
+<span class="ExerciseSubtitle">Palavras cruzadas</span><br />
+</div>
+<div class="ExerciseDiv">
+<table id="ExTable" cellspacing="0" cellpadding="0" width="100%">
+
+<tr>
+<td>
+<div id="InstructionsDiv" class="StdDiv">
+<p id="Instructions">clica em  "confirmar" para veres se a resposta est&#225; correcta. </p>
+</div>
+</td>
+</tr>
+
+<tr>
+
+
+<td valign="top">
+<div id="ClueDiv" class="StdDiv">&nbsp;
+</div>
+
+<div id="MainDiv" class="StdDiv">
+
+<div class="FunctionButtonBar">
+<table border="0" align="center" cellpadding="0" cellspacing="0"><tr>
+
+<td><span class="FunctionButton" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOver(this)" onclick="CheckAnswers()">
+&nbsp;confirmar&nbsp;
+</span></td>
+
+</tr></table>
+</div>
+
+<div id="GridDiv" style="margin-top: 10px;">
+
+</div>
+
+<div class="FunctionButtonBar">
+<table border="0" align="center" cellpadding="0" cellspacing="0"><tr>
+
+<td><span class="FunctionButton" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOver(this)" onclick="CheckAnswers()">
+&nbsp;confirmar&nbsp;
+</span></td>
+
+</tr></table>
+</div>
+
+</div>
+
+</td>
+</tr>
+
+</table>
+
+</div>
+
+
+
+</div>
+
+<div class="Feedback" id="FeedbackDiv">
+<div class="FeedbackText" id="FeedbackContent"></div>
+<table border="0" cellpadding="5" align="center" style="background-color: #eeeeee";>
+<tr><td align="center" valign="middle">
+<span class="FunctionButton" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOver(this)" onclick="HideFeedback()">&nbsp;OK&nbsp;</span>
+</td></tr></table>
+</div>
+
+</body>
+
+</html>

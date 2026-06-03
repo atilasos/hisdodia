@@ -1,0 +1,169 @@
+{
+  "day": "10-20",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/10/20/",
+    "www.historiadodia.pt/pt/Historias/10/20/",
+    "sons.historiadodia.pt/10/20/"
+  ],
+  "capturedAt": "2026-06-03T22:16:41.987Z",
+  "cdx": {
+    "captures": 46,
+    "selected": 17,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/10/20/audio/3tbkno4ffhbiqskbackv5oa6r2qjoqfq/dois.swf",
+      "original": "http://sons.historiadodia.pt/10/20/dois.swf",
+      "timestamp": "20081022160218",
+      "digest": "3TBKNO4FFHBIQSKBACKV5OA6R2QJOQFQ",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 380995
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/10/20/audio/n2bale6rgyxuif6mzjne43knrh43nldj/um.swf",
+      "original": "http://sons.historiadodia.pt/10/20/um.swf",
+      "timestamp": "20081022154037",
+      "digest": "N2BALE6RGYXUIF6MZJNE43KNRH43NLDJ",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 2146
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/10/20/html/tjawjmi2xu54kdekvppddljmxveedwb5/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/10/20/historia.aspx",
+      "timestamp": "20081023101802",
+      "digest": "TJAWJMI2XU54KDEKVPPDDLJMXVEEDWB5",
+      "mimetype": "text/html",
+      "bytes": 15742
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/10/20/html/tjawjmi2xu54kdekvppddljmxveedwb5/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/10/20/historia.aspx",
+      "timestamp": "20091023105122",
+      "digest": "TJAWJMI2XU54KDEKVPPDDLJMXVEEDWB5",
+      "mimetype": "text/html",
+      "bytes": 4275
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/10/20/images/db5vlo36vuda7itgq7v4muvop7o3zr6u/Imagens/Background.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/10/20/Imagens/Background.jpg",
+      "timestamp": "20081021205837",
+      "digest": "DB5VLO36VUDA7ITGQ7V4MUVOP7O3ZR6U",
+      "mimetype": "image/jpeg",
+      "bytes": 45403
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/10/20/images/l7qc3amwwtsfczv6urkydxfpkdjoljp3/Imagens/entrada.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/10/20/Imagens/entrada.jpg",
+      "timestamp": "20081021204550",
+      "digest": "L7QC3AMWWTSFCZV6URKYDXFPKDJOLJP3",
+      "mimetype": "image/jpeg",
+      "bytes": 7257
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/10/20/images/qlrrty6qg63edzozscrqtbflhdj3yi2n/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/10/20/Imagens/icone.jpg",
+      "timestamp": "20070126035711",
+      "digest": "QLRRTY6QG63EDZOZSCRQTBFLHDJ3YI2N",
+      "mimetype": "image/jpeg",
+      "bytes": 1415
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/10/20/pdf/oye7pus4r45freiqqqhw3q6ddbvf7fmg/imprimir.pdf",
+      "original": "http://www.historiadodia.pt/pt/historias/10/20/imprimir.pdf",
+      "timestamp": "20081021205747",
+      "digest": "OYE7PUS4R45FREIQQQHW3Q6DDBVF7FMG",
+      "mimetype": "application/pdf",
+      "bytes": 74126
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/10/20/other/66tli4foupdodbwzhztx2h6m3ft274vf/Propostas/anpuzzle.jar",
+      "original": "http://www.historiadodia.pt/pt/historias/10/20/Propostas/anpuzzle.jar",
+      "timestamp": "20081021223038",
+      "digest": "66TLI4FOUPDODBWZHZTX2H6M3FT274VF",
+      "mimetype": "application/octet-stream",
+      "bytes": 22516
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/10/20/html/pijjhgeykzbce456nyopxatqe62rbjbn/Propostas/home.htm",
+      "original": "http://www.historiadodia.pt/pt/historias/10/20/Propostas/home.htm",
+      "timestamp": "20081021205806",
+      "digest": "PIJJHGEYKZBCE456NYOPXATQE62RBJBN",
+      "mimetype": "text/html",
+      "bytes": 3917
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/10/20/images/sh3tmprgbijjr4tzqc5mwuudojuoemnn/Propostas/jogo2.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/10/20/Propostas/jogo2.jpg",
+      "timestamp": "20081021223202",
+      "digest": "SH3TMPRGBIJJR4TZQC5MWUUDOJUOEMNN",
+      "mimetype": "image/jpeg",
+      "bytes": 2660
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/10/20/images/fwxkvc27dhylyie5s5wafplkzni3acyk/Propostas/pixel.gif",
+      "original": "http://www.historiadodia.pt/pt/historias/10/20/Propostas/pixel.gif",
+      "timestamp": "20081021223003",
+      "digest": "FWXKVC27DHYLYIE5S5WAFPLKZNI3ACYK",
+      "mimetype": "image/gif",
+      "bytes": 43
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/10/20/html/7oxqwl3xz6itbvyznkhmakcr4nifxje4/Propostas/pp_10_20_puzzle.htm",
+      "original": "http://www.historiadodia.pt/pt/historias/10/20/Propostas/pp_10_20_puzzle.htm",
+      "timestamp": "20081021223014",
+      "digest": "7OXQWL3XZ6ITBVYZNKHMAKCR4NIFXJE4",
+      "mimetype": "text/html",
+      "bytes": 2909
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/10/20/images/pj2xzuqinglfgajnt7xen6ysq4bklzq3/Propostas/semente1.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/10/20/Propostas/semente1.jpg",
+      "timestamp": "20081021223116",
+      "digest": "PJ2XZUQINGLFGAJNT7XEN6YSQ4BKLZQ3",
+      "mimetype": "image/jpeg",
+      "bytes": 4042
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/10/20/images/c24ei3cpxnst4ijx64oqilb74xix4c5f/Propostas/sopa_ico.gif",
+      "original": "http://www.historiadodia.pt/pt/historias/10/20/Propostas/sopa_ico.gif",
+      "timestamp": "20081021223215",
+      "digest": "C24EI3CPXNST4IJX64OQILB74XIX4C5F",
+      "mimetype": "image/gif",
+      "bytes": 872
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/10/20/other/zn3oddz4v4mvl3ueuomcyww2x7fti6gn/Propostas/wordfind.class",
+      "original": "http://www.historiadodia.pt/pt/historias/10/20/Propostas/wordfind.class",
+      "timestamp": "20081021223138",
+      "digest": "ZN3ODDZ4V4MVL3UEUOMCYWW2X7FTI6GN",
+      "mimetype": "application/octet-stream",
+      "bytes": 22049
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/10/20/html/xvxwyrjzr5tn6gjcggon3s3hokcxa4u3/Propostas/wordfind.html",
+      "original": "http://www.historiadodia.pt/pt/historias/10/20/Propostas/wordfind.html",
+      "timestamp": "20081021223126",
+      "digest": "XVXWYRJZR5TN6GJCGGON3S3HOKCXA4U3",
+      "mimetype": "text/html",
+      "bytes": 3831
+    }
+  ]
+}

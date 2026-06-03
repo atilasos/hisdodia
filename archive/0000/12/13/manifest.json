@@ -1,0 +1,61 @@
+{
+  "day": "12-13",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/12/13/",
+    "www.historiadodia.pt/pt/Historias/12/13/",
+    "sons.historiadodia.pt/12/13/"
+  ],
+  "capturedAt": "2026-06-03T22:18:29.369Z",
+  "cdx": {
+    "captures": 18,
+    "selected": 5,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/12/13/html/sg3mj5td5hhpfzpzblesca6n2y3ahbeh/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/12/13/historia.aspx",
+      "timestamp": "20031217110128",
+      "digest": "SG3MJ5TD5HHPFZPZBLESCA6N2Y3AHBEH",
+      "mimetype": "text/html",
+      "bytes": 17220
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/13/html/tg4bin327v4iihk4sjwefftvreu3ujht/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/12/13/historia.aspx",
+      "timestamp": "20090605053733",
+      "digest": "TG4BIN327V4IIHK4SJWEFFTVREU3UJHT",
+      "mimetype": "text/html",
+      "bytes": 17199
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/12/13/html/tg4bin327v4iihk4sjwefftvreu3ujht/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/12/13/historia.aspx",
+      "timestamp": "20081220120623",
+      "digest": "TG4BIN327V4IIHK4SJWEFFTVREU3UJHT",
+      "mimetype": "text/html",
+      "bytes": 4628
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/13/images/wyk4h6ay4medhpvc4yzdavhyxs5r5hhi/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/12/13/Imagens/icone.jpg",
+      "timestamp": "20070126040000",
+      "digest": "WYK4H6AY4MEDHPVC4YZDAVHYXS5R5HHI",
+      "mimetype": "image/jpeg",
+      "bytes": 958
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/13/pdf/a7kckvryipdvowjhls6soukutelwvfrf/imprimir.pdf",
+      "original": "http://www.historiadodia.pt:80/pt/historias/12/13/imprimir.pdf",
+      "timestamp": "20031217125006",
+      "digest": "A7KCKVRYIPDVOWJHLS6SOUKUTELWVFRF",
+      "mimetype": "application/pdf",
+      "bytes": 91774
+    }
+  ]
+}

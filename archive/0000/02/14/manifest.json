@@ -1,0 +1,61 @@
+{
+  "day": "02-14",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/02/14/",
+    "www.historiadodia.pt/pt/Historias/02/14/",
+    "sons.historiadodia.pt/02/14/"
+  ],
+  "capturedAt": "2026-06-03T22:09:23.716Z",
+  "cdx": {
+    "captures": 11,
+    "selected": 5,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/02/14/audio/iylr5v64jrxcx4lk3ct5ad3c2s6et5ds/um.swf",
+      "original": "http://sons.historiadodia.pt/02/14/um.swf",
+      "timestamp": "20080219024148",
+      "digest": "IYLR5V64JRXCX4LK3CT5AD3C2S6ET5DS",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 2146
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/02/14/html/2qrhww5z6cfg4s35p5bsiqqf2l4knv5m/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/02/14/historia.aspx",
+      "timestamp": "20101005035242",
+      "digest": "2QRHWW5Z6CFG4S35P5BSIQQF2L4KNV5M",
+      "mimetype": "text/html",
+      "bytes": 14454
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/02/14/pdf/53mbsmqxoyderznqbkaaisv6rnby2o5y/imprimir.pdf",
+      "original": "http://www.historiadodia.pt/pt/historias/02/14/imprimir.pdf",
+      "timestamp": "20080214003932",
+      "digest": "53MBSMQXOYDERZNQBKAAISV6RNBY2O5Y",
+      "mimetype": "application/pdf",
+      "bytes": 72549
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/02/14/images/qrgs42lkkict2r4p2bwtb3wxqlie4fff/Propostas/elefante3.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/02/14/Propostas/elefante3.jpg",
+      "timestamp": "20080214010616",
+      "digest": "QRGS42LKKICT2R4P2BWTB3WXQLIE4FFF",
+      "mimetype": "image/jpeg",
+      "bytes": 1159
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/02/14/images/xsyb4tgnizvb6gkymkhru4blxr2hewdk/Propostas/hipopotamo1.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/02/14/Propostas/hipopotamo1.jpg",
+      "timestamp": "20080214010623",
+      "digest": "XSYB4TGNIZVB6GKYMKHRU4BLXR2HEWDK",
+      "mimetype": "image/jpeg",
+      "bytes": 936
+    }
+  ]
+}

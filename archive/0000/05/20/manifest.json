@@ -1,0 +1,25 @@
+{
+  "day": "05-20",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/05/20/",
+    "www.historiadodia.pt/pt/Historias/05/20/",
+    "sons.historiadodia.pt/05/20/"
+  ],
+  "capturedAt": "2026-06-03T22:11:58.274Z",
+  "cdx": {
+    "captures": 2,
+    "selected": 1,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/05/20/images/otfjfvb356nll7477tt5hofh5vnxbyvr/Imagens/entrada.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/05/20/Imagens/entrada.jpg",
+      "timestamp": "20110519172509",
+      "digest": "OTFJFVB356NLL7477TT5HOFH5VNXBYVR",
+      "mimetype": "image/jpeg",
+      "bytes": 8076
+    }
+  ]
+}

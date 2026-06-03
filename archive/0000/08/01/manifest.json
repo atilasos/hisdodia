@@ -1,0 +1,61 @@
+{
+  "day": "08-01",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/08/01/",
+    "www.historiadodia.pt/pt/Historias/08/01/",
+    "sons.historiadodia.pt/08/01/"
+  ],
+  "capturedAt": "2026-06-03T22:14:19.812Z",
+  "cdx": {
+    "captures": 63,
+    "selected": 5,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/08/01/audio/62kb7ig47zmfjbf7fs5poxaduwwvg4xr/um.swf",
+      "original": "http://sons.historiadodia.pt/08/01/um.swf",
+      "timestamp": "20100614091207",
+      "digest": "62KB7IG47ZMFJBF7FS5POXADUWWVG4XR",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 2146
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/08/01/html/d2c5kh6p6rs7urk6lov5i2rjgn7k7zrz/historia.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/08/01/historia.aspx",
+      "timestamp": "20150423180403",
+      "digest": "D2C5KH6P6RS7URK6LOV5I2RJGN7K7ZRZ",
+      "mimetype": "text/html",
+      "bytes": 11942
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/08/01/images/kileef77is3nmaienek3n62tt6td6lpg/Imagens/Background.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/08/01/Imagens/Background.jpg",
+      "timestamp": "20150423201455",
+      "digest": "KILEEF77IS3NMAIENEK3N62TT6TD6LPG",
+      "mimetype": "image/jpeg",
+      "bytes": 25860
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/08/01/images/6lsysutyt7xmviws3eupguf4jmfhiyr7/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt/pt/Historias/08/01/Imagens/icone.jpg",
+      "timestamp": "20150423180312",
+      "digest": "6LSYSUTYT7XMVIWS3EUPGUF4JMFHIYR7",
+      "mimetype": "image/jpeg",
+      "bytes": 1821
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/08/01/pdf/vgtpukzshskd6g6ybnkkeizfvrjpn4mi/imprimir.pdf",
+      "original": "http://www.historiadodia.pt:80/pt/historias/08/01/imprimir.pdf",
+      "timestamp": "20061118140015",
+      "digest": "VGTPUKZSHSKD6G6YBNKKEIZFVRJPN4MI",
+      "mimetype": "application/pdf",
+      "bytes": 57300
+    }
+  ]
+}

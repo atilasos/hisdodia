@@ -1,0 +1,25 @@
+{
+  "day": "09-21",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/09/21/",
+    "www.historiadodia.pt/pt/Historias/09/21/",
+    "sons.historiadodia.pt/09/21/"
+  ],
+  "capturedAt": "2026-06-03T22:15:21.249Z",
+  "cdx": {
+    "captures": 2,
+    "selected": 1,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/09/21/images/7zm2cxgrp7z4nq5gracuv3xok3hsi7sr/Imagens/entrada.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/09/21/Imagens/entrada.jpg",
+      "timestamp": "20110921232258",
+      "digest": "7ZM2CXGRP7Z4NQ5GRACUV3XOK3HSI7SR",
+      "mimetype": "image/jpeg",
+      "bytes": 8566
+    }
+  ]
+}

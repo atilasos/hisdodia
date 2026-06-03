@@ -1,0 +1,34 @@
+{
+  "day": "09-25",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/09/25/",
+    "www.historiadodia.pt/pt/Historias/09/25/",
+    "sons.historiadodia.pt/09/25/"
+  ],
+  "capturedAt": "2026-06-03T22:15:23.377Z",
+  "cdx": {
+    "captures": 4,
+    "selected": 2,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/09/25/html/36wm3iidhnq3c4wjwug72h2cjst7l6qc/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/09/25/historia.aspx",
+      "timestamp": "20080928230943",
+      "digest": "36WM3IIDHNQ3C4WJWUG72H2CJST7L6QC",
+      "mimetype": "text/html",
+      "bytes": 15458
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/09/25/images/k6or4o23iumvhoaomhfjibfyexjalsgp/Imagens/entrada.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/09/25/Imagens/entrada.jpg",
+      "timestamp": "20090925225555",
+      "digest": "K6OR4O23IUMVHOAOMHFJIBFYEXJALSGP",
+      "mimetype": "image/jpeg",
+      "bytes": 7345
+    }
+  ]
+}

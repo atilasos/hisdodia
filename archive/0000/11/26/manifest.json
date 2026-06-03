@@ -1,0 +1,61 @@
+{
+  "day": "11-26",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/11/26/",
+    "www.historiadodia.pt/pt/Historias/11/26/",
+    "sons.historiadodia.pt/11/26/"
+  ],
+  "capturedAt": "2026-06-03T22:17:50.562Z",
+  "cdx": {
+    "captures": 10,
+    "selected": 5,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/11/26/html/a6ea3zsxoczlsnwismnuvljb3anagohh/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/11/26/historia.aspx",
+      "timestamp": "20031225052946",
+      "digest": "A6EA3ZSXOCZLSNWISMNUVLJB3ANAGOHH",
+      "mimetype": "text/html",
+      "bytes": 17088
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/26/html/y6zyoszvadhpd6kiohnpmxz2astbstka/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/11/26/historia.aspx",
+      "timestamp": "20081205075317",
+      "digest": "Y6ZYOSZVADHPD6KIOHNPMXZ2ASTBSTKA",
+      "mimetype": "text/html",
+      "bytes": 17067
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/26/html/sltl64h5zrxkuhjvuofifmb2fhmtf44c/historia.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/11/26/historia.aspx",
+      "timestamp": "20230529081403",
+      "digest": "SLTL64H5ZRXKUHJVUOFIFMB2FHMTF44C",
+      "mimetype": "text/html",
+      "bytes": 1373
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/26/html/7vauak5gusqugsdhiybqdrfluzcxt2vw/historia.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/11/26/historia.aspx",
+      "timestamp": "20240418132049",
+      "digest": "7VAUAK5GUSQUGSDHIYBQDRFLUZCXT2VW",
+      "mimetype": "unk",
+      "bytes": 1458
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/11/26/html/a6ea3zsxoczlsnwismnuvljb3anagohh/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/11/26/historia.aspx",
+      "timestamp": "20031226180903",
+      "digest": "A6EA3ZSXOCZLSNWISMNUVLJB3ANAGOHH",
+      "mimetype": "text/html",
+      "bytes": 4441
+    }
+  ]
+}

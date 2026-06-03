@@ -1,0 +1,25 @@
+{
+  "day": "04-26",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/04/26/",
+    "www.historiadodia.pt/pt/Historias/04/26/",
+    "sons.historiadodia.pt/04/26/"
+  ],
+  "capturedAt": "2026-06-03T22:11:27.725Z",
+  "cdx": {
+    "captures": 2,
+    "selected": 1,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/04/26/html/3i42h3s6nnfq2msvx7xzkyayscx5qbyj/home.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/04/26/home.aspx",
+      "timestamp": "20040528064735",
+      "digest": "3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ",
+      "mimetype": "unk",
+      "bytes": 0
+    }
+  ]
+}

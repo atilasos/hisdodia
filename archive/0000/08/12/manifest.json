@@ -1,0 +1,25 @@
+{
+  "day": "08-12",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/08/12/",
+    "www.historiadodia.pt/pt/Historias/08/12/",
+    "sons.historiadodia.pt/08/12/"
+  ],
+  "capturedAt": "2026-06-03T22:14:36.214Z",
+  "cdx": {
+    "captures": 6,
+    "selected": 1,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/08/12/html/p4izhwlzzxognk63ogrxcvkaosqm44oe/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/08/12/historia.aspx",
+      "timestamp": "20060820160827",
+      "digest": "P4IZHWLZZXOGNK63OGRXCVKAOSQM44OE",
+      "mimetype": "text/html",
+      "bytes": 17771
+    }
+  ]
+}

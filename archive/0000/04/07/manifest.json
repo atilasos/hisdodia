@@ -1,0 +1,97 @@
+{
+  "day": "04-07",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/04/07/",
+    "www.historiadodia.pt/pt/Historias/04/07/",
+    "sons.historiadodia.pt/04/07/"
+  ],
+  "capturedAt": "2026-06-03T22:11:03.277Z",
+  "cdx": {
+    "captures": 96,
+    "selected": 9,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/04/07/audio/xdxmxj2ml45rmhoxm77dqz3dr7qszzzv/um.swf",
+      "original": "http://sons.historiadodia.pt/04/07/um.swf",
+      "timestamp": "20100614092912",
+      "digest": "XDXMXJ2ML45RMHOXM77DQZ3DR7QSZZZV",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 2146
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/04/07/html/rjwkpbtsgyepahl2r376c2nbroxm5kcy/historia.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/04/07/historia.aspx",
+      "timestamp": "20150423154441",
+      "digest": "RJWKPBTSGYEPAHL2R376C2NBROXM5KCY",
+      "mimetype": "text/html",
+      "bytes": 23924
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/04/07/images/uq4m4nvvarkftypkzdeh7p53kgdvusu4/Imagens/Background.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/04/07/Imagens/Background.jpg",
+      "timestamp": "20150423154538",
+      "digest": "UQ4M4NVVARKFTYPKZDEH7P53KGDVUSU4",
+      "mimetype": "image/jpeg",
+      "bytes": 28672
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/04/07/images/2ebsazohx6wp6tn4jb7xx7wjhifpk72k/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt/pt/Historias/04/07/Imagens/icone.jpg",
+      "timestamp": "20150423182358",
+      "digest": "2EBSAZOHX6WP6TN4JB7XX7WJHIFPK72K",
+      "mimetype": "image/jpeg",
+      "bytes": 1789
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/04/07/pdf/3idzqoh4ow6rkqhi5virfltfeasp4264/imprimir.pdf",
+      "original": "http://www.historiadodia.pt/pt/historias/04/07/imprimir.pdf",
+      "timestamp": "20150423165210",
+      "digest": "3IDZQOH4OW6RKQHI5VIRFLTFEASP4264",
+      "mimetype": "application/pdf",
+      "bytes": 64350
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/04/07/html/2rsgomgca2m64o3mjez64szf6uzg5n7c/Propostas/home.htm",
+      "original": "http://www.historiadodia.pt/pt/historias/04/07/Propostas/home.htm",
+      "timestamp": "20150423154513",
+      "digest": "2RSGOMGCA2M64O3MJEZ64SZF6UZG5N7C",
+      "mimetype": "text/html",
+      "bytes": 3712
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/04/07/images/i5m3smsdwl635rz34sn6mthk6fdpercp/Propostas/saude1.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/04/07/Propostas/saude1.jpg",
+      "timestamp": "20150423165348",
+      "digest": "I5M3SMSDWL635RZ34SN6MTHK6FDPERCP",
+      "mimetype": "image/jpeg",
+      "bytes": 957
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/04/07/images/cjiaz7q6nunkaiugy442rcorygettoq3/Propostas/saude2.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/04/07/Propostas/saude2.jpg",
+      "timestamp": "20150423165326",
+      "digest": "CJIAZ7Q6NUNKAIUGY442RCORYGETTOQ3",
+      "mimetype": "image/jpeg",
+      "bytes": 1061
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/04/07/images/2pthjvgcaeg6cuxgakge2vfwhqdsl5hh/Propostas/saude3.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/04/07/Propostas/saude3.jpg",
+      "timestamp": "20150423165302",
+      "digest": "2PTHJVGCAEG6CUXGAKGE2VFWHQDSL5HH",
+      "mimetype": "image/jpeg",
+      "bytes": 885
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "day": "04-15",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/04/15/",
+    "www.historiadodia.pt/pt/Historias/04/15/",
+    "sons.historiadodia.pt/04/15/"
+  ],
+  "capturedAt": "2026-06-03T22:11:13.506Z",
+  "cdx": {
+    "captures": 37,
+    "selected": 7,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/04/15/audio/7q7pzotfyiqxvkyifo3ilnpnzk5houvp/um.swf",
+      "original": "http://sons.historiadodia.pt:80/04/15/um.swf",
+      "timestamp": "20070318052606",
+      "digest": "7Q7PZOTFYIQXVKYIFO3ILNPNZK5HOUVP",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 2146
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/04/15/html/clk446mkglhqtfinhquvd2sn7cim6gc2/historia.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/04/15/historia.aspx",
+      "timestamp": "20150423153740",
+      "digest": "CLK446MKGLHQTFINHQUVD2SN7CIM6GC2",
+      "mimetype": "text/html",
+      "bytes": 24725
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/04/15/images/h63c7nf5iimo2tbb3cjxacvuo6udxx2d/Imagens/Background.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/04/15/Imagens/Background.jpg",
+      "timestamp": "20150423153923",
+      "digest": "H63C7NF5IIMO2TBB3CJXACVUO6UDXX2D",
+      "mimetype": "image/jpeg",
+      "bytes": 23201
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/04/15/pdf/x7m75ff7nsqzx3bvp4m4t7a5slbhpwfi/imprimir.pdf",
+      "original": "http://www.historiadodia.pt/pt/historias/04/15/imprimir.pdf",
+      "timestamp": "20150423164101",
+      "digest": "X7M75FF7NSQZX3BVP4M4T7A5SLBHPWFI",
+      "mimetype": "application/pdf",
+      "bytes": 56667
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/04/15/images/zctk3exbgntylsaydjcwn7ht664qgkhk/Propostas/cavalo.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/04/15/Propostas/cavalo.jpg",
+      "timestamp": "20150423164151",
+      "digest": "ZCTK3EXBGNTYLSAYDJCWN7HT664QGKHK",
+      "mimetype": "image/jpeg",
+      "bytes": 1149
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/04/15/images/c54dbsqezzljyzp7i7e44hyfbh4cecqh/Propostas/formiga.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/04/15/Propostas/formiga.jpg",
+      "timestamp": "20150423164202",
+      "digest": "C54DBSQEZZLJYZP7I7E44HYFBH4CECQH",
+      "mimetype": "image/jpeg",
+      "bytes": 1212
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/04/15/html/kkgnysyokqlw3g5dpnjilyry77gpn54e/Propostas/home.htm",
+      "original": "http://www.historiadodia.pt/pt/historias/04/15/Propostas/home.htm",
+      "timestamp": "20150423153801",
+      "digest": "KKGNYSYOKQLW3G5DPNJILYRY77GPN54E",
+      "mimetype": "text/html",
+      "bytes": 3038
+    }
+  ]
+}

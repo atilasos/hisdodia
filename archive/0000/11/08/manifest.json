@@ -1,0 +1,61 @@
+{
+  "day": "11-08",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/11/08/",
+    "www.historiadodia.pt/pt/Historias/11/08/",
+    "sons.historiadodia.pt/11/08/"
+  ],
+  "capturedAt": "2026-06-03T22:17:22.269Z",
+  "cdx": {
+    "captures": 65,
+    "selected": 5,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/11/08/audio/rbgtw7tw3bp7z3t6yu7rf3c3gtffe6jc/um.swf",
+      "original": "http://sons.historiadodia.pt/11/08/um.swf",
+      "timestamp": "20100614094635",
+      "digest": "RBGTW7TW3BP7Z3T6YU7RF3C3GTFFE6JC",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 2145
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/08/html/7lomfihbzbl7jiwkeslxszpwsh2hvvme/historia.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/11/08/historia.aspx",
+      "timestamp": "20150423181408",
+      "digest": "7LOMFIHBZBL7JIWKESLXSZPWSH2HVVME",
+      "mimetype": "text/html",
+      "bytes": 20922
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/08/images/oxcymsyiugwdexhgul7e45hh3w35kkk3/Imagens/Background.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/11/08/Imagens/Background.jpg",
+      "timestamp": "20150423201949",
+      "digest": "OXCYMSYIUGWDEXHGUL7E45HH3W35KKK3",
+      "mimetype": "image/jpeg",
+      "bytes": 24504
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/08/images/7obmm7zuqfkkokuwmqevbmqk6nwzwpxt/Imagens/entrada.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/11/08/Imagens/entrada.jpg",
+      "timestamp": "20131107002619",
+      "digest": "7OBMM7ZUQFKKOKUWMQEVBMQK6NWZWPXT",
+      "mimetype": "image/jpeg",
+      "bytes": 6042
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/11/08/images/q7oixaxsnuo7bzmfjxtftebg22257obm/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt/pt/Historias/11/08/Imagens/icone.jpg",
+      "timestamp": "20150423181318",
+      "digest": "Q7OIXAXSNUO7BZMFJXTFTEBG22257OBM",
+      "mimetype": "image/jpeg",
+      "bytes": 1508
+    }
+  ]
+}

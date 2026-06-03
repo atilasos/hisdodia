@@ -1,0 +1,115 @@
+{
+  "day": "06-10",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/06/10/",
+    "www.historiadodia.pt/pt/Historias/06/10/",
+    "sons.historiadodia.pt/06/10/"
+  ],
+  "capturedAt": "2026-06-03T22:12:52.619Z",
+  "cdx": {
+    "captures": 38,
+    "selected": 11,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/06/10/audio/qu6b3o73xia6uc5e5emekei37zzp5dua/dois.swf",
+      "original": "http://sons.historiadodia.pt/06/10/dois.swf",
+      "timestamp": "20070626161300",
+      "digest": "QU6B3O73XIA6UC5E5EMEKEI37ZZP5DUA",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 804509
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/10/audio/af3u6nr3hxduumdfwpsqcgobnp4gyy3l/um.swf",
+      "original": "http://sons.historiadodia.pt/06/10/um.swf",
+      "timestamp": "20070626161251",
+      "digest": "AF3U6NR3HXDUUMDFWPSQCGOBNP4GYY3L",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 2146
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/10/html/2z7qmcuyctjv2remuy776huy6kd2vtil/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/06/10/historia.aspx",
+      "timestamp": "20070816135235",
+      "digest": "2Z7QMCUYCTJV2REMUY776HUY6KD2VTIL",
+      "mimetype": "text/html",
+      "bytes": 33628
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/06/10/html/2z7qmcuyctjv2remuy776huy6kd2vtil/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/06/10/historia.aspx",
+      "timestamp": "20070717140607",
+      "digest": "2Z7QMCUYCTJV2REMUY776HUY6KD2VTIL",
+      "mimetype": "text/html",
+      "bytes": 6818
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/10/html/y6uk76azjqnjbiqhziew63dvooahtwf2/home.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/06/10/home.aspx",
+      "timestamp": "20070609231728",
+      "digest": "Y6UK76AZJQNJBIQHZIEW63DVOOAHTWF2",
+      "mimetype": "text/html",
+      "bytes": 3629
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/10/images/t3koaycv6io7d2dzjnmycczwn37nnpic/Imagens/Background.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/06/10/Imagens/Background.jpg",
+      "timestamp": "20070626162236",
+      "digest": "T3KOAYCV6IO7D2DZJNMYCCZWN37NNPIC",
+      "mimetype": "image/jpeg",
+      "bytes": 25606
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/10/images/gix4uhy4mub54pkabzqjfqviguuv5zqf/Imagens/entrada.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/06/10/Imagens/entrada.jpg",
+      "timestamp": "20070609231913",
+      "digest": "GIX4UHY4MUB54PKABZQJFQVIGUUV5ZQF",
+      "mimetype": "image/jpeg",
+      "bytes": 9135
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/10/images/dwjpet2ohik7yzmffyoukvlyvefp3sbi/Propostas/camoes1.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/06/10/Propostas/camoes1.jpg",
+      "timestamp": "20070724132451",
+      "digest": "DWJPET2OHIK7YZMFFYOUKVLYVEFP3SBI",
+      "mimetype": "image/jpeg",
+      "bytes": 33429
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/10/images/t54qkgf7twgtqlam6zzo7n6sarfmiiew/Propostas/camoes2.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/06/10/Propostas/camoes2.jpg",
+      "timestamp": "20070706153444",
+      "digest": "T54QKGF7TWGTQLAM6ZZO7N6SARFMIIEW",
+      "mimetype": "image/jpeg",
+      "bytes": 33358
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/10/images/usq5cs4wa6hqke2cfnua2wzbfgo5usrh/Propostas/camoes3.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/06/10/Propostas/camoes3.jpg",
+      "timestamp": "20070724132515",
+      "digest": "USQ5CS4WA6HQKE2CFNUA2WZBFGO5USRH",
+      "mimetype": "image/jpeg",
+      "bytes": 32467
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/10/html/4ddrk6stte4diwnwow422gb7bl6mulpe/Propostas/home.htm",
+      "original": "http://www.historiadodia.pt/pt/historias/06/10/Propostas/home.htm",
+      "timestamp": "20070626162300",
+      "digest": "4DDRK6STTE4DIWNWOW422GB7BL6MULPE",
+      "mimetype": "text/html",
+      "bytes": 3674
+    }
+  ]
+}

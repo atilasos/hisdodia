@@ -1,0 +1,115 @@
+{
+  "day": "07-02",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/07/02/",
+    "www.historiadodia.pt/pt/Historias/07/02/",
+    "sons.historiadodia.pt/07/02/"
+  ],
+  "capturedAt": "2026-06-03T22:13:31.381Z",
+  "cdx": {
+    "captures": 86,
+    "selected": 11,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/07/02/audio/ud6fkozitewbwbrikjvicmtgz2njujsi/um.swf",
+      "original": "http://sons.historiadodia.pt/07/02/um.swf",
+      "timestamp": "20100614095601",
+      "digest": "UD6FKOZITEWBWBRIKJVICMTGZ2NJUJSI",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 2146
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/07/02/html/nfofnemujmhxcpmw6izs3kqf5bgbbegj/historia.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/07/02/historia.aspx",
+      "timestamp": "20150423180810",
+      "digest": "NFOFNEMUJMHXCPMW6IZS3KQF5BGBBEGJ",
+      "mimetype": "text/html",
+      "bytes": 19916
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/07/02/html/xoinp5pmqjam7jxvozzutsotigqc5nsf/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/07/02/historia.aspx",
+      "timestamp": "20040704185202",
+      "digest": "XOINP5PMQJAM7JXVOZZUTSOTIGQC5NSF",
+      "mimetype": "text/html",
+      "bytes": 19937
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/07/02/html/3i42h3s6nnfq2msvx7xzkyayscx5qbyj/home.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/07/02/home.aspx",
+      "timestamp": "20080802120609",
+      "digest": "3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ",
+      "mimetype": "unk",
+      "bytes": 0
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/07/02/html/o7fvy6gestzf3xhgwev7jlbta3h3lwsc/home.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/07/02/home.aspx",
+      "timestamp": "20110702112420",
+      "digest": "O7FVY6GESTZF3XHGWEV7JLBTA3H3LWSC",
+      "mimetype": "text/html",
+      "bytes": 3656
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/07/02/images/puqk4mqfkjnxrcwmaget757qltkhjgfz/Imagens/Background.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/07/02/Imagens/Background.jpg",
+      "timestamp": "20150423201632",
+      "digest": "PUQK4MQFKJNXRCWMAGET757QLTKHJGFZ",
+      "mimetype": "image/jpeg",
+      "bytes": 25422
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/07/02/images/lvmz2ne6tq6vgjulq6tmjqcsjohaszjq/Imagens/entrada.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/07/02/Imagens/entrada.jpg",
+      "timestamp": "20110702113301",
+      "digest": "LVMZ2NE6TQ6VGJULQ6TMJQCSJOHASZJQ",
+      "mimetype": "image/jpeg",
+      "bytes": 9523
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/07/02/images/ja7x3dwyyfvkjjhluiysv7gstvhxyiki/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt/pt/Historias/07/02/Imagens/icone.jpg",
+      "timestamp": "20150423181001",
+      "digest": "JA7X3DWYYFVKJJHLUIYSV7GSTVHXYIKI",
+      "mimetype": "image/jpeg",
+      "bytes": 1719
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/07/02/pdf/j2ne2mrz7vr75oohyhuuxiwk7wk3sqys/imprimir.pdf",
+      "original": "http://www.historiadodia.pt:80/pt/historias/07/02/imprimir.pdf",
+      "timestamp": "20040706031737",
+      "digest": "J2NE2MRZ7VR75OOHYHUUXIWK7WK3SQYS",
+      "mimetype": "application/pdf",
+      "bytes": 58572
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/07/02/pdf/j2ne2mrz7vr75oohyhuuxiwk7wk3sqys/imprimir.pdf",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/07/02/imprimir.pdf",
+      "timestamp": "20040706062026",
+      "digest": "J2NE2MRZ7VR75OOHYHUUXIWK7WK3SQYS",
+      "mimetype": "application/pdf",
+      "bytes": 41225
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/07/02/html/glvclpua4evwhxcgfg2iwphahki725ll/propostas/home.htm",
+      "original": "http://www.historiadodia.pt/pt/historias/07/02/propostas/home.htm",
+      "timestamp": "20110702113558",
+      "digest": "GLVCLPUA4EVWHXCGFG2IWPHAHKI725LL",
+      "mimetype": "text/html",
+      "bytes": 2796
+    }
+  ]
+}

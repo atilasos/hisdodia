@@ -1,0 +1,61 @@
+{
+  "day": "04-04",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/04/04/",
+    "www.historiadodia.pt/pt/Historias/04/04/",
+    "sons.historiadodia.pt/04/04/"
+  ],
+  "capturedAt": "2026-06-03T22:10:53.802Z",
+  "cdx": {
+    "captures": 59,
+    "selected": 5,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/04/04/audio/25aipwthhmy7t66xi454vamei6rsqdgr/um.swf",
+      "original": "http://sons.historiadodia.pt/04/04/um.swf",
+      "timestamp": "20100614092825",
+      "digest": "25AIPWTHHMY7T66XI454VAMEI6RSQDGR",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 2143
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/04/04/html/3idpq46coq5fonmsjq5jwdilhj3hzlym/historia.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/04/04/historia.aspx",
+      "timestamp": "20150423182301",
+      "digest": "3IDPQ46COQ5FONMSJQ5JWDILHJ3HZLYM",
+      "mimetype": "text/html",
+      "bytes": 15163
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/04/04/html/3i42h3s6nnfq2msvx7xzkyayscx5qbyj/home.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/04/04/home.aspx",
+      "timestamp": "20040414171721",
+      "digest": "3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ",
+      "mimetype": "unk",
+      "bytes": 0
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/04/04/images/koejw4x6djr4g23s7ozy7ald6fn4oj3s/Imagens/Background.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/04/04/Imagens/Background.jpg",
+      "timestamp": "20150423202517",
+      "digest": "KOEJW4X6DJR4G23S7OZY7ALD6FN4OJ3S",
+      "mimetype": "image/jpeg",
+      "bytes": 35573
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/04/04/images/o5vohfhspjxi5cyrklwrhz3o4vnw2gam/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt/pt/Historias/04/04/Imagens/icone.jpg",
+      "timestamp": "20150423182508",
+      "digest": "O5VOHFHSPJXI5CYRKLWRHZ3O4VNW2GAM",
+      "mimetype": "image/jpeg",
+      "bytes": 1584
+    }
+  ]
+}

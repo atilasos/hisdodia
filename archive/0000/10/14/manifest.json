@@ -1,0 +1,43 @@
+{
+  "day": "10-14",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/10/14/",
+    "www.historiadodia.pt/pt/Historias/10/14/",
+    "sons.historiadodia.pt/10/14/"
+  ],
+  "capturedAt": "2026-06-03T22:16:18.568Z",
+  "cdx": {
+    "captures": 22,
+    "selected": 3,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/10/14/html/hsdartaqcfjisgw7a3chqee4zcvw7qek/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/10/14/historia.aspx",
+      "timestamp": "20080910134045",
+      "digest": "HSDARTAQCFJISGW7A3CHQEE4ZCVW7QEK",
+      "mimetype": "text/html",
+      "bytes": 19445
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/10/14/images/7dae3lvpgeuxcmfmrvygjibaf73mqvz6/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/10/14/Imagens/icone.jpg",
+      "timestamp": "20070126035610",
+      "digest": "7DAE3LVPGEUXCMFMRVYGJIBAF73MQVZ6",
+      "mimetype": "image/jpeg",
+      "bytes": 1538
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/10/14/other/2pfi3szujzmbmasivg3irpoxmkon5vix/propostas/titulos_style.css",
+      "original": "http://www.historiadodia.pt/pt/historias/10/14/propostas/titulos_style.css",
+      "timestamp": "20150423172608",
+      "digest": "2PFI3SZUJZMBMASIVG3IRPOXMKON5VIX",
+      "mimetype": "text/css",
+      "bytes": 3517
+    }
+  ]
+}

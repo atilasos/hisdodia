@@ -1,0 +1,25 @@
+{
+  "day": "06-30",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/06/30/",
+    "www.historiadodia.pt/pt/Historias/06/30/",
+    "sons.historiadodia.pt/06/30/"
+  ],
+  "capturedAt": "2026-06-03T22:13:13.731Z",
+  "cdx": {
+    "captures": 2,
+    "selected": 1,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/06/30/images/zjnbuzs54meajf3eyextupdyzazgxxti/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/06/30/Imagens/icone.jpg",
+      "timestamp": "20070126035251",
+      "digest": "ZJNBUZS54MEAJF3EYEXTUPDYZAZGXXTI",
+      "mimetype": "image/jpeg",
+      "bytes": 1744
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "day": "12-30",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/12/30/",
+    "www.historiadodia.pt/pt/Historias/12/30/",
+    "sons.historiadodia.pt/12/30/"
+  ],
+  "capturedAt": "2026-06-03T22:19:08.390Z",
+  "cdx": {
+    "captures": 16,
+    "selected": 5,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/12/30/html/4767d52awu45fpaa2cyccntnlke3snxs/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/12/30/historia.aspx",
+      "timestamp": "20040101014400",
+      "digest": "4767D52AWU45FPAA2CYCCNTNLKE3SNXS",
+      "mimetype": "text/html",
+      "bytes": 12026
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/30/html/ofy5ed4a2gt62fvxhmy6xxf6hpjp7y4n/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/12/30/historia.aspx",
+      "timestamp": "20091214002810",
+      "digest": "OFY5ED4A2GT62FVXHMY6XXF6HPJP7Y4N",
+      "mimetype": "text/html",
+      "bytes": 12005
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/30/images/pw7pl7zbwi6lc4q2jztjtvoind56ekty/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/12/30/Imagens/icone.jpg",
+      "timestamp": "20070126040253",
+      "digest": "PW7PL7ZBWI6LC4Q2JZTJTVOIND56EKTY",
+      "mimetype": "image/jpeg",
+      "bytes": 936
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/30/pdf/ir5d47caety2uw4cpkyeytnabez6jany/imprimir.pdf",
+      "original": "http://www.historiadodia.pt:80/pt/historias/12/30/imprimir.pdf",
+      "timestamp": "20091122154154",
+      "digest": "IR5D47CAETY2UW4CPKYEYTNABEZ6JANY",
+      "mimetype": "application/pdf",
+      "bytes": 67046
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/30/html/jnovzroovmiezovm3qg37kvx6nq25rom/propostas/home.htm",
+      "original": "http://www.historiadodia.pt:80/pt/historias/12/30/propostas/home.htm",
+      "timestamp": "20040101014922",
+      "digest": "JNOVZROOVMIEZOVM3QG37KVX6NQ25ROM",
+      "mimetype": "text/html",
+      "bytes": 2732
+    }
+  ]
+}

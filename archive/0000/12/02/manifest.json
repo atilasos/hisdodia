@@ -1,0 +1,70 @@
+{
+  "day": "12-02",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/12/02/",
+    "www.historiadodia.pt/pt/Historias/12/02/",
+    "sons.historiadodia.pt/12/02/"
+  ],
+  "capturedAt": "2026-06-03T22:18:00.731Z",
+  "cdx": {
+    "captures": 78,
+    "selected": 6,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/12/02/audio/atmcodmucd3b5gj6rolhkrfp3t3hn2ay/um.swf",
+      "original": "http://sons.historiadodia.pt/12/02/um.swf",
+      "timestamp": "20100614090954",
+      "digest": "ATMCODMUCD3B5GJ6ROLHKRFP3T3HN2AY",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 2145
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/02/html/oa2aod6to4vkilqwpu3wzyhe5x4anpbx/historia.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/12/02/historia.aspx",
+      "timestamp": "20150423174459",
+      "digest": "OA2AOD6TO4VKILQWPU3WZYHE5X4ANPBX",
+      "mimetype": "text/html",
+      "bytes": 12436
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/02/html/et6bxw5sot6yjeppixo7dahztidczymb/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/12/02/historia.aspx",
+      "timestamp": "20031217131339",
+      "digest": "ET6BXW5SOT6YJEPPIXO7DAHZTIDCZYMB",
+      "mimetype": "text/html",
+      "bytes": 12457
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/02/images/q2y3fjh72yh6eheriwoq7czrf5ktlheo/Imagens/Background.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/12/02/Imagens/Background.jpg",
+      "timestamp": "20150423200909",
+      "digest": "Q2Y3FJH72YH6EHERIWOQ7CZRF5KTLHEO",
+      "mimetype": "image/jpeg",
+      "bytes": 22490
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/02/images/vih7rxu3cez4duhjqga6oezygamaxut5/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt/pt/Historias/12/02/Imagens/icone.jpg",
+      "timestamp": "20150423174444",
+      "digest": "VIH7RXU3CEZ4DUHJQGA6OEZYGAMAXUT5",
+      "mimetype": "image/jpeg",
+      "bytes": 901
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/02/pdf/u25r5ko45wfe5k7ihqkd7e24iovslf4n/imprimir.pdf",
+      "original": "http://www.historiadodia.pt:80/pt/historias/12/02/imprimir.pdf",
+      "timestamp": "20031204111615",
+      "digest": "U25R5KO45WFE5K7IHQKD7E24IOVSLF4N",
+      "mimetype": "application/pdf",
+      "bytes": 88905
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "day": "06-27",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/06/27/",
+    "www.historiadodia.pt/pt/Historias/06/27/",
+    "sons.historiadodia.pt/06/27/"
+  ],
+  "capturedAt": "2026-06-03T22:13:13.179Z",
+  "cdx": {
+    "captures": 8,
+    "selected": 3,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/06/27/images/pvife3yqzecexyy4nzpvmorqrc5mswjy/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/06/27/Imagens/icone.jpg",
+      "timestamp": "20070126035414",
+      "digest": "PVIFE3YQZECEXYY4NZPVMORQRC5MSWJY",
+      "mimetype": "image/jpeg",
+      "bytes": 1719
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/27/html/33j2ybsookwoc6pv3l2du6lbgyodf2ge/propostas/home.htm",
+      "original": "http://www.historiadodia.pt:80/pt/historias/06/27/propostas/home.htm",
+      "timestamp": "20080702183042",
+      "digest": "33J2YBSOOKWOC6PV3L2DU6LBGYODF2GE",
+      "mimetype": "text/html",
+      "bytes": 2967
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/27/html/7ty725lp3pgep345lad6ypgrbyfhg2dg/propostas/wordfind.html",
+      "original": "http://www.historiadodia.pt:80/pt/historias/06/27/propostas/wordfind.html",
+      "timestamp": "20080701011906",
+      "digest": "7TY725LP3PGEP345LAD6YPGRBYFHG2DG",
+      "mimetype": "text/html",
+      "bytes": 3826
+    }
+  ]
+}

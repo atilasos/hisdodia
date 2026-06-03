@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Unauthorized Access</title>
+	<meta charset="UTF-8">
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+</head>
+<body>
+		
+<div class="container-fluid">
+	<div class="alert alert-warning"><h2>The firewall on this server is blocking your connection.</h2></div>
+	<p>You need to contact the server owner or hosting provider for further information.</p>
+	<p>Your blocked IP address is: <b>207.241.225.226</b></p>
+	<p>The hostname of this server is: <b>mtl-node1.websitehostserver.net</b></p>
+
+	<br />
+	<p>You can try to unblock yourself using ReCAPTCHA:</p>
+
+	<form action="" method="POST">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<div class="g-recaptcha" data-sitekey="6Lfmz14UAAAAAOOCaTqmWmCAD3z2nmNmMANMvSAd"></div>
+					</div>
+					<div class="panel-footer text-center">
+						<button class='btn btn-primary' type="submit" name="submit">Unblock</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+
+	<br />
+	
+	<div class="alert alert-info">Please note: Not all unblock requests will be successful as it is dependent on how your IP address is being blocked. If the unblock fails you will need to contact the server owner or hosting provider for further information.</div>
+</div>
+</body>
+</html>

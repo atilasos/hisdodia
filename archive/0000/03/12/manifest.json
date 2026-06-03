@@ -1,0 +1,133 @@
+{
+  "day": "03-12",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/03/12/",
+    "www.historiadodia.pt/pt/Historias/03/12/",
+    "sons.historiadodia.pt/03/12/"
+  ],
+  "capturedAt": "2026-06-03T22:10:23.677Z",
+  "cdx": {
+    "captures": 31,
+    "selected": 13,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/03/12/audio/fxfx4kmdxflfckjimqfczkyhkn4d4zbr/dois.swf",
+      "original": "http://sons.historiadodia.pt/03/12/dois.swf",
+      "timestamp": "20080315093150",
+      "digest": "FXFX4KMDXFLFCKJIMQFCZKYHKN4D4ZBR",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 600180
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/03/12/audio/uku6tq2bhwurg2vyyrjjrgensiceuchh/um.swf",
+      "original": "http://sons.historiadodia.pt/03/12/um.swf",
+      "timestamp": "20080315091058",
+      "digest": "UKU6TQ2BHWURG2VYYRJJRGENSICEUCHH",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 2146
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/03/12/html/eocd2bbte7ckzkgjqfokm52ofd3lmfmt/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/03/12/historia.aspx",
+      "timestamp": "20090603194642",
+      "digest": "EOCD2BBTE7CKZKGJQFOKM52OFD3LMFMT",
+      "mimetype": "text/html",
+      "bytes": 24118
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/03/12/html/62njy6ydehrngyr5zw5t6v4g35r5nspd/home.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/03/12/home.aspx",
+      "timestamp": "20080312065318",
+      "digest": "62NJY6YDEHRNGYR5ZW5T6V4G35R5NSPD",
+      "mimetype": "text/html",
+      "bytes": 3609
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/03/12/images/uljdv6ruriz557lgahz42dtjqbzn6wck/Imagens/Background.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/03/12/Imagens/Background.jpg",
+      "timestamp": "20080312065656",
+      "digest": "ULJDV6RURIZ557LGAHZ42DTJQBZN6WCK",
+      "mimetype": "image/jpeg",
+      "bytes": 17224
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/03/12/images/lwtuqxmsuld476veneg7z2xm5pi2qkwu/Imagens/entrada.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/03/12/Imagens/entrada.jpg",
+      "timestamp": "20080312065401",
+      "digest": "LWTUQXMSULD476VENEG7Z2XM5PI2QKWU",
+      "mimetype": "image/jpeg",
+      "bytes": 6638
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/03/12/images/phhfyyi664v7vnseixtemqazldhtg34q/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt/pt/Historias/03/12/Imagens/icone.jpg",
+      "timestamp": "20080312065850",
+      "digest": "PHHFYYI664V7VNSEIXTEMQAZLDHTG34Q",
+      "mimetype": "image/jpeg",
+      "bytes": 1498
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/03/12/pdf/qi3ayddhrv7ffpmuuqzbrrm4emtxfbwl/imprimir.pdf",
+      "original": "http://www.historiadodia.pt/pt/historias/03/12/imprimir.pdf",
+      "timestamp": "20080312065633",
+      "digest": "QI3AYDDHRV7FFPMUUQZBRRM4EMTXFBWL",
+      "mimetype": "application/pdf",
+      "bytes": 51481
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/03/12/images/cwuugcvgzcbfqnflyljyauyeydxqzihf/Propostas/botaocarteira.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/03/12/Propostas/botaocarteira.jpg",
+      "timestamp": "20080312072511",
+      "digest": "CWUUGCVGZCBFQNFLYLJYAUYEYDXQZIHF",
+      "mimetype": "image/jpeg",
+      "bytes": 1053
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/03/12/html/flyzmxq746vbchpvcij4opsae3wkziii/Propostas/home.htm",
+      "original": "http://www.historiadodia.pt/pt/historias/03/12/Propostas/home.htm",
+      "timestamp": "20080312065642",
+      "digest": "FLYZMXQ746VBCHPVCIJ4OPSAE3WKZIII",
+      "mimetype": "text/html",
+      "bytes": 3043
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/03/12/images/xwqoo3vjmzbjc5p5nem5752keuxy2tp6/Propostas/natacao.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/03/12/Propostas/natacao.jpg",
+      "timestamp": "20080312072526",
+      "digest": "XWQOO3VJMZBJC5P5NEM5752KEUXY2TP6",
+      "mimetype": "image/jpeg",
+      "bytes": 979
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/03/12/html/4igzox7jaxqlprb7l3rscx62yuwy5e2o/Propostas/pares09_02.html",
+      "original": "http://www.historiadodia.pt/pt/historias/03/12/Propostas/pares09_02.html",
+      "timestamp": "20080312072514",
+      "digest": "4IGZOX7JAXQLPRB7L3RSCX62YUWY5E2O",
+      "mimetype": "text/html",
+      "bytes": 2150
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/03/12/audio/ok6lfpkgsjlt5e5wji5lt5eagltbcptq/Propostas/pares12_03.swf",
+      "original": "http://www.historiadodia.pt/pt/historias/03/12/Propostas/pares12_03.swf",
+      "timestamp": "20080312072516",
+      "digest": "OK6LFPKGSJLT5E5WJI5LT5EAGLTBCPTQ",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 56280
+    }
+  ]
+}

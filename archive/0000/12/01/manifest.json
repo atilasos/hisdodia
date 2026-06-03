@@ -1,0 +1,115 @@
+{
+  "day": "12-01",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/12/01/",
+    "www.historiadodia.pt/pt/Historias/12/01/",
+    "sons.historiadodia.pt/12/01/"
+  ],
+  "capturedAt": "2026-06-03T22:18:03.824Z",
+  "cdx": {
+    "captures": 123,
+    "selected": 11,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/12/01/audio/fcxbowq4tx6wmpvvlkyln5vbdbhu2hrx/um.swf",
+      "original": "http://sons.historiadodia.pt/12/01/um.swf",
+      "timestamp": "20100614091103",
+      "digest": "FCXBOWQ4TX6WMPVVLKYLN5VBDBHU2HRX",
+      "mimetype": "application/x-shockwave-flash",
+      "bytes": 2145
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/01/html/bbmuobxkusa2ksnm6ikcnmsofrz37fph/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/12/01/historia.aspx",
+      "timestamp": "20031204061855",
+      "digest": "BBMUOBXKUSA2KSNM6IKCNMSOFRZ37FPH",
+      "mimetype": "text/html",
+      "bytes": 13100
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/01/html/mbu2pxyoxgn3mkk7pwgruygcgx3z2rij/historia.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/12/01/historia.aspx",
+      "timestamp": "20150423153945",
+      "digest": "MBU2PXYOXGN3MKK7PWGRUYGCGX3Z2RIJ",
+      "mimetype": "text/html",
+      "bytes": 13079
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/12/01/html/bbmuobxkusa2ksnm6ikcnmsofrz37fph/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/12/01/historia.aspx",
+      "timestamp": "20031208091444",
+      "digest": "BBMUOBXKUSA2KSNM6IKCNMSOFRZ37FPH",
+      "mimetype": "text/html",
+      "bytes": 3885
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/01/images/a4o64tzgpipccenczdu22xfgtdvzgoyw/Imagens/Background.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/12/01/Imagens/Background.jpg",
+      "timestamp": "20150423154047",
+      "digest": "A4O64TZGPIPCCENCZDU22XFGTDVZGOYW",
+      "mimetype": "image/jpeg",
+      "bytes": 17023
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/01/images/oqwfjx2avzem2h5naghwyjmjntyqnhee/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt/pt/Historias/12/01/Imagens/icone.jpg",
+      "timestamp": "20150423174711",
+      "digest": "OQWFJX2AVZEM2H5NAGHWYJMJNTYQNHEE",
+      "mimetype": "image/jpeg",
+      "bytes": 1024
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/01/pdf/yk3m4ql6cbn73hvbduh6lzfiyriomu37/imprimir.pdf",
+      "original": "http://www.historiadodia.pt/pt/historias/12/01/imprimir.pdf",
+      "timestamp": "20150423164407",
+      "digest": "YK3M4QL6CBN73HVBDUH6LZFIYRIOMU37",
+      "mimetype": "application/pdf",
+      "bytes": 70048
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/01/images/f5uotzt4ztcwttfewcku4547fo4kpn7g/Propostas/bolo1.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/12/01/Propostas/bolo1.jpg",
+      "timestamp": "20150423164453",
+      "digest": "F5UOTZT4ZTCWTTFEWCKU4547FO4KPN7G",
+      "mimetype": "image/jpeg",
+      "bytes": 2379
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/01/html/gtjekxe7uhaha4df6tusfpwrmlvucrj5/Propostas/home.htm",
+      "original": "http://www.historiadodia.pt/pt/historias/12/01/Propostas/home.htm",
+      "timestamp": "20150423154018",
+      "digest": "GTJEKXE7UHAHA4DF6TUSFPWRMLVUCRJ5",
+      "mimetype": "text/html",
+      "bytes": 3413
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/01/images/fwxkvc27dhylyie5s5wafplkzni3acyk/Propostas/pixel.gif",
+      "original": "http://www.historiadodia.pt/pt/historias/12/01/Propostas/pixel.gif",
+      "timestamp": "20150423164418",
+      "digest": "FWXKVC27DHYLYIE5S5WAFPLKZNI3ACYK",
+      "mimetype": "image/gif",
+      "bytes": 43
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/12/01/images/4kyi7kou4urhh7esbveidqtzrwouht43/Propostas/velas.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/12/01/Propostas/velas.jpg",
+      "timestamp": "20150423164442",
+      "digest": "4KYI7KOU4URHH7ESBVEIDQTZRWOUHT43",
+      "mimetype": "image/jpeg",
+      "bytes": 2277
+    }
+  ]
+}

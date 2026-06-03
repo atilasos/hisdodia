@@ -1,0 +1,70 @@
+{
+  "day": "06-26",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/06/26/",
+    "www.historiadodia.pt/pt/Historias/06/26/",
+    "sons.historiadodia.pt/06/26/"
+  ],
+  "capturedAt": "2026-06-03T22:13:12.426Z",
+  "cdx": {
+    "captures": 28,
+    "selected": 6,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/06/26/html/utigxqzcodm6uonefupfertcta6eyvcq/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/06/26/historia.aspx",
+      "timestamp": "20080702183038",
+      "digest": "UTIGXQZCODM6UONEFUPFERTCTA6EYVCQ",
+      "mimetype": "text/html",
+      "bytes": 22678
+    },
+    {
+      "status": "skipped-existing",
+      "path": "0000/06/26/html/utigxqzcodm6uonefupfertcta6eyvcq/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/06/26/historia.aspx",
+      "timestamp": "20070709133028",
+      "digest": "UTIGXQZCODM6UONEFUPFERTCTA6EYVCQ",
+      "mimetype": "text/html",
+      "bytes": 5405
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/26/images/wcxn7mlakpq74frvvsv4qkdwbpspenm6/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/06/26/Imagens/icone.jpg",
+      "timestamp": "20070126035242",
+      "digest": "WCXN7MLAKPQ74FRVVSV4QKDWBPSPENM6",
+      "mimetype": "image/jpeg",
+      "bytes": 1580
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/26/html/mtra3nx7dnuzbbvqvhdr2vx6rozk4xsa/propostas/home.htm",
+      "original": "http://www.historiadodia.pt/pt/historias/06/26/propostas/home.htm",
+      "timestamp": "20070626162853",
+      "digest": "MTRA3NX7DNUZBBVQVHDR2VX6ROZK4XSA",
+      "mimetype": "text/html",
+      "bytes": 2826
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/26/images/zxkjjdgx4kxfiemvmcqgr5d3ik6bzgig/propostas/leao.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/06/26/propostas/leao.jpg",
+      "timestamp": "20070819210347",
+      "digest": "ZXKJJDGX4KXFIEMVMCQGR5D3IK6BZGIG",
+      "mimetype": "image/jpeg",
+      "bytes": 33403
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/06/26/images/62c6dzfdn7sbnfsvgfkecd4kqyviecnl/propostas/mosquito.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/06/26/propostas/mosquito.jpg",
+      "timestamp": "20070819210355",
+      "digest": "62C6DZFDN7SBNFSVGFKECD4KQYVIECNL",
+      "mimetype": "image/jpeg",
+      "bytes": 32270
+    }
+  ]
+}

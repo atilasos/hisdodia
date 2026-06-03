@@ -1,0 +1,34 @@
+{
+  "day": "10-15",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/10/15/",
+    "www.historiadodia.pt/pt/Historias/10/15/",
+    "sons.historiadodia.pt/10/15/"
+  ],
+  "capturedAt": "2026-06-03T22:16:17.733Z",
+  "cdx": {
+    "captures": 10,
+    "selected": 2,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/10/15/html/5gyonfiv753miqvn3g4nystegabuhljf/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/10/15/historia.aspx",
+      "timestamp": "20081022133804",
+      "digest": "5GYONFIV753MIQVN3G4NYSTEGABUHLJF",
+      "mimetype": "text/html",
+      "bytes": 12874
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/10/15/images/7ao5qfihrszbg2n5jsej6eyt4jmmyi7w/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/10/15/Imagens/icone.jpg",
+      "timestamp": "20070126035621",
+      "digest": "7AO5QFIHRSZBG2N5JSEJ6EYT4JMMYI7W",
+      "mimetype": "image/jpeg",
+      "bytes": 1618
+    }
+  ]
+}

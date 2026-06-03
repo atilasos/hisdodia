@@ -1,0 +1,25 @@
+{
+  "day": "11-16",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/11/16/",
+    "www.historiadodia.pt/pt/Historias/11/16/",
+    "sons.historiadodia.pt/11/16/"
+  ],
+  "capturedAt": "2026-06-03T22:17:30.774Z",
+  "cdx": {
+    "captures": 2,
+    "selected": 1,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/11/16/html/3i42h3s6nnfq2msvx7xzkyayscx5qbyj/home.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/11/16/home.aspx",
+      "timestamp": "20061118140241",
+      "digest": "3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ",
+      "mimetype": "unk",
+      "bytes": 0
+    }
+  ]
+}

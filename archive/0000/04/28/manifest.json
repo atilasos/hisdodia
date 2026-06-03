@@ -1,0 +1,25 @@
+{
+  "day": "04-28",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/04/28/",
+    "www.historiadodia.pt/pt/Historias/04/28/",
+    "sons.historiadodia.pt/04/28/"
+  ],
+  "capturedAt": "2026-06-03T22:11:29.056Z",
+  "cdx": {
+    "captures": 4,
+    "selected": 1,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/04/28/html/jg4chibhi377gyzklvwqvywubqj3jfnu/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/04/28/historia.aspx",
+      "timestamp": "20080624025557",
+      "digest": "JG4CHIBHI377GYZKLVWQVYWUBQJ3JFNU",
+      "mimetype": "text/html",
+      "bytes": 15212
+    }
+  ]
+}

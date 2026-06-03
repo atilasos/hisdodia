@@ -1,0 +1,70 @@
+{
+  "day": "05-19",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/05/19/",
+    "www.historiadodia.pt/pt/Historias/05/19/",
+    "sons.historiadodia.pt/05/19/"
+  ],
+  "capturedAt": "2026-06-03T22:11:57.959Z",
+  "cdx": {
+    "captures": 16,
+    "selected": 6,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/05/19/html/mgo7tydvuqmuzhtu4lt4ly242t2uextu/historia.aspx",
+      "original": "http://www.historiadodia.pt:80/pt/historias/05/19/historia.aspx",
+      "timestamp": "20090603052316",
+      "digest": "MGO7TYDVUQMUZHTU4LT4LY242T2UEXTU",
+      "mimetype": "text/html",
+      "bytes": 18252
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/05/19/html/dqnm36p5e3dbtvfloao6u2aa2fqvqkw4/home.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/05/19/home.aspx",
+      "timestamp": "20110519171619",
+      "digest": "DQNM36P5E3DBTVFLOAO6U2AA2FQVQKW4",
+      "mimetype": "text/html",
+      "bytes": 3626
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/05/19/images/pmzrosazihdd3kcl42b4jy45acpmuy2k/Imagens/entrada.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/05/19/Imagens/entrada.jpg",
+      "timestamp": "20110519172529",
+      "digest": "PMZROSAZIHDD3KCL42B4JY45ACPMUY2K",
+      "mimetype": "image/jpeg",
+      "bytes": 7659
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/05/19/images/rrz34zlub6hyxqa6gj2tnqdznfqgjgjx/propostas/egipto1.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/05/19/propostas/egipto1.jpg",
+      "timestamp": "20110519174054",
+      "digest": "RRZ34ZLUB6HYXQA6GJ2TNQDZNFQGJGJX",
+      "mimetype": "image/jpeg",
+      "bytes": 33009
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/05/19/images/yrqouuwyuboyeijdlqm4ii633xmanazz/propostas/egipto2.jpg",
+      "original": "http://www.historiadodia.pt/pt/historias/05/19/propostas/egipto2.jpg",
+      "timestamp": "20110519174110",
+      "digest": "YRQOUUWYUBOYEIJDLQM4II633XMANAZZ",
+      "mimetype": "image/jpeg",
+      "bytes": 33138
+    },
+    {
+      "status": "downloaded",
+      "path": "0000/05/19/html/7asu53va7rnfps3lnfjeuhokcietfmlh/propostas/home.htm",
+      "original": "http://www.historiadodia.pt/pt/historias/05/19/propostas/home.htm",
+      "timestamp": "20110519174038",
+      "digest": "7ASU53VA7RNFPS3LNFJEUHOKCIETFMLH",
+      "mimetype": "text/html",
+      "bytes": 3041
+    }
+  ]
+}

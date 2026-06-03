@@ -1,0 +1,25 @@
+{
+  "day": "03-18",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/03/18/",
+    "www.historiadodia.pt/pt/Historias/03/18/",
+    "sons.historiadodia.pt/03/18/"
+  ],
+  "capturedAt": "2026-06-03T22:10:16.352Z",
+  "cdx": {
+    "captures": 2,
+    "selected": 1,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/03/18/html/3i42h3s6nnfq2msvx7xzkyayscx5qbyj/home.aspx",
+      "original": "http://www.historiadodia.pt/pt/historias/03/18/home.aspx",
+      "timestamp": "20150323164947",
+      "digest": "3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ",
+      "mimetype": "text/html",
+      "bytes": 0
+    }
+  ]
+}

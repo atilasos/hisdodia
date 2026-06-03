@@ -1,0 +1,25 @@
+{
+  "day": "07-14",
+  "prefixes": [
+    "www.historiadodia.pt/pt/historias/07/14/",
+    "www.historiadodia.pt/pt/Historias/07/14/",
+    "sons.historiadodia.pt/07/14/"
+  ],
+  "capturedAt": "2026-06-03T22:13:54.537Z",
+  "cdx": {
+    "captures": 2,
+    "selected": 1,
+    "errors": []
+  },
+  "downloads": [
+    {
+      "status": "downloaded",
+      "path": "0000/07/14/images/em3jy3blniyvn72owpdixg3q32k6qlum/Imagens/icone.jpg",
+      "original": "http://www.historiadodia.pt:80/pt/Historias/07/14/Imagens/icone.jpg",
+      "timestamp": "20070127071611",
+      "digest": "EM3JY3BLNIYVN72OWPDIXG3Q32K6QLUM",
+      "mimetype": "image/jpeg",
+      "bytes": 1655
+    }
+  ]
+}
