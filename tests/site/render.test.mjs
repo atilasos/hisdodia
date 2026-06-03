@@ -7,11 +7,12 @@ describe('renderSite', () => {
   after(async () => {
     await rm('tmp/render-safety', { recursive: true, force: true });
     await rm('tmp/render-invalid-id', { recursive: true, force: true });
+    await rm('tmp/render-today', { recursive: true, force: true });
   });
 
   it('renders homepage, archive, and story page from story data', async () => {
     await rm('dist', { recursive: true, force: true });
-    await renderSite({ storiesDir: 'data/stories', outDir: 'dist' });
+    await renderSite({ storiesDir: 'data/stories', outDir: 'dist', today: new Date('2026-01-01T12:00:00+00:00') });
 
     const homepage = await readFile('dist/index.html', 'utf8');
     const archive = await readFile('dist/archive/index.html', 'utf8');
@@ -39,6 +40,22 @@ describe('renderSite', () => {
     assert.match(homepage, /class="skip-link"/);
     assert.match(stylesheet, /Atelier de papel/);
     assert.match(script, /glossary/);
+  });
+
+  it('renders the homepage with the story matching the current calendar date', async () => {
+    await rm('tmp/render-today', { recursive: true, force: true });
+    await renderSite({
+      storiesDir: 'data/stories',
+      outDir: 'tmp/render-today/dist',
+      recoveredArchiveDir: null,
+      today: new Date('2026-06-03T12:00:00+01:00')
+    });
+
+    const homepage = await readFile('tmp/render-today/dist/index.html', 'utf8');
+
+    assert.match(homepage, /3 de Junho/);
+    assert.match(homepage, /A boneca da madrinha/);
+    assert.doesNotMatch(homepage, /Moleiros e Carvoeiros/);
   });
 
   it('escapes recovered text and rejects unsafe recovered URLs', async () => {

@@ -302,9 +302,30 @@ ${storyText(story)}
   });
 }
 
-export async function renderSite({ storiesDir, outDir, recoveredArchiveDir = 'archive/0000' }) {
+export function storyIdForDate(date = new Date(), timeZone = 'Europe/Lisbon') {
+  const parts = new Intl.DateTimeFormat('en-GB', {
+    timeZone,
+    day: '2-digit',
+    month: '2-digit'
+  }).formatToParts(date);
+  const day = parts.find((part) => part.type === 'day')?.value;
+  const month = parts.find((part) => part.type === 'month')?.value;
+
+  if (!day || !month) {
+    throw new Error(`Could not format story date for timezone ${timeZone}`);
+  }
+
+  return `${month}-${day}`;
+}
+
+function selectTodayStory(stories, today, todayTimeZone) {
+  const todayId = storyIdForDate(today, todayTimeZone);
+  return stories.find((story) => story.id === todayId) ?? stories[0];
+}
+
+export async function renderSite({ storiesDir, outDir, recoveredArchiveDir = 'archive/0000', today = new Date(), todayTimeZone = 'Europe/Lisbon' }) {
   const stories = await loadStories(storiesDir);
-  const todayStory = stories[0];
+  const todayStory = selectTodayStory(stories, today, todayTimeZone);
 
   if (!todayStory) {
     throw new Error(`No story JSON files found in ${storiesDir}`);
