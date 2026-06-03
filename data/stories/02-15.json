@@ -1,0 +1,122 @@
+{
+  "id": "02-15",
+  "month": 2,
+  "day": 15,
+  "dateLabel": "15 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Negócios com Lobos",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Esta história custa a contar, mas há histórias assim, tristes, que servem de lição e aviso, para que não voltem a repetir-se os aconteceres que elas relatam. Nem pouco mais ou menos.",
+        "Quem me confiou a fábula que vão ouvir foi um pastor."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Soubera-a do avô, que também tinha sido pastor, que a ouvira do avô e ele, por sua vez, do avô dele, numa correnteza de netos e avós que mergulhava no princípio dos tempos. Tão antes de tudo a história se passara, que vinha do tempo em que os animais falavam ou, dito de outro modo, em que os homens e os bichos na mesma língua se entendiam.",
+        "Nesse tempo, os animais também contavam histórias aos homens."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Esta, no princípio, foi contada por uma ovelha ao primeiro de todos os pastores.",
+        "E chega de prólogos . Vamos ao que interessa.",
+        "As ovelhas e os lobos, que andavam em guerra, resolveram fazer uma trégua na luta. Foram os lobos que a propuseram.",
+        "Reuniram-se as duas partes em negociações e, ainda por sugestão dos lobos, decidiram trocar reféns ."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Para que a trégua durasse até culminar numa paz duradoira, os lobos entregavam à guarda das ovelhas os seus lobinhos e exigiam, em troca, os filhos das ovelhas . Explicavam eles:",
+        "- Não lhes faremos mal nenhum, porque se o fizéssemos e regressássemos à guerra, vocês vingavam-se nos nossos lobinhos. Só assim se poderá garantir, para sempre, a paz entre nós.",
+        "As ovelhas concordaram."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Custava-lhes a separação dos seus cordeirinhos, mas admitiram que não custaria menos aos lobos o apartarem-se dos filhos. Igual por igual.",
+        "Foram os lobos pequenos viver para o meio do rebanho das ovelhas. Eram tratados com toda as atenções. Identicamente, os cordeiros, no covil dos lobos, recebiam alimento em abundância, com que encorpavam e cresciam."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Quando, gordos que estavam, os cordeiros se transformaram em belos carneiros e formosas ovelhas, os lobos saltaram sobre eles e comeram-nos.",
+        "Pela mesma altura, os lobinhos, que já estavam lobos crescidos, fizeram igual razia , no rebanho das ovelhas.",
+        "História terrível, como eu tinha avisado."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Mas a partir dela nunca mais nenhuma ovelha nem nenhum bicho pacífico quis ter negócios com lobos. Para que se saiba."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "228",
+      "term": "prólogos",
+      "definition": "pequenos discursos que antecedem as obras escritas / prefácios / preâmbulos"
+    },
+    {
+      "id": "230",
+      "term": "reféns",
+      "definition": "prisioneiros que ficam em poder do inimigo como garantia do cumprimento de um acordo"
+    },
+    {
+      "id": "227",
+      "term": "correnteza",
+      "definition": "fileira / decurso"
+    },
+    {
+      "id": "232",
+      "term": "razia",
+      "definition": "destruição completa"
+    },
+    {
+      "id": "229",
+      "term": "trégua",
+      "definition": "suspensão temporária de briga"
+    },
+    {
+      "id": "231",
+      "term": "apartarem-se",
+      "definition": "separarem-se"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/15/html/nmlfhjbnw5osqcc6x6ynxy43xqbyajin/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/02/15/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

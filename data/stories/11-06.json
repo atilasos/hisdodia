@@ -1,0 +1,67 @@
+{
+  "id": "11-06",
+  "month": 11,
+  "day": 6,
+  "dateLabel": "6 de Novembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Coelho do Mato",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "43",
+      "term": "portento",
+      "definition": "sucesso / maravilha"
+    },
+    {
+      "id": "44",
+      "term": "laparotos",
+      "definition": "coelhos pequenos"
+    },
+    {
+      "id": "45",
+      "term": "tasquinhar",
+      "definition": "comer pouco / debicar"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/11/06/images/lmvy7kom256jfnzjoepwahkzkyxw7cnh/Imagens/Background.jpg",
+    "icon": "/recovered/0000/11/06/images/nswp2w5xdcfb7kuigy7aruxvxd3td637/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/11/06/audio/skrvtptz46zomncilqjsy7thwozgsjiu/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/11/06/images/cpengqub4hwl44kmjmsrvbakdlqtv7fl/Propostas/logo_origami.gif",
+      "/recovered/0000/11/06/images/e468ce4a438f19a9d39e25c1/imagens/entrada.jpg",
+      "/recovered/0000/11/06/images/fb3skcop5f5pgm5uqpbhhj7fcf4dmavo/Imagens/entrada.jpg",
+      "/recovered/0000/11/06/images/hntoqwb6ghzn3ylta2z3v7urribofkqc/Propostas/logo_coelhos.jpg",
+      "/recovered/0000/11/06/images/oykbzxt6zo4yvyo2hhgb66sti6rls7er/Propostas/logo_leoes.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/11/06/html/t7f2qldtvcofdpmh4d3k3bflxdbaspqt/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/11/06/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

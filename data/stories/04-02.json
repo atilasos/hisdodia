@@ -1,0 +1,118 @@
+{
+  "id": "04-02",
+  "month": 4,
+  "day": 2,
+  "dateLabel": "2 de Abril",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Livro fechado",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um livro. Um livro fechado. Tristemente fechado. Irremediavelmente fechado.",
+        "Nunca ninguém o abrira, nem sequer para ler as primeiras linhas da primeira página das muitas que o livro tinha para oferecer."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Quem o comprara trouxera-o para casa e, provavelmente insensível ao que o livro valia, ao que o livro continha, enfiara-o numa prateleira, ao lado de muitos outros.",
+        "Ali estava. Ali ficou.",
+        "Um dia, mais não podendo, queixou-se:",
+        "- Ninguém me leu. Ninguém me liga."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Ao lado, um colega disse:",
+        "- Desconfio que, nesta estante, haverá muitos outros como tu.",
+        "- É o teu caso? - perguntou, ansiosamente, o livro que nunca tinha sido aberto.",
+        "- Por sinal, não - esclareceu o colega, um respeitável calhamaço . - Estou todo sublinhado. Fui lido e relido. Sou um livro de estudo."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Quem me dera essa sorte - disse outro livro ao lado, a entrar na conversa. - Por mim só me passaram os olhos, página sim, página não... Mas, enfim, já prestei para alguma coisa.",
+        "- Eu também - falou, perto deles, um livrinho estreito. - Durante muito tempo, servi de calço a uma mesa que tinha um pé mais curto."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- Isso não é trabalho para livro - estranhou o calhamaço .",
+        "- À falta de outro... - conformou-se o livro estreitinho.",
+        "Escutando os seus companheiros de estante, o livro que nunca fora aberto sentiu uma secreta inveja. Ao menos, tinham para contar, ao passo que ele... Suspirou."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Não chegou ao fim do suspiro, porque duas mãos o foram buscar ao aperto da prateleira. As mãos pegaram nele e poisaram-no sobre os joelhos.",
+        "- Tem bonecos esse livro? - perguntou a voz de uma menina, debruçada sobre o livro, ainda por abrir."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "- Se tem! Muitos bonecos, muitas histórias que eu vou ler-te - disse uma voz mais grave, a quem pertenciam as mãos que escolheram o livro da estante.",
+        "Começou a folheá-lo e, enquanto lhe alisava as primeiras páginas, foi dizendo:",
+        "- Este livro tem uma história. Comprei-o no dia em que tu nasceste."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Guardei-o para ti, até hoje. É um livro muito especial.",
+        "- Lê - exigiu a voz da menina.",
+        "E o pai da menina leu. E o livro aberto deixou que o lessem, de ponta a ponta.",
+        "Às vezes, vale a pena esperar."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "336",
+      "term": "Irremediavelmente",
+      "definition": "que não tem remédio"
+    },
+    {
+      "id": "337",
+      "term": "calhamaço",
+      "definition": "livro ou caderno volumoso"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/04/02/images/7bgui3mcbe6zcrfbgx5ctvzglyjof7jj/Imagens/Background.jpg",
+    "icon": "/recovered/0000/04/02/images/ewcmqqjw75jzc5dcobfxztkphhcpsfn3/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/04/02/pdf/qbtr6vwd3qanj6erxpj3glodw5kpsyhn/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/04/02/audio/0d02f3c4f554e18a943416c1/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/04/02/images/b52dddhhu2wjao67libp3yufgmaucxdh/Propostas/botao1.jpg",
+      "/recovered/0000/04/02/images/gsoyldwwzzss7grcodhqpbzx5aw6k7cs/Propostas/botao2.jpg",
+      "/recovered/0000/04/02/images/sa7vnsi6dvnbroa3pelh6ernsvme74pa/Propostas/botao3.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/04/02/html/vdi3ly4jm2tbegwwtxcppi5v5q4ac5fu/historia.aspx",
+    "printPdf": "/recovered/0000/04/02/pdf/qbtr6vwd3qanj6erxpj3glodw5kpsyhn/imprimir.pdf",
+    "archiveDay": "/recovered/0000/04/02/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

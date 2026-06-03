@@ -1,0 +1,86 @@
+{
+  "id": "01-10",
+  "month": 1,
+  "day": 10,
+  "dateLabel": "10 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Uma Carica e Tanto",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Vou contar-vos, hoje, a história desta carica. Não é uma carica qualquer. Desde que nascera que sabia que estava reservada para altos destinos. Descendia da lata, pois descendia, mas à lata não voltaria.",
+        "Amoldada, como milhares das suas irmãs, à boca de uma garrafa, foi à vida com a garrafa a que a juntaram.",
+        "Um dia, uma pressão - tche!"
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "E rua, chão... Chão com a carica que já não serve para nada.",
+        "Quem disse que já não serve para nada? Agora é que ela ia começar a viver. Que aventura!",
+        "Primeiro, foi moeda de troca. \"Dou-te uma carica destas. Dá-me duas das outras.\"",
+        "Andou por várias colecções, conheceu muitos bolsos, muitas mãos..."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Sentiu-se moeda de peso, das fortes, das que não se desvalorizam, libra, dobrão de ouro ou mais ainda.",
+        "Depois, conheceu o entusiasmo das corridas, na beira dos passeios. Ganhou provas, fez-se notar. Bastava um piparote e lá ia ela, a carica motorizada, a caminho da vitória."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Mas o melhor da festa, o seu dia de glória, foi quando medalhou o peito de um \"general\" de brincar por casa. Nesse dia, sentiu-se a estrela mais brilhante da constelação das caricas.",
+        "Se lhe perguntassem, então:",
+        "- Carica, quanto vales?",
+        "Ela responderia:",
+        "- Tanto ou mais do que peso."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "A minha fortuna está no que sirvo. Entrei em muitas corridas, participei em muitas colecções, viajei muito, conheci imensa gente. Não tenho preço. Fui moeda, peso, monóculo, prato, chávena, pires, taça, medalha, automóvel...",
+        "Para ser isto tudo e mais ainda, hás-de concordar que é preciso ter muita lata."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "157",
+      "term": "piparote",
+      "definition": "pancada com a cabeça do dedo médio ou índex, curvando-o sobre a face interna do polegar e soltando-o com força"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/01/10/pdf/3a5l57nubqug6tosd2lschqpij4mtq4r/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/01/10/html/52wbsgw6midmu75wv62pw4i2dgcya52s/historia.aspx",
+    "printPdf": "/recovered/0000/01/10/pdf/3a5l57nubqug6tosd2lschqpij4mtq4r/imprimir.pdf",
+    "archiveDay": "/recovered/0000/01/10/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

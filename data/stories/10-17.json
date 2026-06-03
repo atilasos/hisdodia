@@ -1,0 +1,45 @@
+{
+  "id": "10-17",
+  "month": 10,
+  "day": 17,
+  "dateLabel": "17 de Outubro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Trocas e Baldrocas",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/10/17/images/54iom7hau4te5xv2m2aqmlmdwf5rdzte/Imagens/icone.jpg",
+    "icon": "/recovered/0000/10/17/images/54iom7hau4te5xv2m2aqmlmdwf5rdzte/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/10/17/pdf/cbvlagzfvph3trweqanyhky2jsi7nhvm/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/10/17/html/qkttpqchw2s5zbf6yajdwluoluxzy2y6/historia.aspx",
+    "printPdf": "/recovered/0000/10/17/pdf/cbvlagzfvph3trweqanyhky2jsi7nhvm/imprimir.pdf",
+    "archiveDay": "/recovered/0000/10/17/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

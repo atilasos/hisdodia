@@ -1,0 +1,129 @@
+{
+  "id": "05-25",
+  "month": 5,
+  "day": 25,
+  "dateLabel": "25 de Maio",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O piquenique da Felisbela",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Por altura dos piqueniques na mata, a lebre Felisbela anda mais descuidada.",
+        "Onde há piqueniques não há caçadores. Em contrapartida, há comida à escolha, restos de salada, cascas de fruta e outros manjares fora do vulgar dia-a-dia de uma lebre fomenica.",
+        "Então depois dos domingos e dos feriados, a mata é uma mesa de banquete."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Andava a lebre Felisbela, numa matina de segunda-feira, na recolha regalada da comida para o resto da semana, quando viu, junto a um castanheiro, um enorme cesto de vime.",
+        "\"Alguém que o deixou esquecido\", pensou a lebre, sem estranhar a prenda."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "E logo a seguir veio-lhe à memória uma saladinha de frutas exóticas que provara de uma saladeira partida e abandonada por piqueniqueiros desleixados.",
+        "Não pensou mais. Levantou a tampa do cesto e atirou-se lá para dentro. Grande surpresa! Garras poderosas fincaram-se-lhe as orelhas.",
+        "- Apanhei-te - disse uma voz de meter medo."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Era o lobo, que urdira aquela armadilha para provar que os lobos não são tão tolos como, nas histórias, os descrevem.",
+        "O lobo triunfante ergueu-se do cesto e com a lebre bem presa dirigiu-se à fonte da mata.",
+        "- Não gosto de comer nada sem lavar primeiro - esclareceu o lobo. - Tomo muito cuidado com a minha alimentação."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- Prudente regra, senhor lobo - aprovou a lebre Felisbela. - Foi por não ter seguido esse preceito que estou como estou.",
+        "- E como é que tu estás, posso saber?",
+        "Em resposta, o lobo ouviu um fundo suspiro de desalento. Logo a seguir, um gemido de cortar o coração."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- Não te sentes bem? - perguntou o lobo, abrandando as tenazes das garras sobre as orelhas da lebre.",
+        "- Sob a protecção do senhor lobo sinto-me muito bem - respondeu a lebre, voltando a suspirar.",
+        "- Mas eu não estou a proteger-te. Vou matar-te não tarda.",
+        "- Quanto mais depressa melhor, senhor lobo."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Nem eu esperava outra coisa, quando levantei a tampa do cabaz, à sua procura.",
+        "- À minha procura? - admirou-se o lobo. - Pois tu sabias que eu estava lá dentro?",
+        "- Vi-o entrar. Por isso, fui ter consigo.",
+        "O lobo desconfiou:",
+        "- Estás a maquinar alguma, lebre. Isto já não me cheira bem."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "- Se já cheiro mal, a culpa é dos cogumelos - e a lebre, de propósito, largou uma bufa daquelas de agoniar até as moscas.",
+        "- Ui, que pivete! - queixou-se o lobo. - De que cogumelos falas?",
+        "- De uns venenosos, que comi, desprevenida - explicou a lebre."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "- Estou com umas cólicas que, se o senhor lobo não me mata depressa, cuido que rebento antes. Por isso me atirei para dentro da seira , para abreviar o sofrimento.",
+        "- Ó maldita - exclamou o lobo, enojado. - E escolheste-me a mim para carrasco? Tu não sabias que eu não como bichos doentes, ainda para mais envenenados."
+      ]
+    },
+    {
+      "layer": "html-layer-11",
+      "paragraphs": [
+        "O lobo arremessou a lebre para longe, o mais longe que pôde. Ainda a Felisbela ia no ar e já se estava a rir. Que grande desfeita ela pregara ao bronco do lobo! E salvara a vida..."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "480",
+      "term": "maquinar",
+      "definition": "imaginar / inventar / tramar"
+    },
+    {
+      "id": "481",
+      "term": "seira",
+      "definition": "cesto ou saco tecido de esparto"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/05/25/html/yjyabwdp4sidiu6vwplrqouox7q2rhee/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/05/25/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

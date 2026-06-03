@@ -1,0 +1,47 @@
+{
+  "id": "05-20",
+  "month": 5,
+  "day": 20,
+  "dateLabel": "20 de Maio",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "História de 20 de Maio",
+  "author": "António Torrado",
+  "illustrator": "Ilustrador original por confirmar",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/05/20/images/otfjfvb356nll7477tt5hofh5vnxbyvr/Imagens/entrada.jpg",
+    "icon": "/recovered/0000/05/20/images/otfjfvb356nll7477tt5hofh5vnxbyvr/Imagens/entrada.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/05/20/images/faf690eaaca9f11abb1f9139/imagens/entrada.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": null,
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/05/20/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

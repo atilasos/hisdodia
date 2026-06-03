@@ -1,0 +1,71 @@
+{
+  "id": "12-30",
+  "month": 12,
+  "day": 30,
+  "dateLabel": "30 de Dezembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Joca e Bolos",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O Joca, quando vai visitar a avó, vem de lá sempre de barriga cheia. É que a avó do Joca é doceira e tem uma casa de chá. A bem dizer, a casa é de bolos, com chá para ensopar os bolos.",
+        "- Já provaste este bolinho de amêndoas? - pergunta a avó do Joca ao Joca.",
+        "Mesmo que já tenha provado, o Joca volta a provar."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- Queres umas bolachinhas de manteiga? - pergunta a avó do Joca ao Joca.",
+        "Não havia ele de querer...",
+        "Mas a avó doce e terna não se esquece da filha, mãe do Joca, muito gulosa também. É de família.",
+        "- Vais levar para casa esta meia dúzia de nozes douradas, que acabei de fazer - diz a avó ao neto."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Ele não se incomoda com o peso, tanto mais que, a meio caminho, a meia dúzia está reduzida a metade... Quem já comeu três nozes entre uma casa e outra não poderá ainda, à porta de casa, comer mais uma? Pois pode.",
+        "- Trago-te uma noz dourada que mandou a avó - diz à mãe o Joca, um descarado.",
+        "- Só uma? - estranhou a mãe."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Não me digas que comeste as outras? Como fizeste isso?",
+        "- Fiz assim - e o Joca mete à boca a última noz do embrulho."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/12/30/images/pw7pl7zbwi6lc4q2jztjtvoind56ekty/Imagens/icone.jpg",
+    "icon": "/recovered/0000/12/30/images/pw7pl7zbwi6lc4q2jztjtvoind56ekty/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/12/30/pdf/ir5d47caety2uw4cpkyeytnabez6jany/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/12/30/html/ofy5ed4a2gt62fvxhmy6xxf6hpjp7y4n/historia.aspx",
+    "printPdf": "/recovered/0000/12/30/pdf/ir5d47caety2uw4cpkyeytnabez6jany/imprimir.pdf",
+    "archiveDay": "/recovered/0000/12/30/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

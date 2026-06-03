@@ -1,0 +1,89 @@
+{
+  "id": "08-04",
+  "month": 8,
+  "day": 4,
+  "dateLabel": "4 de Agosto",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Boa ideia, mãe",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Ele era muito distraído. Um cabeça-no-ar. Péssimo para fazer recados. Mas, mesmo assim, a mãe dele insistia:",
+        "- Ó Pedro, vai ali, se fazes favor, à mercearia do senhor Cosme e traz-me dois quilos de batatas.",
+        "O Pedro ia e voltava a correr com uma batata na mão.",
+        "- Então as outras? - perguntava a mãe."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- Já vou buscar, mãe - dizia o Pedro.",
+        "Nova corrida e nova batata. Trazia-as uma a uma...",
+        "- Ó filho, que trabalheira! Metia-las todas num saco e trazias, de uma só vez.",
+        "- Boa ideia, mãe. Para a próxima já sei."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "O recado seguinte tinha a ver com o porco, que tinha ficado em observação no veterinário, por causa de umas vacinas, e que a mãe não tivera ainda tempo de ir buscar. Mandou o filho.",
+        "Quando o rapaz regressou sem o bicho, a mãe admirou-se.",
+        "- Fui metê-lo num saco e ele não quis - explicou o Pedro."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Ó filho, trazia-lo para casa com um cordelinho amarrado pelo pé e tocáva-lo para diante com uma varinha.",
+        "- Boa ideia, mãe. Para a próxima já sei.",
+        "Pouco depois, a mãe mandou-o à feira para comprar um cântaro. Quando o Pedro chegou a casa trazia só a asa do cântaro, presa a um cordel."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "E ele, muito contente:",
+        "- Fiz como a mãe disse.",
+        "O que valia ao Pedro cabeça-no-ar é que a mãe tinha muita paciência. Ai dele se não tivesse!"
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/08/04/images/d25b5b62f874f678f0adff5f/imagens/background.jpg",
+    "icon": "/recovered/0000/08/04/images/afl6zs4fqqwja7jlpydiizobz7zozcjc/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/08/04/pdf/y22rfe4unv57kcutlp5ycoe46lcnogvu/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/08/04/audio/gx6tpaesnnjreg2kgfilrv4lypsdtog5/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/08/04/images/08ea57e9cecd89fc676e939a/imagens/icone.jpg",
+      "/recovered/0000/08/04/images/0c37d9a2b20db408fdca61e5/imagens/entrada.jpg",
+      "/recovered/0000/08/04/images/4kgh2i4gqitdhqpbnnuzxi33wjz2xrwu/Imagens/Background.jpg",
+      "/recovered/0000/08/04/images/5tosuf63c5gqf2i7n7vno5ulfnn4fyk5/Imagens/entrada.jpg",
+      "/recovered/0000/08/04/images/83a60677d227004e2751553f/propostas/icone.jpg",
+      "/recovered/0000/08/04/images/afl6zs4fqqwja7jlpydiizobz7zozcjc/propostas/icone.jpg",
+      "/recovered/0000/08/04/images/xp3cncosy4bkh5mwrgcdwdksbrfpag3u/propostas/sopa.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/08/04/html/3kzt3d3p7wrzobi43y2xohsxeydefb2i/historia.aspx",
+    "printPdf": "/recovered/0000/08/04/pdf/y22rfe4unv57kcutlp5ycoe46lcnogvu/imprimir.pdf",
+    "archiveDay": "/recovered/0000/08/04/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

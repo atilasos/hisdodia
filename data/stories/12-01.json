@@ -1,0 +1,89 @@
+{
+  "id": "12-01",
+  "month": 12,
+  "day": 1,
+  "dateLabel": "1 de Dezembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O Bolo-Rei",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O bolo-rei tomava-se muito a sério. Não havia discussão: ele era o rei dos bolos.",
+        "Como tal, quando lhe caiu uma passa da coroa, ordenou ao bolo-inglês:",
+        "- Traz-me essa passa de volta.",
+        "O bolo-inglês fez-se desentendido e respondeu:",
+        "- Sorry! I don't understand..."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "O que queria dizer na dele que pedia desculpa, mas não tinha entendido.",
+        "Então, o bolo-rei virou-se para um bolo de natas e deu a mesma ordem. Queria, outra vez, a passa a ornamentar-lhe a coroa.",
+        "O bolo de natas tinha uma fala atrapalhada, por causa do excesso de natas.",
+        "- Flá, plefe, pflu, pfló..."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Não se percebia nada.",
+        "O bolo-rei, muito irritado, ordenou ao bolo de amêndoa, que lhe respondeu:",
+        "- Também a mim me caiu uma amêndoa torrada e não me queixo."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "O bolo-rei, cada vez mais exasperado , deu a mesma ordem a um pudim de gelatina, mas o pudim de gelatina era muito frágil, muito nervoso e só tremeu, tremeu, incapaz de dizer ou fazer o que quer que fosse.",
+        "- São uns rebeldes estes meus súbditos - concluiu, numa grande exaltação, o bolo-rei. - Condeno-os a que sejam todos cortados às fatias."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "E assim aconteceu. Mas nem o bolo-rei escapou."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "28",
+      "term": "exasperado",
+      "definition": "zangado / irritado"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/12/01/images/a4o64tzgpipccenczdu22xfgtdvzgoyw/Imagens/Background.jpg",
+    "icon": "/recovered/0000/12/01/images/oqwfjx2avzem2h5naghwyjmjntyqnhee/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/12/01/pdf/yk3m4ql6cbn73hvbduh6lzfiyriomu37/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/12/01/audio/fcxbowq4tx6wmpvvlkyln5vbdbhu2hrx/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/12/01/images/4kyi7kou4urhh7esbveidqtzrwouht43/Propostas/velas.jpg",
+      "/recovered/0000/12/01/images/f5uotzt4ztcwttfewcku4547fo4kpn7g/Propostas/bolo1.jpg",
+      "/recovered/0000/12/01/images/fwxkvc27dhylyie5s5wafplkzni3acyk/Propostas/pixel.gif"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/12/01/html/mbu2pxyoxgn3mkk7pwgruygcgx3z2rij/historia.aspx",
+    "printPdf": "/recovered/0000/12/01/pdf/yk3m4ql6cbn73hvbduh6lzfiyriomu37/imprimir.pdf",
+    "archiveDay": "/recovered/0000/12/01/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

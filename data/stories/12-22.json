@@ -1,0 +1,78 @@
+{
+  "id": "12-22",
+  "month": 12,
+  "day": 22,
+  "dateLabel": "22 de Dezembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Sobremesa com Açúcar",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "- Eu gosto muito de arroz doce - disse um menino.",
+        "- Eu gosto mais de leite creme - disse outro menino.",
+        "Os dois resolveram fazer um inquérito, entre os colegas da aula. Descobriram, então, que dez eram adeptos do arroz doce e outros dez puxavam mais para o leite creme. Havia ainda três (a classe tinha vinte e cinco) que tanto se lhes dava arroz doce como o leite creme."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Do que eles gostavam era de bolo de bolacha.",
+        "Onze para um lado. Onze para outro. Está-se mesmo a ver a consequência: um jogo de futebol. Os três apreciadores do bolo de bolacha formavam a equipa de arbitragem. O jogo começou muito favoravelmente para o grupo dos Leite Creme, porque, logo ao primeiro minuto, um defesa dos Arroz Doce, num passe azarado, meteu um golo na própria baliza."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Um a zero a favor dos Leite Creme. Chegar ao empate custou algum esforço aos Arroz Doce, mas lá conseguiram.",
+        "Um a um, igualdade entre Leite Creme e Arroz Doce.",
+        "Nisto, o árbitro, sempre imparcial, marcou uma grande penalidade contra os Leite Creme, porque um Arroz Doce, dentro da grande área, tinha sido agarrado pela camisola.",
+        "Goooolo!"
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Dois a um, a favor dos Arroz Doce.",
+        "E ainda houve mais um goooolo, antes do intervalo. Três a um, a favor do Arroz Doce.",
+        "Na segunda parte, os Leite Creme recuperaram bem e o jogo terminou numa igualdade: três a três.",
+        "Mas, depois, o desafio teve que ser anulado. Porquê?"
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Porque se soube que um elemento, que alinhava pelos Leite Creme, dava, secretamente, a sua preferência ao Mousse de Chocolate e, lá na rua dele, jogava pelos Pudim Flan. Tinha mais olhos que barriga."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/12/22/images/lepldfibs2cxwncrycxiabd4vqqpx2m2/Imagens/icone.jpg",
+    "icon": "/recovered/0000/12/22/images/lepldfibs2cxwncrycxiabd4vqqpx2m2/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/12/22/html/yd76hc5jciovkc2qfs4ote7zovgjmmmq/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/12/22/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

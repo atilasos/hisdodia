@@ -1,0 +1,152 @@
+{
+  "id": "03-19",
+  "month": 3,
+  "day": 19,
+  "dateLabel": "19 de Março",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O preço certo",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um homem simples e bom que tinha muito orgulho na filha, em todos os seus dons, dotes, prendas, primores ou como queiram chamar às qualidades que enfeitam uma filha aos olhos de um pai embevecido .",
+        "- A minha Inês tudo em que toca transforma em ouro.",
+        "Maneira de dizer."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Mas um espião do rei entendeu aquela fala de ternura tal e qual. A seco. E foi dizer ao rei:",
+        "- Há uma menina que transforma tudo em ouro.",
+        "- Quero-a aqui - exigiu o rei, um ganancioso .",
+        "Foram buscá-la. Imagine-se a aflição daquele pai."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Trazida à presença coroada, de nada valeu à rapariga protestar que não era nada assim, que nunca soubera de bruxedos nem de magias que doiram as pedras do chão. Tomara ela dar conta da lida da casa e mantê-la asseada, para que o pai velho e viúvo sempre se sentisse bem.",
+        "O rei não acreditou."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Ou tu, fechada neste quarto, transformas a cama em que te deitares em ouro ou amanhã mando matar-te.",
+        "A menina chorou a noite toda.",
+        "De madrugada, por um primeiro raio de luz, que atravessou o quarto, escorregou um gnomo, vindo não se sabe de onde."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Põe-se muito empertigado diante de Inês e disse-lhe:",
+        "- O que é que tu me dás se eu te salvar?",
+        "Inês não tinha nada de seu. Nem colares nem pulseiras nem anéis. O que é que ela podia dar?",
+        "- Os teus cabelos - exigiu o gnomo.",
+        "- Queres que eu os corte? - perguntou a menina."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- Por enquanto, não. Mais tarde arrecado. E também quero a tua pele.",
+        "Inês arrepiou-se.",
+        "- E os teus dentes. E os teus olhos. Mas não quero agora. Depois mos dás.",
+        "Se não era para já, que havia de fazer? Inês consentiu."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Então o gnomo cortou o raio de sol por onde tinha vindo e, como se o raio fosse uma varinha de condão, com ele tocou a cama, que ficou feita de ouro. Depois, desapareceu.",
+        "O rei, quando entrou no quarto, deu pulos de contente. Claro que quis mais. Por vontade dele transformaria o reino todo, casas, montanhas, rios, pontes e até pessoas em ouro puro."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Ele nesta loucura, aos gritos, e um raio de sol a fazer-lhe a vontade. Se queria tudo em ouro, nada melhor do que começar o serviço por ele próprio. O raio de sol transformou o rei numa estátua de ouro, talvez não muito puro. Para aquele sôfrego a ambição chegara ao fim."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "Sucedeu-lhe um rei mais sensato, que deixou Inês em paz. Ela voltou para casa, onde o pai a recebeu em lágrimas.",
+        "A história podia acabar aqui, mas havia ainda a promessa por cumprir. Quando é que o gnomo voltaria, para intimá-la à paga combinada? Os cabelos. A pele. Os dentes. Os olhos."
+      ]
+    },
+    {
+      "layer": "html-layer-11",
+      "paragraphs": [
+        "Passou tempo. A airosa menina transformou-se numa mulher. Casou. Teve filhos. Os filhos, chegando a altura, deram-lhe netos. Ela sempre feliz.",
+        "Só uma gota de amargura, pela vida fora.",
+        "Se o gnomo aparecia, de repente? Não podia faltar ao preço que dera pela sua salvação."
+      ]
+    },
+    {
+      "layer": "html-layer-12",
+      "paragraphs": [
+        "Envelheceu, sempre acompanhada por este sobressalto. A pele esmoreceu-lhe. Muito rugosa, empergaminhada . Caíram-lhe os dentes. Rareavam os cabelos. Via cada vez pior.",
+        "Já não podia dar nada que prestasse, quando o gnomo viesse. Tão velhinha que estava.",
+        "Até que, um dia, percebeu."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "309",
+      "term": "embevecido",
+      "definition": "encantado / deliciado"
+    },
+    {
+      "id": "310",
+      "term": "ganancioso",
+      "definition": "ambicioso"
+    },
+    {
+      "id": "312",
+      "term": "empergaminhada",
+      "definition": "enrugada"
+    },
+    {
+      "id": "308",
+      "term": "primores",
+      "definition": "perfeições"
+    },
+    {
+      "id": "311",
+      "term": "intimá-la",
+      "definition": "ordenar-lhe / notificá-la"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/03/19/html/35kegxsxqkbahlrwbgxnexrt5bmi5qs5/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/03/19/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

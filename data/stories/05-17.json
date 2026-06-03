@@ -1,0 +1,83 @@
+{
+  "id": "05-17",
+  "month": 5,
+  "day": 17,
+  "dateLabel": "17 de Maio",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Recado",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Veio um balão, no sopro do vento. Trazia um fio pendurado e, na ponta do fio, um papel.",
+        "O fio embaraçou-se na rama da pereira do quintal. Parou de viajar o balão. O Flávio, que estava a estudar, levantou os olhos do livro e olhou pela janela. O balão acenou-lhe, num cumprimento leve.",
+        "\"Alguém que o perdeu\", pensou o Flávio."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Ele, que já não era menino de andar de balão preso à mão, mesmo assim foi ver mais de perto. Talvez pensasse em deixar o balão ir outra vez pelo ar... Talvez pensasse em esvaziar o balão e guardá-lo para outra ocasião..."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "O Flávio desceu ao quintal e trepou à pereira, que já o conhecia de equilibrismos mais antigos. Desembaraçou o fio e ia a largar o balão quando reparou no papel pendurado. E estava escrito. Que dizia ele?"
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Em letra aplicada, alguém escrevera:",
+        "Olá, amigo.",
+        "Se leres este papel, não o deites fora nem o desprendas do balão.",
+        "Larga outra vez o balão e deixa-o ir pelo ar, até chegar a outras mãos."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Este balão gosta de viajar e de mostrar que temos amigos em qualquer lugar.",
+        "É este o recado que o balão tem para dar, com um abraço de",
+        "um Amigo desconhecido"
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "O Flávio libertou o balão e ficou a vê-lo subir, ultrapassar o muro do quintal e, num golpe do vento, mudar de direcção, sabe-se lá para onde.",
+        "No dia seguinte, o Flávio comprou um balão. Para que seria?"
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/05/17/html/srk4dkfvrvc4vty4ruhoyc4ufijsvavb/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/05/17/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

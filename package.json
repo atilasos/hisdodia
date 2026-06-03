@@ -9,6 +9,7 @@
     "serve": "node src/site/dev-server.mjs",
     "recover:audio": "node src/recovery/recover-audio.mjs",
     "recover:archive": "node src/recovery/download-archive.mjs",
+    "recover:stories": "node src/recovery/build-stories-from-archive.mjs",
     "recover:manifest": "node src/recovery/build-manifest.mjs"
   }
 }

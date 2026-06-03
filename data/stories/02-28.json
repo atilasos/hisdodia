@@ -1,0 +1,77 @@
+{
+  "id": "02-28",
+  "month": 2,
+  "day": 28,
+  "dateLabel": "28 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Não sou capaz",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "A águia de penugem branca ainda não tinha saído do ninho. Via o pai e a mãe, num voo alto, rente às nuvens, e pensava: \"Nunca vou ser capaz\".",
+        "O pai e a mãe traziam-lhe comida no bico. A aguiazinha devorava os petiscos, gulosa.",
+        "- Não engulas tudo de uma vez, que ainda te engasgas - recomendava-lhe a mãe.",
+        "Mas a aguiazinha não queria saber."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Tinha fome, muita fome, uma fome insaciável, que ela não sabia controlar. Algumas penas de brancas passavam a cinzentas. O corpo ganhava elegância. As asas cresciam.",
+        "Os pais iam e vinham, num voo planado, que era a admiração da filha. \"Nunca vou ser capaz de fazer o mesmo\", pensava.",
+        "- Amanhã começas a aprender a voar - disse-lhe o pai."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Mas, nesse dia, choveu e a lição foi adiada. Os pais é que não desistiram de caçar. Deixaram-na só, no quente do ninho.",
+        "Estava ela aconchegada e contente pelo adiamento da lição, quando sentiu um roçar de perigo, nos ramos perto. Era uma serpente, que se desenroscava por um tronco, em direcção a ela."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "A aguiazinha piou, aterrorizada. Eriçaram-se-lhe as penas. Bateu as asas, para afugentar a intrusa de língua silvante. A serpente continuava a deslizar para ela, segura da presa. Ia armar o último salto. Ia destroçá-la. Ia comê-la.",
+        "Bateu a águia as asas com mais força e suspendeu-se no ar. Num impulso de pânico, largou o ninho. Ia cair. Não caiu."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Soltou-se no ar, a curta distância da árvore que abrigara o ninho. Sentiu uma tontura. Agarrou as patas a um ramo, mas o ramo cedeu. Agitou as asas com mais força e elevou-se nos ares. Tudo aquilo lhe parecia impossível. Ela voava.",
+        "Quando os pais regressaram, a aguiazinha, de asas distendidas, como se quisesse abarcar o céu num grande abraço, voou, feliz, ao seu encontro."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/02/28/pdf/jxvktzkotgboef43p2x6xj2mwyxrj4oh/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/02/28/audio/wdxf2btpnlhfefmiulfohlz6xjtrpn7f/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/28/html/o45bjte3ktgomovfe5d63px74bkeha2y/historia.aspx",
+    "printPdf": "/recovered/0000/02/28/pdf/jxvktzkotgboef43p2x6xj2mwyxrj4oh/imprimir.pdf",
+    "archiveDay": "/recovered/0000/02/28/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

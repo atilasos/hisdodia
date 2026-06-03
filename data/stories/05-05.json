@@ -1,0 +1,102 @@
+{
+  "id": "05-05",
+  "month": 5,
+  "day": 5,
+  "dateLabel": "5 de Maio",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A vassoura nova",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez uma vassoura que andava a estudar para aspirador. Mas sem grandes resultados, deixem-me que lhes diga.",
+        "Ela bem que se esforçava, nas aulas de Electricidade e, sobretudo, nas aulas de Ginástica respiratória. Inspirava... inspirava... só inspirava, mas pouco avançava na matéria."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Da avó, uma velha vassoura fora de uso, só ouvia palavras de desânimo:",
+        "- Cada um é para o que nasce, rapariga.",
+        "Ela revoltava-se:",
+        "- Não me enfrenesie com lamúrias, senhora. Vassourar toda a vida e, depois, acabar a um canto, como a avó, não contem comigo."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Eu nasci para outros voos.",
+        "Um dia, foi preciso uma vassoura para uma peça de teatro - uma história, que metia feiticeiras, daquelas de lenço e nariz de cavalete (de papelão, já se vê...). Eram bruxas à antiga, que cavalgavam vassouras e voavam no palco (a fingir, já se sabe...).",
+        "Escolheram a vassoura aspirante a aspirador."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Vê, avó, como eu tinha razão - disse a vassourinha. - Sempre vou mudar de vida.",
+        "Pois mudou. Voava pelos ares, como barra de trapézio, ao som da música e no meio das gargalhadas cacarejantes das senhoras feiticeiras da peça. Encandeada pelos projectores, fazia um figuraço."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "\"Se a minha avó aqui estivesse, havia de gostar\", pensava, muito orgulhosa, a vassoura.",
+        "Era pena, mas não estava. Por sinal que, lá em casa, tinha-se avariado o aspirador e quem, agora, fazia toda a lida da casa era a vassoura velha."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "\"Se a minha neta aqui estivesse, havia de me ajudar\", pensava, muito desconsolada, a avó vassoura.",
+        "Avó e neta acabaram por encontrar-se. Tinha terminado a carreira da peça e já o aspirador estava arranjado. Penduradas as duas, atrás da porta da despensa, descansavam das emoções e trabalhos."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "- Afinal, voltaste à mesma - dizia a vassoura velha à nova.",
+        "- Não voltei nada - respondia-lhe a neta. - Estou à apenas à espera que me contratem outra vez.",
+        "- Estás tão desempregada como eu - rematava a velha.",
+        "- Não estou nada. Agora sou uma actriz em férias, fique sabendo.",
+        "Tem muita genica a vassourinha."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "409",
+      "term": "enfrenesie",
+      "definition": "enerve / impaciente"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/05/05/images/q5xrg3n3k6vyhoc2w7p2yhq7xrsqrv7q/Imagens/Background.jpg",
+    "icon": "/recovered/0000/05/05/images/gjmqkk64x4hcz45icifmno5ntpql6uy5/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/05/05/audio/esszvnduhxavez4hzh2r5acte2ubwcpr/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/05/05/images/a9712f5002e81ba7b12e04a4/imagens/background.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/05/05/html/mwqmahiqbvvb2vwdi4kptv6mlxfw25eo/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/05/05/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

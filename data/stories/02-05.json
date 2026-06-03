@@ -1,0 +1,93 @@
+{
+  "id": "02-05",
+  "month": 2,
+  "day": 5,
+  "dateLabel": "5 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A Força da Pulga",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O homem das forças achou uma pulga. Prendeu-a entre os dedos e disse-lhe:",
+        "- És um ser insignificante e reles. Como te atreves a aparecer ao pé de mim, que sou o homem mais forte do mundo?",
+        "Respondeu a pulga:",
+        "- Fraca serei, mas, se eu quiser, levanto-te em peso. Aposto contigo.",
+        "O homem riu-se da prosápia da pulga."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Ia a castigá-la pelo atrevimento, mas ela escorregou-lhe pela polpa dos dedos e desapareceu.",
+        "Estava já o homem das forças a dormir, quando a pulga se chegou, de novo, a ele. Passeou pelos lençóis e procurou-lhe o quente do corpo. Num sítio azado , por altura dos rins, ferrou-lhe uma grande dentada."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "O homem, que estava no mais fundo do sono, mesmo assim, sentiu-se. Ergueu o corpo, apoiando-se na nuca e nos calcanhares e coçou, instintivamente, o lugar picado.",
+        "A pulga escapuliu-se-lhe às unhas e pregou-lhe outra ferroada, no mesmo sítio. Mais se arqueou o corpo do homem das forças, levantando ainda mais alto os lençóis que o cobriram."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Quem não soubesse a razão destes movimentos, acharia que o homem estava a ser soerguido e levado ao colo por uma escondida força, superior à dele.",
+        "E estava.",
+        "O homem das forças acordou, atormentado pela comichão, mas a pulga nem se deu ao trabalho de cobrar-lhe a aposta. Com certos casmurros, quanto menos conversas, melhor."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "E, aqui para nós, com aquelas duas chupadelas de sangue já se sentia bem paga..."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "122",
+      "term": "prosápia",
+      "definition": "vaidade / bazófia"
+    },
+    {
+      "id": "205",
+      "term": "soerguido",
+      "definition": "levantado / erguido"
+    },
+    {
+      "id": "204",
+      "term": "azado",
+      "definition": "oportuno / propício"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/02/05/images/vvnuqse5obuktq43rt2gtp2ne3ar2ycx/Imagens/Background.jpg",
+    "icon": "/recovered/0000/02/05/images/5snudno5hg7u3b4i2djygxcij4jzplsa/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/02/05/pdf/6n26phm3znvc7wqekw43v3detves3qiy/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/02/05/audio/9d994d18b4488c7c70a486c5/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/05/html/zefxx5gcvbcckf7yxb3c32wfa3e77f6u/historia.aspx",
+    "printPdf": "/recovered/0000/02/05/pdf/6n26phm3znvc7wqekw43v3detves3qiy/imprimir.pdf",
+    "archiveDay": "/recovered/0000/02/05/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

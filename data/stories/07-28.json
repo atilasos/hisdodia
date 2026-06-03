@@ -1,0 +1,47 @@
+{
+  "id": "07-28",
+  "month": 7,
+  "day": 28,
+  "dateLabel": "28 de Julho",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "História de 28 de Julho",
+  "author": "António Torrado",
+  "illustrator": "Ilustrador original por confirmar",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/07/28/images/mygu7xyrgk63s4jw4rfdty4xqcx7adlm/Imagens/icone.jpg",
+    "icon": "/recovered/0000/07/28/images/mygu7xyrgk63s4jw4rfdty4xqcx7adlm/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/07/28/images/b3a66eb077ce91e2a347ab26/imagens/icone.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": null,
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/07/28/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

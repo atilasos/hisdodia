@@ -1,0 +1,45 @@
+{
+  "id": "11-28",
+  "month": 11,
+  "day": 28,
+  "dateLabel": "28 de Novembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A Cegueira do Príncipe",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/11/28/images/khyp6jjrouhqdt4ig2a2tlwqspmdwbl3/Imagens/Background.jpg",
+    "icon": "/recovered/0000/11/28/images/ro7xpa3gp2zvlte7csxgzmv5cumztty2/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/11/28/pdf/bi53nhvegfzyysjlht66ikpdppc5wiog/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/11/28/audio/pvcoztjbiq3krut27kloorkhogsd2bj7/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/11/28/html/yrn55zlrvqad3mpehtmgu2vedqgp4em2/historia.aspx",
+    "printPdf": "/recovered/0000/11/28/pdf/bi53nhvegfzyysjlht66ikpdppc5wiog/imprimir.pdf",
+    "archiveDay": "/recovered/0000/11/28/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

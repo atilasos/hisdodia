@@ -1,0 +1,71 @@
+{
+  "id": "11-18",
+  "month": 11,
+  "day": 18,
+  "dateLabel": "18 de Novembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "As Moscas",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "60",
+      "term": "refastela",
+      "definition": "delicia"
+    },
+    {
+      "id": "61",
+      "term": "banqueteado",
+      "definition": "tratado à grande"
+    },
+    {
+      "id": "62",
+      "term": "remorder",
+      "definition": "cismar"
+    },
+    {
+      "id": "63",
+      "term": "fedúncias",
+      "definition": "pretensiosas / tolas"
+    },
+    {
+      "id": "64",
+      "term": "laricas",
+      "definition": "esfomeadas"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/11/18/pdf/wzgwe7uu6e2de7ijtuhuzfw3wfxp55wl/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/11/18/html/o76boa5zrmx3fytmka76qbf3th7tf5f6/historia.aspx",
+    "printPdf": "/recovered/0000/11/18/pdf/wzgwe7uu6e2de7ijtuhuzfw3wfxp55wl/imprimir.pdf",
+    "archiveDay": "/recovered/0000/11/18/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

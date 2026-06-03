@@ -1,0 +1,89 @@
+{
+  "id": "09-08",
+  "month": 9,
+  "day": 8,
+  "dateLabel": "8 de Setembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A biblioteca viva",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez, na Roma antiga, um homem muito rico, que gostava de exibir a sua riqueza em festas fabulosas. Mas havia um inconveniente.",
+        "Como o ricaço tivesse pouca instrução, com dificuldade acompanhava as conversas dos seus convidados, que apreciavam falar de literatura e de outros assuntos desenvolvidos em livros, que ele desconhecia."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Apercebendo-se disso, ordenou ao governante do seu palácio que escolhesse uns tantos escravos inteligentes e de boa memória. Para quê? Para obrigar cada um deles a decorar um livro. Queria assim provar que os livros eram dispensáveis, desde que se dispusesse de escravos capazes de os saber de cor e salteado."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "A aprendizagem dos escravos demorou, mas ao fim de algum tempo este homem muito rico podia orgulhar-se de possuir a única biblioteca viva de todo o Império romano."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Sempre que queria mostrar que não ficava atrás dos seus convidados mais cultos, o homem muito rico batia palmas e chamava, pelo nome da obra, o escravo que a tinha decorado. Tanto podia ser a \"Ilíada\", como a \"Odisseia\" ou a \"Eneida\". O escravo recitava-a, fosse do princípio, fosse do meio, fosse do fim para o princípio."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "De uma vez, estava o homem muito rico à conversa com alguns poetas e escritores, e quis embasbacá-los.",
+        "- Conheço uma passagem da \"Ilíada\", que vem a propósito do que estávamos a conversar - disse ele, enquanto batia palmas - Chamem o \"Ilíada\".",
+        "Mas o escravo que sabia a \"Ilíada\" não apareceu."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- Que se passa? - perguntou o homem muito rico, estranhando a demora.",
+        "O governante do palácio, aflito, ajoelhou-se aos pés do seu exigente patrão e balbuciou:",
+        "- Perdoai-me, senhor, mas o \"Ilíada\" está com dores de barriga."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Parece que foi a partir deste incidente que o homem muito rico se resolveu a ganhar instrução pelos seus próprios meios."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/09/08/images/j4tpgwosg74mpjxo67422xx6ucls4byg/Imagens/Background.jpg",
+    "icon": "/recovered/0000/09/08/images/caih6wwdeu5cnar22njiqr272flbuhs4/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/09/08/audio/b1c969e964b7c7f2a8990e67/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/09/08/images/656634d19dcaf5fc28209cbd/imagens/icone.jpg",
+      "/recovered/0000/09/08/images/6d4fddac2de00026dbfd9c32/imagens/background.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/09/08/html/p322i5hwojbt4wssyptokshunujqdhxr/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/09/08/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

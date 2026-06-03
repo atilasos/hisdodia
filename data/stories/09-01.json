@@ -1,0 +1,89 @@
+{
+  "id": "09-01",
+  "month": 9,
+  "day": 1,
+  "dateLabel": "1 de Setembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O macaco Umbelino",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Vocês conhecem a história daquele macaco que do rabo fez navalha, da navalha fez sardinha, da sardinha fez farinha, da farinha fez menina, da menina fez viola, frum-frum-frum e foi para Angola? Claro que conhecem.",
+        "Pois o macaco mariola, que por sinal se chama Umbelino, escreveu-me há tempos, a dar notícias. E que notícias!"
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "As aventuras por que ele tem passado davam um filme. Para já, soube que não se tinha ficado por Angola.",
+        "Andou a conhecer o resto de África, não como turista, mas como macaco. Macacos é o que mais há em África, embora com viola às costas, pelo meio da selva, não seja muito frequente."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Talvez tenha sido por isso, para não dar nas vistas, que ele abandonou a música. E, ao fim de calcorrear muita terra, empregou-se, já não sei onde, como criado de mesa.",
+        "De casaca lustrosa, calças de risquinha, muito bem vincadas, meias de seda e sapatos de polimento, o macaco Umbelino era um criado de mesa impecável."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Não fosse ele tão bem mandado, que talvez ainda hoje estivesse a servir no mesmo hotel, como chefe de mesa, sabe-se lá..."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Mas calculem que, um dia, ouviu um cliente, a quem acabara de entregar a conta do jantar, dizer, muito espantado com o preço:",
+        "- Este dinheiro todo por uma comida fria e sem graça, em que mal toquei. Parece impossível. Macacos me mordam, se percebo isto."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "O Umbelino, que era macaco e obediente, ao ouvir aquilo dos macacos me mordam, mordeu. Foi o cliente tratar-se ao hospital e foi ele posto na rua. E depois?",
+        "Depois, um dia destes, conto mais histórias do macaco Umbelino. Ele, de vez em quando, escreve-me."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Tem uma letra um bocado esquisita, parecem macacos à solta, mas eu entendo-o. Aliás, devo ser o único que entende as cartas do macaco Umbelino."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/09/01/images/oqj2ot32iwgzkbnx5xt73lou3znhpln2/Imagens/Background.jpg",
+    "icon": "/recovered/0000/09/01/images/ropnohby3u4bu6vlhen6jpddq72df2yx/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/09/01/audio/dca84bf8d42abc86af11d8d2/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/09/01/images/b6fc208b7ecce90230974010/imagens/icone.jpg",
+      "/recovered/0000/09/01/images/d76d6352a69912c1085f108f/imagens/background.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/09/01/html/vy22ydycdcsibxyfnjzvamqbttzeu5vd/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/09/01/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

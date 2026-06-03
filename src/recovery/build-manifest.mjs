@@ -17,9 +17,10 @@ export async function buildManifest({ storiesDir }) {
       id: story.id,
       title: story.title,
       dateLabel: story.dateLabel,
-      hasRecoveredText: story.textSegments.some((segment) => segment.paragraphs.length > 0),
-      hasOriginalIllustration: Boolean(story.assets.background || story.assets.icon),
+      hasRecoveredText: story.recovery?.text !== 'pending-extraction' && story.textSegments.some((segment) => segment.paragraphs.length > 0),
+      hasOriginalIllustration: Boolean(story.assets.background || story.assets.archiveBackground || story.assets.icon || story.assets.archiveIcon || story.assets.gallery?.length),
       hasOriginalAudioReference: Boolean(story.assets.originalAudioSwf),
+      hasRecoveredAudio: Boolean(story.assets.recoveredAudio),
       hasRerecordedAudio: Boolean(story.assets.rerecordedAudio),
       hasPdf: Boolean(story.assets.printPdf),
       completeness: story.recovery.completeness
@@ -33,15 +34,15 @@ function formatMarkdownTableCell(value) {
 
 export function renderRecoveryReport(manifest) {
   const rows = manifest.stories.map((story) => (
-    `| ${formatMarkdownTableCell(story.id)} | ${formatMarkdownTableCell(story.title)} | ${formatMarkdownTableCell(story.completeness)} | ${story.hasRecoveredText ? 'yes' : 'no'} | ${story.hasOriginalAudioReference ? 'yes' : 'no'} | ${story.hasRerecordedAudio ? 'yes' : 'no'} |`
+    `| ${formatMarkdownTableCell(story.id)} | ${formatMarkdownTableCell(story.title)} | ${formatMarkdownTableCell(story.completeness)} | ${story.hasRecoveredText ? 'yes' : 'no'} | ${story.hasOriginalIllustration ? 'yes' : 'no'} | ${story.hasOriginalAudioReference ? 'yes' : 'no'} | ${story.hasRecoveredAudio ? 'yes' : 'no'} | ${story.hasRerecordedAudio ? 'yes' : 'no'} |`
   ));
   return [
     '# Recovery Report',
     '',
     `Total stories in manifest: ${manifest.totalStories}`,
     '',
-    '| Date | Title | Completeness | Text | Original audio ref | Rerecorded audio |',
-    '| --- | --- | --- | --- | --- | --- |',
+    '| Date | Title | Completeness | Text | Illustration | Original audio ref | Recovered audio | Rerecorded audio |',
+    '| --- | --- | --- | --- | --- | --- | --- | --- |',
     ...rows,
     ''
   ].join('\n');

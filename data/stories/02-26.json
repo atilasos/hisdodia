@@ -1,0 +1,98 @@
+{
+  "id": "02-26",
+  "month": 2,
+  "day": 26,
+  "dateLabel": "26 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A galinha avarenta",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez uma galinha avarenta . Punha ovos de ouro, mas não os dava a ninguém. Guardava-os para ela. Escondia-os.",
+        "Os donos da galinha queixavam-se:",
+        "- Esta galinha não paga o que come. Se assim continua, sem pôr ovos, ainda acaba em canja...",
+        "Mal eles sabiam do tesouro que a galinha já tinha arrecadado no mato, num sítio que só ela conhecia..."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "\"As outras galinhas que ponham ovos vulgares, de gema e clara. Eu não sou dessas\", sentenciava a galinha, muito de si para si.",
+        "Os donos ameaçavam-na, de faca na mão:",
+        "- Se até amanhã não pões um ovo que se veja, estás condenada.",
+        "Ela percebeu a ameaça e pôs um ovo que se visse. Um ovo de prata. Os de ouro eram só para ela."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "- Que magnífica galinha! - exclamaram os donos, quando viram a prenda.",
+        "Foi uma vez sem exemplo.",
+        "\"Dar os meus ovos de ouro a estes matutos não dou\", pensava a galinha.",
+        "E continuou, secretamente, a pôr ovos de ouro só para ela. Os donos aborreceram-se:"
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Afinal o raio da galinha não presta para nada. Pôs um ovinho de prata, faz que tempos, e nunca mais... Temos de dar cabo dela.",
+        "A galinha ouviu-os e pôs um ovo. De cobre. Achava que aquela gente nem os de prata merecia. Não gostava nada de repartir esta galinha. Era só mais a mim, mais a mim... Uma somítica ."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Os donos viram o ovo de cobre e zangaram-se.",
+        "- Esta galinha anda a troçar de nós...",
+        "E, no dia seguinte, comeram-na assada com batatas.",
+        "O tesouro dos ovos de ouro continua escondido no mato, sem que ninguém o aproveite."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "263",
+      "term": "avarenta",
+      "definition": "sovina / forreta"
+    },
+    {
+      "id": "264",
+      "term": "matutos",
+      "definition": "provincianos / que vivem no mato"
+    },
+    {
+      "id": "265",
+      "term": "somítica",
+      "definition": "mesquinha / forreta / sovina"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/26/html/jgt5v3cs7b4jvtkbhtfkq2za5lrpopcn/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/02/26/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

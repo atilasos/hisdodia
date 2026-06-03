@@ -1,0 +1,88 @@
+{
+  "id": "04-01",
+  "month": 4,
+  "day": 1,
+  "dateLabel": "1 de Abril",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O risco das mentiras",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Um senhor disse:",
+        "- Macacos me mordam, se o que eu digo não se passou assim mesmo...",
+        "Como não se tinha passado assim, nem tão-pouco mais ou menos, veio um macaco e mordeu-o.",
+        "Um outro senhor disse:",
+        "- Raios me partam, se não é assim tal como eu conto..."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Como não era assim tal como ele contava, nem sequer parecido, veio um raio e partiu-o.",
+        "Um terceiro senhor disse:",
+        "- Ponho as mãos no fogo como falei toda a verdade...",
+        "Como não tinha falado toda a verdade, nem sequer um bocadinho, veio o fogo e queimo-o."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "O senhor mordido, o senhor partido e o senhor queimado encontraram-se os três, no mesmo hospital. O médico que os atendeu quis primeiro saber o que se tinha passado. Os senhores contaram e, desta vez, sem tirar nem pôr, contaram a verdade por inteiro."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Logo ali, o que tinha sido mordido sarou da mordidela, o que se tinha partido voltou a ficar inteiro, o que se tinha queimado curou-se da queimadura.",
+        "Saíram do hospital muito contentes e nunca mais juraram falso.",
+        "Acreditam? Não acreditam?",
+        "Pois foi assim tal e qual como eu conto."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Que me caia o tecto em cima, se não é verdade!",
+        "Sobre a folha de papel da minha história, começa a cair caliça ... E cada vez em maior quantidade... Por que será?"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "335",
+      "term": "caliça",
+      "definition": "fragmentos de cal soltos das paredes e tectos velhos"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/04/01/images/bdeexb6vkaqr76qvzfvjssi4xtnlsg4s/Imagens/Background.jpg",
+    "icon": "/recovered/0000/04/01/images/palfcyoabk4zolptrwtbc4a7butcomzf/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/04/01/pdf/vuhoceweijk3ehqz4ndtjabkpjtq2j3g/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/04/01/audio/5cw3lzwowxhqsjayp4d74omsyognbjpb/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/04/01/images/7b0ec1ec6a5bad8f50118165/imagens/background.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/04/01/html/yvt5m62d3hgtgvere3zp5tjhvqptz2hu/historia.aspx",
+    "printPdf": "/recovered/0000/04/01/pdf/vuhoceweijk3ehqz4ndtjabkpjtq2j3g/imprimir.pdf",
+    "archiveDay": "/recovered/0000/04/01/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

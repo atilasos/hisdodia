@@ -1,0 +1,57 @@
+{
+  "id": "10-20",
+  "month": 10,
+  "day": 20,
+  "dateLabel": "20 de Outubro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A Vida",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "22",
+      "term": "fiapo",
+      "definition": "fio ténue / fiozinho"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/10/20/images/db5vlo36vuda7itgq7v4muvop7o3zr6u/Imagens/Background.jpg",
+    "icon": "/recovered/0000/10/20/images/qlrrty6qg63edzozscrqtbflhdj3yi2n/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/10/20/pdf/oye7pus4r45freiqqqhw3q6ddbvf7fmg/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/10/20/audio/3tbkno4ffhbiqskbackv5oa6r2qjoqfq/dois.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/10/20/images/c24ei3cpxnst4ijx64oqilb74xix4c5f/Propostas/sopa_ico.gif",
+      "/recovered/0000/10/20/images/fwxkvc27dhylyie5s5wafplkzni3acyk/Propostas/pixel.gif",
+      "/recovered/0000/10/20/images/l7qc3amwwtsfczv6urkydxfpkdjoljp3/Imagens/entrada.jpg",
+      "/recovered/0000/10/20/images/pj2xzuqinglfgajnt7xen6ysq4bklzq3/Propostas/semente1.jpg",
+      "/recovered/0000/10/20/images/sh3tmprgbijjr4tzqc5mwuudojuoemnn/Propostas/jogo2.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/10/20/html/tjawjmi2xu54kdekvppddljmxveedwb5/historia.aspx",
+    "printPdf": "/recovered/0000/10/20/pdf/oye7pus4r45freiqqqhw3q6ddbvf7fmg/imprimir.pdf",
+    "archiveDay": "/recovered/0000/10/20/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

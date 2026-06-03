@@ -1,0 +1,101 @@
+{
+  "id": "06-19",
+  "month": 6,
+  "day": 19,
+  "dateLabel": "19 de Junho",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Queda para o negócio",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Um rato, que andava a viajar, chegou, a certa altura, à margem de um rio profundo. Nem ponte nem barco.",
+        "Uma rã, que andava por ali, ofereceu-se para levá-lo até ao outro lado. Como paga pelo serviço pedia vinte mosquitos.",
+        "- Mosquitos não tenho, que não é moeda do meu uso - disse-lhe o rato."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- Mas se aceita o câmbio, disponho de notas de mais valor, na minha bagagem. Quer receber duas fatias de queijo pelo trabalho?",
+        "- Três - respondeu a rã, que tinha queda para o negócio.",
+        "O rato acedeu. Também não lhe restava outra alternativa...",
+        "A rã pôs-se a nadar, com o rato encavalitado no dorso."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Faltavam talvez dois terços da viagem, quando a rã disse:",
+        "- Afinal você pesa mais do que eu supunha. Levo quatro fatias pelo transporte.",
+        "O rato, que não sabia nadar, olhou para a água, em corrente assustadora, e disse que sim. Nem tinha outro remédio."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Mais adiante, voltou a rã:",
+        "- Estive a pensar que quatro fatias não chegam. Ficamos em cinco. O que é que acha?",
+        "O rato atemorizado achou bem. Se achasse mal, o que o esperaria?",
+        "Estavam a chegar ao sítio mais fundo do rio.",
+        "- Amigo rato, vamos concluir o negócio."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Eu por doze fatias levo-o à outra margem. Combinado?",
+        "- Combinado... - disse o rato, a tremer de medo.",
+        "E assim continuaram, até terem a margem à vista. Mais calmo, o rato falou assim:",
+        "- Eu não sou de regatear, mas sobre aquela nossa conversa de há bocado, compete-me dizer que acho o seu preço muito pesado.",
+        "- Mau!"
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- sobressaltou-se a rã. - Então em que ficamos?",
+        "Estava a margem à largura de um salto. Foi o salto que o rato deu, salpicando-se todo. Mas estava em terra firme.",
+        "- Então, afinal, em que ficamos? - perguntou a rã, a boiar de bruços."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "- Eu fico aqui, agora você vá para onde lhe apetecer, que não quero ser eu a mandá-la - respondeu o rato.",
+        "E desapareceu, pelo meio de uns caniços.",
+        "- Já me tinha constado que se não deve concluir negócios com ratos - disse de si para si a rã. - São muito pouco honestos...",
+        "E o que diria o rato, se pudéssemos ouvi-lo?"
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/06/19/html/nm2eodliihjqe3j4qbmrxadjhpmko46s/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/06/19/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

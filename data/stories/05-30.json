@@ -1,0 +1,87 @@
+{
+  "id": "05-30",
+  "month": 5,
+  "day": 30,
+  "dateLabel": "30 de Maio",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Se ele estivesse acordado",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O pintainho Besnico só conhecia a rede cinzenta da capoeira, onde tinha nascido. Por isso, quando, uma vez, se escapuliu por um buraco da rede e deu os primeiros passos à luz do Sol, foi um espanto.",
+        "A mãe galinha bem o tinha avisado: \"Nunca saias sem mim. Lá fora há muitos perigos que tu não conheces. Nunca saias sem mim!\""
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Mas ele saiu. Desobedeceu, o maroto! A verdade é que, pouco tempo depois, estava de volta, muito afogueado , muito exaltado com tudo o que tinha visto.",
+        "A mãe, primeiro, zangou-se, mas, depois, em voz mais macia, quis saber porque vinha tão nervoso da corrida pela eira da quinta."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "- Ai, a mãezinha tinha razão - respondeu-lhe o pintainho Besnico. - Há muitos perigos lá fora, muitos bichos esquisitos, grandes, que metem medo. Vi um muito grande, às malhas pretas e brancas, com dois paus na cabeça e um rabo sempre a dar a dar. Que susto!",
+        "- É a vaca! - explicou a mãe. - Daí não vem mal nenhum."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "As vacas não fazem mal aos pintos.",
+        "- E um, cinzento, de grandes orelhas, que batia as patas no chão com toda a força e mostrava os dentes amarelos, enquanto comia a erva do pátio, esse deve ser dos piores, não é?",
+        "- O burro? - riu-se a mãe. - Desse lado também não há que temer. Os burros não ligam aos pintos."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- E eu que pensava que eram perigosos! - suspirou, aliviado, o pintainho Besnico. - Mas também vi um muito simpático. Estava a dormir ao sol. Tinha uns enormes bigodes, focinho miúdo, orelhas pequenas e o corpo muito fofo, de pêlo amarelo às riscas, muito bonito. Estive quase tentado a dar-lhe uma bicada, de brincadeira..."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- Nunca! - gritou-lhe a mãe, toda arrepiada. - Esse bicho chama-se gato e, se estivesse acordado, não sei o que seria de ti...",
+        "A mãe galinha apertou contra ela aquele filhinho inocente, que ainda tinha tanto para aprender na vida, enquanto repetia vezes sem conta: \"Ai, se ele estivesse acordado o que seria de ti... Ai, se ele estivesse acordado...\""
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "490",
+      "term": "afogueado",
+      "definition": "corado / ardente / cansado"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/05/30/html/e7jwvrk7oev2dbntplz6pmf73sajmgru/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/05/30/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

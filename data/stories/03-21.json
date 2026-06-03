@@ -1,0 +1,89 @@
+{
+  "id": "03-21",
+  "month": 3,
+  "day": 21,
+  "dateLabel": "21 de Março",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Da erva à árvore",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Eram dunas e dunas, a perder de vista. Montes de areia para o vento brincar...",
+        "Hoje, fazia uma duna maior aqui, amanhã apagava-a, para fazê-la mais além e, sempre segundo os seus caprichos, onde estavam montes, cavava vales, onde estavam vales, amoldava montes. O vento era uma vassoura enorme."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Cabeleiras dóceis de ervinhas rasteiras deixavam-se pentear, despentear, ao sabor do vento gigante. Ele é que mandava.",
+        "Uma delas, à beira de um tojo só picos, cresceu. Delgadinha que era arriscou-se à vida. Rompera a areia e apontava para cima. Ela lá sabia."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "De dentes a ranger, o vento passou. Partiu-se o tronquinho? Não se partiu. Fincava as raízes, segurava-se com toda a força e, quando o vento descia, inclinava-se à vontade dele. Tinha de ser assim.",
+        "Lá se foi aguentando. O vento, a princípio, nem dava por ela. Era uma erva como as outras."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Senhor daquelas dunas, o que ele queria era disciplina, ordem, submissão. A erva, que erva afinal não era, submetia-se. Óptimo.",
+        "Foi crescendo e o vento sem dar por ela. Era um tronco já, uma árvorezinha de Natal para casa de bonecas. Outras ervinhas como, dantes, ela tinha sido, despontavam também, na mesma duna."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Ali havia uma pequena nação de pinheiros novos. A ordem era: persistir. Por enquanto, persistir. Resistir, seria para depois. E foram vingando.",
+        "Quando o vento deu por eles, teve uma grande cólera e soprou, dias a fio, sobre a duna, donde nascia, miudamente, frágil ainda, um sinal de rebeldia ao seu poder."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Nada conseguiu. Os pinheiros sabiam que eram pinheiros.",
+        "Tinham raça e coragem para fazer frente ao vento.",
+        "Uns e outros, os maiores e os mais pequenos, começaram a olhar para a sombra. Alastravam para outras dunas. Guerreiros chamavam por outros guerreiros e desafiavam o vento. \"Nada podes contra nós\", gritavam-lhe."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "O maior, o chefe, o mais velho, que da erva se fez tronco, do tronco se fez árvore, comandava a defesa e dizia aos mais novos, nas alturas em que o vento lhes fazia ranger os ramos: \"Aguentem, que já passámos por pior\". Eles aguentavam.",
+        "E foi assim que o vento, o gigante caprichoso que dantes arrasava dunas, teve de deixar de fazer castelos na areia."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/03/21/html/x5zqnchuil7yf2wr5auwfx6kwlgs4xlm/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/03/21/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

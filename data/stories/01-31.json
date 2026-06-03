@@ -1,0 +1,99 @@
+{
+  "id": "01-31",
+  "month": 1,
+  "day": 31,
+  "dateLabel": "31 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Dona Florinda das Sete Chaves",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Em casa da Dona Florinda não havia nada aberto.",
+        "Claro que a porta da rua estava sempre fechada. E a sete chaves. Até aqui tudo certo.",
+        "Mas fechadas também estavam a porta da despensa, a porta do quarto de arrumações, a porta do quarto da Dona Florinda, a porta da casa de banho, a porta da cozinha, a porta da salinha, a porta do salão."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "A Dona Florinda andava sempre com um molho de chaves à cinta. Por cada porta que fechava, por cada volta que dava a uma fechadura, a Dona Florinda dizia \"Trru, está fechada!\" Muito contente.",
+        "A gente nem percebia qual o motivo de tanto cuidado. Seria que a Dona Florinda não queria deixar entrar o ar lá em casa?"
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Seria que a Dona Florinda não queria deixar sair o ar lá de casa? Ou seria que a Dona Florinda tinha medo que o ar lá de casa apanhasse correntes de ar?",
+        "Vivia sozinha a Dona Florinda. Com aquele feitio de tudo fechar, de tudo guardar bem fechado, a Dona Florinda claro que não podia viver acompanhada.",
+        "Para as gavetas tinha outro molho com todas as chavinhas."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "E por cada gaveta fechada a Dona Florinda também dizia: \"Trru, está fechada!\"",
+        "Mas onde é que a Dona Florinda guardava as chaves, quando à noite se deitava? Guardava numa caixinha, que fechava e metia dentro de uma caixa, que fechava e metia dentro de uma gaveta, que fechava e... \"Trru, está fechada!\", mais nada."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "As três chaves, a da gaveta, a da caixa e a da caixinha, pendurava-as num fio que usava sempre ao pescoço, quer de dia quer de noite. Coitada!",
+        "Um dia, como se está mesmo a ver, o fio partiu-se e a Dona Florinda perdeu as chaves. Sumiram-se as três chaves que abriam a gaveta, a caixa e a caixinha, a tal caixinha onde estavam guardadas todas as outras chaves. Que fazer?"
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "E tudo fechado...",
+        "Sim, que fazer? Arrombar a gaveta, rebentar a caixa, partir a caixinha e recuperar as outras chaves. Depois abrir as portas, as gavetas, os armários, de par em par. Isto faria qualquer pessoa, que não fosse a Dona Florinda.",
+        "Desesperada de procurar as três chaves, mães das outras todas, a Dona Florinda abriu a única porta que tinha à mão."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "A da varanda. E pôs-se a gritar:",
+        "- Estou fechada. Socorro. Estou fechada.",
+        "Vieram os bombeiros, lançaram a escada e trouxeram a Dona Florinda da varanda à rua.",
+        "E agora? Agora a Dona Florinda anda à procura de um nova casa onde morar - uma casa com novas fechaduras, novas chaves."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "E a casa antiga da Dona Florinda? Essa, definitivamente, trru, está fechada."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/01/31/pdf/lfu4vy7pnnzgbceesmulid55rwht5c7j/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/01/31/audio/a0135927b6d8c4c1e0a3769c/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/01/31/html/bbf17490accb8cc5e4ad2ea9/historia.aspx",
+    "printPdf": "/recovered/0000/01/31/pdf/lfu4vy7pnnzgbceesmulid55rwht5c7j/imprimir.pdf",
+    "archiveDay": "/recovered/0000/01/31/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

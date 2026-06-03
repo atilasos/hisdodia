@@ -1,0 +1,117 @@
+{
+  "id": "02-18",
+  "month": 2,
+  "day": 18,
+  "dateLabel": "18 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A bola de pingue-pongue",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez uma bola de pingue-pongue.",
+        "Um dia, a bola de pingue-pongue disse assim:",
+        "- Já chega de andar aos trambolhões de um lado para o outro: encontrão daqui, safanão ali, toma lá, dá cá e volta ao princípio, numa roda viva entres duas senhoras raquetes. Afinal nunca passo da mesma mesa."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Realmente, aquela vida de tão, badalão, e torna e deixa o pingue e pongue e pongue e pingue cansava qualquer um, quanto mais uma bola de pingue-pongue com aspirações a outros voos...",
+        "- Ainda se fosse uma bola de futebol - suspirava ela. - Corria o campo de lés a lés e, quando fugisse para dentro das redes, punha tudo a gritar: goooolo! Era mais emocionante."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Mas, mesmo assim, deve haver melhor destino.",
+        "É que havia mesmo. E a pequenina bola de pingue-pongue queria conhecê-lo. Ser bola de futebol, de basquetebol não lhe bastava. O que ela queria era correr mundo!",
+        "E foi. Saltaricou da mesa para o chão, desceu escadas, escorregou por colinas, e foi ter - vejam bem a sorte que ela teve!"
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- e foi ter a um sítio muito especial, que era assim a modos que um centro espacial. Deste centro especial espacial atiravam para os céus bolas e bolinhas, que uma vez lá de cima, a dançar no meio dos astros, lançavam para a terra uns sinais esquisitos - bip! bip! bip! - como se fossem grilos... Mas não eram grilos essas bolas espaciais. Eram satélites dos artificiais."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- Se as outras conseguem, também eu hei-de conseguir - pensou a bola de pingue-pongue.",
+        "Ela que sabia dizer \"pingue\" e \"pongue\", e \"pongue\" e \"pingue\", depressa aprendeu a dizer \"bip!\" \"bip!\" \"bip!\". Não custava nada.",
+        "E lá foi pelos ares, viajante do espaço, à roda do mundo, tão redondo como ela.",
+        "- Ena tantas bolas!"
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- exclamou a bola de pingue-pongue, quando se viu lá no alto, a rodar entre planetas. - Afinal somos todas da mesma família. Umas maiores, outras mais pequenas, mas redondas todas. Que seria do mundo, se não fossem as bolas...",
+        "E, de contente que estava, soltou um \"bip! bip!\" mais forte, que atravessou o espaço e atarantou as estrelas lá do fundo."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "- Tirem-me de ao pé de mim este satélite maluco. Não consigo dormir em paz - gritou a Lua, que é assim uma espécie de bola de pingue-pongue, mas em grande.",
+        "Os sábios fizeram a vontade à Lua e mandaram descer a nossa bolinha de pingue-pongue.",
+        "- Estou satisfeita - contou a bola, ao regressar à Terra."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "- Vi o que queria e fiquei consolada de ver tantas bolas irmãs a navegar pelo céu. Agora quero repousar.",
+        "Mas onde? Numa gaveta não parecia bem. Era um fim pouco digno para uma bola que correra tantas aventuras."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "Então um dos sábios, olhando para o calmo jardim do centro espacial, teve uma ideia - ou não fosse ele um sábio...",
+        "Equilibrou-a no alto de um repuxo no meio do tanque do jardim.",
+        "Depois de ter visto tudo, de ter rolado e saltitado pelo espaço além, a bola descansa, a recordar o que vira. E suspira, satisfeita:",
+        "- Está-se bem aqui."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "237",
+      "term": "saltaricou",
+      "definition": "saltitou"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/02/18/images/w3jbgmub57a7f36mkocs2blh7gulhzwt/Imagens/background.jpg",
+    "icon": "/recovered/0000/02/18/images/oimmhph3wtha4f2ltif6dfnpfggnlurj/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/02/18/audio/we43pkyqfpswutdasto3r5xfvzkwe52n/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/02/18/images/60dd6fb8593022b4852a2719/imagens/background.jpg",
+      "/recovered/0000/02/18/images/jrgmhz4vyrlprazk3vsyklcq76iydma2/Imagens/background2.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/18/html/3s3yzykzqea4t42kkbh6x2shb3jenfk5/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/02/18/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "10-12",
+  "month": 10,
+  "day": 12,
+  "dateLabel": "12 de Outubro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A Menina e o Burro",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "15",
+      "term": "bulindo",
+      "definition": "Agitando-se levemente."
+    },
+    {
+      "id": "16",
+      "term": "ramalhando",
+      "definition": "Fazendo sussurrar os ramos."
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/10/12/images/on6qniowaqo5z2jamarwb7a4ynyofx7y/Imagens/icone.jpg",
+    "icon": "/recovered/0000/10/12/images/on6qniowaqo5z2jamarwb7a4ynyofx7y/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/10/12/html/t4qqg6ku5hosdyvamktofyisdtp4bsvc/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/10/12/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

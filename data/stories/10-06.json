@@ -1,0 +1,51 @@
+{
+  "id": "10-06",
+  "month": 10,
+  "day": 6,
+  "dateLabel": "6 de Outubro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Que Grande Par de Botas",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "12",
+      "term": "cacaréus",
+      "definition": "Utensílios velhos, de pouco valor."
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/10/06/images/36bqwurue46z6xukvytgs5qj5h2pnyxf/Imagens/Background.jpg",
+    "icon": "/recovered/0000/10/06/images/6ngs23tzsay536osdp6qzfk25pqvasxu/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/10/06/audio/qqueha2mhn43dngxswywe2mx47pkeecy/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/10/06/html/dt63hiokdwy2lt6tcymtz7eyimg3zlaw/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/10/06/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

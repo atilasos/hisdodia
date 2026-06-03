@@ -1,0 +1,55 @@
+{
+  "id": "11-17",
+  "month": 11,
+  "day": 17,
+  "dateLabel": "17 de Novembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Bolacha Maria",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "59",
+      "term": "saracoteante",
+      "definition": "com o corpo a dançar"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/11/17/images/yjd7c7b5ycfcfygv7hiabglg3wuvin4x/Imagens/Background.jpg",
+    "icon": "/recovered/0000/11/17/images/yjd7c7b5ycfcfygv7hiabglg3wuvin4x/Imagens/Background.jpg",
+    "printPdf": "/recovered/0000/11/17/pdf/7hyp4awdjqfzhpokhphf7lkawm2l2c3u/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/11/17/images/dpprz2eufyvxmlvibwz3bviiimtixk7l/Propostas/logo_jogo.jpg",
+      "/recovered/0000/11/17/images/o6pxs74plc54nsjo5of7m4xpggl7iumd/Propostas/logo_receita.gif",
+      "/recovered/0000/11/17/images/rsajgoskf6ei7cwkds35zyytmy3cbrkx/Propostas/logo_bolacha1.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/11/17/html/mhcsgfo2brq7pkaxecyw6yvczyj5inew/historia.aspx",
+    "printPdf": "/recovered/0000/11/17/pdf/7hyp4awdjqfzhpokhphf7lkawm2l2c3u/imprimir.pdf",
+    "archiveDay": "/recovered/0000/11/17/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

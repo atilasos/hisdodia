@@ -1,0 +1,79 @@
+{
+  "id": "02-12",
+  "month": 2,
+  "day": 12,
+  "dateLabel": "12 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O Cão que não parecia Cão",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Acreditem ou não acreditem, a verdade é que, uma vez, há muitos anos, eu tive um cão tão felpudo, tão peludo, tão cabeludo que, ao vê-lo, a gente mal se convencia que fosse cão. Ao certo, ao certo, não parecia nada, não parecia coisa nenhuma.",
+        "Só com muita boa vontade é que se acreditava que, dentro daquele rolo de pêlos, devia haver bicho, provavelmente um cão. Mas de que lado teria ela a cabeça?"
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Nessas alturas, era necessário agitar um osso, um bocadinho de carne ou uma bolacha, perto daquela coisa confusa, que parecia um cão. O lado que ficasse mais perto do osso, do bocadinho de carne ou da bolacha era, sem sombra para dúvidas, a cabeça. Esta experiência só dava resultado quando o cão tinha apetite.",
+        "Nas outras ocasiões, que fazer?"
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Esperar que o cão tivesse vontade de passar por uma árvore... E se o cão não tinha apetite nem vontade de fazer chichi?",
+        "Em tais casos, a coisa complicava-se. Ou se arranjava um gato para o cão lhe ladrar ou nada feito.",
+        "- Bichinho gato! Bichinho gato! Anda cá fazer um jeitinho à gente.",
+        "Mas os gatos são pouco amigos de prestar favores."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Já imaginaram um gato a caçar por conta de um caçador? Não faz sentido. Os gatos trabalham, pois trabalham, mas só por conta própria.",
+        "Portanto e por este lado, o dos gatos, nada feito, isto é, se continuássemos na dúvida sobre qual o lado da cabeça e qual o outro lado do cão felpudo, só havia uma solução.",
+        "- Qual era?"
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Ia-se buscar uma grande tesoura e dizia-se assim ao cão felpudo:",
+        "- Não há remédio. Temos de tosquiar-te.",
+        "Então, o cão felpudo, ao ver a tesoura e ao ouvir o que ela prometia, apanhava um susto tão grande, tão grande, que ficava com os pêlos todos em pé.",
+        "Conseguia-se assim e finalmente descobrir de que lado ele tinha a cabeça."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/12/html/pozpopzejwjolcwprahzrtt35huqgznh/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/02/12/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

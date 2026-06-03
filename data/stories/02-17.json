@@ -1,0 +1,112 @@
+{
+  "id": "02-17",
+  "month": 2,
+  "day": 17,
+  "dateLabel": "17 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A maior de todas as rãs",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Dizia-se a maior rã de todas as rãs que havia no mundo. Realmente, era grande. Grande e luzidia, no charco onde habitava, mais nenhuma bicheza se lhe comparava em tamanho. Também, para além da rãs, só havia mosquitos.",
+        "- Sou o maior bicho do reino animal - dizia a rã gorda, que nunca tinha saltado para fora daquele charquinho de nada, nem uma única vez."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "As outras rãs não quiseram contrariá-la. Também eram pouco viajadas.",
+        "- Além de ser o maior bicho do reino animal, sou o mais forte, o mais corajoso, o mais bonito, o mais inteligente, o mais...",
+        "Quando ela se punha com esta discursata , adeus. As outras rãs mergulhavam, para não terem de ouvi-la."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Até que, um dia, foi beber ao charco um boi. A sombra dele toldou o Sol.",
+        "- Venha ver, colega, um bicho tamanhão, mil vezes maior do que a sua gabarolice - disseram à rã matulona as colegas rãzinhas, a estremecerem de riso.",
+        "Ela já o tinha visto, mas fez de conta que não ligava."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Se eu quiser, fico do tamanho dele ou até maior - disse. - O meu volume está muito concentrado, querem ver?",
+        "As outras queriam. Puseram-se à roda dela, a gritarem:",
+        "- Cresça e apareça. Cresça e apareça.",
+        "A rã gorda fez-lhes a vontade. Engoliu ar e a pele do ventre distendeu-se."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- Mais, mais - gritaram as outras rãs, como se estivessem num circo.",
+        "Ela inspirou mais e mais, que até parecia uma câmara de ar ou um colchão de praia.",
+        "- Ainda mais - incitavam-na as colegas.",
+        "A rã já tinha a forma de um balão. Nada que se parecesse com um boi, mas nunca se vira rã tão batoque como ela."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Tinha a pele de tal forma esticada que se lhe via tudo por dentro.",
+        "- Mais, mais - gritavam as outras.",
+        "E ela, naquela vontade de ser maior do que um boi, engoliu mais ar, tanto, tanto que rebentou. Pum!",
+        "O boi assustou-se e fugiu. As rãs enfiaram-se para dentro de água, nem que tivesse acabado o mundo."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Quando a calma regressou ao charco, voltaram à superfície, numa grande excitação. Não falavam de outra coisa senão daquela rã presumida que quisera igualar-se a um boi.",
+        "Ainda hoje é a conversa preferida das rãs, quando coaxam umas com as outras, em noites de Lua Cheia."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "234",
+      "term": "discursata",
+      "definition": "discurso longo e de pouco valor"
+    },
+    {
+      "id": "235",
+      "term": "toldou",
+      "definition": "encobriu / ofuscou"
+    },
+    {
+      "id": "236",
+      "term": "batoque",
+      "definition": "baixa e gorda"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/02/17/pdf/j4gz3ieyytx6sk4rxmqhiy5lev3p5bwl/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/17/html/wvialqr26lgblhurxcbswczndq2ugrqr/historia.aspx",
+    "printPdf": "/recovered/0000/02/17/pdf/j4gz3ieyytx6sk4rxmqhiy5lev3p5bwl/imprimir.pdf",
+    "archiveDay": "/recovered/0000/02/17/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

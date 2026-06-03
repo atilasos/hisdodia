@@ -1,0 +1,118 @@
+{
+  "id": "02-20",
+  "month": 2,
+  "day": 20,
+  "dateLabel": "20 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O elefante Bumbo",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "No Circo Maravilhas ou mesmo fora do Circo Maravilhas, o elefante era o mais abelhudo. Em tudo metia o nariz. Não havia cantinho escondido, panela tapada, caixa voltada, que o elefante Bumbo não investigasse, metendo delicadamente a ponta da tromba no objecto da sua curiosidade."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "O domador Cola-tudo muito se afligia com a teima do seu elefante preferido e bastas vezes o ameaçara:",
+        "- Se tu não te emendas, ponho-te um açaime .",
+        "Ele dizia isto muito a sério, mas no fundo não acreditava que fosse possível arranjar um açaime onde coubesse a tromba, mesmo enrolada, do elefante Bumbo."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "E, o que é mais grave, o elefante também não acreditava.",
+        "Pois sucedeu, de uma vez em que o Circo Maravilhas ia de viagem, o caso que vamos contar. O Bumbo fechava a caravana. Se fosse à frente, empatava o caminho com as suas tardanças e coscuvilhices , por coisas que não valiam meio real."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Assim, ia atrás de todos e livremente se demorava a meter a tromba pela ramagem folhuda de uma árvore ou a estendê-la até alguma toca abandonada de coelho. Se a caravana se distanciava muito, o Bumbo dava uma corrida que estremecia o caminho e voltava para junto dos seus companheiros de jornada."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Num campo murado, viu umas caixas cilíndricas de cortiça com um buraquinho na base, por onde entravam e saíam uns insectos de asas rápidas, que zumbiam numa grande ânsia de trabalho. Intrigante...",
+        "Ver não bastava ao elefante Bumbo. Cheirar o que se passava no interior dos cortiços, isso sim, valia a pena."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Alongou a tromba, apontou-a à entrada e enfiou-a afoitamente num desse esquisitos objectos de cortiça.",
+        "Nem teve tempo de cheirar o mel lá guardado, porque uma legião de abelhas-guerreiras cravou as lanças dos seus ferrões aguçados na tromba do intrometido.",
+        "- Ui, que comichão! - protestou o elefante, encolhendo a tromba."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "- Depois da comichão, veio a dor.",
+        "- Ai! Ui! - bramia ele.",
+        "O domador Cola-tudo, que, lá da frente do caminho, acudiu aos seus lamentos, comentou:",
+        "- As abelhas não gostam de elefantes abelhudos, fica sabendo!",
+        "- Nem os elefantes abelhudos gostam de abelhas aguçadas - dizia o elefante Bumbo, muito dorido.",
+        "E, enquanto andou com a tromba inchada, não a meteu onde não devia."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "240",
+      "term": "tardanças",
+      "definition": "vagares"
+    },
+    {
+      "id": "241",
+      "term": "coscuvilhices",
+      "definition": "bisbilhotices / mexericos / intrigas"
+    },
+    {
+      "id": "242",
+      "term": "afoitamente",
+      "definition": "ousadamente / atrevidamente"
+    },
+    {
+      "id": "243",
+      "term": "bramia",
+      "definition": "rugia"
+    },
+    {
+      "id": "239",
+      "term": "açaime",
+      "definition": "aparelho de couro ou de metal que se põe no focinho dos animais para eles não morderem"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/20/html/6fzk6lck6ttlznntnmq27ixzeinhs7ve/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/02/20/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

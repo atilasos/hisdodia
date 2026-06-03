@@ -1,0 +1,102 @@
+{
+  "id": "01-08",
+  "month": 1,
+  "day": 8,
+  "dateLabel": "8 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "São Flores",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Estava uma flor bordada num saco de guardanapo a olhar para uma flor pintada numa jarra de porcelana. E vice-versa.",
+        "A flor bordada queria meter conversa com a flor pintada. E vice-versa.",
+        "Entretanto, a flor bordada pensava: \"Sou mais bonita do que ela.\" E vice-versa."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Até que a flor bordada resolveu dizer precisamente o contrário do que pensava:",
+        "- Nunca vi flor mais bonita do que tu.",
+        "A flor da jarra retorquiu, no mesmo tom:",
+        "- Tu, sim, és a mais bonita. Uma perfeita imitação.",
+        "Neste ponto, a conversa estragou-se.",
+        "- Imitação?"
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "- estranhou a flor do saco de guardanapo. - Imitação de quê?",
+        "- Imitação de uma flor verdadeira - respondeu a flor pintada na jarra.",
+        "- Ora essa! Eu sou uma flor incomparável, uma flor bordada, verdadeiramente bordada com toda a verdade da arte.",
+        "Agora, enfim, estava a dizer o que pensava."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Não lhe ficou atrás a outra flor:",
+        "- Verdadeira obra de arte sou eu. Não há flor pintada mais autêntica, pode crer.",
+        "Argumentaram, discutiram, zangaram-se. Perderam a elegância do trato. Passaram a dizer mais do que pensavam:",
+        "- Você é uma reles imitação - dizia a flor pintada.",
+        "- E você é uma falsificação barata - dizia a flor bordada."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Nisto, mãos femininas vieram colocar uma flor na jarra, até então vazia.",
+        "- Qual é o tema da discussão? - quis saber a recém-vinda, debruçada da jarra."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Puseram-na a par da disputa e logo a nova flor, que era dotada de um caule esguio, folhagem vaporosa e pétalas gentis, rodopiou na jarra de porcelana, para dizer, num risinho de superioridade:",
+        "- Não sejam ridículas e olhem para mim. Haverá flor mais encantadora e mais verdadeira do que eu?",
+        "As duas outras calaram-se."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Afinal, a flor de folhas frágeis, que qualquer corrente de ar agitava, a flor de longa haste, mergulhada na jarra, é que tinha razão.",
+        "Aqui para nós e em segredo, diremos que também não tinha razão nenhuma. Pois se ela era apenas uma simples flor de papel..."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/01/08/images/pbearspoaw5ugqtji4bczxr3mn3fcjpq/Imagens/Background.jpg",
+    "icon": "/recovered/0000/01/08/images/ag4lpvqont74ksr2lzzq7txpthodttiv/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/01/08/pdf/ta2ohnrvt33u6ndqcft4qcepnguokfkr/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/01/08/audio/c87739a54c43494bbdd92816/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/01/08/images/73869511860690f5d1561a85/imagens/background.jpg",
+      "/recovered/0000/01/08/images/a415407c3e6ace300b819a20/imagens/icone.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/01/08/html/afb33hvgcpgx256s4gbezwwpxrgvo7qk/historia.aspx",
+    "printPdf": "/recovered/0000/01/08/pdf/ta2ohnrvt33u6ndqcft4qcepnguokfkr/imprimir.pdf",
+    "archiveDay": "/recovered/0000/01/08/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

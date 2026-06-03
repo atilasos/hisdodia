@@ -1,0 +1,106 @@
+{
+  "id": "05-06",
+  "month": 5,
+  "day": 6,
+  "dateLabel": "6 de Maio",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O burro malfadado",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um pobre homem que andava de terra em terra, a vender azeite. Quem lhe carregava as bilhas era um burro cinzento, que o homem trazia pela arreata.",
+        "Um dia, um malandrim viu o homem entrar numa venda. O burro, à porta, preso a uma argola de parede, tentou-o.",
+        "\"Vou roubá-lo\", pensou o finório ."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "\"Mas, para que o azeiteiro não faça escarcéu e não chame a guarda, tenho uma ideia...\"",
+        "Desprendeu o burro e foi escondê-lo atrás dumas moitas. Depois enfiou ele próprio a cabeçada do burro e amarrou-se à argola. Quando o homem voltou e viu a surpresa que o esperava, esbugalhou os olhos, sem nada entender."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Explicou-se o espertalhão:",
+        "- Saiba o senhor que eu tinha sido fadado por uma bruxa, mas acabo de provar uma ervinha milagrosa que me desfadou . Deixei de ser burro. Voltei a ser pessoa. Desculpe o transtorno."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "O azeiteiro nem sabia o que dizer:",
+        "- Se eu cuidasse que era gente, nunca lhe tinha batido com a chibata, mas queira desculpar-me. A verdade é que o senhor... o senhor burro... ou o que era, às vezes caprichava nas birras e eu perdia a cabeça... Não me leve a mal."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "O outro condescendeu e o caso ficou por ali.",
+        "No dia seguinte, o azeiteiro, dizendo mal da sua vida, foi à feira comprar outro burro. E o que é que ele havia de encontrar? O burro, que o ladrão também tinha levado à feira, para vender. Assim que viu o azeiteiro, o malandrim escapuliu-se."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Então, o bom do azeiteiro, puxando o burro pela arreata, disse-lhe ao ouvido:",
+        "- Afinal, ó infeliz, tiveste uma recaída, foi? Desgraçada moléstia que a bruxa te pegou! Não te arreceies. Anda para casa, que tens palha nova. Assim como assim, vou ter mais cuidado com o que tu comes..."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "410",
+      "term": "malandrim",
+      "definition": "patife / vadio / gatuno"
+    },
+    {
+      "id": "411",
+      "term": "finório",
+      "definition": "espertalhão / manhoso"
+    },
+    {
+      "id": "412",
+      "term": "escarcéu",
+      "definition": "alarido / berreiro"
+    },
+    {
+      "id": "413",
+      "term": "desfadou",
+      "definition": "retirou o feitiço"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/05/06/images/ylzzr4i6bohm3vlktkiammkecdz7aa7c/Imagens/Background.jpg",
+    "icon": "/recovered/0000/05/06/images/erbiojrn22rq647jsmtewjbxullwggyi/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/05/06/audio/rn4lbdmd2zoqo2ibykgth26j26yzgncz/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/05/06/images/905bdde9b18c9a44271cd606/imagens/icone.jpg",
+      "/recovered/0000/05/06/images/b65e673ed239529fcb5e636f/imagens/background.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/05/06/html/pqkmi3qlfvwalkzy6zyfays5azhvzyjb/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/05/06/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

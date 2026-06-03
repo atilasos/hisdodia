@@ -1,0 +1,96 @@
+{
+  "id": "09-12",
+  "month": 9,
+  "day": 12,
+  "dateLabel": "12 de Setembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O sonho do Pompom",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O gato sonha? Decerto que sim. Se muito dorme, enrolado no fofo de si próprio, muito sonhará também.",
+        "A sonhar, percorre-o um arrepio que lhe eriça o pelo e os bigodes. Funga. Despontam as unhas das almofadas das patas, que estremecem. E por trás das pálpebras descidas, os olhos rolam, intranquilos."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Com que sonhará o gato preferido da Dona Micas?",
+        "Devagarinho, entremos no sonho do Pompom. Com licença, que não queremos incomodar.",
+        "Que balbúrdia! A guerra entre gatos vadios e gatos de casa posta e cestinho com cobertor e miminhos doces depois das refeições, a grande guerra dos gatos está no auge."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Ainda algum vai cair do telhado. Que não seja o nosso gato, ao sonho do qual nós acabámos de chegar.",
+        "Não é, não. Ele comanda as hostes dos gatos domésticos, que estão a ganhar terreno. Das unhas como adagas, olhos quais faróis, atira-se aos magricelas que não têm eira nem beira. \"Foge!\", gritam os desgraçados, de orelhas a arder e lombos a sangrar."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Vitória! Vitória! - cantam os gordalhufos gatos de colo, vendo debandar os inimigos.",
+        "Logo ali improvisam uma dança de roda que até a Lua se debruça donde está pendurada e pede às nuvens que passem mais depressa, pois não quer perder pitada da festa dos gatos, no telhado da Dona Micas.",
+        "- Pompom - chama a Dona Micas, numa voz de ternura."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- É a tua dona - lembram-lhe os outros gatos, provavelmente com inveja.",
+        "O nosso Pompom interrompe o baile dos guerreiros e infiltra-se por uma nesga da clarabóia.",
+        "- Pompom - volta a chamar a Dona Micas, cada vez mais ternurenta."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "\"É petisco\", imagina o gato, guloso até mais não.",
+        "E acorda. Está onde sempre está e esteve, no conforto do sofá. A sério, a sério, o Pompom nunca pisou outro chão senão o de tapetes e alcatifas. Saltar para o telhado? Só em sonhos.",
+        "- Pompom, meu Pompomzinho - chama a Dona Micas, da cozinha."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "O gato gordo espreguiça-se para trás e para a frente, deixa-se cair do sofá e lá vai, no seu andar reboludo e enfadado, acudir ao chamamento da Dona Micas."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/09/12/images/m7fjrivhunyfrkm7wlsgoztiil3rxxgu/Imagens/Background.jpg",
+    "icon": "/recovered/0000/09/12/images/wsupsaaf3prhmp33hnabf2xfsax5f5kg/Imagens/entrada.jpg",
+    "printPdf": "/recovered/0000/09/12/pdf/fxz5thtsueo4mnvmlufmi2io2g2elvjj/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/09/12/images/7ot3i3miuxoeb35hhgyautzazgf76qhv/Propostas/sopa.jpg",
+      "/recovered/0000/09/12/images/beb6b43dec90c18ee87ee23d/propostas/anpuzzle/pixel.gif",
+      "/recovered/0000/09/12/images/fvcl42fexa5ggrstesuyrciet4smrisy/Propostas/ico.gif",
+      "/recovered/0000/09/12/images/fwxkvc27dhylyie5s5wafplkzni3acyk/Propostas/anpuzzle/pixel.gif"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/09/12/html/ugs6sah3nq4m7d36l5xuzhnm72z45j63/historia.aspx",
+    "printPdf": "/recovered/0000/09/12/pdf/fxz5thtsueo4mnvmlufmi2io2g2elvjj/imprimir.pdf",
+    "archiveDay": "/recovered/0000/09/12/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

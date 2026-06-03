@@ -1,0 +1,101 @@
+{
+  "id": "12-21",
+  "month": 12,
+  "day": 21,
+  "dateLabel": "21 de Dezembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Silva e Pinheiro",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O senhor Pinheiro é um emproado . Quando chega ao trabalho, não cumprimenta ninguém e vai logo enfiar-se no seu gabinete, como se fosse a única pessoa daquele escritório.",
+        "Em contrapartida, o senhor Silva é um homem gentil, sempre de sorriso afável e muito amigo de ajudar. Lá no escritório, todos gostam dele."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Estava eu a meditar nas diferenças do mundo e comportamento oposto dos meus dois colegas, quando me ocorreu esta história ou fábula entre um pinheiro e uma silva.",
+        "Era a árvore mais imponente do lugar. De pescoço altivo, o pinheiro bravo não prestava atenção aos seus vizinhos de baixo, pinheiritos jovens e alguns arbustos, como a silva, a ensarilhar uma moita."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Mas a silva, enervada com tanta prosápia , interpelou-o, como quem pede explicações:",
+        "- Fale à gente. Somos todos cidadãos do reino vegetal, uns mais altos do que os outros, mas todos com raízes no mesmo chão.",
+        "- Julgas tu - respondeu-lhe o pinheiro. - Eu pertenço mais ao céu do que à terra. Os meus ramos e a minha copa quase tocam as nuvens."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Não tenho nada a ver com vocês, insignificantes e rasteiras plantas, a cobrirem-se de pó.",
+        "No meio do seu emaranhado de picos, a silva mais se retorceu de indignação, mas não quis sustentar a disputa. Àquele pinheiro nada o convencia.",
+        "Convenceu-o um lenhador, que por ali passou. Bateu no tronco possante e disse:",
+        "- Está na conta."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "E começou à machadada ao pinheiro. A desmoronar-se sobre a terra, num grande gemido, o pinheiro formulou um último desejo: \"Quem me dera ser silva...\". Mas não lhe serviu de nada.",
+        "Um dia destes, hei-de dar a ler esta história ao senhor Pinheiro. Talvez dela tire algum proveito, quem sabe?"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "120",
+      "term": "emproado",
+      "definition": "orgulhoso / presumido"
+    },
+    {
+      "id": "121",
+      "term": "ensarilhar",
+      "definition": "enredar / complicar"
+    },
+    {
+      "id": "122",
+      "term": "prosápia",
+      "definition": "vaidade / bazófia"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/12/21/images/veu5osnsamyxgrz5oibgvgihzi6kgwja/Imagens/Background.jpg",
+    "icon": "/recovered/0000/12/21/images/67d5yvtikoizccoy2blc4vz2jrsz4vvq/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/12/21/pdf/bnrgzimaf77lif3iwmngyfnd43zbxxul/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/12/21/audio/09df8aeaf611cbbbaadf6d0a/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/12/21/images/390ab4c1a6a756ed97115454/propostas/elvas.jpg",
+      "/recovered/0000/12/21/images/592d3f83d1221e508ce32221/imagens/icone.jpg",
+      "/recovered/0000/12/21/images/851b0a14ad3260890c634895/imagens/background.jpg",
+      "/recovered/0000/12/21/images/a5ayxe7jl6nep2g2fgnhsnagbhyffklo/Propostas/pinheiro.jpg",
+      "/recovered/0000/12/21/images/fwxkvc27dhylyie5s5wafplkzni3acyk/Propostas/pixel.gif",
+      "/recovered/0000/12/21/images/gmwcowweunmttdrcojdpnisdfslj6vbf/Propostas/elvas.jpg",
+      "/recovered/0000/12/21/images/n7zgvvjhdjnzymsz35lquz252p3cltxs/Propostas/pintura.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/12/21/html/pewnnx7yiafwk625pcpbf6ccr62bpdxz/historia.aspx",
+    "printPdf": "/recovered/0000/12/21/pdf/bnrgzimaf77lif3iwmngyfnd43zbxxul/imprimir.pdf",
+    "archiveDay": "/recovered/0000/12/21/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

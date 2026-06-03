@@ -1,0 +1,103 @@
+{
+  "id": "02-06",
+  "month": 2,
+  "day": 6,
+  "dateLabel": "6 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Fechem essa janela",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Dantes os homens usavam cabeleiras. Eram as perucas. Já se vê que nem todos os homens usavam cabeleiras. Apenas os grandes fidalgos, os reis, os nobres da corte. E só em determinadas épocas da História. Noutras, usavam o cabelo ou comprido ou curto, mas deles, sem disfarce."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Luís XIV, um grande rei francês, mas também muito vaidoso, tinha ao seu serviço quarenta cabeleireiros de perucas, que só trabalhavam para ele. Os nobres da corte ultrapassavam-se em presunção, para ostentarem as mais belas cabeleiras, umas frisadas, outras escorridas, quase todas empoadas e algumas com lacinhos e laçadas coloridas."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Cavaleiros, generais, espadachins, mosqueteiros usavam perucas e, no intervalo das guerras, penteavam-nas sobre os joelhos.",
+        "Uma vez, perguntaram-nos se o Marquês de Pombal usava o cabelo caído para os ombros, como vemos nas gravuras que o representam. Não há a certeza, mas, segundo consta, o Marquês de Pombal até era careca..."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Ora o rei da nossa história, o rei Olindo - rei de um reino qualquer, lá para algures ou mais longe ainda -, também tinha em muita estima os seus caracóis.",
+        "Vivia ele num palácio admirável, num palácio de sonho, mas não de todos os sonhos, num palácio de alto lá com ele, não fossem as correntes de ar."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Como o palácio tinha muitas janelas - 365 janelas, mais precisamente - e muitas portas e muitos criados, que iam e vinham e abriam portas e fechavam portas, as salas do palácio eram mais desconfortáveis do que uma praça pública, em dia de vendaval...",
+        "Pois era."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "As correntes de ar é que estragavam tudo, até as audiências em que o rei Olindo tinha de receber, por dever de oficio, os seus súbditos mais humildes.",
+        "- Estejam descansados. Vou tentar resolver o vosso caso - assim respondia a todos os pedidos, para despachar."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Estava o rei a dizer isto mesmo, quando uma janela se abriu por si e ... o resto está à vista ou imagina-se.",
+        "- Onde se teria metido a minha cabeleira? Onde se teria metido? - balbuciava , de gatas, o rei Olindo, um pouco menos lindo do que era costume.",
+        "Quando a encontraram, o rei deu por finda a audiência.",
+        "Que desastre!"
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Daí em diante, só passou a aparecer em público com uma pesada coroa por cima da cabeleira, espécie de pisa-papéis, isto é de pisa-cabeleiras. A coroa de muito peso fazia-lhe dores de cabeça. Que remédio! Sujeitar-se a outra desfeita do vento é que não.",
+        "Os sacrifícios que um rei tem de fazer para conservar a cabeleira... E o reino."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "255",
+      "term": "balbuciava",
+      "definition": "dizia sem clareza / gaguejava"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/02/06/images/cclqtve57tarulecppieiuvjcgp523b4/Imagens/Background.jpg",
+    "icon": "/recovered/0000/02/06/images/sy5a3mnpsj5skuwvjgd5weafuf52jrh4/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/02/06/pdf/noibgmbwgfgztqovtalramdblwz5kq5t/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/02/06/audio/64amwp5qsht3d4tgufwgbzoz577y35ob/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/02/06/images/64fd4c24844e86fd54777c75/imagens/background.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/06/html/vukptyjgop7aqade5k3mw4bib3jscraf/historia.aspx",
+    "printPdf": "/recovered/0000/02/06/pdf/noibgmbwgfgztqovtalramdblwz5kq5t/imprimir.pdf",
+    "archiveDay": "/recovered/0000/02/06/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

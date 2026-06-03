@@ -1,0 +1,102 @@
+{
+  "id": "03-07",
+  "month": 3,
+  "day": 7,
+  "dateLabel": "7 de Março",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O urso com insónias",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um urso de peluche que não conseguia dormir sem uma menina chamada Teresa, abraçada a ele.",
+        "Um dia, a menina chamada Teresa foi de férias e esqueceu-se do urso de peluche em casa.",
+        "O pobre do ursinho passou a noite em branco."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "À segunda noite, ainda tentou pedir a uma boneca, das muitas que a menina não tinha levado na bagagem, se não se importava, isto é, se não via inconveniente, ou melhor, se não lhe fazia diferença que ele se aconchegasse a ela. Claro que não era a mesma coisa, mas talvez resultasse."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Tentou pedir, esboçou uma conversa sem propósito, mas não passou disso. Teve vergonha de formular o pedido, embaraçou-se nas palavras requeridas e passou outra noite de insónia . A boneca nem chegou a perceber o que ele realmente queria."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Na terceira noite, de olhos a arder, o urso de peluche cabeceou de sono, mas não conseguiu dormir como deve ser. Faltava-lhe a menina, a respiração da menina, o perfume da menina, os cabelos da menina, a comicharem-lhe o nariz. Ah, se ele soubesse para onde é que ela tinha ido!",
+        "À quarta noite..."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Não, não vamos fazê-lo sofrer mais.",
+        "Antes da nova noite de espertina que se anunciava, o pai de Teresa entrou no quarto, agarrou no urso de peluche e meteu-o na pasta. Para onde era a viagem? Já se calcula.",
+        "Quando o pai chegou à casa de férias e tirou o ursinho da pasta, foi uma alegria."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- Vamos lá ver se, daqui para a frente, adormeces sem rabujar - disse ele para a menina, que se abraçava ao urso de peluche como se fosse uma prenda nova.",
+        "- Não faz sentido que continues sempre presa ao teu urso de peluche - continuou o pai. - Tu vais crescer e, qualquer dia, tens de aprender a dormir sem o ursinho."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "- Nunca - exclamou a menina.",
+        "\"Nunca\", teria dito o ursinho, se não fosse tão envergonhado.",
+        "Claro que a menina cresceu e provou-se que o pai tinha razão, mas isso já faz parte de outra história e esta tem de acabar aqui e bem."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "281",
+      "term": "insónia",
+      "definition": "falta de sono / dificuldade em dormir / espertina"
+    },
+    {
+      "id": "282",
+      "term": "espertina",
+      "definition": "insónia / falta de sono"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/03/07/images/xpaphypyvktczqb2xiic7pn32fjnz755/Imagens/Background.jpg",
+    "icon": "/recovered/0000/03/07/images/je4iygbprheum4t5c7wtsfycmh5yt2eo/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/03/07/pdf/v3gp4m2he2ndypyz4tnju54qaholsauj/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/03/07/audio/2046d1645e189c56e43bde48/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/03/07/images/syrwwx5ip7yx4jv74qvlrrw7ne4axhr2/Imagens/entrada.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/03/07/html/zb2hotljccf6ompkvfca2vujbl4w6n4z/historia.aspx",
+    "printPdf": "/recovered/0000/03/07/pdf/v3gp4m2he2ndypyz4tnju54qaholsauj/imprimir.pdf",
+    "archiveDay": "/recovered/0000/03/07/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

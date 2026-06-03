@@ -1,0 +1,126 @@
+{
+  "id": "01-18",
+  "month": 1,
+  "day": 18,
+  "dateLabel": "18 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Não é Camelo",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Ninguém gosta que o tratem por camelo.",
+        "- Seu camelo, não sabe parar nas zebras?",
+        "Não é conversa de savana nem de jardim zoológico, mas fala de peão furioso para automobilista desastroso, perigoso, criminoso, que não sabe abrandar nas passagens zebradas."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- Camelo é você, sua besta - dirá em resposta o vergonhoso automobilista, mas sem razão nenhuma.",
+        "De facto, ninguém gosta que o tratem por camelo. Principalmente o dromedário.",
+        "- Não sou camelo - enerva-se o dromedário. - Eu só tenho uma bossa. O camelo tem duas.",
+        "Mas há sempre quem faça confusão."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Para que não sobrassem dúvidas, o dromedário mandou espalhar um anúncio com os seguintes dizeres: camelo - 2, dromedário - 1. Ia resultar, ele tinha a certeza.",
+        "Quando os turistas, armados de máquinas fotográficas, desembarcassem e vissem um dromedário, não gritariam, todos excitados:",
+        "- Olha um camelo!"
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Vai chamar camelo ao filho do teu paizinho, meu grande burro - diria o dromedário, entre dentes.",
+        "Com aqueles cartazes acabavam-se as confusões.",
+        "Não acabaram.",
+        "- Olha: os camelos ganharam aos dromedários por dois a um - diziam os turistas.",
+        "- Camelos! Camelos! Camelos!"
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- gritava, para dentro, o dromedário.",
+        "Até que resolveu mandar colar pelas paredes outro anúncio, com os seguintes dizeres: 1 dromedário + 1 dromedário = 1 camelo.",
+        "Percebia-se a intenção. Uma corcova mais uma corcova, igual a duas corcovas. Só os camelos é que não gostaram da comparação. Um camelo igual a dois dromedários? Que era lá isso?"
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Vieram, muito zangados, pedir explicações ao dromedário. Ou ele desistia do afrontoso cartaz ou havia guerra.",
+        "O dromedário, que era pacífico, mandou arrancar os cartazes. Vendo bem, os camelos tinham alguma razão.",
+        "- Olha um camelo - gritava um turista, apontando-lhe a máquina fotográfica."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "- Pacífico seria, mas naquela altura, não aguentando mais, o dromedário deu um coice, que estatelou o turista. Depois, assustado com o que fizera, fugiu.",
+        "- O malandro do camelo ia-me matando - queixava-se o turista.",
+        "- Onde é que ele está? Para onde é que ele foi? - perguntou um polícia árabe, acorrendo."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "- Naquele sentido - apontou o turista.",
+        "- Eu já o apanho, descanse - prometeu o polícia.",
+        "Pôs-se a correr e, pouco adiante, passou pelo dromedário, sem lhe ligar. O polícia árabe sabia distinguir um dromedário de um camelo.",
+        "- Viste um camelo a fugir, nesta direcção? - perguntou o polícia ao dromedário."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "- Não reparei - disfarçou o dromedário. - Porquê?",
+        "- Porque parece que esse camelo deu um coice a um turista. Se eu o apanho... - ameaçou o polícia com o chanfalho , apressando o passo.",
+        "O dromedário viu-lhe os calcanhares e suspirou fundo. Pela primeira vez sentia que a confusão entre camelos e dromedários lhe tinha sido favorável."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "167",
+      "term": "afrontoso",
+      "definition": "incomodativo / injurioso"
+    },
+    {
+      "id": "168",
+      "term": "chanfalho",
+      "definition": "espada velha e ferrugenta"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/01/18/pdf/i5h5xcwjtlyhv6upp6sobjyv3lhwtdgv/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/01/18/html/r6vgb3smy5gax5na7c4zavkknfwyxwbx/historia.aspx",
+    "printPdf": "/recovered/0000/01/18/pdf/i5h5xcwjtlyhv6upp6sobjyv3lhwtdgv/imprimir.pdf",
+    "archiveDay": "/recovered/0000/01/18/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

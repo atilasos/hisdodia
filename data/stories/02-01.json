@@ -1,0 +1,107 @@
+{
+  "id": "02-01",
+  "month": 2,
+  "day": 1,
+  "dateLabel": "1 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A Panela ao Lume",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Uns saltimbancos tinham acampado num bosque.",
+        "Era um pobre casal com filhos ainda pequenos.",
+        "Fizeram uma fogueira, puseram uma panela de água em cima, com batatas e feijões, mas como a água não levantasse fervura para cozer a sopa, o homem foi procurar, ao redor, uns cavacos e umas pinhas, com que atiçasse mais o lume."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Ficou a mulher só com os pequenos, que dormiam.",
+        "Atraído pelo cheiro do cozinhado, apareceu um lobo.",
+        "Era inevitável. Nestas histórias, está-se sempre à espera que ele apareça...",
+        "A mulher, ao princípio, não deu pelo lobo, que, devagarinho, se aproximava dos meninos."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Quando ela o viu, susteve o grito e agarrou no panelão cheio de água e despejou-o em cima do lobo. A água não estava a ferver, mas pouco faltava.",
+        "O lobo fugiu, aos uivos. Serviu-lhe de emenda."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Por sinal que não serviu, porque, noutra ocasião, andava o saltimbanco sozinho, a colher amoras, para levar aos filhos, e apareceu o lobo, a cheirar-lhe os calcanhares.",
+        "O homem trepou a uma árvore, mas o lobo ainda lhe ficou com os fundilhos das calças nos dentes. De mal a menos."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "O pior foi quando o lobo se pôs a chamar pelos outros da alcateia.",
+        "Vieram uns tantos. Como a árvore era das altas, os lobos colocaram-se em castelo, uns em cima dos outros. Quem os aguentava, em baixo, era o mais forte, o lobo que os chamara."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Ora o homem tinha reparado que a este lobo faltava pêlo nos lombos, como se estivessem a sarar de alguma queimadura. Isto lembrou-lhe o que a mulher lhe contara. Então gritou, num último alento de coragem:",
+        "- Ó Maria, traz a panela com a água ao lume."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Não havia Maria, não havia panela, não havia água, mas o lobo sentiu o grito como uma ameaça a arder e fugiu a sete pés. Os outros perderam o equilíbrio e estatelaram-se no chão. Fugiram também.",
+        "O homem, quando regressasse ao acampamento, já tinha que contar."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "194",
+      "term": "cavacos",
+      "definition": "lascas de madeira / lenha miúda"
+    },
+    {
+      "id": "195",
+      "term": "fundilhos",
+      "definition": "parte das calças, cuecas, calções, etc., correspondente ao assento"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/02/01/images/fhpuosdvbpux2mlxdsht6xvwovur4e6x/Imagens/Background.jpg",
+    "icon": "/recovered/0000/02/01/images/xmw6fdlkafxya57zfzr5auz66dnpl3lg/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/02/01/pdf/rv2esc3bgloavelmret4sug7x35otib5/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/02/01/audio/faf1f4cc3b1d461a480d89bd/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/02/01/images/245b6344d505306100426ac5/imagens/entrada.jpg",
+      "/recovered/0000/02/01/images/4efd2d32642ba8146929db64/imagens/icone.jpg",
+      "/recovered/0000/02/01/images/cfaab5ebcde14068d547e6e6/imagens/background.jpg",
+      "/recovered/0000/02/01/images/jgm7nzwwi4sws5vbemexeaboowkbfbli/Imagens/entrada.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/01/html/pp73wwdhbtfduml2quddfys2otmezdsa/historia.aspx",
+    "printPdf": "/recovered/0000/02/01/pdf/rv2esc3bgloavelmret4sug7x35otib5/imprimir.pdf",
+    "archiveDay": "/recovered/0000/02/01/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

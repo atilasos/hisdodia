@@ -1,0 +1,115 @@
+{
+  "id": "10-03",
+  "month": 10,
+  "day": 3,
+  "dateLabel": "3 de Outubro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Duas Margens",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Eram duas margens, com um rio a separá-las. Que tolice! Se não houvesse um rio entre elas, como poderiam ser duas margens?",
+        "A margem de lá dizia para a margem de cá:",
+        "- És mesmo feia. Quanto mais olho para ti, mais me admiro que possa haver terra tão sem graça."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- Vira-me as costas - respondia-lhe a margem de cá. - Até me fazias um favor, porque escusava de ver a tua cara horrível.",
+        "Passavam o tempo nisto. Insultavam-se constantemente, enquanto o rio, sem lhes ligar, corria a seus pés."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Barcos e barquinhos atravessavam-no de uma para a outra margem, indiferentes ao despique interminável. Para os barcos e para as pessoas que neles viajavam, as margens não eram bonitas nem feias, mas pontos de chegada ou de partida."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Só uma vez por outra, um turista as retratava na sua máquina fotográfica, comentando:",
+        "- Bela paisagem ribeirinha...",
+        "Qualquer uma das margens que ouvisse diria que, certamente, era dela que o turista falava. Duas presunçosas , afinal."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Até que foi projectada uma ponte para ligar as duas margens. Os trabalhos começaram e já iam bastante adiantados quando uma das margens disse para a outra:",
+        "- Andam a levantar esta ponte para chegarem mais perto de mim.",
+        "A outra enxofrou-se :",
+        "- Qual quê?!"
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "A ponte é para dar acesso ao meu lado.",
+        "- Não é!",
+        "- É!",
+        "- Não é!",
+        "Farto das discussões, o rio interpôs-se e disse, na sua voz pausada de rio de águas mansas:",
+        "- Esta ponte destina-se, como todas as outras pontes, a juntar as duas margens."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Vocês vão ficar mais perto uma da outra, vejam se se entendem.",
+        "Elas calaram-se. A ponte crescia a olhos vistos. Era uma grande e bela ponte.",
+        "No dia em que foi inaugurada, houve foguetes, música, discursos."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "As duas margens estavam enfeitadas com bandeiras e cheias de gente a acenar de margem para margem.",
+        "- É um dia inesquecível para nós - disse o rio para ambas as margens. - Um dia maravilhoso.",
+        "E elas, sentindo-se espelho uma da outra, concordaram."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "6",
+      "term": "presunçosas",
+      "definition": "convencidas"
+    },
+    {
+      "id": "7",
+      "term": "enxofrou-se",
+      "definition": "amuou-se / agastou-se / zangou-se."
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/10/03/images/qvaadkp3xk5lno3ox7zz4euxnsthfgwv/Imagens/Background.jpg",
+    "icon": "/recovered/0000/10/03/images/vhqvtvinead6zcoy6nrbztpuwwao3xp7/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/10/03/audio/536803ca9ec5cb08866ccbc9/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/10/03/html/ltdmlkcfmpwf4n5ijrxsxaecocnvqm3p/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/10/03/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

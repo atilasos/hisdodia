@@ -1,0 +1,107 @@
+{
+  "id": "05-27",
+  "month": 5,
+  "day": 27,
+  "dateLabel": "27 de Maio",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O ovo de codorniz",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Esta é uma história antiga. Ao contá-la, torno-a nova.",
+        "Era uma vez um fidalgo de quem o rei se arredara por intrigas na corte. Diz-se que diz-se, diz-se o que não se disse e por picuinhas que tais, o rei, amuado com o fidalgo, nunca mais o chamara para o conselho do paço."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Acontecia também que este fidalgo tinha em alguma má conta um criado seu. Suspeitava que ele fosse um badalo de sino ou caixa de rufo de tudo o que se passava paredes adentro. Para avaliá-lo melhor, experimentou-o como vão já saber. Ora escutem.",
+        "Numa manhã, deixou no meio dos lençóis da cama, onde dormira, um ovo de codorniz."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "O criado, quando veio arrumar o quarto, deu com o ovo e foi dizer ao amo. Este, dando ares de grande mistério, segredou-lhe:",
+        "- Fui eu que o pus, a noite passada, com muito custo. Mas não contes a ninguém, senão os vizinhos começam a espalhar a novidade e não tarda aí o rei, para conhecer de perto o que se passa."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "O criado prometeu segredo, mas, ao chegar à rua, encontrou um criado de outro fidalgo e chamou-o de parte.",
+        "- Não dês com a língua nos dentes, mas o meu patrão a noite passada pôs um ovo, mais grado do que ovo de pata.",
+        "Segredos destes estoiram por todos os lados. Crescem como urtigas em chão lavrado."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "No dia seguinte, bateram, de manhã cedo, à porta do palácio do fidalgo. Era o rei em pessoa, mais o seu séquito .",
+        "- Venho ver esse prodígio de homem que põe cem ovos por dia, maiores do que ovos de perua."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "O fidalgo trazia na palma da mão o ovo de codorniz que mostrou ao rei:",
+        "- Vede, senhor, como uma pequena mentira cresce tanto, até chegar ao paço de Vossa Majestade.",
+        "E contou ao rei o princípio da história, que o fim já ele sabia."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Parece que o rei entendeu a lição e chamou de novo o fidalgo para a sua roda de conselheiros."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "483",
+      "term": "arredara",
+      "definition": "afastara"
+    },
+    {
+      "id": "141",
+      "term": "séquito",
+      "definition": "cortejo"
+    },
+    {
+      "id": "484",
+      "term": "picuinhas",
+      "definition": "coca-bichinhos / que é muito exigente em relação a todos os pormenores"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/05/27/images/6jdlsvea4nyfvdtthbbcfbzz5wbm4maa/Imagens/entrada.jpg",
+    "icon": "/recovered/0000/05/27/images/6jdlsvea4nyfvdtthbbcfbzz5wbm4maa/Imagens/entrada.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/05/27/images/3c0251308f8252961900bdd2/imagens/entrada.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/05/27/html/xpzooorv2uk7427enb5ntjwb5atrgd6k/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/05/27/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

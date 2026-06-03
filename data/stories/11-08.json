@@ -1,0 +1,59 @@
+{
+  "id": "11-08",
+  "month": 11,
+  "day": 8,
+  "dateLabel": "8 de Novembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O Alfaiate de Bagdad",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "47",
+      "term": "estraçalhada",
+      "definition": "cortada em pedaços / rasgada"
+    },
+    {
+      "id": "48",
+      "term": "predissera",
+      "definition": "anunciara com antecedência / profetizara"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/11/08/images/oxcymsyiugwdexhgul7e45hh3w35kkk3/Imagens/Background.jpg",
+    "icon": "/recovered/0000/11/08/images/q7oixaxsnuo7bzmfjxtftebg22257obm/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/11/08/audio/rbgtw7tw3bp7z3t6yu7rf3c3gtffe6jc/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/11/08/images/24e974b0cb7e002232a4dafb/imagens/entrada.jpg",
+      "/recovered/0000/11/08/images/7obmm7zuqfkkokuwmqevbmqk6nwzwpxt/Imagens/entrada.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/11/08/html/7lomfihbzbl7jiwkeslxszpwsh2hvvme/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/11/08/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

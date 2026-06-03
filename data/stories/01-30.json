@@ -1,0 +1,111 @@
+{
+  "id": "01-30",
+  "month": 1,
+  "day": 30,
+  "dateLabel": "30 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Os Sonhos dos Gatos",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O gato do telhado, que passava o dia no telhado, e o gato de janela, que passava o dia à janela, quiseram mudar de vida.",
+        "- Vamos fazer uma casa só para nós - propôs um deles.",
+        "- Boa ideia! Boa ideia! - aplaudiu o outro.",
+        "Não interessa quem falou primeiro."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Basta que se saiba, aqui em segredo, que qualquer dos dois gatos era um bocado lunático , de tanto olhar para a lua em noites de Lua Cheia...",
+        "- Para construir uma casa, temos de começar pelo princípio - decidiu um deles.",
+        "- Pois claro! Pois claro! - concordou o outro.",
+        "Até este ponto não houve problemas."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Mas as dificuldades já vinham a caminho...",
+        "- Começa-se pelo telhado - sugeriu um deles.",
+        "- Começa-se pelas janelas - contrapôs o outro.",
+        "Aqui não se entenderam. Discutiram, miaram, remiaram, bufaram e até se agatanharam .",
+        "- Vou construir a minha casa sozinho - disse um deles."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- E eu também vou construir a minha casa sem mais ajuda - disse o outro.",
+        "Estava desfeita a sociedade. Cada qual foi para seu lado.",
+        "Que pena! Ficaram, então, sem casa?",
+        "Pois claro que sim. Pois claro que não."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "O gato do telhado juntou umas telhas, ajeitou-as umas sobre as outras, e miou, todo contente:",
+        "- Como construtor sou um primor !",
+        "Depois adormeceu em cima da sua obra.",
+        "O gato da janela juntou umas madeiras, pregou-as umas às outras, e miou, feliz da vida:",
+        "- Na construção sou campeão!"
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Depois adormeceu atrás da sua obra.",
+        "Querem acordá-los do seu sonho de gatos sem eira nem beira?",
+        "Querem desiludi-los e dizer-lhes que estão ambos enganados?",
+        "Não querem? Nós também não."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "191",
+      "term": "lunático",
+      "definition": "fantasista / extravagante / sonhador"
+    },
+    {
+      "id": "192",
+      "term": "agatanharam",
+      "definition": "arranharam / arrepelaram"
+    },
+    {
+      "id": "193",
+      "term": "primor",
+      "definition": "perfeição / espero"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/01/30/pdf/2yfyvxy52o4p5664535jb3vjoipqihoe/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/01/30/html/rn65jdr6lfztqjy7ubm3z22pjf4ehiyt/historia.aspx",
+    "printPdf": "/recovered/0000/01/30/pdf/2yfyvxy52o4p5664535jb3vjoipqihoe/imprimir.pdf",
+    "archiveDay": "/recovered/0000/01/30/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

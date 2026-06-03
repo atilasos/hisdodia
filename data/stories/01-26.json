@@ -1,0 +1,100 @@
+{
+  "id": "01-26",
+  "month": 1,
+  "day": 26,
+  "dateLabel": "26 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O Papagaio",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Do Brasil regressara à sua terra um pobre emigrante. Como única riqueza, trazia um papagaio.",
+        "Pacientemente, o homem tinha ensinado o papagaio a dizer: \"Não há dúvida\".",
+        "Um dia, o homem resolveu vender o papagaio."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Realizava-se, nesse dia, uma grande feira, e o nosso homem para lá foi, lançando o seu pregão :",
+        "- Quem quer comprar um papagaio? Um papagaio muito esperto por cinco mil euros...",
+        "Mas ninguém estava interessado.",
+        "Então o homem mudou de pregão ."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "E pôs-se a apregoar assim:",
+        "- Quem quer comprar este ser inteligente, que além do mais também é papagaio. É um sábio com penas! Ele sabe tudo e custa pouco. Por quinze mil euros, leva um sábio para casa, que até distrai e faz vista, porque é tal e qual um papagaio. Quinze mil euros, quem compra?",
+        "Aproximou-se um lavrador, que tinha menos de inteligência que de riqueza."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Como queria dar-se ares de espertalhão, perguntou ao papagaio:",
+        "- Ó loiro, tu vales quinze mil euros?",
+        "- Não há dúvida - gritou o papagaio.",
+        "- E és realmente um sábio disfarçado de papagaio? Um grande sábio? - perguntou o lavrador.",
+        "- Não há dúvida - respondeu o papagaio."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "O lavrador ficou espantado e comprou logo o papagaio, que levou para casa.",
+        "Mas o papagaio nunca mais voltou a falar.",
+        "Um dia, o lavrador, que já se arrependera de ter caído na esparrela , lamentou-se, junto da gaiola do passaroco:",
+        "- Que burro que eu fui em ter dado tanto dinheiro por um papagaio!"
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- Não há dúvida - gritou o papagaio. - Não há dúvida!"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "175",
+      "term": "pregão",
+      "definition": "anúncio público feito em voz alta"
+    },
+    {
+      "id": "176",
+      "term": "esparrela",
+      "definition": "armadilha / cilada"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/01/26/html/tlzo72lnqiggv2n3cpmilonffmbhechv/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/01/26/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

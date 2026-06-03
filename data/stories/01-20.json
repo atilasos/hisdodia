@@ -1,0 +1,121 @@
+{
+  "id": "01-20",
+  "month": 1,
+  "day": 20,
+  "dateLabel": "20 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Podiam ser Amigas",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez uma águia. Era uma vez uma gata. Era uma vez uma porca.",
+        "A águia teve aguiazinhas. A gata teve gatinhos. A porca teve porquinhos.",
+        "Como boas mães, procuraram abrigo onde resguardar os filhos.",
+        "A águia escolheu o alto da ramaria de um frondoso castanheiro."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "A gata achou um buraco a meio do tronco do mesmo castanheiro. A porca cavou uma toca, nas raízes do tal castanheiro.",
+        "Eram vizinhas e talvez pudessem ser amigas.",
+        "Todas as manhãs, a águia voava do seu ninho, à cata de comida para as aguiazinhas. A gata também saltava do buraco e ia caçar para os seus gatinhos."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "A porca saía da sua toca e procurava castanhas e bolotas para os seus porquinhos.",
+        "Os respectivos filhos cresciam e engordavam, a olhos vistos. As vizinhas viviam felizes e talvez pudessem ser amigas.",
+        "Talvez pudessem ser amigas, não fosse a gata uma intriguista ."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Esta gata selvagem era uma falinhas mansas, mas todas falsas.",
+        "Um dia, foi ter com a vizinha de cima e disse-lhe:",
+        "- Ai, vizinha, estou toda arrepiada. Calcule que ouvi a porca lá de baixo dizer aos filhos que ia começar a roer as raízes do castanheiro, para deitar a árvore abaixo. E sabe para quê?"
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "A águia não fazia ideia.",
+        "- Para fazer cair o seu ninho e comer os seus filhinhos - contou a mentirosa da gata. - Se fosse a si tinha muito cuidado e nunca mais abandonava os seus.",
+        "A águia ficou muito aflita. Agradeceu imenso o aviso da gata e pôs-se de plantão ao ninho, apesar de os filhos reclamarem por comer."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "A gata, cumprida a primeira parte do seu plano, foi ter com a vizinha do rés-do-chão:",
+        "- Senhora porca, tome cautela com a águia. Ainda agora a ouvi dizer para os filhos que, da próxima vez que virem a senhora sair da toca, lhe assaltam a casa, para lhe comerem os filhinhos.",
+        "A porca ficou muito alarmada."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Também agradeceu imenso o aviso da gata e nunca mais deixou os porquinhos ao desamparo, apesar de eles grunhirem, desesperados com fome.",
+        "Como a águia e a porca, sempre de guarda, não saíam pelo comer, iam definhando os filhos e elas perdendo as forças."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "A princípio não se podia descansar em redor do castanheiro, tal a barulheira misturada de pios e grunhidos, clamando por comida.",
+        "Mas as lamentações foram decrescendo, porque as forças foram faltando...",
+        "Quando tudo voltou ao silêncio, a gata selvagem e os selvagens dos filhos assaltaram o ninho e banquetearam-se."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "Em seguida, assaltaram a toca e repetiram o banquete.",
+        "Parece que, depois, morreram de indigestão. Bem feito."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "170",
+      "term": "definhando",
+      "definition": "enfraquecendo gradualmente"
+    },
+    {
+      "id": "169",
+      "term": "intriguista",
+      "definition": "mexeriqueira / que provoca intriga"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/01/20/pdf/hbsntbjohtzxxjcrmu7ukahjlnpdjeuk/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/01/20/html/ppdv52kzhlabcilfeprtfbvnu6h2hnqd/historia.aspx",
+    "printPdf": "/recovered/0000/01/20/pdf/hbsntbjohtzxxjcrmu7ukahjlnpdjeuk/imprimir.pdf",
+    "archiveDay": "/recovered/0000/01/20/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "02-03",
+  "month": 2,
+  "day": 3,
+  "dateLabel": "3 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A Maratona dos Batoteiros",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O cágado, a tartaruga e o caracol foram fazer uma corrida.",
+        "- Qual de nós é o mais veloz? - tinha desafiado o caracol.",
+        "Cada qual se sentia mais rápido do que os outros dois, mas, à cautela, cada um tinha preparado o seu plano secreto para ser o vencedor.",
+        "Quem deu o sinal de partida foi a lebre:",
+        "- Um, dois, três... Partida! Despachem-se."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Mais parecia que os três corredores nem tinham ouvido... Na dúvida, a lebre repetiu:",
+        "- Um, dois, três. Partida!",
+        "O cágado protestou.",
+        "- Basta! Não me atrapalhes, que vou na esgalha.",
+        "A tartaruga resmungou:",
+        "- Chega! Não me enerves, que vou na mecha.",
+        "O caracol irritou-se:",
+        "- Cala-te!"
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Não me distraias, que vou de foguete.",
+        "Devagarinho, cada um tomou o seu caminho.",
+        "O cágado dirigiu-se para um quartel de bombeiros e entrou para uma ambulância.",
+        "A tartaruga orientou-se para um stand de automóveis e subiu para um carro de corridas.",
+        "O caracol procurou uma estação de caminhos-de-ferro e trepou para uma locomotiva."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Só que...",
+        "Só que a ambulância, onde o cágado se escondera, foi participar numa procissão e depois voltou ao quartel.",
+        "Só que o carro de corridas, onde a tartaruga se enfiou, foi mostrar-se a uma exposição de automóveis e depois voltou para o stand."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Só que a locomotiva, onde o caracol se meteu, foi fazer umas manobras e depois voltou para a oficina.",
+        "- Nunca mais chegam? - impacientou-se a lebre, na meta da corrida, há que tempos.",
+        "Não chegam, nem chegarão. E, por este andar, os três batoteiros, que se perderam da corrida, ainda vão ter de palmilhar muita estrada até descobrirem de novo a linha de partida."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "201",
+      "term": "palmilhar",
+      "definition": "percorrer"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/02/03/images/3aooalgvmapqxnqvjod7kn64x6slj647/Imagens/Background.jpg",
+    "icon": "/recovered/0000/02/03/images/bdeaz7gmedgceu2dxsxvkjiohukraz7f/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/02/03/pdf/7cjxtakrfudyuedfsy5z6jrfmradf77z/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/02/03/audio/75xoxok77gg22b4gobsmengclyjsadev/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/02/03/images/428b92e62ca114aca8cad2ef/imagens/entrada.jpg",
+      "/recovered/0000/02/03/images/ewvw3hvokhq2uieumdsj3is5nemaidd2/Imagens/entrada.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/03/html/d3c5jb4gxcfj2x2q35myrs7tff2re5rj/historia.aspx",
+    "printPdf": "/recovered/0000/02/03/pdf/7cjxtakrfudyuedfsy5z6jrfmradf77z/imprimir.pdf",
+    "archiveDay": "/recovered/0000/02/03/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

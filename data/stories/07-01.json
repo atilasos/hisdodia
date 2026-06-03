@@ -1,0 +1,82 @@
+{
+  "id": "07-01",
+  "month": 7,
+  "day": 1,
+  "dateLabel": "1 de Julho",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O dragão das nove e trinta",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Leva uma rica vida o dragão da minha história. É verde, como dizem que são os dragões, tem escamas que o cobrem de cima a baixo e uma espinha eriçada em dentes de serra, do pescoço ao rabo. Como se vê, é um dragão vulgar.",
+        "Agora imaginem-no, como eu imagino, carregado de meninos. Imaginar não custa nada."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Nestes dias de Verão, por volta das nove e trinta, passa pela minha rua, deitando muito fumo pelas ventas, o dragão de que vos falo.",
+        "Pára nas paragens dos autocarros e para ele sobem os meninos em férias. Quando estão todos instalados, o dragão buzina alegremente e põe-se a andar."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Não sabiam que os dragões buzinavam? Pois buzinam, mas só quando estão bem-dispostos.",
+        "Com o seu carregamento de meninos, o dragão toma o caminho da praia. Corre ao lado do comboio, que também leva o mesmo sentido, e quase sempre chega primeiro."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Na praia, assim que o último menino salta para a areia, o dragão mete-se dentro de água, faz-se pequenino e transforma-se num hipocampo, isto é, num cavalo-marinho, para poder nadar sem chamar a atenção. Perder a banhoca é que nunca!"
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Ao fim da tarde, volta a crescer e a apresentar-se como um dragão aprumado e responsável, que nunca se esquece de que tem de trazer os meninos de volta para casa.",
+        "À noite, trabalha na Feira Popular. Como tem uma bocarra lança-chamas, ocupa-se a assar frangos ou sardinhas."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "E, sempre que pode, vai dar uma voltinha no carrossel. Rica vida!"
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/07/01/images/4c3eu73zserxvdhq53zzznt75qhekmre/Imagens/Background.jpg",
+    "icon": "/recovered/0000/07/01/images/yl6l63oaiwa5apbrdbzci7ygzasby27p/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/07/01/audio/d4fd2cb1c86d16d5e568de70/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/07/01/images/3rdtl6ta33rfiw3isnxidktgghjy7w7k/Imagens/entrada.jpg",
+      "/recovered/0000/07/01/images/b140a7c8e120fd29ee502f30/imagens/entrada.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/07/01/html/t6yideddzqtbc5jpz2pdgyn27mlrb3b3/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/07/01/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

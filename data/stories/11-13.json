@@ -1,0 +1,63 @@
+{
+  "id": "11-13",
+  "month": 11,
+  "day": 13,
+  "dateLabel": "13 de Novembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O Cão e o Gato",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "53",
+      "term": "incorrigíveis",
+      "definition": "incapazes de emenda"
+    },
+    {
+      "id": "54",
+      "term": "tiritantes",
+      "definition": "trémulos"
+    },
+    {
+      "id": "55",
+      "term": "assarapantados",
+      "definition": "espantados / confusos"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/11/13/images/ce4egfl56ejdibpll6e7lrrul3wztt22/Imagens/icone.jpg",
+    "icon": "/recovered/0000/11/13/images/ce4egfl56ejdibpll6e7lrrul3wztt22/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/11/13/pdf/nkteuh2pfgx6c6pfdd7jfvjsoudqmtnm/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/11/13/images/1c4463ca7d6a9fecea3186ef/imagens/icone.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/11/13/html/me66c4izdc35qwt737zqagiy6y4pqt7h/historia.aspx",
+    "printPdf": "/recovered/0000/11/13/pdf/nkteuh2pfgx6c6pfdd7jfvjsoudqmtnm/imprimir.pdf",
+    "archiveDay": "/recovered/0000/11/13/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

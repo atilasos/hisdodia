@@ -1,0 +1,103 @@
+{
+  "id": "06-15",
+  "month": 6,
+  "day": 15,
+  "dateLabel": "15 de Junho",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Um A no peito",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez uma T-shirt com um A impresso no peito. Ou melhor: era uma vez um rapazinho com uma T-shirt, que tinha um A impresso no peito. Um A grande. Muito bem desenhado. Com dois traços assim, a descer, cada qual para seu lado, e outro assim, a cortá-los, na horizontal. Claro que todos sabem como é que se escreve um A."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Mas deixem-me também a mim provar que sei...",
+        "Perguntavam ao menino, o tal da T-shirt com um A impresso no peito:",
+        "- Como é te chamas? António?",
+        "- Não.",
+        "- Alberto?",
+        "- Não.",
+        "- Álvaro?",
+        "- Não.",
+        "- Ah! Pois claro."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Chamas-te André!",
+        "- Não.",
+        "- Agostinho?",
+        "- Não.",
+        "- Almiro?",
+        "- Não.",
+        "- Alfredo?",
+        "- Não.",
+        "- Alípio?",
+        "- Não.",
+        "- Albano?",
+        "- Não."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Não é possível! Então como é que tu te chamas?",
+        "- Timóteo.",
+        "- Timóteo? Mas não tem A. Espera: estás a usar uma T-shirt emprestada?",
+        "- Não.",
+        "- Nesse caso o A é nome de família... Chamas-te Timóteo Alves? Almeida? Amorim? Andrade? Antunes?"
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Não havia meio de acertar.",
+        "Só então é que a T-shirt se explicou:",
+        "- Não gosto que me tratem por T-shirt. Chamo-me Camisola de Manga Curta e de Algodão. O A de algodão é nome de família.",
+        "Foi a partir desta altura que as outras peças de roupa passaram a exigir, bem assinaladas, as respectivas letras iniciais do apelido."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "L de lã para as meias. S de seda para as blusas. F de feltro para as calças.",
+        "E se não fizermos a vontade, a roupa já disse que deixa de nos servir.",
+        "Que transtorno, ehm!? Principalmente no Inverno..."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/06/15/images/oyehokyok2tqq7k2zxz5w37jkvmt2hoz/Imagens/entrada.jpg",
+    "icon": "/recovered/0000/06/15/images/oyehokyok2tqq7k2zxz5w37jkvmt2hoz/Imagens/entrada.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/06/15/html/6fyhfucuwyaqyk7bnsu26iombc3ncalp/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/06/15/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

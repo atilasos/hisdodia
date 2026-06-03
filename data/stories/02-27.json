@@ -1,0 +1,81 @@
+{
+  "id": "02-27",
+  "month": 2,
+  "day": 27,
+  "dateLabel": "27 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Os dois feiticeiros",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Eram dois feiticeiros. Detestavam-se.",
+        "Uma chamava-se Xarabim e o outro chamava-se Zipalam. Ambos fabricavam feitiços e usavam palavras mágicas, daquelas de pôr a arder uma árvore, sem quê nem porquê, só por efeito de um gesto e um bichanar de lábios que acordam labaredas.",
+        "Eram os dois muito competentes nas suas magias."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Um dia, tinha de acontecer, um dia, defrontaram-se. Duelo terrível.",
+        "Fugiram , à sua volta, pessoas e bichos. Só ficaram os mágicos, um diante do outro.",
+        "Xarabim ameaçou:",
+        "- Vou transformar-te em sapo. Belg... Zelg... Velg...",
+        "À última palavra dita e o Zipalam passou a ser um sapo que metia medo."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Mas o sapo Zipalam falava. Deitou uma enorme língua na direcção do adversário e silvou:",
+        "- Vou transformar-te em ratazana. Vong... Bong... Tong...",
+        "À última palavra e o Xarabim passou a ser uma ratazana de muito mau aspecto.",
+        "Mas a ratazana Xarabim também falava."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Ergueu o focinho, na direcção do inimigo, e bufou:",
+        "- Pois eu a ti vou transformar-te num insignificante rato cinzento. Trag... Trig... Trug...",
+        "Assim foi. Ficou um ratito, diante de uma ratazana. E o combate podia continuar, sabe-se lá até quando?",
+        "Podia continuar, não fosse, nesse momento ter, aparecido a cadela Nina, caçadora de tudo o que corre, rasteja e mexe."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Com total desrespeito pelas artes mágicas, a cadela Nina deu, logo ali, cabo do rato e da ratazana. Para sempre."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/27/html/ve3btmwjbs5wtuyc67jdqlea2pfl36on/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/02/27/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

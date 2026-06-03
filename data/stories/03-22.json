@@ -1,0 +1,103 @@
+{
+  "id": "03-22",
+  "month": 3,
+  "day": 22,
+  "dateLabel": "22 de Março",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Pobre da égua branca",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era um rapaz que gostava muito de uma rapariga. Ela não tanto.",
+        "Chamava-se ele Joaquim. Chamava-se ela Joaquina. Com estes nomes via-se que estavam mesmo feitos um para o outro. Mas nem sempre as coisas são como a gente julga.",
+        "- Queres casar comigo, Joaquina?"
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- Ainda sou muito nova, Joaquim. Lá mais para depois, se verá...",
+        "O rapaz impacientou-se. Impacientou-se e foi consultar uma bruxa, que lhe fez um bolo de pão e ervas, muito bem amassado. Enquanto preparava o bolo a bruxa dizia:",
+        "- Chapa daqui, chapa dali, quem te comer morrerá por mim.",
+        "Era para ele dar a comer à namorada."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "O rapaz deixou o bolo a arrefecer no parapeito da janela da Joaquina, a contar que ela lhe pegasse. Logo por azar, quem abocanhou o bolo mágico foi uma égua branca de muita estimação da rapariga. Montada nela, é que Joaquina ia sempre à missa."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "No domingo, pespegou-se o Joaquim, no meio do adro da igreja, à espera do efeito do feitiço. Assim que o viu, a égua, que trazia a Joaquina em cima, pôs-se aos pulos e aos coices, numa grande alegria. Que paixão mais disparatada!",
+        "- A égua tomou o freio nos dentes - gritaram."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "O Joaquim acudiu à Joaquina, mesmo no instante em que ela ia a cair da montada. Ficou o rapaz com a rapariga nos braços.",
+        "A égua, que continuava desaustinada , teve que ser abatida, com grande pena da dona que tremia e chorava no colo do seu salvador.",
+        "- Queres casar comigo, Joaquina? - perguntou ele."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- Quero, sim, Joaquim - respondeu ela, num primeiro sorriso, depois das lágrimas.",
+        "Casaram e foram muito felizes."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "313",
+      "term": "abocanhou",
+      "definition": "apanhou com a boca / comeu"
+    },
+    {
+      "id": "314",
+      "term": "desaustinada",
+      "definition": "desnorteada / sem tino"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/03/22/images/pbppyb424wudgcha4et4fnpavruq5ij6/Imagens/Background.jpg",
+    "icon": "/recovered/0000/03/22/images/pbppyb424wudgcha4et4fnpavruq5ij6/Imagens/Background.jpg",
+    "printPdf": "/recovered/0000/03/22/pdf/jow2ukafd5ebdg4jnrffxwz7dmqogk3s/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/03/22/audio/lvsyuo37jphycigk6nw2h3rl6w5ege3e/Propostas/pares20_03.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/03/22/images/3yrbjl7r3mxa2wyv2rbccxp2xufrydnt/Propostas/anpuzzle/image3.jpg",
+      "/recovered/0000/03/22/images/97faf372c49a969ab33c21f5/propostas/ico_puzzle.jpg",
+      "/recovered/0000/03/22/images/bf7o3ptjmmebi73q5dpwektxfc2hxdev/Propostas/anpuzzle/intro1.jpg",
+      "/recovered/0000/03/22/images/casqpvakhfrs5vywdqwqur6ey56ckbrx/Propostas/ico_puzzle.jpg",
+      "/recovered/0000/03/22/images/d7c4b42022b10df140958d5c/imagens/background.jpg",
+      "/recovered/0000/03/22/images/fwxkvc27dhylyie5s5wafplkzni3acyk/Propostas/anpuzzle/pixel.gif",
+      "/recovered/0000/03/22/images/pn63a5w7ms6b4ynwn2bow442s3sjtl4p/Propostas/botaonoiva.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/03/22/html/sbdu35nvdrpzqzsbudzwiy7b4bmrighu/historia.aspx",
+    "printPdf": "/recovered/0000/03/22/pdf/jow2ukafd5ebdg4jnrffxwz7dmqogk3s/imprimir.pdf",
+    "archiveDay": "/recovered/0000/03/22/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

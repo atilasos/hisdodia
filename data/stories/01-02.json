@@ -1,0 +1,109 @@
+{
+  "id": "01-02",
+  "month": 1,
+  "day": 2,
+  "dateLabel": "2 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A Ovelha Generosa",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma ovelha muito generosa. Sabem o que é ser generoso? É gostar de dar, dar por prazer.",
+        "Pois esta ovelha era mesmo muito generosa. Dava lã.",
+        "Dava lã, quando lhe pediam.",
+        "Vinha uma velhinha e pedia-lhe um xailinho de lã para o Inverno. A ovelha dava.",
+        "Vinha uma menina e pedia-lhe um carapuço de lã para ir para à escola. A ovelha dava."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Vinha um rapaz e pedia-lhe um cachecol de lã para ir à bola. A ovelha dava.",
+        "Vinha uma senhora e pedia-lhe umas meias de lã para trazer por casa. A ovelha dava.",
+        "- Ó ovelha, não achas de mais? Xailes, carapuços, cachecóis, meias... É só dar, dar...",
+        "- Não se ralem - respondia a ovelha."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "- Vocês não aprenderam na escola que a vaca dá leite e a ovelha dá lã? É o que eu estou a fazer.",
+        "Apareceu a Dona Carlota, muito afadigada :",
+        "- Eu só queria um novelozinho para fazer um saco para a botija. Ainda chega?",
+        "Pois claro que chegava. A ovelha a dar nunca se cansava."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Veio a Dona Firmina, muito preocupada:",
+        "- Eu só queria um novelozinho para uma pega para a cozinha. Ainda chega?",
+        "Pois claro que chegava. A ovelha a dar nunca se cansa.",
+        "Veio a Dona Alda, muito atarantada :",
+        "- Eu só queria um novelozinho para acabar uma manta. Ainda chega?"
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Pois claro que chegava. A ovelha a dar nunca se cansa.",
+        "E eram coletes, camisolas, golas, golinhas, luvas... que a gente até estranhava que a lã se lhe não acabasse. A ovelha sorria e tranquilizava:",
+        "- Não acaba. Nunca acaba. Conhecem aquele ditado: \"Quem dá por bem, muito lhe cresce também\"? Pois é o que eu faço."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "E a ovelha generosa lá foi atender uma avó, que precisava de um novelo para um casaquinho de bebé, o seu primeiro neto que estava para nascer..."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "138",
+      "term": "atarantada",
+      "definition": "perturbada / desnorteada"
+    },
+    {
+      "id": "137",
+      "term": "afadigada",
+      "definition": "cansada"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/01/02/images/n37tykwflvf4l2ymha2kucoqaly3vnr2/Imagens/Background.jpg",
+    "icon": "/recovered/0000/01/02/images/koecejw3547232eyfpmc4zljkcylr625/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/01/02/pdf/a3t5rujslajvm2s3jbidxpetzrtymdzf/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/01/02/audio/8bb91750aa3afe0fc8629fe5/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/01/02/images/322432f22bd684bb750af66f/propostas/tosquia.jpg",
+      "/recovered/0000/01/02/images/5800ed705866a7c40c88241c/imagens/icone.jpg",
+      "/recovered/0000/01/02/images/64effea8c5cf7ab14196899e/imagens/background.jpg",
+      "/recovered/0000/01/02/images/74657f2714bfac92302eb132/propostas/ovelha1.jpg",
+      "/recovered/0000/01/02/images/bsd3x4ukrfmx6oksk7n5sxqhsvf2qu4n/Propostas/ovelha1.jpg",
+      "/recovered/0000/01/02/images/ho6otsz3tmiiex3vjx6a7pptxnd26yeu/Propostas/tosquia.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/01/02/html/wtybvj2akxx7dq7jw372isdiuzxlbq2p/historia.aspx",
+    "printPdf": "/recovered/0000/01/02/pdf/a3t5rujslajvm2s3jbidxpetzrtymdzf/imprimir.pdf",
+    "archiveDay": "/recovered/0000/01/02/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "12-13",
+  "month": 12,
+  "day": 13,
+  "dateLabel": "13 de Dezembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A Pasta de Cabedal",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Iam dois vagabundos por uma estrada, quando encontraram, do lado de fora de um portão de quinta rica, uma pasta de cabedal, daquelas que se está mesmo a ver que pertencem ou a banqueiros ou a financeiros ou a gente assim, com muito cabedal."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Os dois vagabundos olharam para a pasta, olharam um para o outro e, enquanto o diabo esfrega um olho, raparam da pasta e rasparam-se, antes que aparecessem outros atrás, que fizessem o mesmo.",
+        "Numa curva mais adiante, cansados da corrida, abrandaram de velocidade e abriram um dos fechos da pasta."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "O que viram deixou-os de olhos deslumbrados e redondos que nem os do goraz.",
+        "A pasta estava cheia de notas.",
+        "Até parecia que a descoberta lhes trouxera novas forças, porque voltaram a correr desalmadamente, esquecidos do cansaço, da fraqueza, de tudo.",
+        "Mas tanta correria acaba por esfalfar o coração e as pernas até dos mais premiados corredores olímpicos."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Quando pararam, ensopados de suor, o que levava a pasta debaixo do braço, depois de engolir várias vezes em seco, disse:",
+        "- Com este tesouro que achei vou saber como é ser rico.",
+        "O outro protestou:",
+        "- Mas fomos nós dois que achámos. O recheio da pasta pertence a ambos."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- Isso querias tu - disse o primeiro vagabundo, apertando ainda mais a pasta de encontro ao corpo. - A pasta é minha.",
+        "- É nossa...",
+        "- É minha...",
+        "- É nossa...",
+        "Nisto ouviram uma voz gritar-lhes:",
+        "- Eh, pessoal! Para onde levam vocês essa pasta do senhor doutor?"
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Era um latagão, fardado de motorista. Não se lhe via o carro, mas, em tamanho e cilindrada, havia de condizer com ele. O homenzarrão tinha aparecido de surpresa, vindo de uma cancela do mesmo lado do portão da tal quinta.",
+        "O vagabundo que segurava a pasta ficou em pânico:",
+        "- Agora é que estamos tramados."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Lá se vai a nossa pasta.",
+        "- Ai agora já é nossa? - riu-se o outro. - Presta tu contas dela, que eu não tenho nada a ver com isso.",
+        "E desamparou-o às mãos do motorista.",
+        "De pouco lhe valeu, porque o gigante justiceiro tratou da saúde ao que chamara a pasta a si e ainda lhe sobrou tempo para dar outra sova ao que se desligara da questão."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Depois afastou-se gloriosamente, com a pasta recuperada debaixo do braço, enquanto os dois vagabundos saboreavam o pó da estrada.",
+        "- Que grande coça que nós levámos - dizia um deles, não interessa qual.",
+        "O outro, qualquer que ele fosse, concordou..."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "101",
+      "term": "estarrecia",
+      "definition": "assombrava"
+    },
+    {
+      "id": "102",
+      "term": "presteza",
+      "definition": "ligeireza / agilidade"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/12/13/images/wyk4h6ay4medhpvc4yzdavhyxs5r5hhi/Imagens/icone.jpg",
+    "icon": "/recovered/0000/12/13/images/wyk4h6ay4medhpvc4yzdavhyxs5r5hhi/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/12/13/pdf/a7kckvryipdvowjhls6soukutelwvfrf/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/12/13/html/tg4bin327v4iihk4sjwefftvreu3ujht/historia.aspx",
+    "printPdf": "/recovered/0000/12/13/pdf/a7kckvryipdvowjhls6soukutelwvfrf/imprimir.pdf",
+    "archiveDay": "/recovered/0000/12/13/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

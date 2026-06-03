@@ -1,0 +1,94 @@
+{
+  "id": "06-16",
+  "month": 6,
+  "day": 16,
+  "dateLabel": "16 de Junho",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Mais um",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez uma galinha pedrês que só sabia contar até três.",
+        "Logo aconteceu nascerem-lhe quatro pintainhos.",
+        "Ela contava-os assim:",
+        "- Um... dois...três... e mais um.",
+        "- Três mais um, quatro - dizia-lhe o pato.",
+        "Mas ela não havia meio de aprender."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Sempre vigilante à beira dos filhos, a pedrês ralhava:",
+        "- Não impliques com teus irmãos, Mais Um! Não queiras a comida toda para ti, Mais Um!",
+        "Ficou a chamar-se Mais Um. Frango e depois galo, como era bruto e pespontão , ganhou o nome de Mais Um, \"O Terrível\".",
+        "As galinhas que o dissessem, coitadas, de crista sempre a sangrar das bicadas do tiranete ."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Todo o povo da capoeira o detestava. E com razão.",
+        "Mais Um, \"O Terrível\", cantava de alto. Estou mesmo convencido que se não fosse ele o primeiro a alarmar os campos adormecidos com os seus gargarejos de madrugador, os restantes galos do povoado, por acanhamento, nem cantariam.",
+        "Foi o que aconteceu, ainda há pouco."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Ontem, à espera da voz de comando do Mais Um, não houve galo que cantasse a alvorada. Que acontecera?",
+        "Os pombos do pombal é que espalharam a notícia:",
+        "- Morreu Mais Um às mãos da Conceição do facalhão.",
+        "- Mais Um sacrificado, em canja e em guisado...",
+        "- Lá está Mais Um no prato, duro que nem sola de sapato..."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Houve um certo alívio nos galinheiros. Mas, agora me lembro que hoje os galos ainda não cantaram. Porquê? Talvez um secreto mal-estar se tenha espalhado pela criação. Imagino os galos no poleiro, cada um por si, a matutar: \"Foi-se Mais Um... Quem irá, depois?\" Pensamentos destes não dão mote para cantigas."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "519",
+      "term": "pespontão",
+      "definition": "vaidoso / presunçoso / afectado"
+    },
+    {
+      "id": "520",
+      "term": "tiranete",
+      "definition": "tirano ridículo / sem credibilidade"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/06/16/images/cjuwqtiyob6jnjbvo4iemlbqmxkmefbg/Imagens/entrada.jpg",
+    "icon": "/recovered/0000/06/16/images/cjuwqtiyob6jnjbvo4iemlbqmxkmefbg/Imagens/entrada.jpg",
+    "printPdf": "/recovered/0000/06/16/pdf/cnu3aef67lcj62olmisjxlo3sewqckuz/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/06/16/audio/77vuxv4s7kcfcllbfcur5j4qamn3spxf/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/06/16/html/zxol25z2odzqjfd5emldwimktmcxfpp2/historia.aspx",
+    "printPdf": "/recovered/0000/06/16/pdf/cnu3aef67lcj62olmisjxlo3sewqckuz/imprimir.pdf",
+    "archiveDay": "/recovered/0000/06/16/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

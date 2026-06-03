@@ -1,0 +1,135 @@
+{
+  "id": "08-09",
+  "month": 8,
+  "day": 9,
+  "dateLabel": "9 de Agosto",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Pão, pão â queijo, queijo",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Num banco de jardim",
+        "À hora da merenda,",
+        "O João e o Joaquim",
+        "Dispensam legenda.",
+        "O João vai ao saco",
+        "E põe-se a comer",
+        "Um pão e só pão.",
+        "Não há que saber."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Agora é o Joaquim",
+        "Que no mesmo ensejo",
+        "Destapa do saco",
+        "Um naco de queijo.",
+        "Mastigam, mastigam",
+        "Untando o sabor,",
+        "Embora o não digam",
+        "Já soube a melhor."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Comer sempre queijo,",
+        "Comer sempre pão,",
+        "Já chega e sobeja,",
+        "Já causa aversão .",
+        "\"Troquemos, Joaquim!\"",
+        "\"Pois sim, ó João!\"",
+        "E o pão e o queijo",
+        "Mudaram de mão."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "\"Agora sim, ó Joaquim!\"",
+        "\"Agora sim, ó João!\"",
+        "Mas, passado um bocejo,",
+        "Parece que não.",
+        "E eis senão quando",
+        "Os dois mastigantes",
+        "Decidem voltar",
+        "Ao que comiam dantes."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Mas pensam para a frente",
+        "Para trás e para o lado",
+        "E assim inventaram",
+        "O nunca provado.",
+        "Inventam o pão com queijo",
+        "Ou o queijo com pão,",
+        "Provam tudo a meias.",
+        "Que grande invenção!"
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Um bocado de queijo,",
+        "Um bocado de pão.",
+        "\"Para ti, ó Joaquim\"",
+        "\"Para ti, ó João\"",
+        "Que desta simples história",
+        "Escrita sem preceito",
+        "Que mais não consigo",
+        "Tirem bom proveito."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "E comam pão com queijo",
+        "Com um vosso amigo."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "583",
+      "term": "ensejo",
+      "definition": "oportunidade / ocasião adequada"
+    },
+    {
+      "id": "584",
+      "term": "aversão",
+      "definition": "repugnância / antipatia / ódio"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/08/09/html/kfu2dc6xgalusi4ftbf43yra2pwok7h5/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/08/09/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

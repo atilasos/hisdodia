@@ -1,0 +1,74 @@
+{
+  "id": "03-15",
+  "month": 3,
+  "day": 15,
+  "dateLabel": "15 de Março",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O cão pequenino",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Ele há cães de muitas raças. Cães de muito pêlo. Cães de pêlo raso. Cães de grandes orelhas caídas. Cães de pequenas orelhas espetadas. Cães enormes. Cães minúsculos.",
+        "Pois, há tempos, eu conheci uma senhora que tinha um cão muito pequeno. Tão pequeno, tão pequeno que a dona do cão só com lupa conseguia vê-lo."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- Não me dá despesa nenhuma - dizia a senhora. - Com duas migalhas fica com a barriga cheia.",
+        "E as outras senhoras, que tinham cães, todos eles muito maiores, e enormes contas no talho para pagar, deitavam contas à vida e ao preço da carne e dos ossos."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Mas, um dia, a dona do cão perdeu o cão.",
+        "- Ó cãozinho!",
+        "E o cãozinho, nada.",
+        "- Ó cãozinho!",
+        "E o cãozinho, nada. Não aparecia.",
+        "Então a dona do cão ficou só. Sem cão.",
+        "Chorou."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Não tenho cão. Não tenho cãozinho. Sou uma infeliz, sem cão nem carinho.",
+        "Chorou mais e foi buscar um lenço para se assoar e limpar as lágrimas. Mas o lenço tinha um buraco.",
+        "A dona do cão foi coser o buraco. Foi buscar o dedal.",
+        "Meteu o dedo no dedal e - vejam só! - estava lá o cão a dormir."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/03/15/html/wes66ld5aykbk4kkaschxakg3pj5s4gr/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/03/15/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

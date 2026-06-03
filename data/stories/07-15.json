@@ -1,0 +1,97 @@
+{
+  "id": "07-15",
+  "month": 7,
+  "day": 15,
+  "dateLabel": "15 de Julho",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Uma ideia de pulga",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma senhora que tinha uma menina. Era uma menina que tinha um cão. Era um cão que tinha uma pulga. Era uma pulga que tinha uma ideia.",
+        "Que ideia seria?",
+        "Não sabemos. E, como não sabemos, o melhor é perguntar:",
+        "- Ó pulga, que ideia é a tua?",
+        "- Uma grande ideia, uma ideia que vai mudar tudo. Uma ideia ex-tra-or-di-ná-ri-a!"
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "E, ao dizer isto, a pulga saltitava de entusiasmo. Saltos de pulga em pêlo de cão dão comichão. O cão, que não era de cócegas, parou e coçou-se. A menina do cão parou, à espera do cão. A senhora, que levava a menina pela mão, parou também. Como iam a atravessar uma rua de muito movimento, parou o trânsito."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Nas outras ruas, que iam dar à rua de muito movimento, parou tudo - automóveis, camionetas, autocarros... Buzinavam os carros. Gritavam as pessoas:",
+        "- Então esta história anda ou não anda?",
+        "E nós, para a pulga:",
+        "- Deixa-te de saltinhos e salta lá com essa ideia extraordinária, que estamos todos à espera."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- É muito simples - disse ela. - Para que as histórias com cães, meninas e senhoras possam ir à sua vida, sem serem interrompidas pelos saltos de uma pulga, eu proponho, eu exijo, que, daqui em diante, as pulgas deixem de usar saltos altos.",
+        "- Ah!"
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- admirámo-nos nós, que não sabíamos que as pulgas usavam saltos altos.",
+        "A pulga continuou:",
+        "- Nós, de saltos altos, não conseguimos passar despercebidas, quando pisamos, quando saltamos."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Por isso eu proponho, eu exijo, que as pulgas, em vez de sapatos de saltos altos, passem a calçar pan-tu-fas ou sapatinhos leves, que não chamem a atenção ao pisar.",
+        "Mas parece que a ideia não pegou. Ainda ontem vimos um cão a coçar-se, furiosamente. Ter-se-ão esgotado as pantufas, no mercado das pulgas? Nada disso."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Era um colégio de pulguinhas novas, na aula de ballet. Todas de sapatilhas leves, a dançar em pontas... Estas ainda vão esperar muito tempo até usar pantufas..."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/07/15/images/f3jm6yoqjwfd3obnno5lopbibuhlcqwx/Imagens/Background.jpg",
+    "icon": "/recovered/0000/07/15/images/fj4d2ozmf4pdczmnkg6s7wmmzxxcfix4/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/07/15/pdf/fpa26ydtajfjgpxnyx3tecl5y4s3tuaw/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/07/15/audio/0878937a4beccec2927c7874/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/07/15/images/22y2cdxrvaea4pxwjruy5wxuk6brs62k/Propostas/pulgas2.jpg",
+      "/recovered/0000/07/15/images/fbd48ded142e7ce42596a282/propostas/pulgas2.jpg",
+      "/recovered/0000/07/15/images/qc2gd7mhxoibjkrcgrjxpf357ze2ty5s/Imagens/entrada.jpg",
+      "/recovered/0000/07/15/images/yhsnoyhspmviujqeh4ry4dvs6bnzbj2h/Propostas/pulgas.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/07/15/html/xkxayna35fsywqv26o3iqfqon64epwvm/historia.aspx",
+    "printPdf": "/recovered/0000/07/15/pdf/fpa26ydtajfjgpxnyx3tecl5y4s3tuaw/imprimir.pdf",
+    "archiveDay": "/recovered/0000/07/15/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

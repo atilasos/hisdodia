@@ -1,0 +1,99 @@
+{
+  "id": "07-29",
+  "month": 7,
+  "day": 29,
+  "dateLabel": "29 de Julho",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Os trabalhos do Joca",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Chegaram as férias. Chegaram as férias para todos, menos para o Joca.",
+        "Realmente, já não tem de ir à escola. Mas, em contrapartida, nem fazem ideia do que o rapaz tem agora que fazer!",
+        "Para o Joca não há parança . Avaliem se tenho ou não tenho razão..."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Às 2ª feiras, o Joca é bombeiro, ao volante da ambulância vermelha.",
+        "Às 3ª feiras, é maquinista, a contas com os manípulos da locomotiva.",
+        "Às 4ª feiras, é ciclista e farta-se de correr, isto é, de pedalar."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Às 5ª feiras, é motorista, e que bem que ele guia a camioneta.",
+        "Às 6ª feiras, é aviador, aos comandos de uma bela avioneta.",
+        "Aos sábados, é cow-boy e monta um cavalo branco, com arreios dourados.",
+        "Aos domingos - calculem que até aos domingos!"
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- é astronauta, dirigindo pelo espaço o foguetão de prata.",
+        "Às 2ª feiras... Às 2ª feiras, que desolação! Quando se preparava para regressar ao trabalho, o Joca dá conta de que, no largo da vila, o carrossel vai ser desmanchado.",
+        "A voz que o animava a \"mais uma corrida! Mais uma viagem!\" emudeceu."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Vai o carrossel para outras terras, dar que fazer a outros meninos, rodopiar ao som da mesma música, que o encantou a ele, a semana inteira."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "E a ambulância dos bombeiros, a locomotiva, a bicicleta, a camioneta, o avião, o cavalo, o foguetão, rodando, uns atrás dos outros, rodando sempre, vão pôr a andar à roda as cabeças de mais meninos."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "De olhos fechados, eles sentem-se, de repente, bombeiros, maquinistas, ciclistas, motoristas, aviadores, cow-boys, astronautas...",
+        "O Joca vê partir o carrossel e tem pena. Mas, paciência! Há mais coisas a fazer durante as férias - por exemplo, brincar. E, a esse respeito, o Joca não se perde."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "571",
+      "term": "parança",
+      "definition": "descanso / folga"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/07/29/images/wz3mkohkvvveun2dqunyn4ziqrpn5uyf/Imagens/icone.jpg",
+    "icon": "/recovered/0000/07/29/images/wz3mkohkvvveun2dqunyn4ziqrpn5uyf/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/07/29/images/c3cc154440e5210230b97a15/imagens/icone.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/07/29/html/vxx5x4fsbzp5jn3r57u3jhlajnlqf7hq/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/07/29/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

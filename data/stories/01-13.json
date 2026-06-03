@@ -1,0 +1,69 @@
+{
+  "id": "01-13",
+  "month": 1,
+  "day": 13,
+  "dateLabel": "13 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Promessas de Lobo",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Um lobo, que tinha sido apanhado numa armadilha, prometeu que mudaria de hábitos alimentares, se o poupassem.",
+        "- De agora em diante, vou deixar de comer carne - garantiu ele aos homens que o tinham caçado. - Passo a comer ervas e, uma vez por outra, um peixinho de rio. Palavra de lobo!",
+        "Os homens deixaram-no ir, enquanto riam e faziam apostas."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- Ele não vai ser capaz - diziam uns.",
+        "- Talvez seja - contradiziam outros.",
+        "O lobo cumpriu o prometido. Tasquinhava ervinhas como um cordeiro. Comia frutos silvestres como um macaco. Roía raízes como uma toupeira.",
+        "Mas, um dia, deu com um enorme porco de mato, que tomava banho no rio."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "- Que grande peixe! - exclamou o lobo, de olhos a luzir. - Há que tempos que não como nada de jeito.",
+        "E atirou-se ao porco de mato, mas como andava fraco e perdera o jeito, deixou escapar o porco e caiu de focinho na água."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "160",
+      "term": "tasquinhava",
+      "definition": "comia pouco"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/01/13/pdf/7zef7hnxjdhvfjfs4dmrrbdiolvdhcfw/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/01/13/audio/22fa1869cad4bc17e8f3537b/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/01/13/html/iblmaz3z67rwbg4lf32q6o2ulfrtsfhv/historia.aspx",
+    "printPdf": "/recovered/0000/01/13/pdf/7zef7hnxjdhvfjfs4dmrrbdiolvdhcfw/imprimir.pdf",
+    "archiveDay": "/recovered/0000/01/13/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

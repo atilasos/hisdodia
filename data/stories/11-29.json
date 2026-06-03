@@ -1,0 +1,56 @@
+{
+  "id": "11-29",
+  "month": 11,
+  "day": 29,
+  "dateLabel": "29 de Novembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O Papagaio do Restaurante",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "88",
+      "term": "bestunto",
+      "definition": "cabeça / juízo"
+    },
+    {
+      "id": "89",
+      "term": "arrufos",
+      "definition": "amuos"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/11/29/images/lly7ptmzp4klzphq3tlqkqmky7pusa7n/Imagens/icone.jpg",
+    "icon": "/recovered/0000/11/29/images/lly7ptmzp4klzphq3tlqkqmky7pusa7n/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/11/29/html/n6yixivrupi6qnmm6qth5zzk76s36lvs/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/11/29/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

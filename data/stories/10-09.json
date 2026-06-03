@@ -1,0 +1,47 @@
+{
+  "id": "10-09",
+  "month": 10,
+  "day": 9,
+  "dateLabel": "9 de Outubro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "As Duas Pombas",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/10/09/images/wrgth7rxjmth3tskl6rllccne7leidfk/Imagens/entrada.jpg",
+    "icon": "/recovered/0000/10/09/images/iss23q73myyoclugcqmaeqyxisfhyngy/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/10/09/pdf/7opaqiqfmrryjhhjoaykr5yvqmeygthu/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/10/09/images/9cfcffa9aa477d1cd6bca81c/imagens/entrada.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/10/09/html/rbhtr3dmhhtzodq2z4xaavuxe2xlttq6/historia.aspx",
+    "printPdf": "/recovered/0000/10/09/pdf/7opaqiqfmrryjhhjoaykr5yvqmeygthu/imprimir.pdf",
+    "archiveDay": "/recovered/0000/10/09/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

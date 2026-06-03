@@ -1,0 +1,154 @@
+{
+  "id": "03-26",
+  "month": 3,
+  "day": 26,
+  "dateLabel": "26 de Março",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O Ferrador aprendiz",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Há um ditado que diz assim:",
+        "\"Por um cravo se perde um cavalo, por um cavalo um cavaleiro, por um cavaleiro uma batalha.\"",
+        "A história está praticamente contada, mas vale a pena entrar em pormenores."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Tudo começou quando um rapaz, chamado Vatel, entrou ao serviço das cavalariças reais. A ambição dele era chegar a ferrador-mor, mas, como em tudo, tinha de começar pelo princípio.",
+        "Passeava os cavalos, antes de serem selados, dava-lhes de comer, lavava-os e limpava-os, revolvia-lhes e mudava-lhes a palha das camas, enfim, tudo trabalhos ligeiros."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "De caminho, ia aprendendo a ferrar. Estava sempre de olho nos ferradores, que pegavam com tenazes as ferraduras saídas da forja e as martelavam na bigorna , para, depois de arrefecidas numa selha , muito habilmente aplicá-las nos cascos dos cavalos."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "As nuvens de vapor que se soltavam da selha por cada ferradura nela mergulhada toldavam os olhos de Vatel. A atmosfera afogueada dos metais fundentes, de mistura com o cheiro acre dos couros e dos cascos aquecidos, mais o suor nervoso dos cavalos, ardiam na respiração do jovem Vatel, picavam-lhe as narinas, faziam-no lacrimejar. Mas ele gostava."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Um dia, houve rebuliço nas cavalarias reais. Tinham de ser aprontados até de madrugada todos os cavalos, porque o reino sofria ameaça de invasão e o rei, fiado no seu exército de lanceiros, contava sustê-la.",
+        "O caminho até à fronteira era longo, por más estradas. Como se sabe, sem ferraduras, os cavalos nunca conseguiriam enfrentar longas caminhadas."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Gastavam as solas dos cascos e expunham à marcha os tecidos vivos, a ponto de se magoarem.",
+        "A invenção do aro de ferro, pregado aos cascos do cavalo, só tem equivalência com a invenção do pneu, para o andamento da roda. Mas, vendo bem, a ferradura talvez tenha sido ainda mais importante."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Na cavalariça, todos os braços disponíveis foram postos ao serviço da cavalaria do rei.",
+        "- Tu sabes ferrar bem, rapaz? - perguntou uma ordenança a Vatel.",
+        "- Sei sim, senhor - respondeu Vatel, num atrevimento de boa vontade.",
+        "- Então trate-me de ferrar de novo este cavalo, que tem as ferraduras das mãos gastas, nos bordos de fora. Depressa."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "O rapaz obedeceu. Descravar não custou. Eram ferraduras abertas e simples. Encontrar outras novas e iguais também foi fácil, apesar da confusão da oficina.",
+        "- Quem te deu a carta de ferrador? - perguntou-lhe a voz grossa do mestre Lavalard. - Dá cá o animal e vai buscar-me os cravos."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "O aprendiz tinha sido reposto no seu lugar, antes de fazer alguma asneira. Estava o mestre Lavalard a fiscalizar a operação - e com que ligeireza ele ferrava! - quando o chamaram de urgência para atender ao cavalo de um coronel.",
+        "- Falta só martelar este cravo - disse o mestre ao aprendiz. - Encraveira bem, para que fique à face. Tens força que chegue?"
+      ]
+    },
+    {
+      "layer": "html-layer-11",
+      "paragraphs": [
+        "Vatel disse que sim. Que outra coisa podia ele dizer?",
+        "Aqui para nós, temos de reconhecer que a vontade não se igualava à força. O cravo ficou ligeiramente solto, um nada de nada, mas o suficiente para ditar a sorte de uma batalha."
+      ]
+    },
+    {
+      "layer": "html-layer-12",
+      "paragraphs": [
+        "Quando, tempos depois, a meio da refrega , o rei do alto de uma colina, observando com os seus generais o andamento da batalha, mandou que o cabo-estafeta, a ordenança , fosse por reforços e o cabo partiu à desfilada , já o cravo novo da ferradura estava meio desenclavinhado, por culpa da marcha que suportara. Tinia a ferradura, a soltar-se da pata do cavalo."
+      ]
+    },
+    {
+      "layer": "html-layer-13",
+      "paragraphs": [
+        "O cavalo da ordenança tropeçou, o cavaleiro não se segurou, caiu pela frente da montada e foi bater com a cabeça numa maldita pedra, que devia ter pacto com o inimigo. Desmaiou o cabo e os reforços não foram avisados e a batalha perdeu-se."
+      ]
+    },
+    {
+      "layer": "html-layer-14",
+      "paragraphs": [
+        "Contam os manuais de História que a culpa da derrota foi atribuída à má estratégia do rei, dos generais e de não sei mais quem, mas nenhum livro refere o nome do aprendiz Vatel. Aqui se repõe a verdade, para que se saiba."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "96",
+      "term": "refrega",
+      "definition": "briga / combate"
+    },
+    {
+      "id": "321",
+      "term": "selha",
+      "definition": "tina / vaso redondo de madeira de bordos baixos"
+    },
+    {
+      "id": "322",
+      "term": "ordenança",
+      "definition": "soldado às ordens de um oficial"
+    },
+    {
+      "id": "334",
+      "term": "bigorna",
+      "definition": "peça de ferro com a ponta cilíndrica em cima da qual se batem ou moldam metais"
+    },
+    {
+      "id": "323",
+      "term": "desfilada",
+      "definition": "galope / sem parar"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/03/26/html/pmdwzbe63mzqvzwfwdbh2g6fwbtjwbme/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/03/26/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

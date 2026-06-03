@@ -1,0 +1,45 @@
+{
+  "id": "09-27",
+  "month": 9,
+  "day": 27,
+  "dateLabel": "27 de Setembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "História de 27 de Setembro",
+  "author": "António Torrado",
+  "illustrator": "Ilustrador original por confirmar",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/09/27/images/7ag7yv77c2a5qi763ih2lucektihwdv6/Imagens/entrada.jpg",
+    "icon": "/recovered/0000/09/27/images/7ag7yv77c2a5qi763ih2lucektihwdv6/Imagens/entrada.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": null,
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/09/27/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

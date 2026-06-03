@@ -1,0 +1,106 @@
+{
+  "id": "12-05",
+  "month": 12,
+  "day": 5,
+  "dateLabel": "5 de Dezembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Manuel e Manuela",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Eles saíram desalvorados para a escola.",
+        "- Escusam de ir a correr - disse-lhes a mãe. - Têm tempo.",
+        "Manuel e Manuela refrearam a marcha. Se a mãe lhes dissera que tinham tempo é porque tinham.",
+        "Logo ali, quase à mão de apanhar, umas tangerinas, penduradas de um ramo, que lhes dizia adeus."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "O Manuel trepou ao muro e raptou duas tangerinas da tangerineira, uma para ele outra para a irmã. Fresquinhas. Deliciosas.",
+        "- De quem é o quintal? - perguntou a Manuela ao Manuel.",
+        "- É do cabo Octávio, da Guarda Republicana disse o Manuel.",
+        "- E se ele sabe? - assustou-se a Manuela, que gostava de assustar-se."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Mas já tinham comido as doces tangerinas.",
+        "Continuaram o caminho e logo por azar, à entrada da escola, deram com o cabo Octávio, postado de sentinela.",
+        "Os dois irmãos, ao verem-no, esconderam-se atrás de uma árvore.",
+        "- E se ele descobre? - assustou-se a Manuela."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Cheira-nos as mãos, que ainda cheiram à casca das tangerinas, e prende-nos.",
+        "Claro que era um exagero, uma tolice, mas quando se tem a consciência pesada só se pensa no pior.",
+        "- Vamos lavar as mãos ao rio - lembrou o Manuel.",
+        "Foram. O perfume da tangerina é que não saía nem por mais uma."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- Temos de arranjar sabão para lavar as mãos como deve ser - disse o Manuel.",
+        "Lavadeiras tinham deixado lençóis a secar, estendidos nas pedras lisas da beira-rio. E um bocadinho de sabão.",
+        "- Há-de ser da senhora Angelina, lavadeira - disse a Manuela."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Lavaram conscienciosamente as mãos, muito bem ensaboadas, mas o sabão escorregou-lhes e foi ao fundo. Não era grande a perda.",
+        "Eles a retomarem o caminho para a escola e a verem, ao longe, a senhora Angelina, com mais uma carga de roupa para lavar. Vinha em direcção a eles."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Claro que a Manuela e o Manuel, por causa da história do sabão, fugiram, sem que a lavadeira percebesse porquê.",
+        "Fugiram e perderam-se.",
+        "Quando retomaram o caminho e chegaram à escola, onde já não pairava a sombra do cabo Octávio, a aula tinha começado há que tempos.",
+        "A professora ralhou-lhes pelo atraso."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "- Hão-de dizer à vossa mãe para passar a acordar-vos mais cedo.",
+        "Os dois irmãos disseram que sim. Que mais podiam eles dizer?"
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/12/05/images/ktunzjbzw4f44vxw5stodopknqkkdwzn/Imagens/icone.jpg",
+    "icon": "/recovered/0000/12/05/images/ktunzjbzw4f44vxw5stodopknqkkdwzn/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/12/05/pdf/ckwxcctabmojs3qd5w6473qouylhfwqq/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/12/05/html/frfish4huogmvpaudvy6y4waufxma4cb/historia.aspx",
+    "printPdf": "/recovered/0000/12/05/pdf/ckwxcctabmojs3qd5w6473qouylhfwqq/imprimir.pdf",
+    "archiveDay": "/recovered/0000/12/05/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

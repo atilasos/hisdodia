@@ -1,0 +1,101 @@
+{
+  "id": "02-14",
+  "month": 2,
+  "day": 14,
+  "dateLabel": "14 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Lua Cheia",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O jovem hipopótamo olha-se no espelho do lago e diz, tristemente:",
+        "- Sou tão feio! Tenho a boca enorme, dentes separados, uns olhos de choro, orelhas ridículas e um corpo... oh, um corpo tão deselegante, tão desajeitado que nunca vou poder dançar com ninguém."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "O jovem elefante também se olha no espelho do lago e diz, tristemente:",
+        "- Sou tão feio! Tenho uma tromba imensa, orelhas de abano, olhinhos piscos e um corpo... oh, um corpo tão trangalhadanças e descomunal que nunca vou poder jogar às escondidas com ninguém."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Mas, quando o jovem hipopótamo, depois de, tristemente, se ter mirado no espelho do lago, levantou a cabeça, viu, na outra margem, uma jovem hipopótama.",
+        "- Que linda! - exclamou. - Tem uma boca grande e expressiva, dentes bem implantados, uns olhos enternecidos, orelhas mimosas e um corpo tão elegante que apetece logo convidá-la para dançar."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Também o jovem elefante, depois de, tristemente, se ter visto reflectido no espelho do lago, ao levantar a cabeça, deparou com uma jovem elefanta, na outra margem.",
+        "- Que encantadora! - exclamou."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- Tem uma tromba ondulante, orelhas cheias e contentes, uns olhinhos maliciosos e um corpo tão resplandecente de vida que apetece logo pedir para jogar às escondidas com ela.",
+        "É de ficar por aqui.",
+        "A estas horas, o jovem elefante e o seu par jogam às escondidas, correm, perseguem-se, riem, à beira do lago. Que felizes que eles estão!",
+        "Estão eles e estamos nós."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Até a Lua, bem redonda e festiva, que sobe pela noite, se debruça lá do alto, para não perder nem um pouco de perfume da Primavera, a despontar na terra, nos animais, nas plantas, em tudo o que é vida e anuncia a felicidade."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "221",
+      "term": "trangalhadanças",
+      "definition": "desajeitadas"
+    },
+    {
+      "id": "226",
+      "term": "resplandecente",
+      "definition": "muito brilhante"
+    },
+    {
+      "id": "225",
+      "term": "descomunal",
+      "definition": "enorme / excessivo"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/02/14/pdf/53mbsmqxoyderznqbkaaisv6rnby2o5y/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/02/14/audio/adf20ec9349d6149d3cfe819/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/02/14/images/qrgs42lkkict2r4p2bwtb3wxqlie4fff/Propostas/elefante3.jpg",
+      "/recovered/0000/02/14/images/xsyb4tgnizvb6gkymkhru4blxr2hewdk/Propostas/hipopotamo1.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/14/html/5c7929dc59622c6bf900b10b/historia.aspx",
+    "printPdf": "/recovered/0000/02/14/pdf/53mbsmqxoyderznqbkaaisv6rnby2o5y/imprimir.pdf",
+    "archiveDay": "/recovered/0000/02/14/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

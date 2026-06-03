@@ -1,0 +1,128 @@
+{
+  "id": "05-19",
+  "month": 5,
+  "day": 19,
+  "dateLabel": "19 de Maio",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O tempo das vacas magras",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Os reis que mandavam no Egipto de antigamente eram os faraós. Um deles, uma vez, teve um sonho.",
+        "No princípio do sonho, o faraó viu-se junto à margem de um rio. Do rio saíram sete vacas bonitas e gordas, que se puseram a pastar na erva. Passado algum tempo, outras sete vacas saíram do rio, mas estas eram enfezadas e feias."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Depois - coisa estranha! - as sete vacas magras devoraram as sete vacas gordas. Só em sonhos isto pode acontecer.",
+        "Foi este o pensamento do faraó, ao acordar."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Sentia-se incomodado com o sonho que tivera e todo o dia empreendeu nele, a ponto de o contar aos seu séquito , com todos os pormenores, como se ainda o estivesse a sonhar.",
+        "- Há-de ser um sinal, um aviso - dizia, constantemente, o faraó. - Mas que sinal, que aviso?"
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Alguém se lembrou de um escravo, chamado José, que tinha fama de interpretar os sonhos mais escabrosos . Naquele tempo, acreditava-se que os sonhos eram recomendações divinas para guiar a conduta dos homens.",
+        "Chamado à corte, José ouviu do faraó o estranho sonho. Os cortesãos já quase o sabiam de cor."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "José ouviu e ficou, depois, em meditações, como se estivesse a rezar. À sua volta, aumentava a impaciência.",
+        "Até que José anunciou:",
+        "- As sete vacas gordas vão ser sete anos de abundância. A seguir virão sete anos de fome, como sete vacas magras."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "A riqueza dos sete primeiros anos será consumida pelos sete anos seguintes, em que o Egipto, devastado, se for mal gerido, conhecerá a miséria.",
+        "O faraó concordou. Algo lhe dizia que as palavras do escravo eram portadoras da verdade.",
+        "- Que devo, então, fazer? - perguntou o faraó."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "José respondeu, como se fosse um profeta:",
+        "- Deveis mandar acumular toda a alimentação excedente desses anos férteis, que se aproximam. O trigo armazenado ficará de reserva, como recurso para minorar os sete anos de fome."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "- Visto que o teu Deus te revelou tudo isso, não há ninguém, no Egipto, mais sábio do que tu - proclamou o faraó. - Tu mesmo serás o chefe da minha casa. Todo o meu povo será governado por ti, como primeiro representante do meu mando.",
+        "Então, o faraó tirou da sua mão direita um anel e entregou-o a José."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "Tudo aconteceu como ele previra. Quando chegaram os anos de seca, a fome tomou conta dos países vizinhos, mas no Egipto não faltou o pão. Por isso o povo glorificou o nome do antigo escravo que ensinara ao faraó as regras do bom governo e os ditames da prudência."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "458",
+      "term": "enfezadas",
+      "definition": "pouco desenvolvidas / raquíticas"
+    },
+    {
+      "id": "460",
+      "term": "escabrosos",
+      "definition": "difíceis / obscenos"
+    },
+    {
+      "id": "461",
+      "term": "ditames",
+      "definition": "sugestões"
+    },
+    {
+      "id": "141",
+      "term": "séquito",
+      "definition": "cortejo"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/05/19/images/pmzrosazihdd3kcl42b4jy45acpmuy2k/Imagens/entrada.jpg",
+    "icon": "/recovered/0000/05/19/images/pmzrosazihdd3kcl42b4jy45acpmuy2k/Imagens/entrada.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/05/19/images/f93041c38f45406149ff83b4/imagens/entrada.jpg",
+      "/recovered/0000/05/19/images/rrz34zlub6hyxqa6gj2tnqdznfqgjgjx/propostas/egipto1.jpg",
+      "/recovered/0000/05/19/images/yrqouuwyuboyeijdlqm4ii633xmanazz/propostas/egipto2.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/05/19/html/mgo7tydvuqmuzhtu4lt4ly242t2uextu/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/05/19/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

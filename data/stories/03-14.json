@@ -1,0 +1,122 @@
+{
+  "id": "03-14",
+  "month": 3,
+  "day": 14,
+  "dateLabel": "14 de Março",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "HistÃ³rias em quadradinhos",
+  "author": "AntÃ³nio Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Numa folha de papel quadriculado passa-se cada coisa...",
+        "Ãs vezes, passam-se contas. Ã o mais normal. Nem sempre as contas batem certo, apesar dos quadrados quadradinhos, muito certinhos, terem sido feitos para contas muito bem contadas, certeiras, certinhas, acertadas."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Quando a conta nÃ£o estÃ¡ certa, risca-se ou apaga-se. A folha quadriculada tudo consente, mas no fundo, Ã© muito exigente.",
+        "Mas hÃ¡ mais: onde estÃ£o contas, podem estar contos...",
+        "Ãs vezes, numa folha de papel quadriculado, acontecem histÃ³rias. SÃ£o estas as autÃªnticas, as primeiras histÃ³rias em quadradinhos. Como a que vamos contar."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Numa folha de papel quadriculado dum caderno escolar, encontraram-se um quadrado, completamente quadrado, e um triÃ¢ngulo muito triÃ¢ngulo. E muito impertinente.",
+        "Dizia o triÃ¢ngulo para o quadrado:",
+        "- EstÃ¡s sempre na mesma. Ãs quadrado, sÃ³ quadrado e, dÃªs as voltas que deres, ficas sempre quadrado."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Pff! Que figura geomÃ©trica mais sem jeito. Que monotonia .",
+        "O quadrado calado, muito calado, sÃ³ ouvia.",
+        "Continuava o triÃ¢ngulo:",
+        "- Eu sim, sou variÃ¡vel. Umas vezes faÃ§o-me triÃ¢ngulo equilÃ¡tero . Outras, isÃ³sceles . Outras, escaleno . Sou um triÃ¢ngulo de muitas formas e feitios. Gosto de variar."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "O quadrado calado, calado ficou. EntÃ£o o triÃ¢ngulo arrebitado espevitou-o:",
+        "- NÃ£o dizes nada? VÃª-se que estÃ¡s amachucado com a minha sapiÃªncia , com a minha variedade. NÃ£o Ã© assim, Ã³ quadrado?"
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "EntÃ£o o quadrado nÃ£o se conteve mais e ripostou:",
+        "- Vai falando, vai, triÃ¢ngulo presunÃ§oso , mas olha que iguais a ti jÃ¡ eu tenho dois, cÃ¡ dentro!",
+        "EntÃ£o o triÃ¢ngulo ficou tÃ£o enfiado que pediu a uma borracha que o apagasse."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "276",
+      "term": "presunçoso",
+      "definition": "vaidoso / presumido"
+    },
+    {
+      "id": "294",
+      "term": "monotonia",
+      "definition": "falta de variedade / sensaboria"
+    },
+    {
+      "id": "295",
+      "term": "equilátero",
+      "definition": "triângulo que tem os três lados iguais"
+    },
+    {
+      "id": "299",
+      "term": "sapiência",
+      "definition": "conhecimento vasto / sabedoria / erudição"
+    },
+    {
+      "id": "296",
+      "term": "isósceles",
+      "definition": "triângulo que tem dois lados iguais"
+    },
+    {
+      "id": "298",
+      "term": "amachucado",
+      "definition": "melindrado / enfraquecido / ofendido"
+    },
+    {
+      "id": "297",
+      "term": "escaleno",
+      "definition": "triângulo que têm os lados todos desiguais"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/03/14/pdf/4dnnbzf725p5sz6fw2oqfqbpniceodpd/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/03/14/html/iehri4zd4k26eeiemg7vwno5kakxwd7x/historia.aspx",
+    "printPdf": "/recovered/0000/03/14/pdf/4dnnbzf725p5sz6fw2oqfqbpniceodpd/imprimir.pdf",
+    "archiveDay": "/recovered/0000/03/14/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

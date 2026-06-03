@@ -1,0 +1,95 @@
+{
+  "id": "04-27",
+  "month": 4,
+  "day": 27,
+  "dateLabel": "27 de Abril",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Os coelhinhos aprendem",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez uma coelha que tinha muitos filhos. Como boa mãe, passava o dia a recomendar-lhes o que era melhor para a vida deles: as ervas que deviam comer, as ervas que deviam rejeitar, as horas a que podiam sair, as horas em que não podiam nem espreitar..."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- E, antes de mais - dizia ela -, muita atenção ao calendário de abertura da caça...",
+        "- Mas como é que nós sabemos, se não lemos jornais? - perguntou um dos coelhinhos.",
+        "- Assim que ouvirem tiros, nem que sejam longe, e cães a ladrar, corram logo a abrigar-se - avisou a mãe."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Um dia, um dos mais novos, chegou à toca, muito assustado.",
+        "- Ouvi tiros, mãe. Esconda-me.",
+        "A coelha tranquilizou-o:",
+        "- Eu também ouvi, mas não são tiros de chumbo. São foguetes de cana. Há festa na aldeia. Não ouves a música da banda? Para que te servem as orelhas?"
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Enquanto eles andam entretidos, podemos nós sossegar.",
+        "Dias depois, estava a família toda no pasto e uma melodia fininha e maliciosa veio pelo ar, como serpente que dança... Os coelhos pequenos, que nunca tal tinham ouvido, olharam para a mãe, interrogativos.",
+        "- É melhor irmos andando para casa - disse ela."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- E tão cedo não voltamos a pôr o nariz de fora.",
+        "O coelhinho de há pouco estranhou:",
+        "- Mas ó mãe, uma música tão doce não será festa, também?",
+        "- Qual festa, qual carapuça. Despacha-te. É o Pedro Ovelheiro, que toca flauta, e anda por aí a semear desgraça. Arma por tudo o que é sítio armadilhas, que fazem miséria."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Até me arrepio toda.",
+        "Tempos depois, o coelhinho veio outra vez ter com a mãe, muito aflito.",
+        "- Vi homens com espingardas. Devem ser caçadores.",
+        "- Também eu vi - disse a mãe. - Com estes podes estar descansado."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "São guardas florestais e andam a levantar as armadilhas que o Pedro armou, porque estão proibidas pela lei da caça. Já podemos descansar. Mas, mesmo assim, todo o cuidado é pouco.",
+        "Está visto que é muito arriscada a vida do mato. O que um coelho tem de aprender, para não ser chumbado!"
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/04/27/html/ovpi5hy6rrhztudylfce753so5tvmsix/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/04/27/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

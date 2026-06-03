@@ -1,0 +1,92 @@
+{
+  "id": "12-16",
+  "month": 12,
+  "day": 16,
+  "dateLabel": "16 de Dezembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A Cerejeira do Natal",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O senhor Tadeu tinha, lá na horta, uma cerejeira de que gostava muito. Quando chegava o tempo das cerejas, era uma fartura, uma doçura que não havia igual.",
+        "Pois é, mas os pardais também diziam o mesmo. Tinham uma predilecção por aquela cerejeira nem que as cerejas fossem de mel. Eram quase."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "O senhor Tadeu enxotava-os , pendurava fitas nos ramos para assustá-los e chegou a armar um espantalho de vassoura na mão, que prendeu no alto da cerejeira. Fazia vista, mas não metia medo.",
+        "Mal chegava o tempo das cerejas amadurarem, a pardalada vinha em excursão festiva para o meio da cerejeira."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Depenicavam com tal arte que chegavam a deixar só o caroço das cerejas, preso ao pezinho suspenso da árvore. Um desespero para o senhor Tadeu.",
+        "Há dias, encontrei-o, na loja de artigos de Natal, a carregar um enorme embrulho.",
+        "- Ena! - exclamei eu. - O seu pinheiro vai ficar bem enfeitado.",
+        "- Não é para o pinheiro - emendou o senhor Tadeu. - É para a cerejeira."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Então, explicou-me o seu plano. Quando, da Primavera para o Verão, os frutos da cerejeira começassem a engordar, ele ia enfeitar a árvore com sininhos e bolas de Natal.",
+        "- Para os pardais julgarem que é um pinheiro - concluí eu, pouco convencido da eficácia do projecto. - Eles são mais espertos do que isso."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Seriam, de facto, reconheceu o senhor Tadeu, mas também são uns passarinhos alarmados. Detestam ruídos imprevistos. Ouvindo os sininhos, agitados pelo vento, fogem. E as bolas de Natal, brilhando ao sol, também lhes hão-de meter respeito.",
+        "O senhor Tadeu lá se foi, muito contente com o seu plano. Resulte ou não resulte, a cerejeira há-de gostar."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "106",
+      "term": "predilecção",
+      "definition": "gosto / afeição"
+    },
+    {
+      "id": "107",
+      "term": "enxotava-os",
+      "definition": "espantava-os"
+    },
+    {
+      "id": "108",
+      "term": "depenicavam",
+      "definition": "debicavam"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/12/16/images/je3pwgmb43xo3a4jatfdrrd4hvsgfx36/Imagens/icone.jpg",
+    "icon": "/recovered/0000/12/16/images/je3pwgmb43xo3a4jatfdrrd4hvsgfx36/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/12/16/pdf/lycflxglx7ycskxajwktym26qla4zmj7/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/12/16/html/scuuiivvjrsaebe4terek2q6aqyhheak/historia.aspx",
+    "printPdf": "/recovered/0000/12/16/pdf/lycflxglx7ycskxajwktym26qla4zmj7/imprimir.pdf",
+    "archiveDay": "/recovered/0000/12/16/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

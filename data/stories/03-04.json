@@ -1,0 +1,129 @@
+{
+  "id": "03-04",
+  "month": 3,
+  "day": 4,
+  "dateLabel": "4 de Março",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O romeiro, o vento e o sol",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Consegue-se às boas, mansamente, o que não se consegue a mal, à força, de repelão. A melodia de uma flauta abre mais janelas do que uma trovoada.",
+        "Vou exemplificar.",
+        "O Senhor Vento e o Senhor Sol, lá do seu miradoiro, observam o que se passa cá em baixo. Os dois dispensam binóculos."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Estavam eles entretidos, na sua quadrilhice de varanda, quando viram um romeiro, daqueles que percorrem a pé os caminhos que vão dar à galega Compostela.",
+        "Ia de chapeirão e larga capa, que o cobria até aos pés."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Nodoso cajado de ajudar às subidas, um saquitel ao ombro e a cabaça à cintura, para o vinho que aquece, eis o quadro completo do devoto de São Tiago, o Apóstolo, com catedral famosa na cidade de Compostela."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Aquele, ali, todo embiocado , que nem se percebe quem será, se é velho, se é novo, se é loiro, se moreno, está a irritar-me - disse o Senhor Vento, muito dado a caprichos.",
+        "- Aposto que é novo e moreno - disse o Senhor Sol, por desfastio ."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- Pois eu acho o contrário. O homem é velho e branco de cabelo, que já foi loiro - apostou o Senhor Vento. Mas já vamos ver isso. Eu sopro com toda a força e descubro-o.",
+        "- Aposto que não resulta - contrapôs o Senhor Sol, divertido com o passatempo."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Levantou-se uma ventania de dobrar as árvores. O romeiro fincou-se ao cajado, puxou o chapéu para a cara e apertou a capa. Por mais que o Senhor Vento soprasse não houve meio de derrotar o viandante .",
+        "- Primeira aposta perdida - riu-se o Senhor Sol."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Ele a rir e seus raios a brilharem com mais alegria e calor. O Senhor Sol arredou umas nuvenzitas e concentrou toda a sua atenção sobre o romeiro, que seguia estrada fora, no passo firme de quem não pode faltar ao encontro. Santiago esperava-o. Mas andar à torreira do sol cansa. O romeiro começou por abrir a capa, depois dispensou-a e dobrada pô-la ao ombro."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "O Senhor Sol não o largava.",
+        "À beira de uma fonte, o caminheiro parou. Desfez-se do chapeirão, que poisou com a capa e o cajado no rebordo do fontanário, despiu a camisa e, de tronco nu, refrescou rosto e corpo, na água que corria. Deliciado.",
+        "Era loiro e jovem.",
+        "- Desta vez não ganhou ninguém - concluiu o Senhor Vento."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "- Ganhou ele - disse o Senhor Sol, apontando o moço, que passava um lenço a escorrer água pela cara e pelos ombros. - E, embora tenha apostado que ele era moreno, eu acho que também já ganhei o dia.",
+        "E, com todos os seus costumados vagares, o Sol começou a preparar as cores do entardecer."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "92",
+      "term": "desfastio",
+      "definition": "distracção"
+    },
+    {
+      "id": "216",
+      "term": "saquitel",
+      "definition": "saquinho"
+    },
+    {
+      "id": "274",
+      "term": "embiocado",
+      "definition": "coberto com capa ou xaile"
+    },
+    {
+      "id": "275",
+      "term": "viandante",
+      "definition": "viajante / passageiro"
+    },
+    {
+      "id": "273",
+      "term": "quadrilhice",
+      "definition": "conversa / coscuvilhice"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/03/04/images/k7ncegruphabjafts6655kqbnneufnjf/Imagens/Background.jpg",
+    "icon": "/recovered/0000/03/04/images/5t5bs45rtj74t2x6iahzcywt5b7cc6km/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/03/04/pdf/hf3mh4lxutml7qqbc26xytbtlki4zfz4/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/03/04/audio/fddvqjtpvmyufgly3duzge3jlbe66df3/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/03/04/html/tn45dzme4janitlsiryk5csqbhqkazyz/historia.aspx",
+    "printPdf": "/recovered/0000/03/04/pdf/hf3mh4lxutml7qqbc26xytbtlki4zfz4/imprimir.pdf",
+    "archiveDay": "/recovered/0000/03/04/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

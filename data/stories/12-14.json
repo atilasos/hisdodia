@@ -1,0 +1,101 @@
+{
+  "id": "12-14",
+  "month": 12,
+  "day": 14,
+  "dateLabel": "14 de Dezembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O Jornalista das Perguntas",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Aquele jornalista que, por tudo e por nada, anda sempre a perguntar coisas teve a ideia de fazer um inquérito. Ia por aí, de mãos atrás das costas, e ao primeiro que lhe aparecesse perguntava:",
+        "- O que é que quis ser, quando era pequeno?",
+        "Depois somava, comparava e tirava percentagens."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Tantos queriam ser arquitectos, tantos queriam ser médicos, tantos queriam ser aviadores... Chama-se a isto uma estatística.",
+        "Para começar a tal estatística, perguntou primeiro a um rio:",
+        "- O que é que quis ser, quando era pequeno?",
+        "Era uma ribeiro pouco profundo, mas que sabia o que queria."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Respondeu:",
+        "- Quando era pequeno, só um fiozinho de água a escorrer da nascente, eu queria ser um grande rio, desses que são cruzados por vapores, visitados por paquetes, atravessados por pontes enormes. E ainda não desisti.",
+        "O jornalista registou e foi perguntar a mesma coisa a uma arvorezeca, que lhe dava pelo ombro."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Respondeu-lhe ela:",
+        "- Quando era pequena, só uma haste a romper da terra, eu queria ser uma grande árvore, dessas que dão sombra a um rancho inteiro de camponeses ou a um dilatado piquenique de excursionistas. E ainda não desisti.",
+        "O jornalista registou e foi perguntar a mesma coisa a uma casa, duas janelas e uma porta ou pouco mais."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Resposta dela:",
+        "- Quando eu era pequena, só um tijolo em cima de outro, eu queria ser um bairro com muitas ruas, onde coubessem muitas famílias, e que tivesse lojas, escola, correio, igreja. E ainda não desisti.",
+        "O jornalista, farto do inquérito, ficou-se por aqui. Entretanto, concluiu que muitas coisas (e talvez até pessoas!) quiseram ser, em pequenas, o que acabaram por não conseguir ser quando cresceram."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Ficaram-se a meio caminho das suas aspirações, dos seus sonhos, dos seus desejos. Coitadas delas, pensou o jornalista, encolhendo os ombros. E partiu, a toda a pressa, para outro inquérito.",
+        "Afinal, o jornalista estava a tirar conclusões precipitadas."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Se tivesse prosseguido na investigação, se tivesse tido mais paciência, saberia que o rio, ao fim de muita água, muito caminho, se transformou no grande rio da sua ambição.",
+        "Saberia que a arvorezeca, ao fim de muitos Invernos e muitas Primaveras, se transformou na imponente árvore da sua vontade."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Saberia que a casinha, ao fim de muitos anos, muitos trabalhos, junta com outras casas, formou o bairro do seu muito querer, das suas mais profundas esperanças.",
+        "Mas onde é que já ia o apressado jornalista quando isto tudo, finalmente, aconteceu?"
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/12/14/images/k4lnvnj3bekdvqkh4mtrwxwyaet76xhu/Imagens/icone.jpg",
+    "icon": "/recovered/0000/12/14/images/k4lnvnj3bekdvqkh4mtrwxwyaet76xhu/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/12/14/pdf/j6v6tfef22wzjwbdob62ujf5dzy2t7sx/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/12/14/html/pc2ipfqwioiygl7ezy34wopjm4bbzcla/historia.aspx",
+    "printPdf": "/recovered/0000/12/14/pdf/j6v6tfef22wzjwbdob62ujf5dzy2t7sx/imprimir.pdf",
+    "archiveDay": "/recovered/0000/12/14/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

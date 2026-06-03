@@ -1,0 +1,100 @@
+{
+  "id": "08-03",
+  "month": 8,
+  "day": 3,
+  "dateLabel": "3 de Agosto",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Ovos frescos",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um açafate com ovos. Puseram-se à conversa. Eram ovos ainda frescos e tinham ambições. Um deles disse:",
+        "- Quem me dera a mim fazer-me em fios de ovos, a enfeitar um bolo...",
+        "- Não está má a pretensão - comentou um outro. - Pois eu preferia ajudar umas fatias douradas a ficar mais douradinhas."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- Fritos, não - cortou um terceiro. - Mas, numa gemada com açúcar, já eu entrava com gosto.",
+        "Outro ovo confessou:",
+        "- Gostava tanto de ser ovo estrelado. Estrelado vem de estrela... Deve ser bonito. Mas, não podendo ser, qualquer uso serve. Um ovo nunca passa despercebido.",
+        "Só faltava um."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "- E tu o que queres ser? - perguntaram os outros.",
+        "- O ovo de Colombo.",
+        "Vamos fazer-lhe a vontade.",
+        "Como vocês sabem, Cristóvão Colombo descobriu a América. Quando regressou a Espanha, trazendo a notícia da sua descoberta, os fidalgos da corte, invejosos, desdenharam do feito."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Isso também eles eram capazes. Bastava lá ir. Então, Colombo mostrou-lhes um ovo e disse-lhes:",
+        "- Ponham-no de pé.",
+        "Eles tentaram. Insistiram. Obstinaram-se.",
+        "- Não é possível - concluíram.",
+        "- Pois eu consigo - disse Colombo."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Muito ao de leve, bateu na mesa com a parte mais redonda e cheia do ovo, a casca amolgou-se, mas só um bocadinho, e o ovo ficou de pé.",
+        "- Que fácil - comentaram os fidalgos. - Isso também nós éramos capazes.",
+        "- Mas não o fizeram. Quem pôs o ovo de pé, quem descobriu um novo continente fui eu."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Cabe-me o mérito a mim.",
+        "Aqui têm como eu fiz a vontade ao ovo que queria ser ovo de Colombo.",
+        "E agora? Agora, já satisfeito, vai juntar-se aos outros e, todos juntos, vão fazer uma omeleta."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "577",
+      "term": "açafate",
+      "definition": "cesto baixo, sem tampa e sem asa, feito de verga fina"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/08/03/images/drsgwu4mfi6fnxhzckg2cdz7x6kuhhse/Imagens/Background.jpg",
+    "icon": "/recovered/0000/08/03/images/6gs5jkagbkob4wkgrvvlfbkg5m3pfwjt/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/08/03/audio/5523106114e596b30f136a31/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/08/03/images/454eb43864b256aaed5c65e3/imagens/background.jpg",
+      "/recovered/0000/08/03/images/7qdui6seg4exgcjijsv4vbb3lsg7it3x/Imagens/entrada.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/08/03/html/toux73rylcwiaokwsk7eb3diaz7ddk5b/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/08/03/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "10-14",
+  "month": 10,
+  "day": 14,
+  "dateLabel": "14 de Outubro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A Galinha Perdida",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "17",
+      "term": "alvorecer",
+      "definition": "Romper do dia."
+    },
+    {
+      "id": "18",
+      "term": "restolhada",
+      "definition": "Barulheira."
+    },
+    {
+      "id": "19",
+      "term": "enxergo",
+      "definition": "Avisto."
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/10/14/images/7dae3lvpgeuxcmfmrvygjibaf73mqvz6/Imagens/icone.jpg",
+    "icon": "/recovered/0000/10/14/images/7dae3lvpgeuxcmfmrvygjibaf73mqvz6/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/10/14/html/hsdartaqcfjisgw7a3chqee4zcvw7qek/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/10/14/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

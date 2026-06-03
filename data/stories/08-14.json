@@ -1,0 +1,121 @@
+{
+  "id": "08-14",
+  "month": 8,
+  "day": 14,
+  "dateLabel": "14 de Agosto",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Os esquilos Danilos no castelo dos fantasmas medrosos",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Estes dois esquilos, Danilo Pai e Danilo Filho, andam sempre em viagem.",
+        "Desta vez, foram ter a um castelo, um velho castelo abandonado. Como era quase noite, resolveram abrigar-se no meio das ruínas.",
+        "- Havia de ser engraçado, se houvesse fantasmas - disse o Danilo Filho."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- Convinha, convinha - aprovou o Danilo Pai. - Sempre era mais uma boa história para contar, quando voltássemos.",
+        "- Mas nós vamos voltar? - quis saber o Danilo Filho.",
+        "- Por agora, estamos a ir - explicou o Danilo Pai. - Mas sempre ouvi dizer que há ir e voltar. A Terra é redonda."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Estavam eles nesta conversa, quando ouviram o pio de uma coruja.",
+        "- Ouviste? É a coruja a anunciar a chegada de algum fantasma... - avisou o Danilo Filho.",
+        "- Muito interessante - disse o Danilo Pai. - E achas que, daqui, a gente vê bem?"
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "O Danilo Filho esclareceu que os fantasmas, quando aparecem, exibem-se para todo o público, esteja onde estiver, e fazem muito barulho para chamar a atenção - batem com os pés, empurram cadeiras, arrastam correntes...",
+        "Nisto, as asas silenciosas de um morcego passaram rente aos dois esquilos."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "O relógio de uma torre, longe, bateu as doze badaladas da meia-noite.",
+        "- Está na hora - bichanou o Danilo Filho ao ouvido do pai.",
+        "- Tens a certeza? - perguntou este, também em voz baixa. - E porque é que estamos a falar assim, como se estivéssemos a contar segredos um ao outro?",
+        "- Para não assustar os fantasmas - esclareceu o filho."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "O pai Danilo impacientou-se:",
+        "- Não me convidem para festas com fantasmas medrosos. Desinteresso-me e vou dormir.",
+        "Dito e feito. Enrolou a cauda e adormeceu.",
+        "Em compensação, o filho continuou acordado, na esperança de que aparecessem os tais fantasmas das correntes a arrastar."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "A meio da noite, bateu nos ombros do pai, numa grande excitação.",
+        "- Olhe, pai, olhe que lá vem um.",
+        "- Um quê? - perguntou o Danilo Pai, muito ensonado.",
+        "- Um fantasma de olhos brilhantes, repare, pai."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Danilo Pai fixou as luminárias :",
+        "- Ou o teu fantasma tem os olhos tortos ou são dois pirilampos a jogar às escondidas...",
+        "Eram mesmo. Danilo Filho, desanimado, encostou a cabeça a uma pedra. Daí a nada estava a dormir e a sonhar com fantasmas."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "No dia seguinte, enquanto arrumavam as bagagens, o pai disse para o filho:",
+        "- Não fiques amuado. Afinal, mais coisa menos coisa, já temos uma história de fantasmas para contar.",
+        "E os dois esquilos Danilos prosseguiram viagem."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "591",
+      "term": "luminárias",
+      "definition": "aquilo que alumia / iluminação / luz"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/08/14/images/r6t6uahdwqcsddabhawuwkqqqqzedzl7/Imagens/icone.jpg",
+    "icon": "/recovered/0000/08/14/images/r6t6uahdwqcsddabhawuwkqqqqzedzl7/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/08/14/pdf/urh5jxhbqzje25xa4vwccdz76n3rueuo/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/08/14/audio/jw4lq6gx6onop6cobzbf7fxnleytqvkp/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/08/14/images/2a549a610a10201a82bdabac/imagens/icone.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/08/14/html/y2lhhayimxkf7liabnckzffksmhrrqxo/historia.aspx",
+    "printPdf": "/recovered/0000/08/14/pdf/urh5jxhbqzje25xa4vwccdz76n3rueuo/imprimir.pdf",
+    "archiveDay": "/recovered/0000/08/14/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

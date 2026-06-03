@@ -1,0 +1,48 @@
+{
+  "id": "10-08",
+  "month": 10,
+  "day": 8,
+  "dateLabel": "8 de Outubro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Vantagens da Leitura",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/10/08/images/bdtu5p2sozas5nfxnegou2xr4fe555hg/Imagens/Background.jpg",
+    "icon": "/recovered/0000/10/08/images/h3vppdrhygbnjyoq5fe327ahkznmj7pg/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/10/08/audio/cpsg6m6iytjc7hheghhjsv2b2zoiuwvt/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/10/08/images/26pemjca7pm5apj5oejqwf57begclvck/Imagens/entrada.jpg",
+      "/recovered/0000/10/08/images/98afca57478ea59557051a0f/imagens/icone.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/10/08/html/t5ak67i5i6x4qx5lmysu5zlfdhizpgjf/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/10/08/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

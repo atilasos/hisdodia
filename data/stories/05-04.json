@@ -1,0 +1,107 @@
+{
+  "id": "05-04",
+  "month": 5,
+  "day": 4,
+  "dateLabel": "4 de Maio",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O dragão Arnaldo",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "\"Quem disse que não há dragões?",
+        "Eu vi um pequenino a sair debaixo de um vaso de sardinheiras. Deitou-me a língua de fora e foi-se embora, a correr.",
+        "Ainda está verde. Quando crescer, vão ver."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Vai ter o corpo todo coberto de escamas a valer e em cada escama o monograma: 'D A' entrelaçados - Dragão Arnaldo. Muito prazer em conhecer.\"",
+        "- Que estás para aí a inventar? - perguntou a mãe ao Joca, que isto estava a contar.",
+        "- Fui eu que vi um dragão, mãe, um dragão pequenino. Quando crescer, vai tomar conta desta varanda. Vais ver."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "E quando quiseres estender a roupa hás-de ter que pedir ao dragão \"Com licença, com licença\", para ele te deixar pendurar a roupa naqueles cornos agudos, que os dragões têm nas costas.",
+        "- Cortava-se a roupa toda - disse a mãe, entrando na brincadeira.",
+        "- Pois é, mãe. Não me tinha lembrado."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Mas, por outro lado, não vais precisar de gastar o gás do fogão.",
+        "- Porquê? - quis saber a mãe, um pouco intrigada.",
+        "- Porque, quando quiseres assar um pargo ou fazer carne assada, basta que abras a boca do dragão, que é um forno sempre aceso, como não há outro.",
+        "- E, se ele me comer o peixe ou a carne, que jantamos nós?"
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- quis saber a mãe.",
+        "- Pois é, mãe. Não me tinha lembrado. Mas parece que os dragões são vegetarianos ...",
+        "- Tens a certeza? - perguntou a mãe.",
+        "- Absoluta. Por isso é que eles são verdes.",
+        "- E onde vamos arranjar erva para alimentar o dragão? - interrogou-se a mãe. - Se uma alface chegasse..."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- Pois é, mãe. Não me tinha lembrado. Vamos ter de levá-lo a passear até à Tapada da Ajuda, para se alimentar de relva e de verduras. Para pastar.",
+        "Neste ponto, disse a mãe:",
+        "- Mas assim que o vissem, os meninos fugiam e, mais dia menos dia, ficava a Tapada vazia de pessoas e vegetação."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "As árvores despidas, as crianças assustadas, porque o dragão tudo comia e não deixava nada.",
+        "- Pois é, mãe. Não me tinha lembrado. Afinal o dragão era uma complicação. Vou dizer à lagartixa que fique como está. Já não precisa de crescer.",
+        "Nessa altura, a lagartixa passou a correr e esta história acaba como deve de ser."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "408",
+      "term": "vegetarianos",
+      "definition": "que não consomem carne ou peixe e cuja alimentação é constituída essencialmente por vegetais, podendo incluir leite, ovos e seus derivados"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/05/04/images/pgxxyppopb7hpmuk47xerrgatwcdr2qk/Imagens/Background.jpg",
+    "icon": "/recovered/0000/05/04/images/f9b5b961bdb606a65848e597/imagens/icone.jpg",
+    "printPdf": "/recovered/0000/05/04/pdf/fhsvf3h3amqb26zvrduisueuu4kdam5t/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/05/04/audio/03ef764e959cd914b8ace1d0/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/05/04/images/5ic2xztmp6c4ff2fzqotntsrzslxvsvp/Imagens/icone.jpg",
+      "/recovered/0000/05/04/images/f41c870fe6d990b1039e79b8/imagens/background.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/05/04/html/vpvwbkvlyno6wvach2ds6yk72ydeqdf3/historia.aspx",
+    "printPdf": "/recovered/0000/05/04/pdf/fhsvf3h3amqb26zvrduisueuu4kdam5t/imprimir.pdf",
+    "archiveDay": "/recovered/0000/05/04/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

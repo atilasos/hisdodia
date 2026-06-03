@@ -1,0 +1,81 @@
+{
+  "id": "02-25",
+  "month": 2,
+  "day": 25,
+  "dateLabel": "25 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A rainha da floresta",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era um lenhador. Passava o dia na floresta, a cortar árvores. Os filhos traziam-lhe o almoço que ele comia à pressa, para voltar, depois de uma breve sesta, ao seu trabalho. Era muito cansativa a vida dos lenhadores.",
+        "Uma tarde, ia ele desferir a primeira machada numa grande árvore, quando ouviu conversar dentro do tronco. Estranhou. Espreitou."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "O tronco era oco e, lá dentro, dois velhos de longas barbas, um diante do outro, muito solenes jogavam às damas.",
+        "- Não nos interrompas - disseram os velhos.",
+        "O lenhador aguardou que tempos, entretido, ele também, a assistir ao desenrolar da partida, que nunca mais se decidia."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "A certa altura reparou que as barbas dos dois velhos tinham crescido imenso, enquanto eles jogavam. O lenhador, a medo, chamou-lhes a atenção para este estranho facto. Os velhos riram-se:",
+        "- Passou-se mais tempo do que tu imaginas.",
+        "De facto, a árvore estava maior e a floresta mais cerrada. Que teria acontecido?"
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Sobressaltado, o lenhador voltou à aldeia, mas já não encontrou ninguém conhecido. A casa, a mulher e os filhos tinham desaparecido e ninguém se lembrava deles.",
+        "O lenhador correu outra vez para a floresta e pediu aos dois velhos jogadores de damas que o acordassem daquele sonho mau. Aquilo não podia estar a acontecer-lhe."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Era, certamente, um pesadelo.",
+        "Os velhos concederam-lhe o que ele pedira, não sem antes o fazerem prometer que nunca abateria aquela grande árvore, no interior da qual eles jogavam um interminável jogo de damas.",
+        "Quando o lenhador acordou, estava tudo como dantes. Afinal, sempre tinha sido um sonho. Mas, à cautela, o lenhador poupou a árvore, rainha da floresta."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/02/25/images/fkz3zo65ub3rf34trfacq6tyxpnpv26a/Imagens/Background.jpg",
+    "icon": "/recovered/0000/02/25/images/fkz3zo65ub3rf34trfacq6tyxpnpv26a/Imagens/Background.jpg",
+    "printPdf": "/recovered/0000/02/25/pdf/zcdi4qkrxo3pghea34nq3j6wlhixdaea/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/02/25/images/65ckrcbcakmsrvwjgnjzxs6oa4ez3oke/Propostas/arvores1.jpg",
+      "/recovered/0000/02/25/images/f0d425a9c013467a539cbcd6/propostas/arvores1.jpg",
+      "/recovered/0000/02/25/images/vrdzn7h6dtgnusyl5gsdtlxh76vg2tb4/Propostas/cruzadas.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/25/html/k42qix3s7onekdyctdyrzg3fwm3bxxkv/historia.aspx",
+    "printPdf": "/recovered/0000/02/25/pdf/zcdi4qkrxo3pghea34nq3j6wlhixdaea/imprimir.pdf",
+    "archiveDay": "/recovered/0000/02/25/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

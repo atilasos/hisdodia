@@ -1,0 +1,104 @@
+{
+  "id": "03-08",
+  "month": 3,
+  "day": 8,
+  "dateLabel": "8 de Março",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O tigre e a mulher do lavrador",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Havia na China de antigamente um lavrador muito medroso. E talvez não lhe faltasse alguma razão, porque, entre outros perigos de respeito, um tigre de grande porte rondava o povoado e saltava aos caminhos, exigindo o seu quinhão.",
+        "- Dá-me metade das galinhas que levas para o mercado - pedia o tigre, numa voz que não era de pedir."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "E o pobre camponês, apanhado no caminho, não tinha outro remédio senão dividir a sua carga a meias com o tigre.",
+        "Um dia, calhou a vez ao lavrador, que sulcava as suas terras com um arado, puxado por um boi. Apareceu-lhe o tigre, que disse:",
+        "- Dá-me metade desse boi."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "O camponês, depois de recuperar a fala, que lhe fugira com o susto, pediu misericórdia. Atabalhoadamente, tentou explicar à fera que passar a lavrar a terra só com metade de um boi não ia ser fácil.",
+        "- Quero lá saber! Arranja-te como puderes - disse o tigre, num tom que não admitia mais discussões."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Então eu vou buscar o machado a casa, para dividirmos o boi ao meio - disse o lavrador, a ganhar tempo.",
+        "Quando, esbaforido , chegou a casa e contou à mulher o que se passara, ela, que era mais destemida do que o marido (o que não era difícil...), barafustou com o negócio e propôs-se tratar do caso à sua maneira."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Pendurou uma cabaça ao pescoço, que lhe tapava a boca, calçou umas andas, vestiu uma longa túnica e escondeu a cara dentro de uma máscara demoníaca. Parecia um gigante.",
+        "Assim vestida, pôs-se ao caminho, de machado na mão."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Entretanto, ia gritando:",
+        "- Apetece-me comer um tigre às fatias, cortadas uma a uma pelas riscas dos lombos.",
+        "- A voz dela ressoava no vazio da cabaça e ribombava , cava e tremenda.",
+        "O tigre ouviu-a e espreitou por entre os canaviais. Seria o diabo ou a mãe do diabo?"
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Mais valia não identificar de perto.",
+        "E o tigre, de rabo entre as pernas, fugiu daquelas paragens, para nunca mais ser visto."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "283",
+      "term": "esbaforido",
+      "definition": "ofegante / cheio de pressa / sem fôlego"
+    },
+    {
+      "id": "284",
+      "term": "ribombava",
+      "definition": "produzia grande ruído"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/03/08/images/a53vu6plac2aknxw5drtdn5vfe6fpwr4/Imagens/Background.jpg",
+    "icon": "/recovered/0000/03/08/images/e4vc2svvbyzsmk65qzpwpsmm7r2wkb2u/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/03/08/audio/142a18ac69d262d5dd3d2087/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/03/08/images/g2rkjbcvcuqceox5rrozeoerazm3motz/Imagens/entrada.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/03/08/html/ltg3tgtdzrt2adgm6t477vvporv6ditx/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/03/08/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

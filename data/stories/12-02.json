@@ -1,0 +1,47 @@
+{
+  "id": "12-02",
+  "month": 12,
+  "day": 2,
+  "dateLabel": "2 de Dezembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Grandes Bigodes",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/12/02/images/q2y3fjh72yh6eheriwoq7czrf5ktlheo/Imagens/Background.jpg",
+    "icon": "/recovered/0000/12/02/images/vih7rxu3cez4duhjqga6oezygamaxut5/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/12/02/pdf/u25r5ko45wfe5k7ihqkd7e24iovslf4n/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/12/02/audio/atmcodmucd3b5gj6rolhkrfp3t3hn2ay/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/12/02/images/2f9633a63e3f0264510d1f97/imagens/icone.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/12/02/html/oa2aod6to4vkilqwpu3wzyhe5x4anpbx/historia.aspx",
+    "printPdf": "/recovered/0000/12/02/pdf/u25r5ko45wfe5k7ihqkd7e24iovslf4n/imprimir.pdf",
+    "archiveDay": "/recovered/0000/12/02/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

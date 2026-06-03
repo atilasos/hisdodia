@@ -1,0 +1,83 @@
+{
+  "id": "01-14",
+  "month": 1,
+  "day": 14,
+  "dateLabel": "14 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Lágrimas",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez uma lágrima, uma lágrima de constipação. Sabem como é: o pingo no nariz, os olhos a arder, um espirro, outro espirro, e uma lágrima que se solta pelo cantinho do olho e escorrega, bochecha abaixo...",
+        "Era uma vez uma lágrima, uma lágrima de riso."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Sabem do que falo: de tanto rir, tudo estala em nós e as lágrimas saltam dos olhos como fogo-de-artifício, foguetes de lágrimas...",
+        "Eram, pois, duas lágrimas.",
+        "Encontraram-se, no mesmo lenço.",
+        "- Ouvi dizer que também há lágrimas de tristeza - contou uma.",
+        "- Custa-me a acreditar - disse a outra."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Era a do riso quem assim falava.",
+        "Mas uma terceira lágrima chegou ao lenço. Tão de água, tão salgada como as outras. E da fonte dos mesmos olhos. Mas esta era diferente.",
+        "- Sou uma lágrima de dor - apresentou-se ela.",
+        "Seria verdade? Às outras duas parecia impossível."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Quem a soltara, constipado que estava, ainda há pouco rira até às lágrimas. Como é que se pode passar, assim tão de repente, da alegria à mágoa?",
+        "- O que aconteceu, entretanto? - quiseram saber as duas lágrimas mais antigas.",
+        "- Foi um entalão - explicou a recém-chegada. - Quem me soltou tinha ido buscar um lenço dobrado à gaveta e, entretido a rir, ao fechar, entalou um dedo."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- Há desgraças piores - comentou a lágrima da constipação.",
+        "- Prefiro nem saber - suspirou a lágrima do riso.",
+        "O resto da conversa já não acompanhei, porque eu, o dono das três lágrimas, desfiz-me do lenço molhado para dentro da roupa suja. Lenços não me faltam, brancos ou às cores e para todas as ocasiões da vida."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/01/14/images/bb1bd84ff7d0771c7d93eac4/imagens/entrada.jpg",
+    "icon": "/recovered/0000/01/14/images/bb1bd84ff7d0771c7d93eac4/imagens/entrada.jpg",
+    "printPdf": "/recovered/0000/01/14/pdf/6idxtqtrzshmkna4rs645ep35r2p777v/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/01/14/images/47qxsv2wslljgnm2nhkuwjvwajy7zjpy/Imagens/entrada.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/01/14/html/c6jcuo6uxcn3y7xohklhogmhtwb4lvhw/historia.aspx",
+    "printPdf": "/recovered/0000/01/14/pdf/6idxtqtrzshmkna4rs645ep35r2p777v/imprimir.pdf",
+    "archiveDay": "/recovered/0000/01/14/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

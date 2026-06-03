@@ -1,0 +1,57 @@
+{
+  "id": "11-07",
+  "month": 11,
+  "day": 7,
+  "dateLabel": "7 de Novembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Salta a Pulga",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "46",
+      "term": "metediço",
+      "definition": "intrometido"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/11/07/images/qnt6qq4g5mkidgqd3czxstu3tbahsviv/Imagens/Background.jpg",
+    "icon": "/recovered/0000/11/07/images/858b62dd7efd53ac81d336de/imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/11/07/audio/39b2b01fbe6b368331c3d753/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/11/07/images/5mq6wc6hzd4re34c6mml5otzmu3ucouz/Imagens/icone.jpg",
+      "/recovered/0000/11/07/images/7wnc5x3of2srkdvhkxknzssecu62a7gn/propostas/logo_pulgas.gif",
+      "/recovered/0000/11/07/images/m3iumb5xbemein72mdrr5swbdopskgga/propostas/logo_franca.jpg",
+      "/recovered/0000/11/07/images/s6cyg4x3wiym4zjheqogh6fltipzwsav/propostas/logo_legalenga.gif",
+      "/recovered/0000/11/07/images/tzsqjl3lw3fyjwmslbbmp7v6oyq6vyjk/Imagens/entrada.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/11/07/html/7bidcrpgvdcbe2a4ee6ab5fwcbddbo7c/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/11/07/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

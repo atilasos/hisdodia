@@ -1,0 +1,106 @@
+{
+  "id": "06-11",
+  "month": 6,
+  "day": 11,
+  "dateLabel": "11 de Junho",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Tintim por tintim",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O rapazinho entrou, à pressa, na biblioteca e pediu:",
+        "- Têm livros de cozinha?",
+        "O bibliotecário levou-o a uma prateleira, onde havia uma quantidade de livros de receitas ou para fazer doces ou para preparar grandes banquetes ou para cozinhar pratos que não engordem..."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "O rapazinho folheou uns, folheou outros, mas não se decidia. Pacientemente, o bibliotecário esperou e, de caminho, ia informando:",
+        "- Este é de comida regional... Este é só de saladas... Este é de comida japonesa...",
+        "Tantos livros de cozinha!"
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Uma pessoa, a lê-los, até pode apanhar uma indigestão.",
+        "O rapazinho é que não havia meio de escolher.",
+        "- É para um trabalho para a tua escola? - perguntou o bibliotecário.",
+        "- Não é, não.",
+        "Silêncio entre os dois. E o rapazinho sempre a folhear este e aquele, numa grande indecisão."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Neste ponto, o bibliotecário resolveu ir mais longe:",
+        "- Para que queres, então, um livro de cozinha?",
+        "Aqui, o rapazinho esclareceu, um pouco embaraçado:",
+        "- Queria estrelar um ovo e não sei se hei-de deitar primeiro, na frigideira, o ovo ou a margarina..."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "O bibliotecário fez um \"Ah\" de admiração e aprontou-se a responder:",
+        "- Primeiro deitas a margarina e esperas que ela derreta. E cuidado com o bico do gás. Lume brando. Só depois é que deitas o ovo.",
+        "- Ah! - foi, agora, a vez de fazer o rapazinho."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Largou os livros de cozinha e já se ia embora, quando o bibliotecário lhe perguntou:",
+        "- Não queres, então, levar outro livro? Um livro de histórias, por exemplo?",
+        "- Só se for com histórias pequenas - disse o rapazinho."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "O bibliotecário emprestou-lhe um livro, onde esta e outras histórias que tais bem podiam estar e a nossa pequena história talvez acabasse aqui.",
+        "Não acaba, porque o rapazinho não conseguiu estrelar o ovo, apesar de ter seguido à risca as recomendações do bibliotecário: lume brando, margarina a derreter-se... ovo, no fim."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Mas como o rapazinho deitou o ovo inteiro, com casca e tudo, para dentro da frigideira, o cozinhado não ficou grande coisa.",
+        "Em certas ocasiões, tem de se explicar tudo, tintim por tintim."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/06/11/images/5c1b04fe7a61d337fe2c6da0/imagens/entrada.jpg",
+    "icon": "/recovered/0000/06/11/images/5c1b04fe7a61d337fe2c6da0/imagens/entrada.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/06/11/images/2hob36rowoqljuaqvzvjkf62wgu6acrh/Imagens/entrada.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/06/11/html/danfkz25jthizfqsrrqxjckm2rpnjlel/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/06/11/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

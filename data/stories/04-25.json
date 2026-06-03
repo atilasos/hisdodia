@@ -1,0 +1,77 @@
+{
+  "id": "04-25",
+  "month": 4,
+  "day": 25,
+  "dateLabel": "25 de Abril",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Há coisas assim",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Naquela quinta havia muitas árvores. Eram árvores de fruto.",
+        "Também havia pássaros, grandes e pequenos, uns de bico amarelo, outros de bico encarnado, outros de bico lilás... E cinzentos de penas ou pretos ou castanhos... E de outras cores.",
+        "Muitos pássaros, todos chilreantes.",
+        "Não era para admirar."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Os pássaros gostam das árvores, principalmente dos frutos. E as árvores também gostam dos pássaros.",
+        "Naquela quinta só havia uma árvore sem pássaros e sem frutos. Era uma árvore triste. Sequinha de tristeza, despida de folhas, a árvore destoava, no meio daquele pomar frondoso."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Sentia-se a mais, muito desolada, muito só, muito perdida. A infelicidade ela sabia o que era.",
+        "Até que, uma noite, a árvore sonhou que se enchia de flores. Sonhou que se enchia de flores e que das flores nasciam pássaros. De que cor? De todas, até das cores que ainda não têm nome."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "A árvore sonhou que os pássaros coloridos voavam à volta dela, cantando e batendo as asas.",
+        "Depois, cansados, os pássaros poisavam na árvore e transformavam-se em frutos. Frutos, já se vê, de todas as cores.",
+        "Às vezes, as árvores tristes têm sonhos assim, sem explicação nem sentido.",
+        "Mas o que depois sucedeu a esta árvore é que parece fantástico."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Calculem que, no dia seguinte, quando acordou, a árvore estava, realmente, cheia de flores - as flores que anunciam os frutos, os frutos que chamam os pássaros..."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/04/25/pdf/hq4pktdkdvhfovxddclcv7qybkfirxb7/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/04/25/html/jh7looyllx6jfjsizbujquh33xg5ysg3/historia.aspx",
+    "printPdf": "/recovered/0000/04/25/pdf/hq4pktdkdvhfovxddclcv7qybkfirxb7/imprimir.pdf",
+    "archiveDay": "/recovered/0000/04/25/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

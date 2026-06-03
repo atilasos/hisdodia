@@ -1,0 +1,122 @@
+{
+  "id": "01-27",
+  "month": 1,
+  "day": 27,
+  "dateLabel": "27 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A Galinha Ruiva",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "A galinha ruiva achou umas espigas de trigo.",
+        "Ela chamou o gato. Ela chamou o ganso. Ela chamou o porco.",
+        "A galinha ruiva disse:",
+        "- Quem me ajuda a semear o trigo?",
+        "- Eu não - disse o gato.",
+        "- Eu não - disse o ganso.",
+        "- Eu não - disse o porco.",
+        "- Então semeio eu o trigo - disse a galinha ruiva."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "E a galinha ruiva semeou o trigo.",
+        "O trigo cresceu.",
+        "A galinha ruiva disse:",
+        "- Quem me ajuda a ceifar o trigo?",
+        "- Eu não - disse o gato.",
+        "- Eu não - disse o ganso.",
+        "- Eu não - disse o porco.",
+        "- Então ceifo eu o trigo - disse a galinha ruiva."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "E a galinha ruiva ceifou o trigo e levou-o para o moinho.",
+        "Depois de ter já o trigo moído e feito em boa farinha, a galinha ruiva disse:",
+        "- Quem me ajuda a fazer o pão?",
+        "- Eu não - disse o gato.",
+        "- Eu não - disse o ganso.",
+        "- Eu não - disse o porco.",
+        "- Então faço eu o pão - disse a galinha ruiva."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "E a galinha ruiva amassou o pão, que ficou muito bem amassado, e cozeu-o no forno, muito bem cozido.",
+        "- Quem me ajuda a comer o pão?",
+        "O gato disse:",
+        "- Miau! Miau! Miau! Quero eu, quero eu, quero eu.",
+        "O ganso disse:",
+        "- Quá! Quá! Quá! Quero eu, quero eu, quero eu!"
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "O porco disse.",
+        "- Gurnin! Gurnin! Gurnin! Quero eu, quero eu, quero eu!",
+        "A galinha ruiva disse:",
+        "- Vocês não me ajudaram a semear o trigo. Vocês não me ajudaram a ceifar o trigo. Vocês não me ajudaram a fazer o pão. Pois então vocês não me ajudarão a comer o pão. Os meus pintainhos comerão o pão."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "E a galinha ruiva e os pintainhos comeram o pão.",
+        "Quem não trabuca não manduca .",
+        "Está contada a história. Está dada a lição."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "177",
+      "term": "trabuca",
+      "definition": "trabalha"
+    },
+    {
+      "id": "178",
+      "term": "manduca",
+      "definition": "come"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/01/27/images/oryip4bf7tc5wnqk3uqarm247hchpexc/Imagens/Background.jpg",
+    "icon": "/recovered/0000/01/27/images/oryip4bf7tc5wnqk3uqarm247hchpexc/Imagens/Background.jpg",
+    "printPdf": "/recovered/0000/01/27/pdf/udvl736a2cwjr44eaww2pnupay37qesv/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/01/27/images/6ca1b6e762977232efa79999/imagens/background.jpg",
+      "/recovered/0000/01/27/images/96d59983257762c24956e8b6/propostas/pao.jpg",
+      "/recovered/0000/01/27/images/aooua767qdsy7bq3ilkdb7dklataqcsq/Propostas/pao.jpg",
+      "/recovered/0000/01/27/images/cb0c71a2a0112fb611bb7529/propostas/galinha.jpg",
+      "/recovered/0000/01/27/images/wnlwucycptsfbnnf25wo2gqg3wcdbxxz/Propostas/galinha.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/01/27/html/y4hlzfpinjxl3zglfe3vpxnnos66ehil/historia.aspx",
+    "printPdf": "/recovered/0000/01/27/pdf/udvl736a2cwjr44eaww2pnupay37qesv/imprimir.pdf",
+    "archiveDay": "/recovered/0000/01/27/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

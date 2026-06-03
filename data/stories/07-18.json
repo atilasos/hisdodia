@@ -1,0 +1,96 @@
+{
+  "id": "07-18",
+  "month": 7,
+  "day": 18,
+  "dateLabel": "18 de Julho",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A casa do botão",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um alfaiate e um arquitecto que eram amigos.",
+        "Um dia, por brincadeira, o arquitecto disse ao alfaiate:",
+        "- Toma este botão. Podes fazer-me um casaco?",
+        "No dia seguinte, o alfaiate foi ter com o arquitecto e disse-lhe assim:",
+        "- Toma este tijolo. Podes fazer-me uma casa?"
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "O mais engraçado é que os dois levaram a brincadeira a sério.",
+        "Para fazer uma casa, não basta um tijolo. Falta tudo o resto: o terreno, o projecto, todos os materiais de construção, descontando um tijolo.",
+        "Para fazer um casaco, não basta um botão."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Falta tudo o resto: o tecido, o modelo, todos os aviamentos, descontando um botão.",
+        "- Este tijolo é um bom começo - disse o arquitecto.",
+        "- Este botão é um bom princípio - disse o alfaiate.",
+        "O arquitecto sozinho nunca conseguiria construir a casa."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Precisou da ajuda de desenhadores, pedreiros, carpinteiros, electricistas, pintores e de outros profissionais do ramo da construção civil.",
+        "O alfaiate sozinho talvez conseguisse fazer o casaco, mas preferiu a ajuda de oficiais e costureiras de alfaiate, profissionais do ramo de alfaiataria."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Enquanto a casa demorou a construir, muitos casacos saíram da oficina do alfaiate. O contrário é que seria de estranhar.",
+        "Para pagar a construção da casa e para pagar a todos os que nela trabalharam, o alfaiate teve de vender imensos casacos, calças e coletes. Era de prever."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Mas finalmente a casa ficou pronta. O casaco já estava pronto, há muito. Com o seu casaco novo pelos ombros, o arquitecto foi visitar o alfaiate na sua casa nova.",
+        "Perguntou-lhe o alfaiate:",
+        "- Ouve lá, onde puseste o tijolo que eu te dei?",
+        "- Guardei-o, para recordação - respondeu o arquitecto."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "- Tem graça - comentou o alfaiate. - Eu fiz o mesmo ao botão que tu me deste. Também o guardei, para recordação.",
+        "Por aqui se vê como um botão teve uma casa construída por um arquitecto."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/07/18/images/uzb4pjeqcrvg5oen2jqhfmbjkxoefdch/Imagens/Background.jpg",
+    "icon": "/recovered/0000/07/18/images/qrmam4idfsplbwop7zfe4zej2jrdv2xs/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/07/18/audio/o4qoj3ywch6ry67vshis5fq23vgpdte6/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/07/18/html/ow25wkzsj3zb3zeggsvbf7czo2whywcu/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/07/18/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

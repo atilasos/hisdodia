@@ -1,0 +1,89 @@
+{
+  "id": "04-11",
+  "month": 4,
+  "day": 11,
+  "dateLabel": "11 de Abril",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Pegadas de gaivota",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez uma gaivota na praia. Sozinha. Não havia banhistas, porque ainda não era o tempo deles.",
+        "Nas praias desertas, antes do Verão, a areia muito lisa até parece passada a ferro. Sem uma única ruga. Sem um único sinal de vida."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Nisto pensava a gaivota, enquanto se entretinha, saltinho sobre saltinho, a imprimir na areia as suas pegadas de gaivota nova.",
+        "Três dedos espetados para a frente e zás! Eu estive aqui. E aqui. E aqui.",
+        "Atrás da gaivota, o rasto dos seus passos."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Mais logo, as ondas do mar, na maré cheia, apagariam a passagem da gaivota por aquela praia sem ninguém. Mas, até lá, muita coisa iria suceder.",
+        "Chegada à beira de um rochedo, a gaivota virou-se para trás e contemplou o caminho que fizera pela praia toda. Suspirou.",
+        "Pois é. As gaivotas também suspiram. Suspiram de tristeza, quando estão sós."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Virou-se para a frente, para continuar o seu passeio descuidado, quando sentiu um baque de susto. Não que tivesse visto um bicho, mas viu, na areia molhada, à sua frente, a marca de outras pegadas iguais às dela. Os mesmos três dedos espetados para a frente. Tal e qual.",
+        "Esvoaçou."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Mediu de cima o terreno em volta e foi então que deu com outra gaivota, aninhada atrás de uma rocha. Era uma gaivota fêmea. E ela, a gaivota da nossa história, uma gaivota macho.",
+        "Já não estava sozinha. Já não estavam sozinhas. Entraram à fala uma com a outra."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Falaram do mar, das ondas, dos peixes e da friagem da noite, quando, sem o calor de outras penas, se abrigavam numa fenda da falésia.",
+        "O resto não tem conto. Adivinha-se. Estavam feitas uma para a outra, como se costuma dizer."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Desconfio que, antes de chegar o Verão, outras patinhas novas, mais pequenas, vão povoar aquelas areias. Cada vez há mais gaivotas."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/04/11/html/rkewtwlyho66sa7hsb46tvalsb663cok/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/04/11/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

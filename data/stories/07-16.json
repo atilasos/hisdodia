@@ -1,0 +1,135 @@
+{
+  "id": "07-16",
+  "month": 7,
+  "day": 16,
+  "dateLabel": "16 de Julho",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O espantalho aventureiro",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um espantalho. De braços abertos, no meio da seara, grande chapéu desabado e camisa ao vento, o espantalho aborrecia-se:",
+        "- Estou aqui especado, a guardar o que não é meu e nem me pagam o encargo. Até os pardais já troçam de mim. Vou mas é desempregar-me."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "E desempregou-se mesmo, isto é, saltou para o chão, atravessou a seara e foi dar à estrada.",
+        "De princípio, custou-lhe a andar. Tinha as pernas trôpegas , claro. Em compensação, podia descansar os braços. Que alívio! Pelo caminho ia pensando: \"Preciso de arranjar trabalho que me dê maquia ."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Hei-de poupar, porque não sou de grandes gastos e, um dia, com uma bolsa cheia de dinheiro dos meus ganhos, compro uma terra. Uma terra para eu guardar. Uma terra minha.\"",
+        "Ele a perder-se nestes sonhos e uma caravana de saltimbancos a passar.",
+        "- Venha connosco - convidaram eles."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Um homem de palha, no nosso espectáculo, é novidade que enche um programa.",
+        "Ele foi, que o trabalho não era difícil. Dava uns saltos, fazia umas cabriolas, umas palhaçadas e recebia dinheiro. Com o primeiro ordenado comprou uma bolsa e na bolsa meteu as moedas, que ia ganhando. Nada mau! Mas, um dia, apanhou um susto."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Imaginem que o homem-vulcão, que deitava fumo pelos ouvidos e labaredas pela boca, cuspiu, num dos seus ensaios, uma faúlha ainda espevitada, que deitou fogo ao homem de palha. Vá lá que lhe acudiram a tempo, senão a história acabava mesmo aqui.",
+        "- Ná! Isto de ser artista de circo tem os seus perigos - disse o chamuscado espantalho, dizendo adeus aos saltimbancos."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "No largo da vila, havia um editorial que convocava voluntários para o exército. O espantalho alistou-se.",
+        "De arma ao ombro, percorreu caminhos, guerras, países. Foi considerado um herói. Recebeu medalhas e louvores."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Pois pudera: as balas atravessavam-no, que o sangue não corria, porque sangue não havia. As lanças trespassavam-no, que dor nunca sentia, porque nervos não havia. Não, nunca caía o espantalho no meio da batalha. Era tal a valentia.",
+        "Mas também se desconsolou de ser soldado."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Certa vez, no quartel, enquanto dormia, uma mula sem cerimónias meteu o dente ao herói. E se estava com fome.",
+        "Assustou-se o soldado com o desplante do animal, que não conhecia os superiores. Pediu a demissão.",
+        "E agora, espantalho?"
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "Consultou a bolsa, que sempre trazia à cinta, e contou as moedas, umas grandes, outras pequenas. Dava para comprar uma horta? Dava, desde que fosse pequena - uns palmos de terra com um espantalho ao meio.",
+        "Foi o que fez."
+      ]
+    },
+    {
+      "layer": "html-layer-11",
+      "paragraphs": [
+        "Colocou-se de braços abertos, a proteger a propriedade, e ali ficou, de grande chapéu desabado , camisa ao vento... Tinha sido espantalho, saltimbanco, mercenário. Voltava a ser espantalho - perdão! - proprietário! Estava feliz? Não sabemos."
+      ]
+    },
+    {
+      "layer": "html-layer-12",
+      "paragraphs": [
+        "- Também agora os pardais troçam de mim - queixava-se ele, quando pouco mais ou menos a história chega ao fim.",
+        "Para nós, que aqui o vemos, o fim voltou ao princípio, ao ofício de espantalho. Há muitas histórias assim..."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "558",
+      "term": "desabado",
+      "definition": "de abas largas e caídas"
+    },
+    {
+      "id": "559",
+      "term": "trôpegas",
+      "definition": "com dificuldade em andar"
+    },
+    {
+      "id": "560",
+      "term": "maquia",
+      "definition": "dinheiro / lucro"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/07/16/images/f2c902f6b3ca6eb651065f0d/imagens/icone.jpg",
+    "icon": "/recovered/0000/07/16/images/f2c902f6b3ca6eb651065f0d/imagens/icone.jpg",
+    "printPdf": "/recovered/0000/07/16/pdf/rjiuiboqd5wzco2gb3jvzor3ohrh2n4n/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/07/16/images/3x3obdbwycpcqonaue53a25biptzwxfq/Imagens/icone.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/07/16/html/m45se7ivc644bbnbi3qc3oeglhgktwm3/historia.aspx",
+    "printPdf": "/recovered/0000/07/16/pdf/rjiuiboqd5wzco2gb3jvzor3ohrh2n4n/imprimir.pdf",
+    "archiveDay": "/recovered/0000/07/16/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

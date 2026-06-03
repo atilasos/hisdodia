@@ -1,0 +1,121 @@
+{
+  "id": "03-09",
+  "month": 3,
+  "day": 9,
+  "dateLabel": "9 de Março",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O fato azul - escuro",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um fato que gostava muito de ir à rua, mas o dono não lhe fazia a vontade.",
+        "Tratava-se de um fato azul escuro, mais ou menos de cerimónia e com muito pouco uso. O dono comprara-o para um casamento e, afora uma ou outra ocasião mais solene, nunca o tirava do guarda-vestidos ou do guarda-fato, ainda estou para saber ao certo como é que se diz."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Um dia, um amigo pediu-lho para uma solenidade qualquer, banquete em embaixada ou coisa assim. Estava um bocadinho fora de moda, mas no meio de outros fatos, igualmente azuis escuros, ninguém ia reparar."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Lá foi o fatinho todo contente apanhar ar. Pena que não houvesse mais oportunidades semelhantes, mas para o fato, que gostava do laréu, aquele sarau mundano já era uma distracção.",
+        "Logo por azar, pespegou-se uma grande nódoa no fato, das renitentes , das pertinazes , que nem com benzina saem."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "O pesaroso amigo do dono do fato bem o levou à lavandaria (ao fato e não ao amigo, já se vê), mas a nódoa estava para durar e era de uma tão alastrada evidência que inutilizava o fato para todo o sempre.",
+        "Que fazer? Comprar um fato igual, era o mais recomendável. Mas onde arranjá-lo da mesma fazenda e com o mesmo corte?"
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "O amigo do dono do fato, muito comprometido, foi retardando a devolução, a ponto de o deixar esquecido noutro guarda-vestidos (ou guarda-fato?), até ver.",
+        "Passado muito tempo, o dono do fato precisou dele, lembrou-se de que o tinha emprestado e pediu-o de volta. Embaraçado, o amigo teve de confessar tudo."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Uma tão longa amizade não podia ficar manchada por uma nódoa.",
+        "Os dois amigos combinaram comprar um fato a meias, que servisse para as ocasiões solenes a que um ou outro tivesse de ir por obrigação social, e decidiram desfazer-se do velho fato azul escuro."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Deixado intacto à beira de um contentor do lixo, o primeiro vagabundo que o viu levou-o. Serviu-lhe às mil maravilhas. Os fatos, quando dados, costumam quase sempre cair muito bem.",
+        "O fato, agora, anda nas suas setes quintas, maneira de dizer que está feliz da vida. Passeia habitualmente à noite, mas vai conhecendo a cidade de lés a lés."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "A nódoa, a mais antiga, já que outras, entretanto, se lhe juntaram, diz para o fato:",
+        "- Vês. Se não fosse eu, não tinhas esta sorte...",
+        "Dando-lhe razão, o fato agradece. E agradece o vagabundo, que tem roupa para durar. E agradecem os dois amigos, que ganharam um fato novo. E agradeço eu, que assim acabei esta história."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "286",
+      "term": "sarau",
+      "definition": "reunião ou festa nocturna / serão"
+    },
+    {
+      "id": "287",
+      "term": "mundano",
+      "definition": "relativo ao mundo (do ponto de vista material) / não virtusoso / vida social"
+    },
+    {
+      "id": "289",
+      "term": "pertinazes",
+      "definition": "persistentes / teimosos"
+    },
+    {
+      "id": "285",
+      "term": "afora",
+      "definition": "excepto / além de"
+    },
+    {
+      "id": "288",
+      "term": "renitentes",
+      "definition": "resistentes / persistentes"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/03/09/html/trhiplltpok2glpfipxi67pt2q6tszcu/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/03/09/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "09-25",
+  "month": 9,
+  "day": 25,
+  "dateLabel": "25 de Setembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O mar é quem manda",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um casal que só tinha uma filha. O pai, pescador, dizia assim:",
+        "- A remar, dois valem mais que um. Que pena não ter um rapaz que me ajudasse!",
+        "Neptuno, o rei dos mares, ouviu-o e mandou-lhe de recado por uma sereia o seguinte aviso:",
+        "- Vão ser satisfeitos os teus desejos."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "A tua mulher há-de ter um filho que te ajudará na lida de remador. Mas - cuidado! - nunca o ponhas a puxar as redes...",
+        "A promessa tornou-se realidade. Como nestas histórias tudo acontece depressa, já estamos a ver o rapaz ao lado do pai, ambos a par, cada um com o seu remo."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Um dia em que as redes traziam mais peixe do que o costume, o pai chamou o filho:",
+        "- Vem dar a mão às redes, que pesam demais para as minhas forças.",
+        "O filho foi, mas levantou-se logo uma onda mais alta que o arrebatou para dentro do mar. Só então o pai se lembrou do que Neptuno o avisara."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Neptuno, rei dos mares, devolve-me o meu filho, que eu te darei tudo o que tu quiseres.",
+        "A mesma onda, que levara o rapaz, o repôs, a salvo, no barco. Tudo num instante. E ouviu-se uma voz, vinda do fundo do mar:",
+        "- Em troca do teu filho, o destino da tua filha vai ficar nas minhas mãos."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "O pescador alarmou-se:",
+        "- Queres que eu dê a minha filha? A quem? Como?",
+        "- A um mensageiro que há-de cheirar a peixe, como tu - disse-lhe a voz.",
+        "Remaram a toda a pressa para a praia. Esperavam-nos a mulher, a filha e, de mão dada com ela, um rapaz...",
+        "- Quem é ele?"
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- foi a primeira pergunta do pescador, assim que o barco tocou a areia.",
+        "- É o Quim Sardinheiro, filho do Timóteo Sardinheiro - respondeu a mulher, a sorrir. E, depois, em voz baixa: - Parece que estão calhados um para o outro. Uma família toda a cheirar a peixe, é o que é...",
+        "Casava-se a filha do pescador com um pescador."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Não havia dúvidas: o mar continuava a ter nas suas mãos o destino daquela família."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/09/25/images/k6or4o23iumvhoaomhfjibfyexjalsgp/Imagens/entrada.jpg",
+    "icon": "/recovered/0000/09/25/images/k6or4o23iumvhoaomhfjibfyexjalsgp/Imagens/entrada.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/09/25/html/b63147993ab8c911b5e119fc/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/09/25/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

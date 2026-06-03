@@ -125,6 +125,15 @@ ${badges
 }
 
 function audioNotice(story) {
+  if (story.assets?.recoveredAudio) {
+    const audio = safeUrl(story.assets.recoveredAudio);
+
+    if (audio) {
+      return `<audio controls src="${escapeHtml(audio)}"></audio>
+      <p class="notice">Áudio original recuperado de segmentos Flash e convertido para formato moderno.</p>`;
+    }
+  }
+
   if (story.assets?.rerecordedAudio) {
     const audio = safeUrl(story.assets.rerecordedAudio);
     const captions = safeUrl(story.assets.captions);
@@ -147,7 +156,7 @@ function audioNotice(story) {
 }
 
 function recoveredImage(story, context = 'large') {
-  const source = safeAssetUrl(story, story.assets?.background || story.assets?.icon);
+  const source = safeAssetUrl(story, story.assets?.background || story.assets?.archiveBackground || story.assets?.icon || story.assets?.archiveIcon);
 
   if (!source) {
     return `<div class="asset-fallback">
@@ -159,6 +168,26 @@ function recoveredImage(story, context = 'large') {
     <img src="${escapeHtml(source)}" alt="Ilustração original recuperada para ${escapeHtml(story.title)}" loading="${context === 'large' ? 'eager' : 'lazy'}">
     <figcaption>Ilustração original recuperada</figcaption>
   </figure>`;
+}
+
+function imageGallery(story) {
+  const gallery = (story.assets?.gallery ?? [])
+    .map((assetPath) => safeAssetUrl(story, assetPath))
+    .filter(Boolean)
+    .slice(0, 12);
+
+  if (!gallery.length) {
+    return '';
+  }
+
+  return `<section class="image-gallery" aria-labelledby="imagens-recuperadas">
+      <h2 id="imagens-recuperadas">Imagens recuperadas</h2>
+      <div>
+${gallery
+  .map((source, index) => `        <a href="${escapeHtml(source)}"><img src="${escapeHtml(source)}" alt="Imagem original recuperada ${index + 1} de ${escapeHtml(story.title)}" loading="lazy"></a>`)
+  .join('\n')}
+      </div>
+    </section>`;
 }
 
 function storyText(story) {
@@ -266,13 +295,14 @@ function renderStory(story) {
         ${audioNotice(story)}
       </section>
 ${storyText(story)}
+      ${imageGallery(story)}
       ${glossary(story)}
       ${provenance(story)}
     </article>`
   });
 }
 
-export async function renderSite({ storiesDir, outDir }) {
+export async function renderSite({ storiesDir, outDir, recoveredArchiveDir = 'archive/0000' }) {
   const stories = await loadStories(storiesDir);
   const todayStory = stories[0];
 
@@ -280,21 +310,35 @@ export async function renderSite({ storiesDir, outDir }) {
     throw new Error(`No story JSON files found in ${storiesDir}`);
   }
 
+  stories.forEach(assertStoryId);
+
+  await rm(outDir, { recursive: true, force: true });
   await mkdir(outDir, { recursive: true });
-  await rm(path.join(outDir, 'archive'), { recursive: true, force: true });
-  await rm(path.join(outDir, 'stories'), { recursive: true, force: true });
-  await rm(path.join(outDir, 'index.html'), { force: true });
-  await mkdir(path.join(outDir, 'archive'), { recursive: true });
   await cp(PUBLIC_DIR, outDir, { recursive: true });
+  await copyRecoveredArchive(recoveredArchiveDir, path.join(outDir, 'recovered', '0000'));
+  await mkdir(path.join(outDir, 'archive'), { recursive: true });
 
   await writeFile(path.join(outDir, 'index.html'), renderHome(todayStory));
   await writeFile(path.join(outDir, 'archive', 'index.html'), renderArchive(stories));
 
   for (const story of stories) {
-    assertStoryId(story);
     const storyDir = path.join(outDir, 'stories', story.id);
     await mkdir(storyDir, { recursive: true });
     await writeFile(path.join(storyDir, 'index.html'), renderStory(story));
+  }
+}
+
+async function copyRecoveredArchive(sourceDir, targetDir) {
+  if (!sourceDir) {
+    return;
+  }
+
+  try {
+    await cp(sourceDir, targetDir, { recursive: true });
+  } catch (error) {
+    if (error.code !== 'ENOENT') {
+      throw error;
+    }
   }
 }
 

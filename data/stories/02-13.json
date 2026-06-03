@@ -1,0 +1,138 @@
+{
+  "id": "02-13",
+  "month": 2,
+  "day": 13,
+  "dateLabel": "13 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Os Ratos das Botas",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Eram dois ratos e cada um vivia na sua bota. Mas viviam um tanto afastados, porque, embora as botas fossem irmãs e em tempos tivessem caminhado juntas, os ratos que as habitavam, por razões que não vêm para o caso, andavam de mal um com o outro.",
+        "Por isso estavam as botas de costas voltadas, isto é, de calcanhares voltados, como as botas de Charlot."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Mas, num dia de grande temporal, o vento soprou a valer por aqueles sítios e empurrou uma das botas em direcção à irmã, que também se deslocou com a ventania.",
+        "- Quem está aos pontapés à minha casa? - irritou-se um dos ratinhos, muito assustado com a tempestade."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "O vento puxou a chuva que, cada vez mais forte, alagou aquele cantinho do mundo onde estavam as botas.",
+        "- Ora botas! Já nem se vive em sossego na nossa própria casa - lastimou-se um dos ratinhos."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Graças à proximidade, o outro rato ouviu o vizinho queixar-se e também se lamentou:",
+        "- Casas velhas e mal calafetadas não dão segurança nenhuma. Ora botas! Ora botas!",
+        "Que o pior ainda estava para vir."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Quando a água da chuva inundou aquelas paragens, e a corrente deu em rio, as duas botas foram arrastadas na chuva e rolaram, muito trangalhadanças , sobre pedras e seixos.",
+        "- Ora botas! Em vez de casa, um barco - desesperava-se um ratinho.",
+        "- Ora botas! Em vez de bota, um bote - desesperava-se o outro ratinho."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Amainou a tempestade, estancou a chuva e as duas botas acabaram poisadas, lado a lado, num montinho de areia.",
+        "Os dois ratos, quando sentiram que o perigo tinha passado, saíram ao mesmo tempo das respectivas botas, isto é, das respectivas casas.",
+        "- Que viagem mais tormentosa - queixou-se um."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "- Nunca mais acabava - queixou-se o outro.",
+        "Sem darem por isso estavam a falar um com o outro.",
+        "- Mas o sítio é bonito.",
+        "- E tem bom ar.",
+        "- E boa vista.",
+        "- E bom piso."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Um dos ratinhos apontou para a bota, isto é, para a casa do outro, e reparou:",
+        "- Tem as persianas todas escangalhadas.",
+        "Eram os atacadores fora das ilhós e deslaçados.",
+        "O outro ratinho retorquiu:",
+        "- As suas persianas também precisam de arranjo. Eu ajudo-o."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "Passaram a tarde a consertar as casas e, com a boa ajuda um do outro, o trabalho rendeu muito. Vão agora, segundo combinaram, fazer uma vedação para proteger uma horta, que querem cultivar a meias.",
+        "Ficaram outra vez dois ratinhos amigos, e as botas, aliás as casas geminadas , são bem prova disso."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "220",
+      "term": "calafetadas",
+      "definition": "vedadas"
+    },
+    {
+      "id": "221",
+      "term": "trangalhadanças",
+      "definition": "desajeitadas"
+    },
+    {
+      "id": "223",
+      "term": "tormentosa",
+      "definition": "agitada / tempestuosa"
+    },
+    {
+      "id": "222",
+      "term": "amainou",
+      "definition": "serenou"
+    },
+    {
+      "id": "224",
+      "term": "geminadas",
+      "definition": "dispostas aos pares"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/02/13/audio/5b8aeb200fa3a3acd27986d0/dois.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/13/html/wspzajzroqntsvdpouzw72m7dis5mty2/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/02/13/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

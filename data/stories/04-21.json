@@ -1,0 +1,122 @@
+{
+  "id": "04-21",
+  "month": 4,
+  "day": 21,
+  "dateLabel": "21 de Abril",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Porco é que não",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "- Eu não sou porco - disse o porco, em voz forte e categórica .",
+        "- Então o que é? - perguntou o jornalista, aquele jornalista de microfone na mão, que anda sempre à cata de notícias e entrevistas sensacionais.",
+        "- Antes de mais sou um mamífero - precisou o porco.",
+        "- Isso já se sabia."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Não tem novidade - comentou o jornalista.",
+        "- Sou um mamífero artiodáctilo. Quer ver?",
+        "E o porco mostrou a patinha ao jornalista, um mimoso chispe de unha limpa:",
+        "- Artiodáctilo quer dizer de número par de dedos. Artros, em grego, par. Dactylos, dedo.",
+        "Era um porco sábio, estudioso das línguas mortas."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "E acrescentou:",
+        "- O senhor, por exemplo, não é artiodáctilo. Já viu?",
+        "O jornalista que, há muito, sabia contar pelos dedos, teve de reconhecer que entre ele e o porco havia diferenças. Mas insistiu:",
+        "- O javali também é artiodáctilo e não é porco.",
+        "- Um porcalhão esse meu primo!"
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Nunca se lava - indignou-se o porco.",
+        "- Então como é que você quer que o chamem?",
+        "O porco respirou fundo e disse do alto da sua importância:",
+        "- Há quem me trate por cerdo. Também me chamam chico...",
+        "- Chamam-no Chico? - admirou-se o jornalista.",
+        "- Não."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Chamam-me chico - emendou o porco. - Nas palavras cruzadas, dão-me o nome de tó. Estas duas letras dão sempre jeito.",
+        "O jornalista, que se tinha esquecido do gravador e do microfone, ia escrevendo, num bloco de notas, as declarações do chico tó.",
+        "- Qual prefere? - perguntou ele."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- Com todo o rigor, a minha preferência vai para suíno, embora, mais familiarmente, possam tratar-me por reco ou até cochino.",
+        "- E bácoro? - perguntou o jornalista.",
+        "O porco fez uma careta.",
+        "- E gruim? - voltou à carga o jornalista.",
+        "Outra careta do porco."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "- Acho pouco digno - respondeu ele.",
+        "- Então eu vou encimar a notícia acerca da nossa entrevista com o seguinte título: \"SUÍNO DIZ QUE NÃO É PORCO\". Acha bem?",
+        "O porco, perdão, o suíno grunhiu, cheio de importância, a sua aprovação."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "E a notícia veio nas páginas do jornal com o devido destaque. Serviram elas, dias depois, para embrulhar uns chouriços."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "386",
+      "term": "encimar",
+      "definition": "pôr em cima / estar à cabeça"
+    },
+    {
+      "id": "385",
+      "term": "categórica",
+      "definition": "decisiva / clara / explícita"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/04/21/html/bpk6g6nbeqryyzeqvo3znxkxs4apjhxu/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/04/21/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

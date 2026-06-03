@@ -1,0 +1,82 @@
+{
+  "id": "01-11",
+  "month": 1,
+  "day": 11,
+  "dateLabel": "11 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A Galinha Pinta",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "A minha galinha pinta",
+        "põe três ovos ao dia,",
+        "se ela pusesse quatro",
+        "que dinheiro não faria!",
+        "Já me deram pela cabeça",
+        "uma vaquinha moiresca.",
+        "Já me deram pela crista",
+        "uma vaquinha moirisca.",
+        "Já me deram pela moela",
+        "uma vaquinha moirela.",
+        "Já me deram pelas penas",
+        "duas vaquinhas morenas."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Já me deram pelo rabo",
+        "um cavalo enfreiado.",
+        "Já me deram pelas tripas",
+        "duas feixadas de fitas.",
+        "Já me deram pelas asas",
+        "uma aldeia com dez casas.",
+        "Já me deram pela língua",
+        "a cidade de Coimbra.",
+        "Já me deram pelas pernas",
+        "umas meias amarelas."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Já me deram pelo corpo",
+        "toda a cidade do Porto.",
+        "Galinha que vale tanto",
+        "das penas até ao osso",
+        "não vai parar ao convento.",
+        "Vou eu comê-la ao almoço."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/01/11/pdf/jkyrzn3rlrjixf5466caum5luku67fpw/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/01/11/html/ufkw36lzlbobs3leovky3bq72yrwj33s/historia.aspx",
+    "printPdf": "/recovered/0000/01/11/pdf/jkyrzn3rlrjixf5466caum5luku67fpw/imprimir.pdf",
+    "archiveDay": "/recovered/0000/01/11/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

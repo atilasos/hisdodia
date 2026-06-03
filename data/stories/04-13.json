@@ -1,0 +1,116 @@
+{
+  "id": "04-13",
+  "month": 4,
+  "day": 13,
+  "dateLabel": "13 de Abril",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Uma história de Viriato",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Hoje, vou contar-vos uma história, que passa por verdadeira. Uma história da nossa História... Quem ma contou foi um velho pastor da Serra da Estrela, tinha eu pouco mais ou menos a vossa idade.",
+        "Aí vai."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Há muitos e muitos séculos, ainda não havia sequer Portugal, os romanos tinham conquistado quase por completo a Península Ibérica. De entre os que mais se opuseram às invasões dos reluzentes exércitos do Império, destacaram-se os lusitanos, comandados pelo temível Viriato."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Como eram poucos e mal armados, os lusitanos não podiam enfrentar o inimigo em campo de batalha, onde seriam, pela certa, derrotados. A táctica tinha de ser outra, um misto de manha e coragem, em emboscadas de toca e foge, contra as quais os romanos nada podiam."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Certa vez, uma zona da serra foi sitiada . Vinham romanos de todos os lados, de lanças faiscantes, chapéus emplumados e grossas armaduras de couro e ferro. Era de prever a vitória final de Roma. Eis senão quando, começou a descer, lentamente, o nevoeiro sobre as montanhas. Pior para os romanos. O ataque decisivo das legiões invasoras tinha de ser adiado."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Os comandantes espalharam sentinelas pelas extremas do acampamento e foram dormir.",
+        "De súbito, no escuro da noite, ainda mais cerrado pelo nevoeiro, um tropel imenso ecoou, acordando os soldados. Que seria?",
+        "Todos saíram para o frio da noite e interrogaram o escuro."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Não longe, descendo a serra, tremeluziam breves estrelas, milhares e milhares de estrelas, que eram fachos de guerreiros, a postos para incendiarem o acampamento. Tantos? Tantos lusitanos?",
+        "Sobressaltaram-se os soldados de Roma. Afinal os lusitanos eram muitos e mais do que eles contavam. Foge!"
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "E os soldados aterrorizados abandonavam por terra armaduras e armas.",
+        "Aumentava o tropel . Já gritavam vitória os lusitanos. Desfizera-se o cerco.",
+        "Desfizera-se o cerco graças a um ardil . Poucos continuavam a ser os lusitanos, mas eram numerosos os seus aliados... Milhares de carneiros, imagine-se."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Em cada carneiro, um lampião preso aos chifres. Todos juntos fingiam um exército imenso. Que fantástica habilidade!",
+        "A batalha fora vencida, sem combate.",
+        "Esta foi a história que o pastor da Serra da Estrela me contou. Quem sabe se ele não seria descendente dos guerreiros-pastores, companheiros de Viriato?"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "362",
+      "term": "sitiada",
+      "definition": "cercada de tropas"
+    },
+    {
+      "id": "364",
+      "term": "tremeluziam",
+      "definition": "brilhavam com luz trémula ou vacilante / cintilavam"
+    },
+    {
+      "id": "363",
+      "term": "tropel",
+      "definition": "ruído que faz muita gente a andar"
+    },
+    {
+      "id": "365",
+      "term": "ardil",
+      "definition": "manha / astúcia / estratagema"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/04/13/pdf/mr7fshx4ozxzhkxvla447fdbyyd4hli3/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/04/13/html/rfnwdm22jtymqcbnv3gekqqfrx2jgmvn/historia.aspx",
+    "printPdf": "/recovered/0000/04/13/pdf/mr7fshx4ozxzhkxvla447fdbyyd4hli3/imprimir.pdf",
+    "archiveDay": "/recovered/0000/04/13/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

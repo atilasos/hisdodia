@@ -1,0 +1,101 @@
+{
+  "id": "05-24",
+  "month": 5,
+  "day": 24,
+  "dateLabel": "24 de Maio",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A escola dos gatos",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Dantes, os cães e os gatos eram amigos. Tanto assim era que, uma vez, um cão pediu a um gato para ir com ele à escola.",
+        "Que escola? A escola dos gatos, já se vê.",
+        "- Gostava de saber fazer o que vocês fazem - disse o cão. - Gostava de aprender a miar, a trepar às árvores..."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "O gato aceitou o novo colega e levou-o para o meio da gataria que andava a aprender.",
+        "Mas o cão era muito distraído.",
+        "Não só dava pouca atenção às aulas como faltava muito. E chegava sempre atrasado.",
+        "Perdia que tempos até chegar à escola. Pelo caminho, junto de cada árvore, alçava a perna..."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Ora, quando se tem de chegar a horas, não se pode perder tempo com distracções destas.",
+        "Uma vez, chegou à escola já depois de ela ter fechado.",
+        "- Para onde foram os meus amigos gatos? - perguntou ele à professora, que ia a sair.",
+        "- Procura - respondeu a professora e foi à sua vida.",
+        "O cão baseou-se no pouco que até aí tinha aprendido."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Farejou para um lado, farejou para o outro e encontrou um rasto de gato.",
+        "Sempre de focinho no chão, chegou ao pé de uma árvore. Ia fazer o que costumava fazer junto de cada árvore, quando ouviu um risinho por cima da sua cabeça. Era o gato que o tinha inscrito na escola dos gatos.",
+        "- Do que é que estás a rir ? - perguntou-lhe o cão."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- De ti - respondeu o gato. - És um palonço .",
+        "- Não sou nada - protestou o cão.",
+        "- És um burro - continuou o gato.",
+        "- Não sou nada - irritou-se o cão.",
+        "- És um desqualificado - insistiu o gato.",
+        "- Não sou nada - zangou-se o cão.",
+        "E começou a ladrar, de patas fincadas ao tronco da árvore."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- Vês - disse-lhe o gato. - Se tivesses sido um bom aluno, já sabias trepar às árvores como eu sei.",
+        "O cão desesperou-se, mas já era tarde.",
+        "Nunca iria aprender a miar e a subir às árvores. Por culpa sua.",
+        "E o cão e o gato deixaram de ser amigos."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "479",
+      "term": "palonço",
+      "definition": "pouco inteligente"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/05/24/html/w4sb3q6zveu3kte622zuhax5kkhcyclk/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/05/24/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

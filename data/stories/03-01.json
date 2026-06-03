@@ -1,0 +1,81 @@
+{
+  "id": "03-01",
+  "month": 3,
+  "day": 1,
+  "dateLabel": "1 de Março",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Comichão de cão",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O meu cão está com comichão. Coça-se desenfreadamente , todo o santo dia.",
+        "- Queres tomar uma banhoca? - pergunto-lhe eu.",
+        "Mas ele foge-me. Diz que não é cão de água e que as pulgas são dele, só dele, muito dele.",
+        "O meu cão tem um azar ao banho que nunca vi."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- Preferes continuar com essa comichão, preferes?",
+        "Ele diz que sim e coça-se.",
+        "Mas isto não me parece bem. Quem o vir naquele desespero o que dirá? Que o dono é um porco, porque nunca dá banho ao desgraçado do cão."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Tive de tomar providências. Fui passear com ele à praia e, de repente, sem me despir, atirei-me para o meio das ondas. Ele que me segue para todo o lado, seguiu-me. Coisas do instinto, de que rapidamente se arrependeu, mas já era tarde. Estávamos os dois a nadar, cada qual no seu estilo. Eu tiritava, porque o mar de Março é gelo derretido. Nunca experimentem."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Quando, ambos a pingar, regressámos a casa, fui logo acender a lareira e mudar de roupa. Ele ficou com o pêlo de sempre, mas já não se coçava.",
+        "As pulgas teriam morrido afogadas ou de frio ou de susto. O meu cão de pêlo salgado regalava-se ao calor da lareira."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Lá para Julho volto a experimentar o truque. Pode não resultar, mas, ao menos, já não me constipo."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "269",
+      "term": "desenfreadamente",
+      "definition": "com arrebatamento"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/03/01/images/w2oznxwt23rtysqftajmidpexlkg6len/Imagens/Background.jpg",
+    "icon": "/recovered/0000/03/01/images/gm2ty4dotf75sltbk4jwb245wrbskyja/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/03/01/pdf/vgbbkbwji2sli4uhcqfdy6q2iyqwe3hv/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/03/01/audio/33fges2f7oggdyq3tsxztrqhdaxpbyzt/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/03/01/html/gs2kuhwyj7bnxrorben365neacxm4ckg/historia.aspx",
+    "printPdf": "/recovered/0000/03/01/pdf/vgbbkbwji2sli4uhcqfdy6q2iyqwe3hv/imprimir.pdf",
+    "archiveDay": "/recovered/0000/03/01/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

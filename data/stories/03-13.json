@@ -1,0 +1,95 @@
+{
+  "id": "03-13",
+  "month": 3,
+  "day": 13,
+  "dateLabel": "13 de Março",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Um rato a mais",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Conta-se que um ratinho salvou, uma vez, um leão, que tinha caído numa armadilha. Roeu, roeu e o leão safou-se da rede em que se deixara caçar.",
+        "Muito grato ao minúsculo roedor, que mais uma vez provara que os grandes nunca devem desprezar a ajuda dos mais pequenos, o rei leão deu uma festa em honra do seu salvador."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Por altura dos discursos, o leão, diante da bicharada reunida, elogiou o ratinho e a força dos seus dentes. Sua Majestade estava comovida.",
+        "- Para provar a minha gratidão, dou-te o direito de escolher o que tu quiseres, em paga dos teus serviços."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Cabia ao rato a vez de responder. Pôs-se em bicos de pés e disse:",
+        "- Quero casar com a tua filha, para vir a ser, mais tarde, ao lado dela, o rei dos animais.",
+        "Com isto é que o leão não contava, mas não podia voltar com a palavra atrás.",
+        "A princesa leoa ficou furiosa. Ela casar com um rato? Que ridículo!"
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Já a orquestra dos elefantes começava a soprar, no fim do banquete, dando início ao baile real.",
+        "- Os noivos, os noivos! Eles que dancem! - gritavam de vários lados.",
+        "Muito compenetrado do seu papel, o ratinho foi buscar a princesa. A vénia com que ele a convidou era de uma elegância sem igual."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "O pior foi durante a bailação, propriamente dita. O rato podia valsar maravilhosamente, mas o par ajudava pouco...",
+        "Primeiro levou uma pisadela que quase o esborrachava. Depois apanhou com uma patada que o atirou para o colo de um dos elefantes da orquestra."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Muito contundido , o rato teve de desistir da dança e da noiva.",
+        "Ela não se importou mesmo nada e ele, embora humilhado , suspirou de alívio, quando se viu longe daquela festa em que, pela primeira vez na vida, se sentira a mais."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "293",
+      "term": "humilhado",
+      "definition": "vexado / ferido no orgulho / desprezado"
+    },
+    {
+      "id": "292",
+      "term": "contundido",
+      "definition": "magoado / moído"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/03/13/images/iwomvs2crvpkchsjbtsfh3hz6h5yzacg/Imagens/entrada.jpg",
+    "icon": "/recovered/0000/03/13/images/iwomvs2crvpkchsjbtsfh3hz6h5yzacg/Imagens/entrada.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/03/13/html/xp2l25e5rywqvvxnra5cg5cpp4rruq25/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/03/13/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "01-06",
+  "month": 1,
+  "day": 6,
+  "dateLabel": "6 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "No Rasto da Estrela",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Três reis, vindo cada qual do seu extremo do mundo, encontraram-se num cruzamento de três caminhos. Uma grande estrela, nova no céu, tinha-os atraído para o mesmo destino.",
+        "Juntaram as respectivas caravanas de camelos e cavalos e prosseguiram a viagem juntos. Sempre no rasto da estrela, foram dar a uma cidade e a um palácio, onde vivia um rei, chamado Herodes."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- Vimos uma estrela que anuncia o nascimento do rei dos Judeus - disseram os três reis.",
+        "Herodes, ao ouvir tal notícia, assustou-se. Rei dos Judeus era ele e temia que lhe roubassem o trono."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Mas fingiu-se interessado e pediu aos três reis viajantes que fossem e procurassem saber mais acerca desse acontecimento espantoso, porque também ele queria adorar o Menino, fadado pelo Céu. Era mentira. Percebia-se pelos olhos furibundos de Herodes que era tudo mentira."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Os três reis sábios deixaram a cidade e continuaram por caminhos humildes atrás da estrela anunciadora, até que foram encontrar, em Belém da Judeia, o Menino. Sobre o telhado da casa onde vivia o Menino a estrela parou.",
+        "Os três reis, que se chamavam Gaspar, Melchior e Baltasar, ajoelharam-se em adoração e abriram os cofres das oferendas."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Ouro, incenso e mirra era o que tinham para dar.",
+        "Já não voltaram por Jerusalém, porque tinham sido avisados em sonhos para regressarem às suas terras por outros caminhos.",
+        "Herodes esperou-os, em vão. Furioso e cheio de medo que, mais tarde, pudesse ser destronado, mandou matar todos os meninos de Belém da Judeia."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "O seu futuro rival - julgava ele - também estaria entre esses inocentes.",
+        "E Herodes ria da sua malvadez.",
+        "Mas o Menino, que a estrela iluminara, salvou-se. E Herodes perdeu."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "146",
+      "term": "furibundos",
+      "definition": "furiosos"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/01/06/images/qihnwyeqdrofumzcmrm2flgsr3ll3ubs/Imagens/Background.jpg",
+    "icon": "/recovered/0000/01/06/images/pilyihnub5i6giirewybdmu2uzjxkscq/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/01/06/pdf/7fstpec3nfh4t36wbdrkz5i5cog3eqaw/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/01/06/audio/4a065464dcacc76d396aa307/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/01/06/images/3c522a964e40aa553f9e6343/imagens/background.jpg",
+      "/recovered/0000/01/06/images/448c61ce981c87df94a15666/propostas/janeiras1.jpg",
+      "/recovered/0000/01/06/images/46395acb281ca6da447b537d/propostas/reis1.jpg",
+      "/recovered/0000/01/06/images/7fb5575930005103c8177b68/propostas/ffoz.jpg",
+      "/recovered/0000/01/06/images/cifrgg2p5e5eggyn5t5hplwn7hlaanba/Propostas/janeiras1.jpg",
+      "/recovered/0000/01/06/images/e1877c508114847b9ce731d2/imagens/icone.jpg",
+      "/recovered/0000/01/06/images/g4rutchfy7lbxavauixwp7h6krnv766a/Propostas/ffoz.jpg",
+      "/recovered/0000/01/06/images/ydmdlqg57ofrojcxgyr5tljkeqcbkoqr/Propostas/reis1.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/01/06/html/idgdkfwk5co2f4bqwh6kg3gusiesholy/historia.aspx",
+    "printPdf": "/recovered/0000/01/06/pdf/7fstpec3nfh4t36wbdrkz5i5cog3eqaw/imprimir.pdf",
+    "archiveDay": "/recovered/0000/01/06/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

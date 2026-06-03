@@ -23,6 +23,8 @@ describe('renderSite', () => {
     assert.match(homepage, /Ler/);
     assert.match(homepage, /Ouvir/);
     assert.match(archive, /1 de Janeiro/);
+    assert.match(archive, /2 de Janeiro/);
+    assert.match(archive, /A Ovelha Generosa/);
     assert.match(story, /António Torrado/);
     assert.match(story, /Riram-se os filhos/);
     assert.match(story, /Narração sintetizada em pt-PT/);
@@ -30,6 +32,8 @@ describe('renderSite', () => {
     assert.match(story, /kind="captions"/);
     assert.match(homepage, /src="\/assets\/01-01\/illustration-original\.jpg"/);
     assert.match(story, /href="\/assets\/01-01\/imprimir\.pdf"/);
+    assert.match(story, /Imagens recuperadas/);
+    assert.match(story, /\/recovered\/0000\/01\/01\//);
     assert.doesNotMatch(story, /historiadodia\.pt:80\/assets/);
     assert.match(homepage, /lang="pt-PT"/);
     assert.match(homepage, /class="skip-link"/);
@@ -71,7 +75,7 @@ describe('renderSite', () => {
       })
     );
 
-    await renderSite({ storiesDir: 'tmp/render-safety/stories', outDir: 'tmp/render-safety/dist' });
+    await renderSite({ storiesDir: 'tmp/render-safety/stories', outDir: 'tmp/render-safety/dist', recoveredArchiveDir: null });
 
     const story = await readFile('tmp/render-safety/dist/stories/02-02/index.html', 'utf8');
 
@@ -105,7 +109,7 @@ describe('renderSite', () => {
     );
 
     await assert.rejects(
-      () => renderSite({ storiesDir: 'tmp/render-invalid-id/stories', outDir: 'tmp/render-invalid-id/dist' }),
+      () => renderSite({ storiesDir: 'tmp/render-invalid-id/stories', outDir: 'tmp/render-invalid-id/dist', recoveredArchiveDir: null }),
       /Invalid story id: \.\.\/\.\.\/bad/
     );
   });

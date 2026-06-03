@@ -1,0 +1,127 @@
+{
+  "id": "06-29",
+  "month": 6,
+  "day": 29,
+  "dateLabel": "29 de Junho",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O corvo",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um corvo.",
+        "Preto e luzidio como todos o são, este corvo sentia-se fadado para grandes voos.",
+        "Mas que voos?",
+        "Assim vestido, como se usasse casaca, podia ser músico. Aí estava uma profissão bonita. Atrairia os olhares das plateias e os aplausos do público, seria conhecido e gabado."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Ele, o corvo violinista ou pianista ou violoncelista, com o nome destacado em todos os cartazes de concertos, pelo mundo fora, não era sensacional?",
+        "Mas, para que isso acontecesse, tinha primeiro de aprender música. Pois era. Aí é que estava o enfado."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Aprender, estudar, ensaiar, em intermináveis sessões de trabalho, debruçado sobre pautas, repetindo, insistindo... Que enjoo!",
+        "Afinal, pensando bem, já não queria ser músico.",
+        "Mas podia ser ilusionista. Com todos os holofotes concentrados sobre ele, num círculo mágico de luz, o corvo brilharia."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Tirava um lenço do bolso e transformava-o numa borboleta. Abria um baralho em leque e adivinhava, de olhos fechados, o valor de cada carta. Soprava um balão e desfazia-o em poalha de espuma. E palmas, muitas palmas sempre, ao fim de cada número."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Mas, para que isso acontecesse, tinha primeiro de exercitar minuciosamente cada truque, preparar-se muito bem, experimentar, adestrar-se . Que canseira!",
+        "Afinal, pensando bem, já não queria ser ilusionista.",
+        "Mas podia ser juiz."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "A presidir ao tribunal, com toda a autoridade de quem decide, sendo respeitado e temido, concentraria sobre ele a admiração de todos.",
+        "Mas, para que isso acontecesse, tinha primeiro de ler os códigos, tinha de passar longas noites a consultar calhamaços, a avaliar os processos, a tirar apontamentos, a escrever pareceres, a decorar leis."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Que aborrecimento!",
+        "Afinal, pensando bem, já não queria ser juiz.",
+        "O corvo via-se ao espelho e imaginava para a sua bela plumagem, para o requinte dos seus gestos, para a elegância da sua pose, os mais distintos atributos profissionais."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Apetecia-lhe ser pregador, professor catedrático, diplomata, presidente da república, eu sei lá que mais, embora houvesse sempre uns preparos a cumprir, uns estudos a fazer, que antecipadamente o agoniavam."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "Em qualquer dos casos, sobre o preto brilhante das penas, a fieira de condecorações em destaque provaria que ele era um corvo distinto, diferente, especial, um corvo lançado em altos voos.",
+        "Pois sim, mas... Há sempre um \"mas\" arreliador, ao cabo destas histórias."
+      ]
+    },
+    {
+      "layer": "html-layer-11",
+      "paragraphs": [
+        "Alguém lhe lançou uma rede, enquanto ele se aturdia, no meio dos seus sonhos. Alguém o meteu num saco. Alguém o levou a uma feira. Alguém o expôs de pernas para o ar, presas com um atilho. Alguém o vendeu por pouco dinheiro.",
+        "- Quer que lhe corte as asas? - perguntou esse alguém ao comprador."
+      ]
+    },
+    {
+      "layer": "html-layer-12",
+      "paragraphs": [
+        "- É mais prudente. Assim já não pode fugir.",
+        "Umas tantas tesouradas riparam-lhe as penas mais compridas das asas. Para sempre.",
+        "O corvo trabalha agora num armazém de carvão. Faz de guarda. Usa uma corrente comprida presa à pata e grasna, a dar sinal, à presença de qualquer estranho.",
+        "Os corvos são muito bons nisso."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "539",
+      "term": "adestrar-se",
+      "definition": "treinar-se"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/06/29/images/xmnhovdvj3n7n2hbooellqqkouqbwe4n/Imagens/icone.jpg",
+    "icon": "/recovered/0000/06/29/images/xmnhovdvj3n7n2hbooellqqkouqbwe4n/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/06/29/html/2tunqqaifknegy2eovnwnzvsprciqjzi/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/06/29/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

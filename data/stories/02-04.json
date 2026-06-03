@@ -1,0 +1,89 @@
+{
+  "id": "02-04",
+  "month": 2,
+  "day": 4,
+  "dateLabel": "4 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O Paz de Alma",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Aquele senhor ali, de calva rosada e redonda, olhos pestanejantes de menino velho, bochechinhas caídas, da cor da calva , tem mesmo ar de boa pessoa. Uma jóia. Uma raridade. Um paz de alma."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Todas as manhãs se senta à mesma mesa do nosso café do bairro e pede numa voz mansa, de palavras pronunciadas sílaba a sílaba:",
+        "- Se faz favor trazia-me uma meia de leite, mas não muito quente, acompanhada por um queque, de preferência ainda quentinho...",
+        "E ri-se, suavemente, do seu capricho guloso."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Pois no outro dia, entrou um desconhecido de rompante, lá no café, que se dirigiu sem hesitação ao senhor, a meio da sua chávena meia de leite.",
+        "- O senhor é que é o Abílio Gomes, não é? - perguntou ele, de dedo apontado, com muito maus modos."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "E sem esperar pela resposta, nem sequer dar tempo ao senhor para poisar a chávena, pregou-lhe uma bofetada de todo o tamanho e saiu disparado, tal como entrara.",
+        "Esparramou-se o conteúdo da chávena, que se partiu mais o pires, no lajedo do café.",
+        "Eu, que estava perto, ainda apanhei uns salpicos."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Entretanto, o senhor, de bochechas muito mais rosadas do que o costume, mamava, imperturbável, o resto do queque, ensopado de café.",
+        "Indignei-me:",
+        "- Então o senhor apanha uma bofetada destas e fica-se?",
+        "Acabando de engolir o queque, o senhor só respondeu:",
+        "- O caso não era comigo. Deve ter sido engano. Eu nem me chamo Abílio..."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "203",
+      "term": "esparramou-se",
+      "definition": "espalhou-se"
+    },
+    {
+      "id": "202",
+      "term": "calva",
+      "definition": "careca / parte da cabeça que perdeu o cabelo"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/02/04/images/zeynvstvgbfpyuagzyrp3hxfnghh37x7/Imagens/Background.jpg",
+    "icon": "/recovered/0000/02/04/images/6e4mblhaf4vgv7yazohy5oru5rzkeyk3/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/02/04/audio/f9ca8c67fc21f5f921972c6e/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/04/html/z7rjv5ghjmt3jwzdj3l6lifg25wpyrpx/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/02/04/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

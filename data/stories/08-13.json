@@ -1,0 +1,102 @@
+{
+  "id": "08-13",
+  "month": 8,
+  "day": 13,
+  "dateLabel": "13 de Agosto",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Os pardais ensinam",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Contava o Joca à mãe:",
+        "- Hoje, na piscina, vi uma borboleta a voar por cima da água.",
+        "- Mas onde está a admiração? - dizia-lhe a mãe.",
+        "- É que há um cartaz, à entrada da piscina, que proíbe a entrada a animais. Nunca leste? - perguntava o Joca."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "A mãe já tinha lido, mas como não tencionava levar nenhum cão nem nenhum gato para a piscina, não ligara importância.",
+        "- Então a borboleta não é animal? - quis saber o Joca. - E os pardais também não são animais? Sim, porque eu vi, há dias, três pardais ao pé do self-service da piscina. Ninguém os mandou embora..."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Havia que explicar ao Joca que os pardais, não sabendo ler, tinham de ser desculpados do atrevimento. Pouco mais ou menos, foi isto o que a mãe disse ao filho.",
+        "Mas a senhora estava enganada, muito enganada."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Não só os pardais sabiam do cartaz, à entrada da piscina, como sabiam muito bem que não estavam abrangidos pela proibição escrita no cartaz.",
+        "Estranham? Admiram-se? Pois venham connosco ouvir a conversa dos pardais:",
+        "Pardal - Ricas férias, amigos! Valeu a pena voar de tão longe..."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Pardalinho - As pessoas gostam de nos ver. Ainda agora uns estrangeiros repartiram comigo um queque. Estava óptimo.",
+        "Pardalão - E os que trazem comida de casa? Tenho depenicado pedacinhos maravilhosos.",
+        "Pardalinho - E não há gatos. Sim, sobretudo, não há gatos. Que paz!",
+        "Pardalão - Nem cães..."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Os banhistas que tragam os seus queridos animaizinhos de estimação têm de ficar à porta. Bem feito.",
+        "Pardalinho - O aviso, à entrada, é bem claro. Lembram-se do que lá vem?",
+        "Pardal, Pardalinho e Pardalão (em coro) - NÃO É PERMITIDA A ENTRADA A PESSOAS ACOMPANHADAS DE ANIMAIS."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Pardalão - Ora, como ninguém nos trouxe de companhia podemos entrar. É a nossa vantagem.",
+        "E riam-se os pardais, numa grande chilreada.",
+        "Como se vê, os pardais sabem ler e tirar as suas conclusões. Se o Joca e a mãe passarem os olhos por estas linhas, também hão-de chegar a uma conclusão. A de que não basta ler."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "É preciso ler sempre bem e aproveitar o mais possível o que se lê.",
+        "Os pardais ensinam."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/08/13/pdf/rlip4wydbbnumludjhwnegoqlppnsua3/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/08/13/html/umjqivxqqbm4sbub4ybkux2xzlgcuujw/historia.aspx",
+    "printPdf": "/recovered/0000/08/13/pdf/rlip4wydbbnumludjhwnegoqlppnsua3/imprimir.pdf",
+    "archiveDay": "/recovered/0000/08/13/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

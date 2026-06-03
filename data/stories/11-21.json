@@ -1,0 +1,86 @@
+{
+  "id": "11-21",
+  "month": 11,
+  "day": 21,
+  "dateLabel": "21 de Novembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O Capuchinho e o Lobo",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "67",
+      "term": "vacilavam-lhe",
+      "definition": "não tinham firmeza"
+    },
+    {
+      "id": "68",
+      "term": "tiniam-lhe",
+      "definition": "batiam-lhe"
+    },
+    {
+      "id": "69",
+      "term": "prece",
+      "definition": "reza / oração"
+    },
+    {
+      "id": "70",
+      "term": "escárnio",
+      "definition": "troça"
+    },
+    {
+      "id": "71",
+      "term": "estugado",
+      "definition": "apressado"
+    },
+    {
+      "id": "72",
+      "term": "moita",
+      "definition": "designativa de silêncio e teima em não responder"
+    },
+    {
+      "id": "73",
+      "term": "professado",
+      "definition": "feito votos religiosos"
+    },
+    {
+      "id": "74",
+      "term": "derreado",
+      "definition": "cansado"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/11/21/html/ilovnkehpjtq7sugav6c3a4zwugkes5o/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/11/21/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

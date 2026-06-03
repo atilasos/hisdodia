@@ -1,0 +1,71 @@
+{
+  "id": "11-25",
+  "month": 11,
+  "day": 25,
+  "dateLabel": "25 de Novembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Zé Desgraçado",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "83",
+      "term": "azagaia",
+      "definition": "lança curta de arremesso"
+    },
+    {
+      "id": "84",
+      "term": "predestinado",
+      "definition": "previsto"
+    },
+    {
+      "id": "85",
+      "term": "sumptuosa",
+      "definition": "muito luxuosa"
+    },
+    {
+      "id": "86",
+      "term": "iguarias",
+      "definition": "comidas apetitosas"
+    },
+    {
+      "id": "87",
+      "term": "desvaneceu",
+      "definition": "desapareceu"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/11/25/images/n4s6b5cuw66pwt7kyywdggnpcmxmmu3s/Imagens/entrada.jpg",
+    "icon": "/recovered/0000/11/25/images/n4s6b5cuw66pwt7kyywdggnpcmxmmu3s/Imagens/entrada.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/11/25/html/3ea5qlbrpffuuqy3pj4wovw7liyhfrwr/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/11/25/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": "04-03",
+  "month": 4,
+  "day": 3,
+  "dateLabel": "3 de Abril",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O lobo e o mocho",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um lobo que andava à caça. Ele andar, andava, mas a caça, fosse coelho, javardo, texugo ou perdiz, é que não andava por ali, à mão de ser caçada.",
+        "Já o lobo se impacientava, quando ouviu o piar de um mocho. Estava no ninho, empoleirado num pinheiro novo."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "O lobo pôs-se a sacudir, furiosamente, o tronco do pinheirito, mas só lhe caíram duas pinhas na cabeça.",
+        "Lá do alto, o mocho gritou-lhe:",
+        "- Ó compadre, não abane tanto o pinheiro, senão os meus filhos, que estão no ninho, acordam.",
+        "- Quero lá saber! - respondeu o lobo.",
+        "E continuou a sacudir o pinheiro."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Voltou o mocho:",
+        "- Ó compadre, por favor, vá abanar outro pinheiro e deixe este em paz. É que os meus filhos, com tanto abanão, ainda caem do ninho.",
+        "- Quero lá saber!",
+        "Por acaso até queria... Não queria ele outra coisa... E vá de sacudir mais o tronco do pinheiro."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "O mocho, de asas a tremer, repontou:",
+        "- Se o compadre continua a abanar o pinheiro, eu afino .",
+        "- Então afina - disse o lobo, a rir-se.",
+        "- E vou aí abaixo e dou-lhe uma desanda - ameaçou o mocho, a ganhar coragem."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- Então vem, que eu também quero dizer-te umas coisas.",
+        "O mocho saltou para um ramo, ainda a alguma distância do lobo.",
+        "- Chega-te mais perto, que o que eu tenho para dizer-te os teus filhos não podem ouvir.",
+        "O mocho deu um saltinho para um ramo mais abaixo."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- Ainda mais perto - disse-lhe o lobo.",
+        "- Mais perto não, que os meus filhos podem acordar e, não me vendo no ninho, assustam-se.",
+        "- Então volto a abanar o pinheiro.",
+        "- Isso é que não - e o mocho desceu mais.",
+        "Quando o lobo o viu perto, abocanhou-o logo."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "- Ai compadre, que me magoa - queixou-se o mocho. - Se vai comer-me, deixe-me, ao menos, despedir-me dos meus filhos, que ficam sem ninguém que tome conta deles.",
+        "O lobo, com o mocho preso na dentuça, meneou a cabeça, negativamente."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "- Ao menos diga, para que eles oiçam: \"mocho comi\" - pediu o mocho.",
+        "O lobo, para não abrir a boca, disse, muito baixinho:",
+        "- Mocho comi.",
+        "- Ó compadre, fale mais alto, senão eles, coitadinhos, não ouvem.",
+        "- Mocho comi - disse o lobo, de dentes filados na presa."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "- Nem se percebe - insistiu o mocho .- Fale mais alto.",
+        "O lobo desabotoou a boca, num grande berro:",
+        "- Mocho comi.",
+        "Liberto dos dentes, safou-se o mocho, a voar para o cimo do pinheiro, enquanto dizia:",
+        "- Mocho comi? Outro que não a mim."
+      ]
+    },
+    {
+      "layer": "html-layer-11",
+      "paragraphs": [
+        "Pegou nos filhos um por um e foi pô-los a salvo, no alto de um pinheiro de maior porte.",
+        "O lobo, de raiva, rilhou o tronco do pinheirinho e ficou com a boca a saber a resina."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "340",
+      "term": "abocanhou-o",
+      "definition": "apanhou-o com a boca"
+    },
+    {
+      "id": "341",
+      "term": "meneou",
+      "definition": "moveu de um lado para o outro / abanou"
+    },
+    {
+      "id": "343",
+      "term": "rilhou",
+      "definition": "roeu"
+    },
+    {
+      "id": "338",
+      "term": "afino",
+      "definition": "zango-me / irrito-me"
+    },
+    {
+      "id": "339",
+      "term": "desanda",
+      "definition": "descompostura / repreensão"
+    },
+    {
+      "id": "342",
+      "term": "filados",
+      "definition": "cravados"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/04/03/images/7xqyjt33py26iuf5ekbpd2d234ayhwe5/Imagens/Background.jpg",
+    "icon": "/recovered/0000/04/03/images/tmvzaqezmpmebgkkzxwdtvgqdge5djwo/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/04/03/pdf/qedghxoznthtrudcur5xyssbyhzmwi4a/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/04/03/audio/3yajz6ojfkb7kmck3zkvgwqgqrxycii5/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/04/03/html/dbhbrr4qq74zzxcdufpnhn4v5vgocjp5/historia.aspx",
+    "printPdf": "/recovered/0000/04/03/pdf/qedghxoznthtrudcur5xyssbyhzmwi4a/imprimir.pdf",
+    "archiveDay": "/recovered/0000/04/03/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

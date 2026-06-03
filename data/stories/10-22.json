@@ -1,0 +1,48 @@
+{
+  "id": "10-22",
+  "month": 10,
+  "day": 22,
+  "dateLabel": "22 de Outubro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Só Um Dia",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/10/22/images/yyamwsgl4hpqrbjbd7z6f7w65lwdr3dv/Imagens/Background.jpg",
+    "icon": "/recovered/0000/10/22/images/m22jmrpw63xjbln7gozjfkwfn7roa2zh/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/10/22/pdf/u3noqpd5d5c2b4va2irooc2l3bjcwmqk/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/10/22/audio/hcrkjill3hex4hopck3wbxagwlnvzrwh/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/10/22/images/0335f393a3c9ed7f906722cc/imagens/icone.jpg",
+      "/recovered/0000/10/22/images/oljeybcmy2nhpoizeivg7dlqz7moz5zs/Imagens/entrada.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/10/22/html/qzm6slrqn7feesdoo3cefibna7jcvmfm/historia.aspx",
+    "printPdf": "/recovered/0000/10/22/pdf/u3noqpd5d5c2b4va2irooc2l3bjcwmqk/imprimir.pdf",
+    "archiveDay": "/recovered/0000/10/22/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

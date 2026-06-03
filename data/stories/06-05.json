@@ -1,0 +1,120 @@
+{
+  "id": "06-05",
+  "month": 6,
+  "day": 5,
+  "dateLabel": "5 de Junho",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Quem sabe é o jardineiro",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um rei que tinha, à roda do palácio, onde vivia, um enorme pomar muito bem tratado. Imensos jardineiros cuidavam desse pomar, que era a vaidade do rei."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Árvores de fruto de todas as espécies, algumas vindas de terras distantes, transformavam, na Primavera, o pomar num jardim magnífico, onde sobressaíam o cor-de-rosa, o azul, o branco e o amarelo das flores, sobre o verde fresco das folhas."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "E, quando os frutos começavam a ganhar forma, o perfume que inundava o pomar quase entontecia.",
+        "Estava, um dia, o rei a mostrar o pomar a uns primos, príncipes de reinos vizinhos, quando viu, caídos de um pessegueiro uns tantos frutos meio apodrecidos."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Mandou logo chamar o chefe dos jardineiros e perguntou-lhe, muito irritado:",
+        "- Explique-me este desleixo. Quem é o responsável?",
+        "- Foram os pássaros, Majestade, que bicaram os frutos mais apetitosos - explicou o jardineiro.",
+        "- Pássaros? - exclamou o rei."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- Como se atrevem a entrar nos meus domínios e a bicar as minhas riquezas?",
+        "- Os pássaros têm asas e não conhecem muros - respondeu o jardineiro.",
+        "- Pois vou eu ensiná-los - indignou-se o rei. - Que podem os pássaros contra mim?"
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "E o rei foi para o palácio, onde ditou um decreto para ser espalhado pelo reino, em que mandava matar todos os pássaros, passarinhos e passarocos, sem escapar um. As ordens do rei tinham de se cumprir. Foi uma mortandade ."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "No ano seguinte, realmente, já não havia pássaros atrevidos a bicar nos frutos do pomar real. Mas, em contrapartida, uma praga aflitiva de lagartas e insectos destruiu as colheitas, minou os frutos, empobreceu o reino.",
+        "- Como se explica isto? - perguntou o rei ao jardineiro."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "- Depois de guerrearmos os pássaros, temos agora de guerrear os mosquitos e as lagartas. Como se dá batalha às lagartas?",
+        "Sorrindo, o velho jardineiro respondeu:",
+        "- Para guerrear as lagartas, temos de nos aliar aos pássaros. São eles que as comem, mais às larvas e a todos os bichinhos miúdos da natureza."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "- Podias ter explicado isso mais cedo - comentou o rei, fazendo-se esquecido.",
+        "Logo ali mandou anular o decreto, que tinha apagado as asas dos céus do reino. Os pássaros já podiam, de novo, voar livremente. E poisar onde lhes apetecesse.",
+        "Assim é que estava certo."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "500",
+      "term": "mortandade",
+      "definition": "matança / grande número de mortes"
+    },
+    {
+      "id": "501",
+      "term": "praga",
+      "definition": "grande calamidade / conjunto de insectos ou doenças que atacam plantas ou animais"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/06/05/images/kelqyqoqbwjujdiulss26lwpljqiqttk/Imagens/Background.jpg",
+    "icon": "/recovered/0000/06/05/images/3upk6lrg7taunxqsctqwruv5dhnux4zo/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/06/05/pdf/phr2f5kzvkhagpt56g463ypkifcbc7x4/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/06/05/audio/ql3qweehyidyagyib25duqvnb7bx4uri/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/06/05/images/55uyirx37x2prihikjcvmzaezga7feth/Propostas/aspea.gif",
+      "/recovered/0000/06/05/images/5fj4pqdyprncungfcqoyimh6zu2z5fvx/Imagens/entrada.jpg",
+      "/recovered/0000/06/05/images/erp62ivfe6kwvjhjqyyob4teyfstnpw7/Propostas/icn.jpg",
+      "/recovered/0000/06/05/images/w53sihjhd6evkatpv7444twc3trqlpkx/Propostas/crea.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/06/05/html/25l3z34skbfvv36minn56jxs6d37jmz3/historia.aspx",
+    "printPdf": "/recovered/0000/06/05/pdf/phr2f5kzvkhagpt56g463ypkifcbc7x4/imprimir.pdf",
+    "archiveDay": "/recovered/0000/06/05/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

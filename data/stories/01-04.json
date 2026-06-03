@@ -1,0 +1,105 @@
+{
+  "id": "01-04",
+  "month": 1,
+  "day": 4,
+  "dateLabel": "4 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Quitério Atrevido",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O rapaz era esperto e atrevido. Quando, lá na aldeia, souberam que o rei vinha caçar àquela região, o rapaz decidiu:",
+        "- Eu hei-de falar ao rei ou não me chame Quitério.",
+        "E pôs-se a esperar pelo cortejo real, à beira da estrada.",
+        "Mas o rei, que não era de pompas , apareceu a cavalo, sem escolta , vestido como qualquer um."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Vendo o rapaz, que não o reconheceu, perguntou-lhe:",
+        "- Vou bem encaminhado para o solar do Conde de Ameal?",
+        "- Eu ensinava-lhe o caminho, senhor, se não tivesse à espera do séquito do rei.",
+        "- Não esperes mais, rapaz, porque o séquito já lá deve estar. Sobe tu para cima do meu cavalo e orienta-me, até chegarmos ao solar do conde."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Pelo caminho foram conversando. O Quitério quis saber como é que o rei viria vestido.",
+        "- Como os outros homens. Nada o distingue - respondeu o rei.",
+        "- Então como é que eu sei que é o rei?",
+        "- Porque todos, quando o virem, lhe tiram o chapéu."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Assim que os dois, montados no mesmo cavalo, chegaram aos paços do conde, logo criados e fidalgos se desbarretaram à sua passagem. O Quitério estava pasmado.",
+        "- Então já sabes, agora, quem é o rei? - perguntou o rei ao rapaz.",
+        "- Hei-de ser eu - respondeu o atrevido Quitério."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- Vossemecê não tem cara de ser rei e eu conservo o chapéu na cabeça, porque o sol está bravo.",
+        "O rei achou graça e a história acaba bem."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "139",
+      "term": "pompas",
+      "definition": "luxos / ostentações"
+    },
+    {
+      "id": "141",
+      "term": "séquito",
+      "definition": "cortejo"
+    },
+    {
+      "id": "140",
+      "term": "escolta",
+      "definition": "guarda / acompanhamento"
+    },
+    {
+      "id": "142",
+      "term": "desbarretaram",
+      "definition": "tiraram o barrete / chapéu"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/01/04/images/hdzn6dkr2aycbozedeyqhchhznv5ck33/Imagens/Background.jpg",
+    "icon": "/recovered/0000/01/04/images/3814aeaccaf46f65e5b14806/imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/01/04/audio/6y4qyub2pl52ycuvobq5o6jnatnlsdqx/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/01/04/images/2nsv2e3g7fhny2ug2y5zogbusrbmjgif/Imagens/icone.jpg",
+      "/recovered/0000/01/04/images/86538cbd80e6e882680f3d0a/imagens/background.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/01/04/html/pldihlogsz54ao2muyq7tg35sunb5qxz/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/01/04/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

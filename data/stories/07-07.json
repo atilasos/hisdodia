@@ -1,0 +1,105 @@
+{
+  "id": "07-07",
+  "month": 7,
+  "day": 7,
+  "dateLabel": "7 de Julho",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O leão às riscas",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Contam esta história em África, à volta da fogueira.",
+        "Façam de conta que também lá estamos a ouvir o contador desfiar a história, enquanto tange o corá, que é um especial instrumento de cordas esticadas sobre uma caixa de ressonância , feita de meia cabaça revestida de couro. Plim... Plam... Plim... Conseguem ouvir?"
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Dantes, muito antes de os homens se terem espalhado pela Terra, os bichos não eram como são hoje. Por exemplo: a zebra tinha a pele igual à que o leão tem e o leão, imaginem a excentricidade , tinha a pele às riscas como tem a zebra. Devia ficar-lhe bem..."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "A zebra que, nessa época, passava por amiga do leão, disse-lhe, um dia:",
+        "- Estive a pensar que devias mudar de aspecto. Assim, com essa pele tão vistosa, chamas demasiadamente a atenção e deves ter dificuldade em esconder-te, quando queres caçar de surpresa."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "O leão reconheceu que, efectivamente, já sofrera alguns desaires na caça à conta da sua bizarra pele às riscas.",
+        "- Queres trocar pela minha? - propôs a zebra.",
+        "Ela, sem riscas, parecia-se mais com um burro, o que não era nada lisonjeiro para a vaidade da zebra. No fundo, ela invejava a pele listada do leão."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Acertado o negócio, trocaram de pele. Naquele tempo, tudo era fácil.",
+        "Vendo-se vestida de riscado, como tanto ambicionara, a zebra foi ter com a restante bicharia, a avisar, a torto e a direito:",
+        "- Cuidado que, agora, o leão é que anda com a minha pele.",
+        "O leão não gostou."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Aquela badalação era prejudicial aos seus intentos e aos seus pergaminhos de majestade. De modo que, desde essa altura, que ele anda a exigir à zebra a devolução da pele.",
+        "Onde quer que veja uma a jeito, salta-lhe para os lombos e tenta com as garras arrancar-lhe a pele."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Até agora ainda não conseguiu recuperá-la, o que é pena. Quem é que não gostava de ver um leão às riscas?"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "548",
+      "term": "badalação",
+      "definition": "palavreado"
+    },
+    {
+      "id": "546",
+      "term": "ressonância",
+      "definition": "propriedade de aumentar a intensidade de um som"
+    },
+    {
+      "id": "547",
+      "term": "excentricidade",
+      "definition": "extravagância"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/07/07/images/ocd5x4veqw733innramtrknlkcz63cg3/Imagens/Background.jpg",
+    "icon": "/recovered/0000/07/07/images/loqhs6elu3napze4y55lrptk5ithmco3/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/07/07/audio/ugstqgy3bljmf2kpzggp5isg6lhlpe2r/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/07/07/html/qdvgslx2777guqpiatycsmp4uegh4rl3/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/07/07/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

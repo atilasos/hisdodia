@@ -1,0 +1,45 @@
+{
+  "id": "10-07",
+  "month": 10,
+  "day": 7,
+  "dateLabel": "7 de Outubro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Caracóis Portugueses",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/10/07/images/qxqt3svsbyvixy3otqafnrazp2n6wgzk/Imagens/Background.jpg",
+    "icon": "/recovered/0000/10/07/images/7cbf65ocz6jwpgwama6vwlhuhrgefuw6/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/10/07/pdf/5l4ahurkywou6of6rfaxljs3cmj5xci7/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/10/07/audio/bfa26c46b440917a9cc2633b/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/10/07/html/l6wkhynynbtqulkjxwslcwjafwfe7wqe/historia.aspx",
+    "printPdf": "/recovered/0000/10/07/pdf/5l4ahurkywou6of6rfaxljs3cmj5xci7/imprimir.pdf",
+    "archiveDay": "/recovered/0000/10/07/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

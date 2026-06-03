@@ -1,0 +1,105 @@
+{
+  "id": "12-20",
+  "month": 12,
+  "day": 20,
+  "dateLabel": "20 de Dezembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O Cabeça de Alho Chocho",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma cabeça de alho chocho .",
+        "Não fixava nada.",
+        "A mãe dizia-lhe:",
+        "- Vai à farmácia e traz-me um frasco de álcool. Vai à padaria e traz-me meia dúzia de pãezinhos.",
+        "Ela ia à farmácia e pedia:",
+        "- Meia dúzia de pãezinhos se faz favor.",
+        "- Não temos - diziam-lhe, na farmácia."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Ia à padaria e pedia:",
+        "- Um frasco de álcool, se faz favor.",
+        "- Não temos - diziam-lhe, na padaria.",
+        "Então ele voltava para casa e despachava-se assim:",
+        "- Está tudo esgotado, mãe. Posso ir brincar?"
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Outras vezes, a mãe dizia-lhe:",
+        "- Vai à mercearia e compras-me três quilos de bacalhau e cento e vinte cinco gramas de azeitonas pretas."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Passado um bocado, ele, o cabeça de alho chocho , voltava ao pé-coxinho pelo passeio e despachava-se assim:",
+        "- Mãe, eles na mercearia dizem que cento e vinte e cinco de bacalhau nem que fossem só espinhas e três quilos de azeitonas pretas não têm que chegue. Posso ir brincar?",
+        "Mas a mãe não desistia. No Natal, recomendou-lhe:"
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- Levas este embrulhinho para o vizinho Almiro e este bolo de amêndoas para a tia Clotilde, com as nossas boas festas.",
+        "Recado feito, voltava ele, o cabeça de alho chocho :",
+        "- Ó mãe, o vizinho Almiro agradece, mas diz que não pode comer bolos, porque é diabético e a tia Clotilde, depois de abrir o embrulho, perguntou-me se andamos a brincar com ela ou quê..."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "A propósito, posso ir brincar?",
+        "Sabem o que continha o embrulho?",
+        "Continha uma loção para depois da barba, que, sendo para o senhor Almiro, estaria bem, mas para a tia Clotilde, um pouco forte de buço , já parecia mal..."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "118",
+      "term": "chocho",
+      "definition": "seco / oco / sem préstimo"
+    },
+    {
+      "id": "119",
+      "term": "buço",
+      "definition": "bigode pequeno"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/12/20/images/ousjd5kihwsi67sfqbvvy4qxr66e7rvq/Imagens/icone.jpg",
+    "icon": "/recovered/0000/12/20/images/ousjd5kihwsi67sfqbvvy4qxr66e7rvq/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/12/20/pdf/b6gs6kuzmcxcecah2arj5pen4yhja3gu/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/12/20/images/627a1f33b4d9603354c43d49/imagens/icone.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/12/20/html/dek7io3sumkcew34sq46wxhhzqqpez2f/historia.aspx",
+    "printPdf": "/recovered/0000/12/20/pdf/b6gs6kuzmcxcecah2arj5pen4yhja3gu/imprimir.pdf",
+    "archiveDay": "/recovered/0000/12/20/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

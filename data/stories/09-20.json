@@ -1,0 +1,91 @@
+{
+  "id": "09-20",
+  "month": 9,
+  "day": 20,
+  "dateLabel": "20 de Setembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Desenhos a giz",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Vejam lá para o que lhe deu!",
+        "No primeiro dia de aulas, antes de a professora chegar, o Joca foi para o quadro fazer desenhos.",
+        "Pegou no giz, suspirou fundo e pôs-se a desenhar o que lhe vinha à ideia. E o que lhe vinha à ideia?",
+        "Ora!"
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "A praia, o mar, os toldos, a piscina, a esplanada, os pinheiros, a bola a saltar, aquele piquenique na serra, enfim, o tempo bom das férias, tudo o que lhe lembrava as férias, que tinham acabado tão depressa.",
+        "O Joca suspirou de novo. Estava na aula, diante do quadro, diante do seu desenho das férias."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Felizmente que a professora tardava a chegar...",
+        "Mas a olhar para o seu desenho com tanta coisa dentro, mesmo assim parecia que faltava nem ele bem sabia o quê. Que seria, que não seria?",
+        "Quando não se sabe, o melhor é indagar. Ir ver de perto. Foi o que o Joca fez. Saltou para dentro do quadro."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Cá temos o Joca no meio do seu desenho. Passou pela praia, molhou os pés nas ondas baixinhas, andou por aqui e por ali e, já cansado de estar sozinho, subiu até uma casa ao fundo, uma casa muito bonita, por sinal.",
+        "Foi subindo pelo quadro adiante... Passou pela piscina vazia."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Passou pela esplanada sem ninguém. Passou pela clareira do piquenique desabrigada... Passou por todas as recordações das férias, que o ventinho do Outono começava a varrer. Até podemos confessar que o Joca sentiu um poucochinho de frio, e assim uma vontade de se abrigar, de se acolher a uma casa, onde o frio não chegasse. Ah! Mas aproximava-se da tal casa."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Aquela casa... Aquela casa lembrava-lhe outra casa. Qual seria?",
+        "Vejam afinal como são as coisas. A casa era uma escola e, na escola, havia um lugar à espera do Joca.",
+        "Tocava a campainha para o começo das aulas. Que ninguém se admire. Estamos no tempo delas.",
+        "E o Joca não se admirou."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Afinal as férias vão dar à escola. Está certo."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/09/20/html/vgtiuch53nn5jk43okbu6qhsyjesf63v/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/09/20/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

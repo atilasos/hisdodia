@@ -1,0 +1,141 @@
+{
+  "id": "02-10",
+  "month": 2,
+  "day": 10,
+  "dateLabel": "10 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "De Arzila a Tânger",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Houve um tempo em que os reis de Portugal detinham, entre outros territórios ao seu mando, umas tantas cidades fortificadas do Norte de África. Uma delas Tânger. Outra, Arzila.",
+        "Ora aí pelos começos de 1503, o governador português de Arzila soube que os mouros de Fez preparavam, às escondidas, uma expedição para cercar Tânger."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Pretendiam uns tantos infiltrar-se na cidade, sob o disfarce de mercadores, para ajudarem à conquista, quando o exército mouro, a coberto da noite, tentasse escalar as muralhas da cidade. Era um bom plano, mas...",
+        "Mas se fosse possível avisar a tempo o governador militar de Tânger, ia o plano por água abaixo. Avisar como?"
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Nessa época não havia correios nem telégrafos nem faxes nem telefones.",
+        "Podiam enviar um emissário , pois podiam. O pior era se o cavaleiro era interceptado pelas hostes inimigas, que iam já a caminho.",
+        "Estava o governador de Arzila a congeminar , sem se decidir, quando ouviu uns latidos, vindos da cerca do quartel."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- É a cadela do Pedro de Castro, com saudades do dono, que pertence à guarnição de Tânger - esclareceu um oficial.",
+        "- E porque não foi a cadela com ele? - quis saber o governador.",
+        "- A cadela estava à espera de cachorrinhos."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Eles já nasceram, já os amamentou e agora, se a gente a desprendesse, era capaz de saltar tudo para ir ter com o dono.",
+        "- E há-de ir - disse o governador, tomado de uma súbita ideia.",
+        "Trouxeram a cadela, muito esperta e meiga, ataram-lhe aos pescoço um saco pequeno, que continha uma carta enrolada, e levaram-na para as portas da cidade de Arzila."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- Vai avisar o teu dono - disseram à cadela, dando-lhe uma palmada no lombo.",
+        "Foi o que ela quis ouvir. Fareja aqui, fareja ali, a cadela correu pelo deserto, ultrapassou caravanas, ladeou oásis, venceu dunas e passou, sem se dar a conhecer pelo exército mouro, acampado num desfiladeiro , à espera da noite do ataque."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Muito cansada e dorida, entrou em Tânger, orientou-se por ruas e ruelas e foi descobrir Pedro de Castro, a almoçar com o governador. Que grande alegria para o bicho e para o dono!",
+        "- Ela traz um saquitel pendurado ao pescoço - chamaram à atenção alguns dos presentes.",
+        "Foram ver. Era a carta com o aviso."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Logo o governador de Tânger mandou tomar providências.",
+        "Fecharam as portas da cidade. Dobraram as atalaias , redobraram as defesas e, assim, a cilada que os mouros queriam armar não surtiu efeito.",
+        "A cadelinha salvara muitas vidas e uma fortaleza do reino. Era uma heroína, com direito a título de registo, na História de Portugal. Mas se nem sequer lhe sabemos o nome..."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "214",
+      "term": "guarnição",
+      "definition": "força militar que defende um quartel"
+    },
+    {
+      "id": "216",
+      "term": "saquitel",
+      "definition": "saquinho"
+    },
+    {
+      "id": "218",
+      "term": "cilada",
+      "definition": "emboscada / traição"
+    },
+    {
+      "id": "212",
+      "term": "interceptado",
+      "definition": "impedido / interrompido"
+    },
+    {
+      "id": "213",
+      "term": "congeminar",
+      "definition": "pensar / arquitectar / imaginar"
+    },
+    {
+      "id": "217",
+      "term": "atalaias",
+      "definition": "pessoas que vigiam"
+    },
+    {
+      "id": "211",
+      "term": "emissário",
+      "definition": "mensageiro"
+    },
+    {
+      "id": "215",
+      "term": "desfiladeiro",
+      "definition": "passagem estreita entre montanhas"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/02/10/pdf/ieiisclhdlkqk237qrkvi3rfkr6sne5s/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/10/html/iilbu5f6obm4efhp6itzq5epateiehw7/historia.aspx",
+    "printPdf": "/recovered/0000/02/10/pdf/ieiisclhdlkqk237qrkvi3rfkr6sne5s/imprimir.pdf",
+    "archiveDay": "/recovered/0000/02/10/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

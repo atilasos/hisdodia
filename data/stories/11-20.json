@@ -1,0 +1,51 @@
+{
+  "id": "11-20",
+  "month": 11,
+  "day": 20,
+  "dateLabel": "20 de Novembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Aprender a Voar",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "66",
+      "term": "escafandristas",
+      "definition": "mergulhadores que usam vestimenta especial para investigar ou trabalhar no fundo do mar."
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/11/20/html/6sx46j3dmqh42helhccnlgtxxydephh4/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/11/20/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

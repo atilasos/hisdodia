@@ -1,0 +1,108 @@
+{
+  "id": "08-07",
+  "month": 8,
+  "day": 7,
+  "dateLabel": "7 de Agosto",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Más combinações",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O macaco fez-se amigo do cágado e propôs-lhe:",
+        "- Todos os bons amigos se visitam. Um dia tu convidas-me para ir a tua casa e ofereces-me de jantar e, no dia seguinte, eu convido-te para vires a minha casa e retribuo-te o jantar. E assim por diante... Concordas?",
+        "O cágado concordou."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Preparou um excelente banquete e ofereceu-o ao macaco que se empanturrou até não poder mais.",
+        "- Amanhã dou-te eu de jantar - disse o macaco macacão, arrotando um grande arroto, lá bem do fundo do estômago repleto."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Quando o cágado entrou em casa do macaco, a refeição estava pronta a servir, mas numa mesa muito alta a que só o macaco chegava.",
+        "- Serve-te à tua vontade - disse-lhe ele.",
+        "O cágado pôs-se em bicos de pés. Nem conseguia ver a comida com que o macaco se alambazava ."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Mas como tinha muito bom feitio não disse nada. Nem comeu.",
+        "- Amanhã é a tua vez de me receberes - lembrou o macaco.",
+        "Novo banquete preparado pelo cágado. Nova barrigada do macaco.",
+        "No dia seguinte, em casa do macaco, o jantar servido na mesa muito alta voltou a deixar o cágado com a barriga a dar horas."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Aquilo parecia de propósito. E era.",
+        "O bom do cágado, embora delicado e discreto, achou que ali havia abuso. E havia.",
+        "- Amanhã tenho uma surpresa para ti - disse o cágado ao macaco. - Vou servir-te o jantar ao ar livre. Tudo comidinha fresca...",
+        "O macaco, grande glutão, arregalou os olhos de contente."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Aquele contrato estava a sair-lhe de feição.",
+        "Mas, no dia seguinte, quando viu os vários pratos de que se compunha o banquete cada um em cima de um pedregulho ou ilhota do lago, que servira de piscina ao cágado, o macaco desanimou.",
+        "- Como é que eu lhes chego? - perguntou, desconsolado, o macaco.",
+        "- Nada como eu."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "A água está óptima - respondeu-lhe o cágado, a rir-se baixinho.",
+        "Ora, como se sabe, os macacos detestam a água...",
+        "E assim se desfez a combinação entre o macaco e o cágado. Também se não perdeu grande coisa."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "581",
+      "term": "alambazava",
+      "definition": "empanturrava / comia de mais"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/08/07/images/nxzpqq6jaso5pblq5a7trhufmf7z75wp/Imagens/Background.jpg",
+    "icon": "/recovered/0000/08/07/images/irkk4cgpesnhl7ayoxl7oykek6qznjrr/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/08/07/audio/4iknuwujbcxkdxe3mkme7rme3smca6zs/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/08/07/images/799d64994e2131ad340eb406/imagens/entrada.jpg",
+      "/recovered/0000/08/07/images/dbb8f8b04f8fada5d79bce77/imagens/icone.jpg",
+      "/recovered/0000/08/07/images/ef1e5248e496b68e8e9350ae/imagens/background.jpg",
+      "/recovered/0000/08/07/images/y72di7qe5yllrcfmtli6dk7gjfawe6fr/Imagens/entrada.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/08/07/html/ht5yapsip6dmrxmkwydkvkzcr45gximj/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/08/07/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

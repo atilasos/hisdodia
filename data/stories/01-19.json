@@ -1,0 +1,62 @@
+{
+  "id": "01-19",
+  "month": 1,
+  "day": 19,
+  "dateLabel": "19 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Três Cavalos",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Três cavalos encontraram-se numa cavalariça. Um era castanho, outro era branco e o terceiro era quase amarelo.",
+        "- Que cor tão ridícula a tua - riram-se o cavalo branco e o castanho.",
+        "- Não sei porquê. Tenho quatro patas como vocês têm. Pescoço e peito musculosos como vocês têm. Crinas como vocês têm. E relincho como vocês."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Isto relinchou o cavalo quase amarelo. Os outros dois cavalos continuaram a rir-se dele. Passaram a noite numa grande troça. O cavalo quase amarelo, para não ouvir-lhes a risota de zombaria, fez-se mula. Isto é: não lhes ligou. Fechou os olhos e adormeceu.",
+        "No dia seguinte, vieram buscá-los. Os três cavalos iam participar numa corrida."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "- Partida! - gritou um senhor, levantando uma bandeirinha.",
+        "Os três cavalos desataram a correr. Ia o castanho à frente. Depois, o branco ultrapassou-o. Por fim, o cavalo quase amarelo avançou para a meta, deixando para trás o branco e o castanho. Ganhou ele a corrida.",
+        "Os outros dois cavalos é que não acharam graça nenhuma. Paciência. Já tinham rido tanto..."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/01/19/pdf/tg5labr7zt6ihxv63qbf2o35lpmhid4w/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/01/19/html/o3fzlggq3w77tcoka6murkl2hvqq4hqp/historia.aspx",
+    "printPdf": "/recovered/0000/01/19/pdf/tg5labr7zt6ihxv63qbf2o35lpmhid4w/imprimir.pdf",
+    "archiveDay": "/recovered/0000/01/19/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

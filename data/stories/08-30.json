@@ -1,0 +1,112 @@
+{
+  "id": "08-30",
+  "month": 8,
+  "day": 30,
+  "dateLabel": "30 de Agosto",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O velho mago",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um velho Mago, muito famoso.",
+        "Mago equivale a feiticeiro. Feiticeiro equivale a bruxo. No entanto, este não era dos maus, daqueles que transformam príncipes em sapos ou coisas assim. Durante toda a vida, dera-lhe mais para transformar sapos em príncipes ou coisas parecidas. Era um Mago bom.",
+        "Mas andava muito esquecido."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Ia para praticar uma magia, através de uma fórmula mágica e, a meio, tinha uma falha de memória:",
+        "- Galapim, topelim, balemeque... Ou será bumelaque?",
+        "O caso podia ser grave, porque qualquer pequena alteração das palavras mágicas transtornaria o resultado."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Em vez de fazer aparecer um príncipe, onde estava um sapo, fazia aparecer uma galinha.",
+        "Depois, a transformação da galinha em príncipe é que era um caso sério. Um processo muito mais complicado. Quase impossível.",
+        "À conta dos seus enganos, o velho Mago tinha a capoeira cheia."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Esta minha cabeça já não funciona como dantes funcionava - queixava-se ele.",
+        "Ainda foi a um médico, que lhe receitou uns comprimidos para a desmemória, mas o Mago também se esquecia de tomar os comprimidos e tudo continuava na mesma.",
+        "E a capoeira cada vez mais cheia..."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Um amigo, que foi visitá-lo, aconselhou-o:",
+        "- Larga o ofício de Mago e transforma-te em criador de aves. Tens aqui um rico aviário.",
+        "Pois tinha. Tanto que uma raposa descarada começou a rondar-lhe a capoeira."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Numa noite de luar, o mago pressentiu-a e, armado de umas palavras mágicas, que tiram o apetite às raposas, atirou-lhe ao focinho:",
+        "- Belico, sapetec, arlepic, pic, pic. Sofial! Jeropigue! Cavanica. Obstrúnfio."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "A raposa fugiu, alarmada, e as galinhas agitaram-se na capoeira, numa desusada excitação. Sucedeu o que parecia quase impossível.",
+        "A capoeira ficou cheia, a abarrotar de príncipes, todos muito indignados por se encontrarem em lugar tão fora de propósito para tais Altezas."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Saíram os príncipes para os seus respectivos palácios, se é que os tinham, e o velho Mago, muito envergonhado, ficou a remoer mais este engano. Não acertava nem numa única fórmula. Que enervância!"
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "E o mais grave é que também se tinha esquecido das palavras mágicas que, infalivelmente, transformam os sapos em galinhas.",
+        "Sem gemada para o lanche nem omeleta para o jantar, o Mago decidiu seguir o conselho do amigo. Comprou várias dúzias de pintainhos, meteu-os na capoeira vazia e esperou que crescessem."
+      ]
+    },
+    {
+      "layer": "html-layer-11",
+      "paragraphs": [
+        "Dá-lhes de comida migas de pão duro e sêmola. Não é nenhuma fórmula mágica, mas engorda."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/08/30/html/7f659225cdb8a82789c14395/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/08/30/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

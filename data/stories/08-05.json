@@ -1,0 +1,124 @@
+{
+  "id": "08-05",
+  "month": 8,
+  "day": 5,
+  "dateLabel": "5 de Agosto",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Esqueceram o corvo",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Um dia, a família dos pombos resolveu dar um banquete. Convidaram para a festa todos os animais de asas e penas, mas esqueceram-se do corvo.",
+        "Imperdoável!"
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Se estavam a águia, o falcão, a cegonha, o gaio, a coruja, o ganso, o cisne, a galinha mais o galo, o pardal, a pardoca e os respectivos pardalinhos, a codorniz, a andorinha, o melro e tantos mais, quem daria por falta do corvo?",
+        "Deu ele, que muito se susceptibilizou com o esquecimento."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "E, como era vingativo, agarrou numa grande pedra e sobrevoou, lá muito do alto, a mesa da festança.",
+        "Quando as aves estavam todas a comer, na maior das alegrias, o corvo, lá de cima, fez pontaria e largou o pedregulho. Não se queira saber! A pedra caiu no meio da mesa e espatifou tudo. Estava estragada a festa."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Empoleirado no galho de uma faia, o corvo assistiu à confusão que provocara e fartou-se de rir. Riso de malvado. Assim:",
+        "- Eh! Eh! Eh! Eh! Eh!",
+        "Houve uma garça que o viu rir e calculou o resto. Foi dizer aos pombos, que por sua vez foram dizer às outras aves."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- Ah, o culpado pelo estardalhaço que interrompeu a festa foi o corvo? Pois deixa estar que não perdes pela pancada - ameaçaram.",
+        "E as aves todas juntas acertaram numa conspiração .",
+        "Dias depois, a família dos pombos convidou o corvo para um jantar de gala. Era ele o único convidado."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Muito honrado com o convite, o corvo, vestido com o seu luzidio fato de cerimónia, todo preto, apresentou-se para o jantar de festa.",
+        "Sentaram-se à mesa os pombos todos brancos, a fazerem companhia ao corvo. Veio a terrina da sopa, que foi colocada diante do convidado."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "- Faça favor de se servir primeiro - disseram os pombos, com muito bons modos.",
+        "- Do que é a sopa? - perguntou o corvo, cheio de apetite.",
+        "- Sopa de pedra - disseram os pombos, em coro.",
+        "E era mesmo. Lá estava, dentro de uma enorme terrina, o pedregulho que o corvo atirara."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "- Não tenho vontade - disse o corvo, embaraçado.",
+        "- Pois nós também não temos mais nada para oferecer - disseram os pombos. - Este cozinhado caiu do céu e pela forma como nos chegou à mesa estamos convencidos que é muito especial. Por isso o reservámos para as visitas mais ilustres. Faça favor de provar."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "O corvo, para não dar parte fraca, não teve outro remédio senão dar uma bicada na pedra.",
+        "- Está saborosa? Quer repetir? - perguntaram os pombos.",
+        "- Muito obrigada. Estou satisfeito - respondeu o corvo.",
+        "- Só mais um bocadinho, vá lá... - insistiram os pombos.",
+        "E o corvo passou o jantar às bicadas à pedra."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "579",
+      "term": "conspiração",
+      "definition": "plano secreto / intriga / cabala"
+    },
+    {
+      "id": "578",
+      "term": "susceptibilizou",
+      "definition": "ofendeu / melindrou"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/08/05/images/xqaluapal7ghomlqtxihbc5y2v36ns7m/Imagens/Background.jpg",
+    "icon": "/recovered/0000/08/05/images/akxewpqp3kguamboxso2im5hwvh6vq2i/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/08/05/audio/r3dvejbt6zcqa2kffs5vbna4hhvoplr3/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/08/05/images/9f1e320c0a0b0a95f9745e3c/imagens/icone.jpg",
+      "/recovered/0000/08/05/images/b7939afbe4c75a093a506c9c/imagens/entrada.jpg",
+      "/recovered/0000/08/05/images/nvedygd4lkyjifnja7xk5fjo4ccha6ke/Imagens/entrada.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/08/05/html/obznu54hhzeglshvggluokkvzswgstag/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/08/05/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

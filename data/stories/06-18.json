@@ -1,0 +1,118 @@
+{
+  "id": "06-18",
+  "month": 6,
+  "day": 18,
+  "dateLabel": "18 de Junho",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Nem tanto assim",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um pinheiro, um vulgaríssimo pinheiro de pinhas chochas e tronco escanifrado, igual a milhões de outros.",
+        "Pois este pinheiro quis passar a chamar-se João.",
+        "- Sou o João Pinheiro - avisou ele."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Os colegas do pinhal riram-se e, por troça, começaram a tratá-lo por doutor - Doutor João Pinheiro -, o que ele tomou muito a sério.",
+        "A história constou, foi comentada por mais árvores, e uma velha nogueira, de ramos a pender sobre um casebre em ruínas, acordou, um dia, com vontade de chamar-se Madalena."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "- Dona Madalena Nogueira é como passam a chamar-me - exigiu ela.",
+        "Logo um carvalho, que nunca fora outra coisa, quis, daí em diante, ser tratado por Manuel de Sousa Carvalho. Professor Doutor Manuel de Sousa Carvalho, com todas as letras e respeito.",
+        "- Se ele é professor, então eu não sou nada?"
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- revoltou-se um salgueiro, à beira rio.",
+        "E, dada a sua proximidade da água, fez constar que só responderia pelo nome de Almirante Filipe de Freitas Melo e Salgueiro, com muita honra, ora pois!",
+        "Um vendaval de maluquice agitou o arvoredo."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Árvores e arbustos, dantes tão pacatos, tão alheios a vaidades, exibiam, agora, cartões-de-visita, como se fossem gente. E gente ilustre!",
+        "Até que se passaram por lá uns lenhadores com serras mecânicas e tractores, dos que arrancam tudo, arrasam tudo, revolvem tudo..."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "O primeiro a sofrer-lhes o embate foi o Doutor João Pinheiro, tonto pinheirinho que nem chegou ao Natal. E os mais, de seguida. Tudo a eito.",
+        "Escapou o carvalho, atendendo à idade e ao volume da copa. À sua volta, depois do assalto dos tractores, só desmanchados torrões a monte, na planície a perder a vista."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "- Mudou tudo - reconsiderou, melancolicamente , o velho carvalho, esquecido já dos títulos universitários.",
+        "Nem tanto assim...",
+        "Calculem que o terreno, onde coube a nossa história, alberga, agora, um campo de golfe."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Pelo relvado luzidio passeiam uns senhores e umas senhoras, que dão uns piparotes muito ponderados numas bolas e as bolas saltam, fogem, correm, à procura de uns buracos numerados, um, dois, três, quatro e por aí fora. Parece que só assim é que estas bolas aprendem a contar."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "As senhoras e os senhores, nos intervalos do jogo, descansam à sombra da árvore centenária e, nessas ocasiões, o carvalho ouve as conversas e fica a conhecer os nomes dos ilustres jogadores.",
+        "São o Doutor João Pinheiro, o Almirante Salgueiro e até um professor Doutor Sousa Carvalho por lá anda."
+      ]
+    },
+    {
+      "layer": "html-layer-11",
+      "paragraphs": [
+        "Já para não falar do Capitão Loureiro, do Arquitecto Castanheiro, do engenheiro Madeira de Oliveira e de outros que tais.",
+        "Com tudo isto, o velho carvalho anda muito admirado."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "523",
+      "term": "melancolicamente",
+      "definition": "tristemente / desconsoladamente"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/06/18/pdf/dehxgqxxnwdpmicxopr7bwnntf36hgbh/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/06/18/audio/e33313408c70a5f75e4ce400/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/06/18/html/khb72psde632q6w5c4kaut5zgnxzwprc/historia.aspx",
+    "printPdf": "/recovered/0000/06/18/pdf/dehxgqxxnwdpmicxopr7bwnntf36hgbh/imprimir.pdf",
+    "archiveDay": "/recovered/0000/06/18/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

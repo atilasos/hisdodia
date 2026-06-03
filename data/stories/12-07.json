@@ -1,0 +1,107 @@
+{
+  "id": "12-07",
+  "month": 12,
+  "day": 7,
+  "dateLabel": "7 de Dezembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Sape, Cão!",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um cão com dono...",
+        "Era uma vez um gato sem dono...",
+        "- Quem vem lá? - pergunta o cão, de focinho no ar, a farejar, a farejar...",
+        "Claro que esta pergunta a fez ele muito antes de tudo isto começar - aí a uns duzentos metros desta história."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "O gato não tem o faro tão apurado, mas os olhos dele atravessam a distância e pressentem sombras e ameaças, que só ele conhece. Por acaso, desta vez, o gato não ia a olhar para onde devia. Era um gato distraído. Ou míope.",
+        "Quando se lhe eriçaram os bigodes, já era tarde. À sua frente, de supetão, um cão cãozarrão, voz de trovão..."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Que aflição!",
+        "Foge!",
+        "Antes que lhe dissessem, já ele tinha fugido. As patas iam à frente, e ele com elas. Tal como nos filmes de desenhos animados.",
+        "Este filme é curto. Acaba numa árvore sem frutos, sem folhas, uma árvore mesmo a propósito para salvar gatos.",
+        "Correu por ela acima e não deu por que subia."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Nem que fosse um pinheiro gigante, um mastro, um muro de castelo. Nem que fosse a Torre Eiffel... De unhas-canivetes-picaretas, com a pressa atarantada em que ia, o gato até era capaz de trepar à Lua, se houvesse escadas para lá chegar.",
+        "Ficou-se pelo cimo da árvore. Deu por isso quando lhe faltou o apoio. Sobravam-lhe forças para muito mais lances."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- E agora? - perguntou, lá de acima, o gato, engolindo ar.",
+        "Ele era preto, como o corvo da fábula, enquanto o cão, mal acomparado, fazia as vezes da raposa. Faltava apenas o queijo. E a manha.",
+        "- E agora? - perguntou de novo o gato, mais seguro do seu poiso.",
+        "- Agora fico à espera que a árvore dê frutos e os frutos caiam de maduros..."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- rosnou o cão.",
+        "Se nos ficássemos por aqui, esta história não chegava ao fim, o que era pena. Temos nós, portanto, de acrescentar o mais importante da fábula.",
+        "Sim, porque isto é uma fábula, a do cão, animal doméstico, e do gato, animal vadio... As conclusões, vocês que as tirem.",
+        "- Piloto! - chamou uma voz ao longe."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "O cão Piloto fingiu que não era com ele.",
+        "- Estão a chamar-te, Piloto. Tens de ir - aconselhava-lhe, do seu poleiro, o gato. - Sempre ouvi dizer que os cães são muito obedientes.",
+        "- Piloto! - repetiu a voz, mais perto e mais impaciente.",
+        "O cão rosnou, levantou os traseiros e voltou a sentar-se.",
+        "- Piloto, venha já ao dono!"
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "- gritou a voz ameaçadoramente perto.",
+        "E o Piloto, de cabeça baixa, lá foi, suspirando..."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/12/07/images/pdtjls2g45aymyxl7vlviupoeytq2gos/Imagens/Background.jpg",
+    "icon": "/recovered/0000/12/07/images/425k3tnvi7rrhqtbwoxttgdizbthtl3p/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/12/07/pdf/6g42wdk47fybaskvjqhvol3ip7bis6e7/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/12/07/audio/qcb2qt2muwww5xq6eziawdb5qqsuurp2/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/12/07/html/qcqvvq4idtaq74eighogpndy57ubftwz/historia.aspx",
+    "printPdf": "/recovered/0000/12/07/pdf/6g42wdk47fybaskvjqhvol3ip7bis6e7/imprimir.pdf",
+    "archiveDay": "/recovered/0000/12/07/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

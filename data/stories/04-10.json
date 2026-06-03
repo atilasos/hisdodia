@@ -1,0 +1,129 @@
+{
+  "id": "04-10",
+  "month": 4,
+  "day": 10,
+  "dateLabel": "10 de Abril",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O mar e o caracol",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um caracol que, além da carapaça, transportava com ele uma ambição, um sonho de caracol novo: conhecer o mar. Para satisfazer o seu sonho sentia-se capaz de tudo. Lentamente, pacientemente, percorria um carreiro de que não sabia o fim."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Andando sempre, perguntava:",
+        "- Senhora Formiga, sabe dizer-me se vou no bom caminho para chegar ao mar?",
+        "- Não sei, não sei do que fala. Eu só conheço o formigueiro onde vivo e chega e chega para o trabalho que me dá.",
+        "O caracol não quis reter por mais tempo a afadigada, enfrenesiada formiga..."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Mais lá para diante, encontrou o Lagarto. Fez-lhe a mesma pergunta, a que o Lagarto, entre dois bocejos, respondeu:",
+        "- Deixe-se de aventuras, caracol amigo. Sabe tão bem gozar o calor do sol, enquanto se dorme uma boa sesta.",
+        "E, dizendo isto, adormeceu. O caracol, embaraçado, não voltou a acordá-lo."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Seguiu em frente, sempre em frente. Deixava nas ervas por onde passava um rasto luminoso, que retomaria, quando tivesse de voltar para trás. \"Estou no mar não tarda! Estou no mar não tarda!\", repetia ele, muito animado, esfregando os pausinhos um no outro. Até que encontrou um grilo."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- O mar é já ali adiante, não é, Doutor Grilo?",
+        "- O mar, o mar provavelmente fica ali, mas não quer dizer que não fique noutro sítio... Quando eu digo ali, também posso dizer acolá.",
+        "O caracol deixou o grilo a contas com os seus discursos enfatuados e virou-lhe as costas, discretamente."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Andou, andou. Viu mais animais, todos virados para as suas respectivas vidas e alheios ao mar. O caracol andou, andou.",
+        "Devagarinho, porque só devagarinho sabia andar, o caracol, que iniciara ainda muito novo a sua aventura, já se sentia velho. Estava mesmo muito velho, mas não cansado. Isso era impossível."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Ao pé dum canavial, encarou com um rã, bicho que nunca tinha visto até aí. Com muito bons modos, fez-lhe a pergunta do costume.",
+        "A rã respondeu, num coaxar risonho:",
+        "- O mar, o mar é já ali. Põe-se lá em dois saltos.",
+        "Infelizmente, o caracol velhinho não saltava."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Além disso, a carapaça já lhe pesava muito. Por isso demorou ainda mais um ano, dois meses e oito dias até chegar ao lugar que a rã apontara. Mas, quando chegou, que deslumbramento. Sempre era o mar, o seu querido mar que tanto, tanto desejara conhecer."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "Ali estava ele, amplo, espelhado, a perder de vista. Ao longe via mais canaviais. \"Outra terra, uma terra estranha, para além do mar...\", pensou.",
+        "O mar calmo reflectia nas águas os dois pausinhos do velho caracol, debruçado na margem. Realizara finalmente o sonho de toda a sua vida. Que bom!"
+      ]
+    },
+    {
+      "layer": "html-layer-11",
+      "paragraphs": [
+        "Devagar, muito devagarinho, o caracol buscou o caminho do regresso. Tinha muito que contar.",
+        "Coitado do caracol! Mal sabia ele que não chegara a conhecer o mar, o mar verdadeiro, mas apenas um pequeno lago de águas paradas, formado pelas chuvas, feio, sujo, infestado de mosquitos, enfim, um charco entre caniços."
+      ]
+    },
+    {
+      "layer": "html-layer-12",
+      "paragraphs": [
+        "Isso que interessa? Se não era o mar, o mar de facto, sempre era o mar do caracol aventureiro..."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "359",
+      "term": "enfrenesiada",
+      "definition": "impaciente / enervada"
+    },
+    {
+      "id": "360",
+      "term": "enfatuados",
+      "definition": "arrogantes / envaidecidos"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/04/10/pdf/khglvnqcih2lhyybtfyrn3b5k5ve3qf6/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/04/10/html/k2xnuhmdw6kj3fqkhjytbehg2rsbgiyg/historia.aspx",
+    "printPdf": "/recovered/0000/04/10/pdf/khglvnqcih2lhyybtfyrn3b5k5ve3qf6/imprimir.pdf",
+    "archiveDay": "/recovered/0000/04/10/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

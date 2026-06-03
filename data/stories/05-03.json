@@ -1,0 +1,98 @@
+{
+  "id": "05-03",
+  "month": 5,
+  "day": 3,
+  "dateLabel": "3 de Maio",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Bancos e cadeiras",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um homem que fazia bancos. Tinha aprendido em pequeno a arte ou ofício de fazer bancos e, como se ajeitava bem, era rápido e vendia a mercadoria com facilidade, nunca quis fazer outra coisa.",
+        "Ao lado da oficina do homem que fabricava bancos, instalou-se um outro artesão. Mas este só fabricava cadeiras."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Os clientes começaram a dividir-se. Havia os que continuavam a comprar bancos, que eram mais baratos, e os que preferiam comprar cadeiras, um pouco mais caras, mas mais cómodas. Experimentem e, depois, digam-me.",
+        "O homem que fazia bancos enervou-se. Até os bancos lhe saíam menos perfeitos."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Para poder escoar o produto do seu trabalho, baixou para metade o preço dos bancos. Os bancos continuavam do mesmo tamanho, o preço é que diminuiu.",
+        "O concorrente ao lado fez o mesmo. Uma cadeira passou a ser tão barata que até dava vontade de rir.",
+        "Aproveitando a baixa de preços, a clientela afluía às duas lojas-oficinas."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Voaram (maneira de dizer!) bancos e cadeiras.",
+        "Mas aquilo era um disparate, tanto maior quanto, descendo os preços, de dia para dia, chegou uma altura em que os bancos e as cadeiras eram dados. E quem levasse uma cadeira de graça, recebia outra de brinde. E tal e qual para os bancos."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Os dois artesãos fartavam-se de trabalhar, noite e dia, para responder aos pedidos. Arruinavam-se.",
+        "Isto mesmo lhes disse um amigo de ambos.",
+        "- Porque é que vocês não se juntam e formam uma sociedade que venda cadeiras e bancos, ao mesmo tempo e por um preço razoável?"
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "A princípio, eles não queriam. Estavam habituados a trabalhar sozinhos e cada qual tinha as suas razões de queixa do concorrente. Mas conformaram-se, a ver no que dava.",
+        "Deu certo. A Sociedade Banco & Cadeira, formada pelos dois antigos rivais, agora amigos, vai de vento em popa."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "E, trabalhando a meias, vão os dois lançar um novo produto no mercado: mesas."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "407",
+      "term": "afluía",
+      "definition": "aglomerava-se / corria para"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/05/03/images/7ff780c7e230d302ae726621/imagens/background.jpg",
+    "icon": "/recovered/0000/05/03/images/879f88c21eb02133dba65ebc/imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/05/03/audio/bdf82f163ebb02d15eb7b155/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/05/03/images/2h5stsjosnlijigxxxufsi2tbv4r2fyf/Imagens/icone.jpg",
+      "/recovered/0000/05/03/images/6oqfewmbdm4dkinzshqmv2tu3yqz5ixv/Imagens/Background.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/05/03/html/gtjnfc4jk7wgy3d6iigsgqoyfmso5jrk/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/05/03/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

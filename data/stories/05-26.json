@@ -1,0 +1,102 @@
+{
+  "id": "05-26",
+  "month": 5,
+  "day": 26,
+  "dateLabel": "26 de Maio",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Figura de urso",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O urso Gingão gostava de dar nas vistas. Mas, por mais que se esforçasse, não conseguia chamar a atenção dos outros bichos. O que é que adiantava aos afazeres de cada qual um urso com um enorme laçarote à volta do pescoço? Nem lhe ligavam.",
+        "E o urso Gingão lá ia tirar o laçarote. No dia seguinte, aparecia a fazer o pino."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Atravessava a floresta, de cabeça para baixo, ouvido atento a qualquer comentário. Nenhum! Os bichos tinham mais que fazer.",
+        "Então, o urso Gingão pegava num violino e ia tocar para uma clareira. Tocava, tocava (pouco bem, aliás!), mas espectadores nem um."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "De aí a dias, montado numa bicicleta, pedalava com ganas de corredor:",
+        "- Cá vou eu! Cá vou eu!",
+        "Fugiam os lagartos, com medo de ficarem sem rabo. Fugiam as doninhas, os coelhos, os texugos, as lebres, as perdizes... Fugiam todos.",
+        "E ele que gostava tanto de dar nas vistas!"
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Desanimado, foi procurar outras paragens. Por atalhos e desvios, chegou diante de um palácio. Porque não tentar ali mesmo a sua sorte? Sem cerimónia, como se estivesse na floresta, entrou no palacete iluminado.",
+        "Era um baile de máscaras. O urso fez sensação. Tocou violino. Muitas palmas. Fez o pino. Mais palmas. Deu cambalhotas e perdeu o tino."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Mais e mais palmas. No mais animado da festa, a dona da casa anunciou:",
+        "- Meus queridos convidados, chegou o momento de tirarem as máscaras. Quero ver os vossos rostos amigos.",
+        "Os piratas desfizeram-se das palas, as bruxas dos narizes, os sultões dos bigodes. Só o urso ficou, no meio da sala, um pouco comprometido."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- Quer que eu puxe o fecho de correr? - perguntou uma senhora, muito amável.",
+        "Muitas outras mãos acorreram. E procuravam, fazendo cócegas, os botões, o fecho, os colchetes...",
+        "- Mas é um urso de verdade! - exclamou, aterrorizado, um senhor vestido de general.",
+        "As luzes quase desfaleceram de susto. Tudo fugiu, numa grande gritaria."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Só ficou na sala o urso. Afinal, tinham-no tomado por aquilo que ele não era.",
+        "Cabisbaixo, voltou à floresta, saboreando pensamentos novos.",
+        "Parece que o urso Gingão ainda toca violino, mas porque gosta. Já não quer dar nas vistas. Perdeu a presunção num baile de máscaras."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "482",
+      "term": "presunção",
+      "definition": "vaidade"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/05/26/images/rmtlu32atv62pjqsvca7xf66smhtznpl/Imagens/entrada.jpg",
+    "icon": "/recovered/0000/05/26/images/rmtlu32atv62pjqsvca7xf66smhtznpl/Imagens/entrada.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/05/26/images/bc6ffdbad4eb421a8b2f48b9/imagens/entrada.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/05/26/html/hgidiamlwlk5snrgrp6kgp3gab5u32qv/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/05/26/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

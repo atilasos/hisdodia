@@ -1,0 +1,143 @@
+{
+  "id": "01-15",
+  "month": 1,
+  "day": 15,
+  "dateLabel": "15 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Tum-tum, Tum-tum, Tum-tum...",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "A galinha tinha ido fazer um piquenique ao pinhal, na companhia dos filhos.",
+        "Estavam eles já à volta do bolo, quando lhes apareceu um raposo raposão.",
+        "- Ora viva a bela merenda - cumprimentou o raposo.",
+        "- Quer do nosso bolo? - perguntou a galinha, a medo.",
+        "- Quero o bolo e o acompanhamento - respondeu o raposo."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "O que ele queria dizer a galinha percebeu, mas fez-se de tola:",
+        "- É só o que tenho. O resto já comemos, senhor raposo.",
+        "Ele não quis saber. Em duas dentadas deu conta do bolo todo.",
+        "- Agora, venham os pintos - disse, ainda de boca cheia.",
+        "- Os pintos, senhor raposo, não prestam para o seu apetite. São só penas e ossos."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Se quer coisa de mais substância, talvez eu lhe sirva...",
+        "Pela salvação dos filhos as mães dão tudo.",
+        "O raposo estava pelos ajustes. Deixou os pintos em paz, que fugiram atarantados, e ficou com a galinha.",
+        "Meteu-a num saco, que trazia às costas, dizendo:",
+        "- Hoje tenho visitas, lá em casa, e uma galinha dá sempre jeito, ao jantar."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "A pobre da galinha, aos tombos, dentro do saco, matutava na sua infelicidade.",
+        "Os filhos, tão miudinhos, que iam ficar órfãos ... Ela, tão nova ainda, a servir de petisco a raposas e raposões...",
+        "- Mas há-de haver uma saída - pensou a galinha, que não era de esmorecer.",
+        "Com o bico foi descosendo uma costura do saco."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "O coração batia-lhe, tum-tum, tum-tum, tum-tum, num sobressalto de tambor.",
+        "Para sorte dela, o raposo resolveu descansar, a meio do caminho. Estava calor e ele refastelou-se, à sombra de um sobreiro.",
+        "Quando o sentiu a dormir, a galinha escapou-se."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Mas, à cautela, meteu uma grande pedra no saco e, com artes de costureira, voltou a coser a costura.",
+        "Depois, fugiu, ao encontro dos filhos.",
+        "Quase logo a seguir, o raposo acordou, cheio de fome, como sempre:",
+        "- Se não fosse ter visitas, começava o jantar mais cedo...",
+        "Para tirar daí a ideia, pôs-se a caminho."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "O saco pesava-lhe e ele contente:",
+        "- Está gorda esta galinha. Vai dar uma rica jantarada!",
+        "Raposos, raposas e raposecos esperavam-no.",
+        "- Trago a galinha mais gorda da capoeira. Ponham água a ferver ao lume, que quero cozê-la com arroz. Come-se primeiro a canja e, depois, a galinha."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Quando a água do panelão estava a ferver, o raposo foi buscar o saco. Raposos, raposas e raposecos puseram-se à roda do lume, para apreciar a qualidade do pitéu.",
+        "Abriu-se o saco e o pedregulho, ao cair na panela, esparramou água à volta, salpicando os convidados. Uivos de dor, em coro desafinado, soltaram-se das bocas gulosas."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "Depois foi uma algazarra, todos contra o raposo que, segundo eles, lhes tinha pregado uma feia partida. Acabou tudo à bulha.",
+        "Em casa da galinha, de novo com os filhos, tanta alegria nem se descreve.",
+        "Na hora da deita, os pintainhos, aconchegados à mãe, adormeceram felizes."
+      ]
+    },
+    {
+      "layer": "html-layer-11",
+      "paragraphs": [
+        "Até ela sentiu, no centro daquele calor bom, o coraçãozinho deles a bater ao mesmo compasso sereno do coração dela, tum-tum, tum-tum, tum-tum...",
+        "E assim adormeceu."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "162",
+      "term": "órfãos",
+      "definition": "aqueles que perderam mãe e pai, ou um deles"
+    },
+    {
+      "id": "163",
+      "term": "esparramou",
+      "definition": "espalhou / dispersou"
+    },
+    {
+      "id": "161",
+      "term": "matutava",
+      "definition": "pensava / meditava"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/01/15/pdf/llg2obotpws47z3kfjsprjokdh6nihqt/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/01/15/audio/6sr3eujgyszdkyz5ol7zvqew77hf2nga/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/01/15/html/fy7i6bl3eygygmbpsesyccit6gaka5xj/historia.aspx",
+    "printPdf": "/recovered/0000/01/15/pdf/llg2obotpws47z3kfjsprjokdh6nihqt/imprimir.pdf",
+    "archiveDay": "/recovered/0000/01/15/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

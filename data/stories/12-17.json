@@ -1,0 +1,106 @@
+{
+  "id": "12-17",
+  "month": 12,
+  "day": 17,
+  "dateLabel": "17 de Dezembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Marília não Chora",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez uma boneca que não chorava.",
+        "Estava a boneca Marília no meio de outras bonecas, todas choronas, e junto de outros brinquedos e bonecos.",
+        "Os bonecos, alguns bem patuscos , como o ensonado urso Ronrom ou o espertíssimo burrinho Trolaró, e as bonecas, entre as quais a Marília, estavam à janela a ver quem passa."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Pelo menos, era o que diziam, ainda que, quem os visse de fora, dissesse que eles estavam na montra de uma casa de brinquedos, a mais bela e iluminada montra de casa de brinquedos que olhos arregalados de meninos alguma vez miraram.",
+        "E os bonecos entretinham-se imenso com os meninos que, do outro lado do vidro, os apreciavam."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "- Olhem para aquela garota loirinha, que engraçada. Mal chega ao vidro e já aponta para nós - observava uma boneca vestida de grande dama.",
+        "- Está a apontar para mim - exclamava outra boneca, que era muito vaidosa.",
+        "- Para mim é que ela está a apontar - dizia a outra boneca, que não era menos vaidosa.",
+        "- Para mim... Reparem bem que é para mim."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Não é nada! Está a olhar e a apontar para mim. Vê-se logo.",
+        "- Não está nada.",
+        "- Está.",
+        "- Não está.",
+        "Por coisas assim se zangavam as bonecas."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "E punham-se todas a chorar. Tinha de intervir o urso Ronrom, do alto da escada de veludo, que ocupava metade da montra:",
+        "- Caluda, meninas! Não há sossego, não há respeito, não há disciplina nesta casa? Nem se pode dormir como deve ser. Meninas tolas, meninas sirigaitas, quem vos tirou o juízo?",
+        "Elas embatucavam."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Ouvia-se então, lá do fundo, uma zurradela do burro Troloró, que franzia o focinho e mostrava os dentes como se estivesse a rir-se. E logo a seguir ouvia-se uma límpida gargalhada, que se prolongava em música nos ouvidos das pessoas, se as pessoas também pudessem estar naquela montra, onde os brinquedos têm voz. Quem assim ria? Era a Marília, a tal boneca que não chorava, mas muito ria. Pois era."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Calculem que a menina loirinha, apesar do vidro da montra, ouviu o riso da Marília. Ouviu e gostou. Gostou do riso e gostou da boneca. Queria aquela.",
+        "São agora grandes amigas a Marília e a Joana. Riem-se muito e se, às vezes, a Joana, por qualquer motivo, amua e começa a fazer beicinho, a Marília ri-se para ela e a tristeza passa."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Para rirem connosco e para nos soprarem as lágrimas é que há amigos."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "109",
+      "term": "patuscos",
+      "definition": "cómicos / engraçados"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/12/17/images/gjy6o3yji5gz6ojherxckyiq2dm3dyud/Imagens/entrada.jpg",
+    "icon": "/recovered/0000/12/17/images/aykdzlxphos5vd2rqjjltcyzwwdpyirm/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/12/17/pdf/wwgfqbhzrmdkbzjs7kskp2ctji6joms4/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/12/17/html/ykmle4m2xghzcgzfle66cks6gcx2d75i/historia.aspx",
+    "printPdf": "/recovered/0000/12/17/pdf/wwgfqbhzrmdkbzjs7kskp2ctji6joms4/imprimir.pdf",
+    "archiveDay": "/recovered/0000/12/17/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

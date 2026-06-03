@@ -1,0 +1,92 @@
+{
+  "id": "05-07",
+  "month": 5,
+  "day": 7,
+  "dateLabel": "7 de Maio",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A joaninha cansada",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez uma joaninha. Pintas pretas sobre fundo encarnado, conhecem o género, não conhecem?",
+        "Bem. Como ia contando: era uma vez uma joaninha... O que ela se enfastiava quando uma menina qualquer a prendia entre os dedos, para lhe soprar a lengalenga do costume: \"Joaninha voa, voa, que o teu pai está em Lisboa\"."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Largada, depois, ares fora, a nossa joaninha refilava:",
+        "- Mas qual pai? Mas qual Lisboa?",
+        "O pai dela, coitado, morrera há tempos, e a cidade de Lisboa não estava nos seus projectos de viagem. Que mania!",
+        "Por isso a joaninha resolveu mascarar-se de escaravelho. Vestiu um pijama às riscas e pronto."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Ninguém diz: \"Escaravelho voa, voa, que o teu pai está em Lisboa\". Não dá jeito.",
+        "Com o que ela não contava era com o Dr. Bisnaga, cientista estudioso de escaravelhos e do grande dano que eles causam à fruta e às batatas. Pois o Dr. Bisnaga viu aquele exemplar um tanto fantasista, ainda não classificado entre as suas variedades, e zás!"
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Agarrou-o com uma pinça, meteu-o num frasquinho e ala com ele para o seu laboratório, em Lisboa.",
+        "Depois classificou-o. Deu-lhe um nome, por sinal o seu, \"Escaravelho Bisnaguense\", visto que se sentia o descobridor e, até certo ponto, o pai daquela preciosidade."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Por fim, tirou-lhe o retrato, para um grande álbum de escaravelhos que estava a preparar, e foi à vida, à sua vida de incansável investigador de escaravelhos.",
+        "Ficaria a pobre joaninha condenada a prisão perpétua, não se tivesse desfeito, a tempo, do pijama às riscas.",
+        "- Uma vulgar joaninha no meu laboratório?"
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- alarmou-se o sábio. - Fora daqui.",
+        "E atirou-a pela janela...",
+        "A joaninha saltou e, atarantada, esvoaçou sobre a fumarada da cidade. Depois, mais decidida, voou desta história para fora. Uf! Chega de aventuras.",
+        "Se a virem por aí, deixem-na viver sossegada o seu próprio destino de joaninha sem nome. Ela agradece."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "414",
+      "term": "enfastiava",
+      "definition": "aborrecia / maçava"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/05/07/images/3ddgsaqcalbc2tb26uwwarpty2p46b62/Imagens/Background.jpg",
+    "icon": "/recovered/0000/05/07/images/e4tihpttlfvtajcfijevpkw6gpxb43qb/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/05/07/pdf/nyef7eou3qxgexfdrron2e7ue4qbls26/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/05/07/audio/aspd7hni2dsdle7ttuod7wmoozgb272h/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/05/07/html/mrog2ohjrircvcndmtuzqjrsqgaff6wx/historia.aspx",
+    "printPdf": "/recovered/0000/05/07/pdf/nyef7eou3qxgexfdrron2e7ue4qbls26/imprimir.pdf",
+    "archiveDay": "/recovered/0000/05/07/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

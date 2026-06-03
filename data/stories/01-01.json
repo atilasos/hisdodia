@@ -68,7 +68,17 @@
     "printPdf": "/assets/01-01/imprimir.pdf",
     "originalAudioSwf": "https://web.archive.org/web/20080219024718id_/http://sons.historiadodia.pt/01/01/um.swf",
     "rerecordedAudio": "/assets/01-01/narracao-raquel.mp3",
-    "captions": "/assets/01-01/narracao-raquel.vtt"
+    "captions": "/assets/01-01/narracao-raquel.vtt",
+    "archiveBackground": "/recovered/0000/01/01/images/f5d033e501f3a2b6316bbfed/imagens/background.jpg",
+    "archiveIcon": "/recovered/0000/01/01/images/idae55twoliqvod75jky7bqi2fl2p6hl/Imagens/icone.jpg",
+    "archivePrintPdf": "/recovered/0000/01/01/pdf/kl2tticrdfs3rcu435xiwiveehhoan7n/imprimir.pdf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/01/01/images/ac7dfittasnaxxucth6kykysffhqkqas/Imagens/Background.jpg",
+      "/recovered/0000/01/01/images/d5b12e7329edd188dfa1c661/imagens/icone.jpg",
+      "/recovered/0000/01/01/images/f5d033e501f3a2b6316bbfed/imagens/background.jpg",
+      "/recovered/0000/01/01/images/idae55twoliqvod75jky7bqi2fl2p6hl/Imagens/icone.jpg"
+    ]
   },
   "recovery": {
     "text": "pdf-complete",
@@ -83,10 +93,14 @@
     "printPdf": "https://web.archive.org/web/20040104010647id_/http://www.historiadodia.pt:80/pt/historias/01/01/imprimir.pdf",
     "audioCdxPattern": "sons.historiadodia.pt/01/01/*.swf",
     "audioInventory": "data/audio-recovery/01-01/manifest.json",
-    "notes": "Texto completo extraído do PDF original de impressão. A ilustração e o PDF são cópias locais dos assets originais arquivados. O inventário CDX por prefixo para 01/01 encontrou apenas um.swf; a inspeção SWF não encontrou DefineSound, SoundStreamHead nem SoundStreamBlock. A narração disponível foi sintetizada em pt-PT a partir do texto completo."
+    "notes": "Texto completo extraído do PDF original de impressão. A ilustração e o PDF são cópias locais dos assets originais arquivados. O inventário CDX por prefixo para 01/01 encontrou apenas um.swf; a inspeção SWF não encontrou DefineSound, SoundStreamHead nem SoundStreamBlock. A narração disponível foi sintetizada em pt-PT a partir do texto completo.",
+    "archiveDay": "/recovered/0000/01/01/",
+    "archiveStoryPage": "/recovered/0000/01/01/html/e3261593e9e56bcb0d56f5aa/historia.aspx"
   },
   "editorialNotes": [
     "Pontuação e quebras de linha foram normalizadas a partir do PDF original.",
-    "A narração disponível não é a voz original de António Torrado; é uma leitura sintetizada em pt-PT para tornar a história audível no protótipo."
+    "A narração disponível não é a voz original de António Torrado; é uma leitura sintetizada em pt-PT para tornar a história audível no protótipo.",
+    "Assets adicionais do arquivo bruto foram ligados ao site moderno.",
+    "Assets adicionais do arquivo bruto foram ligados ao site moderno."
   ]
 }

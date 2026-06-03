@@ -1,0 +1,86 @@
+{
+  "id": "05-10",
+  "month": 5,
+  "day": 10,
+  "dateLabel": "10 de Maio",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Cabelo espetado",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez uma senhora que estava no cabeleireiro, à espera de ser atendida.",
+        "- Estou pelos cabelos! - dizia a senhora, muito irritada. - Nunca mais chega a minha vez, francamente.",
+        "Uma das cabeleireiras passou por ela e reparou:",
+        "- Olhe que a senhora, assim, tão enervada que está, fica com os cabelos em pé."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Depois, vai ser um sarilho para penteá-la.",
+        "E foi. Quando a senhora se sentou, finalmente, numa das cadeiras, frente ao espelho, estava uma lástima. Tinha o cabelo que nem escova de arame.",
+        "Lavaram-no, massajaram-no, puseram-lhe rolos, encharcaram-no com laca, mas não havia meio."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "O cabelo empinava, tão espetado e rijo como se a senhora tivesse apanhado um choque eléctrico.",
+        "- Tem de acalmar-se. Vá lá, sossegue - diziam-lhe as empregadas do cabeleireiro.",
+        "Mais lhe diziam, pior era. Tantas pessoas à volta dela e as outras clientes aos risinhos punham-na fula. E, já se vê, a cabeleira ouriçava-se-lhe ainda mais. Aquilo não havia remédio."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Só se voltar cá mais calma, noutro dia - propuseram-lhe.",
+        "- Como é que pode ser, se hoje é que eu tenho uma festa, a que não posso faltar, dê por onde der? - esganiçava-se a senhora de cabelos arrepiados, cada vez mais arrepiados.",
+        "Teve de ir assim mesmo à tal festa. Nervosíssima. Arrepiadíssima. E querem saber?"
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Foi um êxito, o alvo de todas as atenções, de todos os elogios.",
+        "- Que penteado tão original! E que bem que lhe fica! Onde é que o fez? - perguntavam-lhe a torto e a direito.",
+        "A senhora punha a mão no coração, consolada e feliz. Acalmou. Vai daí o cabelo perdeu a electricidade e caiu-lhe em pontas desgraciosas, escorrido e feio como pêlo de cão à chuva."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Mas vá lá que a festa tinha chegado ao fim e já ninguém reparou."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/05/10/pdf/r5dum24bxjblv4f6nuidowygx3hnza4a/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/05/10/html/286b0275dbbef3d52d77bb11/historia.aspx",
+    "printPdf": "/recovered/0000/05/10/pdf/r5dum24bxjblv4f6nuidowygx3hnza4a/imprimir.pdf",
+    "archiveDay": "/recovered/0000/05/10/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

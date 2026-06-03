@@ -1,0 +1,119 @@
+{
+  "id": "04-29",
+  "month": 4,
+  "day": 29,
+  "dateLabel": "29 de Abril",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A dança prodigiosa",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Conta-se que, na Índia, há muito tempo, quando não paravam as guerras entre reis vizinhos por frívolas disputas de terras e riquezas, os vencidos, fossem generais, nobres, senhores poderosos, passavam à condição de escravos dos vencedores.",
+        "No termo de uma dessas lutas, houve festa no palácio conquistado."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Depois do banquete da vitória, o chefe dos vencedores exigiu a presença dos músicos e das bailarinas. Estava radioso de felicidade e queria que à sua volta tudo espelhasse a sua alegria de guerreiro triunfador.",
+        "Entre as bailarinas, uma se destacava mais do que as outras."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Tinha guizos e sinos em colar, no pescoço, nos braços e nas pernas, que cadenciavam a música, como se cada gesto dela fosse o riso a nascer.",
+        "Mas o rosto da bailarina gentil era sisudo, quase zangado. Belo, muito belo, mas tão ao contrário da jovialidade do corpo, nos seus meneios de dança, que causava uma estranha impressão."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Um dos convivas reparou no desconcerto e disse-o em voz alta. Outro, a seu lado, explicou:",
+        "- Não admira. É a princesa, filha do rei deposto. O pai acorrentado na cave e ela a dançar no salão...",
+        "- Mesmo assim, para quem dança sem vontade muito bem dança - comentou outro conviva."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- Embora, melhor dançaria se sorrisse...",
+        "- Ri - ordenou-lhe o senhor da festa e dos vencedores, tanto como dos vencidos.",
+        "Mas a bailarina nem sorriu. Continuava a dançar, vestida da música, com a felicidade a tinir nos pulsos e nos tornozelos, como se o corpo existisse sozinho, decepado do rosto em luto."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- A noite é minha. O palácio é meu. O reino e todos os que nele vivem pertencem-me - clamava o rei dos vencedores. - Tens de rir.",
+        "Ela, muito séria, só dançava. E que bem dançava! Maravilhavam-se, à sua roda, porque nunca tinham visto dançar assim, com tanta graça, tanta leveza de pluma, pétala, brisa, asa, perfume..."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Então, o comandante, de coração rendido, proclamou:",
+        "- Libertem de vez o rei vencido. Quero-o, aqui, ao nosso lado, a ver a filha dançar.",
+        "Uma labareda de guizos e risos correu, rolou, adejou pelas arcarias do palácio."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Os músicos atónitos ouviram a música, que eles não tocavam, desprender-se, intacta, dos seus instrumentos e engrinaldar de alegria redopiante a princesa dançarina."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "Nenhuma bailarina dançou, em gestos de riso, em olhos e lábios iluminados de riso, como, naquela noite, a princesa dançou... E por muitos mais anos se contará a história da dança prodigiosa, que fez pulsar, em triunfo, a harmonia da música nos corações dos homens, vencedores ou vencidos..."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "395",
+      "term": "adejou",
+      "definition": "esvoaçou"
+    },
+    {
+      "id": "396",
+      "term": "atónitos",
+      "definition": "espantados / assombrados"
+    },
+    {
+      "id": "397",
+      "term": "engrinaldar",
+      "definition": "enfeitar / galardoar"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/04/29/pdf/64gxnzsnl554gw7vsajtxu4wwceqnpsr/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/04/29/html/5ccwmu44quezlcvpt5oryqtuyc2cjwws/historia.aspx",
+    "printPdf": "/recovered/0000/04/29/pdf/64gxnzsnl554gw7vsajtxu4wwceqnpsr/imprimir.pdf",
+    "archiveDay": "/recovered/0000/04/29/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

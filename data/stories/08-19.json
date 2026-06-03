@@ -1,0 +1,125 @@
+{
+  "id": "08-19",
+  "month": 8,
+  "day": 19,
+  "dateLabel": "19 de Agosto",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A princesa que perdeu a fala",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez uma princesa que perdera a fala. Que tinha sido, que não tinha sido, não se sabia. Não falava, pronto.",
+        "Quanto ao resto, era igual às outras princesas. Até talvez mais bonita.",
+        "Pena que não se casasse. Pretendentes não lhe faltaram, todos nobres e distintos moços, mas a princesa fazia uma careta mal os via e estava tudo dito."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "O rei, irmão da princesa, tinha muita pena dela e tudo daria para curá-la daquele estranho mal. E também gostaria que ela se casasse e fosse feliz."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Um dia, anunciaram que a comitiva de um príncipe estrangeiro, vindo de muito longe, se acercava do palácio para prestar homenagem ao rei e à princesa.",
+        "- Outro pretendente - comentaram os fidalgos da corte.",
+        "- Outra careta da princesa - comentaram os fidalgos da corte.",
+        "O príncipe vinha embuçado."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Nem um bocadinho da cara se lhe via. Só os olhos.",
+        "Depois de reunir-se com o rei, foi apresentado à princesa.",
+        "- Minha querida irmã, este príncipe de terras distantes manifestou-me, com muito boas razões e promessas de aliança, o seu profundo desejo de desposar-te.",
+        "Isto disse o rei para a irmã."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "E continuou:",
+        "- A proposta pareceu-me tão interessante para o nosso reino, que eu não vejo motivo para que tu, mais uma vez, me contraries. Tantas foram as tuas caretas aos anteriores pretendentes, que não tolero nem mais uma recusa.",
+        "A princesa, de cara fechada, apertava os lábios."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Ela era muda, mas não era surda e não estava nada agradada com o que ouvia. Nunca o irmão se lhe dirigira com tanta severidade.",
+        "- Desta vez, quando o príncipe se aproximar de ti, para se declarar, tens de oferecer-lhe o teu melhor dos sorrisos - recomendava-lhe o rei."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Nada fazia prever que o tal sorriso despertasse no rosto crispado e colérico da princesa.",
+        "Veio o príncipe de cara tapada.",
+        "- Ele parece que não é dotado de grande beleza, mas será certamente um bom marido - segredou-lhe o mano.",
+        "Caiu ao príncipe a capa que o ocultava."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Um frémito percorreu a sala, cheia de cortesãos. O príncipe era um monstro. Nada de mais feio alguma vez se vira.",
+        "- Apresento-te o teu noivo - anunciou o rei.",
+        "- Não! - gritou a princesa. - Não, não e não! Que horror.",
+        "Depois de ter proferido estas palavras, a princesa fugiu do salão e refugiou-se no quarto."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "- Mas falou - disse o príncipe-monstro, descolando da cara a máscara monstruosa.",
+        "Era, afinal, um rapaz de muito bom parecer. Entre ele e o rei havia combinação. O jovem príncipe, em anterior visita ao palácio, sofrera a humilhação de ver-se preterido por uma careta da desdenhosa princesa."
+      ]
+    },
+    {
+      "layer": "html-layer-11",
+      "paragraphs": [
+        "Merecia ela de resposta outra careta ainda maior. Foi o que o príncipe fez, mostrando-lhe a caraça. O amor pode muito.",
+        "- A perda da fala da princesa terá tido por origem um susto - explicava o príncipe ex-monstro. - Só outro grande susto podia curá-la, como se provou.",
+        "Houve festa no palácio. A princesa, pelo sim, pelo não, saiu do quarto e veio espreitar."
+      ]
+    },
+    {
+      "layer": "html-layer-12",
+      "paragraphs": [
+        "Não é que, pouco depois, estava a dizer sim ao tal príncipe apaixonado?"
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/08/19/pdf/pyavfl37dkqzyzrjcj4skwateugenl3w/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/08/19/html/z7c7eyp5c4vwyw6bd2q556afbrembtod/historia.aspx",
+    "printPdf": "/recovered/0000/08/19/pdf/pyavfl37dkqzyzrjcj4skwateugenl3w/imprimir.pdf",
+    "archiveDay": "/recovered/0000/08/19/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

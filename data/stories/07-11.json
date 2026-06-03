@@ -1,0 +1,84 @@
+{
+  "id": "07-11",
+  "month": 7,
+  "day": 11,
+  "dateLabel": "11 de Julho",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A mãe da Maíza é que conta",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Quando eu era menina, trouxeram-me de fora, de muito longe, uma boneca diferente das outras, uma boneca especial, que tinha dentro outras bonecas escondidas.",
+        "A gente desatarraxava o corpo da primeira boneca e, de dentro dela, aparecia outra boneca. Esta segunda boneca tinha outra lá dentro."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Desatarraxávamos a terceira boneca e aparecia-nos uma quarta boneca. Desta quarta boneca... - Uf! Não vale a pena continuar, que já avaliam o que a quarta boneca trazia dentro. E por aí fora, por aí fora..."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Diante dos meus olhos de menina, a minha mãe explicava-me, apontando-me a boneca maior:",
+        "- Faz de conta que esta é a tua bisavó. Lembras-te da tua bisavó Esmeralda? A tua avó velhinha, como tu lhe chamavas, mas, aqui, mais nova. Da tua bisavó Esmeralda, nasceu a tua avó Elvira..."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "E a minha mãe mostrava-me a segunda boneca, escondida dentro da primeira.",
+        "- Da tua avó Elvira, nasci eu, que sou a tua mãe...",
+        "E a minha mãe mostrava-me a terceira boneca, escondida dentro da segunda boneca.",
+        "- Depois de mim nasceste tu, a minha filhinha querida... - continuava a minha mãe."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Eu era a quarta boneca. Olhei para mim, boneca pequena, e achei-me igual às outras, ainda que mais miudinha no tamanho. Quatro bonecas, que tinham saído umas de dentro das outras...",
+        "- E depois? - perguntei eu à minha mãe.",
+        "- Depois? - sorriu a minha mãe. - Depois... tu saberás.",
+        "Já sei agora."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "A minha boneca chama-se Maíza e está no berço. Dorme.",
+        "Quando ela crescer, e de bebé se fizer menina, hei-de contar-lhe esta história de bonecas."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/07/11/images/tpchhxgi55au3kepmh3yieqve7hq3erf/Imagens/icone.jpg",
+    "icon": "/recovered/0000/07/11/images/tpchhxgi55au3kepmh3yieqve7hq3erf/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/07/11/pdf/b6fyqau26dtdtuxii47jkpkdp6v77isi/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/07/11/html/xps6bg33v5djt546hnqamdzmxpfjs5x2/historia.aspx",
+    "printPdf": "/recovered/0000/07/11/pdf/b6fyqau26dtdtuxii47jkpkdp6v77isi/imprimir.pdf",
+    "archiveDay": "/recovered/0000/07/11/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

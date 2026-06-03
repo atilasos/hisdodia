@@ -1,0 +1,98 @@
+{
+  "id": "12-29",
+  "month": 12,
+  "day": 29,
+  "dateLabel": "29 de Dezembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A Pena da Galinhola",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Esta história passou-se há muito tempo. Há muito e muito tempo, tanto que eu já não sei se me lembro dela toda.",
+        "Começa com um lavrador que ia para a sua lavoura, pelo meio do mato. Nisto viu uma cobra a lutar com uma galinhola. O lavrador, já se vê, tomou partido da galinhola e deu uma grande sacholada na cobra que se partiu em duas, cabeça para um lado, rabo para o outro."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Então a galinhola falou assim:",
+        "- Eu sou o génio do bem e tu acabas de salvar-me do génio do mal. Podes pedir-me o que quiseres.",
+        "O lavrador não se fez rogado. Disse que lhe tinha acabado de nascer uma filha e que, como bom pai, queria para a menina tudo o que de melhor houvesse."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Disse a galinhola:",
+        "- A tua filha há-de ser formosa, bem prendada...",
+        "- E muito curiosa - acrescentou a cabeça da cobra, que ainda rabiava.",
+        "Tanto se cumpriria a sentença do génio do bem como a do génio do mal."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "A galinhola deu uma pedra do chão ao pai da menina e recomendou-lhe:",
+        "- Guarda esta pedra contigo, que é um talismã para proteger a tua filha. Mas que ela nunca lhe pegue.",
+        "O pai assim fez. Guardou a pedra numa gaveta e fechou-a à chave. Só ele e a mulher sabiam o que a pedra valia.",
+        "A menina cresceu. Um dia, os pais esqueceram-se da chave em casa."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "A menina, que era muito curiosa, foi abrir a gaveta. De lá tirou a pedrinha. Atirou-a pela janela fora.",
+        "Logo ali se armou uma grande tempestade que arrebatou a menina pelo ar. Ia morrer pela certa.",
+        "Mas uma pena de galinhola rodopiou à volta da menina, que a ela se agarrou como um náufrago se agarra à última salvação de um madeiro."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "A pena sustentou-se no ar e, depois, poisou-a, sã e salva, no chão.",
+        "O resto desta história muito antiga já não me lembro bem, mas parece que a menina foi ter aos jardins de um palácio, onde estava um príncipe que tinha perdido a pena do chapéu... Está-se mesmo a ver como a história vai acabar."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "127",
+      "term": "sacholada",
+      "definition": "pancada ou golpe com sacho ou enxada"
+    },
+    {
+      "id": "128",
+      "term": "talismã",
+      "definition": "figura ou metal a que se atribuem virtudes sobrenaturais / amuleto"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/12/29/images/qi4srph2vgqezna2ukhnbwddrauehkag/Imagens/icone.jpg",
+    "icon": "/recovered/0000/12/29/images/qi4srph2vgqezna2ukhnbwddrauehkag/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/12/29/pdf/ly6y6gyqhlqm5hfvcshajn465lb6pup6/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/12/29/html/kgm6zcgf5pxo3wdynindl5wztj3pyaal/historia.aspx",
+    "printPdf": "/recovered/0000/12/29/pdf/ly6y6gyqhlqm5hfvcshajn465lb6pup6/imprimir.pdf",
+    "archiveDay": "/recovered/0000/12/29/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

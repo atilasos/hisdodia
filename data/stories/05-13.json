@@ -1,0 +1,159 @@
+{
+  "id": "05-13",
+  "month": 5,
+  "day": 13,
+  "dateLabel": "13 de Maio",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A ovelhinha",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma ovelha tresmalhada . Perdera-se do rebanho, quando lhe deu a sede e foi à cata de água nem ela sabia onde. Lembrava-se de ter bebido de uma poça acrescentada pelas chuvas. Mas isso fora dias atrás e, entretanto, a água naturalmente secara do tanto calor que fazia.",
+        "Desorientou-se."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Eram tantas as oliveiras e azinheiras em redor, todas iguais, espalhadas pelos outeiros, que, para qualquer lado que se virasse, a paisagem não lhe dava sinal de orientação.",
+        "Apurou o ouvido, à espera de um balido ou de um soar de guizos das companheiras. Nada."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Só o vento, um ventinho leve, bulindo nas folhas, agitando os ramos, levantando tufos queimados de cardos, que rolavam na secura do chão como num deserto.",
+        "Arrependeu-se da aventura. Ainda há pouco, tão em sossego com as outras do rebanho, tasquinhando uns restos de ervas, no remanso de uma sombra entre rochedos."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Mas apetecera-lhe experimentar uma verdura desconhecida e saíra-se mal da prova. Era amargosa a planta, arranhava a boca, puxava à água. Pois sim, mas onde encontrá-la, naquela desolação?",
+        "Bem a tinha avisado, em tempos, a avó, ovelha ruça e experiente:",
+        "- Pasta só o que as outras pastam."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Nunca te apartes do rebanho.",
+        "Bons conselhos eram, mas à ovelhinha nova dava-lhe raiva seguir na pisada das que, antes dela, deixavam a erva ceifada pela raiz. Com que sobras mataria a fome? Que pena a avó já não pertencer ao rebanho, para lhe perguntar.",
+        "Fome e sede era o que sentia, agora, naquele ermo."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Ia a atrever-se pela boca de uma gruta, na base de um cabeço, mas teve medo. Havia de estar fresco, lá dentro. Talvez gotejasse, a escorrer das paredes, humidade que bastasse à sua sede. Talvez encontrasse ração de ervas frescas e doces. À medida da sua fome."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Mas também podia enfrentar surpresas desagradáveis, acoitadas no escuro. Cobra, sardão ou bicho pior, sabe-se lá se lobo, dos muitos que a ovelhinha conhecia das histórias, contadas, à noite, no redil , pelas mais velhas do rebanho."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "A ovelha tresmalhada arrepiou-se toda e com o arrepio soltou o primeiro balido, a pedir socorro.",
+        "Os cães haviam de ouvi-la, se a não ouvissem os pastores, garotos ainda, decerto entretidos a jogar às pedrinhas ou a brincar ao agarra.",
+        "O vento apagou-se, num repente. As cigarras calaram-se."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "Tudo mergulhou num grande silêncio. Aproveitando-o, a ovelha gritou mais alto o seu susto.",
+        "Foi quando uma grande nuvem, cerrada e imprevista, tapou o Sol. A sombra que estendeu sobre a terra fez crer que, de súbito, o dia terminara. A ovelha não sabia de horas, mas admirou-se que tão depressa descesse a noite. Mais se assustou."
+      ]
+    },
+    {
+      "layer": "html-layer-11",
+      "paragraphs": [
+        "Mais baliu.",
+        "Não demorou muito a cerração. A cortina do céu rompeu-se e um feixe de luz desceu sobre aquele recanto recolhido do mundo.",
+        "Atraída pelo leve clarão, que caía mais adiante, numa mata de azinheiras, a ovelha correu, esquecida do medo que ainda há pouco a paralisara.",
+        "Ouviu vozes. Viu o rebanho. Enfim."
+      ]
+    },
+    {
+      "layer": "html-layer-12",
+      "paragraphs": [
+        "Cessavam os sobressaltos. Tudo se recompunha em boa paz. O seu coração humilde podia, de novo, bater mais tranquilo. Ela já não era uma ovelha tresmalhada ."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "15",
+      "term": "bulindo",
+      "definition": "agitando-se levemente."
+    },
+    {
+      "id": "430",
+      "term": "tresmalhada",
+      "definition": "separada do rebanho ou da manada"
+    },
+    {
+      "id": "446",
+      "term": "tasquinhando",
+      "definition": "comendo pouco / debicando"
+    },
+    {
+      "id": "447",
+      "term": "remanso",
+      "definition": "sossego / tranquilidade / quietação"
+    },
+    {
+      "id": "448",
+      "term": "apartes",
+      "definition": "separes / desvies"
+    },
+    {
+      "id": "449",
+      "term": "acoitadas",
+      "definition": "escondidas / encobertas"
+    },
+    {
+      "id": "450",
+      "term": "redil",
+      "definition": "curral"
+    },
+    {
+      "id": "451",
+      "term": "cessavam",
+      "definition": "paravam / acabavam"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/05/13/html/mgr7d76snnoswqulpt5szt5eztqdinmk/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/05/13/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "02-09",
+  "month": 2,
+  "day": 9,
+  "dateLabel": "9 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O Senhor Aparício",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Há pessoas que são convidadas para banquetes de muita cerimónia, mas que se portam com grande falta de cerimónia.",
+        "O senhor Aparício é um deles.",
+        "Há tempos, o senhor Aparício foi a uma festa. Era à tarde. Pois o senhor Aparício nem almoçou, para estar com o estômago mais vazio, quando chegasse a ocasião de enchê-lo de graça."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Comeu que se fartou e, para ir prevenido com o jantar, quando voltasse a casa, encheu, disfarçadamente, os bolsos de provisões. Croquetes, bolos e bolinhos, tudo ia para as algibeiras.",
+        "De repente, sentiu a perna direita escaldada. Voltou-se e viu o criado entornar-lhe o bule de chá pela algibeira abaixo.",
+        "- Mas o que é isto?"
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "- perguntou ele, furioso.",
+        "Respondeu-lhe o criado, imperturbável:",
+        "- Peço perdão, mas como o senhor leva os bolos, pensei que também quisesse levar o chá.",
+        "Enquanto se lembrar desta vergonha, o senhor Aparício não vai voltar a fazer o mesmo. O pior é que ele é muito esquecido."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/09/html/h2ouacddgvn3ny27kwfors4jjapvvb4u/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/02/09/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "04-23",
+  "month": 4,
+  "day": 23,
+  "dateLabel": "23 de Abril",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Quem vem lá que vá",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Um velho, que tinha uma quinta, morreu. O galo, o pato, o peru, o porco, o gato e a ovelha, que viviam na quinta, ficaram sem dono. Como não queriam ver-se apartados uns dos outros, resolveram fugir todos juntos.",
+        "Puseram-se a caminho.",
+        "À boca da noite, deram com um casebre de porta aberta."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- Esta vai ser a nossa casa - disse um dos bichos.",
+        "Ainda não era certo, mas fosse como fosse, naquela altura dava jeito. Tinha o que bastava: um telhado, quatro paredes e brasas a luzir na lareira.",
+        "Os bichos instalaram-se. O gato acocorou-se junto ao borralho. O porco deitou-se ao pé da selha."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "O galo e o peru empoleiraram-se na trave do tecto. O pato e a ovelha puseram-se atrás da porta. Não se estava mal.",
+        "Já a noite ia adiantada, quando chegaram os lobos, que moravam naquela casa. Tinham andado à caça, mas sem que tivessem caçado nada que valesse. Vinham furiosos os lobos. E esfomeados."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Um deles, assim que entrou, chegou-se para o borralho. O gato pressentiu-o e esgatanhou-lhe o focinho.",
+        "O lobo, que não contava com aquela surpresa no meio do escuro, desatou a correr. Os outros iam para acudir, mas o porco ferrou uma dentada na perna de um e a ovelha atirou uma marrada à barriga de outro."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Naquela confusão, o galo pôs-se a cantar e o pato mais o peru fizeram coro com ele.",
+        "Os lobos, atordoados, pernas para que te quero! Fugiram para muito longe. Depois de muito correrem, juntaram-se de novo e um disse:",
+        "- Foi gente que tomou conta da nossa casa. A mim um sapateiro atirou-me com cardas ao focinho."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Se ele soubesse que era só um gato...",
+        "Disse outro:",
+        "- Pois a mim, um ferreiro agarrou-me uma perna com tenazes.",
+        "Se ele soubesse que era só um porco..."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Disse um terceiro:",
+        "- A mim, esse tal ferreiro deu-me com uma tranca nas canelas.",
+        "Se ele soubesse que era só uma ovelha...",
+        "Os outros lobos, que não tinham chegado a entrar na casota, também tinham que contar."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Dizia um:",
+        "- Eu cá escapei da malhada, mas ouvi um que estava a gritar: \"Cacaria, cacaria! Acaba tudo em cacaria\".",
+        "Já se percebe que era o que ele ouvia da voz do galo.",
+        "Dizia outro:",
+        "- E eu ouvi um ameaçar: \"Engolia-os! Engolia-os!\""
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "Era o que ele entendera da voz do peru.",
+        "- E eu ouvi um que berrava: \"Quem vem lá que vá! Quem vem lá que vá! Quem vem lá que vá!\"",
+        "Assim ele ouvira a voz do pato.",
+        "Os lobos apanharam tal susto que nunca mais quiseram voltar ao casebre, onde passaram a viver o galo, o pato, o peru, o porco, o gato e a ovelha. E sempre muito amigos."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "390",
+      "term": "cardas",
+      "definition": "pregos miúdos"
+    },
+    {
+      "id": "389",
+      "term": "apartados",
+      "definition": "separados"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/04/23/images/2c7xt5mqddnquhzx4to4agz5ky6jlbfi/Imagens/Background.jpg",
+    "icon": "/recovered/0000/04/23/images/teq62zmb3i5t7zpjkafqhl4jh5aaryo2/Imagens/entrada.jpg",
+    "printPdf": "/recovered/0000/04/23/pdf/6a7zzyeiz2noy4cp2nxnoobnzukwvqiy/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/04/23/images/kriezbq5yyn5otjmagrq5fobcoxswafr/propostas/jogo.jpg",
+      "/recovered/0000/04/23/images/ql7l3xsjyjslcj7phszua67i4fvskzx4/propostas/actividades.jpg",
+      "/recovered/0000/04/23/images/xfou7okdbzklb3cf53fhvq6laq5mgnww/propostas/quinta1.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/04/23/html/unhmoqspozuz2koq26szska5fatghs57/historia.aspx",
+    "printPdf": "/recovered/0000/04/23/pdf/6a7zzyeiz2noy4cp2nxnoobnzukwvqiy/imprimir.pdf",
+    "archiveDay": "/recovered/0000/04/23/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

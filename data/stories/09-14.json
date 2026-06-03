@@ -1,0 +1,102 @@
+{
+  "id": "09-14",
+  "month": 9,
+  "day": 14,
+  "dateLabel": "14 de Setembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A lebre Feliciana e o lobo glutão",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "A lebre Feliciana estava a fazer um bolo, um bolo mesmo apetitoso, com erva-doce e outros preparos, que a gente não sabe, porque não conhece a receita.",
+        "Destinava-se o bolo a uma festa que a lebre Feliciana ia dar, no dia seguinte, a outras lebres e coelhos seus vizinhos.",
+        "Mas quem apareceu primeiro e sem ser convidado foi o lobo."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- Vou-te comer - disse o lobo, que ia logo direito ao assunto.",
+        "A lebre ainda tentou fugir à questão:",
+        "- Ó senhor lobo, coma antes este lindo bolo, que eu guardei para vossa mercê.",
+        "- Está bem - concordou o lobo. - Desta vez, começo pela sobremesa."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "E, em duas dentadas, comeu o bolo.",
+        "- Agora, que já não tenho apetite, vou guardar-te para o jantar - disse o lobo, metendo a lebre num saco. - Tenho visitas lá em casa, que hão-de apreciar este pitéu.",
+        "Pôs o saco ao ombro e abalou."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Como o caminho era longo e sempre a subir, o lobo, a certa altura, resolveu descansar à sombra de uma árvore. Adormeceu.",
+        "Dentro do saco, a lebre pôs-se a vasculhar no avental que tinha posto para fazer o bolo e encontrou uma tesoura, uma agulha e um dedal."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "\"Espera, que já te arranjo, lobo lambão, glutão e paspalhão\", murmurou a lebre.",
+        "Com a tesoura abriu uma fenda no saco, depois foi buscar uma grande pedra, meteu-a no saco e com a agulha e o dedal voltou a fechar o saco. E fugiu.",
+        "Quando o lobo acordou e lançou o saco aos ombros, achou-o muito pesado.",
+        "- Está gordinha a lebre."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Que rico jantar! - exclamou ele.",
+        "Foi para casa, onde já estavam dois lobos amigos, e esfomeados.",
+        "- Trago-vos uma surpresa - disse o lobo. - Ponham a água ao lume no caldeirão, que já vão saber.",
+        "Quando a água estava a ferver, os lobos despejaram o saco na panela."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "A pedra caiu, fez saltar a água em volta e os lobos - Ai! Ai! Ai! - queimaram-se.",
+        "Depois, os dois lobos visitantes, julgando que tinha sido uma partida armada pelo lobo dono da casa, atiraram-se a ele e desancaram-no. Ficou o lobo em muito mau estado."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "- Quem me mandou a mim meter-me com essa finória da lebre Feliciana - rematou o lobo, em jeito de conclusão desta história."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/09/14/images/34rgmtv3bmqkogestihn7m7jqtvovaw7/Imagens/entrada.jpg",
+    "icon": "/recovered/0000/09/14/images/34rgmtv3bmqkogestihn7m7jqtvovaw7/Imagens/entrada.jpg",
+    "printPdf": "/recovered/0000/09/14/pdf/5fn6wwy4c5i2kwygns3wazmbnhhma7nc/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/09/14/html/accsc6q2sld3clbh4ismhp5kgese2whq/historia.aspx",
+    "printPdf": "/recovered/0000/09/14/pdf/5fn6wwy4c5i2kwygns3wazmbnhhma7nc/imprimir.pdf",
+    "archiveDay": "/recovered/0000/09/14/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

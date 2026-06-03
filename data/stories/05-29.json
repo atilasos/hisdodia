@@ -1,0 +1,125 @@
+{
+  "id": "05-29",
+  "month": 5,
+  "day": 29,
+  "dateLabel": "29 de Maio",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O sapo e a raposa",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O sapo e a raposa herdaram umas terrinhas de uma velha bruxa, muito velha, que gostava de sapos e raposas. Mas isso faz parte de outra história.",
+        "Aquela que para aqui trazemos conta-nos como foi essa sociedade entre um sapo saparrão e uma raposa raposeca.",
+        "- Vamos colher a nossa fortuna nestas terras, compadre - dizia a raposa."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- Mas antes de colhermos, temos de semear... - lembrava o sapo.",
+        "- Acertado preceito, compadre! Vejo que os demorados mergulhos nos charcos não lhe embotaram juízo. E como se faz a sementeira?",
+        "O sapo tratou de tudo. Mondou, lavrou, sachou, semeou e, depois, esperou."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "- Assim venha a chuva - suspira a raposa, vendo o sapo trabalhar.",
+        "Veio a chuva.",
+        "- Assim venha o bom tempo - suspirou a raposa.",
+        "Veio o bom tempo e os campos ficaram lindos. Então a raposa, quando as espigas estavam maduras, ajudou o sapo nos trabalhos da ceifa."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Deitada à sombra de uma oliveira, guardava-lhe o cântaro da água e amolava-lhe a foice, para que ele ceifasse melhor...",
+        "O sapo ceifou, debulhou e juntou um belo monte de trigo e outro de palha.",
+        "- Aqui está a nossa fortuna - dizia a raposa, muito risonha.",
+        "Depois de tudo arranjado, os dois sócios foram deitar-se."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Na manhã seguinte, a raposa foi ter com o vizinho e compadre e disse-lhe:",
+        "- Compadre e amigo, venho fazer-lhe uma proposta vantajosa.",
+        "- Diga lá.",
+        "- Vamos ambos ao mesmo tempo até à eira, e o que lá chegar primeiro fica com o trigo todo. É assim a modos que o prémio da corrida. Que acha?"
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "O sapo respondeu-lhe:",
+        "- Olhe, minha comadre, fiz uma jura de nunca aceitar propostas sem ouvir os conselhos de um meu colega. Eu não demoro.",
+        "O sapo foi visitar um outro sapo e expor-lhe a proposta da raposa.",
+        "- A coisa arranja-se - respondeu-lhe o colega consultado."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "- Somos tão semelhantes que a raposa não consegue diferençar-nos. Eu parto já para a eira e trato de ensacar o trigo. Tu vais ter com a raposa e, depois de longa discussão, para me dares tempo, aceitas a proposta.",
+        "Assim se fez.",
+        "- Um, dois, três... - gritou a raposa, ao dar início à corrida - Quem lá chegar primeiro fica com tudo."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "A espertalhona fiava-se na sua velocidade e na pouca ligeireza do sapo. Ela, que não ajudara nada no trabalho, ia, numa corrida, arrebatar tudo só para ela...",
+        "Quando chegou à eira e viu o sapo, um sapo a ensacar o trigo, ficou banzada ."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "- Então eu deixei o compadre para trás. Como é que me ultrapassou?",
+        "- Por cima - explicou o sapo. - É que eu salto muito alto.",
+        "A raposa teve de se render. Afinal a esperteza e a malandrice não lhe valeram de nada. Bem feito!"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "488",
+      "term": "embotaram",
+      "definition": "tornaram insensível ou apático"
+    },
+    {
+      "id": "489",
+      "term": "banzada",
+      "definition": "espantada / surpresa / pasmada"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/05/29/pdf/fesuif5vkms7fth7kbi6vkfyj6tkcgx4/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/05/29/html/bxd76jdyvhtdurhuun2wtlzlw7tlxocg/historia.aspx",
+    "printPdf": "/recovered/0000/05/29/pdf/fesuif5vkms7fth7kbi6vkfyj6tkcgx4/imprimir.pdf",
+    "archiveDay": "/recovered/0000/05/29/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

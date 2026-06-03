@@ -1,0 +1,84 @@
+{
+  "id": "07-06",
+  "month": 7,
+  "day": 6,
+  "dateLabel": "6 de Julho",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Duas luas",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O senhor Túlio foi ao Brasil de avião. Ele que nunca tinha saído lá da sua aldeia, aventurar-se a uma viagem tamanha era de espantar. Mas o senhor Túlio tinha uma filha no Rio de Janeiro, filha essa que lhe dera uma neta, neta essa que ia a baptizar, baptizado esse a que o senhor Túlio nem por nada podia faltar."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Na grande cidade do Rio de Janeiro, tudo o espantou: o tamanho dos prédios, a largueza das avenidas, a extensão das praias, a bicheza de gente.",
+        "- É tudo maior do que na minha terra - dizia ele, constantemente. - Até a Lua daqui é mais grada do que a nossa."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "A filha indignava-se:",
+        "- Ó pai, não ande sempre de boca aberta que parece mal e, por favor, não diga que esta Lua é maior do que a lá da aldeia, porque a Lua é só uma.",
+        "O senhor Túlio engolia e calava-se, mas, à cautela, pôs-se a medir aos palmos, de longe, a Lua Cheia sobre o Pão de Açúcar."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "\"Um palmo bem medido\", memorizou ele.",
+        "Quando, com muita pena, teve de voltar para Portugal e regressou à aldeia, não se esqueceu do que matutara. Numa noite de Lua bem redonda, estendeu a palma da mão para o céu e mediu:",
+        "- Um palmo e nem mais um niquito."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Ficou-se a pensar e concluiu:",
+        "- Ai que tu engordaste, magana, enquanto eu andei lá por fora!"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "545",
+      "term": "grada",
+      "definition": "graúda / crescida"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/07/06/images/pjwn3uhlc6gwflasmxiiukd2mdgo3clp/Imagens/Background.jpg",
+    "icon": "/recovered/0000/07/06/images/tp6rtf2uv4hgegfkf3g6oushal6brmrj/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/07/06/pdf/dczh5k6g5dx2dwt3us7xfbkg2aefhnrv/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/07/06/audio/8990c5b0d7f27777983f66f7/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/07/06/images/am2xnvl2plgsa45jkwkjvjq4kybzytuz/Propostas/rio1.jpg",
+      "/recovered/0000/07/06/images/dbtky33wkot67ce75j4hkq4eue4a6hok/Propostas/lua.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/07/06/html/zvyf2nns5cav3xriqveuwhlye5liquah/historia.aspx",
+    "printPdf": "/recovered/0000/07/06/pdf/dczh5k6g5dx2dwt3us7xfbkg2aefhnrv/imprimir.pdf",
+    "archiveDay": "/recovered/0000/07/06/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

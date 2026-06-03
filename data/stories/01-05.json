@@ -1,0 +1,112 @@
+{
+  "id": "01-05",
+  "month": 1,
+  "day": 5,
+  "dateLabel": "5 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A Gaivota que não queria ser",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez uma gaivota que gostava de ser pomba.",
+        "Dizia ela que as gaivotas não servem para nada, ao passo que as pombas sempre servem para alguma coisa.",
+        "- Levam cartas, mensagens, avisos de um lado para o outro - explicava ela às outras gaivotas. - São as pombas ou os pombos-correios."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- Também há quem as cozinhe com ervilhas - interrompeu-a uma gaivota trocista.",
+        "- Essa serventia a nós não nos interessa - arrepiaram-se as outras gaivotas, que voaram, alarmadas",
+        "Ficou sozinha a gaivota que queria ser pomba."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Servir de cozinhado também não estava nas suas ambições, mas à falta de outro préstimo... E pensou: \"Gaivota estufada\", \"Gaivota de cabidela\", \"Gaivota guisada com batatas\"...",
+        "Realmente, não lhe soava bem. E menos bem devia saber, porque nunca lhe constara que os humanos, de boca aberta para todos os gostos, tivessem incluído tais receitas nos seus livros de cozinha."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "A gaivota que queria ser pomba ficou a olhar o mar. Ia abrir as suas asas para as lançar sobre as ondas, à cata de peixinho para o almoço, quando um estranho torpor lhe tomou o corpo. Deteve-se. Encolheu-se. Tapou a cabeça com uma asa. Aquilo havia de passar."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "As outras gaivotas, que há pouco tinham debandado, regressavam à praia, apanhadas pelo mesmo entorpecimento que atingira a gaivota desta história.",
+        "Formaram um bando tiritante , rente ao mar."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Umas, levantadas numa só pata, outras escondidas numa cova da areia, olhavam as águas esverdinhadas , espumosas, como turistas descontentes com a paisagem.",
+        "- Estão as gaivotas em terra - disse uma voz humana, abrindo uma janela, junto à praia. - Vai haver tempestade. Sendo assim, já não me arrisco a ir para o mar."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "De facto, quando as gaivotas ficam em terra, os pescadores sabem que o tempo vai mudar. Elas é que dão o sinal. Elas é que sabem. Elas é que pressentem quando a tempestade se aproxima.",
+        "- \"Afinal sempre tenho alguma utilidade\", pensou a gaivota que queria ser pomba, toda enrolada numa bola de penas, e, daí em diante, preferiu continuar a ser gaivota."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "144",
+      "term": "tiritante",
+      "definition": "trémulo"
+    },
+    {
+      "id": "145",
+      "term": "esverdinhadas",
+      "definition": "em tons de verde"
+    },
+    {
+      "id": "143",
+      "term": "torpor",
+      "definition": "entorpecimento"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/01/05/images/l3bbhurpfve2xphrbclc527zt5zbafqk/Imagens/Background.jpg",
+    "icon": "/recovered/0000/01/05/images/tde6hjhirbhfmz4yfx26anq7x4ua3vex/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/01/05/pdf/3u52bmpp2o36goj4tm3zyhltknnk66mw/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/01/05/audio/apsl3qlvmvhmnocmqfc6bxd3np6kyj6y/um.swf",
+    "recoveredAudio": "/assets/01-05/narracao-original-recuperada.mp3",
+    "gallery": [
+      "/recovered/0000/01/05/images/7240444aa5e71e6c47a56468/propostas/berlengas.jpg",
+      "/recovered/0000/01/05/images/90f3f363ca746f2a7730fd76/imagens/background.jpg",
+      "/recovered/0000/01/05/images/b889346c2be073dc86d8a2b3/propostas/gaivotas1.jpg",
+      "/recovered/0000/01/05/images/f97e6cb79ec2ff9a4a09d700/imagens/icone.jpg",
+      "/recovered/0000/01/05/images/in2kvf4hsjhng7gm2angpvthscyhby6w/Propostas/berlengas.jpg",
+      "/recovered/0000/01/05/images/vsulichewo6poec67a5jyxdstlqj6kdd/Propostas/gaivotas1.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "recovered-flash-audio",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/01/05/html/oun7jumxkjm5mfnysywzsa5fbgnhy53r/historia.aspx",
+    "printPdf": "/recovered/0000/01/05/pdf/3u52bmpp2o36goj4tm3zyhltknnk66mw/imprimir.pdf",
+    "archiveDay": "/recovered/0000/01/05/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

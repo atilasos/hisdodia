@@ -1,0 +1,107 @@
+{
+  "id": "07-03",
+  "month": 7,
+  "day": 3,
+  "dateLabel": "3 de Julho",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A bola e os seus amigos",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Veio uma bola pelo ar",
+        "que se pôs a saltitar",
+        "por cima deste papel.",
+        "Quem foi que lhe deu licença?",
+        "Houve um menino que a viu",
+        "e que correu a apanhá-la",
+        "ela então parou - fugir não fugiu",
+        "- e ficou à espera que o menino",
+        "com ela brincasse."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- Deixas que eu salte ao eixo?",
+        "- Pois decerto que deixo.",
+        "- E posso deitar-me sobre ti?",
+        "Não me empurras? Não me foges?",
+        "- Podes sim.",
+        "Sou bola boa. Redonda.",
+        "Não tenhas medo de mim."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Nisto, chegou-se uma menina",
+        "que perguntou:",
+        "- Esta bola é tua?",
+        "- Não sei! - respondeu o menino. - Pergunta-lhe a ela.",
+        "Falou então a bola:",
+        "- Sou vossa, de vocês dois, mas não me partam ao meio."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Era um perigo pois deixava de ser bola.",
+        "Brinquem, brinquem comigo. Não sirvo para outra coisa.",
+        "Mão de menino que em mim poisa",
+        "é mão de amigo."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Quantas mais mãos, mais amigos;",
+        "e eu, então, embora não pareça,",
+        "fico tão cheia de ar, de alegria,",
+        "que perco a cabeça."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Vieram mais meninos,",
+        "e a bola voou do chão,",
+        "andou de mão em mão",
+        "- é minha, é tua agora! -",
+        "saltou, correu, voltejou",
+        "e voou desta página para fora."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/07/03/images/lpfwao3v7kflk3mmtjzrarzznrvzku4e/Imagens/Background.jpg",
+    "icon": "/recovered/0000/07/03/images/h3frtvo5zohnxdux65vbjdgvyckgltub/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/07/03/pdf/3zks6inrnbya5raewfpsahag6zo6kiuy/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/07/03/audio/5gedkm2khcybaunx3eaevwf43iy5d7ys/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/07/03/images/zsdmwvttjcm6tik5oupf5xr3xd5qego6/Imagens/entrada.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/07/03/html/b1f8f8be3eb5067592dc6c83/historia.aspx",
+    "printPdf": "/recovered/0000/07/03/pdf/3zks6inrnbya5raewfpsahag6zo6kiuy/imprimir.pdf",
+    "archiveDay": "/recovered/0000/07/03/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

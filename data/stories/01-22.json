@@ -1,0 +1,51 @@
+{
+  "id": "01-22",
+  "month": 1,
+  "day": 22,
+  "dateLabel": "22 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "História de 22 de Janeiro",
+  "author": "António Torrado",
+  "illustrator": "Ilustrador original por confirmar",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/01/22/images/tcvs7gepttq7fa7tuje7sng5mhjcaxx3/Imagens/entrada.jpg",
+    "icon": "/recovered/0000/01/22/images/tcvs7gepttq7fa7tuje7sng5mhjcaxx3/Imagens/entrada.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/01/22/images/08e99be89db948ea46d9c3f6/propostas/botaozoo.jpg",
+      "/recovered/0000/01/22/images/232qjoizo7kxgvkm7at4is4okgup56mm/propostas/botaozoo.jpg",
+      "/recovered/0000/01/22/images/5f7c7d700d1b7e8142f38e55/propostas/botaourso.jpg",
+      "/recovered/0000/01/22/images/5lagivi4up47bqgjnmcoyrud5snjflws/propostas/botaourso.jpg",
+      "/recovered/0000/01/22/images/e6a68b2b1859df942de72b93/imagens/entrada.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": null,
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/01/22/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

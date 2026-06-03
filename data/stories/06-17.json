@@ -1,0 +1,113 @@
+{
+  "id": "06-17",
+  "month": 6,
+  "day": 17,
+  "dateLabel": "17 de Junho",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Ele há cada nome",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Há nomes que nem inventados. Mas são verdadeiros. Eu garanto, porque os colecciono e cato , um a um, pelas listas telefónicas do país.",
+        "A família Barriga, por exemplo, tão velha como Portugal. Já no tempo do nosso primeiro rei, o bravo D. Afonso Henriques, vivia, na província da Beira, um Martim de Barriga.",
+        "Que ninguém se admire."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Se há tantos Costas, porque é que não há-de haver alguns Barrigas?",
+        "A família cresceu, espalhou-se e chegou aos nossos dias. Conheci, há tempos, uma senhora, descendente do remoto beirão Martim de Barriga. Chama-se Maria das Dores, mais precisamente Maria das Dores de Barriga, o que talvez lhe cause alguma indisposição."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "E o caso do Dr. Pedro Branco que se casou com uma senhora de apelido Feijão e tiveram um filho Feijão Branco?",
+        "Mais ou menos semelhante, e também verdadeiro, foi o caso ou casamento que uniu D. Maria José Coelho com o Engenheiro Manuel da Silva Guisado. O filho do casal chama-se Abel Coelho Guisado e não se importa."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Nem tem nada com que importar-se, porque, verdade verdadinha, há nomes muito mais esquisitos.",
+        "Contou-me a minha avó que um casal já com muitos filhos foi brindado com mais uma criança, um perfeito rapazinho que havia de se chamar...",
+        "- André - disse o pai.",
+        "- João - disse a mãe."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- Fernando - disse um avô.",
+        "- Camilo - disse o outro avô.",
+        "- Manuel João - disse uma avó.",
+        "- João Manuel - disse a outra avó.",
+        "Não se entenderam."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Quando, na cerimónia do baptizado, foi preciso assentar o nome do bebé no livro dos registos, ainda a família não tinha chegado a uma decisão. Até que a mãe, para safar a encrenca , ditou ao sacristão, que estava de pena suspensa sobre o livro dos registos:",
+        "- Olhe, senhor sacristão, o nome do meu filho fica João, até ver."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "E o obediente sacristão escreveu assim o nome do rapaz: \"João Até Ver Martins\".",
+        "Mas, para o resto da vida, ficou só conhecido pelo João Até Ver.",
+        "- Pouco importa - concluía a minha avó, que esta história me contou. - O que vale é que cada um seja conhecido pelo que de bom fizer."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Se for pelo que de mal fizer, então, sim, já terá razão para envergonhar-se do nome.",
+        "Grandes verdades ensinava a minha avó, de nome Olívia Torrado, que, todos concordarão, não é um nome assim muito vulgar..."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "521",
+      "term": "cato",
+      "definition": "pesquiso minuciosamente / busco / espiolho"
+    },
+    {
+      "id": "522",
+      "term": "encrenca",
+      "definition": "dificuldade / problema"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/06/17/pdf/7meuvkl74n7wnh326fjxziy4h7npf76y/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/06/17/audio/khydp6p6bopl7kinal5r3etvpirq3vti/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/06/17/html/akoo6np44hpubevoefyrmojlpih45jx4/historia.aspx",
+    "printPdf": "/recovered/0000/06/17/pdf/7meuvkl74n7wnh326fjxziy4h7npf76y/imprimir.pdf",
+    "archiveDay": "/recovered/0000/06/17/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "09-02",
+  "month": 9,
+  "day": 2,
+  "dateLabel": "2 de Setembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Zé pequeno",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O rapaz era o Zé Pequeno. Um besnico. Bem proporcionado de corpo, tudo nos conformes, nenhum defeito, algumas qualidades, gentil, formoso, mas em ponto pequeno.",
+        "Claro que queria crescer. Na idade dele todos querem."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Dois aldrabões de feira, desses que andam de terra em terra a vigarizar ingénuos, souberam da vontade do moço e prometeram que o acrescentavam. Desse-lhes ele em troca o vitelo que, à conta do pai, trazia para vender."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Acertado o negócio, os aldrabilhas taparam os olhos ao Zé Pequeno e pôs-se um a puxá-lo pelos ombros e o outro pelos pés. Entretanto, iam dando estalos com a língua, a fazer de conta que eram os ossos do rapaz a dar de si."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "No fim da operação, rebentaram com o chapéu de abas largas do Zé Pequeno e enfiaram-lho até ao pescoço.",
+        "- Repare que, dantes, nos dava pela cintura e agora está mais alto do que nós - dizia-lhe um dos vigaristas, agachado, a fazer de conta."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- Por enquanto, não olhe para baixo que sente vertigens - dizia o outro, de joelhos.",
+        "Foram-se embora com o vitelo, a rirem-se.",
+        "O rapazinho andou pela feira com a aba do chapéu enfiada até ao pescoço, que parecia um babete ou uma gola de fazer rir."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "À volta dele, riam-se, mas Zé Pequeno, muito empertigado, não dava troco. Até que percebeu, afinal, que continuava da mesma altura.",
+        "Correu, desesperadamente, atrás dos aldrabófonos. Pois sim. Onde é que eles já iam....",
+        "Mas não desistiu."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Meteu por uns atalhos, correu que nem um danado e foi ter a uma curva da estrada, por onde haviam passado os finórios. Quando os viu, escondeu-se e, fazendo voz grossa pelo meio de uma cabaça, como se fosse altifalante, vociferou:",
+        "- Parem, em nome da lei."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Eu, sargento Viçoso, sargento da Guarda Republicana, intimo-os a largarem o vitelo, senão disparo.",
+        "Eles, que tinham a consciência pesada, aterrorizaram-se, de mãos no ar, a tremer. Então o Zé Pequeno acertou uma pedrada num, acertou uma pedrada no outro e fê-los provar o pó da estrada."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "Com os dois homens desmaiados, estendidos à sua mercê, o rapaz era o mais alto. Recuperou o vitelo e voltou para a feira.",
+        "Feliz com o seu sucesso, sentia-se, subitamente, mais crescido. E até talvez estivesse. Era mesmo muito natural que, depois daquela aventura, tivesse dado um grande pulo."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/09/02/images/raxi5k3mp2xhknustmj7qasbxuoq55rk/Imagens/Background.jpg",
+    "icon": "/recovered/0000/09/02/images/v2h4zz33qwzq57tactuzvkmns5cmre5f/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/09/02/audio/270def0bb5efb2b8bbb97f8a/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/09/02/images/1538d6c2daf19b7a0127deeb/imagens/background.jpg",
+      "/recovered/0000/09/02/images/c00e4293a3fa67245df49c58/imagens/icone.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/09/02/html/u2tqnmdesk4mnlm4gfrlhr7sqjloxh7j/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/09/02/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

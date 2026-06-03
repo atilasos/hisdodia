@@ -1,0 +1,113 @@
+{
+  "id": "01-07",
+  "month": 1,
+  "day": 7,
+  "dateLabel": "7 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Bons Amigos",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O coelho e o macaco eram amigos, mas estavam sempre a atazanar-se um ao outro. Sei de outros casos parecidos...",
+        "O macaco via o coelho ao longe e começava logo, de pirraça :",
+        "- Coelho dentudo, peludo e orelhudo, focinho focinhudo, corpo barrigudo, pernas de canudo, rabo de veludo!"
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "O coelho respondia-lhe, no mesmo tom:",
+        "- Olha o macaco macacão, olhos de sabão, miolos de algodão, cara de espantalho paspalhão.",
+        "Continuavam assim, que tempos, até chegarem ao pé um do outro. Depois, riam e davam grandes abraços.",
+        "A pregar partidas, o macaco era o mais atrevido."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "De uma vez que o coelho estava a dormir, muito descansado, o macaco, pendurado de uma árvore, puxou-lhe as orelhas com toda a força.",
+        "O coelho acordou dorido e num grande sobressalto.",
+        "- Ai desculpa - disse o macaco, a fugir. - Andava a caçar borboletas e julguei que as tuas orelhas eram uma borboleta gigante."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "De outra vez, estava o coelho a roer um cogumelo e o macaco gritou-lhe, fingindo um grande susto:",
+        "- Cuidado, não comas mais que estás a ficar com as orelhas azuis! Esse cogumelo há-de ser venenoso.",
+        "O coelho ficou apavorado. Foi a correr ao rio. Mirou-se e remirou-se."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Quando percebeu que era tudo mentira, desatou a perseguir o macaco, mas onde é que já ia!",
+        "- Não esperas pela pancada! - ameaçou-o, de longe.",
+        "Não esperou mesmo. Numa ocasião em que o macaco estava a dormir num galho, com a comprida cauda dependurada, o coelho muniu-se de um cacete e zás! Deu-lhe uma pancada, com toda a força, na cauda desenrolada."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "A força do coelho não seria muita, mas o macaco, que gostava de exibir-se em grandes cenas teatrais, deu urros e saltos, como se lhe tivessem arrancado o rabo.",
+        "- Porque me fizeste isto, traidor? - gritava o macaco.",
+        "- Ai, desculpa - disse o coelho, muito inocente. - Julguei que era uma cobra."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Apesar destas peripécias e facécias , o macaco e o coelho continuam a ser bons amigos."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "148",
+      "term": "pirraça",
+      "definition": "com intenção de irritar"
+    },
+    {
+      "id": "147",
+      "term": "atazanar-se",
+      "definition": "espicaçar-se"
+    },
+    {
+      "id": "149",
+      "term": "facécias",
+      "definition": "troças / motejos"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/01/07/images/a47z4vtudnsml2f2snp4gg7epkwbad4j/Imagens/Background.jpg",
+    "icon": "/recovered/0000/01/07/images/999bfc3caaa5d9ab6e3b872f/imagens/icone.jpg",
+    "printPdf": "/recovered/0000/01/07/pdf/dsy7plscj666me7qqocnlr6y4ffwrgcc/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/01/07/audio/3f1dd3531370e88a89f43163/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/01/07/images/7v7q6gg2cy44mzpp555bae7jwle7edj7/Imagens/icone.jpg",
+      "/recovered/0000/01/07/images/856b02c6205e183729c91275/imagens/background.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/01/07/html/ke24d5mhla6nwmmad6vxpkskgbqp3uyb/historia.aspx",
+    "printPdf": "/recovered/0000/01/07/pdf/dsy7plscj666me7qqocnlr6y4ffwrgcc/imprimir.pdf",
+    "archiveDay": "/recovered/0000/01/07/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

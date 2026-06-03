@@ -1,0 +1,113 @@
+{
+  "id": "02-11",
+  "month": 2,
+  "day": 11,
+  "dateLabel": "11 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Jantar de Assobio",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Fulano apostou com Beltrano que havia de conseguir jantar naquele restaurante, ali da esquina, sem pagar cheta .",
+        "O caso passou-se assim. Fulano sentou-se a uma mesa e veio o empregado informar:",
+        "- Temos sopa de agriões. Deseja sopa?"
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "O nosso amigo Fulano limitou-se a soltar duas assobiadelas, que o criado interpretou à sua maneira, trazendo-lhe um prato de sopa.",
+        "A seguir, o criado perguntou ao silencioso cliente se queria provar uma dobrada à moda do Porto, acabadinha de fazer. Mais duas assobiadelas de resposta.",
+        "Veio a dobrada."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "E assim sucessivamente, o vinho, a fruta, o doce. Por fim, a conta.",
+        "Aqui chegado, Fulano rejeitou o papelinho com a despesa do jantar. E pela primeira vez falou:",
+        "- Não pago."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Chamado pelo criado aflito, veio o dono do restaurante, que ouviu esta explicação de Fulano, muito seguro das suas razões:",
+        "- Eu nunca pedi nada. O empregado vinha e perguntava se eu queria isto e aquilo. Eu assobiava e ele trazia a comida. O que é dado, nunca se recusa. Mas como nunca pedi, não devo nada."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "E Fulano saiu do restaurante, todo emproado , de palito na boca, perante o pasmo do patrão e do criado.",
+        "Beltrano, que o esperava cá fora e a tudo assistira, através da montra do restaurante, teve de dar-se por vencido. Fulano ganhara a aposta e um jantar de graça."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Mas Beltrano não se conformou e, à sua conta, resolveu, no dia seguinte, fazer o mesmo que Fulano fizera.",
+        "Encontrou Cicrano e perguntou-lhe:",
+        "- Queres apostar em como eu vou ali àquele restaurante jantar sem gastar um tostão?",
+        "Cicrano encolheu os ombros, mas apostou."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Quando Beltrano se sentou a uma mesa e o criado veio com a terrina da sopa, as duas assobiadelas do freguês puseram o empregado de sobreaviso.",
+        "Foi a correr, lá dentro, avisar o patrão:",
+        "- Está cá outro com a mesma história dos assobios. O que é que eu faço?"
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "- Pergunta-lhe se ele quer mais sopa - disse o patrão, arregaçando as mangas da camisa.",
+        "Aos dois assobios, criado e patrão agarraram em Beltrano e correram-no do restaurante, a pontapés.",
+        "Há receitas que resultam uma vez, mas à segunda mais vale não experimentar. O Beltrano aprova o que aqui fica dito, soltando dois tristes assobios."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "120",
+      "term": "emproado",
+      "definition": "orgulhoso / presumido"
+    },
+    {
+      "id": "219",
+      "term": "cheta",
+      "definition": "moeda de valor mínimo / nada / chavo"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/11/html/8926de735ba240ce54f3428b/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/02/11/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

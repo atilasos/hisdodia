@@ -1,0 +1,83 @@
+{
+  "id": "06-21",
+  "month": 6,
+  "day": 21,
+  "dateLabel": "21 de Junho",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O prédio harmonioso",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Tenho um vizinho que toca violino, e que bem que toca violino o meu vizinho. Mora no 1.º esquerdo.",
+        "Tenho outro vizinho que toca violoncelo, e que bem que toca violoncelo o meu vizinho. Mora no 2.º direito.",
+        "Tenho outro vizinho que toca piano, e que bem que toca piano o meu vizinho. Mora no 1.º direito."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Tenho outro vizinho que toca viola clássica, e que bem que toca viola o meu vizinho. Mora no 2.º esquerdo.",
+        "No rés-do-chão há uma loja de instrumentos musicais. A loja, durante o dia, está sempre cheia de música, porque nela vendem pianos, acordeons, violinos, violas, guitarras... eu sei lá que mais. Vendem e consertam."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "À noite, claro está, a loja descansa, mas os meus vizinhos encarregam-se da música do prédio, que fica só por conta deles.",
+        "Não tem mais andares o nosso prédio. É o rés-do-chão, o primeiro e o segundo. Então onde é que mora quem isto conta?",
+        "Onde é que eu moro, querem saber?"
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Moro na escada, num canto escondido, e não me canso de ouvir música.",
+        "Quando oiço os meus vizinhos tocar, digo-lhes, em surdina , em segredo, como se eles pudessem ouvir: \"Certinhos! Certinhos! Muito certinhos!\". É um prédio muito harmonioso.",
+        "Pelo meu lado, faço o que posso. Também toco, pois claro. Toco harpa."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Sou a aranha da escada e toco harpa, quando os meus vizinhos já estão a dormir. Acredito que, em sonhos, eles devem ouvir-me.",
+        "Assim, o prédio harmonioso nunca conhece o silêncio."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "526",
+      "term": "surdina",
+      "definition": "voz baixa"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/06/21/pdf/iiyb3lbpyvkql2jljplogq3yinevolvj/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/06/21/html/kp35zlmq53zn7dwgykd2at5eu3g3zelm/historia.aspx",
+    "printPdf": "/recovered/0000/06/21/pdf/iiyb3lbpyvkql2jljplogq3yinevolvj/imprimir.pdf",
+    "archiveDay": "/recovered/0000/06/21/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "03-27",
+  "month": 3,
+  "day": 27,
+  "dateLabel": "27 de Março",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O Baile de Máscaras",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um senhor muito, muito curioso.",
+        "Uma vez perguntou ao menino elefante o que é que ele gostava de ser, quando fosse crescido. O elefante respondeu que gostava de ser pulga.",
+        "- E porquê?",
+        "- Porque ninguém me descobria e eu fazia cócegas em quem me apetecia..."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Depois, o senhor muito curioso perguntou à girafa se ela tinha algum desejo que quisesse revelar. A girafa respondeu, em segredo, que gostava de ser, ao menos uma vez, caranguejo.",
+        "- E porquê?",
+        "- Para poder andar rasteirinha, a ver o que não vejo..."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "A seguir, o senhor muito curioso perguntou ao coelho se sonhava e com quê. O coelho respondeu que, às vezes, lhe dava para sonhar que era lobo.",
+        "- E porquê?",
+        "- Porque se fosse lobo não tinha medo dos lobos."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Então o senhor muito curioso perguntou ao leão em que é que ele magicava, antes de adormecer. O leão respondeu que, em noites de insónia, pensava que era ovelha.",
+        "- E porquê?",
+        "- Para não me dar ao trabalho de caçar. Regalava-me com ervas e pronto... de papo para o ar!"
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Para satisfazer os bichos, o senhor muito curioso, que também inventava histórias como esta, resolveu organizar um baile de máscaras. Veio o elefante mascarado de pulga, a girafa vestida de caranguejo, o coelho disfarçado de lobo e o leão de ovelha.",
+        "Nem calculam como acabou a festa!"
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "O elefante aos saltos",
+        "deu cabo da orquestra...",
+        "A girafa, coitada,",
+        "numa frincha da porta",
+        "ficou entalada.",
+        "Mas o que mais importa",
+        "na baralhada",
+        "desta agitação",
+        "foi quando o coelho",
+        "quis comer o leão."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "E o baile terminou",
+        "e a história findou",
+        "em completa confusão.",
+        "Até eu, que a inventei,",
+        "levei um encontrão!"
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/03/27/images/h4agu4pccfqayoydggbgkdlobg73bimt/Imagens/icone.jpg",
+    "icon": "/recovered/0000/03/27/images/h4agu4pccfqayoydggbgkdlobg73bimt/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/03/27/pdf/6pwtbuvlf5ukpuoruqrtssoatw2yuccy/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/03/27/html/pvn2ietdu5a6ysatbfgahmb3tmqkz7vb/historia.aspx",
+    "printPdf": "/recovered/0000/03/27/pdf/6pwtbuvlf5ukpuoruqrtssoatw2yuccy/imprimir.pdf",
+    "archiveDay": "/recovered/0000/03/27/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

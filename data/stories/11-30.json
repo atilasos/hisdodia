@@ -1,0 +1,45 @@
+{
+  "id": "11-30",
+  "month": 11,
+  "day": 30,
+  "dateLabel": "30 de Novembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "As Traças",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/11/30/pdf/kaymf7thyjzd7i2fzbx7qv42xznsmspv/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/11/30/html/vumke7pkmucl4tn73mieziygw5vlunjj/historia.aspx",
+    "printPdf": "/recovered/0000/11/30/pdf/kaymf7thyjzd7i2fzbx7qv42xznsmspv/imprimir.pdf",
+    "archiveDay": "/recovered/0000/11/30/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "11-23",
+  "month": 11,
+  "day": 23,
+  "dateLabel": "23 de Novembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Duas Mulas",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "80",
+      "term": "serigaita",
+      "definition": "espevitada e ladina"
+    },
+    {
+      "id": "81",
+      "term": "apartadas",
+      "definition": "separadas"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/11/23/images/pqajk7rykozqzwbmyquv4w2mnsnelr6r/Imagens/Background.jpg",
+    "icon": "/recovered/0000/11/23/images/pqajk7rykozqzwbmyquv4w2mnsnelr6r/Imagens/Background.jpg",
+    "printPdf": "/recovered/0000/11/23/pdf/xi5xshdds5v3ohlbj2tk2x5iepbwaa3i/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/11/23/images/ehbzsakkxkiwgdtxrqk5icxqdqxycirh/Propostas/sopa_ico.gif",
+      "/recovered/0000/11/23/images/fwxkvc27dhylyie5s5wafplkzni3acyk/Propostas/anpuzzle/pixel.gif",
+      "/recovered/0000/11/23/images/fwxkvc27dhylyie5s5wafplkzni3acyk/Propostas/pixel.gif",
+      "/recovered/0000/11/23/images/j34uvv7lalxxtdbtbo4kew7tkt7ldacg/Imagens/entrada.jpg",
+      "/recovered/0000/11/23/images/jf5ll5nrck7j5353zyai5vrj7ds2nwuh/Propostas/puzzle.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/11/23/html/cmy3miaghumdaj5xxlxmqzkrzolztfn3/historia.aspx",
+    "printPdf": "/recovered/0000/11/23/pdf/xi5xshdds5v3ohlbj2tk2x5iepbwaa3i/imprimir.pdf",
+    "archiveDay": "/recovered/0000/11/23/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

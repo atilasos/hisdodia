@@ -1,0 +1,98 @@
+{
+  "id": "09-06",
+  "month": 9,
+  "day": 6,
+  "dateLabel": "6 de Setembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Outra do macaco Umbelino",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O macaco Umbelino, que vocês já conhecem, escreveu-me outra vez. Não sei em que país é que ele agora está, que nem reparei no selo do sobrescrito, mas, onde quer que esteja, é um país com telhados e chaminés.",
+        "Foi mesmo de tanto olhar para os telhados e chaminés que o Umbelino teve uma ideia:",
+        "- Vou trabalhar por conta própria."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Os telhados destes prédios não são para qualquer um. Lá no alto, os homens têm vertigens, mas os macacos não. Vou fazer-me limpa-chaminés.",
+        "Arranjou uma corda grossa e muito comprida, uma vassoura com cabo maior que mastro de navio e pôs-se a tocar às campainhas das portas.",
+        "- Quem é? - perguntavam."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "- Limpa-chaminés - respondia ele, engrossando a voz.",
+        "- Não é preciso - e batiam-lhe com a porta na cara.",
+        "Certa vez, ia ele a passar, ouviu esta conversa entre duas porteiras:",
+        "- A inquilina do 3º esquerdo é uma esquisita. Desconfio que tem macaquinhos no sótão... - dizia uma delas."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "O macaco Umbelino estacou, deitou contas à vida e resolveu subir ao 3º andar. Truz! Truz!",
+        "A porta abriu-se e uma senhora com tranças meio desfeitas, grandes óculos de tartaruga e um ar, realmente, muito esquisito, espreitou.",
+        "- Se é para limpar a chaminé, não preciso - disse ela."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "O macaco fez um gesto, como quem diz que por tão pouco não iria incomodá-la, e começou a sua explicação:",
+        "- Saiba V. Exª que, no meu ofício, faz-me falta um aprendiz que me ajude a transportar a vassoura, que converse comigo...",
+        "- E que tenho eu com isso? - interrompeu a abespinhada senhora."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "O macaco prosseguiu:",
+        "- Como ouvi ainda agora dizer que V. Exª tinha macaquinhos no sótão, pensei que...",
+        "- Atrevido, malcriado - gritou a senhora. - Olhe que eu chamo a Polícia.",
+        "Se ela chamou ou não chamou, o macaco Umbelino não conseguiu saber, porque fugiu a tempo."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Sempre quero ver o que ele me contará na próxima carta."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/09/06/images/575sjbnajvvswmzjnyco23mjjuzyv6uo/Imagens/Background.jpg",
+    "icon": "/recovered/0000/09/06/images/duwaxay4pv5mppflguisyvx7tzny5xc4/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/09/06/audio/hzhys7qht5sbhz64fsfgzraw7euxi5vc/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/09/06/images/0984df0273bd71171d590b05/imagens/background.jpg",
+      "/recovered/0000/09/06/images/4f32904d4cd457fe42b034df/imagens/icone.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/09/06/html/ywtcachgd2g2v3tswpwom7jvzh4so7wp/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/09/06/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

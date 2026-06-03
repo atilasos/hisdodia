@@ -1,0 +1,67 @@
+{
+  "id": "10-21",
+  "month": 10,
+  "day": 21,
+  "dateLabel": "21 de Outubro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "As Árvores Querem Mandar",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "23",
+      "term": "escorá-las",
+      "definition": "ampará-las / especá-las"
+    },
+    {
+      "id": "24",
+      "term": "podá-las",
+      "definition": "cortar-lhe os ramos que não prestam"
+    },
+    {
+      "id": "25",
+      "term": "moléstia",
+      "definition": "doença"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/10/21/images/3ilgjhymeuboovor5nihcc2dcovmcubt/Imagens/Background.jpg",
+    "icon": "/recovered/0000/10/21/images/qg477gzspwgfvjuktfhuosq4abjjctkn/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/10/21/pdf/qev5rzojt4g7newxpwncfc2rikrwahhq/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/10/21/audio/rz7z4iminhejvc6gfi6nrg42vgoc5cud/Propostas/pares_frutos.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/10/21/images/a55f534cf8a5cbca94086c27/propostas/pixel.gif",
+      "/recovered/0000/10/21/images/fwxkvc27dhylyie5s5wafplkzni3acyk/Propostas/pixel.gif",
+      "/recovered/0000/10/21/images/kdq5dlq7ngpz4wpoet6m2gqkncjkyzoi/Propostas/arborium.jpg",
+      "/recovered/0000/10/21/images/rhk74a6srk75pyrgi4rja4wchvjzji4h/Imagens/entrada.jpg",
+      "/recovered/0000/10/21/images/yd7ob72255wentgnwf7d2abvhuf3n6vz/Propostas/fruta2.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/10/21/html/qkh6me23iz5tnqhc6ckohgixuoyhb7wk/historia.aspx",
+    "printPdf": "/recovered/0000/10/21/pdf/qev5rzojt4g7newxpwncfc2rikrwahhq/imprimir.pdf",
+    "archiveDay": "/recovered/0000/10/21/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

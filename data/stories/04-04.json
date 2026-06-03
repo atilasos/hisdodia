@@ -1,0 +1,105 @@
+{
+  "id": "04-04",
+  "month": 4,
+  "day": 4,
+  "dateLabel": "4 de Abril",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Chorão e trepadeira",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Eram duas plantas muito diferentes. Uma, a trepadeira. Outra, o chorão.",
+        "Chorão, neste caso, não é o que chora muito, mas uma espécie de salgueiro, de ramos pendentes, com longos cabelos penteados, a roçar a terra.",
+        "Em contrapartida, trepadeira é a que trepa muito, muros, árvores, casas, vedações, o que calha."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- Tivesse eu a que me agarrar, que ia até ao céu - dizia a trepadeira.",
+        "- Exageras - comentava o chorão. - A meio caminho faltava-te o ar, tremiam-te as pernas e caías. Sei de um feijoeiro com ambições, que também se perdeu pelo caminho. Uma desgraça!",
+        "Esta conversa desesperava a trepadeira."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "E, num rompante, exclamou:",
+        "- Pois vamos apostar que sou capaz.",
+        "Apostaram.",
+        "A trepadeira apoiou-se a uma parede, depois passou para outra mais alta, subiu a um mastro, fincou-se a uma torre, saltou para um arranha-céus e, subindo sempre, cheia de genica , chegou onde nunca tinha chegado. Mas o céu sempre longe."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Estava no terraço do edifício mais alto do mundo.",
+        "- Dê-me uma ajudinha - pediu ela a um avião que passava, lá muito em cima.",
+        "Mas o avião não ligou e seguiu caminho.",
+        "- Leve-me consigo - pediu ela a um foguetão, que ia por ali fora, como se levasse fogo no rabo. E levava..."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Mas o foguetão também não ligou.",
+        "A trepadeira, então, desistiu. Os ramos começaram a pender no sentido donde tinham vindo. Parecia - mal acomparado ! - parecia um chorão. E chorava e chorava mesmo.",
+        "- Estiveste quase a conseguir - disse-lhe o chorão, que não gostava de vê-la triste."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Mais consolada com estas palavras, a trepadeira confidenciou :",
+        "- Quando estava lá em cima, tive uma tontura e... saudades tuas.",
+        "Trepadeira e chorão entrelaçaram os ramos. Há plantas, às vezes, que são como gente."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "346",
+      "term": "confidenciou",
+      "definition": "segredou"
+    },
+    {
+      "id": "344",
+      "term": "genica",
+      "definition": "força / energia / vigor"
+    },
+    {
+      "id": "345",
+      "term": "acomparado",
+      "definition": "comparado"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/04/04/images/koejw4x6djr4g23s7ozy7ald6fn4oj3s/Imagens/Background.jpg",
+    "icon": "/recovered/0000/04/04/images/o5vohfhspjxi5cyrklwrhz3o4vnw2gam/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/04/04/audio/25aipwthhmy7t66xi454vamei6rsqdgr/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/04/04/html/3idpq46coq5fonmsjq5jwdilhj3hzlym/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/04/04/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

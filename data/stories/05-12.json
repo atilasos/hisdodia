@@ -1,0 +1,101 @@
+{
+  "id": "05-12",
+  "month": 5,
+  "day": 12,
+  "dateLabel": "12 de Maio",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A menina sereia",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez uma menina que queria ser sereia. Mas se ela nem sequer sabia nadar...",
+        "Tinha lido histórias de sereias, esses estranhos seres, metade mulheres, da cintura para cima, e metade peixes, da cintura para baixo.",
+        "Num dos seus livros predilectos descobriu a receita para transformar meninas em sereias."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Era uma fórmula muito complicada que metia escamas de salmonete em pó, algas de uma espécie rara, cristais de sal, contados um por um, e outros elementos que não sei ao certo.",
+        "A menina misturou o preparado, segundo as recomendações da receita, levou-o ao lume, deixou arrefecer e, depois, bebeu-o de um trago."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Sentiu o borbulhar de um grande fervedouro dentro dela, arrotou várias vezes, os olhos encarniçaram-se-lhe e estremeceu dos pés à cabeça. Estava a transformar-se no que queria.",
+        "Não foi bem assim."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Fosse da imprecisão da fórmula, fosse da falta de rigor na contagem dos cristais de sal, o certo é que a menina estava transformada numa sereia, mas ao contrário: da cintura para cima era peixe, da cintura para baixo era pessoa.",
+        "Não convinha. Não lhe convinha mesmo nada. Uma cabeça de pescada com pernas é uma coisa pouco agradável de ver."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "E nada elegante.",
+        "De modo que a menina teve de consultar um médico, um especialista destas situações anormais. Entre outros êxitos, já tinha curado um homem que estava a transformar-se num grande porco e um burro, muito burro, que se dizia doutor.",
+        "- Como a transmutação é muito fresca, ainda vem a tempo de acudir-lhe - disse o médico."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Deu-lhe uns comprimidos, uma injecção, umas massagens, uns esticões e umas lavagens por dentro e por fora, até que, ao fim de vários dias, a menina se viu ao espelho de novo, como era dantes. Que alívio!",
+        "Nunca mais quis ser sereia. Aquela experiência bastara-lhe.",
+        "Anda agora a aprender a nadar."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "De costas ou de bruços, a cortar a água da piscina, ela é uma autêntica sereia, sem deixar de ser menina."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "428",
+      "term": "fervedouro",
+      "definition": "agitação / inquietação / efervescência"
+    },
+    {
+      "id": "429",
+      "term": "transmutação",
+      "definition": "transformação / mudança"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/05/12/pdf/u4vej32idaybq6ueiywc5d5p6tcxffmn/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/05/12/html/uugwj4voze5qfhro4nr5njxa3nmtj6i2/historia.aspx",
+    "printPdf": "/recovered/0000/05/12/pdf/u4vej32idaybq6ueiywc5d5p6tcxffmn/imprimir.pdf",
+    "archiveDay": "/recovered/0000/05/12/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

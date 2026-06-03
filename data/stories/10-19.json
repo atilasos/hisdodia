@@ -1,0 +1,53 @@
+{
+  "id": "10-19",
+  "month": 10,
+  "day": 19,
+  "dateLabel": "19 de Outubro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A Teia de Aranha",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/10/19/images/tyjxe5cvv7h3umcqpfiy4nvxhabb577t/Imagens/Background.jpg",
+    "icon": "/recovered/0000/10/19/images/q2tvh66r3akusqn5f75ykfr6iuxlz54v/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/10/19/pdf/f7xr35sk2spslb77soyiy4q7mzbbonfq/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/10/19/images/8f5f0518c053635cb86cf77c/propostas/aranha2.jpg",
+      "/recovered/0000/10/19/images/9240218758690deb61f8f17e/imagens/icone.jpg",
+      "/recovered/0000/10/19/images/e7899924d3639f624204bb6f/imagens/background.jpg",
+      "/recovered/0000/10/19/images/fwxkvc27dhylyie5s5wafplkzni3acyk/Propostas/pixel.gif",
+      "/recovered/0000/10/19/images/hqkejqv7uajnvaipnnvwusv43c3qiokx/Propostas/aranha1.jpg",
+      "/recovered/0000/10/19/images/msaqqv7oeyea2t6po3qo4e5ddeilvyla/Propostas/labirinto_ico.jpg",
+      "/recovered/0000/10/19/images/yh4mjkfrejciyt22vgd7yihcwifeikzk/Propostas/aranha2.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/10/19/html/ewd3fj65phtn5itukb2a7qnk7ojgsuqx/historia.aspx",
+    "printPdf": "/recovered/0000/10/19/pdf/f7xr35sk2spslb77soyiy4q7mzbbonfq/imprimir.pdf",
+    "archiveDay": "/recovered/0000/10/19/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

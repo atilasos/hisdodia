@@ -1,0 +1,75 @@
+{
+  "id": "08-01",
+  "month": 8,
+  "day": 1,
+  "dateLabel": "1 de Agosto",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Onde vamos passar férias?",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O macaco, o beija-flor e o grilo eram amigos, muito amigos, mas nem sempre se entendiam. Acontece...",
+        "Uma vez, decidiram passar férias juntos.",
+        "- Vamos escolher o sítio mais lindo do mundo - concordaram os três. Mas onde?",
+        "- Tenho uma ideia - disse o macaco. - Vamos para um armazém de bananas."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Os outros não eram da mesma opinião.",
+        "- A minha ideia é melhor - disse o beija-flor. - Vamos para um jardim cheio de flores, carregadinhas de néctar, para nós sorvermos.",
+        "Os outros não eram da mesma opinião. O macaco e o grilo não se imaginavam a voar, de flor em flor, nem nunca tinham aprendido tal habilidade."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "- A minha ideia é a melhor de todas - disse o grilo. - Venham atrás de mim. Seguiram-no. Não foram longe.",
+        "- Têm de concordar que este sítio, onde vos trouxe, é o mais lindo do mundo. Apreciem! - e o grilo apontava para uma toca de madeira podre, no meio de um monturo ."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "E ainda não foi daquela vez que o macaco, o beija-flor e o grilo passaram as férias juntos. Mas continuaram amigos."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "575",
+      "term": "monturo",
+      "definition": "montão de lixo ou esterco / lixeira"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/08/01/images/kileef77is3nmaienek3n62tt6td6lpg/Imagens/Background.jpg",
+    "icon": "/recovered/0000/08/01/images/6lsysutyt7xmviws3eupguf4jmfhiyr7/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/08/01/pdf/vgtpukzshskd6g6ybnkkeizfvrjpn4mi/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/08/01/audio/4f51ef4a3d55a590e77f7fa5/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/08/01/html/d2c5kh6p6rs7urk6lov5i2rjgn7k7zrz/historia.aspx",
+    "printPdf": "/recovered/0000/08/01/pdf/vgtpukzshskd6g6ybnkkeizfvrjpn4mi/imprimir.pdf",
+    "archiveDay": "/recovered/0000/08/01/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

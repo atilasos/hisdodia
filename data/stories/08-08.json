@@ -1,0 +1,107 @@
+{
+  "id": "08-08",
+  "month": 8,
+  "day": 8,
+  "dateLabel": "8 de Agosto",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Zé do telhado",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "O Zé do Telhado é o meu gato preferido. E suponho que, para ele, também sou a pessoa preferida. Pois é: somos dois bons amigos.",
+        "Além de amigos, somos vizinhos. Ele mora uns metros acima da minha casa, no telhado do prédio, onde ocupo o último andar. Tem lugar privativo junto à chaminé que é o sítio mais quente."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Na Primavera, no Verão e no Outono, o telhado é para ele casa, jardim, passeio, miradoiro.",
+        "No Inverno, pede-me hospedagem. E, sempre que chove, vem fazer-me uma visitinha, como quem não quer a coisa. Tenho sempre um pratinho de fiambre para o receber.",
+        "Entra-me pela janela da trapeira ."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Quando a janela não está aberta, tem maneira de chamar a atenção, raspando as unhas nos vidros da clarabóia, o que provoca um ruído fininho de arrepiar. Vou logo abrir-lhe a janela.",
+        "Ele anda na sua vida e eu na minha, mas gosta de saber-me em casa."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Nos dias em que sua excelência prefere o telhado, vai não vai passa rente à trapeira e, muito descaradamente, espreita para dentro. Se me vê, debruçado à secretária, a trabalhar, o Zé do Telhado descansa e segue telhas adiante.",
+        "Há dias, houve um grande desastre. Exactamente o que imaginam: o Zé do Telhado caiu do telhado ao pátio."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Altura de três andares, sem asa-delta. Nem pára-quedas. Um baque e tanto.",
+        "Andavam a arranjar as antenas de televisão. Rolos de fio, ferramentas e confusão a mais, em território de gato pouco dado a novidades. Ainda por cima vinham pôr um prato de antena parabólica, junto à chaminé. Que afronta!"
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "O Zé do Telhado sobressaltou-se, indignou-se, desequilibrou-se e... foi parar ao rés-do-chão.",
+        "Dizem que os gatos têm sete bofes ou sete vidas. Mas só têm quatro patas. O Zé do Telhado partiu duas.",
+        "O veterinário onde o levei cuidou dele com todo o esmero e o Zé pouco se queixou."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Queixou-se, depois, já em minha casa, quando se viu com as patas presas a duas talas com ligaduras e proibido de saltar para o telhado. Janelas todas fechadas.",
+        "Mia, desesperado, pela casa toda. Gatos e mais gatos espreitam pelos vidros da janela da trapeira , à procura dele. Hão-de estranhar-lhe a falta."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "Estamos em pleno Verão e eu não posso abrir as janelas. O calor é sufocante deste terceiro andar batido pelo sol e eu suo em bica. Mais vou suar até o Zé do Telhado ficar bom.",
+        "- Lá para o meio do Outono, tiro-lhe as talas - promete-me o veterinário.",
+        "Mas se ainda estamos em Agosto..."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "582",
+      "term": "trapeira",
+      "definition": "janela de telhado ou de mansarda / clarabóia"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/08/08/images/mrf7rfohwcxaq4bdk2dmkgg75uisqrnu/Imagens/Background.jpg",
+    "icon": "/recovered/0000/08/08/images/i3akbp7em5yiwhxjmsfqgqrfjggc3ptt/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/08/08/pdf/6s3qneodsvrutxhnpulviu62ccq7zl7i/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/08/08/audio/ba6fd4d0a0479161550c5ab5/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/08/08/images/315e31cbfd750864d54c1b85/imagens/background.jpg",
+      "/recovered/0000/08/08/images/4b9058f4c9945c1be5653c40/imagens/icone.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/08/08/html/ppsxfgfq2tsavcbs53k64cl476k46cgq/historia.aspx",
+    "printPdf": "/recovered/0000/08/08/pdf/6s3qneodsvrutxhnpulviu62ccq7zl7i/imprimir.pdf",
+    "archiveDay": "/recovered/0000/08/08/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

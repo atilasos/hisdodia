@@ -1,0 +1,120 @@
+{
+  "id": "03-03",
+  "month": 3,
+  "day": 3,
+  "dateLabel": "3 de Março",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O cavalo mecânico",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Há quem diga que o meu amigo Alípio é um grande mentiroso. Eu não acredito.",
+        "Grande mentiroso não é. Quanto muito, será um pequeno mentiroso, o que faz a sua diferença.",
+        "A última história que ele me contou, diz ele que lhe aconteceu na estrada."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Ia a guiar o calhambeque, quando o motor deu um estrondo e parou.",
+        "- Estou bem aviado - disse o Alípio, que não percebia nada de mecânica. - Uma avaria destas, no meio do campo, numa estrada sem trânsito...",
+        "Pelo sim, pelo não, levantou o capot e pôs-se a espreitar para dentro do motor enfumarado."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Que intriga! Olhou em volta. Ninguém que lhe valesse.",
+        "Só um cavalo branco, ali perto, a pastar, em sossego. O cavalo relinchou, amigavelmente, e aproximou-se do Alípio e do motor do automóvel. Ao lado do desanimado Alípio, o cavalo debruçou-se para a caixa das geringonças e disse:",
+        "- É do carburador."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "O Alípio esbugalhou os olhos. Um cavalo a falar? Podia lá ser! Devia ter sido impressão, assobio do vento, sussurro de ramagens... Tudo menos voz de cavalo.",
+        "- Já lhe disse que é do carburador - insistiu o cavalo.",
+        "Alto, que o caso era grave! O pobre Alípio sentiu-se doido. Ou estaria num sonho?"
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- O carburador está entupido - sentenciou o cavalo. - Não é coisa grave.",
+        "O Alípio desesperou-se e enxotou o cavalo, que meneou a cabeça, resignado. Antes de voltar ao seu pastar pachorrento, o cavalo branco ainda disse:",
+        "- Eu bem o avisei que a avaria era do carburador. Se não quer ouvir, é consigo..."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Alucinado, o Alípio desarmou o carburador, espreitou lá para dentro e confirmou. Efectivamente, o carburador estava entupido. Limpou-o o melhor que soube e, assim que voltou a pôr o motor em marcha, a carripana pegou, como se fosse nova. Seguiu viagem e nem sequer agradeceu ao cavalo."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "- Que disparate! - dizia o Alípio de si para si, enquanto gritava. - Isto não faz sentido. Foi tudo uma coincidência. Os cavalos não falam. Os cavalos não falam. Os cavalos não falam.",
+        "Quando parou, pouco depois, junto a uma bomba de gasolina, ainda repetia o mesmo, vezes sem conta..."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "- O que é que o senhor está a dizer? - perguntou-lhe o empregado da bomba de gasolina.",
+        "Meio atordoado e com imensa vontade de desabafar, Alípio contou ao homem o que acabara de suceder-lhe.",
+        "- Era um cavalo branco? - perguntou o empregado.",
+        "- Era. Era - respondeu o Alípio.",
+        "- Então, teve sorte - disse-lhe o homem."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "- Porque também anda por aí um cavalo castanho que não percebe nada de mecânica.",
+        "Alípio arrancou logo com o carro, sem sequer meter gasolina. Veio a toda a pressa e, assim que chegou a casa, contou-me esta história tal e qual eu aqui a conto. Se é mentira, peçam-lhe responsabilidades a ele."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "272",
+      "term": "carripana",
+      "definition": "carro velho ou fora de moda"
+    },
+    {
+      "id": "301",
+      "term": "geringonças",
+      "definition": "coisas mal feitas e que se escangalham facilmente / aparelhos ou máquinas consideradas complicadas"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/03/03/images/dl4ijvtekoy3xxyexmihawhc7drv3fxx/Imagens/Background.jpg",
+    "icon": "/recovered/0000/03/03/images/4hohheutcwzo2yweezn5lfyttsdiksj7/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/03/03/audio/50bfa00ad8be7f3f8767e84d/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/03/03/html/evh6naxevsmjxj5ccefdqrlzfzdb5flr/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/03/03/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "07-31",
+  "month": 7,
+  "day": 31,
+  "dateLabel": "31 de Julho",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A horta do Esteves",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Dois coelhos do mato miravam, a uma respeitável distância, a horta do senhor Esteves.",
+        "- Que lindeza de couves! E as alfaces tão apetitosas... - dizia o coelho mais novo.",
+        "- Mas não te chegues - aconselhava-o o coelho mais velho. - O Esteves, se te apanha a roer-lhe alguma couve, não te perdoa.",
+        "- Uma folha só, que mal faz?"
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- dizia o mais novo.",
+        "E ia-se chegando para a horta.",
+        "- Eu aviso-te. O Esteves não é para brincadeiras - gritava-lhe, já de longe, o coelho mais velho. - Quando era da tua idade, também me tentei e ainda guardo, de recordação, um chumbo na perna.",
+        "Mas o coelho mais novo já não o ouviu."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "O mais velho, a internar-se no mato e a ouvir um estampido.",
+        "- A espingarda do Esteves - exclamou e fugiu a sete pés, embora não fosse nada com ele.",
+        "Não correu muito, porque o chumbinho antigo ainda se fazia sentir. Alapado num brejo , esperou.",
+        "O amigo ter-se-ia escapulido ?"
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Ou já estaria a ser esfolado, para, daí a pouco, entrar na panela, onde a cebola e o azeite faziam fe, fe, fe, na cantoria do refogado? Vida espinhosa a dos coelhos do mato, sobretudo a dos que não seguem os conselhos dos mais sabedores.",
+        "Nisto pensava o coelho velho, quando ouviu um gemido por perto."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Era o aventureiro, que até ali se arrastara, a esvair-se em sangue.",
+        "- Quando fores da minha idade, também vais ter para contar aos mais novos - dizia-lhe o velho companheiro, enquanto com ervas frescas lhe estancava as feridas.",
+        "O coelhinho dava-se ao tratamento e só respondia com um ai, de quando em vez."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- Ao menos diz-me: as alfaces eram tão tenras como parecem? - perguntou o mais velho, a fingir indiferença.",
+        "- Mal provei - suspirou o coelhinho",
+        "- O que a nós nos vale é que o Esteves continua sem pontaria, senão nem sobrava um coelho que avisasse os mais novos - concluiu o velho coelho e concluiu muito bem."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "573",
+      "term": "brejo",
+      "definition": "terreno inculto que só produz urzes / matagal"
+    },
+    {
+      "id": "574",
+      "term": "escapulido",
+      "definition": "fugido / escapado"
+    },
+    {
+      "id": "572",
+      "term": "alapado",
+      "definition": "escondido"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/07/31/images/jfn2jyansrcriaaih3ssh2onq4kpimn4/Imagens/icone.jpg",
+    "icon": "/recovered/0000/07/31/images/jfn2jyansrcriaaih3ssh2onq4kpimn4/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/07/31/images/12e893ff1914f6ab794fa8ae/imagens/icone.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/07/31/html/4xdkqaoc2owphekej7eu6n6j3mi5yltv/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/07/31/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

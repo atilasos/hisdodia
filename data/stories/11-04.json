@@ -1,0 +1,56 @@
+{
+  "id": "11-04",
+  "month": 11,
+  "day": 4,
+  "dateLabel": "4 de Novembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Fenómenos de Capoeira",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "40",
+      "term": "basbaques",
+      "definition": "apalermados / patetas"
+    },
+    {
+      "id": "41",
+      "term": "arremedava-lhe",
+      "definition": "imitava-lhe"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/11/04/images/lnawywg7xn7ugh4gnfu63yqxu6abyj2j/Imagens/Background.jpg",
+    "icon": "/recovered/0000/11/04/images/gj3i2ph7suceh4tdkm6t7uoxmuyn5etu/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/11/04/pdf/en5k3rbleux6llpea34rtwqqvwojtudz/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/11/04/audio/gv3yrfu54ujo3pdyyjbn77bshk73xxk5/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/11/04/html/nnx7pxwcqoss4ev2a4k7bilresegarax/historia.aspx",
+    "printPdf": "/recovered/0000/11/04/pdf/en5k3rbleux6llpea34rtwqqvwojtudz/imprimir.pdf",
+    "archiveDay": "/recovered/0000/11/04/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

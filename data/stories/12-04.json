@@ -1,0 +1,92 @@
+{
+  "id": "12-04",
+  "month": 12,
+  "day": 4,
+  "dateLabel": "4 de Dezembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Táxi",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Deram ao cachorrinho o nome de \"Táxi\". Com tantos nomes disponíveis, logo foram escolher este! Mas ele não se importava.",
+        "- Táxi - chamavam.",
+        "E ele vinha, a dar ao rabo, sempre contente.",
+        "Mas eram os donos de má qualidade."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Gostavam de brincar com o cachorrinho, pois gostavam, mas quando o viram crescer e transformar-se num grande cão disseram:",
+        "- O Táxi só está a estorvar. Não podemos mantê-lo cá em casa.",
+        "Abandonaram-no. Há gente assim, sem coração.",
+        "O Táxi viu-se no meio de uma rua, com grande movimento, e desorientou-se."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Cheirou o ar e não deu com o caminho de casa. Nem valia a pena.",
+        "Supomos que o Táxi suspeitava que já não o queriam. Tinha de conformar-se. Ia ser um cão vadio, um cão de rua, um Táxi sem dono nem passageiro.",
+        "- Táxi - chamaram, perto.",
+        "Ele acorreu ao chamamento."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Sai daqui, cão - enxotou-o uma senhora, que ia a apanhar um táxi.",
+        "- Táxi - chamaram, mais adiante.",
+        "O cão não se fez esperar, mas um senhor cheio de embrulhos, que ia a entrar num táxi, deu-lhe um pontapé.",
+        "Ele não percebia. Chamavam-no e logo o rejeitavam. Gente esquisita."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "De desilusão em desilusão, foi ter a uma praça de táxis. Mero acaso. Um motorista, que estava à espera de freguês, partilhou com ele uma bucha com queijo.",
+        "- Como te chamas? - perguntou-lhe o motorista por perguntar.",
+        "Se ele pudesse responder... Fosse como fosse, talvez por afinidade, foi-se deixando ficar."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Os motoristas acharam graça à alegre pressa com que ele se levantava dos quartos traseiros quando alguém pedia um táxi.",
+        "- É cá dos nossos - diziam.",
+        "E adoptaram-no. Continuava a ser um táxi livre, sem dono, mas protegido por uma quantidade de amigos.",
+        "Afinal o nome Táxi sempre lhe valera para alguma coisa."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/12/04/images/5mizyztd7r2kdhpyzm36rlxkvnmjeeha/Imagens/Background.jpg",
+    "icon": "/recovered/0000/12/04/images/nsr34kwd2v4w4xg2s6mwfw6gaybephof/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/12/04/pdf/mtunpcpnndkh4cf5ohtxjdph6srwex2a/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/12/04/audio/zwgx7nmgcdqik3yo7c37oxfudlvubb62/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/12/04/html/llzicoh2bsubxjpqf5kanvmorew2mhhy/historia.aspx",
+    "printPdf": "/recovered/0000/12/04/pdf/mtunpcpnndkh4cf5ohtxjdph6srwex2a/imprimir.pdf",
+    "archiveDay": "/recovered/0000/12/04/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

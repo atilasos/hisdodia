@@ -1,0 +1,87 @@
+{
+  "id": "09-26",
+  "month": 9,
+  "day": 26,
+  "dateLabel": "26 de Setembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O fogo e o leopardo",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Nos acampamentos, em África, à noite, há sempre uma fogueira acesa, que afasta as feras. Entre elas, o leopardo, que ganhou fama de ser de todos os animais ferozes o que mais medo tem do fogo. Porquê? Já vão saber."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "No princípio do mundo ou um pouco mais para diante, o leopardo e o fogo visitavam-se muito, como bons amigos que eram.",
+        "Não. Não estou a ser rigoroso.",
+        "O leopardo visitava o fogo na sua caverna, sem que alguma vez o fogo tivesse retribuído a visita."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Um dia, o leopardo fez-lhe este reparo, um pouco amuado com a desconsideração. Respondeu-lhe o fogo:",
+        "- Eu nunca saio. Sou um desastrado e muito perigoso. Aqui, na minha caverna, sinto-me como um vulcão contido. Se sair, posso não ter mão em mim e causar estragos, mesmo sem querer."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Mas o leopardo tanto insistiu que o fogo acedeu. Recomendou-lhe, no entanto, que limpasse de ervas e ramos e folhas secas o caminho que ia da casa de um à casa do outro.",
+        "O leopardo, que era preguiçoso, não correspondeu com o rigor devido à recomendação que o fogo lhe tinha feito e aconteceu uma grande desgraça."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "O fogo, à confiança, saiu do seu esconderijo e mal deu os primeiros passos, ainda tímidos, na senda da floresta, que ele supunha varrida de folhas, propagou-se, alastrou e incendiou tudo em seu redor.",
+        "- Não tenho culpa. Não tenho culpa - gritava o fogo, assustado com a devastação que causava.",
+        "Mas nada podia fazer."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "O fogo incontrolável galgou planícies e montanhas e tudo arrasou à sua frente. O leopardo, que se dirigia ao seu encontro, teve de fugir, aterrorizado. Mas chamuscou-se, na fuga. Ainda se lhe notam as manchas das queimaduras na pele mosqueada, recordação do dia em que o fogo cometeu a imprudência de sair de casa."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Há que dizer, porém, que o primeiro culpado foi o leopardo, que não soube desbastar a mata seca da floresta como devia. O fogo, sozinho, nunca tem culpa."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/09/26/images/rjf6v4cy6dduw25dqcwpahnvg43uunst/Imagens/entrada.jpg",
+    "icon": "/recovered/0000/09/26/images/rjf6v4cy6dduw25dqcwpahnvg43uunst/Imagens/entrada.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/09/26/html/fehabllhtxm4q4szaunlovtfa7bojkz2/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/09/26/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

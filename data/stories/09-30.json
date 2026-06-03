@@ -1,0 +1,94 @@
+{
+  "id": "09-30",
+  "month": 9,
+  "day": 30,
+  "dateLabel": "30 de Setembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Vida de sabonete",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era um sabonete novo, fresquíssimo, por estrear. Nunca tinha tomado banho.",
+        "Naquela gaveta de drogaria, onde ele, junto com muitos outros colegas, aguardava a vez de ser vendido, já tinha perguntado, ainda que timidamente:",
+        "- Afinal, para o que é que eu servi?"
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "- Serves para lavar e perfumar - respondeu-lhe um velho sabonete de alcatrão, muito sabedor das coisas da vida. - Vais dar banho, tomar banho... Descansa que o que te espera vai ser bom."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Um sabonete para a caspa, ou melhor, contra a caspa, acrescentou:",
+        "- Mas tudo o que é bom também acaba.",
+        "Era o rezingão do grupo.",
+        "O sabonete novo teve a oportunidade de confirmar as previsões do velho sabonete. Tudo aconteceu como ele dissera."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Deu banhos e tomou banhos, escorregou vezes sem conta pelo mármore polido da banheira, conviveu com esponjas, escovas macias e conheceu da anatomia do corpo mais do que um pintor de nus.",
+        "Mas, redondo que tinha sido, estava agora delgadito. Ainda foi parar à beira de um lavatório, a par de outros tão magros quanto ele."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- Somos, agora, sabonetes de lavar as mãos - avisaram-no os companheiros. Até ver... Tudo o que é bom também acaba.",
+        "Lá estava o aviso, de novo a insinuar-se, a dar que pensar.",
+        "Ele e os outros da saboneteira foram-se desfazendo em espuma. \"Tudo o que é bom também acaba\"."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "O sabonetinho, que tinha sido novo, começava a perceber.",
+        "Até que veio um menino que queria fazer uma caldeirada. No dizer desse menino \"caldeirada\" era juntar, numa tigela, sobras de sabão e de sabonetes, acrescentar água, remexer com uma cana e, depois da calda pronta, soprar por um canudo bolas de sabão."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Subiram pelo ar, atraídas pela luz rolaram, soltas, leves, felizes, grandes e pequenas bolas de sabão, como gotas ou lágrimas do arco-íris. Voaram, perderam-se pelo azul do céu...",
+        "Tudo o que é bom também acaba. Mas, às vezes, acaba bem."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/09/30/images/ips4kbgmmj3ljcupldlfcf77fne6eeeb/Imagens/Background.jpg",
+    "icon": "/recovered/0000/09/30/images/ips4kbgmmj3ljcupldlfcf77fne6eeeb/Imagens/Background.jpg",
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/09/30/images/ee66e8f4230496d97d300760/imagens/entrada.jpg",
+      "/recovered/0000/09/30/images/iiiz2gw2p55zs6aohw2opxtscqotg7rd/Imagens/entrada.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/09/30/html/xw6u3n6b7eslzzzd73nabmra42nwy2bv/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/09/30/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

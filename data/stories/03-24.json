@@ -1,0 +1,106 @@
+{
+  "id": "03-24",
+  "month": 3,
+  "day": 24,
+  "dateLabel": "24 de Março",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Apenas um rapaz",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um rapaz bravio que gostava de pregar partidas e fazer matulices , só por embirração. Era muito antipático este rapaz.",
+        "Mas emendou-se. Eu conto como foi.",
+        "Um dia, por maldade, deu-lhe na veneta atormentar uma pobre velhota, que vivia numa casinha pobre, à beira do povoado."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Foi para uma pedreira que havia perto e pôs-se a atirar pedras e a rebolar pedregulhos, que iam cair no quintal da velhota. Para o que lhe havia de dar!?",
+        "No fim do seu feito, já cansado, aproximou-se da casa da velhinha, para ver de perto os resultados da sua proeza. Andava a velhinha a recolher as pedras, espalhadas pelo quintal."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "- Foi uma bênção que me caiu do céu - dizia a velhinha. - Precisava, há que tempos, de consertar o muro do quintal, mas não tinha forças para trazer tantas pedras. Se não fosse esta avalanche...",
+        "O rapaz ficou de boca aberta. E mais sem fala ficou quando a velhinha lhe propôs:",
+        "- Bom rapazinho, importas-te de me ajudar a consertar o muro?"
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Ele, que tinha de fazer de conta que era um bom rapazinho, não teve outro remédio. Passou o resto do dia a acartar pedras, as pedras que ele lançara do alto do monte.",
+        "No fim da tarefa, a velhota agradeceu-lhe o trabalho e deu-lhe um grande boião de mel. O rapaz lá se foi, cansado e a lamber os beiços, um tanto confundido."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "À noite, quando se deitou, estava cá com uma dor nas costas, que não lhes digo nada! Mas regalado com o mel, que a velhinha lhe dera.",
+        "Ora pois! Serviu-lhe de emenda. Mudou de intenções. Não posso garantir se, dessa vez em diante, nunca mais pregou partidas. Um diabinho não se transforma de repente num santinho. É exigir demais. Mas, na verdade, deixou-se de brincadeiras tolas."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Sem que possa ser considerado um virtuoso rapazinho, também já não é um venenoso rapazote. Nem rapazinho, nem rapazote. Apenas um rapaz. Nem muito mau, nem muito bom. Como quase toda a gente, aliás."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "318",
+      "term": "veneta",
+      "definition": "fúria repentina / mania"
+    },
+    {
+      "id": "317",
+      "term": "matulices",
+      "definition": "malandrices / maldades"
+    },
+    {
+      "id": "319",
+      "term": "virtuoso",
+      "definition": "bondoso / talentoso"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/03/24/images/umpbsbp4acwotk65gz4pqbcjmzztsvcs/Imagens/Background.jpg",
+    "icon": "/recovered/0000/03/24/images/umpbsbp4acwotk65gz4pqbcjmzztsvcs/Imagens/Background.jpg",
+    "printPdf": "/recovered/0000/03/24/pdf/dqmzo5eyowghlry2skepjil6sb33wdii/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/03/24/images/7ictnhx5ncbgketpchu24dejgtusd7zd/Propostas/ico_puzzle.jpg",
+      "/recovered/0000/03/24/images/870d321205a937098aa01ee7/propostas/anpuzzle/pixel.gif",
+      "/recovered/0000/03/24/images/9c9a98c1dd6473677f3ab8bc/propostas/arkanoide.jpg",
+      "/recovered/0000/03/24/images/bf7o3ptjmmebi73q5dpwektxfc2hxdev/Propostas/anpuzzle/intro1.jpg",
+      "/recovered/0000/03/24/images/fwxkvc27dhylyie5s5wafplkzni3acyk/Propostas/anpuzzle/pixel.gif",
+      "/recovered/0000/03/24/images/ru5mjpoi2cojo4vgo45cytfephjgleag/Propostas/arkanoide.jpg",
+      "/recovered/0000/03/24/images/rzwzjynb2vjhfdetcbbsr43n4zuez5f7/Propostas/anpuzzle/image3.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/03/24/html/vduyavhvlgvjctyoxwxbntvkzgsu4opz/historia.aspx",
+    "printPdf": "/recovered/0000/03/24/pdf/dqmzo5eyowghlry2skepjil6sb33wdii/imprimir.pdf",
+    "archiveDay": "/recovered/0000/03/24/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

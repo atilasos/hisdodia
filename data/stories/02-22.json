@@ -1,0 +1,80 @@
+{
+  "id": "02-22",
+  "month": 2,
+  "day": 22,
+  "dateLabel": "22 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Podia ser Pior",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um viajante que se perdeu no deserto. Não sei se já andaram no deserto, mas se não andaram, imaginem.",
+        "É fácil uma pessoa perder-se no deserto. Não há sinais de trânsito nem setas a apontar. Não há ninguém a quem perguntar o caminho. Nem sequer há caminho.",
+        "Só areia, areia, areia, a perder a vista. Uma maçada."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Pois este viajante, que se tinha perdido no deserto, desesperado, pôs-se a gritar:",
+        "- Acudam-me, acudam-me, senão eu morro de sede, de fome, de calor...",
+        "Um escorpião do deserto condoeu-se da aflição do viajante e disse-lhe:",
+        "- Foge senão eu pico-te.",
+        "Os escorpiões são venenosos, não sei se sabem."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "O homem, ainda mais assustado, correu, à frente do escorpião.",
+        "- Segue adiante ou eu mordo-te - gritava-lhe o escorpião de tenazes ameaçadoras, sempre atrás dele. - Agora, inflecte para a esquerda... Agora corta à direita...",
+        "O desesperado viajante, a puxar pelas últimas forças, corria a bom correr guiado pelas ordens do escorpião, que não lhe largava a sombra."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Assim chegou a um oásis, com tamareiras e um poço de água fresca. Estava salvo.",
+        "Olhou para trás e viu que o escorpião estacara. Devia agradecer-lhe. Em vez disso pegou numa grande pedra e atirou-lha, gritando:",
+        "- Maldito escorpião.",
+        "Felizmente que o escorpião se desviou a tempo, caso contrário esta história teria um fim bastante desanimador."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "206",
+      "term": "inflecte",
+      "definition": "curva / torce / desvia"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/22/html/jdb45u4rnrfxnzbz5k56oy5gsw2wntx6/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/02/22/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

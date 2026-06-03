@@ -1,0 +1,121 @@
+{
+  "id": "09-04",
+  "month": 9,
+  "day": 4,
+  "dateLabel": "4 de Setembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "De mal a menos",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Conta-se que havia um príncipe que era muito ruim. Irmão do rei e sempre destinado a príncipe toda a vida, terá sofrido sempre dessa comichão na alma, a que se chama inveja. Também queria reinar, mas nunca reinou. Bem feito!",
+        "Mesmo assim, mandava o que podia. E mandava mal. O povo, já se vê, não engraçava com ele."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Temia-o muito, mas não o amava nem um bocadinho. Mais uma vez, bem feito!",
+        "De uma ocasião em que o príncipe foi visitar com a sua comitiva um povoado, as gentes da terra, por cortesia, quiseram oferecer-lhe uma lembrança. Mas o quê?"
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Riquezas não tinham, que a terra era pobre e para mais acabara de passar por um longo período de seca, que estragara as colheitas.",
+        "- Dá-se-lhe um saco de pinhas - alvitrou alguém. - Se o príncipe gostar de pinhões, há-de agradecer.",
+        "- E se não gostar, zanga-se - acrescentou outro."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "- Talvez seja mais acertado oferecer-lhe um cesto de melões, dos poucos sãos que restaram da seca.",
+        "- É um grande risco. Podem não ser doces - considerou um dos homens da terra. - Cá por mim dava-lhe uma travessa de figos. Os da minha figueira nunca me deixaram ficar mal.",
+        "Todos acabaram por concordar."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "O príncipe chegou, muito emproado, e uma deputação dos camponeses da aldeia, chefiada pelo dono da figueira, veio recebê-lo no largo, singelamente enfeitado para a cerimónia."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Depois de proferidas umas palavras de boas-vindas, onde também se referia o esgotamento das águas, que empobrecera os campos, o dono da figueira entregou o presente ao príncipe, avisando-o que pouco era, mas dado com boa vontade."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "O príncipe destapou a travessa, onde vinham os figos, aninhados numa cama de folhas de parra, e indignou-se:",
+        "- Figos? Um príncipe da minha estirpe não merece nada mais do que um monte de figos maduros? Isto é uma vergonha. Uma infâmia!"
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "E o príncipe, possuído por uma grande cólera, mandou amarrar o camponês, que o presenteara, ao pelourinho do largo.",
+        "- Agora, guardas, atirem-lhe com os figos, sem escapar um.",
+        "Os guardas obedeceram. Cumprida a tarefa, a principesca comitiva abandonou a aldeia, sem um gesto de despedida."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "Aquele príncipe era de força. Mau como as cobras. E malcriado.",
+        "Os companheiros do camponês apressaram-se a desamarrá-lo, muito revoltados e condoídos. É que ele metia dó. Da cabeça aos pés, estava todo lambuzado da polpa dos figos que lhe tinham lançado. Pareciam feridas, mas não eram.",
+        "- Magoaram-te? - perguntavam-lhe os amigos."
+      ]
+    },
+    {
+      "layer": "html-layer-11",
+      "paragraphs": [
+        "O camponês, que era dotado de muito bom humor, só ria, enquanto chupava dos dedos uns restos de figos. Cada gargalhada...",
+        "- Então, fizeram-te esta malvadez e tu ris-te? - estranhavam, à volta."
+      ]
+    },
+    {
+      "layer": "html-layer-12",
+      "paragraphs": [
+        "Quando o dono da figueira conseguiu suster o riso, explicou:",
+        "- Estou muito feliz, apesar de tudo. Calculem vocês se, em vez dos figos, lhe tínhamos oferecido as pinhas ou os melões?"
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/09/04/images/idwbqr62jgauizonk56gutcvg7avg52w/Imagens/Background.jpg",
+    "icon": "/recovered/0000/09/04/images/c62oftonfh6u4bxzv7fnjmxfoou5euqs/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/09/04/audio/1e634ffb52984b2ebd88a942/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/09/04/images/62086e384460dcd16c3f4306/imagens/icone.jpg",
+      "/recovered/0000/09/04/images/a43dd59332e47e8ef5b5efe1/imagens/background.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/09/04/html/lbtl2cvu7wawpoqqx3bcyq4q2r2ub4qc/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/09/04/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

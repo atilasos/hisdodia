@@ -1,0 +1,98 @@
+{
+  "id": "04-20",
+  "month": 4,
+  "day": 20,
+  "dateLabel": "20 de Abril",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A cadeira musical",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma cadeira que sabia música. Uma pessoa sentava-se nela e a cadeira começava a tocar.",
+        "Â­- É uma cadeira caixinha de música. Tem molas especiais que fazem \"clique\", quando uma pessoa se senta na cadeira e, então, a caixinha de música começa a tocar - explicava quem sabia destes mecanismos de cadeiras musicais."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Talvez fosse, realmente, assim. O certo é que, um dia, a cadeira se avariou. Deixou de tocar música. Passou a ser uma cadeira banal, igual a milhões de outras que não tocam.",
+        "- Deve estar com as molas gastas - disse a velha e gorda senhora, dona da cadeira. - Vou mandar arranjá-la."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Mas na oficina das cadeiras desenganaram-na:",
+        "- Já não há quem arranje dessas cadeiras.",
+        "Voltou a cadeira para casa da senhora que, às vezes, com saudades de outros tempos, nela se sentava, evocando a musiquinha que a cadeira, dantes, tocava."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "A velha e gorda senhora lembrava-se de quando era nova, leve e gentil e ia, às escondidas da avó, sentar-se na cadeira com música.",
+        "- Tlim, tlim, tlim e mais tlim - tocava a cadeira, à volta da menina.",
+        "Que saudades!"
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "A senhora largou um imenso suspiro e foi atender à porta, porque a campainha repicara . Era uma amiga com o sobrinho, um miúdo tímido, escondido atrás da sombra da tia.",
+        "- Entrem para a sala - convidou a velha senhora.",
+        "Logo aconteceu que o menino se foi sentar na cadeira avariada."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "E não é que ela, sem mais quê nem porquê, ao leve peso do garoto, começou a tocar?",
+        "O miúdo saltou, assustado, e a cadeira calou-se. Então, a velha senhora explicou o mecanismo da cadeira e tudo voltou ao certo.",
+        "Naquela tarde, a cadeira tocou que foi um regalo ouvir."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "- Eu já devia estar muito pesada para a sensibilidade da cadeira - concluiu a senhora.",
+        "E logo ali ficou combinado que o menino, sempre que quisesse, podia vir visitar a senhora. E a cadeira. As duas teriam muito prazer em recebê-lo."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "384",
+      "term": "repicara",
+      "definition": "soara / tocara"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/04/20/images/6rnvq6b3u6avimrhixgxel5fkgpz4jk7/Imagens/Background.jpg",
+    "icon": "/recovered/0000/04/20/images/rxrjjzpvy2sgadra4avxrggsvdhxy426/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/04/20/pdf/ez3szdihi3yhu4rzek3vb6ayrb3qid6u/imprimir.pdf",
+    "originalAudioSwf": "/recovered/0000/04/20/audio/k7hlpm4oyeubsgvmekw7lnajuihi5wvb/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/04/20/html/urcairq2vbl23acejh5w3yxb7zfrnigd/historia.aspx",
+    "printPdf": "/recovered/0000/04/20/pdf/ez3szdihi3yhu4rzek3vb6ayrb3qid6u/imprimir.pdf",
+    "archiveDay": "/recovered/0000/04/20/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

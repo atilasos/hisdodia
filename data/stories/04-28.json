@@ -1,0 +1,102 @@
+{
+  "id": "04-28",
+  "month": 4,
+  "day": 28,
+  "dateLabel": "28 de Abril",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O cavalo real",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um rei.",
+        "Era uma vez um cavalo.",
+        "O rei era um rei que andava a cavalo.",
+        "O cavalo era o cavalo do rei.",
+        "Não lhe chamavam cavalo do rei, mas cavalo real, porque andava sempre com o rei às costas.",
+        "Era muito vaidoso o cavalo real."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Quando se via, nos desfiles, à frente da restante cavalaria dos lanceiros , dos arqueiros , dos alabardeiros , julgava-se não só o rei de todos os cavalos, que o seguiam medindo o trote pelo trote dele, como o comandante em chefe de toda aquela tropa.",
+        "Que presunção!"
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "O rei a cavalo passava revista à guarda real e a banda tocava o hino e os soldados apresentavam armas. Nessa altura, o cavalo levantava o pescoço, muito importante, com o rei às cavalitas. Lá na sua vaidade, julgava que era a ele e só a ele que os soldados, os capitães, os majores, os coronéis, os generais, os músicos e os porta-bandeiras prestavam homenagem.",
+        "Já viram tolice assim?"
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "No pátio do palácio, diante da corte reunida, dos condes e das condessas, dos marqueses e das marquesas, dos duques e das duquesas, dos embaixadores, dos ministros e dos conselheiros, o rei passeava-se em cima do cavalo. Também nessas alturas, o tonto do cavalo supunha que todos aqueles salamaleques, todas aquelas vénias, lhe eram destinadas, a ele e só a ele, cavalo real."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "Já imaginaram cavalo mais burro?",
+        "Mas, um dia, numa caçada, o cavalo real tropeçou num tronco e deixou cair o rei, que se estatelou no chão, com a coroa à banda.",
+        "Não lhe perdoou o rei o trambolhão. Deixar cair o rei é cair em desgraça. Foi o que aconteceu."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Expulso das cavalariças reais, o cavalo percebeu finalmente que não lhe tinham respeito nenhum.",
+        "Acabaram-se as paradas, as vénias, os desfiles. É agora um cavalo de carroça.",
+        "Nem tudo se perdeu, afinal. Depois do que se passou, o cavalo ganhou juízo."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "392",
+      "term": "lanceiros",
+      "definition": "soldados armados com lanças"
+    },
+    {
+      "id": "393",
+      "term": "arqueiros",
+      "definition": "soldados armados com arcos"
+    },
+    {
+      "id": "394",
+      "term": "alabardeiros",
+      "definition": "soldados que combatem com arma composta de uma haste longa, terminada em ferro largo e pontiagudo e atravessada por outro ferro em forma de meia-lua"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": null,
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/04/28/html/jg4chibhi377gyzklvwqvywubqj3jfnu/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/04/28/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

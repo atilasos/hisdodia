@@ -1,0 +1,61 @@
+{
+  "id": "11-01",
+  "month": 11,
+  "day": 1,
+  "dateLabel": "1 de Novembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O Anjo Perdido",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "32",
+      "term": "transversal",
+      "definition": "que corta ou atravessa"
+    },
+    {
+      "id": "33",
+      "term": "crivado",
+      "definition": "cheio / atravessado"
+    },
+    {
+      "id": "34",
+      "term": "tapume",
+      "definition": "vedação feita com tábuas"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/11/01/images/mewqkmogjubuf236g624k7ah7sdblxsp/Imagens/Background.jpg",
+    "icon": "/recovered/0000/11/01/images/57eaqrat4i4kttwjid5uiwidsyqsqglq/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/11/01/audio/7egm7ob43hzyr343kk2s6e6l42xadvlt/um.swf",
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/11/01/html/2legdsjul34536y7fx4vi5annrs745gf/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/11/01/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

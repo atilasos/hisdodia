@@ -1,0 +1,150 @@
+{
+  "id": "01-28",
+  "month": 1,
+  "day": 28,
+  "dateLabel": "28 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "Quatro Amigos",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Eram quatro búfalos muito amigos. Que nenhum bicho se metesse com eles! Verdade se diga que não havia quem se atravesse a desafiar os quatro possantes animais, aprestados com um equipamento de chifres de alto lá, com todo o respeito. Somados, valiam por oito lanças.",
+        "Sempre perto uns dos outros, os quatros búfalos pastavam na savana como se cada um fosse o vértice de um quadrado."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Se fossem três formariam um triângulo. Se fossem dois uma linha com duas pontas. Se fosse um não formaria nenhuma figura geométrica. Seria apenas um corpo vagaroso, de costados largos, à mercê das garras e da dentuça de algum animal carniceiro.",
+        "\"Uma tentação\", pensava, meneando a juba, o senhor leão, observando de um outeiro os quatro inseparáveis amigos."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Mas atacar um, à vista dos outros, era arriscar a vida. Cada chifre um golpe fundo, dos que, uma vez abertos, nunca mais fecham. E lá se dissiparia para nada o sangue precioso do senhor leão.",
+        "\"Ná. Nessa não caio eu\", pensava ele. \"Tenho primeiro de apartá-los \"."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "E o senhor leão urdiu um plano de caça, que começava por uma intrigalhice que nem condizia com a sua apregoada dignidade. Mas era tudo para afinar a pontaria, quando chegasse a altura...",
+        "- Sabe que os quatro búfalos se desentenderam? Por terem troçado dos chifres tortos de um deles... - contou o leão ao chacal."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "- Mas guarde segredo, por enquanto. Não espalhe.",
+        "Tratando-se do chacal, um desbocado , o aviso transformava-se em notícia, lançada aos quatro ventos.",
+        "Pouco depois, toda a selva estava ao corrente. Até os próprios búfalos.",
+        "- Então vocês estão de mal comigo? - perguntou um deles, já muito amuado , aos restantes colegas."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "- O que me contaram foi que tu andas a rir-te dos meus chifres - ripostou um dos outros.",
+        "Entraram em discussão. E, estupidamente, acabaram mesmo por desentender-se. Foi cada qual para seu lado, muito ofendido com os parceiros.",
+        "Era o que o leão calculava."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "Estava o terreno aberto para Sua Majestade praticar o seu desporto favorito.",
+        "O leão foi-se a um e aniquilou-o",
+        "Foi-se ao seguinte e tal e qual.",
+        "Não merece a pena prosseguir. Contem até quatro.",
+        "O resto dos despojos , que o leão já não quis, foram para o chacal."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "133",
+      "term": "apartá-los",
+      "definition": "separá-los"
+    },
+    {
+      "id": "188",
+      "term": "despojos",
+      "definition": "restos mortais"
+    },
+    {
+      "id": "180",
+      "term": "meneando",
+      "definition": "abanando / sacudindo"
+    },
+    {
+      "id": "181",
+      "term": "dissiparia",
+      "definition": "destruía / desvanecia / desfazia"
+    },
+    {
+      "id": "185",
+      "term": "amuado",
+      "definition": "aborrecido / desgastado / desgostoso"
+    },
+    {
+      "id": "183",
+      "term": "intrigalhice",
+      "definition": "mexerico / maquinação"
+    },
+    {
+      "id": "179",
+      "term": "aprestados",
+      "definition": "aparelhados / preparados"
+    },
+    {
+      "id": "182",
+      "term": "urdiu",
+      "definition": "imaginou / tramou"
+    },
+    {
+      "id": "184",
+      "term": "desbocado",
+      "definition": "imprudente / atrevido / desaforado"
+    },
+    {
+      "id": "186",
+      "term": "ripostou",
+      "definition": "respondeu"
+    },
+    {
+      "id": "187",
+      "term": "aniquilou-o",
+      "definition": "abateu-o / destruiu-o"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/01/28/pdf/ysrox7hcs6rs5x6vlnx6yqxknz2j33c7/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/01/28/html/c6g7i26fnwmxfpfznjugdwju5hxf7bic/historia.aspx",
+    "printPdf": "/recovered/0000/01/28/pdf/ysrox7hcs6rs5x6vlnx6yqxknz2j33c7/imprimir.pdf",
+    "archiveDay": "/recovered/0000/01/28/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

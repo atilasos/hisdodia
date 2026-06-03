@@ -1,0 +1,88 @@
+{
+  "id": "04-24",
+  "month": 4,
+  "day": 24,
+  "dateLabel": "24 de Abril",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O mosquito ignorante",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um mosquito que andava à procura de insecticida. Isto é: andava à procura, no dicionário, da palavra \"insecticida\".",
+        "Tanto que o tinham prevenido: \"Cuidado com os insecticidas! Não te chegues aos insecticidas! Não deixes que os insecticidas se cheguem a ti!\" Mas não lhe tinham explicado mais."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Sim, o que seria isso de insecticida? Ali estava, em letras mais pretas: \"Insecticida - substância que destrói, que mata insectos.\" Alto lá! A coisa era grave, devia ser grave para os insectos, pobrezinhos. E, no fim de contas, o que queria dizer \"insecto\"?",
+        "O mosquito era pouco versado em zoologia."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "A bem dizer, este mosquito era pouco versado numa quantidade de disciplinas - Zoologia, Biologia, Mecânica, Cartografia, Geometria Descritiva, Estatística, Logística, Balística... E também não falava francês. Era um mosquito muito ignorante.",
+        "Como tal, não sabia o que queria dizer \"insecto\". Não estranhem."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Se perguntarem a uma mosca, aposto que ela também não sabe. Nem as aranhas. Nem as melgas. Nem as baratas. Todas muito incultas.",
+        "O mosquito, depois de ter encontrado \"insecticida\", foi procurar \"insecto\": animal in...ver...te...bra...do, de corpo ar...ticu...lado, provido de seis patas, que respira pela tra..."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "queia e sofre meta...morfoses. Meta... quê? Tanta palavra esquisita.",
+        "Primeiro: \"invertebrado\". Leu no dicionário: \"que não tem vértebras\". Pouco esclarecedor. E \"vértebras\"? O dicionário ensinava: \"cada um dos ossos que constitui a coluna vertebral\". Ossos? Isso não lhe dizia respeito. Ele não possuía ossos. Em contrapartida, tinha patas."
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Precisamente seis, como esses tais insectos. Coincidência interessante.",
+        "Dar-se-ia o caso de...? Que grande novidade, se assim fosse! Leu outra vez: ... provido de seis patas, que respira pela traqueia...",
+        "Nisto, atrás dele um som \"pff!\", seguido dum cheiro desmoralizador."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "O mosquito procurou afanosamente a palavra \"traqueia\", mas já não foi a tempo..."
+      ]
+    }
+  ],
+  "glossary": [],
+  "assets": {
+    "background": "/recovered/0000/04/24/images/ncrowotl2r5zchrm4t2kesvwwa4rnqkr/Imagens/entrada.jpg",
+    "icon": "/recovered/0000/04/24/images/ncrowotl2r5zchrm4t2kesvwwa4rnqkr/Imagens/entrada.jpg",
+    "printPdf": "/recovered/0000/04/24/pdf/realwet7zhx7nrxwfl7o5iq7sejhzpv4/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/04/24/html/kojzkif4qgjupbic5gazu6uxktfaaevl/historia.aspx",
+    "printPdf": "/recovered/0000/04/24/pdf/realwet7zhx7nrxwfl7o5iq7sejhzpv4/imprimir.pdf",
+    "archiveDay": "/recovered/0000/04/24/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

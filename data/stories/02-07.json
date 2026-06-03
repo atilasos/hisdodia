@@ -1,0 +1,135 @@
+{
+  "id": "02-07",
+  "month": 2,
+  "day": 7,
+  "dateLabel": "7 de Fevereiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "A mania das colecções",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Tenho um vizinho que é coleccionador. De quê? De selos? De moedas? De caixas de fósforos? De garrafinhas de licor? De bilhetes-postais? De revistas antigas?",
+        "Nada disso. O meu vizinho do lado é coleccionador, mas de chapéus.",
+        "Lá em casa, logo à entrada, tem um bengaleiro, que é um museu de chapelaria."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Quem lhe não conhecer a mania e se ficar pela entrada, julgará que o senhor tem lá em casa, à conversa, no salão, uma quantidade de cavalheiros de todas as épocas... E se tivesse? Se tivesse, pelo que se calcula dos chapéus pendurados, a casa do meu vizinho seria um baile de máscaras permanente."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Se não reparem:",
+        "Um chapéu de plumas à mosqueteiro,",
+        "um fez à turca, que parece um vaso sem flores,",
+        "um chapéu de abat-jour, de um chinês de antigamente,",
+        "um chapéu alto, como usavam os nossos bisavós, quando não usavam chapéu de coco,"
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "um chapéu de almirante, que parece um barco virado ao contrário,",
+        "um capacete com um bico no alto, a servir de pára-raios,",
+        "um chapéu de palha, a que qualquer burro competente chamaria um figo,",
+        "um barrete de campino, mais garrido que uma bandeira,"
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "um tricórnio, de que nunca se sabe qual é o lado da frente,",
+        "um chapéu de explorador africano que, depois de pintado, já serviu a um polícia sinaleiro de antigamente",
+        "e muitos, muitos mais chapéus...",
+        "É uma pena que o meu vizinho do lado vá acabar com a colecção. E porquê?"
+      ]
+    },
+    {
+      "layer": "html-layer-7",
+      "paragraphs": [
+        "Explicou-me ele:",
+        "- Estão aqui muitas viagens, muita despesa, muita aventura. São o meu orgulho, pode crer. Mas a verdade é que, agora, já me cansam. Vê-los assim, pendurados, sem préstimo, na sombra do bengaleiro, fazem-me impressão. Parece que os tirei a quem pertenciam. Enervam-me, tiram-me o sono. Quero ver-me livre deles.",
+        "- E como? - perguntei."
+      ]
+    },
+    {
+      "layer": "html-layer-8",
+      "paragraphs": [
+        "- Ponho um anúncio - explicou-me o coleccionador. - Cada pessoa que vier leva um chapéu de graça. Mas tem de prometer que não o tira da cabeça, até ao fim da rua.",
+        "- Quero estar cá, à janela, para ver isso ! - exclamei, entusiasmado.",
+        "Não calculam o espectáculo. Parecia um dia de Carnaval, como aqueles que já não há. Só visto."
+      ]
+    },
+    {
+      "layer": "html-layer-9",
+      "paragraphs": [
+        "- E agora? - perguntei eu ao meu vizinho do lado, quando passei lá por casa. - Está mais aliviado?",
+        "- Nem por isso - suspirou ele. - Sinto-me, de repente, mais pobre, mais desacompanhado. Parece-me que vou começar outra colecção.",
+        "- Outra vez de chapéus? - quis eu saber."
+      ]
+    },
+    {
+      "layer": "html-layer-10",
+      "paragraphs": [
+        "- Não, essa já deu o que tinha a dar. Vou pôr-me em campo para uma nova colecção, mas de sapatos.",
+        "- Novos? - intriguei-me.",
+        "- De forma alguma. Antigos, isto é, velhos, cambados , gastos. Quero coleccionar sapatos com muita andadura , muita experiência de estrada na sola dos pés."
+      ]
+    },
+    {
+      "layer": "html-layer-11",
+      "paragraphs": [
+        "E o meu vizinho olhava para os meus sapatos, com particular interesse...",
+        "O que havia eu de fazer? Ofereci-lhos para início de colecção e, descalço, atravessei o patamar até à minha casa.",
+        "Entre vizinhos, temos de ser uns para os outros."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "256",
+      "term": "cambados",
+      "definition": "que se entortaram no tacão"
+    },
+    {
+      "id": "257",
+      "term": "andadura",
+      "definition": "caminho andado"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/02/07/images/o3rnwla2z7zzpj2n4d2g3rhzhwn2lvr5/Imagens/Background.jpg",
+    "icon": "/recovered/0000/02/07/images/qzshazxy7ard45nbpqdqqaqv3pkwvyss/Imagens/icone.jpg",
+    "printPdf": null,
+    "originalAudioSwf": "/recovered/0000/02/07/audio/e7378f153597727f3d96a0c0/um.swf",
+    "recoveredAudio": null,
+    "gallery": [
+      "/recovered/0000/02/07/images/39c5e2eda4c5f5750fc255bc/imagens/background.jpg",
+      "/recovered/0000/02/07/images/59516fa6bbd059fbf190acf3/imagens/icone.jpg"
+    ]
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "archive-originals",
+    "originalAudio": "archive-swf-reference",
+    "recoveredAudio": "missing",
+    "pdf": "missing",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/02/07/html/wsirjmlabxjpuv56xdeyz3jxrqs3or5r/historia.aspx",
+    "printPdf": null,
+    "archiveDay": "/recovered/0000/02/07/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

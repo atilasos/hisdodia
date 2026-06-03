@@ -1,0 +1,88 @@
+{
+  "id": "01-12",
+  "month": 1,
+  "day": 12,
+  "dateLabel": "12 de Janeiro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "As Hastes do Veado Vaidoso",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "html-layer-2",
+      "paragraphs": [
+        "Era uma vez um veado que tinha em grande apreço as suas hastes recortadas, que lhe davam à cabeça um ar de majestade.",
+        "Quando ia dessedentar-se no lago, tanto bebia como se mirava.",
+        "- Que gloriosos chifres os meus! Nenhum animal de cornos os tem tão formosos.",
+        "Em contrapartida, as patas delgadinhas desgostavam-no."
+      ]
+    },
+    {
+      "layer": "html-layer-3",
+      "paragraphs": [
+        "Debruçado para a água, comparava-as com a volumosa e artística cornadura, e dizia:",
+        "- As minhas pernas estão desproporcionadas com os outros extremos do meu corpo. Não fossem elas assim tão estreitas e eu seria o mais elegante dos animais.",
+        "Nisto, o veado ouviu, não longe, o uivo de trompas de caça. Ele sabia o que aquela música significava. Fugiu."
+      ]
+    },
+    {
+      "layer": "html-layer-4",
+      "paragraphs": [
+        "Caçadores a cavalo perseguiram-no. Corriam os cavalos a galope e corria o veado, com quantas pernas tinha.",
+        "Ágeis, as pernas, no arremesso do medo, saltavam barrancos, venciam precipícios, quase voavam. O veado só pedia que o vigor das pernas não o abandonasse."
+      ]
+    },
+    {
+      "layer": "html-layer-5",
+      "paragraphs": [
+        "Mas, num túnel de ramos, os galhos do veado embaraçaram-se nos troncos e suspenderam-lhe a corrida. Já se aproximavam os cavaleiros. Os belos chifres estavam a deitá-lo a perder.",
+        "Sentindo-se perdido, o veado deu um sacão ao corpo e metade de um chifre, que estava preso, partiu-se. Deixá-lo. O veado livrou-se."
+      ]
+    },
+    {
+      "layer": "html-layer-6",
+      "paragraphs": [
+        "As pernas retomaram a fogosa carreira da salvação e o veado conseguiu escapar dos caçadores.",
+        "Já livre de perigo, o veado pôs-se a pensar no que lhe sucedera. As pernas, que ele há pouco desprezava, tinham-no salvo. As hastes da sua vaidade por pouco que não o atraiçoavam."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "159",
+      "term": "sacão",
+      "definition": "puxão / safanão"
+    },
+    {
+      "id": "158",
+      "term": "dessedentar-se",
+      "definition": "matar a sede"
+    }
+  ],
+  "assets": {
+    "background": null,
+    "icon": null,
+    "printPdf": "/recovered/0000/01/12/pdf/2bnsriqfxjnh4udbpwd2xxowm7265ik7/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "html-recovered",
+    "illustration": "missing",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "html-text"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/01/12/html/esgj5cbbpixhzooqo5unkjqienxmcuee/historia.aspx",
+    "printPdf": "/recovered/0000/01/12/pdf/2bnsriqfxjnh4udbpwd2xxowm7265ik7/imprimir.pdf",
+    "archiveDay": "/recovered/0000/01/12/",
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}

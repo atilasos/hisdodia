@@ -1,0 +1,51 @@
+{
+  "id": "12-11",
+  "month": 12,
+  "day": 11,
+  "dateLabel": "11 de Dezembro",
+  "dayContext": "História recuperada do arquivo original.",
+  "title": "O Gosto das Bruxas",
+  "author": "António Torrado",
+  "illustrator": "Cristina Malaquias",
+  "textSegments": [
+    {
+      "layer": "archive-placeholder",
+      "paragraphs": [
+        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "99",
+      "term": "mimoso",
+      "definition": "bonito / delicado"
+    }
+  ],
+  "assets": {
+    "background": "/recovered/0000/12/11/images/jkznvg64uomvyo2trf6vsothxsiuxo4g/Imagens/icone.jpg",
+    "icon": "/recovered/0000/12/11/images/jkznvg64uomvyo2trf6vsothxsiuxo4g/Imagens/icone.jpg",
+    "printPdf": "/recovered/0000/12/11/pdf/6sy36xcbsd3go66zwhpbokli2537js2h/imprimir.pdf",
+    "originalAudioSwf": null,
+    "recoveredAudio": null,
+    "gallery": []
+  },
+  "recovery": {
+    "text": "pending-extraction",
+    "illustration": "archive-originals",
+    "originalAudio": "missing",
+    "recoveredAudio": "missing",
+    "pdf": "archive-original",
+    "completeness": "needs-text-extraction"
+  },
+  "provenance": {
+    "storyPage": "/recovered/0000/12/11/html/xi6whjs74gumeizq3t7xn46xvbprloyr/historia.aspx",
+    "printPdf": "/recovered/0000/12/11/pdf/6sy36xcbsd3go66zwhpbokli2537js2h/imprimir.pdf",
+    "archiveDay": "/recovered/0000/12/11/",
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+  },
+  "editorialNotes": [
+    "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+  ]
+}
