@@ -1,0 +1,22 @@
+{
+  "id": "01-01",
+  "pattern": "sons.historiadodia.pt/01/01/*.swf",
+  "captures": 1,
+  "recoveredAudio": false,
+  "finalAudio": null,
+  "segments": [
+    {
+      "original": "http://sons.historiadodia.pt/01/01/um.swf",
+      "timestamp": "20100614093947",
+      "swfPath": "data/audio-recovery/01-01/swf/um.swf",
+      "audio": {
+        "hasAudio": false,
+        "hasDefineSound": false,
+        "hasSoundStreamHead": false,
+        "defineSounds": 0,
+        "soundStreamHeads": 0,
+        "soundStreamBlocks": 0
+      }
+    }
+  ]
+}

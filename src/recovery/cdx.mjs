@@ -6,7 +6,12 @@ export function buildCdxUrl(pattern, options = {}) {
   url.searchParams.set('output', 'json');
   url.searchParams.set('fl', 'timestamp,original,statuscode,mimetype,digest,length');
   url.searchParams.set('filter', 'statuscode:200');
-  url.searchParams.set('collapse', 'urlkey');
+  if (options.matchType) {
+    url.searchParams.set('matchType', options.matchType);
+  }
+  if (options.collapse !== false) {
+    url.searchParams.set('collapse', 'urlkey');
+  }
   if (options.limit) {
     url.searchParams.set('limit', String(options.limit));
   }

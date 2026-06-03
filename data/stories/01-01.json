@@ -73,7 +73,7 @@
   "recovery": {
     "text": "pdf-complete",
     "illustration": "local-original",
-    "originalAudio": "swf-reference-no-embedded-audio",
+    "originalAudio": "day-inventory-no-recoverable-swf-audio",
     "rerecordedAudio": "tts-pt-pt",
     "pdf": "local-original",
     "completeness": "complete-pdf-text"
@@ -81,8 +81,9 @@
   "provenance": {
     "storyPage": "https://web.archive.org/web/20040104010647id_/http://www.historiadodia.pt:80/pt/historias/01/01/historia.aspx",
     "printPdf": "https://web.archive.org/web/20040104010647id_/http://www.historiadodia.pt:80/pt/historias/01/01/imprimir.pdf",
-    "audioCdx": "https://web.archive.org/web/timemap/json/http://sons.historiadodia.pt/01/01/um.swf",
-    "notes": "Texto completo extraído do PDF original de impressão. A ilustração e o PDF são cópias locais dos assets originais arquivados. O SWF arquivado para áudio não contém som embebido; a narração disponível foi sintetizada em pt-PT a partir do texto completo."
+    "audioCdxPattern": "sons.historiadodia.pt/01/01/*.swf",
+    "audioInventory": "data/audio-recovery/01-01/manifest.json",
+    "notes": "Texto completo extraído do PDF original de impressão. A ilustração e o PDF são cópias locais dos assets originais arquivados. O inventário CDX por prefixo para 01/01 encontrou apenas um.swf; a inspeção SWF não encontrou DefineSound, SoundStreamHead nem SoundStreamBlock. A narração disponível foi sintetizada em pt-PT a partir do texto completo."
   },
   "editorialNotes": [
     "Pontuação e quebras de linha foram normalizadas a partir do PDF original.",

@@ -16,6 +16,17 @@ describe('cdx helpers', () => {
     assert.equal(url.searchParams.get('limit'), '25');
   });
 
+  it('can build a prefix CDX query without collapsing url keys', () => {
+    const url = buildCdxUrl('sons.historiadodia.pt/01/05/', {
+      matchType: 'prefix',
+      collapse: false
+    });
+
+    assert.equal(url.searchParams.get('url'), 'sons.historiadodia.pt/01/05/');
+    assert.equal(url.searchParams.get('matchType'), 'prefix');
+    assert.equal(url.searchParams.has('collapse'), false);
+  });
+
   it('formats original story page URLs', () => {
     assert.equal(
       storyPageUrl({ month: 1, day: 2 }),

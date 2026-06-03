@@ -1,0 +1,36 @@
+{
+  "id": "01-05",
+  "pattern": "sons.historiadodia.pt/01/05/*.swf",
+  "captures": 2,
+  "recoveredAudio": true,
+  "finalAudio": "data/audio-recovery/01-05/01-05-recovered.mp3",
+  "segments": [
+    {
+      "original": "http://sons.historiadodia.pt/01/05/um.swf",
+      "timestamp": "20100614094050",
+      "swfPath": "data/audio-recovery/01-05/swf/um.swf",
+      "audio": {
+        "hasAudio": false,
+        "hasDefineSound": false,
+        "hasSoundStreamHead": false,
+        "defineSounds": 0,
+        "soundStreamHeads": 0,
+        "soundStreamBlocks": 0
+      }
+    },
+    {
+      "original": "http://sons.historiadodia.pt/01/05/dois.swf",
+      "timestamp": "20090927075933",
+      "swfPath": "data/audio-recovery/01-05/swf/dois.swf",
+      "audio": {
+        "hasAudio": true,
+        "hasDefineSound": false,
+        "hasSoundStreamHead": true,
+        "defineSounds": 0,
+        "soundStreamHeads": 1,
+        "soundStreamBlocks": 2179
+      },
+      "mp3Path": "data/audio-recovery/01-05/extracted/dois.mp3"
+    }
+  ]
+}
