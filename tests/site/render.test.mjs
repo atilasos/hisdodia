@@ -28,6 +28,8 @@ describe('renderSite', () => {
     assert.match(archive, /A Ovelha Generosa/);
     assert.match(story, /António Torrado/);
     assert.match(story, /Riram-se os filhos/);
+    assert.doesNotMatch(story, /Parte 1/);
+    assert.doesNotMatch(story, /Parte 2/);
     assert.match(story, /Narração sintetizada em pt-PT/);
     assert.match(story, /narracao-raquel\.mp3/);
     assert.match(story, /kind="captions"/);

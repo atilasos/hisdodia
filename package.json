@@ -10,6 +10,7 @@
     "recover:audio": "node src/recovery/recover-audio.mjs",
     "recover:archive": "node src/recovery/download-archive.mjs",
     "recover:stories": "node src/recovery/build-stories-from-archive.mjs",
-    "recover:manifest": "node src/recovery/build-manifest.mjs"
+    "recover:manifest": "node src/recovery/build-manifest.mjs",
+    "generate:tts": "node src/recovery/generate-tts-audio.mjs"
   }
 }

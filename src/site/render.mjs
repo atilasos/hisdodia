@@ -111,7 +111,7 @@ function recoveryBadges(story) {
     ['Ilustração original recuperada', Boolean(story.assets?.background || story.assets?.icon)],
     ['PDF recuperado', Boolean(story.assets?.printPdf)],
     ['Áudio original em Flash', Boolean(story.assets?.originalAudioSwf)],
-    ['Narração regravada', Boolean(story.assets?.rerecordedAudio)]
+    ['Narração sintetizada', Boolean(story.assets?.rerecordedAudio)]
   ];
 
   return `<ul class="badges" aria-label="Estado da recuperação">
@@ -193,8 +193,7 @@ ${gallery
 function storyText(story) {
   return story.textSegments
     .map(
-      (segment, index) => `<section class="story-segment" aria-labelledby="segmento-${index + 1}">
-      <h2 id="segmento-${index + 1}">Parte ${index + 1}</h2>
+      (segment) => `<section class="story-segment">
 ${segment.paragraphs.map((paragraph) => `      <p>${escapeHtml(paragraph)}</p>`).join('\n')}
     </section>`
     )

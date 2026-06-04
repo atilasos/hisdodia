@@ -75,7 +75,9 @@
     "gallery": [
       "/recovered/0000/05/03/images/2h5stsjosnlijigxxxufsi2tbv4r2fyf/Imagens/icone.jpg",
       "/recovered/0000/05/03/images/6oqfewmbdm4dkinzshqmv2tu3yqz5ixv/Imagens/Background.jpg"
-    ]
+    ],
+    "rerecordedAudio": "/assets/05-03/narracao-tts.mp3",
+    "captions": "/assets/05-03/narracao-tts.vtt"
   },
   "recovery": {
     "text": "html-recovered",
@@ -83,16 +85,18 @@
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "html-text"
+    "completeness": "html-text",
+    "rerecordedAudio": "tts-pt-pt"
   },
   "provenance": {
     "storyPage": "/recovered/0000/05/03/html/gtjnfc4jk7wgy3d6iigsgqoyfmso5jrk/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/05/03/",
-    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   ]
 }

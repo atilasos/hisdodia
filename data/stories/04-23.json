@@ -106,7 +106,9 @@
       "/recovered/0000/04/23/images/kriezbq5yyn5otjmagrq5fobcoxswafr/propostas/jogo.jpg",
       "/recovered/0000/04/23/images/ql7l3xsjyjslcj7phszua67i4fvskzx4/propostas/actividades.jpg",
       "/recovered/0000/04/23/images/xfou7okdbzklb3cf53fhvq6laq5mgnww/propostas/quinta1.jpg"
-    ]
+    ],
+    "rerecordedAudio": "/assets/04-23/narracao-tts.mp3",
+    "captions": "/assets/04-23/narracao-tts.vtt"
   },
   "recovery": {
     "text": "html-recovered",
@@ -114,16 +116,18 @@
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "html-text"
+    "completeness": "html-text",
+    "rerecordedAudio": "tts-pt-pt"
   },
   "provenance": {
     "storyPage": "/recovered/0000/04/23/html/unhmoqspozuz2koq26szska5fatghs57/historia.aspx",
     "printPdf": "/recovered/0000/04/23/pdf/6a7zzyeiz2noy4cp2nxnoobnzukwvqiy/imprimir.pdf",
     "archiveDay": "/recovered/0000/04/23/",
-    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   ]
 }

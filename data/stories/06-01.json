@@ -146,7 +146,9 @@
       "/recovered/0000/06/01/images/ijvafqfuc24h6q6lviti6ifwfnyixfig/Propostas/unicef1.jpg",
       "/recovered/0000/06/01/images/y4jh7wd2lhquffvcb277sf5pzfjeoyu4/Propostas/recados.jpg",
       "/recovered/0000/06/01/images/z63oynuyfx7ukjb5rczgtsbxiu4ovh2b/Propostas/jogos.jpg"
-    ]
+    ],
+    "rerecordedAudio": "/assets/06-01/narracao-tts.mp3",
+    "captions": "/assets/06-01/narracao-tts.vtt"
   },
   "recovery": {
     "text": "html-recovered",
@@ -154,16 +156,18 @@
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "html-text"
+    "completeness": "html-text",
+    "rerecordedAudio": "tts-pt-pt"
   },
   "provenance": {
     "storyPage": "/recovered/0000/06/01/html/76o4vqxf757og7hbox7uyjcnj5z2zmug/historia.aspx",
     "printPdf": "/recovered/0000/06/01/pdf/qeimo2uwrqffit7s7234ihdb5f26us3b/imprimir.pdf",
     "archiveDay": "/recovered/0000/06/01/",
-    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo."
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   ]
 }
