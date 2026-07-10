@@ -2,6 +2,7 @@ import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   applyScenePlan,
+  buildCanonicalScenePrompt,
   completedOpening,
   validateScenePlan
 } from '../../src/illustration/edition.mjs';
@@ -16,8 +17,8 @@ function story() {
   };
 }
 
-function plan() {
-  return {
+function plan(source = story()) {
+  const result = {
     characters: [{ name: 'Rapaz', appearance: 'Cabelo escuro e casaco azul.' }],
     environment: 'Estrada rural luminosa.',
     palette: ['azul lavado', 'cinzento de carvão'],
@@ -29,7 +30,7 @@ function plan() {
         layout: 'opening',
         description: 'Encontro na estrada.',
         alt: 'Dois rapazes encontram-se numa estrada.',
-        prompt: 'Watercolour and pencil on warm paper; expressive children; no words, lettering, logos, or signatures.'
+        prompt: ''
       },
       {
         id: 'encontro',
@@ -37,7 +38,7 @@ function plan() {
         layout: 'marginal',
         description: 'Os rapazes discutem.',
         alt: 'Os dois rapazes discutem junto dos pais.',
-        prompt: 'Watercolour vignette; the same children argue; no words, lettering, logos, or signatures.'
+        prompt: ''
       },
       {
         id: 'abraco',
@@ -45,10 +46,15 @@ function plan() {
         layout: 'vignette',
         description: 'Todos se reconciliam.',
         alt: 'As duas famílias abraçam-se e riem.',
-        prompt: 'Watercolour vignette; the same families embrace; no words, lettering, logos, or signatures.'
+        prompt: ''
       }
     ]
   };
+  result.scenes = result.scenes.map((scene) => ({
+    ...scene,
+    prompt: buildCanonicalScenePrompt(source, scene)
+  }));
+  return result;
 }
 
 function planWithPrompt(prompt) {
@@ -79,14 +85,14 @@ describe('illustrated edition contract', () => {
   it('rejects explicit references to Cristina Malaquias', () => {
     assert.throws(
       () => validateScenePlan(story(), planWithPrompt('Watercolour by Cristina Malaquias; no words, lettering, logos, or signatures.')),
-      /specific artist/
+      /canonical scene prompt/
     );
   });
 
   it('rejects prompts without the exact negative clause', () => {
     assert.throws(
       () => validateScenePlan(story(), planWithPrompt('Watercolour vignette; no text.')),
-      /no words, lettering, logos, or signatures/
+      /canonical scene prompt/
     );
   });
 
@@ -107,10 +113,47 @@ describe('illustrated edition contract', () => {
     for (const prompt of prompts) {
       assert.throws(
         () => validateScenePlan(story(), planWithPrompt(prompt)),
-        /specific artist/,
+        /canonical scene prompt/,
         prompt
       );
     }
+  });
+
+  it('rejects every non-canonical prompt regardless of artist wording', () => {
+    const prompts = [
+      'Quentin Blake style; no words, lettering, logos, or signatures.',
+      'Use the visual language of an award-winning illustrator; no words, lettering, logos, or signatures.'
+    ];
+
+    for (const prompt of prompts) {
+      assert.throws(
+        () => validateScenePlan(story(), planWithPrompt(prompt)),
+        /canonical scene prompt/,
+        prompt
+      );
+    }
+  });
+
+  it('builds canonical prompts from original narrative without story credits', () => {
+    const source = {
+      ...story(),
+      author: 'Autora Reservada',
+      illustrator: 'Ilustrador Reservado'
+    };
+    const opening = buildCanonicalScenePrompt(source, {
+      ...plan().scenes[0],
+      description: 'Texto livre da descrição',
+      prompt: 'Texto livre do prompt'
+    });
+    const anchored = buildCanonicalScenePrompt(source, plan().scenes[1]);
+
+    assert.match(opening, /Primeiro parágrafo\./);
+    assert.match(anchored, /Segundo parágrafo\./);
+    assert.doesNotMatch(anchored, /Primeiro parágrafo\./);
+    assert.ok(anchored.endsWith('Do not imitate any named artist; no words, lettering, logos, or signatures.'));
+    assert.doesNotMatch(opening, /Autora Reservada|Ilustrador Reservado/);
+    assert.doesNotMatch(anchored, /Autora Reservada|Ilustrador Reservado/);
+    assert.doesNotMatch(opening, /Texto livre da descrição|Texto livre do prompt/);
   });
 
   it('allows the opening layout only on the first scene', () => {

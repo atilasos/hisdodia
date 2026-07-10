@@ -7,23 +7,37 @@ import {
   planStories,
   runLunaPlanner
 } from '../../src/illustration/plan-stories.mjs';
+import { buildCanonicalScenePrompt } from '../../src/illustration/edition.mjs';
 
 const root = 'tmp/illustration-planner';
 
 after(() => rm(root, { recursive: true, force: true }));
 
-function validPlan() {
+function fixtureStory() {
   return {
+    id: '01-01',
+    title: 'Teste',
+    textSegments: [{ paragraphs: ['Primeiro.', 'Segundo.'] }]
+  };
+}
+
+function validPlan(source = fixtureStory()) {
+  const result = {
     characters: [],
     environment: 'A village road.',
     palette: ['warm paper', 'soft blue'],
     recurringObjects: ['mill'],
     scenes: [
-      { id: 'opening', after: null, layout: 'opening', description: 'Opening.', alt: 'Opening scene.', prompt: 'Watercolour and pencil; no words, lettering, logos, or signatures.' },
-      { id: 'middle', after: { segment: 0, paragraph: 0 }, layout: 'marginal', description: 'Middle.', alt: 'Middle scene.', prompt: 'Small watercolour vignette; no words, lettering, logos, or signatures.' },
-      { id: 'ending', after: { segment: 0, paragraph: 1 }, layout: 'vignette', description: 'Ending.', alt: 'Ending scene.', prompt: 'Warm watercolour ending; no words, lettering, logos, or signatures.' }
+      { id: 'opening', after: null, layout: 'opening', description: 'Opening.', alt: 'Opening scene.', prompt: '' },
+      { id: 'middle', after: { segment: 0, paragraph: 0 }, layout: 'marginal', description: 'Middle.', alt: 'Middle scene.', prompt: '' },
+      { id: 'ending', after: { segment: 0, paragraph: 1 }, layout: 'vignette', description: 'Ending.', alt: 'Ending scene.', prompt: '' }
     ]
   };
+  result.scenes = result.scenes.map((scene) => ({
+    ...scene,
+    prompt: buildCanonicalScenePrompt(source, scene)
+  }));
+  return result;
 }
 
 function planWithPrompt(prompt) {
@@ -40,6 +54,16 @@ async function writeStory(directory, illustratedEdition) {
     textSegments: [{ paragraphs: ['Primeiro.', 'Segundo.'] }],
     assets: {},
     ...(illustratedEdition ? { illustratedEdition } : {})
+  }));
+}
+
+async function writeStoryWithId(directory, id) {
+  await mkdir(directory, { recursive: true });
+  await writeFile(`${directory}/${id}.json`, JSON.stringify({
+    id,
+    title: `Teste ${id}`,
+    textSegments: [{ paragraphs: ['Primeiro.', 'Segundo.'] }],
+    assets: {}
   }));
 }
 
@@ -139,35 +163,64 @@ describe('Luna planner', () => {
     );
   });
 
-  it('rejects unsafe plans before writing story or brief state', async () => {
+  it('overwrites different unsafe Luna prompts with the same canonical prompt', async () => {
     const prompts = [
-      ['Watercolour vignette; no text.', /no words, lettering, logos, or signatures/],
-      ['Watercolour by Beatrix Potter; no words, lettering, logos, or signatures.', /specific artist/],
-      ["Beatrix Potter's style; no words, lettering, logos, or signatures.", /specific artist/]
+      'Quentin Blake style; no words, lettering, logos, or signatures.',
+      'Use the visual language of Maurice Sendak; no words, lettering, logos, or signatures.'
     ];
+    const canonicalPrompts = [];
 
-    for (const [index, [prompt, error]] of prompts.entries()) {
-      const base = `${root}/unsafe-${index}`;
+    for (const [index, prompt] of prompts.entries()) {
+      const base = `${root}/canonical-${index}`;
       const directory = `${base}/stories`;
       await rm(base, { recursive: true, force: true });
       await writeStory(directory);
-      const original = await readFile(`${directory}/01-01.json`, 'utf8');
-
-      await assert.rejects(
-        () => planStories({
-          storyId: '01-01',
-          storiesDir: directory,
-          publicDir: `${base}/public`,
-          runPlanner: async () => planWithPrompt(prompt)
-        }),
-        error
-      );
-      assert.equal(await readFile(`${directory}/01-01.json`, 'utf8'), original);
-      await assert.rejects(
-        () => readFile(`${base}/public/assets/01-01/illustrated/brief.json`, 'utf8'),
-        { code: 'ENOENT' }
-      );
+      await planStories({
+        storyId: '01-01',
+        storiesDir: directory,
+        publicDir: `${base}/public`,
+        runPlanner: async () => planWithPrompt(prompt)
+      });
+      const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/brief.json`, 'utf8'));
+      canonicalPrompts.push(brief.scenes[1].prompt);
+      assert.doesNotMatch(brief.scenes[1].prompt, /Quentin Blake|Maurice Sendak/);
     }
+
+    assert.equal(canonicalPrompts[0], canonicalPrompts[1]);
+    assert.equal(
+      canonicalPrompts[0],
+      buildCanonicalScenePrompt({
+        id: '01-01',
+        title: 'Teste',
+        textSegments: [{ paragraphs: ['Primeiro.', 'Segundo.'] }]
+      }, validPlan().scenes[1])
+    );
+  });
+
+  it('selects month and all scopes in sorted sequential order', async () => {
+    const base = `${root}/scopes`;
+    const directory = `${base}/stories`;
+    await rm(base, { recursive: true, force: true });
+    for (const id of ['02-01', '01-02', '01-01']) await writeStoryWithId(directory, id);
+    const calls = [];
+    let active = 0;
+    let maxActive = 0;
+    const runPlanner = async (prompt) => {
+      active += 1;
+      maxActive = Math.max(maxActive, active);
+      calls.push(JSON.parse(prompt.slice(prompt.indexOf('{'))).id);
+      await new Promise((resolve) => setImmediate(resolve));
+      active -= 1;
+      return validPlan();
+    };
+
+    await planStories({ month: '01', storiesDir: directory, publicDir: `${base}/public`, runPlanner });
+    assert.deepEqual(calls, ['01-01', '01-02']);
+
+    calls.length = 0;
+    await planStories({ all: true, force: true, storiesDir: directory, publicDir: `${base}/public`, runPlanner });
+    assert.deepEqual(calls, ['01-01', '01-02', '02-01']);
+    assert.equal(maxActive, 1);
   });
 
   it('resumes forced replanning after either transaction write is interrupted', async () => {

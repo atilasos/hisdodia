@@ -13,7 +13,11 @@ import {
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import { applyScenePlan, validateScenePlan } from './edition.mjs';
+import {
+  applyScenePlan,
+  buildCanonicalScenePrompt,
+  validateScenePlan
+} from './edition.mjs';
 
 const DIRECTION = `Plan a contemporary illustrated edition of this Portuguese children's story as strict JSON.
 Choose three to six scenes, including exactly one opening first. Anchor every later scene after a zero-based segment and paragraph. Use observable media traits only: soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Keep characters, clothes, recurring objects, setting, and palette consistent within the story. Every image prompt must say: no words, lettering, logos, or signatures. Never name or imitate a specific artist. Alternative text must be concise European Portuguese.`;
@@ -122,7 +126,16 @@ export async function planStories(options = {}) {
       continue;
     }
 
-    const plan = await runPlanner(buildPlanningPrompt(story));
+    const returnedPlan = await runPlanner(buildPlanningPrompt(story));
+    const plan = {
+      ...returnedPlan,
+      scenes: Array.isArray(returnedPlan?.scenes)
+        ? returnedPlan.scenes.map((scene) => ({
+          ...scene,
+          prompt: buildCanonicalScenePrompt(story, scene)
+        }))
+        : returnedPlan?.scenes
+    };
     validateScenePlan(story, plan);
 
     const briefDir = path.join(publicDir, 'assets', story.id, 'illustrated');
