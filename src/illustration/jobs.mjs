@@ -17,7 +17,7 @@ import {
 } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { illustrationAssetDirectory } from './edition.mjs';
+import { illustrationAssetDirectory, validateStoryId } from './edition.mjs';
 
 const MAX_ATTEMPTS = 2;
 const MAX_BYTES = 204800;
@@ -110,7 +110,13 @@ async function writeJsonAtomically(filename, value) {
 
 function storyPathFor(options, storyId) {
   const storiesDir = options.storiesDir ?? 'data/stories';
-  return path.join(storiesDir, `${storyId}.json`);
+  return path.join(storiesDir, `${validateStoryId(storyId)}.json`);
+}
+
+function assertPersistedStoryId(story, expectedStoryId) {
+  if (story?.id !== expectedStoryId) {
+    throw new Error(`Story id mismatch: expected ${expectedStoryId}, found ${String(story?.id)}`);
+  }
 }
 
 function pathsFor(options, story) {
@@ -161,7 +167,9 @@ async function reconcileTechnicalError(files, story, options = {}) {
 }
 
 async function loadJob(options) {
-  const story = JSON.parse(await readFile(storyPathFor(options, options.storyId), 'utf8'));
+  const requestedStoryId = validateStoryId(options.storyId);
+  const story = JSON.parse(await readFile(storyPathFor(options, requestedStoryId), 'utf8'));
+  assertPersistedStoryId(story, requestedStoryId);
   const files = pathsFor(options, story);
   await reconcileTechnicalError(files, story, options);
   const scenes = story.illustratedEdition?.scenes;
@@ -236,6 +244,7 @@ async function safeRemoveWorkFile(workDir, candidatePath) {
 
 export async function nextIllustrationJob(options = {}) {
   validateMonth(options.month);
+  if (options.storyId !== undefined) validateStoryId(options.storyId);
   const storiesDir = options.storiesDir ?? 'data/stories';
   const workDir = options.workDir ?? 'tmp/illustrations';
   const filenames = (await readdir(storiesDir))
@@ -247,6 +256,7 @@ export async function nextIllustrationJob(options = {}) {
   for (const filename of filenames) {
     const storyPath = path.join(storiesDir, filename);
     const story = JSON.parse(await readFile(storyPath, 'utf8'));
+    assertPersistedStoryId(story, filename.slice(0, -5));
     if (story.illustratedEdition?.status !== 'generating') continue;
     const files = pathsFor(options, story);
     await reconcileTechnicalError(files, story, options);
@@ -419,6 +429,7 @@ export async function deferIllustrationJob(options) {
 
 export async function auditIllustrations(options = {}) {
   validateMonth(options.month);
+  if (options.storyId !== undefined) validateStoryId(options.storyId);
   const storiesDir = options.storiesDir ?? 'data/stories';
   const filenames = (await readdir(storiesDir))
     .filter((filename) => /^\d{2}-\d{2}\.json$/u.test(filename))
@@ -434,6 +445,7 @@ export async function auditIllustrations(options = {}) {
 
   for (const filename of filenames) {
     const story = JSON.parse(await readFile(path.join(storiesDir, filename), 'utf8'));
+    assertPersistedStoryId(story, filename.slice(0, -5));
     const edition = story.illustratedEdition;
     if (!edition) {
       problems.push(`${story.id}: missing illustrated edition`);

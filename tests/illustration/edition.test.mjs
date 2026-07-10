@@ -82,6 +82,15 @@ describe('illustrated edition contract', () => {
     }
   });
 
+  it('rejects every story id that is not exactly MM-DD before building an asset path', () => {
+    for (const storyId of [undefined, null, '', '1-01', '01-1', '001-01', '01-001', '../../outside', '01/01']) {
+      assert.throws(
+        () => illustrationAssetDirectory(storyId, '2'),
+        /storyId must be exactly MM-DD/u
+      );
+    }
+  });
+
   it('accepts three to six ordered scenes with valid paragraph anchors', () => {
     assert.equal(validateScenePlan(story(), plan()), true);
   });

@@ -68,6 +68,42 @@ async function seedV2() {
   );
 }
 
+async function makePersistedStoryIdMalicious({ terminal = false } = {}) {
+  const story = await readStory();
+  story.id = '../../outside';
+  if (terminal) {
+    story.illustratedEdition.status = 'complete';
+    story.illustratedEdition.scenes = story.illustratedEdition.scenes.map((scene) => ({
+      ...scene,
+      status: 'complete',
+      attempts: 1
+    }));
+  } else {
+    story.illustratedEdition.scenes[0].status = 'generating';
+  }
+  await writeFile(`${root}/stories/01-01.json`, JSON.stringify(story));
+}
+
+async function assertJobMutationRejectsMismatchedStoryId(operation) {
+  await seed();
+  await makePersistedStoryIdMalicious();
+  let inspections = 0;
+  let compressions = 0;
+  let writes = 0;
+  const guarded = {
+    ...jobOptions,
+    inspectFinalAssetImpl: async () => { inspections += 1; return inspectFakeAsset('missing'); },
+    compress: async () => { compressions += 1; },
+    writeJsonImpl: async () => { writes += 1; }
+  };
+
+  await assert.rejects(operation(guarded), /Story id mismatch: expected 01-01, found \.\.\/\.\.\/outside/u);
+  assert.equal(inspections, 0);
+  assert.equal(compressions, 0);
+  assert.equal(writes, 0);
+  await assert.rejects(stat(`${root}/outside`), { code: 'ENOENT' });
+}
+
 const readStory = async () => JSON.parse(await readFile(`${root}/stories/01-01.json`, 'utf8'));
 const readBrief = async () => JSON.parse(await readFile(`${root}/public/assets/01-01/illustrated/brief.json`, 'utf8'));
 const compress = async (_source, destination) => {
@@ -180,6 +216,105 @@ describe('illustration jobs', () => {
     const result = await auditIllustrations(jobOptions);
     assert.ok(result.problems.some((problem) => problem.includes('visual brief URL does not match art direction version')));
     assert.ok(result.problems.some((problem) => problem.includes('01-01/opening') && problem.includes('image URL does not match art direction version')));
+  });
+
+  it('rejects a persisted story id mismatch before complete side effects', async () => {
+    await assertJobMutationRejectsMismatchedStoryId((guarded) => completeIllustrationJob({
+      ...guarded,
+      storyId: '01-01',
+      sceneId: 'opening',
+      sourcePath: fixture
+    }));
+  });
+
+  it('rejects a persisted story id mismatch before fail side effects', async () => {
+    await assertJobMutationRejectsMismatchedStoryId((guarded) => failIllustrationJob({
+      ...guarded,
+      storyId: '01-01',
+      sceneId: 'opening',
+      message: 'failure'
+    }));
+  });
+
+  it('rejects a persisted story id mismatch before defer side effects', async () => {
+    await assertJobMutationRejectsMismatchedStoryId((guarded) => deferIllustrationJob({
+      ...guarded,
+      storyId: '01-01',
+      sceneId: 'opening'
+    }));
+  });
+
+  it('rejects a persisted story id mismatch before next inspects or writes assets', async () => {
+    await makePersistedStoryIdMalicious();
+    let inspections = 0;
+    let writes = 0;
+
+    await assert.rejects(
+      () => nextIllustrationJob({
+        ...jobOptions,
+        inspectFinalAssetImpl: async () => { inspections += 1; return inspectFakeAsset('missing'); },
+        writeJsonImpl: async () => { writes += 1; }
+      }),
+      /Story id mismatch: expected 01-01, found \.\.\/\.\.\/outside/u
+    );
+    assert.equal(inspections, 0);
+    assert.equal(writes, 0);
+    await assert.rejects(stat(`${root}/outside`), { code: 'ENOENT' });
+  });
+
+  it('rejects a persisted story id mismatch before audit inspects or writes assets', async () => {
+    await makePersistedStoryIdMalicious({ terminal: true });
+    let inspections = 0;
+    let writes = 0;
+
+    await assert.rejects(
+      () => auditIllustrations({
+        ...jobOptions,
+        inspectFinalAssetImpl: async () => { inspections += 1; return inspectFakeAsset('missing'); },
+        writeJsonImpl: async () => { writes += 1; }
+      }),
+      /Story id mismatch: expected 01-01, found \.\.\/\.\.\/outside/u
+    );
+    assert.equal(inspections, 0);
+    assert.equal(writes, 0);
+    await assert.rejects(stat(`${root}/outside`), { code: 'ENOENT' });
+  });
+
+  it('rejects an unsafe requested story id before loading a job file', async () => {
+    let inspections = 0;
+    let writes = 0;
+
+    await assert.rejects(
+      () => completeIllustrationJob({
+        ...jobOptions,
+        storyId: '../../outside',
+        sceneId: 'opening',
+        sourcePath: fixture,
+        inspectFinalAssetImpl: async () => { inspections += 1; return inspectFakeAsset('missing'); },
+        writeJsonImpl: async () => { writes += 1; }
+      }),
+      /storyId must be exactly MM-DD/u
+    );
+    assert.equal(inspections, 0);
+    assert.equal(writes, 0);
+  });
+
+  it('rejects an unsafe requested story scope before next or audit reads assets', async () => {
+    for (const operation of [nextIllustrationJob, auditIllustrations]) {
+      let inspections = 0;
+      let writes = 0;
+      await assert.rejects(
+        () => operation({
+          ...jobOptions,
+          storyId: '../../outside',
+          inspectFinalAssetImpl: async () => { inspections += 1; return inspectFakeAsset('missing'); },
+          writeJsonImpl: async () => { writes += 1; }
+        }),
+        /storyId must be exactly MM-DD/u
+      );
+      assert.equal(inspections, 0);
+      assert.equal(writes, 0);
+    }
   });
 
   it('counts technical failures, stops after two, and completes with a failed non-opening scene', async () => {

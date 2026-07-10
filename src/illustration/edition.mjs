@@ -29,7 +29,15 @@ const UNSAFE_DESCRIPTION_PATTERNS = [
   /\b(?:desconsidera|esquece|ignora|ignorar)\b[\s\S]{0,120}\b(?:emular|emule|imitar|imite)\b/iu,
 ];
 
+export function validateStoryId(storyId) {
+  if (typeof storyId !== 'string' || !/^\d{2}-\d{2}$/u.test(storyId)) {
+    throw new Error('storyId must be exactly MM-DD');
+  }
+  return storyId;
+}
+
 export function illustrationAssetDirectory(storyId, artDirectionVersion) {
+  validateStoryId(storyId);
   if (typeof artDirectionVersion !== 'string' || !/^[1-9]\d*$/u.test(artDirectionVersion)) {
     throw new Error('artDirectionVersion must be a positive decimal string');
   }
