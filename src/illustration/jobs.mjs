@@ -17,7 +17,11 @@ import {
 } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { illustrationAssetDirectory, validateStoryId } from './edition.mjs';
+import {
+  assertStoryIdMatches,
+  illustrationAssetDirectory,
+  validateStoryId
+} from './edition.mjs';
 
 const MAX_ATTEMPTS = 2;
 const MAX_BYTES = 204800;
@@ -113,12 +117,6 @@ function storyPathFor(options, storyId) {
   return path.join(storiesDir, `${validateStoryId(storyId)}.json`);
 }
 
-function assertPersistedStoryId(story, expectedStoryId) {
-  if (story?.id !== expectedStoryId) {
-    throw new Error(`Story id mismatch: expected ${expectedStoryId}, found ${String(story?.id)}`);
-  }
-}
-
 function pathsFor(options, story) {
   const publicDir = options.publicDir ?? 'src/site/public';
   const assetDirectory = illustrationAssetDirectory(
@@ -169,7 +167,7 @@ async function reconcileTechnicalError(files, story, options = {}) {
 async function loadJob(options) {
   const requestedStoryId = validateStoryId(options.storyId);
   const story = JSON.parse(await readFile(storyPathFor(options, requestedStoryId), 'utf8'));
-  assertPersistedStoryId(story, requestedStoryId);
+  assertStoryIdMatches(story, requestedStoryId);
   const files = pathsFor(options, story);
   await reconcileTechnicalError(files, story, options);
   const scenes = story.illustratedEdition?.scenes;
@@ -256,7 +254,7 @@ export async function nextIllustrationJob(options = {}) {
   for (const filename of filenames) {
     const storyPath = path.join(storiesDir, filename);
     const story = JSON.parse(await readFile(storyPath, 'utf8'));
-    assertPersistedStoryId(story, filename.slice(0, -5));
+    assertStoryIdMatches(story, filename.slice(0, -5));
     if (story.illustratedEdition?.status !== 'generating') continue;
     const files = pathsFor(options, story);
     await reconcileTechnicalError(files, story, options);
@@ -445,7 +443,7 @@ export async function auditIllustrations(options = {}) {
 
   for (const filename of filenames) {
     const story = JSON.parse(await readFile(path.join(storiesDir, filename), 'utf8'));
-    assertPersistedStoryId(story, filename.slice(0, -5));
+    assertStoryIdMatches(story, filename.slice(0, -5));
     const edition = story.illustratedEdition;
     if (!edition) {
       problems.push(`${story.id}: missing illustrated edition`);

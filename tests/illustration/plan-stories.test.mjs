@@ -2,7 +2,7 @@ import { after, describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 import { execFile } from 'node:child_process';
 import { writeFileSync } from 'node:fs';
-import { mkdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, rename, rm, stat, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { promisify } from 'node:util';
 import {
@@ -82,7 +82,43 @@ function failingAtomicWriter(failAfter) {
   };
 }
 
+async function assertPlanningRejectsPersistedStoryId(storedId, fixtureName) {
+  const base = `${root}/identity-${fixtureName}`;
+  const storiesDir = `${base}/stories`;
+  const publicDir = `${base}/public`;
+  await rm(base, { recursive: true, force: true });
+  await mkdir(storiesDir, { recursive: true });
+  await writeFile(`${storiesDir}/01-01.json`, JSON.stringify({
+    ...fixtureStory(),
+    id: storedId
+  }));
+  let plannerCalls = 0;
+  let writes = 0;
+
+  await assert.rejects(
+    () => planStories({
+      storyId: '01-01',
+      storiesDir,
+      publicDir,
+      runPlanner: async () => { plannerCalls += 1; return validPlan(); },
+      writeJsonImpl: async () => { writes += 1; }
+    }),
+    new RegExp(`Story id mismatch: expected 01-01, found ${storedId.replaceAll('.', '\\.').replaceAll('/', '\\/')}`, 'u')
+  );
+  assert.equal(plannerCalls, 0);
+  assert.equal(writes, 0);
+  await assert.rejects(stat(`${publicDir}/assets`), { code: 'ENOENT' });
+}
+
 describe('Luna planner', () => {
+  it('rejects a selected story whose persisted valid id differs from its filename', async () => {
+    await assertPlanningRejectsPersistedStoryId('02-02', 'valid-mismatch');
+  });
+
+  it('rejects a selected story whose persisted id is a traversal string', async () => {
+    await assertPlanningRejectsPersistedStoryId('../../outside', 'traversal');
+  });
+
   it('uses a Codex-compatible nullable after schema', async () => {
     const schemaPath = fileURLToPath(new URL('../../src/illustration/scene-plan.schema.json', import.meta.url));
     const schema = JSON.parse(await readFile(schemaPath, 'utf8'));

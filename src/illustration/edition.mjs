@@ -36,6 +36,13 @@ export function validateStoryId(storyId) {
   return storyId;
 }
 
+export function assertStoryIdMatches(story, expectedStoryId) {
+  validateStoryId(expectedStoryId);
+  if (story?.id !== expectedStoryId) {
+    throw new Error(`Story id mismatch: expected ${expectedStoryId}, found ${String(story?.id)}`);
+  }
+}
+
 export function illustrationAssetDirectory(storyId, artDirectionVersion) {
   validateStoryId(storyId);
   if (typeof artDirectionVersion !== 'string' || !/^[1-9]\d*$/u.test(artDirectionVersion)) {

@@ -16,6 +16,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import {
   ART_DIRECTION_VERSION,
   applyScenePlan,
+  assertStoryIdMatches,
   buildCanonicalScenePrompt,
   illustrationAssetDirectory,
   PLANNING_MODEL,
@@ -239,6 +240,7 @@ export async function planStories(options = {}) {
   for (const filename of filenames) {
     const storyPath = path.join(storiesDir, filename);
     const story = JSON.parse(await readFile(storyPath, 'utf8'));
+    assertStoryIdMatches(story, filename.slice(0, -5));
     if (story.illustratedEdition && story.illustratedEdition.status !== 'planning' && !force) {
       skipped.push(story.id);
       continue;
