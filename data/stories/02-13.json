@@ -114,7 +114,7 @@
     "icon": null,
     "printPdf": null,
     "originalAudioSwf": "/recovered/0000/02/13/audio/5b8aeb200fa3a3acd27986d0/dois.swf",
-    "recoveredAudio": null,
+    "recoveredAudio": "/assets/02-13/narracao-original-recuperada.mp3",
     "gallery": [],
     "rerecordedAudio": "/assets/02-13/narracao-tts.mp3",
     "captions": "/assets/02-13/narracao-tts.vtt"
@@ -123,7 +123,7 @@
     "text": "html-recovered",
     "illustration": "missing",
     "originalAudio": "archive-swf-reference",
-    "recoveredAudio": "missing",
+    "recoveredAudio": "recovered-flash-audio",
     "pdf": "missing",
     "completeness": "html-text",
     "rerecordedAudio": "openai-gpt-4o-mini-tts-marin"
@@ -132,7 +132,7 @@
     "storyPage": "/recovered/0000/02/13/html/wspzajzroqntsvdpouzw72m7dis5mty2/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/02/13/",
-    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo. A narração é o áudio original, recuperado do ficheiro Flash (dois.swf) preservado pelo Arquivo.pt (captura de 2008-02-19) e convertido para MP3."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",

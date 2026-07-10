@@ -1,0 +1,25 @@
+{
+  "id": "10-21",
+  "pattern": "sons.historiadodia.pt/10/21/*.swf",
+  "captures": 1,
+  "recoveredAudio": true,
+  "finalAudio": "data/audio-recovery/10-21/10-21-recovered.mp3",
+  "segments": [
+    {
+      "original": "http://sons.historiadodia.pt/10/21/dois.swf",
+      "timestamp": "20081022160249",
+      "archive": "arquivo.pt",
+      "replayUrl": "https://arquivo.pt/wayback/20081022160249id_/http://sons.historiadodia.pt/10/21/dois.swf",
+      "swfPath": "data/audio-recovery/10-21/swf/dois.swf",
+      "audio": {
+        "hasAudio": true,
+        "hasDefineSound": false,
+        "hasSoundStreamHead": true,
+        "defineSounds": 0,
+        "soundStreamHeads": 1,
+        "soundStreamBlocks": 2347
+      },
+      "mp3Path": "data/audio-recovery/10-21/extracted/dois.mp3"
+    }
+  ]
+}

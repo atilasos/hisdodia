@@ -221,7 +221,7 @@
     "icon": "/recovered/0000/06/10/images/t3koaycv6io7d2dzjnmycczwn37nnpic/Imagens/Background.jpg",
     "printPdf": null,
     "originalAudioSwf": "/recovered/0000/06/10/audio/35d1ff4fcbbc4397e77d8833/um.swf",
-    "recoveredAudio": null,
+    "recoveredAudio": "/assets/06-10/narracao-original-recuperada.mp3",
     "gallery": [
       "/recovered/0000/06/10/images/145885eb732951fca20ec043/propostas/camoes2.jpg",
       "/recovered/0000/06/10/images/1ac771b18b2899cd597315f9/imagens/background.jpg",
@@ -239,7 +239,7 @@
     "text": "html-recovered",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
-    "recoveredAudio": "missing",
+    "recoveredAudio": "recovered-flash-audio",
     "pdf": "missing",
     "completeness": "html-text",
     "rerecordedAudio": "openai-gpt-4o-mini-tts-coral"
@@ -248,7 +248,7 @@
     "storyPage": "/recovered/0000/06/10/html/2z7qmcuyctjv2remuy776huy6kd2vtil/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/06/10/",
-    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo. A narração é o áudio original, recuperado do ficheiro Flash (dois.swf) preservado pelo Arquivo.pt (captura de 2007-06-26) e convertido para MP3."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",

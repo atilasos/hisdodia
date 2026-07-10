@@ -50,7 +50,7 @@
     "icon": "/recovered/0000/12/08/images/njngszzrk37n72oczdj5wvhxf4vgcgdv/Imagens/icone.jpg",
     "printPdf": "/recovered/0000/12/08/pdf/iodo4fk3wqbiaaktvucc5nygmwjao3ft/imprimir.pdf",
     "originalAudioSwf": "/recovered/0000/12/08/audio/kio7zt5owf6vqvblsvpoddw4h34kg72y/dois.swf",
-    "recoveredAudio": null,
+    "recoveredAudio": "/assets/12-08/narracao-original-recuperada.mp3",
     "gallery": [],
     "rerecordedAudio": "/assets/12-08/narracao-tts.mp3",
     "captions": "/assets/12-08/narracao-tts.vtt"
@@ -59,7 +59,7 @@
     "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
-    "recoveredAudio": "missing",
+    "recoveredAudio": "recovered-flash-audio",
     "pdf": "archive-original",
     "completeness": "complete-pdf-text",
     "rerecordedAudio": "openai-gpt-4o-mini-tts-cedar"
@@ -68,7 +68,7 @@
     "storyPage": "/recovered/0000/12/08/html/4fhtgxrfdbrjuijlomrjzo4docwxze75/historia.aspx",
     "printPdf": "/recovered/0000/12/08/pdf/iodo4fk3wqbiaaktvucc5nygmwjao3ft/imprimir.pdf",
     "archiveDay": "/recovered/0000/12/08/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto. A narração é o áudio original, recuperado do ficheiro Flash (dois.swf) preservado pelo Arquivo.pt (captura de 2007-07-24) e convertido para MP3."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",

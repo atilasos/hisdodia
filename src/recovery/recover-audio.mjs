@@ -1,4 +1,4 @@
-import { cp, mkdir, writeFile } from 'node:fs/promises';
+import { cp, mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fetchCdx } from './cdx.mjs';
 import { audioSwfPattern, audioSwfPrefix, extractAudioFromSwf, inspectSwfAudio } from './swf-audio.mjs';
@@ -25,6 +25,9 @@ export function segmentSortKey(value) {
 }
 
 export function captureReplayUrl(capture) {
+  if (capture.archive === 'arquivo.pt') {
+    return `https://arquivo.pt/wayback/${capture.timestamp}id_/${capture.original}`;
+  }
   return `https://web.archive.org/web/${capture.timestamp}id_/${capture.original}`;
 }
 
@@ -91,7 +94,7 @@ async function concatMp3Segments(segmentPaths, outPath) {
   return outPath;
 }
 
-export async function recoverDayAudio({ month, day, outDir = 'data/audio-recovery' }) {
+export async function recoverDayAudio({ month, day, outDir = 'data/audio-recovery', captures: providedCaptures }) {
   const id = `${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
   const dayDir = path.join(outDir, id);
   const swfDir = path.join(dayDir, 'swf');
@@ -99,9 +102,11 @@ export async function recoverDayAudio({ month, day, outDir = 'data/audio-recover
   await mkdir(swfDir, { recursive: true });
   await mkdir(extractedDir, { recursive: true });
 
-  const captures = selectAudioCaptures(
-    await fetchCdx(audioSwfPrefix({ month, day }), { matchType: 'prefix', collapse: false })
-  );
+  const captures = providedCaptures
+    ? selectAudioCaptures(providedCaptures.map((capture) => ({ statuscode: '200', ...capture })))
+    : selectAudioCaptures(
+        await fetchCdx(audioSwfPrefix({ month, day }), { matchType: 'prefix', collapse: false })
+      );
   const extractedSegments = [];
   const segmentReports = [];
 
@@ -113,6 +118,8 @@ export async function recoverDayAudio({ month, day, outDir = 'data/audio-recover
     const segmentReport = {
       original: capture.original,
       timestamp: capture.timestamp,
+      archive: capture.archive ?? 'web.archive.org',
+      replayUrl: captureReplayUrl(capture),
       swfPath,
       audio
     };
@@ -154,9 +161,22 @@ function parseDay(value) {
   return { month: Number(match[1]), day: Number(match[2]) };
 }
 
+async function readCapturesManifest(filePath, id) {
+  const manifest = JSON.parse(await readFile(filePath, 'utf8'));
+  const captures = Array.isArray(manifest) ? manifest : manifest[id];
+  if (!captures?.length) {
+    throw new Error(`No captures for ${id} in ${filePath}`);
+  }
+  return captures;
+}
+
 if (import.meta.url === `file://${process.argv[1]}`) {
   const dayArg = process.argv[process.argv.indexOf('--day') + 1];
   const day = parseDay(dayArg);
+  const capturesIndex = process.argv.indexOf('--captures');
+  if (capturesIndex >= 0) {
+    day.captures = await readCapturesManifest(process.argv[capturesIndex + 1], dayArg);
+  }
   const manifest = await recoverDayAudio(day);
   console.log(JSON.stringify(manifest, null, 2));
 }

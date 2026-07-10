@@ -81,7 +81,7 @@
     "icon": "/recovered/0000/06/09/images/qllbl7wqh65kqjhcln5rhox3a2tx6svw/Imagens/Background.jpg",
     "printPdf": "/recovered/0000/06/09/pdf/ussdmwkuifgfq2qgo6te7r3kibaiesws/imprimir.pdf",
     "originalAudioSwf": "/recovered/0000/06/09/audio/6bde169448c9f46e3094f46f/dois.swf",
-    "recoveredAudio": null,
+    "recoveredAudio": "/assets/06-09/narracao-original-recuperada.mp3",
     "gallery": [
       "/recovered/0000/06/09/images/244822ac593b4c90758aa182/propostas/aquariofilia.jpg",
       "/recovered/0000/06/09/images/b2b59362460f877d28f77ec3/imagens/background.jpg",
@@ -97,7 +97,7 @@
     "text": "html-recovered",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
-    "recoveredAudio": "missing",
+    "recoveredAudio": "recovered-flash-audio",
     "pdf": "archive-original",
     "completeness": "html-text",
     "rerecordedAudio": "openai-gpt-4o-mini-tts-coral"
@@ -106,7 +106,7 @@
     "storyPage": "/recovered/0000/06/09/html/vryb2zuyaydtdfs42rpfdx2j6yhjdwf2/historia.aspx",
     "printPdf": "/recovered/0000/06/09/pdf/ussdmwkuifgfq2qgo6te7r3kibaiesws/imprimir.pdf",
     "archiveDay": "/recovered/0000/06/09/",
-    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo. A narração é o áudio original, recuperado do ficheiro Flash (dois.swf) preservado pelo Arquivo.pt (captura de 2007-06-26) e convertido para MP3."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",

@@ -46,7 +46,7 @@
     "icon": "/recovered/0000/03/11/images/tchbssniyekbwveasy3suikiugqn475c/Imagens/entrada.jpg",
     "printPdf": "/recovered/0000/03/11/pdf/5nplagt4gydkii2fv4ru5h23od72uneh/imprimir.pdf",
     "originalAudioSwf": "/recovered/0000/03/11/audio/o3wso23wvwhk7z655hgn4efmyqal4ajq/um.swf",
-    "recoveredAudio": null,
+    "recoveredAudio": "/assets/03-11/narracao-original-recuperada.mp3",
     "gallery": [
       "/recovered/0000/03/11/images/umfjkdk6kz5edwkryy6dgm33puqmmb5n/Propostas/museu.jpg",
       "/recovered/0000/03/11/images/wd5475jxhzqsp2pypgstf23vqcxwdzzj/Propostas/prato.jpg"
@@ -58,7 +58,7 @@
     "text": "html-recovered",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
-    "recoveredAudio": "missing",
+    "recoveredAudio": "recovered-flash-audio",
     "pdf": "archive-original",
     "completeness": "html-text",
     "rerecordedAudio": "openai-gpt-4o-mini-tts-cedar"
@@ -67,7 +67,7 @@
     "storyPage": "/recovered/0000/03/11/html/q2gzdhasiccrbw4rexdqal65rw4dpqpd/historia.aspx",
     "printPdf": "/recovered/0000/03/11/pdf/5nplagt4gydkii2fv4ru5h23od72uneh/imprimir.pdf",
     "archiveDay": "/recovered/0000/03/11/",
-    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo. A narração é o áudio original, recuperado do ficheiro Flash (dois.swf) preservado pelo Arquivo.pt (captura de 2008-03-15) e convertido para MP3."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",

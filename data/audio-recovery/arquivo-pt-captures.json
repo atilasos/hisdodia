@@ -1,0 +1,33 @@
+{
+  "source": "Arquivo.pt CDX (https://arquivo.pt/wayback/cdx), inventário em tmp/arquivo-pt-inventory.json, consultado em 2026-07-10",
+  "02-13": [
+    { "original": "http://sons.historiadodia.pt/02/13/dois.swf", "timestamp": "20080219025105", "archive": "arquivo.pt", "digest": "J5OTVQLMPQFKGNUSWNQB6TSYKYCWB7VJ" }
+  ],
+  "03-11": [
+    { "original": "http://sons.historiadodia.pt/03/11/dois.swf", "timestamp": "20080315093124", "archive": "arquivo.pt", "digest": "YTIDMWR5KIAEORKLR3RDXZLXT53EOJ6N" }
+  ],
+  "03-12": [
+    { "original": "http://sons.historiadodia.pt/03/12/dois.swf", "timestamp": "20080315093150", "archive": "arquivo.pt", "digest": "FXFX4KMDXFLFCKJIMQFCZKYHKN4D4ZBR" }
+  ],
+  "06-09": [
+    { "original": "http://sons.historiadodia.pt/06/09/dois.swf", "timestamp": "20070626161206", "archive": "arquivo.pt", "digest": "HYPQSS5YSMO3P7GNGJU5BOD2JNTAXU6Z" }
+  ],
+  "06-10": [
+    { "original": "http://sons.historiadodia.pt/06/10/dois.swf", "timestamp": "20070626161300", "archive": "arquivo.pt", "digest": "QU6B3O73XIA6UC5E5EMEKEI37ZZP5DUA" }
+  ],
+  "07-06": [
+    { "original": "http://sons.historiadodia.pt/07/06/dois.swf", "timestamp": "20110704182730", "archive": "arquivo.pt", "digest": "MCKLGXONX2AZF3JAD2KM7P2LG3NXBZCH" }
+  ],
+  "07-15": [
+    { "original": "http://sons.historiadodia.pt/07/15/dois.swf", "timestamp": "20110704185054", "archive": "arquivo.pt", "digest": "DTGAJYPY26AIEGIPV5DJIKB6MPEBXWGI" }
+  ],
+  "10-20": [
+    { "original": "http://sons.historiadodia.pt/10/20/dois.swf", "timestamp": "20081022160218", "archive": "arquivo.pt", "digest": "3TBKNO4FFHBIQSKBACKV5OA6R2QJOQFQ" }
+  ],
+  "10-21": [
+    { "original": "http://sons.historiadodia.pt/10/21/dois.swf", "timestamp": "20081022160249", "archive": "arquivo.pt", "digest": "XU4HLHYTZU57263ANB3NNXXAVHCDCX7O" }
+  ],
+  "12-08": [
+    { "original": "http://sons.historiadodia.pt/12/08/dois.swf", "timestamp": "20070724132414", "archive": "arquivo.pt", "digest": "KIO7ZT5OWF6VQVBLSVPODDW4H34KG72Y" }
+  ]
+}

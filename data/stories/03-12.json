@@ -122,7 +122,7 @@
     "icon": "/recovered/0000/03/12/images/phhfyyi664v7vnseixtemqazldhtg34q/Imagens/icone.jpg",
     "printPdf": "/recovered/0000/03/12/pdf/qi3ayddhrv7ffpmuuqzbrrm4emtxfbwl/imprimir.pdf",
     "originalAudioSwf": "/recovered/0000/03/12/audio/adae79901692dfc096e398c3/um.swf",
-    "recoveredAudio": null,
+    "recoveredAudio": "/assets/03-12/narracao-original-recuperada.mp3",
     "gallery": [
       "/recovered/0000/03/12/images/0fb90ced4fba52d42eee04ed/imagens/entrada.jpg",
       "/recovered/0000/03/12/images/33bdaf9a82c3e0be578ae426/propostas/botaocarteira.jpg",
@@ -138,7 +138,7 @@
     "text": "html-recovered",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
-    "recoveredAudio": "missing",
+    "recoveredAudio": "recovered-flash-audio",
     "pdf": "archive-original",
     "completeness": "html-text",
     "rerecordedAudio": "openai-gpt-4o-mini-tts-marin"
@@ -147,7 +147,7 @@
     "storyPage": "/recovered/0000/03/12/html/eocd2bbte7ckzkgjqfokm52ofd3lmfmt/historia.aspx",
     "printPdf": "/recovered/0000/03/12/pdf/qi3ayddhrv7ffpmuuqzbrrm4emtxfbwl/imprimir.pdf",
     "archiveDay": "/recovered/0000/03/12/",
-    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo. A narração é o áudio original, recuperado do ficheiro Flash (dois.swf) preservado pelo Arquivo.pt (captura de 2008-03-15) e convertido para MP3."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",

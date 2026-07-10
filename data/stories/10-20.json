@@ -47,7 +47,7 @@
     "icon": "/recovered/0000/10/20/images/qlrrty6qg63edzozscrqtbflhdj3yi2n/Imagens/icone.jpg",
     "printPdf": "/recovered/0000/10/20/pdf/oye7pus4r45freiqqqhw3q6ddbvf7fmg/imprimir.pdf",
     "originalAudioSwf": "/recovered/0000/10/20/audio/3tbkno4ffhbiqskbackv5oa6r2qjoqfq/dois.swf",
-    "recoveredAudio": null,
+    "recoveredAudio": "/assets/10-20/narracao-original-recuperada.mp3",
     "gallery": [
       "/recovered/0000/10/20/images/c24ei3cpxnst4ijx64oqilb74xix4c5f/Propostas/sopa_ico.gif",
       "/recovered/0000/10/20/images/fwxkvc27dhylyie5s5wafplkzni3acyk/Propostas/pixel.gif",
@@ -62,7 +62,7 @@
     "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
-    "recoveredAudio": "missing",
+    "recoveredAudio": "recovered-flash-audio",
     "pdf": "archive-original",
     "completeness": "complete-pdf-text",
     "rerecordedAudio": "openai-gpt-4o-mini-tts-cedar"
@@ -71,7 +71,7 @@
     "storyPage": "/recovered/0000/10/20/html/tjawjmi2xu54kdekvppddljmxveedwb5/historia.aspx",
     "printPdf": "/recovered/0000/10/20/pdf/oye7pus4r45freiqqqhw3q6ddbvf7fmg/imprimir.pdf",
     "archiveDay": "/recovered/0000/10/20/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto. A narração é o áudio original, recuperado do ficheiro Flash (dois.swf) preservado pelo Arquivo.pt (captura de 2008-10-22) e convertido para MP3."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",

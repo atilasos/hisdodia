@@ -68,7 +68,7 @@
     "icon": "/recovered/0000/07/15/images/fj4d2ozmf4pdczmnkg6s7wmmzxxcfix4/Imagens/icone.jpg",
     "printPdf": "/recovered/0000/07/15/pdf/fpa26ydtajfjgpxnyx3tecl5y4s3tuaw/imprimir.pdf",
     "originalAudioSwf": "/recovered/0000/07/15/audio/0878937a4beccec2927c7874/um.swf",
-    "recoveredAudio": null,
+    "recoveredAudio": "/assets/07-15/narracao-original-recuperada.mp3",
     "gallery": [
       "/recovered/0000/07/15/images/22y2cdxrvaea4pxwjruy5wxuk6brs62k/Propostas/pulgas2.jpg",
       "/recovered/0000/07/15/images/fbd48ded142e7ce42596a282/propostas/pulgas2.jpg",
@@ -82,7 +82,7 @@
     "text": "html-recovered",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
-    "recoveredAudio": "missing",
+    "recoveredAudio": "recovered-flash-audio",
     "pdf": "archive-original",
     "completeness": "html-text",
     "rerecordedAudio": "openai-gpt-4o-mini-tts-cedar"
@@ -91,7 +91,7 @@
     "storyPage": "/recovered/0000/07/15/html/xkxayna35fsywqv26o3iqfqon64epwvm/historia.aspx",
     "printPdf": "/recovered/0000/07/15/pdf/fpa26ydtajfjgpxnyx3tecl5y4s3tuaw/imprimir.pdf",
     "archiveDay": "/recovered/0000/07/15/",
-    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo. A narração é o áudio original, recuperado do ficheiro Flash (dois.swf) preservado pelo Arquivo.pt (captura de 2011-07-04) e convertido para MP3."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",

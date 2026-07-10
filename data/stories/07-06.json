@@ -57,7 +57,7 @@
     "icon": "/recovered/0000/07/06/images/tp6rtf2uv4hgegfkf3g6oushal6brmrj/Imagens/icone.jpg",
     "printPdf": "/recovered/0000/07/06/pdf/dczh5k6g5dx2dwt3us7xfbkg2aefhnrv/imprimir.pdf",
     "originalAudioSwf": "/recovered/0000/07/06/audio/8990c5b0d7f27777983f66f7/um.swf",
-    "recoveredAudio": null,
+    "recoveredAudio": "/assets/07-06/narracao-original-recuperada.mp3",
     "gallery": [
       "/recovered/0000/07/06/images/am2xnvl2plgsa45jkwkjvjq4kybzytuz/Propostas/rio1.jpg",
       "/recovered/0000/07/06/images/dbtky33wkot67ce75j4hkq4eue4a6hok/Propostas/lua.jpg"
@@ -69,7 +69,7 @@
     "text": "html-recovered",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
-    "recoveredAudio": "missing",
+    "recoveredAudio": "recovered-flash-audio",
     "pdf": "archive-original",
     "completeness": "html-text",
     "rerecordedAudio": "openai-gpt-4o-mini-tts-cedar"
@@ -78,7 +78,7 @@
     "storyPage": "/recovered/0000/07/06/html/zvyf2nns5cav3xriqveuwhlye5liquah/historia.aspx",
     "printPdf": "/recovered/0000/07/06/pdf/dczh5k6g5dx2dwt3us7xfbkg2aefhnrv/imprimir.pdf",
     "archiveDay": "/recovered/0000/07/06/",
-    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
+    "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo. A narração é o áudio original, recuperado do ficheiro Flash (dois.swf) preservado pelo Arquivo.pt (captura de 2011-07-04) e convertido para MP3."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",

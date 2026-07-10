@@ -63,4 +63,15 @@ describe('recover audio helpers', () => {
       'https://web.archive.org/web/20081022160159id_/http://sons.historiadodia.pt/01/05/dois.swf'
     );
   });
+
+  it('formats id_ replay URLs for arquivo.pt captures', () => {
+    assert.equal(
+      captureReplayUrl({
+        timestamp: '20070724132414',
+        original: 'http://sons.historiadodia.pt/12/08/dois.swf',
+        archive: 'arquivo.pt'
+      }),
+      'https://arquivo.pt/wayback/20070724132414id_/http://sons.historiadodia.pt/12/08/dois.swf'
+    );
+  });
 });
