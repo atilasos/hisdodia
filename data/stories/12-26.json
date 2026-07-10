@@ -90,7 +90,7 @@
     "recoveredAudio": "missing",
     "pdf": "archive-original",
     "completeness": "html-text",
-    "rerecordedAudio": "tts-pt-pt"
+    "rerecordedAudio": "openai-gpt-4o-mini-tts-cedar"
   },
   "provenance": {
     "storyPage": "/recovered/0000/12/26/html/gddu6yq7mpsgecvy4mw3g45jqris5wbb/historia.aspx",

@@ -59,7 +59,7 @@
     "recoveredAudio": "missing",
     "pdf": "archive-original",
     "completeness": "html-text",
-    "rerecordedAudio": "tts-pt-pt"
+    "rerecordedAudio": "openai-gpt-4o-mini-tts-marin"
   },
   "provenance": {
     "storyPage": "/recovered/0000/12/30/html/ofy5ed4a2gt62fvxhmy6xxf6hpjp7y4n/historia.aspx",

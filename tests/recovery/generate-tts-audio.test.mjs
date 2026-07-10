@@ -4,6 +4,8 @@ import {
   applySyntheticAudioMetadata,
   narrationTextForStory,
   needsSyntheticAudio,
+  selectOpenAiVoice,
+  shouldReplaceSyntheticAudio,
   vttForStory
 } from '../../src/recovery/generate-tts-audio.mjs';
 
@@ -32,6 +34,36 @@ describe('generate TTS audio helpers', () => {
       textSegments: [{ paragraphs: ['Texto'] }],
       assets: { rerecordedAudio: '/assets/01-01/narracao-raquel.mp3' }
     }), false);
+  });
+
+  it('selects synthetic audio replacements without touching recovered original audio', () => {
+    assert.equal(shouldReplaceSyntheticAudio({
+      recovery: { text: 'html-recovered' },
+      textSegments: [{ paragraphs: ['Texto'] }],
+      assets: { rerecordedAudio: '/assets/01-01/narracao-tts.mp3' }
+    }), true);
+
+    assert.equal(shouldReplaceSyntheticAudio({
+      recovery: { text: 'html-recovered' },
+      textSegments: [{ paragraphs: ['Texto'] }],
+      assets: {
+        recoveredAudio: '/assets/01-05/narracao-original-recuperada.mp3',
+        rerecordedAudio: '/assets/01-05/narracao-tts.mp3'
+      }
+    }), false);
+
+    assert.equal(shouldReplaceSyntheticAudio({
+      recovery: { text: 'pending-extraction' },
+      textSegments: [{ paragraphs: ['Texto'] }],
+      assets: { rerecordedAudio: '/assets/03-01/narracao-tts.mp3' }
+    }), false);
+  });
+
+  it('selects a stable OpenAI voice from the story id', () => {
+    const story = { id: '08-20' };
+
+    assert.equal(selectOpenAiVoice(story), selectOpenAiVoice(story));
+    assert.match(selectOpenAiVoice(story), /^(cedar|marin|coral|nova|fable|shimmer)$/);
   });
 
   it('builds narration text without segment labels', () => {

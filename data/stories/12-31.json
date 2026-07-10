@@ -137,7 +137,7 @@
     "recoveredAudio": "missing",
     "pdf": "archive-original",
     "completeness": "html-text",
-    "rerecordedAudio": "tts-pt-pt"
+    "rerecordedAudio": "openai-gpt-4o-mini-tts-coral"
   },
   "provenance": {
     "storyPage": "/recovered/0000/12/31/html/fmg5pjpledbner2hfjkjrtdz5hv4wpus/historia.aspx",

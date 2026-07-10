@@ -84,7 +84,7 @@
     "recoveredAudio": "missing",
     "pdf": "missing",
     "completeness": "html-text",
-    "rerecordedAudio": "tts-pt-pt"
+    "rerecordedAudio": "openai-gpt-4o-mini-tts-nova"
   },
   "provenance": {
     "storyPage": "/recovered/0000/07/18/html/ow25wkzsj3zb3zeggsvbf7czo2whywcu/historia.aspx",

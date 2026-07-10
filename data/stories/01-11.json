@@ -60,8 +60,8 @@
     "originalAudioSwf": null,
     "recoveredAudio": null,
     "gallery": [],
-    "rerecordedAudio": "/assets/01-11/narracao-tts.mp3",
-    "captions": "/assets/01-11/narracao-tts.vtt"
+    "rerecordedAudio": "/assets/01-11/narracao-openai-cedar.mp3",
+    "captions": "/assets/01-11/narracao-openai-cedar.vtt"
   },
   "recovery": {
     "text": "html-recovered",
@@ -70,7 +70,7 @@
     "recoveredAudio": "missing",
     "pdf": "archive-original",
     "completeness": "html-text",
-    "rerecordedAudio": "tts-pt-pt"
+    "rerecordedAudio": "openai-gpt-4o-mini-tts-cedar"
   },
   "provenance": {
     "storyPage": "/recovered/0000/01/11/html/ufkw36lzlbobs3leovky3bq72yrwj33s/historia.aspx",

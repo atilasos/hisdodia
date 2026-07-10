@@ -119,7 +119,7 @@
     "recoveredAudio": "missing",
     "pdf": "missing",
     "completeness": "html-text",
-    "rerecordedAudio": "tts-pt-pt"
+    "rerecordedAudio": "openai-gpt-4o-mini-tts-coral"
   },
   "provenance": {
     "storyPage": "/recovered/0000/05/28/html/krijwoa4dj36f6djhritjd23tbla34cf/historia.aspx",

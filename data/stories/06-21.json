@@ -71,7 +71,7 @@
     "recoveredAudio": "missing",
     "pdf": "archive-original",
     "completeness": "html-text",
-    "rerecordedAudio": "tts-pt-pt"
+    "rerecordedAudio": "openai-gpt-4o-mini-tts-fable"
   },
   "provenance": {
     "storyPage": "/recovered/0000/06/21/html/kp35zlmq53zn7dwgykd2at5eu3g3zelm/historia.aspx",

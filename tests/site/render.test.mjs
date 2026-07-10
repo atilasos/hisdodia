@@ -31,7 +31,7 @@ describe('renderSite', () => {
     assert.doesNotMatch(story, /Parte 1/);
     assert.doesNotMatch(story, /Parte 2/);
     assert.match(story, /Narração sintetizada em pt-PT/);
-    assert.match(story, /narracao-raquel\.mp3/);
+    assert.match(story, /narracao-tts\.mp3/);
     assert.match(story, /kind="captions"/);
     assert.match(homepage, /src="\/assets\/01-01\/illustration-original\.jpg"/);
     assert.match(story, /href="\/assets\/01-01\/imprimir\.pdf"/);

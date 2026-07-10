@@ -77,7 +77,7 @@
     "recoveredAudio": "missing",
     "pdf": "missing",
     "completeness": "html-text",
-    "rerecordedAudio": "tts-pt-pt"
+    "rerecordedAudio": "openai-gpt-4o-mini-tts-shimmer"
   },
   "provenance": {
     "storyPage": "/recovered/0000/09/01/html/vy22ydycdcsibxyfnjzvamqbttzeu5vd/historia.aspx",

@@ -114,7 +114,7 @@
     "recoveredAudio": "missing",
     "pdf": "archive-original",
     "completeness": "html-text",
-    "rerecordedAudio": "tts-pt-pt"
+    "rerecordedAudio": "openai-gpt-4o-mini-tts-shimmer"
   },
   "provenance": {
     "storyPage": "/recovered/0000/01/18/html/r6vgb3smy5gax5na7c4zavkknfwyxwbx/historia.aspx",

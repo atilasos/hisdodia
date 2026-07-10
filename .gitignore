@@ -1,6 +1,7 @@
 dist/
 tmp/
 data/tts/
+.env
 .superpowers/
 .omx/logs/
 .DS_Store
