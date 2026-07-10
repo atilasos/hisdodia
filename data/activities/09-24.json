@@ -1,0 +1,78 @@
+{
+  "id": "09-24",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "verde",
+          "syllables": [
+            "ver",
+            "de"
+          ]
+        },
+        {
+          "word": "amarelo",
+          "syllables": [
+            "a",
+            "ma",
+            "re",
+            "lo"
+          ]
+        },
+        {
+          "word": "dona",
+          "syllables": [
+            "do",
+            "na"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "amado",
+          "syllables": [
+            "a",
+            "ma",
+            "do"
+          ]
+        },
+        {
+          "word": "dedo",
+          "syllables": [
+            "de",
+            "do"
+          ]
+        },
+        {
+          "word": "dever",
+          "syllables": [
+            "de",
+            "ver"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "verde",
+          "b": "verde"
+        },
+        {
+          "a": "amarelo",
+          "b": "amarelo"
+        },
+        {
+          "a": "dona",
+          "b": "dona"
+        }
+      ]
+    }
+  ]
+}

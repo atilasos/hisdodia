@@ -4,14 +4,39 @@
   "day": 20,
   "dateLabel": "20 de Maio",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 20 de Maio",
+  "title": "Três Espigas",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Três espigas encontram-se à beira da mesma mó. Uma de centeio, outra de trigo e a terceira, uma grande espiga de milho.",
+        "Todas muito antipáticas umas para as outras.",
+        "Dizia o trigo para o centeio:",
+        "– Chega-te para lá, centeio centeiaço",
+        "que tu não fazes",
+        "as funções que eu faço.",
+        "Ao que o centeio lhe respondia:",
+        "– Cala-te lá, trigo espadanudo que tu não acodes",
+        "ao que eu acudo.",
+        "Mas o espigão de milho era o mais ralhão:",
+        "– Caluda! Tudo caluda!",
+        "Vocês não são",
+        "como eu graúdas,",
+        "vocês não são",
+        "como eu barbudas,",
+        "vocês não são",
+        "como eu folhudas,",
+        "vocês não são",
+        "como eu rabudas.",
+        "Calem-se lá, espigas miúdas",
+        "suas choninhas, suas lingrinhas,",
+        "suas fuinhas, caras bicudas,",
+        "comigo não fazem vocês farinha!",
+        "As outras iam para responder, mas a mó pôs-se a trabalhar...",
+        "E não é que a farinha delas e de outras mais, de centeio, de trigo e milho, foi parar a uma padaria – veja-se a coincidência! – especializada, precisamente, em belos pães de mistura?",
+        "Provei um, ainda quente, barrado com manteiga. Estava óptimo!"
       ]
     }
   ],
@@ -27,22 +52,22 @@
     ]
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/05/20/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

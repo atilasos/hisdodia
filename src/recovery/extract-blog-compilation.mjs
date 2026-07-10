@@ -19,6 +19,11 @@ const HIGH_SIMILARITY_THRESHOLD = 0.82;
 const CROSS_VALIDATION_GATE = 0.9;
 const PROVENANCE_NOTE = 'Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado.';
 const EDITORIAL_NOTE = 'Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado.';
+const FEBRUARY_24_DISCREPANCY_NOTE = 'Na listagem mensal original preservada pelo Arquivo.pt, o dia 24 de Fevereiro surgia associado a «Uma História de Encantar com Batatas». A compilação republicada pelo blogue em 2019-2020 identifica explicitamente «O Espelhinho» como «24 de Fevereiro»; por isso, o título e o texto aqui apresentados seguem essa republicação, ficando registada a discrepância entre as fontes.';
+const CONFIRMED_TITLES = new Map([
+  ['02-23', 'QUEM É O REI?'],
+  ['05-20', 'TRÊS ESPIGAS']
+]);
 const MONTHS = [
   { month: 1, monthName: 'Janeiro', file: '01-janeiro.pdf', days: 31 },
   { month: 2, monthName: 'Fevereiro', file: '02-fevereiro.pdf', days: 29 },
@@ -36,7 +41,7 @@ const MONTHS = [
 const LOWERCASE_TITLE_WORDS = new Set([
   'a', 'as', 'o', 'os', 'e', 'de', 'da', 'das', 'do', 'dos',
   'em', 'na', 'nas', 'no', 'nos', 'com', 'sem', 'para', 'por',
-  'ao', 'aos', 'à', 'às', 'um', 'uma'
+  'ao', 'aos', 'à', 'às', 'um', 'uma', 'é'
 ]);
 const FOOTER_LINE = /^(?:\d+|©\s*APENA\s*[-–]\s*APDD.*|Cofinanciado\b.*|www\.hugoteacher\.blogspot\.com)$/iu;
 const LOST_GENERATED_NOTE = /(?:\s*Não foi encontrada uma fonte local com o texto original recuperável\.|\s*O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido\.)/gu;
@@ -210,6 +215,47 @@ export function cleanBlogStory(story) {
     };
   });
   return stitchPdfPageSegments(pageSegments).flatMap((segment) => segment.paragraphs);
+}
+
+function isShortLine(paragraph) {
+  return [...String(paragraph ?? '').trim()].length <= 80;
+}
+
+function isCompleteSentence(paragraph) {
+  return /[.!?…]["»”')\]]?$/u.test(String(paragraph ?? '').trim());
+}
+
+function isVerseLine(paragraphs, index) {
+  if (!/^(?:["“«']\s*)?\p{Ll}/u.test(String(paragraphs[index] ?? '').trim())) return false;
+  let start = index;
+  let end = index;
+  while (start > 0 && isShortLine(paragraphs[start - 1])) start -= 1;
+  while (end + 1 < paragraphs.length && isShortLine(paragraphs[end + 1])) end += 1;
+  const block = paragraphs.slice(start, end + 1);
+  const lowercaseLines = block.filter((line) => /^(?:["“«']\s*)?\p{Ll}/u.test(String(line).trim())).length;
+  return block.length >= 2
+    && block.filter((paragraph) => !isCompleteSentence(paragraph)).length >= 2
+    && (lowercaseLines >= 2 || block.some((line) => isUppercaseTitleLine(String(line).trim())));
+}
+
+function isEnumeratedItem(paragraph) {
+  return /^(?:\p{Ll}|\d+)[.)]\s+\p{L}/u.test(String(paragraph ?? '').trim());
+}
+
+export function validateBlogParagraphs(paragraphs) {
+  const validation = validateParagraphs(paragraphs);
+  const issues = validation.issues.filter((entry) => entry.code !== 'invalid-start'
+    || (!isVerseLine(paragraphs, entry.paragraphIndex)
+      && !isEnumeratedItem(paragraphs[entry.paragraphIndex])));
+  return { valid: issues.length === 0, issues };
+}
+
+export function selectConfirmedTitleStory(stories, confirmedTitle) {
+  const matches = stories.filter((story) => normalizeComparable(story.titleRaw) === normalizeComparable(confirmedTitle));
+  if (matches.length !== 1) {
+    throw new Error(`Confirmed title not found exactly once: ${confirmedTitle}`);
+  }
+  return matches[0];
 }
 
 function tokenSimilarity(left, right) {
@@ -386,7 +432,14 @@ function withProvenanceNote(notes) {
   return `${base}${base ? ' ' : ''}${PROVENANCE_NOTE}`;
 }
 
-function recoveredStory(story, compilationStory, paragraphs) {
+export function recoveredStory(story, compilationStory, paragraphs) {
+  let editorialNotes = appendUnique(
+    (story.editorialNotes ?? []).filter((note) => !LOST_EDITORIAL_NOTE.test(note)),
+    EDITORIAL_NOTE
+  );
+  if (story.id === '02-24') {
+    editorialNotes = appendUnique(editorialNotes, FEBRUARY_24_DISCREPANCY_NOTE);
+  }
   return {
     ...story,
     ...(!story.dayContext && compilationStory.dayContext
@@ -403,10 +456,7 @@ function recoveredStory(story, compilationStory, paragraphs) {
       ...story.provenance,
       notes: withProvenanceNote(story.provenance?.notes)
     },
-    editorialNotes: appendUnique(
-      (story.editorialNotes ?? []).filter((note) => !LOST_EDITORIAL_NOTE.test(note)),
-      EDITORIAL_NOTE
-    )
+    editorialNotes
   };
 }
 
@@ -454,6 +504,11 @@ export async function extractBlogCompilation(options = {}) {
         ...story,
         paragraphs: cleanBlogStory(story)
       });
+    }
+    for (const [id, confirmedTitle] of CONFIRMED_TITLES) {
+      if (!id.startsWith(`${String(month.month).padStart(2, '0')}-`)) continue;
+      const story = selectConfirmedTitleStory(deduplicated, confirmedTitle);
+      extractedById.set(id, { ...story, paragraphs: cleanBlogStory(story) });
     }
     monthDiagnostics.push({
       month: month.month,
@@ -516,7 +571,7 @@ export async function extractBlogCompilation(options = {}) {
       notRecovered.push({ id, reason: 'missing-from-pdf' });
       continue;
     }
-    const validation = validateParagraphs(extracted.paragraphs);
+    const validation = validateBlogParagraphs(extracted.paragraphs);
     if (!validation.valid) {
       notRecovered.push({
         id,

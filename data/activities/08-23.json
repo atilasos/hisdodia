@@ -1,0 +1,121 @@
+{
+  "id": "08-23",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "sombra",
+          "distractors": [
+            "senhor",
+            "sempre",
+            "velho"
+          ],
+          "sentence": "Isto explicava ele a si próprio ou à sua própria sombra, pois não tinha mais ninguém com quem conversar."
+        },
+        {
+          "target": "senhor",
+          "distractors": [
+            "sombra",
+            "sempre",
+            "velho"
+          ],
+          "sentence": "O senhor Marcolino já tinha uma certa idade."
+        },
+        {
+          "target": "sempre",
+          "distractors": [
+            "sombra",
+            "senhor",
+            "velho"
+          ],
+          "sentence": "Claro que, sempre que tinha necessidade saía da cama e não descurava os seus hábitos de higiene."
+        },
+        {
+          "target": "velho",
+          "distractors": [
+            "sombra",
+            "senhor",
+            "sempre"
+          ],
+          "sentence": "Outros diriam que o senhor Marcolino era um velho, mas se ele, um dia, vier a ler esta história, talvez não goste de assim ser tratado."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "sombra",
+          "syllables": [
+            "som",
+            "bra"
+          ]
+        },
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "nunca",
+          "syllables": [
+            "nun",
+            "ca"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cabra",
+          "syllables": [
+            "ca",
+            "bra"
+          ]
+        },
+        {
+          "word": "seca",
+          "syllables": [
+            "se",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "sombra",
+          "b": "sombra"
+        },
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "sempre",
+          "b": "sempre"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O senhor Marcolino já tinha uma certa idade.",
+        "Isto explicava ele a si próprio ou à sua própria sombra, pois não tinha mais ninguém com quem conversar.",
+        "Então vai passear e deixa-me em paz – arreliou-se o senhor Marcolino, farto daquela sombra pespontona.",
+        "Pôs-se a andar ao acaso por largos e praças batidas pelo sol.",
+        "Nunca mais se separaram e viveram sempre muito felizes."
+      ]
+    }
+  ]
+}

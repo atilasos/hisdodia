@@ -4,14 +4,27 @@
   "day": 23,
   "dateLabel": "23 de Fevereiro",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 23 de Fevereiro",
+  "title": "Quem é o Rei?",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "O velho leão acordou mal disposto. Para desanuviar o corpo e o espírito saiu da gruta e, majestosamente, foi dar o seu passeio matinal.",
+        "Encontrou um leopardo e perguntou-lhe:",
+        "– Ouve lá, ó tu, quem é o rei da selva?",
+        "O leopardo, a tremer, respondeu:",
+        "– És tu, poderoso leão.",
+        "Depois, encontrou uma hiena e perguntou-lhe:",
+        "– Ouve lá, ó tu, quem é o rei da selva?",
+        "– És tu, poderoso leão – respondeu a hiena, atarantada.",
+        "Mais adiante, encontrou um gato do mato e perguntou-lhe:",
+        "– Ouve lá, ó tu, quem é o rei da selva?",
+        "– És tu, poderoso leão – respondeu o gato do mato, num grande pânico.",
+        "A seguir, encontrou um enorme elefante e fez-lhe a mesma pergunta. O elefante nem lhe respondeu. Enrolou-o com a tromba e atirou-o de encontro a uma árvore. Meio desfeito com o embate, todo amachucado, o leão levantou-se com dificuldade e queixou-se:",
+        "– Há bichos que são mesmos brutos. Lá porque não sabia responder, pedia-me para eu lhe fazer outra pergunta. Perguntar não ofende e não saber não é vergonha.",
+        "Mas o elefante já ia longe e não o ouviu."
       ]
     }
   ],
@@ -25,22 +38,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/02/23/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

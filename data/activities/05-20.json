@@ -1,8 +1,112 @@
 {
   "id": "05-20",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "trigo",
+          "distractors": [
+            "vocês",
+            "milho",
+            "três"
+          ],
+          "sentence": "Uma de centeio, outra de trigo e a terceira, uma grande espiga de milho."
+        },
+        {
+          "target": "milho",
+          "distractors": [
+            "vocês",
+            "trigo",
+            "três"
+          ],
+          "sentence": "E não é que a farinha delas e de outras mais, de centeio, de trigo e milho, foi parar a uma padaria – veja-se a coincidência!"
+        },
+        {
+          "target": "espigas",
+          "distractors": [
+            "farinha",
+            "terceira",
+            "grande"
+          ],
+          "sentence": "Três espigas encontram-se à beira da mesma mó."
+        },
+        {
+          "target": "responder",
+          "distractors": [
+            "terceira",
+            "ralhão",
+            "barbudas"
+          ],
+          "sentence": "As outras iam para responder, mas a mó pôs-se a trabalhar..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "vocês",
+          "syllables": [
+            "vo",
+            "cês"
+          ]
+        },
+        {
+          "word": "milho",
+          "syllables": [
+            "mi",
+            "lho"
+          ]
+        },
+        {
+          "word": "acodes",
+          "syllables": [
+            "a",
+            "co",
+            "des"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "alho",
+          "syllables": [
+            "a",
+            "lho"
+          ]
+        },
+        {
+          "word": "comi",
+          "syllables": [
+            "co",
+            "mi"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "vocês",
+          "b": "vocês"
+        },
+        {
+          "a": "trigo",
+          "b": "trigo"
+        },
+        {
+          "a": "milho",
+          "b": "milho"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +116,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Três espigas encontram-se à beira da mesma mó.",
+        "Todas muito antipáticas umas para as outras.",
+        "As outras iam para responder, mas a mó pôs-se a trabalhar...",
+        "E não é que a farinha delas e de outras mais, de centeio, de trigo e milho, foi parar a uma padaria – veja-se a coincidência!",
+        "Provei um, ainda quente, barrado com manteiga."
+      ]
     }
   ]
 }

@@ -1,0 +1,123 @@
+{
+  "id": "02-23",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "leão",
+          "distractors": [
+            "selva",
+            "leopardo",
+            "gato"
+          ],
+          "sentence": "És tu, poderoso leão – respondeu a hiena, atarantada."
+        },
+        {
+          "target": "encontrou",
+          "distractors": [
+            "respondeu",
+            "poderoso",
+            "elefante"
+          ],
+          "sentence": "A seguir, encontrou um enorme elefante e fez-lhe a mesma pergunta."
+        },
+        {
+          "target": "respondeu",
+          "distractors": [
+            "encontrou",
+            "poderoso",
+            "elefante"
+          ],
+          "sentence": "És tu, poderoso leão – respondeu o gato do mato, num grande pânico."
+        },
+        {
+          "target": "elefante",
+          "distractors": [
+            "encontrou",
+            "respondeu",
+            "poderoso"
+          ],
+          "sentence": "Mas o elefante já ia longe e não o ouviu."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "leão",
+          "syllables": [
+            "le",
+            "ão"
+          ]
+        },
+        {
+          "word": "encontrou",
+          "syllables": [
+            "en",
+            "con",
+            "trou"
+          ]
+        },
+        {
+          "word": "respondeu",
+          "syllables": [
+            "res",
+            "pon",
+            "deu"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "entrou",
+          "syllables": [
+            "en",
+            "trou"
+          ]
+        },
+        {
+          "word": "leres",
+          "syllables": [
+            "le",
+            "res"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "leão",
+          "b": "leão"
+        },
+        {
+          "a": "encontrou",
+          "b": "encontrou"
+        },
+        {
+          "a": "respondeu",
+          "b": "respondeu"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Para desanuviar o corpo e o espírito saiu da gruta e, majestosamente, foi dar o seu passeio matinal.",
+        "És tu, poderoso leão – respondeu a hiena, atarantada.",
+        "A seguir, encontrou um enorme elefante e fez-lhe a mesma pergunta.",
+        "Lá porque não sabia responder, pedia-me para eu lhe fazer outra pergunta.",
+        "Mas o elefante já ia longe e não o ouviu."
+      ]
+    }
+  ]
+}
