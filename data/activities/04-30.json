@@ -1,0 +1,128 @@
+{
+  "id": "04-30",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "vela",
+          "distractors": [
+            "chama",
+            "cera",
+            "única"
+          ],
+          "sentence": "Era uma vela, uma única vela que alumiava debilmente um quarto."
+        },
+        {
+          "target": "alguém",
+          "distractors": [
+            "chama",
+            "inútil",
+            "ladrão"
+          ],
+          "sentence": "Podia ter sido o minúsculo farol que ajudasse alguém a ir ter com alguém, mas nenhum vulto quis pegar no meu castiçal solitário."
+        },
+        {
+          "target": "chama",
+          "distractors": [
+            "vela",
+            "alguém",
+            "inútil"
+          ],
+          "sentence": "Em vão, porque a minha chama não deu luz a nada que merecesse a pena."
+        },
+        {
+          "target": "inútil",
+          "distractors": [
+            "alguém",
+            "chama",
+            "ladrão"
+          ],
+          "sentence": "Não fosse ter-se apagado a vela, que se julgava inútil, e a história teria sido diferente."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "vela",
+          "syllables": [
+            "ve",
+            "la"
+          ]
+        },
+        {
+          "word": "alguém",
+          "syllables": [
+            "al",
+            "guém"
+          ]
+        },
+        {
+          "word": "chama",
+          "syllables": [
+            "cha",
+            "ma"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "alma",
+          "syllables": [
+            "al",
+            "ma"
+          ]
+        },
+        {
+          "word": "chave",
+          "syllables": [
+            "cha",
+            "ve"
+          ]
+        },
+        {
+          "word": "mala",
+          "syllables": [
+            "ma",
+            "la"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "vela",
+          "b": "vela"
+        },
+        {
+          "a": "alguém",
+          "b": "alguém"
+        },
+        {
+          "a": "chama",
+          "b": "chama"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vela, uma única vela que alumiava debilmente um quarto.",
+        "Podia ter sido o minúsculo farol que ajudasse alguém a ir ter com alguém, mas nenhum vulto quis pegar no meu castiçal solitário.",
+        "Era um ladrão, que, guiado pela luz da vela, se preparava para levantar a tampa de uma arca que guardaria, decerto, algum tesouro.",
+        "O ladrão sobressaltou-se e, sem luz para guiá-lo, tropeçou numa esteira, que deslocou uma cadeira, que tombou sobre uma prateleira…",
+        "Não fosse ter-se apagado a vela, que se julgava inútil, e a história teria sido diferente."
+      ]
+    }
+  ]
+}

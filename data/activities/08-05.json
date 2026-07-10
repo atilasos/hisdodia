@@ -1,0 +1,140 @@
+{
+  "id": "08-05",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "corvo",
+          "distractors": [
+            "pombos",
+            "pedra",
+            "festa"
+          ],
+          "sentence": "Convidaram para a festa todos os animais de asas e penas, mas esqueceram-se do corvo."
+        },
+        {
+          "target": "pombos",
+          "distractors": [
+            "corvo",
+            "pedra",
+            "festa"
+          ],
+          "sentence": "Um dia, a família dos pombos resolveu dar um banquete."
+        },
+        {
+          "target": "pedra",
+          "distractors": [
+            "corvo",
+            "pombos",
+            "festa"
+          ],
+          "sentence": "E, como era vingativo, agarrou numa grande pedra e sobrevoou, lá muito do alto, a mesa da festança."
+        },
+        {
+          "target": "festa",
+          "distractors": [
+            "corvo",
+            "pombos",
+            "pedra"
+          ],
+          "sentence": "Ah, o culpado pelo estardalhaço que interrompeu a festa foi o corvo?"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "corvo",
+          "syllables": [
+            "cor",
+            "vo"
+          ]
+        },
+        {
+          "word": "pombos",
+          "syllables": [
+            "pom",
+            "bos"
+          ]
+        },
+        {
+          "word": "convidado",
+          "syllables": [
+            "con",
+            "vi",
+            "da",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "corda",
+          "syllables": [
+            "cor",
+            "da"
+          ]
+        },
+        {
+          "word": "dado",
+          "syllables": [
+            "da",
+            "do"
+          ]
+        },
+        {
+          "word": "vida",
+          "syllables": [
+            "vi",
+            "da"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "corvo",
+          "b": "corvo"
+        },
+        {
+          "a": "pombos",
+          "b": "pombos"
+        },
+        {
+          "a": "pedra",
+          "b": "pedra"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/08/05/images/xqaluapal7ghomlqtxihbc5y2v36ns7m/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Um dia, a família dos pombos resolveu dar um banquete.",
+        "Empoleirado no galho de uma faia, o corvo assistiu à confusão que provocara e fartou-se de rir.",
+        "Dias depois, a família dos pombos convidou o corvo para um jantar de gala.",
+        "Lá estava, dentro de uma enorme terrina, o pedregulho que o corvo atirara.",
+        "E o corvo passou o jantar às bicadas à pedra."
+      ]
+    }
+  ]
+}

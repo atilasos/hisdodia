@@ -1,0 +1,139 @@
+{
+  "id": "01-27",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "galinha",
+          "distractors": [
+            "gato",
+            "ganso",
+            "chamou"
+          ],
+          "sentence": "A galinha ruiva achou umas espigas de trigo."
+        },
+        {
+          "target": "trigo",
+          "distractors": [
+            "gato",
+            "ganso",
+            "porco"
+          ],
+          "sentence": "Então semeio eu o trigo - disse a galinha ruiva."
+        },
+        {
+          "target": "comer",
+          "distractors": [
+            "trigo",
+            "gato",
+            "ganso"
+          ],
+          "sentence": "Pois então vocês não me ajudarão a comer o pão."
+        },
+        {
+          "target": "ceifo",
+          "distractors": [
+            "trigo",
+            "gato",
+            "ganso"
+          ],
+          "sentence": "Então ceifo eu o trigo - disse a galinha ruiva."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "galinha",
+          "syllables": [
+            "ga",
+            "li",
+            "nha"
+          ]
+        },
+        {
+          "word": "trigo",
+          "syllables": [
+            "tri",
+            "go"
+          ]
+        },
+        {
+          "word": "gato",
+          "syllables": [
+            "ga",
+            "to"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "ganha",
+          "syllables": [
+            "ga",
+            "nha"
+          ]
+        },
+        {
+          "word": "liga",
+          "syllables": [
+            "li",
+            "ga"
+          ]
+        },
+        {
+          "word": "linha",
+          "syllables": [
+            "li",
+            "nha"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "galinha",
+          "b": "galinha"
+        },
+        {
+          "a": "trigo",
+          "b": "trigo"
+        },
+        {
+          "a": "gato",
+          "b": "gato"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/01/27/images/oryip4bf7tc5wnqk3uqarm247hchpexc/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "A galinha ruiva achou umas espigas de trigo.",
+        "Então ceifo eu o trigo - disse a galinha ruiva.",
+        "Então faço eu o pão - disse a galinha ruiva.",
+        "E a galinha ruiva amassou o pão, que ficou muito bem amassado, e cozeu-o no forno, muito bem cozido.",
+        "E a galinha ruiva e os pintainhos comeram o pão."
+      ]
+    }
+  ]
+}

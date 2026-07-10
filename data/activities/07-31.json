@@ -1,0 +1,139 @@
+{
+  "id": "07-31",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "coelho",
+          "distractors": [
+            "velho",
+            "coelhos",
+            "horta"
+          ],
+          "sentence": "Mas não te chegues - aconselhava-o o coelho mais velho."
+        },
+        {
+          "target": "velho",
+          "distractors": [
+            "coelho",
+            "mato",
+            "novo"
+          ],
+          "sentence": "O Esteves não é para brincadeiras - gritava-lhe, já de longe, o coelho mais velho."
+        },
+        {
+          "target": "mato",
+          "distractors": [
+            "velho",
+            "novo",
+            "horta"
+          ],
+          "sentence": "Dois coelhos do mato miravam, a uma respeitável distância, a horta do senhor Esteves."
+        },
+        {
+          "target": "coelhos",
+          "distractors": [
+            "coelho",
+            "alfaces",
+            "coelhinho"
+          ],
+          "sentence": "Vida espinhosa a dos coelhos do mato, sobretudo a dos que não seguem os conselhos dos mais sabedores."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "coelho",
+          "syllables": [
+            "co",
+            "e",
+            "lho"
+          ]
+        },
+        {
+          "word": "velho",
+          "syllables": [
+            "ve",
+            "lho"
+          ]
+        },
+        {
+          "word": "mato",
+          "syllables": [
+            "ma",
+            "to"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "coma",
+          "syllables": [
+            "co",
+            "ma"
+          ]
+        },
+        {
+          "word": "toco",
+          "syllables": [
+            "to",
+            "co"
+          ]
+        },
+        {
+          "word": "toma",
+          "syllables": [
+            "to",
+            "ma"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "coelho",
+          "b": "coelho"
+        },
+        {
+          "a": "velho",
+          "b": "velho"
+        },
+        {
+          "a": "mato",
+          "b": "mato"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/07/31/images/jfn2jyansrcriaaih3ssh2onq4kpimn4/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Dois coelhos do mato miravam, a uma respeitável distância, a horta do senhor Esteves.",
+        "O mais velho, a internar-se no mato e a ouvir um estampido.",
+        "Ou já estaria a ser esfolado, para, daí a pouco, entrar na panela, onde a cebola e o azeite faziam fe, fe, fe, na cantoria do refogado?",
+        "Quando fores da minha idade, também vais ter para contar aos mais novos - dizia-lhe o velho companheiro, enquanto com ervas frescas lhe…",
+        "O que a nós nos vale é que o Esteves continua sem pontaria, senão nem sobrava um coelho que avisasse os mais novos - concluiu o velho…"
+      ]
+    }
+  ]
+}

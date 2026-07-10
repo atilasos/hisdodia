@@ -1,0 +1,145 @@
+{
+  "id": "02-15",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "lobos",
+          "distractors": [
+            "lobinhos",
+            "igual",
+            "trégua"
+          ],
+          "sentence": "As ovelhas e os lobos, que andavam em guerra, resolveram fazer uma trégua na luta."
+        },
+        {
+          "target": "ovelhas",
+          "distractors": [
+            "lobinhos",
+            "trégua",
+            "pastor"
+          ],
+          "sentence": "Para que a trégua durasse até culminar numa paz duradoira, os lobos entregavam à guarda das ovelhas os seus lobinhos e exigiam, em…"
+        },
+        {
+          "target": "lobinhos",
+          "distractors": [
+            "lobos",
+            "ovelhas",
+            "animais"
+          ],
+          "sentence": "Não lhes faremos mal nenhum, porque se o fizéssemos e regressássemos à guerra, vocês vingavam-se nos nossos lobinhos."
+        },
+        {
+          "target": "igual",
+          "distractors": [
+            "lobos",
+            "trégua",
+            "assim"
+          ],
+          "sentence": "Pela mesma altura, os lobinhos, que já estavam lobos crescidos, fizeram igual razia , no rebanho das ovelhas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "lobos",
+          "syllables": [
+            "lo",
+            "bos"
+          ]
+        },
+        {
+          "word": "ovelhas",
+          "syllables": [
+            "o",
+            "ve",
+            "lhas"
+          ]
+        },
+        {
+          "word": "lobinhos",
+          "syllables": [
+            "lo",
+            "bi",
+            "nhos"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "bilhas",
+          "syllables": [
+            "bi",
+            "lhas"
+          ]
+        },
+        {
+          "word": "velhas",
+          "syllables": [
+            "ve",
+            "lhas"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "lobos",
+          "b": "lobos"
+        },
+        {
+          "a": "ovelhas",
+          "b": "ovelhas"
+        },
+        {
+          "a": "lobinhos",
+          "b": "lobinhos"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "prólogos",
+          "b": "pequenos discursos que antecedem as obras escritas / prefácios / preâmbulos"
+        },
+        {
+          "a": "reféns",
+          "b": "prisioneiros que ficam em poder do inimigo como garantia do cumprimento de um acordo"
+        },
+        {
+          "a": "correnteza",
+          "b": "fileira / decurso"
+        },
+        {
+          "a": "razia",
+          "b": "destruição completa"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Esta história custa a contar, mas há histórias assim, tristes, que servem de lição e aviso, para que não voltem a repetir-se os…",
+        "Esta, no princípio, foi contada por uma ovelha ao primeiro de todos os pastores.",
+        "Para que a trégua durasse até culminar numa paz duradoira, os lobos entregavam à guarda das ovelhas os seus lobinhos e exigiam, em…",
+        "Quando, gordos que estavam, os cordeiros se transformaram em belos carneiros e formosas ovelhas, os lobos saltaram sobre eles e comeram-nos.",
+        "Mas a partir dela nunca mais nenhuma ovelha nem nenhum bicho pacífico quis ter negócios com lobos."
+      ]
+    }
+  ]
+}

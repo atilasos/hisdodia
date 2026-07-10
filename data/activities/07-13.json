@@ -1,0 +1,133 @@
+{
+  "id": "07-13",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "imitavam",
+          "distractors": [
+            "animais",
+            "falavam",
+            "propunha"
+          ],
+          "sentence": "Os lobos imitavam a voz dos homens, os homens imitavam a voz dos lobos, os cães imitavam a voz dos donos, os gatos imitavam a voz dos…"
+        },
+        {
+          "target": "bichos",
+          "distractors": [
+            "corvo",
+            "burro",
+            "animais"
+          ],
+          "sentence": "Como, no fim de contas, ninguém tirava vantagens desta situação, porque se está mesmo a ver que a fala dos bichos só servia para eles se…"
+        },
+        {
+          "target": "corvo",
+          "distractors": [
+            "bichos",
+            "burro",
+            "cães"
+          ],
+          "sentence": "Quanto à nova voz atribuída a cada animal que se informassem junto do corvo."
+        },
+        {
+          "target": "burro",
+          "distractors": [
+            "bichos",
+            "corvo",
+            "cães"
+          ],
+          "sentence": "Na clareira, defronte do palácio real, só ficara o burro, de orelhas caídas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "imitavam",
+          "syllables": [
+            "i",
+            "mi",
+            "ta",
+            "vam"
+          ]
+        },
+        {
+          "word": "bichos",
+          "syllables": [
+            "bi",
+            "chos"
+          ]
+        },
+        {
+          "word": "corvo",
+          "syllables": [
+            "cor",
+            "vo"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "corta",
+          "syllables": [
+            "cor",
+            "ta"
+          ]
+        },
+        {
+          "word": "tachos",
+          "syllables": [
+            "ta",
+            "chos"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "imitavam",
+          "b": "imitavam"
+        },
+        {
+          "a": "bichos",
+          "b": "bichos"
+        },
+        {
+          "a": "corvo",
+          "b": "corvo"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/07/13/images/zyewczva6qk5irww7uu4cj3ebb5uomup/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "No tempo em que os animais falavam nem calculam a confusão que era!",
+        "O discurso do leão, por ser muito grande, não cabe aqui.",
+        "A assembleia desfez-se e a bicharada em bicha foi saber do corvo qual a voz que lhe tinha sido atribuída.",
+        "Na clareira, defronte do palácio real, só ficara o burro, de orelhas caídas.",
+        "Por isso, como não sabe a voz que lhe coube, o papagaio imita, repete, experimenta, arremeda as outras vozes."
+      ]
+    }
+  ]
+}

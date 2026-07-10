@@ -1,0 +1,140 @@
+{
+  "id": "09-01",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "macaco",
+          "distractors": [
+            "macacos",
+            "mesa",
+            "navalha"
+          ],
+          "sentence": "Vocês conhecem a história daquele macaco que do rabo fez navalha, da navalha fez sardinha, da sardinha fez farinha, da farinha fez…"
+        },
+        {
+          "target": "macacos",
+          "distractors": [
+            "macaco",
+            "mesa",
+            "conhecem"
+          ],
+          "sentence": "Macacos é o que mais há em África, embora com viola às costas, pelo meio da selva, não seja muito frequente."
+        },
+        {
+          "target": "mesa",
+          "distractors": [
+            "macaco",
+            "macacos",
+            "menina"
+          ],
+          "sentence": "E, ao fim de calcorrear muita terra, empregou-se, já não sei onde, como criado de mesa."
+        },
+        {
+          "target": "talvez",
+          "distractors": [
+            "macaco",
+            "macacos",
+            "navalha"
+          ],
+          "sentence": "Talvez tenha sido por isso, para não dar nas vistas, que ele abandonou a música."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "macaco",
+          "syllables": [
+            "ma",
+            "ca",
+            "co"
+          ]
+        },
+        {
+          "word": "macacos",
+          "syllables": [
+            "ma",
+            "ca",
+            "cos"
+          ]
+        },
+        {
+          "word": "mesa",
+          "syllables": [
+            "me",
+            "sa"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cacos",
+          "syllables": [
+            "ca",
+            "cos"
+          ]
+        },
+        {
+          "word": "cama",
+          "syllables": [
+            "ca",
+            "ma"
+          ]
+        },
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "macaco",
+          "b": "macaco"
+        },
+        {
+          "a": "macacos",
+          "b": "macacos"
+        },
+        {
+          "a": "mesa",
+          "b": "mesa"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/09/01/images/oqj2ot32iwgzkbnx5xt73lou3znhpln2/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Vocês conhecem a história daquele macaco que do rabo fez navalha, da navalha fez sardinha, da sardinha fez farinha, da farinha fez…",
+        "Andou a conhecer o resto de África, não como turista, mas como macaco.",
+        "De casaca lustrosa, calças de risquinha, muito bem vincadas, meias de seda e sapatos de polimento, o macaco Umbelino era um criado de…",
+        "O Umbelino, que era macaco e obediente, ao ouvir aquilo dos macacos me mordam, mordeu.",
+        "Tem uma letra um bocado esquisita, parecem macacos à solta, mas eu entendo-o."
+      ]
+    }
+  ]
+}

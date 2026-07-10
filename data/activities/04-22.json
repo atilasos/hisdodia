@@ -1,0 +1,140 @@
+{
+  "id": "04-22",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "mulheres",
+          "distractors": [
+            "maridos",
+            "sabinas",
+            "romanas"
+          ],
+          "sentence": "As mulheres de um e do outro campo andavam aterrorizadas."
+        },
+        {
+          "target": "guerra",
+          "distractors": [
+            "filhos",
+            "braços",
+            "maridos"
+          ],
+          "sentence": "Por tudo e por nada levantavam os estandartes da guerra."
+        },
+        {
+          "target": "filhos",
+          "distractors": [
+            "guerra",
+            "braços",
+            "maridos"
+          ],
+          "sentence": "Os nossos filhos não chegarão a conhecer os pais e não sobrará nenhum homem que lhes ensine as astúcias da caça, os gestos da…"
+        },
+        {
+          "target": "braços",
+          "distractors": [
+            "guerra",
+            "filhos",
+            "maridos"
+          ],
+          "sentence": "Com o escudo preso a um dos braços defendiam-se."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "mulheres",
+          "syllables": [
+            "mu",
+            "lhe",
+            "res"
+          ]
+        },
+        {
+          "word": "guerra",
+          "syllables": [
+            "guer",
+            "ra"
+          ]
+        },
+        {
+          "word": "maridos",
+          "syllables": [
+            "ma",
+            "ri",
+            "dos"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "mares",
+          "syllables": [
+            "ma",
+            "res"
+          ]
+        },
+        {
+          "word": "rama",
+          "syllables": [
+            "ra",
+            "ma"
+          ]
+        },
+        {
+          "word": "rima",
+          "syllables": [
+            "ri",
+            "ma"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "mulheres",
+          "b": "mulheres"
+        },
+        {
+          "a": "guerra",
+          "b": "guerra"
+        },
+        {
+          "a": "filhos",
+          "b": "filhos"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/04/22/images/lhlw67cbiqhmqthpkba72unwoqvbkit4/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Uma lenda conta que havia, dantes, dois povos vizinhos e inimigos.",
+        "Com a lança brandida pelo outro braço atacavam.",
+        "As outras mulheres, sabinas ou romanas, concordavam.",
+        "Cobertas com os nossos mantos de luto, de cabelos caídos e com nossos filhos pequenos pela mão, corramos para o campo de batalha.",
+        "Com os paus das lanças fizeram cabos de enxadas."
+      ]
+    }
+  ]
+}

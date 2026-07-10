@@ -1,0 +1,139 @@
+{
+  "id": "03-01",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "nunca",
+          "distractors": [
+            "tomar",
+            "pulgas",
+            "banho"
+          ],
+          "sentence": "O meu cão tem um azar ao banho que nunca vi."
+        },
+        {
+          "target": "comichão",
+          "distractors": [
+            "lareira",
+            "banhoca",
+            "desespero"
+          ],
+          "sentence": "Preferes continuar com essa comichão, preferes?"
+        },
+        {
+          "target": "pulgas",
+          "distractors": [
+            "nunca",
+            "tomar",
+            "banho"
+          ],
+          "sentence": "Diz que não é cão de água e que as pulgas são dele, só dele, muito dele."
+        },
+        {
+          "target": "banho",
+          "distractors": [
+            "nunca",
+            "tomar",
+            "pulgas"
+          ],
+          "sentence": "Que o dono é um porco, porque nunca dá banho ao desgraçado do cão."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "nunca",
+          "syllables": [
+            "nun",
+            "ca"
+          ]
+        },
+        {
+          "word": "comichão",
+          "syllables": [
+            "co",
+            "mi",
+            "chão"
+          ]
+        },
+        {
+          "word": "tomar",
+          "syllables": [
+            "to",
+            "mar"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cato",
+          "syllables": [
+            "ca",
+            "to"
+          ]
+        },
+        {
+          "word": "comi",
+          "syllables": [
+            "co",
+            "mi"
+          ]
+        },
+        {
+          "word": "marca",
+          "syllables": [
+            "mar",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "nunca",
+          "b": "nunca"
+        },
+        {
+          "a": "comichão",
+          "b": "comichão"
+        },
+        {
+          "a": "tomar",
+          "b": "tomar"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/03/01/images/w2oznxwt23rtysqftajmidpexlkg6len/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Coça-se desenfreadamente , todo o santo dia.",
+        "O meu cão tem um azar ao banho que nunca vi.",
+        "Quem o vir naquele desespero o que dirá?",
+        "Quando, ambos a pingar, regressámos a casa, fui logo acender a lareira e mudar de roupa.",
+        "Lá para Julho volto a experimentar o truque."
+      ]
+    }
+  ]
+}

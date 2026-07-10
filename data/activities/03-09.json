@@ -1,0 +1,151 @@
+{
+  "id": "03-09",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "fato",
+          "distractors": [
+            "dono",
+            "amigo",
+            "nódoa"
+          ],
+          "sentence": "Era uma vez um fato que gostava muito de ir à rua, mas o dono não lhe fazia a vontade."
+        },
+        {
+          "target": "dono",
+          "distractors": [
+            "fato",
+            "amigo",
+            "nódoa"
+          ],
+          "sentence": "O dono comprara-o para um casamento e, afora uma ou outra ocasião mais solene, nunca o tirava do guarda-vestidos ou do guarda-fato…"
+        },
+        {
+          "target": "amigo",
+          "distractors": [
+            "fato",
+            "dono",
+            "nódoa"
+          ],
+          "sentence": "Um dia, um amigo pediu-lho para uma solenidade qualquer, banquete em embaixada ou coisa assim."
+        },
+        {
+          "target": "nódoa",
+          "distractors": [
+            "fato",
+            "dono",
+            "amigo"
+          ],
+          "sentence": "Logo por azar, pespegou-se uma grande nódoa no fato, das renitentes , das pertinazes , que nem com benzina saem."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "fato",
+          "syllables": [
+            "fa",
+            "to"
+          ]
+        },
+        {
+          "word": "dono",
+          "syllables": [
+            "do",
+            "no"
+          ]
+        },
+        {
+          "word": "gostava",
+          "syllables": [
+            "gos",
+            "ta",
+            "va"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "gosta",
+          "syllables": [
+            "gos",
+            "ta"
+          ]
+        },
+        {
+          "word": "gosto",
+          "syllables": [
+            "gos",
+            "to"
+          ]
+        },
+        {
+          "word": "nova",
+          "syllables": [
+            "no",
+            "va"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "fato",
+          "b": "fato"
+        },
+        {
+          "a": "dono",
+          "b": "dono"
+        },
+        {
+          "a": "amigo",
+          "b": "amigo"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "sarau",
+          "b": "reunião ou festa nocturna / serão"
+        },
+        {
+          "a": "mundano",
+          "b": "relativo ao mundo (do ponto de vista material) / não virtusoso / vida social"
+        },
+        {
+          "a": "pertinazes",
+          "b": "persistentes / teimosos"
+        },
+        {
+          "a": "afora",
+          "b": "excepto / além de"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um fato que gostava muito de ir à rua, mas o dono não lhe fazia a vontade.",
+        "Logo por azar, pespegou-se uma grande nódoa no fato, das renitentes , das pertinazes , que nem com benzina saem.",
+        "O amigo do dono do fato, muito comprometido, foi retardando a devolução, a ponto de o deixar esquecido noutro guarda-vestidos (ou…",
+        "Deixado intacto à beira de um contentor do lixo, o primeiro vagabundo que o viu levou-o.",
+        "E agradece o vagabundo, que tem roupa para durar."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "06-18",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "professor",
+          "distractors": [
+            "tractores",
+            "senhores",
+            "senhoras"
+          ],
+          "sentence": "Professor Doutor Manuel de Sousa Carvalho, com todas as letras e respeito."
+        },
+        {
+          "target": "bolas",
+          "distractors": [
+            "fora",
+            "agora",
+            "gente"
+          ],
+          "sentence": "Pelo relvado luzidio passeiam uns senhores e umas senhoras, que dão uns piparotes muito ponderados numas bolas e as bolas saltam, fogem…"
+        },
+        {
+          "target": "árvores",
+          "distractors": [
+            "senhores",
+            "senhoras",
+            "pinhas"
+          ],
+          "sentence": "A história constou, foi comentada por mais árvores, e uma velha nogueira, de ramos a pender sobre um casebre em ruínas, acordou, um dia…"
+        },
+        {
+          "target": "fora",
+          "distractors": [
+            "bolas",
+            "agora",
+            "gente"
+          ],
+          "sentence": "Logo um carvalho, que nunca fora outra coisa, quis, daí em diante, ser tratado por Manuel de Sousa Carvalho."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "professor",
+          "syllables": [
+            "pro",
+            "fes",
+            "sor"
+          ]
+        },
+        {
+          "word": "bolas",
+          "syllables": [
+            "bo",
+            "las"
+          ]
+        },
+        {
+          "word": "fora",
+          "syllables": [
+            "fo",
+            "ra"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "bofes",
+          "syllables": [
+            "bo",
+            "fes"
+          ]
+        },
+        {
+          "word": "rabo",
+          "syllables": [
+            "ra",
+            "bo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "professor",
+          "b": "professor"
+        },
+        {
+          "a": "bolas",
+          "b": "bolas"
+        },
+        {
+          "a": "árvores",
+          "b": "árvores"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um pinheiro, um vulgaríssimo pinheiro de pinhas chochas e tronco escanifrado, igual a milhões de outros.",
+        "Logo um carvalho, que nunca fora outra coisa, quis, daí em diante, ser tratado por Manuel de Sousa Carvalho.",
+        "Até que se passaram por lá uns lenhadores com serras mecânicas e tractores, dos que arrancam tudo, arrasam tudo, revolvem tudo...",
+        "Calculem que o terreno, onde coube a nossa história, alberga, agora, um campo de golfe.",
+        "Com tudo isto, o velho carvalho anda muito admirado."
+      ]
+    }
+  ]
+}

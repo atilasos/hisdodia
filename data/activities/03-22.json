@@ -1,0 +1,131 @@
+{
+  "id": "03-22",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "rapaz",
+          "distractors": [
+            "bolo",
+            "égua",
+            "rapariga"
+          ],
+          "sentence": "Era um rapaz que gostava muito de uma rapariga."
+        },
+        {
+          "target": "bolo",
+          "distractors": [
+            "rapaz",
+            "égua",
+            "casar"
+          ],
+          "sentence": "Impacientou-se e foi consultar uma bruxa, que lhe fez um bolo de pão e ervas, muito bem amassado."
+        },
+        {
+          "target": "égua",
+          "distractors": [
+            "rapaz",
+            "bolo",
+            "casar"
+          ],
+          "sentence": "Logo por azar, quem abocanhou o bolo mágico foi uma égua branca de muita estimação da rapariga."
+        },
+        {
+          "target": "rapariga",
+          "distractors": [
+            "rapaz",
+            "montada",
+            "abocanhou"
+          ],
+          "sentence": "Ficou o rapaz com a rapariga nos braços."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "rapaz",
+          "syllables": [
+            "ra",
+            "paz"
+          ]
+        },
+        {
+          "word": "bolo",
+          "syllables": [
+            "bo",
+            "lo"
+          ]
+        },
+        {
+          "word": "égua",
+          "syllables": [
+            "é",
+            "gua"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "lobo",
+          "syllables": [
+            "lo",
+            "bo"
+          ]
+        },
+        {
+          "word": "rabo",
+          "syllables": [
+            "ra",
+            "bo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "rapaz",
+          "b": "rapaz"
+        },
+        {
+          "a": "bolo",
+          "b": "bolo"
+        },
+        {
+          "a": "égua",
+          "b": "égua"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/03/22/images/pbppyb424wudgcha4et4fnpavruq5ij6/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era um rapaz que gostava muito de uma rapariga.",
+        "Impacientou-se e foi consultar uma bruxa, que lhe fez um bolo de pão e ervas, muito bem amassado.",
+        "No domingo, pespegou-se o Joaquim, no meio do adro da igreja, à espera do efeito do feitiço.",
+        "O Joaquim acudiu à Joaquina, mesmo no instante em que ela ia a cair da montada.",
+        "Quero, sim, Joaquim - respondeu ela, num primeiro sorriso, depois das lágrimas."
+      ]
+    }
+  ]
+}

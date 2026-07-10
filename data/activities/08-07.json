@@ -1,0 +1,140 @@
+{
+  "id": "08-07",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "macaco",
+          "distractors": [
+            "cágado",
+            "jantar",
+            "grande"
+          ],
+          "sentence": "Preparou um excelente banquete e ofereceu-o ao macaco que se empanturrou até não poder mais."
+        },
+        {
+          "target": "cágado",
+          "distractors": [
+            "macaco",
+            "jantar",
+            "casa"
+          ],
+          "sentence": "Quando o cágado entrou em casa do macaco, a refeição estava pronta a servir, mas numa mesa muito alta a que só o macaco chegava."
+        },
+        {
+          "target": "jantar",
+          "distractors": [
+            "macaco",
+            "cágado",
+            "grande"
+          ],
+          "sentence": "Um dia tu convidas-me para ir a tua casa e ofereces-me de jantar e, no dia seguinte, eu convido-te para vires a minha casa e retribuo-te…"
+        },
+        {
+          "target": "casa",
+          "distractors": [
+            "cágado",
+            "assim",
+            "mesa"
+          ],
+          "sentence": "No dia seguinte, em casa do macaco, o jantar servido na mesa muito alta voltou a deixar o cágado com a barriga a dar horas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "macaco",
+          "syllables": [
+            "ma",
+            "ca",
+            "co"
+          ]
+        },
+        {
+          "word": "cágado",
+          "syllables": [
+            "cá",
+            "ga",
+            "do"
+          ]
+        },
+        {
+          "word": "jantar",
+          "syllables": [
+            "jan",
+            "tar"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cama",
+          "syllables": [
+            "ca",
+            "ma"
+          ]
+        },
+        {
+          "word": "coma",
+          "syllables": [
+            "co",
+            "ma"
+          ]
+        },
+        {
+          "word": "gado",
+          "syllables": [
+            "ga",
+            "do"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "macaco",
+          "b": "macaco"
+        },
+        {
+          "a": "cágado",
+          "b": "cágado"
+        },
+        {
+          "a": "jantar",
+          "b": "jantar"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/08/07/images/nxzpqq6jaso5pblq5a7trhufmf7z75wp/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Um dia tu convidas-me para ir a tua casa e ofereces-me de jantar e, no dia seguinte, eu convido-te para vires a minha casa e retribuo-te…",
+        "Nem conseguia ver a comida com que o macaco se alambazava .",
+        "O bom do cágado, embora delicado e discreto, achou que ali havia abuso.",
+        "Aquele contrato estava a sair-lhe de feição.",
+        "E assim se desfez a combinação entre o macaco e o cágado."
+      ]
+    }
+  ]
+}

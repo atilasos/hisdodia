@@ -1,0 +1,140 @@
+{
+  "id": "03-12",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "carteira",
+          "distractors": [
+            "cartão",
+            "calças",
+            "encontrou"
+          ],
+          "sentence": "A carteira era de pele de boa qualidade."
+        },
+        {
+          "target": "cartão",
+          "distractors": [
+            "carteira",
+            "idade",
+            "senhor"
+          ],
+          "sentence": "Havia um cartão de identidade, em nome de José Marques Silva, de 55 anos."
+        },
+        {
+          "target": "idade",
+          "distractors": [
+            "cartão",
+            "senhor",
+            "dono"
+          ],
+          "sentence": "Vou ao Clube Nacional de Natação e pergunto pela morada deste Manuel Maria, que tem cara de ser da minha idade."
+        },
+        {
+          "target": "senhor",
+          "distractors": [
+            "cartão",
+            "idade",
+            "calças"
+          ],
+          "sentence": "Portanto, tudo fazia crer que a carteira pertencesse ao senhor José."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "carteira",
+          "syllables": [
+            "car",
+            "tei",
+            "ra"
+          ]
+        },
+        {
+          "word": "cartão",
+          "syllables": [
+            "car",
+            "tão"
+          ]
+        },
+        {
+          "word": "morada",
+          "syllables": [
+            "mo",
+            "ra",
+            "da"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "moda",
+          "syllables": [
+            "mo",
+            "da"
+          ]
+        },
+        {
+          "word": "ramo",
+          "syllables": [
+            "ra",
+            "mo"
+          ]
+        },
+        {
+          "word": "rara",
+          "syllables": [
+            "ra",
+            "ra"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "carteira",
+          "b": "carteira"
+        },
+        {
+          "a": "cartão",
+          "b": "cartão"
+        },
+        {
+          "a": "idade",
+          "b": "idade"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/03/12/images/uljdv6ruriz557lgahz42dtjqbzn6wck/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Olhou para um lado e para o outro, ninguém no passeio.",
+        "Portanto, tudo fazia crer que a carteira pertencesse ao senhor José.",
+        "Tanto não sei, porque não é cliente habitual cá da casa - respondeu o empregado da camisaria.",
+        "O visado estranhou, mas rapidamente tudo se esclareceu.",
+        "Resta dizer, para terminar, que esta história não é inventada."
+      ]
+    }
+  ]
+}

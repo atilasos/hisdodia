@@ -1,0 +1,140 @@
+{
+  "id": "12-18",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "pardais",
+          "distractors": [
+            "pardal",
+            "árvores",
+            "praça"
+          ],
+          "sentence": "Companheiros pardais, pardalitos e pardalões, escutem todos, a notícia é importante."
+        },
+        {
+          "target": "pardal",
+          "distractors": [
+            "pardais",
+            "coisa",
+            "árvores"
+          ],
+          "sentence": "Neste ponto da história, parece-nos indispensável ouvir a fala de um avô pardal para o seu neto que, tal como vocês, amigos leitores…"
+        },
+        {
+          "target": "coisa",
+          "distractors": [
+            "pardal",
+            "praça",
+            "luzes"
+          ],
+          "sentence": "Os pardais mais jovens não sabiam, mas calcularam que devia ser coisa grave, porque os pardais velhos, mesmo os mais gaiteiros e…"
+        },
+        {
+          "target": "árvores",
+          "distractors": [
+            "pardais",
+            "pardal",
+            "pardalão"
+          ],
+          "sentence": "Quem ali passe todas as tardes, à hora da saída dos empregos, não deve estranhar o arruído que vem das árvores despidas de folha, mas…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "pardais",
+          "syllables": [
+            "par",
+            "dais"
+          ]
+        },
+        {
+          "word": "pardal",
+          "syllables": [
+            "par",
+            "dal"
+          ]
+        },
+        {
+          "word": "pardalito",
+          "syllables": [
+            "par",
+            "da",
+            "li",
+            "to"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dali",
+          "syllables": [
+            "da",
+            "li"
+          ]
+        },
+        {
+          "word": "lida",
+          "syllables": [
+            "li",
+            "da"
+          ]
+        },
+        {
+          "word": "parda",
+          "syllables": [
+            "par",
+            "da"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "pardais",
+          "b": "pardais"
+        },
+        {
+          "a": "pardal",
+          "b": "pardal"
+        },
+        {
+          "a": "coisa",
+          "b": "coisa"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/18/images/ug6xbcur6fteh7lp2c2b44f2h3dx6pnb/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Companheiros pardais, pardalitos e pardalões, escutem todos, a notícia é importante.",
+        "Estavam a falar da Lotaria do Natal, imaginem!",
+        "Aparecem fios por toda a parte e, nos ramos das nossas árvores, estendem tantos, com as tais pêras penduradas, que ninguém se entende.",
+        "Numa destas noites, o pardalito deixou o avô a dormir com a cabeça debaixo da asa, e foi dar uma voltinha pelos arredores do seu novo poiso.",
+        "É o que nós também achamos, ao cabo desta história."
+      ]
+    }
+  ]
+}

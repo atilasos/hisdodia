@@ -1,0 +1,121 @@
+{
+  "id": "09-20",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "casa",
+          "distractors": [
+            "vejam",
+            "aulas",
+            "chegar"
+          ],
+          "sentence": "Passou pela praia, molhou os pés nas ondas baixinhas, andou por aqui e por ali e, já cansado de estar sozinho, subiu até uma casa ao…"
+        },
+        {
+          "target": "passou",
+          "distractors": [
+            "quadro",
+            "desenho",
+            "escola"
+          ],
+          "sentence": "Passou pela clareira do piquenique desabrigada..."
+        },
+        {
+          "target": "quadro",
+          "distractors": [
+            "passou",
+            "desenho",
+            "escola"
+          ],
+          "sentence": "No primeiro dia de aulas, antes de a professora chegar, o Joca foi para o quadro fazer desenhos."
+        },
+        {
+          "target": "desenho",
+          "distractors": [
+            "passou",
+            "quadro",
+            "escola"
+          ],
+          "sentence": "Estava na aula, diante do quadro, diante do seu desenho das férias."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        },
+        {
+          "word": "passou",
+          "syllables": [
+            "pas",
+            "sou"
+          ]
+        },
+        {
+          "word": "quadro",
+          "syllables": [
+            "qua",
+            "dro"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "casou",
+          "syllables": [
+            "ca",
+            "sou"
+          ]
+        },
+        {
+          "word": "passa",
+          "syllables": [
+            "pas",
+            "sa"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "casa",
+          "b": "casa"
+        },
+        {
+          "a": "passou",
+          "b": "passou"
+        },
+        {
+          "a": "quadro",
+          "b": "quadro"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "No primeiro dia de aulas, antes de a professora chegar, o Joca foi para o quadro fazer desenhos.",
+        "A praia, o mar, os toldos, a piscina, a esplanada, os pinheiros, a bola a saltar, aquele piquenique na serra, enfim, o tempo bom das…",
+        "Mas a olhar para o seu desenho com tanta coisa dentro, mesmo assim parecia que faltava nem ele bem sabia o quê.",
+        "Passou pela clareira do piquenique desabrigada...",
+        "Tocava a campainha para o começo das aulas."
+      ]
+    }
+  ]
+}

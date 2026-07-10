@@ -1,0 +1,141 @@
+{
+  "id": "08-08",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "casa",
+          "distractors": [
+            "gatos",
+            "gato",
+            "andar"
+          ],
+          "sentence": "Ele mora uns metros acima da minha casa, no telhado do prédio, onde ocupo o último andar."
+        },
+        {
+          "target": "janela",
+          "distractors": [
+            "gatos",
+            "amigos",
+            "andar"
+          ],
+          "sentence": "Quando a janela não está aberta, tem maneira de chamar a atenção, raspando as unhas nos vidros da clarabóia, o que provoca um ruído…"
+        },
+        {
+          "target": "trapeira",
+          "distractors": [
+            "chaminé",
+            "talas",
+            "janelas"
+          ],
+          "sentence": "Nos dias em que sua excelência prefere o telhado, vai não vai passa rente à trapeira e, muito descaradamente, espreita para dentro."
+        },
+        {
+          "target": "gatos",
+          "distractors": [
+            "casa",
+            "janela",
+            "gato"
+          ],
+          "sentence": "Dizem que os gatos têm sete bofes ou sete vidas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        },
+        {
+          "word": "janela",
+          "syllables": [
+            "ja",
+            "ne",
+            "la"
+          ]
+        },
+        {
+          "word": "trapeira",
+          "syllables": [
+            "tra",
+            "pei",
+            "ra"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "canela",
+          "syllables": [
+            "ca",
+            "ne",
+            "la"
+          ]
+        },
+        {
+          "word": "cara",
+          "syllables": [
+            "ca",
+            "ra"
+          ]
+        },
+        {
+          "word": "laca",
+          "syllables": [
+            "la",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "casa",
+          "b": "casa"
+        },
+        {
+          "a": "janela",
+          "b": "janela"
+        },
+        {
+          "a": "trapeira",
+          "b": "trapeira"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/08/08/images/mrf7rfohwcxaq4bdk2dmkgg75uisqrnu/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "E suponho que, para ele, também sou a pessoa preferida.",
+        "Quando a janela não está aberta, tem maneira de chamar a atenção, raspando as unhas nos vidros da clarabóia, o que provoca um ruído…",
+        "Andavam a arranjar as antenas de televisão.",
+        "O veterinário onde o levei cuidou dele com todo o esmero e o Zé pouco se queixou.",
+        "Lá para o meio do Outono, tiro-lhe as talas - promete-me o veterinário."
+      ]
+    }
+  ]
+}

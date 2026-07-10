@@ -1,0 +1,129 @@
+{
+  "id": "02-26",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "galinha",
+          "distractors": [
+            "ninguém",
+            "tesouro",
+            "avarenta"
+          ],
+          "sentence": "Mal eles sabiam do tesouro que a galinha já tinha arrecadado no mato, num sítio que só ela conhecia..."
+        },
+        {
+          "target": "ovos",
+          "distractors": [
+            "ouro",
+            "donos",
+            "prata"
+          ],
+          "sentence": "Punha ovos de ouro, mas não os dava a ninguém."
+        },
+        {
+          "target": "ouro",
+          "distractors": [
+            "ovos",
+            "donos",
+            "prata"
+          ],
+          "sentence": "Dar os meus ovos de ouro a estes matutos não dou\", pensava a galinha."
+        },
+        {
+          "target": "donos",
+          "distractors": [
+            "ovos",
+            "ouro",
+            "prata"
+          ],
+          "sentence": "Os donos viram o ovo de cobre e zangaram-se."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "galinha",
+          "syllables": [
+            "ga",
+            "li",
+            "nha"
+          ]
+        },
+        {
+          "word": "ovos",
+          "syllables": [
+            "o",
+            "vos"
+          ]
+        },
+        {
+          "word": "ouro",
+          "syllables": [
+            "ou",
+            "ro"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "ganha",
+          "syllables": [
+            "ga",
+            "nha"
+          ]
+        },
+        {
+          "word": "liga",
+          "syllables": [
+            "li",
+            "ga"
+          ]
+        },
+        {
+          "word": "linha",
+          "syllables": [
+            "li",
+            "nha"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "galinha",
+          "b": "galinha"
+        },
+        {
+          "a": "ovos",
+          "b": "ovos"
+        },
+        {
+          "a": "ouro",
+          "b": "ouro"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Punha ovos de ouro, mas não os dava a ninguém.",
+        "As outras galinhas que ponham ovos vulgares, de gema e clara.",
+        "Dar os meus ovos de ouro a estes matutos não dou\", pensava a galinha.",
+        "Achava que aquela gente nem os de prata merecia.",
+        "O tesouro dos ovos de ouro continua escondido no mato, sem que ninguém o aproveite."
+      ]
+    }
+  ]
+}

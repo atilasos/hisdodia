@@ -1,0 +1,155 @@
+{
+  "id": "05-19",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "sete",
+          "distractors": [
+            "faraó",
+            "anos",
+            "vacas"
+          ],
+          "sentence": "Do rio saíram sete vacas bonitas e gordas, que se puseram a pastar na erva."
+        },
+        {
+          "target": "faraó",
+          "distractors": [
+            "sete",
+            "anos",
+            "vacas"
+          ],
+          "sentence": "No princípio do sonho, o faraó viu-se junto à margem de um rio."
+        },
+        {
+          "target": "anos",
+          "distractors": [
+            "sete",
+            "faraó",
+            "vacas"
+          ],
+          "sentence": "As sete vacas gordas vão ser sete anos de abundância."
+        },
+        {
+          "target": "vacas",
+          "distractors": [
+            "sete",
+            "faraó",
+            "anos"
+          ],
+          "sentence": "Passado algum tempo, outras sete vacas saíram do rio, mas estas eram enfezadas e feias."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "sete",
+          "syllables": [
+            "se",
+            "te"
+          ]
+        },
+        {
+          "word": "faraó",
+          "syllables": [
+            "fa",
+            "ra",
+            "ó"
+          ]
+        },
+        {
+          "word": "anos",
+          "syllables": [
+            "a",
+            "nos"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "fase",
+          "syllables": [
+            "fa",
+            "se"
+          ]
+        },
+        {
+          "word": "seara",
+          "syllables": [
+            "se",
+            "a",
+            "ra"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "sete",
+          "b": "sete"
+        },
+        {
+          "a": "faraó",
+          "b": "faraó"
+        },
+        {
+          "a": "anos",
+          "b": "anos"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "enfezadas",
+          "b": "pouco desenvolvidas / raquíticas"
+        },
+        {
+          "a": "escabrosos",
+          "b": "difíceis / obscenos"
+        },
+        {
+          "a": "ditames",
+          "b": "sugestões"
+        },
+        {
+          "a": "séquito",
+          "b": "cortejo"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/05/19/images/pmzrosazihdd3kcl42b4jy45acpmuy2k/Imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Os reis que mandavam no Egipto de antigamente eram os faraós.",
+        "Há-de ser um sinal, um aviso - dizia, constantemente, o faraó.",
+        "José ouviu e ficou, depois, em meditações, como se estivesse a rezar.",
+        "Deveis mandar acumular toda a alimentação excedente desses anos férteis, que se aproximam.",
+        "Quando chegaram os anos de seca, a fome tomou conta dos países vizinhos, mas no Egipto não faltou o pão."
+      ]
+    }
+  ]
+}

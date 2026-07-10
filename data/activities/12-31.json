@@ -1,0 +1,139 @@
+{
+  "id": "12-31",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "cabeças",
+          "distractors": [
+            "cabeça",
+            "coisa",
+            "menino"
+          ],
+          "sentence": "Hoje vou falar do bicho de sete cabeças."
+        },
+        {
+          "target": "bicho",
+          "distractors": [
+            "sete",
+            "cabeça",
+            "noite"
+          ],
+          "sentence": "Desde menino que este bicho me persegue."
+        },
+        {
+          "target": "sete",
+          "distractors": [
+            "bicho",
+            "noite",
+            "coisa"
+          ],
+          "sentence": "Não tens vergonha de fazeres um bicho de sete cabeças de uma coisa tão simples?"
+        },
+        {
+          "target": "cabeça",
+          "distractors": [
+            "cabeças",
+            "bicho",
+            "noite"
+          ],
+          "sentence": "Eu, que desde que parti a minha estimável cabeça, ao cair da bicicleta, que tenho horror a sangue."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "cabeças",
+          "syllables": [
+            "ca",
+            "be",
+            "ças"
+          ]
+        },
+        {
+          "word": "bicho",
+          "syllables": [
+            "bi",
+            "cho"
+          ]
+        },
+        {
+          "word": "sete",
+          "syllables": [
+            "se",
+            "te"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "bica",
+          "syllables": [
+            "bi",
+            "ca"
+          ]
+        },
+        {
+          "word": "cabe",
+          "syllables": [
+            "ca",
+            "be"
+          ]
+        },
+        {
+          "word": "cacho",
+          "syllables": [
+            "ca",
+            "cho"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "cabeças",
+          "b": "cabeças"
+        },
+        {
+          "a": "bicho",
+          "b": "bicho"
+        },
+        {
+          "a": "sete",
+          "b": "sete"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/31/images/ujjrho7qluze3gear6xyvmlcmixam6op/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Hoje vou falar do bicho de sete cabeças.",
+        "Podia supor que, em crescendo, o bicho de sete cabeças me largasse.",
+        "Por acaso que era até um bicho muito conveniente.",
+        "Eu estava com medo de não conseguir decorar os nomes delas todas.",
+        "Será que de uma noite mal dormida estou a fazer um bicho de sete cabeças?"
+      ]
+    }
+  ]
+}

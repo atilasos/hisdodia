@@ -1,0 +1,142 @@
+{
+  "id": "12-21",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhor",
+          "distractors": [
+            "terra",
+            "chega",
+            "ninguém"
+          ],
+          "sentence": "Em contrapartida, o senhor Silva é um homem gentil, sempre de sorriso afável e muito amigo de ajudar."
+        },
+        {
+          "target": "terra",
+          "distractors": [
+            "senhor",
+            "chega",
+            "trabalho"
+          ],
+          "sentence": "A desmoronar-se sobre a terra, num grande gemido, o pinheiro formulou um último desejo: \"Quem me dera ser silva..."
+        },
+        {
+          "target": "chega",
+          "distractors": [
+            "senhor",
+            "terra",
+            "logo"
+          ],
+          "sentence": "Quando chega ao trabalho, não cumprimenta ninguém e vai logo enfiar-se no seu gabinete, como se fosse a única pessoa daquele escritório."
+        },
+        {
+          "target": "meditar",
+          "distractors": [
+            "senhor",
+            "emproado",
+            "trabalho"
+          ],
+          "sentence": "Estava eu a meditar nas diferenças do mundo e comportamento oposto dos meus dois colegas, quando me ocorreu esta história ou fábula…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "terra",
+          "syllables": [
+            "ter",
+            "ra"
+          ]
+        },
+        {
+          "word": "emproado",
+          "syllables": [
+            "em",
+            "pro",
+            "a",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "arado",
+          "syllables": [
+            "a",
+            "ra",
+            "do"
+          ]
+        },
+        {
+          "word": "proa",
+          "syllables": [
+            "pro",
+            "a"
+          ]
+        },
+        {
+          "word": "seara",
+          "syllables": [
+            "se",
+            "a",
+            "ra"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "terra",
+          "b": "terra"
+        },
+        {
+          "a": "emproado",
+          "b": "emproado"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/21/images/veu5osnsamyxgrz5oibgvgihzi6kgwja/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Quando chega ao trabalho, não cumprimenta ninguém e vai logo enfiar-se no seu gabinete, como se fosse a única pessoa daquele escritório.",
+        "De pescoço altivo, o pinheiro bravo não prestava atenção aos seus vizinhos de baixo, pinheiritos jovens e alguns arbustos, como a silva…",
+        "Os meus ramos e a minha copa quase tocam as nuvens.",
+        "Convenceu-o um lenhador, que por ali passou.",
+        "Um dia destes, hei-de dar a ler esta história ao senhor Pinheiro."
+      ]
+    }
+  ]
+}

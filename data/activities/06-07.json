@@ -1,0 +1,140 @@
+{
+  "id": "06-07",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "libras",
+          "distractors": [
+            "senhor",
+            "amigo",
+            "lavrador"
+          ],
+          "sentence": "De uma vez que foi à feira da vila fazer uns negócios, levou consigo uma bolsa com libras, com libras bem contadas e recontadas."
+        },
+        {
+          "target": "senhor",
+          "distractors": [
+            "libras",
+            "amigo",
+            "feira"
+          ],
+          "sentence": "O senhor Tomé esteve quase para ir chamar um médico que consertasse a pouca memória do estalajadeiro."
+        },
+        {
+          "target": "advogado",
+          "distractors": [
+            "amigo",
+            "lavrador",
+            "estalagem"
+          ],
+          "sentence": "Depois, pensando melhor, achou que o caso era mais da conta de um bom advogado do que da medicina."
+        },
+        {
+          "target": "amigo",
+          "distractors": [
+            "libras",
+            "senhor",
+            "advogado"
+          ],
+          "sentence": "Tenha paciência, meu amigo, mas só vejo uma solução."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "libras",
+          "syllables": [
+            "li",
+            "bras"
+          ]
+        },
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "advogado",
+          "syllables": [
+            "ad",
+            "vo",
+            "ga",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "gado",
+          "syllables": [
+            "ga",
+            "do"
+          ]
+        },
+        {
+          "word": "lido",
+          "syllables": [
+            "li",
+            "do"
+          ]
+        },
+        {
+          "word": "liga",
+          "syllables": [
+            "li",
+            "ga"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "libras",
+          "b": "libras"
+        },
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "advogado",
+          "b": "advogado"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/06/07/images/f5lfwesdzumnxdhkxcjywfbqjhp4lau2/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "De uma vez que foi à feira da vila fazer uns negócios, levou consigo uma bolsa com libras, com libras bem contadas e recontadas.",
+        "Manhosos destes tratam-se com a pele das suas manhas.",
+        "O advogado não se ofendeu e mais miudamente explicou a armadilha que queria armar ao estalajadeiro desonesto.",
+        "E os dois, o senhor Tomé e o amigo, despediram-se do estalajadeiro, que ficou de boca aberta.",
+        "Não é preciso dizer que o estalajadeiro se viu apanhado e não teve outro remédio senão dar as outras cem libras ao lavrador."
+      ]
+    }
+  ]
+}

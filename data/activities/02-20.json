@@ -1,0 +1,147 @@
+{
+  "id": "02-20",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "elefante",
+          "distractors": [
+            "caminho",
+            "domador",
+            "caravana"
+          ],
+          "sentence": "No Circo Maravilhas ou mesmo fora do Circo Maravilhas, o elefante era o mais abelhudo."
+        },
+        {
+          "target": "tromba",
+          "distractors": [
+            "caminho",
+            "açaime",
+            "domador"
+          ],
+          "sentence": "Ele dizia isto muito a sério, mas no fundo não acreditava que fosse possível arranjar um açaime onde coubesse a tromba, mesmo enrolada…"
+        },
+        {
+          "target": "caminho",
+          "distractors": [
+            "elefante",
+            "tromba",
+            "açaime"
+          ],
+          "sentence": "Se fosse à frente, empatava o caminho com as suas tardanças e coscuvilhices , por coisas que não valiam meio real."
+        },
+        {
+          "target": "açaime",
+          "distractors": [
+            "tromba",
+            "caminho",
+            "domador"
+          ],
+          "sentence": "Se tu não te emendas, ponho-te um açaime ."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "elefante",
+          "syllables": [
+            "e",
+            "le",
+            "fan",
+            "te"
+          ]
+        },
+        {
+          "word": "tromba",
+          "syllables": [
+            "trom",
+            "ba"
+          ]
+        },
+        {
+          "word": "caminho",
+          "syllables": [
+            "ca",
+            "mi",
+            "nho"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "banho",
+          "syllables": [
+            "ba",
+            "nho"
+          ]
+        },
+        {
+          "word": "banhoca",
+          "syllables": [
+            "ba",
+            "nho",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "elefante",
+          "b": "elefante"
+        },
+        {
+          "a": "tromba",
+          "b": "tromba"
+        },
+        {
+          "a": "caminho",
+          "b": "caminho"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "tardanças",
+          "b": "vagares"
+        },
+        {
+          "a": "coscuvilhices",
+          "b": "bisbilhotices / mexericos / intrigas"
+        },
+        {
+          "a": "afoitamente",
+          "b": "ousadamente / atrevidamente"
+        },
+        {
+          "a": "bramia",
+          "b": "rugia"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "No Circo Maravilhas ou mesmo fora do Circo Maravilhas, o elefante era o mais abelhudo.",
+        "E, o que é mais grave, o elefante também não acreditava.",
+        "Num campo murado, viu umas caixas cilíndricas de cortiça com um buraquinho na base, por onde entravam e saíam uns insectos de asas…",
+        "Nem teve tempo de cheirar o mel lá guardado, porque uma legião de abelhas-guerreiras cravou as lanças dos seus ferrões aguçados na…",
+        "E, enquanto andou com a tromba inchada, não a meteu onde não devia."
+      ]
+    }
+  ]
+}

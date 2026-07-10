@@ -1,0 +1,130 @@
+{
+  "id": "08-20",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "periquito",
+          "distractors": [
+            "pobre",
+            "realmente",
+            "profissão"
+          ],
+          "sentence": "Se quiser, eu digo ao meu periquito para avisar a minha mulher que temos mais um conviva - e mostrou o passarinho, preso na mão."
+        },
+        {
+          "target": "mulher",
+          "distractors": [
+            "cidade",
+            "jantar",
+            "moedas"
+          ],
+          "sentence": "Ela e a mulher, não menos amiga de pouco fazer do que o marido, nunca se tinham disposto a aprender uma profissão ou, a bem dizer, a…"
+        },
+        {
+          "target": "casa",
+          "distractors": [
+            "cidade",
+            "pobre",
+            "assim"
+          ],
+          "sentence": "A minha mulher já deve ter chegado a casa, de forma que eu vou dizer ao meu periquito para ir avisá-la de que levo alguns amigos para o…"
+        },
+        {
+          "target": "cidade",
+          "distractors": [
+            "mulher",
+            "casa",
+            "jantar"
+          ],
+          "sentence": "Vivia na rua mais pobre e mais sombria de uma cidade da Ásia um homem chamado Zahil, que era muito preguiçoso."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "periquito",
+          "syllables": [
+            "pe",
+            "ri",
+            "qui",
+            "to"
+          ]
+        },
+        {
+          "word": "mulher",
+          "syllables": [
+            "mu",
+            "lher"
+          ]
+        },
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cato",
+          "syllables": [
+            "ca",
+            "to"
+          ]
+        },
+        {
+          "word": "pesa",
+          "syllables": [
+            "pe",
+            "sa"
+          ]
+        },
+        {
+          "word": "rica",
+          "syllables": [
+            "ri",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "periquito",
+          "b": "periquito"
+        },
+        {
+          "a": "mulher",
+          "b": "mulher"
+        },
+        {
+          "a": "casa",
+          "b": "casa"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Vivia na rua mais pobre e mais sombria de uma cidade da Ásia um homem chamado Zahil, que era muito preguiçoso.",
+        "Vai ao mercado e compra umas galinhas gordas, arroz e especiarias.",
+        "Sentem-se, por favor, ilustres senhores - disse-lhes a mulher.",
+        "Tiraram mesmo - exclamou o pobre comerciante, dando socos na sua própria cabeça.",
+        "Se chegássemos ao fim da história da vida de Zahil, veriam como ela era triste."
+      ]
+    }
+  ]
+}

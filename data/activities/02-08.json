@@ -1,0 +1,162 @@
+{
+  "id": "02-08",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "camponês",
+          "distractors": [
+            "morcego",
+            "príncipe",
+            "batatas"
+          ],
+          "sentence": "Um camponês, que vivia no meio das serras, só tinha a filha por companhia."
+        },
+        {
+          "target": "filha",
+          "distractors": [
+            "menina",
+            "chave",
+            "cofre"
+          ],
+          "sentence": "Vou casar com a tua filha - disse-lhe o morcego."
+        },
+        {
+          "target": "morcego",
+          "distractors": [
+            "camponês",
+            "príncipe",
+            "menina"
+          ],
+          "sentence": "Estava ele a semear batatas e apareceu-lhe um morcego."
+        },
+        {
+          "target": "príncipe",
+          "distractors": [
+            "camponês",
+            "morcego",
+            "batatas"
+          ],
+          "sentence": "E espero que de mim trates para sempre, gentil menina - disse o morcego, transformando-se, num repente, em príncipe, daqueles dos contos…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "camponês",
+          "syllables": [
+            "cam",
+            "po",
+            "nês"
+          ]
+        },
+        {
+          "word": "filha",
+          "syllables": [
+            "fi",
+            "lha"
+          ]
+        },
+        {
+          "word": "morcego",
+          "syllables": [
+            "mor",
+            "ce",
+            "go"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "campo",
+          "syllables": [
+            "cam",
+            "po"
+          ]
+        },
+        {
+          "word": "ficam",
+          "syllables": [
+            "fi",
+            "cam"
+          ]
+        },
+        {
+          "word": "figo",
+          "syllables": [
+            "fi",
+            "go"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "camponês",
+          "b": "camponês"
+        },
+        {
+          "a": "filha",
+          "b": "filha"
+        },
+        {
+          "a": "morcego",
+          "b": "morcego"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "sacholada",
+          "b": "pancada ou golpe com sacho ou enxada"
+        },
+        {
+          "a": "fendida",
+          "b": "aberta / rasgada / cortada"
+        },
+        {
+          "a": "sopesar",
+          "b": "tomar com a mão o peso de"
+        },
+        {
+          "a": "condescendeu",
+          "b": "anuiu / permitiu / transigiu"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/02/08/images/mwepq4zigrrnlbt2nonfiihixwdgvog6/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Um camponês, que vivia no meio das serras, só tinha a filha por companhia.",
+        "Não há-de ir longe\", pensou o camponês, fechando à chave o cofre do tesouro e metendo a chave no bolso.",
+        "Quando o camponês regressou a casa, com uma das mãos no bolso, agarrada à chave do cofre, e a outra a segurar o cabo da sachola, quando…",
+        "Mas o príncipe, como se lhe lesse os pensamentos, tranquilizou-o.",
+        "Mas, para consegui-lo, muito teria ele de dar à sachola..."
+      ]
+    }
+  ]
+}

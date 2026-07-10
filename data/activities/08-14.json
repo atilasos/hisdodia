@@ -1,0 +1,133 @@
+{
+  "id": "08-14",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "fantasmas",
+          "distractors": [
+            "esquilos",
+            "fantasma",
+            "correntes"
+          ],
+          "sentence": "Havia de ser engraçado, se houvesse fantasmas - disse o Danilo Filho."
+        },
+        {
+          "target": "dois",
+          "distractors": [
+            "noite",
+            "bateu",
+            "dormir"
+          ],
+          "sentence": "Estes dois esquilos, Danilo Pai e Danilo Filho, andam sempre em viagem."
+        },
+        {
+          "target": "esquilos",
+          "distractors": [
+            "fantasmas",
+            "fantasma",
+            "castelo"
+          ],
+          "sentence": "Nisto, as asas silenciosas de um morcego passaram rente aos dois esquilos."
+        },
+        {
+          "target": "contar",
+          "distractors": [
+            "castelo",
+            "noite",
+            "voltar"
+          ],
+          "sentence": "Sempre era mais uma boa história para contar, quando voltássemos."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "fantasmas",
+          "syllables": [
+            "fan",
+            "tas",
+            "mas"
+          ]
+        },
+        {
+          "word": "esquilos",
+          "syllables": [
+            "es",
+            "qui",
+            "los"
+          ]
+        },
+        {
+          "word": "contar",
+          "syllables": [
+            "con",
+            "tar"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "contas",
+          "syllables": [
+            "con",
+            "tas"
+          ]
+        },
+        {
+          "word": "quilos",
+          "syllables": [
+            "qui",
+            "los"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "fantasmas",
+          "b": "fantasmas"
+        },
+        {
+          "a": "dois",
+          "b": "dois"
+        },
+        {
+          "a": "esquilos",
+          "b": "esquilos"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/08/14/images/r6t6uahdwqcsddabhawuwkqqqqzedzl7/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Estes dois esquilos, Danilo Pai e Danilo Filho, andam sempre em viagem.",
+        "Estavam eles nesta conversa, quando ouviram o pio de uma coruja.",
+        "Está na hora - bichanou o Danilo Filho ao ouvido do pai.",
+        "A meio da noite, bateu nos ombros do pai, numa grande excitação.",
+        "E os dois esquilos Danilos prosseguiram viagem."
+      ]
+    }
+  ]
+}

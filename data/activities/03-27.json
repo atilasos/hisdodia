@@ -1,0 +1,133 @@
+{
+  "id": "03-27",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhor",
+          "distractors": [
+            "porquê",
+            "girafa",
+            "coelho"
+          ],
+          "sentence": "Era uma vez um senhor muito, muito curioso."
+        },
+        {
+          "target": "perguntou",
+          "distractors": [
+            "elefante",
+            "respondeu",
+            "porquê"
+          ],
+          "sentence": "Uma vez perguntou ao menino elefante o que é que ele gostava de ser, quando fosse crescido."
+        },
+        {
+          "target": "elefante",
+          "distractors": [
+            "perguntou",
+            "respondeu",
+            "gostava"
+          ],
+          "sentence": "O elefante respondeu que gostava de ser pulga."
+        },
+        {
+          "target": "respondeu",
+          "distractors": [
+            "perguntou",
+            "elefante",
+            "crescido"
+          ],
+          "sentence": "A girafa respondeu, em segredo, que gostava de ser, ao menos uma vez, caranguejo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "perguntou",
+          "syllables": [
+            "per",
+            "gun",
+            "tou"
+          ]
+        },
+        {
+          "word": "respondeu",
+          "syllables": [
+            "res",
+            "pon",
+            "deu"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "perdeu",
+          "syllables": [
+            "per",
+            "deu"
+          ]
+        },
+        {
+          "word": "seres",
+          "syllables": [
+            "se",
+            "res"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "perguntou",
+          "b": "perguntou"
+        },
+        {
+          "a": "elefante",
+          "b": "elefante"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/03/27/images/h4agu4pccfqayoydggbgkdlobg73bimt/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um senhor muito, muito curioso.",
+        "Porque ninguém me descobria e eu fazia cócegas em quem me apetecia...",
+        "Para poder andar rasteirinha, a ver o que não vejo...",
+        "Porque se fosse lobo não tinha medo dos lobos.",
+        "Para satisfazer os bichos, o senhor muito curioso, que também inventava histórias como esta, resolveu organizar um baile de máscaras."
+      ]
+    }
+  ]
+}

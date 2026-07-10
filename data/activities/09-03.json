@@ -1,0 +1,139 @@
+{
+  "id": "09-03",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhor",
+          "distractors": [
+            "conde",
+            "sangue",
+            "fosse"
+          ],
+          "sentence": "Aquele senhor não tinha nada bom aspecto."
+        },
+        {
+          "target": "conde",
+          "distractors": [
+            "senhor",
+            "sangue",
+            "fosse"
+          ],
+          "sentence": "Podemos lá continuar numa casa onde está o conde Drácula, o terrível vampiro, chupa-sangue - diziam os hóspedes, despedindo-se…"
+        },
+        {
+          "target": "sangue",
+          "distractors": [
+            "senhor",
+            "conde",
+            "fosse"
+          ],
+          "sentence": "Chega de bife em sangue - riu-se o conde, sem que no riso sobressaíssem os dentes pontiagudos."
+        },
+        {
+          "target": "estalagem",
+          "distractors": [
+            "hóspedes",
+            "qualquer",
+            "restantes"
+          ],
+          "sentence": "Hoje mesmo vou encher-lhe a estalagem com os restantes colegas da companhia."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "conde",
+          "syllables": [
+            "con",
+            "de"
+          ]
+        },
+        {
+          "word": "sangue",
+          "syllables": [
+            "san",
+            "gue"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "consegue",
+          "syllables": [
+            "con",
+            "se",
+            "gue"
+          ]
+        },
+        {
+          "word": "sede",
+          "syllables": [
+            "se",
+            "de"
+          ]
+        },
+        {
+          "word": "segue",
+          "syllables": [
+            "se",
+            "gue"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "conde",
+          "b": "conde"
+        },
+        {
+          "a": "sangue",
+          "b": "sangue"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/09/03/images/oid7eh3hop6l5bdjfck4lsolnnb7vdmx/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Aquele senhor não tinha nada bom aspecto.",
+        "Nessa noite, os restantes hóspedes fecharam as portas dos quartos à chave e empurraram cómodas e maples que, encostados às portas…",
+        "Assim, em pijama, não parecia nada assustador.",
+        "Ele era actor e, quando acabasse as férias, iria representar uma peça, onde desempenhava o papel de Drácula, o tal conde guloso do…",
+        "Uns de vampiros, outros de fantasmas, um de Frankenstein e vários de monstros, numa alegre algazarra, poriam os cabelos em pé a quem…"
+      ]
+    }
+  ]
+}

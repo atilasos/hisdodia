@@ -1,0 +1,133 @@
+{
+  "id": "12-24",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "boneca",
+          "distractors": [
+            "ursinho",
+            "sótão",
+            "peluche"
+          ],
+          "sentence": "Véspera de Natal, imaginem - e uma boneca de cabelo emaranhado e saia traçada salta de uma gaveta a correr."
+        },
+        {
+          "target": "ursinho",
+          "distractors": [
+            "boneca",
+            "peluche",
+            "escadote"
+          ],
+          "sentence": "Da mala entreaberta sai um ursinho cor de canela, mas um pouco descorado."
+        },
+        {
+          "target": "sótão",
+          "distractors": [
+            "boneca",
+            "cucu",
+            "senhor"
+          ],
+          "sentence": "Começa num sótão de uma velha casa a história que vamos contar."
+        },
+        {
+          "target": "peluche",
+          "distractors": [
+            "boneca",
+            "ursinho",
+            "escadote"
+          ],
+          "sentence": "Pregos, martelos e outras ferramentas não faltam, por aí espalhados - grita, cada vez mais alegre, o ursinho de peluche."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "boneca",
+          "syllables": [
+            "bo",
+            "ne",
+            "ca"
+          ]
+        },
+        {
+          "word": "ursinho",
+          "syllables": [
+            "ur",
+            "si",
+            "nho"
+          ]
+        },
+        {
+          "word": "cucu",
+          "syllables": [
+            "cu",
+            "cu"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "boca",
+          "syllables": [
+            "bo",
+            "ca"
+          ]
+        },
+        {
+          "word": "cabo",
+          "syllables": [
+            "ca",
+            "bo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "boneca",
+          "b": "boneca"
+        },
+        {
+          "a": "ursinho",
+          "b": "ursinho"
+        },
+        {
+          "a": "cucu",
+          "b": "cucu"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/24/images/wvcfmrjjasjqi3o6bpmjzzbndcbewioh/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Começa num sótão de uma velha casa a história que vamos contar.",
+        "Véspera de Natal, imaginem - e uma boneca de cabelo emaranhado e saia traçada salta de uma gaveta a correr.",
+        "Mais brinquedos oferecem os seus serviços.",
+        "Agora vamos descer pela chaminé - comanda o urso.",
+        "Saibam, pois, que graças aos dois simpáticos velhinhos, transformados, para o efeito, em ajudantes de Pai Natal, os brinquedos do sótão…"
+      ]
+    }
+  ]
+}

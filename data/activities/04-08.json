@@ -1,0 +1,140 @@
+{
+  "id": "04-08",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "sapatos",
+          "distractors": [
+            "menino",
+            "senhora",
+            "saco"
+          ],
+          "sentence": "Enquanto dormimos, os sapatos dão grandes passeios."
+        },
+        {
+          "target": "menino",
+          "distractors": [
+            "sapatos",
+            "senhora",
+            "andar"
+          ],
+          "sentence": "Eram uns sapatos de menino, ainda pouco habituado a andar."
+        },
+        {
+          "target": "casa",
+          "distractors": [
+            "saco",
+            "andar",
+            "lado"
+          ],
+          "sentence": "Sobretudo os de andar por casa - chinelos, pantufas, sapatilhas e por aí fora."
+        },
+        {
+          "target": "senhora",
+          "distractors": [
+            "sapatos",
+            "menino",
+            "saco"
+          ],
+          "sentence": "Já começava a nascer o sol, quando uma senhora que ia para o trabalho os viu."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "sapatos",
+          "syllables": [
+            "sa",
+            "pa",
+            "tos"
+          ]
+        },
+        {
+          "word": "menino",
+          "syllables": [
+            "me",
+            "ni",
+            "no"
+          ]
+        },
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cano",
+          "syllables": [
+            "ca",
+            "no"
+          ]
+        },
+        {
+          "word": "capa",
+          "syllables": [
+            "ca",
+            "pa"
+          ]
+        },
+        {
+          "word": "mesa",
+          "syllables": [
+            "me",
+            "sa"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "sapatos",
+          "b": "sapatos"
+        },
+        {
+          "a": "menino",
+          "b": "menino"
+        },
+        {
+          "a": "casa",
+          "b": "casa"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/04/08/images/6c2t32celyn4wmfoo37ptq7stk7ozpze/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Enquanto dormimos, os sapatos dão grandes passeios.",
+        "Estava o menino mergulhado em pleno sono, quando os sapatos, pé ante pé, se decidiram a ir correr mundo.",
+        "Andaram para um lado e para o outro, à procura da casa com jardim.",
+        "A senhora era empregada da limpeza de uma casa com jardim, logo por coincidência a casa onde morava o menino, dono dos sapatos.",
+        "Sonho da senhora Deolinda, sonho do menino, dono dos sapatos, ou sonho dos sapatos do menino, tanto faz."
+      ]
+    }
+  ]
+}

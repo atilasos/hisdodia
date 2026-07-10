@@ -1,0 +1,125 @@
+{
+  "id": "01-16",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "poeta",
+          "distractors": [
+            "poema",
+            "petróleo",
+            "nuvem"
+          ],
+          "sentence": "Vento, tu não percebeste o que te pedi - irritou-se o poeta."
+        },
+        {
+          "target": "poema",
+          "distractors": [
+            "poeta",
+            "petróleo",
+            "nuvem"
+          ],
+          "sentence": "Não se perdia grande coisa, que o poema valia pouco."
+        },
+        {
+          "target": "petróleo",
+          "distractors": [
+            "poeta",
+            "poema",
+            "ninguém"
+          ],
+          "sentence": "Os mais pobres, sem dinheiro para o petróleo, usavam velas de sebo ."
+        },
+        {
+          "target": "nuvem",
+          "distractors": [
+            "poeta",
+            "poema",
+            "vela"
+          ],
+          "sentence": "Vento, se és meu amigo, afasta a nuvem, para que o luar volte a iluminar-me."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "poeta",
+          "syllables": [
+            "po",
+            "e",
+            "ta"
+          ]
+        },
+        {
+          "word": "poema",
+          "syllables": [
+            "po",
+            "e",
+            "ma"
+          ]
+        },
+        {
+          "word": "petróleo",
+          "syllables": [
+            "pe",
+            "tró",
+            "le",
+            "o"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "mata",
+          "syllables": [
+            "ma",
+            "ta"
+          ]
+        },
+        {
+          "word": "pele",
+          "syllables": [
+            "pe",
+            "le"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "poeta",
+          "b": "poeta"
+        },
+        {
+          "a": "poema",
+          "b": "poema"
+        },
+        {
+          "a": "petróleo",
+          "b": "petróleo"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "No tempo em que ainda não havia luz eléctrica, mas pouco faltava, quem quisesse trabalhar ou ler depois do Sol posto alumiava-se com…",
+        "Vento, se és meu amigo, afasta a nuvem, para que o luar volte a iluminar-me.",
+        "Vento, tu não percebeste o que te pedi - irritou-se o poeta.",
+        "Do céu carregado de nuvens começou a cair uma valente chuvada.",
+        "Fechou a janela e, resignado, foi para a cama às apalpadelas."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "04-25",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "pássaros",
+          "distractors": [
+            "árvores",
+            "grandes",
+            "pequenos"
+          ],
+          "sentence": "Também havia pássaros, grandes e pequenos, uns de bico amarelo, outros de bico encarnado, outros de bico lilás..."
+        },
+        {
+          "target": "árvore",
+          "distractors": [
+            "frutos",
+            "árvores",
+            "flores"
+          ],
+          "sentence": "Naquela quinta só havia uma árvore sem pássaros e sem frutos."
+        },
+        {
+          "target": "frutos",
+          "distractors": [
+            "árvore",
+            "árvores",
+            "flores"
+          ],
+          "sentence": "Os pássaros gostam das árvores, principalmente dos frutos."
+        },
+        {
+          "target": "árvores",
+          "distractors": [
+            "pássaros",
+            "árvore",
+            "frutos"
+          ],
+          "sentence": "E as árvores também gostam dos pássaros."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "pássaros",
+          "syllables": [
+            "pás",
+            "sa",
+            "ros"
+          ]
+        },
+        {
+          "word": "árvore",
+          "syllables": [
+            "ár",
+            "vo",
+            "re"
+          ]
+        },
+        {
+          "word": "bico",
+          "syllables": [
+            "bi",
+            "co"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "reco",
+          "syllables": [
+            "re",
+            "co"
+          ]
+        },
+        {
+          "word": "saco",
+          "syllables": [
+            "sa",
+            "co"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "pássaros",
+          "b": "pássaros"
+        },
+        {
+          "a": "árvore",
+          "b": "árvore"
+        },
+        {
+          "a": "frutos",
+          "b": "frutos"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Também havia pássaros, grandes e pequenos, uns de bico amarelo, outros de bico encarnado, outros de bico lilás...",
+        "Naquela quinta só havia uma árvore sem pássaros e sem frutos.",
+        "A árvore sonhou que os pássaros coloridos voavam à volta dela, cantando e batendo as asas.",
+        "Às vezes, as árvores tristes têm sonhos assim, sem explicação nem sentido.",
+        "Calculem que, no dia seguinte, quando acordou, a árvore estava, realmente, cheia de flores - as flores que anunciam os frutos, os frutos…"
+      ]
+    }
+  ]
+}

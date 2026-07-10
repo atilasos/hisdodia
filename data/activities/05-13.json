@@ -1,0 +1,153 @@
+{
+  "id": "05-13",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "ovelha",
+          "distractors": [
+            "rebanho",
+            "balido",
+            "vento"
+          ],
+          "sentence": "A ovelha tresmalhada arrepiou-se toda e com o arrepio soltou o primeiro balido, a pedir socorro."
+        },
+        {
+          "target": "rebanho",
+          "distractors": [
+            "ovelha",
+            "balido",
+            "sombra"
+          ],
+          "sentence": "Perdera-se do rebanho, quando lhe deu a sede e foi à cata de água nem ela sabia onde."
+        },
+        {
+          "target": "sede",
+          "distractors": [
+            "água",
+            "fome",
+            "vento"
+          ],
+          "sentence": "Fome e sede era o que sentia, agora, naquele ermo."
+        },
+        {
+          "target": "água",
+          "distractors": [
+            "sede",
+            "fome",
+            "vento"
+          ],
+          "sentence": "Mas isso fora dias atrás e, entretanto, a água naturalmente secara do tanto calor que fazia."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "ovelha",
+          "syllables": [
+            "o",
+            "ve",
+            "lha"
+          ]
+        },
+        {
+          "word": "rebanho",
+          "syllables": [
+            "re",
+            "ba",
+            "nho"
+          ]
+        },
+        {
+          "word": "sede",
+          "syllables": [
+            "se",
+            "de"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "banho",
+          "syllables": [
+            "ba",
+            "nho"
+          ]
+        },
+        {
+          "word": "desenho",
+          "syllables": [
+            "de",
+            "se",
+            "nho"
+          ]
+        },
+        {
+          "word": "deve",
+          "syllables": [
+            "de",
+            "ve"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "ovelha",
+          "b": "ovelha"
+        },
+        {
+          "a": "rebanho",
+          "b": "rebanho"
+        },
+        {
+          "a": "sede",
+          "b": "sede"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "bulindo",
+          "b": "agitando-se levemente."
+        },
+        {
+          "a": "tresmalhada",
+          "b": "separada do rebanho ou da manada"
+        },
+        {
+          "a": "tasquinhando",
+          "b": "comendo pouco / debicando"
+        },
+        {
+          "a": "remanso",
+          "b": "sossego / tranquilidade / quietação"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Perdera-se do rebanho, quando lhe deu a sede e foi à cata de água nem ela sabia onde.",
+        "Ainda há pouco, tão em sossego com as outras do rebanho, tasquinhando uns restos de ervas, no remanso de uma sombra entre rochedos.",
+        "Ia a atrever-se pela boca de uma gruta, na base de um cabeço, mas teve medo.",
+        "Aproveitando-o, a ovelha gritou mais alto o seu susto.",
+        "O seu coração humilde podia, de novo, bater mais tranquilo."
+      ]
+    }
+  ]
+}

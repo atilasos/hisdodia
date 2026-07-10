@@ -1,0 +1,140 @@
+{
+  "id": "06-03",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "boneca",
+          "distractors": [
+            "olhos",
+            "menina",
+            "bonecas"
+          ],
+          "sentence": "A boneca da madrinha era a mais linda de todas."
+        },
+        {
+          "target": "madrinha",
+          "distractors": [
+            "menina",
+            "lágrimas",
+            "bonecas"
+          ],
+          "sentence": "Ai, a boneca da madrinha, poisada no toucador , multiplicada pelos espelhos em centenas de bonecas iguais!"
+        },
+        {
+          "target": "olhos",
+          "distractors": [
+            "boneca",
+            "menina",
+            "botas"
+          ],
+          "sentence": "O vestido era de seda tão azul como os olhos dela."
+        },
+        {
+          "target": "menina",
+          "distractors": [
+            "boneca",
+            "madrinha",
+            "olhos"
+          ],
+          "sentence": "Boneca e menina fitaram-se, surpreendidas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "boneca",
+          "syllables": [
+            "bo",
+            "ne",
+            "ca"
+          ]
+        },
+        {
+          "word": "madrinha",
+          "syllables": [
+            "ma",
+            "dri",
+            "nha"
+          ]
+        },
+        {
+          "word": "olhos",
+          "syllables": [
+            "o",
+            "lhos"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "boca",
+          "syllables": [
+            "bo",
+            "ca"
+          ]
+        },
+        {
+          "word": "cabo",
+          "syllables": [
+            "ca",
+            "bo"
+          ]
+        },
+        {
+          "word": "manha",
+          "syllables": [
+            "ma",
+            "nha"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "boneca",
+          "b": "boneca"
+        },
+        {
+          "a": "madrinha",
+          "b": "madrinha"
+        },
+        {
+          "a": "olhos",
+          "b": "olhos"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/06/03/images/nbjpblpz67artzrbwiur3upilqqcwbua/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "A boneca da madrinha era a mais linda de todas.",
+        "Nunca sequer se atrevera a penteá-la, para não lhe desmanchar os caracóis loiros.",
+        "Mariana, mas um sorrisinho frisado, miudinho, que lhe apertava os olhos e enrugava o queixo.",
+        "Ela a destapar a caixa e uma morena vistosa, de saia encarnada e laçarote à cintura, a olhar para ela.",
+        "Não chores, que gosto muito de ti - disse a menina, apertando a boneca nos braços."
+      ]
+    }
+  ]
+}

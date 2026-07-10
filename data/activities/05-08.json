@@ -1,0 +1,143 @@
+{
+  "id": "05-08",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "telhado",
+          "distractors": [
+            "escada",
+            "direito",
+            "sempre"
+          ],
+          "sentence": "Moro no último andar de uma casa amansardada com vista para o telhado e para o rio."
+        },
+        {
+          "target": "escada",
+          "distractors": [
+            "telhado",
+            "amigo",
+            "direito"
+          ],
+          "sentence": "Pois a Didi subia ao telhado pela escada de ferro, em caracol, a escada das traseiras, mas para descer passava sempre por minha casa."
+        },
+        {
+          "target": "amigo",
+          "distractors": [
+            "escada",
+            "casa",
+            "gatos"
+          ],
+          "sentence": "Quem me contou esta história foi o Rogério, um rapazinho meu amigo, que morava no 2º direito do prédio onde eu moro."
+        },
+        {
+          "target": "direito",
+          "distractors": [
+            "telhado",
+            "escada",
+            "sempre"
+          ],
+          "sentence": "Que ninguém se atreva a contestar-lhes o direito, porque senão pode haver guerra entre gatos e homens, o que seria uma verdadeira…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "telhado",
+          "syllables": [
+            "te",
+            "lha",
+            "do"
+          ]
+        },
+        {
+          "word": "escada",
+          "syllables": [
+            "es",
+            "ca",
+            "da"
+          ]
+        },
+        {
+          "word": "amigo",
+          "syllables": [
+            "a",
+            "mi",
+            "go"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "calha",
+          "syllables": [
+            "ca",
+            "lha"
+          ]
+        },
+        {
+          "word": "dado",
+          "syllables": [
+            "da",
+            "do"
+          ]
+        },
+        {
+          "word": "escadote",
+          "syllables": [
+            "es",
+            "ca",
+            "do",
+            "te"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "telhado",
+          "b": "telhado"
+        },
+        {
+          "a": "escada",
+          "b": "escada"
+        },
+        {
+          "a": "amigo",
+          "b": "amigo"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/05/08/images/3iw7sjk2ah3bdgrasncmctyaccxnwkkc/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Quem me contou esta história foi o Rogério, um rapazinho meu amigo, que morava no 2º direito do prédio onde eu moro.",
+        "Fosse por que fosse, de Verão ou de Inverno, tinha sempre a janela do meu quarto aberta, não se desse o caso de sua excelência querer…",
+        "Está de férias, em casa de uns tios, e demora-se um mês por cá, para matar saudades e rever amigos.",
+        "Quando o Rogério voltou da escola, deram-lhe a notícia.",
+        "A Didi, cidadã europeia, um dia que regresse a Portugal, já tem muito que contar aos outros gatos do nosso telhado..."
+      ]
+    }
+  ]
+}

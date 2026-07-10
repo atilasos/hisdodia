@@ -1,0 +1,163 @@
+{
+  "id": "05-23",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "arcas",
+          "distractors": [
+            "cidade",
+            "alto",
+            "pedras"
+          ],
+          "sentence": "Carregadas por escravos iam, no meio do apressado cortejo em fuga, as arcas cheias de tesouros, para serem depostas em lugar seguro…"
+        },
+        {
+          "target": "cidade",
+          "distractors": [
+            "arcas",
+            "pedras",
+            "chefe"
+          ],
+          "sentence": "Cada cidade tem muitas histórias para contar."
+        },
+        {
+          "target": "alto",
+          "distractors": [
+            "arcas",
+            "chefe",
+            "longe"
+          ],
+          "sentence": "Quando as disputas entre eles gritavam mais alto do que o bom senso e a cortesia, que deve regular sempre as relações entre vizinhos…"
+        },
+        {
+          "target": "tesouros",
+          "distractors": [
+            "emboscado",
+            "foragidos",
+            "alfanges"
+          ],
+          "sentence": "Tu és a jóia mais preciosa dos meus tesouros."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "arcas",
+          "syllables": [
+            "ar",
+            "cas"
+          ]
+        },
+        {
+          "word": "cidade",
+          "syllables": [
+            "ci",
+            "da",
+            "de"
+          ]
+        },
+        {
+          "word": "emboscado",
+          "syllables": [
+            "em",
+            "bos",
+            "ca",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "arca",
+          "syllables": [
+            "ar",
+            "ca"
+          ]
+        },
+        {
+          "word": "cabos",
+          "syllables": [
+            "ca",
+            "bos"
+          ]
+        },
+        {
+          "word": "caem",
+          "syllables": [
+            "ca",
+            "em"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "arcas",
+          "b": "arcas"
+        },
+        {
+          "a": "cidade",
+          "b": "cidade"
+        },
+        {
+          "a": "alto",
+          "b": "alto"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "cimitarras",
+          "b": "espadas de folha larga e curva"
+        },
+        {
+          "a": "emboscado",
+          "b": "escondido / oculto"
+        },
+        {
+          "a": "foragidos",
+          "b": "perseguidos / fugidos"
+        },
+        {
+          "a": "alfanges",
+          "b": "sabres de folha larga e curva / cimitarras"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/05/23/images/kxkdvuo5g5srejxzh6kczlbchlba6dh6/Imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Tantas lendas de mouras que há e eu ainda não contei nenhuma.",
+        "Quando as disputas entre eles gritavam mais alto do que o bom senso e a cortesia, que deve regular sempre as relações entre vizinhos…",
+        "Ouvindo o grito da soldadesca que, de lanças e alfanges em punho, trepava as faldas da montanha, o chefe dos sitiados percebeu que ele e…",
+        "Ele, que tinha poderes mágicos, transformou a filha e as arcas carregadas de riquezas em pedras de uma gruta.",
+        "Vale a pena ir lá de propósito, em passeio, que mais não seja porque do alto da colina, onde a meio da encosta, alveja uma ermidinha, se…"
+      ]
+    }
+  ]
+}

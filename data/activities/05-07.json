@@ -1,0 +1,135 @@
+{
+  "id": "05-07",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "depois",
+          "distractors": [
+            "cidade",
+            "pijama",
+            "riscas"
+          ],
+          "sentence": "Depois, mais decidida, voou desta história para fora."
+        },
+        {
+          "target": "conhecem",
+          "distractors": [
+            "cidade",
+            "bisnaga",
+            "encarnado"
+          ],
+          "sentence": "Pintas pretas sobre fundo encarnado, conhecem o género, não conhecem?"
+        },
+        {
+          "target": "cidade",
+          "distractors": [
+            "depois",
+            "conhecem",
+            "pijama"
+          ],
+          "sentence": "O pai dela, coitado, morrera há tempos, e a cidade de Lisboa não estava nos seus projectos de viagem."
+        },
+        {
+          "target": "pijama",
+          "distractors": [
+            "depois",
+            "cidade",
+            "riscas"
+          ],
+          "sentence": "Ficaria a pobre joaninha condenada a prisão perpétua, não se tivesse desfeito, a tempo, do pijama às riscas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "depois",
+          "syllables": [
+            "de",
+            "pois"
+          ]
+        },
+        {
+          "word": "conhecem",
+          "syllables": [
+            "co",
+            "nhe",
+            "cem"
+          ]
+        },
+        {
+          "word": "cidade",
+          "syllables": [
+            "ci",
+            "da",
+            "de"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "conheci",
+          "syllables": [
+            "co",
+            "nhe",
+            "ci"
+          ]
+        },
+        {
+          "word": "decide",
+          "syllables": [
+            "de",
+            "ci",
+            "de"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "depois",
+          "b": "depois"
+        },
+        {
+          "a": "conhecem",
+          "b": "conhecem"
+        },
+        {
+          "a": "cidade",
+          "b": "cidade"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/05/07/images/3ddgsaqcalbc2tb26uwwarpty2p46b62/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Pintas pretas sobre fundo encarnado, conhecem o género, não conhecem?",
+        "Por isso a joaninha resolveu mascarar-se de escaravelho.",
+        "Agarrou-o com uma pinça, meteu-o num frasquinho e ala com ele para o seu laboratório, em Lisboa.",
+        "Por fim, tirou-lhe o retrato, para um grande álbum de escaravelhos que estava a preparar, e foi à vida, à sua vida de incansável…",
+        "Se a virem por aí, deixem-na viver sossegada o seu próprio destino de joaninha sem nome."
+      ]
+    }
+  ]
+}

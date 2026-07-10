@@ -1,0 +1,140 @@
+{
+  "id": "09-22",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "quatro",
+          "distractors": [
+            "assim",
+            "tempo",
+            "então"
+          ],
+          "sentence": "Poderoso, majestoso e generoso era este rei, mas tinha um grande desgosto - os seus quatro filhos davam-se muito mal uns com os outros."
+        },
+        {
+          "target": "assim",
+          "distractors": [
+            "quatro",
+            "tempo",
+            "então"
+          ],
+          "sentence": "Assim pensando, o rei Sol decidiu que cada um deles governasse por sua vez, durante um certo tempo."
+        },
+        {
+          "target": "tempo",
+          "distractors": [
+            "quatro",
+            "assim",
+            "então"
+          ],
+          "sentence": "Queixava-se de que lhe não davam tempo..."
+        },
+        {
+          "target": "então",
+          "distractors": [
+            "quatro",
+            "assim",
+            "tempo"
+          ],
+          "sentence": "Então o Outono tinha uma birra e arrancava as folhas das árvores, algumas ainda por pintar..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "quatro",
+          "syllables": [
+            "qua",
+            "tro"
+          ]
+        },
+        {
+          "word": "assim",
+          "syllables": [
+            "as",
+            "sim"
+          ]
+        },
+        {
+          "word": "majestoso",
+          "syllables": [
+            "ma",
+            "jes",
+            "to",
+            "so"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "mato",
+          "syllables": [
+            "ma",
+            "to"
+          ]
+        },
+        {
+          "word": "soma",
+          "syllables": [
+            "so",
+            "ma"
+          ]
+        },
+        {
+          "word": "toma",
+          "syllables": [
+            "to",
+            "ma"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "quatro",
+          "b": "quatro"
+        },
+        {
+          "a": "assim",
+          "b": "assim"
+        },
+        {
+          "a": "tempo",
+          "b": "tempo"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/09/22/images/b6004e2826793523343c487d/imagens/background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Majestoso, os seus raios são de ouro e mais do que todo o ouro valem.",
+        "Queixava-se de que lhe não davam tempo...",
+        "Ainda era cedo, mas só de lhe ouvirem a voz, as primeiras flores rompiam a terra.",
+        "Nas tocas, nos ninhos, nos cortiços e por toda a parte, as palavras de ordem eram: trabalhar, colher, guardar.",
+        "E o Sol, risonho, ainda mais resplandece."
+      ]
+    }
+  ]
+}

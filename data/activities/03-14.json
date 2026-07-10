@@ -1,0 +1,152 @@
+{
+  "id": "03-14",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "quadrado",
+          "distractors": [
+            "isósceles",
+            "escaleno",
+            "quadrados"
+          ],
+          "sentence": "Numa folha de papel quadriculado dum caderno escolar, encontraram-se um quadrado, completamente quadrado, e um triângulo muito triângulo."
+        },
+        {
+          "target": "folha",
+          "distractors": [
+            "contas",
+            "calado",
+            "papel"
+          ],
+          "sentence": "Numa folha de papel quadriculado passa-se cada coisa..."
+        },
+        {
+          "target": "contas",
+          "distractors": [
+            "folha",
+            "calado",
+            "papel"
+          ],
+          "sentence": "Nem sempre as contas batem certo, apesar dos quadrados quadradinhos, muito certinhos, terem sido feitos para contas muito bem contadas…"
+        },
+        {
+          "target": "calado",
+          "distractors": [
+            "folha",
+            "contas",
+            "papel"
+          ],
+          "sentence": "O quadrado calado, muito calado, só ouvia."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "quadrado",
+          "syllables": [
+            "qua",
+            "dra",
+            "do"
+          ]
+        },
+        {
+          "word": "folha",
+          "syllables": [
+            "fo",
+            "lha"
+          ]
+        },
+        {
+          "word": "calado",
+          "syllables": [
+            "ca",
+            "la",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "calha",
+          "syllables": [
+            "ca",
+            "lha"
+          ]
+        },
+        {
+          "word": "foca",
+          "syllables": [
+            "fo",
+            "ca"
+          ]
+        },
+        {
+          "word": "laca",
+          "syllables": [
+            "la",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "quadrado",
+          "b": "quadrado"
+        },
+        {
+          "a": "folha",
+          "b": "folha"
+        },
+        {
+          "a": "contas",
+          "b": "contas"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "presunçoso",
+          "b": "vaidoso / presumido"
+        },
+        {
+          "a": "monotonia",
+          "b": "falta de variedade / sensaboria"
+        },
+        {
+          "a": "equilátero",
+          "b": "triângulo que tem os três lados iguais"
+        },
+        {
+          "a": "sapiência",
+          "b": "conhecimento vasto / sabedoria / erudição"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Numa folha de papel quadriculado passa-se cada coisa...",
+        "Mas há mais: onde estão contas, podem estar contos...",
+        "És quadrado, só quadrado e, dês as voltas que deres, ficas sempre quadrado.",
+        "Umas vezes faço-me triângulo equilátero .",
+        "Então o triângulo ficou tão enfiado que pediu a uma borracha que o apagasse."
+      ]
+    }
+  ]
+}

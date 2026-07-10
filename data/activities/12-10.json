@@ -1,0 +1,161 @@
+{
+  "id": "12-10",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "capataz",
+          "distractors": [
+            "senhor",
+            "cima",
+            "soldado"
+          ],
+          "sentence": "A mando do senhor, o capataz ferrou-lhe três bastonadas nos ossos, à vista de todos, para que servisse de exemplo."
+        },
+        {
+          "target": "senhor",
+          "distractors": [
+            "capataz",
+            "filho",
+            "servo"
+          ],
+          "sentence": "Voltou a chorar, dias depois, quando soube que o autor do roubo dos figos tinha sido o filho mais novo do senhor."
+        },
+        {
+          "target": "filho",
+          "distractors": [
+            "senhor",
+            "servo",
+            "perna"
+          ],
+          "sentence": "Entre eles, o filho mais novo do senhor."
+        },
+        {
+          "target": "servo",
+          "distractors": [
+            "senhor",
+            "filho",
+            "perna"
+          ],
+          "sentence": "Quem acredita num garoto, ainda por cima servo, um desclassificado, um ranhoso?"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "capataz",
+          "syllables": [
+            "ca",
+            "pa",
+            "taz"
+          ]
+        },
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "filho",
+          "syllables": [
+            "fi",
+            "lho"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "capa",
+          "syllables": [
+            "ca",
+            "pa"
+          ]
+        },
+        {
+          "word": "fica",
+          "syllables": [
+            "fi",
+            "ca"
+          ]
+        },
+        {
+          "word": "seca",
+          "syllables": [
+            "se",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "capataz",
+          "b": "capataz"
+        },
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "filho",
+          "b": "filho"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "pacho",
+          "b": "pano barrado ou embebido em algum líquido"
+        },
+        {
+          "a": "refrega",
+          "b": "briga / combate"
+        },
+        {
+          "a": "estirpe",
+          "b": "raça / linhagem"
+        },
+        {
+          "a": "gorgomilos",
+          "b": "goelas"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/10/images/y5uted5edvjenn7yt7gl7yea6zgg3akq/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Esta história aconteceu num tempo que até custa a recordar.",
+        "A mando do senhor, o capataz ferrou-lhe três bastonadas nos ossos, à vista de todos, para que servisse de exemplo.",
+        "Quando, finalmente, voltou a paz àquelas terras, o cirurgião não quis desfazer-se do aprendiz.",
+        "Parece que cuspiu o osso, mas José já não quis saber.",
+        "Esta bastonada foi a que lhe deu mais gosto pagar."
+      ]
+    }
+  ]
+}

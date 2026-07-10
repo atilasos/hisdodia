@@ -1,0 +1,140 @@
+{
+  "id": "09-05",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "boneca",
+          "distractors": [
+            "trapos",
+            "senhora",
+            "menina"
+          ],
+          "sentence": "Era uma história que metia uma boneca, uma mona feita de trapos, com quem já ninguém brincava."
+        },
+        {
+          "target": "trapos",
+          "distractors": [
+            "boneca",
+            "senhora",
+            "menina"
+          ],
+          "sentence": "A boneca solitária, feita de trapos, decidiu fabricar uma boneca igual a ela."
+        },
+        {
+          "target": "senhora",
+          "distractors": [
+            "boneca",
+            "trapos",
+            "menina"
+          ],
+          "sentence": "Na praia, muitos banhistas, mas na esplanada só eu e, numa mesa perto, uma jovem senhora a tricotar."
+        },
+        {
+          "target": "esplanada",
+          "distractors": [
+            "escrever",
+            "brincava",
+            "esquecida"
+          ],
+          "sentence": "Eu estava na esplanada da praia a escrever uma história."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "boneca",
+          "syllables": [
+            "bo",
+            "ne",
+            "ca"
+          ]
+        },
+        {
+          "word": "trapos",
+          "syllables": [
+            "tra",
+            "pos"
+          ]
+        },
+        {
+          "word": "senhora",
+          "syllables": [
+            "se",
+            "nho",
+            "ra"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "boca",
+          "syllables": [
+            "bo",
+            "ca"
+          ]
+        },
+        {
+          "word": "cabo",
+          "syllables": [
+            "ca",
+            "bo"
+          ]
+        },
+        {
+          "word": "cara",
+          "syllables": [
+            "ca",
+            "ra"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "boneca",
+          "b": "boneca"
+        },
+        {
+          "a": "trapos",
+          "b": "trapos"
+        },
+        {
+          "a": "senhora",
+          "b": "senhora"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/09/05/images/rkqkauv2qkfuequk23qhgbdo56j2gr5k/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Eu estava na esplanada da praia a escrever uma história.",
+        "Neste ponto da minha história, eu hesitei.",
+        "Por sinal que, na casa desabitada, uma máquina de costura meio ferrugenta, mas ainda prestimosa, ofereceu os seus serviços.",
+        "Imaginei as duas bonecas a brincar uma com a outra, na tal casa desabitada, afinal habitada pela alegria.",
+        "E aqui têm como, numa só história, cabem duas histórias."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "06-23",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "grão",
+          "distractors": [
+            "grãozinho",
+            "grãos",
+            "tempo"
+          ],
+          "sentence": "Merecemos descanso - concluiu o grão do mar."
+        },
+        {
+          "target": "grãozinho",
+          "distractors": [
+            "grão",
+            "grãos",
+            "pedreira"
+          ],
+          "sentence": "O grãozinho escorregou, rolou e foi parar a um canto de pó."
+        },
+        {
+          "target": "grãos",
+          "distractors": [
+            "grão",
+            "grãozinho",
+            "tempo"
+          ],
+          "sentence": "Dois grãos de areia encontraram-se, numa praia."
+        },
+        {
+          "target": "tempo",
+          "distractors": [
+            "grão",
+            "grãos",
+            "peixe"
+          ],
+          "sentence": "Nem tempo teve de se despedir do companheiro de ocasião..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "grãozinho",
+          "syllables": [
+            "grão",
+            "zi",
+            "nho"
+          ]
+        },
+        {
+          "word": "tempo",
+          "syllables": [
+            "tem",
+            "po"
+          ]
+        },
+        {
+          "word": "menino",
+          "syllables": [
+            "me",
+            "ni",
+            "no"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "metem",
+          "syllables": [
+            "me",
+            "tem"
+          ]
+        },
+        {
+          "word": "ninho",
+          "syllables": [
+            "ni",
+            "nho"
+          ]
+        },
+        {
+          "word": "nome",
+          "syllables": [
+            "no",
+            "me"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "grão",
+          "b": "grão"
+        },
+        {
+          "a": "grãozinho",
+          "b": "grãozinho"
+        },
+        {
+          "a": "grãos",
+          "b": "grãos"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/06/23/images/4zxjwwzsg62v5b2kiwcppnz6snzy4qea/Imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Dois grãos de areia encontraram-se, numa praia.",
+        "Veio a roda de um carro e cuspi-o para o parapeito de uma janela.",
+        "Alguém poisou o relógio sobre a superfície da areia.",
+        "Pisado por muitos pés, andou aos baldões.",
+        "É que se não acabamos, mais dia menos dia, os dois grãos vão separar-se outra vez e voltar a correr mundo."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "02-27",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "ratazana",
+          "distractors": [
+            "mágicas",
+            "palavra",
+            "direcção"
+          ],
+          "sentence": "À última palavra e o Xarabim passou a ser uma ratazana de muito mau aspecto."
+        },
+        {
+          "target": "sapo",
+          "distractors": [
+            "dois",
+            "rato",
+            "ambos"
+          ],
+          "sentence": "À última palavra dita e o Zipalam passou a ser um sapo que metia medo."
+        },
+        {
+          "target": "dois",
+          "distractors": [
+            "sapo",
+            "direcção",
+            "rato"
+          ],
+          "sentence": "Eram os dois muito competentes nas suas magias."
+        },
+        {
+          "target": "mágicas",
+          "distractors": [
+            "ratazana",
+            "última",
+            "palavra"
+          ],
+          "sentence": "Ambos fabricavam feitiços e usavam palavras mágicas, daquelas de pôr a arder uma árvore, sem quê nem porquê, só por efeito de um gesto e…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "ratazana",
+          "syllables": [
+            "ra",
+            "ta",
+            "za",
+            "na"
+          ]
+        },
+        {
+          "word": "sapo",
+          "syllables": [
+            "sa",
+            "po"
+          ]
+        },
+        {
+          "word": "mágicas",
+          "syllables": [
+            "má",
+            "gi",
+            "cas"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "gira",
+          "syllables": [
+            "gi",
+            "ra"
+          ]
+        },
+        {
+          "word": "raposa",
+          "syllables": [
+            "ra",
+            "po",
+            "sa"
+          ]
+        },
+        {
+          "word": "sacas",
+          "syllables": [
+            "sa",
+            "cas"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "ratazana",
+          "b": "ratazana"
+        },
+        {
+          "a": "sapo",
+          "b": "sapo"
+        },
+        {
+          "a": "dois",
+          "b": "dois"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Uma chamava-se Xarabim e o outro chamava-se Zipalam.",
+        "Um dia, tinha de acontecer, um dia, defrontaram-se.",
+        "À última palavra e o Xarabim passou a ser uma ratazana de muito mau aspecto.",
+        "Ficou um ratito, diante de uma ratazana.",
+        "Com total desrespeito pelas artes mágicas, a cadela Nina deu, logo ali, cabo do rato e da ratazana."
+      ]
+    }
+  ]
+}

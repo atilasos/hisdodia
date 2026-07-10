@@ -1,0 +1,132 @@
+{
+  "id": "06-29",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "corvo",
+          "distractors": [
+            "alguém",
+            "sempre",
+            "afinal"
+          ],
+          "sentence": "Preto e luzidio como todos o são, este corvo sentia-se fadado para grandes voos."
+        },
+        {
+          "target": "alguém",
+          "distractors": [
+            "corvo",
+            "sempre",
+            "afinal"
+          ],
+          "sentence": "Alguém lhe lançou uma rede, enquanto ele se aturdia, no meio dos seus sonhos."
+        },
+        {
+          "target": "sempre",
+          "distractors": [
+            "corvo",
+            "alguém",
+            "afinal"
+          ],
+          "sentence": "E palmas, muitas palmas sempre, ao fim de cada número."
+        },
+        {
+          "target": "primeiro",
+          "distractors": [
+            "pensando",
+            "preto",
+            "aprender"
+          ],
+          "sentence": "Mas, para que isso acontecesse, tinha primeiro de aprender música."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "corvo",
+          "syllables": [
+            "cor",
+            "vo"
+          ]
+        },
+        {
+          "word": "alguém",
+          "syllables": [
+            "al",
+            "guém"
+          ]
+        },
+        {
+          "word": "primeiro",
+          "syllables": [
+            "pri",
+            "mei",
+            "ro"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "alvo",
+          "syllables": [
+            "al",
+            "vo"
+          ]
+        },
+        {
+          "word": "corro",
+          "syllables": [
+            "cor",
+            "ro"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "corvo",
+          "b": "corvo"
+        },
+        {
+          "a": "alguém",
+          "b": "alguém"
+        },
+        {
+          "a": "sempre",
+          "b": "sempre"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/06/29/images/xmnhovdvj3n7n2hbooellqqkouqbwe4n/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Preto e luzidio como todos o são, este corvo sentia-se fadado para grandes voos.",
+        "Afinal, pensando bem, já não queria ser músico.",
+        "A presidir ao tribunal, com toda a autoridade de quem decide, sendo respeitado e temido, concentraria sobre ele a admiração de todos.",
+        "Apetecia-lhe ser pregador, professor catedrático, diplomata, presidente da república, eu sei lá que mais, embora houvesse sempre uns…",
+        "O corvo trabalha agora num armazém de carvão."
+      ]
+    }
+  ]
+}

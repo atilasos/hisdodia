@@ -1,0 +1,139 @@
+{
+  "id": "06-01",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "brincar",
+          "distractors": [
+            "resposta",
+            "senhor",
+            "pergunta"
+          ],
+          "sentence": "Agora vou brincar - disse o Joca, cansado de ter passado por tantas profissões, em tão pouco tempo."
+        },
+        {
+          "target": "resposta",
+          "distractors": [
+            "brincar",
+            "respondeu",
+            "pergunta"
+          ],
+          "sentence": "Fez-se silêncio na sala, à espera da resposta do menino."
+        },
+        {
+          "target": "senhor",
+          "distractors": [
+            "brincar",
+            "passado",
+            "tempo"
+          ],
+          "sentence": "Minutos depois, mais um senhor curioso fez a pergunta do costume, precisamente na altura em que uma banda de rock pum-tá-tchim-pum se…"
+        },
+        {
+          "target": "fora",
+          "distractors": [
+            "logo",
+            "tempo",
+            "canal"
+          ],
+          "sentence": "E por aí fora, por aí fora, sem se decidir por uma brincadeira..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "brincar",
+          "syllables": [
+            "brin",
+            "car"
+          ]
+        },
+        {
+          "word": "resposta",
+          "syllables": [
+            "res",
+            "pos",
+            "ta"
+          ]
+        },
+        {
+          "word": "logo",
+          "syllables": [
+            "lo",
+            "go"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "carta",
+          "syllables": [
+            "car",
+            "ta"
+          ]
+        },
+        {
+          "word": "golo",
+          "syllables": [
+            "go",
+            "lo"
+          ]
+        },
+        {
+          "word": "gota",
+          "syllables": [
+            "go",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "brincar",
+          "b": "brincar"
+        },
+        {
+          "a": "resposta",
+          "b": "resposta"
+        },
+        {
+          "a": "logo",
+          "b": "logo"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/06/01/images/t3g5w4gfptp7tpjzoe6xibzcjwqjmyoa/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Perguntaram ao Joca o que é que ele queria ser quando fosse grande.",
+        "Minutos depois, mais um senhor curioso fez a pergunta do costume, precisamente na altura em que uma banda de rock pum-tá-tchim-pum se…",
+        "Agora vou brincar - disse o Joca, cansado de ter passado por tantas profissões, em tão pouco tempo.",
+        "Com ambulâncias, carros encarnados, mangueiras?",
+        "Se ele aqui estivesse e lhe apetecesse responder, talvez a resposta lhe saísse em verso, em forma de canção ou pouco mais ou menos."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "01-03",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhor",
+          "distractors": [
+            "nunca",
+            "corda",
+            "ficou"
+          ],
+          "sentence": "Ao senhor Túlio sempre lhe fizera espécie como é que os relógios trabalhavam incansavelmente e nunca paravam."
+        },
+        {
+          "target": "corda",
+          "distractors": [
+            "senhor",
+            "nunca",
+            "ficou"
+          ],
+          "sentence": "Dá-se-lhes corda e eles andam - explicavam ao senhor Túlio, que tinha um relógio dos antigos, muito anterior aos relógios a pilhas."
+        },
+        {
+          "target": "ficou",
+          "distractors": [
+            "senhor",
+            "nunca",
+            "corda"
+          ],
+          "sentence": "Quando o senhor Túlio foi levá-lo a arranjar à oficina de relojoaria, ficou maravilhado a olhar para o maquinismo do seu querido…"
+        },
+        {
+          "target": "formiga",
+          "distractors": [
+            "senhor",
+            "ficou",
+            "sempre"
+          ],
+          "sentence": "Mas mais espantado ficou quando o relojoeiro, com um pinça, tirou uma formiga já morta, que tinha encrencado o mecanismo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "nunca",
+          "syllables": [
+            "nun",
+            "ca"
+          ]
+        },
+        {
+          "word": "corda",
+          "syllables": [
+            "cor",
+            "da"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "seca",
+          "syllables": [
+            "se",
+            "ca"
+          ]
+        },
+        {
+          "word": "seda",
+          "syllables": [
+            "se",
+            "da"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "nunca",
+          "b": "nunca"
+        },
+        {
+          "a": "corda",
+          "b": "corda"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/01/03/images/pl5dyymld5o6mt7mys2hgtvcwqs3tljv/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Ao senhor Túlio sempre lhe fizera espécie como é que os relógios trabalhavam incansavelmente e nunca paravam.",
+        "Um dia, o relógio dele parou, por mais corda que lhe desse.",
+        "Mas mais espantado ficou quando o relojoeiro, com um pinça, tirou uma formiga já morta, que tinha encrencado o mecanismo.",
+        "Como é que o relógio pode trabalhar sem maquinista?",
+        "E se o senhor Túlio tivesse razão e fosse mesmo à conta das formigas que os relógios conseguem trabalhar?"
+      ]
+    }
+  ]
+}

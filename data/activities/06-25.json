@@ -1,0 +1,133 @@
+{
+  "id": "06-25",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "hotel",
+          "distractors": [
+            "gordos",
+            "volta",
+            "entrei"
+          ],
+          "sentence": "Quando entrei no hotel, estava uma senhora muito gorda à entrada, que me olhou com curiosidade."
+        },
+        {
+          "target": "piscina",
+          "distractors": [
+            "senhores",
+            "gordos",
+            "senhoras"
+          ],
+          "sentence": "Comem na piscina - esclareceu o chefe de mesa, com um sorrizinho de condescendência."
+        },
+        {
+          "target": "senhores",
+          "distractors": [
+            "piscina",
+            "senhoras",
+            "senhora"
+          ],
+          "sentence": "Junto à recepção, estavam dois senhores muito gordos à conversa."
+        },
+        {
+          "target": "gordos",
+          "distractors": [
+            "hotel",
+            "piscina",
+            "volta"
+          ],
+          "sentence": "Cheia de gordos, gordinhos e gordíssimos que tentavam nadar, sem se empurrarem uns aos outros..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "hotel",
+          "syllables": [
+            "ho",
+            "tel"
+          ]
+        },
+        {
+          "word": "piscina",
+          "syllables": [
+            "pis",
+            "ci",
+            "na"
+          ]
+        },
+        {
+          "word": "sorriso",
+          "syllables": [
+            "sor",
+            "ri",
+            "so"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "riso",
+          "syllables": [
+            "ri",
+            "so"
+          ]
+        },
+        {
+          "word": "sorri",
+          "syllables": [
+            "sor",
+            "ri"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "hotel",
+          "b": "hotel"
+        },
+        {
+          "a": "piscina",
+          "b": "piscina"
+        },
+        {
+          "a": "senhores",
+          "b": "senhores"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/06/25/images/fciwaj4cvwknm2msghundlsfqagctppc/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Quando entrei no hotel, estava uma senhora muito gorda à entrada, que me olhou com curiosidade.",
+        "Caí-lhe nos braços, para grande surpresa do senhor, que não esperava tal efusão da minha parte e, quando ele se virou, vi que, sem…",
+        "Quem se mete na água, seja em piscina, seja no mar, só deve fazê-lo depois de feita a digestão.",
+        "Há algum congresso no hotel de pesos pesados?",
+        "Ou terá sido mau olhado, lançado pelos hóspedes do hotel?"
+      ]
+    }
+  ]
+}

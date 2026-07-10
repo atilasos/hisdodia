@@ -1,0 +1,132 @@
+{
+  "id": "09-02",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "vitelo",
+          "distractors": [
+            "rapaz",
+            "feira",
+            "conta"
+          ],
+          "sentence": "Desse-lhes ele em troca o vitelo que, à conta do pai, trazia para vender."
+        },
+        {
+          "target": "rapaz",
+          "distractors": [
+            "vitelo",
+            "feira",
+            "conta"
+          ],
+          "sentence": "Entretanto, iam dando estalos com a língua, a fazer de conta que eram os ossos do rapaz a dar de si."
+        },
+        {
+          "target": "feira",
+          "distractors": [
+            "vitelo",
+            "rapaz",
+            "conta"
+          ],
+          "sentence": "Dois aldrabões de feira, desses que andam de terra em terra a vigarizar ingénuos, souberam da vontade do moço e prometeram que o…"
+        },
+        {
+          "target": "conta",
+          "distractors": [
+            "vitelo",
+            "rapaz",
+            "feira"
+          ],
+          "sentence": "Repare que, dantes, nos dava pela cintura e agora está mais alto do que nós - dizia-lhe um dos vigaristas, agachado, a fazer de conta."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "vitelo",
+          "syllables": [
+            "vi",
+            "te",
+            "lo"
+          ]
+        },
+        {
+          "word": "rapaz",
+          "syllables": [
+            "ra",
+            "paz"
+          ]
+        },
+        {
+          "word": "feira",
+          "syllables": [
+            "fei",
+            "ra"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "rara",
+          "syllables": [
+            "ra",
+            "ra"
+          ]
+        },
+        {
+          "word": "vira",
+          "syllables": [
+            "vi",
+            "ra"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "vitelo",
+          "b": "vitelo"
+        },
+        {
+          "a": "rapaz",
+          "b": "rapaz"
+        },
+        {
+          "a": "feira",
+          "b": "feira"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/09/02/images/raxi5k3mp2xhknustmj7qasbxuoq55rk/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Bem proporcionado de corpo, tudo nos conformes, nenhum defeito, algumas qualidades, gentil, formoso, mas em ponto pequeno.",
+        "Repare que, dantes, nos dava pela cintura e agora está mais alto do que nós - dizia-lhe um dos vigaristas, agachado, a fazer de conta.",
+        "O rapazinho andou pela feira com a aba do chapéu enfiada até ao pescoço, que parecia um babete ou uma gola de fazer rir.",
+        "Eu, sargento Viçoso, sargento da Guarda Republicana, intimo-os a largarem o vitelo, senão disparo.",
+        "Feliz com o seu sucesso, sentia-se, subitamente, mais crescido."
+      ]
+    }
+  ]
+}

@@ -26,11 +26,11 @@ Ciclo do global ao silábico, como no Método das 28 Palavras bem implementado.
 
 ### 3. `jogo-memoria` — memória (descobrir e aprofundar)
 - Nível descobrir: 6 cartas = 3 pares palavra↔palavra (mesma palavra, reforço da forma global).
-- Nível aprofundar (só se a história tem glossário ≥3 entradas): 8 cartas = 4 pares termo↔significado do glossário.
+- Nível aprofundar (só se a história tem glossário com ≥4 entradas válidas): 8 cartas = 4 pares termo↔significado do glossário.
 - Cartas viradas com clique/Enter; sem limite de tentativas; ao terminar, mensagem calma.
 
 ### 4. `puzzle-ilustracao` — puzzle (descobrir)
-A ilustração original recuperada cortada em grelha (3×2 no descobrir; opção 4×3 disponível). Recomposição por troca de peças (clicar duas peças troca-as; teclado: setas + Enter). Só existe se a história tem ilustração local recuperada. Legenda ao completar: "Esta é a ilustração original de {ilustrador}."
+A ilustração original recuperada cortada em grelha 3×2. Recomposição por troca de peças (clicar duas peças troca-as; teclado: setas + Enter). Só existe se a história tem ilustração local recuperada. Legenda ao completar: "Esta é a ilustração original de {ilustrador}."
 
 ### 5. `ordena-historia` — compreensão/macroprocessos (aprofundar)
 3 a 5 frases-chave da história (extraídas na ordem do texto), baralhadas; a criança ordena-as pela ordem dos acontecimentos. Ao completar, as frases leem-se de seguida como resumo. Só para histórias com ≥3 parágrafos com frases utilizáveis.
@@ -99,6 +99,8 @@ Regras do gerador:
 - Sem JS: o bloco mostra `<noscript>` com sugestão de brincar no papel (ex.: "Imprime a história e rodeia as palavras que já conheces.") e os jogos não aparecem quebrados.
 - Estética: tokens OKLCH do DESIGN.md (papel, âmbar para ação, verde-recuperação para sucesso suave), cartões com sombra de papel, cantos suaves; nada de cores saturadas de "app de jogos".
 - Homepage e arquivo não mudam (o Brincar vive na página da história); apenas um link-âncora "Brincar" pode aparecer nas ações da história.
+
+Limitação conhecida (aceite por agora): o texto recuperado é anterior ao AO90; palavras com grafia pré-acordo (ex.: "director", "insectos") podem entrar nos jogos de sílabas tal como estão no original. A proveniência honesta cobre o texto; uma filtragem AO90 nos jogos fica para iteração futura se se justificar.
 
 ## Testes exigidos
 

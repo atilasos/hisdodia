@@ -1,0 +1,164 @@
+{
+  "id": "05-06",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "burro",
+          "distractors": [
+            "homem",
+            "senhor",
+            "assim"
+          ],
+          "sentence": "Quem lhe carregava as bilhas era um burro cinzento, que o homem trazia pela arreata."
+        },
+        {
+          "target": "azeiteiro",
+          "distractors": [
+            "assim",
+            "malandrim",
+            "arreata"
+          ],
+          "sentence": "Mas, para que o azeiteiro não faça escarcéu e não chame a guarda, tenho uma ideia..."
+        },
+        {
+          "target": "homem",
+          "distractors": [
+            "burro",
+            "senhor",
+            "assim"
+          ],
+          "sentence": "Era uma vez um pobre homem que andava de terra em terra, a vender azeite."
+        },
+        {
+          "target": "senhor",
+          "distractors": [
+            "burro",
+            "homem",
+            "assim"
+          ],
+          "sentence": "Saiba o senhor que eu tinha sido fadado por uma bruxa, mas acabo de provar uma ervinha milagrosa que me desfadou ."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "burro",
+          "syllables": [
+            "bur",
+            "ro"
+          ]
+        },
+        {
+          "word": "azeiteiro",
+          "syllables": [
+            "a",
+            "zei",
+            "tei",
+            "ro"
+          ]
+        },
+        {
+          "word": "argola",
+          "syllables": [
+            "ar",
+            "go",
+            "la"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "arrotei",
+          "syllables": [
+            "ar",
+            "ro",
+            "tei"
+          ]
+        },
+        {
+          "word": "gola",
+          "syllables": [
+            "go",
+            "la"
+          ]
+        },
+        {
+          "word": "lago",
+          "syllables": [
+            "la",
+            "go"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "burro",
+          "b": "burro"
+        },
+        {
+          "a": "azeiteiro",
+          "b": "azeiteiro"
+        },
+        {
+          "a": "homem",
+          "b": "homem"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "malandrim",
+          "b": "patife / vadio / gatuno"
+        },
+        {
+          "a": "finório",
+          "b": "espertalhão / manhoso"
+        },
+        {
+          "a": "escarcéu",
+          "b": "alarido / berreiro"
+        },
+        {
+          "a": "desfadou",
+          "b": "retirou o feitiço"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/05/06/images/ylzzr4i6bohm3vlktkiammkecdz7aa7c/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um pobre homem que andava de terra em terra, a vender azeite.",
+        "Mas, para que o azeiteiro não faça escarcéu e não chame a guarda, tenho uma ideia...",
+        "Saiba o senhor que eu tinha sido fadado por uma bruxa, mas acabo de provar uma ervinha milagrosa que me desfadou .",
+        "O outro condescendeu e o caso ficou por ali.",
+        "Afinal, ó infeliz, tiveste uma recaída, foi?"
+      ]
+    }
+  ]
+}

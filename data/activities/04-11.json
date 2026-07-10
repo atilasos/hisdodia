@@ -1,0 +1,124 @@
+{
+  "id": "04-11",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "gaivota",
+          "distractors": [
+            "frente",
+            "sozinha",
+            "saltinho"
+          ],
+          "sentence": "Nisto pensava a gaivota, enquanto se entretinha, saltinho sobre saltinho, a imprimir na areia as suas pegadas de gaivota nova."
+        },
+        {
+          "target": "frente",
+          "distractors": [
+            "gaivota",
+            "sozinha",
+            "antes"
+          ],
+          "sentence": "Três dedos espetados para a frente e zás!"
+        },
+        {
+          "target": "antes",
+          "distractors": [
+            "frente",
+            "três",
+            "dedos"
+          ],
+          "sentence": "Nas praias desertas, antes do Verão, a areia muito lisa até parece passada a ferro."
+        },
+        {
+          "target": "pegadas",
+          "distractors": [
+            "gaivota",
+            "frente",
+            "sozinha"
+          ],
+          "sentence": "Não que tivesse visto um bicho, mas viu, na areia molhada, à sua frente, a marca de outras pegadas iguais às dela."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "gaivota",
+          "syllables": [
+            "gai",
+            "vo",
+            "ta"
+          ]
+        },
+        {
+          "word": "frente",
+          "syllables": [
+            "fren",
+            "te"
+          ]
+        },
+        {
+          "word": "sozinha",
+          "syllables": [
+            "so",
+            "zi",
+            "nha"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "sonha",
+          "syllables": [
+            "so",
+            "nha"
+          ]
+        },
+        {
+          "word": "vozinha",
+          "syllables": [
+            "vo",
+            "zi",
+            "nha"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "gaivota",
+          "b": "gaivota"
+        },
+        {
+          "a": "frente",
+          "b": "frente"
+        },
+        {
+          "a": "sozinha",
+          "b": "sozinha"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Não havia banhistas, porque ainda não era o tempo deles.",
+        "Três dedos espetados para a frente e zás!",
+        "Chegada à beira de um rochedo, a gaivota virou-se para trás e contemplou o caminho que fizera pela praia toda.",
+        "Mediu de cima o terreno em volta e foi então que deu com outra gaivota, aninhada atrás de uma rocha.",
+        "Desconfio que, antes de chegar o Verão, outras patinhas novas, mais pequenas, vão povoar aquelas areias."
+      ]
+    }
+  ]
+}

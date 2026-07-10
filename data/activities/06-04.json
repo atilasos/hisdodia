@@ -1,0 +1,139 @@
+{
+  "id": "06-04",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "muro",
+          "distractors": [
+            "casa",
+            "mandara",
+            "homem"
+          ],
+          "sentence": "Um muro em ruínas pediu-me que contasse a história dele."
+        },
+        {
+          "target": "casa",
+          "distractors": [
+            "muro",
+            "homem",
+            "coberto"
+          ],
+          "sentence": "Sim, o muro tinha feito parte de uma casa, um casarão, por assim dizer, um palácio."
+        },
+        {
+          "target": "paredes",
+          "distractors": [
+            "mandara",
+            "ruínas",
+            "coberto"
+          ],
+          "sentence": "Pedreiros partiram os pedregulhos em blocos e começaram a levantar as paredes."
+        },
+        {
+          "target": "mandara",
+          "distractors": [
+            "muro",
+            "paredes",
+            "ruínas"
+          ],
+          "sentence": "Quem o mandara construir não se contentava com pouco."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "muro",
+          "syllables": [
+            "mu",
+            "ro"
+          ]
+        },
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        },
+        {
+          "word": "paredes",
+          "syllables": [
+            "pa",
+            "re",
+            "des"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "capa",
+          "syllables": [
+            "ca",
+            "pa"
+          ]
+        },
+        {
+          "word": "caro",
+          "syllables": [
+            "ca",
+            "ro"
+          ]
+        },
+        {
+          "word": "redes",
+          "syllables": [
+            "re",
+            "des"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "muro",
+          "b": "muro"
+        },
+        {
+          "a": "casa",
+          "b": "casa"
+        },
+        {
+          "a": "paredes",
+          "b": "paredes"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/06/04/images/es5qrb7a4ehvukip4zsuhgdljrgqzvpt/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Um muro em ruínas pediu-me que contasse a história dele.",
+        "Quem o mandara construir não se contentava com pouco.",
+        "O homem que queria levantar ali, no meio da planície, uma casa igual à do rei aparecia muitas vezes, para visitar as obras.",
+        "Tempos depois, silvas e mato tomaram conta das paredes.",
+        "Mas como é que eu posso contar a história de um muro?"
+      ]
+    }
+  ]
+}

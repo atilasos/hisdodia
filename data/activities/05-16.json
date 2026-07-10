@@ -1,0 +1,122 @@
+{
+  "id": "05-16",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "quatro",
+          "distractors": [
+            "amigas",
+            "meninas",
+            "porta"
+          ],
+          "sentence": "Lalá, Lelé, Lili e Lulu, quatro vizinhas amigas, procuravam em vão uma Loló que completasse o grupo."
+        },
+        {
+          "target": "amigas",
+          "distractors": [
+            "quatro",
+            "meninas",
+            "porta"
+          ],
+          "sentence": "Eram as três muito amigas e por aí se ficariam."
+        },
+        {
+          "target": "meninas",
+          "distractors": [
+            "quatro",
+            "amigas",
+            "vizinhas"
+          ],
+          "sentence": "Meninas a crescer para Lídia e para Lúcia moravam no mesmo prédio, por sinal porta com porta, no mesmo patamar."
+        },
+        {
+          "target": "vizinhas",
+          "distractors": [
+            "meninas",
+            "segundo",
+            "gatinha"
+          ],
+          "sentence": "Entrou também nas brincadeiras das vizinhas de baixo e passou a dar pelo nome de Lalá."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "quatro",
+          "syllables": [
+            "qua",
+            "tro"
+          ]
+        },
+        {
+          "word": "amigas",
+          "syllables": [
+            "a",
+            "mi",
+            "gas"
+          ]
+        },
+        {
+          "word": "porta",
+          "syllables": [
+            "por",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "gasta",
+          "syllables": [
+            "gas",
+            "ta"
+          ]
+        },
+        {
+          "word": "migas",
+          "syllables": [
+            "mi",
+            "gas"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "quatro",
+          "b": "quatro"
+        },
+        {
+          "a": "amigas",
+          "b": "amigas"
+        },
+        {
+          "a": "meninas",
+          "b": "meninas"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Meninas a crescer para Lídia e para Lúcia moravam no mesmo prédio, por sinal porta com porta, no mesmo patamar.",
+        "Lalá, Lili e Lulu sabiam pouco do alfabeto, porque ainda não andavam na escola, mas mesmo assim sentiam que faltava alguém para o bando…",
+        "Lá é que vamos conhecer uma Loló - lembrou uma delas, não sei se a Lalá, a Lelé, a Lili ou a Lulu.",
+        "Já sou uma pessoa crescida e o nome de Loló não dá muito comigo.",
+        "Mas não podia acabar melhor a história que começou com uma Lili e uma Lulu e termina com a Lalá, a Lelé, a Lili, a Loló e a Lulu numa…"
+      ]
+    }
+  ]
+}

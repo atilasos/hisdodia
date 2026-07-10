@@ -1,0 +1,131 @@
+{
+  "id": "08-13",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "pardais",
+          "distractors": [
+            "piscina",
+            "cartaz",
+            "ninguém"
+          ],
+          "sentence": "Sim, porque eu vi, há dias, três pardais ao pé do self-service da piscina."
+        },
+        {
+          "target": "piscina",
+          "distractors": [
+            "pardais",
+            "cartaz",
+            "ninguém"
+          ],
+          "sentence": "Hoje, na piscina, vi uma borboleta a voar por cima da água."
+        },
+        {
+          "target": "cartaz",
+          "distractors": [
+            "pardais",
+            "piscina",
+            "ninguém"
+          ],
+          "sentence": "É que há um cartaz, à entrada da piscina, que proíbe a entrada a animais."
+        },
+        {
+          "target": "ninguém",
+          "distractors": [
+            "pardais",
+            "piscina",
+            "cartaz"
+          ],
+          "sentence": "Pardalão - Ora, como ninguém nos trouxe de companhia podemos entrar."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "pardais",
+          "syllables": [
+            "par",
+            "dais"
+          ]
+        },
+        {
+          "word": "piscina",
+          "syllables": [
+            "pis",
+            "ci",
+            "na"
+          ]
+        },
+        {
+          "word": "borboleta",
+          "syllables": [
+            "bor",
+            "bo",
+            "le",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "bota",
+          "syllables": [
+            "bo",
+            "ta"
+          ]
+        },
+        {
+          "word": "pista",
+          "syllables": [
+            "pis",
+            "ta"
+          ]
+        },
+        {
+          "word": "tapar",
+          "syllables": [
+            "ta",
+            "par"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "pardais",
+          "b": "pardais"
+        },
+        {
+          "a": "piscina",
+          "b": "piscina"
+        },
+        {
+          "a": "cartaz",
+          "b": "cartaz"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Hoje, na piscina, vi uma borboleta a voar por cima da água.",
+        "Havia que explicar ao Joca que os pardais, não sabendo ler, tinham de ser desculpados do atrevimento.",
+        "Pardalão - E os que trazem comida de casa?",
+        "Pardal, Pardalinho e Pardalão (em coro) - NÃO É PERMITIDA A ENTRADA A PESSOAS ACOMPANHADAS DE ANIMAIS.",
+        "É preciso ler sempre bem e aproveitar o mais possível o que se lê."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "03-21",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "vento",
+          "distractors": [
+            "dunas",
+            "erva",
+            "montes"
+          ],
+          "sentence": "Cabeleiras dóceis de ervinhas rasteiras deixavam-se pentear, despentear, ao sabor do vento gigante."
+        },
+        {
+          "target": "dunas",
+          "distractors": [
+            "vento",
+            "erva",
+            "montes"
+          ],
+          "sentence": "Senhor daquelas dunas, o que ele queria era disciplina, ordem, submissão."
+        },
+        {
+          "target": "erva",
+          "distractors": [
+            "vento",
+            "dunas",
+            "duna"
+          ],
+          "sentence": "A erva, que erva afinal não era, submetia-se."
+        },
+        {
+          "target": "montes",
+          "distractors": [
+            "vento",
+            "dunas",
+            "tronco"
+          ],
+          "sentence": "Hoje, fazia uma duna maior aqui, amanhã apagava-a, para fazê-la mais além e, sempre segundo os seus caprichos, onde estavam montes…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "vento",
+          "syllables": [
+            "ven",
+            "to"
+          ]
+        },
+        {
+          "word": "dunas",
+          "syllables": [
+            "du",
+            "nas"
+          ]
+        },
+        {
+          "word": "pinheiros",
+          "syllables": [
+            "pi",
+            "nhei",
+            "ros"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "duros",
+          "syllables": [
+            "du",
+            "ros"
+          ]
+        },
+        {
+          "word": "rosto",
+          "syllables": [
+            "ros",
+            "to"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "vento",
+          "b": "vento"
+        },
+        {
+          "a": "dunas",
+          "b": "dunas"
+        },
+        {
+          "a": "erva",
+          "b": "erva"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Hoje, fazia uma duna maior aqui, amanhã apagava-a, para fazê-la mais além e, sempre segundo os seus caprichos, onde estavam montes…",
+        "Fincava as raízes, segurava-se com toda a força e, quando o vento descia, inclinava-se à vontade dele.",
+        "Ali havia uma pequena nação de pinheiros novos.",
+        "Tinham raça e coragem para fazer frente ao vento.",
+        "E foi assim que o vento, o gigante caprichoso que dantes arrasava dunas, teve de deixar de fazer castelos na areia."
+      ]
+    }
+  ]
+}

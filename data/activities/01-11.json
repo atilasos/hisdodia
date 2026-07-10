@@ -1,0 +1,77 @@
+{
+  "id": "01-11",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "galinha",
+          "syllables": [
+            "ga",
+            "li",
+            "nha"
+          ]
+        },
+        {
+          "word": "penas",
+          "syllables": [
+            "pe",
+            "nas"
+          ]
+        },
+        {
+          "word": "cidade",
+          "syllables": [
+            "ci",
+            "da",
+            "de"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dali",
+          "syllables": [
+            "da",
+            "li"
+          ]
+        },
+        {
+          "word": "ganas",
+          "syllables": [
+            "ga",
+            "nas"
+          ]
+        },
+        {
+          "word": "ganha",
+          "syllables": [
+            "ga",
+            "nha"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "galinha",
+          "b": "galinha"
+        },
+        {
+          "a": "penas",
+          "b": "penas"
+        },
+        {
+          "a": "cidade",
+          "b": "cidade"
+        }
+      ]
+    }
+  ]
+}

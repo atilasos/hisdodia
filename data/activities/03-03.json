@@ -1,0 +1,141 @@
+{
+  "id": "03-03",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "cavalo",
+          "distractors": [
+            "motor",
+            "branco",
+            "cavalos"
+          ],
+          "sentence": "Só um cavalo branco, ali perto, a pastar, em sossego."
+        },
+        {
+          "target": "motor",
+          "distractors": [
+            "cavalo",
+            "mentiroso",
+            "branco"
+          ],
+          "sentence": "Ia a guiar o calhambeque, quando o motor deu um estrondo e parou."
+        },
+        {
+          "target": "mentiroso",
+          "distractors": [
+            "motor",
+            "gasolina",
+            "mecânica"
+          ],
+          "sentence": "Há quem diga que o meu amigo Alípio é um grande mentiroso."
+        },
+        {
+          "target": "gasolina",
+          "distractors": [
+            "mentiroso",
+            "cavalos",
+            "grande"
+          ],
+          "sentence": "Quando parou, pouco depois, junto a uma bomba de gasolina, ainda repetia o mesmo, vezes sem conta..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "cavalo",
+          "syllables": [
+            "ca",
+            "va",
+            "lo"
+          ]
+        },
+        {
+          "word": "motor",
+          "syllables": [
+            "mo",
+            "tor"
+          ]
+        },
+        {
+          "word": "mentiroso",
+          "syllables": [
+            "men",
+            "ti",
+            "ro",
+            "so"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "caro",
+          "syllables": [
+            "ca",
+            "ro"
+          ]
+        },
+        {
+          "word": "cava",
+          "syllables": [
+            "ca",
+            "va"
+          ]
+        },
+        {
+          "word": "loca",
+          "syllables": [
+            "lo",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "cavalo",
+          "b": "cavalo"
+        },
+        {
+          "a": "motor",
+          "b": "motor"
+        },
+        {
+          "a": "mentiroso",
+          "b": "mentiroso"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/03/03/images/dl4ijvtekoy3xxyexmihawhc7drv3fxx/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Há quem diga que o meu amigo Alípio é um grande mentiroso.",
+        "Estou bem aviado - disse o Alípio, que não percebia nada de mecânica.",
+        "Já lhe disse que é do carburador - insistiu o cavalo.",
+        "Alucinado, o Alípio desarmou o carburador, espreitou lá para dentro e confirmou.",
+        "Alípio arrancou logo com o carro, sem sequer meter gasolina."
+      ]
+    }
+  ]
+}

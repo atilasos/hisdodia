@@ -1,0 +1,139 @@
+{
+  "id": "08-28",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "gato",
+          "distractors": [
+            "dois",
+            "bolos",
+            "burro"
+          ],
+          "sentence": "Era uma vez um gato e era uma vez um papagaio."
+        },
+        {
+          "target": "dois",
+          "distractors": [
+            "gato",
+            "bolos",
+            "burro"
+          ],
+          "sentence": "Empilhou quatrocentos e noventa e oito bolos numa bandeja, diante do lugar em que o gato ia sentar-se, e guardou dois bolos para ele…"
+        },
+        {
+          "target": "bolos",
+          "distractors": [
+            "gato",
+            "dois",
+            "burro"
+          ],
+          "sentence": "Peixe, perna de vitela, fruta, chá e bolos, quinhentos bolos redondinhos, acabados de sair do forno, muito loirinhos e saborosos."
+        },
+        {
+          "target": "burro",
+          "distractors": [
+            "gato",
+            "dois",
+            "bolos"
+          ],
+          "sentence": "Nesse momento, ia a passar um homem com um burro carregado de feno."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "gato",
+          "syllables": [
+            "ga",
+            "to"
+          ]
+        },
+        {
+          "word": "bolos",
+          "syllables": [
+            "bo",
+            "los"
+          ]
+        },
+        {
+          "word": "burro",
+          "syllables": [
+            "bur",
+            "ro"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "galos",
+          "syllables": [
+            "ga",
+            "los"
+          ]
+        },
+        {
+          "word": "garoto",
+          "syllables": [
+            "ga",
+            "ro",
+            "to"
+          ]
+        },
+        {
+          "word": "rolos",
+          "syllables": [
+            "ro",
+            "los"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "gato",
+          "b": "gato"
+        },
+        {
+          "a": "dois",
+          "b": "dois"
+        },
+        {
+          "a": "bolos",
+          "b": "bolos"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/08/28/images/tx56ob74qnrtkpgz6zwef4q3iglron5f/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um gato e era uma vez um papagaio.",
+        "E glip-glip, glop-glop, engoliu a velha.",
+        "Encosta-te à parede, gato, senão os meus elefantes esmagam-te.",
+        "Assim que os caranguejos chegaram ao fim da viagem, olharam em volta e não viram nada.",
+        "Foi assim que o gato teve de passar o resto do dia a coser o buraco que os caranguejos tinham aberto."
+      ]
+    }
+  ]
+}

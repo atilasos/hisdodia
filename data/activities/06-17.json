@@ -1,0 +1,121 @@
+{
+  "id": "06-17",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "nome",
+          "distractors": [
+            "filho",
+            "nomes",
+            "caso"
+          ],
+          "sentence": "Quando, na cerimónia do baptizado, foi preciso assentar o nome do bebé no livro dos registos, ainda a família não tinha chegado a uma…"
+        },
+        {
+          "target": "filho",
+          "distractors": [
+            "nome",
+            "nomes",
+            "caso"
+          ],
+          "sentence": "Pedro Branco que se casou com uma senhora de apelido Feijão e tiveram um filho Feijão Branco?"
+        },
+        {
+          "target": "sacristão",
+          "distractors": [
+            "senhora",
+            "registos",
+            "conhecido"
+          ],
+          "sentence": "Olhe, senhor sacristão, o nome do meu filho fica João, até ver."
+        },
+        {
+          "target": "nomes",
+          "distractors": [
+            "nome",
+            "filho",
+            "caso"
+          ],
+          "sentence": "Nem tem nada com que importar-se, porque, verdade verdadinha, há nomes muito mais esquisitos."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "nome",
+          "syllables": [
+            "no",
+            "me"
+          ]
+        },
+        {
+          "word": "filho",
+          "syllables": [
+            "fi",
+            "lho"
+          ]
+        },
+        {
+          "word": "caso",
+          "syllables": [
+            "ca",
+            "so"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cano",
+          "syllables": [
+            "ca",
+            "no"
+          ]
+        },
+        {
+          "word": "sono",
+          "syllables": [
+            "so",
+            "no"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "nome",
+          "b": "nome"
+        },
+        {
+          "a": "filho",
+          "b": "filho"
+        },
+        {
+          "a": "sacristão",
+          "b": "sacristão"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Eu garanto, porque os colecciono e cato , um a um, pelas listas telefónicas do país.",
+        "Pedro Branco que se casou com uma senhora de apelido Feijão e tiveram um filho Feijão Branco?",
+        "Contou-me a minha avó que um casal já com muitos filhos foi brindado com mais uma criança, um perfeito rapazinho que havia de se chamar...",
+        "Mas, para o resto da vida, ficou só conhecido pelo João Até Ver.",
+        "Grandes verdades ensinava a minha avó, de nome Olívia Torrado, que, todos concordarão, não é um nome assim muito vulgar..."
+      ]
+    }
+  ]
+}

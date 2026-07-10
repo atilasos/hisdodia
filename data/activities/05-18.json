@@ -1,0 +1,142 @@
+{
+  "id": "05-18",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhora",
+          "distractors": [
+            "aranha",
+            "retrato",
+            "aranhas"
+          ],
+          "sentence": "No velho castelo, aquele retrato da senhora de guarda-sol, mimoso vestido de roda, coletinho de menina e largo chapéu enfeitado, na…"
+        },
+        {
+          "target": "aranha",
+          "distractors": [
+            "senhora",
+            "retrato",
+            "aranhas"
+          ],
+          "sentence": "Aproveitando os enfeites de um dos cantos da moldura, uma desrespeitadora aranha pôs-se a construir a sua teia."
+        },
+        {
+          "target": "retrato",
+          "distractors": [
+            "senhora",
+            "aranha",
+            "aranhas"
+          ],
+          "sentence": "Precisava de luz, precisava de sol o retrato, ou de outro modo não se justificava nem o chapéu de rendas da dama nem o guarda-sol, a…"
+        },
+        {
+          "target": "aranhas",
+          "distractors": [
+            "senhora",
+            "aranha",
+            "retrato"
+          ],
+          "sentence": "Foi fazer queixa à mãe das aranhas que morava num denso novelo de teias, rente ao tecto."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhora",
+          "syllables": [
+            "se",
+            "nho",
+            "ra"
+          ]
+        },
+        {
+          "word": "aranha",
+          "syllables": [
+            "a",
+            "ra",
+            "nha"
+          ]
+        },
+        {
+          "word": "retrato",
+          "syllables": [
+            "re",
+            "tra",
+            "to"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "rara",
+          "syllables": [
+            "ra",
+            "ra"
+          ]
+        },
+        {
+          "word": "rato",
+          "syllables": [
+            "ra",
+            "to"
+          ]
+        },
+        {
+          "word": "seara",
+          "syllables": [
+            "se",
+            "a",
+            "ra"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhora",
+          "b": "senhora"
+        },
+        {
+          "a": "aranha",
+          "b": "aranha"
+        },
+        {
+          "a": "retrato",
+          "b": "retrato"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/05/18/images/imqbwatt4ppotf6a7jtfj5sewsmsqqmm/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "No velho castelo, aquele retrato da senhora de guarda-sol, mimoso vestido de roda, coletinho de menina e largo chapéu enfeitado, na…",
+        "Tanto não - protestou a dama menina, no seu retrato, e com um gesto só cortou o fio à teia.",
+        "A velha aranha não se admirou com a notícia.",
+        "Nós\" eram elas todas, as milhares de aranhas daquele castelo.",
+        "Nas manhãs suaves desta Primavera soalheira, vê-se às vezes, a passear pelos campos, à roda do castelo, uma senhora de longo vestido a…"
+      ]
+    }
+  ]
+}

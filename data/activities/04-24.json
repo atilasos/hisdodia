@@ -1,0 +1,142 @@
+{
+  "id": "04-24",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "mosquito",
+          "distractors": [
+            "palavra",
+            "insectos",
+            "insecto"
+          ],
+          "sentence": "Era uma vez um mosquito que andava à procura de insecticida."
+        },
+        {
+          "target": "palavra",
+          "distractors": [
+            "mosquito",
+            "insectos",
+            "insecto"
+          ],
+          "sentence": "Isto é: andava à procura, no dicionário, da palavra \"insecticida\"."
+        },
+        {
+          "target": "insectos",
+          "distractors": [
+            "mosquito",
+            "palavra",
+            "insecto"
+          ],
+          "sentence": "Ali estava, em letras mais pretas: \"Insecticida - substância que destrói, que mata insectos."
+        },
+        {
+          "target": "insecto",
+          "distractors": [
+            "mosquito",
+            "palavra",
+            "insectos"
+          ],
+          "sentence": "E, no fim de contas, o que queria dizer \"insecto\"?"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "mosquito",
+          "syllables": [
+            "mos",
+            "qui",
+            "to"
+          ]
+        },
+        {
+          "word": "palavra",
+          "syllables": [
+            "pa",
+            "la",
+            "vra"
+          ]
+        },
+        {
+          "word": "insectos",
+          "syllables": [
+            "in",
+            "sec",
+            "tos"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "mosquitos",
+          "syllables": [
+            "mos",
+            "qui",
+            "tos"
+          ]
+        },
+        {
+          "word": "pala",
+          "syllables": [
+            "pa",
+            "la"
+          ]
+        },
+        {
+          "word": "pato",
+          "syllables": [
+            "pa",
+            "to"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "mosquito",
+          "b": "mosquito"
+        },
+        {
+          "a": "palavra",
+          "b": "palavra"
+        },
+        {
+          "a": "insectos",
+          "b": "insectos"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/04/24/images/ncrowotl2r5zchrm4t2kesvwwa4rnqkr/Imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um mosquito que andava à procura de insecticida.",
+        "O mosquito era pouco versado em zoologia.",
+        "Como tal, não sabia o que queria dizer \"insecto\".",
+        "Leu no dicionário: \"que não tem vértebras\".",
+        "O mosquito procurou afanosamente a palavra \"traqueia\", mas já não foi a tempo..."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "02-29",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "anos",
+          "distractors": [
+            "festa",
+            "tempo",
+            "velas"
+          ],
+          "sentence": "Porque o Mário só tem direito a esta festa de quatro em quatro anos, precisamente no dia 29 de Fevereiro de cada ano bissexto ."
+        },
+        {
+          "target": "festa",
+          "distractors": [
+            "anos",
+            "quatro",
+            "festas"
+          ],
+          "sentence": "Há festa, há presentes e há a família e os amigos todos à volta de nós e do bolo, a cantar, afinados ou desafinados, os \"Parabéns a Você\"."
+        },
+        {
+          "target": "quatro",
+          "distractors": [
+            "festa",
+            "prendas",
+            "festas"
+          ],
+          "sentence": "Tu devias receber as prendas vezes quatro."
+        },
+        {
+          "target": "prendas",
+          "distractors": [
+            "quatro",
+            "festas",
+            "sempre"
+          ],
+          "sentence": "Festas e mais festas, prendas e mais prendas..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "anos",
+          "syllables": [
+            "a",
+            "nos"
+          ]
+        },
+        {
+          "word": "festa",
+          "syllables": [
+            "fes",
+            "ta"
+          ]
+        },
+        {
+          "word": "bolo",
+          "syllables": [
+            "bo",
+            "lo"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "bofes",
+          "syllables": [
+            "bo",
+            "fes"
+          ]
+        },
+        {
+          "word": "bota",
+          "syllables": [
+            "bo",
+            "ta"
+          ]
+        },
+        {
+          "word": "lobo",
+          "syllables": [
+            "lo",
+            "bo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "anos",
+          "b": "anos"
+        },
+        {
+          "a": "festa",
+          "b": "festa"
+        },
+        {
+          "a": "quatro",
+          "b": "quatro"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Há festa, há presentes e há a família e os amigos todos à volta de nós e do bolo, a cantar, afinados ou desafinados, os \"Parabéns a Você\".",
+        "Na Páscoa, os meus pais e os meus avós dão-me sempre mais prendinhas e dizem-me que são as dos meus anos.",
+        "As que quiseres - decidiu o Borda d'Água, um mãos-largas nisto de dar à manivela do tempo.",
+        "O pior foi quando, uma vez, ao chegar-se a um espelho, não ter reconhecido o seu próprio rosto.",
+        "Festas de aniversário uma vez por ano e chega."
+      ]
+    }
+  ]
+}

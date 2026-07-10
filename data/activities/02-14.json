@@ -1,0 +1,131 @@
+{
+  "id": "02-14",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "jovem",
+          "distractors": [
+            "corpo",
+            "lago",
+            "boca"
+          ],
+          "sentence": "Mas, quando o jovem hipopótamo, depois de, tristemente, se ter mirado no espelho do lago, levantou a cabeça, viu, na outra margem, uma…"
+        },
+        {
+          "target": "corpo",
+          "distractors": [
+            "jovem",
+            "lago",
+            "boca"
+          ],
+          "sentence": "Tenho a boca enorme, dentes separados, uns olhos de choro, orelhas ridículas e um corpo..."
+        },
+        {
+          "target": "lago",
+          "distractors": [
+            "jovem",
+            "corpo",
+            "boca"
+          ],
+          "sentence": "Também o jovem elefante, depois de, tristemente, se ter visto reflectido no espelho do lago, ao levantar a cabeça, deparou com uma jovem…"
+        },
+        {
+          "target": "orelhas",
+          "distractors": [
+            "espelho",
+            "elefante",
+            "dentes"
+          ],
+          "sentence": "Tenho uma tromba imensa, orelhas de abano, olhinhos piscos e um corpo..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "jovem",
+          "syllables": [
+            "jo",
+            "vem"
+          ]
+        },
+        {
+          "word": "corpo",
+          "syllables": [
+            "cor",
+            "po"
+          ]
+        },
+        {
+          "word": "lago",
+          "syllables": [
+            "la",
+            "go"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "gola",
+          "syllables": [
+            "go",
+            "la"
+          ]
+        },
+        {
+          "word": "jogo",
+          "syllables": [
+            "jo",
+            "go"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "jovem",
+          "b": "jovem"
+        },
+        {
+          "a": "corpo",
+          "b": "corpo"
+        },
+        {
+          "a": "lago",
+          "b": "lago"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/02/14/images/qrgs42lkkict2r4p2bwtb3wxqlie4fff/Propostas/elefante3.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Tenho a boca enorme, dentes separados, uns olhos de choro, orelhas ridículas e um corpo...",
+        "Mas, quando o jovem hipopótamo, depois de, tristemente, se ter mirado no espelho do lago, levantou a cabeça, viu, na outra margem, uma…",
+        "Também o jovem elefante, depois de, tristemente, se ter visto reflectido no espelho do lago, ao levantar a cabeça, deparou com uma jovem…",
+        "Tem uma tromba ondulante, orelhas cheias e contentes, uns olhinhos maliciosos e um corpo tão resplandecente de vida que apetece logo…",
+        "Até a Lua, bem redonda e festiva, que sobe pela noite, se debruça lá do alto, para não perder nem um pouco de perfume da Primavera, a…"
+      ]
+    }
+  ]
+}

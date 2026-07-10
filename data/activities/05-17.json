@@ -1,0 +1,124 @@
+{
+  "id": "05-17",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "balão",
+          "distractors": [
+            "papel",
+            "vento",
+            "talvez"
+          ],
+          "sentence": "O balão acenou-lhe, num cumprimento leve."
+        },
+        {
+          "target": "papel",
+          "distractors": [
+            "balão",
+            "vento",
+            "pendurado"
+          ],
+          "sentence": "Trazia um fio pendurado e, na ponta do fio, um papel."
+        },
+        {
+          "target": "quintal",
+          "distractors": [
+            "pereira",
+            "talvez",
+            "pensasse"
+          ],
+          "sentence": "O fio embaraçou-se na rama da pereira do quintal."
+        },
+        {
+          "target": "vento",
+          "distractors": [
+            "balão",
+            "papel",
+            "talvez"
+          ],
+          "sentence": "O Flávio libertou o balão e ficou a vê-lo subir, ultrapassar o muro do quintal e, num golpe do vento, mudar de direcção, sabe-se lá para…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "balão",
+          "syllables": [
+            "ba",
+            "lão"
+          ]
+        },
+        {
+          "word": "papel",
+          "syllables": [
+            "pa",
+            "pel"
+          ]
+        },
+        {
+          "word": "pendurado",
+          "syllables": [
+            "pen",
+            "du",
+            "ra",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dura",
+          "syllables": [
+            "du",
+            "ra"
+          ]
+        },
+        {
+          "word": "parado",
+          "syllables": [
+            "pa",
+            "ra",
+            "do"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "balão",
+          "b": "balão"
+        },
+        {
+          "a": "papel",
+          "b": "papel"
+        },
+        {
+          "a": "quintal",
+          "b": "quintal"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Trazia um fio pendurado e, na ponta do fio, um papel.",
+        "Ele, que já não era menino de andar de balão preso à mão, mesmo assim foi ver mais de perto.",
+        "Se leres este papel, não o deites fora nem o desprendas do balão.",
+        "Este balão gosta de viajar e de mostrar que temos amigos em qualquer lugar.",
+        "No dia seguinte, o Flávio comprou um balão."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "03-29",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "barro",
+          "syllables": [
+            "bar",
+            "ro"
+          ]
+        },
+        {
+          "word": "bonecos",
+          "syllables": [
+            "bo",
+            "ne",
+            "cos"
+          ]
+        },
+        {
+          "word": "jaquetas",
+          "syllables": [
+            "ja",
+            "que",
+            "tas"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "barcos",
+          "syllables": [
+            "bar",
+            "cos"
+          ]
+        },
+        {
+          "word": "botas",
+          "syllables": [
+            "bo",
+            "tas"
+          ]
+        },
+        {
+          "word": "costas",
+          "syllables": [
+            "cos",
+            "tas"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "três",
+          "b": "três"
+        },
+        {
+          "a": "barro",
+          "b": "barro"
+        },
+        {
+          "a": "bonecos",
+          "b": "bonecos"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "pencas",
+          "b": "narizes grandes"
+        },
+        {
+          "a": "camoês",
+          "b": "variedade de maçã de cor avermelhada ou branca"
+        },
+        {
+          "a": "garbo",
+          "b": "distinção / elegância"
+        },
+        {
+          "a": "entremez",
+          "b": "pequena composição dramática, jocosa ou burlesca / farsa"
+        }
+      ]
+    }
+  ]
+}

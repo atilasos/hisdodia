@@ -1,0 +1,162 @@
+{
+  "id": "03-04",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "romeiro",
+          "distractors": [
+            "cajado",
+            "moreno",
+            "começou"
+          ],
+          "sentence": "Estavam eles entretidos, na sua quadrilhice de varanda, quando viram um romeiro, daqueles que percorrem a pé os caminhos que vão dar à…"
+        },
+        {
+          "target": "capa",
+          "distractors": [
+            "cajado",
+            "loiro",
+            "força"
+          ],
+          "sentence": "Ia de chapeirão e larga capa, que o cobria até aos pés."
+        },
+        {
+          "target": "cajado",
+          "distractors": [
+            "romeiro",
+            "capa",
+            "loiro"
+          ],
+          "sentence": "Nodoso cajado de ajudar às subidas, um saquitel ao ombro e a cabaça à cintura, para o vinho que aquece, eis o quadro completo do devoto…"
+        },
+        {
+          "target": "loiro",
+          "distractors": [
+            "capa",
+            "cajado",
+            "moreno"
+          ],
+          "sentence": "Aquele, ali, todo embiocado , que nem se percebe quem será, se é velho, se é novo, se é loiro, se moreno, está a irritar-me - disse o…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "romeiro",
+          "syllables": [
+            "ro",
+            "mei",
+            "ro"
+          ]
+        },
+        {
+          "word": "capa",
+          "syllables": [
+            "ca",
+            "pa"
+          ]
+        },
+        {
+          "word": "moreno",
+          "syllables": [
+            "mo",
+            "re",
+            "no"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cano",
+          "syllables": [
+            "ca",
+            "no"
+          ]
+        },
+        {
+          "word": "caro",
+          "syllables": [
+            "ca",
+            "ro"
+          ]
+        },
+        {
+          "word": "moro",
+          "syllables": [
+            "mo",
+            "ro"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "romeiro",
+          "b": "romeiro"
+        },
+        {
+          "a": "capa",
+          "b": "capa"
+        },
+        {
+          "a": "cajado",
+          "b": "cajado"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "desfastio",
+          "b": "distracção"
+        },
+        {
+          "a": "saquitel",
+          "b": "saquinho"
+        },
+        {
+          "a": "embiocado",
+          "b": "coberto com capa ou xaile"
+        },
+        {
+          "a": "viandante",
+          "b": "viajante / passageiro"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/03/04/images/k7ncegruphabjafts6655kqbnneufnjf/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Consegue-se às boas, mansamente, o que não se consegue a mal, à força, de repelão.",
+        "Nodoso cajado de ajudar às subidas, um saquitel ao ombro e a cabaça à cintura, para o vinho que aquece, eis o quadro completo do devoto…",
+        "Aposto que não resulta - contrapôs o Senhor Sol, divertido com o passatempo.",
+        "Ele a rir e seus raios a brilharem com mais alegria e calor.",
+        "E, com todos os seus costumados vagares, o Sol começou a preparar as cores do entardecer."
+      ]
+    }
+  ]
+}

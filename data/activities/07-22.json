@@ -1,0 +1,131 @@
+{
+  "id": "07-22",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "livro",
+          "distractors": [
+            "leitão",
+            "folhas",
+            "pardal"
+          ],
+          "sentence": "Andava eu na minha vida, a petiscar o almoço, quando vi, aberto no meio da relva, um livro de folhas amarelas, como se lhe tivesse dado…"
+        },
+        {
+          "target": "leitão",
+          "distractors": [
+            "livro",
+            "folhas",
+            "pardal"
+          ],
+          "sentence": "Pobre leitão entalado, metade em liberdade, metade preso..."
+        },
+        {
+          "target": "folhas",
+          "distractors": [
+            "livro",
+            "leitão",
+            "pardal"
+          ],
+          "sentence": "Já me tinha esquecido do livro de folhas amarelas quando ouvi, não de muito longe, uns grunhidos de aflição."
+        },
+        {
+          "target": "pardal",
+          "distractors": [
+            "livro",
+            "leitão",
+            "folhas"
+          ],
+          "sentence": "Está visto que sou um pardal muito ignorante."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "livro",
+          "syllables": [
+            "li",
+            "vro"
+          ]
+        },
+        {
+          "word": "leitão",
+          "syllables": [
+            "lei",
+            "tão"
+          ]
+        },
+        {
+          "word": "vida",
+          "syllables": [
+            "vi",
+            "da"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dali",
+          "syllables": [
+            "da",
+            "li"
+          ]
+        },
+        {
+          "word": "lida",
+          "syllables": [
+            "li",
+            "da"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "livro",
+          "b": "livro"
+        },
+        {
+          "a": "leitão",
+          "b": "leitão"
+        },
+        {
+          "a": "folhas",
+          "b": "folhas"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/07/22/images/rxedx7epmsd7ruasxym56xjfbgf35sum/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Andava eu na minha vida, a petiscar o almoço, quando vi, aberto no meio da relva, um livro de folhas amarelas, como se lhe tivesse dado…",
+        "Noutro desenho, via-se um dos leitões a escapar-se, talvez arreliado com as recomendações da mãe.",
+        "Vi um porquinho, igual ao dos desenhos, com a cabeçorra entalada entre as duas traves da cerca, que dá a volta à quinta.",
+        "Dele já se aproximavam vários moços da quinta, com serrotes e serras.",
+        "Para um pardal pouco dado a letras não está mal a conclusão."
+      ]
+    }
+  ]
+}

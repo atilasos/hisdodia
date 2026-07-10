@@ -1,0 +1,140 @@
+{
+  "id": "06-09",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "peixe",
+          "distractors": [
+            "peixinho",
+            "riscas",
+            "sala"
+          ],
+          "sentence": "Detesto que me observem - dizia o peixe."
+        },
+        {
+          "target": "peixinho",
+          "distractors": [
+            "peixe",
+            "vermelho",
+            "pessoas"
+          ],
+          "sentence": "Não gosto nada que olhem para mim - dizia o peixinho vermelho com riscas azuis, que morava no aquário."
+        },
+        {
+          "target": "vermelho",
+          "distractors": [
+            "peixinho",
+            "vidro",
+            "pessoas"
+          ],
+          "sentence": "A única coisa que lhes atenuava a preocupação era o peixinho vermelho com riscas azuis, revolteando, alegre e indiferente, no meio do…"
+        },
+        {
+          "target": "riscas",
+          "distractors": [
+            "peixe",
+            "olhem",
+            "globo"
+          ],
+          "sentence": "O peixinho vermelho com riscas azuis foi parar a um tanque de águas profundas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "peixe",
+          "syllables": [
+            "pei",
+            "xe"
+          ]
+        },
+        {
+          "word": "peixinho",
+          "syllables": [
+            "pei",
+            "xi",
+            "nho"
+          ]
+        },
+        {
+          "word": "sobrava",
+          "syllables": [
+            "so",
+            "bra",
+            "va"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "brava",
+          "syllables": [
+            "bra",
+            "va"
+          ]
+        },
+        {
+          "word": "sonho",
+          "syllables": [
+            "so",
+            "nho"
+          ]
+        },
+        {
+          "word": "sova",
+          "syllables": [
+            "so",
+            "va"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "peixe",
+          "b": "peixe"
+        },
+        {
+          "a": "peixinho",
+          "b": "peixinho"
+        },
+        {
+          "a": "vermelho",
+          "b": "vermelho"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/06/09/images/qllbl7wqh65kqjhcln5rhox3a2tx6svw/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Não gosto nada que olhem para mim - dizia o peixinho vermelho com riscas azuis, que morava no aquário.",
+        "E o peixinho tentava esconder-se por trás de umas algas, mas sem nenhum êxito.",
+        "Não sei quem vai cuidar do peixe, quando a tia Elisa desaparecer.",
+        "Ficou a sala que tempos sem visitas, de cortinas descidas, portadas cerradas.",
+        "Foi então e só então que o peixe vermelho começou a sentir saudades do tempo em que todos olhavam para ele."
+      ]
+    }
+  ]
+}

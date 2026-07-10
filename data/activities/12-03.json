@@ -1,0 +1,132 @@
+{
+  "id": "12-03",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "príncipe",
+          "distractors": [
+            "projectos",
+            "quisesse",
+            "pena"
+          ],
+          "sentence": "Pois se ele era príncipe, filho único de um senhor rei, que outra coisa, profissão ou destino podia caber nos seus projectos de futuro?"
+        },
+        {
+          "target": "fosse",
+          "distractors": [
+            "filho",
+            "jardim",
+            "grande"
+          ],
+          "sentence": "A ele não valia a pena perguntarem-lhe o que queria ser quando fosse grande."
+        },
+        {
+          "target": "filho",
+          "distractors": [
+            "fosse",
+            "jardim",
+            "grande"
+          ],
+          "sentence": "O meu filho, que eu gostava tanto que fosse jardineiro como eu, diz que não tem vocação para a jardinagem."
+        },
+        {
+          "target": "projectos",
+          "distractors": [
+            "príncipe",
+            "quisesse",
+            "pena"
+          ],
+          "sentence": "Se o queriam ver feliz, mostrassem-lhe projectos de obras públicas, hospitais, escolas, novas cidades."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "príncipe",
+          "syllables": [
+            "prín",
+            "ci",
+            "pe"
+          ]
+        },
+        {
+          "word": "fosse",
+          "syllables": [
+            "fos",
+            "se"
+          ]
+        },
+        {
+          "word": "grande",
+          "syllables": [
+            "gran",
+            "de"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "pede",
+          "syllables": [
+            "pe",
+            "de"
+          ]
+        },
+        {
+          "word": "sede",
+          "syllables": [
+            "se",
+            "de"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "príncipe",
+          "b": "príncipe"
+        },
+        {
+          "a": "fosse",
+          "b": "fosse"
+        },
+        {
+          "a": "filho",
+          "b": "filho"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/03/images/cynma5ybwfcnmacfds52olovozcpznec/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "A ele não valia a pena perguntarem-lhe o que queria ser quando fosse grande.",
+        "Se ele dissesse o mesmo (isto é, o equivalente!",
+        "Se não tivesses de ser rei, o que é que gostavas de ser, quando fosses crescido?",
+        "Ficam ao teu cuidado, para que tu construas o jardim, quando fores rei.",
+        "Ao jardim deu o nome do senhor rei seu pai, que tinha querido ser arquitecto."
+      ]
+    }
+  ]
+}

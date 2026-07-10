@@ -1,0 +1,138 @@
+{
+  "id": "07-08",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "pardal",
+          "distractors": [
+            "homem",
+            "árvore",
+            "comer"
+          ],
+          "sentence": "Quem também lá aparecia quase sempre, à cata de acepipes, era um pardal saltitante e optimista ."
+        },
+        {
+          "target": "rato",
+          "distractors": [
+            "homem",
+            "ramo",
+            "comer"
+          ],
+          "sentence": "Era uma vez um rato que todos os dias ia comer a um restaurante."
+        },
+        {
+          "target": "homem",
+          "distractors": [
+            "pardal",
+            "rato",
+            "ramo"
+          ],
+          "sentence": "Às vezes, um homem, pobre e velho, também se abastecia no caixote, à procura de folhas de couve e cascas de fruta, para alimentar dois…"
+        },
+        {
+          "target": "ramo",
+          "distractors": [
+            "rato",
+            "homem",
+            "comer"
+          ],
+          "sentence": "A casa vai mudar de ramo - informou o pardal, que sabia sempre as últimas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "pardal",
+          "syllables": [
+            "par",
+            "dal"
+          ]
+        },
+        {
+          "word": "rato",
+          "syllables": [
+            "ra",
+            "to"
+          ]
+        },
+        {
+          "word": "homem",
+          "syllables": [
+            "ho",
+            "mem"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "hora",
+          "syllables": [
+            "ho",
+            "ra"
+          ]
+        },
+        {
+          "word": "parra",
+          "syllables": [
+            "par",
+            "ra"
+          ]
+        },
+        {
+          "word": "parto",
+          "syllables": [
+            "par",
+            "to"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "pardal",
+          "b": "pardal"
+        },
+        {
+          "a": "rato",
+          "b": "rato"
+        },
+        {
+          "a": "homem",
+          "b": "homem"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/07/08/images/bzvexfhhgwd3vqltegowavaembho2jbs/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um rato que todos os dias ia comer a um restaurante.",
+        "E a história podia ficar por aqui, se nós não soubéssemos que o restaurante teve de fechar, por falta de clientes.",
+        "Talvez também tenha um bom contentor - lembrou o rato.",
+        "O que ele tem é muita prática de contentores.",
+        "Este pardal era, realmente, um optimista ."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "04-04",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "chorão",
+          "distractors": [
+            "ramos",
+            "caminho",
+            "plantas"
+          ],
+          "sentence": "Chorão, neste caso, não é o que chora muito, mas uma espécie de salgueiro, de ramos pendentes, com longos cabelos penteados, a roçar a…"
+        },
+        {
+          "target": "ramos",
+          "distractors": [
+            "chorão",
+            "sempre",
+            "pediu"
+          ],
+          "sentence": "Os ramos começaram a pender no sentido donde tinham vindo."
+        },
+        {
+          "target": "caminho",
+          "distractors": [
+            "chorão",
+            "plantas",
+            "sempre"
+          ],
+          "sentence": "A meio caminho faltava-te o ar, tremiam-te as pernas e caías."
+        },
+        {
+          "target": "plantas",
+          "distractors": [
+            "chorão",
+            "caminho",
+            "sempre"
+          ],
+          "sentence": "Há plantas, às vezes, que são como gente."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "chorão",
+          "syllables": [
+            "cho",
+            "rão"
+          ]
+        },
+        {
+          "word": "ramos",
+          "syllables": [
+            "ra",
+            "mos"
+          ]
+        },
+        {
+          "word": "caminho",
+          "syllables": [
+            "ca",
+            "mi",
+            "nho"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cacho",
+          "syllables": [
+            "ca",
+            "cho"
+          ]
+        },
+        {
+          "word": "cara",
+          "syllables": [
+            "ca",
+            "ra"
+          ]
+        },
+        {
+          "word": "mosca",
+          "syllables": [
+            "mos",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "chorão",
+          "b": "chorão"
+        },
+        {
+          "a": "ramos",
+          "b": "ramos"
+        },
+        {
+          "a": "caminho",
+          "b": "caminho"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/04/04/images/koejw4x6djr4g23s7ozy7ald6fn4oj3s/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Chorão, neste caso, não é o que chora muito, mas uma espécie de salgueiro, de ramos pendentes, com longos cabelos penteados, a roçar a…",
+        "A meio caminho faltava-te o ar, tremiam-te as pernas e caías.",
+        "Dê-me uma ajudinha - pediu ela a um avião que passava, lá muito em cima.",
+        "Os ramos começaram a pender no sentido donde tinham vindo.",
+        "Trepadeira e chorão entrelaçaram os ramos."
+      ]
+    }
+  ]
+}

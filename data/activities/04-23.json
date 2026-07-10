@@ -1,0 +1,139 @@
+{
+  "id": "04-23",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "galo",
+          "distractors": [
+            "pato",
+            "peru",
+            "porco"
+          ],
+          "sentence": "O galo, o pato, o peru, o porco, o gato e a ovelha, que viviam na quinta, ficaram sem dono."
+        },
+        {
+          "target": "pato",
+          "distractors": [
+            "galo",
+            "peru",
+            "porco"
+          ],
+          "sentence": "O pato e a ovelha puseram-se atrás da porta."
+        },
+        {
+          "target": "peru",
+          "distractors": [
+            "galo",
+            "pato",
+            "porco"
+          ],
+          "sentence": "O galo e o peru empoleiraram-se na trave do tecto."
+        },
+        {
+          "target": "porco",
+          "distractors": [
+            "galo",
+            "pato",
+            "peru"
+          ],
+          "sentence": "Os outros iam para acudir, mas o porco ferrou uma dentada na perna de um e a ovelha atirou uma marrada à barriga de outro."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "galo",
+          "syllables": [
+            "ga",
+            "lo"
+          ]
+        },
+        {
+          "word": "pato",
+          "syllables": [
+            "pa",
+            "to"
+          ]
+        },
+        {
+          "word": "peru",
+          "syllables": [
+            "pe",
+            "ru"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "galope",
+          "syllables": [
+            "ga",
+            "lo",
+            "pe"
+          ]
+        },
+        {
+          "word": "paga",
+          "syllables": [
+            "pa",
+            "ga"
+          ]
+        },
+        {
+          "word": "pega",
+          "syllables": [
+            "pe",
+            "ga"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "galo",
+          "b": "galo"
+        },
+        {
+          "a": "pato",
+          "b": "pato"
+        },
+        {
+          "a": "peru",
+          "b": "peru"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/04/23/images/2c7xt5mqddnquhzx4to4agz5ky6jlbfi/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O galo, o pato, o peru, o porco, o gato e a ovelha, que viviam na quinta, ficaram sem dono.",
+        "Já a noite ia adiantada, quando chegaram os lobos, que moravam naquela casa.",
+        "Os lobos, atordoados, pernas para que te quero!",
+        "Os outros lobos, que não tinham chegado a entrar na casota, também tinham que contar.",
+        "Os lobos apanharam tal susto que nunca mais quiseram voltar ao casebre, onde passaram a viver o galo, o pato, o peru, o porco, o gato e…"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "03-19",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "ouro",
+          "distractors": [
+            "olhos",
+            "pele",
+            "filha"
+          ],
+          "sentence": "A minha Inês tudo em que toca transforma em ouro."
+        },
+        {
+          "target": "menina",
+          "distractors": [
+            "olhos",
+            "sempre",
+            "quarto"
+          ],
+          "sentence": "Há uma menina que transforma tudo em ouro."
+        },
+        {
+          "target": "sempre",
+          "distractors": [
+            "menina",
+            "olhos",
+            "quarto"
+          ],
+          "sentence": "Tomara ela dar conta da lida da casa e mantê-la asseada, para que o pai velho e viúvo sempre se sentisse bem."
+        },
+        {
+          "target": "quarto",
+          "distractors": [
+            "menina",
+            "olhos",
+            "sempre"
+          ],
+          "sentence": "Ou tu, fechada neste quarto, transformas a cama em que te deitares em ouro ou amanhã mando matar-te."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "ouro",
+          "syllables": [
+            "ou",
+            "ro"
+          ]
+        },
+        {
+          "word": "menina",
+          "syllables": [
+            "me",
+            "ni",
+            "na"
+          ]
+        },
+        {
+          "word": "quarto",
+          "syllables": [
+            "quar",
+            "to"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "mero",
+          "syllables": [
+            "me",
+            "ro"
+          ]
+        },
+        {
+          "word": "tome",
+          "syllables": [
+            "to",
+            "me"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "ouro",
+          "b": "ouro"
+        },
+        {
+          "a": "menina",
+          "b": "menina"
+        },
+        {
+          "a": "olhos",
+          "b": "olhos"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "embevecido",
+          "b": "encantado / deliciado"
+        },
+        {
+          "a": "ganancioso",
+          "b": "ambicioso"
+        },
+        {
+          "a": "empergaminhada",
+          "b": "enrugada"
+        },
+        {
+          "a": "primores",
+          "b": "perfeições"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um homem simples e bom que tinha muito orgulho na filha, em todos os seus dons, dotes, prendas, primores ou como queiram…",
+        "Quero-a aqui - exigiu o rei, um ganancioso .",
+        "O rei, quando entrou no quarto, deu pulos de contente.",
+        "A airosa menina transformou-se numa mulher.",
+        "Já não podia dar nada que prestasse, quando o gnomo viesse."
+      ]
+    }
+  ]
+}

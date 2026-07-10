@@ -1,0 +1,130 @@
+{
+  "id": "03-20",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "orelha",
+          "distractors": [
+            "preta",
+            "branca",
+            "preto"
+          ],
+          "sentence": "O Zé Lucas está sempre a lavar a orelha preta, a ver se a orelha muda de cor."
+        },
+        {
+          "target": "preta",
+          "distractors": [
+            "orelha",
+            "branca",
+            "preto"
+          ],
+          "sentence": "Senhor Doutor, tenho a orelha toda preta."
+        },
+        {
+          "target": "branca",
+          "distractors": [
+            "orelha",
+            "preta",
+            "preto"
+          ],
+          "sentence": "Senhor Doutor, queria ter a orelha branca."
+        },
+        {
+          "target": "preto",
+          "distractors": [
+            "orelha",
+            "preta",
+            "branca"
+          ],
+          "sentence": "Ficou a orelha branca, mas o corpo, que era branco, ficou preto - patas pretas, focinho preto, rabo preto."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "orelha",
+          "syllables": [
+            "o",
+            "re",
+            "lha"
+          ]
+        },
+        {
+          "word": "preta",
+          "syllables": [
+            "pre",
+            "ta"
+          ]
+        },
+        {
+          "word": "branca",
+          "syllables": [
+            "bran",
+            "ca"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "calha",
+          "syllables": [
+            "ca",
+            "lha"
+          ]
+        },
+        {
+          "word": "careta",
+          "syllables": [
+            "ca",
+            "re",
+            "ta"
+          ]
+        },
+        {
+          "word": "cata",
+          "syllables": [
+            "ca",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "orelha",
+          "b": "orelha"
+        },
+        {
+          "a": "preta",
+          "b": "preta"
+        },
+        {
+          "a": "branca",
+          "b": "branca"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Os gatinhos chamavam-se Bibim, Bombom e Zé Lucas.",
+        "Então o Zé Lucas resolve ir ao médico dos gatos.",
+        "Senhor Doutor, queria ter a orelha branca.",
+        "Veio com a injecção e deu a injecção ao Zé Lucas.",
+        "Ficou a orelha branca, mas o corpo, que era branco, ficou preto - patas pretas, focinho preto, rabo preto."
+      ]
+    }
+  ]
+}

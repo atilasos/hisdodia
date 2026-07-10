@@ -15,6 +15,22 @@ async function loadStories(storiesDir) {
   );
 }
 
+async function loadActivities(activitiesDir, storyId) {
+  if (!activitiesDir) {
+    return null;
+  }
+
+  try {
+    return JSON.parse(await readFile(path.join(activitiesDir, `${storyId}.json`), 'utf8'));
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      return null;
+    }
+
+    throw error;
+  }
+}
+
 function escapeHtml(value) {
   return String(value ?? '')
     .replaceAll('&', '&amp;')
@@ -79,7 +95,7 @@ function storyHref(story) {
   return `/stories/${encodeURIComponent(story.id)}/`;
 }
 
-function pageShell({ title, body }) {
+function pageShell({ title, body, scripts = [] }) {
   return `<!doctype html>
 <html lang="pt-PT">
 <head>
@@ -88,6 +104,7 @@ function pageShell({ title, body }) {
   <title>${escapeHtml(title)}</title>
   <link rel="stylesheet" href="/styles.css">
   <script src="/app.js" defer></script>
+${scripts.map((script) => `  <script src="${escapeHtml(script)}" defer></script>`).join('\n')}
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
@@ -238,6 +255,27 @@ function provenance(story) {
     </section>`;
 }
 
+function playCorner(activities) {
+  if (!activities) {
+    return '';
+  }
+
+  const embeddedData = JSON.stringify(activities).replaceAll('</', '<\\/');
+
+  return `<section id="brincar" class="play-corner" aria-labelledby="brincar-titulo">
+      <header class="play-corner-header">
+        <p class="eyebrow">Voltar ao texto</p>
+        <h2 id="brincar-titulo">Brincar</h2>
+        <p class="play-provenance">Jogos criados a partir do texto recuperado desta história. Não faziam parte do site original.</p>
+      </header>
+      <script type="application/json" id="activities-data">${embeddedData}</script>
+      <div id="activities-root"></div>
+      <noscript>
+        <p class="play-paper-suggestion">Imprime a história e rodeia as palavras que já conheces.</p>
+      </noscript>
+    </section>`;
+}
+
 function renderHome(story) {
   return pageShell({
     title: 'História do Dia',
@@ -278,15 +316,19 @@ ${stories
   });
 }
 
-function renderStory(story) {
+function renderStory(story, activities) {
   return pageShell({
     title: `${story.title} | História do Dia`,
+    scripts: activities ? ['/brincar.js'] : [],
     body: `    <article class="reader">
       <header class="reader-header">
         <p class="eyebrow">${escapeHtml(story.dateLabel)}</p>
         <h1>${escapeHtml(story.title)}</h1>
         <p class="credits">${escapeHtml(story.author)} escreveu. ${escapeHtml(story.illustrator)} ilustrou.</p>
         ${recoveryBadges(story)}
+        ${activities ? `<div class="actions" aria-label="Ações da história">
+          <a class="button secondary" href="#brincar">Brincar</a>
+        </div>` : ''}
       </header>
       ${recoveredImage(story, 'reader')}
       <section id="audio" class="audio-panel" aria-labelledby="ouvir">
@@ -296,6 +338,7 @@ function renderStory(story) {
 ${storyText(story)}
       ${imageGallery(story)}
       ${glossary(story)}
+      ${playCorner(activities)}
       ${provenance(story)}
     </article>`
   });
@@ -322,7 +365,7 @@ function selectTodayStory(stories, today, todayTimeZone) {
   return stories.find((story) => story.id === todayId) ?? stories[0];
 }
 
-export async function renderSite({ storiesDir, outDir, recoveredArchiveDir = 'archive/0000', today = new Date(), todayTimeZone = 'Europe/Lisbon' }) {
+export async function renderSite({ storiesDir, outDir, recoveredArchiveDir = 'archive/0000', activitiesDir = 'data/activities', today = new Date(), todayTimeZone = 'Europe/Lisbon' }) {
   const stories = await loadStories(storiesDir);
   const todayStory = selectTodayStory(stories, today, todayTimeZone);
 
@@ -342,9 +385,10 @@ export async function renderSite({ storiesDir, outDir, recoveredArchiveDir = 'ar
   await writeFile(path.join(outDir, 'archive', 'index.html'), renderArchive(stories));
 
   for (const story of stories) {
+    const activities = await loadActivities(activitiesDir, story.id);
     const storyDir = path.join(outDir, 'stories', story.id);
     await mkdir(storyDir, { recursive: true });
-    await writeFile(path.join(storyDir, 'index.html'), renderStory(story));
+    await writeFile(path.join(storyDir, 'index.html'), renderStory(story, activities));
   }
 }
 

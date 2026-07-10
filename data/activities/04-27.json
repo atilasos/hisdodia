@@ -1,0 +1,129 @@
+{
+  "id": "04-27",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "tiros",
+          "distractors": [
+            "festa",
+            "coelha",
+            "melhor"
+          ],
+          "sentence": "Assim que ouvirem tiros, nem que sejam longe, e cães a ladrar, corram logo a abrigar-se - avisou a mãe."
+        },
+        {
+          "target": "festa",
+          "distractors": [
+            "tiros",
+            "coelha",
+            "melhor"
+          ],
+          "sentence": "Mas ó mãe, uma música tão doce não será festa, também?"
+        },
+        {
+          "target": "coelha",
+          "distractors": [
+            "tiros",
+            "festa",
+            "melhor"
+          ],
+          "sentence": "Era uma vez uma coelha que tinha muitos filhos."
+        },
+        {
+          "target": "melhor",
+          "distractors": [
+            "tiros",
+            "festa",
+            "coelha"
+          ],
+          "sentence": "Como boa mãe, passava o dia a recomendar-lhes o que era melhor para a vida deles: as ervas que deviam comer, as ervas que deviam…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "tiros",
+          "syllables": [
+            "ti",
+            "ros"
+          ]
+        },
+        {
+          "word": "festa",
+          "syllables": [
+            "fes",
+            "ta"
+          ]
+        },
+        {
+          "word": "caça",
+          "syllables": [
+            "ca",
+            "ça"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "caros",
+          "syllables": [
+            "ca",
+            "ros"
+          ]
+        },
+        {
+          "word": "cata",
+          "syllables": [
+            "ca",
+            "ta"
+          ]
+        },
+        {
+          "word": "catita",
+          "syllables": [
+            "ca",
+            "ti",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "tiros",
+          "b": "tiros"
+        },
+        {
+          "a": "festa",
+          "b": "festa"
+        },
+        {
+          "a": "coelha",
+          "b": "coelha"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez uma coelha que tinha muitos filhos.",
+        "Um dia, um dos mais novos, chegou à toca, muito assustado.",
+        "Dias depois, estava a família toda no pasto e uma melodia fininha e maliciosa veio pelo ar, como serpente que dança...",
+        "É o Pedro Ovelheiro, que toca flauta, e anda por aí a semear desgraça.",
+        "Está visto que é muito arriscada a vida do mato."
+      ]
+    }
+  ]
+}

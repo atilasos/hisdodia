@@ -1,0 +1,129 @@
+{
+  "id": "05-24",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "gato",
+          "distractors": [
+            "gatos",
+            "junto",
+            "cães"
+          ],
+          "sentence": "Tanto assim era que, uma vez, um cão pediu a um gato para ir com ele à escola."
+        },
+        {
+          "target": "escola",
+          "distractors": [
+            "gatos",
+            "árvore",
+            "amigos"
+          ],
+          "sentence": "Uma vez, chegou à escola já depois de ela ter fechado."
+        },
+        {
+          "target": "gatos",
+          "distractors": [
+            "gato",
+            "escola",
+            "árvore"
+          ],
+          "sentence": "Era o gato que o tinha inscrito na escola dos gatos."
+        },
+        {
+          "target": "árvore",
+          "distractors": [
+            "escola",
+            "gatos",
+            "amigos"
+          ],
+          "sentence": "Pelo caminho, junto de cada árvore, alçava a perna..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "gato",
+          "syllables": [
+            "ga",
+            "to"
+          ]
+        },
+        {
+          "word": "escola",
+          "syllables": [
+            "es",
+            "co",
+            "la"
+          ]
+        },
+        {
+          "word": "gatos",
+          "syllables": [
+            "ga",
+            "tos"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cola",
+          "syllables": [
+            "co",
+            "la"
+          ]
+        },
+        {
+          "word": "gala",
+          "syllables": [
+            "ga",
+            "la"
+          ]
+        },
+        {
+          "word": "toco",
+          "syllables": [
+            "to",
+            "co"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "gato",
+          "b": "gato"
+        },
+        {
+          "a": "escola",
+          "b": "escola"
+        },
+        {
+          "a": "gatos",
+          "b": "gatos"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Tanto assim era que, uma vez, um cão pediu a um gato para ir com ele à escola.",
+        "Pelo caminho, junto de cada árvore, alçava a perna...",
+        "Procura - respondeu a professora e foi à sua vida.",
+        "E começou a ladrar, de patas fincadas ao tronco da árvore.",
+        "E o cão e o gato deixaram de ser amigos."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "07-01",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "dragão",
+          "distractors": [
+            "meninos",
+            "volta",
+            "dragões"
+          ],
+          "sentence": "Leva uma rica vida o dragão da minha história."
+        },
+        {
+          "target": "meninos",
+          "distractors": [
+            "dragão",
+            "dragões",
+            "sempre"
+          ],
+          "sentence": "Agora imaginem-no, como eu imagino, carregado de meninos."
+        },
+        {
+          "target": "volta",
+          "distractors": [
+            "dragão",
+            "leva",
+            "rica"
+          ],
+          "sentence": "Nestes dias de Verão, por volta das nove e trinta, passa pela minha rua, deitando muito fumo pelas ventas, o dragão de que vos falo."
+        },
+        {
+          "target": "leva",
+          "distractors": [
+            "volta",
+            "rica",
+            "vida"
+          ],
+          "sentence": "Corre ao lado do comboio, que também leva o mesmo sentido, e quase sempre chega primeiro."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "dragão",
+          "syllables": [
+            "dra",
+            "gão"
+          ]
+        },
+        {
+          "word": "meninos",
+          "syllables": [
+            "me",
+            "ni",
+            "nos"
+          ]
+        },
+        {
+          "word": "escamas",
+          "syllables": [
+            "es",
+            "ca",
+            "mas"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "camas",
+          "syllables": [
+            "ca",
+            "mas"
+          ]
+        },
+        {
+          "word": "caninos",
+          "syllables": [
+            "ca",
+            "ni",
+            "nos"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "dragão",
+          "b": "dragão"
+        },
+        {
+          "a": "meninos",
+          "b": "meninos"
+        },
+        {
+          "a": "volta",
+          "b": "volta"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/07/01/images/4c3eu73zserxvdhq53zzznt75qhekmre/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Leva uma rica vida o dragão da minha história.",
+        "Nestes dias de Verão, por volta das nove e trinta, passa pela minha rua, deitando muito fumo pelas ventas, o dragão de que vos falo.",
+        "Com o seu carregamento de meninos, o dragão toma o caminho da praia.",
+        "Ao fim da tarde, volta a crescer e a apresentar-se como um dragão aprumado e responsável, que nunca se esquece de que tem de trazer os…",
+        "E, sempre que pode, vai dar uma voltinha no carrossel."
+      ]
+    }
+  ]
+}

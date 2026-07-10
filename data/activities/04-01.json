@@ -1,0 +1,139 @@
+{
+  "id": "04-01",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhor",
+          "distractors": [
+            "assim",
+            "verdade",
+            "passado"
+          ],
+          "sentence": "O senhor mordido, o senhor partido e o senhor queimado encontraram-se os três, no mesmo hospital."
+        },
+        {
+          "target": "assim",
+          "distractors": [
+            "senhor",
+            "conto",
+            "sequer"
+          ],
+          "sentence": "Macacos me mordam, se o que eu digo não se passou assim mesmo..."
+        },
+        {
+          "target": "verdade",
+          "distractors": [
+            "senhor",
+            "passado",
+            "sequer"
+          ],
+          "sentence": "Ponho as mãos no fogo como falei toda a verdade..."
+        },
+        {
+          "target": "passado",
+          "distractors": [
+            "senhor",
+            "verdade",
+            "sequer"
+          ],
+          "sentence": "Como não se tinha passado assim, nem tão-pouco mais ou menos, veio um macaco e mordeu-o."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "assim",
+          "syllables": [
+            "as",
+            "sim"
+          ]
+        },
+        {
+          "word": "verdade",
+          "syllables": [
+            "ver",
+            "da",
+            "de"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dever",
+          "syllables": [
+            "de",
+            "ver"
+          ]
+        },
+        {
+          "word": "seda",
+          "syllables": [
+            "se",
+            "da"
+          ]
+        },
+        {
+          "word": "sede",
+          "syllables": [
+            "se",
+            "de"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "assim",
+          "b": "assim"
+        },
+        {
+          "a": "verdade",
+          "b": "verdade"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/04/01/images/bdeexb6vkaqr76qvzfvjssi4xtnlsg4s/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Macacos me mordam, se o que eu digo não se passou assim mesmo...",
+        "Como não era assim tal como ele contava, nem sequer parecido, veio um raio e partiu-o.",
+        "O senhor mordido, o senhor partido e o senhor queimado encontraram-se os três, no mesmo hospital.",
+        "Saíram do hospital muito contentes e nunca mais juraram falso.",
+        "Sobre a folha de papel da minha história, começa a cair caliça ..."
+      ]
+    }
+  ]
+}

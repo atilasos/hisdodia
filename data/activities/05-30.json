@@ -1,0 +1,134 @@
+{
+  "id": "05-30",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "estivesse",
+          "distractors": [
+            "acordado",
+            "afogueado",
+            "cinzenta"
+          ],
+          "sentence": "Esse bicho chama-se gato e, se estivesse acordado, não sei o que seria de ti..."
+        },
+        {
+          "target": "rede",
+          "distractors": [
+            "fora",
+            "tempo",
+            "volta"
+          ],
+          "sentence": "O pintainho Besnico só conhecia a rede cinzenta da capoeira, onde tinha nascido."
+        },
+        {
+          "target": "galinha",
+          "distractors": [
+            "acordado",
+            "perigos",
+            "depois"
+          ],
+          "sentence": "A mãe galinha bem o tinha avisado: \"Nunca saias sem mim."
+        },
+        {
+          "target": "fora",
+          "distractors": [
+            "rede",
+            "tempo",
+            "volta"
+          ],
+          "sentence": "Lá fora há muitos perigos que tu não conheces."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "estivesse",
+          "syllables": [
+            "es",
+            "ti",
+            "ves",
+            "se"
+          ]
+        },
+        {
+          "word": "acordado",
+          "syllables": [
+            "a",
+            "cor",
+            "da",
+            "do"
+          ]
+        },
+        {
+          "word": "rede",
+          "syllables": [
+            "re",
+            "de"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "acorda",
+          "syllables": [
+            "a",
+            "cor",
+            "da"
+          ]
+        },
+        {
+          "word": "acordo",
+          "syllables": [
+            "a",
+            "cor",
+            "do"
+          ]
+        },
+        {
+          "word": "aves",
+          "syllables": [
+            "a",
+            "ves"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "estivesse",
+          "b": "estivesse"
+        },
+        {
+          "a": "acordado",
+          "b": "acordado"
+        },
+        {
+          "a": "rede",
+          "b": "rede"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O pintainho Besnico só conhecia a rede cinzenta da capoeira, onde tinha nascido.",
+        "A verdade é que, pouco tempo depois, estava de volta, muito afogueado , muito exaltado com tudo o que tinha visto.",
+        "Ai, a mãezinha tinha razão - respondeu-lhe o pintainho Besnico.",
+        "Tinha uns enormes bigodes, focinho miúdo, orelhas pequenas e o corpo muito fofo, de pêlo amarelo às riscas, muito bonito.",
+        "A mãe galinha apertou contra ela aquele filhinho inocente, que ainda tinha tanto para aprender na vida, enquanto repetia vezes sem…"
+      ]
+    }
+  ]
+}

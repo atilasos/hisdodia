@@ -1,0 +1,128 @@
+{
+  "id": "01-13",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "lobo",
+          "distractors": [
+            "porco",
+            "comer",
+            "mato"
+          ],
+          "sentence": "Um lobo, que tinha sido apanhado numa armadilha, prometeu que mudaria de hábitos alimentares, se o poupassem."
+        },
+        {
+          "target": "porco",
+          "distractors": [
+            "lobo",
+            "comer",
+            "homens"
+          ],
+          "sentence": "Mas, um dia, deu com um enorme porco de mato, que tomava banho no rio."
+        },
+        {
+          "target": "comer",
+          "distractors": [
+            "lobo",
+            "porco",
+            "homens"
+          ],
+          "sentence": "De agora em diante, vou deixar de comer carne - garantiu ele aos homens que o tinham caçado."
+        },
+        {
+          "target": "homens",
+          "distractors": [
+            "porco",
+            "comer",
+            "jeito"
+          ],
+          "sentence": "Os homens deixaram-no ir, enquanto riam e faziam apostas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "lobo",
+          "syllables": [
+            "lo",
+            "bo"
+          ]
+        },
+        {
+          "word": "porco",
+          "syllables": [
+            "por",
+            "co"
+          ]
+        },
+        {
+          "word": "comer",
+          "syllables": [
+            "co",
+            "mer"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "bolo",
+          "syllables": [
+            "bo",
+            "lo"
+          ]
+        },
+        {
+          "word": "coco",
+          "syllables": [
+            "co",
+            "co"
+          ]
+        },
+        {
+          "word": "colo",
+          "syllables": [
+            "co",
+            "lo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "lobo",
+          "b": "lobo"
+        },
+        {
+          "a": "porco",
+          "b": "porco"
+        },
+        {
+          "a": "comer",
+          "b": "comer"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Um lobo, que tinha sido apanhado numa armadilha, prometeu que mudaria de hábitos alimentares, se o poupassem.",
+        "De agora em diante, vou deixar de comer carne - garantiu ele aos homens que o tinham caçado.",
+        "Mas, um dia, deu com um enorme porco de mato, que tomava banho no rio.",
+        "Há que tempos que não como nada de jeito.",
+        "E atirou-se ao porco de mato, mas como andava fraco e perdera o jeito, deixou escapar o porco e caiu de focinho na água."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "02-13",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "botas",
+          "distractors": [
+            "casa",
+            "chuva",
+            "dois"
+          ],
+          "sentence": "Mas viviam um tanto afastados, porque, embora as botas fossem irmãs e em tempos tivessem caminhado juntas, os ratos que as habitavam…"
+        },
+        {
+          "target": "casa",
+          "distractors": [
+            "botas",
+            "chuva",
+            "dois"
+          ],
+          "sentence": "Já nem se vive em sossego na nossa própria casa - lastimou-se um dos ratinhos."
+        },
+        {
+          "target": "ratinhos",
+          "distractors": [
+            "ratos",
+            "ratinho",
+            "amainou"
+          ],
+          "sentence": "Ficaram outra vez dois ratinhos amigos, e as botas, aliás as casas geminadas , são bem prova disso."
+        },
+        {
+          "target": "chuva",
+          "distractors": [
+            "botas",
+            "casa",
+            "dois"
+          ],
+          "sentence": "O vento puxou a chuva que, cada vez mais forte, alagou aquele cantinho do mundo onde estavam as botas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "botas",
+          "syllables": [
+            "bo",
+            "tas"
+          ]
+        },
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        },
+        {
+          "word": "ratinhos",
+          "syllables": [
+            "ra",
+            "ti",
+            "nhos"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "boca",
+          "syllables": [
+            "bo",
+            "ca"
+          ]
+        },
+        {
+          "word": "cabo",
+          "syllables": [
+            "ca",
+            "bo"
+          ]
+        },
+        {
+          "word": "cara",
+          "syllables": [
+            "ca",
+            "ra"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "botas",
+          "b": "botas"
+        },
+        {
+          "a": "casa",
+          "b": "casa"
+        },
+        {
+          "a": "ratinhos",
+          "b": "ratinhos"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "calafetadas",
+          "b": "vedadas"
+        },
+        {
+          "a": "trangalhadanças",
+          "b": "desajeitadas"
+        },
+        {
+          "a": "tormentosa",
+          "b": "agitada / tempestuosa"
+        },
+        {
+          "a": "amainou",
+          "b": "serenou"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Eram dois ratos e cada um vivia na sua bota.",
+        "Já nem se vive em sossego na nossa própria casa - lastimou-se um dos ratinhos.",
+        "Amainou a tempestade, estancou a chuva e as duas botas acabaram poisadas, lado a lado, num montinho de areia.",
+        "Sem darem por isso estavam a falar um com o outro.",
+        "Ficaram outra vez dois ratinhos amigos, e as botas, aliás as casas geminadas , são bem prova disso."
+      ]
+    }
+  ]
+}

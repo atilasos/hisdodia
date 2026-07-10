@@ -1,0 +1,162 @@
+{
+  "id": "02-02",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "colar",
+          "distractors": [
+            "colares",
+            "jovens",
+            "baile"
+          ],
+          "sentence": "Falta o colar - lembrou a Lionídia, enquanto procurava, na sua caixinha de guarda-jóias, o ornamento essencial à perfeição do quadro."
+        },
+        {
+          "target": "pérolas",
+          "distractors": [
+            "vinagre",
+            "vestidos",
+            "espelho"
+          ],
+          "sentence": "Já Joanina tinha tirado do respectivo guarda-jóias e posto com todo o cuidado ao espelho o seu colar de pérolas, sorrindo, feliz, porque…"
+        },
+        {
+          "target": "vinagre",
+          "distractors": [
+            "pérolas",
+            "vestidos",
+            "espelho"
+          ],
+          "sentence": "Quem não souber que aprenda que o vinagre desfaz as pérolas naturais, as legítimas, as fabricadas com sossego e demora, dentro da concha…"
+        },
+        {
+          "target": "vestidos",
+          "distractors": [
+            "pérolas",
+            "vinagre",
+            "espelho"
+          ],
+          "sentence": "Vestiam vestidos de seda branca com muita goma e roda, todos enfeitados de lacinhos azuis e cor-de-rosa."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "colar",
+          "syllables": [
+            "co",
+            "lar"
+          ]
+        },
+        {
+          "word": "pérolas",
+          "syllables": [
+            "pé",
+            "ro",
+            "las"
+          ]
+        },
+        {
+          "word": "vinagre",
+          "syllables": [
+            "vi",
+            "na",
+            "gre"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "coro",
+          "syllables": [
+            "co",
+            "ro"
+          ]
+        },
+        {
+          "word": "naco",
+          "syllables": [
+            "na",
+            "co"
+          ]
+        },
+        {
+          "word": "rolar",
+          "syllables": [
+            "ro",
+            "lar"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "colar",
+          "b": "colar"
+        },
+        {
+          "a": "pérolas",
+          "b": "pérolas"
+        },
+        {
+          "a": "vinagre",
+          "b": "vinagre"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "diadema",
+          "b": "jóia ou ornato semicircular ou circular com que as senhoras cingem a testa / coroa"
+        },
+        {
+          "a": "toucador",
+          "b": "móvel com espelho"
+        },
+        {
+          "a": "pelintra",
+          "b": "reles / ordinário"
+        },
+        {
+          "a": "ripostou",
+          "b": "respondeu"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/02/02/images/yh5kgotcckky5n26tnip2m2qr3klo3rx/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Joanina e Lionídia eram duas jovens que se preparavam para o primeiro baile.",
+        "Já Joanina tinha tirado do respectivo guarda-jóias e posto com todo o cuidado ao espelho o seu colar de pérolas, sorrindo, feliz, porque…",
+        "Isto dito por Lionídia era uma afronta para Joanina.",
+        "Queres ver que o teu colar pelintra não se desfaz - disse a Joanina à Lionídia.",
+        "Pobres das ostras que tanto trabalharam a acrescentar, a arredondar e a aprimorar as suas maravilhosas pérolas, para que assim se…"
+      ]
+    }
+  ]
+}

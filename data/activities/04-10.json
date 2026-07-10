@@ -1,0 +1,129 @@
+{
+  "id": "04-10",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "caracol",
+          "distractors": [
+            "sempre",
+            "conhecer",
+            "carapaça"
+          ],
+          "sentence": "Era uma vez um caracol que, além da carapaça, transportava com ele uma ambição, um sonho de caracol novo: conhecer o mar."
+        },
+        {
+          "target": "sempre",
+          "distractors": [
+            "caracol",
+            "andou",
+            "sonho"
+          ],
+          "sentence": "Sempre era o mar, o seu querido mar que tanto, tanto desejara conhecer."
+        },
+        {
+          "target": "dois",
+          "distractors": [
+            "andou",
+            "além",
+            "sonho"
+          ],
+          "sentence": "Por isso demorou ainda mais um ano, dois meses e oito dias até chegar ao lugar que a rã apontara."
+        },
+        {
+          "target": "além",
+          "distractors": [
+            "dois",
+            "andou",
+            "sonho"
+          ],
+          "sentence": "Além disso, a carapaça já lhe pesava muito."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "caracol",
+          "syllables": [
+            "ca",
+            "ra",
+            "col"
+          ]
+        },
+        {
+          "word": "sempre",
+          "syllables": [
+            "sem",
+            "pre"
+          ]
+        },
+        {
+          "word": "sonho",
+          "syllables": [
+            "so",
+            "nho"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cara",
+          "syllables": [
+            "ca",
+            "ra"
+          ]
+        },
+        {
+          "word": "caso",
+          "syllables": [
+            "ca",
+            "so"
+          ]
+        },
+        {
+          "word": "preso",
+          "syllables": [
+            "pre",
+            "so"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "caracol",
+          "b": "caracol"
+        },
+        {
+          "a": "sempre",
+          "b": "sempre"
+        },
+        {
+          "a": "dois",
+          "b": "dois"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um caracol que, além da carapaça, transportava com ele uma ambição, um sonho de caracol novo: conhecer o mar.",
+        "Sabe tão bem gozar o calor do sol, enquanto se dorme uma boa sesta.",
+        "O caracol deixou o grilo a contas com os seus discursos enfatuados e virou-lhe as costas, discretamente.",
+        "Além disso, a carapaça já lhe pesava muito.",
+        "Se não era o mar, o mar de facto, sempre era o mar do caracol aventureiro..."
+      ]
+    }
+  ]
+}

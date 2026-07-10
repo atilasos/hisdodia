@@ -1,0 +1,129 @@
+{
+  "id": "06-19",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "rato",
+          "distractors": [
+            "respondeu",
+            "nadar",
+            "você"
+          ],
+          "sentence": "Um rato, que andava a viajar, chegou, a certa altura, à margem de um rio profundo."
+        },
+        {
+          "target": "margem",
+          "distractors": [
+            "ficamos",
+            "andava",
+            "nadar"
+          ],
+          "sentence": "Eu por doze fatias levo-o à outra margem."
+        },
+        {
+          "target": "andava",
+          "distractors": [
+            "margem",
+            "ficamos",
+            "nadar"
+          ],
+          "sentence": "Uma rã, que andava por ali, ofereceu-se para levá-lo até ao outro lado."
+        },
+        {
+          "target": "respondeu",
+          "distractors": [
+            "rato",
+            "profundo",
+            "disponho"
+          ],
+          "sentence": "Três - respondeu a rã, que tinha queda para o negócio."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "rato",
+          "syllables": [
+            "ra",
+            "to"
+          ]
+        },
+        {
+          "word": "margem",
+          "syllables": [
+            "mar",
+            "gem"
+          ]
+        },
+        {
+          "word": "ficamos",
+          "syllables": [
+            "fi",
+            "ca",
+            "mos"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cara",
+          "syllables": [
+            "ca",
+            "ra"
+          ]
+        },
+        {
+          "word": "cato",
+          "syllables": [
+            "ca",
+            "to"
+          ]
+        },
+        {
+          "word": "fica",
+          "syllables": [
+            "fi",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "rato",
+          "b": "rato"
+        },
+        {
+          "a": "margem",
+          "b": "margem"
+        },
+        {
+          "a": "ficamos",
+          "b": "ficamos"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Um rato, que andava a viajar, chegou, a certa altura, à margem de um rio profundo.",
+        "Também não lhe restava outra alternativa...",
+        "Estive a pensar que quatro fatias não chegam.",
+        "Foi o salto que o rato deu, salpicando-se todo.",
+        "E o que diria o rato, se pudéssemos ouvi-lo?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "05-10",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhora",
+          "distractors": [
+            "cabelos",
+            "cabelo",
+            "reparou"
+          ],
+          "sentence": "Era uma vez uma senhora que estava no cabeleireiro, à espera de ser atendida."
+        },
+        {
+          "target": "cabelos",
+          "distractors": [
+            "senhora",
+            "cabelo",
+            "reparou"
+          ],
+          "sentence": "Olhe que a senhora, assim, tão enervada que está, fica com os cabelos em pé."
+        },
+        {
+          "target": "cabelo",
+          "distractors": [
+            "senhora",
+            "cabelos",
+            "festa"
+          ],
+          "sentence": "O cabelo empinava, tão espetado e rijo como se a senhora tivesse apanhado um choque eléctrico."
+        },
+        {
+          "target": "festa",
+          "distractors": [
+            "cabelo",
+            "assim",
+            "fica"
+          ],
+          "sentence": "Como é que pode ser, se hoje é que eu tenho uma festa, a que não posso faltar, dê por onde der?"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhora",
+          "syllables": [
+            "se",
+            "nho",
+            "ra"
+          ]
+        },
+        {
+          "word": "cabelos",
+          "syllables": [
+            "ca",
+            "be",
+            "los"
+          ]
+        },
+        {
+          "word": "cabelo",
+          "syllables": [
+            "ca",
+            "be",
+            "lo"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "belo",
+          "syllables": [
+            "be",
+            "lo"
+          ]
+        },
+        {
+          "word": "belos",
+          "syllables": [
+            "be",
+            "los"
+          ]
+        },
+        {
+          "word": "cabe",
+          "syllables": [
+            "ca",
+            "be"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhora",
+          "b": "senhora"
+        },
+        {
+          "a": "cabelos",
+          "b": "cabelos"
+        },
+        {
+          "a": "cabelo",
+          "b": "cabelo"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez uma senhora que estava no cabeleireiro, à espera de ser atendida.",
+        "Depois, vai ser um sarilho para penteá-la.",
+        "Vá lá, sossegue - diziam-lhe as empregadas do cabeleireiro.",
+        "Como é que pode ser, se hoje é que eu tenho uma festa, a que não posso faltar, dê por onde der?",
+        "Mas vá lá que a festa tinha chegado ao fim e já ninguém reparou."
+      ]
+    }
+  ]
+}

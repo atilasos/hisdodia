@@ -1,0 +1,141 @@
+{
+  "id": "06-22",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "cavalo",
+          "distractors": [
+            "cabeça",
+            "coisa",
+            "coisas"
+          ],
+          "sentence": "Um cavalo de brincar, um cavalo de balancé."
+        },
+        {
+          "target": "cabeça",
+          "distractors": [
+            "cavalo",
+            "coisa",
+            "coisas"
+          ],
+          "sentence": "Onde tinha ido parar a cabeça, ele não sabia."
+        },
+        {
+          "target": "coisa",
+          "distractors": [
+            "cavalo",
+            "cabeça",
+            "fogo"
+          ],
+          "sentence": "Guarda-se cada coisa mais inútil - disse outro alguém."
+        },
+        {
+          "target": "fogo",
+          "distractors": [
+            "coisa",
+            "fogueira",
+            "fumo"
+          ],
+          "sentence": "Deita-se-lhes fogo - propôs um dos homens."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "cavalo",
+          "syllables": [
+            "ca",
+            "va",
+            "lo"
+          ]
+        },
+        {
+          "word": "cabeça",
+          "syllables": [
+            "ca",
+            "be",
+            "ça"
+          ]
+        },
+        {
+          "word": "coisa",
+          "syllables": [
+            "coi",
+            "sa"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "belo",
+          "syllables": [
+            "be",
+            "lo"
+          ]
+        },
+        {
+          "word": "cabe",
+          "syllables": [
+            "ca",
+            "be"
+          ]
+        },
+        {
+          "word": "cabelo",
+          "syllables": [
+            "ca",
+            "be",
+            "lo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "cavalo",
+          "b": "cavalo"
+        },
+        {
+          "a": "cabeça",
+          "b": "cabeça"
+        },
+        {
+          "a": "coisa",
+          "b": "coisa"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/06/22/images/fyn6rtglh2nado423ysabi6wpsdwmp4l/Imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Um cavalo de brincar, um cavalo de balancé.",
+        "Guarda-se cada coisa mais inútil - disse outro alguém.",
+        "No cimo do monte de tarecos, o cavalicoque sem cabeça.",
+        "Mas uma espadanada de fogo chamou-o a si.",
+        "A gente esquece tanta coisa, entretanto."
+      ]
+    }
+  ]
+}

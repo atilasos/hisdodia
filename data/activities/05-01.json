@@ -1,0 +1,132 @@
+{
+  "id": "05-01",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "sopa",
+          "distractors": [
+            "pais",
+            "rega",
+            "fogão"
+          ],
+          "sentence": "A verdade é que o Joca não gosta de sopa."
+        },
+        {
+          "target": "homens",
+          "distractors": [
+            "fogão",
+            "pratos",
+            "papel"
+          ],
+          "sentence": "Se deu que fazer a mil homens ou só deu que fazer ao tio Alfredo vale o mesmo."
+        },
+        {
+          "target": "pais",
+          "distractors": [
+            "sopa",
+            "rega",
+            "fogão"
+          ],
+          "sentence": "Já os pais estão na fruta e ele ainda a remanchar , ora uma colher ora outra, muito enfadado, diante da sopa fria."
+        },
+        {
+          "target": "rega",
+          "distractors": [
+            "sopa",
+            "pais",
+            "fogão"
+          ],
+          "sentence": "Agora a rega é toda mecanizada - lembrou o pai do Joca."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "sopa",
+          "syllables": [
+            "so",
+            "pa"
+          ]
+        },
+        {
+          "word": "homens",
+          "syllables": [
+            "ho",
+            "mens"
+          ]
+        },
+        {
+          "word": "cozinhou",
+          "syllables": [
+            "co",
+            "zi",
+            "nhou"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "copa",
+          "syllables": [
+            "co",
+            "pa"
+          ]
+        },
+        {
+          "word": "sonhou",
+          "syllables": [
+            "so",
+            "nhou"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "sopa",
+          "b": "sopa"
+        },
+        {
+          "a": "homens",
+          "b": "homens"
+        },
+        {
+          "a": "pais",
+          "b": "pais"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/05/01/images/ftqqofed2jyivcxyfrywkg5qrcpqav7o/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Não te engasgas com o bife nem com as batatas fritas...",
+        "Se deu que fazer a mil homens ou só deu que fazer ao tio Alfredo vale o mesmo.",
+        "Tanta gente à volta de um prato de sopa!",
+        "Pois claro que não me esqueço dos salineiros, que levantam o sal das salinas.",
+        "Ia ter que esperar, porque, diante dos pais do Joca e do tio Alfredo, os pratos de sopa ainda continuavam cheios..."
+      ]
+    }
+  ]
+}

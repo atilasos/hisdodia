@@ -1,0 +1,129 @@
+{
+  "id": "04-12",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "comer",
+          "distractors": [
+            "queijo",
+            "cabeça",
+            "partir"
+          ],
+          "sentence": "Mãe, mãezinha, eu quero comer aquele queijo."
+        },
+        {
+          "target": "queijo",
+          "distractors": [
+            "comer",
+            "cabeça",
+            "foguete"
+          ],
+          "sentence": "Meu filho, aquilo não é um queijo, é a Lua."
+        },
+        {
+          "target": "cabeça",
+          "distractors": [
+            "comer",
+            "queijo",
+            "foguete"
+          ],
+          "sentence": "Os sábios punham as mãos na cabeça, sem achar solução."
+        },
+        {
+          "target": "bocadinho",
+          "distractors": [
+            "ratoeira",
+            "ribombou",
+            "mãezinha"
+          ],
+          "sentence": "Ficaram todos os sábios e os não sábios apavorados: \"Ai, a Lua com um bocadinho a menos\"."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "comer",
+          "syllables": [
+            "co",
+            "mer"
+          ]
+        },
+        {
+          "word": "queijo",
+          "syllables": [
+            "quei",
+            "jo"
+          ]
+        },
+        {
+          "word": "cabeça",
+          "syllables": [
+            "ca",
+            "be",
+            "ça"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cabe",
+          "syllables": [
+            "ca",
+            "be"
+          ]
+        },
+        {
+          "word": "caça",
+          "syllables": [
+            "ca",
+            "ça"
+          ]
+        },
+        {
+          "word": "coça",
+          "syllables": [
+            "co",
+            "ça"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "comer",
+          "b": "comer"
+        },
+        {
+          "a": "queijo",
+          "b": "queijo"
+        },
+        {
+          "a": "cabeça",
+          "b": "cabeça"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Mãe, mãezinha, eu quero comer aquele queijo.",
+        "O Larico ficou sozinho a olhar para a Lua, com a água a crescer-lhe na boca.",
+        "No dia seguinte, os jornais traziam em grandes letras - UM RATO ASTRONAUTA; LARICO, O HEROI; RATOS CONQUISTAM A LUA, etc, etc.",
+        "Os gatos não tinham preparação para tais viagens.",
+        "Foi assim que nós nos salvámos de ficar sem Lua."
+      ]
+    }
+  ]
+}

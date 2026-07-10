@@ -1,0 +1,131 @@
+{
+  "id": "03-15",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "cães",
+          "distractors": [
+            "cãozinho",
+            "dona",
+            "pêlo"
+          ],
+          "sentence": "E as outras senhoras, que tinham cães, todos eles muito maiores, e enormes contas no talho para pagar, deitavam contas à vida e ao preço…"
+        },
+        {
+          "target": "dona",
+          "distractors": [
+            "cães",
+            "pêlo",
+            "lenço"
+          ],
+          "sentence": "Tão pequeno, tão pequeno que a dona do cão só com lupa conseguia vê-lo."
+        },
+        {
+          "target": "pequeno",
+          "distractors": [
+            "cãozinho",
+            "pêlo",
+            "orelhas"
+          ],
+          "sentence": "Pois, há tempos, eu conheci uma senhora que tinha um cão muito pequeno."
+        },
+        {
+          "target": "senhora",
+          "distractors": [
+            "cãozinho",
+            "pequeno",
+            "orelhas"
+          ],
+          "sentence": "Não me dá despesa nenhuma - dizia a senhora."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "cãozinho",
+          "syllables": [
+            "cão",
+            "zi",
+            "nho"
+          ]
+        },
+        {
+          "word": "dona",
+          "syllables": [
+            "do",
+            "na"
+          ]
+        },
+        {
+          "word": "pequeno",
+          "syllables": [
+            "pe",
+            "que",
+            "no"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dono",
+          "syllables": [
+            "do",
+            "no"
+          ]
+        },
+        {
+          "word": "pena",
+          "syllables": [
+            "pe",
+            "na"
+          ]
+        },
+        {
+          "word": "pequena",
+          "syllables": [
+            "pe",
+            "que",
+            "na"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "cães",
+          "b": "cães"
+        },
+        {
+          "a": "cãozinho",
+          "b": "cãozinho"
+        },
+        {
+          "a": "dona",
+          "b": "dona"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Pois, há tempos, eu conheci uma senhora que tinha um cão muito pequeno.",
+        "Não me dá despesa nenhuma - dizia a senhora.",
+        "E as outras senhoras, que tinham cães, todos eles muito maiores, e enormes contas no talho para pagar, deitavam contas à vida e ao preço…",
+        "Mas, um dia, a dona do cão perdeu o cão.",
+        "Chorou mais e foi buscar um lenço para se assoar e limpar as lágrimas."
+      ]
+    }
+  ]
+}

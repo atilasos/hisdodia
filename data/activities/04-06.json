@@ -1,0 +1,139 @@
+{
+  "id": "04-06",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "gato",
+          "distractors": [
+            "mato",
+            "idade",
+            "campo"
+          ],
+          "sentence": "Um gato todo verde - verde-claro, verde-alface."
+        },
+        {
+          "target": "senhora",
+          "distractors": [
+            "sempre",
+            "será",
+            "branco"
+          ],
+          "sentence": "Minha senhora, desculpe incomodá-la - disse eu -, mas há pouco vi um gato verde, verde-clarinho..."
+        },
+        {
+          "target": "mato",
+          "distractors": [
+            "gato",
+            "idade",
+            "campo"
+          ],
+          "sentence": "Fui ao campo e, no meio do mato, o que é que eu encontrei?"
+        },
+        {
+          "target": "idade",
+          "distractors": [
+            "gato",
+            "mato",
+            "campo"
+          ],
+          "sentence": "Pois claro que é - respondeu-me a velha ou, para sermos mais delicados, respondeu-me a senhora de idade."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "gato",
+          "syllables": [
+            "ga",
+            "to"
+          ]
+        },
+        {
+          "word": "senhora",
+          "syllables": [
+            "se",
+            "nho",
+            "ra"
+          ]
+        },
+        {
+          "word": "mato",
+          "syllables": [
+            "ma",
+            "to"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "rama",
+          "syllables": [
+            "ra",
+            "ma"
+          ]
+        },
+        {
+          "word": "rato",
+          "syllables": [
+            "ra",
+            "to"
+          ]
+        },
+        {
+          "word": "toma",
+          "syllables": [
+            "to",
+            "ma"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "gato",
+          "b": "gato"
+        },
+        {
+          "a": "senhora",
+          "b": "senhora"
+        },
+        {
+          "a": "mato",
+          "b": "mato"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/04/06/images/bn3fqwkljmkw5j4kueczo3clzqm4odna/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Fui há dias dar um passeio pelo campo e até me perdi.",
+        "A mim, a princípio, também me custou a acreditar.",
+        "Pois claro que é - respondeu-me a velha ou, para sermos mais delicados, respondeu-me a senhora de idade.",
+        "Mas um gato verde-escuro não lhe parece esquisito?",
+        "Sem mais achar que dizer, despedi-me da senhora de idade e, pé ante pé, virei as costas àquela casa no meio do mato."
+      ]
+    }
+  ]
+}

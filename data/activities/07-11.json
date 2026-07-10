@@ -1,0 +1,139 @@
+{
+  "id": "07-11",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "boneca",
+          "distractors": [
+            "dentro",
+            "quarta",
+            "menina"
+          ],
+          "sentence": "Quando eu era menina, trouxeram-me de fora, de muito longe, uma boneca diferente das outras, uma boneca especial, que tinha dentro…"
+        },
+        {
+          "target": "dentro",
+          "distractors": [
+            "boneca",
+            "quarta",
+            "menina"
+          ],
+          "sentence": "A gente desatarraxava o corpo da primeira boneca e, de dentro dela, aparecia outra boneca."
+        },
+        {
+          "target": "quarta",
+          "distractors": [
+            "boneca",
+            "dentro",
+            "menina"
+          ],
+          "sentence": "Desatarraxávamos a terceira boneca e aparecia-nos uma quarta boneca."
+        },
+        {
+          "target": "menina",
+          "distractors": [
+            "boneca",
+            "dentro",
+            "quarta"
+          ],
+          "sentence": "Quando ela crescer, e de bebé se fizer menina, hei-de contar-lhe esta história de bonecas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "boneca",
+          "syllables": [
+            "bo",
+            "ne",
+            "ca"
+          ]
+        },
+        {
+          "word": "dentro",
+          "syllables": [
+            "den",
+            "tro"
+          ]
+        },
+        {
+          "word": "quarta",
+          "syllables": [
+            "quar",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "boca",
+          "syllables": [
+            "bo",
+            "ca"
+          ]
+        },
+        {
+          "word": "bota",
+          "syllables": [
+            "bo",
+            "ta"
+          ]
+        },
+        {
+          "word": "cabo",
+          "syllables": [
+            "ca",
+            "bo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "boneca",
+          "b": "boneca"
+        },
+        {
+          "a": "dentro",
+          "b": "dentro"
+        },
+        {
+          "a": "quarta",
+          "b": "quarta"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/07/11/images/tpchhxgi55au3kepmh3yieqve7hq3erf/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Quando eu era menina, trouxeram-me de fora, de muito longe, uma boneca diferente das outras, uma boneca especial, que tinha dentro…",
+        "A tua avó velhinha, como tu lhe chamavas, mas, aqui, mais nova.",
+        "Da tua avó Elvira, nasci eu, que sou a tua mãe...",
+        "Olhei para mim, boneca pequena, e achei-me igual às outras, ainda que mais miudinha no tamanho.",
+        "Quando ela crescer, e de bebé se fizer menina, hei-de contar-lhe esta história de bonecas."
+      ]
+    }
+  ]
+}

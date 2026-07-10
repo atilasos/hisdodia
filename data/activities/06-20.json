@@ -1,0 +1,129 @@
+{
+  "id": "06-20",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "chuva",
+          "distractors": [
+            "sapos",
+            "sapo",
+            "cores"
+          ],
+          "sentence": "Tanto pode a chuva ser verde-alface como violeta-desmaiado ou azul-marinho ou amarelo dourado."
+        },
+        {
+          "target": "planeta",
+          "distractors": [
+            "pele",
+            "chuvinha",
+            "sempre"
+          ],
+          "sentence": "Isto passa-se num planeta algures - parece que se chama mesmo Algures - lá para os fundos do universo."
+        },
+        {
+          "target": "sapos",
+          "distractors": [
+            "chuva",
+            "sapo",
+            "cores"
+          ],
+          "sentence": "Os sapos e as rãs não querem outra coisa, embora lhes seja indiferente a cor da chuva, desde que molhe."
+        },
+        {
+          "target": "sapo",
+          "distractors": [
+            "chuva",
+            "sapos",
+            "cores"
+          ],
+          "sentence": "Escorregou a última gota rosada de chuva sobre a pele esverdeada acastanhada do sapo, que elegemos como herói da nossa história, e o…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "chuva",
+          "syllables": [
+            "chu",
+            "va"
+          ]
+        },
+        {
+          "word": "planeta",
+          "syllables": [
+            "pla",
+            "ne",
+            "ta"
+          ]
+        },
+        {
+          "word": "sapos",
+          "syllables": [
+            "sa",
+            "pos"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "neta",
+          "syllables": [
+            "ne",
+            "ta"
+          ]
+        },
+        {
+          "word": "neva",
+          "syllables": [
+            "ne",
+            "va"
+          ]
+        },
+        {
+          "word": "possa",
+          "syllables": [
+            "pos",
+            "sa"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "chuva",
+          "b": "chuva"
+        },
+        {
+          "a": "planeta",
+          "b": "planeta"
+        },
+        {
+          "a": "sapos",
+          "b": "sapos"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Estava a cair uma chuvinha cor-de-rosa, mas persistente.",
+        "O sapo Tubi interrogou com inquietação o céu, que se manteve cinzento e impassível.",
+        "O planeta Algures, somados os rios, lagos e charcos, tinha água de reserva para muitas e muitas gerações.",
+        "As rãs já não saltavam com o mesmo vigor nem os sapos coaxavam o seu grunhido de uma única sílaba \"Cró!",
+        "O riso estica-lhes a pele húmida e luzidia, que ao sol ganha a reverberação das cores do arco-íris."
+      ]
+    }
+  ]
+}

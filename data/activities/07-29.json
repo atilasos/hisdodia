@@ -1,0 +1,140 @@
+{
+  "id": "07-29",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "feiras",
+          "distractors": [
+            "cavalo",
+            "foguetão",
+            "meninos"
+          ],
+          "sentence": "Às 2ª feiras, o Joca é bombeiro, ao volante da ambulância vermelha."
+        },
+        {
+          "target": "carrossel",
+          "distractors": [
+            "chegaram",
+            "cavalo",
+            "domingos"
+          ],
+          "sentence": "Quando se preparava para regressar ao trabalho, o Joca dá conta de que, no largo da vila, o carrossel vai ser desmanchado."
+        },
+        {
+          "target": "chegaram",
+          "distractors": [
+            "carrossel",
+            "cavalo",
+            "domingos"
+          ],
+          "sentence": "Chegaram as férias para todos, menos para o Joca."
+        },
+        {
+          "target": "cavalo",
+          "distractors": [
+            "feiras",
+            "carrossel",
+            "chegaram"
+          ],
+          "sentence": "Aos sábados, é cow-boy e monta um cavalo branco, com arreios dourados."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "feiras",
+          "syllables": [
+            "fei",
+            "ras"
+          ]
+        },
+        {
+          "word": "carrossel",
+          "syllables": [
+            "car",
+            "ros",
+            "sel"
+          ]
+        },
+        {
+          "word": "chegaram",
+          "syllables": [
+            "che",
+            "ga",
+            "ram"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "carga",
+          "syllables": [
+            "car",
+            "ga"
+          ]
+        },
+        {
+          "word": "carros",
+          "syllables": [
+            "car",
+            "ros"
+          ]
+        },
+        {
+          "word": "chega",
+          "syllables": [
+            "che",
+            "ga"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "feiras",
+          "b": "feiras"
+        },
+        {
+          "a": "carrossel",
+          "b": "carrossel"
+        },
+        {
+          "a": "chegaram",
+          "b": "chegaram"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/07/29/images/wz3mkohkvvveun2dqunyn4ziqrpn5uyf/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Chegaram as férias para todos, menos para o Joca.",
+        "Às 4ª feiras, é ciclista e farta-se de correr, isto é, de pedalar.",
+        "Aos sábados, é cow-boy e monta um cavalo branco, com arreios dourados.",
+        "Vai o carrossel para outras terras, dar que fazer a outros meninos, rodopiar ao som da mesma música, que o encantou a ele, a semana inteira.",
+        "O Joca vê partir o carrossel e tem pena."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "04-07",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "tempo",
+          "distractors": [
+            "depois",
+            "talvez",
+            "hoje"
+          ],
+          "sentence": "Gostava de ter vivido no tempo dos homens das espadas..."
+        },
+        {
+          "target": "doenças",
+          "distractors": [
+            "depois",
+            "talvez",
+            "bacilos"
+          ],
+          "sentence": "As mesmas que há agora e mais ainda, mas estava-se, completamente, às escuras sobre as causas que provocavam essas doenças."
+        },
+        {
+          "target": "depois",
+          "distractors": [
+            "tempo",
+            "doenças",
+            "talvez"
+          ],
+          "sentence": "Isto dito depois de ambos terem visto um filme daqueles de espadachins de bigodes eriçados, capa ao vento e chapéus emplumados."
+        },
+        {
+          "target": "talvez",
+          "distractors": [
+            "tempo",
+            "doenças",
+            "depois"
+          ],
+          "sentence": "Talvez fosse melhor que o Joca tivesse ficado calado..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "tempo",
+          "syllables": [
+            "tem",
+            "po"
+          ]
+        },
+        {
+          "word": "doenças",
+          "syllables": [
+            "do",
+            "en",
+            "ças"
+          ]
+        },
+        {
+          "word": "seres",
+          "syllables": [
+            "se",
+            "res"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dores",
+          "syllables": [
+            "do",
+            "res"
+          ]
+        },
+        {
+          "word": "pose",
+          "syllables": [
+            "po",
+            "se"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "tempo",
+          "b": "tempo"
+        },
+        {
+          "a": "doenças",
+          "b": "doenças"
+        },
+        {
+          "a": "depois",
+          "b": "depois"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "tratante",
+          "b": "velhaco / patife"
+        },
+        {
+          "a": "decepavam",
+          "b": "cortavam"
+        },
+        {
+          "a": "grassara",
+          "b": "alastrara / desenvolvera-se"
+        },
+        {
+          "a": "enfermidade",
+          "b": "doença"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/04/07/images/uq4m4nvvarkftypkzdeh7p53kgdvusu4/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Gostava de ter vivido no tempo dos homens das espadas...",
+        "Se alguém tinha febre, recomendavam-lhe que se metesse dentro de uma tina de água gelada, para fazer baixar a temperatura.",
+        "Luís Pasteur foi um notável cientista francês, que revolucionou a Medicina, a partir dos meados do século dezanove, isto é, desde há…",
+        "Outras epidemias animais foram por ele estudadas e combatidas, graças a um método experimental que consistia em tornar inofensivo o…",
+        "Afinal, já não queria viver no tempo dos mosqueteiros - suspirou o Joca, depois de ouvir os esclarecimentos do avô."
+      ]
+    }
+  ]
+}

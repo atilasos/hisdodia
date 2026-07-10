@@ -1,0 +1,139 @@
+{
+  "id": "05-04",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "dragões",
+          "distractors": [
+            "lembrado",
+            "crescer",
+            "correr"
+          ],
+          "sentence": "Mas parece que os dragões são vegetarianos ..."
+        },
+        {
+          "target": "crescer",
+          "distractors": [
+            "lembrado",
+            "dragões",
+            "correr"
+          ],
+          "sentence": "Quando crescer, vai tomar conta desta varanda."
+        },
+        {
+          "target": "roupa",
+          "distractors": [
+            "correr",
+            "saber",
+            "carne"
+          ],
+          "sentence": "E quando quiseres estender a roupa hás-de ter que pedir ao dragão \"Com licença, com licença\", para ele te deixar pendurar a roupa…"
+        },
+        {
+          "target": "pequenino",
+          "distractors": [
+            "lembrado",
+            "perguntou",
+            "quiseres"
+          ],
+          "sentence": "Eu vi um pequenino a sair debaixo de um vaso de sardinheiras."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "lembrado",
+          "syllables": [
+            "lem",
+            "bra",
+            "do"
+          ]
+        },
+        {
+          "word": "dragões",
+          "syllables": [
+            "dra",
+            "gões"
+          ]
+        },
+        {
+          "word": "crescer",
+          "syllables": [
+            "cres",
+            "cer"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "brado",
+          "syllables": [
+            "bra",
+            "do"
+          ]
+        },
+        {
+          "word": "cerdo",
+          "syllables": [
+            "cer",
+            "do"
+          ]
+        },
+        {
+          "word": "lembra",
+          "syllables": [
+            "lem",
+            "bra"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "lembrado",
+          "b": "lembrado"
+        },
+        {
+          "a": "dragões",
+          "b": "dragões"
+        },
+        {
+          "a": "crescer",
+          "b": "crescer"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/05/04/images/pgxxyppopb7hpmuk47xerrgatwcdr2qk/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Eu vi um pequenino a sair debaixo de um vaso de sardinheiras.",
+        "Cortava-se a roupa toda - disse a mãe, entrando na brincadeira.",
+        "E, se ele me comer o peixe ou a carne, que jantamos nós?",
+        "Mas assim que o vissem, os meninos fugiam e, mais dia menos dia, ficava a Tapada vazia de pessoas e vegetação.",
+        "Nessa altura, a lagartixa passou a correr e esta história acaba como deve de ser."
+      ]
+    }
+  ]
+}

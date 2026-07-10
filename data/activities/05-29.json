@@ -1,0 +1,123 @@
+{
+  "id": "05-29",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "sapo",
+          "distractors": [
+            "tempo",
+            "trigo",
+            "eira"
+          ],
+          "sentence": "O sapo e a raposa herdaram umas terrinhas de uma velha bruxa, muito velha, que gostava de sapos e raposas."
+        },
+        {
+          "target": "raposa",
+          "distractors": [
+            "tempo",
+            "trigo",
+            "depois"
+          ],
+          "sentence": "Aquela que para aqui trazemos conta-nos como foi essa sociedade entre um sapo saparrão e uma raposa raposeca."
+        },
+        {
+          "target": "tempo",
+          "distractors": [
+            "sapo",
+            "raposa",
+            "trigo"
+          ],
+          "sentence": "Assim venha o bom tempo - suspirou a raposa."
+        },
+        {
+          "target": "trigo",
+          "distractors": [
+            "sapo",
+            "raposa",
+            "tempo"
+          ],
+          "sentence": "O sapo ceifou, debulhou e juntou um belo monte de trigo e outro de palha."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "sapo",
+          "syllables": [
+            "sa",
+            "po"
+          ]
+        },
+        {
+          "word": "raposa",
+          "syllables": [
+            "ra",
+            "po",
+            "sa"
+          ]
+        },
+        {
+          "word": "proposta",
+          "syllables": [
+            "pro",
+            "pos",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "possa",
+          "syllables": [
+            "pos",
+            "sa"
+          ]
+        },
+        {
+          "word": "posta",
+          "syllables": [
+            "pos",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "sapo",
+          "b": "sapo"
+        },
+        {
+          "a": "raposa",
+          "b": "raposa"
+        },
+        {
+          "a": "tempo",
+          "b": "tempo"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O sapo e a raposa herdaram umas terrinhas de uma velha bruxa, muito velha, que gostava de sapos e raposas.",
+        "Mondou, lavrou, sachou, semeou e, depois, esperou.",
+        "Aqui está a nossa fortuna - dizia a raposa, muito risonha.",
+        "O sapo foi visitar um outro sapo e expor-lhe a proposta da raposa.",
+        "Afinal a esperteza e a malandrice não lhe valeram de nada."
+      ]
+    }
+  ]
+}

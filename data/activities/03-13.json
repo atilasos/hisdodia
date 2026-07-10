@@ -1,0 +1,140 @@
+{
+  "id": "03-13",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "leão",
+          "distractors": [
+            "rato",
+            "roeu",
+            "festa"
+          ],
+          "sentence": "Conta-se que um ratinho salvou, uma vez, um leão, que tinha caído numa armadilha."
+        },
+        {
+          "target": "rato",
+          "distractors": [
+            "leão",
+            "ratinho",
+            "roeu"
+          ],
+          "sentence": "O rato podia valsar maravilhosamente, mas o par ajudava pouco..."
+        },
+        {
+          "target": "ratinho",
+          "distractors": [
+            "rato",
+            "roeu",
+            "princesa"
+          ],
+          "sentence": "Por altura dos discursos, o leão, diante da bicharada reunida, elogiou o ratinho e a força dos seus dentes."
+        },
+        {
+          "target": "roeu",
+          "distractors": [
+            "leão",
+            "rato",
+            "ratinho"
+          ],
+          "sentence": "Roeu, roeu e o leão safou-se da rede em que se deixara caçar."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "leão",
+          "syllables": [
+            "le",
+            "ão"
+          ]
+        },
+        {
+          "word": "rato",
+          "syllables": [
+            "ra",
+            "to"
+          ]
+        },
+        {
+          "word": "ratinho",
+          "syllables": [
+            "ra",
+            "ti",
+            "nho"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "rara",
+          "syllables": [
+            "ra",
+            "ra"
+          ]
+        },
+        {
+          "word": "ratito",
+          "syllables": [
+            "ra",
+            "ti",
+            "to"
+          ]
+        },
+        {
+          "word": "tira",
+          "syllables": [
+            "ti",
+            "ra"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "leão",
+          "b": "leão"
+        },
+        {
+          "a": "rato",
+          "b": "rato"
+        },
+        {
+          "a": "ratinho",
+          "b": "ratinho"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/03/13/images/iwomvs2crvpkchsjbtsfh3hz6h5yzacg/Imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Conta-se que um ratinho salvou, uma vez, um leão, que tinha caído numa armadilha.",
+        "Para provar a minha gratidão, dou-te o direito de escolher o que tu quiseres, em paga dos teus serviços.",
+        "Já a orquestra dos elefantes começava a soprar, no fim do banquete, dando início ao baile real.",
+        "O pior foi durante a bailação, propriamente dita.",
+        "Ela não se importou mesmo nada e ele, embora humilhado , suspirou de alívio, quando se viu longe daquela festa em que, pela primeira vez…"
+      ]
+    }
+  ]
+}

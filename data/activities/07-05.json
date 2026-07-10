@@ -1,0 +1,141 @@
+{
+  "id": "07-05",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "coração",
+          "distractors": [
+            "enluvada",
+            "grande",
+            "cidade"
+          ],
+          "sentence": "Faço as vezes da boca que vos faz falta, porque tenho o coração ao pé da boca."
+        },
+        {
+          "target": "enluvada",
+          "distractors": [
+            "coração",
+            "borboleta",
+            "cheirava"
+          ],
+          "sentence": "Operários andavam a desmontar do alto da porta de uma luvaria uma grande mão enluvada."
+        },
+        {
+          "target": "grande",
+          "distractors": [
+            "coração",
+            "cidade",
+            "porta"
+          ],
+          "sentence": "Estavam num grande cartaz que anunciava uma marca de aparelhos de rádio: PARA OS RÁDIOS THO-KATU-DO SOU TODO OUVIDOS."
+        },
+        {
+          "target": "cidade",
+          "distractors": [
+            "coração",
+            "grande",
+            "cheirava"
+          ],
+          "sentence": "Deu-lhes para voar sobre a cidade, como uma borboleta gigante, à procura de poiso."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "coração",
+          "syllables": [
+            "co",
+            "ra",
+            "ção"
+          ]
+        },
+        {
+          "word": "enluvada",
+          "syllables": [
+            "en",
+            "lu",
+            "va",
+            "da"
+          ]
+        },
+        {
+          "word": "grande",
+          "syllables": [
+            "gran",
+            "de"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cova",
+          "syllables": [
+            "co",
+            "va"
+          ]
+        },
+        {
+          "word": "dera",
+          "syllables": [
+            "de",
+            "ra"
+          ]
+        },
+        {
+          "word": "ração",
+          "syllables": [
+            "ra",
+            "ção"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "coração",
+          "b": "coração"
+        },
+        {
+          "a": "enluvada",
+          "b": "enluvada"
+        },
+        {
+          "a": "grande",
+          "b": "grande"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/07/05/images/wwt7m2r5d3nqqiur4aaylc42qm3svbir/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Estavam num grande cartaz que anunciava uma marca de aparelhos de rádio: PARA OS RÁDIOS THO-KATU-DO SOU TODO OUVIDOS.",
+        "A borboleta que voava, agora, sobre os telhados da cidade estava mais completa.",
+        "Mesmo enluvada, a mão tinha tacto, pegava em coisas, dizia adeus.",
+        "Parece que ficamos sem boca - não disseram eles, que não tinham boca, mas pensaram.",
+        "Aquela cara inocente de palhaço tinha a boca ao pé do coração."
+      ]
+    }
+  ]
+}

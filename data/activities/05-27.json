@@ -1,0 +1,139 @@
+{
+  "id": "05-27",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "fidalgo",
+          "distractors": [
+            "codorniz",
+            "passada",
+            "chegar"
+          ],
+          "sentence": "Era uma vez um fidalgo de quem o rei se arredara por intrigas na corte."
+        },
+        {
+          "target": "paço",
+          "distractors": [
+            "manhã",
+            "noite",
+            "passada"
+          ],
+          "sentence": "Vede, senhor, como uma pequena mentira cresce tanto, até chegar ao paço de Vossa Majestade."
+        },
+        {
+          "target": "manhã",
+          "distractors": [
+            "paço",
+            "noite",
+            "chegar"
+          ],
+          "sentence": "Numa manhã, deixou no meio dos lençóis da cama, onde dormira, um ovo de codorniz."
+        },
+        {
+          "target": "noite",
+          "distractors": [
+            "paço",
+            "manhã",
+            "chegar"
+          ],
+          "sentence": "Fui eu que o pus, a noite passada, com muito custo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "fidalgo",
+          "syllables": [
+            "fi",
+            "dal",
+            "go"
+          ]
+        },
+        {
+          "word": "paço",
+          "syllables": [
+            "pa",
+            "ço"
+          ]
+        },
+        {
+          "word": "manhã",
+          "syllables": [
+            "ma",
+            "nhã"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "figo",
+          "syllables": [
+            "fi",
+            "go"
+          ]
+        },
+        {
+          "word": "goma",
+          "syllables": [
+            "go",
+            "ma"
+          ]
+        },
+        {
+          "word": "mago",
+          "syllables": [
+            "ma",
+            "go"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "fidalgo",
+          "b": "fidalgo"
+        },
+        {
+          "a": "paço",
+          "b": "paço"
+        },
+        {
+          "a": "manhã",
+          "b": "manhã"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/05/27/images/6jdlsvea4nyfvdtthbbcfbzz5wbm4maa/Imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um fidalgo de quem o rei se arredara por intrigas na corte.",
+        "O criado, quando veio arrumar o quarto, deu com o ovo e foi dizer ao amo.",
+        "Não dês com a língua nos dentes, mas o meu patrão a noite passada pôs um ovo, mais grado do que ovo de pata.",
+        "Venho ver esse prodígio de homem que põe cem ovos por dia, maiores do que ovos de perua.",
+        "Parece que o rei entendeu a lição e chamou de novo o fidalgo para a sua roda de conselheiros."
+      ]
+    }
+  ]
+}

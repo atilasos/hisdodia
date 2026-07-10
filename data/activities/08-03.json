@@ -1,0 +1,142 @@
+{
+  "id": "08-03",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "ovos",
+          "distractors": [
+            "agora",
+            "dera",
+            "bolo"
+          ],
+          "sentence": "Eram ovos ainda frescos e tinham ambições."
+        },
+        {
+          "target": "vontade",
+          "distractors": [
+            "fidalgos",
+            "capazes",
+            "açafate"
+          ],
+          "sentence": "Aqui têm como eu fiz a vontade ao ovo que queria ser ovo de Colombo."
+        },
+        {
+          "target": "descobriu",
+          "distractors": [
+            "estrelado",
+            "fidalgos",
+            "conversa"
+          ],
+          "sentence": "Como vocês sabem, Cristóvão Colombo descobriu a América."
+        },
+        {
+          "target": "fidalgos",
+          "distractors": [
+            "estrelado",
+            "vontade",
+            "descobriu"
+          ],
+          "sentence": "Quando regressou a Espanha, trazendo a notícia da sua descoberta, os fidalgos da corte, invejosos, desdenharam do feito."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "ovos",
+          "syllables": [
+            "o",
+            "vos"
+          ]
+        },
+        {
+          "word": "estrelado",
+          "syllables": [
+            "es",
+            "tre",
+            "la",
+            "do"
+          ]
+        },
+        {
+          "word": "vontade",
+          "syllables": [
+            "von",
+            "ta",
+            "de"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dedo",
+          "syllables": [
+            "de",
+            "do"
+          ]
+        },
+        {
+          "word": "estala",
+          "syllables": [
+            "es",
+            "ta",
+            "la"
+          ]
+        },
+        {
+          "word": "lado",
+          "syllables": [
+            "la",
+            "do"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "ovos",
+          "b": "ovos"
+        },
+        {
+          "a": "estrelado",
+          "b": "estrelado"
+        },
+        {
+          "a": "vontade",
+          "b": "vontade"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/08/03/images/drsgwu4mfi6fnxhzckg2cdz7x6kuhhse/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Eram ovos ainda frescos e tinham ambições.",
+        "Não está má a pretensão - comentou um outro.",
+        "Como vocês sabem, Cristóvão Colombo descobriu a América.",
+        "Quem pôs o ovo de pé, quem descobriu um novo continente fui eu.",
+        "Agora, já satisfeito, vai juntar-se aos outros e, todos juntos, vão fazer uma omeleta."
+      ]
+    }
+  ]
+}

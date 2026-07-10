@@ -1,0 +1,151 @@
+{
+  "id": "02-21",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "chacal",
+          "distractors": [
+            "zebra",
+            "abutre",
+            "velha"
+          ],
+          "sentence": "O abutre, no ar, e o chacal, na terra, têm uma grande parecença."
+        },
+        {
+          "target": "zebra",
+          "distractors": [
+            "chacal",
+            "abutre",
+            "velha"
+          ],
+          "sentence": "Na nossa história, o abutre e o chacal associados acompanhavam o rasto de uma velha zebra combalida ."
+        },
+        {
+          "target": "abutre",
+          "distractors": [
+            "chacal",
+            "zebra",
+            "velha"
+          ],
+          "sentence": "Estes e outros bichos que tais, como o condor, que é da família do abutre, ou a hiena, parente próxima do chacal, são essenciais à vida."
+        },
+        {
+          "target": "velha",
+          "distractors": [
+            "chacal",
+            "zebra",
+            "abutre"
+          ],
+          "sentence": "A zebra velha atardava-se e as restantes da manada encurtavam o passo, para se não despegarem dela."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "chacal",
+          "syllables": [
+            "cha",
+            "cal"
+          ]
+        },
+        {
+          "word": "zebra",
+          "syllables": [
+            "ze",
+            "bra"
+          ]
+        },
+        {
+          "word": "abutre",
+          "syllables": [
+            "a",
+            "bu",
+            "tre"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "acha",
+          "syllables": [
+            "a",
+            "cha"
+          ]
+        },
+        {
+          "word": "bucha",
+          "syllables": [
+            "bu",
+            "cha"
+          ]
+        },
+        {
+          "word": "treze",
+          "syllables": [
+            "tre",
+            "ze"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "chacal",
+          "b": "chacal"
+        },
+        {
+          "a": "zebra",
+          "b": "zebra"
+        },
+        {
+          "a": "abutre",
+          "b": "abutre"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "putrefactos",
+          "b": "podres"
+        },
+        {
+          "a": "detritos",
+          "b": "restos de substâncias orgânicas ou inorgânicas que se decompuseram"
+        },
+        {
+          "a": "saciados",
+          "b": "satisfeitos / fartos"
+        },
+        {
+          "a": "putrefacção",
+          "b": "podridão / mau cheiro"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O abutre, no ar, e o chacal, na terra, têm uma grande parecença.",
+        "Em qualquer dos casos, temos banquete para de aqui a um mês - concluia o chacal.",
+        "O melhor possível - respondeu o chacal, com um riso maldoso.",
+        "Abençoada flor - disse a velha zebra, mastigando-a, demoradamente, e deglutindo-a, depois, enquanto as lágrimas lhe escorriam pelo focinho.",
+        "Um fim feliz para zebras e zebrinhas não pode ser um fim feliz para chacais e abutres."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "01-24",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhor",
+          "distractors": [
+            "espelho",
+            "gostou",
+            "provou"
+          ],
+          "sentence": "O senhor Alípio trabalhava ao ar livre, nas obras, é preciso que se saiba."
+        },
+        {
+          "target": "espelho",
+          "distractors": [
+            "senhor",
+            "gostou",
+            "caixeiro"
+          ],
+          "sentence": "O senhor Alípio provou, viu-se ao espelho e não gostou."
+        },
+        {
+          "target": "loja",
+          "distractors": [
+            "boné",
+            "pala",
+            "bonés"
+          ],
+          "sentence": "Quero um boné com pala - pediu o senhor Alípio, quando chegou à loja."
+        },
+        {
+          "target": "caixeiro",
+          "distractors": [
+            "espelho",
+            "comprar",
+            "perdido"
+          ],
+          "sentence": "O caixeiro da loja terá pensado que todos os bonés têm pala."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "espelho",
+          "syllables": [
+            "es",
+            "pe",
+            "lho"
+          ]
+        },
+        {
+          "word": "usava",
+          "syllables": [
+            "u",
+            "sa",
+            "va"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "pesa",
+          "syllables": [
+            "pe",
+            "sa"
+          ]
+        },
+        {
+          "word": "pesava",
+          "syllables": [
+            "pe",
+            "sa",
+            "va"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "espelho",
+          "b": "espelho"
+        },
+        {
+          "a": "gostou",
+          "b": "gostou"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O que usava já tinha perdido a cor de tanto sol e tanta chuva que apanhara.",
+        "O caixeiro da loja terá pensado que todos os bonés têm pala.",
+        "O senhor Alípio provou, viu-se ao espelho e não gostou.",
+        "O senhor Alípio já se dispunha a sair em cabelo, muito desconsolado, se não tivesse visto, no meio dos bonés rejeitados, um que lhe…",
+        "Levo na mesma - e saiu da loja, muito satisfeito, com um boné ou cinzento deslavado ou castanho ruço ou antes assim-assim."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "12-30",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "casa",
+          "distractors": [
+            "bolos",
+            "nozes",
+            "volta"
+          ],
+          "sentence": "É que a avó do Joca é doceira e tem uma casa de chá."
+        },
+        {
+          "target": "bolos",
+          "distractors": [
+            "casa",
+            "nozes",
+            "sempre"
+          ],
+          "sentence": "A bem dizer, a casa é de bolos, com chá para ensopar os bolos."
+        },
+        {
+          "target": "nozes",
+          "distractors": [
+            "casa",
+            "bolos",
+            "sempre"
+          ],
+          "sentence": "Vais levar para casa esta meia dúzia de nozes douradas, que acabei de fazer - diz a avó ao neto."
+        },
+        {
+          "target": "visitar",
+          "distractors": [
+            "pergunta",
+            "sempre",
+            "barriga"
+          ],
+          "sentence": "O Joca, quando vai visitar a avó, vem de lá sempre de barriga cheia."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        },
+        {
+          "word": "bolos",
+          "syllables": [
+            "bo",
+            "los"
+          ]
+        },
+        {
+          "word": "pergunta",
+          "syllables": [
+            "per",
+            "gun",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "bota",
+          "syllables": [
+            "bo",
+            "ta"
+          ]
+        },
+        {
+          "word": "cabo",
+          "syllables": [
+            "ca",
+            "bo"
+          ]
+        },
+        {
+          "word": "cata",
+          "syllables": [
+            "ca",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "casa",
+          "b": "casa"
+        },
+        {
+          "a": "bolos",
+          "b": "bolos"
+        },
+        {
+          "a": "pergunta",
+          "b": "pergunta"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/30/images/pw7pl7zbwi6lc4q2jztjtvoind56ekty/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O Joca, quando vai visitar a avó, vem de lá sempre de barriga cheia.",
+        "Mas a avó doce e terna não se esquece da filha, mãe do Joca, muito gulosa também.",
+        "Vais levar para casa esta meia dúzia de nozes douradas, que acabei de fazer - diz a avó ao neto.",
+        "Trago-te uma noz dourada que mandou a avó - diz à mãe o Joca, um descarado.",
+        "Fiz assim - e o Joca mete à boca a última noz do embrulho."
+      ]
+    }
+  ]
+}

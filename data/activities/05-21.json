@@ -1,0 +1,132 @@
+{
+  "id": "05-21",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "pintor",
+          "distractors": [
+            "senhor",
+            "quadro",
+            "pintar"
+          ],
+          "sentence": "Um senhor muito rico contratou um pintor muito pobre para lhe pintar um quadro."
+        },
+        {
+          "target": "senhor",
+          "distractors": [
+            "pintor",
+            "quadro",
+            "pintar"
+          ],
+          "sentence": "Eu pago-lhe tudo - anunciou o senhor rico."
+        },
+        {
+          "target": "rico",
+          "distractors": [
+            "voar",
+            "barco",
+            "nunca"
+          ],
+          "sentence": "Primeiro quero que ponha no quadro muitas nuvens - comandou o senhor muito rico."
+        },
+        {
+          "target": "quadro",
+          "distractors": [
+            "pintor",
+            "senhor",
+            "pintar"
+          ],
+          "sentence": "Mas, praticamente, o quadro está no fim."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "pintor",
+          "syllables": [
+            "pin",
+            "tor"
+          ]
+        },
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "sorriso",
+          "syllables": [
+            "sor",
+            "ri",
+            "so"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "riso",
+          "syllables": [
+            "ri",
+            "so"
+          ]
+        },
+        {
+          "word": "sorri",
+          "syllables": [
+            "sor",
+            "ri"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "pintor",
+          "b": "pintor"
+        },
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "rico",
+          "b": "rico"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/05/21/images/qa3ywbmkzq2oc6zfmzpvmz6s246mei7v/Imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Um senhor muito rico contratou um pintor muito pobre para lhe pintar um quadro.",
+        "Agora, deixe-me ver, apetecia-me um barco, ou melhor, um vapor, ou melhor, um iate, um magnífico iate...",
+        "Quase não deixam o meu iate prosseguir viagem.",
+        "Também foi de propósito - respondeu o pintor.",
+        "Chamaram o pintor já muito velho e mostraram-lhe o quadro."
+      ]
+    }
+  ]
+}

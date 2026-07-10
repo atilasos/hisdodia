@@ -1,0 +1,142 @@
+{
+  "id": "02-03",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "caracol",
+          "distractors": [
+            "cágado",
+            "partida",
+            "corrida"
+          ],
+          "sentence": "O cágado, a tartaruga e o caracol foram fazer uma corrida."
+        },
+        {
+          "target": "cágado",
+          "distractors": [
+            "caracol",
+            "partida",
+            "corrida"
+          ],
+          "sentence": "O cágado dirigiu-se para um quartel de bombeiros e entrou para uma ambulância."
+        },
+        {
+          "target": "tartaruga",
+          "distractors": [
+            "três",
+            "corridas",
+            "palmilhar"
+          ],
+          "sentence": "A tartaruga orientou-se para um stand de automóveis e subiu para um carro de corridas."
+        },
+        {
+          "target": "três",
+          "distractors": [
+            "tartaruga",
+            "dois",
+            "lebre"
+          ],
+          "sentence": "Mais parecia que os três corredores nem tinham ouvido..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "caracol",
+          "syllables": [
+            "ca",
+            "ra",
+            "col"
+          ]
+        },
+        {
+          "word": "cágado",
+          "syllables": [
+            "cá",
+            "ga",
+            "do"
+          ]
+        },
+        {
+          "word": "tartaruga",
+          "syllables": [
+            "tar",
+            "ta",
+            "ru",
+            "ga"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cara",
+          "syllables": [
+            "ca",
+            "ra"
+          ]
+        },
+        {
+          "word": "cata",
+          "syllables": [
+            "ca",
+            "ta"
+          ]
+        },
+        {
+          "word": "gado",
+          "syllables": [
+            "ga",
+            "do"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "caracol",
+          "b": "caracol"
+        },
+        {
+          "a": "cágado",
+          "b": "cágado"
+        },
+        {
+          "a": "tartaruga",
+          "b": "tartaruga"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/02/03/images/3aooalgvmapqxnqvjod7kn64x6slj647/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O cágado, a tartaruga e o caracol foram fazer uma corrida.",
+        "Devagarinho, cada um tomou o seu caminho.",
+        "A tartaruga orientou-se para um stand de automóveis e subiu para um carro de corridas.",
+        "Só que o carro de corridas, onde a tartaruga se enfiou, foi mostrar-se a uma exposição de automóveis e depois voltou para o stand.",
+        "E, por este andar, os três batoteiros, que se perderam da corrida, ainda vão ter de palmilhar muita estrada até descobrirem de novo a…"
+      ]
+    }
+  ]
+}

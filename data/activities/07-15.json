@@ -1,0 +1,138 @@
+{
+  "id": "07-15",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "pulga",
+          "distractors": [
+            "saltos",
+            "parou",
+            "menina"
+          ],
+          "sentence": "E, ao dizer isto, a pulga saltitava de entusiasmo."
+        },
+        {
+          "target": "saltos",
+          "distractors": [
+            "pulga",
+            "parou",
+            "menina"
+          ],
+          "sentence": "Saltos de pulga em pêlo de cão dão comichão."
+        },
+        {
+          "target": "parou",
+          "distractors": [
+            "pulga",
+            "saltos",
+            "menina"
+          ],
+          "sentence": "O cão, que não era de cócegas, parou e coçou-se."
+        },
+        {
+          "target": "menina",
+          "distractors": [
+            "pulga",
+            "saltos",
+            "parou"
+          ],
+          "sentence": "A senhora, que levava a menina pela mão, parou também."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "pulga",
+          "syllables": [
+            "pul",
+            "ga"
+          ]
+        },
+        {
+          "word": "saltos",
+          "syllables": [
+            "sal",
+            "tos"
+          ]
+        },
+        {
+          "word": "parou",
+          "syllables": [
+            "pa",
+            "rou"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "gatos",
+          "syllables": [
+            "ga",
+            "tos"
+          ]
+        },
+        {
+          "word": "paga",
+          "syllables": [
+            "pa",
+            "ga"
+          ]
+        },
+        {
+          "word": "patos",
+          "syllables": [
+            "pa",
+            "tos"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "pulga",
+          "b": "pulga"
+        },
+        {
+          "a": "saltos",
+          "b": "saltos"
+        },
+        {
+          "a": "parou",
+          "b": "parou"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/07/15/images/f3jm6yoqjwfd3obnno5lopbibuhlcqwx/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Uma grande ideia, uma ideia que vai mudar tudo.",
+        "Nas outras ruas, que iam dar à rua de muito movimento, parou tudo - automóveis, camionetas, autocarros...",
+        "Para que as histórias com cães, meninas e senhoras possam ir à sua vida, sem serem interrompidas pelos saltos de uma pulga, eu proponho…",
+        "Por isso eu proponho, eu exijo, que as pulgas, em vez de sapatos de saltos altos, passem a calçar pan-tu-fas ou sapatinhos leves, que…",
+        "Era um colégio de pulguinhas novas, na aula de ballet."
+      ]
+    }
+  ]
+}

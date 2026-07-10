@@ -1,0 +1,131 @@
+{
+  "id": "07-06",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhor",
+          "distractors": [
+            "filha",
+            "palmo",
+            "grada"
+          ],
+          "sentence": "Mas o senhor Túlio tinha uma filha no Rio de Janeiro, filha essa que lhe dera uma neta, neta essa que ia a baptizar, baptizado esse a…"
+        },
+        {
+          "target": "grada",
+          "distractors": [
+            "senhor",
+            "filha",
+            "neta"
+          ],
+          "sentence": "Até a Lua daqui é mais grada do que a nossa."
+        },
+        {
+          "target": "nunca",
+          "distractors": [
+            "senhor",
+            "filha",
+            "neta"
+          ],
+          "sentence": "Ele que nunca tinha saído lá da sua aldeia, aventurar-se a uma viagem tamanha era de espantar."
+        },
+        {
+          "target": "grande",
+          "distractors": [
+            "senhor",
+            "filha",
+            "palmo"
+          ],
+          "sentence": "Na grande cidade do Rio de Janeiro, tudo o espantou: o tamanho dos prédios, a largueza das avenidas, a extensão das praias, a bicheza de…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "filha",
+          "syllables": [
+            "fi",
+            "lha"
+          ]
+        },
+        {
+          "word": "neta",
+          "syllables": [
+            "ne",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "fita",
+          "syllables": [
+            "fi",
+            "ta"
+          ]
+        },
+        {
+          "word": "selha",
+          "syllables": [
+            "se",
+            "lha"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "filha",
+          "b": "filha"
+        },
+        {
+          "a": "neta",
+          "b": "neta"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/07/06/images/pjwn3uhlc6gwflasmxiiukd2mdgo3clp/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Ele que nunca tinha saído lá da sua aldeia, aventurar-se a uma viagem tamanha era de espantar.",
+        "É tudo maior do que na minha terra - dizia ele, constantemente.",
+        "Ó pai, não ande sempre de boca aberta que parece mal e, por favor, não diga que esta Lua é maior do que a lá da aldeia, porque a Lua é…",
+        "Quando, com muita pena, teve de voltar para Portugal e regressou à aldeia, não se esqueceu do que matutara.",
+        "Ai que tu engordaste, magana, enquanto eu andei lá por fora!"
+      ]
+    }
+  ]
+}

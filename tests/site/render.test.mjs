@@ -5,9 +5,112 @@ import { renderSite } from '../../src/site/render.mjs';
 
 describe('renderSite', () => {
   after(async () => {
+    await rm('tmp/render-activities', { recursive: true, force: true });
     await rm('tmp/render-safety', { recursive: true, force: true });
     await rm('tmp/render-invalid-id', { recursive: true, force: true });
     await rm('tmp/render-today', { recursive: true, force: true });
+  });
+
+  it('adds the activity shell and safely embedded data only to a matching story', async () => {
+    await rm('tmp/render-activities', { recursive: true, force: true });
+    await mkdir('tmp/render-activities/stories', { recursive: true });
+
+    await writeFile(
+      'tmp/render-activities/stories/01-01.json',
+      JSON.stringify({
+        id: '01-01',
+        dateLabel: '1 de Janeiro',
+        title: 'Moleiros e Carvoeiros',
+        author: 'António Torrado',
+        illustrator: 'Cristina Malaquias',
+        textSegments: [{ layer: 1, paragraphs: ['Um moleiro encontrou um carvoeiro.'] }],
+        glossary: [{ term: 'moleiro', definition: 'Pessoa que trabalha num moinho.' }],
+        assets: {},
+        recovery: { text: 'recovered' },
+        provenance: {}
+      })
+    );
+
+    await renderSite({
+      storiesDir: 'tmp/render-activities/stories',
+      activitiesDir: 'tests/fixtures/activities',
+      outDir: 'tmp/render-activities/with-activities',
+      recoveredArchiveDir: null
+    });
+
+    const withActivities = await readFile(
+      'tmp/render-activities/with-activities/stories/01-01/index.html',
+      'utf8'
+    );
+    const embeddedMatch = withActivities.match(
+      /<script type="application\/json" id="activities-data">([\s\S]*?)<\/script>/
+    );
+
+    assert.match(withActivities, /<section id="brincar" class="play-corner" aria-labelledby="brincar-titulo">/);
+    assert.match(withActivities, /Jogos criados a partir do texto recuperado desta história\. Não faziam parte do site original\./);
+    assert.match(withActivities, /id="activities-root"/);
+    assert.match(withActivities, /<noscript>/);
+    assert.match(withActivities, /href="#brincar"[^>]*>Brincar<\/a>/);
+    assert.match(withActivities, /<script src="\/brincar\.js" defer><\/script>/);
+    assert.ok(embeddedMatch, 'expected embedded activities JSON');
+    assert.doesNotMatch(embeddedMatch[1], /<\/script>/);
+    assert.match(embeddedMatch[1], /<\\\/script>/);
+    assert.equal(
+      JSON.parse(embeddedMatch[1]).activities[0].rounds[0].sentence,
+      'Está na história: </script> um moleiro, todo enfarinhado.'
+    );
+    assert.ok(
+      withActivities.indexOf('class="glossary"') < withActivities.indexOf('id="brincar"'),
+      'expected Brincar after the glossary'
+    );
+
+    const gameScript = await readFile('tmp/render-activities/with-activities/brincar.js', 'utf8');
+
+    for (const activityType of [
+      'encontra-palavra',
+      'fabrica-palavras',
+      'jogo-memoria',
+      'puzzle-ilustracao',
+      'ordena-historia'
+    ]) {
+      assert.match(gameScript, new RegExp(`['"]${activityType}['"]`));
+    }
+    assert.match(gameScript, /document\.createElement\('button'\)/);
+    assert.match(gameScript, /button\.type = 'button'/);
+    assert.match(gameScript, /setAttribute\('aria-live', 'polite'\)/);
+    assert.match(gameScript, /function focusCompletion/);
+    assert.match(gameScript, /completion\.tabIndex = -1/);
+    assert.match(gameScript, /completion\.focus\(\)/);
+    assert.match(gameScript, /makeButton\(isVisible \? card\.text : '\?'/);
+    assert.match(gameScript, /aria-pressed', String\(isVisible\)/);
+    assert.match(gameScript, /Carta \$\{index \+ 1\}, virada para baixo/);
+    assert.match(gameScript, /A história, por ordem/);
+    assert.doesNotMatch(gameScript, /role=['"]button/);
+    assert.doesNotMatch(gameScript, /\b(?:score|timer|setInterval|Audio)\b/i);
+
+    const activityStyles = await readFile('tmp/render-activities/with-activities/styles.css', 'utf8');
+
+    assert.match(activityStyles, /\.play-corner\s*{/);
+    assert.match(activityStyles, /\.play-corner button[\s\S]*?min-height:\s*2\.75rem/);
+    assert.match(activityStyles, /\.play-corner[\s\S]*?var\(--paper-shadow\)/);
+    assert.match(activityStyles, /\.play-corner[\s\S]*?var\(--amber\)/);
+    assert.match(activityStyles, /\.is-success/);
+    assert.match(activityStyles, /prefers-reduced-motion:\s*reduce/);
+
+    await renderSite({
+      storiesDir: 'tmp/render-activities/stories',
+      activitiesDir: 'tmp/render-activities/missing',
+      outDir: 'tmp/render-activities/without-activities',
+      recoveredArchiveDir: null
+    });
+
+    const withoutActivities = await readFile(
+      'tmp/render-activities/without-activities/stories/01-01/index.html',
+      'utf8'
+    );
+
+    assert.doesNotMatch(withoutActivities, /id="brincar"/);
+    assert.doesNotMatch(withoutActivities, /\/brincar\.js/);
   });
 
   it('renders homepage, archive, and story page from story data', async () => {

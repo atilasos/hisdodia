@@ -1,0 +1,129 @@
+{
+  "id": "02-09",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhor",
+          "distractors": [
+            "bolos",
+            "pessoas",
+            "portam"
+          ],
+          "sentence": "Há tempos, o senhor Aparício foi a uma festa."
+        },
+        {
+          "target": "bolos",
+          "distractors": [
+            "senhor",
+            "banquetes",
+            "portam"
+          ],
+          "sentence": "Croquetes, bolos e bolinhos, tudo ia para as algibeiras."
+        },
+        {
+          "target": "pessoas",
+          "distractors": [
+            "senhor",
+            "portam",
+            "grande"
+          ],
+          "sentence": "Há pessoas que são convidadas para banquetes de muita cerimónia, mas que se portam com grande falta de cerimónia."
+        },
+        {
+          "target": "almoçou",
+          "distractors": [
+            "senhor",
+            "pessoas",
+            "portam"
+          ],
+          "sentence": "Pois o senhor Aparício nem almoçou, para estar com o estômago mais vazio, quando chegasse a ocasião de enchê-lo de graça."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "bolos",
+          "syllables": [
+            "bo",
+            "los"
+          ]
+        },
+        {
+          "word": "pessoas",
+          "syllables": [
+            "pes",
+            "so",
+            "as"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "boas",
+          "syllables": [
+            "bo",
+            "as"
+          ]
+        },
+        {
+          "word": "sebo",
+          "syllables": [
+            "se",
+            "bo"
+          ]
+        },
+        {
+          "word": "selos",
+          "syllables": [
+            "se",
+            "los"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "bolos",
+          "b": "bolos"
+        },
+        {
+          "a": "pessoas",
+          "b": "pessoas"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Há pessoas que são convidadas para banquetes de muita cerimónia, mas que se portam com grande falta de cerimónia.",
+        "Há tempos, o senhor Aparício foi a uma festa.",
+        "De repente, sentiu a perna direita escaldada.",
+        "Peço perdão, mas como o senhor leva os bolos, pensei que também quisesse levar o chá.",
+        "Enquanto se lembrar desta vergonha, o senhor Aparício não vai voltar a fazer o mesmo."
+      ]
+    }
+  ]
+}

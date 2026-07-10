@@ -1,0 +1,143 @@
+{
+  "id": "04-14",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "coração",
+          "distractors": [
+            "médico",
+            "casamento",
+            "cotovelos"
+          ],
+          "sentence": "Nascia no sítio onde o coração palpita, mais depressa ou mais devagar, conforme o peso e a velocidade dos sentimentos."
+        },
+        {
+          "target": "médico",
+          "distractors": [
+            "coração",
+            "corda",
+            "maleita"
+          ],
+          "sentence": "Dor de cotovelo - diagnosticava o médico, chamado a vê-las."
+        },
+        {
+          "target": "casamento",
+          "distractors": [
+            "coração",
+            "cotovelos",
+            "comichão"
+          ],
+          "sentence": "Não sei se foram convidados para o casamento da Gata Borralheira com o Príncipe, o tal que andou com um sapatinho na mão, à procura de…"
+        },
+        {
+          "target": "cotovelos",
+          "distractors": [
+            "coração",
+            "casamento",
+            "comichão"
+          ],
+          "sentence": "Saiba-se que, além do resto, lhes tinha aparecido uma borbulhagem nos cotovelos ossudos e pontiagudos."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "coração",
+          "syllables": [
+            "co",
+            "ra",
+            "ção"
+          ]
+        },
+        {
+          "word": "médico",
+          "syllables": [
+            "mé",
+            "di",
+            "co"
+          ]
+        },
+        {
+          "word": "casamento",
+          "syllables": [
+            "ca",
+            "sa",
+            "men",
+            "to"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cara",
+          "syllables": [
+            "ca",
+            "ra"
+          ]
+        },
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        },
+        {
+          "word": "casaco",
+          "syllables": [
+            "ca",
+            "sa",
+            "co"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "coração",
+          "b": "coração"
+        },
+        {
+          "a": "médico",
+          "b": "médico"
+        },
+        {
+          "a": "casamento",
+          "b": "casamento"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/04/14/images/k22hcf2ju4uo65utmf7jsvqbppn4jq27/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Não sei se foram convidados para o casamento da Gata Borralheira com o Príncipe, o tal que andou com um sapatinho na mão, à procura de…",
+        "Claro que, no dia seguinte, estavam doentes, com dores no estômago e outros problemas que não merece a pena pormenorizar.",
+        "Elas são feitas de matéria maldosa e retorcida.",
+        "Do que me sobrou daqui e dali, amoldei dois pequenos corações vivazes, a transpirar meiguice.",
+        "Não podemos é esquecer-nos de, todos os dias, dar-lhes corda ao coração."
+      ]
+    }
+  ]
+}

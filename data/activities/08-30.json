@@ -1,0 +1,131 @@
+{
+  "id": "08-30",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "capoeira",
+          "distractors": [
+            "príncipes",
+            "fórmula",
+            "palavras"
+          ],
+          "sentence": "À conta dos seus enganos, o velho Mago tinha a capoeira cheia."
+        },
+        {
+          "target": "príncipes",
+          "distractors": [
+            "capoeira",
+            "palavras",
+            "equivale"
+          ],
+          "sentence": "No entanto, este não era dos maus, daqueles que transformam príncipes em sapos ou coisas assim."
+        },
+        {
+          "target": "velho",
+          "distractors": [
+            "sapos",
+            "coisas",
+            "mágica"
+          ],
+          "sentence": "Era uma vez um velho Mago, muito famoso."
+        },
+        {
+          "target": "sapos",
+          "distractors": [
+            "velho",
+            "coisas",
+            "mágica"
+          ],
+          "sentence": "Durante toda a vida, dera-lhe mais para transformar sapos em príncipes ou coisas parecidas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "capoeira",
+          "syllables": [
+            "ca",
+            "po",
+            "ei",
+            "ra"
+          ]
+        },
+        {
+          "word": "príncipes",
+          "syllables": [
+            "prín",
+            "ci",
+            "pes"
+          ]
+        },
+        {
+          "word": "velho",
+          "syllables": [
+            "ve",
+            "lho"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cara",
+          "syllables": [
+            "ca",
+            "ra"
+          ]
+        },
+        {
+          "word": "cave",
+          "syllables": [
+            "ca",
+            "ve"
+          ]
+        },
+        {
+          "word": "eira",
+          "syllables": [
+            "ei",
+            "ra"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "capoeira",
+          "b": "capoeira"
+        },
+        {
+          "a": "príncipes",
+          "b": "príncipes"
+        },
+        {
+          "a": "velho",
+          "b": "velho"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um velho Mago, muito famoso.",
+        "Depois, a transformação da galinha em príncipe é que era um caso sério.",
+        "Larga o ofício de Mago e transforma-te em criador de aves.",
+        "A capoeira ficou cheia, a abarrotar de príncipes, todos muito indignados por se encontrarem em lugar tão fora de propósito para tais…",
+        "Dá-lhes de comida migas de pão duro e sêmola."
+      ]
+    }
+  ]
+}

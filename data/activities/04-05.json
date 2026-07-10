@@ -1,0 +1,153 @@
+{
+  "id": "04-05",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "bebé",
+          "distractors": [
+            "irmã",
+            "ambas",
+            "tino"
+          ],
+          "sentence": "A Tina colocou a cadeirinha com a bebé à sombra de uma grande piteira e foi brincar."
+        },
+        {
+          "target": "irmã",
+          "distractors": [
+            "bebé",
+            "ambas",
+            "tino"
+          ],
+          "sentence": "Vai, se fazes favor, buscar a tua irmã a casa da avó."
+        },
+        {
+          "target": "guarda",
+          "distractors": [
+            "piteira",
+            "grande",
+            "senhora"
+          ],
+          "sentence": "Um guarda apercebeu-se do desespero da mocinha e quis inteirar-se da causa."
+        },
+        {
+          "target": "piteira",
+          "distractors": [
+            "guarda",
+            "carrinho",
+            "grande"
+          ],
+          "sentence": "Voltaram para junto da piteira e, efectivamente, do carrinho e da bebé nem rastos."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "bebé",
+          "syllables": [
+            "be",
+            "bé"
+          ]
+        },
+        {
+          "word": "irmã",
+          "syllables": [
+            "ir",
+            "mã"
+          ]
+        },
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cabe",
+          "syllables": [
+            "ca",
+            "be"
+          ]
+        },
+        {
+          "word": "sabe",
+          "syllables": [
+            "sa",
+            "be"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "bebé",
+          "b": "bebé"
+        },
+        {
+          "a": "irmã",
+          "b": "irmã"
+        },
+        {
+          "a": "guarda",
+          "b": "guarda"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "incumbência",
+          "b": "encargo / tarefa / função"
+        },
+        {
+          "a": "piteira",
+          "b": "planta da família das Amarilidáceas, de folhas espessas, carnudo-fibrosas e espinhosas, subespontânea em Portugal, que pode fornecer fibras têxteis, também conhecida por piteira-de-boi;"
+        },
+        {
+          "a": "baque",
+          "b": "choque / palpitação forte"
+        },
+        {
+          "a": "tino",
+          "b": "juízo / sensatez / prudência"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/04/05/images/t5gwz2eypbkjikqw2qcez67txc46fo6f/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Coisas que se dizem e se espalham, sem quê nem porquê.",
+        "Ao passar por um jardim, umas amigas da Tina desafiaram-na para o jogo do apanha.",
+        "Na cadeira de bebé, um garotinho de olhos espantados a tudo assistia.",
+        "Voltaram para junto da piteira e, efectivamente, do carrinho e da bebé nem rastos.",
+        "Por mais anos que viva, por mais tino que ganhe, a Tina nunca mais vai esquecer-se do que naquela tarde lhe aconteceu."
+      ]
+    }
+  ]
+}

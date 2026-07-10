@@ -1,0 +1,141 @@
+{
+  "id": "06-06",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "lenhador",
+          "distractors": [
+            "floresta",
+            "tesouro",
+            "casebre"
+          ],
+          "sentence": "O lenhador, que conhecia a floresta de lés a lés, nunca vira um gnomo nem, a bem dizer, acreditava que a história correspondesse à verdade."
+        },
+        {
+          "target": "floresta",
+          "distractors": [
+            "lenhador",
+            "tesouro",
+            "casebre"
+          ],
+          "sentence": "Andara a vida inteira a percorrer a floresta e, agora que as forças já lhe faltavam para empunhar o machado, passava os dias…"
+        },
+        {
+          "target": "árvore",
+          "distractors": [
+            "tesouro",
+            "noite",
+            "nunca"
+          ],
+          "sentence": "O gnomo, não tendo outra alternativa, acabou por apontar uma árvore, confessando que, debaixo da raiz da árvore, numa loca , estava…"
+        },
+        {
+          "target": "tesouro",
+          "distractors": [
+            "lenhador",
+            "floresta",
+            "árvore"
+          ],
+          "sentence": "Agora, só falta saber o segredo do tesouro dos gnomos..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "lenhador",
+          "syllables": [
+            "le",
+            "nha",
+            "dor"
+          ]
+        },
+        {
+          "word": "floresta",
+          "syllables": [
+            "flo",
+            "res",
+            "ta"
+          ]
+        },
+        {
+          "word": "árvore",
+          "syllables": [
+            "ár",
+            "vo",
+            "re"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "flores",
+          "syllables": [
+            "flo",
+            "res"
+          ]
+        },
+        {
+          "word": "leres",
+          "syllables": [
+            "le",
+            "res"
+          ]
+        },
+        {
+          "word": "levo",
+          "syllables": [
+            "le",
+            "vo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "lenhador",
+          "b": "lenhador"
+        },
+        {
+          "a": "floresta",
+          "b": "floresta"
+        },
+        {
+          "a": "árvore",
+          "b": "árvore"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/06/06/images/oooi7oq72p6c4lmy62g2b7ghc3qrzt3d/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Andara a vida inteira a percorrer a floresta e, agora que as forças já lhe faltavam para empunhar o machado, passava os dias…",
+        "Agora, só falta saber o segredo do tesouro dos gnomos...",
+        "Já vamos saber se é como contas - disse o lenhador.",
+        "Mas o tesouro há-de estar onde ele apontou - animou-se o lenhador.",
+        "O lenhador, a sentir-se ainda mais velho e ainda mais cansado, deixou o enxadão encostado a uma das árvores, e voltou para casa, de…"
+      ]
+    }
+  ]
+}

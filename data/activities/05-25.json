@@ -1,0 +1,121 @@
+{
+  "id": "05-25",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "lobo",
+          "distractors": [
+            "lebre",
+            "mata",
+            "cesto"
+          ],
+          "sentence": "Era o lobo, que urdira aquela armadilha para provar que os lobos não são tão tolos como, nas histórias, os descrevem."
+        },
+        {
+          "target": "lebre",
+          "distractors": [
+            "lobo",
+            "mata",
+            "senhor"
+          ],
+          "sentence": "Por altura dos piqueniques na mata, a lebre Felisbela anda mais descuidada."
+        },
+        {
+          "target": "mata",
+          "distractors": [
+            "lobo",
+            "lebre",
+            "cesto"
+          ],
+          "sentence": "Então depois dos domingos e dos feriados, a mata é uma mesa de banquete."
+        },
+        {
+          "target": "senhor",
+          "distractors": [
+            "lebre",
+            "cesto",
+            "dentro"
+          ],
+          "sentence": "Prudente regra, senhor lobo - aprovou a lebre Felisbela."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "lobo",
+          "syllables": [
+            "lo",
+            "bo"
+          ]
+        },
+        {
+          "word": "lebre",
+          "syllables": [
+            "le",
+            "bre"
+          ]
+        },
+        {
+          "word": "mata",
+          "syllables": [
+            "ma",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "bolo",
+          "syllables": [
+            "bo",
+            "lo"
+          ]
+        },
+        {
+          "word": "bota",
+          "syllables": [
+            "bo",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "lobo",
+          "b": "lobo"
+        },
+        {
+          "a": "lebre",
+          "b": "lebre"
+        },
+        {
+          "a": "mata",
+          "b": "mata"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Por altura dos piqueniques na mata, a lebre Felisbela anda mais descuidada.",
+        "E logo a seguir veio-lhe à memória uma saladinha de frutas exóticas que provara de uma saladeira partida e abandonada por piqueniqueiros…",
+        "Não gosto de comer nada sem lavar primeiro - esclareceu o lobo.",
+        "Nem eu esperava outra coisa, quando levantei a tampa do cabaz, à sua procura.",
+        "O lobo arremessou a lebre para longe, o mais longe que pôde."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "02-28",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "asas",
+          "distractors": [
+            "ninho",
+            "fome",
+            "pais"
+          ],
+          "sentence": "Bateu as asas, para afugentar a intrusa de língua silvante."
+        },
+        {
+          "target": "ninho",
+          "distractors": [
+            "asas",
+            "fome",
+            "pais"
+          ],
+          "sentence": "A águia de penugem branca ainda não tinha saído do ninho."
+        },
+        {
+          "target": "fome",
+          "distractors": [
+            "asas",
+            "ninho",
+            "pais"
+          ],
+          "sentence": "Tinha fome, muita fome, uma fome insaciável, que ela não sabia controlar."
+        },
+        {
+          "target": "pais",
+          "distractors": [
+            "asas",
+            "ninho",
+            "fome"
+          ],
+          "sentence": "Os pais iam e vinham, num voo planado, que era a admiração da filha."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "asas",
+          "syllables": [
+            "a",
+            "sas"
+          ]
+        },
+        {
+          "word": "fome",
+          "syllables": [
+            "fo",
+            "me"
+          ]
+        },
+        {
+          "word": "pensava",
+          "syllables": [
+            "pen",
+            "sa",
+            "va"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "mesa",
+          "syllables": [
+            "me",
+            "sa"
+          ]
+        },
+        {
+          "word": "mesas",
+          "syllables": [
+            "me",
+            "sas"
+          ]
+        },
+        {
+          "word": "pensa",
+          "syllables": [
+            "pen",
+            "sa"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "asas",
+          "b": "asas"
+        },
+        {
+          "a": "ninho",
+          "b": "ninho"
+        },
+        {
+          "a": "fome",
+          "b": "fome"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "A águia de penugem branca ainda não tinha saído do ninho.",
+        "Tinha fome, muita fome, uma fome insaciável, que ela não sabia controlar.",
+        "Mas, nesse dia, choveu e a lição foi adiada.",
+        "Bateu as asas, para afugentar a intrusa de língua silvante.",
+        "Quando os pais regressaram, a aguiazinha, de asas distendidas, como se quisesse abarcar o céu num grande abraço, voou, feliz, ao seu…"
+      ]
+    }
+  ]
+}

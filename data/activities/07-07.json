@@ -1,0 +1,139 @@
+{
+  "id": "07-07",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "pele",
+          "distractors": [
+            "leão",
+            "zebra",
+            "conta"
+          ],
+          "sentence": "Por exemplo: a zebra tinha a pele igual à que o leão tem e o leão, imaginem a excentricidade , tinha a pele às riscas como tem a zebra."
+        },
+        {
+          "target": "leão",
+          "distractors": [
+            "pele",
+            "zebra",
+            "conta"
+          ],
+          "sentence": "O leão reconheceu que, efectivamente, já sofrera alguns desaires na caça à conta da sua bizarra pele às riscas."
+        },
+        {
+          "target": "zebra",
+          "distractors": [
+            "pele",
+            "leão",
+            "riscas"
+          ],
+          "sentence": "Ela, sem riscas, parecia-se mais com um burro, o que não era nada lisonjeiro para a vaidade da zebra."
+        },
+        {
+          "target": "riscas",
+          "distractors": [
+            "zebra",
+            "conta",
+            "ouvir"
+          ],
+          "sentence": "Quem é que não gostava de ver um leão às riscas?"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "pele",
+          "syllables": [
+            "pe",
+            "le"
+          ]
+        },
+        {
+          "word": "leão",
+          "syllables": [
+            "le",
+            "ão"
+          ]
+        },
+        {
+          "word": "fogueira",
+          "syllables": [
+            "fo",
+            "guei",
+            "ra"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "fora",
+          "syllables": [
+            "fo",
+            "ra"
+          ]
+        },
+        {
+          "word": "peguei",
+          "syllables": [
+            "pe",
+            "guei"
+          ]
+        },
+        {
+          "word": "peão",
+          "syllables": [
+            "pe",
+            "ão"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "pele",
+          "b": "pele"
+        },
+        {
+          "a": "leão",
+          "b": "leão"
+        },
+        {
+          "a": "zebra",
+          "b": "zebra"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/07/07/images/ocd5x4veqw733innramtrknlkcz63cg3/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Contam esta história em África, à volta da fogueira.",
+        "Dantes, muito antes de os homens se terem espalhado pela Terra, os bichos não eram como são hoje.",
+        "Ela, sem riscas, parecia-se mais com um burro, o que não era nada lisonjeiro para a vaidade da zebra.",
+        "Aquela badalação era prejudicial aos seus intentos e aos seus pergaminhos de majestade.",
+        "Até agora ainda não conseguiu recuperá-la, o que é pena."
+      ]
+    }
+  ]
+}

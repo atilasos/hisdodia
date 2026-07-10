@@ -1,0 +1,139 @@
+{
+  "id": "02-18",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "bola",
+          "distractors": [
+            "bolas",
+            "assim",
+            "mundo"
+          ],
+          "sentence": "Realmente, aquela vida de tão, badalão, e torna e deixa o pingue e pongue e pongue e pingue cansava qualquer um, quanto mais uma bola de…"
+        },
+        {
+          "target": "bolas",
+          "distractors": [
+            "bola",
+            "assim",
+            "pingue"
+          ],
+          "sentence": "Deste centro especial espacial atiravam para os céus bolas e bolinhas, que uma vez lá de cima, a dançar no meio dos astros, lançavam…"
+        },
+        {
+          "target": "assim",
+          "distractors": [
+            "bola",
+            "bolas",
+            "pingue"
+          ],
+          "sentence": "Mas, mesmo assim, deve haver melhor destino."
+        },
+        {
+          "target": "pingue",
+          "distractors": [
+            "bolas",
+            "assim",
+            "pongue"
+          ],
+          "sentence": "Ela que sabia dizer \"pingue\" e \"pongue\", e \"pongue\" e \"pingue\", depressa aprendeu a dizer \"bip!"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "bola",
+          "syllables": [
+            "bo",
+            "la"
+          ]
+        },
+        {
+          "word": "bolas",
+          "syllables": [
+            "bo",
+            "las"
+          ]
+        },
+        {
+          "word": "espaço",
+          "syllables": [
+            "es",
+            "pa",
+            "ço"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "pala",
+          "syllables": [
+            "pa",
+            "la"
+          ]
+        },
+        {
+          "word": "palas",
+          "syllables": [
+            "pa",
+            "las"
+          ]
+        },
+        {
+          "word": "paço",
+          "syllables": [
+            "pa",
+            "ço"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "bola",
+          "b": "bola"
+        },
+        {
+          "a": "bolas",
+          "b": "bolas"
+        },
+        {
+          "a": "assim",
+          "b": "assim"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/02/18/images/w3jbgmub57a7f36mkocs2blh7gulhzwt/Imagens/background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Já chega de andar aos trambolhões de um lado para o outro: encontrão daqui, safanão ali, toma lá, dá cá e volta ao princípio, numa roda…",
+        "Saltaricou da mesa para o chão, desceu escadas, escorregou por colinas, e foi ter - vejam bem a sorte que ela teve!",
+        "Umas maiores, outras mais pequenas, mas redondas todas.",
+        "Estou satisfeita - contou a bola, ao regressar à Terra.",
+        "Depois de ter visto tudo, de ter rolado e saltitado pelo espaço além, a bola descansa, a recordar o que vira."
+      ]
+    }
+  ]
+}

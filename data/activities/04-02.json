@@ -1,0 +1,142 @@
+{
+  "id": "04-02",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "livro",
+          "distractors": [
+            "nunca",
+            "página",
+            "lado"
+          ],
+          "sentence": "Nunca ninguém o abrira, nem sequer para ler as primeiras linhas da primeira página das muitas que o livro tinha para oferecer."
+        },
+        {
+          "target": "nunca",
+          "distractors": [
+            "livro",
+            "página",
+            "lado"
+          ],
+          "sentence": "Escutando os seus companheiros de estante, o livro que nunca fora aberto sentiu uma secreta inveja."
+        },
+        {
+          "target": "página",
+          "distractors": [
+            "livro",
+            "fechado",
+            "nunca"
+          ],
+          "sentence": "Por mim só me passaram os olhos, página sim, página não..."
+        },
+        {
+          "target": "lado",
+          "distractors": [
+            "livro",
+            "nunca",
+            "mãos"
+          ],
+          "sentence": "Quem me dera essa sorte - disse outro livro ao lado, a entrar na conversa."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "livro",
+          "syllables": [
+            "li",
+            "vro"
+          ]
+        },
+        {
+          "word": "fechado",
+          "syllables": [
+            "fe",
+            "cha",
+            "do"
+          ]
+        },
+        {
+          "word": "aberto",
+          "syllables": [
+            "a",
+            "ber",
+            "to"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "acha",
+          "syllables": [
+            "a",
+            "cha"
+          ]
+        },
+        {
+          "word": "achado",
+          "syllables": [
+            "a",
+            "cha",
+            "do"
+          ]
+        },
+        {
+          "word": "liberto",
+          "syllables": [
+            "li",
+            "ber",
+            "to"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "livro",
+          "b": "livro"
+        },
+        {
+          "a": "fechado",
+          "b": "fechado"
+        },
+        {
+          "a": "nunca",
+          "b": "nunca"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/04/02/images/7bgui3mcbe6zcrfbgx5ctvzglyjof7jj/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Nunca ninguém o abrira, nem sequer para ler as primeiras linhas da primeira página das muitas que o livro tinha para oferecer.",
+        "Por sinal, não - esclareceu o colega, um respeitável calhamaço .",
+        "Eu também - falou, perto deles, um livrinho estreito.",
+        "Não chegou ao fim do suspiro, porque duas mãos o foram buscar ao aperto da prateleira.",
+        "E o livro aberto deixou que o lessem, de ponta a ponta."
+      ]
+    }
+  ]
+}

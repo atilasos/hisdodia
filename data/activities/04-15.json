@@ -1,0 +1,143 @@
+{
+  "id": "04-15",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "cavalo",
+          "distractors": [
+            "formiga",
+            "cavaleiro",
+            "público"
+          ],
+          "sentence": "Por sua vez, o cavalo, que tinha sido treinado a saltar obstáculos, sempre ocupado nos seus exercícios desportivos, não fazia a mínima…"
+        },
+        {
+          "target": "formiga",
+          "distractors": [
+            "cavalo",
+            "público",
+            "sempre"
+          ],
+          "sentence": "A formiga na sua vida, sempre enfiada no carreiro para cá e para lá, à cata de provisões para abastecer a despensa, não prestava atenção…"
+        },
+        {
+          "target": "cavaleiro",
+          "distractors": [
+            "cavalo",
+            "obstáculo",
+            "custa"
+          ],
+          "sentence": "O cavaleiro que montava o cavalo julgou que eram para ele, mas quem os merecia mais era o cavalo."
+        },
+        {
+          "target": "vida",
+          "distractors": [
+            "dois",
+            "água",
+            "artes"
+          ],
+          "sentence": "O certo é que a vida deles vai cruzar-se, em circunstâncias assaz estranhas, desagradáveis, direi mesmo trágicas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "cavalo",
+          "syllables": [
+            "ca",
+            "va",
+            "lo"
+          ]
+        },
+        {
+          "word": "formiga",
+          "syllables": [
+            "for",
+            "mi",
+            "ga"
+          ]
+        },
+        {
+          "word": "cavaleiro",
+          "syllables": [
+            "ca",
+            "va",
+            "lei",
+            "ro"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "caro",
+          "syllables": [
+            "ca",
+            "ro"
+          ]
+        },
+        {
+          "word": "cava",
+          "syllables": [
+            "ca",
+            "va"
+          ]
+        },
+        {
+          "word": "cavava",
+          "syllables": [
+            "ca",
+            "va",
+            "va"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "cavalo",
+          "b": "cavalo"
+        },
+        {
+          "a": "formiga",
+          "b": "formiga"
+        },
+        {
+          "a": "cavaleiro",
+          "b": "cavaleiro"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/04/15/images/h63c7nf5iimo2tbb3cjxacvuo6udxx2d/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "A formiga na sua vida, sempre enfiada no carreiro para cá e para lá, à cata de provisões para abastecer a despensa, não prestava atenção…",
+        "O cavalo ia participar num concurso hípico, acontecimento de responsabilidade, com muito público a assistir.",
+        "A viagem nas ondas do vento durou um instante, mas para o coração da formiga foi um sufoco.",
+        "Um entorse para o cavaleiro, que sai do campo coxeando enquanto puxa as rédeas do cavalo, também combalido, como se compreende.",
+        "Sacudiu-se do molhado e lá foi à sua vida de trabalhadora incansável."
+      ]
+    }
+  ]
+}

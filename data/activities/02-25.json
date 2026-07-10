@@ -1,0 +1,140 @@
+{
+  "id": "02-25",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "lenhador",
+          "distractors": [
+            "floresta",
+            "jogavam",
+            "ninguém"
+          ],
+          "sentence": "O lenhador aguardou que tempos, entretido, ele também, a assistir ao desenrolar da partida, que nunca mais se decidia."
+        },
+        {
+          "target": "velhos",
+          "distractors": [
+            "árvore",
+            "jogavam",
+            "damas"
+          ],
+          "sentence": "O tronco era oco e, lá dentro, dois velhos de longas barbas, um diante do outro, muito solenes jogavam às damas."
+        },
+        {
+          "target": "floresta",
+          "distractors": [
+            "lenhador",
+            "jogavam",
+            "filhos"
+          ],
+          "sentence": "Passava o dia na floresta, a cortar árvores."
+        },
+        {
+          "target": "árvore",
+          "distractors": [
+            "velhos",
+            "jogavam",
+            "damas"
+          ],
+          "sentence": "Uma tarde, ia ele desferir a primeira machada numa grande árvore, quando ouviu conversar dentro do tronco."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "lenhador",
+          "syllables": [
+            "le",
+            "nha",
+            "dor"
+          ]
+        },
+        {
+          "word": "velhos",
+          "syllables": [
+            "ve",
+            "lhos"
+          ]
+        },
+        {
+          "word": "floresta",
+          "syllables": [
+            "flo",
+            "res",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "flores",
+          "syllables": [
+            "flo",
+            "res"
+          ]
+        },
+        {
+          "word": "leres",
+          "syllables": [
+            "le",
+            "res"
+          ]
+        },
+        {
+          "word": "leve",
+          "syllables": [
+            "le",
+            "ve"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "lenhador",
+          "b": "lenhador"
+        },
+        {
+          "a": "velhos",
+          "b": "velhos"
+        },
+        {
+          "a": "floresta",
+          "b": "floresta"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/02/25/images/fkz3zo65ub3rf34trfacq6tyxpnpv26a/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Passava o dia na floresta, a cortar árvores.",
+        "Não nos interrompas - disseram os velhos.",
+        "Passou-se mais tempo do que tu imaginas.",
+        "Sobressaltado, o lenhador voltou à aldeia, mas já não encontrou ninguém conhecido.",
+        "Quando o lenhador acordou, estava tudo como dantes."
+      ]
+    }
+  ]
+}

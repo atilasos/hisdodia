@@ -1,0 +1,81 @@
+{
+  "id": "01-01",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "moleiro",
+          "distractors": ["moinho", "moeda", "molhado"],
+          "sentence": "Está na história: </script> um moleiro, todo enfarinhado."
+        },
+        {
+          "target": "farinha",
+          "distractors": ["família", "farrapo", "fogueira"],
+          "sentence": "O moleiro tinha a roupa coberta de farinha."
+        },
+        {
+          "target": "carvão",
+          "distractors": ["carro", "carrão", "cartão"],
+          "sentence": "O carvoeiro trazia um saco de carvão."
+        },
+        {
+          "target": "filhos",
+          "distractors": ["folhas", "filtros", "figos"],
+          "sentence": "Os filhos escutaram a história com atenção."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        { "word": "farinha", "syllables": ["fa", "ri", "nha"] },
+        { "word": "moleiro", "syllables": ["mo", "lei", "ro"] },
+        { "word": "carvão", "syllables": ["car", "vão"] }
+      ],
+      "recombine": [
+        { "word": "faro", "syllables": ["fa", "ro"] },
+        { "word": "carro", "syllables": ["car", "ro"] }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        { "a": "moinho", "b": "moinho" },
+        { "a": "farinha", "b": "farinha" },
+        { "a": "carvão", "b": "carvão" }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        { "a": "zaragata", "b": "confusão ou briga" },
+        { "a": "moleiro", "b": "pessoa que trabalha num moinho" },
+        { "a": "carvoeiro", "b": "pessoa que faz ou vende carvão" },
+        { "a": "enfarinhado", "b": "coberto de farinha" }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/assets/01-01/illustration-original.jpg",
+      "grid": [3, 2],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Um moleiro e um carvoeiro encontraram-se no caminho.",
+        "Os dois discutiram sobre qual ofício deixava mais marcas.",
+        "No fim, os filhos perceberam a graça daquela conversa."
+      ]
+    }
+  ]
+}

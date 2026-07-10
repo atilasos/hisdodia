@@ -1,0 +1,130 @@
+{
+  "id": "01-18",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "turista",
+          "distractors": [
+            "ninguém",
+            "tratem",
+            "confusão"
+          ],
+          "sentence": "Olha um camelo - gritava um turista, apontando-lhe a máquina fotográfica."
+        },
+        {
+          "target": "ninguém",
+          "distractors": [
+            "turista",
+            "tratem",
+            "confusão"
+          ],
+          "sentence": "De facto, ninguém gosta que o tratem por camelo."
+        },
+        {
+          "target": "razão",
+          "distractors": [
+            "gosta",
+            "tratem",
+            "sabe"
+          ],
+          "sentence": "Camelo é você, sua besta - dirá em resposta o vergonhoso automobilista, mas sem razão nenhuma."
+        },
+        {
+          "target": "confusão",
+          "distractors": [
+            "turista",
+            "ninguém",
+            "seguintes"
+          ],
+          "sentence": "Pela primeira vez sentia que a confusão entre camelos e dromedários lhe tinha sido favorável."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "turista",
+          "syllables": [
+            "tu",
+            "ris",
+            "ta"
+          ]
+        },
+        {
+          "word": "ninguém",
+          "syllables": [
+            "nin",
+            "guém"
+          ]
+        },
+        {
+          "word": "seguintes",
+          "syllables": [
+            "se",
+            "guin",
+            "tes"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "risse",
+          "syllables": [
+            "ris",
+            "se"
+          ]
+        },
+        {
+          "word": "setes",
+          "syllables": [
+            "se",
+            "tes"
+          ]
+        },
+        {
+          "word": "testa",
+          "syllables": [
+            "tes",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "turista",
+          "b": "turista"
+        },
+        {
+          "a": "ninguém",
+          "b": "ninguém"
+        },
+        {
+          "a": "gosta",
+          "b": "gosta"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Não é conversa de savana nem de jardim zoológico, mas fala de peão furioso para automobilista desastroso, perigoso, criminoso, que não…",
+        "Vai chamar camelo ao filho do teu paizinho, meu grande burro - diria o dromedário, entre dentes.",
+        "Vieram, muito zangados, pedir explicações ao dromedário.",
+        "O malandro do camelo ia-me matando - queixava-se o turista.",
+        "O dromedário viu-lhe os calcanhares e suspirou fundo."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "01-31",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "porta",
+          "distractors": [
+            "chaves",
+            "casa",
+            "gaveta"
+          ],
+          "sentence": "Claro que a porta da rua estava sempre fechada."
+        },
+        {
+          "target": "chaves",
+          "distractors": [
+            "porta",
+            "casa",
+            "fechada"
+          ],
+          "sentence": "A Dona Florinda andava sempre com um molho de chaves à cinta."
+        },
+        {
+          "target": "casa",
+          "distractors": [
+            "porta",
+            "chaves",
+            "caixinha"
+          ],
+          "sentence": "Em casa da Dona Florinda não havia nada aberto."
+        },
+        {
+          "target": "fechada",
+          "distractors": [
+            "chaves",
+            "gaveta",
+            "caixinha"
+          ],
+          "sentence": "Por cada porta que fechava, por cada volta que dava a uma fechadura, a Dona Florinda dizia \"Trru, está fechada!"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "porta",
+          "syllables": [
+            "por",
+            "ta"
+          ]
+        },
+        {
+          "word": "chaves",
+          "syllables": [
+            "cha",
+            "ves"
+          ]
+        },
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cata",
+          "syllables": [
+            "ca",
+            "ta"
+          ]
+        },
+        {
+          "word": "porca",
+          "syllables": [
+            "por",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "porta",
+          "b": "porta"
+        },
+        {
+          "a": "chaves",
+          "b": "chaves"
+        },
+        {
+          "a": "casa",
+          "b": "casa"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Em casa da Dona Florinda não havia nada aberto.",
+        "A gente nem percebia qual o motivo de tanto cuidado.",
+        "E por cada gaveta fechada a Dona Florinda também dizia: \"Trru, está fechada!",
+        "Arrombar a gaveta, rebentar a caixa, partir a caixinha e recuperar as outras chaves.",
+        "Essa, definitivamente, trru, está fechada."
+      ]
+    }
+  ]
+}

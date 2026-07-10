@@ -1,0 +1,133 @@
+{
+  "id": "07-02",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "nova",
+          "distractors": [
+            "coisa",
+            "dois",
+            "sapo"
+          ],
+          "sentence": "Por aí adiante, mais coisa menos coisa, deve haver outra ponte nova - lembrou-se um dos esquilos Danilos."
+        },
+        {
+          "target": "esquilos",
+          "distractors": [
+            "jangada",
+            "gritavam",
+            "passaram"
+          ],
+          "sentence": "Os dois esquilos Danilos - Danilo Pai e Danilo Filho - são muito viajados."
+        },
+        {
+          "target": "coisa",
+          "distractors": [
+            "nova",
+            "dois",
+            "sapo"
+          ],
+          "sentence": "É coisa de que não preciso - e a rã saltou para a água."
+        },
+        {
+          "target": "dois",
+          "distractors": [
+            "nova",
+            "coisa",
+            "sapo"
+          ],
+          "sentence": "E como já estavam cansados de andar pela margem do rio, os dois esquilos Danilos - Danilo Pai e Danilo Filho - decidiram fazer uma jangada."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "nova",
+          "syllables": [
+            "no",
+            "va"
+          ]
+        },
+        {
+          "word": "esquilos",
+          "syllables": [
+            "es",
+            "qui",
+            "los"
+          ]
+        },
+        {
+          "word": "sapo",
+          "syllables": [
+            "sa",
+            "po"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "esposa",
+          "syllables": [
+            "es",
+            "po",
+            "sa"
+          ]
+        },
+        {
+          "word": "quilos",
+          "syllables": [
+            "qui",
+            "los"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "nova",
+          "b": "nova"
+        },
+        {
+          "a": "esquilos",
+          "b": "esquilos"
+        },
+        {
+          "a": "coisa",
+          "b": "coisa"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/07/02/images/puqk4mqfkjnxrcwmaget757qltkhjgfz/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Os dois esquilos Danilos - Danilo Pai e Danilo Filho - são muito viajados.",
+        "Só que, por azar, não tomaram o caminho certo.",
+        "E como já estavam cansados de andar pela margem do rio, os dois esquilos Danilos - Danilo Pai e Danilo Filho - decidiram fazer uma jangada.",
+        "Passaram a seguir, a toda a velocidade, pelo meio da velha ponte destroçada, e mais adiante deram finalmente com a ponte nova.",
+        "E os dois esquilos Danilos prosseguiram viagem."
+      ]
+    }
+  ]
+}

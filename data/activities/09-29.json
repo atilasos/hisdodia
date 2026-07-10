@@ -1,0 +1,142 @@
+{
+  "id": "09-29",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "apetite",
+          "distractors": [
+            "comilão",
+            "vizinhos",
+            "súbditos"
+          ],
+          "sentence": "Foi o caso que o rei, dirigindo-se para o salão, onde iria tomar o seu pequeno-almoço, perdeu o apetite."
+        },
+        {
+          "target": "reino",
+          "distractors": [
+            "água",
+            "país",
+            "perdeu"
+          ],
+          "sentence": "E como não havia ele de ser o rei, se o reino se chamava Comilândia ou Terra dos Comilões?"
+        },
+        {
+          "target": "comilão",
+          "distractors": [
+            "apetite",
+            "vizinhos",
+            "súbditos"
+          ],
+          "sentence": "Era uma vez um rei que era um grande comilão."
+        },
+        {
+          "target": "vizinhos",
+          "distractors": [
+            "apetite",
+            "comilão",
+            "ministros"
+          ],
+          "sentence": "Se fosse distribuído pelos países vizinhos, que não tinham a mesma sorte da Comilândia, a fartura tocaria a todos, a toda a gente, a…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "apetite",
+          "syllables": [
+            "a",
+            "pe",
+            "ti",
+            "te"
+          ]
+        },
+        {
+          "word": "reino",
+          "syllables": [
+            "rei",
+            "no"
+          ]
+        },
+        {
+          "word": "comilão",
+          "syllables": [
+            "co",
+            "mi",
+            "lão"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "atirei",
+          "syllables": [
+            "a",
+            "ti",
+            "rei"
+          ]
+        },
+        {
+          "word": "comi",
+          "syllables": [
+            "co",
+            "mi"
+          ]
+        },
+        {
+          "word": "terei",
+          "syllables": [
+            "te",
+            "rei"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "apetite",
+          "b": "apetite"
+        },
+        {
+          "a": "reino",
+          "b": "reino"
+        },
+        {
+          "a": "comilão",
+          "b": "comilão"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/09/29/images/gfn4ucwzispwqd3rp5fqauay5tvpblqf/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um rei que era um grande comilão.",
+        "Perdeu o rei o apetite, antes de chegar à mesa do banquete, e não conseguiu lembrar-se de onde o teria deixado.",
+        "A doença, que não tinha sinais de doença, alastrou.",
+        "Cheios de curiosidade, vieram, com os seus séquitos, conhecer a hospitalidade da farta terra dos Comilões.",
+        "Voltara-lhe o apetite, tal como a todos seus súbditos."
+      ]
+    }
+  ]
+}

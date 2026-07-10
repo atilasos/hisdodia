@@ -1,0 +1,134 @@
+{
+  "id": "02-05",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "homem",
+          "distractors": [
+            "pulga",
+            "forças",
+            "corpo"
+          ],
+          "sentence": "Como te atreves a aparecer ao pé de mim, que sou o homem mais forte do mundo?"
+        },
+        {
+          "target": "pulga",
+          "distractors": [
+            "homem",
+            "forças",
+            "corpo"
+          ],
+          "sentence": "Estava já o homem das forças a dormir, quando a pulga se chegou, de novo, a ele."
+        },
+        {
+          "target": "forças",
+          "distractors": [
+            "homem",
+            "pulga",
+            "corpo"
+          ],
+          "sentence": "Mais se arqueou o corpo do homem das forças, levantando ainda mais alto os lençóis que o cobriram."
+        },
+        {
+          "target": "corpo",
+          "distractors": [
+            "homem",
+            "pulga",
+            "forças"
+          ],
+          "sentence": "Passeou pelos lençóis e procurou-lhe o quente do corpo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "homem",
+          "syllables": [
+            "ho",
+            "mem"
+          ]
+        },
+        {
+          "word": "pulga",
+          "syllables": [
+            "pul",
+            "ga"
+          ]
+        },
+        {
+          "word": "soerguido",
+          "syllables": [
+            "so",
+            "er",
+            "gui",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "erguido",
+          "syllables": [
+            "er",
+            "gui",
+            "do"
+          ]
+        },
+        {
+          "word": "gado",
+          "syllables": [
+            "ga",
+            "do"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "homem",
+          "b": "homem"
+        },
+        {
+          "a": "pulga",
+          "b": "pulga"
+        },
+        {
+          "a": "forças",
+          "b": "forças"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/02/05/images/vvnuqse5obuktq43rt2gtp2ne3ar2ycx/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Como te atreves a aparecer ao pé de mim, que sou o homem mais forte do mundo?",
+        "Ia a castigá-la pelo atrevimento, mas ela escorregou-lhe pela polpa dos dedos e desapareceu.",
+        "O homem, que estava no mais fundo do sono, mesmo assim, sentiu-se.",
+        "Quem não soubesse a razão destes movimentos, acharia que o homem estava a ser soerguido e levado ao colo por uma escondida força…",
+        "E, aqui para nós, com aquelas duas chupadelas de sangue já se sentia bem paga..."
+      ]
+    }
+  ]
+}

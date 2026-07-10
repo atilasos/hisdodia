@@ -1,0 +1,139 @@
+{
+  "id": "08-02",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "carrossel",
+          "distractors": [
+            "sobretudo",
+            "projecto",
+            "qualquer"
+          ],
+          "sentence": "Já te contei do meu projecto do carrossel gigante?"
+        },
+        {
+          "target": "oito",
+          "distractors": [
+            "roda",
+            "volta",
+            "vezes"
+          ],
+          "sentence": "Tu conheces aqueles carrosséis maiores, que dão uma volta em oito?"
+        },
+        {
+          "target": "roda",
+          "distractors": [
+            "oito",
+            "volta",
+            "vezes"
+          ],
+          "sentence": "Fixo o meu carrossel ao eixo da Terra, à roda do qual gira o nosso planeta, e nem preciso de imprimir-lhe velocidade."
+        },
+        {
+          "target": "sobretudo",
+          "distractors": [
+            "carrossel",
+            "projecto",
+            "sempre"
+          ],
+          "sentence": "Mas primeiro tenho de comprar um sobretudo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "carrossel",
+          "syllables": [
+            "car",
+            "ros",
+            "sel"
+          ]
+        },
+        {
+          "word": "oito",
+          "syllables": [
+            "oi",
+            "to"
+          ]
+        },
+        {
+          "word": "roda",
+          "syllables": [
+            "ro",
+            "da"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "carro",
+          "syllables": [
+            "car",
+            "ro"
+          ]
+        },
+        {
+          "word": "carros",
+          "syllables": [
+            "car",
+            "ros"
+          ]
+        },
+        {
+          "word": "oiro",
+          "syllables": [
+            "oi",
+            "ro"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "carrossel",
+          "b": "carrossel"
+        },
+        {
+          "a": "oito",
+          "b": "oito"
+        },
+        {
+          "a": "roda",
+          "b": "roda"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/08/02/images/mk7jrdzxyo2nbvh6xgfswwajt65kp27v/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "No outro dia, íamos nós a passar por perto de uma feira dessas de altifalantes, tirinhos e carrosséis de cavalinhos - é mais uma corrida!",
+        "Pois o meu carrossel vai ser qualquer do género.",
+        "Aquele carrossel estava a dar-lhe a volta à cabeça.",
+        "Troquei a ideia do carrossel por outra melhor - disse-me o Evaristo, muito entusiasmado.",
+        "E lá seguiu, muito entusiasmado com o seu projecto."
+      ]
+    }
+  ]
+}

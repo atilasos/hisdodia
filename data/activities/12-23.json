@@ -1,0 +1,132 @@
+{
+  "id": "12-23",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "meninos",
+          "distractors": [
+            "sempre",
+            "trabalho",
+            "forças"
+          ],
+          "sentence": "É que as meninas e os meninos estão cada vez mais exigentes."
+        },
+        {
+          "target": "sempre",
+          "distractors": [
+            "meninos",
+            "trenó",
+            "forças"
+          ],
+          "sentence": "Para chegar a todos - e nem faz ideia quanto me custa nem sempre chegar a todos - tenho de reduzir a encomenda de cada um."
+        },
+        {
+          "target": "trenó",
+          "distractors": [
+            "sempre",
+            "trabalho",
+            "forças"
+          ],
+          "sentence": "Fomos encontrá-lo a fazer embrulhos e a arrumar sacos e malas no porta-bagagens do trenó."
+        },
+        {
+          "target": "forças",
+          "distractors": [
+            "meninos",
+            "sempre",
+            "trenó"
+          ],
+          "sentence": "Ora, eu, francamente, já não tenho forças para carregar com tanta coisa!"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "meninos",
+          "syllables": [
+            "me",
+            "ni",
+            "nos"
+          ]
+        },
+        {
+          "word": "sempre",
+          "syllables": [
+            "sem",
+            "pre"
+          ]
+        },
+        {
+          "word": "tanta",
+          "syllables": [
+            "tan",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "meta",
+          "syllables": [
+            "me",
+            "ta"
+          ]
+        },
+        {
+          "word": "preta",
+          "syllables": [
+            "pre",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "meninos",
+          "b": "meninos"
+        },
+        {
+          "a": "sempre",
+          "b": "sempre"
+        },
+        {
+          "a": "trenó",
+          "b": "trenó"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/23/images/kslkvss7my3ogpg2a4357zkz7jqcuuk3/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Fomos encontrá-lo a fazer embrulhos e a arrumar sacos e malas no porta-bagagens do trenó.",
+        "Claro que os meninos, depois, queixam-se de que eu não trouxe tudo o que eles pedem...",
+        "Para a minha irmã não mande nada, porque ela só sabe estragar-me os brinquedos.",
+        "Calcule que, uma vez, num bosque, o Lobo Feroz confundiu-me com o Capuchinho Vermelho.",
+        "Couberam ao Pai Natal as últimas palavras da entrevista."
+      ]
+    }
+  ]
+}

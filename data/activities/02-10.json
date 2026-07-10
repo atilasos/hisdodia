@@ -1,0 +1,154 @@
+{
+  "id": "02-10",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "cadela",
+          "distractors": [
+            "cidade",
+            "avisar",
+            "tempo"
+          ],
+          "sentence": "É a cadela do Pedro de Castro, com saudades do dono, que pertence à guarnição de Tânger - esclareceu um oficial."
+        },
+        {
+          "target": "cidade",
+          "distractors": [
+            "cadela",
+            "avisar",
+            "tempo"
+          ],
+          "sentence": "Pretendiam uns tantos infiltrar-se na cidade, sob o disfarce de mercadores, para ajudarem à conquista, quando o exército mouro, a…"
+        },
+        {
+          "target": "dono",
+          "distractors": [
+            "tempo",
+            "mouro",
+            "noite"
+          ],
+          "sentence": "Eles já nasceram, já os amamentou e agora, se a gente a desprendesse, era capaz de saltar tudo para ir ter com o dono."
+        },
+        {
+          "target": "avisar",
+          "distractors": [
+            "cadela",
+            "cidade",
+            "tempo"
+          ],
+          "sentence": "Mas se fosse possível avisar a tempo o governador militar de Tânger, ia o plano por água abaixo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "cadela",
+          "syllables": [
+            "ca",
+            "de",
+            "la"
+          ]
+        },
+        {
+          "word": "cidade",
+          "syllables": [
+            "ci",
+            "da",
+            "de"
+          ]
+        },
+        {
+          "word": "dono",
+          "syllables": [
+            "do",
+            "no"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "calada",
+          "syllables": [
+            "ca",
+            "la",
+            "da"
+          ]
+        },
+        {
+          "word": "calado",
+          "syllables": [
+            "ca",
+            "la",
+            "do"
+          ]
+        },
+        {
+          "word": "cano",
+          "syllables": [
+            "ca",
+            "no"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "cadela",
+          "b": "cadela"
+        },
+        {
+          "a": "cidade",
+          "b": "cidade"
+        },
+        {
+          "a": "dono",
+          "b": "dono"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "guarnição",
+          "b": "força militar que defende um quartel"
+        },
+        {
+          "a": "saquitel",
+          "b": "saquinho"
+        },
+        {
+          "a": "cilada",
+          "b": "emboscada / traição"
+        },
+        {
+          "a": "interceptado",
+          "b": "impedido / interrompido"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Houve um tempo em que os reis de Portugal detinham, entre outros territórios ao seu mando, umas tantas cidades fortificadas do Norte de…",
+        "Podiam enviar um emissário , pois podiam.",
+        "Eles já nasceram, já os amamentou e agora, se a gente a desprendesse, era capaz de saltar tudo para ir ter com o dono.",
+        "Muito cansada e dorida, entrou em Tânger, orientou-se por ruas e ruelas e foi descobrir Pedro de Castro, a almoçar com o governador.",
+        "A cadelinha salvara muitas vidas e uma fortaleza do reino."
+      ]
+    }
+  ]
+}

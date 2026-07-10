@@ -1,0 +1,140 @@
+{
+  "id": "12-06",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "mulher",
+          "distractors": [
+            "homem",
+            "depois",
+            "levou"
+          ],
+          "sentence": "A mulher levou para a nova casa uma cabrinha de que nunca se apartara ."
+        },
+        {
+          "target": "homem",
+          "distractors": [
+            "mulher",
+            "bode",
+            "casa"
+          ],
+          "sentence": "O homem levou um bode, que sempre lhe fizera companhia."
+        },
+        {
+          "target": "cabritos",
+          "distractors": [
+            "casa",
+            "discussão",
+            "cabra"
+          ],
+          "sentence": "A tua cabra, quando veio cá para casa, não tinha cabritos."
+        },
+        {
+          "target": "bode",
+          "distractors": [
+            "homem",
+            "casa",
+            "levou"
+          ],
+          "sentence": "Já se vê que a cabra e o bode apreciaram a ideia."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "mulher",
+          "syllables": [
+            "mu",
+            "lher"
+          ]
+        },
+        {
+          "word": "homem",
+          "syllables": [
+            "ho",
+            "mem"
+          ]
+        },
+        {
+          "word": "apartara",
+          "syllables": [
+            "a",
+            "par",
+            "ta",
+            "ra"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "hora",
+          "syllables": [
+            "ho",
+            "ra"
+          ]
+        },
+        {
+          "word": "parra",
+          "syllables": [
+            "par",
+            "ra"
+          ]
+        },
+        {
+          "word": "tapar",
+          "syllables": [
+            "ta",
+            "par"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "mulher",
+          "b": "mulher"
+        },
+        {
+          "a": "homem",
+          "b": "homem"
+        },
+        {
+          "a": "cabritos",
+          "b": "cabritos"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/06/images/hh7urbuehgatucri2ivdugarpzbkxciu/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Encontraram-se, agradaram-se um do outro e vai daí casaram-se.",
+        "Já se vê que a cabra e o bode apreciaram a ideia.",
+        "A tua cabra, quando veio cá para casa, não tinha cabritos.",
+        "Eu hoje não posso tratar desse caso, porque tenho de ir avisar a minha mãe de que o meu pai deu à luz um bebé.",
+        "Tempos depois, na casa do homem e da mulher que por pouco não fora abaixo por causa de uma discussão de cabritos, nasceu um menino."
+      ]
+    }
+  ]
+}

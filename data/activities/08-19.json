@@ -1,0 +1,131 @@
+{
+  "id": "08-19",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "princesa",
+          "distractors": [
+            "príncipe",
+            "pena",
+            "casasse"
+          ],
+          "sentence": "Era uma vez uma princesa que perdera a fala."
+        },
+        {
+          "target": "príncipe",
+          "distractors": [
+            "princesa",
+            "pena",
+            "casasse"
+          ],
+          "sentence": "Um dia, anunciaram que a comitiva de um príncipe estrangeiro, vindo de muito longe, se acercava do palácio para prestar homenagem ao rei…"
+        },
+        {
+          "target": "careta",
+          "distractors": [
+            "cara",
+            "depois",
+            "casasse"
+          ],
+          "sentence": "Pretendentes não lhe faltaram, todos nobres e distintos moços, mas a princesa fazia uma careta mal os via e estava tudo dito."
+        },
+        {
+          "target": "cara",
+          "distractors": [
+            "careta",
+            "fala",
+            "pena"
+          ],
+          "sentence": "A princesa, de cara fechada, apertava os lábios."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "princesa",
+          "syllables": [
+            "prin",
+            "ce",
+            "sa"
+          ]
+        },
+        {
+          "word": "príncipe",
+          "syllables": [
+            "prín",
+            "ci",
+            "pe"
+          ]
+        },
+        {
+          "word": "careta",
+          "syllables": [
+            "ca",
+            "re",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        },
+        {
+          "word": "cata",
+          "syllables": [
+            "ca",
+            "ta"
+          ]
+        },
+        {
+          "word": "pesa",
+          "syllables": [
+            "pe",
+            "sa"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "princesa",
+          "b": "princesa"
+        },
+        {
+          "a": "príncipe",
+          "b": "príncipe"
+        },
+        {
+          "a": "careta",
+          "b": "careta"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez uma princesa que perdera a fala.",
+        "Outra careta da princesa - comentaram os fidalgos da corte.",
+        "Desta vez, quando o príncipe se aproximar de ti, para se declarar, tens de oferecer-lhe o teu melhor dos sorrisos - recomendava-lhe o rei.",
+        "Depois de ter proferido estas palavras, a princesa fugiu do salão e refugiou-se no quarto.",
+        "Não é que, pouco depois, estava a dizer sim ao tal príncipe apaixonado?"
+      ]
+    }
+  ]
+}

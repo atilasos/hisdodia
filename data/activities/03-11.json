@@ -1,0 +1,132 @@
+{
+  "id": "03-11",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "homem",
+          "distractors": [
+            "panela",
+            "barro",
+            "ferro"
+          ],
+          "sentence": "Quando o homem chegou a casa e tirou as compras que tinha feito, viu, desolado, a panela de barro reduzida a cacos."
+        },
+        {
+          "target": "panela",
+          "distractors": [
+            "homem",
+            "barro",
+            "ferro"
+          ],
+          "sentence": "Metidas no mesmo saco, aconteceu que, com os solavancos da viagem, a panela de ferro rachou a panela de barro."
+        },
+        {
+          "target": "vendedor",
+          "distractors": [
+            "panelas",
+            "perguntou",
+            "apontando"
+          ],
+          "sentence": "Mas se levar as duas, faço-lhe um bom desconto - acrescentou o vendedor."
+        },
+        {
+          "target": "panelas",
+          "distractors": [
+            "panela",
+            "vendedor",
+            "perguntou"
+          ],
+          "sentence": "Estavam as duas à venda, entre outras panelas e tachos, num mercado, à beira da estrada."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "homem",
+          "syllables": [
+            "ho",
+            "mem"
+          ]
+        },
+        {
+          "word": "panela",
+          "syllables": [
+            "pa",
+            "ne",
+            "la"
+          ]
+        },
+        {
+          "word": "barro",
+          "syllables": [
+            "bar",
+            "ro"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "nela",
+          "syllables": [
+            "ne",
+            "la"
+          ]
+        },
+        {
+          "word": "pala",
+          "syllables": [
+            "pa",
+            "la"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "homem",
+          "b": "homem"
+        },
+        {
+          "a": "panela",
+          "b": "panela"
+        },
+        {
+          "a": "barro",
+          "b": "barro"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/03/11/images/k7cnebeciraaf5mfopeasuu7r2mxteng/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Estavam as duas à venda, entre outras panelas e tachos, num mercado, à beira da estrada.",
+        "Mas se levar as duas, faço-lhe um bom desconto - acrescentou o vendedor.",
+        "Quando o homem chegou a casa e tirou as compras que tinha feito, viu, desolado, a panela de barro reduzida a cacos.",
+        "Não devia ter posto as duas juntas - reconsiderou o homem.",
+        "Perdeu uma panela, mas ganhou uma lição."
+      ]
+    }
+  ]
+}

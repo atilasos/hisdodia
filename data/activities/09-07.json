@@ -1,0 +1,140 @@
+{
+  "id": "09-07",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhor",
+          "distractors": [
+            "macacos",
+            "sete",
+            "horas"
+          ],
+          "sentence": "O senhor Estrelinhas é sempre pontual no acordar."
+        },
+        {
+          "target": "director",
+          "distractors": [
+            "macacos",
+            "bailarina",
+            "maravilha"
+          ],
+          "sentence": "Sabemos que são sete horas da tarde porque o director do Circo Maravilhas acordou agora mesmo da sua prolongada sesta."
+        },
+        {
+          "target": "macacos",
+          "distractors": [
+            "senhor",
+            "director",
+            "maravilha"
+          ],
+          "sentence": "Talvez os macacos - alvitrou um dos Maldonados, que não gostava de macacos."
+        },
+        {
+          "target": "sete",
+          "distractors": [
+            "senhor",
+            "horas",
+            "ouro"
+          ],
+          "sentence": "Ele bem sabe que são sete horas, mais segundo, menos segundo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "director",
+          "syllables": [
+            "di",
+            "rec",
+            "tor"
+          ]
+        },
+        {
+          "word": "macacos",
+          "syllables": [
+            "ma",
+            "ca",
+            "cos"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cacos",
+          "syllables": [
+            "ca",
+            "cos"
+          ]
+        },
+        {
+          "word": "cama",
+          "syllables": [
+            "ca",
+            "ma"
+          ]
+        },
+        {
+          "word": "seca",
+          "syllables": [
+            "se",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "director",
+          "b": "director"
+        },
+        {
+          "a": "macacos",
+          "b": "macacos"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/09/07/images/pw3ir5o4jcfxulsw23ny3tm7ftq6gqat/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "No circo maravilhas, uma maravilha de circo, \"a maravilha das maravilhas\", como anunciava, no início de cada novo espectáculo, o seu…",
+        "Saem das suas \"roulottes\" o homem das forças e a mulher Labareda, também mulher do homem das forças, os malabaristas Maldonados, a…",
+        "Talvez os macacos - alvitrou um dos Maldonados, que não gostava de macacos.",
+        "Foi ele o único a rir, porque os outros tinham ido encostar o ouvido ao estômago do avestruz.",
+        "Nessa noite, o espectáculo acabou mais cedo."
+      ]
+    }
+  ]
+}

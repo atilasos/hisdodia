@@ -1,0 +1,133 @@
+{
+  "id": "01-14",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "lágrima",
+          "distractors": [
+            "lágrimas",
+            "lenço",
+            "espirro"
+          ],
+          "sentence": "Era uma vez uma lágrima, uma lágrima de constipação."
+        },
+        {
+          "target": "lágrimas",
+          "distractors": [
+            "lágrima",
+            "lenço",
+            "espirro"
+          ],
+          "sentence": "Sabem do que falo: de tanto rir, tudo estala em nós e as lágrimas saltam dos olhos como fogo-de-artifício, foguetes de lágrimas..."
+        },
+        {
+          "target": "lenço",
+          "distractors": [
+            "lágrima",
+            "lágrimas",
+            "olhos"
+          ],
+          "sentence": "Mas uma terceira lágrima chegou ao lenço."
+        },
+        {
+          "target": "olhos",
+          "distractors": [
+            "lenço",
+            "riso",
+            "sabem"
+          ],
+          "sentence": "Sabem como é: o pingo no nariz, os olhos a arder, um espirro, outro espirro, e uma lágrima que se solta pelo cantinho do olho e…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "lágrima",
+          "syllables": [
+            "lá",
+            "gri",
+            "ma"
+          ]
+        },
+        {
+          "word": "lágrimas",
+          "syllables": [
+            "lá",
+            "gri",
+            "mas"
+          ]
+        },
+        {
+          "word": "riso",
+          "syllables": [
+            "ri",
+            "so"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "rima",
+          "syllables": [
+            "ri",
+            "ma"
+          ]
+        },
+        {
+          "word": "soma",
+          "syllables": [
+            "so",
+            "ma"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "lágrima",
+          "b": "lágrima"
+        },
+        {
+          "a": "lágrimas",
+          "b": "lágrimas"
+        },
+        {
+          "a": "lenço",
+          "b": "lenço"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/01/14/images/bb1bd84ff7d0771c7d93eac4/imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez uma lágrima, uma lágrima de constipação.",
+        "Ouvi dizer que também há lágrimas de tristeza - contou uma.",
+        "Sou uma lágrima de dor - apresentou-se ela.",
+        "Há desgraças piores - comentou a lágrima da constipação.",
+        "O resto da conversa já não acompanhei, porque eu, o dono das três lágrimas, desfiz-me do lenço molhado para dentro da roupa suja."
+      ]
+    }
+  ]
+}

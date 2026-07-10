@@ -1,0 +1,139 @@
+{
+  "id": "12-20",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "frasco",
+          "distractors": [
+            "brincar",
+            "chocho",
+            "cabeça"
+          ],
+          "sentence": "Vai à farmácia e traz-me um frasco de álcool."
+        },
+        {
+          "target": "pãezinhos",
+          "distractors": [
+            "bacalhau",
+            "azeitonas",
+            "pretas"
+          ],
+          "sentence": "Vai à padaria e traz-me meia dúzia de pãezinhos."
+        },
+        {
+          "target": "três",
+          "distractors": [
+            "alho",
+            "favor",
+            "assim"
+          ],
+          "sentence": "Vai à mercearia e compras-me três quilos de bacalhau e cento e vinte cinco gramas de azeitonas pretas."
+        },
+        {
+          "target": "quilos",
+          "distractors": [
+            "brincar",
+            "chocho",
+            "cabeça"
+          ],
+          "sentence": "Mãe, eles na mercearia dizem que cento e vinte e cinco de bacalhau nem que fossem só espinhas e três quilos de azeitonas pretas não têm…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "brincar",
+          "syllables": [
+            "brin",
+            "car"
+          ]
+        },
+        {
+          "word": "chocho",
+          "syllables": [
+            "cho",
+            "cho"
+          ]
+        },
+        {
+          "word": "cabeça",
+          "syllables": [
+            "ca",
+            "be",
+            "ça"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cabe",
+          "syllables": [
+            "ca",
+            "be"
+          ]
+        },
+        {
+          "word": "cacho",
+          "syllables": [
+            "ca",
+            "cho"
+          ]
+        },
+        {
+          "word": "caça",
+          "syllables": [
+            "ca",
+            "ça"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "brincar",
+          "b": "brincar"
+        },
+        {
+          "a": "chocho",
+          "b": "chocho"
+        },
+        {
+          "a": "cabeça",
+          "b": "cabeça"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/20/images/ousjd5kihwsi67sfqbvvy4qxr66e7rvq/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Vai à farmácia e traz-me um frasco de álcool.",
+        "Vai à mercearia e compras-me três quilos de bacalhau e cento e vinte cinco gramas de azeitonas pretas.",
+        "Levas este embrulhinho para o vizinho Almiro e este bolo de amêndoas para a tia Clotilde, com as nossas boas festas.",
+        "Ó mãe, o vizinho Almiro agradece, mas diz que não pode comer bolos, porque é diabético e a tia Clotilde, depois de abrir o embrulho…",
+        "Continha uma loção para depois da barba, que, sendo para o senhor Almiro, estaria bem, mas para a tia Clotilde, um pouco forte de buço…"
+      ]
+    }
+  ]
+}

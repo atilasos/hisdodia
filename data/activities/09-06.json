@@ -1,0 +1,142 @@
+{
+  "id": "09-06",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "macaco",
+          "distractors": [
+            "senhora",
+            "agora",
+            "preciso"
+          ],
+          "sentence": "O macaco Umbelino, que vocês já conhecem, escreveu-me outra vez."
+        },
+        {
+          "target": "telhados",
+          "distractors": [
+            "senhora",
+            "chaminés",
+            "vassoura"
+          ],
+          "sentence": "Não sei em que país é que ele agora está, que nem reparei no selo do sobrescrito, mas, onde quer que esteja, é um país com telhados e…"
+        },
+        {
+          "target": "senhora",
+          "distractors": [
+            "macaco",
+            "telhados",
+            "chaminés"
+          ],
+          "sentence": "A porta abriu-se e uma senhora com tranças meio desfeitas, grandes óculos de tartaruga e um ar, realmente, muito esquisito, espreitou."
+        },
+        {
+          "target": "vassoura",
+          "distractors": [
+            "telhados",
+            "senhora",
+            "chaminés"
+          ],
+          "sentence": "Arranjou uma corda grossa e muito comprida, uma vassoura com cabo maior que mastro de navio e pôs-se a tocar às campainhas das portas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "macaco",
+          "syllables": [
+            "ma",
+            "ca",
+            "co"
+          ]
+        },
+        {
+          "word": "telhados",
+          "syllables": [
+            "te",
+            "lha",
+            "dos"
+          ]
+        },
+        {
+          "word": "senhora",
+          "syllables": [
+            "se",
+            "nho",
+            "ra"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "calha",
+          "syllables": [
+            "ca",
+            "lha"
+          ]
+        },
+        {
+          "word": "calhados",
+          "syllables": [
+            "ca",
+            "lha",
+            "dos"
+          ]
+        },
+        {
+          "word": "cama",
+          "syllables": [
+            "ca",
+            "ma"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "macaco",
+          "b": "macaco"
+        },
+        {
+          "a": "telhados",
+          "b": "telhados"
+        },
+        {
+          "a": "senhora",
+          "b": "senhora"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/09/06/images/575sjbnajvvswmzjnyco23mjjuzyv6uo/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O macaco Umbelino, que vocês já conhecem, escreveu-me outra vez.",
+        "Limpa-chaminés - respondia ele, engrossando a voz.",
+        "O macaco Umbelino estacou, deitou contas à vida e resolveu subir ao 3º andar.",
+        "Exª que, no meu ofício, faz-me falta um aprendiz que me ajude a transportar a vassoura, que converse comigo...",
+        "Sempre quero ver o que ele me contará na próxima carta."
+      ]
+    }
+  ]
+}

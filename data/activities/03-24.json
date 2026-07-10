@@ -1,0 +1,142 @@
+{
+  "id": "03-24",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "rapaz",
+          "distractors": [
+            "pedras",
+            "rapazinho",
+            "pobre"
+          ],
+          "sentence": "Era uma vez um rapaz bravio que gostava de pregar partidas e fazer matulices , só por embirração."
+        },
+        {
+          "target": "pedras",
+          "distractors": [
+            "rapaz",
+            "velhota",
+            "quintal"
+          ],
+          "sentence": "Foi para uma pedreira que havia perto e pôs-se a atirar pedras e a rebolar pedregulhos, que iam cair no quintal da velhota."
+        },
+        {
+          "target": "velhinha",
+          "distractors": [
+            "rapazinho",
+            "velhota",
+            "quintal"
+          ],
+          "sentence": "No fim do seu feito, já cansado, aproximou-se da casa da velhinha, para ver de perto os resultados da sua proeza."
+        },
+        {
+          "target": "rapazinho",
+          "distractors": [
+            "rapaz",
+            "velhinha",
+            "partidas"
+          ],
+          "sentence": "Bom rapazinho, importas-te de me ajudar a consertar o muro?"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "rapaz",
+          "syllables": [
+            "ra",
+            "paz"
+          ]
+        },
+        {
+          "word": "pedras",
+          "syllables": [
+            "pe",
+            "dras"
+          ]
+        },
+        {
+          "word": "rapazinho",
+          "syllables": [
+            "ra",
+            "pa",
+            "zi",
+            "nho"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "parara",
+          "syllables": [
+            "pa",
+            "ra",
+            "ra"
+          ]
+        },
+        {
+          "word": "pezinho",
+          "syllables": [
+            "pe",
+            "zi",
+            "nho"
+          ]
+        },
+        {
+          "word": "rara",
+          "syllables": [
+            "ra",
+            "ra"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "rapaz",
+          "b": "rapaz"
+        },
+        {
+          "a": "pedras",
+          "b": "pedras"
+        },
+        {
+          "a": "velhinha",
+          "b": "velhinha"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/03/24/images/umpbsbp4acwotk65gz4pqbcjmzztsvcs/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um rapaz bravio que gostava de pregar partidas e fazer matulices , só por embirração.",
+        "No fim do seu feito, já cansado, aproximou-se da casa da velhinha, para ver de perto os resultados da sua proeza.",
+        "Bom rapazinho, importas-te de me ajudar a consertar o muro?",
+        "À noite, quando se deitou, estava cá com uma dor nas costas, que não lhes digo nada!",
+        "Sem que possa ser considerado um virtuoso rapazinho, também já não é um venenoso rapazote."
+      ]
+    }
+  ]
+}

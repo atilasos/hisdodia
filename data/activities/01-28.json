@@ -1,0 +1,151 @@
+{
+  "id": "01-28",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "leão",
+          "distractors": [
+            "fosse",
+            "urdiu",
+            "bicho"
+          ],
+          "sentence": "Uma tentação\", pensava, meneando a juba, o senhor leão, observando de um outeiro os quatro inseparáveis amigos."
+        },
+        {
+          "target": "quatro",
+          "distractors": [
+            "búfalos",
+            "chifres",
+            "senhor"
+          ],
+          "sentence": "Verdade se diga que não havia quem se atravesse a desafiar os quatro possantes animais, aprestados com um equipamento de chifres de alto…"
+        },
+        {
+          "target": "búfalos",
+          "distractors": [
+            "quatro",
+            "chifres",
+            "senhor"
+          ],
+          "sentence": "Sempre perto uns dos outros, os quatros búfalos pastavam na savana como se cada um fosse o vértice de um quadrado."
+        },
+        {
+          "target": "chifres",
+          "distractors": [
+            "quatro",
+            "búfalos",
+            "senhor"
+          ],
+          "sentence": "Por terem troçado dos chifres tortos de um deles..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "leão",
+          "syllables": [
+            "le",
+            "ão"
+          ]
+        },
+        {
+          "word": "quatro",
+          "syllables": [
+            "qua",
+            "tro"
+          ]
+        },
+        {
+          "word": "pensava",
+          "syllables": [
+            "pen",
+            "sa",
+            "va"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "leva",
+          "syllables": [
+            "le",
+            "va"
+          ]
+        },
+        {
+          "word": "pensa",
+          "syllables": [
+            "pen",
+            "sa"
+          ]
+        },
+        {
+          "word": "trova",
+          "syllables": [
+            "tro",
+            "va"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "leão",
+          "b": "leão"
+        },
+        {
+          "a": "quatro",
+          "b": "quatro"
+        },
+        {
+          "a": "búfalos",
+          "b": "búfalos"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "apartá-los",
+          "b": "separá-los"
+        },
+        {
+          "a": "despojos",
+          "b": "restos mortais"
+        },
+        {
+          "a": "meneando",
+          "b": "abanando / sacudindo"
+        },
+        {
+          "a": "dissiparia",
+          "b": "destruía / desvanecia / desfazia"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Verdade se diga que não havia quem se atravesse a desafiar os quatro possantes animais, aprestados com um equipamento de chifres de alto…",
+        "Uma tentação\", pensava, meneando a juba, o senhor leão, observando de um outeiro os quatro inseparáveis amigos.",
+        "Sabe que os quatro búfalos se desentenderam?",
+        "O que me contaram foi que tu andas a rir-te dos meus chifres - ripostou um dos outros.",
+        "O resto dos despojos , que o leão já não quis, foram para o chacal."
+      ]
+    }
+  ]
+}

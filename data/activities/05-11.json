@@ -1,0 +1,140 @@
+{
+  "id": "05-11",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "limoeiro",
+          "distractors": [
+            "limões",
+            "ventinho",
+            "produção"
+          ],
+          "sentence": "O limoeiro acenou que sim com os ramos, impelidos por um ventinho amável."
+        },
+        {
+          "target": "ramos",
+          "distractors": [
+            "limões",
+            "acenou",
+            "novo"
+          ],
+          "sentence": "De novo, o limoeiro acenou que sim com os ramos, pesados de tantos limões."
+        },
+        {
+          "target": "ventinho",
+          "distractors": [
+            "limoeiro",
+            "produção",
+            "negativo"
+          ],
+          "sentence": "Também, pouco tempo depois, a folha do jornal rolava amarfanhada pelo chão ao sabor do ventinho caprichoso que faz acenar os limoeiros."
+        },
+        {
+          "target": "produção",
+          "distractors": [
+            "limoeiro",
+            "ventinho",
+            "pensa"
+          ],
+          "sentence": "A produção este ano correspondeu às suas expectativas?"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "limoeiro",
+          "syllables": [
+            "li",
+            "mo",
+            "ei",
+            "ro"
+          ]
+        },
+        {
+          "word": "ramos",
+          "syllables": [
+            "ra",
+            "mos"
+          ]
+        },
+        {
+          "word": "limões",
+          "syllables": [
+            "li",
+            "mões"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "eira",
+          "syllables": [
+            "ei",
+            "ra"
+          ]
+        },
+        {
+          "word": "mora",
+          "syllables": [
+            "mo",
+            "ra"
+          ]
+        },
+        {
+          "word": "moro",
+          "syllables": [
+            "mo",
+            "ro"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "limoeiro",
+          "b": "limoeiro"
+        },
+        {
+          "a": "ramos",
+          "b": "ramos"
+        },
+        {
+          "a": "limões",
+          "b": "limões"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/05/11/images/zqsoggd7gnqshdmrdobmoi4ehuyzpjeq/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O limoeiro acenou que sim com os ramos, impelidos por um ventinho amável.",
+        "Para o próximo ano, pensa continuar a mesma linha de produção?",
+        "De cima para baixo, rangendo ao sabor da brisa, os ramos do limoeiro responderam que sim.",
+        "A todos ia dizendo que não, à sua maneira.",
+        "O limoeiro propriamente dito não desmentiu a notícia."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "02-12",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "lado",
+          "distractors": [
+            "gato",
+            "coisa",
+            "gatos"
+          ],
+          "sentence": "O lado que ficasse mais perto do osso, do bocadinho de carne ou da bolacha era, sem sombra para dúvidas, a cabeça."
+        },
+        {
+          "target": "felpudo",
+          "distractors": [
+            "cabeça",
+            "vontade",
+            "grande"
+          ],
+          "sentence": "Acreditem ou não acreditem, a verdade é que, uma vez, há muitos anos, eu tive um cão tão felpudo, tão peludo, tão cabeludo que, ao…"
+        },
+        {
+          "target": "cabeça",
+          "distractors": [
+            "felpudo",
+            "coisa",
+            "vontade"
+          ],
+          "sentence": "Portanto e por este lado, o dos gatos, nada feito, isto é, se continuássemos na dúvida sobre qual o lado da cabeça e qual o outro lado…"
+        },
+        {
+          "target": "gato",
+          "distractors": [
+            "lado",
+            "coisa",
+            "gatos"
+          ],
+          "sentence": "Ou se arranjava um gato para o cão lhe ladrar ou nada feito."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "lado",
+          "syllables": [
+            "la",
+            "do"
+          ]
+        },
+        {
+          "word": "felpudo",
+          "syllables": [
+            "fel",
+            "pu",
+            "do"
+          ]
+        },
+        {
+          "word": "cabeça",
+          "syllables": [
+            "ca",
+            "be",
+            "ça"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "bela",
+          "syllables": [
+            "be",
+            "la"
+          ]
+        },
+        {
+          "word": "cabe",
+          "syllables": [
+            "ca",
+            "be"
+          ]
+        },
+        {
+          "word": "calado",
+          "syllables": [
+            "ca",
+            "la",
+            "do"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "lado",
+          "b": "lado"
+        },
+        {
+          "a": "felpudo",
+          "b": "felpudo"
+        },
+        {
+          "a": "cabeça",
+          "b": "cabeça"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Acreditem ou não acreditem, a verdade é que, uma vez, há muitos anos, eu tive um cão tão felpudo, tão peludo, tão cabeludo que, ao…",
+        "Nessas alturas, era necessário agitar um osso, um bocadinho de carne ou uma bolacha, perto daquela coisa confusa, que parecia um cão.",
+        "Mas os gatos são pouco amigos de prestar favores.",
+        "Portanto e por este lado, o dos gatos, nada feito, isto é, se continuássemos na dúvida sobre qual o lado da cabeça e qual o outro lado…",
+        "Conseguia-se assim e finalmente descobrir de que lado ele tinha a cabeça."
+      ]
+    }
+  ]
+}

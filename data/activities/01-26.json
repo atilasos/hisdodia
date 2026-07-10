@@ -1,0 +1,131 @@
+{
+  "id": "01-26",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "dúvida",
+          "distractors": [
+            "homem",
+            "euros",
+            "quinze"
+          ],
+          "sentence": "Pacientemente, o homem tinha ensinado o papagaio a dizer: \"Não há dúvida\"."
+        },
+        {
+          "target": "homem",
+          "distractors": [
+            "dúvida",
+            "euros",
+            "quinze"
+          ],
+          "sentence": "Um dia, o homem resolveu vender o papagaio."
+        },
+        {
+          "target": "euros",
+          "distractors": [
+            "dúvida",
+            "homem",
+            "quinze"
+          ],
+          "sentence": "Um papagaio muito esperto por cinco mil euros..."
+        },
+        {
+          "target": "lavrador",
+          "distractors": [
+            "riqueza",
+            "comprar",
+            "perguntou"
+          ],
+          "sentence": "Aproximou-se um lavrador, que tinha menos de inteligência que de riqueza."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "dúvida",
+          "syllables": [
+            "dú",
+            "vi",
+            "da"
+          ]
+        },
+        {
+          "word": "homem",
+          "syllables": [
+            "ho",
+            "mem"
+          ]
+        },
+        {
+          "word": "lavrador",
+          "syllables": [
+            "la",
+            "vra",
+            "dor"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dormem",
+          "syllables": [
+            "dor",
+            "mem"
+          ]
+        },
+        {
+          "word": "lavrada",
+          "syllables": [
+            "la",
+            "vra",
+            "da"
+          ]
+        },
+        {
+          "word": "vida",
+          "syllables": [
+            "vi",
+            "da"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "dúvida",
+          "b": "dúvida"
+        },
+        {
+          "a": "homem",
+          "b": "homem"
+        },
+        {
+          "a": "euros",
+          "b": "euros"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Do Brasil regressara à sua terra um pobre emigrante.",
+        "Um dia, o homem resolveu vender o papagaio.",
+        "Aproximou-se um lavrador, que tinha menos de inteligência que de riqueza.",
+        "O lavrador ficou espantado e comprou logo o papagaio, que levou para casa.",
+        "Que burro que eu fui em ter dado tanto dinheiro por um papagaio!"
+      ]
+    }
+  ]
+}

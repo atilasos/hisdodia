@@ -1,0 +1,131 @@
+{
+  "id": "05-12",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "menina",
+          "distractors": [
+            "cintura",
+            "nadar",
+            "metade"
+          ],
+          "sentence": "Era uma vez uma menina que queria ser sereia."
+        },
+        {
+          "target": "cintura",
+          "distractors": [
+            "menina",
+            "metade",
+            "cima"
+          ],
+          "sentence": "Tinha lido histórias de sereias, esses estranhos seres, metade mulheres, da cintura para cima, e metade peixes, da cintura para baixo."
+        },
+        {
+          "target": "receita",
+          "distractors": [
+            "menina",
+            "cintura",
+            "metade"
+          ],
+          "sentence": "Num dos seus livros predilectos descobriu a receita para transformar meninas em sereias."
+        },
+        {
+          "target": "fórmula",
+          "distractors": [
+            "menina",
+            "cintura",
+            "metade"
+          ],
+          "sentence": "Era uma fórmula muito complicada que metia escamas de salmonete em pó, algas de uma espécie rara, cristais de sal, contados um por um, e…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "menina",
+          "syllables": [
+            "me",
+            "ni",
+            "na"
+          ]
+        },
+        {
+          "word": "cintura",
+          "syllables": [
+            "cin",
+            "tu",
+            "ra"
+          ]
+        },
+        {
+          "word": "metade",
+          "syllables": [
+            "me",
+            "ta",
+            "de"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cinta",
+          "syllables": [
+            "cin",
+            "ta"
+          ]
+        },
+        {
+          "word": "dera",
+          "syllables": [
+            "de",
+            "ra"
+          ]
+        },
+        {
+          "word": "meta",
+          "syllables": [
+            "me",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "menina",
+          "b": "menina"
+        },
+        {
+          "a": "cintura",
+          "b": "cintura"
+        },
+        {
+          "a": "nadar",
+          "b": "nadar"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez uma menina que queria ser sereia.",
+        "Era uma fórmula muito complicada que metia escamas de salmonete em pó, algas de uma espécie rara, cristais de sal, contados um por um, e…",
+        "Fosse da imprecisão da fórmula, fosse da falta de rigor na contagem dos cristais de sal, o certo é que a menina estava transformada numa…",
+        "De modo que a menina teve de consultar um médico, um especialista destas situações anormais.",
+        "De costas ou de bruços, a cortar a água da piscina, ela é uma autêntica sereia, sem deixar de ser menina."
+      ]
+    }
+  ]
+}

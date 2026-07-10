@@ -1,0 +1,134 @@
+{
+  "id": "12-16",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "cerejeira",
+          "distractors": [
+            "cerejas",
+            "pinheiro",
+            "chegava"
+          ],
+          "sentence": "O senhor Tadeu tinha, lá na horta, uma cerejeira de que gostava muito."
+        },
+        {
+          "target": "senhor",
+          "distractors": [
+            "cerejas",
+            "chegava",
+            "tempo"
+          ],
+          "sentence": "O senhor Tadeu enxotava-os , pendurava fitas nos ramos para assustá-los e chegou a armar um espantalho de vassoura na mão, que prendeu…"
+        },
+        {
+          "target": "cerejas",
+          "distractors": [
+            "cerejeira",
+            "senhor",
+            "pinheiro"
+          ],
+          "sentence": "Quando chegava o tempo das cerejas, era uma fartura, uma doçura que não havia igual."
+        },
+        {
+          "target": "pinheiro",
+          "distractors": [
+            "cerejeira",
+            "cerejas",
+            "chegava"
+          ],
+          "sentence": "Não é para o pinheiro - emendou o senhor Tadeu."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "cerejeira",
+          "syllables": [
+            "ce",
+            "re",
+            "jei",
+            "ra"
+          ]
+        },
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "cerejas",
+          "syllables": [
+            "ce",
+            "re",
+            "jas"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cera",
+          "syllables": [
+            "ce",
+            "ra"
+          ]
+        },
+        {
+          "word": "sejas",
+          "syllables": [
+            "se",
+            "jas"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "cerejeira",
+          "b": "cerejeira"
+        },
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "cerejas",
+          "b": "cerejas"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/16/images/je3pwgmb43xo3a4jatfdrrd4hvsgfx36/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O senhor Tadeu tinha, lá na horta, uma cerejeira de que gostava muito.",
+        "Mal chegava o tempo das cerejas amadurarem, a pardalada vinha em excursão festiva para o meio da cerejeira.",
+        "Há dias, encontrei-o, na loja de artigos de Natal, a carregar um enorme embrulho.",
+        "Para os pardais julgarem que é um pinheiro - concluí eu, pouco convencido da eficácia do projecto.",
+        "O senhor Tadeu lá se foi, muito contente com o seu plano."
+      ]
+    }
+  ]
+}

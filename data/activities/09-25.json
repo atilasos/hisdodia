@@ -1,0 +1,139 @@
+{
+  "id": "09-25",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "filho",
+          "distractors": [
+            "filha",
+            "rapaz",
+            "mulher"
+          ],
+          "sentence": "A tua mulher há-de ter um filho que te ajudará na lida de remador."
+        },
+        {
+          "target": "filha",
+          "distractors": [
+            "filho",
+            "rapaz",
+            "mulher"
+          ],
+          "sentence": "Era uma vez um casal que só tinha uma filha."
+        },
+        {
+          "target": "pescador",
+          "distractors": [
+            "peixe",
+            "destino",
+            "cheirar"
+          ],
+          "sentence": "Casava-se a filha do pescador com um pescador."
+        },
+        {
+          "target": "rapaz",
+          "distractors": [
+            "filho",
+            "filha",
+            "mulher"
+          ],
+          "sentence": "Que pena não ter um rapaz que me ajudasse!"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "filho",
+          "syllables": [
+            "fi",
+            "lho"
+          ]
+        },
+        {
+          "word": "filha",
+          "syllables": [
+            "fi",
+            "lha"
+          ]
+        },
+        {
+          "word": "pescador",
+          "syllables": [
+            "pes",
+            "ca",
+            "dor"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "calha",
+          "syllables": [
+            "ca",
+            "lha"
+          ]
+        },
+        {
+          "word": "fica",
+          "syllables": [
+            "fi",
+            "ca"
+          ]
+        },
+        {
+          "word": "pesca",
+          "syllables": [
+            "pes",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "filho",
+          "b": "filho"
+        },
+        {
+          "a": "filha",
+          "b": "filha"
+        },
+        {
+          "a": "pescador",
+          "b": "pescador"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/09/25/images/k6or4o23iumvhoaomhfjibfyexjalsgp/Imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um casal que só tinha uma filha.",
+        "Como nestas histórias tudo acontece depressa, já estamos a ver o rapaz ao lado do pai, ambos a par, cada um com o seu remo.",
+        "A mesma onda, que levara o rapaz, o repôs, a salvo, no barco.",
+        "Esperavam-nos a mulher, a filha e, de mão dada com ela, um rapaz...",
+        "Não havia dúvidas: o mar continuava a ter nas suas mãos o destino daquela família."
+      ]
+    }
+  ]
+}

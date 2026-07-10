@@ -1,0 +1,139 @@
+{
+  "id": "02-01",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "lobo",
+          "distractors": [
+            "água",
+            "homem",
+            "cima"
+          ],
+          "sentence": "Atraído pelo cheiro do cozinhado, apareceu um lobo."
+        },
+        {
+          "target": "água",
+          "distractors": [
+            "lobo",
+            "homem",
+            "cima"
+          ],
+          "sentence": "Fizeram uma fogueira, puseram uma panela de água em cima, com batatas e feijões, mas como a água não levantasse fervura para cozer a…"
+        },
+        {
+          "target": "homem",
+          "distractors": [
+            "lobo",
+            "água",
+            "panela"
+          ],
+          "sentence": "O homem trepou a uma árvore, mas o lobo ainda lhe ficou com os fundilhos das calças nos dentes."
+        },
+        {
+          "target": "panela",
+          "distractors": [
+            "homem",
+            "mulher",
+            "filhos"
+          ],
+          "sentence": "Ó Maria, traz a panela com a água ao lume."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "lobo",
+          "syllables": [
+            "lo",
+            "bo"
+          ]
+        },
+        {
+          "word": "água",
+          "syllables": [
+            "á",
+            "gua"
+          ]
+        },
+        {
+          "word": "panela",
+          "syllables": [
+            "pa",
+            "ne",
+            "la"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "bola",
+          "syllables": [
+            "bo",
+            "la"
+          ]
+        },
+        {
+          "word": "bolo",
+          "syllables": [
+            "bo",
+            "lo"
+          ]
+        },
+        {
+          "word": "nela",
+          "syllables": [
+            "ne",
+            "la"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "lobo",
+          "b": "lobo"
+        },
+        {
+          "a": "água",
+          "b": "água"
+        },
+        {
+          "a": "homem",
+          "b": "homem"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/02/01/images/fhpuosdvbpux2mlxdsht6xvwovur4e6x/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Uns saltimbancos tinham acampado num bosque.",
+        "Atraído pelo cheiro do cozinhado, apareceu um lobo.",
+        "Por sinal que não serviu, porque, noutra ocasião, andava o saltimbanco sozinho, a colher amoras, para levar aos filhos, e apareceu o…",
+        "Como a árvore era das altas, os lobos colocaram-se em castelo, uns em cima dos outros.",
+        "O homem, quando regressasse ao acampamento, já tinha que contar."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "04-13",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "lusitanos",
+          "distractors": [
+            "soldados",
+            "milhares",
+            "armaduras"
+          ],
+          "sentence": "De entre os que mais se opuseram às invasões dos reluzentes exércitos do Império, destacaram-se os lusitanos, comandados pelo temível…"
+        },
+        {
+          "target": "romanos",
+          "distractors": [
+            "soldados",
+            "milhares",
+            "tropel"
+          ],
+          "sentence": "Há muitos e muitos séculos, ainda não havia sequer Portugal, os romanos tinham conquistado quase por completo a Península Ibérica."
+        },
+        {
+          "target": "soldados",
+          "distractors": [
+            "lusitanos",
+            "romanos",
+            "milhares"
+          ],
+          "sentence": "De súbito, no escuro da noite, ainda mais cerrado pelo nevoeiro, um tropel imenso ecoou, acordando os soldados."
+        },
+        {
+          "target": "milhares",
+          "distractors": [
+            "lusitanos",
+            "romanos",
+            "soldados"
+          ],
+          "sentence": "Não longe, descendo a serra, tremeluziam breves estrelas, milhares e milhares de estrelas, que eram fachos de guerreiros, a postos para…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "lusitanos",
+          "syllables": [
+            "lu",
+            "si",
+            "ta",
+            "nos"
+          ]
+        },
+        {
+          "word": "romanos",
+          "syllables": [
+            "ro",
+            "ma",
+            "nos"
+          ]
+        },
+        {
+          "word": "soldados",
+          "syllables": [
+            "sol",
+            "da",
+            "dos"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dados",
+          "syllables": [
+            "da",
+            "dos"
+          ]
+        },
+        {
+          "word": "dama",
+          "syllables": [
+            "da",
+            "ma"
+          ]
+        },
+        {
+          "word": "data",
+          "syllables": [
+            "da",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "lusitanos",
+          "b": "lusitanos"
+        },
+        {
+          "a": "romanos",
+          "b": "romanos"
+        },
+        {
+          "a": "soldados",
+          "b": "soldados"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "sitiada",
+          "b": "cercada de tropas"
+        },
+        {
+          "a": "tremeluziam",
+          "b": "brilhavam com luz trémula ou vacilante / cintilavam"
+        },
+        {
+          "a": "tropel",
+          "b": "ruído que faz muita gente a andar"
+        },
+        {
+          "a": "ardil",
+          "b": "manha / astúcia / estratagema"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Hoje, vou contar-vos uma história, que passa por verdadeira.",
+        "Certa vez, uma zona da serra foi sitiada .",
+        "Todos saíram para o frio da noite e interrogaram o escuro.",
+        "E os soldados aterrorizados abandonavam por terra armaduras e armas.",
+        "Esta foi a história que o pastor da Serra da Estrela me contou."
+      ]
+    }
+  ]
+}

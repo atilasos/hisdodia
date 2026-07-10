@@ -1,0 +1,129 @@
+{
+  "id": "05-31",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "queijo",
+          "distractors": [
+            "queijos",
+            "casca",
+            "parecem"
+          ],
+          "sentence": "Era uma vez um queijo flamengo, redondo e vermelhinho, ainda por encetar ."
+        },
+        {
+          "target": "flamengo",
+          "distractors": [
+            "queijos",
+            "patuscas",
+            "parecem"
+          ],
+          "sentence": "Veio o queijo flamengo, saltitando o saltarico, e a marcha foi ao chão, como se lhe desse um fanico."
+        },
+        {
+          "target": "queijos",
+          "distractors": [
+            "queijo",
+            "flamengo",
+            "patuscas"
+          ],
+          "sentence": "Estava pendurado numa árvore, porque, nas histórias patuscas, os queijos nascem e crescem nas árvores."
+        },
+        {
+          "target": "bola",
+          "distractors": [
+            "casca",
+            "ploc",
+            "novo"
+          ],
+          "sentence": "O futebolista, supondo que o queijo era a bola, deu-lhe um chuto valente."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "queijo",
+          "syllables": [
+            "quei",
+            "jo"
+          ]
+        },
+        {
+          "word": "flamengo",
+          "syllables": [
+            "fla",
+            "men",
+            "go"
+          ]
+        },
+        {
+          "word": "bola",
+          "syllables": [
+            "bo",
+            "la"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "gola",
+          "syllables": [
+            "go",
+            "la"
+          ]
+        },
+        {
+          "word": "jogo",
+          "syllables": [
+            "jo",
+            "go"
+          ]
+        },
+        {
+          "word": "lago",
+          "syllables": [
+            "la",
+            "go"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "queijo",
+          "b": "queijo"
+        },
+        {
+          "a": "flamengo",
+          "b": "flamengo"
+        },
+        {
+          "a": "queijos",
+          "b": "queijos"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Se acharem esta história mais disparatada e patusca do que as outras, não é culpa minha.",
+        "Por azar, escorregou numa casca, talvez de queijo, e estatelou-se no chão.",
+        "E vai daí, deu-lhe um enorme pontapé, que o atirou para as nuvens, precisamente na altura em que o público voltava a gritar GOOLO!",
+        "Se o queijo se não tivesse, entretanto, lembrado da lei da gravidade, a estas horas os astrónomos, que apontam os seus telescópios para…",
+        "É natural que se tenha desprendido de novo, mas, por hoje, já chega."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "06-02",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "pinguins",
+          "distractors": [
+            "pinguim",
+            "perguntou",
+            "explicar"
+          ],
+          "sentence": "Apresente-me esses tais pinguins, que devem ser bacanas ."
+        },
+        {
+          "target": "cores",
+          "distractors": [
+            "olhos",
+            "terra",
+            "coisa"
+          ],
+          "sentence": "Foi-se aproximando e, à medida que se aproximava, ia contando as cores: \"Verde, azul, amarelo, vermelho, castanho..."
+        },
+        {
+          "target": "pinguim",
+          "distractors": [
+            "pinguins",
+            "perguntou",
+            "explicar"
+          ],
+          "sentence": "É um pinguim às cores - disse um dos pinguins."
+        },
+        {
+          "target": "olhos",
+          "distractors": [
+            "cores",
+            "terra",
+            "coisa"
+          ],
+          "sentence": "Passeava o Urso Branco a sua indolente figura pelos desertos gelados do Polo Sul, quando, espremendo os olhos cansados de tanto branco…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "pinguins",
+          "syllables": [
+            "pin",
+            "guins"
+          ]
+        },
+        {
+          "word": "cores",
+          "syllables": [
+            "co",
+            "res"
+          ]
+        },
+        {
+          "word": "bicho",
+          "syllables": [
+            "bi",
+            "cho"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "bico",
+          "syllables": [
+            "bi",
+            "co"
+          ]
+        },
+        {
+          "word": "chores",
+          "syllables": [
+            "cho",
+            "res"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "pinguins",
+          "b": "pinguins"
+        },
+        {
+          "a": "cores",
+          "b": "cores"
+        },
+        {
+          "a": "pinguim",
+          "b": "pinguim"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/06/02/images/r5vggzgsmvkp4ukwtjokgygqsacgtxbi/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Passeava o Urso Branco a sua indolente figura pelos desertos gelados do Polo Sul, quando, espremendo os olhos cansados de tanto branco…",
+        "Da Amazónia, no Brasil, uma maravilha de terra...",
+        "Muitos pinguins juntos fazem um bocado de impressão.",
+        "Vim procurar a vossa companhia para vos explicar as cores e para vos ensinar a comportarem-se como pinguins do nosso tempo.",
+        "Em terra de pinguins pretos e brancos, qualquer fruta-cores é rei."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "03-08",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "tigre",
+          "distractors": [
+            "metade",
+            "casa",
+            "cabaça"
+          ],
+          "sentence": "E talvez não lhe faltasse alguma razão, porque, entre outros perigos de respeito, um tigre de grande porte rondava o povoado e saltava…"
+        },
+        {
+          "target": "lavrador",
+          "distractors": [
+            "camponês",
+            "caminho",
+            "machado"
+          ],
+          "sentence": "Havia na China de antigamente um lavrador muito medroso."
+        },
+        {
+          "target": "metade",
+          "distractors": [
+            "tigre",
+            "caminho",
+            "machado"
+          ],
+          "sentence": "Dá-me metade das galinhas que levas para o mercado - pedia o tigre, numa voz que não era de pedir."
+        },
+        {
+          "target": "camponês",
+          "distractors": [
+            "lavrador",
+            "caminho",
+            "machado"
+          ],
+          "sentence": "E o pobre camponês, apanhado no caminho, não tinha outro remédio senão dividir a sua carga a meias com o tigre."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "tigre",
+          "syllables": [
+            "ti",
+            "gre"
+          ]
+        },
+        {
+          "word": "lavrador",
+          "syllables": [
+            "la",
+            "vra",
+            "dor"
+          ]
+        },
+        {
+          "word": "metade",
+          "syllables": [
+            "me",
+            "ta",
+            "de"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dorme",
+          "syllables": [
+            "dor",
+            "me"
+          ]
+        },
+        {
+          "word": "lata",
+          "syllables": [
+            "la",
+            "ta"
+          ]
+        },
+        {
+          "word": "meta",
+          "syllables": [
+            "me",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "tigre",
+          "b": "tigre"
+        },
+        {
+          "a": "lavrador",
+          "b": "lavrador"
+        },
+        {
+          "a": "metade",
+          "b": "metade"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/03/08/images/a53vu6plac2aknxw5drtdn5vfe6fpwr4/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Havia na China de antigamente um lavrador muito medroso.",
+        "Um dia, calhou a vez ao lavrador, que sulcava as suas terras com um arado, puxado por um boi.",
+        "Quando, esbaforido , chegou a casa e contou à mulher o que se passara, ela, que era mais destemida do que o marido (o que não era difícil...",
+        "Apetece-me comer um tigre às fatias, cortadas uma a uma pelas riscas dos lombos.",
+        "E o tigre, de rabo entre as pernas, fugiu daquelas paragens, para nunca mais ser visto."
+      ]
+    }
+  ]
+}

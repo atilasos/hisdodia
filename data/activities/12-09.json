@@ -1,0 +1,154 @@
+{
+  "id": "12-09",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "dragão",
+          "distractors": [
+            "jantar",
+            "bifes",
+            "dentes"
+          ],
+          "sentence": "Quando, uma vez, a rainha exigiu, para um jantar de festa, bifes de dragão, os cozinheiros entreolharam-se, em silêncio, cheios de pavor."
+        },
+        {
+          "target": "jantar",
+          "distractors": [
+            "dragão",
+            "bifes",
+            "dentes"
+          ],
+          "sentence": "Se não regressar dentro de dois dias é porque o dragão decidiu incluir-me no jantar dele, em vez de ser ele incluído no vosso."
+        },
+        {
+          "target": "bifes",
+          "distractors": [
+            "dragão",
+            "jantar",
+            "real"
+          ],
+          "sentence": "A rainha, que se achava ainda muito nova para experimentar a viuvez, protestou, dizendo que afinal a ideia dos bifes de dragão talvez…"
+        },
+        {
+          "target": "real",
+          "distractors": [
+            "bifes",
+            "senão",
+            "dois"
+          ],
+          "sentence": "Foram ter com o rei, para pô-lo a par do que a sua real esposa pretendia."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "dragão",
+          "syllables": [
+            "dra",
+            "gão"
+          ]
+        },
+        {
+          "word": "real",
+          "syllables": [
+            "re",
+            "al"
+          ]
+        },
+        {
+          "word": "almoço",
+          "syllables": [
+            "al",
+            "mo",
+            "ço"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "moço",
+          "syllables": [
+            "mo",
+            "ço"
+          ]
+        },
+        {
+          "word": "remo",
+          "syllables": [
+            "re",
+            "mo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "dragão",
+          "b": "dragão"
+        },
+        {
+          "a": "jantar",
+          "b": "jantar"
+        },
+        {
+          "a": "bifes",
+          "b": "bifes"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "caprichosa",
+          "b": "teimosa"
+        },
+        {
+          "a": "desfastio",
+          "b": "distracção"
+        },
+        {
+          "a": "indigesta",
+          "b": "que se digere com dificuldade"
+        },
+        {
+          "a": "cevil",
+          "b": "lugar onde se acoitam feras"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/09/images/udoqg3wnwwb6vtwe6smake2xwm3doxul/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Dantes, lá para os lados da Rússia ou mais longe ainda, havia uma rainha caprichosa e esquisita de boca, que, por maldade ou desfastio…",
+        "Foram ter com o rei, para pô-lo a par do que a sua real esposa pretendia.",
+        "Passaram dias, semanas, meses e o rei sem voltar.",
+        "Tinha um ar estranho, usava um manto até aos pés e pesadas barbas que lhe fechavam o rosto.",
+        "Nunca se chegou a saber se os dentes de dragão seriam verdadeiros."
+      ]
+    }
+  ]
+}

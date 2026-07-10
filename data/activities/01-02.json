@@ -1,0 +1,139 @@
+{
+  "id": "01-02",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "ovelha",
+          "distractors": [
+            "vinha",
+            "nunca",
+            "chega"
+          ],
+          "sentence": "Pois esta ovelha era mesmo muito generosa."
+        },
+        {
+          "target": "vinha",
+          "distractors": [
+            "ovelha",
+            "nunca",
+            "chega"
+          ],
+          "sentence": "Vinha uma velhinha e pedia-lhe um xailinho de lã para o Inverno."
+        },
+        {
+          "target": "generosa",
+          "distractors": [
+            "chegava",
+            "afadigada",
+            "generoso"
+          ],
+          "sentence": "E a ovelha generosa lá foi atender uma avó, que precisava de um novelo para um casaquinho de bebé, o seu primeiro neto que estava para…"
+        },
+        {
+          "target": "escola",
+          "distractors": [
+            "ovelha",
+            "vinha",
+            "nunca"
+          ],
+          "sentence": "Vinha uma menina e pedia-lhe um carapuço de lã para ir para à escola."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "ovelha",
+          "syllables": [
+            "o",
+            "ve",
+            "lha"
+          ]
+        },
+        {
+          "word": "vinha",
+          "syllables": [
+            "vi",
+            "nha"
+          ]
+        },
+        {
+          "word": "nunca",
+          "syllables": [
+            "nun",
+            "ca"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "calha",
+          "syllables": [
+            "ca",
+            "lha"
+          ]
+        },
+        {
+          "word": "cave",
+          "syllables": [
+            "ca",
+            "ve"
+          ]
+        },
+        {
+          "word": "olha",
+          "syllables": [
+            "o",
+            "lha"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "ovelha",
+          "b": "ovelha"
+        },
+        {
+          "a": "vinha",
+          "b": "vinha"
+        },
+        {
+          "a": "nunca",
+          "b": "nunca"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/01/02/images/n37tykwflvf4l2ymha2kucoqaly3vnr2/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Pois esta ovelha era mesmo muito generosa.",
+        "Vinha um rapaz e pedia-lhe um cachecol de lã para ir à bola.",
+        "Eu só queria um novelozinho para fazer um saco para a botija.",
+        "Eu só queria um novelozinho para acabar uma manta.",
+        "E a ovelha generosa lá foi atender uma avó, que precisava de um novelo para um casaquinho de bebé, o seu primeiro neto que estava para…"
+      ]
+    }
+  ]
+}

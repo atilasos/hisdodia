@@ -1,0 +1,162 @@
+{
+  "id": "01-04",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "rapaz",
+          "distractors": [
+            "cavalo",
+            "solar",
+            "respondeu"
+          ],
+          "sentence": "Não esperes mais, rapaz, porque o séquito já lá deve estar."
+        },
+        {
+          "target": "cavalo",
+          "distractors": [
+            "rapaz",
+            "séquito",
+            "vestido"
+          ],
+          "sentence": "Mas o rei, que não era de pompas , apareceu a cavalo, sem escolta , vestido como qualquer um."
+        },
+        {
+          "target": "séquito",
+          "distractors": [
+            "cavalo",
+            "atrevido",
+            "vestido"
+          ],
+          "sentence": "Eu ensinava-lhe o caminho, senhor, se não tivesse à espera do séquito do rei."
+        },
+        {
+          "target": "atrevido",
+          "distractors": [
+            "séquito",
+            "vestido",
+            "caminho"
+          ],
+          "sentence": "Hei-de ser eu - respondeu o atrevido Quitério."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "rapaz",
+          "syllables": [
+            "ra",
+            "paz"
+          ]
+        },
+        {
+          "word": "cavalo",
+          "syllables": [
+            "ca",
+            "va",
+            "lo"
+          ]
+        },
+        {
+          "word": "séquito",
+          "syllables": [
+            "sé",
+            "qui",
+            "to"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "capaz",
+          "syllables": [
+            "ca",
+            "paz"
+          ]
+        },
+        {
+          "word": "cato",
+          "syllables": [
+            "ca",
+            "to"
+          ]
+        },
+        {
+          "word": "cava",
+          "syllables": [
+            "ca",
+            "va"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "rapaz",
+          "b": "rapaz"
+        },
+        {
+          "a": "cavalo",
+          "b": "cavalo"
+        },
+        {
+          "a": "séquito",
+          "b": "séquito"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "pompas",
+          "b": "luxos / ostentações"
+        },
+        {
+          "a": "séquito",
+          "b": "cortejo"
+        },
+        {
+          "a": "escolta",
+          "b": "guarda / acompanhamento"
+        },
+        {
+          "a": "desbarretaram",
+          "b": "tiraram o barrete / chapéu"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/01/04/images/hdzn6dkr2aycbozedeyqhchhznv5ck33/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Eu hei-de falar ao rei ou não me chame Quitério.",
+        "Vou bem encaminhado para o solar do Conde de Ameal?",
+        "O Quitério quis saber como é que o rei viria vestido.",
+        "Assim que os dois, montados no mesmo cavalo, chegaram aos paços do conde, logo criados e fidalgos se desbarretaram à sua passagem.",
+        "O rei achou graça e a história acaba bem."
+      ]
+    }
+  ]
+}

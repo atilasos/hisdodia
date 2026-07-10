@@ -1,0 +1,133 @@
+{
+  "id": "09-04",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "príncipe",
+          "distractors": [
+            "figueira",
+            "camponês",
+            "mandava"
+          ],
+          "sentence": "Conta-se que havia um príncipe que era muito ruim."
+        },
+        {
+          "target": "figueira",
+          "distractors": [
+            "príncipe",
+            "camponês",
+            "mandava"
+          ],
+          "sentence": "Os da minha figueira nunca me deixaram ficar mal."
+        },
+        {
+          "target": "terra",
+          "distractors": [
+            "dono",
+            "sempre",
+            "nunca"
+          ],
+          "sentence": "De uma ocasião em que o príncipe foi visitar com a sua comitiva um povoado, as gentes da terra, por cortesia, quiseram oferecer-lhe uma…"
+        },
+        {
+          "target": "dono",
+          "distractors": [
+            "terra",
+            "nunca",
+            "seca"
+          ],
+          "sentence": "O príncipe chegou, muito emproado, e uma deputação dos camponeses da aldeia, chefiada pelo dono da figueira, veio recebê-lo no largo…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "príncipe",
+          "syllables": [
+            "prín",
+            "ci",
+            "pe"
+          ]
+        },
+        {
+          "word": "figueira",
+          "syllables": [
+            "fi",
+            "guei",
+            "ra"
+          ]
+        },
+        {
+          "word": "terra",
+          "syllables": [
+            "ter",
+            "ra"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "peguei",
+          "syllables": [
+            "pe",
+            "guei"
+          ]
+        },
+        {
+          "word": "rara",
+          "syllables": [
+            "ra",
+            "ra"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "príncipe",
+          "b": "príncipe"
+        },
+        {
+          "a": "figueira",
+          "b": "figueira"
+        },
+        {
+          "a": "terra",
+          "b": "terra"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/09/04/images/idwbqr62jgauizonk56gutcvg7avg52w/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Conta-se que havia um príncipe que era muito ruim.",
+        "Dá-se-lhe um saco de pinhas - alvitrou alguém.",
+        "O príncipe chegou, muito emproado, e uma deputação dos camponeses da aldeia, chefiada pelo dono da figueira, veio recebê-lo no largo…",
+        "Cumprida a tarefa, a principesca comitiva abandonou a aldeia, sem um gesto de despedida.",
+        "Calculem vocês se, em vez dos figos, lhe tínhamos oferecido as pinhas ou os melões?"
+      ]
+    }
+  ]
+}

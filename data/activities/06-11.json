@@ -1,0 +1,134 @@
+{
+  "id": "06-11",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "rapazinho",
+          "distractors": [
+            "margarina",
+            "perguntou",
+            "estrelar"
+          ],
+          "sentence": "O rapazinho folheou uns, folheou outros, mas não se decidia."
+        },
+        {
+          "target": "livros",
+          "distractors": [
+            "cozinha",
+            "livro",
+            "folheou"
+          ],
+          "sentence": "O bibliotecário levou-o a uma prateleira, onde havia uma quantidade de livros de receitas ou para fazer doces ou para preparar grandes…"
+        },
+        {
+          "target": "cozinha",
+          "distractors": [
+            "livros",
+            "folheou",
+            "comida"
+          ],
+          "sentence": "Para que queres, então, um livro de cozinha?"
+        },
+        {
+          "target": "livro",
+          "distractors": [
+            "livros",
+            "comida",
+            "grande"
+          ],
+          "sentence": "O bibliotecário emprestou-lhe um livro, onde esta e outras histórias que tais bem podiam estar e a nossa pequena história talvez…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "rapazinho",
+          "syllables": [
+            "ra",
+            "pa",
+            "zi",
+            "nho"
+          ]
+        },
+        {
+          "word": "livros",
+          "syllables": [
+            "li",
+            "vros"
+          ]
+        },
+        {
+          "word": "cozinha",
+          "syllables": [
+            "co",
+            "zi",
+            "nha"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "copa",
+          "syllables": [
+            "co",
+            "pa"
+          ]
+        },
+        {
+          "word": "linha",
+          "syllables": [
+            "li",
+            "nha"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "rapazinho",
+          "b": "rapazinho"
+        },
+        {
+          "a": "livros",
+          "b": "livros"
+        },
+        {
+          "a": "cozinha",
+          "b": "cozinha"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/06/11/images/5c1b04fe7a61d337fe2c6da0/imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O bibliotecário levou-o a uma prateleira, onde havia uma quantidade de livros de receitas ou para fazer doces ou para preparar grandes…",
+        "O rapazinho é que não havia meio de escolher.",
+        "Queria estrelar um ovo e não sei se hei-de deitar primeiro, na frigideira, o ovo ou a margarina...",
+        "O bibliotecário emprestou-lhe um livro, onde esta e outras histórias que tais bem podiam estar e a nossa pequena história talvez…",
+        "Em certas ocasiões, tem de se explicar tudo, tintim por tintim."
+      ]
+    }
+  ]
+}

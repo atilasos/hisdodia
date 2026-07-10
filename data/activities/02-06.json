@@ -1,0 +1,140 @@
+{
+  "id": "02-06",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "usavam",
+          "distractors": [
+            "perucas",
+            "portas",
+            "homens"
+          ],
+          "sentence": "Já se vê que nem todos os homens usavam cabeleiras."
+        },
+        {
+          "target": "perucas",
+          "distractors": [
+            "usavam",
+            "portas",
+            "homens"
+          ],
+          "sentence": "Luís XIV, um grande rei francês, mas também muito vaidoso, tinha ao seu serviço quarenta cabeleireiros de perucas, que só trabalhavam…"
+        },
+        {
+          "target": "portas",
+          "distractors": [
+            "usavam",
+            "perucas",
+            "homens"
+          ],
+          "sentence": "Como o palácio tinha muitas janelas - 365 janelas, mais precisamente - e muitas portas e muitos criados, que iam e vinham e abriam…"
+        },
+        {
+          "target": "cabeleira",
+          "distractors": [
+            "corte",
+            "cabelo",
+            "correntes"
+          ],
+          "sentence": "Daí em diante, só passou a aparecer em público com uma pesada coroa por cima da cabeleira, espécie de pisa-papéis, isto é de…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "usavam",
+          "syllables": [
+            "u",
+            "sa",
+            "vam"
+          ]
+        },
+        {
+          "word": "perucas",
+          "syllables": [
+            "pe",
+            "ru",
+            "cas"
+          ]
+        },
+        {
+          "word": "portas",
+          "syllables": [
+            "por",
+            "tas"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "peru",
+          "syllables": [
+            "pe",
+            "ru"
+          ]
+        },
+        {
+          "word": "pesa",
+          "syllables": [
+            "pe",
+            "sa"
+          ]
+        },
+        {
+          "word": "sacas",
+          "syllables": [
+            "sa",
+            "cas"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "usavam",
+          "b": "usavam"
+        },
+        {
+          "a": "perucas",
+          "b": "perucas"
+        },
+        {
+          "a": "portas",
+          "b": "portas"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/02/06/images/cclqtve57tarulecppieiuvjcgp523b4/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Já se vê que nem todos os homens usavam cabeleiras.",
+        "Uma vez, perguntaram-nos se o Marquês de Pombal usava o cabelo caído para os ombros, como vemos nas gravuras que o representam.",
+        "Como o palácio tinha muitas janelas - 365 janelas, mais precisamente - e muitas portas e muitos criados, que iam e vinham e abriam…",
+        "Estava o rei a dizer isto mesmo, quando uma janela se abriu por si e ...",
+        "Os sacrifícios que um rei tem de fazer para conservar a cabeleira..."
+      ]
+    }
+  ]
+}

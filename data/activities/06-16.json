@@ -1,0 +1,142 @@
+{
+  "id": "06-16",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "galos",
+          "distractors": [
+            "pedrês",
+            "quatro",
+            "sempre"
+          ],
+          "sentence": "Mas, agora me lembro que hoje os galos ainda não cantaram."
+        },
+        {
+          "target": "pedrês",
+          "distractors": [
+            "galos",
+            "quatro",
+            "sempre"
+          ],
+          "sentence": "Era uma vez uma galinha pedrês que só sabia contar até três."
+        },
+        {
+          "target": "aconteceu",
+          "distractors": [
+            "pespontão",
+            "tiranete",
+            "assim"
+          ],
+          "sentence": "Logo aconteceu nascerem-lhe quatro pintainhos."
+        },
+        {
+          "target": "quatro",
+          "distractors": [
+            "galos",
+            "pedrês",
+            "sempre"
+          ],
+          "sentence": "Três mais um, quatro - dizia-lhe o pato."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "galos",
+          "syllables": [
+            "ga",
+            "los"
+          ]
+        },
+        {
+          "word": "pedrês",
+          "syllables": [
+            "pe",
+            "drês"
+          ]
+        },
+        {
+          "word": "aconteceu",
+          "syllables": [
+            "a",
+            "con",
+            "te",
+            "ceu"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "apeteceu",
+          "syllables": [
+            "a",
+            "pe",
+            "te",
+            "ceu"
+          ]
+        },
+        {
+          "word": "conte",
+          "syllables": [
+            "con",
+            "te"
+          ]
+        },
+        {
+          "word": "pega",
+          "syllables": [
+            "pe",
+            "ga"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "galos",
+          "b": "galos"
+        },
+        {
+          "a": "pedrês",
+          "b": "pedrês"
+        },
+        {
+          "a": "aconteceu",
+          "b": "aconteceu"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/06/16/images/cjuwqtiyob6jnjbvo4iemlbqmxkmefbg/Imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez uma galinha pedrês que só sabia contar até três.",
+        "Não queiras a comida toda para ti, Mais Um!",
+        "Estou mesmo convencido que se não fosse ele o primeiro a alarmar os campos adormecidos com os seus gargarejos de madrugador, os…",
+        "Morreu Mais Um às mãos da Conceição do facalhão.",
+        "Mas, agora me lembro que hoje os galos ainda não cantaram."
+      ]
+    }
+  ]
+}

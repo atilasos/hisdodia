@@ -1,0 +1,139 @@
+{
+  "id": "12-05",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "escola",
+          "distractors": [
+            "sabão",
+            "caminho",
+            "lavar"
+          ],
+          "sentence": "Continuaram o caminho e logo por azar, à entrada da escola, deram com o cabo Octávio, postado de sentinela."
+        },
+        {
+          "target": "mãos",
+          "distractors": [
+            "sabão",
+            "cabo",
+            "lavar"
+          ],
+          "sentence": "Cheira-nos as mãos, que ainda cheiram à casca das tangerinas, e prende-nos."
+        },
+        {
+          "target": "sabão",
+          "distractors": [
+            "escola",
+            "mãos",
+            "cabo"
+          ],
+          "sentence": "Temos de arranjar sabão para lavar as mãos como deve ser - disse o Manuel."
+        },
+        {
+          "target": "cabo",
+          "distractors": [
+            "mãos",
+            "sabão",
+            "caminho"
+          ],
+          "sentence": "É do cabo Octávio, da Guarda Republicana disse o Manuel."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "escola",
+          "syllables": [
+            "es",
+            "co",
+            "la"
+          ]
+        },
+        {
+          "word": "sabão",
+          "syllables": [
+            "sa",
+            "bão"
+          ]
+        },
+        {
+          "word": "cabo",
+          "syllables": [
+            "ca",
+            "bo"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "boca",
+          "syllables": [
+            "bo",
+            "ca"
+          ]
+        },
+        {
+          "word": "bola",
+          "syllables": [
+            "bo",
+            "la"
+          ]
+        },
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "escola",
+          "b": "escola"
+        },
+        {
+          "a": "mãos",
+          "b": "mãos"
+        },
+        {
+          "a": "sabão",
+          "b": "sabão"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/05/images/ktunzjbzw4f44vxw5stodopknqkkdwzn/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Escusam de ir a correr - disse-lhes a mãe.",
+        "Mas já tinham comido as doces tangerinas.",
+        "Vamos lavar as mãos ao rio - lembrou o Manuel.",
+        "Há-de ser da senhora Angelina, lavadeira - disse a Manuela.",
+        "Hão-de dizer à vossa mãe para passar a acordar-vos mais cedo."
+      ]
+    }
+  ]
+}

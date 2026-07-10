@@ -1,0 +1,131 @@
+{
+  "id": "02-22",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "deserto",
+          "distractors": [
+            "andaram",
+            "caminho",
+            "inflecte"
+          ],
+          "sentence": "Era uma vez um viajante que se perdeu no deserto."
+        },
+        {
+          "target": "andaram",
+          "distractors": [
+            "deserto",
+            "caminho",
+            "inflecte"
+          ],
+          "sentence": "Não sei se já andaram no deserto, mas se não andaram, imaginem."
+        },
+        {
+          "target": "caminho",
+          "distractors": [
+            "deserto",
+            "andaram",
+            "inflecte"
+          ],
+          "sentence": "Não há ninguém a quem perguntar o caminho."
+        },
+        {
+          "target": "senão",
+          "distractors": [
+            "perdeu",
+            "fácil",
+            "pessoa"
+          ],
+          "sentence": "Acudam-me, acudam-me, senão eu morro de sede, de fome, de calor..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "deserto",
+          "syllables": [
+            "de",
+            "ser",
+            "to"
+          ]
+        },
+        {
+          "word": "andaram",
+          "syllables": [
+            "an",
+            "da",
+            "ram"
+          ]
+        },
+        {
+          "word": "caminho",
+          "syllables": [
+            "ca",
+            "mi",
+            "nho"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "anda",
+          "syllables": [
+            "an",
+            "da"
+          ]
+        },
+        {
+          "word": "ande",
+          "syllables": [
+            "an",
+            "de"
+          ]
+        },
+        {
+          "word": "cato",
+          "syllables": [
+            "ca",
+            "to"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "deserto",
+          "b": "deserto"
+        },
+        {
+          "a": "andaram",
+          "b": "andaram"
+        },
+        {
+          "a": "caminho",
+          "b": "caminho"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um viajante que se perdeu no deserto.",
+        "Acudam-me, acudam-me, senão eu morro de sede, de fome, de calor...",
+        "O homem, ainda mais assustado, correu, à frente do escorpião.",
+        "Assim chegou a um oásis, com tamareiras e um poço de água fresca.",
+        "Felizmente que o escorpião se desviou a tempo, caso contrário esta história teria um fim bastante desanimador."
+      ]
+    }
+  ]
+}

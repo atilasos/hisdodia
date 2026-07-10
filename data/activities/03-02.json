@@ -1,0 +1,133 @@
+{
+  "id": "03-02",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "podre",
+          "distractors": [
+            "assim",
+            "orelha",
+            "tiros"
+          ],
+          "sentence": "De uma vez que o merceeiro estava lá para dentro, um freguês, por pirraça , ensinou o papagaio a dizer: \"Está tudo podre\"."
+        },
+        {
+          "target": "barbeiro",
+          "distractors": [
+            "ensinado",
+            "caçadeira",
+            "armazém"
+          ],
+          "sentence": "Isto enervava o barbeiro e enervada o barbeado."
+        },
+        {
+          "target": "assim",
+          "distractors": [
+            "podre",
+            "orelha",
+            "tiros"
+          ],
+          "sentence": "Os bandidos, assim que ouviram os disparos, saltaram de medo, supondo que era a polícia."
+        },
+        {
+          "target": "orelha",
+          "distractors": [
+            "podre",
+            "assim",
+            "tiros"
+          ],
+          "sentence": "À socapa , ensinou-o a dizer: \"Corta-lhe a orelha\"."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "podre",
+          "syllables": [
+            "po",
+            "dre"
+          ]
+        },
+        {
+          "word": "barbeiro",
+          "syllables": [
+            "bar",
+            "bei",
+            "ro"
+          ]
+        },
+        {
+          "word": "orelha",
+          "syllables": [
+            "o",
+            "re",
+            "lha"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "barro",
+          "syllables": [
+            "bar",
+            "ro"
+          ]
+        },
+        {
+          "word": "olha",
+          "syllables": [
+            "o",
+            "lha"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "podre",
+          "b": "podre"
+        },
+        {
+          "a": "barbeiro",
+          "b": "barbeiro"
+        },
+        {
+          "a": "assim",
+          "b": "assim"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/03/02/images/isbhqlaptxj2et2dmp35hingzp7j2bc5/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "De uma vez que o merceeiro estava lá para dentro, um freguês, por pirraça , ensinou o papagaio a dizer: \"Está tudo podre\".",
+        "Por sinal, o tal malandrote, que convencera o papagaio a dizer \"Está tudo podre\", também frequentava a barbearia.",
+        "O papagaio esvoaçou, a princípio atarantado, mas depressa ganhou altura e voou feliz.",
+        "Armou-se uma zaragata entre os dois grupos, em que ninguém ficou de fora.",
+        "O papagaio bem ensinado acertara, ao menos uma vez, no que dizia."
+      ]
+    }
+  ]
+}

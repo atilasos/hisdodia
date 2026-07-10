@@ -1,0 +1,123 @@
+{
+  "id": "01-12",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "veado",
+          "distractors": [
+            "pernas",
+            "hastes",
+            "corpo"
+          ],
+          "sentence": "Era uma vez um veado que tinha em grande apreço as suas hastes recortadas, que lhe davam à cabeça um ar de majestade."
+        },
+        {
+          "target": "pernas",
+          "distractors": [
+            "veado",
+            "hastes",
+            "chifres"
+          ],
+          "sentence": "As minhas pernas estão desproporcionadas com os outros extremos do meu corpo."
+        },
+        {
+          "target": "hastes",
+          "distractors": [
+            "veado",
+            "pernas",
+            "chifres"
+          ],
+          "sentence": "As hastes da sua vaidade por pouco que não o atraiçoavam."
+        },
+        {
+          "target": "chifres",
+          "distractors": [
+            "pernas",
+            "hastes",
+            "corpo"
+          ],
+          "sentence": "Os belos chifres estavam a deitá-lo a perder."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "veado",
+          "syllables": [
+            "ve",
+            "a",
+            "do"
+          ]
+        },
+        {
+          "word": "pernas",
+          "syllables": [
+            "per",
+            "nas"
+          ]
+        },
+        {
+          "word": "hastes",
+          "syllables": [
+            "has",
+            "tes"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dotes",
+          "syllables": [
+            "do",
+            "tes"
+          ]
+        },
+        {
+          "word": "perdoa",
+          "syllables": [
+            "per",
+            "do",
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "veado",
+          "b": "veado"
+        },
+        {
+          "a": "pernas",
+          "b": "pernas"
+        },
+        {
+          "a": "hastes",
+          "b": "hastes"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um veado que tinha em grande apreço as suas hastes recortadas, que lhe davam à cabeça um ar de majestade.",
+        "Em contrapartida, as patas delgadinhas desgostavam-no.",
+        "Corriam os cavalos a galope e corria o veado, com quantas pernas tinha.",
+        "Mas, num túnel de ramos, os galhos do veado embaraçaram-se nos troncos e suspenderam-lhe a corrida.",
+        "Já livre de perigo, o veado pôs-se a pensar no que lhe sucedera."
+      ]
+    }
+  ]
+}

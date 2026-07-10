@@ -1,0 +1,140 @@
+{
+  "id": "05-26",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "urso",
+          "distractors": [
+            "pino",
+            "baile",
+            "ficou"
+          ],
+          "sentence": "O urso Gingão gostava de dar nas vistas."
+        },
+        {
+          "target": "vistas",
+          "distractors": [
+            "palmas",
+            "gostava",
+            "bichos"
+          ],
+          "sentence": "E ele que gostava tanto de dar nas vistas!"
+        },
+        {
+          "target": "floresta",
+          "distractors": [
+            "máscaras",
+            "gostava",
+            "laçarote"
+          ],
+          "sentence": "Atravessava a floresta, de cabeça para baixo, ouvido atento a qualquer comentário."
+        },
+        {
+          "target": "máscaras",
+          "distractors": [
+            "floresta",
+            "gostava",
+            "laçarote"
+          ],
+          "sentence": "Meus queridos convidados, chegou o momento de tirarem as máscaras."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "urso",
+          "syllables": [
+            "ur",
+            "so"
+          ]
+        },
+        {
+          "word": "vistas",
+          "syllables": [
+            "vis",
+            "tas"
+          ]
+        },
+        {
+          "word": "floresta",
+          "syllables": [
+            "flo",
+            "res",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "flores",
+          "syllables": [
+            "flo",
+            "res"
+          ]
+        },
+        {
+          "word": "florestas",
+          "syllables": [
+            "flo",
+            "res",
+            "tas"
+          ]
+        },
+        {
+          "word": "resta",
+          "syllables": [
+            "res",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "urso",
+          "b": "urso"
+        },
+        {
+          "a": "vistas",
+          "b": "vistas"
+        },
+        {
+          "a": "floresta",
+          "b": "floresta"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/05/26/images/rmtlu32atv62pjqsvca7xf66smhtznpl/Imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O urso Gingão gostava de dar nas vistas.",
+        "Então, o urso Gingão pegava num violino e ia tocar para uma clareira.",
+        "Desanimado, foi procurar outras paragens.",
+        "E procuravam, fazendo cócegas, os botões, o fecho, os colchetes...",
+        "Parece que o urso Gingão ainda toca violino, mas porque gosta."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "09-12",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "gatos",
+          "distractors": [
+            "gato",
+            "unhas",
+            "olhos"
+          ],
+          "sentence": "A guerra entre gatos vadios e gatos de casa posta e cestinho com cobertor e miminhos doces depois das refeições, a grande guerra dos…"
+        },
+        {
+          "target": "gato",
+          "distractors": [
+            "gatos",
+            "unhas",
+            "olhos"
+          ],
+          "sentence": "Com que sonhará o gato preferido da Dona Micas?"
+        },
+        {
+          "target": "sonhará",
+          "distractors": [
+            "telhado",
+            "sonho",
+            "guerra"
+          ],
+          "sentence": "Se muito dorme, enrolado no fofo de si próprio, muito sonhará também."
+        },
+        {
+          "target": "unhas",
+          "distractors": [
+            "gatos",
+            "gato",
+            "olhos"
+          ],
+          "sentence": "Despontam as unhas das almofadas das patas, que estremecem."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "gatos",
+          "syllables": [
+            "ga",
+            "tos"
+          ]
+        },
+        {
+          "word": "gato",
+          "syllables": [
+            "ga",
+            "to"
+          ]
+        },
+        {
+          "word": "telhado",
+          "syllables": [
+            "te",
+            "lha",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "gado",
+          "syllables": [
+            "ga",
+            "do"
+          ]
+        },
+        {
+          "word": "telha",
+          "syllables": [
+            "te",
+            "lha"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "gatos",
+          "b": "gatos"
+        },
+        {
+          "a": "gato",
+          "b": "gato"
+        },
+        {
+          "a": "telhado",
+          "b": "telhado"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/09/12/images/m7fjrivhunyfrkm7wlsgoztiil3rxxgu/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Se muito dorme, enrolado no fofo de si próprio, muito sonhará também.",
+        "A guerra entre gatos vadios e gatos de casa posta e cestinho com cobertor e miminhos doces depois das refeições, a grande guerra dos…",
+        "Pompom - chama a Dona Micas, numa voz de ternura.",
+        "Pompom - volta a chamar a Dona Micas, cada vez mais ternurenta.",
+        "O gato gordo espreguiça-se para trás e para a frente, deixa-se cair do sofá e lá vai, no seu andar reboludo e enfadado, acudir ao…"
+      ]
+    }
+  ]
+}

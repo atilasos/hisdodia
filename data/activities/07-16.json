@@ -1,0 +1,131 @@
+{
+  "id": "07-16",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "bolsa",
+          "distractors": [
+            "terra",
+            "braços",
+            "seara"
+          ],
+          "sentence": "Hei-de poupar, porque não sou de grandes gastos e, um dia, com uma bolsa cheia de dinheiro dos meus ganhos, compro uma terra."
+        },
+        {
+          "target": "terra",
+          "distractors": [
+            "bolsa",
+            "braços",
+            "seara"
+          ],
+          "sentence": "Dava, desde que fosse pequena - uns palmos de terra com um espantalho ao meio."
+        },
+        {
+          "target": "braços",
+          "distractors": [
+            "bolsa",
+            "terra",
+            "abertos"
+          ],
+          "sentence": "Em compensação, podia descansar os braços."
+        },
+        {
+          "target": "desabado",
+          "distractors": [
+            "abertos",
+            "guardar",
+            "pardais"
+          ],
+          "sentence": "Colocou-se de braços abertos, a proteger a propriedade, e ali ficou, de grande chapéu desabado , camisa ao vento..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "bolsa",
+          "syllables": [
+            "bol",
+            "sa"
+          ]
+        },
+        {
+          "word": "terra",
+          "syllables": [
+            "ter",
+            "ra"
+          ]
+        },
+        {
+          "word": "braços",
+          "syllables": [
+            "bra",
+            "ços"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "brasa",
+          "syllables": [
+            "bra",
+            "sa"
+          ]
+        },
+        {
+          "word": "terços",
+          "syllables": [
+            "ter",
+            "ços"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "bolsa",
+          "b": "bolsa"
+        },
+        {
+          "a": "terra",
+          "b": "terra"
+        },
+        {
+          "a": "braços",
+          "b": "braços"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/07/16/images/f2c902f6b3ca6eb651065f0d/imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Estou aqui especado, a guardar o que não é meu e nem me pagam o encargo.",
+        "Um homem de palha, no nosso espectáculo, é novidade que enche um programa.",
+        "No largo da vila, havia um editorial que convocava voluntários para o exército.",
+        "Assustou-se o soldado com o desplante do animal, que não conhecia os superiores.",
+        "Para nós, que aqui o vemos, o fim voltou ao princípio, ao ofício de espantalho."
+      ]
+    }
+  ]
+}

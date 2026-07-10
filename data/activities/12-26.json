@@ -1,0 +1,139 @@
+{
+  "id": "12-26",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "folhas",
+          "distractors": [
+            "vidro",
+            "prata",
+            "longe"
+          ],
+          "sentence": "Mas um ladrão, que se tinha escondido na floresta, ao ver tal fortuna em ouro e prata, roubou-lhe as folhas todas."
+        },
+        {
+          "target": "vidro",
+          "distractors": [
+            "folhas",
+            "prata",
+            "longe"
+          ],
+          "sentence": "Fez uma nova mágica e o pinheirinho, no dia seguinte, acordou coberto de agulhas de vidro tilintante."
+        },
+        {
+          "target": "prata",
+          "distractors": [
+            "folhas",
+            "vidro",
+            "longe"
+          ],
+          "sentence": "A fada Flora, para alegrar o pinheirinho, vestiu-o, uma vez, de oiro e de prata."
+        },
+        {
+          "target": "fada",
+          "distractors": [
+            "folhas",
+            "vidro",
+            "prata"
+          ],
+          "sentence": "Então, a fada Flora voltou a condoer-se do pinheiro triste e nu."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "folhas",
+          "syllables": [
+            "fo",
+            "lhas"
+          ]
+        },
+        {
+          "word": "vidro",
+          "syllables": [
+            "vi",
+            "dro"
+          ]
+        },
+        {
+          "word": "floresta",
+          "syllables": [
+            "flo",
+            "res",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "flores",
+          "syllables": [
+            "flo",
+            "res"
+          ]
+        },
+        {
+          "word": "fores",
+          "syllables": [
+            "fo",
+            "res"
+          ]
+        },
+        {
+          "word": "resta",
+          "syllables": [
+            "res",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "folhas",
+          "b": "folhas"
+        },
+        {
+          "a": "vidro",
+          "b": "vidro"
+        },
+        {
+          "a": "prata",
+          "b": "prata"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/26/images/zoubgfteeqafo4ljt5zkgzyuh76xl37i/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "No meio da floresta, vivia um pinheirinho muito envergonhado.",
+        "Então, a fada Flora voltou a condoer-se do pinheiro triste e nu.",
+        "Desastrado como ele é sempre, abanou a pequenina árvore tanto que as folhas de vidro bateram umas nas outras.",
+        "Talvez ela já tivesse calculado que assim voltaria a acontecer.",
+        "No entanto, a lenda conta que alguém, adivinhando os pensamentos do pinheirinho, resolveu enfeitá-lo com lindas bolas de vidro de todas…"
+      ]
+    }
+  ]
+}

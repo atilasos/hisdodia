@@ -1,0 +1,139 @@
+{
+  "id": "03-06",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "sonho",
+          "distractors": [
+            "cabeça",
+            "barro",
+            "ouro"
+          ],
+          "sentence": "Tinha tido um sonho esquisito e apavorante, que se desvanecera, à luz do dia."
+        },
+        {
+          "target": "cabeça",
+          "distractors": [
+            "sonho",
+            "barro",
+            "contar"
+          ],
+          "sentence": "Mando cortar-vos a cabeça se até amanhã, ao raiar do sol, não descobrirem a charada do meu sonho."
+        },
+        {
+          "target": "barro",
+          "distractors": [
+            "sonho",
+            "cabeça",
+            "ouro"
+          ],
+          "sentence": "A pedra caiu nos pés de barro, que se partiram em cacos."
+        },
+        {
+          "target": "ouro",
+          "distractors": [
+            "sonho",
+            "barro",
+            "anos"
+          ],
+          "sentence": "Vestidos com túnicas debruadas a ouro, pareciam príncipes."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "sonho",
+          "syllables": [
+            "so",
+            "nho"
+          ]
+        },
+        {
+          "word": "cabeça",
+          "syllables": [
+            "ca",
+            "be",
+            "ça"
+          ]
+        },
+        {
+          "word": "barro",
+          "syllables": [
+            "bar",
+            "ro"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cabe",
+          "syllables": [
+            "ca",
+            "be"
+          ]
+        },
+        {
+          "word": "caro",
+          "syllables": [
+            "ca",
+            "ro"
+          ]
+        },
+        {
+          "word": "caso",
+          "syllables": [
+            "ca",
+            "so"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "sonho",
+          "b": "sonho"
+        },
+        {
+          "a": "cabeça",
+          "b": "cabeça"
+        },
+        {
+          "a": "barro",
+          "b": "barro"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/03/06/images/s5p56o5kxf3cgqruhayhkqsfaxjjlqnf/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Há mais de dois milhares de anos que aconteceu esta história ou outra parecida com a que eu vou contar.",
+        "Digam-me que sonho sonhei, na noite passada, e o que significa.",
+        "Daniel, condoído com os velhos sábios, pediu ao Deus da sua crença que lhe iluminasse o sono com um sonho igual ao do rei.",
+        "A pedra caiu nos pés de barro, que se partiram em cacos.",
+        "Não conta a história se a lição lhe serviu para o resto do seu reinado, mas é de crer que sim."
+      ]
+    }
+  ]
+}

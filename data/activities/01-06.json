@@ -1,0 +1,144 @@
+{
+  "id": "01-06",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "três",
+          "distractors": [
+            "reis",
+            "vindo",
+            "mundo"
+          ],
+          "sentence": "Três reis, vindo cada qual do seu extremo do mundo, encontraram-se num cruzamento de três caminhos."
+        },
+        {
+          "target": "estrela",
+          "distractors": [
+            "caminhos",
+            "cidade",
+            "mentira"
+          ],
+          "sentence": "Uma grande estrela, nova no céu, tinha-os atraído para o mesmo destino."
+        },
+        {
+          "target": "reis",
+          "distractors": [
+            "três",
+            "vindo",
+            "mundo"
+          ],
+          "sentence": "Vimos uma estrela que anuncia o nascimento do rei dos Judeus - disseram os três reis."
+        },
+        {
+          "target": "caminhos",
+          "distractors": [
+            "estrela",
+            "cidade",
+            "mentira"
+          ],
+          "sentence": "Os três reis sábios deixaram a cidade e continuaram por caminhos humildes atrás da estrela anunciadora, até que foram encontrar, em…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "estrela",
+          "syllables": [
+            "es",
+            "tre",
+            "la"
+          ]
+        },
+        {
+          "word": "caminhos",
+          "syllables": [
+            "ca",
+            "mi",
+            "nhos"
+          ]
+        },
+        {
+          "word": "cidade",
+          "syllables": [
+            "ci",
+            "da",
+            "de"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cadela",
+          "syllables": [
+            "ca",
+            "de",
+            "la"
+          ]
+        },
+        {
+          "word": "calada",
+          "syllables": [
+            "ca",
+            "la",
+            "da"
+          ]
+        },
+        {
+          "word": "cilada",
+          "syllables": [
+            "ci",
+            "la",
+            "da"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "três",
+          "b": "três"
+        },
+        {
+          "a": "estrela",
+          "b": "estrela"
+        },
+        {
+          "a": "reis",
+          "b": "reis"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/01/06/images/qihnwyeqdrofumzcmrm2flgsr3ll3ubs/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Três reis, vindo cada qual do seu extremo do mundo, encontraram-se num cruzamento de três caminhos.",
+        "Herodes, ao ouvir tal notícia, assustou-se.",
+        "Os três reis, que se chamavam Gaspar, Melchior e Baltasar, ajoelharam-se em adoração e abriram os cofres das oferendas.",
+        "Já não voltaram por Jerusalém, porque tinham sido avisados em sonhos para regressarem às suas terras por outros caminhos.",
+        "Mas o Menino, que a estrela iluminara, salvou-se."
+      ]
+    }
+  ]
+}

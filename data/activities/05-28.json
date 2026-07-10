@@ -1,0 +1,139 @@
+{
+  "id": "05-28",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "guarda",
+          "distractors": [
+            "guardar",
+            "nunca",
+            "correr"
+          ],
+          "sentence": "Como já estava habituado a guardar, com os resultados que se sabe, foi para guarda florestal."
+        },
+        {
+          "target": "florestal",
+          "distractors": [
+            "suplente",
+            "despedido",
+            "qualquer"
+          ],
+          "sentence": "Qualquer bicada de pica-pau num tronco, qualquer esvoaçar de melro, ao cimo das árvores, e o guarda florestal ficava com os cabelos tão…"
+        },
+        {
+          "target": "medo",
+          "distractors": [
+            "nunca",
+            "banco",
+            "medroso"
+          ],
+          "sentence": "Quanto mais medo tinha, à frente da baliza, mais bolas deixava entrar."
+        },
+        {
+          "target": "guardar",
+          "distractors": [
+            "guarda",
+            "correr",
+            "suplente"
+          ],
+          "sentence": "É um frangueiro e a baliza, que ele devia guardar, uma capoeira - disse o treinador."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "guarda",
+          "syllables": [
+            "guar",
+            "da"
+          ]
+        },
+        {
+          "word": "florestal",
+          "syllables": [
+            "flo",
+            "res",
+            "tal"
+          ]
+        },
+        {
+          "word": "medo",
+          "syllables": [
+            "me",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dado",
+          "syllables": [
+            "da",
+            "do"
+          ]
+        },
+        {
+          "word": "dares",
+          "syllables": [
+            "da",
+            "res"
+          ]
+        },
+        {
+          "word": "dores",
+          "syllables": [
+            "do",
+            "res"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "guarda",
+          "b": "guarda"
+        },
+        {
+          "a": "florestal",
+          "b": "florestal"
+        },
+        {
+          "a": "medo",
+          "b": "medo"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/05/28/images/49d114924073d5884ea56029/imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Quanto mais medo tinha, à frente da baliza, mais bolas deixava entrar.",
+        "Em qualquer dos casos, a sua fraca presença à porta não dá segurança aos depositantes.",
+        "E o guarda-freio, que tinha sido guarda-portão e guarda-redes, foi despedido.",
+        "Os bombeiros acudiram e o fogo foi apagado a tempo.",
+        "Até talvez, um dia, experimente, de novo, o lugar de guarda-redes."
+      ]
+    }
+  ]
+}

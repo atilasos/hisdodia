@@ -1,0 +1,129 @@
+{
+  "id": "05-15",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "prefeito",
+          "distractors": [
+            "prato",
+            "peixe",
+            "meninos"
+          ],
+          "sentence": "Só o regente do colégio - o prefeito -, à cabeceira da mesa, comia a seu gosto."
+        },
+        {
+          "target": "prato",
+          "distractors": [
+            "prefeito",
+            "peixe",
+            "órfãos"
+          ],
+          "sentence": "Num almoço, puseram em cada prato dos pensionistas um peixinho de nada com a pouca companhia de uma concha de arroz."
+        },
+        {
+          "target": "peixe",
+          "distractors": [
+            "prefeito",
+            "prato",
+            "órfãos"
+          ],
+          "sentence": "Estou a conversar com o peixe, senhor - esclareceu o mocinho."
+        },
+        {
+          "target": "órfãos",
+          "distractors": [
+            "prato",
+            "peixe",
+            "meninos"
+          ],
+          "sentence": "Num colégio de órfãos de antigamente, para onde iam os meninos que a família não podia sustentar, passava-se muita miséria."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "prefeito",
+          "syllables": [
+            "pre",
+            "fei",
+            "to"
+          ]
+        },
+        {
+          "word": "prato",
+          "syllables": [
+            "pra",
+            "to"
+          ]
+        },
+        {
+          "word": "peixe",
+          "syllables": [
+            "pei",
+            "xe"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "feixe",
+          "syllables": [
+            "fei",
+            "xe"
+          ]
+        },
+        {
+          "word": "peito",
+          "syllables": [
+            "pei",
+            "to"
+          ]
+        },
+        {
+          "word": "preto",
+          "syllables": [
+            "pre",
+            "to"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "prefeito",
+          "b": "prefeito"
+        },
+        {
+          "a": "prato",
+          "b": "prato"
+        },
+        {
+          "a": "peixe",
+          "b": "peixe"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Num colégio de órfãos de antigamente, para onde iam os meninos que a família não podia sustentar, passava-se muita miséria.",
+        "Num almoço, puseram em cada prato dos pensionistas um peixinho de nada com a pouca companhia de uma concha de arroz.",
+        "Os colegas estranharam e, lá do fundo, o prefeito quis saber o porquê daquela extravagância .",
+        "Estou a conversar com o peixe, senhor - esclareceu o mocinho.",
+        "Parece que a partir deste caso os meninos do orfanato passaram a ter ração melhorada."
+      ]
+    }
+  ]
+}

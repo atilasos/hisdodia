@@ -1,0 +1,132 @@
+{
+  "id": "10-03",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "margens",
+          "distractors": [
+            "margem",
+            "barcos",
+            "turista"
+          ],
+          "sentence": "Eram duas margens, com um rio a separá-las."
+        },
+        {
+          "target": "margem",
+          "distractors": [
+            "margens",
+            "ponte",
+            "ligar"
+          ],
+          "sentence": "Vira-me as costas - respondia-lhe a margem de cá."
+        },
+        {
+          "target": "ponte",
+          "distractors": [
+            "margem",
+            "ligar",
+            "barcos"
+          ],
+          "sentence": "Até que foi projectada uma ponte para ligar as duas margens."
+        },
+        {
+          "target": "ligar",
+          "distractors": [
+            "margem",
+            "ponte",
+            "barcos"
+          ],
+          "sentence": "Insultavam-se constantemente, enquanto o rio, sem lhes ligar, corria a seus pés."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "margens",
+          "syllables": [
+            "mar",
+            "gens"
+          ]
+        },
+        {
+          "word": "ponte",
+          "syllables": [
+            "pon",
+            "te"
+          ]
+        },
+        {
+          "word": "turista",
+          "syllables": [
+            "tu",
+            "ris",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "ponta",
+          "syllables": [
+            "pon",
+            "ta"
+          ]
+        },
+        {
+          "word": "riste",
+          "syllables": [
+            "ris",
+            "te"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "margens",
+          "b": "margens"
+        },
+        {
+          "a": "margem",
+          "b": "margem"
+        },
+        {
+          "a": "ponte",
+          "b": "ponte"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/03/images/qvaadkp3xk5lno3ox7zz4euxnsthfgwv/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Eram duas margens, com um rio a separá-las.",
+        "Insultavam-se constantemente, enquanto o rio, sem lhes ligar, corria a seus pés.",
+        "Andam a levantar esta ponte para chegarem mais perto de mim.",
+        "No dia em que foi inaugurada, houve foguetes, música, discursos.",
+        "E elas, sentindo-se espelho uma da outra, concordaram."
+      ]
+    }
+  ]
+}

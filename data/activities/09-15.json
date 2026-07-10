@@ -1,0 +1,130 @@
+{
+  "id": "09-15",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "fada",
+          "distractors": [
+            "real",
+            "moto",
+            "assim"
+          ],
+          "sentence": "Assim sucedia muitas vezes e, de todas as vezes que isso sucedia, a família real apelava para as maravilhosas virtudes da fada Beringela."
+        },
+        {
+          "target": "real",
+          "distractors": [
+            "fada",
+            "moto",
+            "assim"
+          ],
+          "sentence": "A rainha arregaçava o manto debruado a arminho e pele de coelho e encavalitava-se atrás do seu real esposo."
+        },
+        {
+          "target": "príncipe",
+          "distractors": [
+            "serviços",
+            "cinquenta",
+            "chamadas"
+          ],
+          "sentence": "Tinham um filho, que, como é óbvio, era príncipe."
+        },
+        {
+          "target": "moto",
+          "distractors": [
+            "fada",
+            "real",
+            "assim"
+          ],
+          "sentence": "Esta fada Beringela, por contrato com os antepassados do rei Vilandino III, assim se chamava o rei da moto, ficara com a incumbência de…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "fada",
+          "syllables": [
+            "fa",
+            "da"
+          ]
+        },
+        {
+          "word": "real",
+          "syllables": [
+            "re",
+            "al"
+          ]
+        },
+        {
+          "word": "moto",
+          "syllables": [
+            "mo",
+            "to"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "almofada",
+          "syllables": [
+            "al",
+            "mo",
+            "fa",
+            "da"
+          ]
+        },
+        {
+          "word": "fato",
+          "syllables": [
+            "fa",
+            "to"
+          ]
+        },
+        {
+          "word": "moda",
+          "syllables": [
+            "mo",
+            "da"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "fada",
+          "b": "fada"
+        },
+        {
+          "a": "real",
+          "b": "real"
+        },
+        {
+          "a": "príncipe",
+          "b": "príncipe"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um rei e um rainha muito pobres.",
+        "Vinha a fada Beringela dizendo-se muito atarefada, muito atrasada nas suas lides de fada e, protestando sempre contra esta descuidada…",
+        "Vocês estão já a ver que a família real, embalada neste hábito de chamar pela fada dos bons serviços por qualquer insignificância, se…",
+        "O que tu queres é cruzar os braços e não trabalhar - concluía a rainha.",
+        "Chama-se, se me não engano, tintura de iodo, ou coisa parecida..."
+      ]
+    }
+  ]
+}

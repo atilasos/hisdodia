@@ -1,0 +1,122 @@
+{
+  "id": "04-29",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "música",
+          "distractors": [
+            "dança",
+            "dançar",
+            "festa"
+          ],
+          "sentence": "Tinha guizos e sinos em colar, no pescoço, nos braços e nas pernas, que cadenciavam a música, como se cada gesto dela fosse o riso a nascer."
+        },
+        {
+          "target": "dança",
+          "distractors": [
+            "música",
+            "dançar",
+            "riso"
+          ],
+          "sentence": "Belo, muito belo, mas tão ao contrário da jovialidade do corpo, nos seus meneios de dança, que causava uma estranha impressão."
+        },
+        {
+          "target": "dançar",
+          "distractors": [
+            "música",
+            "dança",
+            "festa"
+          ],
+          "sentence": "O pai acorrentado na cave e ela a dançar no salão..."
+        },
+        {
+          "target": "vencidos",
+          "distractors": [
+            "bailarina",
+            "princesa",
+            "músicos"
+          ],
+          "sentence": "Ri - ordenou-lhe o senhor da festa e dos vencedores, tanto como dos vencidos."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "música",
+          "syllables": [
+            "mú",
+            "si",
+            "ca"
+          ]
+        },
+        {
+          "word": "dança",
+          "syllables": [
+            "dan",
+            "ça"
+          ]
+        },
+        {
+          "word": "dançar",
+          "syllables": [
+            "dan",
+            "çar"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "caça",
+          "syllables": [
+            "ca",
+            "ça"
+          ]
+        },
+        {
+          "word": "caçar",
+          "syllables": [
+            "ca",
+            "çar"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "música",
+          "b": "música"
+        },
+        {
+          "a": "dança",
+          "b": "dança"
+        },
+        {
+          "a": "dançar",
+          "b": "dançar"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Conta-se que, na Índia, há muito tempo, quando não paravam as guerras entre reis vizinhos por frívolas disputas de terras e riquezas, os…",
+        "Tinha guizos e sinos em colar, no pescoço, nos braços e nas pernas, que cadenciavam a música, como se cada gesto dela fosse o riso a nascer.",
+        "Mesmo assim, para quem dança sem vontade muito bem dança - comentou outro conviva.",
+        "Maravilhavam-se, à sua roda, porque nunca tinham visto dançar assim, com tanta graça, tanta leveza de pluma, pétala, brisa, asa, perfume...",
+        "Nenhuma bailarina dançou, em gestos de riso, em olhos e lábios iluminados de riso, como, naquela noite, a princesa dançou..."
+      ]
+    }
+  ]
+}

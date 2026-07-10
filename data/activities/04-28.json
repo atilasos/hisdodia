@@ -1,0 +1,130 @@
+{
+  "id": "04-28",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "cavalo",
+          "distractors": [
+            "andava",
+            "trote",
+            "banda"
+          ],
+          "sentence": "Não lhe chamavam cavalo do rei, mas cavalo real, porque andava sempre com o rei às costas."
+        },
+        {
+          "target": "real",
+          "distractors": [
+            "trote",
+            "banda",
+            "restante"
+          ],
+          "sentence": "O rei a cavalo passava revista à guarda real e a banda tocava o hino e os soldados apresentavam armas."
+        },
+        {
+          "target": "desfiles",
+          "distractors": [
+            "soldados",
+            "lanceiros",
+            "arqueiros"
+          ],
+          "sentence": "Quando se via, nos desfiles, à frente da restante cavalaria dos lanceiros , dos arqueiros , dos alabardeiros , julgava-se não só o rei…"
+        },
+        {
+          "target": "banda",
+          "distractors": [
+            "cavalo",
+            "real",
+            "andava"
+          ],
+          "sentence": "Mas, um dia, numa caçada, o cavalo real tropeçou num tronco e deixou cair o rei, que se estatelou no chão, com a coroa à banda."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "cavalo",
+          "syllables": [
+            "ca",
+            "va",
+            "lo"
+          ]
+        },
+        {
+          "word": "real",
+          "syllables": [
+            "re",
+            "al"
+          ]
+        },
+        {
+          "word": "andava",
+          "syllables": [
+            "an",
+            "da",
+            "va"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "alva",
+          "syllables": [
+            "al",
+            "va"
+          ]
+        },
+        {
+          "word": "anda",
+          "syllables": [
+            "an",
+            "da"
+          ]
+        },
+        {
+          "word": "cava",
+          "syllables": [
+            "ca",
+            "va"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "cavalo",
+          "b": "cavalo"
+        },
+        {
+          "a": "real",
+          "b": "real"
+        },
+        {
+          "a": "andava",
+          "b": "andava"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Não lhe chamavam cavalo do rei, mas cavalo real, porque andava sempre com o rei às costas.",
+        "O rei a cavalo passava revista à guarda real e a banda tocava o hino e os soldados apresentavam armas.",
+        "Mas, um dia, numa caçada, o cavalo real tropeçou num tronco e deixou cair o rei, que se estatelou no chão, com a coroa à banda.",
+        "Expulso das cavalariças reais, o cavalo percebeu finalmente que não lhe tinham respeito nenhum.",
+        "Depois do que se passou, o cavalo ganhou juízo."
+      ]
+    }
+  ]
+}

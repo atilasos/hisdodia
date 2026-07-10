@@ -1,0 +1,140 @@
+{
+  "id": "12-17",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "boneca",
+          "distractors": [
+            "montra",
+            "bonecas",
+            "bonecos"
+          ],
+          "sentence": "Estava a boneca Marília no meio de outras bonecas, todas choronas, e junto de outros brinquedos e bonecos."
+        },
+        {
+          "target": "montra",
+          "distractors": [
+            "boneca",
+            "bonecas",
+            "bonecos"
+          ],
+          "sentence": "Pelo menos, era o que diziam, ainda que, quem os visse de fora, dissesse que eles estavam na montra de uma casa de brinquedos, a mais…"
+        },
+        {
+          "target": "bonecas",
+          "distractors": [
+            "boneca",
+            "montra",
+            "bonecos"
+          ],
+          "sentence": "Os bonecos, alguns bem patuscos , como o ensonado urso Ronrom ou o espertíssimo burrinho Trolaró, e as bonecas, entre as quais a…"
+        },
+        {
+          "target": "bonecos",
+          "distractors": [
+            "boneca",
+            "montra",
+            "bonecas"
+          ],
+          "sentence": "E os bonecos entretinham-se imenso com os meninos que, do outro lado do vidro, os apreciavam."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "boneca",
+          "syllables": [
+            "bo",
+            "ne",
+            "ca"
+          ]
+        },
+        {
+          "word": "montra",
+          "syllables": [
+            "mon",
+            "tra"
+          ]
+        },
+        {
+          "word": "bonecas",
+          "syllables": [
+            "bo",
+            "ne",
+            "cas"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "boca",
+          "syllables": [
+            "bo",
+            "ca"
+          ]
+        },
+        {
+          "word": "bocas",
+          "syllables": [
+            "bo",
+            "cas"
+          ]
+        },
+        {
+          "word": "cabo",
+          "syllables": [
+            "ca",
+            "bo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "boneca",
+          "b": "boneca"
+        },
+        {
+          "a": "montra",
+          "b": "montra"
+        },
+        {
+          "a": "bonecas",
+          "b": "bonecas"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/17/images/gjy6o3yji5gz6ojherxckyiq2dm3dyud/Imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Estava a boneca Marília no meio de outras bonecas, todas choronas, e junto de outros brinquedos e bonecos.",
+        "E os bonecos entretinham-se imenso com os meninos que, do outro lado do vidro, os apreciavam.",
+        "Para mim é que ela está a apontar - dizia a outra boneca, que não era menos vaidosa.",
+        "Ouvia-se então, lá do fundo, uma zurradela do burro Troloró, que franzia o focinho e mostrava os dentes como se estivesse a rir-se.",
+        "Para rirem connosco e para nos soprarem as lágrimas é que há amigos."
+      ]
+    }
+  ]
+}

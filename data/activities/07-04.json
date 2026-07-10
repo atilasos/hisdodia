@@ -1,0 +1,154 @@
+{
+  "id": "07-04",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "jarrinha",
+          "distractors": [
+            "jarra",
+            "cheguei",
+            "partida"
+          ],
+          "sentence": "Partiu-se a jarrinha, aquela jarrinha de flores pintadas à mão, tão elegante, tão graciosa que era o enlevo de todas as pessoas que…"
+        },
+        {
+          "target": "casa",
+          "distractors": [
+            "jarra",
+            "cheguei",
+            "coragem"
+          ],
+          "sentence": "Quando eu cheguei a casa, já a mãe estava a chorar."
+        },
+        {
+          "target": "jarra",
+          "distractors": [
+            "jarrinha",
+            "casa",
+            "flores"
+          ],
+          "sentence": "Quando eu cheguei a casa, não havia cá ninguém e já a jarra estava partida em mil bocados."
+        },
+        {
+          "target": "cheguei",
+          "distractors": [
+            "jarrinha",
+            "casa",
+            "partida"
+          ],
+          "sentence": "Quando eu cheguei a casa, já a vossa mãe estava a ser consolada pelo Tiago."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "jarrinha",
+          "syllables": [
+            "jar",
+            "ri",
+            "nha"
+          ]
+        },
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        },
+        {
+          "word": "jarra",
+          "syllables": [
+            "jar",
+            "ra"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "rica",
+          "syllables": [
+            "ri",
+            "ca"
+          ]
+        },
+        {
+          "word": "rira",
+          "syllables": [
+            "ri",
+            "ra"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "jarrinha",
+          "b": "jarrinha"
+        },
+        {
+          "a": "casa",
+          "b": "casa"
+        },
+        {
+          "a": "jarra",
+          "b": "jarra"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "enlevo",
+          "b": "encanto / maravilha"
+        },
+        {
+          "a": "arredar",
+          "b": "afastar / desviar"
+        },
+        {
+          "a": "balbuciei",
+          "b": "proferi com hesitação / disse sem clareza"
+        },
+        {
+          "a": "desanuviou",
+          "b": "tranquilizou / serenou"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/07/04/images/64pxoxy6ihbudxqk63ejdxyacp6kmkuv/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Partiu-se a jarrinha, aquela jarrinha de flores pintadas à mão, tão elegante, tão graciosa que era o enlevo de todas as pessoas que…",
+        "Eu também não fui - apressou-se a dizer o meu pai.",
+        "Suspirei fundo e comecei a contar o que acontecera.",
+        "Disse isto com um ar tão enfiado, tão de lamentar que o círculo acusador à minha volta se desanuviou e desfez por si.",
+        "Também é preciso coragem para pedir desculpa."
+      ]
+    }
+  ]
+}

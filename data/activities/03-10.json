@@ -1,0 +1,124 @@
+{
+  "id": "03-10",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "anel",
+          "distractors": [
+            "anéis",
+            "água",
+            "dado"
+          ],
+          "sentence": "De uma vez que estava a fazer bolas de sabão, à beira de um lavadoiro público, o anel escorregou-lhe do dedo e caiu à água."
+        },
+        {
+          "target": "senhor",
+          "distractors": [
+            "anéis",
+            "caminho",
+            "grande"
+          ],
+          "sentence": "Um senhor que ia a passar, viu-a naquela desolação e perguntou-lhe o que sucedera."
+        },
+        {
+          "target": "anéis",
+          "distractors": [
+            "anel",
+            "senhor",
+            "água"
+          ],
+          "sentence": "Quando perguntou a razão da choradeira, a menina Elisa contou que tinha acabado de perder dois anéis, um de diamantes e outro de…"
+        },
+        {
+          "target": "madrinha",
+          "distractors": [
+            "lavadoiro",
+            "perguntou",
+            "caminho"
+          ],
+          "sentence": "E, de caminho, passamos por casa da sua madrinha."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "anel",
+          "syllables": [
+            "a",
+            "nel"
+          ]
+        },
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "lavadoiro",
+          "syllables": [
+            "la",
+            "va",
+            "doi",
+            "ro"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "lava",
+          "syllables": [
+            "la",
+            "va"
+          ]
+        },
+        {
+          "word": "rolava",
+          "syllables": [
+            "ro",
+            "la",
+            "va"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "anel",
+          "b": "anel"
+        },
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "anéis",
+          "b": "anéis"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Não seria grande coisa, um enfeite apenas, mas a Lídia gostava muito do seu anelinho.",
+        "Vamos lá ver se eu resolvo a situação - disse o senhor, tirando o casaco.",
+        "Realmente, o que se perde a lavar a roupa...",
+        "Foi a correr para o pé do lavadoiro e pôs-se a chorar, numa grande gritaria.",
+        "Ouvindo isto, a Elisa desatou a fugir, nem que viesse um esquadrão de polícias a correr atrás dela."
+      ]
+    }
+  ]
+}

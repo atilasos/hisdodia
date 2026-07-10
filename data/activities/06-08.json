@@ -1,0 +1,143 @@
+{
+  "id": "06-08",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "girafa",
+          "distractors": [
+            "macacos",
+            "amigo",
+            "selva"
+          ],
+          "sentence": "Nela entram três personagens principais, o leopardo, a girafa e o elefante, mas a mim apetece-me mais começar pelos macacos."
+        },
+        {
+          "target": "leopardo",
+          "distractors": [
+            "elefante",
+            "macacos",
+            "lado"
+          ],
+          "sentence": "Quem não deve gostar nada dessa amizade é o velho leopardo malhado e pelado."
+        },
+        {
+          "target": "elefante",
+          "distractors": [
+            "leopardo",
+            "macacos",
+            "conversa"
+          ],
+          "sentence": "Do elefante é que não há nada a declarar - diz uma macaca velha, fazendo um trejeito malicioso."
+        },
+        {
+          "target": "macacos",
+          "distractors": [
+            "girafa",
+            "leopardo",
+            "elefante"
+          ],
+          "sentence": "Empoleirados nas árvores, os macacos ocupam o dia a troçar da vizinhança, isto é, dos restantes bichos da selva."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "girafa",
+          "syllables": [
+            "gi",
+            "ra",
+            "fa"
+          ]
+        },
+        {
+          "word": "leopardo",
+          "syllables": [
+            "le",
+            "o",
+            "par",
+            "do"
+          ]
+        },
+        {
+          "word": "elefante",
+          "syllables": [
+            "e",
+            "le",
+            "fan",
+            "te"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "gira",
+          "syllables": [
+            "gi",
+            "ra"
+          ]
+        },
+        {
+          "word": "parra",
+          "syllables": [
+            "par",
+            "ra"
+          ]
+        },
+        {
+          "word": "parte",
+          "syllables": [
+            "par",
+            "te"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "girafa",
+          "b": "girafa"
+        },
+        {
+          "a": "leopardo",
+          "b": "leopardo"
+        },
+        {
+          "a": "elefante",
+          "b": "elefante"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/06/08/images/5qtpj3ggnvy3grz7gkmw5agedn4xw3e2/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Passa-se na selva a história que vou contar.",
+        "Quem não deve gostar nada dessa amizade é o velho leopardo malhado e pelado.",
+        "Só é de lamentar que não saiba agradecer os seus sacrifícios com idêntica generosidade...",
+        "O leopardo, de há uns tempos para cá, tem vindo a espalhar que o nosso estimável amigo elefante é um \"paquiderme\" da pior espécie e que…",
+        "De aí em diante passou a andar sempre sozinho e nunca sai senão de noite, quando os elefantes dormem."
+      ]
+    }
+  ]
+}

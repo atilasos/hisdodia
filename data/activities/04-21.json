@@ -1,0 +1,133 @@
+{
+  "id": "04-21",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "microfone",
+          "distractors": [
+            "perguntou",
+            "mamífero",
+            "precisou"
+          ],
+          "sentence": "O jornalista, que se tinha esquecido do gravador e do microfone, ia escrevendo, num bloco de notas, as declarações do chico tó."
+        },
+        {
+          "target": "mamífero",
+          "distractors": [
+            "perguntou",
+            "microfone",
+            "encimar"
+          ],
+          "sentence": "Antes de mais sou um mamífero - precisou o porco."
+        },
+        {
+          "target": "dedos",
+          "distractors": [
+            "sempre",
+            "careta",
+            "forte"
+          ],
+          "sentence": "Artiodáctilo quer dizer de número par de dedos."
+        },
+        {
+          "target": "encimar",
+          "distractors": [
+            "sempre",
+            "mamífero",
+            "careta"
+          ],
+          "sentence": "Então eu vou encimar a notícia acerca da nossa entrevista com o seguinte título: \"SUÍNO DIZ QUE NÃO É PORCO\"."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "perguntou",
+          "syllables": [
+            "per",
+            "gun",
+            "tou"
+          ]
+        },
+        {
+          "word": "microfone",
+          "syllables": [
+            "mi",
+            "cro",
+            "fo",
+            "ne"
+          ]
+        },
+        {
+          "word": "careta",
+          "syllables": [
+            "ca",
+            "re",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "caneta",
+          "syllables": [
+            "ca",
+            "ne",
+            "ta"
+          ]
+        },
+        {
+          "word": "foca",
+          "syllables": [
+            "fo",
+            "ca"
+          ]
+        },
+        {
+          "word": "neta",
+          "syllables": [
+            "ne",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "perguntou",
+          "b": "perguntou"
+        },
+        {
+          "a": "microfone",
+          "b": "microfone"
+        },
+        {
+          "a": "sempre",
+          "b": "sempre"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Eu não sou porco - disse o porco, em voz forte e categórica .",
+        "Era um porco sábio, estudioso das línguas mortas.",
+        "O javali também é artiodáctilo e não é porco.",
+        "Com todo o rigor, a minha preferência vai para suíno, embora, mais familiarmente, possam tratar-me por reco ou até cochino.",
+        "E a notícia veio nas páginas do jornal com o devido destaque."
+      ]
+    }
+  ]
+}

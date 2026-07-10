@@ -1,0 +1,163 @@
+{
+  "id": "05-02",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "escultor",
+          "distractors": [
+            "gigante",
+            "começou",
+            "sentada"
+          ],
+          "sentence": "Na oficina do escultor, havia grande animação."
+        },
+        {
+          "target": "pedra",
+          "distractors": [
+            "cabeça",
+            "sala",
+            "bloco"
+          ],
+          "sentence": "Chegara uma pedra de cantaria, que foi colocada no meio da sala por oito homens possantes."
+        },
+        {
+          "target": "cabeça",
+          "distractors": [
+            "pedra",
+            "bloco",
+            "livro"
+          ],
+          "sentence": "Adivinhavam-se os ombros, a cabeça, os joelhos."
+        },
+        {
+          "target": "sala",
+          "distractors": [
+            "pedra",
+            "bloco",
+            "livro"
+          ],
+          "sentence": "A sala ficou vazia de gente, mas continuou cheia de estátuas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "escultor",
+          "syllables": [
+            "es",
+            "cul",
+            "tor"
+          ]
+        },
+        {
+          "word": "pedra",
+          "syllables": [
+            "pe",
+            "dra"
+          ]
+        },
+        {
+          "word": "cabeça",
+          "syllables": [
+            "ca",
+            "be",
+            "ça"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cabe",
+          "syllables": [
+            "ca",
+            "be"
+          ]
+        },
+        {
+          "word": "caça",
+          "syllables": [
+            "ca",
+            "ça"
+          ]
+        },
+        {
+          "word": "escape",
+          "syllables": [
+            "es",
+            "ca",
+            "pe"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "escultor",
+          "b": "escultor"
+        },
+        {
+          "a": "pedra",
+          "b": "pedra"
+        },
+        {
+          "a": "cabeça",
+          "b": "cabeça"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "avantesma",
+          "b": "fantasma / objecto muito grande"
+        },
+        {
+          "a": "alfarrábio",
+          "b": "livro antigo / calhamaço"
+        },
+        {
+          "a": "alvitrava",
+          "b": "sugeria / lembrava / propunha"
+        },
+        {
+          "a": "restolhada",
+          "b": "estrondo / barulho"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/05/02/images/ixkaw6u5gpqxwohruu3cxma3ocztj2iy/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Na oficina do escultor, havia grande animação.",
+        "A mim é que ela tira a luz - rectificou a estátua que representava um monge sentado a ler um livro.",
+        "O escultor trabalhou dias a fio e, do coração da pedra, muito lentamente, uma figura começou a erguer-se.",
+        "Naturalmente está a ler um livro - alvitrava o monge.",
+        "Nos dias que se seguiram, o escultor demorou-se, pela noite adiante, a completar a estátua da mãe e do menino."
+      ]
+    }
+  ]
+}

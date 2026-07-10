@@ -1,0 +1,141 @@
+{
+  "id": "05-05",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "vassoura",
+          "distractors": [
+            "aspirador",
+            "velha",
+            "inspirava"
+          ],
+          "sentence": "Era uma vez uma vassoura que andava a estudar para aspirador."
+        },
+        {
+          "target": "aspirador",
+          "distractors": [
+            "vassoura",
+            "inspirava",
+            "aulas"
+          ],
+          "sentence": "Escolheram a vassoura aspirante a aspirador."
+        },
+        {
+          "target": "velha",
+          "distractors": [
+            "vassoura",
+            "peça",
+            "neta"
+          ],
+          "sentence": "Por sinal que, lá em casa, tinha-se avariado o aspirador e quem, agora, fazia toda a lida da casa era a vassoura velha."
+        },
+        {
+          "target": "peça",
+          "distractors": [
+            "velha",
+            "neta",
+            "aulas"
+          ],
+          "sentence": "Um dia, foi preciso uma vassoura para uma peça de teatro - uma história, que metia feiticeiras, daquelas de lenço e nariz de cavalete…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "vassoura",
+          "syllables": [
+            "vas",
+            "sou",
+            "ra"
+          ]
+        },
+        {
+          "word": "aspirador",
+          "syllables": [
+            "as",
+            "pi",
+            "ra",
+            "dor"
+          ]
+        },
+        {
+          "word": "velha",
+          "syllables": [
+            "ve",
+            "lha"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "pilha",
+          "syllables": [
+            "pi",
+            "lha"
+          ]
+        },
+        {
+          "word": "pisou",
+          "syllables": [
+            "pi",
+            "sou"
+          ]
+        },
+        {
+          "word": "rara",
+          "syllables": [
+            "ra",
+            "ra"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "vassoura",
+          "b": "vassoura"
+        },
+        {
+          "a": "aspirador",
+          "b": "aspirador"
+        },
+        {
+          "a": "velha",
+          "b": "velha"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/05/05/images/q5xrg3n3k6vyhoc2w7p2yhq7xrsqrv7q/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez uma vassoura que andava a estudar para aspirador.",
+        "Escolheram a vassoura aspirante a aspirador.",
+        "Se a minha avó aqui estivesse, havia de gostar\", pensava, muito orgulhosa, a vassoura.",
+        "Afinal, voltaste à mesma - dizia a vassoura velha à nova.",
+        "Agora sou uma actriz em férias, fique sabendo."
+      ]
+    }
+  ]
+}

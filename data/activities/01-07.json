@@ -1,0 +1,140 @@
+{
+  "id": "01-07",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "macaco",
+          "distractors": [
+            "orelhas",
+            "força",
+            "amigos"
+          ],
+          "sentence": "O coelho e o macaco eram amigos, mas estavam sempre a atazanar-se um ao outro."
+        },
+        {
+          "target": "orelhas",
+          "distractors": [
+            "macaco",
+            "amigos",
+            "grandes"
+          ],
+          "sentence": "De uma vez que o coelho estava a dormir, muito descansado, o macaco, pendurado de uma árvore, puxou-lhe as orelhas com toda a força."
+        },
+        {
+          "target": "força",
+          "distractors": [
+            "macaco",
+            "amigos",
+            "longe"
+          ],
+          "sentence": "Deu-lhe uma pancada, com toda a força, na cauda desenrolada."
+        },
+        {
+          "target": "amigos",
+          "distractors": [
+            "macaco",
+            "orelhas",
+            "força"
+          ],
+          "sentence": "Apesar destas peripécias e facécias , o macaco e o coelho continuam a ser bons amigos."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "macaco",
+          "syllables": [
+            "ma",
+            "ca",
+            "co"
+          ]
+        },
+        {
+          "word": "orelhas",
+          "syllables": [
+            "o",
+            "re",
+            "lhas"
+          ]
+        },
+        {
+          "word": "força",
+          "syllables": [
+            "for",
+            "ça"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cama",
+          "syllables": [
+            "ca",
+            "ma"
+          ]
+        },
+        {
+          "word": "caça",
+          "syllables": [
+            "ca",
+            "ça"
+          ]
+        },
+        {
+          "word": "coma",
+          "syllables": [
+            "co",
+            "ma"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "macaco",
+          "b": "macaco"
+        },
+        {
+          "a": "orelhas",
+          "b": "orelhas"
+        },
+        {
+          "a": "força",
+          "b": "força"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/01/07/images/a47z4vtudnsml2f2snp4gg7epkwbad4j/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O coelho e o macaco eram amigos, mas estavam sempre a atazanar-se um ao outro.",
+        "Continuavam assim, que tempos, até chegarem ao pé um do outro.",
+        "Andava a caçar borboletas e julguei que as tuas orelhas eram uma borboleta gigante.",
+        "Numa ocasião em que o macaco estava a dormir num galho, com a comprida cauda dependurada, o coelho muniu-se de um cacete e zás!",
+        "Apesar destas peripécias e facécias , o macaco e o coelho continuam a ser bons amigos."
+      ]
+    }
+  ]
+}

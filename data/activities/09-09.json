@@ -1,0 +1,132 @@
+{
+  "id": "09-09",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "caixa",
+          "distractors": [
+            "música",
+            "netos",
+            "bolos"
+          ],
+          "sentence": "Ó avó, para que serve aquela caixa de madeira toda pintada com flores e enfeites que tem um rolo dentro, cheio de dentinhos?"
+        },
+        {
+          "target": "música",
+          "distractors": [
+            "caixa",
+            "netos",
+            "bolos"
+          ],
+          "sentence": "Como é que a caixa de música deixou de trabalhar?"
+        },
+        {
+          "target": "netos",
+          "distractors": [
+            "caixa",
+            "música",
+            "bolos"
+          ],
+          "sentence": "Houve bolos, bolinhos e bolachas, compota de cereja e de alperce e leite com chocolate para os netos e chá com leite para a avó."
+        },
+        {
+          "target": "bolos",
+          "distractors": [
+            "caixa",
+            "música",
+            "netos"
+          ],
+          "sentence": "Meninos, tenham compostura - mandava a Dona Clarisse, numa voz com mais açúcar que todos os bolos juntos."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "caixa",
+          "syllables": [
+            "cai",
+            "xa"
+          ]
+        },
+        {
+          "word": "música",
+          "syllables": [
+            "mú",
+            "si",
+            "ca"
+          ]
+        },
+        {
+          "word": "bolos",
+          "syllables": [
+            "bo",
+            "los"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "boca",
+          "syllables": [
+            "bo",
+            "ca"
+          ]
+        },
+        {
+          "word": "cabo",
+          "syllables": [
+            "ca",
+            "bo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "caixa",
+          "b": "caixa"
+        },
+        {
+          "a": "música",
+          "b": "música"
+        },
+        {
+          "a": "netos",
+          "b": "netos"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/09/09/images/wdilctygig2uizxkolona5fznpe4h744/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Houve bolos, bolinhos e bolachas, compota de cereja e de alperce e leite com chocolate para os netos e chá com leite para a avó.",
+        "Dávamos-lhe corda e ele tocava muito ao de leve...",
+        "Encadernava livros e reparava cadeiras, ditas de palhinha, mas sem palhinhas.",
+        "A avó não quis interrompê-los e voltou à sua renda, sentada no cadeirão do quarto.",
+        "Os outros netos estavam calados e ele calou-se também."
+      ]
+    }
+  ]
+}

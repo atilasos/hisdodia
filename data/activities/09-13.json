@@ -1,0 +1,140 @@
+{
+  "id": "09-13",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "falcão",
+          "distractors": [
+            "barrete",
+            "reino",
+            "tempos"
+          ],
+          "sentence": "Em vez de chapéu, trazia na cabeça, como de costume, um barrete, enfeitado com uma enorme pluma de falcão."
+        },
+        {
+          "target": "barrete",
+          "distractors": [
+            "falcão",
+            "tempos",
+            "ninguém"
+          ],
+          "sentence": "O falcão arrebatou o barrete e ergueu-o nos ares, tão veloz como descera."
+        },
+        {
+          "target": "reino",
+          "distractors": [
+            "falcão",
+            "real",
+            "tempos"
+          ],
+          "sentence": "Embaixador de um grande país, representava os interesses do rei ou imperador desse reino grandioso noutros reinos, quase sempre mais…"
+        },
+        {
+          "target": "real",
+          "distractors": [
+            "reino",
+            "fosse",
+            "sinal"
+          ],
+          "sentence": "O vosso palácio real tem só quarenta salas e salões?"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "falcão",
+          "syllables": [
+            "fal",
+            "cão"
+          ]
+        },
+        {
+          "word": "barrete",
+          "syllables": [
+            "bar",
+            "re",
+            "te"
+          ]
+        },
+        {
+          "word": "enorme",
+          "syllables": [
+            "e",
+            "nor",
+            "me"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "menor",
+          "syllables": [
+            "me",
+            "nor"
+          ]
+        },
+        {
+          "word": "mete",
+          "syllables": [
+            "me",
+            "te"
+          ]
+        },
+        {
+          "word": "teme",
+          "syllables": [
+            "te",
+            "me"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "falcão",
+          "b": "falcão"
+        },
+        {
+          "a": "barrete",
+          "b": "barrete"
+        },
+        {
+          "a": "reino",
+          "b": "reino"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/09/13/images/wdddpfodfqor7qplasnxiqqqcv6ymghb/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "No tempo em que esta história aconteceu, havia luxuosas carruagens, fidalgos empertigados que nelas se passeavam, grandes chapéus…",
+        "Fosse verdade ou mentira, o que saltava à vista era a empáfia e a embófia (duas divertidas palavras diferentes que querem dizer o mesmo...",
+        "Logo, por sinal, a caçada era com falcão.",
+        "De barrete no bico, voltejou à roda dos ombros do atordoado embaixador e, mais diplomata do que o cavalheiro nunca fora, restituiu o…",
+        "E ponho-me a cismar se o rei, o falcoeiro e o seu falcão amestrado não teriam conspirado os três, para dar uma lição ao impertinente..."
+      ]
+    }
+  ]
+}

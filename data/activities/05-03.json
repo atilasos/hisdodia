@@ -1,0 +1,140 @@
+{
+  "id": "05-03",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "bancos",
+          "distractors": [
+            "homem",
+            "preço",
+            "comprar"
+          ],
+          "sentence": "Tinha aprendido em pequeno a arte ou ofício de fazer bancos e, como se ajeitava bem, era rápido e vendia a mercadoria com facilidade…"
+        },
+        {
+          "target": "cadeiras",
+          "distractors": [
+            "fabricava",
+            "comprar",
+            "produto"
+          ],
+          "sentence": "Havia os que continuavam a comprar bancos, que eram mais baratos, e os que preferiam comprar cadeiras, um pouco mais caras, mas mais…"
+        },
+        {
+          "target": "homem",
+          "distractors": [
+            "bancos",
+            "preço",
+            "dois"
+          ],
+          "sentence": "Ao lado da oficina do homem que fabricava bancos, instalou-se um outro artesão."
+        },
+        {
+          "target": "preço",
+          "distractors": [
+            "bancos",
+            "homem",
+            "dois"
+          ],
+          "sentence": "Para poder escoar o produto do seu trabalho, baixou para metade o preço dos bancos."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "bancos",
+          "syllables": [
+            "ban",
+            "cos"
+          ]
+        },
+        {
+          "word": "cadeiras",
+          "syllables": [
+            "ca",
+            "dei",
+            "ras"
+          ]
+        },
+        {
+          "word": "homem",
+          "syllables": [
+            "ho",
+            "mem"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "bandeiras",
+          "syllables": [
+            "ban",
+            "dei",
+            "ras"
+          ]
+        },
+        {
+          "word": "cacos",
+          "syllables": [
+            "ca",
+            "cos"
+          ]
+        },
+        {
+          "word": "horas",
+          "syllables": [
+            "ho",
+            "ras"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "bancos",
+          "b": "bancos"
+        },
+        {
+          "a": "cadeiras",
+          "b": "cadeiras"
+        },
+        {
+          "a": "homem",
+          "b": "homem"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/05/03/images/7ff780c7e230d302ae726621/imagens/background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Tinha aprendido em pequeno a arte ou ofício de fazer bancos e, como se ajeitava bem, era rápido e vendia a mercadoria com facilidade…",
+        "Até os bancos lhe saíam menos perfeitos.",
+        "Mas aquilo era um disparate, tanto maior quanto, descendo os preços, de dia para dia, chegou uma altura em que os bancos e as cadeiras…",
+        "Porque é que vocês não se juntam e formam uma sociedade que venda cadeiras e bancos, ao mesmo tempo e por um preço razoável?",
+        "E, trabalhando a meias, vão os dois lançar um novo produto no mercado: mesas."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "09-08",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "homem",
+          "distractors": [
+            "rico",
+            "fosse",
+            "livros"
+          ],
+          "sentence": "Era uma vez, na Roma antiga, um homem muito rico, que gostava de exibir a sua riqueza em festas fabulosas."
+        },
+        {
+          "target": "rico",
+          "distractors": [
+            "homem",
+            "fosse",
+            "riqueza"
+          ],
+          "sentence": "A aprendizagem dos escravos demorou, mas ao fim de algum tempo este homem muito rico podia orgulhar-se de possuir a única biblioteca…"
+        },
+        {
+          "target": "escravos",
+          "distractors": [
+            "escravo",
+            "instrução",
+            "gostava"
+          ],
+          "sentence": "Apercebendo-se disso, ordenou ao governante do seu palácio que escolhesse uns tantos escravos inteligentes e de boa memória."
+        },
+        {
+          "target": "escravo",
+          "distractors": [
+            "escravos",
+            "livros",
+            "palmas"
+          ],
+          "sentence": "O escravo recitava-a, fosse do princípio, fosse do meio, fosse do fim para o princípio."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "homem",
+          "syllables": [
+            "ho",
+            "mem"
+          ]
+        },
+        {
+          "word": "rico",
+          "syllables": [
+            "ri",
+            "co"
+          ]
+        },
+        {
+          "word": "escravos",
+          "syllables": [
+            "es",
+            "cra",
+            "vos"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "comem",
+          "syllables": [
+            "co",
+            "mem"
+          ]
+        },
+        {
+          "word": "cravos",
+          "syllables": [
+            "cra",
+            "vos"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "homem",
+          "b": "homem"
+        },
+        {
+          "a": "rico",
+          "b": "rico"
+        },
+        {
+          "a": "escravos",
+          "b": "escravos"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/09/08/images/j4tpgwosg74mpjxo67422xx6ucls4byg/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez, na Roma antiga, um homem muito rico, que gostava de exibir a sua riqueza em festas fabulosas.",
+        "Apercebendo-se disso, ordenou ao governante do seu palácio que escolhesse uns tantos escravos inteligentes e de boa memória.",
+        "De uma vez, estava o homem muito rico à conversa com alguns poetas e escritores, e quis embasbacá-los.",
+        "Mas o escravo que sabia a \"Ilíada\" não apareceu.",
+        "Parece que foi a partir deste incidente que o homem muito rico se resolveu a ganhar instrução pelos seus próprios meios."
+      ]
+    }
+  ]
+}

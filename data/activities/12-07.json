@@ -1,0 +1,139 @@
+{
+  "id": "12-07",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "gato",
+          "distractors": [
+            "dono",
+            "antes",
+            "acima"
+          ],
+          "sentence": "O gato não tem o faro tão apurado, mas os olhos dele atravessam a distância e pressentem sombras e ameaças, que só ele conhece."
+        },
+        {
+          "target": "árvore",
+          "distractors": [
+            "frutos",
+            "fábula",
+            "farejar"
+          ],
+          "sentence": "Acaba numa árvore sem frutos, sem folhas, uma árvore mesmo a propósito para salvar gatos."
+        },
+        {
+          "target": "frutos",
+          "distractors": [
+            "árvore",
+            "fábula",
+            "farejar"
+          ],
+          "sentence": "Agora fico à espera que a árvore dê frutos e os frutos caiam de maduros..."
+        },
+        {
+          "target": "fábula",
+          "distractors": [
+            "árvore",
+            "frutos",
+            "farejar"
+          ],
+          "sentence": "Ele era preto, como o corvo da fábula, enquanto o cão, mal acomparado, fazia as vezes da raposa."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "gato",
+          "syllables": [
+            "ga",
+            "to"
+          ]
+        },
+        {
+          "word": "árvore",
+          "syllables": [
+            "ár",
+            "vo",
+            "re"
+          ]
+        },
+        {
+          "word": "dono",
+          "syllables": [
+            "do",
+            "no"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "gado",
+          "syllables": [
+            "ga",
+            "do"
+          ]
+        },
+        {
+          "word": "rega",
+          "syllables": [
+            "re",
+            "ga"
+          ]
+        },
+        {
+          "word": "voto",
+          "syllables": [
+            "vo",
+            "to"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "gato",
+          "b": "gato"
+        },
+        {
+          "a": "árvore",
+          "b": "árvore"
+        },
+        {
+          "a": "dono",
+          "b": "dono"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/07/images/pdtjls2g45aymyxl7vlviupoeytq2gos/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Claro que esta pergunta a fez ele muito antes de tudo isto começar - aí a uns duzentos metros desta história.",
+        "Acaba numa árvore sem frutos, sem folhas, uma árvore mesmo a propósito para salvar gatos.",
+        "Ele era preto, como o corvo da fábula, enquanto o cão, mal acomparado, fazia as vezes da raposa.",
+        "Sim, porque isto é uma fábula, a do cão, animal doméstico, e do gato, animal vadio...",
+        "E o Piloto, de cabeça baixa, lá foi, suspirando..."
+      ]
+    }
+  ]
+}

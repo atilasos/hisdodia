@@ -1,0 +1,129 @@
+{
+  "id": "03-16",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "contar",
+          "distractors": [
+            "conto",
+            "cabelos",
+            "cinco"
+          ],
+          "sentence": "Nunca vou conseguir contar todos os meus cabelos."
+        },
+        {
+          "target": "conto",
+          "distractors": [
+            "contar",
+            "dois",
+            "olho"
+          ],
+          "sentence": "Desço os degraus da minha escada e conto: trinta e seis."
+        },
+        {
+          "target": "dois",
+          "distractors": [
+            "conto",
+            "olho",
+            "cinco"
+          ],
+          "sentence": "Portanto, como tenho duas mãos e dois pés, o total dos dedos é..."
+        },
+        {
+          "target": "pestanas",
+          "distractors": [
+            "cabelos",
+            "quarenta",
+            "pedras"
+          ],
+          "sentence": "Tenho duas orelhas, duas sobrancelhas, pestanas..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "contar",
+          "syllables": [
+            "con",
+            "tar"
+          ]
+        },
+        {
+          "word": "conto",
+          "syllables": [
+            "con",
+            "to"
+          ]
+        },
+        {
+          "word": "cabelos",
+          "syllables": [
+            "ca",
+            "be",
+            "los"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "belos",
+          "syllables": [
+            "be",
+            "los"
+          ]
+        },
+        {
+          "word": "cabe",
+          "syllables": [
+            "ca",
+            "be"
+          ]
+        },
+        {
+          "word": "cato",
+          "syllables": [
+            "ca",
+            "to"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "contar",
+          "b": "contar"
+        },
+        {
+          "a": "conto",
+          "b": "conto"
+        },
+        {
+          "a": "dois",
+          "b": "dois"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Mãe e pai, oiçam o que eu tenho para dizer.",
+        "Tenho dois olhos, um nariz, dois buracos no nariz, uma boca...",
+        "Desço os degraus da minha escada e conto: trinta e seis.",
+        "Também não consigo contar todos os quadradinhos do teu casaco, pai, todas as pintinhas da tua saia, mãe, todas as linhas da palma da mão…",
+        "Afinal de que servem os triliões, os quadrilhões, se, mesmo esses, são poucos para contar tudo o que há para contar?"
+      ]
+    }
+  ]
+}

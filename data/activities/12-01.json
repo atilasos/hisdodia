@@ -1,0 +1,139 @@
+{
+  "id": "12-01",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "passa",
+          "distractors": [
+            "bolo",
+            "natas",
+            "coroa"
+          ],
+          "sentence": "Queria, outra vez, a passa a ornamentar-lhe a coroa."
+        },
+        {
+          "target": "bolo",
+          "distractors": [
+            "passa",
+            "natas",
+            "coroa"
+          ],
+          "sentence": "Então, o bolo-rei virou-se para um bolo de natas e deu a mesma ordem."
+        },
+        {
+          "target": "natas",
+          "distractors": [
+            "passa",
+            "bolo",
+            "coroa"
+          ],
+          "sentence": "O bolo de natas tinha uma fala atrapalhada, por causa do excesso de natas."
+        },
+        {
+          "target": "ordem",
+          "distractors": [
+            "passa",
+            "bolo",
+            "natas"
+          ],
+          "sentence": "O bolo-rei, cada vez mais exasperado , deu a mesma ordem a um pudim de gelatina, mas o pudim de gelatina era muito frágil, muito nervoso…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "passa",
+          "syllables": [
+            "pas",
+            "sa"
+          ]
+        },
+        {
+          "word": "bolo",
+          "syllables": [
+            "bo",
+            "lo"
+          ]
+        },
+        {
+          "word": "natas",
+          "syllables": [
+            "na",
+            "tas"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "bolotas",
+          "syllables": [
+            "bo",
+            "lo",
+            "tas"
+          ]
+        },
+        {
+          "word": "botas",
+          "syllables": [
+            "bo",
+            "tas"
+          ]
+        },
+        {
+          "word": "lobo",
+          "syllables": [
+            "lo",
+            "bo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "passa",
+          "b": "passa"
+        },
+        {
+          "a": "bolo",
+          "b": "bolo"
+        },
+        {
+          "a": "natas",
+          "b": "natas"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/01/images/a4o64tzgpipccenczdu22xfgtdvzgoyw/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Não havia discussão: ele era o rei dos bolos.",
+        "Então, o bolo-rei virou-se para um bolo de natas e deu a mesma ordem.",
+        "O bolo de natas tinha uma fala atrapalhada, por causa do excesso de natas.",
+        "O bolo-rei, cada vez mais exasperado , deu a mesma ordem a um pudim de gelatina, mas o pudim de gelatina era muito frágil, muito nervoso…",
+        "São uns rebeldes estes meus súbditos - concluiu, numa grande exaltação, o bolo-rei."
+      ]
+    }
+  ]
+}

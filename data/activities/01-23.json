@@ -1,0 +1,132 @@
+{
+  "id": "01-23",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "neve",
+          "distractors": [
+            "jeito",
+            "bola",
+            "donde"
+          ],
+          "sentence": "Estava um boneco de neve, na Serra da Estrela, à espera nem ele sabia do quê."
+        },
+        {
+          "target": "boneco",
+          "distractors": [
+            "jeito",
+            "abaixo",
+            "passar"
+          ],
+          "sentence": "Já não era um boneco, mas uma bola de neve."
+        },
+        {
+          "target": "jeito",
+          "distractors": [
+            "neve",
+            "boneco",
+            "abaixo"
+          ],
+          "sentence": "Deu um jeito ao corpo e descolou de um lado."
+        },
+        {
+          "target": "abaixo",
+          "distractors": [
+            "boneco",
+            "jeito",
+            "passar"
+          ],
+          "sentence": "Com um novo impulso, rebolou encosta abaixo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "neve",
+          "syllables": [
+            "ne",
+            "ve"
+          ]
+        },
+        {
+          "word": "boneco",
+          "syllables": [
+            "bo",
+            "ne",
+            "co"
+          ]
+        },
+        {
+          "word": "jeito",
+          "syllables": [
+            "jei",
+            "to"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "neto",
+          "syllables": [
+            "ne",
+            "to"
+          ]
+        },
+        {
+          "word": "toco",
+          "syllables": [
+            "to",
+            "co"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "neve",
+          "b": "neve"
+        },
+        {
+          "a": "boneco",
+          "b": "boneco"
+        },
+        {
+          "a": "jeito",
+          "b": "jeito"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/01/23/images/5aazm375f4scb3s3suwjdflokg7d2oip/Imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Estava um boneco de neve, na Serra da Estrela, à espera nem ele sabia do quê.",
+        "Deu um jeito ao corpo e descolou de um lado.",
+        "Se calhasse ir de encontro a um, derrubava-o.",
+        "De roldão por ali abaixo, destruindo tudo por onde passava, a bola de neve era uma ameaça.",
+        "Algumas entretinham-se a fazer bonecos de neve."
+      ]
+    }
+  ]
+}

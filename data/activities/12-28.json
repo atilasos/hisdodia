@@ -1,0 +1,141 @@
+{
+  "id": "12-28",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "amigo",
+          "distractors": [
+            "cordas",
+            "agora",
+            "casa"
+          ],
+          "sentence": "O pai do Joca tem um amigo de quem o Joca muito particularmente gosta."
+        },
+        {
+          "target": "cordas",
+          "distractors": [
+            "amigo",
+            "agora",
+            "casa"
+          ],
+          "sentence": "Da viola do Firmino, dos dedos do Firmino a beliscar as cordas da viola saem as músicas que ele quer."
+        },
+        {
+          "target": "agora",
+          "distractors": [
+            "amigo",
+            "cordas",
+            "casa"
+          ],
+          "sentence": "Toca lá agora está, ó Firmino - pedem-lhe de seguida."
+        },
+        {
+          "target": "casa",
+          "distractors": [
+            "amigo",
+            "cordas",
+            "agora"
+          ],
+          "sentence": "Um dia, o Firmino, que tinha de ir dar umas voltas em que a viola era um peso, pediu ao pai do Joca se lha guardava, lá em casa, até ao…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "amigo",
+          "syllables": [
+            "a",
+            "mi",
+            "go"
+          ]
+        },
+        {
+          "word": "cordas",
+          "syllables": [
+            "cor",
+            "das"
+          ]
+        },
+        {
+          "word": "gosta",
+          "syllables": [
+            "gos",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "amigos",
+          "syllables": [
+            "a",
+            "mi",
+            "gos"
+          ]
+        },
+        {
+          "word": "corta",
+          "syllables": [
+            "cor",
+            "ta"
+          ]
+        },
+        {
+          "word": "cortadas",
+          "syllables": [
+            "cor",
+            "ta",
+            "das"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "amigo",
+          "b": "amigo"
+        },
+        {
+          "a": "cordas",
+          "b": "cordas"
+        },
+        {
+          "a": "agora",
+          "b": "agora"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/28/images/6o2agonxqdwcrdkd4pmltrbqdyo3bsws/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O pai do Joca tem um amigo de quem o Joca muito particularmente gosta.",
+        "O Firmino é muito amigo de fazer vontades e a viola parece-se com o dono em tudo.",
+        "Mas a viola, em vez de cantar, como era seu costume, em vez de tocar música catita, queixou-se.",
+        "Quem te autorizou a pegar na viola do Firmino?",
+        "Resumindo e concluindo: o Joca anda agora a aprender a tocar viola."
+      ]
+    }
+  ]
+}

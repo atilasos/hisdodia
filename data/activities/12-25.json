@@ -1,0 +1,140 @@
+{
+  "id": "12-25",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "estrela",
+          "distractors": [
+            "cristal",
+            "enfeitar",
+            "árvore"
+          ],
+          "sentence": "Numa árvore que eu cá sei - que nós sabemos - estão uma estrela de prata e uma bola de cristal."
+        },
+        {
+          "target": "bola",
+          "distractors": [
+            "prata",
+            "tempo",
+            "sejas"
+          ],
+          "sentence": "A bola de cristal tinha muita experiência de outros Natais, ao passo que a estrela era nova, de prata fresca, e não sabia quase nada."
+        },
+        {
+          "target": "cristal",
+          "distractors": [
+            "estrela",
+            "enfeitar",
+            "árvore"
+          ],
+          "sentence": "Para o ano, a estrela de prata já tem muito que contar à bola de cristal."
+        },
+        {
+          "target": "árvore",
+          "distractors": [
+            "estrela",
+            "cristal",
+            "prata"
+          ],
+          "sentence": "Porque esta árvore não é como as outras."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "estrela",
+          "syllables": [
+            "es",
+            "tre",
+            "la"
+          ]
+        },
+        {
+          "word": "bola",
+          "syllables": [
+            "bo",
+            "la"
+          ]
+        },
+        {
+          "word": "prata",
+          "syllables": [
+            "pra",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "bota",
+          "syllables": [
+            "bo",
+            "ta"
+          ]
+        },
+        {
+          "word": "estala",
+          "syllables": [
+            "es",
+            "ta",
+            "la"
+          ]
+        },
+        {
+          "word": "lata",
+          "syllables": [
+            "la",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "estrela",
+          "b": "estrela"
+        },
+        {
+          "a": "bola",
+          "b": "bola"
+        },
+        {
+          "a": "cristal",
+          "b": "cristal"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/25/images/s2q5fw62vw2truosks6xsksskq6ysxmy/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Numa árvore que eu cá sei - que nós sabemos - estão uma estrela de prata e uma bola de cristal.",
+        "A bola de cristal tinha muita experiência de outros Natais, ao passo que a estrela era nova, de prata fresca, e não sabia quase nada.",
+        "Caiu, num susto, mas como era leve, inocente e frágil, uma corrente de ar, vinda de uma porta aberta, algures, levou-a consigo.",
+        "Donde estava, onde a puseram, via o presépio, os pastores, os reis magos, as lavadeiras com a trouxa à cabeça, as leiteiras com a bilha…",
+        "Para o ano, a estrela de prata já tem muito que contar à bola de cristal."
+      ]
+    }
+  ]
+}

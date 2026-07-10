@@ -1,0 +1,139 @@
+{
+  "id": "08-31",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "pato",
+          "distractors": [
+            "pescador",
+            "truta",
+            "água"
+          ],
+          "sentence": "Esta é a história do pato submarino, um pato que queria conhecer o mundo escondido debaixo da superfície que lhe reflectia a imagem."
+        },
+        {
+          "target": "pescador",
+          "distractors": [
+            "pato",
+            "caçador",
+            "submarino"
+          ],
+          "sentence": "Na margem, o pescador estremece dos pés ao chapéu."
+        },
+        {
+          "target": "truta",
+          "distractors": [
+            "pato",
+            "água",
+            "chapéu"
+          ],
+          "sentence": "Numa ocasião em que o pato submarino ia a mergulhar, cruzou-se com uma truta que saltava da água."
+        },
+        {
+          "target": "caçador",
+          "distractors": [
+            "pescador",
+            "chapéu",
+            "fundos"
+          ],
+          "sentence": "Tão espantado estava que nem ouviu um tiro que, ali perto, caçador escondido dera sobre algum pássaro mais descuidado."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "pato",
+          "syllables": [
+            "pa",
+            "to"
+          ]
+        },
+        {
+          "word": "pescador",
+          "syllables": [
+            "pes",
+            "ca",
+            "dor"
+          ]
+        },
+        {
+          "word": "truta",
+          "syllables": [
+            "tru",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "capa",
+          "syllables": [
+            "ca",
+            "pa"
+          ]
+        },
+        {
+          "word": "cata",
+          "syllables": [
+            "ca",
+            "ta"
+          ]
+        },
+        {
+          "word": "cato",
+          "syllables": [
+            "ca",
+            "to"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "pato",
+          "b": "pato"
+        },
+        {
+          "a": "pescador",
+          "b": "pescador"
+        },
+        {
+          "a": "truta",
+          "b": "truta"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/08/31/images/cjrwmjbq4mp7nk3flxt2m26dh5tgrhtj/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Esta é a história do pato submarino, um pato que queria conhecer o mundo escondido debaixo da superfície que lhe reflectia a imagem.",
+        "Ainda quero saltar por cima da ponte, vai ver!",
+        "É extraordinário - dizia o pescador, desembaraçando o pato do anzol.",
+        "E eu, pescador - acudiu, muito despachado, o senhor do chapéu de palha.",
+        "O pato voou para o alto e o peixe nadou para o fundo."
+      ]
+    }
+  ]
+}

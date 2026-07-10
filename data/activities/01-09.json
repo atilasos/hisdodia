@@ -1,0 +1,144 @@
+{
+  "id": "01-09",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "burro",
+          "distractors": [
+            "leão",
+            "sombra",
+            "longe"
+          ],
+          "sentence": "As zurradelas do burro, realmente, eram de tal força, que assustavam qualquer bichinho."
+        },
+        {
+          "target": "leão",
+          "distractors": [
+            "burro",
+            "longe",
+            "patos"
+          ],
+          "sentence": "Vozes de burro não chegam ao céu, diz-se, mas chegaram aos ouvidos do leão."
+        },
+        {
+          "target": "quintal",
+          "distractors": [
+            "sombra",
+            "animais",
+            "outeiro"
+          ],
+          "sentence": "Sentia-se o rei da criação, isto é, o rei das galinhas, dos patos e dos perus do quintal onde vivia."
+        },
+        {
+          "target": "sombra",
+          "distractors": [
+            "burro",
+            "quintal",
+            "animais"
+          ],
+          "sentence": "A sua sombra majestosa projectou-se sobre a capoeira, a coelheira, o estábulo e o cortelho ."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "burro",
+          "syllables": [
+            "bur",
+            "ro"
+          ]
+        },
+        {
+          "word": "leão",
+          "syllables": [
+            "le",
+            "ão"
+          ]
+        },
+        {
+          "word": "galinhas",
+          "syllables": [
+            "ga",
+            "li",
+            "nhas"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "liga",
+          "syllables": [
+            "li",
+            "ga"
+          ]
+        },
+        {
+          "word": "linhas",
+          "syllables": [
+            "li",
+            "nhas"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "burro",
+          "b": "burro"
+        },
+        {
+          "a": "leão",
+          "b": "leão"
+        },
+        {
+          "a": "quintal",
+          "b": "quintal"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "estrebaria",
+          "b": "Cavalariça"
+        },
+        {
+          "a": "bazófia",
+          "b": "fanfarronice / prosápia"
+        },
+        {
+          "a": "singelamente",
+          "b": "com simplicidade / naturalmente"
+        },
+        {
+          "a": "ostentar",
+          "b": "exibir com aparato / vangloriar-se"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Sentia-se o rei da criação, isto é, o rei das galinhas, dos patos e dos perus do quintal onde vivia.",
+        "Tinha-se refastelado com um suculento almoço de carne de javali, entremeado com o resto de um cabrito, que sobrara do jantar anterior.",
+        "Em que te baseias para ostentar o título?",
+        "Efectivamente, possuis uma voz, que faz tremer as folhas - reconheceu o leão.",
+        "Em sentido contrário ao do leão, o burro, de orelhas caídas, desceu o outeiro, em direcção ao quintal."
+      ]
+    }
+  ]
+}

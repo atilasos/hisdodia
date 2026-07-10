@@ -1,0 +1,132 @@
+{
+  "id": "06-15",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "impresso",
+          "distractors": [
+            "rapazinho",
+            "desenhado",
+            "escreve"
+          ],
+          "sentence": "Era uma vez uma T-shirt com um A impresso no peito."
+        },
+        {
+          "target": "peito",
+          "distractors": [
+            "assim",
+            "claro",
+            "chamas"
+          ],
+          "sentence": "Ou melhor: era uma vez um rapazinho com uma T-shirt, que tinha um A impresso no peito."
+        },
+        {
+          "target": "assim",
+          "distractors": [
+            "peito",
+            "claro",
+            "chamas"
+          ],
+          "sentence": "Com dois traços assim, a descer, cada qual para seu lado, e outro assim, a cortá-los, na horizontal."
+        },
+        {
+          "target": "claro",
+          "distractors": [
+            "peito",
+            "assim",
+            "chamas"
+          ],
+          "sentence": "Claro que todos sabem como é que se escreve um A."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "impresso",
+          "syllables": [
+            "im",
+            "pres",
+            "so"
+          ]
+        },
+        {
+          "word": "peito",
+          "syllables": [
+            "pei",
+            "to"
+          ]
+        },
+        {
+          "word": "nome",
+          "syllables": [
+            "no",
+            "me"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "sono",
+          "syllables": [
+            "so",
+            "no"
+          ]
+        },
+        {
+          "word": "tome",
+          "syllables": [
+            "to",
+            "me"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "impresso",
+          "b": "impresso"
+        },
+        {
+          "a": "peito",
+          "b": "peito"
+        },
+        {
+          "a": "assim",
+          "b": "assim"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/06/15/images/oyehokyok2tqq7k2zxz5w37jkvmt2hoz/Imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez uma T-shirt com um A impresso no peito.",
+        "Mas deixem-me também a mim provar que sei...",
+        "Chamo-me Camisola de Manga Curta e de Algodão.",
+        "Foi a partir desta altura que as outras peças de roupa passaram a exigir, bem assinaladas, as respectivas letras iniciais do apelido.",
+        "E se não fizermos a vontade, a roupa já disse que deixa de nos servir."
+      ]
+    }
+  ]
+}

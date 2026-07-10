@@ -1,0 +1,140 @@
+{
+  "id": "08-01",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "grilo",
+          "distractors": [
+            "macaco",
+            "amigos",
+            "juntos"
+          ],
+          "sentence": "O macaco, o beija-flor e o grilo eram amigos, muito amigos, mas nem sempre se entendiam."
+        },
+        {
+          "target": "macaco",
+          "distractors": [
+            "grilo",
+            "amigos",
+            "juntos"
+          ],
+          "sentence": "O macaco e o grilo não se imaginavam a voar, de flor em flor, nem nunca tinham aprendido tal habilidade."
+        },
+        {
+          "target": "juntos",
+          "distractors": [
+            "grilo",
+            "macaco",
+            "amigos"
+          ],
+          "sentence": "Uma vez, decidiram passar férias juntos."
+        },
+        {
+          "target": "lindo",
+          "distractors": [
+            "grilo",
+            "macaco",
+            "amigos"
+          ],
+          "sentence": "Vamos escolher o sítio mais lindo do mundo - concordaram os três."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "grilo",
+          "syllables": [
+            "gri",
+            "lo"
+          ]
+        },
+        {
+          "word": "macaco",
+          "syllables": [
+            "ma",
+            "ca",
+            "co"
+          ]
+        },
+        {
+          "word": "amigos",
+          "syllables": [
+            "a",
+            "mi",
+            "gos"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cama",
+          "syllables": [
+            "ca",
+            "ma"
+          ]
+        },
+        {
+          "word": "colo",
+          "syllables": [
+            "co",
+            "lo"
+          ]
+        },
+        {
+          "word": "coma",
+          "syllables": [
+            "co",
+            "ma"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "grilo",
+          "b": "grilo"
+        },
+        {
+          "a": "macaco",
+          "b": "macaco"
+        },
+        {
+          "a": "amigos",
+          "b": "amigos"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/08/01/images/kileef77is3nmaienek3n62tt6td6lpg/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O macaco, o beija-flor e o grilo eram amigos, muito amigos, mas nem sempre se entendiam.",
+        "Vamos escolher o sítio mais lindo do mundo - concordaram os três.",
+        "O macaco e o grilo não se imaginavam a voar, de flor em flor, nem nunca tinham aprendido tal habilidade.",
+        "A minha ideia é a melhor de todas - disse o grilo.",
+        "E ainda não foi daquela vez que o macaco, o beija-flor e o grilo passaram as férias juntos."
+      ]
+    }
+  ]
+}

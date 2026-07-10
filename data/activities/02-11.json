@@ -1,0 +1,131 @@
+{
+  "id": "02-11",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "sopa",
+          "distractors": [
+            "nunca",
+            "assim",
+            "mesa"
+          ],
+          "sentence": "O nosso amigo Fulano limitou-se a soltar duas assobiadelas, que o criado interpretou à sua maneira, trazendo-lhe um prato de sopa."
+        },
+        {
+          "target": "jantar",
+          "distractors": [
+            "patrão",
+            "nunca",
+            "apostou"
+          ],
+          "sentence": "Fulano apostou com Beltrano que havia de conseguir jantar naquele restaurante, ali da esquina, sem pagar cheta ."
+        },
+        {
+          "target": "patrão",
+          "distractors": [
+            "jantar",
+            "nunca",
+            "apostou"
+          ],
+          "sentence": "E Fulano saiu do restaurante, todo emproado , de palito na boca, perante o pasmo do patrão e do criado."
+        },
+        {
+          "target": "empregado",
+          "distractors": [
+            "emproado",
+            "esquina",
+            "informar"
+          ],
+          "sentence": "O empregado vinha e perguntava se eu queria isto e aquilo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "sopa",
+          "syllables": [
+            "so",
+            "pa"
+          ]
+        },
+        {
+          "word": "jantar",
+          "syllables": [
+            "jan",
+            "tar"
+          ]
+        },
+        {
+          "word": "empregado",
+          "syllables": [
+            "em",
+            "pre",
+            "ga",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "gado",
+          "syllables": [
+            "ga",
+            "do"
+          ]
+        },
+        {
+          "word": "paga",
+          "syllables": [
+            "pa",
+            "ga"
+          ]
+        },
+        {
+          "word": "pregado",
+          "syllables": [
+            "pre",
+            "ga",
+            "do"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "sopa",
+          "b": "sopa"
+        },
+        {
+          "a": "jantar",
+          "b": "jantar"
+        },
+        {
+          "a": "patrão",
+          "b": "patrão"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Fulano apostou com Beltrano que havia de conseguir jantar naquele restaurante, ali da esquina, sem pagar cheta .",
+        "Aqui chegado, Fulano rejeitou o papelinho com a despesa do jantar.",
+        "Mas Beltrano não se conformou e, à sua conta, resolveu, no dia seguinte, fazer o mesmo que Fulano fizera.",
+        "Quando Beltrano se sentou a uma mesa e o criado veio com a terrina da sopa, as duas assobiadelas do freguês puseram o empregado de…",
+        "Há receitas que resultam uma vez, mas à segunda mais vale não experimentar."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "01-05",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "gaivotas",
+          "distractors": [
+            "tiritante",
+            "gostava",
+            "mensagens"
+          ],
+          "sentence": "Dizia ela que as gaivotas não servem para nada, ao passo que as pombas sempre servem para alguma coisa."
+        },
+        {
+          "target": "pomba",
+          "distractors": [
+            "servem",
+            "pombas",
+            "sempre"
+          ],
+          "sentence": "Era uma vez uma gaivota que gostava de ser pomba."
+        },
+        {
+          "target": "sempre",
+          "distractors": [
+            "pomba",
+            "servem",
+            "pombas"
+          ],
+          "sentence": "Afinal sempre tenho alguma utilidade\", pensou a gaivota que queria ser pomba, toda enrolada numa bola de penas, e, daí em diante…"
+        },
+        {
+          "target": "ficou",
+          "distractors": [
+            "pomba",
+            "servem",
+            "pombas"
+          ],
+          "sentence": "Ficou sozinha a gaivota que queria ser pomba."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "gaivotas",
+          "syllables": [
+            "gai",
+            "vo",
+            "tas"
+          ]
+        },
+        {
+          "word": "pomba",
+          "syllables": [
+            "pom",
+            "ba"
+          ]
+        },
+        {
+          "word": "terra",
+          "syllables": [
+            "ter",
+            "ra"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "baratas",
+          "syllables": [
+            "ba",
+            "ra",
+            "tas"
+          ]
+        },
+        {
+          "word": "bater",
+          "syllables": [
+            "ba",
+            "ter"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "gaivotas",
+          "b": "gaivotas"
+        },
+        {
+          "a": "pomba",
+          "b": "pomba"
+        },
+        {
+          "a": "servem",
+          "b": "servem"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/01/05/images/l3bbhurpfve2xphrbclc527zt5zbafqk/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez uma gaivota que gostava de ser pomba.",
+        "Também há quem as cozinhe com ervilhas - interrompeu-a uma gaivota trocista.",
+        "A gaivota que queria ser pomba ficou a olhar o mar.",
+        "Umas, levantadas numa só pata, outras escondidas numa cova da areia, olhavam as águas esverdinhadas , espumosas, como turistas…",
+        "Afinal sempre tenho alguma utilidade\", pensou a gaivota que queria ser pomba, toda enrolada numa bola de penas, e, daí em diante…"
+      ]
+    }
+  ]
+}

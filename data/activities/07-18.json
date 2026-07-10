@@ -1,0 +1,140 @@
+{
+  "id": "07-18",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "casa",
+          "distractors": [
+            "botão",
+            "casaco",
+            "basta"
+          ],
+          "sentence": "Para fazer uma casa, não basta um tijolo."
+        },
+        {
+          "target": "botão",
+          "distractors": [
+            "casa",
+            "casaco",
+            "tijolo"
+          ],
+          "sentence": "Para fazer um casaco, não basta um botão."
+        },
+        {
+          "target": "casaco",
+          "distractors": [
+            "casa",
+            "botão",
+            "tijolo"
+          ],
+          "sentence": "O alfaiate sozinho talvez conseguisse fazer o casaco, mas preferiu a ajuda de oficiais e costureiras de alfaiate, profissionais do ramo…"
+        },
+        {
+          "target": "tijolo",
+          "distractors": [
+            "botão",
+            "casaco",
+            "basta"
+          ],
+          "sentence": "Falta tudo o resto: o terreno, o projecto, todos os materiais de construção, descontando um tijolo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        },
+        {
+          "word": "botão",
+          "syllables": [
+            "bo",
+            "tão"
+          ]
+        },
+        {
+          "word": "casaco",
+          "syllables": [
+            "ca",
+            "sa",
+            "co"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "boca",
+          "syllables": [
+            "bo",
+            "ca"
+          ]
+        },
+        {
+          "word": "cabo",
+          "syllables": [
+            "ca",
+            "bo"
+          ]
+        },
+        {
+          "word": "casaca",
+          "syllables": [
+            "ca",
+            "sa",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "casa",
+          "b": "casa"
+        },
+        {
+          "a": "botão",
+          "b": "botão"
+        },
+        {
+          "a": "casaco",
+          "b": "casaco"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/07/18/images/uzb4pjeqcrvg5oen2jqhfmbjkxoefdch/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um alfaiate e um arquitecto que eram amigos.",
+        "Falta tudo o resto: o tecido, o modelo, todos os aviamentos, descontando um botão.",
+        "Precisou da ajuda de desenhadores, pedreiros, carpinteiros, electricistas, pintores e de outros profissionais do ramo da construção civil.",
+        "Com o seu casaco novo pelos ombros, o arquitecto foi visitar o alfaiate na sua casa nova.",
+        "Por aqui se vê como um botão teve uma casa construída por um arquitecto."
+      ]
+    }
+  ]
+}

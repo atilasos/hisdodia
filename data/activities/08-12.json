@@ -1,0 +1,75 @@
+{
+  "id": "08-12",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "gato",
+          "syllables": [
+            "ga",
+            "to"
+          ]
+        },
+        {
+          "word": "peixe",
+          "syllables": [
+            "pei",
+            "xe"
+          ]
+        },
+        {
+          "word": "prata",
+          "syllables": [
+            "pra",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "gata",
+          "syllables": [
+            "ga",
+            "ta"
+          ]
+        },
+        {
+          "word": "peito",
+          "syllables": [
+            "pei",
+            "to"
+          ]
+        },
+        {
+          "word": "praga",
+          "syllables": [
+            "pra",
+            "ga"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "gato",
+          "b": "gato"
+        },
+        {
+          "a": "peixe",
+          "b": "peixe"
+        },
+        {
+          "a": "prata",
+          "b": "prata"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "12-29",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "menina",
+          "distractors": [
+            "pedra",
+            "cobra",
+            "filha"
+          ],
+          "sentence": "Disse que lhe tinha acabado de nascer uma filha e que, como bom pai, queria para a menina tudo o que de melhor houvesse."
+        },
+        {
+          "target": "galinhola",
+          "distractors": [
+            "lavrador",
+            "grande",
+            "gaveta"
+          ],
+          "sentence": "Nisto viu uma cobra a lutar com uma galinhola."
+        },
+        {
+          "target": "pedra",
+          "distractors": [
+            "menina",
+            "cobra",
+            "filha"
+          ],
+          "sentence": "Guarda esta pedra contigo, que é um talismã para proteger a tua filha."
+        },
+        {
+          "target": "lavrador",
+          "distractors": [
+            "galinhola",
+            "lembro",
+            "sacholada"
+          ],
+          "sentence": "Começa com um lavrador que ia para a sua lavoura, pelo meio do mato."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "menina",
+          "syllables": [
+            "me",
+            "ni",
+            "na"
+          ]
+        },
+        {
+          "word": "galinhola",
+          "syllables": [
+            "ga",
+            "li",
+            "nho",
+            "la"
+          ]
+        },
+        {
+          "word": "pedra",
+          "syllables": [
+            "pe",
+            "dra"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "gala",
+          "syllables": [
+            "ga",
+            "la"
+          ]
+        },
+        {
+          "word": "ladra",
+          "syllables": [
+            "la",
+            "dra"
+          ]
+        },
+        {
+          "word": "liga",
+          "syllables": [
+            "li",
+            "ga"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "menina",
+          "b": "menina"
+        },
+        {
+          "a": "galinhola",
+          "b": "galinhola"
+        },
+        {
+          "a": "pedra",
+          "b": "pedra"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/29/images/qi4srph2vgqezna2ukhnbwddrauehkag/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Há muito e muito tempo, tanto que eu já não sei se me lembro dela toda.",
+        "A tua filha há-de ser formosa, bem prendada...",
+        "Guarda esta pedra contigo, que é um talismã para proteger a tua filha.",
+        "Logo ali se armou uma grande tempestade que arrebatou a menina pelo ar.",
+        "O resto desta história muito antiga já não me lembro bem, mas parece que a menina foi ter aos jardins de um palácio, onde estava um…"
+      ]
+    }
+  ]
+}

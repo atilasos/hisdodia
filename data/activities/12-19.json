@@ -1,0 +1,164 @@
+{
+  "id": "12-19",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhora",
+          "distractors": [
+            "aranhas",
+            "horror",
+            "árvore"
+          ],
+          "sentence": "A senhora desta história tinha medo de tudo, sobretudo de ratos, de lagartixas e de aranhas."
+        },
+        {
+          "target": "medo",
+          "distractors": [
+            "prata",
+            "grito",
+            "lado"
+          ],
+          "sentence": "Há pessoas que têm medo de ratos, pessoas que têm medo de lagartixas, pessoas que têm medo de aranhas."
+        },
+        {
+          "target": "aranhas",
+          "distractors": [
+            "senhora",
+            "horror",
+            "árvore"
+          ],
+          "sentence": "Tanto assim era que os ratos, as lagartixas e as aranhas resolveram reunir-se numa assembleia, para discutirem as medidas a tomar neste…"
+        },
+        {
+          "target": "árvore",
+          "distractors": [
+            "senhora",
+            "aranhas",
+            "horror"
+          ],
+          "sentence": "Quando a senhora voltou a casa, ela que, na rua, não usava óculos, e acendeu a luz da sala e viu com os olhos míopes a árvore de Natal…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhora",
+          "syllables": [
+            "se",
+            "nho",
+            "ra"
+          ]
+        },
+        {
+          "word": "medo",
+          "syllables": [
+            "me",
+            "do"
+          ]
+        },
+        {
+          "word": "aranhas",
+          "syllables": [
+            "a",
+            "ra",
+            "nhas"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "arado",
+          "syllables": [
+            "a",
+            "ra",
+            "do"
+          ]
+        },
+        {
+          "word": "arame",
+          "syllables": [
+            "a",
+            "ra",
+            "me"
+          ]
+        },
+        {
+          "word": "rara",
+          "syllables": [
+            "ra",
+            "ra"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhora",
+          "b": "senhora"
+        },
+        {
+          "a": "medo",
+          "b": "medo"
+        },
+        {
+          "a": "aranhas",
+          "b": "aranhas"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "renhida",
+          "b": "disputada com ardor"
+        },
+        {
+          "a": "engrinaldado",
+          "b": "enfeitado / adornado"
+        },
+        {
+          "a": "extasiada",
+          "b": "espantada / arrebatada"
+        },
+        {
+          "a": "culminante",
+          "b": "decisivo / muito importante"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/19/images/e0d7ab1fd4e866700872ac15/imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Há pessoas que têm medo de ratos, pessoas que têm medo de lagartixas, pessoas que têm medo de aranhas.",
+        "A senhora medrosa enfeitava sempre um pinheirinho com bolas e fios de prata, durante a época natalícia.",
+        "Quando a senhora voltou a casa, ela que, na rua, não usava óculos, e acendeu a luz da sala e viu com os olhos míopes a árvore de Natal…",
+        "Não me recordo nada de ter posto este brinquedo na árvore.",
+        "E, sem mais sustos mútuos, todos viveram em boa paz."
+      ]
+    }
+  ]
+}

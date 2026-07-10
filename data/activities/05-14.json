@@ -1,0 +1,122 @@
+{
+  "id": "05-14",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "pérolas",
+          "distractors": [
+            "deuses",
+            "pérola",
+            "primeira"
+          ],
+          "sentence": "Acreditava-se na Índia que as pérolas eram oferenda dos deuses."
+        },
+        {
+          "target": "deuses",
+          "distractors": [
+            "pérolas",
+            "pérola",
+            "ostra"
+          ],
+          "sentence": "Aí chegado, ajoelha-se na praia e agradece aos deuses a sua sorte."
+        },
+        {
+          "target": "cera",
+          "distractors": [
+            "ostra",
+            "gota",
+            "raras"
+          ],
+          "sentence": "Para se defender do intruso, a ostra segrega uma espécie de cera que envolve e neutraliza o incómodo visitante."
+        },
+        {
+          "target": "pérola",
+          "distractors": [
+            "pérolas",
+            "deuses",
+            "ostra"
+          ],
+          "sentence": "A pérola desenvolve-se quando um minúsculo parasita se introduz dentro da concha."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "pérolas",
+          "syllables": [
+            "pé",
+            "ro",
+            "las"
+          ]
+        },
+        {
+          "word": "deuses",
+          "syllables": [
+            "deu",
+            "ses"
+          ]
+        },
+        {
+          "word": "cera",
+          "syllables": [
+            "ce",
+            "ra"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cedeu",
+          "syllables": [
+            "ce",
+            "deu"
+          ]
+        },
+        {
+          "word": "rolas",
+          "syllables": [
+            "ro",
+            "las"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "pérolas",
+          "b": "pérolas"
+        },
+        {
+          "a": "deuses",
+          "b": "deuses"
+        },
+        {
+          "a": "cera",
+          "b": "cera"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Acreditava-se na Índia que as pérolas eram oferenda dos deuses.",
+        "Este líquido gelatinoso vai solidificando, ao longo de muito tempo, ganhando novas camadas, como um casulo de bicho-da-seda, mas rijo…",
+        "Aí chegado, ajoelha-se na praia e agradece aos deuses a sua sorte.",
+        "Tão insignificante que eu sou nesta imensidão.",
+        "É uma lenda, mas apetece acreditar que tudo se passou assim."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "09-26",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "fogo",
+          "distractors": [
+            "casa",
+            "culpa",
+            "nunca"
+          ],
+          "sentence": "Entre elas, o leopardo, que ganhou fama de ser de todos os animais ferozes o que mais medo tem do fogo."
+        },
+        {
+          "target": "leopardo",
+          "distractors": [
+            "caverna",
+            "floresta",
+            "fogueira"
+          ],
+          "sentence": "No princípio do mundo ou um pouco mais para diante, o leopardo e o fogo visitavam-se muito, como bons amigos que eram."
+        },
+        {
+          "target": "casa",
+          "distractors": [
+            "fogo",
+            "culpa",
+            "caverna"
+          ],
+          "sentence": "Recomendou-lhe, no entanto, que limpasse de ervas e ramos e folhas secas o caminho que ia da casa de um à casa do outro."
+        },
+        {
+          "target": "culpa",
+          "distractors": [
+            "fogo",
+            "casa",
+            "caverna"
+          ],
+          "sentence": "Não tenho culpa - gritava o fogo, assustado com a devastação que causava."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "fogo",
+          "syllables": [
+            "fo",
+            "go"
+          ]
+        },
+        {
+          "word": "leopardo",
+          "syllables": [
+            "le",
+            "o",
+            "par",
+            "do"
+          ]
+        },
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "foca",
+          "syllables": [
+            "fo",
+            "ca"
+          ]
+        },
+        {
+          "word": "fogosa",
+          "syllables": [
+            "fo",
+            "go",
+            "sa"
+          ]
+        },
+        {
+          "word": "pardoca",
+          "syllables": [
+            "par",
+            "do",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "fogo",
+          "b": "fogo"
+        },
+        {
+          "a": "leopardo",
+          "b": "leopardo"
+        },
+        {
+          "a": "casa",
+          "b": "casa"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/09/26/images/rjf6v4cy6dduw25dqcwpahnvg43uunst/Imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Nos acampamentos, em África, à noite, há sempre uma fogueira acesa, que afasta as feras.",
+        "Um dia, o leopardo fez-lhe este reparo, um pouco amuado com a desconsideração.",
+        "Mas o leopardo tanto insistiu que o fogo acedeu.",
+        "Não tenho culpa - gritava o fogo, assustado com a devastação que causava.",
+        "Há que dizer, porém, que o primeiro culpado foi o leopardo, que não soube desbastar a mata seca da floresta como devia."
+      ]
+    }
+  ]
+}

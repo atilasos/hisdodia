@@ -1,0 +1,140 @@
+{
+  "id": "12-15",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "treinador",
+          "distractors": [
+            "desporto",
+            "suplente",
+            "táctica"
+          ],
+          "sentence": "Rapazes, hoje a táctica é toda por conta dos Nervos - anunciava o treinador, nos balneários."
+        },
+        {
+          "target": "jogo",
+          "distractors": [
+            "jogador",
+            "hoje",
+            "falar"
+          ],
+          "sentence": "Já o primo dele, o Chico Nervos, que também jogava, mas a meio-campo, não havia quem o suplantasse como armador de jogo."
+        },
+        {
+          "target": "equipa",
+          "distractors": [
+            "jogador",
+            "primos",
+            "falar"
+          ],
+          "sentence": "Estamos muito desfalcados - lamentavam-se os companheiros de equipa."
+        },
+        {
+          "target": "jogador",
+          "distractors": [
+            "jogo",
+            "equipa",
+            "primos"
+          ],
+          "sentence": "Era uma vez um jogador que se chamava Medo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "treinador",
+          "syllables": [
+            "trei",
+            "na",
+            "dor"
+          ]
+        },
+        {
+          "word": "jogo",
+          "syllables": [
+            "jo",
+            "go"
+          ]
+        },
+        {
+          "word": "chamava",
+          "syllables": [
+            "cha",
+            "ma",
+            "va"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "chama",
+          "syllables": [
+            "cha",
+            "ma"
+          ]
+        },
+        {
+          "word": "goma",
+          "syllables": [
+            "go",
+            "ma"
+          ]
+        },
+        {
+          "word": "mago",
+          "syllables": [
+            "ma",
+            "go"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "treinador",
+          "b": "treinador"
+        },
+        {
+          "a": "jogo",
+          "b": "jogo"
+        },
+        {
+          "a": "equipa",
+          "b": "equipa"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/15/images/vf5rmywoswxa6j4kslykiyvltsqjtdfs/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um jogador que se chamava Medo.",
+        "Rapazes, hoje a táctica é toda por conta dos Nervos - anunciava o treinador, nos balneários.",
+        "Até parecia que a força dos Nervos se comunicava aos restantes jogadores.",
+        "O primeiro jogo com a nova formação foi um desastre.",
+        "Mas uma coisa aprendi da minha passagem pelo desporto: com Nervos e Medo juntos, nunca se consegue ganhar."
+      ]
+    }
+  ]
+}

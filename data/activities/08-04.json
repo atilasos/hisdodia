@@ -1,0 +1,139 @@
+{
+  "id": "08-04",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "filho",
+          "distractors": [
+            "batata",
+            "buscar",
+            "nova"
+          ],
+          "sentence": "Ó filho, trazia-lo para casa com um cordelinho amarrado pelo pé e tocáva-lo para diante com uma varinha."
+        },
+        {
+          "target": "batata",
+          "distractors": [
+            "filho",
+            "buscar",
+            "próxima"
+          ],
+          "sentence": "O Pedro ia e voltava a correr com uma batata na mão."
+        },
+        {
+          "target": "saco",
+          "distractors": [
+            "filho",
+            "nova",
+            "casa"
+          ],
+          "sentence": "Metia-las todas num saco e trazias, de uma só vez."
+        },
+        {
+          "target": "casa",
+          "distractors": [
+            "filho",
+            "nova",
+            "saco"
+          ],
+          "sentence": "Quando o Pedro chegou a casa trazia só a asa do cântaro, presa a um cordel."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "filho",
+          "syllables": [
+            "fi",
+            "lho"
+          ]
+        },
+        {
+          "word": "batata",
+          "syllables": [
+            "ba",
+            "ta",
+            "ta"
+          ]
+        },
+        {
+          "word": "buscar",
+          "syllables": [
+            "bus",
+            "car"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "carta",
+          "syllables": [
+            "car",
+            "ta"
+          ]
+        },
+        {
+          "word": "ficar",
+          "syllables": [
+            "fi",
+            "car"
+          ]
+        },
+        {
+          "word": "fita",
+          "syllables": [
+            "fi",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "filho",
+          "b": "filho"
+        },
+        {
+          "a": "batata",
+          "b": "batata"
+        },
+        {
+          "a": "buscar",
+          "b": "buscar"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/08/04/images/d25b5b62f874f678f0adff5f/imagens/background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Ó Pedro, vai ali, se fazes favor, à mercearia do senhor Cosme e traz-me dois quilos de batatas.",
+        "Metia-las todas num saco e trazias, de uma só vez.",
+        "Quando o rapaz regressou sem o bicho, a mãe admirou-se.",
+        "Ó filho, trazia-lo para casa com um cordelinho amarrado pelo pé e tocáva-lo para diante com uma varinha.",
+        "O que valia ao Pedro cabeça-no-ar é que a mãe tinha muita paciência."
+      ]
+    }
+  ]
+}

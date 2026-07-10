@@ -1,0 +1,140 @@
+{
+  "id": "12-13",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "pasta",
+          "distractors": [
+            "dois",
+            "lado",
+            "portão"
+          ],
+          "sentence": "Iam dois vagabundos por uma estrada, quando encontraram, do lado de fora de um portão de quinta rica, uma pasta de cabedal, daquelas que…"
+        },
+        {
+          "target": "dois",
+          "distractors": [
+            "pasta",
+            "lado",
+            "debaixo"
+          ],
+          "sentence": "Os dois vagabundos olharam para a pasta, olharam um para o outro e, enquanto o diabo esfrega um olho, raparam da pasta e rasparam-se…"
+        },
+        {
+          "target": "estrada",
+          "distractors": [
+            "portão",
+            "quinta",
+            "cabedal"
+          ],
+          "sentence": "Depois afastou-se gloriosamente, com a pasta recuperada debaixo do braço, enquanto os dois vagabundos saboreavam o pó da estrada."
+        },
+        {
+          "target": "lado",
+          "distractors": [
+            "pasta",
+            "dois",
+            "braço"
+          ],
+          "sentence": "O homenzarrão tinha aparecido de surpresa, vindo de uma cancela do mesmo lado do portão da tal quinta."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "pasta",
+          "syllables": [
+            "pas",
+            "ta"
+          ]
+        },
+        {
+          "word": "estrada",
+          "syllables": [
+            "es",
+            "tra",
+            "da"
+          ]
+        },
+        {
+          "word": "lado",
+          "syllables": [
+            "la",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dado",
+          "syllables": [
+            "da",
+            "do"
+          ]
+        },
+        {
+          "word": "data",
+          "syllables": [
+            "da",
+            "ta"
+          ]
+        },
+        {
+          "word": "dotada",
+          "syllables": [
+            "do",
+            "ta",
+            "da"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "pasta",
+          "b": "pasta"
+        },
+        {
+          "a": "dois",
+          "b": "dois"
+        },
+        {
+          "a": "estrada",
+          "b": "estrada"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/13/images/wyk4h6ay4medhpvc4yzdavhyxs5r5hhi/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Iam dois vagabundos por uma estrada, quando encontraram, do lado de fora de um portão de quinta rica, uma pasta de cabedal, daquelas que…",
+        "Até parecia que a descoberta lhes trouxera novas forças, porque voltaram a correr desalmadamente, esquecidos do cansaço, da fraqueza, de…",
+        "Isso querias tu - disse o primeiro vagabundo, apertando ainda mais a pasta de encontro ao corpo.",
+        "De pouco lhe valeu, porque o gigante justiceiro tratou da saúde ao que chamara a pasta a si e ainda lhe sobrou tempo para dar outra sova…",
+        "O outro, qualquer que ele fosse, concordou..."
+      ]
+    }
+  ]
+}

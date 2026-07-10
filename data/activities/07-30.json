@@ -1,0 +1,140 @@
+{
+  "id": "07-30",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "menino",
+          "distractors": [
+            "licença",
+            "castelo",
+            "gente"
+          ],
+          "sentence": "Quero fazer um castelo de areia - disse o menino, que tinha trazido para a praia um balde novo e uma pá e um ancinho."
+        },
+        {
+          "target": "licença",
+          "distractors": [
+            "menino",
+            "lado",
+            "castelo"
+          ],
+          "sentence": "Para que um banhista, mesmo magrinho, conseguisse estender a toalha de banho sobre a areia, tinha de pedir \"Com licença, com licença\"…"
+        },
+        {
+          "target": "lado",
+          "distractors": [
+            "licença",
+            "gente",
+            "banho"
+          ],
+          "sentence": "Um par de namorados, que estava estendido ao lado, condoeu-se daquele menino, que se perdera dos pais, e foi procurar o cabo-do-mar…"
+        },
+        {
+          "target": "castelo",
+          "distractors": [
+            "menino",
+            "licença",
+            "senhor"
+          ],
+          "sentence": "Então quando é que eu faço o castelo de areia?"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "menino",
+          "syllables": [
+            "me",
+            "ni",
+            "no"
+          ]
+        },
+        {
+          "word": "licença",
+          "syllables": [
+            "li",
+            "cen",
+            "ça"
+          ]
+        },
+        {
+          "word": "lado",
+          "syllables": [
+            "la",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dono",
+          "syllables": [
+            "do",
+            "no"
+          ]
+        },
+        {
+          "word": "lido",
+          "syllables": [
+            "li",
+            "do"
+          ]
+        },
+        {
+          "word": "liça",
+          "syllables": [
+            "li",
+            "ça"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "menino",
+          "b": "menino"
+        },
+        {
+          "a": "licença",
+          "b": "licença"
+        },
+        {
+          "a": "lado",
+          "b": "lado"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/07/30/images/nas7baztkcs2mpbph3umrpxnpq5kcju6/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Toldos e barracas de lona tapavam a vista do mar.",
+        "Para me refrescar, tive de ir tomar duche a um balneário.",
+        "Ia, todo satisfeito, a caminho do mar, embora só muito mais tarde viesse a descobrir, quando chegou à estrada, que se tinha enganado.",
+        "Os namorados partiram de mão dada, tendo a mãe da rapariga recomendado que não se demorassem.",
+        "Este dia correu muito mal - concordaram os pais."
+      ]
+    }
+  ]
+}

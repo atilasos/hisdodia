@@ -1,0 +1,121 @@
+{
+  "id": "03-23",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "nomes",
+          "distractors": [
+            "gatos",
+            "gata",
+            "velhos"
+          ],
+          "sentence": "Eles que dêem esses nomes aos filhos deles, que para os meus não os quero."
+        },
+        {
+          "target": "gatos",
+          "distractors": [
+            "nomes",
+            "gata",
+            "velhos"
+          ],
+          "sentence": "E os nossos gatos não são desses, ora essa!"
+        },
+        {
+          "target": "gata",
+          "distractors": [
+            "nomes",
+            "gatos",
+            "gato"
+          ],
+          "sentence": "Era uma vez uma gata que teve três gatinhos."
+        },
+        {
+          "target": "velhos",
+          "distractors": [
+            "nomes",
+            "gatos",
+            "donos"
+          ],
+          "sentence": "Agora que estão velhos e fartos de aventuras, só querem festas e sopas quentes."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "nomes",
+          "syllables": [
+            "no",
+            "mes"
+          ]
+        },
+        {
+          "word": "gatos",
+          "syllables": [
+            "ga",
+            "tos"
+          ]
+        },
+        {
+          "word": "velhos",
+          "syllables": [
+            "ve",
+            "lhos"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "galhos",
+          "syllables": [
+            "ga",
+            "lhos"
+          ]
+        },
+        {
+          "word": "nove",
+          "syllables": [
+            "no",
+            "ve"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "nomes",
+          "b": "nomes"
+        },
+        {
+          "a": "gatos",
+          "b": "gatos"
+        },
+        {
+          "a": "gata",
+          "b": "gata"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez uma gata que teve três gatinhos.",
+        "Eu não tenho nenhum filho Badameco, muito menos Pimpão e nem por sombras Arranhão.",
+        "Quando chegaram à idade de andar pelo telhado, o Pimpim Badameco, o Pompom Pimpão e o Totó Arranhão sentiram-se mal dentro destes nomes…",
+        "E o Zé do Telhado, que consentiu recentemente na condecoração de um sininho ao pescoço, é o Dom Guizo, com todo o respeito.",
+        "Os gatos velhos têm destes quebrantos , destas fraquezas."
+      ]
+    }
+  ]
+}

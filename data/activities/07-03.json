@@ -1,0 +1,79 @@
+{
+  "id": "07-03",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "bola",
+          "syllables": [
+            "bo",
+            "la"
+          ]
+        },
+        {
+          "word": "menino",
+          "syllables": [
+            "me",
+            "ni",
+            "no"
+          ]
+        },
+        {
+          "word": "então",
+          "syllables": [
+            "en",
+            "tão"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "botão",
+          "syllables": [
+            "bo",
+            "tão"
+          ]
+        },
+        {
+          "word": "nome",
+          "syllables": [
+            "no",
+            "me"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "bola",
+          "b": "bola"
+        },
+        {
+          "a": "menino",
+          "b": "menino"
+        },
+        {
+          "a": "então",
+          "b": "então"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/07/03/images/lpfwao3v7kflk3mmtjzrarzznrvzku4e/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    }
+  ]
+}

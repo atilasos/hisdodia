@@ -1,0 +1,139 @@
+{
+  "id": "02-04",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhor",
+          "distractors": [
+            "queque",
+            "chávena",
+            "calva"
+          ],
+          "sentence": "Aquele senhor ali, de calva rosada e redonda, olhos pestanejantes de menino velho, bochechinhas caídas, da cor da calva , tem mesmo ar…"
+        },
+        {
+          "target": "café",
+          "distractors": [
+            "chávena",
+            "calva",
+            "leite"
+          ],
+          "sentence": "Pois no outro dia, entrou um desconhecido de rompante, lá no café, que se dirigiu sem hesitação ao senhor, a meio da sua chávena meia de…"
+        },
+        {
+          "target": "queque",
+          "distractors": [
+            "senhor",
+            "chávena",
+            "calva"
+          ],
+          "sentence": "Se faz favor trazia-me uma meia de leite, mas não muito quente, acompanhada por um queque, de preferência ainda quentinho..."
+        },
+        {
+          "target": "chávena",
+          "distractors": [
+            "senhor",
+            "café",
+            "queque"
+          ],
+          "sentence": "E sem esperar pela resposta, nem sequer dar tempo ao senhor para poisar a chávena, pregou-lhe uma bofetada de todo o tamanho e saiu…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "café",
+          "syllables": [
+            "ca",
+            "fé"
+          ]
+        },
+        {
+          "word": "chávena",
+          "syllables": [
+            "chá",
+            "ve",
+            "na"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cana",
+          "syllables": [
+            "ca",
+            "na"
+          ]
+        },
+        {
+          "word": "cave",
+          "syllables": [
+            "ca",
+            "ve"
+          ]
+        },
+        {
+          "word": "seca",
+          "syllables": [
+            "se",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "café",
+          "b": "café"
+        },
+        {
+          "a": "queque",
+          "b": "queque"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/02/04/images/zeynvstvgbfpyuagzyrp3hxfnghh37x7/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Aquele senhor ali, de calva rosada e redonda, olhos pestanejantes de menino velho, bochechinhas caídas, da cor da calva , tem mesmo ar…",
+        "E ri-se, suavemente, do seu capricho guloso.",
+        "E sem esperar pela resposta, nem sequer dar tempo ao senhor para poisar a chávena, pregou-lhe uma bofetada de todo o tamanho e saiu…",
+        "Eu, que estava perto, ainda apanhei uns salpicos.",
+        "Então o senhor apanha uma bofetada destas e fica-se?"
+      ]
+    }
+  ]
+}

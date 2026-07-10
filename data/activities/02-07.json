@@ -1,0 +1,132 @@
+{
+  "id": "02-07",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "chapéu",
+          "distractors": [
+            "vizinho",
+            "casa",
+            "chapéus"
+          ],
+          "sentence": "Cada pessoa que vier leva um chapéu de graça."
+        },
+        {
+          "target": "vizinho",
+          "distractors": [
+            "chapéu",
+            "chapéus",
+            "colecção"
+          ],
+          "sentence": "O meu vizinho do lado é coleccionador, mas de chapéus."
+        },
+        {
+          "target": "casa",
+          "distractors": [
+            "chapéu",
+            "lado",
+            "chapéus"
+          ],
+          "sentence": "Lá em casa, logo à entrada, tem um bengaleiro, que é um museu de chapelaria."
+        },
+        {
+          "target": "lado",
+          "distractors": [
+            "casa",
+            "alto",
+            "agora"
+          ],
+          "sentence": "É uma pena que o meu vizinho do lado vá acabar com a colecção."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "chapéu",
+          "syllables": [
+            "cha",
+            "péu"
+          ]
+        },
+        {
+          "word": "vizinho",
+          "syllables": [
+            "vi",
+            "zi",
+            "nho"
+          ]
+        },
+        {
+          "word": "lado",
+          "syllables": [
+            "la",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "vila",
+          "syllables": [
+            "vi",
+            "la"
+          ]
+        },
+        {
+          "word": "vinho",
+          "syllables": [
+            "vi",
+            "nho"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "chapéu",
+          "b": "chapéu"
+        },
+        {
+          "a": "vizinho",
+          "b": "vizinho"
+        },
+        {
+          "a": "casa",
+          "b": "casa"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/02/07/images/o3rnwla2z7zzpj2n4d2g3rhzhwn2lvr5/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O meu vizinho do lado é coleccionador, mas de chapéus.",
+        "É uma pena que o meu vizinho do lado vá acabar com a colecção.",
+        "Parecia um dia de Carnaval, como aqueles que já não há.",
+        "Antigos, isto é, velhos, cambados , gastos.",
+        "Entre vizinhos, temos de ser uns para os outros."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": "01-01",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "moleiro",
+          "distractors": [
+            "filhos",
+            "estrada",
+            "moleiros"
+          ],
+          "sentence": "No tempo em que as velas dos moinhos rodavam ao vento, um moleiro, todo enfarinhado de carregar com sacas de farinha, cruzou-se, na…"
+        },
+        {
+          "target": "carvoeiro",
+          "distractors": [
+            "moleiros",
+            "carregar",
+            "carvão"
+          ],
+          "sentence": "Esquecemo-nos de dizer que ao lado do moleiro ia o filho do moleiro e ao lado do carvoeiro, o filho do carvoeiro."
+        },
+        {
+          "target": "filho",
+          "distractors": [
+            "filhos",
+            "sujo",
+            "pais"
+          ],
+          "sentence": "O filho do carvoeiro ouviu o comentário e não gostou."
+        },
+        {
+          "target": "filhos",
+          "distractors": [
+            "moleiro",
+            "filho",
+            "estrada"
+          ],
+          "sentence": "Nesse tempo também, os filhos dos moleiros não tinham outro destino senão ser moleiros e os filhos dos carvoeiros não podiam ambicionar…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "moleiro",
+          "syllables": [
+            "mo",
+            "lei",
+            "ro"
+          ]
+        },
+        {
+          "word": "carvoeiro",
+          "syllables": [
+            "car",
+            "vo",
+            "ei",
+            "ro"
+          ]
+        },
+        {
+          "word": "filho",
+          "syllables": [
+            "fi",
+            "lho"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "carro",
+          "syllables": [
+            "car",
+            "ro"
+          ]
+        },
+        {
+          "word": "ficar",
+          "syllables": [
+            "fi",
+            "car"
+          ]
+        },
+        {
+          "word": "molho",
+          "syllables": [
+            "mo",
+            "lho"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "moleiro",
+          "b": "moleiro"
+        },
+        {
+          "a": "carvoeiro",
+          "b": "carvoeiro"
+        },
+        {
+          "a": "filho",
+          "b": "filho"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "engalfinharam-se",
+          "b": "pegaram-se"
+        },
+        {
+          "a": "contendores",
+          "b": "rivais / adversários"
+        },
+        {
+          "a": "zaragata",
+          "b": "confusão ou briga"
+        },
+        {
+          "a": "reticentes",
+          "b": "hesitantes, pouco convencidos"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/assets/01-01/illustration-original.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "No tempo em que as velas dos moinhos rodavam ao vento, um moleiro, todo enfarinhado de carregar com sacas de farinha, cruzou-se, na…",
+        "O filho do carvoeiro ouviu o comentário e não gostou.",
+        "Correu gente dos campos próximos a apartá-los.",
+        "Se tivessem dado um abraço, em vez de bulharem, o resultado teria sido o mesmo - continuou o velho.",
+        "Toda a gente riu com gosto e a história acaba aqui."
+      ]
+    }
+  ]
+}

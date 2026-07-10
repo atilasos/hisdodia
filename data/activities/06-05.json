@@ -1,0 +1,140 @@
+{
+  "id": "06-05",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "pomar",
+          "distractors": [
+            "frutos",
+            "reino",
+            "mandou"
+          ],
+          "sentence": "Era uma vez um rei que tinha, à roda do palácio, onde vivia, um enorme pomar muito bem tratado."
+        },
+        {
+          "target": "frutos",
+          "distractors": [
+            "pomar",
+            "reino",
+            "mandou"
+          ],
+          "sentence": "E, quando os frutos começavam a ganhar forma, o perfume que inundava o pomar quase entontecia."
+        },
+        {
+          "target": "lagartas",
+          "distractors": [
+            "logo",
+            "respondeu",
+            "decreto"
+          ],
+          "sentence": "Mas, em contrapartida, uma praga aflitiva de lagartas e insectos destruiu as colheitas, minou os frutos, empobreceu o reino."
+        },
+        {
+          "target": "reino",
+          "distractors": [
+            "pomar",
+            "frutos",
+            "mandou"
+          ],
+          "sentence": "E o rei foi para o palácio, onde ditou um decreto para ser espalhado pelo reino, em que mandava matar todos os pássaros, passarinhos e…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "pomar",
+          "syllables": [
+            "po",
+            "mar"
+          ]
+        },
+        {
+          "word": "frutos",
+          "syllables": [
+            "fru",
+            "tos"
+          ]
+        },
+        {
+          "word": "lagartas",
+          "syllables": [
+            "la",
+            "gar",
+            "tas"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "frutas",
+          "syllables": [
+            "fru",
+            "tas"
+          ]
+        },
+        {
+          "word": "lagartos",
+          "syllables": [
+            "la",
+            "gar",
+            "tos"
+          ]
+        },
+        {
+          "word": "latas",
+          "syllables": [
+            "la",
+            "tas"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "pomar",
+          "b": "pomar"
+        },
+        {
+          "a": "frutos",
+          "b": "frutos"
+        },
+        {
+          "a": "lagartas",
+          "b": "lagartas"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/06/05/images/kelqyqoqbwjujdiulss26lwpljqiqttk/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um rei que tinha, à roda do palácio, onde vivia, um enorme pomar muito bem tratado.",
+        "Estava, um dia, o rei a mostrar o pomar a uns primos, príncipes de reinos vizinhos, quando viu, caídos de um pessegueiro uns tantos…",
+        "Pois vou eu ensiná-los - indignou-se o rei.",
+        "Depois de guerrearmos os pássaros, temos agora de guerrear os mosquitos e as lagartas.",
+        "Logo ali mandou anular o decreto, que tinha apagado as asas dos céus do reino."
+      ]
+    }
+  ]
+}

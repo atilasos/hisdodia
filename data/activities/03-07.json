@@ -1,0 +1,140 @@
+{
+  "id": "03-07",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "menina",
+          "distractors": [
+            "peluche",
+            "noite",
+            "ursinho"
+          ],
+          "sentence": "Era uma vez um urso de peluche que não conseguia dormir sem uma menina chamada Teresa, abraçada a ele."
+        },
+        {
+          "target": "urso",
+          "distractors": [
+            "noite",
+            "ursinho",
+            "casa"
+          ],
+          "sentence": "Um dia, a menina chamada Teresa foi de férias e esqueceu-se do urso de peluche em casa."
+        },
+        {
+          "target": "peluche",
+          "distractors": [
+            "menina",
+            "ursinho",
+            "dormir"
+          ],
+          "sentence": "Na terceira noite, de olhos a arder, o urso de peluche cabeceou de sono, mas não conseguiu dormir como deve ser."
+        },
+        {
+          "target": "noite",
+          "distractors": [
+            "menina",
+            "urso",
+            "dormir"
+          ],
+          "sentence": "O pobre do ursinho passou a noite em branco."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "menina",
+          "syllables": [
+            "me",
+            "ni",
+            "na"
+          ]
+        },
+        {
+          "word": "urso",
+          "syllables": [
+            "ur",
+            "so"
+          ]
+        },
+        {
+          "word": "peluche",
+          "syllables": [
+            "pe",
+            "lu",
+            "che"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "lume",
+          "syllables": [
+            "lu",
+            "me"
+          ]
+        },
+        {
+          "word": "pena",
+          "syllables": [
+            "pe",
+            "na"
+          ]
+        },
+        {
+          "word": "peso",
+          "syllables": [
+            "pe",
+            "so"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "menina",
+          "b": "menina"
+        },
+        {
+          "a": "urso",
+          "b": "urso"
+        },
+        {
+          "a": "peluche",
+          "b": "peluche"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/03/07/images/xpaphypyvktczqb2xiic7pn32fjnz755/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um urso de peluche que não conseguia dormir sem uma menina chamada Teresa, abraçada a ele.",
+        "À segunda noite, ainda tentou pedir a uma boneca, das muitas que a menina não tinha levado na bagagem, se não se importava, isto é, se…",
+        "Antes da nova noite de espertina que se anunciava, o pai de Teresa entrou no quarto, agarrou no urso de peluche e meteu-o na pasta.",
+        "Vamos lá ver se, daqui para a frente, adormeces sem rabujar - disse ele para a menina, que se abraçava ao urso de peluche como se fosse…",
+        "Claro que a menina cresceu e provou-se que o pai tinha razão, mas isso já faz parte de outra história e esta tem de acabar aqui e bem."
+      ]
+    }
+  ]
+}

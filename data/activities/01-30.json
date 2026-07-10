@@ -1,0 +1,129 @@
+{
+  "id": "01-30",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "casa",
+          "distractors": [
+            "gato",
+            "claro",
+            "vida"
+          ],
+          "sentence": "Vamos fazer uma casa só para nós - propôs um deles."
+        },
+        {
+          "target": "gato",
+          "distractors": [
+            "casa",
+            "claro",
+            "vida"
+          ],
+          "sentence": "O gato do telhado, que passava o dia no telhado, e o gato de janela, que passava o dia à janela, quiseram mudar de vida."
+        },
+        {
+          "target": "telhado",
+          "distractors": [
+            "janela",
+            "passava",
+            "juntou"
+          ],
+          "sentence": "Começa-se pelo telhado - sugeriu um deles."
+        },
+        {
+          "target": "gatos",
+          "distractors": [
+            "casa",
+            "gato",
+            "claro"
+          ],
+          "sentence": "Basta que se saiba, aqui em segredo, que qualquer dos dois gatos era um bocado lunático , de tanto olhar para a lua em noites de Lua…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        },
+        {
+          "word": "gato",
+          "syllables": [
+            "ga",
+            "to"
+          ]
+        },
+        {
+          "word": "telhado",
+          "syllables": [
+            "te",
+            "lha",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "calha",
+          "syllables": [
+            "ca",
+            "lha"
+          ]
+        },
+        {
+          "word": "cato",
+          "syllables": [
+            "ca",
+            "to"
+          ]
+        },
+        {
+          "word": "gado",
+          "syllables": [
+            "ga",
+            "do"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "casa",
+          "b": "casa"
+        },
+        {
+          "a": "gato",
+          "b": "gato"
+        },
+        {
+          "a": "telhado",
+          "b": "telhado"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O gato do telhado, que passava o dia no telhado, e o gato de janela, que passava o dia à janela, quiseram mudar de vida.",
+        "Para construir uma casa, temos de começar pelo princípio - decidiu um deles.",
+        "Começa-se pelas janelas - contrapôs o outro.",
+        "Vou construir a minha casa sozinho - disse um deles.",
+        "Querem desiludi-los e dizer-lhes que estão ambos enganados?"
+      ]
+    }
+  ]
+}

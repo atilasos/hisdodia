@@ -4,44 +4,44 @@
   "day": 29,
   "dateLabel": "29 de Março",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "Eram trÃªs",
-  "author": "AntÃ³nio Torrado",
+  "title": "Eram três",
+  "author": "António Torrado",
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
       "layer": "html-layer-2",
       "paragraphs": [
-        "SÃ£o trÃªs bonecos de barro,",
-        "trÃªs jaquetas, trÃªs bonÃ©s,",
-        "trÃªs calÃ§as brancas, lavadas,",
-        "com risquinha atÃ© aos pÃ©s.",
-        "SÃ£o trÃªs bonecos de barro,",
-        "trÃªs bigodes de entremez ,",
-        "trÃªs pencas de pÃªra parda,",
-        "pintadas de camoÃªs ."
+        "São três bonecos de barro,",
+        "três jaquetas, três bonés,",
+        "três calças brancas, lavadas,",
+        "com risquinha até aos pés.",
+        "São três bonecos de barro,",
+        "três bigodes de entremez ,",
+        "três pencas de pêra parda,",
+        "pintadas de camoês ."
       ]
     },
     {
       "layer": "html-layer-3",
       "paragraphs": [
-        "SÃ£o trÃªs bonecos de barro,",
-        "trÃªs laÃ§os de azul francÃªs,",
+        "São três bonecos de barro,",
+        "três laços de azul francês,",
         "colarinhos cartonados,",
-        "mudados de mÃªs a mÃªs.",
-        "SÃ£o trÃªs bonecos de barro",
-        "muito graves todos trÃªs.",
+        "mudados de mês a mês.",
+        "São três bonecos de barro",
+        "muito graves todos três.",
         "Usam polainas de estado",
-        "e calÃ§am quarenta e trÃªs."
+        "e calçam quarenta e três."
       ]
     },
     {
       "layer": "html-layer-4",
       "paragraphs": [
-        "SÃ£o trÃªs bonecos de barro",
+        "São três bonecos de barro",
         "em bizarra rigidez.",
         "Com garbo , diz-se um morgado,",
-        "outro conde, outro marquÃªs.",
-        "SÃ£o trÃªs bonecos de barro,",
+        "outro conde, outro marquês.",
+        "São três bonecos de barro,",
         "de barro, digo outra vez,",
         "Na prateleira aprumados,",
         "mas ocos de altivez."
@@ -50,12 +50,12 @@
     {
       "layer": "html-layer-5",
       "paragraphs": [
-        "SÃ£o trÃªs bonecos de barro,",
-        "trÃªs jaquetas, trÃªs bonÃ©s,",
+        "São três bonecos de barro,",
+        "três jaquetas, três bonés,",
         "Pintados e repintados",
         "cada um vale por dez...",
-        "Pois sÃ£o trÃªs bonecos de barro,",
-        "mas veio o gato IniguÃªs",
+        "Pois são três bonecos de barro,",
+        "mas veio o gato Iniguês",
         "e num salto desastrado",
         "em cacos de telha os fez."
       ]
@@ -63,10 +63,10 @@
     {
       "layer": "html-layer-6",
       "paragraphs": [
-        "Eram trÃªs bonecos de barro,",
-        "com apito rÃ©s aos pÃ©s.",
+        "Eram três bonecos de barro,",
+        "com apito rés aos pés.",
         "Dantes, ainda apitavam.",
-        "Agora: Ã© o que vÃªs..."
+        "Agora: é o que vês..."
       ]
     }
   ],
@@ -118,6 +118,7 @@
     "notes": "Texto extraído das camadas HTML originais recuperadas. Imagens, PDF e áudio Flash são ficheiros locais do arquivo. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   },
   "editorialNotes": [
+    "Foi reparada a codificação dos campos de texto, que apresentavam mojibake de UTF-8 interpretado como latin-1.",
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
     "A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."

@@ -1,0 +1,134 @@
+{
+  "id": "06-26",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "mosquito",
+          "distractors": [
+            "animais",
+            "floresta",
+            "apetece"
+          ],
+          "sentence": "Algures, no coração de África, sobre uma folha tenra e macia da floresta, um mosquito dorme."
+        },
+        {
+          "target": "leão",
+          "distractors": [
+            "folha",
+            "olhos",
+            "patas"
+          ],
+          "sentence": "É o leão, o leão terrível - sussurram vozes, aqui e acolá, no escuro da floresta."
+        },
+        {
+          "target": "animais",
+          "distractors": [
+            "mosquito",
+            "floresta",
+            "apetece"
+          ],
+          "sentence": "Um mosquito tem a ousadia de provocar o rei dos animais?"
+        },
+        {
+          "target": "floresta",
+          "distractors": [
+            "mosquito",
+            "animais",
+            "folha"
+          ],
+          "sentence": "Eu sou o rei da floresta, por isso faço o que me apetece, digo o que me apetece, como o que me apetece e rujo, canto, urro, brado…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "mosquito",
+          "syllables": [
+            "mos",
+            "qui",
+            "to"
+          ]
+        },
+        {
+          "word": "leão",
+          "syllables": [
+            "le",
+            "ão"
+          ]
+        },
+        {
+          "word": "animais",
+          "syllables": [
+            "a",
+            "ni",
+            "mais"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "lemos",
+          "syllables": [
+            "le",
+            "mos"
+          ]
+        },
+        {
+          "word": "niquito",
+          "syllables": [
+            "ni",
+            "qui",
+            "to"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "mosquito",
+          "b": "mosquito"
+        },
+        {
+          "a": "leão",
+          "b": "leão"
+        },
+        {
+          "a": "animais",
+          "b": "animais"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/06/26/images/wcxn7mlakpq74frvvsv4qkdwbpspenm6/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Algures, no coração de África, sobre uma folha tenra e macia da floresta, um mosquito dorme.",
+        "Os bigodes eriçados do leão quase tocavam a folha que servia de cama ao mosquito destemido.",
+        "E quem lhe disse que era o rei da floresta?",
+        "Entretanto, o mosquito fora alojar-se, sabem onde?",
+        "E lá se acabou o reinado do rei mosquito."
+      ]
+    }
+  ]
+}

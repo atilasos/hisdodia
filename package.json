@@ -11,6 +11,7 @@
     "recover:archive": "node src/recovery/download-archive.mjs",
     "recover:stories": "node src/recovery/build-stories-from-archive.mjs",
     "recover:manifest": "node src/recovery/build-manifest.mjs",
-    "generate:tts": "node src/recovery/generate-tts-audio.mjs"
+    "generate:tts": "node src/recovery/generate-tts-audio.mjs",
+    "generate:activities": "node src/recovery/generate-activities.mjs"
   }
 }

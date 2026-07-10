@@ -1,0 +1,122 @@
+{
+  "id": "02-17",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "grande",
+          "distractors": [
+            "charco",
+            "bicho",
+            "mundo"
+          ],
+          "sentence": "Grande e luzidia, no charco onde habitava, mais nenhuma bicheza se lhe comparava em tamanho."
+        },
+        {
+          "target": "charco",
+          "distractors": [
+            "grande",
+            "bicho",
+            "mundo"
+          ],
+          "sentence": "Até que, um dia, foi beber ao charco um boi."
+        },
+        {
+          "target": "bicho",
+          "distractors": [
+            "grande",
+            "charco",
+            "mundo"
+          ],
+          "sentence": "Sou o maior bicho do reino animal - dizia a rã gorda, que nunca tinha saltado para fora daquele charquinho de nada, nem uma única vez."
+        },
+        {
+          "target": "mundo",
+          "distractors": [
+            "grande",
+            "charco",
+            "bicho"
+          ],
+          "sentence": "Dizia-se a maior rã de todas as rãs que havia no mundo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "grande",
+          "syllables": [
+            "gran",
+            "de"
+          ]
+        },
+        {
+          "word": "charco",
+          "syllables": [
+            "char",
+            "co"
+          ]
+        },
+        {
+          "word": "tamanho",
+          "syllables": [
+            "ta",
+            "ma",
+            "nho"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "coma",
+          "syllables": [
+            "co",
+            "ma"
+          ]
+        },
+        {
+          "word": "mata",
+          "syllables": [
+            "ma",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "grande",
+          "b": "grande"
+        },
+        {
+          "a": "charco",
+          "b": "charco"
+        },
+        {
+          "a": "bicho",
+          "b": "bicho"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Dizia-se a maior rã de todas as rãs que havia no mundo.",
+        "Quando ela se punha com esta discursata , adeus.",
+        "Engoliu ar e a pele do ventre distendeu-se.",
+        "Tinha a pele de tal forma esticada que se lhe via tudo por dentro.",
+        "Ainda hoje é a conversa preferida das rãs, quando coaxam umas com as outras, em noites de Lua Cheia."
+      ]
+    }
+  ]
+}

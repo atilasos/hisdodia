@@ -1,0 +1,131 @@
+{
+  "id": "01-15",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "galinha",
+          "distractors": [
+            "raposo",
+            "filhos",
+            "pintos"
+          ],
+          "sentence": "A galinha tinha ido fazer um piquenique ao pinhal, na companhia dos filhos."
+        },
+        {
+          "target": "raposo",
+          "distractors": [
+            "galinha",
+            "filhos",
+            "pintos"
+          ],
+          "sentence": "Estavam eles já à volta do bolo, quando lhes apareceu um raposo raposão."
+        },
+        {
+          "target": "saco",
+          "distractors": [
+            "bolo",
+            "água",
+            "volta"
+          ],
+          "sentence": "A pobre da galinha, aos tombos, dentro do saco, matutava na sua infelicidade."
+        },
+        {
+          "target": "filhos",
+          "distractors": [
+            "galinha",
+            "raposo",
+            "pintos"
+          ],
+          "sentence": "Pela salvação dos filhos as mães dão tudo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "galinha",
+          "syllables": [
+            "ga",
+            "li",
+            "nha"
+          ]
+        },
+        {
+          "word": "raposo",
+          "syllables": [
+            "ra",
+            "po",
+            "so"
+          ]
+        },
+        {
+          "word": "saco",
+          "syllables": [
+            "sa",
+            "co"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "ganha",
+          "syllables": [
+            "ga",
+            "nha"
+          ]
+        },
+        {
+          "word": "ganhara",
+          "syllables": [
+            "ga",
+            "nha",
+            "ra"
+          ]
+        },
+        {
+          "word": "liga",
+          "syllables": [
+            "li",
+            "ga"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "galinha",
+          "b": "galinha"
+        },
+        {
+          "a": "raposo",
+          "b": "raposo"
+        },
+        {
+          "a": "saco",
+          "b": "saco"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "A galinha tinha ido fazer um piquenique ao pinhal, na companhia dos filhos.",
+        "Se quer coisa de mais substância, talvez eu lhe sirva...",
+        "Com o bico foi descosendo uma costura do saco.",
+        "Raposos, raposas e raposecos esperavam-no.",
+        "Até ela sentiu, no centro daquele calor bom, o coraçãozinho deles a bater ao mesmo compasso sereno do coração dela, tum-tum, tum-tum…"
+      ]
+    }
+  ]
+}

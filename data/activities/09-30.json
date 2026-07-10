@@ -1,0 +1,144 @@
+{
+  "id": "09-30",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "sabonete",
+          "distractors": [
+            "sabão",
+            "sabonetes",
+            "estrear"
+          ],
+          "sentence": "Era um sabonete novo, fresquíssimo, por estrear."
+        },
+        {
+          "target": "novo",
+          "distractors": [
+            "acaba",
+            "banho",
+            "sabão"
+          ],
+          "sentence": "O sabonete novo teve a oportunidade de confirmar as previsões do velho sabonete."
+        },
+        {
+          "target": "sabão",
+          "distractors": [
+            "sabonete",
+            "acaba",
+            "novo"
+          ],
+          "sentence": "No dizer desse menino \"caldeirada\" era juntar, numa tigela, sobras de sabão e de sabonetes, acrescentar água, remexer com uma cana e…"
+        },
+        {
+          "target": "lavar",
+          "distractors": [
+            "acaba",
+            "novo",
+            "banho"
+          ],
+          "sentence": "Serves para lavar e perfumar - respondeu-lhe um velho sabonete de alcatrão, muito sabedor das coisas da vida."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "sabonete",
+          "syllables": [
+            "sa",
+            "bo",
+            "ne",
+            "te"
+          ]
+        },
+        {
+          "word": "acaba",
+          "syllables": [
+            "a",
+            "ca",
+            "ba"
+          ]
+        },
+        {
+          "word": "novo",
+          "syllables": [
+            "no",
+            "vo"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "abane",
+          "syllables": [
+            "a",
+            "ba",
+            "ne"
+          ]
+        },
+        {
+          "word": "abano",
+          "syllables": [
+            "a",
+            "ba",
+            "no"
+          ]
+        },
+        {
+          "word": "acabo",
+          "syllables": [
+            "a",
+            "ca",
+            "bo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "sabonete",
+          "b": "sabonete"
+        },
+        {
+          "a": "acaba",
+          "b": "acaba"
+        },
+        {
+          "a": "novo",
+          "b": "novo"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/09/30/images/ips4kbgmmj3ljcupldlfcf77fne6eeeb/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era um sabonete novo, fresquíssimo, por estrear.",
+        "Deu banhos e tomou banhos, escorregou vezes sem conta pelo mármore polido da banheira, conviveu com esponjas, escovas macias e conheceu…",
+        "Somos, agora, sabonetes de lavar as mãos - avisaram-no os companheiros.",
+        "O sabonetinho, que tinha sido novo, começava a perceber.",
+        "Subiram pelo ar, atraídas pela luz rolaram, soltas, leves, felizes, grandes e pequenas bolas de sabão, como gotas ou lágrimas do arco-íris."
+      ]
+    }
+  ]
+}

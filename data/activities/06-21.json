@@ -1,0 +1,129 @@
+{
+  "id": "06-21",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "vizinho",
+          "distractors": [
+            "música",
+            "vizinhos",
+            "esquerdo"
+          ],
+          "sentence": "Tenho um vizinho que toca violino, e que bem que toca violino o meu vizinho."
+        },
+        {
+          "target": "toca",
+          "distractors": [
+            "mora",
+            "loja",
+            "toco"
+          ],
+          "sentence": "Tenho outro vizinho que toca violoncelo, e que bem que toca violoncelo o meu vizinho."
+        },
+        {
+          "target": "loja",
+          "distractors": [
+            "toca",
+            "mora",
+            "toco"
+          ],
+          "sentence": "No rés-do-chão há uma loja de instrumentos musicais."
+        },
+        {
+          "target": "música",
+          "distractors": [
+            "vizinho",
+            "mora",
+            "direito"
+          ],
+          "sentence": "A loja, durante o dia, está sempre cheia de música, porque nela vendem pianos, acordeons, violinos, violas, guitarras..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "vizinho",
+          "syllables": [
+            "vi",
+            "zi",
+            "nho"
+          ]
+        },
+        {
+          "word": "toca",
+          "syllables": [
+            "to",
+            "ca"
+          ]
+        },
+        {
+          "word": "mora",
+          "syllables": [
+            "mo",
+            "ra"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cara",
+          "syllables": [
+            "ca",
+            "ra"
+          ]
+        },
+        {
+          "word": "cato",
+          "syllables": [
+            "ca",
+            "to"
+          ]
+        },
+        {
+          "word": "moto",
+          "syllables": [
+            "mo",
+            "to"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "vizinho",
+          "b": "vizinho"
+        },
+        {
+          "a": "toca",
+          "b": "toca"
+        },
+        {
+          "a": "mora",
+          "b": "mora"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Tenho um vizinho que toca violino, e que bem que toca violino o meu vizinho.",
+        "Tenho outro vizinho que toca viola clássica, e que bem que toca viola o meu vizinho.",
+        "À noite, claro está, a loja descansa, mas os meus vizinhos encarregam-se da música do prédio, que fica só por conta deles.",
+        "Quando oiço os meus vizinhos tocar, digo-lhes, em surdina , em segredo, como se eles pudessem ouvir: \"Certinhos!",
+        "Assim, o prédio harmonioso nunca conhece o silêncio."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "04-03",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "lobo",
+          "distractors": [
+            "comi",
+            "ninho",
+            "alto"
+          ],
+          "sentence": "Já o lobo se impacientava, quando ouviu o piar de um mocho."
+        },
+        {
+          "target": "pinheiro",
+          "distractors": [
+            "compadre",
+            "perto",
+            "sacudir"
+          ],
+          "sentence": "Estava no ninho, empoleirado num pinheiro novo."
+        },
+        {
+          "target": "filhos",
+          "distractors": [
+            "ninho",
+            "perto",
+            "andava"
+          ],
+          "sentence": "Ó compadre, não abane tanto o pinheiro, senão os meus filhos, que estão no ninho, acordam."
+        },
+        {
+          "target": "compadre",
+          "distractors": [
+            "pinheiro",
+            "comi",
+            "sacudir"
+          ],
+          "sentence": "Ó compadre, por favor, vá abanar outro pinheiro e deixe este em paz."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "lobo",
+          "syllables": [
+            "lo",
+            "bo"
+          ]
+        },
+        {
+          "word": "pinheiro",
+          "syllables": [
+            "pi",
+            "nhei",
+            "ro"
+          ]
+        },
+        {
+          "word": "filhos",
+          "syllables": [
+            "fi",
+            "lhos"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "bolo",
+          "syllables": [
+            "bo",
+            "lo"
+          ]
+        },
+        {
+          "word": "rolo",
+          "syllables": [
+            "ro",
+            "lo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "lobo",
+          "b": "lobo"
+        },
+        {
+          "a": "pinheiro",
+          "b": "pinheiro"
+        },
+        {
+          "a": "filhos",
+          "b": "filhos"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "abocanhou-o",
+          "b": "apanhou-o com a boca"
+        },
+        {
+          "a": "meneou",
+          "b": "moveu de um lado para o outro / abanou"
+        },
+        {
+          "a": "rilhou",
+          "b": "roeu"
+        },
+        {
+          "a": "afino",
+          "b": "zango-me / irrito-me"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/04/03/images/7xqyjt33py26iuf5ekbpd2d234ayhwe5/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Ele andar, andava, mas a caça, fosse coelho, javardo, texugo ou perdiz, é que não andava por ali, à mão de ser caçada.",
+        "E vá de sacudir mais o tronco do pinheiro.",
+        "Chega-te mais perto, que o que eu tenho para dizer-te os teus filhos não podem ouvir.",
+        "O lobo, com o mocho preso na dentuça, meneou a cabeça, negativamente.",
+        "O lobo, de raiva, rilhou o tronco do pinheirinho e ficou com a boca a saber a resina."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "07-09",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "aranha",
+          "syllables": [
+            "a",
+            "ra",
+            "nha"
+          ]
+        },
+        {
+          "word": "sete",
+          "syllables": [
+            "se",
+            "te"
+          ]
+        },
+        {
+          "word": "matar",
+          "syllables": [
+            "ma",
+            "tar"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "manha",
+          "syllables": [
+            "ma",
+            "nha"
+          ]
+        },
+        {
+          "word": "rama",
+          "syllables": [
+            "ra",
+            "ma"
+          ]
+        },
+        {
+          "word": "seara",
+          "syllables": [
+            "se",
+            "a",
+            "ra"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "aranha",
+          "b": "aranha"
+        },
+        {
+          "a": "sete",
+          "b": "sete"
+        },
+        {
+          "a": "matar",
+          "b": "matar"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/07/09/images/q2zin2aw5zhubc6dsw5lvgttkgft62gh/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "01-20",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "gata",
+          "distractors": [
+            "porca",
+            "toca",
+            "ninho"
+          ],
+          "sentence": "A gata achou um buraco a meio do tronco do mesmo castanheiro."
+        },
+        {
+          "target": "porca",
+          "distractors": [
+            "gata",
+            "filhos",
+            "toca"
+          ],
+          "sentence": "A porca cavou uma toca, nas raízes do tal castanheiro."
+        },
+        {
+          "target": "filhos",
+          "distractors": [
+            "porca",
+            "ninho",
+            "talvez"
+          ],
+          "sentence": "Como boas mães, procuraram abrigo onde resguardar os filhos."
+        },
+        {
+          "target": "toca",
+          "distractors": [
+            "gata",
+            "porca",
+            "ninho"
+          ],
+          "sentence": "A porca saía da sua toca e procurava castanhas e bolotas para os seus porquinhos."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "gata",
+          "syllables": [
+            "ga",
+            "ta"
+          ]
+        },
+        {
+          "word": "porca",
+          "syllables": [
+            "por",
+            "ca"
+          ]
+        },
+        {
+          "word": "filhos",
+          "syllables": [
+            "fi",
+            "lhos"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "fica",
+          "syllables": [
+            "fi",
+            "ca"
+          ]
+        },
+        {
+          "word": "fita",
+          "syllables": [
+            "fi",
+            "ta"
+          ]
+        },
+        {
+          "word": "galhos",
+          "syllables": [
+            "ga",
+            "lhos"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "gata",
+          "b": "gata"
+        },
+        {
+          "a": "porca",
+          "b": "porca"
+        },
+        {
+          "a": "filhos",
+          "b": "filhos"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Como boas mães, procuraram abrigo onde resguardar os filhos.",
+        "A porca saía da sua toca e procurava castanhas e bolotas para os seus porquinhos.",
+        "Para fazer cair o seu ninho e comer os seus filhinhos - contou a mentirosa da gata.",
+        "Como a águia e a porca, sempre de guarda, não saíam pelo comer, iam definhando os filhos e elas perdendo as forças.",
+        "Parece que, depois, morreram de indigestão."
+      ]
+    }
+  ]
+}

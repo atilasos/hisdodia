@@ -1,0 +1,130 @@
+{
+  "id": "01-10",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "lata",
+          "distractors": [
+            "moeda",
+            "peso",
+            "chão"
+          ],
+          "sentence": "Descendia da lata, pois descendia, mas à lata não voltaria."
+        },
+        {
+          "target": "moeda",
+          "distractors": [
+            "lata",
+            "peso",
+            "chão"
+          ],
+          "sentence": "Sentiu-se moeda de peso, das fortes, das que não se desvalorizam, libra, dobrão de ouro ou mais ainda."
+        },
+        {
+          "target": "peso",
+          "distractors": [
+            "lata",
+            "moeda",
+            "chão"
+          ],
+          "sentence": "Fui moeda, peso, monóculo, prato, chávena, pires, taça, medalha, automóvel..."
+        },
+        {
+          "target": "garrafa",
+          "distractors": [
+            "conheceu",
+            "corridas",
+            "piparote"
+          ],
+          "sentence": "Amoldada, como milhares das suas irmãs, à boca de uma garrafa, foi à vida com a garrafa a que a juntaram."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "lata",
+          "syllables": [
+            "la",
+            "ta"
+          ]
+        },
+        {
+          "word": "moeda",
+          "syllables": [
+            "mo",
+            "e",
+            "da"
+          ]
+        },
+        {
+          "word": "peso",
+          "syllables": [
+            "pe",
+            "so"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "data",
+          "syllables": [
+            "da",
+            "ta"
+          ]
+        },
+        {
+          "word": "moda",
+          "syllables": [
+            "mo",
+            "da"
+          ]
+        },
+        {
+          "word": "moela",
+          "syllables": [
+            "mo",
+            "e",
+            "la"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "lata",
+          "b": "lata"
+        },
+        {
+          "a": "moeda",
+          "b": "moeda"
+        },
+        {
+          "a": "peso",
+          "b": "peso"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Vou contar-vos, hoje, a história desta carica.",
+        "Chão com a carica que já não serve para nada.",
+        "Sentiu-se moeda de peso, das fortes, das que não se desvalorizam, libra, dobrão de ouro ou mais ainda.",
+        "Mas o melhor da festa, o seu dia de glória, foi quando medalhou o peito de um \"general\" de brincar por casa.",
+        "Para ser isto tudo e mais ainda, hás-de concordar que é preciso ter muita lata."
+      ]
+    }
+  ]
+}

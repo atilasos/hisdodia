@@ -1,0 +1,131 @@
+{
+  "id": "09-14",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "lobo",
+          "distractors": [
+            "lebre",
+            "saco",
+            "bolo"
+          ],
+          "sentence": "Mas quem apareceu primeiro e sem ser convidado foi o lobo."
+        },
+        {
+          "target": "lebre",
+          "distractors": [
+            "lobo",
+            "saco",
+            "bolo"
+          ],
+          "sentence": "A lebre Feliciana estava a fazer um bolo, um bolo mesmo apetitoso, com erva-doce e outros preparos, que a gente não sabe, porque não…"
+        },
+        {
+          "target": "saco",
+          "distractors": [
+            "lobo",
+            "lebre",
+            "bolo"
+          ],
+          "sentence": "Agora, que já não tenho apetite, vou guardar-te para o jantar - disse o lobo, metendo a lebre num saco."
+        },
+        {
+          "target": "bolo",
+          "distractors": [
+            "lobo",
+            "lebre",
+            "saco"
+          ],
+          "sentence": "Destinava-se o bolo a uma festa que a lebre Feliciana ia dar, no dia seguinte, a outras lebres e coelhos seus vizinhos."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "lobo",
+          "syllables": [
+            "lo",
+            "bo"
+          ]
+        },
+        {
+          "word": "lebre",
+          "syllables": [
+            "le",
+            "bre"
+          ]
+        },
+        {
+          "word": "saco",
+          "syllables": [
+            "sa",
+            "co"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cobre",
+          "syllables": [
+            "co",
+            "bre"
+          ]
+        },
+        {
+          "word": "colo",
+          "syllables": [
+            "co",
+            "lo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "lobo",
+          "b": "lobo"
+        },
+        {
+          "a": "lebre",
+          "b": "lebre"
+        },
+        {
+          "a": "saco",
+          "b": "saco"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/09/14/images/34rgmtv3bmqkogestihn7m7jqtvovaw7/Imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "A lebre Feliciana estava a fazer um bolo, um bolo mesmo apetitoso, com erva-doce e outros preparos, que a gente não sabe, porque não…",
+        "Ó senhor lobo, coma antes este lindo bolo, que eu guardei para vossa mercê.",
+        "Espera, que já te arranjo, lobo lambão, glutão e paspalhão\", murmurou a lebre.",
+        "Ponham a água ao lume no caldeirão, que já vão saber.",
+        "Quem me mandou a mim meter-me com essa finória da lebre Feliciana - rematou o lobo, em jeito de conclusão desta história."
+      ]
+    }
+  ]
+}

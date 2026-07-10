@@ -1,0 +1,140 @@
+{
+  "id": "01-08",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "flor",
+          "distractors": [
+            "jarra",
+            "saco",
+            "arte"
+          ],
+          "sentence": "Estava uma flor bordada num saco de guardanapo a olhar para uma flor pintada numa jarra de porcelana."
+        },
+        {
+          "target": "bordada",
+          "distractors": [
+            "pintada",
+            "pensava",
+            "bonita"
+          ],
+          "sentence": "A flor bordada queria meter conversa com a flor pintada."
+        },
+        {
+          "target": "jarra",
+          "distractors": [
+            "flor",
+            "bonita",
+            "saco"
+          ],
+          "sentence": "Imitação de uma flor verdadeira - respondeu a flor pintada na jarra."
+        },
+        {
+          "target": "pintada",
+          "distractors": [
+            "bordada",
+            "pensava",
+            "bonita"
+          ],
+          "sentence": "Não há flor pintada mais autêntica, pode crer."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "bordada",
+          "syllables": [
+            "bor",
+            "da",
+            "da"
+          ]
+        },
+        {
+          "word": "jarra",
+          "syllables": [
+            "jar",
+            "ra"
+          ]
+        },
+        {
+          "word": "pintada",
+          "syllables": [
+            "pin",
+            "ta",
+            "da"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "borda",
+          "syllables": [
+            "bor",
+            "da"
+          ]
+        },
+        {
+          "word": "dada",
+          "syllables": [
+            "da",
+            "da"
+          ]
+        },
+        {
+          "word": "data",
+          "syllables": [
+            "da",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "flor",
+          "b": "flor"
+        },
+        {
+          "a": "bordada",
+          "b": "bordada"
+        },
+        {
+          "a": "jarra",
+          "b": "jarra"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/01/08/images/pbearspoaw5ugqtji4bczxr3mn3fcjpq/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Estava uma flor bordada num saco de guardanapo a olhar para uma flor pintada numa jarra de porcelana.",
+        "Imitação de uma flor verdadeira - respondeu a flor pintada na jarra.",
+        "Não há flor pintada mais autêntica, pode crer.",
+        "Nisto, mãos femininas vieram colocar uma flor na jarra, até então vazia.",
+        "Aqui para nós e em segredo, diremos que também não tinha razão nenhuma."
+      ]
+    }
+  ]
+}

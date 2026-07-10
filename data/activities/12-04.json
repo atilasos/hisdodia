@@ -1,0 +1,139 @@
+{
+  "id": "12-04",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "nome",
+          "distractors": [
+            "logo",
+            "casa",
+            "gente"
+          ],
+          "sentence": "Afinal o nome Táxi sempre lhe valera para alguma coisa."
+        },
+        {
+          "target": "logo",
+          "distractors": [
+            "nome",
+            "casa",
+            "gente"
+          ],
+          "sentence": "Com tantos nomes disponíveis, logo foram escolher este!"
+        },
+        {
+          "target": "sempre",
+          "distractors": [
+            "grande",
+            "gente",
+            "fosse"
+          ],
+          "sentence": "E ele vinha, a dar ao rabo, sempre contente."
+        },
+        {
+          "target": "grande",
+          "distractors": [
+            "sempre",
+            "gostavam",
+            "gente"
+          ],
+          "sentence": "O Táxi viu-se no meio de uma rua, com grande movimento, e desorientou-se."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "nome",
+          "syllables": [
+            "no",
+            "me"
+          ]
+        },
+        {
+          "word": "logo",
+          "syllables": [
+            "lo",
+            "go"
+          ]
+        },
+        {
+          "word": "gostavam",
+          "syllables": [
+            "gos",
+            "ta",
+            "vam"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "golo",
+          "syllables": [
+            "go",
+            "lo"
+          ]
+        },
+        {
+          "word": "gosta",
+          "syllables": [
+            "gos",
+            "ta"
+          ]
+        },
+        {
+          "word": "gota",
+          "syllables": [
+            "go",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "nome",
+          "b": "nome"
+        },
+        {
+          "a": "logo",
+          "b": "logo"
+        },
+        {
+          "a": "sempre",
+          "b": "sempre"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/04/images/5mizyztd7r2kdhpyzm36rlxkvnmjeeha/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Com tantos nomes disponíveis, logo foram escolher este!",
+        "Cheirou o ar e não deu com o caminho de casa.",
+        "O cão não se fez esperar, mas um senhor cheio de embrulhos, que ia a entrar num táxi, deu-lhe um pontapé.",
+        "Fosse como fosse, talvez por afinidade, foi-se deixando ficar.",
+        "Afinal o nome Táxi sempre lhe valera para alguma coisa."
+      ]
+    }
+  ]
+}

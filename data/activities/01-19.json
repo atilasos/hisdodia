@@ -1,0 +1,130 @@
+{
+  "id": "01-19",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "cavalos",
+          "distractors": [
+            "castanho",
+            "branco",
+            "amarelo"
+          ],
+          "sentence": "Três cavalos encontraram-se numa cavalariça."
+        },
+        {
+          "target": "castanho",
+          "distractors": [
+            "cavalos",
+            "amarelo",
+            "cavalo"
+          ],
+          "sentence": "Um era castanho, outro era branco e o terceiro era quase amarelo."
+        },
+        {
+          "target": "branco",
+          "distractors": [
+            "cavalos",
+            "quase",
+            "amarelo"
+          ],
+          "sentence": "Que cor tão ridícula a tua - riram-se o cavalo branco e o castanho."
+        },
+        {
+          "target": "quase",
+          "distractors": [
+            "branco",
+            "cavalo",
+            "vocês"
+          ],
+          "sentence": "O cavalo quase amarelo, para não ouvir-lhes a risota de zombaria, fez-se mula."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "cavalos",
+          "syllables": [
+            "ca",
+            "va",
+            "los"
+          ]
+        },
+        {
+          "word": "castanho",
+          "syllables": [
+            "cas",
+            "ta",
+            "nho"
+          ]
+        },
+        {
+          "word": "branco",
+          "syllables": [
+            "bran",
+            "co"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "branca",
+          "syllables": [
+            "bran",
+            "ca"
+          ]
+        },
+        {
+          "word": "brancas",
+          "syllables": [
+            "bran",
+            "cas"
+          ]
+        },
+        {
+          "word": "casca",
+          "syllables": [
+            "cas",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "cavalos",
+          "b": "cavalos"
+        },
+        {
+          "a": "castanho",
+          "b": "castanho"
+        },
+        {
+          "a": "branco",
+          "b": "branco"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Três cavalos encontraram-se numa cavalariça.",
+        "Pescoço e peito musculosos como vocês têm.",
+        "Os outros dois cavalos continuaram a rir-se dele.",
+        "Por fim, o cavalo quase amarelo avançou para a meta, deixando para trás o branco e o castanho.",
+        "Os outros dois cavalos é que não acharam graça nenhuma."
+      ]
+    }
+  ]
+}

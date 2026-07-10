@@ -1,0 +1,131 @@
+{
+  "id": "12-22",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "três",
+          "distractors": [
+            "jogo",
+            "favor",
+            "gosto"
+          ],
+          "sentence": "Havia ainda três (a classe tinha vinte e cinco) que tanto se lhes dava arroz doce como o leite creme."
+        },
+        {
+          "target": "jogo",
+          "distractors": [
+            "três",
+            "favor",
+            "gosto"
+          ],
+          "sentence": "Está-se mesmo a ver a consequência: um jogo de futebol."
+        },
+        {
+          "target": "gosto",
+          "distractors": [
+            "três",
+            "jogo",
+            "favor"
+          ],
+          "sentence": "Eu gosto muito de arroz doce - disse um menino."
+        },
+        {
+          "target": "menino",
+          "distractors": [
+            "favor",
+            "gosto",
+            "bolacha"
+          ],
+          "sentence": "Eu gosto mais de leite creme - disse outro menino."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "jogo",
+          "syllables": [
+            "jo",
+            "go"
+          ]
+        },
+        {
+          "word": "favor",
+          "syllables": [
+            "fa",
+            "vor"
+          ]
+        },
+        {
+          "word": "gosto",
+          "syllables": [
+            "gos",
+            "to"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "fato",
+          "syllables": [
+            "fa",
+            "to"
+          ]
+        },
+        {
+          "word": "tojo",
+          "syllables": [
+            "to",
+            "jo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "três",
+          "b": "três"
+        },
+        {
+          "a": "jogo",
+          "b": "jogo"
+        },
+        {
+          "a": "favor",
+          "b": "favor"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/22/images/lepldfibs2cxwncrycxiabd4vqqpx2m2/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Eu gosto muito de arroz doce - disse um menino.",
+        "Do que eles gostavam era de bolo de bolacha.",
+        "Um a um, igualdade entre Leite Creme e Arroz Doce.",
+        "E ainda houve mais um goooolo, antes do intervalo.",
+        "Porque se soube que um elemento, que alinhava pelos Leite Creme, dava, secretamente, a sua preferência ao Mousse de Chocolate e, lá na…"
+      ]
+    }
+  ]
+}

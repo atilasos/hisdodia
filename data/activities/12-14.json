@@ -1,0 +1,143 @@
+{
+  "id": "12-14",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "perguntar",
+          "distractors": [
+            "inquérito",
+            "pequeno",
+            "primeiro"
+          ],
+          "sentence": "Aquele jornalista que, por tudo e por nada, anda sempre a perguntar coisas teve a ideia de fazer um inquérito."
+        },
+        {
+          "target": "inquérito",
+          "distractors": [
+            "perguntar",
+            "primeiro",
+            "registou"
+          ],
+          "sentence": "O jornalista, farto do inquérito, ficou-se por aqui."
+        },
+        {
+          "target": "pequeno",
+          "distractors": [
+            "perguntar",
+            "tantos",
+            "grande"
+          ],
+          "sentence": "O que é que quis ser, quando era pequeno?"
+        },
+        {
+          "target": "tantos",
+          "distractors": [
+            "pequeno",
+            "grande",
+            "desisti"
+          ],
+          "sentence": "Tantos queriam ser arquitectos, tantos queriam ser médicos, tantos queriam ser aviadores..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "perguntar",
+          "syllables": [
+            "per",
+            "gun",
+            "tar"
+          ]
+        },
+        {
+          "word": "inquérito",
+          "syllables": [
+            "in",
+            "qué",
+            "ri",
+            "to"
+          ]
+        },
+        {
+          "word": "pequeno",
+          "syllables": [
+            "pe",
+            "que",
+            "no"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "notar",
+          "syllables": [
+            "no",
+            "tar"
+          ]
+        },
+        {
+          "word": "pergunto",
+          "syllables": [
+            "per",
+            "gun",
+            "to"
+          ]
+        },
+        {
+          "word": "perto",
+          "syllables": [
+            "per",
+            "to"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "perguntar",
+          "b": "perguntar"
+        },
+        {
+          "a": "inquérito",
+          "b": "inquérito"
+        },
+        {
+          "a": "pequeno",
+          "b": "pequeno"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/14/images/k4lnvnj3bekdvqkh4mtrwxwyaet76xhu/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Aquele jornalista que, por tudo e por nada, anda sempre a perguntar coisas teve a ideia de fazer um inquérito.",
+        "Era uma ribeiro pouco profundo, mas que sabia o que queria.",
+        "O jornalista registou e foi perguntar a mesma coisa a uma casa, duas janelas e uma porta ou pouco mais.",
+        "Afinal, o jornalista estava a tirar conclusões precipitadas.",
+        "Mas onde é que já ia o apressado jornalista quando isto tudo, finalmente, aconteceu?"
+      ]
+    }
+  ]
+}

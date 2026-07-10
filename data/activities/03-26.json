@@ -1,0 +1,153 @@
+{
+  "id": "03-26",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "cavalo",
+          "distractors": [
+            "cavalos",
+            "cravo",
+            "batalha"
+          ],
+          "sentence": "Por um cravo se perde um cavalo, por um cavalo um cavaleiro, por um cavaleiro uma batalha."
+        },
+        {
+          "target": "cavalos",
+          "distractors": [
+            "cavalo",
+            "cravo",
+            "batalha"
+          ],
+          "sentence": "Passeava os cavalos, antes de serem selados, dava-lhes de comer, lavava-os e limpava-os, revolvia-lhes e mudava-lhes a palha das camas…"
+        },
+        {
+          "target": "cravo",
+          "distractors": [
+            "cavalo",
+            "cavalos",
+            "cascos"
+          ],
+          "sentence": "Falta só martelar este cravo - disse o mestre ao aprendiz."
+        },
+        {
+          "target": "batalha",
+          "distractors": [
+            "cavalo",
+            "cavalos",
+            "cascos"
+          ],
+          "sentence": "O cravo ficou ligeiramente solto, um nada de nada, mas o suficiente para ditar a sorte de uma batalha."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "cavalo",
+          "syllables": [
+            "ca",
+            "va",
+            "lo"
+          ]
+        },
+        {
+          "word": "cavalos",
+          "syllables": [
+            "ca",
+            "va",
+            "los"
+          ]
+        },
+        {
+          "word": "cravo",
+          "syllables": [
+            "cra",
+            "vo"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cava",
+          "syllables": [
+            "ca",
+            "va"
+          ]
+        },
+        {
+          "word": "cavava",
+          "syllables": [
+            "ca",
+            "va",
+            "va"
+          ]
+        },
+        {
+          "word": "loca",
+          "syllables": [
+            "lo",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "cavalo",
+          "b": "cavalo"
+        },
+        {
+          "a": "cavalos",
+          "b": "cavalos"
+        },
+        {
+          "a": "cravo",
+          "b": "cravo"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "refrega",
+          "b": "briga / combate"
+        },
+        {
+          "a": "selha",
+          "b": "tina / vaso redondo de madeira de bordos baixos"
+        },
+        {
+          "a": "ordenança",
+          "b": "soldado às ordens de um oficial"
+        },
+        {
+          "a": "bigorna",
+          "b": "peça de ferro com a ponta cilíndrica em cima da qual se batem ou moldam metais"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Por um cravo se perde um cavalo, por um cavalo um cavaleiro, por um cavaleiro uma batalha.",
+        "As nuvens de vapor que se soltavam da selha por cada ferradura nela mergulhada toldavam os olhos de Vatel.",
+        "Na cavalariça, todos os braços disponíveis foram postos ao serviço da cavalaria do rei.",
+        "O aprendiz tinha sido reposto no seu lugar, antes de fazer alguma asneira.",
+        "Contam os manuais de História que a culpa da derrota foi atribuída à má estratégia do rei, dos generais e de não sei mais quem, mas…"
+      ]
+    }
+  ]
+}
