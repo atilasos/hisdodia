@@ -64,7 +64,9 @@
       "/recovered/0000/11/06/images/fb3skcop5f5pgm5uqpbhhj7fcf4dmavo/Imagens/entrada.jpg",
       "/recovered/0000/11/06/images/hntoqwb6ghzn3ylta2z3v7urribofkqc/Propostas/logo_coelhos.jpg",
       "/recovered/0000/11/06/images/oykbzxt6zo4yvyo2hhgb66sti6rls7er/Propostas/logo_leoes.jpg"
-    ]
+    ],
+    "rerecordedAudio": "/assets/11-06/narracao-tts.mp3",
+    "captions": "/assets/11-06/narracao-tts.vtt"
   },
   "recovery": {
     "text": "html-extracted",
@@ -72,17 +74,19 @@
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "html-text"
+    "completeness": "html-text",
+    "rerecordedAudio": "openai-gpt-4o-mini-tts-nova"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/06/html/t7f2qldtvcofdpmh4d3k3bflxdbaspqt/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/11/06/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "Texto narrativo extraído automaticamente da página HTML original arquivada."
+    "Texto narrativo extraído automaticamente da página HTML original arquivada.",
+    "A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   ]
 }

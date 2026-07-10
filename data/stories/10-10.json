@@ -51,7 +51,9 @@
     "gallery": [
       "/recovered/0000/10/10/images/bac973fe18a3169a5f90c162/imagens/entrada.jpg",
       "/recovered/0000/10/10/images/bks65mlbc4xa5wdzbqwrvtt37acvbr64/Imagens/entrada.jpg"
-    ]
+    ],
+    "rerecordedAudio": "/assets/10-10/narracao-tts.mp3",
+    "captions": "/assets/10-10/narracao-tts.vtt"
   },
   "recovery": {
     "text": "pdf-extracted",
@@ -59,17 +61,19 @@
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "complete-pdf-text"
+    "completeness": "complete-pdf-text",
+    "rerecordedAudio": "openai-gpt-4o-mini-tts-shimmer"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/10/html/5zinit3nw4hj7yt7ntprtvax4nfkvs5y/historia.aspx",
     "printPdf": "/recovered/0000/10/10/pdf/ab6zufd766x54k5ntkasyl3bgmluilky/imprimir.pdf",
     "archiveDay": "/recovered/0000/10/10/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados.",
+    "A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   ]
 }

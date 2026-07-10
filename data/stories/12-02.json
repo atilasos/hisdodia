@@ -43,7 +43,9 @@
     "recoveredAudio": null,
     "gallery": [
       "/recovered/0000/12/02/images/2f9633a63e3f0264510d1f97/imagens/icone.jpg"
-    ]
+    ],
+    "rerecordedAudio": "/assets/12-02/narracao-tts.mp3",
+    "captions": "/assets/12-02/narracao-tts.vtt"
   },
   "recovery": {
     "text": "pdf-extracted",
@@ -51,17 +53,19 @@
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "complete-pdf-text"
+    "completeness": "complete-pdf-text",
+    "rerecordedAudio": "openai-gpt-4o-mini-tts-cedar"
   },
   "provenance": {
     "storyPage": "/recovered/0000/12/02/html/oa2aod6to4vkilqwpu3wzyhe5x4anpbx/historia.aspx",
     "printPdf": "/recovered/0000/12/02/pdf/u25r5ko45wfe5k7ihqkd7e24iovslf4n/imprimir.pdf",
     "archiveDay": "/recovered/0000/12/02/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados.",
+    "A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   ]
 }

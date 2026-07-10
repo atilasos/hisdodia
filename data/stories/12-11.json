@@ -54,7 +54,9 @@
     "printPdf": "/recovered/0000/12/11/pdf/6sy36xcbsd3go66zwhpbokli2537js2h/imprimir.pdf",
     "originalAudioSwf": null,
     "recoveredAudio": null,
-    "gallery": []
+    "gallery": [],
+    "rerecordedAudio": "/assets/12-11/narracao-tts.mp3",
+    "captions": "/assets/12-11/narracao-tts.vtt"
   },
   "recovery": {
     "text": "pdf-extracted",
@@ -62,17 +64,19 @@
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "complete-pdf-text"
+    "completeness": "complete-pdf-text",
+    "rerecordedAudio": "openai-gpt-4o-mini-tts-cedar"
   },
   "provenance": {
     "storyPage": "/recovered/0000/12/11/html/xi6whjs74gumeizq3t7xn46xvbprloyr/historia.aspx",
     "printPdf": "/recovered/0000/12/11/pdf/6sy36xcbsd3go66zwhpbokli2537js2h/imprimir.pdf",
     "archiveDay": "/recovered/0000/12/11/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados.",
+    "A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   ]
 }

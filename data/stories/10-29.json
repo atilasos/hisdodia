@@ -58,7 +58,9 @@
     "printPdf": "/recovered/0000/10/29/pdf/nmtq4hj2z6udejpha6m4qldjfkfx6fgh/imprimir.pdf",
     "originalAudioSwf": "/recovered/0000/10/29/audio/a5558e5eb82a309a1849a910/um.swf",
     "recoveredAudio": null,
-    "gallery": []
+    "gallery": [],
+    "rerecordedAudio": "/assets/10-29/narracao-tts.mp3",
+    "captions": "/assets/10-29/narracao-tts.vtt"
   },
   "recovery": {
     "text": "pdf-extracted",
@@ -66,17 +68,19 @@
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "complete-pdf-text"
+    "completeness": "complete-pdf-text",
+    "rerecordedAudio": "openai-gpt-4o-mini-tts-marin"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/29/html/ueao24qxtrqwile3hbfvcrps34rv2htg/historia.aspx",
     "printPdf": "/recovered/0000/10/29/pdf/nmtq4hj2z6udejpha6m4qldjfkfx6fgh/imprimir.pdf",
     "archiveDay": "/recovered/0000/10/29/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados.",
+    "A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   ]
 }

@@ -64,7 +64,9 @@
       "/recovered/0000/10/25/images/fwxkvc27dhylyie5s5wafplkzni3acyk/Propostas/pixel.gif",
       "/recovered/0000/10/25/images/g5rlb5ywrg6nrb6tusojfe535gd26xu5/Propostas/crocodilo1.jpg",
       "/recovered/0000/10/25/images/p6rogjda64l6l3wafl6hjpxko35phpvn/Propostas/jogo.jpg"
-    ]
+    ],
+    "rerecordedAudio": "/assets/10-25/narracao-tts.mp3",
+    "captions": "/assets/10-25/narracao-tts.vtt"
   },
   "recovery": {
     "text": "pdf-extracted",
@@ -72,17 +74,19 @@
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "complete-pdf-text"
+    "completeness": "complete-pdf-text",
+    "rerecordedAudio": "openai-gpt-4o-mini-tts-nova"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/25/html/wenku534m5qkxeybbz3solihnjlcc64n/historia.aspx",
     "printPdf": "/recovered/0000/10/25/pdf/roedn3vt7vrz5otrninlio6tpupm4rf5/imprimir.pdf",
     "archiveDay": "/recovered/0000/10/25/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados.",
+    "A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   ]
 }
