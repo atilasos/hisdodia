@@ -192,4 +192,10 @@ describe('illustrated edition contract', () => {
     result.illustratedEdition.scenes[0].status = 'complete';
     assert.equal(completedOpening(result).id, 'opening');
   });
+
+  it('records an explicitly selected planning model in public metadata', () => {
+    const result = applyScenePlan(story(), plan(), { planningModel: 'gpt-5.4-mini' });
+
+    assert.equal(result.illustratedEdition.planningModel, 'gpt-5.4-mini');
+  });
 });

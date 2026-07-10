@@ -1,7 +1,9 @@
 import { after, describe, it } from 'node:test';
 import assert from 'node:assert/strict';
+import { execFile } from 'node:child_process';
 import { mkdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
+import { promisify } from 'node:util';
 import {
   buildPlanningPrompt,
   planStories,
@@ -10,6 +12,7 @@ import {
 import { buildCanonicalScenePrompt } from '../../src/illustration/edition.mjs';
 
 const root = 'tmp/illustration-planner';
+const execFileAsync = promisify(execFile);
 
 after(() => rm(root, { recursive: true, force: true }));
 
@@ -92,7 +95,7 @@ describe('Luna planner', () => {
     assert.match(prompt, /no words, lettering, logos, or signatures/);
   });
 
-  it('invokes ephemeral Luna at low reasoning with the output schema', async () => {
+  it('invokes ephemeral Luna by default with a three-minute timeout', async () => {
     let call;
     const execFileImpl = (command, args, options, callback) => {
       call = { command, args, options };
@@ -116,8 +119,80 @@ describe('Luna planner', () => {
       '--cd', cwd,
       prompt
     ]);
-    assert.deepEqual(call.options, { cwd });
+    assert.deepEqual(call.options, { cwd, timeout: 180_000 });
     assert.deepEqual(result, validPlan());
+  });
+
+  it('passes an explicit model and timeout to codex without retrying planner errors', async () => {
+    const plannerError = new Error('Selected model is at capacity');
+    let call;
+    let calls = 0;
+    const execFileImpl = (command, args, options, callback) => {
+      calls += 1;
+      call = { command, args, options };
+      callback(plannerError, '', '');
+    };
+
+    await assert.rejects(
+      () => runLunaPlanner('prompt', {
+        planningModel: 'gpt-5.4-mini',
+        timeout: 1_234,
+        execFileImpl
+      }),
+      (error) => error === plannerError
+    );
+
+    assert.equal(calls, 1);
+    assert.equal(call.args[call.args.indexOf('--model') + 1], 'gpt-5.4-mini');
+    assert.equal(call.options.timeout, 1_234);
+  });
+
+  it('propagates an explicit model to the planner and story metadata', async () => {
+    const base = `${root}/explicit-model`;
+    const directory = `${base}/stories`;
+    await rm(base, { recursive: true, force: true });
+    await writeStory(directory);
+    let plannerOptions;
+
+    await planStories({
+      storyId: '01-01',
+      planningModel: 'gpt-5.4-mini',
+      storiesDir: directory,
+      publicDir: `${base}/public`,
+      runPlanner: async (_prompt, options) => {
+        plannerOptions = options;
+        return validPlan();
+      }
+    });
+
+    const story = JSON.parse(await readFile(`${directory}/01-01.json`, 'utf8'));
+    assert.deepEqual(plannerOptions, { planningModel: 'gpt-5.4-mini' });
+    assert.equal(story.illustratedEdition.planningModel, 'gpt-5.4-mini');
+  });
+
+  it('rejects unsafe model slugs before planner execution or writes', async () => {
+    for (const planningModel of ['', '--model', 'gpt 5', 'vendor/model']) {
+      let plannerCalls = 0;
+      let writes = 0;
+      await assert.rejects(
+        () => planStories({
+          storyId: '01-01',
+          planningModel,
+          runPlanner: async () => { plannerCalls += 1; return validPlan(); },
+          writeJsonImpl: async () => { writes += 1; }
+        }),
+        /planningModel must be a safe model slug/
+      );
+      assert.equal(plannerCalls, 0);
+      assert.equal(writes, 0);
+    }
+  });
+
+  it('documents the explicit model CLI option', async () => {
+    const script = fileURLToPath(new URL('../../src/illustration/plan-stories.mjs', import.meta.url));
+    const { stdout } = await execFileAsync(process.execPath, [script, '--help']);
+
+    assert.match(stdout, /--model <slug>/);
   });
 
   it('writes a public brief and initializes story state without replanning by default', async () => {

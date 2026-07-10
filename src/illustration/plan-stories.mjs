@@ -16,6 +16,8 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import {
   applyScenePlan,
   buildCanonicalScenePrompt,
+  PLANNING_MODEL,
+  validatePlanningModel,
   validateScenePlan
 } from './edition.mjs';
 
@@ -24,6 +26,7 @@ Choose three to six scenes, including exactly one opening first. Anchor every la
 
 const moduleDir = path.dirname(fileURLToPath(import.meta.url));
 const defaultSchemaPath = path.join(moduleDir, 'scene-plan.schema.json');
+const DEFAULT_PLANNER_TIMEOUT = 180_000;
 
 export function buildPlanningPrompt(story) {
   const narrative = {
@@ -50,13 +53,17 @@ export async function runLunaPlanner(prompt, options = {}) {
   const cwd = options.cwd ?? process.cwd();
   const execFileImpl = options.execFileImpl ?? execFile;
   const schemaPath = options.schemaPath ?? defaultSchemaPath;
+  const planningModel = validatePlanningModel(
+    options.planningModel === undefined ? PLANNING_MODEL : options.planningModel
+  );
+  const timeout = options.timeout ?? DEFAULT_PLANNER_TIMEOUT;
   const temporaryDir = await mkdtemp(path.join(tmpdir(), 'hisdodia-luna-'));
   const outputPath = path.join(temporaryDir, 'plan.json');
   const args = [
     'exec',
     '--ephemeral',
     '--sandbox', 'read-only',
-    '--model', 'gpt-5.6-luna',
+    '--model', planningModel,
     '--config', 'model_reasoning_effort="low"',
     '--output-schema', schemaPath,
     '--output-last-message', outputPath,
@@ -65,7 +72,7 @@ export async function runLunaPlanner(prompt, options = {}) {
   ];
 
   try {
-    await execute('codex', args, { cwd }, execFileImpl);
+    await execute('codex', args, { cwd, timeout }, execFileImpl);
     return JSON.parse(await readFile(outputPath, 'utf8'));
   } finally {
     await rm(temporaryDir, { recursive: true, force: true });
@@ -104,9 +111,16 @@ export async function planStories(options = {}) {
   if (scopeCount !== 1) {
     throw new Error('Choose exactly one scope: --story, --month, or --all');
   }
+  const planningModel = validatePlanningModel(
+    options.planningModel === undefined ? PLANNING_MODEL : options.planningModel
+  );
 
   const runPlanner = options.runPlanner
-    ?? ((prompt) => runLunaPlanner(prompt, { cwd: options.cwd ?? process.cwd() }));
+    ?? ((prompt, plannerOptions) => runLunaPlanner(prompt, {
+      cwd: options.cwd ?? process.cwd(),
+      timeout: options.timeout,
+      ...plannerOptions
+    }));
   const writeJson = options.writeJsonImpl ?? writeJsonAtomically;
   const filenames = (await readdir(storiesDir))
     .filter((filename) => selectedFilename(filename, { storyId, month, all }))
@@ -126,7 +140,7 @@ export async function planStories(options = {}) {
       continue;
     }
 
-    const returnedPlan = await runPlanner(buildPlanningPrompt(story));
+    const returnedPlan = await runPlanner(buildPlanningPrompt(story), { planningModel });
     const plan = {
       ...returnedPlan,
       scenes: Array.isArray(returnedPlan?.scenes)
@@ -145,7 +159,7 @@ export async function planStories(options = {}) {
       illustratedEdition: { status: 'planning' }
     });
     await writeJson(path.join(briefDir, 'brief.json'), { ...plan, errors: [] });
-    await writeJson(storyPath, applyScenePlan(story, plan));
+    await writeJson(storyPath, applyScenePlan(story, plan, { planningModel }));
     planned.push(story.id);
   }
 
@@ -153,7 +167,7 @@ export async function planStories(options = {}) {
 }
 
 function help() {
-  return `Usage: node src/illustration/plan-stories.mjs (--story MM-DD | --month MM | --all) [--force]
+  return `Usage: node src/illustration/plan-stories.mjs (--story MM-DD | --month MM | --all) [--model <slug>] [--force]
 
 Scopes:
   --story MM-DD  Plan one story
@@ -161,6 +175,7 @@ Scopes:
   --all          Plan every story
 
 Options:
+  --model <slug>  Select the planning model (default: ${PLANNING_MODEL})
   --force        Replan stories that already have an illustrated edition
   --help         Show this help`;
 }
@@ -185,6 +200,9 @@ function parseArguments(argv) {
       if (!/^\d{2}$/u.test(options.month ?? '')) {
         throw new Error('--month requires MM');
       }
+    } else if (argument === '--model') {
+      options.planningModel = argv[index += 1];
+      validatePlanningModel(options.planningModel);
     } else {
       throw new Error(`Unknown argument: ${argument}`);
     }

@@ -3,6 +3,7 @@ export const ILLUSTRATION_CREDIT = 'Edição ilustrada contemporânea gerada com
 export const PLANNING_MODEL = 'gpt-5.6-luna';
 
 const LAYOUTS = new Set(['opening', 'double-page', 'marginal', 'vignette']);
+const MODEL_SLUG_PATTERN = /^[a-z0-9]+(?:[._-][a-z0-9]+)*$/u;
 const OPENING_EXCERPT_MAX_LENGTH = 600;
 const OBSERVABLE_ART_DIRECTION = 'soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space.';
 const CONTINUITY_DIRECTION = 'Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes.';
@@ -12,6 +13,13 @@ function assertText(value, field) {
   if (typeof value !== 'string' || value.trim() === '') {
     throw new Error(`${field} must be non-empty text`);
   }
+}
+
+export function validatePlanningModel(value) {
+  if (typeof value !== 'string' || !MODEL_SLUG_PATTERN.test(value)) {
+    throw new Error('planningModel must be a safe model slug');
+  }
+  return value;
 }
 
 function assertAnchor(story, anchor) {
@@ -88,7 +96,10 @@ export function validateScenePlan(story, plan) {
   return true;
 }
 
-export function applyScenePlan(story, plan) {
+export function applyScenePlan(story, plan, options = {}) {
+  const planningModel = validatePlanningModel(
+    options.planningModel === undefined ? PLANNING_MODEL : options.planningModel
+  );
   validateScenePlan(story, plan);
   return {
     ...story,
@@ -96,7 +107,7 @@ export function applyScenePlan(story, plan) {
       status: 'generating',
       credit: ILLUSTRATION_CREDIT,
       artDirectionVersion: ART_DIRECTION_VERSION,
-      planningModel: PLANNING_MODEL,
+      planningModel,
       visualBrief: `/assets/${story.id}/illustrated/brief.json`,
       scenes: plan.scenes.map(({ id, after, layout, alt }) => ({
         id,
