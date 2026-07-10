@@ -1,0 +1,94 @@
+{
+  "characters": [
+    {
+      "name": "Zahil",
+      "appearance": "Homem magro e preguiçoso, rosto comprido, barba curta desalinhada, olhos vivos e astutos, albornoz gasto em tons de areia e ocre, chinelos gastos, postura relaxada e ligeiramente torta"
+    },
+    {
+      "name": "Samam",
+      "appearance": "Mulher magra e esperta, expressão firme e irónica, lenço simples na cabeça em azul desbotado, vestido gasto em índigo e castanho, mãos ágeis, postura alerta"
+    },
+    {
+      "name": "Periquito verde",
+      "appearance": "Pequeno periquito verde vivo, penas ligeiramente texturadas, olhar atento, uma vez só em gaiola simples de metal escuro, depois solto em voo"
+    },
+    {
+      "name": "Mercador rico",
+      "appearance": "Homem robusto, roupa de mercador em tecidos claros com faixa colorida discreta, turbante ou chapéu simples, expressão curiosa e confiante"
+    }
+  ],
+  "environment": "Cidade asiática antiga e pobre, com rua sombria, casa humilde de paredes gastas, praça central de mercadores, interior doméstico simples com mesa posta. A atmosfera deve manter-se coerente, em calor seco e poeira suave, com muitos vazios visuais e fundos incompletos.",
+  "palette": [
+    "ocre quente",
+    "areia",
+    "verde periquito",
+    "azul desbotado",
+    "castanho queimado",
+    "cinza suave",
+    "creme de papel",
+    "toques de vermelho apagado"
+  ],
+  "recurringObjects": [
+    "gaiola de metal escuro",
+    "dois periquitos verdes",
+    "albornoz gasto de Zahil",
+    "lenço azul de Samam",
+    "panela/tachada de caril",
+    "mesa simples com loiça modesta"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "after": null,
+      "layout": "opening",
+      "description": "Rua mais pobre e sombria da cidade, com a casa humilde de Zahil e Samam num canto, enquanto o casal aparece sem energia à porta. Zahil boceja e Samam observa com impaciência, sugerindo que vivem de pequenos enganos e não de trabalho.",
+      "alt": "Zahil e Samam numa rua pobre, com ar preguiçoso e irritado.",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Vivia na rua mais pobre e mais sombria de uma cidade da Ásia um homem chamado Zahil, que era muito preguiçoso. Ela e a mulher, não menos amiga de pouco fazer do que o marido, nunca se tinham disposto a aprender uma profissão ou, a bem dizer, a única profissão que sabiam era a de pregar más partidas aos camponeses e aos lavradores ricos, que passavam pela cidade. Tinham, realmente, fama de vigaristas e não menor proveito. Sucedia, às vezes, que Zahil e Samam, assim se chamava a mulher, à falta de engenho ficavam com a barriga vazia. Ora foi numa dessas ocasiões que nós os encontrámos, no princí Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "layout": "double-page",
+      "description": "Interior humilde, Samam repreende Zahil por não terem comida, enquanto ele se levanta com um ar despreocupado. A gaiola com os dois periquitos verdes entra em destaque, sinalizando a ideia enganosa que começa a nascer.",
+      "alt": "Samam ralha com Zahil e a gaiola dos periquitos aparece em destaque.",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Ora foi numa dessas ocasiões que nós os encontrámos, no princípio desta história. Dizia a mulher: Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "layout": "marginal",
+      "description": "Zahil regressa com a gaiola, orgulhoso e misterioso, enquanto Samam reage com desconfiança e indignação. O momento deve mostrar a frivolidade do gasto e o contraste entre a pose satisfeita dele e o cepticismo dela.",
+      "alt": "Zahil mostra a gaiola e Samam reage, desconfiada.",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. - E não é tudo. Vai ao mercado e compra umas galinhas gordas, arroz e especiarias. Com elas faz uma boa tachada, enquanto eu passo pelo largo da cidade. Quero convidar alguns amigos e conhecidos para jantarem connosco. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "after": {
+        "segment": 7,
+        "paragraph": 0
+      },
+      "layout": "double-page",
+      "description": "Na praça principal, Zahil aborda mercadores ricos com falsa confiança, exibindo um periquito na mão e atraindo curiosos. A cena deve transmitir a pequena burla social, com os comerciantes formando um semicírculo de interesse e humor.",
+      "alt": "Zahil engana mercadores na praça com o periquito na mão.",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. O interpelado, que mal conhecia Zahil, estranhou o convite, mas o finório não lhe deu sequer tempo para pensar e acrescentou: Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "after": {
+        "segment": 14,
+        "paragraph": 1
+      },
+      "layout": "vignette",
+      "description": "Em casa de Zahil, o jantar já está servido e o mercador rico admira o periquito antes de pagar. A mesa posta, a panela de caril e a gaiola com o outro periquito devem fechar a história com a sensação de esperteza bem-sucedida.",
+      "alt": "O mercador paga pelo periquito perante a mesa posta.",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. - Qual recado? Qual periquito? - assustou-se a mulher. - Os ares da cidade devem ter-te tirado o juízo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

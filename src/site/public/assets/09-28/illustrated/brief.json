@@ -1,0 +1,87 @@
+{
+  "characters": [
+    {
+      "name": "Gregório Epifanov",
+      "appearance": "Velho lenhador alto e magro, barba branca curta, rosto vincado, casaco de lã castanho gasto, camisa escura, calças de trabalho, botas pesadas, machado de cabo de madeira gasto."
+    },
+    {
+      "name": "Agripina",
+      "appearance": "Velha pequena e magra, nariz agudo, sobrancelhas espessas, lenço escuro na cabeça, vestido de lã azul-acinzentado gasto, avental remendado, xale curto, chinelos ou botas simples."
+    },
+    {
+      "name": "Urso",
+      "appearance": "Urso grande e escuro da floresta, pelagem castanha profunda, expressão observadora e não ameaçadora, corpo robusto, movimentos ágeis, sem acessórios."
+    }
+  ],
+  "environment": "Floresta temperada com cabana modesta de lenhadores, interior apertado com lareira e cama de madeira, trilhos de terra junto a pinheiros e árvores altas, atmosfera rural fria de manhã e suave ao entardecer.",
+  "palette": [
+    "castanhos quentes",
+    "ocres suaves",
+    "cinzentos azulados",
+    "verde musgo apagado",
+    "creme de papel",
+    "preto suave de grafite"
+  ],
+  "recurringObjects": [
+    "machado de lenhador gasto",
+    "selha ou balde de madeira",
+    "cobertores pesados e amarrotados",
+    "lareira com cinzas frias",
+    "tronco velho oco com um boião de mel"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "after": null,
+      "layout": "opening",
+      "description": "Exterior da cabana modesta na orla da floresta, com Gregório Epifanov e Agripina a surgirem à porta em poses tensas mas pequenas perante a paisagem, sugerindo a sua vida rabugenta e antiga. A cabana de madeira, a chaminé discreta e as árvores altas enquadram a cena com amplo céu e muito espaço vazio em redor.",
+      "alt": "Cabana na floresta com dois velhos à porta.",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. H avia na floresta uma cabana, modesta morada de lenhadores. Nessa cabana, moravam um velhinho e uma velhinha que eram irmãos, mas pouco amigos. Por aqui começa esta história. Desconfio que não estou a dizer a verdade toda. Talvez os dois irmãos fossem amigos, lá muito no fundo dos seus corações de velhos rabugentos, mas quem os visse e ouvisse a enfrenesiarem-se constantemente por dá cá aquela palha, tal não diria. A velhinha, então, era a mais abespinhada. Mal o irmão entrava em casa e fechava a porta, começava a bulha. – Estou farta de te recomendar, Gregório Epifanov, para não entrares sem Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "after": {
+        "segment": 0,
+        "paragraph": 10
+      },
+      "layout": "double-page",
+      "description": "Interior da cabana ao amanhecer, com Agripina a sacudir a cama e Gregório afundado nos cobertores, ambos num confronto cómico e cansado. A lareira mostra cinzas frias, a chaleira e a selha estão perto, e o gato surge apenas como presença discreta no chão ou numa cadeira, reforçando o caos doméstico sem excesso de detalhe.",
+      "alt": "Discussão matinal dentro da cabana.",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. De manhã, chovesse ou fizesse sol, havia sempre tempestade na cabana. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "after": {
+        "segment": 0,
+        "paragraph": 14
+      },
+      "layout": "vignette",
+      "description": "Na floresta, Gregório encontra o urso e baixa o machado, rendido e surpreendido, enquanto o animal o observa com calma. Os troncos verticais e o chão coberto de folhas criam um enquadramento simples, com a vulnerabilidade do lenhador contrastando com a grande massa do urso.",
+      "alt": "Gregório encontra o urso na floresta.",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Gregório Epifanov levantava-se, pegava no machado e ia-se embora, sem dar os bons-dias nem comer as sopas da manhã. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "after": {
+        "segment": 0,
+        "paragraph": 20
+      },
+      "layout": "double-page",
+      "description": "No interior da cabana, Agripina despeja a água do poço sobre a cama e, no instante seguinte, salta de susto ao ver o urso a surgir dos cobertores. A ação ocupa a página com movimento cómico, a selha tombada no chão, os cobertores espalhados e Gregório a entrar com o machado pela porta, como numa coreografia atrapalhada.",
+      "alt": "O urso salta da cama e assusta Agripina.",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Ficaram a conversar como bons amigos. A certa altura, o velho lenhador lamentou-se do mau génio da irmã que não parava de dizer que ele não valia nada e que estava sempre a tratá-lo de urso paspalhão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "after": {
+        "segment": 0,
+        "paragraph": 22
+      },
+      "layout": "marginal",
+      "description": "Depois da confusão, Agripina e Gregório partilham um momento sereno diante da cabana, já em paz, enquanto ao fundo o urso se afasta na floresta. Em primeiro plano, o velho deixa um boião de mel dentro da cavidade de um tronco, como gesto final de amizade, com rostos suaves e espaço amplo à volta.",
+      "alt": "Os irmãos fazem as pazes e deixam mel para o urso.",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Pois claro que se ofendia. Se não fosse ele, a miséria na choupana ainda seria maior. Com o que ele ganhava a vender lenha, ambos comiam. Além de que não era um urso, era um homem. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

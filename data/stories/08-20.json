@@ -186,5 +186,71 @@
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
     "A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
-  ]
+  ],
+  "illustratedEdition": {
+    "status": "complete",
+    "credit": "Edição ilustrada contemporânea gerada com IA",
+    "artDirectionVersion": "1",
+    "planningModel": "gpt-5.4-mini",
+    "visualBrief": "/assets/08-20/illustrated/brief.json",
+    "scenes": [
+      {
+        "id": "opening",
+        "status": "complete",
+        "attempts": 1,
+        "after": null,
+        "layout": "opening",
+        "image": "/assets/08-20/illustrated/opening.webp",
+        "alt": "Zahil e Samam numa rua pobre, com ar preguiçoso e irritado."
+      },
+      {
+        "id": "scene-2",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 1,
+          "paragraph": 2
+        },
+        "layout": "double-page",
+        "image": "/assets/08-20/illustrated/scene-2.webp",
+        "alt": "Samam ralha com Zahil e a gaiola dos periquitos aparece em destaque."
+      },
+      {
+        "id": "scene-3",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 4,
+          "paragraph": 1
+        },
+        "layout": "marginal",
+        "image": "/assets/08-20/illustrated/scene-3.webp",
+        "alt": "Zahil mostra a gaiola e Samam reage, desconfiada."
+      },
+      {
+        "id": "scene-4",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 7,
+          "paragraph": 0
+        },
+        "layout": "double-page",
+        "image": "/assets/08-20/illustrated/scene-4.webp",
+        "alt": "Zahil engana mercadores na praça com o periquito na mão."
+      },
+      {
+        "id": "scene-5",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 14,
+          "paragraph": 1
+        },
+        "layout": "vignette",
+        "image": "/assets/08-20/illustrated/scene-5.webp",
+        "alt": "O mercador paga pelo periquito perante a mesa posta."
+      }
+    ]
+  }
 }
