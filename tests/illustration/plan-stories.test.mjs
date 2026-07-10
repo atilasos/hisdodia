@@ -180,10 +180,43 @@ describe('Luna planner', () => {
 
     await assert.rejects(
       () => runLunaPlanner('prompt', { execFileImpl }),
-      (error) => error === closeError
+      (error) => {
+        assert.equal(error, closeError);
+        assert.equal(error.stdout, 'planner stdout');
+        assert.equal(error.stderr, 'planner stderr');
+        return true;
+      }
     );
     assert.equal(callbackCalls, 1);
     assert.equal(stdinEndCalls, 1);
+  });
+
+  it('preserves a synchronous planner error when closing stdin also fails', async () => {
+    const plannerError = new Error('Planner process failed');
+    const closeError = new Error('Could not close planner stdin');
+    const execFileImpl = (_command, _args, _options, callback) => {
+      callback(plannerError, 'partial planner output', 'planner process diagnostics');
+      return {
+        stdin: {
+          end() {
+            throw closeError;
+          }
+        }
+      };
+    };
+
+    await assert.rejects(
+      () => runLunaPlanner('prompt', { execFileImpl }),
+      (error) => {
+        assert.equal(error, plannerError);
+        assert.equal(error.stdinCloseError, closeError);
+        assert.equal(error.stdout, 'partial planner output');
+        assert.equal(error.stderr, 'planner process diagnostics');
+        assert.match(error.message, /partial planner output/);
+        assert.match(error.message, /planner process diagnostics/);
+        return true;
+      }
+    );
   });
 
   it('passes an explicit model and timeout to codex without retrying planner errors', async () => {

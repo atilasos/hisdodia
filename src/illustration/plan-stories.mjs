@@ -65,19 +65,41 @@ function execute(command, args, options, execFileImpl) {
       }
       finish(...result);
     };
-
-    try {
-      const child = execFileImpl(command, args, options, callback);
-      child?.stdin?.end();
+    const finishTransportFailure = (transportError, secondaryErrorProperty) => {
       spawnComplete = true;
-      if (callbackResult) finish(...callbackResult);
-    } catch (error) {
-      spawnComplete = true;
-      if (!settled) {
-        settled = true;
-        reject(error);
+      if (!callbackResult) {
+        finish(transportError);
+        return;
       }
+
+      const [callbackError, stdout, stderr] = callbackResult;
+      if (!callbackError) {
+        finish(transportError, stdout, stderr);
+        return;
+      }
+      try {
+        callbackError[secondaryErrorProperty] = transportError;
+      } catch {
+        // Preserve the planner process error even when it cannot be annotated.
+      }
+      finish(callbackError, stdout, stderr);
+    };
+
+    let child;
+    try {
+      child = execFileImpl(command, args, options, callback);
+    } catch (error) {
+      finishTransportFailure(error, 'spawnError');
+      return;
     }
+    try {
+      child?.stdin?.end();
+    } catch (error) {
+      finishTransportFailure(error, 'stdinCloseError');
+      return;
+    }
+    spawnComplete = true;
+    if (callbackResult) finish(...callbackResult);
   });
 }
 
