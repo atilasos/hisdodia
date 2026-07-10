@@ -9,9 +9,29 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era uma vez um belo cabelo levado pelo vento. Loiro. Vinha uma corrente de ar e soprava-o para um lado. Vinha outra corrente de ar e soprava-o para o outro. E o cabelo rodopiava, solto à luz do Sol, que com qualquer coisa se maravilha. Até um singelo grão de pó, tocado pelo Sol, fica como se fosse de prata…",
+        "Cabelo de anjo seria? Cabelo de fada? Cabelo de menina que pela primeira vez se penteia?",
+        "– Esta história tem um cabelo – disse alguém, fazendo uma careta, como se dissesse \"Esta sopa tem um cabelo\" e a pusesse de lado.",
+        "Pois tem. E depois? Um cabelo não merece história?",
+        "Então, continuemos.",
+        "O cabelo encontrou-se no ar com uma pena, uma pequeníssima pena, tão leve como ele. De pavão? De pintassilgo? De canário? Tanto faz. Há muito tempo que sabia voar sozinha."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "Cabelo e pena são agora dois. Junta-se-lhes um fiapo de algodão, tão sem destino como eles. Já são três. E a história complica-se.",
+        "Para complicá-la mais, veio ter com eles um fio de seda, sabe-se lá donde… Talvez de uma bordadeira que sacudiu a saia. Ou de uma fita a enfeitar cartas, que o tempo esqueceu…",
+        "São coisas sem nada, sem peso, sem destino, mas com muita história por contar.",
+        "Uma semente, depois, agarra-se à pena, ao cabelo, ao fiapo, ao fio de seda, e todos juntos dançam a moda que o vento quer.",
+        "Ah, mas a semente é pesada e a dança termina cedo. Cai, arrastando consigo na queda as asas a que se juntara.",
+        "Logo a seguir veio a chuva. A semente afunda-se, um niquinho só, mais o rolo de coisas sem futuro, que caíram com ela.",
+        "E pronto.",
+        "Para a próxima Primavera, daquela semente vai nascer uma erva, com uma flor ao cimo. Uma flor branca, como o fiapo de algodão, de pétalas frágeis como penas. Há-de vir o vento arrebatá-la da haste e levá-la com ele, como um fio de seda, um cabelo, eu sei lá que mais…",
+        "É a vida.",
+        "FIM"
       ]
     }
   ],
@@ -37,21 +57,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/20/html/tjawjmi2xu54kdekvppddljmxveedwb5/historia.aspx",
     "printPdf": "/recovered/0000/10/20/pdf/oye7pus4r45freiqqqhw3q6ddbvf7fmg/imprimir.pdf",
     "archiveDay": "/recovered/0000/10/20/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

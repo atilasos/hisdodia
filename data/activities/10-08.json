@@ -1,0 +1,140 @@
+{
+  "id": "10-08",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "lebres",
+          "distractors": [
+            "caçador",
+            "lebre",
+            "herdade"
+          ],
+          "sentence": "Ninguém nos avisou - protestaram as lebres."
+        },
+        {
+          "target": "caçador",
+          "distractors": [
+            "lebres",
+            "herdade",
+            "disparou"
+          ],
+          "sentence": "Mãos no ar - gritou o caçador para a lebre."
+        },
+        {
+          "target": "lebre",
+          "distractors": [
+            "lebres",
+            "toca",
+            "moita"
+          ],
+          "sentence": "De moita em moita, rasteirinha, a lebre chegou, quase sem fôlego, à toca da família."
+        },
+        {
+          "target": "herdade",
+          "distractors": [
+            "lebres",
+            "caçador",
+            "disparou"
+          ],
+          "sentence": "Nem o velho Hipólito os consentia, nos arredores da herdade - acrescentava a avó."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "lebres",
+          "syllables": [
+            "le",
+            "bres"
+          ]
+        },
+        {
+          "word": "caçador",
+          "syllables": [
+            "ca",
+            "ça",
+            "dor"
+          ]
+        },
+        {
+          "word": "disparou",
+          "syllables": [
+            "dis",
+            "pa",
+            "rou"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "capa",
+          "syllables": [
+            "ca",
+            "pa"
+          ]
+        },
+        {
+          "word": "parou",
+          "syllables": [
+            "pa",
+            "rou"
+          ]
+        },
+        {
+          "word": "rouca",
+          "syllables": [
+            "rou",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "lebres",
+          "b": "lebres"
+        },
+        {
+          "a": "caçador",
+          "b": "caçador"
+        },
+        {
+          "a": "lebre",
+          "b": "lebre"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/08/images/bdtu5p2sozas5nfxnegou2xr4fe555hg/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Mãos no ar - gritou o caçador para a lebre.",
+        "De moita em moita, rasteirinha, a lebre chegou, quase sem fôlego, à toca da família.",
+        "Também não sabiam que os filhos do senhor Hipólito, pouco dados à vida do campo, tinham vendido toda aquela imensidão de terra a um…",
+        "Se as lebres soubessem ler, teriam lido no jornal da terra o anúncio da venda.",
+        "Foi a partir deste incidente que as lebres decidiram todas aprender a ler."
+      ]
+    }
+  ]
+}

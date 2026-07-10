@@ -9,9 +9,48 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Duas pombas encontraram-se em cima do mesmo telhado. Vinha cada uma da sua banda e não se conheciam.",
+        "As duas pombas não eram exactamente iguais. Uma usava penteado na cauda, em feitio de leque, ao passo que a outra não usava nenhum enfeite.",
+        "Dizia a pomba de leque:",
+        "– Nunca a vi por estes sítios.",
+        "– Não sou daqui. Venho de muito longe – respondeu a outra pomba.",
+        "– Do outro lado do rio, naturalmente? – perguntou a pomba do leque, que era curiosa.",
+        "– De mais longe ainda, de muito mais… Do cabo do mundo! Voei tanto…",
+        "– Eu calculo! – comentou a pomba do leque.",
+        "Calcular, não calculava, mas não queria fazer má figura."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "Que sabia ela do mundo? Pouco. Nunca passara daquele largo, com uma estátua no meio. Era o que a pomba sabia e muito por alto.",
+        "Entretida com os seus pensamentos, a pomba quase se esqueceu da companheira. Foi preciso que esta agitasse as asas, a modos que a preparar-se para a viagem.",
+        "– Não me diga que quer ir-se embora? E para onde, se está tanto frio, lá no alto, e as nuvens tão carregadas? – perguntava a pomba citadina.",
+        "– Tenho de ir. Talvez gostasse de ficar, mas…",
+        "– Ora pois! Fique mesmo. O homem do cesto está aí não tarda e a minha nova amiga vai provar também – anunciava a pomba de leque.",
+        "De cabecinha à banda, num sobressalto, a pombinha viageira perguntou:",
+        "– Que homem do cesto?",
+        "Tranquilizou-a a companheira:",
+        "– Nós todas, que vivemos no largo, chamamos assim a um senhor que vem todos os dias fazer-nos uma visita e trazer-nos prendas: milho, migalhinhas de bolos, sêmeas, grãozinhos de trigo, um regalo… A minha amiga vai provar e, depois, me dirá.",
+        "– Não posso. Tenho de ir - assegurava, muito firme, a pombinha.",
+        "– Uma misteriosa me saiu a minha amiga. Qual é a pressa? – perguntou a pomba de leque, também de cabeça ao lado.",
+        "Em resposta, a pomba viajante levantou uma patinha e mostrou uma anilha larga, de alumínio. Espantou-se a pomba de leque:",
+        "– Como? Será que a minha amiga leva aí uma mensagem? Então é um pombo-correio, aliás, uma pomba-correio. Que engraçado."
+      ]
+    },
+    {
+      "layer": "pdf-page-3",
+      "paragraphs": [
+        "A pomba de pombal confirmou. Levava, preso à pata, um recado, uma mensagem ou uma carta de alguém para alguém. E como a pomba da cidade se mostrasse muito interessada em saber mais pormenores, ela contou-lhe os tratos todos da vida de um pombo-correio:",
+        "– Vão buscar-nos ao pombal e metem-nos numa caixa com buraquinhos. Ali dentro, passamos dias e dias a viajar. Vamos de comboio? De avião? De automóvel? Não sabemos. Deixam-nos noutro pombal e, quando precisam de nós, enrolam uma mensagem, que metem dentro desta cápsula, presa à anilha, e largam-nos. Voamos entontecidas, procuramos a direcção de volta a casa e orientamo-nos, o que nem sempre é fácil.",
+        "– Que trabalho fatigante! – comentou a pomba de leque. – Deixe-se dessa vida. A minha amiga dá muita importância a um papelinho, onde devem estar escritos uns gatafunhos sem interesse. Fique na nossa companhia e, daqui a dias, nem se lembra do caminho para o seu pombal.",
+        "Asas apressadas voaram por cima das duas pombas.",
+        "– Olhe: o homem do cesto já chegou ao largo – exclamou a pomba de leque, muito agitada. – Venha atrás de mim, que os petiscos estão à nossa espera. Venha. Não seja tola.",
+        "– Não posso - respondeu-lhe a pomba sem leque. – Tenho de continuar a minha viagem. Não posso.",
+        "As duas pombas abriram as asas ao mesmo tempo e voaram, mas foi cada uma para o seu lado.",
+        "FIM"
       ]
     }
   ],
@@ -27,21 +66,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/09/html/rbhtr3dmhhtzodq2z4xaavuxe2xlttq6/historia.aspx",
     "printPdf": "/recovered/0000/10/09/pdf/7opaqiqfmrryjhhjoaykr5yvqmeygthu/imprimir.pdf",
     "archiveDay": "/recovered/0000/10/09/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

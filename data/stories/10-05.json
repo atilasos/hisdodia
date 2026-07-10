@@ -9,9 +9,30 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era um sultão bonacheirão.",
+        "Sentado em almofadas, bem instalado, de pernas cruzadas, o sultão bonacheirão ouvia, sorria e calava.",
+        "Vinham ministros falar-lhe das arcas dos tesouros do reino quase vazias, e o sultão bonacheirão ouvia, sorria e calava.",
+        "Vinham generais falar-lhe da iminência de guerras desastrosas, de inimigos do reino que rondavam as fronteiras, e o sultão bonacheirão ouvia, sorria e calava.",
+        "Vinham mensageiros falar-lhe de desastres sem fim: secas nas províncias ocidentais, avalanches nas províncias orientais, bandos de salteadores desenfreados nas províncias da montanha, inundações, naufrágios, miséria na província litoral, e o sultão bonacheirão ouvia, sorria e calava.",
+        "Tanto sorria e tanto calava que os ministros, os generais e os mensageiros desistiram de lhe falar.",
+        "Um por um, foram abandonando o palácio do sultão, e com eles saíram os cortesãos, os guardas e os criados.",
+        "Ficou o sultão sozinho, sentado em almofadas, de pernas cruzadas, sorrindo, sorrindo sempre.",
+        "Mas a certa altura, o sultão bonacheirão sentiu uma comichão na mão. Eram duas formigas.",
+        "Dizia uma para a outra:",
+        "- Estou desconfiada que somos as últimas.",
+        "- As aranhas já fecharam com as suas teias as portas do palácio. As portas e as janelas - dizia a outra.",
+        "- Despachemo-nos, despachemo-nos - diziam as duas, enquanto atravessavam a mão do sultão, desciam pelas almofadas e corriam pelo chão...",
+        "O sultão deixou de sorrir.",
+        "- Esperem por mim - balbuciou, levantando-se a custo.",
+        "Foi atrás das formigas e enfiou por um subterrâneo do palácio, onde se enfarruscou todo, a ponto de, uma vez cá fora, ninguém o reconhecer como sultão.",
+        "Havia grande agitação na praça, diante do palácio.",
+        "- O príncipe Aldi tomou sobre si o governo do reino. É um príncipe bom e corajoso. Vai dar um bom sultão - informou um homem, passando pelo sultão bonacheirão, que não sorria.",
+        "- O antigo sultão era um paspalhão. Não prestava para nada, não sabia governar - disse outro homem, passando pelo sultão, que não sorria. - A estas horas ainda deve estar no palácio, de pernas cruzadas sobre uma montanha de almofadas. Sultão paspalhão! Vamos lá nós e cai tudo ao chão.",
+        "- Vamos! Vamos! - gritaram várias vozes.",
+        "Desta vez o sultão bonacheirão, vendo-os ir em direcção ao palácio, ouvi-os, sorriu e calou-se.",
+        "Escapou-se."
       ]
     }
   ],
@@ -46,21 +67,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/05/html/w7okp724wny4gocnp2qc42scjzmhx63s/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/10/05/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

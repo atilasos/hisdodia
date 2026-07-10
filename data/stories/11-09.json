@@ -9,9 +9,20 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era uma vez uma rã que vivia num charco. Vivia sozinha. O charco também era pequeno.",
+        "Sentia a falta de outras rãs, para lhe fazerem companhia e coaxarem ao despique nas noites de Lua cheia.",
+        "Sentia que, se outras rãs vivessem com ela, podia nadar de bruços com mais folgança, velocidade, estilo... Sentia que os saltos que dava para dentro de água, à falta de espectadores, nem jeito nem graça tinham.",
+        "Enfim, a rã deste pequeno charco sentia-se muito só. Desamparada. Infeliz.",
+        "Perguntem, se fazem favor, porque é que a rã se não mudava para charco mais amplo e povoado?",
+        "Porque temia que tão perto não houvesse outro. Ora, como devem saber, as rãs detestam perder tempo a saltar em seco. A água faz-lhes falta. Sem ela, perdem o luzidio da pele e a força de vida. Não sabiam?",
+        "Um dia, começou a chover que nunca mais parava. Dia e noite. Noite e dia.",
+        "Os campos ficaram alagados. Os rios sobraram do leito. Pequenos charcos, afastados uns dos outros, juntaram-se num enorme lago.",
+        "Foi uma inundação terrível. Veio nos jornais e a televisão deu notícia.",
+        "Casas de que só o telhado se via. Animais afogados. Gente a ser salva em barcaças por bombeiros. Uma desgraça.",
+        "Mas como esta história pertence à rã, esta história tem um fim feliz. A rã, passada a tempestade, encontrou companhia. Dezenas de rãs coaxam agora, em coro, glorificando a chuva, a abundância das águas, o abraço do lago imenso que as juntou.",
+        "Aqui entre nós e em segredo vos peço que nunca contem esta história a pessoas que tenham sofrido os efeitos trágicos de uma inundação. Não iam gostar."
       ]
     }
   ],
@@ -38,21 +49,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/09/html/zq63whzpvbjzxnrfjcicooztgf77h2cq/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/11/09/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

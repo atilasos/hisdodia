@@ -1,0 +1,162 @@
+{
+  "id": "11-25",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "fome",
+          "distractors": [
+            "dunas",
+            "mato",
+            "carne"
+          ],
+          "sentence": "Seguiu viagem, apertadinho de fome, mas seguiu."
+        },
+        {
+          "target": "antílope",
+          "distractors": [
+            "vagabundo",
+            "encontrou",
+            "caçador"
+          ],
+          "sentence": "Zé Desgraçado ia pelo meio do mato quando encontrou um antílope morto, trespassado por uma azagaia."
+        },
+        {
+          "target": "dunas",
+          "distractors": [
+            "fome",
+            "mato",
+            "carne"
+          ],
+          "sentence": "Dunas sobre dunas e mais dunas e dunas..."
+        },
+        {
+          "target": "mato",
+          "distractors": [
+            "fome",
+            "dunas",
+            "carne"
+          ],
+          "sentence": "Muito contrariado, o mendigo avançou pelo meio do mato."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "fome",
+          "syllables": [
+            "fo",
+            "me"
+          ]
+        },
+        {
+          "word": "antílope",
+          "syllables": [
+            "an",
+            "tí",
+            "lo",
+            "pe"
+          ]
+        },
+        {
+          "word": "mato",
+          "syllables": [
+            "ma",
+            "to"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "tolo",
+          "syllables": [
+            "to",
+            "lo"
+          ]
+        },
+        {
+          "word": "toma",
+          "syllables": [
+            "to",
+            "ma"
+          ]
+        },
+        {
+          "word": "tome",
+          "syllables": [
+            "to",
+            "me"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "fome",
+          "b": "fome"
+        },
+        {
+          "a": "antílope",
+          "b": "antílope"
+        },
+        {
+          "a": "dunas",
+          "b": "dunas"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "azagaia",
+          "b": "lança curta de arremesso"
+        },
+        {
+          "a": "predestinado",
+          "b": "previsto"
+        },
+        {
+          "a": "sumptuosa",
+          "b": "muito luxuosa"
+        },
+        {
+          "a": "iguarias",
+          "b": "comidas apetitosas"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/11/25/images/n4s6b5cuw66pwt7kyywdggnpcmxmmu3s/Imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Não tinha nada de seu e vagabundeava, todo esfarrapado e de longas barbas cinzentas, de terra em terra, vivendo de esmolas.",
+        "Zé Desgraçado, embora contra-vontade, correspondeu ao conselho do passarinho.",
+        "Sob o fogo do sol, cheio de sede e de fome, o Zé Desgraçado arrastou-se pela areia.",
+        "Era viúva e única dona do oásis e da mina de ouro que nele havia.",
+        "Zé Desgraçado voltou a encontrar-se no meio do mato, sozinho e cheio de fome."
+      ]
+    }
+  ]
+}

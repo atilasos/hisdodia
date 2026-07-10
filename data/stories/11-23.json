@@ -9,9 +9,41 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Iam duas mulas por uma estrada. Lado a lado trotavam.",
+        "Uma, que trazia nos alforges batatas e legumes para o mercado, talvez por ser mais nova, adiantou-se à outra mula.",
+        "Logo a mais velha a chamou à pedra:",
+        "– Então que é lá isso, sua serigaita. Já não há respeito pela nobreza? Com que direito me ultrapassa a mim, que valho um milhão de vezes mais do que você?",
+        "A mula nova, que não estava para despiques, susteve o passo e deixou-a passar à frente. Mas, por curiosidade, perguntou-lhe:",
+        "– Porque é que vossemecê vale assim tanto mais do que eu?",
+        "– Porque trago uma fortuna que não faz ideia. Pratas lavradas, castiçais doirados, loiças da Índia e um saco de libras em ouro. Sou uma mula rica, ao passo que você, sua pindérica, é apenas uma mula com dois sacos de batatas e umas hortaliças."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "E lá seguiu à frente, majestosa.",
+        "A mula nova deixou-a ir. Companheiras de viagem daquele estilo dispensava.",
+        "Apartadas pela diferença de riquezas, também, na estrada, a distância entre uma e outra era cada vez maior.",
+        "Perderam-se de vista.",
+        "Voltaram a encontrar-se no mercado. A mula velha, descarregada do seu tesouro, metia dó. Andavam as moscas à volta dela. Estava à venda, mas ninguém a queria.",
+        "– Que lhe sucedeu para vir parar a esta miséria? – perguntou a mula nova, aliviada do peso das batatas.",
+        "– Uma grande desgraça – contou a mula velha. – Depois de nos separarmos, fui assaltada por uns bandidos, que me levaram tudo o que trazia comigo e ainda me moeram de pancada. Andei aos tombos, por aí, até vir ter a esta feira de animais para abate.",
+        "Vá lá que o dono da mula nova se tentou pela pechincha que pediam pela mula velha, e comprou-a.",
+        "– Vamos ser colegas – disse a mula nova. – Agora o que temos é de levar para a quinta o que o nosso dono trocou pelas batatas.",
+        "– E qual é a qualidade do carregamento? – perguntou a mula velha, que já conhecera pesos de muito preço e importância.",
+        "– Não é carga pesada. Isso é que me interessa – respondeu a nova.",
+        "– Mas de que qualidade? – insistiu a mais velha."
+      ]
+    },
+    {
+      "layer": "pdf-page-3",
+      "paragraphs": [
+        "– Estrume – respondeu a nova, muito mula, a mostrar as favolas, cheia de riso.",
+        "– Ah, estrume… – repetiu, desolada, a mais velha. – Nunca imaginei. Mas calhou assim. É a vida.",
+        "Isto dito a meio de um fundo suspiro. Pois. É a vida…",
+        "FIM"
       ]
     }
   ],
@@ -42,21 +74,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/23/html/cmy3miaghumdaj5xxlxmqzkrzolztfn3/historia.aspx",
     "printPdf": "/recovered/0000/11/23/pdf/xi5xshdds5v3ohlbj2tk2x5iepbwaa3i/imprimir.pdf",
     "archiveDay": "/recovered/0000/11/23/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

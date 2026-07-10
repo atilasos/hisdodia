@@ -1,0 +1,139 @@
+{
+  "id": "10-02",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "motor",
+          "distractors": [
+            "cima",
+            "baixo",
+            "casa"
+          ],
+          "sentence": "Eles, na sala de controle, diante dos ecrãs, sabiam mais do motor T2."
+        },
+        {
+          "target": "cima",
+          "distractors": [
+            "motor",
+            "baixo",
+            "casa"
+          ],
+          "sentence": "Resposta mesmo descabida, porque o fato do astronauta não tinha botões, mas apenas um fecho éclair de cima a baixo."
+        },
+        {
+          "target": "alpista",
+          "distractors": [
+            "controle",
+            "botões",
+            "colegas"
+          ],
+          "sentence": "Ai que me esqueci de deitar alpista ao canário."
+        },
+        {
+          "target": "casa",
+          "distractors": [
+            "motor",
+            "cima",
+            "baixo"
+          ],
+          "sentence": "A casa fechada e sem ninguém, ele com a chave no bolso e o coitado do canário tão longe, tão inacessível..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "motor",
+          "syllables": [
+            "mo",
+            "tor"
+          ]
+        },
+        {
+          "word": "cima",
+          "syllables": [
+            "ci",
+            "ma"
+          ]
+        },
+        {
+          "word": "alpista",
+          "syllables": [
+            "al",
+            "pis",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "alma",
+          "syllables": [
+            "al",
+            "ma"
+          ]
+        },
+        {
+          "word": "alta",
+          "syllables": [
+            "al",
+            "ta"
+          ]
+        },
+        {
+          "word": "cimo",
+          "syllables": [
+            "ci",
+            "mo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "motor",
+          "b": "motor"
+        },
+        {
+          "a": "cima",
+          "b": "cima"
+        },
+        {
+          "a": "baixo",
+          "b": "baixo"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/02/images/zq4n3dluo26krhq3pii3aba7yyoras4m/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Ai que me esqueci de deitar alpista ao canário.",
+        "Resposta mesmo descabida, porque o fato do astronauta não tinha botões, mas apenas um fecho éclair de cima a baixo.",
+        "Eles, na sala de controle, diante dos ecrãs, sabiam mais do motor T2.",
+        "Mal correu o fecho éclair do seu fato acolchoado, o astronauta nem quis ouvir as palavras de consolo dos seus colegas.",
+        "Com tantos nomes engraçados, dar ao canário o nome de um motor, ainda por cima um motor sujeito a avarias, é sinal de falta de sensatez."
+      ]
+    }
+  ]
+}

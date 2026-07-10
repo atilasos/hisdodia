@@ -1,0 +1,131 @@
+{
+  "id": "10-11",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "feno",
+          "distractors": [
+            "carro",
+            "bois",
+            "manso"
+          ],
+          "sentence": "A caminho do estábulo, já apaladava, na imaginação, a saborosa ceia de feno, que o aguardava na manjedoira."
+        },
+        {
+          "target": "carro",
+          "distractors": [
+            "feno",
+            "ladrou",
+            "bois"
+          ],
+          "sentence": "Por caminhos torcidos e pedregosos puxara, o dia todo, um carro de bois, que, bem vistas as coisas, devia antes chamar-se carro de boi…"
+        },
+        {
+          "target": "bois",
+          "distractors": [
+            "feno",
+            "carro",
+            "manso"
+          ],
+          "sentence": "Noutra hipótese, o boi manso lembra-se de que tem em comum com os bois bravos os chifres pontiagudos, que servem de defesa e de ataque."
+        },
+        {
+          "target": "estábulo",
+          "distractors": [
+            "exausto",
+            "trabalho",
+            "cansado"
+          ],
+          "sentence": "O que se passou dentro do estábulo nem se descreve."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "feno",
+          "syllables": [
+            "fe",
+            "no"
+          ]
+        },
+        {
+          "word": "ladrou",
+          "syllables": [
+            "la",
+            "drou"
+          ]
+        },
+        {
+          "word": "manso",
+          "syllables": [
+            "man",
+            "so"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "sola",
+          "syllables": [
+            "so",
+            "la"
+          ]
+        },
+        {
+          "word": "sono",
+          "syllables": [
+            "so",
+            "no"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "feno",
+          "b": "feno"
+        },
+        {
+          "a": "ladrou",
+          "b": "ladrou"
+        },
+        {
+          "a": "carro",
+          "b": "carro"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/11/images/p6h2ci3vy7kbo3mxcgozdwaamoveny43/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O boi regressava do trabalho, ao entardecer.",
+        "Podia fazer o favor de sair de cima da minha manjedoira?",
+        "Admito que esteja a incomodá-lo, mas será por pouco tempo.",
+        "No dia seguinte, voltará a trabalhar, em estado de fraqueza e tão debilitado que não conseguirá puxar o carro, como o dono lhe exige.",
+        "O que se passou dentro do estábulo nem se descreve."
+      ]
+    }
+  ]
+}

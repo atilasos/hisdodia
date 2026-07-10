@@ -1,0 +1,142 @@
+{
+  "id": "11-11",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "castanha",
+          "distractors": [
+            "garotos",
+            "castanhas",
+            "destino"
+          ],
+          "sentence": "Era uma castanha que estava como as outras, pendurada de um castanheiro."
+        },
+        {
+          "target": "garotos",
+          "distractors": [
+            "castanha",
+            "dentes",
+            "destino"
+          ],
+          "sentence": "Vinham os garotos, estalavam-lhe os ouriços e metiam-nos nos bolsos."
+        },
+        {
+          "target": "castanhas",
+          "distractors": [
+            "castanha",
+            "pendurada",
+            "chegando"
+          ],
+          "sentence": "Chegando o tempo, as castanhas amadurecem e caem por si."
+        },
+        {
+          "target": "tempo",
+          "distractors": [
+            "modo",
+            "nariz",
+            "ramo"
+          ],
+          "sentence": "Sentia até uma ponta de orgulho por ter conseguido resistir tanto tempo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "castanha",
+          "syllables": [
+            "cas",
+            "ta",
+            "nha"
+          ]
+        },
+        {
+          "word": "garotos",
+          "syllables": [
+            "ga",
+            "ro",
+            "tos"
+          ]
+        },
+        {
+          "word": "castanhas",
+          "syllables": [
+            "cas",
+            "ta",
+            "nhas"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cascas",
+          "syllables": [
+            "cas",
+            "cas"
+          ]
+        },
+        {
+          "word": "ganha",
+          "syllables": [
+            "ga",
+            "nha"
+          ]
+        },
+        {
+          "word": "garota",
+          "syllables": [
+            "ga",
+            "ro",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "castanha",
+          "b": "castanha"
+        },
+        {
+          "a": "garotos",
+          "b": "garotos"
+        },
+        {
+          "a": "castanhas",
+          "b": "castanhas"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/11/11/images/hfhnnwod375htbhr67tmgng5ap7yqykq/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma castanha que estava como as outras, pendurada de um castanheiro.",
+        "Uma a uma, as outras dos ramos iam caindo e rebolando pelo chão, protegidas pelo cobertor ouriçado que as cobria até ao nariz.",
+        "Era a única que sobrava em todo o castanheiro.",
+        "Um grupo de gente acendera uma fogueira, junto ao castanheiro.",
+        "A madeira a arder estalava, mesmo por baixo da castanha, a última."
+      ]
+    }
+  ]
+}

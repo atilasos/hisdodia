@@ -64,34 +64,26 @@
           ]
         },
         {
-          "word": "caça",
+          "word": "melhor",
           "syllables": [
-            "ca",
-            "ça"
+            "me",
+            "lhor"
           ]
         }
       ],
       "recombine": [
         {
-          "word": "caros",
+          "word": "meta",
           "syllables": [
-            "ca",
-            "ros"
-          ]
-        },
-        {
-          "word": "cata",
-          "syllables": [
-            "ca",
+            "me",
             "ta"
           ]
         },
         {
-          "word": "catita",
+          "word": "meti",
           "syllables": [
-            "ca",
-            "ti",
-            "ta"
+            "me",
+            "ti"
           ]
         }
       ]

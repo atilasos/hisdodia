@@ -9,9 +9,52 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Uma mosca. Duas moscas. Três moscas. Três moscas paradas a conversar. De que falavam? Falavam do problema da alimentação.",
+        "Dizia uma:",
+        "– Tem sido uma crise, colegas. Toda a comida guardada em frigoríficos e armários, trancada a sete chaves. Ninguém lhe chega.",
+        "Dizia a outra:",
+        "– E os venenos que nos lançam, colegas. Os insecticidas… Que horror!",
+        "A terceira mosca permanecia calada. As outras viraram-se para ela. Miraram-na.",
+        "– Agora é que reparo. Como a colega está gorda!",
+        "– … e bonita – completou a segunda. – Por onde é que se tem governado a colega?",
+        "– Por aí… Por aí… – respondeu a mosquinha bem alimentada."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "E voou, dizendo adeus.",
+        "As duas moscas esfomeadas comentaram:",
+        "– Ela esconde-nos alguma coisa. Vamos atrás dela.",
+        "Voaram também, dançaram no ar, disfarçando os seus intentos, enquanto a outra se distanciava. Quando a viram dobrar uma esquina, voaram em sua perseguição, sem que a mosca gorda e bem parecida se apercebesse. Repare, colega, repare como ela se refastela com aquele pires de leite.",
+        "– Leite? Não me fale nisso. Vamos a ele. Estou com a fome de um enxame de moscas. Vamos ao leite!",
+        "Aterraram perigosamente na borda do pires. A mosca gorda e bem parecida ficou muito mal-disposta, ao ver as outras duas:",
+        "– Como vieram aqui parar?",
+        "– O acaso… – responderam as duas manhosas.",
+        "Beberam daquele leite até se fartarem. Depois foi o ajuste de contas.",
+        "– Então a colega tinha aqui esta mina escondida e não dizia nada às suas amigas?",
+        "– Este leite não é meu. Põe-o aqui, todos os dias, o dono do Tareco, para ele beber.",
+        "– E a colega tem-se banqueteado. Pois agora somos três, isto é, quatro contando com o Tareco, pois também chega e sobeja para ele… Conte connosco.",
+        "E desapareceram.",
+        "A outra, a mosca gorda e bem parecida, má camarada, pouco amiga de partilhas, ficou sozinha a remorder vingança. \"Esperem pela pancada, esperem!\"",
+        "No dia seguinte foi ela a primeira a chegar ao pátio, onde a D. Zulmira deixava, como habitualmente, o pires de sopas de leite para o seu Tareco. Mas desta vez, no lugar do pires de leite estava um enorme balde."
+      ]
+    },
+    {
+      "layer": "pdf-page-3",
+      "paragraphs": [
+        "– Oh! Oh! Um balde cheio de leite – exclamou a mosca gorda e bem parecida. – Toca a bebê-lo todo, antes que venham aquelas fedúncias, aquelas invejosas… E sem pensar duas vezes lançou-se sobre o balde, em voo picado.",
+        "Mosca tola. Mosca sôfrega. O balde continha não leite, mas cal, cal de caiar as paredes. A mosca gorda e bem parecida engoliu cal em vez de leite. Na cal caiu, na cal morreu.",
+        "As outras duas moscas, as moscas laricas, ao aproximarem-se, ainda ouviram uns vagos pedidos de socorro, que se perderam no ar. Quando chegaram, a mosca gorda e bem parecida estava morta.",
+        "– É bem feito! – comentou uma das moscas. – Não queria partilhar connosco, morreu do seu mau carácter. Bem, vamos ao nosso pires de leite.",
+        "Voaram para o pires, que estava a pequena distância do balde. Ao chegarem, a outra mosca, mais bondosa, não soube calar este comentário:",
+        "– Tenho pena dela. Sim, porque onde comem duas moscas, também comem três…",
+        "– Isso, isso, colega! Se ela assim pensasse, não teria morrido e se todos assim pensassem, o mundo seria muito melhor, olá se seria!",
+        "A mosca triste e pensativa concluiu:",
+        "– Bem, bem, vamos beber depressa o nosso leite, antes que venha o gato, ou alguma mosca esfomeada e invejosa da felicidade das outras…",
+        "FIM"
       ]
     }
   ],
@@ -51,21 +94,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/18/html/o76boa5zrmx3fytmka76qbf3th7tf5f6/historia.aspx",
     "printPdf": "/recovered/0000/11/18/pdf/wzgwe7uu6e2de7ijtuhuzfw3wfxp55wl/imprimir.pdf",
     "archiveDay": "/recovered/0000/11/18/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

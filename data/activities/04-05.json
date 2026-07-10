@@ -64,26 +64,27 @@
           ]
         },
         {
-          "word": "casa",
+          "word": "senhora",
           "syllables": [
-            "ca",
-            "sa"
+            "se",
+            "nho",
+            "ra"
           ]
         }
       ],
       "recombine": [
         {
-          "word": "cabe",
+          "word": "irra",
           "syllables": [
-            "ca",
-            "be"
+            "ir",
+            "ra"
           ]
         },
         {
-          "word": "sabe",
+          "word": "senho",
           "syllables": [
-            "sa",
-            "be"
+            "se",
+            "nho"
           ]
         }
       ]

@@ -1,0 +1,133 @@
+{
+  "id": "11-05",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "bicicleta",
+          "distractors": [
+            "acidente",
+            "adivinha",
+            "hospital"
+          ],
+          "sentence": "Hoje vou cair da bicicleta e esfolar um joelho."
+        },
+        {
+          "target": "coisa",
+          "distractors": [
+            "joelho",
+            "filho",
+            "casa"
+          ],
+          "sentence": "É que, de facto, o Carloto adivinha as coisas, mas só coisas que o tivessem como protagonista, isto é, como centro da referida coisa…"
+        },
+        {
+          "target": "joelho",
+          "distractors": [
+            "coisa",
+            "filho",
+            "grave"
+          ],
+          "sentence": "Só esfolou um joelho - respondeu o médico, com um sorriso simpático."
+        },
+        {
+          "target": "filho",
+          "distractors": [
+            "coisa",
+            "joelho",
+            "casa"
+          ],
+          "sentence": "O que eu quero é que o meu filho nunca adivinhe grandes desastres."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "bicicleta",
+          "syllables": [
+            "bi",
+            "ci",
+            "cle",
+            "ta"
+          ]
+        },
+        {
+          "word": "coisa",
+          "syllables": [
+            "coi",
+            "sa"
+          ]
+        },
+        {
+          "word": "filho",
+          "syllables": [
+            "fi",
+            "lho"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "fita",
+          "syllables": [
+            "fi",
+            "ta"
+          ]
+        },
+        {
+          "word": "talho",
+          "syllables": [
+            "ta",
+            "lho"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "bicicleta",
+          "b": "bicicleta"
+        },
+        {
+          "a": "coisa",
+          "b": "coisa"
+        },
+        {
+          "a": "joelho",
+          "b": "joelho"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/11/05/images/zmcw357df222lie2wc3w4j3lu7ecvxow/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Hoje vou cair da bicicleta e esfolar um joelho.",
+        "Se levo chapéu-de-chuva, já não chove e a chuva também faz falta...",
+        "O Carloto, conformado com o seu pequeno poder da adivinhação, resignava-se a que seria assim pela vida fora.",
+        "O seu filho, felizmente, não chegou a sofrer traumatismo craniano.",
+        "Uma coisa destas é que o Carloto nunca podia adivinhar."
+      ]
+    }
+  ]
+}

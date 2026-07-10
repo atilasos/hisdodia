@@ -9,9 +9,28 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Eu tive de ir ao sótão procurar uns jornais antigos.",
+        "Como toda a gente sabe, o sótão é o lugar da casa que menos é limpo. Nunca se convida as visitas para ir ao sótão. Nunca se utiliza o sótão, cheio de baús, malas e caixotes, para dar festas de aniversário. Até talvez não fosse má ideia…",
+        "Eu a entrar no sótão, e a esbarrar com uma teia de aranha.",
+        "– Que falta de consideração – barafustou a aranha. – Uma teia que me deu tanto trabalho a fabricar!",
+        "– Foi sem querer. Desculpe – disse-lhe eu, um tanto encavacado.",
+        "– Quem estraga, arranja – gritou-me ela.",
+        "– Mas eu não sei tecer teias de aranha…"
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "– Então, não tivesse rasgado. Quem estraga, arranja – insistiu ela.",
+        "Não tenho feito outra coisa. Pedi instruções a um tecelão, a uma bordadeira e a uma senhora que trabalha em malhas. Cada uma ensinou-me o que sabia e eu, mal ou bem, com uma agulha muito fininha e um fio de nylon ainda mais fino tenho passado os dias no sótão a cosipar a teia da dona aranha.",
+        "Com tantas responsabilidades na minha vida, tantas histórias para contar, e sucede-me a mim uma destas. Ainda se a aranha se calasse, mas não se cala:",
+        "– Quem estraga, arranja.",
+        "E sempre a desfazer do meu trabalho:",
+        "– Que falta de jeito. Que horror.",
+        "Mais dia, menos dia, também eu me enervo e mando a aranha contar histórias, em vez de mim. Sempre queria ver como é que dava conta do recado.",
+        "FIM"
       ]
     }
   ],
@@ -33,21 +52,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/19/html/ewd3fj65phtn5itukb2a7qnk7ojgsuqx/historia.aspx",
     "printPdf": "/recovered/0000/10/19/pdf/f7xr35sk2spslb77soyiy4q7mzbbonfq/imprimir.pdf",
     "archiveDay": "/recovered/0000/10/19/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

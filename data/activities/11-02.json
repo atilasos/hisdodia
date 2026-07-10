@@ -1,0 +1,161 @@
+{
+  "id": "11-02",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "sombra",
+          "distractors": [
+            "chaves",
+            "sete",
+            "parque"
+          ],
+          "sentence": "Não saía a rainha, mas saiu, sem ela nem ninguém dar por isso, a sombra da rainha."
+        },
+        {
+          "target": "chaves",
+          "distractors": [
+            "sombra",
+            "ciumento",
+            "parque"
+          ],
+          "sentence": "Por isso mantinha-a fechada a sete chaves no palácio."
+        },
+        {
+          "target": "ciumento",
+          "distractors": [
+            "chaves",
+            "cabelos",
+            "possível"
+          ],
+          "sentence": "Tinha, realmente, um nariz muito sensível este rei ciumento."
+        },
+        {
+          "target": "sete",
+          "distractors": [
+            "sombra",
+            "real",
+            "águas"
+          ],
+          "sentence": "Mas a rainha, que não aturava esta prisão, terá descoberto as tais sete chaves e, muito secretamente, muito pezinhos de lã, veio até cá…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "sombra",
+          "syllables": [
+            "som",
+            "bra"
+          ]
+        },
+        {
+          "word": "chaves",
+          "syllables": [
+            "cha",
+            "ves"
+          ]
+        },
+        {
+          "word": "cabelos",
+          "syllables": [
+            "ca",
+            "be",
+            "los"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "belos",
+          "syllables": [
+            "be",
+            "los"
+          ]
+        },
+        {
+          "word": "cabe",
+          "syllables": [
+            "ca",
+            "be"
+          ]
+        },
+        {
+          "word": "cabra",
+          "syllables": [
+            "ca",
+            "bra"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "sombra",
+          "b": "sombra"
+        },
+        {
+          "a": "chaves",
+          "b": "chaves"
+        },
+        {
+          "a": "ciumento",
+          "b": "ciumento"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "espairecer",
+          "b": "distrair / entreter"
+        },
+        {
+          "a": "impregnou",
+          "b": "embebeu / encheu"
+        },
+        {
+          "a": "abominável",
+          "b": "destestável"
+        },
+        {
+          "a": "carcereiro",
+          "b": "guarda da cadeia"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/11/02/images/v5epnpffymluocswl4sz3bwxtz7y6fxt/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "A rainha era mulher de grande beleza, que o rei queria ser o único homem a contemplar.",
+        "Depois de secas e engomadas, as camisas voltaram para o palácio.",
+        "Estava tão aliviada e contente que cantou, baixinho, uma canção a seu gosto.",
+        "Quando o rei viu que tinha fugido a sombra à rainha ficou muito aflito.",
+        "Se cumpriu ou não, não se sabe, mas costuma dizer-se que a palavra de rei é lei e nunca volta atrás..."
+      ]
+    }
+  ]
+}

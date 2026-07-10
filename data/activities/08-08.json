@@ -75,6 +75,13 @@
       ],
       "recombine": [
         {
+          "word": "cala",
+          "syllables": [
+            "ca",
+            "la"
+          ]
+        },
+        {
           "word": "canela",
           "syllables": [
             "ca",
@@ -87,13 +94,6 @@
           "syllables": [
             "ca",
             "ra"
-          ]
-        },
-        {
-          "word": "laca",
-          "syllables": [
-            "la",
-            "ca"
           ]
         }
       ]

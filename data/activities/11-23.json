@@ -1,0 +1,138 @@
+{
+  "id": "11-23",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "mula",
+          "distractors": [
+            "nova",
+            "velha",
+            "lado"
+          ],
+          "sentence": "Uma, que trazia nos alforges batatas e legumes para o mercado, talvez por ser mais nova, adiantou-se à outra mula."
+        },
+        {
+          "target": "nova",
+          "distractors": [
+            "mula",
+            "velha",
+            "lado"
+          ],
+          "sentence": "A mula nova, que não estava para despiques, susteve o passo e deixou-a passar à frente."
+        },
+        {
+          "target": "velha",
+          "distractors": [
+            "mula",
+            "nova",
+            "lado"
+          ],
+          "sentence": "A mula velha, descarregada do seu tesouro, metia dó."
+        },
+        {
+          "target": "batatas",
+          "distractors": [
+            "estrada",
+            "mercado",
+            "frente"
+          ],
+          "sentence": "Sou uma mula rica, ao passo que você, sua pindérica, é apenas uma mula com dois sacos de batatas e umas hortaliças."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "mula",
+          "syllables": [
+            "mu",
+            "la"
+          ]
+        },
+        {
+          "word": "nova",
+          "syllables": [
+            "no",
+            "va"
+          ]
+        },
+        {
+          "word": "velha",
+          "syllables": [
+            "ve",
+            "lha"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "lava",
+          "syllables": [
+            "la",
+            "va"
+          ]
+        },
+        {
+          "word": "nove",
+          "syllables": [
+            "no",
+            "ve"
+          ]
+        },
+        {
+          "word": "vela",
+          "syllables": [
+            "ve",
+            "la"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "mula",
+          "b": "mula"
+        },
+        {
+          "a": "nova",
+          "b": "nova"
+        },
+        {
+          "a": "velha",
+          "b": "velha"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/11/23/images/pqajk7rykozqzwbmyquv4w2mnsnelr6r/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Uma, que trazia nos alforges batatas e legumes para o mercado, talvez por ser mais nova, adiantou-se à outra mula.",
+        "Porque é que vossemecê vale assim tanto mais do que eu?",
+        "A mula velha, descarregada do seu tesouro, metia dó.",
+        "Vá lá que o dono da mula nova se tentou pela pechincha que pediam pela mula velha, e comprou-a.",
+        "Estrume – respondeu a nova, muito mula, a mostrar as favolas, cheia de riso."
+      ]
+    }
+  ]
+}

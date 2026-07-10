@@ -9,9 +9,30 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era uma vez um barco de papel, que se fez ao mar.",
+        "Barco de papel, no meio do mar, estão a ver o que lhe aconteceu… Escangalhou-se à primeira onda.",
+        "E regressou à praia. Estatelado na areia, era uma lástima vê-lo.",
+        "Andava por ali um jornalista, coleccionador de desastres e desgraças, que lhe perguntou:",
+        "– Senhor barco de papel, como se sente, depois da aventura?",
+        "O barco, todo amarrotado pelo desespero e a humilhação da derrota, esboçou um sorriso. Um sorriso de papel:",
+        "– O que sinto vê-se. Não lhe posso dizer mais nada.",
+        "Mas o jornalista insistiu:",
+        "– Atribui, porventura, o seu naufrágio a alguma causa em especial?"
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "– À minha pouca prática, apenas – respondeu o barco de papel. – E pode escrever que também à minha falta de vocação.",
+        "O jornalista ainda:",
+        "– Falta de vocação? Interessante. Nesse caso, se pudesse ter voltado atrás, o que teria feito?",
+        "O barco de papel ou o que dele sobrara fugiu da pergunta, aproveitando o escorrega de uma onda, que descia da praia. Estava muito cansado o barco de papel. Mas o jornalista, molhando os sapatos, correu atrás dele:",
+        "– Não chegou a dizer-me, senhor barco de papel… Por favor, o que teria sido se pudesse voltar atrás?",
+        "De longe, quase desfeito, o barco respondeu:",
+        "– Avião de papel. É evidente. E hei-de conseguir.",
+        "FIM"
       ]
     }
   ],
@@ -32,21 +53,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/12/html/sxy7xg72tajbutydow4zo6cijej35e2z/historia.aspx",
     "printPdf": "/recovered/0000/11/12/pdf/4qlemqck7yu6ynrliry7lagn7sadbfgn/imprimir.pdf",
     "archiveDay": "/recovered/0000/11/12/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

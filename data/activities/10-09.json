@@ -1,0 +1,139 @@
+{
+  "id": "10-09",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "pomba",
+          "distractors": [
+            "leque",
+            "amiga",
+            "pombas"
+          ],
+          "sentence": "Venho de muito longe – respondeu a outra pomba."
+        },
+        {
+          "target": "leque",
+          "distractors": [
+            "pomba",
+            "amiga",
+            "pombas"
+          ],
+          "sentence": "Uma usava penteado na cauda, em feitio de leque, ao passo que a outra não usava nenhum enfeite."
+        },
+        {
+          "target": "amiga",
+          "distractors": [
+            "pomba",
+            "leque",
+            "pombas"
+          ],
+          "sentence": "O homem do cesto está aí não tarda e a minha nova amiga vai provar também – anunciava a pomba de leque."
+        },
+        {
+          "target": "pombas",
+          "distractors": [
+            "pomba",
+            "leque",
+            "amiga"
+          ],
+          "sentence": "Duas pombas encontraram-se em cima do mesmo telhado."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "pomba",
+          "syllables": [
+            "pom",
+            "ba"
+          ]
+        },
+        {
+          "word": "leque",
+          "syllables": [
+            "le",
+            "que"
+          ]
+        },
+        {
+          "word": "cesto",
+          "syllables": [
+            "ces",
+            "to"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "baque",
+          "syllables": [
+            "ba",
+            "que"
+          ]
+        },
+        {
+          "word": "batoque",
+          "syllables": [
+            "ba",
+            "to",
+            "que"
+          ]
+        },
+        {
+          "word": "toque",
+          "syllables": [
+            "to",
+            "que"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "pomba",
+          "b": "pomba"
+        },
+        {
+          "a": "leque",
+          "b": "leque"
+        },
+        {
+          "a": "amiga",
+          "b": "amiga"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/09/images/wrgth7rxjmth3tskl6rllccne7leidfk/Imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Duas pombas encontraram-se em cima do mesmo telhado.",
+        "Entretida com os seus pensamentos, a pomba quase se esqueceu da companheira.",
+        "Tenho de ir - assegurava, muito firme, a pombinha.",
+        "A minha amiga dá muita importância a um papelinho, onde devem estar escritos uns gatafunhos sem interesse.",
+        "As duas pombas abriram as asas ao mesmo tempo e voaram, mas foi cada uma para o seu lado."
+      ]
+    }
+  ]
+}

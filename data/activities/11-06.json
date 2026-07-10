@@ -1,0 +1,138 @@
+{
+  "id": "11-06",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "leão",
+          "distractors": [
+            "velho",
+            "toca",
+            "cedo"
+          ],
+          "sentence": "Pois aconteceu que um velho leão começou a rondar a toca do coelho, guloso pelos laparotos tenros que, lá dentro, se preparavam para…"
+        },
+        {
+          "target": "velho",
+          "distractors": [
+            "leão",
+            "toca",
+            "cedo"
+          ],
+          "sentence": "O velho leão, que isto ouviu, acreditou que era a sério e ficou à espera que o chamassem."
+        },
+        {
+          "target": "toca",
+          "distractors": [
+            "leão",
+            "velho",
+            "cedo"
+          ],
+          "sentence": "E que ávidos que eles estavam por sair da toca!"
+        },
+        {
+          "target": "cedo",
+          "distractors": [
+            "leão",
+            "velho",
+            "toca"
+          ],
+          "sentence": "Por enquanto, ainda é cedo - dizia a mãe coelha para os impacientes coelhinhos."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "leão",
+          "syllables": [
+            "le",
+            "ão"
+          ]
+        },
+        {
+          "word": "velho",
+          "syllables": [
+            "ve",
+            "lho"
+          ]
+        },
+        {
+          "word": "toca",
+          "syllables": [
+            "to",
+            "ca"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cato",
+          "syllables": [
+            "ca",
+            "to"
+          ]
+        },
+        {
+          "word": "cave",
+          "syllables": [
+            "ca",
+            "ve"
+          ]
+        },
+        {
+          "word": "leve",
+          "syllables": [
+            "le",
+            "ve"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "leão",
+          "b": "leão"
+        },
+        {
+          "a": "velho",
+          "b": "velho"
+        },
+        {
+          "a": "toca",
+          "b": "toca"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/11/06/images/lmvy7kom256jfnzjoepwahkzkyxw7cnh/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Lá no meio do mato africano, o coelho goza de muita fama.",
+        "Queriam vir para a rua, queriam respirar o fresco da manhã, tasquinhar as ervinhas novas, cabriolar, correr, saltar...",
+        "Temos visitas indesejáveis, mas vamos pô-las a andar.",
+        "Pai Coelho: E tu não lhes deste o resto do fígado de leão que eu trouxe?",
+        "Aquela coisa de me chamarem devia ser uma cilada, uma armadilha\", pensava o leão."
+      ]
+    }
+  ]
+}

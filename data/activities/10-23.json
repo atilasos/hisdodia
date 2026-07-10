@@ -1,0 +1,139 @@
+{
+  "id": "10-23",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "tambor",
+          "distractors": [
+            "frente",
+            "direito",
+            "sempre"
+          ],
+          "sentence": "Este tambor, mal nasceu, foi logo para o serviço militar."
+        },
+        {
+          "target": "frente",
+          "distractors": [
+            "tambor",
+            "direito",
+            "sempre"
+          ],
+          "sentence": "Acabar de ser feito, de pele nova e madeira pintada de fresco, e, logo de seguida, assentar praça, à frente dos recrutas, não é destino…"
+        },
+        {
+          "target": "sargento",
+          "distractors": [
+            "direito",
+            "sempre",
+            "gritava"
+          ],
+          "sentence": "Toca a marchar, seus bimbos, sempre à voz do tambor - gritava o sargento para os atarantados taratas."
+        },
+        {
+          "target": "sempre",
+          "distractors": [
+            "tambor",
+            "frente",
+            "direito"
+          ],
+          "sentence": "Sempre certinho, que uma só desafinação e ai que se desmanchava um batalhão inteiro."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "tambor",
+          "syllables": [
+            "tam",
+            "bor"
+          ]
+        },
+        {
+          "word": "frente",
+          "syllables": [
+            "fren",
+            "te"
+          ]
+        },
+        {
+          "word": "direito",
+          "syllables": [
+            "di",
+            "rei",
+            "to"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "direi",
+          "syllables": [
+            "di",
+            "rei"
+          ]
+        },
+        {
+          "word": "ditam",
+          "syllables": [
+            "di",
+            "tam"
+          ]
+        },
+        {
+          "word": "terei",
+          "syllables": [
+            "te",
+            "rei"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "tambor",
+          "b": "tambor"
+        },
+        {
+          "a": "frente",
+          "b": "frente"
+        },
+        {
+          "a": "direito",
+          "b": "direito"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/23/images/tkgi5io4e55m7qdiptqnlgb6dzxamcpf/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Este tambor, mal nasceu, foi logo para o serviço militar.",
+        "Acertem o passo pelo tambor, seus azelhas – gritava o sargento.",
+        "Estavam a preparar soldados para coisa mais séria.",
+        "Podiam os generais ficar lá atrás, a ver a batalha por um binóculo.",
+        "Voltaram a troar os canhões, mas agora só com pólvora seca."
+      ]
+    }
+  ]
+}

@@ -9,9 +9,24 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era uma vez um senhor muito gordo.",
+        "Foi ao médico dos gordos, que querem passar a magros ou a menos gordos. Um médico muito famoso.",
+        "– O que o senhor precisa é de fazer exercício – disse-lhe o médico.",
+        "– Que género de exercício? – perguntou o senhor muito gordo.",
+        "– Desporto – explicou-lhe o médico. – Ginástica, natação, corrida…",
+        "O senhor gordo, que também era muito preguiçoso, preferiu a corrida, mas a cavalo. Sempre era mais confortável.",
+        "No mês seguinte, voltou ao médico."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "– O senhor está na mesma – disse-lhe o médico, depois de medir-lhe a cintura. – Não emagreceu nada.",
+        "– Mas emagreceu o cavalo – esclareceu o senhor gordo. – Depois deste mês de exercício, a carregar comigo, está só pele e osso.",
+        "E o senhor continuou gordo, para o resto da vida. O cavalo, esse, teve de ir consultar um veterinário, a ver se engordava.",
+        "FIM"
       ]
     }
   ],
@@ -25,21 +40,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/27/html/zmb2g3cquqxvwt2tul4sjweiiiw3kgpn/historia.aspx",
     "printPdf": "/recovered/0000/11/27/pdf/i6z4ue5hlxb7dnbtsg4e4nvqide3zvv2/imprimir.pdf",
     "archiveDay": "/recovered/0000/11/27/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

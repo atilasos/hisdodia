@@ -9,9 +9,45 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Andava o senhor Firmino a vender lotaria nas ruas de Vila Nova, ao começo deste estranho caso.",
+        "Era cauteleiro o senhor Firmino.",
+        "– Quem quer a sorte? O Firmino dá sorte! Quem quer os últimos para amanhã? – apregoava ele.",
+        "De boné à banda, com um cacho de cautelas penduradas do braço, o senhor Firmino percorria a vila. Tinha a cara queimada do sol e do vento, que lhe baralhava os bilhetes inteiros e as listas dos prémios.",
+        "– Anda amanhã a roda para os números do Firmino – prometia. – Ainda tenho um bilhete quase inteiro com o meu palpite…",
+        "Era muito popular na vila o senhor Firmino. Houve, por isso, um grande sobressalto quando se soube o que tinha sucedido ao senhor Firmino. Calculem que… O melhor será dar-lhe a palavra, porque ele sabe contar melhor do que eu:"
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "– Já há tempos que não ia para os lados do Outeiro, lá no fim da vila. O sítio é mau para vender jogo. Tem pouco movimento, mas, junto à bomba da gasolina, às vezes, consigo arranjar freguês. Ia com o sentido nisso, porque queria despachar jogo. Na bomba, já uma vez me ficaram com um bilhete…",
+        "– E desta arranjou fregueses novos… – interrompeu alguém.",
+        "O senhor Firmino zangou-se:",
+        "– Não brinque com a minha pouca sorte, homem! Podia eu lá calcular que me ia suceder uma daquelas?! Eu ia para lá, e cruzei-me com um rebanho de cabras, tocadas por um garoto, que é afilhado do Bolota. Estava uma ventania dos diabos. Para proteger os bilhetes, ajeitei-os debaixo do casaco e segui caminho. Passei pelo meio do rebanho e, de facto, reparei que uma das cabras engraçara comigo e se pusera a seguir-me, com o focinho a roçar-me as pernas. Achei simpático o bicho e até me virei para lhe fazer uma festa, calculem! Nessa altura, a cabra fugiu e foi quando eu vi que ela levava nos dentes um bocado de papel cor-de-rosa. Tive um pressentimento, fui ver o jogo e faltava-me um bilhete, um dos que tinha ficado fora do casaco. A cabra papara um bilhete, parte do qual levava ainda na boca. Corri atrás dela, corremos os dois, eu e o pastor ou os três, eu, o garoto e a cabra, que corria mais do que nós dois juntos. Claro que, quando a apanhámos, já tinha engolido o resto. Disse-me o rapaz que ela, no outro dia, comeu uma toalha e um lençol. Que esperam dum bicho destes?",
+        "– E agora? – perguntaram.",
+        "– Agora é esperar. Fui ter com o Anselmo Bolota, que é o dono das cabras, e ele, depois de grande questão, resolveu pagar parte dos prejuízos, ou seja, ficou com três décimos do bilhete que a cabra comeu."
+      ]
+    },
+    {
+      "layer": "pdf-page-3",
+      "paragraphs": [
+        "– Então o resto?",
+        "– Quem vai arriscar-se a comprar cautelas que estão na barriga de uma cabra? Com o resto fico eu ou a cabra, a única, afinal, que já ganhou. O número é o 17029. Depois de amanhã anda a roda!",
+        "Foram dois dias ansiosamente vividos por todos os de Vila Nova e arredores. Não se falava de outra coisa. E se o 17029 ganhava a Sorte Grande? Era uma pipa de massa, pois então! A dividir por quem? Pelo Firmino e pelo senhor Bolota, que só comprara três décimos, mas era o dono do animal! Por ninguém, visto que não havia bilhete que comprovasse, depois, aos balcões da Santa Casa, o direito ao prémio? Mas que grande complicação!",
+        "No Café Central, na Leitaria Sevilhana, no Jardim da Guia, no largo da Igreja, no pátio da escola, nas lojas da Rua dos Alecrins, o único tema era o tesouro, o possível mas obscuro tesouro, guardado e bem guardado na barriga de uma cabra de seu nome Rabisca.",
+        "E essa, sim, a Rabisca, como se comportava ela? Ora! Continuava a mastigar o que lhe vinha ao dente, sem ligar a mínima importância à balbúrdia que tinha provocado.",
+        "\"Ai, se saísse a sorte grande no 17029!...\", pensava o senhor Firmino, o senhor Bolota e toda a vila, em peso.",
+        "Andou a roda, saltitaram as bolinhas dos números, mas o 17029 ficou-se no meio dos outros, dos que não saíram pela porta mágica da fortuna.",
+        "Quando a vila soube que o 17029 não tinha sido premiado, respirou finalmente, aliviada."
+      ]
+    },
+    {
+      "layer": "pdf-page-4",
+      "paragraphs": [
+        "O senhor Firmino queixou-se da sua sorte e prometeu nunca mais comer queijo de cabra, mas com o tempo, o bom cauteleiro acabou por levar o caso para a brincadeira.",
+        "FIM"
       ]
     }
   ],
@@ -33,21 +69,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/24/html/3jygl2eabhcrlydcg2l2jqcr6p6axtr6/historia.aspx",
     "printPdf": "/recovered/0000/11/24/pdf/slw5n2nc64ovj6osl7xgwhtmngvc4nex/imprimir.pdf",
     "archiveDay": "/recovered/0000/11/24/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

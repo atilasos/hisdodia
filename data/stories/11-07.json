@@ -9,9 +9,25 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Vocês conhecem aquela cantilena: \"Salta a pulga da balança e vai ter até à França... Os cavalos a correr, as meninas a aprender... Qual será a mais bonita que se vai esconder?\"",
+        "Claro que conhecem.",
+        "Pois quando eu era assim mais ou menos da vossa idade gostava muito de ir até ao gabinete de trabalho do meu pai, sobretudo quando ele lá não estava.",
+        "Era uma divisão espaçosa, com muitos livros nas estantes. Nela reinava o silêncio e uma certa solenidade. Eu não desgostava.",
+        "Sobre a secretária do escritório, toda de tampo de vidro, havia, entre outros objectos atraentes, uma pequena balança de pesar cartas e volumes, antes de irem para o correio.",
+        "Debaixo do vidro transparente da secretária, um belo mapa da Europa, por onde eu me punha a passear os olhos, imaginando viagens... França, por exemplo. \"Salta a pulga da balança e vai ter até à França...\"",
+        "Apeteceu-me fazer uma experiência.",
+        "Pedi emprestada uma pulga à minha cadela Balalaica, meti a pulga num frasquinho e, secretamente, fui ao escritório. Pus o frasco em cima do prato da tal balança. Sempre queria ver se, ao destapá-lo, e assim que dissesse as tais palavras mágicas, \"Salta a pulga da balança...\", a pulguinha daria com o caminho da França, o do mapa, já se vê.",
+        "Nisto, entrou o pai:",
+        "- Que estás aí a fazer, garoto? - perguntou-me ele.",
+        "- Estava a pesar este frasco - respondi eu, destapando-o.",
+        "O meu pai era muito curioso, muito metediço...",
+        "- E o que tem dentro? - quis ele saber, quase a meter o nariz no frasco.",
+        "- Nada - respondi.",
+        "Não mentia. Realmente, o frasco já não tinha... O meu pai fez-me uma festa e disse, coçando a orelha:",
+        "- Agora o menino vai-se embora, porque estou cheio de pressa. Calcula que, por causa de uns negócios urgentes, tenho, hoje à tarde, de tomar o avião para Paris. Não estava nada a contar com esta viagem.",
+        "Nem a pulga... E foi assim que se concretizou o que a cantilena anunciava: saltou a pulga da balança e foi ter até à França..."
       ]
     }
   ],
@@ -37,21 +53,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/07/html/7bidcrpgvdcbe2a4ee6ab5fwcbddbo7c/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/11/07/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

@@ -9,9 +9,9 @@
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-missing",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
       ]
     }
   ],
@@ -25,21 +25,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "text-lost",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "text-lost"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/09/17/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
   ]
 }

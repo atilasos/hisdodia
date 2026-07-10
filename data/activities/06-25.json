@@ -65,27 +65,27 @@
           ]
         },
         {
-          "word": "sorriso",
+          "word": "senhores",
           "syllables": [
-            "sor",
-            "ri",
-            "so"
+            "se",
+            "nho",
+            "res"
           ]
         }
       ],
       "recombine": [
         {
-          "word": "riso",
+          "word": "senho",
           "syllables": [
-            "ri",
-            "so"
+            "se",
+            "nho"
           ]
         },
         {
-          "word": "sorri",
+          "word": "seres",
           "syllables": [
-            "sor",
-            "ri"
+            "se",
+            "res"
           ]
         }
       ]

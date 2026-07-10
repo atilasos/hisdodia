@@ -1,0 +1,141 @@
+{
+  "id": "11-28",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "príncipe",
+          "distractors": [
+            "peregrino",
+            "lágrimas",
+            "povo"
+          ],
+          "sentence": "Aí se conta de um príncipe filho do poderoso marajá (que era um rei da Índia, de antigamente), aí se fala de um príncipe cego."
+        },
+        {
+          "target": "peregrino",
+          "distractors": [
+            "príncipe",
+            "lágrimas",
+            "povo"
+          ],
+          "sentence": "Preciso apenas de uma taça de cristal – respondeu o peregrino – e que Vossa Majestade me acompanhe numa viagem, através do reino."
+        },
+        {
+          "target": "taça",
+          "distractors": [
+            "reino",
+            "conta",
+            "povo"
+          ],
+          "sentence": "Quando tiveram a taça quase cheia de lágrimas – o que não foi difícil, porque o povo daquele reino era pobre e vivia abandonado, no meio…"
+        },
+        {
+          "target": "reino",
+          "distractors": [
+            "taça",
+            "conta",
+            "marajá"
+          ],
+          "sentence": "Rei e peregrino desceram às ruas e aos campos miseráveis do reino."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "príncipe",
+          "syllables": [
+            "prín",
+            "ci",
+            "pe"
+          ]
+        },
+        {
+          "word": "peregrino",
+          "syllables": [
+            "pe",
+            "re",
+            "gri",
+            "no"
+          ]
+        },
+        {
+          "word": "taça",
+          "syllables": [
+            "ta",
+            "ça"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "grita",
+          "syllables": [
+            "gri",
+            "ta"
+          ]
+        },
+        {
+          "word": "nota",
+          "syllables": [
+            "no",
+            "ta"
+          ]
+        },
+        {
+          "word": "peça",
+          "syllables": [
+            "pe",
+            "ça"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "príncipe",
+          "b": "príncipe"
+        },
+        {
+          "a": "peregrino",
+          "b": "peregrino"
+        },
+        {
+          "a": "taça",
+          "b": "taça"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/11/28/images/khyp6jjrouhqdt4ig2a2tlwqspmdwbl3/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Veio esta história de longe, da Índia, que é terra fértil em histórias de encantar.",
+        "Inexplicável doença roubara-lhe a luz dos olhos e nenhum sábio ou médico dos mais eminentes conseguia atinar com a cura do seu mal.",
+        "Preciso apenas de uma taça de cristal – respondeu o peregrino – e que Vossa Majestade me acompanhe numa viagem, através do reino.",
+        "Quando tiveram a taça quase cheia de lágrimas – o que não foi difícil, porque o povo daquele reino era pobre e vivia abandonado, no meio…",
+        "A história não conta se o rei, depois desta viagem, passou a cuidar melhor dos assuntos do reino nem se o príncipe, uma vez rei, foi bom…"
+      ]
+    }
+  ]
+}

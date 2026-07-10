@@ -1,0 +1,140 @@
+{
+  "id": "11-13",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "gato",
+          "distractors": [
+            "gruta",
+            "ambos",
+            "casa"
+          ],
+          "sentence": "O cão e o gato não eram amigos, mas faziam de conta."
+        },
+        {
+          "target": "gruta",
+          "distractors": [
+            "gato",
+            "amigos",
+            "ambos"
+          ],
+          "sentence": "Tiritantes e cheios de fome, acolheram-se a uma gruta."
+        },
+        {
+          "target": "ambos",
+          "distractors": [
+            "gato",
+            "amigos",
+            "gruta"
+          ],
+          "sentence": "Viviam ambos abrigados no casebre de uma pobre velha, que com eles repartia o pouco que tinha."
+        },
+        {
+          "target": "casebre",
+          "distractors": [
+            "amigos",
+            "comida",
+            "casa"
+          ],
+          "sentence": "Vieram os filhos, vieram os netos e enxotaram-nos do casebre."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "gato",
+          "syllables": [
+            "ga",
+            "to"
+          ]
+        },
+        {
+          "word": "amigos",
+          "syllables": [
+            "a",
+            "mi",
+            "gos"
+          ]
+        },
+        {
+          "word": "gruta",
+          "syllables": [
+            "gru",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "amiga",
+          "syllables": [
+            "a",
+            "mi",
+            "ga"
+          ]
+        },
+        {
+          "word": "gata",
+          "syllables": [
+            "ga",
+            "ta"
+          ]
+        },
+        {
+          "word": "gosta",
+          "syllables": [
+            "gos",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "gato",
+          "b": "gato"
+        },
+        {
+          "a": "amigos",
+          "b": "amigos"
+        },
+        {
+          "a": "gruta",
+          "b": "gruta"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/11/13/images/ce4egfl56ejdibpll6e7lrrul3wztt22/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O cão e o gato não eram amigos, mas faziam de conta.",
+        "Cão e gato, tristes por terem perdido a sua protectora e o mínimo de conforto que ela lhes proporcionava, ficaram a rondar a casa, mas…",
+        "Eles, a princípio, nem entendiam a proposta, mas quando perceberam que o gato tinha de passar a cão e o cão, a gato, protestaram com…",
+        "Correram ambos na direcção da entrada da gruta, ainda assarapantados.",
+        "Até pode acontecer que, um dia, o Génio das Cavernas lhes devolva as respectivas identidades e o cão volte a ser cão e o gato volte a…"
+      ]
+    }
+  ]
+}

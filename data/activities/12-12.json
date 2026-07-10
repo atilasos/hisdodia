@@ -1,0 +1,132 @@
+{
+  "id": "12-12",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "lebre",
+          "distractors": [
+            "rato",
+            "artes",
+            "bichos"
+          ],
+          "sentence": "Vinham todos e até a toupeira, tão fraca de vista, se estarrecia, na primeira fila, com as artes mágicas da lebre Feliciana."
+        },
+        {
+          "target": "rato",
+          "distractors": [
+            "lebre",
+            "artes",
+            "nunca"
+          ],
+          "sentence": "Desconfio que ela mete um rato dentro do chapéu, o rato Fosquinhas, que ata os lenços uns aos outros num abrir e fechar de olhos –…"
+        },
+        {
+          "target": "artes",
+          "distractors": [
+            "lebre",
+            "rato",
+            "bichos"
+          ],
+          "sentence": "São artes mágicas que só ela sabe – concluiu a coruja, que para estas coisas nunca fechava os olhos."
+        },
+        {
+          "target": "cartola",
+          "distractors": [
+            "bichos",
+            "clareira",
+            "lenços"
+          ],
+          "sentence": "Da cartola da Feliciana, colocada em cima da mesinha tem-te-não-caias, saíam fieiras de lenços, presos uns aos outros, quando há…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "lebre",
+          "syllables": [
+            "le",
+            "bre"
+          ]
+        },
+        {
+          "word": "rato",
+          "syllables": [
+            "ra",
+            "to"
+          ]
+        },
+        {
+          "word": "cartola",
+          "syllables": [
+            "car",
+            "to",
+            "la"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "tocar",
+          "syllables": [
+            "to",
+            "car"
+          ]
+        },
+        {
+          "word": "tola",
+          "syllables": [
+            "to",
+            "la"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "lebre",
+          "b": "lebre"
+        },
+        {
+          "a": "rato",
+          "b": "rato"
+        },
+        {
+          "a": "artes",
+          "b": "artes"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/12/images/lfr34h3guqhjga5f7ud4ojoap6ce5kn2/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Se há pombos que são correios, cães que são pastores, vacas que são leiteiras (diz-se ou não se diz \"uma vaca leiteira\"?",
+        "E ainda bem que não sabes – comentava, ao lado dela, a galinhola.",
+        "São artes mágicas que só ela sabe – concluiu a coruja, que para estas coisas nunca fechava os olhos.",
+        "E mesmo que o único espectador visível fosse o rato Fosquinhas, a lebre Feliciana, na sua clareira, com a cartola em cima da mesa…",
+        "Perdiam-se no ar os tiros e, quando o caçador, ainda atarantado da presteza da lebre, metia a mão na cartola, julgando trazer a lebre…"
+      ]
+    }
+  ]
+}

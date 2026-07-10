@@ -1,0 +1,140 @@
+{
+  "id": "12-11",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "fada",
+          "distractors": [
+            "nome",
+            "reino",
+            "gente"
+          ],
+          "sentence": "Se uma fada me salvasse, fosse boa, má ou assim-assim e eu repartia a meias com ela o tesouro do meu perdido reino, que só eu sei onde…"
+        },
+        {
+          "target": "menina",
+          "distractors": [
+            "paredes",
+            "tesouro",
+            "castelo"
+          ],
+          "sentence": "Era uma vez uma menina que estava presa, na torre mais alta de um castelo."
+        },
+        {
+          "target": "princesa",
+          "distractors": [
+            "paredes",
+            "tesouro",
+            "castelo"
+          ],
+          "sentence": "Ela era um princesa, mas não lhe valia de nada, porque perdera os seus pais e o reino, numa guerra que o dono do castelo, já se vê, é…"
+        },
+        {
+          "target": "nome",
+          "distractors": [
+            "fada",
+            "reino",
+            "gente"
+          ],
+          "sentence": "Salvava a menina, mas, antes, ela tinha de adivinhar-lhe o nome."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "fada",
+          "syllables": [
+            "fa",
+            "da"
+          ]
+        },
+        {
+          "word": "menina",
+          "syllables": [
+            "me",
+            "ni",
+            "na"
+          ]
+        },
+        {
+          "word": "princesa",
+          "syllables": [
+            "prin",
+            "ce",
+            "sa"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cena",
+          "syllables": [
+            "ce",
+            "na"
+          ]
+        },
+        {
+          "word": "face",
+          "syllables": [
+            "fa",
+            "ce"
+          ]
+        },
+        {
+          "word": "mesa",
+          "syllables": [
+            "me",
+            "sa"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "fada",
+          "b": "fada"
+        },
+        {
+          "a": "menina",
+          "b": "menina"
+        },
+        {
+          "a": "princesa",
+          "b": "princesa"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/11/images/jkznvg64uomvyo2trf6vsothxsiuxo4g/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez uma menina que estava presa, na torre mais alta de um castelo.",
+        "As paredes toda a gente diz que têm ouvidos.",
+        "A princesa esgotou os nomes mais esquisitos que conhecia.",
+        "Uma vez em liberdade, a princesa ensinou o local onde estava escondido o tesouro e pronto, a história acaba aqui.",
+        "Vá lá a gente entender o gosto das bruxas."
+      ]
+    }
+  ]
+}

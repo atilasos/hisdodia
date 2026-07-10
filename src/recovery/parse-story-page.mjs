@@ -265,7 +265,8 @@ function decodeHtml(value) {
 }
 
 function stripTags(value) {
-  return decodeHtml(value.replaceAll(/<[^>]+>/g, ' '));
+  return decodeHtml(value.replaceAll(/<[^>]+>/g, ' '))
+    .replaceAll(/\s+([,.;:!?…])/gu, '$1');
 }
 
 function firstMatch(input, pattern) {
@@ -301,8 +302,15 @@ function parseTextSegments(html) {
     .flatMap((layerMatch, index) => {
       const nextLayer = layerStarts[index + 1];
       const layerHtml = html.slice(layerMatch.index + layerMatch[0].length, nextLayer?.index);
-      const textFonts = [...layerHtml.matchAll(/<font\b([^>]*)>([\s\S]*?)<\/font>/gi)]
-        .filter((fontMatch) => hasClassToken(fontMatch[1], 'historia-text'));
+      const fonts = [...layerHtml.matchAll(/<font\b([^>]*)>([\s\S]*?)<\/font>/gi)];
+      const classifiedTextFonts = fonts.filter((fontMatch) => hasClassToken(fontMatch[1], 'historia-text'));
+      const textFonts = classifiedTextFonts.length
+        ? classifiedTextFonts
+        : Number(layerMatch[2]) > 1
+          ? fonts.filter((fontMatch) => getQuotedAttribute(fontMatch[1], 'size') === '3'
+            && getQuotedAttribute(fontMatch[1], 'color')?.toLowerCase() === '#666666'
+            && /<div\b[^>]*>[\s\S]*?<\/div>/i.test(fontMatch[2]))
+          : [];
 
       return textFonts.map((fontMatch) => {
         const paragraphs = [...fontMatch[2].matchAll(/<div[^>]*>([\s\S]*?)<\/div>/gi)]

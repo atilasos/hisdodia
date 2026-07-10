@@ -9,9 +9,37 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era uma vez um homem muito pobre. Não tinha nada de seu e vagabundeava, todo esfarrapado e de longas barbas cinzentas, de terra em terra, vivendo de esmolas.",
+        "Chamavam-lhe Zé Desgraçado e, com o tempo, esse passou a ser o seu verdadeiro nome. Há também que dizer, à partida, que a história se passa em África.",
+        "Zé Desgraçado ia pelo meio do mato quando encontrou um antílope morto, trespassado por uma azagaia. Pensou: \"Escapou-se, escondeu-se e morreu. E o caçador passo a ser eu\".",
+        "Todo contente, começou a juntar lenha para fazer uma fogueira onde assar o antílope.",
+        "Nisto, um passarinho poisou-lhe no ombro e disse:",
+        "- Zé Desgraçado, não comas essa carne. Continua em frente, que o melhor está para vir.",
+        "Zé Desgraçado, embora contra-vontade, correspondeu ao conselho do passarinho.",
+        "Seguiu viagem, apertadinho de fome, mas seguiu.",
+        "Mais adiante, encontrou uma gazela, morta, também trespassada por uma azagaia.",
+        "O vagabundo pensou: \"Escapou-se, escondeu-se e morreu. E o caçador passo a ser eu\".",
+        "Mas, de novo, o passarinho lhe disse:",
+        "- Zé Desgraçado, não comas essa carne.",
+        "Continua em frente, que o melhor está para vir.",
+        "Muito contrariado, o mendigo avançou pelo meio do mato. Assim, chegou ao deserto. O passarinho, que não o largava, animou-o a continuar a viagem.",
+        "Sob o fogo do sol, cheio de sede e de fome, o Zé Desgraçado arrastou-se pela areia.",
+        "Dunas sobre dunas e mais dunas e dunas...",
+        "Até que chegou a um oásis. Como se estivesse à espera dele, um rancho de criados despojou-o dos farrapos, mergulhou-o numa tina de água perfumada e cobriu-o, depois, de ricas vestes. O vagabundo já não parecia o mesmo, embora continuasse com fome.",
+        "Os mesmos criados conduziram-no a uma grande tenda, onde estava uma bela senhora vestida de penas. Ela falou, a desejar-lhes as boas-vindas, e o Zé Desgraçado reconheceu a voz do pássaro que o conduzira.",
+        "Era viúva e única dona do oásis e da mina de ouro que nele havia.",
+        "Parece que estava tudo predestinado para que ali se realizasse um casamento, seguido de sumptuosa boda... Ao Zé Desgraçado convinha-lhe, tanto mais que continuava cheio de fome.",
+        "- Vais casar-te comigo - disse-lhe a senhora. - Mas imponho-te uma condição: nunca podes olhar para trás.",
+        "O vagabundo estava por tudo.",
+        "Desde que comesse qualquer coisinha...",
+        "Depois da cerimónia do casamento, estenderam as iguarias, sob a cúpula da tenda. Manjares deliciosos. Entre eles, um antílope e uma gazela.",
+        "Zé Desgraçado que ia a provar, de água na boca, um bocadinho de carne tostada, lembrou-se:",
+        "- No caminho para cá, encontrei um antílope e uma gazela, iguais a estes.",
+        "E apontou para trás. E olhou para trás.",
+        "Logo tudo se desvaneceu. Nem que fosse um sonho.",
+        "Zé Desgraçado voltou a encontrar-se no meio do mato, sozinho e cheio de fome."
       ]
     }
   ],
@@ -51,21 +79,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/25/html/3ea5qlbrpffuuqy3pj4wovw7liyhfrwr/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/11/25/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

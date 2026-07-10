@@ -1,0 +1,139 @@
+{
+  "id": "11-04",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "galo",
+          "distractors": [
+            "galinha",
+            "ovos",
+            "vezes"
+          ],
+          "sentence": "Era uma vez uma galinha que cantava de galo."
+        },
+        {
+          "target": "galinha",
+          "distractors": [
+            "galo",
+            "voltou",
+            "cantar"
+          ],
+          "sentence": "A galinha escusou-se à responsabilidade."
+        },
+        {
+          "target": "voltou",
+          "distractors": [
+            "galinha",
+            "cantar",
+            "cantava"
+          ],
+          "sentence": "Depois, esqueceu-se e, na primeira ocasião, voltou a cantar de galo."
+        },
+        {
+          "target": "cantar",
+          "distractors": [
+            "galinha",
+            "voltou",
+            "cantava"
+          ],
+          "sentence": "Tu continuas a cantar de galo e eu vou passar a pôr ovos – ameaçou o velho galo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "galo",
+          "syllables": [
+            "ga",
+            "lo"
+          ]
+        },
+        {
+          "word": "galinha",
+          "syllables": [
+            "ga",
+            "li",
+            "nha"
+          ]
+        },
+        {
+          "word": "voltou",
+          "syllables": [
+            "vol",
+            "tou"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "ganha",
+          "syllables": [
+            "ga",
+            "nha"
+          ]
+        },
+        {
+          "word": "liga",
+          "syllables": [
+            "li",
+            "ga"
+          ]
+        },
+        {
+          "word": "linha",
+          "syllables": [
+            "li",
+            "nha"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "galo",
+          "b": "galo"
+        },
+        {
+          "a": "galinha",
+          "b": "galinha"
+        },
+        {
+          "a": "voltou",
+          "b": "voltou"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/11/04/images/lnawywg7xn7ugh4gnfu63yqxu6abyj2j/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez uma galinha que cantava de galo.",
+        "Depois, esqueceu-se e, na primeira ocasião, voltou a cantar de galo.",
+        "Burro serei eu se suportar mais esta afronta.",
+        "Isto de pôr ovos e, ainda por cima, diante desta plateia de basbaques, não é para as minhas forças.",
+        "Isto é: uma vez por outra arremedava-lhe a voz, mas só para fazer rir as franganitas."
+      ]
+    }
+  ]
+}

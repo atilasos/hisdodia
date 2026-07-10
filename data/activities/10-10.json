@@ -1,0 +1,140 @@
+{
+  "id": "10-10",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "parede",
+          "distractors": [
+            "ouvidos",
+            "festa",
+            "música"
+          ],
+          "sentence": "Era uma vez uma parede que tinha ouvidos."
+        },
+        {
+          "target": "ouvidos",
+          "distractors": [
+            "parede",
+            "música",
+            "contar"
+          ],
+          "sentence": "Esta tinha ouvidos e até olhos, calculem."
+        },
+        {
+          "target": "festa",
+          "distractors": [
+            "parede",
+            "música",
+            "gente"
+          ],
+          "sentence": "Até que um dia, houve uma festa na aldeia, festa a valer, com foguetório, música na praça, artistas vindos de fora e bailarico até altas…"
+        },
+        {
+          "target": "música",
+          "distractors": [
+            "parede",
+            "ouvidos",
+            "festa"
+          ],
+          "sentence": "Embora a maioria da aldeia já soubesse, alguns estranharam o despropósito da notícia, a interromper a música."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "parede",
+          "syllables": [
+            "pa",
+            "re",
+            "de"
+          ]
+        },
+        {
+          "word": "ouvidos",
+          "syllables": [
+            "ou",
+            "vi",
+            "dos"
+          ]
+        },
+        {
+          "word": "festa",
+          "syllables": [
+            "fes",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dedos",
+          "syllables": [
+            "de",
+            "dos"
+          ]
+        },
+        {
+          "word": "ouvi",
+          "syllables": [
+            "ou",
+            "vi"
+          ]
+        },
+        {
+          "word": "pata",
+          "syllables": [
+            "pa",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "parede",
+          "b": "parede"
+        },
+        {
+          "a": "ouvidos",
+          "b": "ouvidos"
+        },
+        {
+          "a": "festa",
+          "b": "festa"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/10/images/y6ojy46uochknsyepankj4bp7ixwfg3q/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez uma parede que tinha ouvidos.",
+        "É uma parede fixe – diziam as pessoas, espalmando as mãos na parede que, já se vê, não dava de si.",
+        "O Armindo e a Arminda andam a namorar às escondidas.",
+        "Do cantor, que no palco esbracejava a sua irritação, também não era.",
+        "E, à cautela, quando voltou a haver festa na terra, nenhum altifalante coube à parede que sabia demais."
+      ]
+    }
+  ]
+}

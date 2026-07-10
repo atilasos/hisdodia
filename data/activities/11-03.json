@@ -1,0 +1,143 @@
+{
+  "id": "11-03",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "velha",
+          "distractors": [
+            "mundo",
+            "velhas",
+            "velhota"
+          ],
+          "sentence": "Era uma velha muito velha, muito velha, tão velha que não havia velha mais velha do que ela."
+        },
+        {
+          "target": "concurso",
+          "distractors": [
+            "televisão",
+            "velhota",
+            "cadeira"
+          ],
+          "sentence": "Um dia, estava a velha a ver televisão, num aparelho também muito velho, quando anunciaram que iam fazer um concurso para proclamar a…"
+        },
+        {
+          "target": "televisão",
+          "distractors": [
+            "concurso",
+            "aparelho",
+            "concorrer"
+          ],
+          "sentence": "Dias depois, começaram a desfilar, na televisão, velhas e mais velhas, algumas apoiadas a bengalas, outras ajudadas pelos bisnetos."
+        },
+        {
+          "target": "mundo",
+          "distractors": [
+            "velha",
+            "velhas",
+            "rodas"
+          ],
+          "sentence": "Todas as velhas do mundo podiam concorrer."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "velha",
+          "syllables": [
+            "ve",
+            "lha"
+          ]
+        },
+        {
+          "word": "concurso",
+          "syllables": [
+            "con",
+            "cur",
+            "so"
+          ]
+        },
+        {
+          "word": "televisão",
+          "syllables": [
+            "te",
+            "le",
+            "vi",
+            "são"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "conte",
+          "syllables": [
+            "con",
+            "te"
+          ]
+        },
+        {
+          "word": "conteve",
+          "syllables": [
+            "con",
+            "te",
+            "ve"
+          ]
+        },
+        {
+          "word": "convite",
+          "syllables": [
+            "con",
+            "vi",
+            "te"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "velha",
+          "b": "velha"
+        },
+        {
+          "a": "concurso",
+          "b": "concurso"
+        },
+        {
+          "a": "televisão",
+          "b": "televisão"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/11/03/images/fcrcmusoioemqezvjlth5rjaoa2wy7ue/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma velha muito velha, muito velha, tão velha que não havia velha mais velha do que ela.",
+        "Olha para aquela, que podia ser minha filha...",
+        "O azar foi que o táxi em que se meteu se enfiou por uma rua com muito trânsito e, quando a velha chegou, já o concurso tinha acabado.",
+        "Mirita, tu sabes que não és a mais velha.",
+        "Mas de nada lhe valeu o ar de menina que cometeu uma maldade, porque a velha muito velha, ali, sem mais nem menos, diante de toda aquela…"
+      ]
+    }
+  ]
+}

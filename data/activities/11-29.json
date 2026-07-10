@@ -1,0 +1,131 @@
+{
+  "id": "11-29",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhor",
+          "distractors": [
+            "gente",
+            "porta",
+            "gritava"
+          ],
+          "sentence": "Tinha poiso no restaurante do senhor Albano, um modesto restaurante do bairro, sem nada de especial, salvo o papagaio."
+        },
+        {
+          "target": "gente",
+          "distractors": [
+            "senhor",
+            "porta",
+            "dono"
+          ],
+          "sentence": "Eu te dou a gente, papagaio de uma figa torta."
+        },
+        {
+          "target": "porta",
+          "distractors": [
+            "senhor",
+            "gente",
+            "dono"
+          ],
+          "sentence": "Ele próprio foi ter à porta da casa-de-banho."
+        },
+        {
+          "target": "dono",
+          "distractors": [
+            "gente",
+            "porta",
+            "conta"
+          ],
+          "sentence": "Albano foi engano - e largava uma risada daquelas amalandradas, de rebentar com os nervos a um santo, quanto mais a um Albano, dono de…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "gente",
+          "syllables": [
+            "gen",
+            "te"
+          ]
+        },
+        {
+          "word": "porta",
+          "syllables": [
+            "por",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "porte",
+          "syllables": [
+            "por",
+            "te"
+          ]
+        },
+        {
+          "word": "sete",
+          "syllables": [
+            "se",
+            "te"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "gente",
+          "b": "gente"
+        },
+        {
+          "a": "porta",
+          "b": "porta"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/11/29/images/lly7ptmzp4klzphq3tlqkqmky7pusa7n/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Tinha poiso no restaurante do senhor Albano, um modesto restaurante do bairro, sem nada de especial, salvo o papagaio.",
+        "Esperou o mais que pôde e mais não podendo foi dar conta da sua necessidade noutro sítio.",
+        "Alguém com precisão inadiável e a porta da casa-de-banho fechada.",
+        "O papagaio, que a tudo assistira, escondido atrás de umas pipas, riu que se fartou.",
+        "Fora estes arrufos, davam-se os dois muito bem."
+      ]
+    }
+  ]
+}

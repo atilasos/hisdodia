@@ -9,9 +9,35 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "O leopardo e o leão combinaram ir à caça juntos.",
+        "Que susto para o resto da bicharia! Se cada um deles por si só já fazia muito estrago, o que seria com os dois, em aliança?",
+        "– Aliança de pouca dura – garantiu o urso, que tinha fama de urso sábio.",
+        "Mas, até ver, os bichos mais indefesos tomaram as suas precauções. Esconderam-se nas suas tocas os que as tinham, abrigaram-se onde puderam os que não tinham casa sua. Todos muito quietinhos.",
+        "Mas um zebu imprudente perdeu-se do resto da manada e, sem saber como, viu-se cercado pelo leopardo e pelo leão. Patada de um, patada de outro, e o zebu ficou pronto para o almoço dos dois carniceiros.",
+        "– Esta primeira caça pertence-me – sentenciou o leão.",
+        "Claro que o leopardo não estava de acordo:"
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "– E com que direito, se os dois caçámos o zebu? Tanto é seu como meu. Podemos comê-lo a meias.",
+        "– Alto lá! – disse o leão. – Nós combinámos caçar juntos. Não combinámos comer juntos.",
+        "– Ora essa! – protestou o leopardo. – Para mim é a mesma coisa, mas se faz diferença, porque é que há-de ser o leão o primeiro a comer?",
+        "– Porque eu estou habituado a uma primeira refeição de mais substância e só um zebu inteiro me matará a fome – rugiu o leão.",
+        "– E eu fico a vê-lo refastelar-se com o que nós dois caçámos? – opôs-se o leopardo. – Isso é que era bom!",
+        "– Bem bom – anuiu o leão, já de boca cheia.",
+        "O leopardo arrancou-lhe a febra da boca.",
+        "– Largue o que me pertence. Isto não fica assim.",
+        "Bulharam. Lutaram. Rebolaram no chão, qual de cima qual de baixo, ferozes como mais nenhuns.",
+        "Aproveitando a confusão da luta, um bando de chacais, a rirem-se da velhacaria, roubaram-lhes a presa.",
+        "Quando o leopardo e o leão deram pela ladroeira já era tarde.",
+        "Resultado: nunca mais quiseram caçar juntos.",
+        "– Tal como eu calculava - disse o urso sábio, que gostava sempre de tirar uma lição destas histórias de bichos. – Dois aliados de tamanha força, mais tarde ou mais cedo zangam-se. Nestas ocasiões, os mais fracos é que aproveitam.",
+        "A restante bicharada concordou, com um longo suspiro de alívio.",
+        "FIM"
       ]
     }
   ],
@@ -31,21 +57,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/18/html/y5eaget4nnu4k7gn7yjznoawci2ucqec/historia.aspx",
     "printPdf": "/recovered/0000/10/18/pdf/jifxf24m3fypw2m65wj673krsvstrpna/imprimir.pdf",
     "archiveDay": "/recovered/0000/10/18/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

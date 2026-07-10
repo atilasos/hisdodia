@@ -1,0 +1,140 @@
+{
+  "id": "10-24",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "ferradura",
+          "distractors": [
+            "sobretudo",
+            "trabalhos",
+            "automóvel"
+          ],
+          "sentence": "O que sei é que o peso da ferradura rompeu o bolso do sobretudo."
+        },
+        {
+          "target": "senhor",
+          "distractors": [
+            "sorte",
+            "sobretudo",
+            "mulher"
+          ],
+          "sentence": "Um senhor encontrou-a, levantou-a do chão e meteu-a no bolso do sobretudo."
+        },
+        {
+          "target": "sorte",
+          "distractors": [
+            "senhor",
+            "sobretudo",
+            "mulher"
+          ],
+          "sentence": "É para dar sorte – disse o senhor de si para si, muito convencido do que dizia."
+        },
+        {
+          "target": "sobretudo",
+          "distractors": [
+            "ferradura",
+            "senhor",
+            "sorte"
+          ],
+          "sentence": "Quando chegou a casa e a mulher foi pendurar o sobretudo no cabide é que foram elas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "ferradura",
+          "syllables": [
+            "fer",
+            "ra",
+            "du",
+            "ra"
+          ]
+        },
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "sorte",
+          "syllables": [
+            "sor",
+            "te"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dura",
+          "syllables": [
+            "du",
+            "ra"
+          ]
+        },
+        {
+          "word": "rara",
+          "syllables": [
+            "ra",
+            "ra"
+          ]
+        },
+        {
+          "word": "sete",
+          "syllables": [
+            "se",
+            "te"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "ferradura",
+          "b": "ferradura"
+        },
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "sorte",
+          "b": "sorte"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/24/images/xsb2ws7hbgd4ugti6kwgjvpiwbp7whfv/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Um senhor encontrou-a, levantou-a do chão e meteu-a no bolso do sobretudo.",
+        "Tens o sobretudo tão pesado, homem - intrigou-se ela.",
+        "A ferradura tinha caído e entalara-se em cunha na porta, impedindo-a de abrir-se.",
+        "Estava desiludido com a ferradura que só o metera em trabalhos.",
+        "O senhor, que achara a ferradura, teve de pedir muitas desculpas e pagar uma indemnização, para que o caso ficasse por ali."
+      ]
+    }
+  ]
+}

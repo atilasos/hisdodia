@@ -1,0 +1,141 @@
+{
+  "id": "10-25",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "crocodilo",
+          "distractors": [
+            "dentista",
+            "cidade",
+            "deixavam"
+          ],
+          "sentence": "O crocodilo estava com uma grande dor de dentes."
+        },
+        {
+          "target": "dentes",
+          "distractors": [
+            "dente",
+            "dentista",
+            "selva"
+          ],
+          "sentence": "Saltitando entre os dentes do crocodilo, como sobre um teclado de piano, o passarinho deu com o dente furado."
+        },
+        {
+          "target": "boca",
+          "distractors": [
+            "dente",
+            "selva",
+            "molar"
+          ],
+          "sentence": "Abre bem a boca – disse ele ao crocodilo."
+        },
+        {
+          "target": "dente",
+          "distractors": [
+            "dentes",
+            "boca",
+            "dentista"
+          ],
+          "sentence": "O dente que dói é incisivo, canino ou molar?"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "crocodilo",
+          "syllables": [
+            "cro",
+            "co",
+            "di",
+            "lo"
+          ]
+        },
+        {
+          "word": "dentes",
+          "syllables": [
+            "den",
+            "tes"
+          ]
+        },
+        {
+          "word": "boca",
+          "syllables": [
+            "bo",
+            "ca"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "bolo",
+          "syllables": [
+            "bo",
+            "lo"
+          ]
+        },
+        {
+          "word": "cabo",
+          "syllables": [
+            "ca",
+            "bo"
+          ]
+        },
+        {
+          "word": "cadentes",
+          "syllables": [
+            "ca",
+            "den",
+            "tes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "crocodilo",
+          "b": "crocodilo"
+        },
+        {
+          "a": "dentes",
+          "b": "dentes"
+        },
+        {
+          "a": "boca",
+          "b": "boca"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/25/images/f5jv5jow7r7cvuceykvyrdimgd2tkcv5/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O crocodilo estava com uma grande dor de dentes.",
+        "Muito se admirou o crocodilo com a ciência do passarinho.",
+        "Com muita eficiência, o passarinho brocou, limpou e tapou o buraco do dente magoado.",
+        "Lágrimas de crocodilo – piaram os passarinhos em bando.",
+        "Ganham os crocodilos e ganham os passarinhos."
+      ]
+    }
+  ]
+}

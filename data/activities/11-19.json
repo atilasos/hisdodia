@@ -1,0 +1,134 @@
+{
+  "id": "11-19",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "amigo",
+          "distractors": [
+            "ombro",
+            "arredonda",
+            "pinta"
+          ],
+          "sentence": "Maravilhosamente - respondeu o meu amigo."
+        },
+        {
+          "target": "sobrinha",
+          "distractors": [
+            "pintora",
+            "arredonda",
+            "cinzento"
+          ],
+          "sentence": "O atelier da sobrinha do meu amigo parecia uma enorme gaiola."
+        },
+        {
+          "target": "pintora",
+          "distractors": [
+            "sobrinha",
+            "cinzento",
+            "pinta"
+          ],
+          "sentence": "A pintora não estava, mas o meu amigo, que tinha a chave do atelier, movia-se naquele recorte de selva tropical com o à-vontade de um…"
+        },
+        {
+          "target": "ombro",
+          "distractors": [
+            "amigo",
+            "pinta",
+            "cores"
+          ],
+          "sentence": "Entrementes, um papagaio com as cores da bandeira nacional simpatizou comigo, poisou-me no ombro e pôs-se-me a coçar ternamente a cabeça."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "amigo",
+          "syllables": [
+            "a",
+            "mi",
+            "go"
+          ]
+        },
+        {
+          "word": "sobrinha",
+          "syllables": [
+            "so",
+            "bri",
+            "nha"
+          ]
+        },
+        {
+          "word": "pintora",
+          "syllables": [
+            "pin",
+            "to",
+            "ra"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "abrigo",
+          "syllables": [
+            "a",
+            "bri",
+            "go"
+          ]
+        },
+        {
+          "word": "abrira",
+          "syllables": [
+            "a",
+            "bri",
+            "ra"
+          ]
+        },
+        {
+          "word": "agora",
+          "syllables": [
+            "a",
+            "go",
+            "ra"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "amigo",
+          "b": "amigo"
+        },
+        {
+          "a": "sobrinha",
+          "b": "sobrinha"
+        },
+        {
+          "a": "pintora",
+          "b": "pintora"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Maravilhosamente - respondeu o meu amigo.",
+        "Entrementes, um papagaio com as cores da bandeira nacional simpatizou comigo, poisou-me no ombro e pôs-se-me a coçar ternamente a cabeça.",
+        "E, como se não bastasse, o papagaio cantarolava, incansavelmente: \"Ó Rosa arredonda a saia\".",
+        "Passados uns minutos, um bicharoco encharcado e cinzento, cor de rato, fincou-me as patas nos ombros.",
+        "Em conclusão: fiquei dono de um papagaio cinzento, que ninguém percebe por que bizarria ou tolice é que eu o trato por Arco-Íris."
+      ]
+    }
+  ]
+}

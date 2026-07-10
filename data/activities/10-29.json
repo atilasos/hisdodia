@@ -1,0 +1,131 @@
+{
+  "id": "10-29",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "burro",
+          "distractors": [
+            "dono",
+            "homem",
+            "casa"
+          ],
+          "sentence": "Era uma vez um burro de trabalho, daqueles que carregam o dobro do seu peso, de casa para o mercado e do mercado para casa."
+        },
+        {
+          "target": "dono",
+          "distractors": [
+            "burro",
+            "homem",
+            "casa"
+          ],
+          "sentence": "E mais se sentia quando reparava que o dono era só mimos e afagos para os cachorrinhos que a cadela da quinta dera à luz."
+        },
+        {
+          "target": "homem",
+          "distractors": [
+            "burro",
+            "dono",
+            "casa"
+          ],
+          "sentence": "Os cachorros mordiscavam a bainha das calças do homem e ele ria."
+        },
+        {
+          "target": "festa",
+          "distractors": [
+            "burro",
+            "dono",
+            "homem"
+          ],
+          "sentence": "Nem uma festa nas orelhas, que lhe sacudisse as moscas, nem uma palavra de reconhecimento, ao fim de um dia de canseiras."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "burro",
+          "syllables": [
+            "bur",
+            "ro"
+          ]
+        },
+        {
+          "word": "dono",
+          "syllables": [
+            "do",
+            "no"
+          ]
+        },
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cano",
+          "syllables": [
+            "ca",
+            "no"
+          ]
+        },
+        {
+          "word": "caro",
+          "syllables": [
+            "ca",
+            "ro"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "burro",
+          "b": "burro"
+        },
+        {
+          "a": "dono",
+          "b": "dono"
+        },
+        {
+          "a": "homem",
+          "b": "homem"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/29/images/ndefioap46vkgsz72qqxc7x3remdf4db/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um burro de trabalho, daqueles que carregam o dobro do seu peso, de casa para o mercado e do mercado para casa.",
+        "Achava-se, como se compreende, digno de maior apreço.",
+        "Se quero receber alguma festa ou prova de simpatia do meu dono, estou a ver que tenho de proceder da mesma maneira - continuou a penar o…",
+        "O burro zurrava, abanando a cauda e dando saltinhos, à roda do dono.",
+        "Nem todas as histórias podem acabar bem."
+      ]
+    }
+  ]
+}

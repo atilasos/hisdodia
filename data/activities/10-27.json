@@ -1,0 +1,135 @@
+{
+  "id": "10-27",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "automóvel",
+          "distractors": [
+            "descansar",
+            "protestou",
+            "protesto"
+          ],
+          "sentence": "Era um automóvel que trabalhava todos os dias."
+        },
+        {
+          "target": "dono",
+          "distractors": [
+            "carro",
+            "tempo",
+            "descansar"
+          ],
+          "sentence": "Acordava ou acordavam-no de manhã cedo e lá ia ele com o dono para o trabalho."
+        },
+        {
+          "target": "carro",
+          "distractors": [
+            "dono",
+            "tempo",
+            "motor"
+          ],
+          "sentence": "Tão exasperado ficou o dono que resolveu trocar de carro."
+        },
+        {
+          "target": "senhora",
+          "distractors": [
+            "protesto",
+            "resolveu",
+            "vendedor"
+          ],
+          "sentence": "É só para dar de vez em quando uns passeios, visitar os filhos, os netos – explicou a senhora."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "automóvel",
+          "syllables": [
+            "au",
+            "to",
+            "mó",
+            "vel"
+          ]
+        },
+        {
+          "word": "dono",
+          "syllables": [
+            "do",
+            "no"
+          ]
+        },
+        {
+          "word": "carro",
+          "syllables": [
+            "car",
+            "ro"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "autocarro",
+          "syllables": [
+            "au",
+            "to",
+            "car",
+            "ro"
+          ]
+        },
+        {
+          "word": "tocar",
+          "syllables": [
+            "to",
+            "car"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "automóvel",
+          "b": "automóvel"
+        },
+        {
+          "a": "dono",
+          "b": "dono"
+        },
+        {
+          "a": "carro",
+          "b": "carro"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/27/images/g5f4ffobobdzujifig7dtootaxynwivk/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era um automóvel que trabalhava todos os dias.",
+        "Aos fins-de-semana, o dono do automóvel levava a família a passear.",
+        "Disse mais coisas, mas nós não contamos…",
+        "Mas as prolongadas férias acabaram por pesar-lhe.",
+        "Teve sorte ou melhor, ambos tiveram sorte, porque o automóvel ainda dá muito boa conta do recado."
+      ]
+    }
+  ]
+}

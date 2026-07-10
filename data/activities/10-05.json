@@ -1,0 +1,164 @@
+{
+  "id": "10-05",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "sultão",
+          "distractors": [
+            "calava",
+            "pernas",
+            "vinham"
+          ],
+          "sentence": "Sentado em almofadas, bem instalado, de pernas cruzadas, o sultão bonacheirão ouvia, sorria e calava."
+        },
+        {
+          "target": "calava",
+          "distractors": [
+            "sultão",
+            "pernas",
+            "cruzadas"
+          ],
+          "sentence": "Vinham ministros falar-lhe das arcas dos tesouros do reino quase vazias, e o sultão bonacheirão ouvia, sorria e calava."
+        },
+        {
+          "target": "almofadas",
+          "distractors": [
+            "cruzadas",
+            "ministros",
+            "generais"
+          ],
+          "sentence": "Ficou o sultão sozinho, sentado em almofadas, de pernas cruzadas, sorrindo, sorrindo sempre."
+        },
+        {
+          "target": "pernas",
+          "distractors": [
+            "sultão",
+            "calava",
+            "vinham"
+          ],
+          "sentence": "A estas horas ainda deve estar no palácio, de pernas cruzadas sobre uma montanha de almofadas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "sultão",
+          "syllables": [
+            "sul",
+            "tão"
+          ]
+        },
+        {
+          "word": "calava",
+          "syllables": [
+            "ca",
+            "la",
+            "va"
+          ]
+        },
+        {
+          "word": "almofadas",
+          "syllables": [
+            "al",
+            "mo",
+            "fa",
+            "das"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "alva",
+          "syllables": [
+            "al",
+            "va"
+          ]
+        },
+        {
+          "word": "cala",
+          "syllables": [
+            "ca",
+            "la"
+          ]
+        },
+        {
+          "word": "caladas",
+          "syllables": [
+            "ca",
+            "la",
+            "das"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "sultão",
+          "b": "sultão"
+        },
+        {
+          "a": "calava",
+          "b": "calava"
+        },
+        {
+          "a": "almofadas",
+          "b": "almofadas"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "bonacheirão",
+          "b": "Bondoso / simples / ingénuo."
+        },
+        {
+          "a": "iminência",
+          "b": "Que pode acontecer a qualquer momento / proximidade."
+        },
+        {
+          "a": "cortesãos",
+          "b": "Homens da corte."
+        },
+        {
+          "a": "enfarruscou",
+          "b": "Sujou de foligem ou carvão."
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/05/images/lrg7s5witttge5zihlxqav7uajhl3exz/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Sentado em almofadas, bem instalado, de pernas cruzadas, o sultão bonacheirão ouvia, sorria e calava.",
+        "Tanto sorria e tanto calava que os ministros, os generais e os mensageiros desistiram de lhe falar.",
+        "As aranhas já fecharam com as suas teias as portas do palácio.",
+        "Foi atrás das formigas e enfiou por um subterrâneo do palácio, onde se enfarruscou todo, a ponto de, uma vez cá fora, ninguém o…",
+        "Desta vez o sultão bonacheirão, vendo-os ir em direcção ao palácio, ouvi-os, sorriu e calou-se."
+      ]
+    }
+  ]
+}

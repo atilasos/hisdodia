@@ -75,6 +75,14 @@
       ],
       "recombine": [
         {
+          "word": "convida",
+          "syllables": [
+            "con",
+            "vi",
+            "da"
+          ]
+        },
+        {
           "word": "corda",
           "syllables": [
             "cor",
@@ -86,13 +94,6 @@
           "syllables": [
             "da",
             "do"
-          ]
-        },
-        {
-          "word": "vida",
-          "syllables": [
-            "vi",
-            "da"
           ]
         }
       ]

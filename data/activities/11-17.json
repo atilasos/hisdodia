@@ -1,0 +1,140 @@
+{
+  "id": "11-17",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "bolacha",
+          "distractors": [
+            "pacote",
+            "chegava",
+            "respeito"
+          ],
+          "sentence": "Era uma vez uma bolacha Maria que disse que Maria, só Maria, não chegava."
+        },
+        {
+          "target": "pacote",
+          "distractors": [
+            "bolacha",
+            "ficou",
+            "chegava"
+          ],
+          "sentence": "As outras companheiras do pacote fizeram-lhe a vontade."
+        },
+        {
+          "target": "ficou",
+          "distractors": [
+            "pacote",
+            "começa",
+            "nunca"
+          ],
+          "sentence": "Ficou a aguardar novo acesso de apetite de quem, daquela vez, já estava de barriga cheia."
+        },
+        {
+          "target": "respeito",
+          "distractors": [
+            "bolacha",
+            "chegava",
+            "vontade"
+          ],
+          "sentence": "Bolacha Dona Maria Emília, com todo o respeito."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "bolacha",
+          "syllables": [
+            "bo",
+            "la",
+            "cha"
+          ]
+        },
+        {
+          "word": "pacote",
+          "syllables": [
+            "pa",
+            "co",
+            "te"
+          ]
+        },
+        {
+          "word": "ficou",
+          "syllables": [
+            "fi",
+            "cou"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "bola",
+          "syllables": [
+            "bo",
+            "la"
+          ]
+        },
+        {
+          "word": "bote",
+          "syllables": [
+            "bo",
+            "te"
+          ]
+        },
+        {
+          "word": "chapa",
+          "syllables": [
+            "cha",
+            "pa"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "bolacha",
+          "b": "bolacha"
+        },
+        {
+          "a": "pacote",
+          "b": "pacote"
+        },
+        {
+          "a": "ficou",
+          "b": "ficou"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/11/17/images/yjd7c7b5ycfcfygv7hiabglg3wuvin4x/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez uma bolacha Maria que disse que Maria, só Maria, não chegava.",
+        "Pensando melhor, não dispenso os apelidos.",
+        "Uma bolacha Dona Maria Emília de Melo e Sousa Trigo de Reboredo Farinha.",
+        "A Maria que não ia com a outras, por sinal a última do pacote, não seguiu o caminho das demais.",
+        "Esta história é pequenina e sabe a pouco?"
+      ]
+    }
+  ]
+}

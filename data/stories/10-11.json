@@ -9,9 +9,38 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "O boi regressava do trabalho, ao entardecer. Vinha muito cansado. Por caminhos torcidos e pedregosos puxara, o dia todo, um carro de bois, que, bem vistas as coisas, devia antes chamar-se carro de boi, porque ele, sozinho, fazia as vezes de uma junta de bois, dos mais possantes.",
+        "Estava mesmo exausto.",
+        "A caminho do estábulo, já apaladava, na imaginação, a saborosa ceia de feno, que o aguardava na manjedoira. Merecida.",
+        "Entrou no estábulo e o que viu? O cão da quinta, deitado no fofo do feno.",
+        "- Tenha muito boas noites - disse o boi, que era muito manso e bem-educado.",
+        "- Podia fazer o favor de sair de cima da minha manjedoira?",
+        "- Não. Não - ladrou o cão.",
+        "O boi, cheio de paciência, insistiu:",
+        "- Estou com muita fome, mas prometo-lhe que, depois de comer, ainda lhe deixo feno suficiente para a sua cama.",
+        "Agora, agradeço-lhe que me desampare a manjedoira.",
+        "- Não. Não - ladrou o cão.",
+        "- Admito que esteja a incomodá-lo, mas será por pouco tempo. Com a fome que trago, garanto-lhe que como o feno num instante. Podia afastar-se por um bocadinho?",
+        "- Não. Não - ladrou o cão.",
+        "- Eu entenderia a sua má disposição se o soubesse apreciador de feno. Mas se para si não serve, senão como cama, porque me proíbe de comer? Ou quer provar também do meu jantar?",
+        "- Não. Não - ladrou o cão.",
+        "Era malhar em ferro frio.",
+        "O cão não saía da sua, não se convencia com boas palavras. Que outros argumentos podia o boi utilizar?",
+        "Vamos lá ver. Só há duas saídas para esta história.",
+        "Numa, o boi manso desiste da ceia e passa a noite roído de fome.",
+        "No dia seguinte, voltará a trabalhar, em estado de fraqueza e tão debilitado que não conseguirá puxar o carro, como o dono lhe exige. Um boi sem préstimo é um boi condenado ao matadouro. Um triste fim, portanto.",
+        "Noutra hipótese, o boi manso lembra-se de que tem em comum com os bois bravos os chifres pontiagudos, que servem de defesa e de ataque. Uma marrada de boi é um caso sério.",
+        "Qual dos dois fins vamos escolher?",
+        "Tu é que decides. Tu é que mandas.",
+        "Já decidiste?",
+        "Pois foi assim mesmo, tal como determinaste. Uma resolução muito acertada.",
+        "Contar mais, para quê? O que se passou dentro do estábulo nem se descreve. Tudo muito rápido.",
+        "Está, agora, um cão a ganir às estrelas:",
+        "- Caim! Caim! Boi ruim!",
+        "Caim! Caim!",
+        "Porque será?"
       ]
     }
   ],
@@ -36,21 +65,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/11/html/uheecwxlqscszt3i2zpzjbrfnq4s5htv/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/10/11/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

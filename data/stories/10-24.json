@@ -9,9 +9,37 @@
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era uma vez uma velha ferradura.",
+        "Um senhor encontrou-a, levantou-a do chão e meteu-a no bolso do sobretudo.",
+        "– É para dar sorte – disse o senhor de si para si, muito convencido do que dizia.",
+        "Quando chegou a casa e a mulher foi pendurar o sobretudo no cabide é que foram elas.",
+        "– Tens o sobretudo tão pesado, homem - intrigou-se ela.",
+        "O senhor explicou o porquê:",
+        "– É para dar sorte.",
+        "– Se dá sorte, não sei – repontou a ela. – O que sei é que o peso da ferradura rompeu o bolso do sobretudo. Tirá-la de dentro do forro vai ser o cabo dos trabalhos.",
+        "O senhor, pacientemente, recuperou a ferradura do sobretudo, que foi para coser, e pendurou-a num prego atrás da porta."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "– É para dar sorte.",
+        "No dia seguinte, ia ele a entrar em casa com a mulher, e a porta não se abriu. Porque seria, porque não seria… Tiveram de entrar em casa, a muito custo, por uma janela.",
+        "A ferradura tinha caído e entalara-se em cunha na porta, impedindo-a de abrir-se.",
+        "– Estou a ver que a ferradura só dá trabalhos – comentou a mulher.",
+        "O senhor não ligou e foi meter a ferradura numa gaveta:",
+        "– É para dar sorte.",
+        "Passado tempo, a mulher veio mostrar-lhe umas camisas todas manchadas:",
+        "– Puseste a maldita da ferradura na gaveta, encheu-se de ferrugem e deu cabo destas camisas. As melhores que tinhas…",
+        "Então o senhor aborreceu-se. Estava desiludido com a ferradura que só o metera em trabalhos.",
+        "– Vou desfazer-me do raio da ferradura. Para dar sorte… – e atirou-a pela janela.",
+        "Por pouca sorte, a ferradura foi bater no capot de um automóvel que ia a passar. Pior seria se tivesse acertado em alguma cabeça. Mesmo assim amolgou o automóvel.",
+        "Veio o automobilista pedir explicações:",
+        "– Quem é a besta que anda a atirar os sapatos para o meio da rua?",
+        "O senhor, que achara a ferradura, teve de pedir muitas desculpas e pagar uma indemnização, para que o caso ficasse por ali. E para que a história acabasse aqui.",
+        "FIM"
       ]
     }
   ],
@@ -25,21 +53,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": "/recovered/0000/10/24/pdf/tabtaqu6wmununtpno5ghsgf6fvued77/imprimir.pdf",
     "archiveDay": "/recovered/0000/10/24/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

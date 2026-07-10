@@ -1,0 +1,132 @@
+{
+  "id": "11-30",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "sobretudo",
+          "distractors": [
+            "naftalina",
+            "senhores",
+            "guardado"
+          ],
+          "sentence": "Tinham ido parar ao meu sobretudo, guardado no Verão, para voltar a servir no Inverno."
+        },
+        {
+          "target": "traças",
+          "distractors": [
+            "lapela",
+            "talvez",
+            "maneira"
+          ],
+          "sentence": "As duas traças não me conheciam de parte alguma."
+        },
+        {
+          "target": "lapela",
+          "distractors": [
+            "traças",
+            "talvez",
+            "maneira"
+          ],
+          "sentence": "Logo na lapela, tão à vista de toda a gente."
+        },
+        {
+          "target": "talvez",
+          "distractors": [
+            "traças",
+            "lapela",
+            "maneira"
+          ],
+          "sentence": "Talvez estas traças estivessem constipadas ou a naftalina que eu tinha espalhado pelos bolsos do sobretudo fosse de má qualidade…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "sobretudo",
+          "syllables": [
+            "so",
+            "bre",
+            "tu",
+            "do"
+          ]
+        },
+        {
+          "word": "traças",
+          "syllables": [
+            "tra",
+            "ças"
+          ]
+        },
+        {
+          "word": "lapela",
+          "syllables": [
+            "la",
+            "pe",
+            "la"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "lado",
+          "syllables": [
+            "la",
+            "do"
+          ]
+        },
+        {
+          "word": "pelado",
+          "syllables": [
+            "pe",
+            "la",
+            "do"
+          ]
+        },
+        {
+          "word": "peso",
+          "syllables": [
+            "pe",
+            "so"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "sobretudo",
+          "b": "sobretudo"
+        },
+        {
+          "a": "traças",
+          "b": "traças"
+        },
+        {
+          "a": "lapela",
+          "b": "lapela"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Tinham ido parar ao meu sobretudo, guardado no Verão, para voltar a servir no Inverno.",
+        "Talvez estas traças estivessem constipadas ou a naftalina que eu tinha espalhado pelos bolsos do sobretudo fosse de má qualidade…",
+        "Devia haver uma maneira de avisar as traças a não roerem lapelas, golas e peitilhos de casacos e sobretudos.",
+        "Eu, neste Inverno, particularmente frio, tenho andado de sobretudo, o azul-escuro de lã macia, o traçado…",
+        "Andas tão alegre, neste Inverno – comentam."
+      ]
+    }
+  ]
+}

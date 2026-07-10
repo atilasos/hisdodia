@@ -1,0 +1,138 @@
+{
+  "id": "11-09",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "charco",
+          "distractors": [
+            "falta",
+            "pequeno",
+            "nunca"
+          ],
+          "sentence": "Era uma vez uma rã que vivia num charco."
+        },
+        {
+          "target": "falta",
+          "distractors": [
+            "charco",
+            "água",
+            "nunca"
+          ],
+          "sentence": "Sentia a falta de outras rãs, para lhe fazerem companhia e coaxarem ao despique nas noites de Lua cheia."
+        },
+        {
+          "target": "pequeno",
+          "distractors": [
+            "charco",
+            "folgança",
+            "sozinha"
+          ],
+          "sentence": "Enfim, a rã deste pequeno charco sentia-se muito só."
+        },
+        {
+          "target": "água",
+          "distractors": [
+            "falta",
+            "nunca",
+            "noite"
+          ],
+          "sentence": "Sentia que os saltos que dava para dentro de água, à falta de espectadores, nem jeito nem graça tinham."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "charco",
+          "syllables": [
+            "char",
+            "co"
+          ]
+        },
+        {
+          "word": "falta",
+          "syllables": [
+            "fal",
+            "ta"
+          ]
+        },
+        {
+          "word": "lago",
+          "syllables": [
+            "la",
+            "go"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cola",
+          "syllables": [
+            "co",
+            "la"
+          ]
+        },
+        {
+          "word": "gola",
+          "syllables": [
+            "go",
+            "la"
+          ]
+        },
+        {
+          "word": "gota",
+          "syllables": [
+            "go",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "charco",
+          "b": "charco"
+        },
+        {
+          "a": "falta",
+          "b": "falta"
+        },
+        {
+          "a": "pequeno",
+          "b": "pequeno"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/11/09/images/nbkaraqdd4euodtfczrw6rarhdq63uy4/Imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez uma rã que vivia num charco.",
+        "Enfim, a rã deste pequeno charco sentia-se muito só.",
+        "Um dia, começou a chover que nunca mais parava.",
+        "Veio nos jornais e a televisão deu notícia.",
+        "Aqui entre nós e em segredo vos peço que nunca contem esta história a pessoas que tenham sofrido os efeitos trágicos de uma inundação."
+      ]
+    }
+  ]
+}

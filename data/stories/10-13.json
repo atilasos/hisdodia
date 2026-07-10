@@ -9,9 +9,38 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Eram três caçadores. Um vinha à frente, outro no meio e o terceiro atrás. Percorriam terras e terras à procura de caça. Que caçavam eles? Tudo o que lhes passasse diante do cano das espingardas. Tudo o que cheirasse a bicho.",
+        "Javalis, búfalos, panteras, tigres, elefantes, hipopótamos, crocodilos, hienas, lobos, lebres, coelhos, galinholas, perdizes, rolas, patos, pardais.",
+        "Mas pela região por onde se tinham metido, nada encontravam que se caçasse. Nem pulgas.",
+        "Dizia o primeiro caçador:",
+        "- Isto parece um deserto, colegas.",
+        "- Uma tristeza... Melhor seria desistirmos - dizia o segundo.",
+        "- Persistência, colegas! Onde está o vosso brio de caçadores? - perguntava o terceiro.",
+        "Eles não sabiam.",
+        "Só sabiam que andavam naquela teima, há muitas e muitas horas, com a sacola às costas, os cartuchos pendurados e a espingarda aos ombros.",
+        "- E se nós déssemos uns tiros para o ar? - propôs o primeiro caçador.",
+        "O segundo apoiou:",
+        "- Boa ideia, colega.",
+        "Sempre era uma forma de nos distrairmos.",
+        "O terceiro caçador cortou-lhes o entusiasmo:",
+        "- Não façam isso, que gastam cartuchos...",
+        "Os outros dois caçadores calaram-se. Tinham em muito respeito o terceiro caçador, o que vinha atrás de todos.",
+        "Andaram, andaram, até encontrarem à beira da estrada, muito sossegado, a ver quem passava, um coelhinho pequenino e inocente.",
+        "- Mata-se! - disseram os três ao mesmo tempo.",
+        "- Mas qual de nós? - perguntou um deles a medo.",
+        "- Eu.",
+        "- Eu.",
+        "- Eu.",
+        "Discutiram. Perderam o respeito uns pelos outros.",
+        "- Eu vi-o primeiro.",
+        "- Eu sou o chefe.",
+        "- Eu sou o mais velho.",
+        "Entretanto, o coelhinho pequenino e inocente desapareceu.",
+        "Onde está? Onde se meteu?",
+        "Olharam-se, desesperados, e como estavam furiosos, começaram a dar tiros para o ar, tiros ao desbarato. Pum! Pum! E mais Pum! Pum!",
+        "Quando tinham consumido o último cartucho, o coelhinho pequenino e inocente apareceu de novo, muito interessado em saber qual a razão de toda aquela barulheira."
       ]
     }
   ],
@@ -25,21 +54,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/13/html/7yijoq3lkgb5zpoeouzm5iv47oex5zhl/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/10/13/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

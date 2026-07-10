@@ -9,9 +9,18 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era uma vez um fósforo, um pau de fósforo - vejam bem que com tão pouco se começa uma história.",
+        "O pau de fósforo perdera a cabeça num fogaréu - história antiga, dolorosa, que nem convém lembrar - e estava ali, que nem para palito servia.",
+        "- Não presto para nada - suspirava, muito desconsoladamente, o pau de fósforo.",
+        "- Quem tal disse! - exclamou um senhor muito optimista, muito optimista, muito optimista.",
+        "- Você pode ser aproveitado, como obra de engenharia, para ajudar um carreiro de formigas a vencer um riacho... de formigas, já se vê.",
+        "- Que disparate! - contrapôs outro senhor, mas muito pessimista, muito pessimista, muito pessimista. - Passa um pé por perto e salta a ponte de pau e afogam-se as formigas... Uma desgraça!",
+        "O pau de fósforo, de cabeça perdida, não sabia por qual se guiar. Pelo optimista? Pelo pessimista? Valia a pena oferecer-se à aventura? Ai, quanto custa decidir!",
+        "Neste entretanto, passou a rasar por ele uma andorinha. Zás, em voo de reconhecimento... Passou outra vez, em sentido contrário e levou-o no bico.",
+        "Estava a construir o ninho num beiral de telhado e aquele pauzinho vinha mesmo a calhar, entrelaçado com outros paus e ramos.",
+        "Tudo se aproveita, até um pau de fósforo. Que ninguém diga que não serve para nada."
       ]
     }
   ],
@@ -31,21 +40,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/14/html/ialkyafdvxdjx37aevjsarc3bcpp7bvj/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/11/14/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

@@ -1,0 +1,144 @@
+{
+  "id": "11-18",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "mosca",
+          "distractors": [
+            "moscas",
+            "gorda",
+            "colega"
+          ],
+          "sentence": "Quando a viram dobrar uma esquina, voaram em sua perseguição, sem que a mosca gorda e bem parecida se apercebesse."
+        },
+        {
+          "target": "moscas",
+          "distractors": [
+            "mosca",
+            "gorda",
+            "colega"
+          ],
+          "sentence": "Estou com a fome de um enxame de moscas."
+        },
+        {
+          "target": "gorda",
+          "distractors": [
+            "mosca",
+            "moscas",
+            "colega"
+          ],
+          "sentence": "A outra, a mosca gorda e bem parecida, má camarada, pouco amiga de partilhas, ficou sozinha a remorder vingança."
+        },
+        {
+          "target": "colega",
+          "distractors": [
+            "mosca",
+            "moscas",
+            "gorda"
+          ],
+          "sentence": "Por onde é que se tem governado a colega?"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "mosca",
+          "syllables": [
+            "mos",
+            "ca"
+          ]
+        },
+        {
+          "word": "moscas",
+          "syllables": [
+            "mos",
+            "cas"
+          ]
+        },
+        {
+          "word": "colega",
+          "syllables": [
+            "co",
+            "le",
+            "ga"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "casca",
+          "syllables": [
+            "cas",
+            "ca"
+          ]
+        },
+        {
+          "word": "lemos",
+          "syllables": [
+            "le",
+            "mos"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "mosca",
+          "b": "mosca"
+        },
+        {
+          "a": "moscas",
+          "b": "moscas"
+        },
+        {
+          "a": "gorda",
+          "b": "gorda"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "refastela",
+          "b": "delicia"
+        },
+        {
+          "a": "banqueteado",
+          "b": "tratado à grande"
+        },
+        {
+          "a": "remorder",
+          "b": "cismar"
+        },
+        {
+          "a": "fedúncias",
+          "b": "pretensiosas / tolas"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Toda a comida guardada em frigoríficos e armários, trancada a sete chaves.",
+        "Aterraram perigosamente na borda do pires.",
+        "No dia seguinte foi ela a primeira a chegar ao pátio, onde a D.",
+        "Não queria partilhar connosco, morreu do seu mau carácter.",
+        "Bem, bem, vamos beber depressa o nosso leite, antes que venha o gato, ou alguma mosca esfomeada e invejosa da felicidade das outras…"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "10-07",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "caracóis",
+          "distractors": [
+            "corrida",
+            "caracol",
+            "galinha"
+          ],
+          "sentence": "Li, há tempos, num jornal, que ia disputar-se, em Inglaterra, a primeira corrida internacional de caracóis."
+        },
+        {
+          "target": "corrida",
+          "distractors": [
+            "caracóis",
+            "caracol",
+            "galinha"
+          ],
+          "sentence": "Então vocês não sentem vontade de ir a Inglaterra, para ganhar a corrida e mostrar ao mundo o que valem os caracóis portugueses?"
+        },
+        {
+          "target": "horta",
+          "distractors": [
+            "setas",
+            "fiquei",
+            "saber"
+          ],
+          "sentence": "Fiquei todo entusiasmado e fui logo à minha horta contar a notícia aos caracóis que lá tenho."
+        },
+        {
+          "target": "caracol",
+          "distractors": [
+            "caracóis",
+            "corrida",
+            "galinha"
+          ],
+          "sentence": "Mas, afinal, o júri lá de Inglaterra eliminou-os e deu o trofeu da vitória a um caracol inglês, o 11º da corrida, com a desculpa de que…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "caracóis",
+          "syllables": [
+            "ca",
+            "ra",
+            "cóis"
+          ]
+        },
+        {
+          "word": "corrida",
+          "syllables": [
+            "cor",
+            "ri",
+            "da"
+          ]
+        },
+        {
+          "word": "horta",
+          "syllables": [
+            "hor",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cara",
+          "syllables": [
+            "ca",
+            "ra"
+          ]
+        },
+        {
+          "word": "cata",
+          "syllables": [
+            "ca",
+            "ta"
+          ]
+        },
+        {
+          "word": "corda",
+          "syllables": [
+            "cor",
+            "da"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "caracóis",
+          "b": "caracóis"
+        },
+        {
+          "a": "corrida",
+          "b": "corrida"
+        },
+        {
+          "a": "horta",
+          "b": "horta"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/07/images/qxqt3svsbyvixy3otqafnrazp2n6wgzk/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Li, há tempos, num jornal, que ia disputar-se, em Inglaterra, a primeira corrida internacional de caracóis.",
+        "Expliquei que iríamos, concorrentes e eu (o treinador, claro!",
+        "Que nem setas talvez seja exagero - comentei, tentando sorrir.",
+        "Os dez primeiros lugares preenchidos por caracóis portugueses.",
+        "Bendita couve portuguesa que têm comido!"
+      ]
+    }
+  ]
+}

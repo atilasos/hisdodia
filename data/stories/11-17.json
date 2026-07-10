@@ -9,9 +9,30 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era uma vez uma bolacha Maria que disse que Maria, só Maria, não chegava.",
+        "Queria ser, ao menos, Maria Emília. Bolacha Dona Maria Emília, com todo o respeito.",
+        "As outras companheiras do pacote fizeram-lhe a vontade. Mas, quando uma bolacha Maria começa com exigências, oh! oh! Nunca mais pára…",
+        "– Pensando melhor, não dispenso os apelidos. Quero passar a ser tratada por Dona Maria Emília de Melo e Sousa Trigo de Reboredo Farinha.",
+        "Um nome tão comprido e retorcido não é fácil de decorar. Algumas das simplesmente Maria chamavam-na de Maria de Trigo Melo e Sousa não sei quê Farinha. Outras, de Maria Reboredo Farinha de Melo Trigo de Sousa Emília. E as mais esquecidas, apenas de Maria Farinha de Trigo, o que a punha fula."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "– Distingam-me. Separem-me. Marquem a diferença. Eu sou uma bolacha especial. Uma bolacha Dona Maria Emília de Melo e Sousa Trigo de Reboredo Farinha.",
+        "– Tá bem – diziam as outras, que não eram de despiques.",
+        "Alguém abriu o pacote e começou a provar daquelas bolachas torradinhas e saborosas. Elas não se importavam. Sabiam para o que estavam destinadas e davam-se por contentes. Proporcionar um pouco de prazer ao paladar era a vocação delas.",
+        "A Maria que não ia com a outras, por sinal a última do pacote, não seguiu o caminho das demais. Ficou a aguardar novo acesso de apetite de quem, daquela vez, já estava de barriga cheia. Ficou sozinha. Ficou esquecida.",
+        "Amoleceu.",
+        "Quando, passado dias, deram por ela disseram:",
+        "– Esta bolacha já está mole. Não presta.",
+        "E chamaram:",
+        "– Bobi, anda cá. Toma.",
+        "O Bobi, de rabinho a abanar, muito saracoteante e salivante, veio, tomou e foi assim que a excelentíssima bolacha Dona Maria Emília de Melo e Sousa Trigo de Reboredo Farinha acabou na boca do cão.",
+        "Esta história é pequenina e sabe a pouco? Pois é. O Bobi também achou o mesmo.",
+        "FIM"
       ]
     }
   ],
@@ -35,21 +56,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/17/html/mhcsgfo2brq7pkaxecyw6yvczyj5inew/historia.aspx",
     "printPdf": "/recovered/0000/11/17/pdf/7hyp4awdjqfzhpokhphf7lkawm2l2c3u/imprimir.pdf",
     "archiveDay": "/recovered/0000/11/17/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

@@ -1,0 +1,133 @@
+{
+  "id": "10-18",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "leão",
+          "distractors": [
+            "leopardo",
+            "zebu",
+            "urso"
+          ],
+          "sentence": "O leopardo e o leão combinaram ir à caça juntos."
+        },
+        {
+          "target": "leopardo",
+          "distractors": [
+            "leão",
+            "primeira",
+            "caçámos"
+          ],
+          "sentence": "Mas um zebu imprudente perdeu-se do resto da manada e, sem saber como, viu-se cercado pelo leopardo e pelo leão."
+        },
+        {
+          "target": "juntos",
+          "distractors": [
+            "resto",
+            "bichos",
+            "patada"
+          ],
+          "sentence": "Resultado: nunca mais quiseram caçar juntos."
+        },
+        {
+          "target": "zebu",
+          "distractors": [
+            "leão",
+            "urso",
+            "caça"
+          ],
+          "sentence": "Patada de um, patada de outro, e o zebu ficou pronto para o almoço dos dois carniceiros."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "leão",
+          "syllables": [
+            "le",
+            "ão"
+          ]
+        },
+        {
+          "word": "leopardo",
+          "syllables": [
+            "le",
+            "o",
+            "par",
+            "do"
+          ]
+        },
+        {
+          "word": "zebu",
+          "syllables": [
+            "ze",
+            "bu"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "bule",
+          "syllables": [
+            "bu",
+            "le"
+          ]
+        },
+        {
+          "word": "doze",
+          "syllables": [
+            "do",
+            "ze"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "leão",
+          "b": "leão"
+        },
+        {
+          "a": "leopardo",
+          "b": "leopardo"
+        },
+        {
+          "a": "juntos",
+          "b": "juntos"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/18/images/thzrspt34dmmutyuwg2lf4ddc3yymidf/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O leopardo e o leão combinaram ir à caça juntos.",
+        "Mas um zebu imprudente perdeu-se do resto da manada e, sem saber como, viu-se cercado pelo leopardo e pelo leão.",
+        "E eu fico a vê-lo refastelar-se com o que nós dois caçámos?",
+        "Aproveitando a confusão da luta, um bando de chacais, a rirem-se da velhacaria, roubaram-lhes a presa.",
+        "A restante bicharada concordou, com um longo suspiro de alívio."
+      ]
+    }
+  ]
+}

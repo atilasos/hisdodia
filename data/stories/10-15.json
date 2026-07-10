@@ -9,9 +9,22 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "O senhor Conde Qualquer Coisa e Tal admitiu ao seu serviço um novo criado. O rapaz não seria muito vivo de espírito, mas o senhor Conde tinha esta máxima:",
+        "- Os criados pouco espertos são de maior confiança.",
+        "Seriam ou não, é o que se vai saber.",
+        "Estava o novo criado a limpar o escritório do senhor Conde, quando encontrou no tapete uma moeda de cem escudos.",
+        "Assim que o senhor Conde chegou, o criado apresentou-lhe a moeda que tinha achado.",
+        "- Gesto bonito, sim senhor - agradou-se o Conde.",
+        "- Fica tu com ela, como prémio da tua honradez.",
+        "Tempos depois, o senhor Conde deu por falta de uma libra de ouro, que tinha, juntamente com outras moedas antigas, numa prateleira do escritório.",
+        "Estranhou e perguntou ao criado:",
+        "- Tu, quando estiveste a limpar o escritório, por acaso não encontraste uma libra?",
+        "- Encontrei, sim, senhor Conde.",
+        "- Onde a puseste?",
+        "Respondeu o rapaz, com o ar mais inocente deste mundo:",
+        "- Fiquei com ela, como prémio da minha honradez."
       ]
     }
   ],
@@ -31,21 +44,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/15/html/5gyonfiv753miqvn3g4nystegabuhljf/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/10/15/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

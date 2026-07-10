@@ -1,0 +1,143 @@
+{
+  "id": "10-19",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "sótão",
+          "distractors": [
+            "aranha",
+            "nunca",
+            "falta"
+          ],
+          "sentence": "Eu tive de ir ao sótão procurar uns jornais antigos."
+        },
+        {
+          "target": "aranha",
+          "distractors": [
+            "sótão",
+            "estraga",
+            "arranja"
+          ],
+          "sentence": "Eu a entrar no sótão, e a esbarrar com uma teia de aranha."
+        },
+        {
+          "target": "nunca",
+          "distractors": [
+            "sótão",
+            "aranha",
+            "falta"
+          ],
+          "sentence": "Nunca se convida as visitas para ir ao sótão."
+        },
+        {
+          "target": "falta",
+          "distractors": [
+            "sótão",
+            "aranha",
+            "nunca"
+          ],
+          "sentence": "Que falta de consideração – barafustou a aranha."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "sótão",
+          "syllables": [
+            "só",
+            "tão"
+          ]
+        },
+        {
+          "word": "aranha",
+          "syllables": [
+            "a",
+            "ra",
+            "nha"
+          ]
+        },
+        {
+          "word": "estraga",
+          "syllables": [
+            "es",
+            "tra",
+            "ga"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "estragara",
+          "syllables": [
+            "es",
+            "tra",
+            "ga",
+            "ra"
+          ]
+        },
+        {
+          "word": "estranha",
+          "syllables": [
+            "es",
+            "tra",
+            "nha"
+          ]
+        },
+        {
+          "word": "ganha",
+          "syllables": [
+            "ga",
+            "nha"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "sótão",
+          "b": "sótão"
+        },
+        {
+          "a": "aranha",
+          "b": "aranha"
+        },
+        {
+          "a": "estraga",
+          "b": "estraga"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/19/images/tyjxe5cvv7h3umcqpfiy4nvxhabb577t/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Eu tive de ir ao sótão procurar uns jornais antigos.",
+        "Eu a entrar no sótão, e a esbarrar com uma teia de aranha.",
+        "Desculpe – disse-lhe eu, um tanto encavacado.",
+        "Pedi instruções a um tecelão, a uma bordadeira e a uma senhora que trabalha em malhas.",
+        "Mais dia, menos dia, também eu me enervo e mando a aranha contar histórias, em vez de mim."
+      ]
+    }
+  ]
+}

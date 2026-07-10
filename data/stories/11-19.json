@@ -9,9 +9,36 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "- A minha sobrinha pinta papagaios...",
+        "- De papel? - perguntei eu.",
+        "- Não. Pinta papagaios de penas. Maravilhosamente - respondeu o meu amigo. - Se quiseres, hoje mesmo, passamos pelo atelier dela.",
+        "Fomos. O atelier da sobrinha do meu amigo parecia uma enorme gaiola.",
+        "Esvoaçantes ou empoleirados em tudo o que lhes apetecia, araras, periquitos e, já se vê, papagaios davam-nos as boas-vindas, piando e palrando.",
+        "A pintora não estava, mas o meu amigo, que tinha a chave do atelier, movia-se naquele recorte de selva tropical com o à-vontade de um índio amazónico.",
+        "- E os quadros dela sobre esta passarada toda, onde é que estão? - perguntei.",
+        "O meu amigo não sabia ou fazia de conta que não sabia. O melhor era esperar pela pintora.",
+        "Entrementes, um papagaio com as cores da bandeira nacional simpatizou comigo, poisou-me no ombro e pôs-se-me a coçar ternamente a cabeça.",
+        "Despedi-me do meu amigo e combinei, para uma próxima, nova visita ao atelier da sobrinha. Mas aconteceu um percalço. O papagaio não me largava o ombro.",
+        "- Não o contraries e leva-o - disse o meu amigo. - Depois se verá...",
+        "Uma pessoa com um papagaio ao ombro chama sempre a atenção.",
+        "Muito envergonhadamente, percorri o caminho até casa, perseguido pelo olhar de estranheza de quem se cruzava comigo.",
+        "E, como se não bastasse, o papagaio cantarolava, incansavelmente: \"Ó Rosa arredonda a saia\". Não passava disto, o que seria sinal de uma certa saudade da dona, a pintora Rosa, imaginava eu.",
+        "Quanto a ele, fica combinado que passamos a tratá-lo por Arco-Íris.",
+        "Assim que cheguei a casa, abri as janelas. Talvez lhe desse vontade de voar, ao encontro da sua querida Rosa...",
+        "O Arco-Íris voar, voava, mas saindo por uma janela e entrando por outra e poisando no meu ombro e soltando-se do meu ombro e saindo pela janela e entrando, sempre a cantarolar: \"Ó Rosa arredonda a saia\".",
+        "Fui sentar-me junto à mesinha do telefone.",
+        "Tão concentrado eu estava, à espera do prometido telefonema, que nem dei por que tinha começado a chover. E logo as janelas todas abertas...",
+        "Passados uns minutos, um bicharoco encharcado e cinzento, cor de rato, fincou-me as patas nos ombros. Dei um salto de susto.",
+        "O bicharoco abriu as asas e gritou:",
+        "- Ó Rosa arredonda a saia.",
+        "Não era possível. Outro papagaio, este cinzento, a cantar a mesma cantiga?",
+        "Já calculam o que se passou. O Arco-Íris, com a molha, perdera as cores radiosas da bandeira nacional.",
+        "Perdera-as porque, simplesmente, não lhe pertenciam. Pintado, pena a pena, pela sobrinha do meu amigo, o Arco-Íris revelava-se, afinal, um vulgar papagaio descorado.",
+        "Quando contei a história ao meu amigo, ele riu-se:",
+        "- Bem te avisei que a minha sobrinha era pintora de papagaios. Uma grande pintora!",
+        "Em conclusão: fiquei dono de um papagaio cinzento, que ninguém percebe por que bizarria ou tolice é que eu o trato por Arco-Íris."
       ]
     }
   ],
@@ -31,21 +58,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/19/html/adlioyhkw6ugszzxwphgotx3qxtm4v2k/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/11/19/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

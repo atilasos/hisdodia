@@ -45,4 +45,36 @@ describe('parseStoryPage', () => {
     assert.equal(story.assets.printPdf, 'imprimir.pdf');
     assert.equal(story.assets.originalAudioSwf, 'http://sons.historiadodia.pt/01/01/um.swf');
   });
+
+  it('extracts narrative divs from archived layers whose font has no historia-text class', () => {
+    const html = `
+      <div id="Layer1">
+        <font class="atitulohistoria"><b>O Sult&atilde;o</b></font>
+      </div>
+      <div id="Layer2">
+        <table><tr><td><font size="3" color="#666666"><b>
+          <div style="text-indent:16">Era um sult&atilde;o <a href="#">bonacheir&atilde;o</a>.</div>
+          <div style="text-indent:16">O sult&atilde;o ouvia, sorria e calava.</div>
+        </b></font></td></tr></table>
+        <img src="../../../images/Avancar.jpg">
+      </div>
+      <div id="Layer3">
+        <font size="3" color="#666666"><b>
+          <div style="line-height:150%">FIM</div>
+        </b></font>
+      </div>`;
+
+    const story = parseStoryPage(html, { id: '10-05' });
+
+    assert.deepEqual(story.textSegments, [
+      {
+        layer: 2,
+        paragraphs: [
+          'Era um sultão bonacheirão.',
+          'O sultão ouvia, sorria e calava.'
+        ]
+      },
+      { layer: 3, paragraphs: ['FIM'] }
+    ]);
+  });
 });

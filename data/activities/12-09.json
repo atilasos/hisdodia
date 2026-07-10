@@ -57,34 +57,35 @@
           ]
         },
         {
-          "word": "real",
+          "word": "bifes",
           "syllables": [
-            "re",
-            "al"
+            "bi",
+            "fes"
           ]
         },
         {
-          "word": "almoço",
+          "word": "senhora",
           "syllables": [
-            "al",
-            "mo",
-            "ço"
+            "se",
+            "nho",
+            "ra"
           ]
         }
       ],
       "recombine": [
         {
-          "word": "moço",
+          "word": "rabinho",
           "syllables": [
-            "mo",
-            "ço"
+            "ra",
+            "bi",
+            "nho"
           ]
         },
         {
-          "word": "remo",
+          "word": "senho",
           "syllables": [
-            "re",
-            "mo"
+            "se",
+            "nho"
           ]
         }
       ]

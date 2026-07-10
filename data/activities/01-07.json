@@ -75,6 +75,13 @@
       ],
       "recombine": [
         {
+          "word": "calhas",
+          "syllables": [
+            "ca",
+            "lhas"
+          ]
+        },
+        {
           "word": "cama",
           "syllables": [
             "ca",
@@ -86,13 +93,6 @@
           "syllables": [
             "ca",
             "ça"
-          ]
-        },
-        {
-          "word": "coma",
-          "syllables": [
-            "co",
-            "ma"
           ]
         }
       ]

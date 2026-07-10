@@ -1,0 +1,141 @@
+{
+  "id": "10-14",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "galinha",
+          "distractors": [
+            "raposa",
+            "enxergo",
+            "avançara"
+          ],
+          "sentence": "Esta galinha tinha-se distraído e avançara para longe do pátio do quintal."
+        },
+        {
+          "target": "raposa",
+          "distractors": [
+            "galinha",
+            "noite",
+            "ramo"
+          ],
+          "sentence": "Era a raposa, que farejava presa de apetite."
+        },
+        {
+          "target": "bica",
+          "distractors": [
+            "noite",
+            "ramo",
+            "longe"
+          ],
+          "sentence": "Bica aqui, bica acolá, à cata do escaravelho cascudo ou da minhoca tenra, perdera-se das companheiras e ai que desceu a noite."
+        },
+        {
+          "target": "noite",
+          "distractors": [
+            "raposa",
+            "bica",
+            "ramo"
+          ],
+          "sentence": "Com esta aragem da noite, ainda apanha um resfriamento."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "galinha",
+          "syllables": [
+            "ga",
+            "li",
+            "nha"
+          ]
+        },
+        {
+          "word": "raposa",
+          "syllables": [
+            "ra",
+            "po",
+            "sa"
+          ]
+        },
+        {
+          "word": "bica",
+          "syllables": [
+            "bi",
+            "ca"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cara",
+          "syllables": [
+            "ca",
+            "ra"
+          ]
+        },
+        {
+          "word": "ganhara",
+          "syllables": [
+            "ga",
+            "nha",
+            "ra"
+          ]
+        },
+        {
+          "word": "liga",
+          "syllables": [
+            "li",
+            "ga"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "galinha",
+          "b": "galinha"
+        },
+        {
+          "a": "raposa",
+          "b": "raposa"
+        },
+        {
+          "a": "bica",
+          "b": "bica"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/14/images/7dae3lvpgeuxcmfmrvygjibaf73mqvz6/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Esta galinha tinha-se distraído e avançara para longe do pátio do quintal.",
+        "Era a raposa, que farejava presa de apetite.",
+        "Não se preocupe e vá à sua vida, senhora raposa.",
+        "Então desça que eu lhe tiro a temperatura e ausculto e examino a garganta.",
+        "Mais sossegada, a galinha escondeu a cabeça na asa e adormeceu."
+      ]
+    }
+  ]
+}

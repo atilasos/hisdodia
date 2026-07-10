@@ -9,9 +9,25 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era uma vez uma menina que conhecia o campo, mas de longe. Vira-o, uma vez, de passagem, da janela de um automóvel. Vira-o, mais vezes, de corrida, nos ecrãs da televisão. E vira-o, outras vezes, disfarçado de paisagem, nas folhas das revistas e nas tampas das caixas de chocolate.",
+        "Esta menina, afinal, não conhecia o campo a sério.",
+        "Por isso, da primeira vez que foi ao campo, da primeira vez que pisou o chão rugoso do campo e respirou o ar vivo do campo e os cheiros todos do campo, a menina ficou, há que confessar, a menina ficou um tanto atordoada.",
+        "Tropeçou numa pedra, comichou-lhe o nariz e picou-se nas urtigas. Mas, apesar destes contratempos, a menina, verdade se diga, não desgostou da experiência.",
+        "É que havia muita coisa para ver. Havia folhas que estalavam, quando ela as pisava.",
+        "Havia carreiros de formigas, flores sem nome, canaviais bulindo, árvores ramalhando e, não muito além do caminho por onde a menina seguia, um burrito de orelhas espantadas. Tinha o pêlo cinzento e não era de peluche.",
+        "A menina, que já ouvira histórias de príncipes encantados por fadas más, pensou: \"E se é um príncipe transformado em burro?\"",
+        "Podia ser. Tinha os olhos pestanudos e olhava para a menina cheio de curiosidade.",
+        "\"Eu dou-lhe um beijinho, desfaz-se o encanto e ele transforma-se em príncipe\", pensou a menina. \"Até pode ser que, mais tarde, queira casar-se comigo.\"",
+        "A menina, que já se via princesa, aproximou-se do burro, para concretizar o que tinha pensado.",
+        "Mas o burro é que não estava pelos ajustes. Quando viu a menina mais perto, fugiu a galope.",
+        "A menina correu atrás dele:",
+        "- Não te faço mal. É só um beijinho - prometia ela.",
+        "Mas o burro não queria saber.",
+        "Era um burro novo, sem nenhuma prática social, e aquela criaturinha enervava-o.",
+        "Naturalmente, não era um príncipe encantado. Devia ser só um burro.",
+        "Também nos parece que sim."
       ]
     }
   ],
@@ -36,21 +52,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/12/html/t4qqg6ku5hosdyvamktofyisdtp4bsvc/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/10/12/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

@@ -1,0 +1,142 @@
+{
+  "id": "10-22",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "pessoas",
+          "distractors": [
+            "alguém",
+            "nuvens",
+            "choveu"
+          ],
+          "sentence": "As pessoas iam à sua vida, encafuadas nos seus pensamentos, sem a sombra a acompanhá-las."
+        },
+        {
+          "target": "nuvens",
+          "distractors": [
+            "pessoas",
+            "alguém",
+            "choveu"
+          ],
+          "sentence": "A pesada manta de nuvens cobria o céu todo, sem deixar de fora sequer uma nesga de azul."
+        },
+        {
+          "target": "azul",
+          "distractors": [
+            "alguém",
+            "vida",
+            "chuva"
+          ],
+          "sentence": "O dia abriu-se num sorriso que rasgou o céu de par em par, muito azul, muito luminoso."
+        },
+        {
+          "target": "vida",
+          "distractors": [
+            "azul",
+            "chuva",
+            "manta"
+          ],
+          "sentence": "O dia, que poucas horas tinha de vida, amuou e fez beicinho."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "pessoas",
+          "syllables": [
+            "pes",
+            "so",
+            "as"
+          ]
+        },
+        {
+          "word": "alguém",
+          "syllables": [
+            "al",
+            "guém"
+          ]
+        },
+        {
+          "word": "azul",
+          "syllables": [
+            "a",
+            "zul"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "assoa",
+          "syllables": [
+            "as",
+            "so",
+            "a"
+          ]
+        },
+        {
+          "word": "pessoa",
+          "syllables": [
+            "pes",
+            "so",
+            "a"
+          ]
+        },
+        {
+          "word": "pessoal",
+          "syllables": [
+            "pes",
+            "so",
+            "al"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "pessoas",
+          "b": "pessoas"
+        },
+        {
+          "a": "alguém",
+          "b": "alguém"
+        },
+        {
+          "a": "nuvens",
+          "b": "nuvens"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/22/images/yyamwsgl4hpqrbjbd7z6f7w65lwdr3dv/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "A pesada manta de nuvens cobria o céu todo, sem deixar de fora sequer uma nesga de azul.",
+        "O dia sentiu-se e, ofendido, mais carrancudo se pôs.",
+        "Não era um elogio, mas para aquele dia, que ainda não ouvira uma palavra amável, soou a elogio.",
+        "Que dia maravilhoso – diziam as pessoas umas para as outras.",
+        "Para entender as pessoas um dia não bastava…"
+      ]
+    }
+  ]
+}

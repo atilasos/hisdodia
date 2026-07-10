@@ -9,9 +9,33 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era uma vez um rei muito ciumento. A rainha era mulher de grande beleza, que o rei queria ser o único homem a contemplar. Por isso mantinha-a fechada a sete chaves no palácio.",
+        "Mas a rainha, que não aturava esta prisão, terá descoberto as tais sete chaves e, muito secretamente, muito pezinhos de lã, veio até cá fora passear. Só para espairecer.",
+        "Só por um bocadinho.",
+        "Respirou o ar livre do parque real e foi para a margem de um riozinho pentear os cabelos. Um leve novelo soltou-se do pente, as águas do rio cobiçaram-no e levaram o novelinho loiro, rio abaixo.",
+        "Logo aconteceu que, mais adiante, estavam umas lavadeiras, na margem do rio, a lavar as camisas do rei.",
+        "O perfume dos cabelos da rainha comunicou-se às águas do rio e impregnou a roupa.",
+        "Depois de secas e engomadas, as camisas voltaram para o palácio. O rei vestiu uma e disse:",
+        "- Esta camisa cheira ao perfume dos cabelos da rainha. Como é possível?",
+        "Tinha, realmente, um nariz muito sensível este rei ciumento.",
+        "Como é possível? Como não é possível? A rainha não sabia explicar.",
+        "- Tu saíste, na minha ausência? - perguntou o rei, quase a zangar-se.",
+        "Que havia a rainha de responder? Contou a verdade, que bem simples era.",
+        "O rei barafustou muito e arranjou sete vezes sete chaves para fechar a rainha. Estava desesperado.",
+        "Mas a rainha lá descobriu as quarenta e nove chaves, se as minhas contas não erram, e foi, uma noite, dar um passeio pelo parque. Só para espairecer. Só um bocadinho.",
+        "Estava tão aliviada e contente que cantou, baixinho, uma canção a seu gosto. No dia seguinte, todos os passarinhos dos jardins reais assobiavam a mesma canção. O rei, ao abrir, de manhã, as janelas do quarto, ouviu a cantiguinha e assanhou-se:",
+        "- Tu saíste, na minha ausência? - perguntou, zangadíssimo.",
+        "A rainha respondeu que sim e com um ar tão doce e tão inocente que o rei nem achou palavras com que zangar-se. Ele amava-a muito e, lá no íntimo, achava que aqueles seus ciúmes eram uma doença. Ora as doenças tratam-se. Mas, nesse ponto, o rei ainda não estava preparado para tratar-se.",
+        "Pelo sim, pelo não, fechou a rainha com tantas chaves que perdi a conta. Assim já não podia sair do palácio. Estava mesmo e definitivamente prisioneira dos ciúmes do marido.",
+        "Não saía a rainha, mas saiu, sem ela nem ninguém dar por isso, a sombra da rainha.",
+        "Quando o rei viu que tinha fugido a sombra à rainha ficou muito aflito. Sentiu-se responsável pela perda. Sentiu-se um abominável carcereiro. Sentiu-se muito mal.",
+        "Foi ele à procura da sombra da fugitiva pelo meio do parque. Para ajudá-lo nas buscas, levou a seu lado a própria rainha.",
+        "Acabou por ser a sombra do rei a encontrar a sombra da rainha. As duas sombras entrelaçaram-se, diante dos olhos espantados do par real.",
+        "A própria sombra do rei, contrariando o silêncio das sombras, falou pela própria voz e pediu desculpa à sombra da rainha pelo cerco ciumento em que a apertara.",
+        "Perante tão estranhos factos, os reais esposos também se abraçaram e o rei logo ali pediu perdão à rainha e prometeu que nunca mais seria ciumento.",
+        "Se cumpriu ou não, não se sabe, mas costuma dizer-se que a palavra de rei é lei e nunca volta atrás..."
       ]
     }
   ],
@@ -46,21 +70,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/02/html/qiiojuue3cfkkxtnffjo2tvdrzreklzb/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/11/02/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

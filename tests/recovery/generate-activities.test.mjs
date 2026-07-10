@@ -49,6 +49,7 @@ describe('generator helpers', () => {
     const story = makeStory({
       textSegments: [
         { layer: 'archive-placeholder', paragraphs: ['Texto indisponível.'] },
+        { layer: 'archive-missing', paragraphs: ['O texto original perdeu-se.'] },
         { layer: 'html-layer-2', paragraphs: ['Texto recuperado e legível para a história.'] }
       ]
     });

@@ -9,9 +9,36 @@
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "A lebre Feliciana era ilusionista. Admiram-se? Então porquê?",
+        "Se há pombos que são correios, cães que são pastores, vacas que são leiteiras (diz-se ou não se diz \"uma vaca leiteira\"?), bichos que são carpinteiros (diz-se ou não se diz \"bichos carpinteiros\"?), porque não há-de haver lebres que sejam ilusionistas?",
+        "Pois. Mas esta lebre não era de circos. Preferia trabalhar sozinha, numa clareira da floresta, transformada pela numerosa assistência bicharal em pista de espectáculos circenses.",
+        "Vinham todos e até a toupeira, tão fraca de vista, se estarrecia, na primeira fila, com as artes mágicas da lebre Feliciana."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "– Destas artes e manhas não sei eu... – confessava a raposa, que nunca perdia uma matiné.",
+        "– E ainda bem que não sabes – comentava, ao lado dela, a galinhola. – Porque se soubesses não havias de tirar bom partido da arte...",
+        "– Schiu! – irritavam-se os espectadores da frente. – Deixem actuar o artista.",
+        "E valia a pena ver. Da cartola da Feliciana, colocada em cima da mesinha tem-te-não-caias, saíam fieiras de lenços, presos uns aos outros, quando há bocadinho para lá tinham entrado um por um e todos deslaçados.",
+        "– Desconfio que ela mete um rato dentro do chapéu, o rato Fosquinhas, que ata os lenços uns aos outros num abrir e fechar de olhos – observava de senho carregado o javali.",
+        "– O rato Fosquinhas sou eu – respondia-lhe uma voz do meio do público. – Sou eu e garanto-lhe que nunca me meti no chapéu de ninguém.",
+        "– São artes mágicas que só ela sabe – concluiu a coruja, que para estas coisas nunca fechava os olhos.",
+        "Sim, só a lebre sabia e por isso das suas artes tirava bom proveito. Onde aprendera? Como aprendera? Isso era mistério que a Feliciana não desvendava. A um artista ilusionista não convém fazer grandes revelações acerca das suas habilidades.",
+        "Mas, quando começava a época da caça, a lebre, por razões óbvias, não conseguia vender muitos bilhetes. Os bichos refugiavam-se nas suas tocas, e por mais que a Feliciana anunciasse que o espectáculo não sofria interrupções nem havia que temer muitos imprevistos, a bicharada preferia ficar em casa. É que andavam os ares muito turvos, muito pesados, e cheirava a pólvora a milhas de distância."
+      ]
+    },
+    {
+      "layer": "pdf-page-3",
+      "paragraphs": [
+        "Ela não desistia. E mesmo que o único espectador visível fosse o rato Fosquinhas, a lebre Feliciana, na sua clareira, com a cartola em cima da mesa treme-treme, não desistia do espectáculo.",
+        "Havia, no entanto, quem gostasse de apreciar as habilidades da lebre de borla, escondido nos matagais à roda da clareira. Era o caçador forunfunfor, triunfunfor...",
+        "Nessas alturas, ao aproximar do perigo, o rato Fosquinhas dava o sinal, fugindo a sete pés, e a lebre Feliciana, num salto cheio de elegância, mergulhava para dentro da cartola.",
+        "Perdiam-se no ar os tiros e, quando o caçador, ainda atarantado da presteza da lebre, metia a mão na cartola, julgando trazer a lebre presa pelas orelhas, vejam só o que lhe saía em sorte... Uma fieira de lenços e bandeirinhas, como se fosse um arraial...",
+        "FIM"
       ]
     }
   ],
@@ -25,21 +52,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": "/recovered/0000/12/12/pdf/niy4rrxj33n3efd7w4lcwhvrpxnnx264/imprimir.pdf",
     "archiveDay": "/recovered/0000/12/12/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

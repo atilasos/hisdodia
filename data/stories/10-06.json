@@ -9,9 +9,24 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era uma vez um rato que morava num sapato. Um sapato velho, um sapato sem préstimo... Não estava mal de todo. Conheço ratos que nem em chinelo moram. Nem em sandálias.",
+        "Mas este rato que morava num sapato tinha ambições. Queria uma casa mais desafogada, mais espaçosa.",
+        "Queria mudar de um sapato para uma bota.",
+        "Bem podia procurar. Onde é que se arranja, nos tempos de hoje, uma bota livre, de preferência calafetada contra o frio e a chuva, isto é, sem buracos na sola? Uma bota é um palácio. Um sonho...",
+        "Pôs um anúncio: \"BOTA POUCO USADA PRECISA-SE PARA HABITAÇÃO\".",
+        "E não é que conseguiu?! Um velho coronel de cavalaria vendeu-lhe as botas. Muito em conta.",
+        "O rato só precisava de uma, mas, já que se proporcionava ficar com as duas, não quis perder a ocasião.",
+        "\"Talvez lá mais para diante, leve uma para a praia. Fico com uma casa de férias e a outra na cidade\", pensou ele.",
+        "Não era mal pensado, não senhor. Mas, como estava no Inverno, adiou o projecto. Por enquanto, havia que tratar da mudança.",
+        "Foi à casa velha buscar os cacaréus e voltou aonde tinha deixado as botas. Pois sim, as botas... Onde é que elas já iam...",
+        "Um mendigo mal calçado, assim que as vira, ali ao desamparo, cobiçara-se delas e levara-as. Que desolação para o pobre rato.",
+        "Correu para o sapato, mas encontrou-o já ocupado por uma ratazana antipática. Não havia discussão possível.",
+        "Desanimado com a sua pouca sorte, o rato enfiou-se por um cano e, segundo parece, emigrou. Dizem que andou lá por fora, a trabalhar, a economizar, a roer o pão que o diabo amassou.",
+        "Voltei a encontrá-lo, há dias, numa sapataria. Nuns saldos.",
+        "Estava muito entusiasmado a comprar umas galochas luzidias, daquelas com enfeites de metal, e enormes. Número 47, vejam bem!",
+        "Este rato sempre teve a mania das grandezas."
       ]
     }
   ],
@@ -31,21 +46,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/06/html/dt63hiokdwy2lt6tcymtz7eyimg3zlaw/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/10/06/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

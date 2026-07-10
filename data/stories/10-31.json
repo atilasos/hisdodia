@@ -9,9 +9,44 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Andava um galo a depenicar num monte de nada, quando, escarva aqui, escarva ali, com as patas de ancinho, encontrou uma pedra preciosa. Era uma esmeralda.",
+        "– Antes fosse uma ervilha – comentou o galo. – De que me serve uma esmeralda, se não me enche o papo?",
+        "Andava um mineiro a explorar uma mina abandonada quando escarva aqui, escarva ali, com a pica, de mansinho, encontrou uma semente grelada. Era uma ervilha.",
+        "– Antes fosse uma esmeralda – comentou o mineiro. – De que me serve uma ervilha, se não me enche o saco?",
+        "E agora? Vamos trocar as voltas e dar a ervilha ao galo e a esmeralda ao mineiro? Mas como? Como é que eu me saio desta?",
+        "O caso está imbricado."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "Mais imbricado ainda porque o galo, que costumava engolir pedrinhas para ajudar a trituração da comedoria (quando havia!), decidiu:",
+        "- Para mim esta esmeralda é uma pedra como as outras. Que marche para o papo - e engoliu a pedra preciosa.",
+        "Por sua vez, o mineiro, desanimado com a sua pouca sorte, restituiu a semente à terra, ao sair da mina. Enfiou-a por um buraquinho e tapou-a. Parece que, depois, a regou. Estava à rasquinha, não sei se me entendem…",
+        "Desculpem estes pormenores, mas, se não contar tudo tal e qual como aconteceu, a história não avança.",
+        "Avançou a germinação da ervilha, à entrada da mina. Choveu. Fez sol. O costume. A plantinha, passado tempo, transformou-se numa formosa ervilheira.",
+        "O galo, que não desistira de depenicar por montes e vales, deu com ela e ficou extasiado.",
+        "- Que rico almoço! - exclamou.",
+        "E começou a debicar as vagens da formosa ervilheira. Estava a meio da colheita, quando apareceu o mineiro, que tinha decidido voltar àquela mina, por descargo de consciência. Continuava em maré de azar.",
+        "Viu o galo e disse:",
+        "– Que rico almoço!",
+        "E agarrou-o pelo pescoço.",
+        "Depois, descobrindo a ervilheira, acrescentou:",
+        "– E vou guisá-lo com ervilhas.",
+        "Apavorado com a sentença, o pobre galo borrou-se todo.",
+        "– Sujaste-me as únicas calças que tenho, patife – indignou-se o mineiro, limpando-as. - Mas que é isto?",
+        "No meio dos dejectos, uma esmeralda."
+      ]
+    },
+    {
+      "layer": "pdf-page-3",
+      "paragraphs": [
+        "Emocionado com a descoberta, o mineiro largou o galo, que aproveitou a deixa para se pôr a salvo.",
+        "Tudo voltara ao certo. O galo com ervilhas no papo. O mineiro com uma esmeralda no saco. Que alívio!",
+        "Assim fosse tudo, sempre.",
+        "FIM"
       ]
     }
   ],
@@ -31,21 +66,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/31/html/zu5zr6nqr6gtesfm2gbiwnwtjz2lhtiz/historia.aspx",
     "printPdf": "/recovered/0000/10/31/pdf/pxtpg3oe3hjhcx4exdbs3pgbsdun7va4/imprimir.pdf",
     "archiveDay": "/recovered/0000/10/31/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

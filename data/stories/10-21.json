@@ -9,9 +9,29 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "No reino das árvores, as pessoas mandam muito. Dizem até algumas árvores que as pessoas mandam demais. Pois se, para que as árvores cresçam, há que escorá-las, para que elas se desenvolvam, há que podá-las, para que elas ganhem força, há que regá-las, o que é que resta às árvores, o que é que lhes cabe fazerem sozinhas?",
+        "– Fazemos os frutos – dizem as árvores mais experientes. – As pessoas ainda não conseguem fazer peras, maçãs, laranjas, romãs, cerejas, ginjas, ameixas, sem nós.",
+        "– Mas, depois, as pessoas tiram-nos o que fizemos – dizia um limoeiro novo.",
+        "– E para que é que tu precisas dos limões, meu tolo? – replicava uma macieira com muitos anos de vida.",
+        "– Para enfeitar – respondia o limoeiro.",
+        "Aconteceu que, naquele ano, por altura da apanha, o reino das árvores não foi visitado por ninguém."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "O dono do pomar estaria doente ou teria ido para fora, talvez desinteressado das árvores a que, noutros anos, dera toda a atenção.",
+        "Os frutos por colher pendiam dos ramos. Uns secaram. Outros caíram no chão, apodrecidos. Uma lástima.",
+        "Ainda se aquele pomar ficasse perto da estrada que leva à escola, talvez houvesse quem se tentasse e fizesse a colheita por sua conta… Mas, como ficava num sítio isolado e pouco acessível, ninguém deu pelo pomar ao abandono.",
+        "Vieram os pássaros. Vieram as lagartas. Vieram os insectos. Foi uma razia.",
+        "Depois, o terreno do pomar não teve quem o lavrasse. Cresceram as silvas e as ervas daninhas. Muitas árvores ganharam moléstia. Deram, quando deram, uns frutos murchos e raquíticos. Sem préstimo.",
+        "Quando, tempos depois, o pomar abandonado foi visitado por pessoas, metia dó.",
+        "O pequeno limoeiro, que, entretanto, crescera, olhava em volta e só via árvores secas.",
+        "– Uma ruína – diziam as pessoas. – Salvou-se o limoeiro, porque é árvore resistente, mas mesmo esse precisa de tratamento.",
+        "Acompanhado e tratado arribou. É, agora, um belo e perfumado limoeiro, que não se importa nada, mesmo nada, de dar os seus limões às pessoas que lhos pedem.",
+        "FIM"
       ]
     }
   ],
@@ -47,21 +67,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/21/html/qkh6me23iz5tnqhc6ckohgixuoyhb7wk/historia.aspx",
     "printPdf": "/recovered/0000/10/21/pdf/qev5rzojt4g7newxpwncfc2rikrwahhq/imprimir.pdf",
     "archiveDay": "/recovered/0000/10/21/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

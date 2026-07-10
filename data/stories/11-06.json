@@ -9,9 +9,29 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Lá no meio do mato africano, o coelho goza de muita fama. É considerado o mais esperto bicho de quatro patas e um dos mais velozes não só a correr como a pensar. Um portento.",
+        "Pois aconteceu que um velho leão começou a rondar a toca do coelho, guloso pelos laparotos tenros que, lá dentro, se preparavam para deitar as orelhas de fora.",
+        "E que ávidos que eles estavam por sair da toca!",
+        "- Por enquanto, ainda é cedo - dizia a mãe coelha para os impacientes coelhinhos.",
+        "Eles não paravam quietos.",
+        "Queriam vir para a rua, queriam respirar o fresco da manhã, tasquinhar as ervinhas novas, cabriolar, correr, saltar...",
+        "- Por enquanto, ainda é cedo - repetia a coelha, já com o pêlo em pé de tanto os aturar. - E se vocês continuam a portar-se mal, eu chamo o leão.",
+        "O velho leão, que isto ouviu, acreditou que era a sério e ficou à espera que o chamassem. Já não tinha forças para grandes caçadas e preferia que o servissem, como nos restaurantes. A sonhar que estava à mesa, adormeceu e continuou a sonhar com coelho guisado.",
+        "O pai coelho, que vinha a entrar na toca, estranhou a sentinela à porta e, assim que se viu no meio da sua querida família, segredou para a mulher:",
+        "- Temos visitas indesejáveis, mas vamos pô-las a andar. Tu põe as crianças a chorar, num grande berreiro.",
+        "Tabefe para a esquerda, tabefe para a direita e os laparotos desataram a chorar.",
+        "Tudo para bem deles.",
+        "O leão, cá fora, acordou com a berraria. \"Devem estar a chamar-me, não tarda\", pensou. E pôs-se à escuta.",
+        "Mas o que ouviu arrepiou-lhe a juba.",
+        "Ouviu isto:",
+        "Pai Coelho: Porque é que os miúdos estão a chorar?",
+        "Mãe Coelha: Naturalmente, têm fome.",
+        "Pai Coelho: E tu não lhes deste o resto do fígado de leão que eu trouxe?",
+        "Mãe Coelha: Eles dizem que já estão fartos de comer fígado de leão e miolos de leão e bifes de leão. Por isso choram.",
+        "Claro que esta conversa em altos gritos era toda combinada entre o coelho e a coelha, mas o velho leão não sabia e assustou-se. Assustou-se e fugiu, com rabo entre as pernas.",
+        "\"Aquela coisa de me chamarem devia ser uma cilada, uma armadilha\", pensava o leão. \"Tão cedo não me apanham a escutar às portas\"."
       ]
     }
   ],
@@ -47,21 +67,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/06/html/t7f2qldtvcofdpmh4d3k3bflxdbaspqt/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/11/06/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

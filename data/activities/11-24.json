@@ -1,0 +1,139 @@
+{
+  "id": "11-24",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhor",
+          "distractors": [
+            "cabra",
+            "bilhete",
+            "amanhã"
+          ],
+          "sentence": "Andava o senhor Firmino a vender lotaria nas ruas de Vila Nova, ao começo deste estranho caso."
+        },
+        {
+          "target": "cabra",
+          "distractors": [
+            "senhor",
+            "amanhã",
+            "roda"
+          ],
+          "sentence": "Nessa altura, a cabra fugiu e foi quando eu vi que ela levava nos dentes um bocado de papel cor-de-rosa."
+        },
+        {
+          "target": "bilhete",
+          "distractors": [
+            "senhor",
+            "amanhã",
+            "cabras"
+          ],
+          "sentence": "Ainda tenho um bilhete quase inteiro com o meu palpite…"
+        },
+        {
+          "target": "amanhã",
+          "distractors": [
+            "senhor",
+            "cabra",
+            "bilhete"
+          ],
+          "sentence": "Anda amanhã a roda para os números do Firmino – prometia."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "cabra",
+          "syllables": [
+            "ca",
+            "bra"
+          ]
+        },
+        {
+          "word": "bilhete",
+          "syllables": [
+            "bi",
+            "lhe",
+            "te"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "bica",
+          "syllables": [
+            "bi",
+            "ca"
+          ]
+        },
+        {
+          "word": "seca",
+          "syllables": [
+            "se",
+            "ca"
+          ]
+        },
+        {
+          "word": "sete",
+          "syllables": [
+            "se",
+            "te"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "cabra",
+          "b": "cabra"
+        },
+        {
+          "a": "bilhete",
+          "b": "bilhete"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/11/24/images/rcr6ph5o7pr65zdfadsgfay7ocutk4k6/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Andava o senhor Firmino a vender lotaria nas ruas de Vila Nova, ao começo deste estranho caso.",
+        "Já há tempos que não ia para os lados do Outeiro, lá no fim da vila.",
+        "Quem vai arriscar-se a comprar cautelas que estão na barriga de uma cabra?",
+        "Ai, se saísse a sorte grande no 17029!...",
+        "O senhor Firmino queixou-se da sua sorte e prometeu nunca mais comer queijo de cabra, mas com o tempo, o bom cauteleiro acabou por levar…"
+      ]
+    }
+  ]
+}

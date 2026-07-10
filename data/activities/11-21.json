@@ -1,0 +1,151 @@
+{
+  "id": "11-21",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "lobo",
+          "distractors": [
+            "frade",
+            "capuz",
+            "serra"
+          ],
+          "sentence": "Salta-lhe um lobo ao caminho, com os olhos em fogo e uma dentadura de escárnio e malvadez, que metia impressão."
+        },
+        {
+          "target": "frade",
+          "distractors": [
+            "lobo",
+            "pernas",
+            "capuz"
+          ],
+          "sentence": "Era um frade de capuz descido, a caminho do mosteiro, no cimo da serra."
+        },
+        {
+          "target": "caminho",
+          "distractors": [
+            "avozinha",
+            "pernas",
+            "capuz"
+          ],
+          "sentence": "O caminho era ruim, com lombas e pedras soltas, mas o frade não se queixou e seguiu por ele adiante, em passo cada vez mais estugado…"
+        },
+        {
+          "target": "avozinha",
+          "distractors": [
+            "caminho",
+            "convento",
+            "estugado"
+          ],
+          "sentence": "O que é que tu levas de comer para a avozinha?"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "lobo",
+          "syllables": [
+            "lo",
+            "bo"
+          ]
+        },
+        {
+          "word": "frade",
+          "syllables": [
+            "fra",
+            "de"
+          ]
+        },
+        {
+          "word": "caminho",
+          "syllables": [
+            "ca",
+            "mi",
+            "nho"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "boca",
+          "syllables": [
+            "bo",
+            "ca"
+          ]
+        },
+        {
+          "word": "bode",
+          "syllables": [
+            "bo",
+            "de"
+          ]
+        },
+        {
+          "word": "bolo",
+          "syllables": [
+            "bo",
+            "lo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "lobo",
+          "b": "lobo"
+        },
+        {
+          "a": "frade",
+          "b": "frade"
+        },
+        {
+          "a": "caminho",
+          "b": "caminho"
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "aprofundar",
+      "pairs": [
+        {
+          "a": "vacilavam-lhe",
+          "b": "não tinham firmeza"
+        },
+        {
+          "a": "tiniam-lhe",
+          "b": "batiam-lhe"
+        },
+        {
+          "a": "prece",
+          "b": "reza / oração"
+        },
+        {
+          "a": "escárnio",
+          "b": "troça"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era um frade de capuz descido, a caminho do mosteiro, no cimo da serra.",
+        "Como estava escuro, o lobo não distinguia a cor do capuz nem isso lhe importava muito.",
+        "Nesta oportunidade, o frade podia safar-se.",
+        "A voz do frade era forte e grossa, apesar da fraqueza das pernas e dos saltos do coração.",
+        "Por sua vez, o frade, que, derreado, já se aproximava dos muros do convento, ainda teve fôlego para lançar às estrelas a sua possante…"
+      ]
+    }
+  ]
+}

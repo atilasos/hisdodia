@@ -9,9 +9,45 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "O crocodilo estava com uma grande dor de dentes. Quem lhe acudia?",
+        "Dentista, na selva não há. Podia procurá-lo na cidade mais próxima, mas quem lhe garantia que, depois, o deixavam voltar ao rio do seu pachorrento viver?",
+        "Os gemidos do crocodilo metiam dó.",
+        "Um passarito saltitante aproximou-se, mas não muito, e perguntou-lhe:",
+        "– O dente que dói é incisivo, canino ou molar?",
+        "O crocodilo não sabia.",
+        "– É cá para trás, na queixada – respondeu ele.",
+        "– Então é molar e deve estar furado - concluiu o esperto passarinho.",
+        "Muito se admirou o crocodilo com a ciência do passarinho. E, numa voz de sofrimento, perguntou-lhe se ele não se importava de tratá-lo."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "O passarinho saltitou, hesitante. Outros passarinhos da família, que andavam por perto, avisaram-no:",
+        "– Vê lá no que te metes. O crocodilo pode não ser de confiança…",
+        "Mas o passarinho, que tinha bom coração, decidiu arriscar.",
+        "– Abre bem a boca – disse ele ao crocodilo.",
+        "Saltitando entre os dentes do crocodilo, como sobre um teclado de piano, o passarinho deu com o dente furado. Era, realmente, um dos últimos, já no escuro da boca enorme do crocodilo.",
+        "Com muita eficiência, o passarinho brocou, limpou e tapou o buraco do dente magoado. Só lhe faltava diploma para dentista a sério.",
+        "– Abre mais a boca, para eu sair a voar.",
+        "Mais o crocodilo a fechava…",
+        "Cá fora, os outros passarinhos piaram de susto.",
+        "– Tratei-te. Quero sair – exigiu o passarinho e a vozinha dele ecoou na boca cavernosa do crocodilo.",
+        "– Palita-me e limpa-me o resto da dentadura – pediu o crocodilo, entre dentes.",
+        "Caiu-lhe uma lágrima do olho esquerdo e outra, a seguir, do direito.",
+        "– Lágrimas de crocodilo – piaram os passarinhos em bando. - Velhaco. Patife. Hipócrita.",
+        "Mas, afinal, estas eram as lágrimas sinceras. O crocodilo sentia-se aliviado e agradecido.",
+        "Quando o passarinho, depois de ter feito uma limpeza geral aos dentes do crocodilo, voou para o meio dos outros, foi recebido como um herói."
+      ]
+    },
+    {
+      "layer": "pdf-page-3",
+      "paragraphs": [
+        "E, daí em diante, todos os passarinhos saltitantes da beira-rio passaram a frequentar as queixadas dos crocodilos, à cata de restos de comida.",
+        "Ganham os crocodilos e ganham os passarinhos. Ao contrário do que consta, na selva também há harmonia.",
+        "FIM"
       ]
     }
   ],
@@ -31,21 +67,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/25/html/wenku534m5qkxeybbz3solihnjlcc64n/historia.aspx",
     "printPdf": "/recovered/0000/10/25/pdf/roedn3vt7vrz5otrninlio6tpupm4rf5/imprimir.pdf",
     "archiveDay": "/recovered/0000/10/25/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

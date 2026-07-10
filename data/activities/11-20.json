@@ -1,0 +1,131 @@
+{
+  "id": "11-20",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "capazes",
+          "distractors": [
+            "repara",
+            "peixes",
+            "debaixo"
+          ],
+          "sentence": "Ó avô, porque é que nós não somos capazes de fazer teias?"
+        },
+        {
+          "target": "repara",
+          "distractors": [
+            "capazes",
+            "peixes",
+            "debaixo"
+          ],
+          "sentence": "Repara nas redes de pesca dos pescadores, nas rendas da tua avó, nos tecidos das nossas roupas..."
+        },
+        {
+          "target": "voar",
+          "distractors": [
+            "neto",
+            "água",
+            "assim"
+          ],
+          "sentence": "Ó avô, porque é que nós não somos capazes de voar?"
+        },
+        {
+          "target": "peixes",
+          "distractors": [
+            "capazes",
+            "repara",
+            "debaixo"
+          ],
+          "sentence": "Quase conseguimos andar debaixo de água como os peixes."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "neto",
+          "syllables": [
+            "ne",
+            "to"
+          ]
+        },
+        {
+          "word": "capazes",
+          "syllables": [
+            "ca",
+            "pa",
+            "zes"
+          ]
+        },
+        {
+          "word": "apontando",
+          "syllables": [
+            "a",
+            "pon",
+            "tan",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "capa",
+          "syllables": [
+            "ca",
+            "pa"
+          ]
+        },
+        {
+          "word": "cato",
+          "syllables": [
+            "ca",
+            "to"
+          ]
+        },
+        {
+          "word": "pato",
+          "syllables": [
+            "pa",
+            "to"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "neto",
+          "b": "neto"
+        },
+        {
+          "a": "capazes",
+          "b": "capazes"
+        },
+        {
+          "a": "apontando",
+          "b": "apontando"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Tanto faz, desde que os dois estejam juntos, no jardim onde fomos encontrá-los.",
+        "Ó avô, porque é que nós não somos capazes de voar?",
+        "Repara nos mergulhadores, nos escafandristas, nos submarinos...",
+        "Quase conseguimos andar debaixo de água como os peixes.",
+        "E, que eu saiba, ninguém lhes conta histórias - concluiu o avô."
+      ]
+    }
+  ]
+}

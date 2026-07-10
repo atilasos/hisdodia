@@ -9,9 +9,28 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era um senhor com uns grandes bigodes. Tinha muita vaidade nos seus imensos bigodes, muito espetados, metade para cada lado e um risco ao meio para se assoar à vontade.",
+        "À noite, dormia de barriga para o ar, porque não queria amachucar os bigodes.",
+        "De manhã, demorava mais tempo a pentear e alisar os bigodes do que a lavar-se. Mas lavava-se, podem crer!",
+        "No autocarro para o emprego, sempre muito cheio de gente, acotovelava à esquerda e à direita, para que não fossem de encontro aos seus belos bigodes.",
+        "Ao almoço, não comia sopa, para não sujar os bigodes. Nem ao jantar.",
+        "– Parece que está com uma guia do bigode mais comprida do que a outra – disseram-lhe, uma vez."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "O senhor dos grandes bigodes não descansou enquanto não chegou a casa. Mirou-se e remirou-se ao espelho e, de tesoura na mão, cortou uma pontinha de um dos lados do bigode.",
+        "– Assim já está certo – disse.",
+        "Mas talvez não estivesse...",
+        "Então, cortou uma pontinha do outro lado.",
+        "– Agora é que está – disse.",
+        "Mas parecia que ainda não estava...",
+        "Passou a noite a cortar, ora dum lado ora do outro, sempre descontente, sempre impaciente.",
+        "E, quando chegou a manhã, o senhor dos grande bigodes já não tinha bigode.",
+        "FIM"
       ]
     }
   ],
@@ -27,21 +46,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/12/02/html/oa2aod6to4vkilqwpu3wzyhe5x4anpbx/historia.aspx",
     "printPdf": "/recovered/0000/12/02/pdf/u25r5ko45wfe5k7ihqkd7e24iovslf4n/imprimir.pdf",
     "archiveDay": "/recovered/0000/12/02/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

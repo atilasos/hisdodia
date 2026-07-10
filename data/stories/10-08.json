@@ -9,9 +9,24 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "- Mãos no ar - gritou o caçador para a lebre.",
+        "- Qual quê! Toca mas é a correr...",
+        "- Pára ou eu disparo - voltou a avisar o caçador.",
+        "Pois sim! Pernas para que vos quero...",
+        "Vai daí, o caçador disparou. Disparou, mas não acertou. Foi a sorte da lebre.",
+        "De moita em moita, rasteirinha, a lebre chegou, quase sem fôlego, à toca da família.",
+        "Pânico geral entre os parentes.",
+        "- Não posso acreditar - dizia a bisavó. - Aqui nunca houve caçadores.",
+        "- Nem o velho Hipólito os consentia, nos arredores da herdade - acrescentava a avó.",
+        "Assim em paz tinham vivido há gerações, mas o que não sabiam era que o dono da herdade já morrera.",
+        "Também não sabiam que os filhos do senhor Hipólito, pouco dados à vida do campo, tinham vendido toda aquela imensidão de terra a um clube de caçadores.",
+        "- Ninguém nos avisou - protestaram as lebres.",
+        "Por sinal que tinham sido avisadas.",
+        "Se as lebres soubessem ler, teriam lido no jornal da terra o anúncio da venda. Também um edital, pregado no tronco de um sobreiro, à entrada da herdade, noticiava a mudança de proprietário.",
+        "Finalmente, vários letreiros, onde estava escrito TERRENO DE CAÇA, espalhados um pouco por toda a parte, informavam que aquele território deixara de ser seguro para lebres e coelhos.",
+        "Foi a partir deste incidente que as lebres decidiram todas aprender a ler. E, já agora, mudar para um sítio mais sossegado."
       ]
     }
   ],
@@ -28,21 +43,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/08/html/t5ak67i5i6x4qx5lmysu5zlfdhizpgjf/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/10/08/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

@@ -9,9 +9,24 @@
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era uma vez um cavaleiro, desses que havia dantes, de lata por fora, fechados por dentro, e de comprida lança levantada, com uma bandeira na ponta, a flutuar ao vento… Estão a ver, não estão?",
+        "O cavalo que suportava este cavaleiro não tinha grande vocação para cavalarias altas.",
+        "\"Se o meu dono dispensasse a armadura, até o caminho passava a ser mais macio.\"",
+        "Conversa de cavalo cansado…",
+        "Talvez o tivesse percebido o cavaleiro, porque à beira de um regato susteve a marcha do cavalicoque e apeou-se. Apetecia-lhe tomar um banho. Desfez-se da pesada armadura, enquanto o cavalo pastava, e foi procurar um sítio mais fundo, onde pudesse banhar-se a seu gosto.",
+        "\"Quem me dera que a história se ficasse por aqui\", suspirava o cavalo, aliviado."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "Uns meliantes, salteadores de estrada, que por ali estavam escondidos, viram o cavaleiro afastar-se e acharam que era boa altura para agir. Cobiçaram a armadura e cobiçaram o cavalo. Este, adivinhando-lhes as intenções, fugiu-lhes a tempo. Que levassem a armadura! Era da maneira que o resto da jornada menos custaria. Carregar um cavaleiro, sem a casca-carapaça de ferro e lata, valia por um passeio.",
+        "De longe, o cavalo viu os ladrões alcançarem as peças da armadura para cima de um macho desgraçado. Teve um rebate. O dono tão desprevenido e ninguém que o avisasse. Só se ele, cavalo, tomado a brios… Mas para quê, se o assunto não era da sua conta? Ou seria? Afinal, talvez fosse…",
+        "O cavalo relinchou um alarme. Logo o cavaleiro, que deixara a espada na margem, se apercebeu do perigo. Agarrou no espadão e, mesmo nu e a pingar, saltou para o cavalo e fez frente aos salteadores, que fugiram, mais o macho, largando tudo, numa grande balbúrdia de lata amolgada.",
+        "Revestido de novo da sua vaidosa armadura, o cavaleiro, fincando os joelhos de ferro nos lados da montada, incitou-a a prosseguir caminho. Carregado ao peso do dever, o cavalo obedeceu.",
+        "FIM"
       ]
     }
   ],
@@ -27,21 +42,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": "/recovered/0000/10/28/pdf/jilj3t34ndwzoq6la3zysjvzphkskpm7/imprimir.pdf",
     "archiveDay": "/recovered/0000/10/28/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

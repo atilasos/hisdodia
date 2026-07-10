@@ -1,0 +1,142 @@
+{
+  "id": "10-31",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "galo",
+          "distractors": [
+            "mina",
+            "pedra",
+            "fosse"
+          ],
+          "sentence": "Andava um galo a depenicar num monte de nada, quando, escarva aqui, escarva ali, com as patas de ancinho, encontrou uma pedra preciosa."
+        },
+        {
+          "target": "mineiro",
+          "distractors": [
+            "ervilha",
+            "escarva",
+            "mina"
+          ],
+          "sentence": "Andava um mineiro a explorar uma mina abandonada quando escarva aqui, escarva ali, com a pica, de mansinho, encontrou uma semente grelada."
+        },
+        {
+          "target": "esmeralda",
+          "distractors": [
+            "ervilha",
+            "escarva",
+            "imbricado"
+          ],
+          "sentence": "De que me serve uma esmeralda, se não me enche o papo?"
+        },
+        {
+          "target": "ervilha",
+          "distractors": [
+            "mineiro",
+            "esmeralda",
+            "escarva"
+          ],
+          "sentence": "Antes fosse uma ervilha – comentou o galo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "galo",
+          "syllables": [
+            "ga",
+            "lo"
+          ]
+        },
+        {
+          "word": "mineiro",
+          "syllables": [
+            "mi",
+            "nei",
+            "ro"
+          ]
+        },
+        {
+          "word": "esmeralda",
+          "syllables": [
+            "es",
+            "me",
+            "ral",
+            "da"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "esmero",
+          "syllables": [
+            "es",
+            "me",
+            "ro"
+          ]
+        },
+        {
+          "word": "mero",
+          "syllables": [
+            "me",
+            "ro"
+          ]
+        },
+        {
+          "word": "roda",
+          "syllables": [
+            "ro",
+            "da"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "galo",
+          "b": "galo"
+        },
+        {
+          "a": "mineiro",
+          "b": "mineiro"
+        },
+        {
+          "a": "esmeralda",
+          "b": "esmeralda"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/31/images/ghmulleov3vqym26ldt66can7mq66alh/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Andava um galo a depenicar num monte de nada, quando, escarva aqui, escarva ali, com as patas de ancinho, encontrou uma pedra preciosa.",
+        "Vamos trocar as voltas e dar a ervilha ao galo e a esmeralda ao mineiro?",
+        "Por sua vez, o mineiro, desanimado com a sua pouca sorte, restituiu a semente à terra, ao sair da mina.",
+        "E começou a debicar as vagens da formosa ervilheira.",
+        "Emocionado com a descoberta, o mineiro largou o galo, que aproveitou a deixa para se pôr a salvo."
+      ]
+    }
+  ]
+}

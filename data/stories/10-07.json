@@ -9,9 +9,29 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Li, há tempos, num jornal, que ia disputar-se, em Inglaterra, a primeira corrida internacional de caracóis. Fiquei todo entusiasmado e fui logo à minha horta contar a notícia aos caracóis que lá tenho.",
+        "Eles, uns pasmados, não sabiam de nada nem queriam saber. Fiquei muito chocado:",
+        "- Então vocês não sentem vontade de ir a Inglaterra, para ganhar a corrida e mostrar ao mundo o que valem os caracóis portugueses?",
+        "- A Inglaterra? A pé? - quis saber um caracol caracolinho, empoleirado numa vagem de ervilha.",
+        "Expliquei que iríamos, concorrentes e eu (o treinador, claro!), de avião. Mas eles não me ligaram. Debaixo de um rebento de alface, uma vozinha de caracol sugeriu:",
+        "- Isso da corrida fica para o ano...",
+        "Virei-lhe as costas, desolado. Já não queria ser treinador daquela equipa de paspalhões."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "Passados dias, voltei à horta por causa de uma salada de alface. Ia na intenção de não dar conversa aos hóspedes da hortaliça. Mas onde é que eles estavam? Tinham desaparecido. Um grilo contou-me:",
+        "- Partiram ontem para Inglaterra. Iam que nem setas.",
+        "- Que nem setas talvez seja exagero - comentei, tentando sorrir.",
+        "- Sim, como setas ou até como o vento - insistiu o grilo Grilarim. - Os caracóis desta horta são uns empatas, quando se trata de tomar uma decisão, mas assim que se resolvem, parece que têm asas. Ia com eles a galinha pedrês, aquela que diz \"Eu sou a galinha pedrês, que vos salta em cima e vos faz em três\". Eles, assim que a ouvem, até voam.",
+        "E não é que ganharam a corrida?! Os dez primeiros lugares preenchidos por caracóis portugueses. Um êxito que não se imagina.",
+        "Mas, afinal, o júri lá de Inglaterra eliminou-os e deu o trofeu da vitória a um caracol inglês, o 11º da corrida, com a desculpa de que os caracóis portugueses não tinham sido inscritos com antecedência e que levavam uma galinha atrás deles... Invejas!",
+        "De qualquer forma, reconhecidos internacionalmente ou não, foram os dez caracóis da minha horta os verdadeiros, os únicos vencedores.",
+        "Bendita couve portuguesa que têm comido!",
+        "FIM"
       ]
     }
   ],
@@ -25,21 +45,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/07/html/l6wkhynynbtqulkjxwslcwjafwfe7wqe/historia.aspx",
     "printPdf": "/recovered/0000/10/07/pdf/5l4ahurkywou6of6rfaxljs3cmj5xci7/imprimir.pdf",
     "archiveDay": "/recovered/0000/10/07/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

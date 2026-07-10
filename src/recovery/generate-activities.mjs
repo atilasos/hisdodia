@@ -58,7 +58,7 @@ function tokenize(text) {
 
 export function extractReadableParagraphs(story) {
   return (story.textSegments ?? [])
-    .filter((segment) => segment?.layer !== 'archive-placeholder')
+    .filter((segment) => !['archive-placeholder', 'archive-missing'].includes(segment?.layer))
     .flatMap((segment) => segment?.paragraphs ?? [])
     .map((paragraph) => String(paragraph).replace(/\s+/gu, ' ').trim())
     .filter(Boolean);

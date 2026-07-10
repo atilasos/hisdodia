@@ -1,0 +1,139 @@
+{
+  "id": "10-16",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "pêra",
+          "distractors": [
+            "peras",
+            "pereira",
+            "mesa"
+          ],
+          "sentence": "Nasceu apenas, entre outras peras que não mereciam especial atenção, uma pêra e peras."
+        },
+        {
+          "target": "peras",
+          "distractors": [
+            "pêra",
+            "pereira",
+            "mesa"
+          ],
+          "sentence": "É uma pêra sentada num banco – diziam as outras peras, umas invejosas."
+        },
+        {
+          "target": "pereira",
+          "distractors": [
+            "pêra",
+            "peras",
+            "árvore"
+          ],
+          "sentence": "Efectivamente, na pereira para onde nós apontámos a história não nasceram maçãs nem uvas nem romãs."
+        },
+        {
+          "target": "mesa",
+          "distractors": [
+            "pêra",
+            "peras",
+            "maçãs"
+          ],
+          "sentence": "Se ela é a rainha das peras tem de vir para a mesa do rei – ordenou o monarca, que era um glutão, talvez até o rei dos glutões."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "pêra",
+          "syllables": [
+            "pê",
+            "ra"
+          ]
+        },
+        {
+          "word": "peras",
+          "syllables": [
+            "pe",
+            "ras"
+          ]
+        },
+        {
+          "word": "pereira",
+          "syllables": [
+            "pe",
+            "rei",
+            "ra"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "pêras",
+          "syllables": [
+            "pê",
+            "ras"
+          ]
+        },
+        {
+          "word": "rara",
+          "syllables": [
+            "ra",
+            "ra"
+          ]
+        },
+        {
+          "word": "raras",
+          "syllables": [
+            "ra",
+            "ras"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "pêra",
+          "b": "pêra"
+        },
+        {
+          "a": "peras",
+          "b": "peras"
+        },
+        {
+          "a": "pereira",
+          "b": "pereira"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/16/images/dyswjtdfeom6vvca7bezxak5rh2txjuy/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Estranho seria se as pereiras dessem maçãs.",
+        "É uma pêra sentada num banco – diziam as outras peras, umas invejosas.",
+        "Ainda cá estou – disse o rei, espreitando por trás da pêra.",
+        "Por culpa da precipitação do rei, que exigira a pêra à sua mesa, ninguém se preocupara em saber se a pêra já estava na conta.",
+        "Fez-se um belo rapaz, um mocetão desempenado e atlético."
+      ]
+    }
+  ]
+}

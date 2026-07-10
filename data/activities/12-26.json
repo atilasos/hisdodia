@@ -64,34 +64,26 @@
           ]
         },
         {
-          "word": "floresta",
+          "word": "ouro",
           "syllables": [
-            "flo",
-            "res",
-            "ta"
+            "ou",
+            "ro"
           ]
         }
       ],
       "recombine": [
         {
-          "word": "flores",
+          "word": "ouvi",
           "syllables": [
-            "flo",
-            "res"
+            "ou",
+            "vi"
           ]
         },
         {
-          "word": "fores",
+          "word": "rolhas",
           "syllables": [
-            "fo",
-            "res"
-          ]
-        },
-        {
-          "word": "resta",
-          "syllables": [
-            "res",
-            "ta"
+            "ro",
+            "lhas"
           ]
         }
       ]

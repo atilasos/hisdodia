@@ -9,9 +9,32 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era uma velha muito velha, muito velha, tão velha que não havia velha mais velha do que ela.",
+        "Um dia, estava a velha a ver televisão, num aparelho também muito velho, quando anunciaram que iam fazer um concurso para proclamar a velha mais velha do mundo. Todas as velhas do mundo podiam concorrer.",
+        "A velha desta história encolheu os ombros e disse:",
+        "- Para quê tanta complicação? Já se sabe que a velha mais velha de todas sou eu.",
+        "Mas não se deu ao trabalho de concorrer.",
+        "Dias depois, começaram a desfilar, na televisão, velhas e mais velhas, algumas apoiadas a bengalas, outras ajudadas pelos bisnetos.",
+        "A nossa velha muito velha ria-se:",
+        "- Olha para aquela, que podia ser minha filha... E aquela, quando nasceu, já eu usava dentadura... E aquela, que ridícula, tão nova, a fingir que é velha...",
+        "Até que o aparelho de televisão se avariou.",
+        "A velha deu-lhe uns safanões, mas o televisor não se convenceu. Continuou sem dar nem som nem imagem. Só ruídos. Estava velho.",
+        "A velha foi bater à porta de um vizinho, para continuar a ver o concurso de velhas, mas o vizinho estava a ver um concurso de misses, e não quis mudar de canal.",
+        "Então a velha, muito enervada, resolveu ir à estação de televisão, onde se realizava o concurso para apuramento da velha mais velha do mundo. Estava com curiosidade em saber quem é que escolhiam como vencedora.",
+        "O azar foi que o táxi em que se meteu se enfiou por uma rua com muito trânsito e, quando a velha chegou, já o concurso tinha acabado.",
+        "Ia precisamente a sair, empurrada numa cadeira de rodas, a velhota que tinha sido proclamada a mais velha do mundo.",
+        "Vinha com ramos e coroas de flores e muita gente à volta, a sorrir para as máquinas dos fotógrafos.",
+        "A velha da nossa história reconheceu-a.",
+        "- Mirita - gritou-lhe ela.",
+        "A velhota virou-se, na cadeira de rodas.",
+        "- Mirita, tu sabes que não és a mais velha.",
+        "Tu mentiste ou deixaste que mentissem por ti - disse a velha.",
+        "A velhota da cadeira de rodas baixou os olhos, comprometida. À volta dela, tudo se calou.",
+        "- Eu, que fui tua professora, nunca te ensinei a mentir, pois não? - ralhou-lhe a velha.",
+        "- Não, senhora - disse a velhota, a medo, como que a pedir desculpa.",
+        "Mas de nada lhe valeu o ar de menina que cometeu uma maldade, porque a velha muito velha, ali, sem mais nem menos, diante de toda aquela gente, passou-lhe um raspanete e deu-lhe um valente puxão de orelhas."
       ]
     }
   ],
@@ -31,21 +54,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/03/html/mvbti433xqzhuaxzmejirrrsutefdnd4/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/11/03/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

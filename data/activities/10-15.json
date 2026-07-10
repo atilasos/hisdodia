@@ -1,0 +1,132 @@
+{
+  "id": "10-15",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhor",
+          "distractors": [
+            "rapaz",
+            "limpar",
+            "moeda"
+          ],
+          "sentence": "O senhor Conde Qualquer Coisa e Tal admitiu ao seu serviço um novo criado."
+        },
+        {
+          "target": "honradez",
+          "distractors": [
+            "admitiu",
+            "serviço",
+            "espírito"
+          ],
+          "sentence": "Fica tu com ela, como prémio da tua honradez."
+        },
+        {
+          "target": "novo",
+          "distractors": [
+            "rapaz",
+            "moeda",
+            "libra"
+          ],
+          "sentence": "Estava o novo criado a limpar o escritório do senhor Conde, quando encontrou no tapete uma moeda de cem escudos."
+        },
+        {
+          "target": "limpar",
+          "distractors": [
+            "senhor",
+            "rapaz",
+            "moeda"
+          ],
+          "sentence": "Tu, quando estiveste a limpar o escritório, por acaso não encontraste uma libra?"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "honradez",
+          "syllables": [
+            "hon",
+            "ra",
+            "dez"
+          ]
+        },
+        {
+          "word": "rapaz",
+          "syllables": [
+            "ra",
+            "paz"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "honra",
+          "syllables": [
+            "hon",
+            "ra"
+          ]
+        },
+        {
+          "word": "rara",
+          "syllables": [
+            "ra",
+            "ra"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "honradez",
+          "b": "honradez"
+        },
+        {
+          "a": "novo",
+          "b": "novo"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/15/images/7ao5qfihrszbg2n5jsej6eyt4jmmyi7w/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O senhor Conde Qualquer Coisa e Tal admitiu ao seu serviço um novo criado.",
+        "Estava o novo criado a limpar o escritório do senhor Conde, quando encontrou no tapete uma moeda de cem escudos.",
+        "Gesto bonito, sim senhor - agradou-se o Conde.",
+        "Tempos depois, o senhor Conde deu por falta de uma libra de ouro, que tinha, juntamente com outras moedas antigas, numa prateleira do…",
+        "Fiquei com ela, como prémio da minha honradez."
+      ]
+    }
+  ]
+}

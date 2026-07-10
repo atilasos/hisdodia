@@ -74,6 +74,13 @@
       ],
       "recombine": [
         {
+          "word": "brinca",
+          "syllables": [
+            "brin",
+            "ca"
+          ]
+        },
+        {
           "word": "cabe",
           "syllables": [
             "ca",
@@ -85,13 +92,6 @@
           "syllables": [
             "ca",
             "cho"
-          ]
-        },
-        {
-          "word": "caça",
-          "syllables": [
-            "ca",
-            "ça"
           ]
         }
       ]

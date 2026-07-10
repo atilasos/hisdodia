@@ -9,9 +9,46 @@
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Este tambor, mal nasceu, foi logo para o serviço militar.",
+        "Acabar de ser feito, de pele nova e madeira pintada de fresco, e, logo de seguida, assentar praça, à frente dos recrutas, não é destino que se inveje.",
+        "À frente dos recrutas e a comandá-los:",
+        "– Esquerdo, direito, um, dois… Esquerdo, direito, um, dois… Toca a marchar, seus bimbos, sempre à voz do tambor - gritava o sargento para os atarantados taratas.",
+        "Também eles tinham acabado de chegar ao quartel. Vinham do campo, vinham das oficinas, vinham das praias de pescadores, e desde que se sabiam gente que se equilibravam nas duas pernas, uma à frente da outra, a andar ou a correr. Mas marchar, às ordens de um tambor, custava mais."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "– Acertem o passo pelo tambor, seus azelhas – gritava o sargento. – Esquerdo, direito, um, dois… Esquerdo, direito, um, dois…",
+        "O tambor comandava o melhor que podia. Sempre certinho, que uma só desafinação e ai que se desmanchava um batalhão inteiro.",
+        "– Com mais genica, seu tambor – gritava o sargento.",
+        "E o tambor-mor dava-lhe com força:",
+        "– Rataplã-plã-plã! Rataplã-plã-plã!",
+        "O sargento ameaçava:",
+        "– Quando chegarmos à guerra, sempre quero ver como é que se portam!",
+        "Aquilo não era a brincar. Estavam a preparar soldados para coisa mais séria. Uma guerra de verdade.",
+        "O tambor também foi chamado. Era um tempo em que os exercícios avançavam para o campo de batalha ao som dos tambores. Na mais infernal mistura de ruídos, toques de cornetim, troar de canhões, silvar de balas, gritos e gemidos, o bater compassado dos tambores nunca abandonava os combatentes.",
+        "Os soldados marchavam em linha, de armas apontadas. À frente deles, o tambor, marcando o passo do avanço.",
+        "Podiam os generais ficar lá atrás, a ver a batalha por um binóculo. Quem comandava as tropas era o tambor.",
+        "O que ele sentia, as desgraças que via, não conseguia descrevê-las. Pois se a única coisa que ele tinha aprendido a dizer era:",
+        "– Rataplã-plã-plã! Rataplã-plã-plã!",
+        "Até que, um dia, calou-se. Houve tréguas. Combinou-se a paz.",
+        "Calou-se ele e calaram-se os canhões. Até que enfim."
+      ]
+    },
+    {
+      "layer": "pdf-page-3",
+      "paragraphs": [
+        "Até que enfim ia descansar. Soldado toda a vida, com tanta responsabilidade em cima, também cansa. Merecia sossegar. Merecia o silêncio. Merecia a sua paz.",
+        "Mas não o deixaram.",
+        "Os que tinham sobrevivido aos horrores da guerra juntaram-se em marcha de alegria pelas ruas, cheias de gente, que os aclamavam e lhe lançavam flores.",
+        "Voltaram a troar os canhões, mas agora só com pólvora seca. Os sinos badalaram em todas as terras.",
+        "À frente da marcha, o tambor descobria uma maneira nova de dizer que aquele era o dia mais feliz da sua vida:",
+        "– Rataplã-rataplã-rataplã! Plã-rataplã! Plã-rataplã!... Rataplã-rataplã-rataplã! Plã-rataplã! Plã-rataplã!... Rataplã- rataplã-rataplã!",
+        "E nunca mais quis tocar outra música.",
+        "FIM"
       ]
     }
   ],
@@ -27,21 +64,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": "/recovered/0000/10/23/pdf/r67hi5azcfyrf45glqgeqx7pf4rjoq6p/imprimir.pdf",
     "archiveDay": "/recovered/0000/10/23/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

@@ -9,9 +9,41 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era uma vez uma galinha que cantava de galo.",
+        "– Que é lá isso? Já não há respeito? – indignou-se o único galo da capoeira. – Então, daqui para a frente, passas a ser tu a anunciar a alvorada.",
+        "A galinha escusou-se à responsabilidade. Que não tinha vocação para corneteiro, que não era dada a madrugar, que até tinha o sono pesado e mais que torna e mais que deixa, tudo desculpas esfarrapadas.",
+        "– Nesse caso, deixas de imitar-me – impôs o galo.",
+        "A galinha fez que sim. Depois, esqueceu-se e, na primeira ocasião, voltou a cantar de galo.",
+        "– O que combinámos, ainda há pouco, já não conta? – perguntou o galo, muito arreliado.",
+        "A galinha desculpou-se, tinha-lhe passado da ideia e, para mais, andava com a voz rouca da humidade. Mas não voltaria."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "Voltou.",
+        "Tantas vezes cantou de galo que até parecia desafio. Não era. A galinha gostava de brincar, de fazer imitações. Se lhe desse para isso até era capaz de zurrar como os burros…",
+        "– Burro serei eu se suportar mais esta afronta. Tu continuas a cantar de galo e eu vou passar a pôr ovos – ameaçou o velho galo.",
+        "Correu a notícia. O galo ia pôr ovos. Vieram de todos os extremos da quinta os bichos que nela viviam. Patos, perus, ovelhas, vacas, porcos, burro e os dois cães de guarda puseram-se à volta do galo, à espera do fenómeno…",
+        "– Com tantos ao pé de mim, não consigo – disse o galo, embaraçado.",
+        "Quis mantê-los à distância, mas em vão. A curiosidade era muita e não se podia perder pitada do grande acontecimento.",
+        "Ovo é que não houve meio.",
+        "– Desisto – concluiu o galo. – Isto de pôr ovos e, ainda por cima, diante desta plateia de basbaques, não é para as minhas forças.",
+        "Conclusão sensata.",
+        "– Põe tu um ovo por mim – disse o galo para a galinha que, às vezes, cantava de galo.",
+        "Ela pôs, sem nenhuma dificuldade, e, depois, não cantou de galo. Cacarejou como cacarejam as galinhas quando acabam de pôr um ovo.",
+        "– Bonita cantiga – elogiou o galo.",
+        "Toda a bicharia era da mesma opinião. Um encanto de cantiguinha. Um mimo de voz. Um gargarejo mesmo melodioso."
+      ]
+    },
+    {
+      "layer": "pdf-page-3",
+      "paragraphs": [
+        "A galinha, envaidecida, corou até à crista. E não voltou a cantar de galo.",
+        "Isto é: uma vez por outra arremedava-lhe a voz, mas só para fazer rir as franganitas.",
+        "FIM"
       ]
     }
   ],
@@ -36,21 +68,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/04/html/nnx7pxwcqoss4ev2a4k7bilresegarax/historia.aspx",
     "printPdf": "/recovered/0000/11/04/pdf/en5k3rbleux6llpea34rtwqqvwojtudz/imprimir.pdf",
     "archiveDay": "/recovered/0000/11/04/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

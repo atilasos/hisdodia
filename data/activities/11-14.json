@@ -1,0 +1,132 @@
+{
+  "id": "11-14",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "fósforo",
+          "distractors": [
+            "formigas",
+            "cabeça",
+            "senhor"
+          ],
+          "sentence": "Era uma vez um fósforo, um pau de fósforo - vejam bem que com tão pouco se começa uma história."
+        },
+        {
+          "target": "formigas",
+          "distractors": [
+            "fósforo",
+            "optimista",
+            "fogaréu"
+          ],
+          "sentence": "Você pode ser aproveitado, como obra de engenharia, para ajudar um carreiro de formigas a vencer um riacho..."
+        },
+        {
+          "target": "cabeça",
+          "distractors": [
+            "fósforo",
+            "senhor",
+            "passou"
+          ],
+          "sentence": "O pau de fósforo perdera a cabeça num fogaréu - história antiga, dolorosa, que nem convém lembrar - e estava ali, que nem para palito…"
+        },
+        {
+          "target": "passou",
+          "distractors": [
+            "fósforo",
+            "cabeça",
+            "senhor"
+          ],
+          "sentence": "Neste entretanto, passou a rasar por ele uma andorinha."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "fósforo",
+          "syllables": [
+            "fós",
+            "fo",
+            "ro"
+          ]
+        },
+        {
+          "word": "optimista",
+          "syllables": [
+            "op",
+            "ti",
+            "mis",
+            "ta"
+          ]
+        },
+        {
+          "word": "formigas",
+          "syllables": [
+            "for",
+            "mi",
+            "gas"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "forro",
+          "syllables": [
+            "for",
+            "ro"
+          ]
+        },
+        {
+          "word": "gasta",
+          "syllables": [
+            "gas",
+            "ta"
+          ]
+        },
+        {
+          "word": "migas",
+          "syllables": [
+            "mi",
+            "gas"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "fósforo",
+          "b": "fósforo"
+        },
+        {
+          "a": "optimista",
+          "b": "optimista"
+        },
+        {
+          "a": "formigas",
+          "b": "formigas"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um fósforo, um pau de fósforo - vejam bem que com tão pouco se começa uma história.",
+        "Não presto para nada - suspirava, muito desconsoladamente, o pau de fósforo.",
+        "Passa um pé por perto e salta a ponte de pau e afogam-se as formigas...",
+        "Neste entretanto, passou a rasar por ele uma andorinha.",
+        "Tudo se aproveita, até um pau de fósforo."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "11-26",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "garrafões",
+          "distractors": [
+            "pardalito",
+            "automóvel",
+            "telheiro"
+          ],
+          "sentence": "Enchia uma quantidade de garrafões de plástico e, depois, abalava."
+        },
+        {
+          "target": "pardalito",
+          "distractors": [
+            "garrafões",
+            "pardal",
+            "pardais"
+          ],
+          "sentence": "Aos saltinhos, diante dos garrafões, o pardalito admirava a fotografia do rótulo."
+        },
+        {
+          "target": "estrada",
+          "distractors": [
+            "pardal",
+            "pardais",
+            "telheiro"
+          ],
+          "sentence": "Era uma vez uma fonte à beira da estrada."
+        },
+        {
+          "target": "pardal",
+          "distractors": [
+            "pardalito",
+            "estrada",
+            "pardais"
+          ],
+          "sentence": "Deve ir regar as couves - sugeria um pardal."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "garrafões",
+          "syllables": [
+            "gar",
+            "ra",
+            "fões"
+          ]
+        },
+        {
+          "word": "pardalito",
+          "syllables": [
+            "par",
+            "da",
+            "li",
+            "to"
+          ]
+        },
+        {
+          "word": "estrada",
+          "syllables": [
+            "es",
+            "tra",
+            "da"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dada",
+          "syllables": [
+            "da",
+            "da"
+          ]
+        },
+        {
+          "word": "dali",
+          "syllables": [
+            "da",
+            "li"
+          ]
+        },
+        {
+          "word": "lida",
+          "syllables": [
+            "li",
+            "da"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "garrafões",
+          "b": "garrafões"
+        },
+        {
+          "a": "pardalito",
+          "b": "pardalito"
+        },
+        {
+          "a": "estrada",
+          "b": "estrada"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez uma fonte à beira da estrada.",
+        "O que é que ele vai fazer com tanta água?",
+        "Voou atrás do automóvel, mas como ainda tinha as asas com pouca força e a estrada era às curvas e contra-curvas, perdeu-lhe o rasto.",
+        "Aos saltinhos, diante dos garrafões, o pardalito admirava a fotografia do rótulo.",
+        "Para segurar o nosso retrato - respondeu, prontamente, o pardalito."
+      ]
+    }
+  ]
+}

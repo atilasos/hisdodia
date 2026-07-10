@@ -9,9 +9,27 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Veio esta história de longe, da Índia, que é terra fértil em histórias de encantar.",
+        "Aí se conta de um príncipe filho do poderoso marajá (que era um rei da Índia, de antigamente), aí se fala de um príncipe cego.",
+        "Inexplicável doença roubara-lhe a luz dos olhos e nenhum sábio ou médico dos mais eminentes conseguia atinar com a cura do seu mal.",
+        "O rei (o marajá) só vivia para o seu desgosto e toda a corte mergulhara também em grande tristeza.",
+        "Mas, um dia, apresentou-se no palácio um peregrino que disse:",
+        "– Sei do remédio que cura o príncipe.",
+        "O marajá chamou-o logo à sua presença:",
+        "– Diz-me o que precisas para livrar o meu filho da cegueira, que tudo se fará como tu ordenares."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "– Preciso apenas de uma taça de cristal – respondeu o peregrino – e que Vossa Majestade me acompanhe numa viagem, através do reino.",
+        "Rei e peregrino desceram às ruas e aos campos miseráveis do reino. Por onde passavam, onde houvesse lágrimas vertidas pelo povo, lágrimas de sofrimentos, de misérias, de injustiças sofridas e caladas, o peregrino colhia-as na sua taça de cristal.",
+        "Quando tiveram a taça quase cheia de lágrimas – o que não foi difícil, porque o povo daquele reino era pobre e vivia abandonado, no meio da sua pobreza -, quando deram por finda a viagem e regressaram ao palácio, o peregrino banhou os olhos do príncipe com o conteúdo da taça. Que ninguém se admire com o que sucedeu…",
+        "Imaginem que logo, naquele instante, o príncipe voltou a ver.",
+        "A história não conta se o rei, depois desta viagem, passou a cuidar melhor dos assuntos do reino nem se o príncipe, uma vez rei, foi bom e justo para o seu povo. A história não conta, mas nós acreditamos que sim, que foi tal e qual como nós desejamos que tudo passou a acontecer.",
+        "FIM"
       ]
     }
   ],
@@ -25,21 +43,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/28/html/yrn55zlrvqad3mpehtmgu2vedqgp4em2/historia.aspx",
     "printPdf": "/recovered/0000/11/28/pdf/bi53nhvegfzyysjlht66ikpdppc5wiog/imprimir.pdf",
     "archiveDay": "/recovered/0000/11/28/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

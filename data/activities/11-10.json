@@ -1,0 +1,138 @@
+{
+  "id": "11-10",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "mago",
+          "distractors": [
+            "nome",
+            "arco",
+            "corda"
+          ],
+          "sentence": "Hás-de recuperar o teu reino com este arco que aqui te dou - dissera-lhe o mago Olef."
+        },
+        {
+          "target": "nuvens",
+          "distractors": [
+            "nome",
+            "corda",
+            "dragão"
+          ],
+          "sentence": "Se queres que chova no deserto, tens que chamar as nuvens - disse-lhe o mago."
+        },
+        {
+          "target": "nome",
+          "distractors": [
+            "mago",
+            "nuvens",
+            "arco"
+          ],
+          "sentence": "Marcílio era um nome falso, um nome escondido, porque o jovem herói da nossa história não podia revelar a ninguém a sua verdadeira…"
+        },
+        {
+          "target": "arco",
+          "distractors": [
+            "mago",
+            "nome",
+            "corda"
+          ],
+          "sentence": "E, impaciente, repuxou a corda do arco que estava solta."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "mago",
+          "syllables": [
+            "ma",
+            "go"
+          ]
+        },
+        {
+          "word": "nuvens",
+          "syllables": [
+            "nu",
+            "vens"
+          ]
+        },
+        {
+          "word": "nome",
+          "syllables": [
+            "no",
+            "me"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "goma",
+          "syllables": [
+            "go",
+            "ma"
+          ]
+        },
+        {
+          "word": "mano",
+          "syllables": [
+            "ma",
+            "no"
+          ]
+        },
+        {
+          "word": "menu",
+          "syllables": [
+            "me",
+            "nu"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "mago",
+          "b": "mago"
+        },
+        {
+          "a": "nuvens",
+          "b": "nuvens"
+        },
+        {
+          "a": "nome",
+          "b": "nome"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/11/10/images/fvmenagfglux4nufolet4xzthlt36eqd/Imagens/entrada.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Marcílio era um nome falso, um nome escondido, porque o jovem herói da nossa história não podia revelar a ninguém a sua verdadeira…",
+        "Não tens outra alternativa - dissera-lhe o Olef.",
+        "Mas, como era um moço decidido, não desistiu.",
+        "A notícia da vitória do jovem espalhou-se e vieram nuvens e nuvens de gente aclamá-lo.",
+        "Será que os novos, realmente, lhes dão ouvidos?"
+      ]
+    }
+  ]
+}

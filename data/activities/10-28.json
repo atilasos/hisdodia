@@ -1,0 +1,143 @@
+{
+  "id": "10-28",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "cavalo",
+          "distractors": [
+            "cavaleiro",
+            "grande",
+            "caminho"
+          ],
+          "sentence": "O cavalo que suportava este cavaleiro não tinha grande vocação para cavalarias altas."
+        },
+        {
+          "target": "cavaleiro",
+          "distractors": [
+            "cavalo",
+            "armadura",
+            "caminho"
+          ],
+          "sentence": "Era uma vez um cavaleiro, desses que havia dantes, de lata por fora, fechados por dentro, e de comprida lança levantada, com uma…"
+        },
+        {
+          "target": "armadura",
+          "distractors": [
+            "cavaleiro",
+            "caminho",
+            "cobiçaram"
+          ],
+          "sentence": "Se o meu dono dispensasse a armadura, até o caminho passava a ser mais macio."
+        },
+        {
+          "target": "lata",
+          "distractors": [
+            "dono",
+            "ferro",
+            "macho"
+          ],
+          "sentence": "Carregar um cavaleiro, sem a casca-carapaça de ferro e lata, valia por um passeio."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "cavalo",
+          "syllables": [
+            "ca",
+            "va",
+            "lo"
+          ]
+        },
+        {
+          "word": "cavaleiro",
+          "syllables": [
+            "ca",
+            "va",
+            "lei",
+            "ro"
+          ]
+        },
+        {
+          "word": "armadura",
+          "syllables": [
+            "ar",
+            "ma",
+            "du",
+            "ra"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "arca",
+          "syllables": [
+            "ar",
+            "ca"
+          ]
+        },
+        {
+          "word": "arma",
+          "syllables": [
+            "ar",
+            "ma"
+          ]
+        },
+        {
+          "word": "cama",
+          "syllables": [
+            "ca",
+            "ma"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "cavalo",
+          "b": "cavalo"
+        },
+        {
+          "a": "cavaleiro",
+          "b": "cavaleiro"
+        },
+        {
+          "a": "armadura",
+          "b": "armadura"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/28/images/d67dfebe231b916d86168084/imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um cavaleiro, desses que havia dantes, de lata por fora, fechados por dentro, e de comprida lança levantada, com uma…",
+        "Se o meu dono dispensasse a armadura, até o caminho passava a ser mais macio.",
+        "Quem me dera que a história se ficasse por aqui\", suspirava o cavalo, aliviado.",
+        "De longe, o cavalo viu os ladrões alcançarem as peças da armadura para cima de um macho desgraçado.",
+        "Revestido de novo da sua vaidosa armadura, o cavaleiro, fincando os joelhos de ferro nos lados da montada, incitou-a a prosseguir caminho."
+      ]
+    }
+  ]
+}

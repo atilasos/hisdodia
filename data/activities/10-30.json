@@ -1,0 +1,139 @@
+{
+  "id": "10-30",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "nome",
+          "distractors": [
+            "prima",
+            "assim",
+            "então"
+          ],
+          "sentence": "Ildefonso é o nome do meu tio, irmão do meu pai que se chama Inácio."
+        },
+        {
+          "target": "prima",
+          "distractors": [
+            "nome",
+            "assim",
+            "pequeno"
+          ],
+          "sentence": "Mas há mais: há a minha prima Inês, a tia Idalina, casada com o Doutor Isidoro, as minhas primas Isilda e Isabel e a minha irmã Ivone…"
+        },
+        {
+          "target": "assim",
+          "distractors": [
+            "nome",
+            "prima",
+            "então"
+          ],
+          "sentence": "Quem assim fala dos seus parentes, todos da ilustre família dos Is grandes, é o I ainda pequeno."
+        },
+        {
+          "target": "segredou",
+          "distractors": [
+            "pequeno",
+            "nascido",
+            "gostava"
+          ],
+          "sentence": "Mas o meu avô Isidro, quando isto ouviu, segredou ao meu tio Isidoro e o meu tio Isidoro segredou à minha prima Isilda e a minha prima…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "nome",
+          "syllables": [
+            "no",
+            "me"
+          ]
+        },
+        {
+          "word": "prima",
+          "syllables": [
+            "pri",
+            "ma"
+          ]
+        },
+        {
+          "word": "nascido",
+          "syllables": [
+            "nas",
+            "ci",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dono",
+          "syllables": [
+            "do",
+            "no"
+          ]
+        },
+        {
+          "word": "manas",
+          "syllables": [
+            "ma",
+            "nas"
+          ]
+        },
+        {
+          "word": "mano",
+          "syllables": [
+            "ma",
+            "no"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "nome",
+          "b": "nome"
+        },
+        {
+          "a": "prima",
+          "b": "prima"
+        },
+        {
+          "a": "assim",
+          "b": "assim"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/30/images/81ababe76e1067f47e2f7bfb/imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Ildefonso é o nome do meu tio, irmão do meu pai que se chama Inácio.",
+        "Mas o meu avô Isidro, quando isto ouviu, segredou ao meu tio Isidoro e o meu tio Isidoro segredou à minha prima Isilda e a minha prima…",
+        "Hão-de estranhar que tenha nascido em Portugal, que não começa por I, mas não se esqueçam que está situado na Península Ibérica, pois então?",
+        "Devem talvez achar a minha conversa uma tontice da infância, uma ingenuidade, uma manifestação de inocência.",
+        "Inteligente e instruído começam por I, tal como eu."
+      ]
+    }
+  ]
+}

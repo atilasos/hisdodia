@@ -1,0 +1,132 @@
+{
+  "id": "11-07",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "pulga",
+          "distractors": [
+            "frasco",
+            "assim",
+            "vidro"
+          ],
+          "sentence": "Vocês conhecem aquela cantilena: \"Salta a pulga da balança e vai ter até à França..."
+        },
+        {
+          "target": "balança",
+          "distractors": [
+            "frasco",
+            "conhecem",
+            "respondi"
+          ],
+          "sentence": "Sobre a secretária do escritório, toda de tampo de vidro, havia, entre outros objectos atraentes, uma pequena balança de pesar cartas e…"
+        },
+        {
+          "target": "frasco",
+          "distractors": [
+            "pulga",
+            "balança",
+            "assim"
+          ],
+          "sentence": "Pus o frasco em cima do prato da tal balança."
+        },
+        {
+          "target": "assim",
+          "distractors": [
+            "pulga",
+            "frasco",
+            "vidro"
+          ],
+          "sentence": "Pois quando eu era assim mais ou menos da vossa idade gostava muito de ir até ao gabinete de trabalho do meu pai, sobretudo quando ele…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "pulga",
+          "syllables": [
+            "pul",
+            "ga"
+          ]
+        },
+        {
+          "word": "balança",
+          "syllables": [
+            "ba",
+            "lan",
+            "ça"
+          ]
+        },
+        {
+          "word": "frasco",
+          "syllables": [
+            "fras",
+            "co"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "coça",
+          "syllables": [
+            "co",
+            "ça"
+          ]
+        },
+        {
+          "word": "lança",
+          "syllables": [
+            "lan",
+            "ça"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "pulga",
+          "b": "pulga"
+        },
+        {
+          "a": "balança",
+          "b": "balança"
+        },
+        {
+          "a": "frasco",
+          "b": "frasco"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/11/07/images/qnt6qq4g5mkidgqd3czxstu3tbahsviv/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Vocês conhecem aquela cantilena: \"Salta a pulga da balança e vai ter até à França...",
+        "Era uma divisão espaçosa, com muitos livros nas estantes.",
+        "Pedi emprestada uma pulga à minha cadela Balalaica, meti a pulga num frasquinho e, secretamente, fui ao escritório.",
+        "O meu pai era muito curioso, muito metediço...",
+        "E foi assim que se concretizou o que a cantilena anunciava: saltou a pulga da balança e foi ter até à França..."
+      ]
+    }
+  ]
+}

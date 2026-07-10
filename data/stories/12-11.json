@@ -9,9 +9,35 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era uma vez uma menina que estava presa, na torre mais alta de um castelo.",
+        "Ela era um princesa, mas não lhe valia de nada, porque perdera os seus pais e o reino, numa guerra que o dono do castelo, já se vê, é que ganhara.",
+        "Ainda era o tempo das fadas. Por isso a menina disse, para que as paredes ouvissem:",
+        "– Se uma fada me salvasse, fosse boa, má ou assim-assim e eu repartia a meias com ela o tesouro do meu perdido reino, que só eu sei onde está enterrado.",
+        "As paredes toda a gente diz que têm ouvidos. Estas ouviram, passaram palavra e daí a nada uma velha fada apareceu na sala.",
+        "– Vou dar volta à tua vida – disse a fada.",
+        "– És uma fada boa? – perguntou a menina.",
+        "– Nem por isso – respondeu a fada."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "Era uma fada assim-assim e para provar que não era das melhores, mas também não era das piores, impôs, à partida, uma condição. Salvava a menina, mas, antes, ela tinha de adivinhar-lhe o nome. E avisou logo que não tinha um nome muito mimoso.",
+        "– Serafina – disse a menina.",
+        "Nem pensar. Não era Serafina nem Leopoldina nem Marcolina. Nem Eufrásia nem Tomásia. Nem Quitéria nem Pulquéria. Nem Aniceta nem Eustáquia nem Teodósia nem Venância nem Bonifácia nem Gregória. Nem sequer Capitolina.",
+        "A princesa esgotou os nomes mais esquisitos que conhecia. E a fada sempre com a cabeça a dizer que não. Até que propôs o seguinte negócio:",
+        "– Salvo-te, mesmo que não descubras o meu nome, mas fico com o tesouro só para mim. Todinho!",
+        "A menina concordou. Não tinha outro remédio. Vai daí a fada pronunciou umas palavras mágicas e ela e a princesa atravessaram as paredes da prisão.",
+        "Uma vez em liberdade, a princesa ensinou o local onde estava escondido o tesouro e pronto, a história acaba aqui.",
+        "E o nome da fada-bruxa?",
+        "Também a menina quis saber.",
+        "– Chamo-me Joaninha – respondeu a fada-bruxa, baixando os olhos, envergonhada.",
+        "– Mas Joaninha é um nome bonito – estranhou a princesa.",
+        "– Eu não acho – disse ela. – Gostava mais de ser Virgolina Zebedeia.",
+        "Vá lá a gente entender o gosto das bruxas.",
+        "FIM"
       ]
     }
   ],
@@ -31,21 +57,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/12/11/html/xi6whjs74gumeizq3t7xn46xvbprloyr/historia.aspx",
     "printPdf": "/recovered/0000/12/11/pdf/6sy36xcbsd3go66zwhpbokli2537js2h/imprimir.pdf",
     "archiveDay": "/recovered/0000/12/11/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

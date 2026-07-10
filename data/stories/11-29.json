@@ -9,9 +9,67 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era um papagaio muito esperto. Tudo o que ouvia imitava. E até o que não ouvia...",
+        "Tinha poiso no restaurante do senhor Albano, um modesto restaurante do bairro, sem nada de especial, salvo o papagaio. À sua conta, o palrador atraía a clientela, que vinha de longe só para ouvir-lhe as habilidades.",
+        "-Como te chamas?",
+        "Tratava todos por tu.",
+        "Não era um papagaio de cerimónias. O visado respondia, por exemplo:",
+        "-Manuel.",
+        "E logo o papagaio rimava:",
+        "- Pastel.",
+        "Ou caso fosse:",
+        "- Manuela.",
+        "O papagaio rimava:",
+        "- Rodela de morcela.",
+        "Ou:",
+        "- Agostinho.",
+        "- Copo de vinho.",
+        "Sempre que fosse rima de comer ou de beber, o senhor Albano servia.",
+        "- Somos sócios - explicava o senhor Albano, muito contente com o negócio dos comes e dos bebes.",
+        "Mas não eram. E porque não eram, o papagaio gostava de pregar-lhe partidas.",
+        "Uma vez, um cliente, que precisou de ir à casa-de-banho e ia abrir a porta respectiva, ouviu uma voz dizer:",
+        "- Está gente.",
+        "O senhor recuou e esperou. Esperou o mais que pôde e mais não podendo foi dar conta da sua necessidade noutro sítio.",
+        "Outra pessoa com vontade de ir à casa-de-banho e a mesmo voz a avisar:",
+        "- Está gente.",
+        "O caso repetiu-se, a ponto de o senhor Albano se intrigar. Ele próprio foi ter à porta da casa-de-banho.",
+        "- Está gente - respondeu a voz.",
+        "O senhor Albano não se conformou e abriu a porta. Como se calcula, o papagaio era o responsável. Agarrado pelo pescoço, teve de ouvir das boas do dono:",
+        "- Eu te dou a gente, papagaio de uma figa torta.",
+        "- Mão morta, mão morta, vai bater àquela porta - respondia o papagaio, muito esganiçado.",
+        "Passados dias, a mesma coisa. Alguém com precisão inadiável e a porta da casa-de-banho fechada.",
+        "- Está gente - diziam, de dentro.",
+        "Minutos depois, novo truz-truz e a mesma voz a anunciar:",
+        "- Está gente.",
+        "O senhor Albano desconfiou e também ele bateu:",
+        "- Está gente - foi a resposta.",
+        "- Isso é que não está - disse o senhor Albano, atirando um ombro à porta que, por sinal, estava fechada à chave.",
+        "- Está gente - gritou um indignado protesto, do outro lado.",
+        "Novo encontrão, a porta cedeu e o senhor Albano entrou, de repelão. Afinal, desta vez, estava mesmo gente, logo, para mais, uma senhora...",
+        "- Ah, desculpe que foi engano! - exclamou, atrapalhado, o dono do restaurante.",
+        "O papagaio, que a tudo assistira, escondido atrás de umas pipas, riu que se fartou.",
+        "Ou não se fartou, porque daí em diante, por tudo e por nada, gritava:",
+        "- Albano foi engano - e largava uma risada daquelas amalandradas, de rebentar com os nervos a um santo, quanto mais a um Albano, dono de um tasco de comes e bebes.",
+        "O que ele barafustava:",
+        "- Palavra que, um dia, perco a cabeça e meto-te na panela.",
+        "- Perdias clientela - gritava o papagaio.",
+        "- Deixo-te a cozer!",
+        "- Ficavas a perder...",
+        "- Com batata às rodelas!",
+        "- Depois é que eram elas...",
+        "- Sal, azeite ou margarina...",
+        "- Ficavas na ruína! Ficavas na ruína!",
+        "- Servido com presunto...",
+        "- Albano sem bestunto!",
+        "- E salsa bem picada...",
+        "- Sem mim não eras nada!",
+        "- Sabias a galinha.",
+        "Neste ponto, o papagaio eriçava-se todo e gritava:",
+        "- Galinha, qual galinha?! A minha carne é minha! A minha carne é minha!",
+        "E voava assarapantado, deitando ao chão tudo o que estivesse nas prateleiras do restaurante. Nessas ocasiões, o senhor Albano, avaliados os estragos, também não se ficava a rir.",
+        "Fora estes arrufos, davam-se os dois muito bem."
       ]
     }
   ],
@@ -36,21 +94,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/29/html/n6yixivrupi6qnmm6qth5zzk76s36lvs/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/11/29/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

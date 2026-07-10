@@ -9,9 +9,29 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era uma vez uma fonte à beira da estrada. Os pardais das árvores vizinhas tinham ali o seu ponto de encontro.",
+        "Matavam a sede, tomavam banho, chilreavam uns com os outros.",
+        "De semana a semana, vinha um homem, sempre de automóvel, buscar água à fonte. Enchia uma quantidade de garrafões de plástico e, depois, abalava.",
+        "Nessas alturas, a pardalada fugia para o poiso das árvores e ficava a observar.",
+        "- O que é que ele vai fazer com tanta água? - intrigava-se um pardalito novo.",
+        "- Deve ir regar as couves - sugeria um pardal.",
+        "- Para ele regar as couves é pouca - replicava uma velha pardoca, muito conhecedora da vida.",
+        "- Então é para ele beber - propunha outro pardal.",
+        "- Para ele beber é muita - replicava a velha pardoca.",
+        "- Para o que será? - perguntava o pardalito, sem que ninguém soubesse responder-lhe.",
+        "Decidiu investigar. Voou atrás do automóvel, mas como ainda tinha as asas com pouca força e a estrada era às curvas e contra-curvas, perdeu-lhe o rasto. E perdeu-se.",
+        "Esvoaçou ao calhas, até descer sobre um telheiro, junto à estrada. No telheiro havia melões à venda e cebolas e batatas e garrafões de vinho.",
+        "Alto lá! E também havia garrafões de água, tal e qual os que o homem do automóvel enchia, na fonte dos pardais.",
+        "Se o pardal soubesse ler, leria no rótulo dos garrafões: \"ÁGUA DA FONTE DA SAÚDE - Graças a ela, os novos crescem e os velhos não encolhem\".",
+        "Aos saltinhos, diante dos garrafões, o pardalito admirava a fotografia do rótulo.",
+        "Lá estava a fonte, centro da sua vida, e uns passarinhos a beber água no rebordo do tanque. Vendo bem, aquele mais pequeno, à direita, podia ser ele, o pardalito aventureiro.",
+        "Muito orgulhoso da sua descoberta, o pardal voou muito alto, tão alto que, lá de cima, viu o telheiro dos garrafões, a estrada às curvas e a fonte da Saúde ou dos pardais, donde ele viera.",
+        "Disparou em direcção ao ponto de partida e muito excitado piou para os companheiros:",
+        "- Já sei o segredo dos garrafões. O homem anda a vender o nosso retrato mais o retrato da nossa fonte.",
+        "- E a água para que serve? - perguntou um companheiro.",
+        "- Para segurar o nosso retrato - respondeu, prontamente, o pardalito."
       ]
     }
   ],
@@ -25,21 +45,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/26/html/y6zyoszvadhpd6kiohnpmxz2astbstka/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/11/26/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

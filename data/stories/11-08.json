@@ -9,9 +9,31 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Lá para as terras de Bagdad, que um poderoso sultão governava, havia um alfaiate que tinha um filho tão ou mais hábil do que o pai nas artes de alfaiataria.",
+        "A bem dizer, o rapaz não era filho de alfaiate. Encontrara-o ele, bebé ainda, dentro de um cestinho, à sua porta, abandonado sabe-se lá por quem. Mas tanto fazia.",
+        "Recolhido e amimado, o menino crescera na casa acolhedora do velho alfaiate, sem nunca saber a sua verdadeira origem.",
+        "Quando o pai adoptivo morreu, o jovem prosseguiu o ofício que aprendera do seu protector. Ganhou fama profissional, tanta que de longes terras vinham encomendar-lhe fatos e túnicas dos mais finos tecidos.",
+        "Um dia, um escravo de sabre em punho veio buscá-lo para que fosse com ele a determinado sítio, para receber uma encomenda.",
+        "- Leva a tua melhor tesoura, porque a freguesia é exigente - recomendou-lhe o escravo.",
+        "Mas, para que o alfaiate não ficasse a saber o caminho nem localizasse o cliente, vendou-lhe os olhos com um lenço.",
+        "Levou-o assim ao harém privado do sultão, onde, depois de tirar-lhe a venda, o apresentou às favoritas do sultão.",
+        "O rapaz ficou de olhos esbugalhados, com tanta beleza à sua volta. Não sabia onde estava, mas desconfiou.",
+        "As favoritas, de rosto velado, encomendaram-lhe um nunca mais acabar de vestidos. Estava ele a tirar as medidas, um bocado atordoado com a aventura, quando se abriu a porta. Era sultão.",
+        "- Que está aqui a fazer este desgraçado? - perguntou o sultão, furioso.",
+        "Não houve explicações que o satisfizessem. Nenhum homem senão ele podia frequentar aquelas salas do palácio. Quem perdesse a cabeça e arriscasse, perdia mesmo a cabeça, de verdade.",
+        "- Mas antes de cortarem a cabeça ao intruso, chicoteiem-no com cem vergastadas - ordenou o sultão.",
+        "Assim se dispunham a fazer quando o rapaz, tentando salvar a vida, arrancou o sabre das mãos do escravo que o trouxera e fez frente aos guardas. Tão hábil era ele a manejar a tesoura como o sabre.",
+        "Um a um, derrubou os opositores. Chegando à beira do sultão, que estava desarmado, dispunha-se a trespassá-lo. Outra solução não tinha. Ou matava ou era morto.",
+        "Nisto, uma das favoritas reparou, por um dos rasgões da camisa, estraçalhada na luta, que o rapaz tinha nas costas um singular sinal em forma de ananás.",
+        "- É o sinal da realeza - gritou ela. - Não mates o sultão que ele é teu pai.",
+        "Mas já o jovem alfaiate tinha acertado um profundo golpe no peito do sultão.",
+        "Suspendeu-se à beira de vibrar o segundo.",
+        "Foi-se ver e era verdade.",
+        "Um adivinho predissera, no nascimento do príncipe, que aquele menino iria pôr em perigo a vida do pai. Por isso é que se tinham desembaraçado dele, em criança.",
+        "O velho sultão, a esvair-se em sangue, foi socorrido pelos médicos da corte. Salvaram-no. Safou-se, mas ficou muito fracalhote, daí em diante.",
+        "O alfaiate, agora príncipe, ocupou o seu lugar à frente do reino. Passou a governar com mais senso e justiça do que o pai. Nos intervalos da governação, talhava vestidos. No harém, as favoritas cosiam à linha. Aquilo já não parecia um palácio, mas uma fábrica de confecções. Chegaram a trabalhar para fora."
       ]
     }
   ],
@@ -39,21 +61,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/08/html/7lomfihbzbl7jiwkeslxszpwsh2hvvme/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/11/08/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

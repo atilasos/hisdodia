@@ -1,0 +1,143 @@
+{
+  "id": "10-13",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "terceiro",
+          "distractors": [
+            "caçador",
+            "caçadores",
+            "primeiro"
+          ],
+          "sentence": "Um vinha à frente, outro no meio e o terceiro atrás."
+        },
+        {
+          "target": "caçador",
+          "distractors": [
+            "terceiro",
+            "caçadores",
+            "primeiro"
+          ],
+          "sentence": "Tinham em muito respeito o terceiro caçador, o que vinha atrás de todos."
+        },
+        {
+          "target": "tiros",
+          "distractors": [
+            "terceiro",
+            "três",
+            "vinha"
+          ],
+          "sentence": "Olharam-se, desesperados, e como estavam furiosos, começaram a dar tiros para o ar, tiros ao desbarato."
+        },
+        {
+          "target": "coelhinho",
+          "distractors": [
+            "terceiro",
+            "caçador",
+            "caçadores"
+          ],
+          "sentence": "Andaram, andaram, até encontrarem à beira da estrada, muito sossegado, a ver quem passava, um coelhinho pequenino e inocente."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "terceiro",
+          "syllables": [
+            "ter",
+            "cei",
+            "ro"
+          ]
+        },
+        {
+          "word": "caçador",
+          "syllables": [
+            "ca",
+            "ça",
+            "dor"
+          ]
+        },
+        {
+          "word": "caçadores",
+          "syllables": [
+            "ca",
+            "ça",
+            "do",
+            "res"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "caro",
+          "syllables": [
+            "ca",
+            "ro"
+          ]
+        },
+        {
+          "word": "caçado",
+          "syllables": [
+            "ca",
+            "ça",
+            "do"
+          ]
+        },
+        {
+          "word": "dores",
+          "syllables": [
+            "do",
+            "res"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "terceiro",
+          "b": "terceiro"
+        },
+        {
+          "a": "caçador",
+          "b": "caçador"
+        },
+        {
+          "a": "caçadores",
+          "b": "caçadores"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/13/images/gex4xt4iqczmfdbmdowefxrfxzorgvzh/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Um vinha à frente, outro no meio e o terceiro atrás.",
+        "Melhor seria desistirmos - dizia o segundo.",
+        "Sempre era uma forma de nos distrairmos.",
+        "Entretanto, o coelhinho pequenino e inocente desapareceu.",
+        "Quando tinham consumido o último cartucho, o coelhinho pequenino e inocente apareceu de novo, muito interessado em saber qual a razão de…"
+      ]
+    }
+  ]
+}

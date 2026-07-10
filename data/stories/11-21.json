@@ -9,9 +9,38 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era um frade de capuz descido, a caminho do mosteiro, no cimo da serra.",
+        "A friagem do princípio da noite era de respeito. Vinha tocada pelo vento, que assobiava pelas frinchas dos rochedos e despenteava as copas dos pinheiros. O frade tremia.",
+        "Tremia de frio ou tremia de medo?",
+        "Vai-se lá saber, mas o mais certo é que se juntassem nos mesmos sítios do corpo as duas tremuras. As pernas vacilavam-lhe. Os dentes tiniam-lhe uns de encontro aos outros, enquanto balbuciava uma prece incerta:",
+        "- Que Santa-ta-ta Bár-ba-ba-ra me-me livre dos lo-bos-bos-bos...",
+        "Nem de propósito.",
+        "Salta-lhe um lobo ao caminho, com os olhos em fogo e uma dentadura de escárnio e malvadez, que metia impressão.",
+        "- Vais para casa da avozinha? - perguntou-lhe o lobo, que sabia da história antiga o suficiente.",
+        "Tinham-lhe contado em pequeno, com muitos pormenores que ele já esquecera.",
+        "Do essencial ainda se lembrava. Como estava escuro, o lobo não distinguia a cor do capuz nem isso lhe importava muito.",
+        "- Levas merenda para a viagem? - insistiu o lobo, perante o silêncio do frade encapuçado.",
+        "O caminho era ruim, com lombas e pedras soltas, mas o frade não se queixou e seguiu por ele adiante, em passo cada vez mais estugado, como se a conversa não fosse com ele. O lobo à cola.",
+        "- Ó capuchinho, então tu não falas? - soprava-lhe o lobo às canelas. - O que é que tu levas de comer para a avozinha?",
+        "Um frango assado? Presunto? Compota? Biscoitos?",
+        "O lobo, a dizer estas coisas, babava-se que era uma vergonha. E o frade, moita!",
+        "- A avozinha, à tua espera, já deve estar em cuidado. Queres que eu vá, à frente, avisá-la de que não tardas? Depois esperamos por ti... Onde é que ela mora?",
+        "Nesta oportunidade, o frade podia safar-se.",
+        "Dizendo onde morava a avozinha, mandava o lobo descer até um posto da guarda, nos baixos da serra. Os guardas florestais, de espingarda pronta, dariam conta do resto da história...",
+        "Mas o frade não queria nem sabia mentir.",
+        "E continuou calado, as forças todas concentradas na corrida e no fio do caminho, que nunca mais chegava ao fim.",
+        "- Ó capuchinho, que pressa a tua! Quando tu chegares a casa da avó, ainda ela se zanga contigo, se te vê toda suada, nesse desalinho de menina tontelas...",
+        "Neste ponto, o frade, não aguentando mais o bafo do lobo, gritou, num desespero:",
+        "- Não tenho avó e para onde eu vou é para o convento, se Deus quiser.",
+        "A voz do frade era forte e grossa, apesar da fraqueza das pernas e dos saltos do coração. Pasmou o lobo:",
+        "- Vossa senhoria desculpe, mas eu não sabia que o capuchinho tinha professado. Ou então enganei-me eu na história...",
+        "E o lobo meteu o rabo entre as pernas e deixou o frade em paz.",
+        "Já no meio do mato, apagado o fogo dos olhos, meneando a cabeça, o lobo matutava:",
+        "- Quando a gente é pequena acredita em tudo o que nos contam... Nunca supus que o capuchinho tivesse voz de trovão. Até se me puseram os pelos em pé do susto que apanhei.",
+        "E o lobo pôs-se a alisar os pelos do dorso com a língua salivosa. Se a noite desse para vê-lo, dir-se-ia um cachorrinho desapontado. Metia pena.",
+        "Por sua vez, o frade, que, derreado, já se aproximava dos muros do convento, ainda teve fôlego para lançar às estrelas a sua possante voz, num cântico de louvor a Santa Bárbara, madrinha dos caminhantes, amansadora da braveza das feras."
       ]
     }
   ],
@@ -66,21 +95,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/21/html/ilovnkehpjtq7sugav6c3a4zwugkes5o/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/11/21/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

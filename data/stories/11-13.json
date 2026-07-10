@@ -9,9 +9,42 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "O cão e o gato não eram amigos, mas faziam de conta. Viviam ambos abrigados no casebre de uma pobre velha, que com eles repartia o pouco que tinha.",
+        "– Sejam amiguinhos. Sejam amiguinhos – estava sempre ela a dizer-lhes.",
+        "Pela comida e dormida os dois incorrigíveis inimigos aturavam-se. Que remédio.",
+        "Um dia, a velhota morreu. Vieram os filhos, vieram os netos e enxotaram-nos do casebre.",
+        "Cão e gato, tristes por terem perdido a sua protectora e o mínimo de conforto que ela lhes proporcionava, ficaram a rondar a casa, mas cada um para seu lado. \"Sejam amiguinhos. Sejam amiguinhos\", ainda lhes soava nos ouvidos."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "Choveu. Fazia frio. Tiritantes e cheios de fome, acolheram-se a uma gruta. Era uma gruta muito comprida, tão comprida que eles se internaram por ela adentro, à procura nem sabiam de quê.",
+        "Cada vez mais fundo, cada vez mais longe do mundo que conheciam, foram ter a uma clareira iluminada. No meio, sentado nas pernas cruzadas, estava o Génio das Cavernas.",
+        "– Que querem de mim? – perguntou-lhes o Génio.",
+        "A bem dizer, eles não queriam nada a não ser um dono, comida, calor, carinho. Foi o que pediram.",
+        "– Concedido – disse-lhes o Génio. – Com uma única condição: cada um transforma-se no outro.",
+        "Eles, a princípio, nem entendiam a proposta, mas quando perceberam que o gato tinha de passar a cão e o cão, a gato, protestaram com toda a gana.",
+        "– Eu não quero ser cão – bufou o gato.",
+        "– Eu não quero ser gato – rosnou o cão.",
+        "Nada feito. Ou aceitavam a troca ou acabariam por morrer, à fome e ao frio.",
+        "Lá se resignaram à mudança, já que a alternativa também não era nada apetecível.",
+        "O Génio executou a magia e o gato passou para a pele de cão e o cão para a pele de gato. Esquisito.",
+        "Correram ambos na direcção da entrada da gruta, ainda assarapantados.",
+        "– Que cãozinho e que gatinho tão bonitos. Posso levá-los para casa? – perguntou uma menina ao pai.",
+        "– Os cães e os gatos não se dão bem uns com os outros – apressou-se a explicar o pai."
+      ]
+    },
+    {
+      "layer": "pdf-page-3",
+      "paragraphs": [
+        "– Mas estes dão-se. Tão juntinhos. Tão amigos – disse a menina.",
+        "Era verdade. Cada um olhava para o outro como se fosse ele próprio. Ora, como é que uma pessoa ou um bicho pode dar-se mal com ele mesmo?",
+        "E assim o gato-cão e o cão-gato arranjaram uma nova dona. À noite, enroscados um no outro, não se sabe onde começa o cão e acaba o gato. Fizeram-se, realmente amigos.",
+        "Até pode acontecer que, um dia, o Génio das Cavernas lhes devolva as respectivas identidades e o cão volte a ser cão e o gato volte a ser gato. Mas valerá a pena?",
+        "FIM"
       ]
     }
   ],
@@ -43,21 +76,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/13/html/me66c4izdc35qwt737zqagiy6y4pqt7h/historia.aspx",
     "printPdf": "/recovered/0000/11/13/pdf/nkteuh2pfgx6c6pfdd7jfvjsoudqmtnm/imprimir.pdf",
     "archiveDay": "/recovered/0000/11/13/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

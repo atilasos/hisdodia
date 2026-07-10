@@ -9,9 +9,38 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "O meu amigo Carloto, antes de sair de casa para dar uma voltinha de bicicleta, avisou a mãe:",
+        "- Hoje vou cair da bicicleta e esfolar um joelho.",
+        "A mãe foi logo buscar a caixa dos primeiros socorros, para estar tudo à mão, quando o Carloto regressasse da queda. Não seria acidente grave. Nem, muito menos, o primeiro.",
+        "É que, de facto, o Carloto adivinha as coisas, mas só coisas que o tivessem como protagonista, isto é, como centro da referida coisa, não sei se me estou a fazer entender... Que coisa!",
+        "Às vezes, dizia a mãe:",
+        "- Hoje, vou chegar todo encharcado a casa.",
+        "A mãe ainda acudia:",
+        "- Então, leva um chapéu-de-chuva, filho.",
+        "Ele explicava:",
+        "- Se levo chapéu-de-chuva, já não chove e a chuva também faz falta...",
+        "Coisa complicada.",
+        "Só adivinha o pior, dentro do relativo, que não era assim tão mau como isso.",
+        "- Hoje vou perder o boné, na escola.",
+        "- Hoje vou rasgar as calças, numas moitas.",
+        "- Hoje vou partir os óculos, no futebol.",
+        "Não valia a pena prevenir. Estava previsto e acontecia, i-ne-vi-ta-vel-men-te.",
+        "O Carloto, conformado com o seu pequeno poder da adivinhação, resignava-se a que seria assim pela vida fora. A mãe dele também encolhia os ombros, sem se inquietar muito, e suspirava:",
+        "- O que eu quero é que o meu filho nunca adivinhe grandes desastres.",
+        "Mas, desta vez, alarmou-se.",
+        "Uma vizinha veio dizer-lhe:",
+        "- O seu Carloto caiu da bicicleta, bateu com a cabeça no passeio e foi de ambulância para o hospital.",
+        "A mãe do Carloto atirou-se para dentro de um táxi com a vizinha e, numa ansiedade, que lhe cortava a respiração, foi ao hospital saber do seu mais-que-tudo na vida.",
+        "O médico tranquilizou-a:",
+        "- O seu filho, felizmente, não chegou a sofrer traumatismo craniano. Quando ele andar de bicicleta, recomende-lhe que use capacete.",
+        "- E não está ferido, senhor doutor?",
+        "- Nada de grave. Só esfolou um joelho - respondeu o médico, com um sorriso simpático.",
+        "A mãe foi ver o Carloto, deitado numa cama e ainda um tanto abalado. Não se lembrava de nada, nem sequer de que tinha adivinhado o acidente. Ou parte: o joelho esfolado.",
+        "Aliás, desde esse dia, fosse do que fosse, talvez da pancada, o Carloto já não conseguia prever nem sequer uma unha partida.",
+        "Perdera os seus poderes especiais.",
+        "Uma coisa destas é que o Carloto nunca podia adivinhar."
       ]
     }
   ],
@@ -31,21 +60,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/05/html/kedneub4hbhfyipwcjpnrkjwi3zo7g5w/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/11/05/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

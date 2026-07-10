@@ -1,0 +1,139 @@
+{
+  "id": "10-06",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "rato",
+          "distractors": [
+            "casa",
+            "botas",
+            "velho"
+          ],
+          "sentence": "Era uma vez um rato que morava num sapato."
+        },
+        {
+          "target": "sapato",
+          "distractors": [
+            "botas",
+            "morava",
+            "velho"
+          ],
+          "sentence": "Um sapato velho, um sapato sem préstimo..."
+        },
+        {
+          "target": "casa",
+          "distractors": [
+            "rato",
+            "botas",
+            "velho"
+          ],
+          "sentence": "Queria uma casa mais desafogada, mais espaçosa."
+        },
+        {
+          "target": "botas",
+          "distractors": [
+            "rato",
+            "sapato",
+            "casa"
+          ],
+          "sentence": "Um velho coronel de cavalaria vendeu-lhe as botas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "rato",
+          "syllables": [
+            "ra",
+            "to"
+          ]
+        },
+        {
+          "word": "sapato",
+          "syllables": [
+            "sa",
+            "pa",
+            "to"
+          ]
+        },
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "capa",
+          "syllables": [
+            "ca",
+            "pa"
+          ]
+        },
+        {
+          "word": "cara",
+          "syllables": [
+            "ca",
+            "ra"
+          ]
+        },
+        {
+          "word": "cato",
+          "syllables": [
+            "ca",
+            "to"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "rato",
+          "b": "rato"
+        },
+        {
+          "a": "sapato",
+          "b": "sapato"
+        },
+        {
+          "a": "casa",
+          "b": "casa"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/06/images/36bqwurue46z6xukvytgs5qj5h2pnyxf/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um rato que morava num sapato.",
+        "Pôs um anúncio: \"BOTA POUCO USADA PRECISA-SE PARA HABITAÇÃO\".",
+        "Mas, como estava no Inverno, adiou o projecto.",
+        "Correu para o sapato, mas encontrou-o já ocupado por uma ratazana antipática.",
+        "Este rato sempre teve a mania das grandezas."
+      ]
+    }
+  ]
+}

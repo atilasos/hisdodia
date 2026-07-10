@@ -9,9 +9,28 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era uma castanha que estava como as outras, pendurada de um castanheiro.",
+        "Chegando o tempo, as castanhas amadurecem e caem por si. Só que esta não caiu.",
+        "– Estou bem onde estou e não quero aventuras – dizia.",
+        "Uma a uma, as outras dos ramos iam caindo e rebolando pelo chão, protegidas pelo cobertor ouriçado que as cobria até ao nariz. Nariz é modo de dizer…",
+        "Vinham os garotos, estalavam-lhe os ouriços e metiam-nos nos bolsos. A tímida e teimosa castanha desta história a tudo assistia do seu mirante e não gostava.",
+        "– A mim não me levam eles – dizia.",
+        "Era a única que sobrava em todo o castanheiro. As folhas a fugirem da árvore, sopradas pelo vento, e ela a afincar-se ao ramo, com unhas e dentes. Unhas e dentes é um modo de dizer…"
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "Sozinha, desabrigada, não estava feliz. Nem infeliz. Sentia até uma ponta de orgulho por ter conseguido resistir tanto tempo. Um sabor de vitória que a ouriçou toda.",
+        "– Ai que vou cair – gritou.",
+        "Mas, no último instante, conseguiu agarrar-se. Ainda não era daquela.",
+        "Entardecia. Um grupo de gente acendera uma fogueira, junto ao castanheiro. Os garotos, que tinham andado às castanhas, e os pais dos garotos e os amigos dos garotos riam e cantavam. Estavam a preparar o magusto da noite de São Martinho.",
+        "A castanha solitária, no alto do castanheiro nu, estranhou a vizinhança. E intrigou-se. Que estaria a passar-se.",
+        "Debruçou-se do ramo mais e mais. A madeira a arder estalava, mesmo por baixo da castanha, a última. O fumo entontecia-a. E se fosse ver de perto o que se passava?",
+        "Foi. Caiu. E a história acaba aqui. Paciência. É o destino das castanhas. Destino é um modo de dizer…",
+        "FIM"
       ]
     }
   ],
@@ -36,21 +55,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/11/html/keyqhsoqn5q6tnmkylfo4gwog5635wbd/historia.aspx",
     "printPdf": "/recovered/0000/11/11/pdf/qhj7ejskzwapha7sugt3ojmsi7xhobzd/imprimir.pdf",
     "archiveDay": "/recovered/0000/11/11/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

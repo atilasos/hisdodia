@@ -9,9 +9,35 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era uma vez uma parede que tinha ouvidos.",
+        "Nada de estranhar. Ele há gente que se pela por contar segredos, próprios ou alheios, sem ligar ao aviso dos mais prudentes: \"Cuidado que as paredes têm ouvidos\". Alguma vez acabaria por ser verdade.",
+        "Esta tinha ouvidos e até olhos, calculem. Só lhe faltava a boca e, já agora, o nariz.",
+        "Espessa e toda fechada, sem portas nem janelas, acumulava o que via e ouvia no cerrado dela mesma, no mais dentro das pedras e do cimento de que era feita.",
+        "– É uma parede fixe – diziam as pessoas, espalmando as mãos na parede que, já se vê, não dava de si.",
+        "Até que um dia, houve uma festa na aldeia, festa a valer, com foguetório, música na praça, artistas vindos de fora e bailarico até altas horas.",
+        "Um dos altifalantes da instalação sonora foi aplicado à parede que tinha ouvidos."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "A meio da musicata, ouviu-se uma voz dizer em segredo, mas de modo que todos ouvissem:",
+        "– A Tia Hermínia só toma banho na Páscoa.",
+        "O pessoal riu-se. Aquilo seria brincadeira de garotos…",
+        "Logo a seguir, outra revelação:",
+        "– O Armindo e a Arminda andam a namorar às escondidas.",
+        "Embora a maioria da aldeia já soubesse, alguns estranharam o despropósito da notícia, a interromper a música.",
+        "– O Porfírio faz de pobretana, mas tem quilos de notas a forrar o colchão.",
+        "Aqui a surpresa foi maior, sobretudo para o Porfírio, mendigo de mão estendida à porta da igreja.",
+        "Mas donde viriam as falas? Da cabine de som não era. Do cantor, que no palco esbracejava a sua irritação, também não era.",
+        "– A Dona Camila já não paga aos criados há três meses, mas não quer que se saiba.",
+        "Aquilo já soava a escândalo. Foi a própria Dona Camila que apontou para o altifalante, pendurado na parede, a tal que tinha ouvidos:",
+        "– A voz vem dali.",
+        "Pois vinha. Arrancaram os fios ao altifalante e a voz calou-se. Acabaram-se as novidades, as inconfidências.",
+        "E, à cautela, quando voltou a haver festa na terra, nenhum altifalante coube à parede que sabia demais.",
+        "FIM"
       ]
     }
   ],
@@ -28,21 +54,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/10/html/5zinit3nw4hj7yt7ntprtvax4nfkvs5y/historia.aspx",
     "printPdf": "/recovered/0000/10/10/pdf/ab6zufd766x54k5ntkasyl3bgmluilky/imprimir.pdf",
     "archiveDay": "/recovered/0000/10/10/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

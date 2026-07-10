@@ -1,0 +1,140 @@
+{
+  "id": "10-17",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "borracha",
+          "distractors": [
+            "respondeu",
+            "voltasse",
+            "carrinho"
+          ],
+          "sentence": "Depois de ter trocado o apara-lápis por uma borracha novinha, por estrear, é que achou que tinha perdido com a troca."
+        },
+        {
+          "target": "agora",
+          "distractors": [
+            "saltar",
+            "corda",
+            "perdeu"
+          ],
+          "sentence": "Quem tem agora o teu apara-lápis é a Lurdes."
+        },
+        {
+          "target": "voltasse",
+          "distractors": [
+            "borracha",
+            "respondeu",
+            "carrinho"
+          ],
+          "sentence": "O apara-lápis já foi meu e queria que voltasse a ser…"
+        },
+        {
+          "target": "lado",
+          "distractors": [
+            "corda",
+            "agora",
+            "volto"
+          ],
+          "sentence": "Troquei-o por um lugar, na aula, ao lado da minha amiga Filomena."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "borracha",
+          "syllables": [
+            "bor",
+            "ra",
+            "cha"
+          ]
+        },
+        {
+          "word": "saltar",
+          "syllables": [
+            "sal",
+            "tar"
+          ]
+        },
+        {
+          "word": "corda",
+          "syllables": [
+            "cor",
+            "da"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "borda",
+          "syllables": [
+            "bor",
+            "da"
+          ]
+        },
+        {
+          "word": "charada",
+          "syllables": [
+            "cha",
+            "ra",
+            "da"
+          ]
+        },
+        {
+          "word": "cortar",
+          "syllables": [
+            "cor",
+            "tar"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "borracha",
+          "b": "borracha"
+        },
+        {
+          "a": "saltar",
+          "b": "saltar"
+        },
+        {
+          "a": "corda",
+          "b": "corda"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/17/images/54iom7hau4te5xv2m2aqmlmdwf5rdzte/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Depois de ter trocado o apara-lápis por uma borracha novinha, por estrear, é que achou que tinha perdido com a troca.",
+        "Troquei-o por este caderninho com bandeiras na capa.",
+        "Troquei-o por um lugar, na aula, ao lado da minha amiga Filomena.",
+        "Então o Joca, com o coração muito apertado, foi buscar ao fundo da algibeira das calças um carro novo, que trouxera de casa pela…",
+        "Volta ele, não voltamos nós a contar, que estas histórias de trocas e baldrocas são muito cansativas."
+      ]
+    }
+  ]
+}

@@ -9,9 +9,38 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Marcílio não era o nome dele. Marcílio era um nome falso, um nome escondido, porque o jovem herói da nossa história não podia revelar a ninguém a sua verdadeira identidade.",
+        "- Hás-de recuperar o teu reino com este arco que aqui te dou - dissera-lhe o mago Olef.",
+        "- Agora há-de ser - respondera Marcílio.",
+        "E, impaciente, repuxou a corda do arco que estava solta. Parecia fácil. Não era.",
+        "- Falta-te a força - dissera-lhe o mago. - Tens de amaciar a corda à chuva do deserto.",
+        "- Mas no deserto chove tão pouco e tão de longe em longe - protestara Marcílio.",
+        "- Não tens outra alternativa - dissera-lhe o Olef.",
+        "O mago tinha sido o seu salvador. Recolheu-o, menino, quando o castelo e o reino do pequeno príncipe se submeteram aos conquistadores estrangeiros. Por prudência, dera ao órfão o nome de Marcílio e protegera-o e educara-o, em segredo.",
+        "Via-o, agora, jovem a espigar e a arder na vontade de reconquistar o que lhe pertencera. Mas, para que tudo resultasse, não podia haver precipitação.",
+        "- Se queres que chova no deserto, tens que chamar as nuvens - disse-lhe o mago.",
+        "- E como se faz para chamar as nuvens?",
+        "- Tens de cantar.",
+        "- Agora há-de ser. Cantarei.",
+        "O mago sorriu e abanou a cabeça, negativamente:",
+        "- A tua voz tem de engrossar. E para a tua voz engrossar, tens beber o sangue do dragão que guarda a montanha.",
+        "- Agora há-de ser. Matarei o dragão.",
+        "- Só o matarás com esse arco que eu te dei...",
+        "Marcílio desesperou-se. Assim nunca conseguiria. Mas, como era um moço decidido, não desistiu. Encaminhou-se para o deserto. Talvez chovesse, sem ter de forçar as nuvens...",
+        "Esperou um ano, dois anos, três anos. Três anos de seca.",
+        "Ele bem repuxava a corda do arco, mas não havia meio... Ele bem ensaiava a voz num canto guerreiro, mas na voz cruzavam-se agudos e graves, à compita.",
+        "Até que choveu. Um aguaceiro de nuvens breves. Mas bastou para amolecer a corda. Marcílio convocou todo o seu ânimo e retesou a corda do arco. Depois, foi à procura do dragão.",
+        "Era um monstro terrível. Marcílio não o temeu. Quando se vence o medo, vence-se qualquer dragão. Foi o que aconteceu.",
+        "Depois de beber do sangue do dragão, Marcílio cantou, numa voz forte e grave.",
+        "A notícia da vitória do jovem espalhou-se e vieram nuvens e nuvens de gente aclamá-lo.",
+        "À frente do clamor do povo, Marcílio marchou para o palácio que lhe pertencera.",
+        "Lutou e venceu.",
+        "Na cerimónia da coroação do novo rei, que era um homem na força da vida, o mago Olaf chamou-o pela primeira vez pelo seu nome verdadeiro: Ivan.",
+        "No reino de Ivan, os mais velhos contam sempre esta história, convictos de que assim conseguem moderar a pressa e a impaciência dos mais novos.",
+        "- Há que confiar nos leves, vagarosos impulsos do tempo - aconselham os mais velhos, no remate da história.",
+        "Será que os novos, realmente, lhes dão ouvidos?"
       ]
     }
   ],
@@ -33,21 +62,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/10/html/fyslllkm6kpuzhllacpfnsyvlto47ia2/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/11/10/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

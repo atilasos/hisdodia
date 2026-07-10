@@ -9,9 +9,44 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "O Joca perdeu o apara-lápis. Perder não perdeu. Trocou.",
+        "Depois de ter trocado o apara-lápis por uma borracha novinha, por estrear, é que achou que tinha perdido com a troca.",
+        "Quis desfazer o negócio junto do Rodrigo, que lhe tinha ficado com o apara-lápis jeitoso, em forma de bota de esquiador.",
+        "– Dá-me outra vez o meu apara e fica com a tua borracha – disse ele ao Rodrigo.",
+        "– Já não o tenho – respondeu o Rodrigo. – Troquei-o por este caderninho com bandeiras na capa. Quem tem agora o teu apara-lápis é a Lurdes.",
+        "O Joca foi ter com a Lurdes, que estava a saltar à corda:",
+        "– Queres esta borracha nova pelo apara-lápis que era do Rodrigo?"
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "– Sete…oito…nove…dez… – respondeu-lhe a Lurdes, sem deixar de saltar à corda.",
+        "– O apara-lápis já foi meu e queria que voltasse a ser…",
+        "– Onze…doze…treze…catorze…quinze – respondeu-lhe a Lurdes, sem deixar de saltar.",
+        "– Trocas ou não trocas?",
+        "– Dezasseis…dezassete…dezoito…dezanove…vinte.",
+        "E parou. Quase sem fôlego, a Lurdes respondeu ao Joca:",
+        "– Troquei o apara-lápis por esta corda. Quem o tem agora é a Fátima.",
+        "O Joca foi ter com a Fátima.",
+        "– Já não tenho. Troquei-o por um lugar, na aula, ao lado da minha amiga Filomena.",
+        "Mas quem estava sentado ao lado da Filomena era o Rodrigo, lembrou-se o Joca. Foi outra vez ter com o Rodrigo.",
+        "– Ainda tens o apara-lápis? – perguntou-lhe.",
+        "– Ia trocá-lo com o Zeca por um carrinho.",
+        "– Mas eu dava-te outra vez a borracha – apressou-se a dizer o Joca.",
+        "Então o Joca, com o coração muito apertado, foi buscar ao fundo da algibeira das calças um carro novo, que trouxera de casa pela primeira vez.",
+        "– Queres este? – perguntou o Joca ao Rodrigo.",
+        "Ele examinou-o cuidadosamente, experimentou-o no lajedo do recreio e concordou. Voltara o apara-lápis às mãos do Joca. Que alívio!",
+        "Mas virando as costas ao Rodrigo, o Joca começou a ter saudades do seu carrinho, que corria tão bem pelo corredor fora. E se voltasse atrás com o negócio? Volto não volto…"
+      ]
+    },
+    {
+      "layer": "pdf-page-3",
+      "paragraphs": [
+        "Volta ele, não voltamos nós a contar, que estas histórias de trocas e baldrocas são muito cansativas.",
+        "FIM"
       ]
     }
   ],
@@ -25,21 +60,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/17/html/qkttpqchw2s5zbf6yajdwluoluxzy2y6/historia.aspx",
     "printPdf": "/recovered/0000/10/17/pdf/cbvlagzfvph3trweqanyhky2jsi7nhvm/imprimir.pdf",
     "archiveDay": "/recovered/0000/10/17/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

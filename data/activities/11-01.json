@@ -1,0 +1,132 @@
+{
+  "id": "11-01",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "anjo",
+          "distractors": [
+            "vila",
+            "logo",
+            "olha"
+          ],
+          "sentence": "Pois foi logo a esta ruazinha insignificante que veio ter um anjo."
+        },
+        {
+          "target": "pessoas",
+          "distractors": [
+            "perdido",
+            "ajudar",
+            "lágrimas"
+          ],
+          "sentence": "Vai dar a uma rua mais larga, a que as pessoas da vila chamam Rua da República, só porque em todas as vilas que se prezam tem de haver…"
+        },
+        {
+          "target": "logo",
+          "distractors": [
+            "anjo",
+            "vila",
+            "olha"
+          ],
+          "sentence": "Eu, que estou à janela, desço logo à rua, em socorro do pequeno anjo."
+        },
+        {
+          "target": "perdido",
+          "distractors": [
+            "pessoas",
+            "ajudar",
+            "lágrimas"
+          ],
+          "sentence": "Além de estar perdido, não consegue voar."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "anjo",
+          "syllables": [
+            "an",
+            "jo"
+          ]
+        },
+        {
+          "word": "pessoas",
+          "syllables": [
+            "pes",
+            "so",
+            "as"
+          ]
+        },
+        {
+          "word": "logo",
+          "syllables": [
+            "lo",
+            "go"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "golo",
+          "syllables": [
+            "go",
+            "lo"
+          ]
+        },
+        {
+          "word": "jogo",
+          "syllables": [
+            "jo",
+            "go"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "anjo",
+          "b": "anjo"
+        },
+        {
+          "a": "pessoas",
+          "b": "pessoas"
+        },
+        {
+          "a": "vila",
+          "b": "vila"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/11/01/images/mewqkmogjubuf236g624k7ah7sdblxsp/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "É uma rua pequena, sem nada de especial.",
+        "Pois foi logo a esta ruazinha insignificante que veio ter um anjo.",
+        "Aproximo-me dele e percebo porque chora.",
+        "Na Rua da República, depois da esquina da minha rua, vai a passar a banda dos bombeiros, vestida de gala, a tocar uma marcha solene.",
+        "Peguei no anjinho ao colo e lá o pus no bom caminho, junto com os outros, atrás do andor de S."
+      ]
+    }
+  ]
+}

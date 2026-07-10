@@ -1,0 +1,132 @@
+{
+  "id": "10-12",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "menina",
+          "distractors": [
+            "campo",
+            "burro",
+            "vezes"
+          ],
+          "sentence": "Era uma vez uma menina que conhecia o campo, mas de longe."
+        },
+        {
+          "target": "campo",
+          "distractors": [
+            "menina",
+            "burro",
+            "vezes"
+          ],
+          "sentence": "Esta menina, afinal, não conhecia o campo a sério."
+        },
+        {
+          "target": "burro",
+          "distractors": [
+            "menina",
+            "campo",
+            "vezes"
+          ],
+          "sentence": "A menina, que já ouvira histórias de príncipes encantados por fadas más, pensou: \"E se é um príncipe transformado em burro?"
+        },
+        {
+          "target": "príncipe",
+          "distractors": [
+            "primeira",
+            "pensou",
+            "beijinho"
+          ],
+          "sentence": "Eu dou-lhe um beijinho, desfaz-se o encanto e ele transforma-se em príncipe\", pensou a menina."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "menina",
+          "syllables": [
+            "me",
+            "ni",
+            "na"
+          ]
+        },
+        {
+          "word": "campo",
+          "syllables": [
+            "cam",
+            "po"
+          ]
+        },
+        {
+          "word": "ficou",
+          "syllables": [
+            "fi",
+            "cou"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "ficam",
+          "syllables": [
+            "fi",
+            "cam"
+          ]
+        },
+        {
+          "word": "fina",
+          "syllables": [
+            "fi",
+            "na"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "menina",
+          "b": "menina"
+        },
+        {
+          "a": "campo",
+          "b": "campo"
+        },
+        {
+          "a": "burro",
+          "b": "burro"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/12/images/on6qniowaqo5z2jamarwb7a4ynyofx7y/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez uma menina que conhecia o campo, mas de longe.",
+        "Tropeçou numa pedra, comichou-lhe o nariz e picou-se nas urtigas.",
+        "A menina, que já ouvira histórias de príncipes encantados por fadas más, pensou: \"E se é um príncipe transformado em burro?",
+        "A menina, que já se via princesa, aproximou-se do burro, para concretizar o que tinha pensado.",
+        "Naturalmente, não era um príncipe encantado."
+      ]
+    }
+  ]
+}

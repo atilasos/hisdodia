@@ -1,0 +1,132 @@
+{
+  "id": "12-02",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "bigodes",
+          "distractors": [
+            "senhor",
+            "sempre",
+            "bigode"
+          ],
+          "sentence": "Tinha muita vaidade nos seus imensos bigodes, muito espetados, metade para cada lado e um risco ao meio para se assoar à vontade."
+        },
+        {
+          "target": "senhor",
+          "distractors": [
+            "bigodes",
+            "sempre",
+            "bigode"
+          ],
+          "sentence": "O senhor dos grandes bigodes não descansou enquanto não chegou a casa."
+        },
+        {
+          "target": "lado",
+          "distractors": [
+            "noite",
+            "manhã",
+            "risco"
+          ],
+          "sentence": "Então, cortou uma pontinha do outro lado."
+        },
+        {
+          "target": "sempre",
+          "distractors": [
+            "bigodes",
+            "senhor",
+            "bigode"
+          ],
+          "sentence": "No autocarro para o emprego, sempre muito cheio de gente, acotovelava à esquerda e à direita, para que não fossem de encontro aos seus…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "bigodes",
+          "syllables": [
+            "bi",
+            "go",
+            "des"
+          ]
+        },
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "lado",
+          "syllables": [
+            "la",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "gola",
+          "syllables": [
+            "go",
+            "la"
+          ]
+        },
+        {
+          "word": "lago",
+          "syllables": [
+            "la",
+            "go"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "bigodes",
+          "b": "bigodes"
+        },
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "lado",
+          "b": "lado"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/02/images/q2y3fjh72yh6eheriwoq7czrf5ktlheo/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Tinha muita vaidade nos seus imensos bigodes, muito espetados, metade para cada lado e um risco ao meio para se assoar à vontade.",
+        "De manhã, demorava mais tempo a pentear e alisar os bigodes do que a lavar-se.",
+        "Parece que está com uma guia do bigode mais comprida do que a outra – disseram-lhe, uma vez.",
+        "Então, cortou uma pontinha do outro lado.",
+        "E, quando chegou a manhã, o senhor dos grande bigodes já não tinha bigode."
+      ]
+    }
+  ]
+}

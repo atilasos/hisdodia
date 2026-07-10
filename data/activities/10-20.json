@@ -1,0 +1,140 @@
+{
+  "id": "10-20",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "cabelo",
+          "distractors": [
+            "semente",
+            "vento",
+            "vinha"
+          ],
+          "sentence": "Era uma vez um belo cabelo levado pelo vento."
+        },
+        {
+          "target": "pena",
+          "distractors": [
+            "vento",
+            "seda",
+            "vinha"
+          ],
+          "sentence": "O cabelo encontrou-se no ar com uma pena, uma pequeníssima pena, tão leve como ele."
+        },
+        {
+          "target": "semente",
+          "distractors": [
+            "cabelo",
+            "seda",
+            "corrente"
+          ],
+          "sentence": "Uma semente, depois, agarra-se à pena, ao cabelo, ao fiapo, ao fio de seda, e todos juntos dançam a moda que o vento quer."
+        },
+        {
+          "target": "vento",
+          "distractors": [
+            "cabelo",
+            "pena",
+            "seda"
+          ],
+          "sentence": "Há-de vir o vento arrebatá-la da haste e levá-la com ele, como um fio de seda, um cabelo, eu sei lá que mais…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "cabelo",
+          "syllables": [
+            "ca",
+            "be",
+            "lo"
+          ]
+        },
+        {
+          "word": "pena",
+          "syllables": [
+            "pe",
+            "na"
+          ]
+        },
+        {
+          "word": "semente",
+          "syllables": [
+            "se",
+            "men",
+            "te"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cabe",
+          "syllables": [
+            "ca",
+            "be"
+          ]
+        },
+        {
+          "word": "cana",
+          "syllables": [
+            "ca",
+            "na"
+          ]
+        },
+        {
+          "word": "loca",
+          "syllables": [
+            "lo",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "cabelo",
+          "b": "cabelo"
+        },
+        {
+          "a": "pena",
+          "b": "pena"
+        },
+        {
+          "a": "semente",
+          "b": "semente"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/20/images/db5vlo36vuda7itgq7v4muvop7o3zr6u/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um belo cabelo levado pelo vento.",
+        "O cabelo encontrou-se no ar com uma pena, uma pequeníssima pena, tão leve como ele.",
+        "Para complicá-la mais, veio ter com eles um fio de seda, sabe-se lá donde…",
+        "Ah, mas a semente é pesada e a dança termina cedo.",
+        "Para a próxima Primavera, daquela semente vai nascer uma erva, com uma flor ao cimo."
+      ]
+    }
+  ]
+}

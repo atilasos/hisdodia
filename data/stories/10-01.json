@@ -9,9 +9,38 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era uma vez uma música, uma melodia. Andou pelos ouvidos das pessoas.",
+        "Alguns cantarolavam-na. Outros assobiavam-na. Fosse em lá-lá-lá, no céu da boca, ou em tri-ti-ti, na ponta dos lábios, sabia sempre bem.",
+        "Quando era tocada no coreto da praça, as pessoas paravam de conversar e aproximavam-se pé ante pé, meneando a cabeça ao som da música. E, quando a música acabava, batiam palmas entusiasmadas, que tanto se destinavam à música como à banda que apuradamente a tocara. E pediam \"Bis! Bis!\".",
+        "Às vezes, o maestro fazia-lhes a vontade. Nova sessão do encantamento e, no fim, mais uma grande revoada de palmas.",
+        "Acontecia as pessoas acordarem, de manhã, com a música a rodopiar nos ouvidos. Era bom."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "Acontecia as pessoas adormecerem, à noite, com a música a rodopiar nos ouvidos. Também era bom.",
+        "E, durante o dia, os carpinteiros, a serrarem, assobiavam-na, as lavadeiras, a lavarem, cantavam-na, e toda a gente, quer estivesse a trabalhar quer fosse dar um passeio solitário pelo campo, espalhava-a pelos ares, dando mais vida à música que serpenteava, feliz, em direcção às nuvens.",
+        "Mas a banda deu a conhecer outras melodias. Era seu dever valorizar-se e renovar o repertório. Não podia estar só a tocar as mesmas músicas de antigamente.",
+        "Porque é que não voltam a tocar aquela que começa assim: Lá-lá-lá…? - perguntava alguém, com saudades da velha música.",
+        "Não havia quem soubesse responder.",
+        "A pouco e pouco, a música foi-se apagando das memórias.",
+        "Para onde vão as melodias que nunca mais são tocadas?",
+        "Eu sei, isto é, julgo saber. Os sons sobem. Seja de flauta, de harpa ou de voz, o som solta-se donde é emitido e como leve coluna de fumo busca o ar transparente, onde vogam as andorinhas. Cada vez mais alto, o som atravessa as nuvens…",
+        "Quando chove e as gotas de chuva tilintam nas águas dos rios e dos lagos, os sons que subiram regressam à Terra. Todos juntos, em grande confusão, escorrem pelas correntes de água, em caudais de música, em ondas, em cascatas, e vão ter ao mar.",
+        "Os sons mais pesados vão para o fundo. Os outros permanecem à superfície e, levados pelo balanço das ondas, navegam, de mistura com algas, penas de gaivotas, bocadinhos de luz e de prata, roubados ao Sol."
+      ]
+    },
+    {
+      "layer": "pdf-page-3",
+      "paragraphs": [
+        "Estava eu na praia, a contemplar um pôr de Sol (sou coleccionador de pores de Sol, não sei se sabem), quando uma musiquinha suave me trespassou os ouvidos.",
+        "Os óculos já embaciados da poalha da maresia ficaram ainda mais embaciados, porque, de repente, me lembrei de que tinha ouvido aquela música à beira de um coreto pela mão do meu avô Domingos. Portanto, há muito e muito tempo...",
+        "Não estava a inventar. Para ter a certeza, aflorei a música aos lábios, num sussurro de um assobio, que voou em direcção às nuvens rosadas do entardecer.",
+        "Foi então que resolvi escrever esta história.",
+        "FIM"
       ]
     }
   ],
@@ -34,21 +63,22 @@
     ]
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/01/html/ua7ku4m4xibwva4lelahc7jwpvvelmzv/historia.aspx",
     "printPdf": "/recovered/0000/10/01/pdf/si54xpxflwwshgqojnt742p6rqcewb4w/imprimir.pdf",
     "archiveDay": "/recovered/0000/10/01/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

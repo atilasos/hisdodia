@@ -1,0 +1,141 @@
+{
+  "id": "10-01",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "música",
+          "distractors": [
+            "ouvidos",
+            "pessoas",
+            "nuvens"
+          ],
+          "sentence": "Quando era tocada no coreto da praça, as pessoas paravam de conversar e aproximavam-se pé ante pé, meneando a cabeça ao som da música."
+        },
+        {
+          "target": "ouvidos",
+          "distractors": [
+            "música",
+            "pessoas",
+            "nuvens"
+          ],
+          "sentence": "Acontecia as pessoas acordarem, de manhã, com a música a rodopiar nos ouvidos."
+        },
+        {
+          "target": "pessoas",
+          "distractors": [
+            "música",
+            "ouvidos",
+            "nuvens"
+          ],
+          "sentence": "Acontecia as pessoas adormecerem, à noite, com a música a rodopiar nos ouvidos."
+        },
+        {
+          "target": "nuvens",
+          "distractors": [
+            "música",
+            "ouvidos",
+            "pessoas"
+          ],
+          "sentence": "Cada vez mais alto, o som atravessa as nuvens…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "música",
+          "syllables": [
+            "mú",
+            "si",
+            "ca"
+          ]
+        },
+        {
+          "word": "ouvidos",
+          "syllables": [
+            "ou",
+            "vi",
+            "dos"
+          ]
+        },
+        {
+          "word": "pessoas",
+          "syllables": [
+            "pes",
+            "so",
+            "as"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "caso",
+          "syllables": [
+            "ca",
+            "so"
+          ]
+        },
+        {
+          "word": "ouvi",
+          "syllables": [
+            "ou",
+            "vi"
+          ]
+        },
+        {
+          "word": "pesca",
+          "syllables": [
+            "pes",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "música",
+          "b": "música"
+        },
+        {
+          "a": "ouvidos",
+          "b": "ouvidos"
+        },
+        {
+          "a": "pessoas",
+          "b": "pessoas"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/01/images/g2gqigmxmkg2fvsjel5wr7xzgk5lo4re/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Fosse em lá-lá-lá, no céu da boca, ou em tri-ti-ti, na ponta dos lábios, sabia sempre bem.",
+        "Acontecia as pessoas adormecerem, à noite, com a música a rodopiar nos ouvidos.",
+        "A pouco e pouco, a música foi-se apagando das memórias.",
+        "Os outros permanecem à superfície e, levados pelo balanço das ondas, navegam, de mistura com algas, penas de gaivotas, bocadinhos de luz…",
+        "Foi então que resolvi escrever esta história."
+      ]
+    }
+  ]
+}

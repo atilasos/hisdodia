@@ -1,0 +1,142 @@
+{
+  "id": "10-26",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "zepeninos",
+          "distractors": [
+            "habitado",
+            "monstros",
+            "connosco"
+          ],
+          "sentence": "Os zepeninos são muito empreendedores e viajados."
+        },
+        {
+          "target": "planeta",
+          "distractors": [
+            "tamanho",
+            "voador",
+            "cortiça"
+          ],
+          "sentence": "O planeta Zepeni, escondido, algures, numa curva do Universo imenso, à esquerda de quem sobe, é muito pequenino."
+        },
+        {
+          "target": "três",
+          "distractors": [
+            "tamanho",
+            "disco",
+            "talvez"
+          ],
+          "sentence": "Com alguma prudência, três zepeninos desembarcaram."
+        },
+        {
+          "target": "tamanho",
+          "distractors": [
+            "planeta",
+            "três",
+            "voador"
+          ],
+          "sentence": "Deslocam-se pelo espaço a velocidades incalculáveis, numa espécie de discos voadores do tamanho de rolhas de cortiça, porque os…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "zepeninos",
+          "syllables": [
+            "ze",
+            "pe",
+            "ni",
+            "nos"
+          ]
+        },
+        {
+          "word": "planeta",
+          "syllables": [
+            "pla",
+            "ne",
+            "ta"
+          ]
+        },
+        {
+          "word": "tamanho",
+          "syllables": [
+            "ta",
+            "ma",
+            "nho"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "mata",
+          "syllables": [
+            "ma",
+            "ta"
+          ]
+        },
+        {
+          "word": "neta",
+          "syllables": [
+            "ne",
+            "ta"
+          ]
+        },
+        {
+          "word": "ninho",
+          "syllables": [
+            "ni",
+            "nho"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "zepeninos",
+          "b": "zepeninos"
+        },
+        {
+          "a": "planeta",
+          "b": "planeta"
+        },
+        {
+          "a": "três",
+          "b": "três"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/26/images/vqxwiazhdetpofbu3bii3vx3alvfhkf5/Imagens/icone.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O planeta Zepeni, escondido, algures, numa curva do Universo imenso, à esquerda de quem sobe, é muito pequenino.",
+        "O disco voador em que eles vinham aterrou à beira de um laguinho de jardim.",
+        "Os três zepeninos puseram-se na defensiva e avisaram a nave para estar alerta.",
+        "Fosse como fosse, os zepeninos tentaram explicar aos pirilampos donde vinham, quem eram e o interesse exclusivamente científico das suas…",
+        "Até talvez, no fundo, os zepeninos tenham alguma razão."
+      ]
+    }
+  ]
+}

@@ -9,9 +9,44 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "pdf-page-1",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "O planeta Zepeni, escondido, algures, numa curva do Universo imenso, à esquerda de quem sobe, é muito pequenino.",
+        "Nenhum astrónomo da Terra ainda deu com ele, mas existe. Não é invenção minha.",
+        "Os habitantes de Zepeni estão muito desenvolvidos. Deslocam-se pelo espaço a velocidades incalculáveis, numa espécie de discos voadores do tamanho de rolhas de cortiça, porque os zepeninos, a condizer com o planeta onde vivem, não são de grande estatura. Talvez do tamanho de joaninhas ou pouco mais ou menos.",
+        "Todos usam uns fatos luminosos, que lhes permitem explorar os sítios mais obscuros. Os zepeninos são muito empreendedores e viajados.",
+        "Uma vez, nas suas viagens de exploração pelo Universo, tocaram a Terra. Foi numa destas noites de Verão."
+      ]
+    },
+    {
+      "layer": "pdf-page-2",
+      "paragraphs": [
+        "O disco voador em que eles vinham aterrou à beira de um laguinho de jardim.",
+        "Com alguma prudência, três zepeninos desembarcaram.",
+        "– Este planeta não deve ser habitado – calculou um deles, perante o silêncio da noite.",
+        "Outro dos zepeninos acrescentou:",
+        "– Estamos no litoral de um enorme mar, que passará a chamar-se Mar da Tranquilidade.",
+        "Era o laguinho do jardim, já se vê.",
+        "Uma rã perto deu-lhe para coaxar.",
+        "– Cuidado! Afinal este planeta tem monstros.",
+        "Os três zepeninos puseram-se na defensiva e avisaram a nave para estar alerta.",
+        "Atraídos pelo brilho dos fatos dos zepeninos, aproximaram-se mosquitos.",
+        "– Estamos a ser atacados por aves terríveis.",
+        "Uns pirilampos, intrigados com aqueles bichinhos alarmados, sobrevoaram-nos, num voo lento.",
+        "– Além de ter monstros, o planeta sempre é habitado. São parecidos connosco, mas não comunicam na mesma onda de pensamento.",
+        "Fosse como fosse, os zepeninos tentaram explicar aos pirilampos donde vinham, quem eram e o interesse exclusivamente científico das suas viagens pelo Universo.",
+        "Depois, porque ao coaxar da primeira rã outras rãs responderam, a barulheira tornou-se insuportável. Muito sensatamente, os três zepeninos resolveram regressar à nave.",
+        "– Descolar! – ordenou o comandante do disco voador.",
+        "E o disco voador do tamanho de uma rolha de cortiça subiu ao céu."
+      ]
+    },
+    {
+      "layer": "pdf-page-3",
+      "paragraphs": [
+        "Lá dentro, os três zepeninos exploradores completavam o relatório de viagem:",
+        "\"Visitámos um planeta muito primitivo. Os seus habitantes principais possuem algumas semelhanças connosco, deslocam-se pelo ar, mas estão cientificamente muito atrasados. Ainda têm de sofrer muitas mutações antes de nos chegarem aos calcanhares.\"",
+        "Até talvez, no fundo, os zepeninos tenham alguma razão.",
+        "FIM"
       ]
     }
   ],
@@ -31,21 +66,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "archive-swf-reference",
     "recoveredAudio": "missing",
     "pdf": "archive-original",
-    "completeness": "needs-text-extraction"
+    "completeness": "complete-pdf-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/10/26/html/kikzulkr47rnducbkverktcqjuae4d2u/historia.aspx",
     "printPdf": "/recovered/0000/10/26/pdf/f7tjgzmw23fmajmsitc77gof7arha7fy/imprimir.pdf",
     "archiveDay": "/recovered/0000/10/26/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto foi recuperado do PDF original arquivado através da sua camada de texto."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados."
   ]
 }

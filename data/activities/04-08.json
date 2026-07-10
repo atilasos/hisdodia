@@ -75,24 +75,26 @@
       ],
       "recombine": [
         {
-          "word": "cano",
+          "word": "canino",
           "syllables": [
             "ca",
+            "ni",
             "no"
           ]
         },
         {
-          "word": "capa",
+          "word": "canitos",
           "syllables": [
             "ca",
-            "pa"
+            "ni",
+            "tos"
           ]
         },
         {
-          "word": "mesa",
+          "word": "cano",
           "syllables": [
-            "me",
-            "sa"
+            "ca",
+            "no"
           ]
         }
       ]

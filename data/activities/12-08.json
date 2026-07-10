@@ -1,0 +1,139 @@
+{
+  "id": "12-08",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "filhos",
+          "distractors": [
+            "mulher",
+            "pediu",
+            "depois"
+          ],
+          "sentence": "Um dia, a que não tinha filhos convidou a outra para ir lá a casa."
+        },
+        {
+          "target": "mulher",
+          "distractors": [
+            "filhos",
+            "pediu",
+            "depois"
+          ],
+          "sentence": "A mulher que tinha muitos filhos mirou tudo o que a dona da casa sem crianças lhe quis mostrar."
+        },
+        {
+          "target": "casa",
+          "distractors": [
+            "pediu",
+            "filha",
+            "nunca"
+          ],
+          "sentence": "A casa dela estava recheada de coisas e coisinhas, todas muito bem colocadas em prateleiras e prateleirinhas."
+        },
+        {
+          "target": "pediu",
+          "distractors": [
+            "filhos",
+            "mulher",
+            "casa"
+          ],
+          "sentence": "Mariana, faz-me um favor e põe a água ao lume para o chá – pediu a mãe à filha mais velha."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "filhos",
+          "syllables": [
+            "fi",
+            "lhos"
+          ]
+        },
+        {
+          "word": "mulher",
+          "syllables": [
+            "mu",
+            "lher"
+          ]
+        },
+        {
+          "word": "gostava",
+          "syllables": [
+            "gos",
+            "ta",
+            "va"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "figos",
+          "syllables": [
+            "fi",
+            "gos"
+          ]
+        },
+        {
+          "word": "fita",
+          "syllables": [
+            "fi",
+            "ta"
+          ]
+        },
+        {
+          "word": "gosta",
+          "syllables": [
+            "gos",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "filhos",
+          "b": "filhos"
+        },
+        {
+          "a": "mulher",
+          "b": "mulher"
+        },
+        {
+          "a": "casa",
+          "b": "casa"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/12/08/images/ioit5blhiub3sbn7tqxjvdyg3gn4dpny/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Um dia, a que não tinha filhos convidou a outra para ir lá a casa.",
+        "A casa dela estava recheada de coisas e coisinhas, todas muito bem colocadas em prateleiras e prateleirinhas.",
+        "Muito atordoada, no meio das crianças, a mulher sem filhos olhava para o desalinho da casa, a pobreza dos móveis, a fraqueza da despensa.",
+        "Rosa, pega no açucareiro e vai a casa da vizinha Adriana pôr uns torrõezinhos – pediu a mãe.",
+        "A mulher sem filhos compreendeu e até talvez sentisse, lá no íntimo (que é o sítio onde se guarda o coração..."
+      ]
+    }
+  ]
+}

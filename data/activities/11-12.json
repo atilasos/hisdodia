@@ -1,0 +1,139 @@
+{
+  "id": "11-12",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "barco",
+          "distractors": [
+            "papel",
+            "atrás",
+            "onda"
+          ],
+          "sentence": "Era uma vez um barco de papel, que se fez ao mar."
+        },
+        {
+          "target": "papel",
+          "distractors": [
+            "barco",
+            "atrás",
+            "onda"
+          ],
+          "sentence": "Barco de papel, no meio do mar, estão a ver o que lhe aconteceu…"
+        },
+        {
+          "target": "atrás",
+          "distractors": [
+            "barco",
+            "papel",
+            "onda"
+          ],
+          "sentence": "Nesse caso, se pudesse ter voltado atrás, o que teria feito?"
+        },
+        {
+          "target": "onda",
+          "distractors": [
+            "barco",
+            "papel",
+            "atrás"
+          ],
+          "sentence": "O barco de papel ou o que dele sobrara fugiu da pergunta, aproveitando o escorrega de uma onda, que descia da praia."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "barco",
+          "syllables": [
+            "bar",
+            "co"
+          ]
+        },
+        {
+          "word": "papel",
+          "syllables": [
+            "pa",
+            "pel"
+          ]
+        },
+        {
+          "word": "sorriso",
+          "syllables": [
+            "sor",
+            "ri",
+            "so"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "copa",
+          "syllables": [
+            "co",
+            "pa"
+          ]
+        },
+        {
+          "word": "rico",
+          "syllables": [
+            "ri",
+            "co"
+          ]
+        },
+        {
+          "word": "riso",
+          "syllables": [
+            "ri",
+            "so"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "barco",
+          "b": "barco"
+        },
+        {
+          "a": "papel",
+          "b": "papel"
+        },
+        {
+          "a": "atrás",
+          "b": "atrás"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/11/12/images/iqmpdon636ry4rrfq65optbqcuzxf4ez/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um barco de papel, que se fez ao mar.",
+        "Estatelado na areia, era uma lástima vê-lo.",
+        "Atribui, porventura, o seu naufrágio a alguma causa em especial?",
+        "Nesse caso, se pudesse ter voltado atrás, o que teria feito?",
+        "Não chegou a dizer-me, senhor barco de papel…"
+      ]
+    }
+  ]
+}

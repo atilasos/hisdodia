@@ -1,0 +1,135 @@
+{
+  "id": "10-21",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "árvores",
+          "distractors": [
+            "pessoas",
+            "limoeiro",
+            "frutos"
+          ],
+          "sentence": "No reino das árvores, as pessoas mandam muito."
+        },
+        {
+          "target": "pessoas",
+          "distractors": [
+            "árvores",
+            "limoeiro",
+            "pomar"
+          ],
+          "sentence": "Dizem até algumas árvores que as pessoas mandam demais."
+        },
+        {
+          "target": "limoeiro",
+          "distractors": [
+            "árvores",
+            "pessoas",
+            "limões"
+          ],
+          "sentence": "Mas, depois, as pessoas tiram-nos o que fizemos – dizia um limoeiro novo."
+        },
+        {
+          "target": "pomar",
+          "distractors": [
+            "pessoas",
+            "frutos",
+            "depois"
+          ],
+          "sentence": "O dono do pomar estaria doente ou teria ido para fora, talvez desinteressado das árvores a que, noutros anos, dera toda a atenção."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "árvores",
+          "syllables": [
+            "ár",
+            "vo",
+            "res"
+          ]
+        },
+        {
+          "word": "pessoas",
+          "syllables": [
+            "pes",
+            "so",
+            "as"
+          ]
+        },
+        {
+          "word": "limoeiro",
+          "syllables": [
+            "li",
+            "mo",
+            "ei",
+            "ro"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "moro",
+          "syllables": [
+            "mo",
+            "ro"
+          ]
+        },
+        {
+          "word": "voei",
+          "syllables": [
+            "vo",
+            "ei"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "árvores",
+          "b": "árvores"
+        },
+        {
+          "a": "pessoas",
+          "b": "pessoas"
+        },
+        {
+          "a": "limoeiro",
+          "b": "limoeiro"
+        }
+      ]
+    },
+    {
+      "type": "puzzle-ilustracao",
+      "level": "descobrir",
+      "image": "/recovered/0000/10/21/images/3ilgjhymeuboovor5nihcc2dcovmcubt/Imagens/Background.jpg",
+      "grid": [
+        3,
+        2
+      ],
+      "credit": "Cristina Malaquias"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "No reino das árvores, as pessoas mandam muito.",
+        "E para que é que tu precisas dos limões, meu tolo?",
+        "Ainda se aquele pomar ficasse perto da estrada que leva à escola, talvez houvesse quem se tentasse e fizesse a colheita por sua conta…",
+        "Quando, tempos depois, o pomar abandonado foi visitado por pessoas, metia dó.",
+        "É, agora, um belo e perfumado limoeiro, que não se importa nada, mesmo nada, de dar os seus limões às pessoas que lhos pedem."
+      ]
+    }
+  ]
+}

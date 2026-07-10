@@ -9,9 +9,33 @@
   "illustrator": "Cristina Malaquias",
   "textSegments": [
     {
-      "layer": "archive-placeholder",
+      "layer": "archive-html",
       "paragraphs": [
-        "Texto original ainda não extraído. Consulta o PDF ou a página arquivada nas ligações de recuperação."
+        "Era uma vez um avô e um neto. Ou um neto e um avô. Tanto faz, desde que os dois estejam juntos, no jardim onde fomos encontrá-los.",
+        "Dizia o neto, apontando uma teia de aranha:",
+        "- Ó avô, porque é que nós não somos capazes de fazer teias?",
+        "Respondia o avô:",
+        "- Claro que somos capazes.",
+        "Repara nas redes de pesca dos pescadores, nas rendas da tua avó, nos tecidos das nossas roupas...",
+        "Mais adiante, dizia o neto, apontando uma libélula:",
+        "- Ó avô, porque é que nós não somos capazes de voar?",
+        "Respondia o avô:",
+        "- Mas claro que somos capazes.",
+        "Repara nos helicópteros, nos aviões, nas naves espaciais...",
+        "Pouco depois, dizia o neto, apontando uns peixinhos no lago:",
+        "- Ó avô, porque é que nós não somos capazes de nadar debaixo de água?",
+        "Respondia o avô:",
+        "- Mas claro que somos capazes.",
+        "Repara nos mergulhadores, nos escafandristas, nos submarinos...",
+        "Concluiu o neto:",
+        "- Afinal, nós somos capazes de tudo, avô.",
+        "- Nem tanto assim - atalhou o avô. - Quase conseguimos fabricar teias como as aranhas. Quase conseguimos voar como as libélulas.",
+        "Quase conseguimos andar debaixo de água como os peixes. Mas ainda não estamos satisfeitos nem nunca estaremos.",
+        "- E os peixes estão.",
+        "- Os peixes não querem outra vida. Conheces algum peixe com vontade de fazer teias ou de voar? São o que são e contentam-se.",
+        "Com os homens não acontece assim...",
+        "- Quer dizer que os bichos nunca mudam de vida. Deve ser chato - concluiu o neto.",
+        "- E, que eu saiba, ninguém lhes conta histórias - concluiu o avô."
       ]
     }
   ],
@@ -31,21 +55,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "pending-extraction",
+    "text": "html-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "needs-text-extraction"
+    "completeness": "html-text"
   },
   "provenance": {
     "storyPage": "/recovered/0000/11/20/html/6sx46j3dmqh42helhccnlgtxxydephh4/historia.aspx",
     "printPdf": null,
     "archiveDay": "/recovered/0000/11/20/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. O texto narrativo foi recuperado da página HTML original arquivada."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
-    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno."
+    "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
+    "Texto narrativo extraído automaticamente da página HTML original arquivada."
   ]
 }

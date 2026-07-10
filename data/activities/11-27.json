@@ -1,0 +1,132 @@
+{
+  "id": "11-27",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhor",
+          "distractors": [
+            "médico",
+            "gordo",
+            "cavalo"
+          ],
+          "sentence": "O que o senhor precisa é de fazer exercício – disse-lhe o médico."
+        },
+        {
+          "target": "médico",
+          "distractors": [
+            "senhor",
+            "gordo",
+            "cavalo"
+          ],
+          "sentence": "Foi ao médico dos gordos, que querem passar a magros ou a menos gordos."
+        },
+        {
+          "target": "gordo",
+          "distractors": [
+            "senhor",
+            "médico",
+            "cavalo"
+          ],
+          "sentence": "O senhor gordo, que também era muito preguiçoso, preferiu a corrida, mas a cavalo."
+        },
+        {
+          "target": "cavalo",
+          "distractors": [
+            "senhor",
+            "médico",
+            "gordo"
+          ],
+          "sentence": "Mas emagreceu o cavalo – esclareceu o senhor gordo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "médico",
+          "syllables": [
+            "mé",
+            "di",
+            "co"
+          ]
+        },
+        {
+          "word": "cavalo",
+          "syllables": [
+            "ca",
+            "va",
+            "lo"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cava",
+          "syllables": [
+            "ca",
+            "va"
+          ]
+        },
+        {
+          "word": "colo",
+          "syllables": [
+            "co",
+            "lo"
+          ]
+        },
+        {
+          "word": "colocava",
+          "syllables": [
+            "co",
+            "lo",
+            "ca",
+            "va"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "médico",
+          "b": "médico"
+        },
+        {
+          "a": "gordo",
+          "b": "gordo"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Foi ao médico dos gordos, que querem passar a magros ou a menos gordos.",
+        "O que o senhor precisa é de fazer exercício – disse-lhe o médico.",
+        "O senhor está na mesma – disse-lhe o médico, depois de medir-lhe a cintura.",
+        "Mas emagreceu o cavalo – esclareceu o senhor gordo.",
+        "E o senhor continuou gordo, para o resto da vida."
+      ]
+    }
+  ]
+}
