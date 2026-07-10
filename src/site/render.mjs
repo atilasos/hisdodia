@@ -82,7 +82,16 @@ function assetUrl(story, assetPath) {
 }
 
 export function safeAssetUrl(story, assetPath) {
-  return safeUrl(assetUrl(story, assetPath));
+  const raw = String(assetPath ?? '');
+  if (/[\u0000-\u001f\u007f]/.test(raw)) {
+    return null;
+  }
+
+  if (!safeUrl(raw)) {
+    return null;
+  }
+
+  return safeUrl(assetUrl(story, raw.trim()));
 }
 
 function assertStoryId(story) {

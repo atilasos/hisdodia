@@ -1,7 +1,26 @@
 import { after, describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
-import { renderSite } from '../../src/site/render.mjs';
+import { renderSite, safeAssetUrl } from '../../src/site/render.mjs';
+
+function sectionMarkup(html, id) {
+  const start = html.indexOf(`<section id="${id}"`);
+  assert.notEqual(start, -1, `expected section #${id}`);
+
+  let depth = 0;
+  for (const match of html.slice(start).matchAll(/<\/?section\b[^>]*>/g)) {
+    depth += match[0].startsWith('</') ? -1 : 1;
+    if (depth === 0) {
+      return html.slice(start, start + match.index + match[0].length);
+    }
+  }
+
+  assert.fail(`expected a closing tag for section #${id}`);
+}
+
+function countOccurrences(value, fragment) {
+  return value.split(fragment).length - 1;
+}
 
 describe('renderSite', () => {
   after(async () => {
@@ -10,6 +29,7 @@ describe('renderSite', () => {
     await rm('tmp/render-invalid-id', { recursive: true, force: true });
     await rm('tmp/render-today', { recursive: true, force: true });
     await rm('tmp/render-illustrated', { recursive: true, force: true });
+    await rm('tmp/render-wayback-safety', { recursive: true, force: true });
     await rm('src/site/public/assets/99-99', { recursive: true, force: true });
   });
 
@@ -115,6 +135,30 @@ describe('renderSite', () => {
     assert.doesNotMatch(withoutActivities, /\/brincar\.js/);
   });
 
+  it('validates raw asset paths before resolving recovered Wayback URLs', () => {
+    const story = {
+      provenance: {
+        storyPage: 'https://web.archive.org/web/20070101000000/http://www.historiadodia.pt/01/01/index.asp'
+      }
+    };
+
+    for (const unsafe of [
+      'javascript:alert(1)',
+      'data:text/html,unsafe',
+      'file:///tmp/private',
+      'ftp://example.com/file',
+      'imagem\u0000.jpg'
+    ]) {
+      assert.equal(safeAssetUrl(story, unsafe), null);
+    }
+    assert.equal(safeAssetUrl(story, '/assets/story image.jpg'), '/assets/story%20image.jpg');
+    assert.equal(safeAssetUrl(story, 'https://example.com/story image.jpg'), 'https://example.com/story%20image.jpg');
+    assert.equal(
+      safeAssetUrl(story, 'imagens/story image.jpg'),
+      'https://web.archive.org/web/20070101000000/http://www.historiadodia.pt/imagens/story%20image.jpg'
+    );
+  });
+
   it('renders homepage, archive, and story page from story data', async () => {
     await rm('dist', { recursive: true, force: true });
     await renderSite({ storiesDir: 'data/stories', outDir: 'dist', today: new Date('2026-01-01T12:00:00+00:00') });
@@ -212,6 +256,8 @@ describe('renderSite', () => {
 
     const homepage = await readFile('tmp/render-illustrated/complete/index.html', 'utf8');
     const story = await readFile('tmp/render-illustrated/complete/stories/99-99/index.html', 'utf8');
+    const illustratedPanel = sectionMarkup(story, 'edicao-ilustrada');
+    const originalPanel = sectionMarkup(story, 'edicao-original');
 
     assert.match(homepage, /src="\/assets\/99-99\/illustrated\/opening\.webp"/);
     assert.doesNotMatch(homepage, /src="\/assets\/01-01\/illustration-original\.jpg"/);
@@ -228,6 +274,10 @@ describe('renderSite', () => {
     assert.ok(story.indexOf('id="audio"') < story.indexOf('class="glossary"'));
     assert.ok(story.indexOf('class="glossary"') < story.indexOf('id="brincar"'));
     assert.ok(story.indexOf('id="brincar"') < story.indexOf('class="provenance"'));
+    for (const paragraph of ['Primeiro parágrafo.', 'Segundo parágrafo.']) {
+      assert.equal(countOccurrences(illustratedPanel, `<p>${paragraph}</p>`), 1);
+      assert.equal(countOccurrences(originalPanel, `<p>${paragraph}</p>`), 1);
+    }
   });
 
   it('keeps the recovered reader for pending or failed illustrated openings', async () => {
@@ -271,6 +321,52 @@ describe('renderSite', () => {
       assert.match(story, /Texto recuperado intacto\./);
       assert.match(homepage, /src="\/assets\/01-01\/illustration-original\.jpg"/);
     }
+  });
+
+  it('rejects an unsafe completed opening before resolving it through Wayback', async () => {
+    await rm('tmp/render-wayback-safety', { recursive: true, force: true });
+    await mkdir('tmp/render-wayback-safety/stories', { recursive: true });
+    await writeFile(
+      'tmp/render-wayback-safety/stories/99-98.json',
+      JSON.stringify({
+        id: '99-98',
+        dateLabel: 'Dia de teste',
+        title: 'Abertura insegura',
+        author: 'Autora',
+        illustrator: 'Ilustrador',
+        textSegments: [{ layer: 1, paragraphs: ['Texto histórico preservado.'] }],
+        assets: { background: '/assets/01-01/illustration-original.jpg' },
+        recovery: { text: 'recovered' },
+        provenance: {
+          storyPage: 'https://web.archive.org/web/20070101000000/http://www.historiadodia.pt/01/01/index.asp'
+        },
+        illustratedEdition: {
+          status: 'complete',
+          credit: 'Edição ilustrada contemporânea gerada com IA',
+          scenes: [
+            { id: 'opening', status: 'complete', after: null, layout: 'opening', image: 'javascript:alert(1)', alt: 'Abertura.' }
+          ]
+        }
+      })
+    );
+
+    await renderSite({
+      storiesDir: 'tmp/render-wayback-safety/stories',
+      outDir: 'tmp/render-wayback-safety/dist',
+      recoveredArchiveDir: null
+    });
+
+    const homepage = await readFile('tmp/render-wayback-safety/dist/index.html', 'utf8');
+    const story = await readFile('tmp/render-wayback-safety/dist/stories/99-98/index.html', 'utf8');
+
+    for (const html of [homepage, story]) {
+      assert.doesNotMatch(html, /javascript:/i);
+      assert.doesNotMatch(html, /web\.archive\.org[^"\s]*javascript:/i);
+      assert.match(html, /src="\/assets\/01-01\/illustration-original\.jpg"/);
+    }
+    assert.doesNotMatch(story, /class="edition-switcher"/);
+    assert.doesNotMatch(story, /id="edicao-ilustrada"/);
+    assert.match(story, /Texto histórico preservado\./);
   });
 
   it('escapes recovered text and rejects unsafe recovered URLs', async () => {
