@@ -26,9 +26,14 @@ const DEFAULT_OPENAI_INSTRUCTIONS = [
   'Mantem diccao clara, pronuncia europeia e evita soar como locucao comercial.'
 ].join(' ');
 
+const NON_NARRATABLE_LAYERS = new Set(['archive-placeholder', 'archive-missing']);
+
 export function hasNarratableText(story) {
   return Boolean(story.recovery?.text !== 'pending-extraction'
-    && story.textSegments?.some((segment) => segment.paragraphs?.length));
+    && story.recovery?.text !== 'text-lost'
+    && story.textSegments?.some(
+      (segment) => segment.paragraphs?.length && !NON_NARRATABLE_LAYERS.has(segment.layer)
+    ));
 }
 
 export function needsSyntheticAudio(story) {
