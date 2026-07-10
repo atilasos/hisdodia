@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 
 import { execFile } from 'node:child_process';
+import { randomUUID } from 'node:crypto';
 import {
+  link,
   mkdir,
   mkdtemp,
   readFile,
@@ -36,14 +38,58 @@ function execute(command, args) {
   });
 }
 
-async function dimensions(filename) {
-  const { stdout } = await execute('sips', ['-g', 'pixelWidth', '-g', 'pixelHeight', filename]);
+async function rasterMetadata(filename, executeImpl = execute) {
+  const { stdout } = await executeImpl('sips', ['-g', 'format', '-g', 'pixelWidth', '-g', 'pixelHeight', filename]);
+  const format = stdout.match(/format:\s*([^\s]+)/u)?.[1]?.toLowerCase() ?? null;
   const width = Number(stdout.match(/pixelWidth:\s*(\d+)/u)?.[1]);
   const height = Number(stdout.match(/pixelHeight:\s*(\d+)/u)?.[1]);
   if (!Number.isInteger(width) || width <= 0 || !Number.isInteger(height) || height <= 0) {
     throw new Error(`Invalid raster: ${filename}`);
   }
-  return { width, height };
+  return { format, width, height };
+}
+
+export async function inspectFinalAsset(filename, options = {}) {
+  let fileStat;
+  try {
+    fileStat = await stat(filename);
+  } catch {
+    return {
+      valid: false,
+      exists: false,
+      format: null,
+      width: null,
+      height: null,
+      size: null,
+      problems: ['missing file']
+    };
+  }
+
+  let raster;
+  try {
+    raster = await rasterMetadata(filename, options.executeImpl ?? execute);
+  } catch {
+    return {
+      valid: false,
+      exists: true,
+      format: null,
+      width: null,
+      height: null,
+      size: fileStat.size,
+      problems: ['invalid raster']
+    };
+  }
+  const problems = [];
+  if (raster.format !== 'webp') problems.push('format is not webp');
+  if (raster.width > 768 || raster.height > 768) problems.push('raster is longer than 768 px');
+  if (fileStat.size > MAX_BYTES) problems.push('file is over 200 KB');
+  return {
+    valid: problems.length === 0,
+    exists: true,
+    ...raster,
+    size: fileStat.size,
+    problems
+  };
 }
 
 async function writeJsonAtomically(filename, value) {
@@ -69,9 +115,37 @@ function pathsFor(options, storyId) {
   };
 }
 
+async function afterStage(options, stage) {
+  await options.afterStage?.(stage);
+}
+
+async function reconcileTechnicalError(files, story, options = {}) {
+  const journal = story.illustratedEdition?.lastTechnicalError;
+  if (!journal) return story;
+  const writeJson = options.writeJsonImpl ?? writeJsonAtomically;
+  const brief = JSON.parse(await readFile(files.brief, 'utf8'));
+  brief.errors = Array.isArray(brief.errors) ? brief.errors : [];
+  const error = {
+    sceneId: journal.sceneId,
+    attempt: journal.attempt,
+    message: journal.message
+  };
+  brief.errors = brief.errors.filter(
+    (candidate) => candidate.sceneId !== error.sceneId || candidate.attempt !== error.attempt
+  );
+  brief.errors.push(error);
+  await writeJson(files.brief, brief);
+  await afterStage(options, 'brief-error-upserted');
+  delete story.illustratedEdition.lastTechnicalError;
+  await writeJson(files.story, story);
+  await afterStage(options, 'story-error-cleared');
+  return story;
+}
+
 async function loadJob(options) {
   const files = pathsFor(options, options.storyId);
   const story = JSON.parse(await readFile(files.story, 'utf8'));
+  await reconcileTechnicalError(files, story, options);
   const scenes = story.illustratedEdition?.scenes;
   const scene = scenes?.find(({ id }) => id === options.sceneId);
   if (!scene) throw new Error(`Illustration scene not found: ${options.storyId}/${options.sceneId}`);
@@ -90,7 +164,22 @@ function finalizeEdition(story) {
   }
 }
 
+function validateMonth(month) {
+  if (month !== undefined && !/^(?:0[1-9]|1[0-2])$/u.test(month)) {
+    throw new Error('month must be 01 through 12');
+  }
+}
+
+function hasExactTechnicalErrors(errors, sceneId) {
+  const attempts = errors
+    .filter((error) => error.sceneId === sceneId)
+    .map((error) => error.attempt)
+    .sort();
+  return attempts.length === MAX_ATTEMPTS && attempts[0] === 1 && attempts[1] === 2;
+}
+
 export async function nextIllustrationJob(options = {}) {
+  validateMonth(options.month);
   const storiesDir = options.storiesDir ?? 'data/stories';
   const workDir = options.workDir ?? 'tmp/illustrations';
   const filenames = (await readdir(storiesDir))
@@ -102,36 +191,51 @@ export async function nextIllustrationJob(options = {}) {
   for (const filename of filenames) {
     const storyPath = path.join(storiesDir, filename);
     const story = JSON.parse(await readFile(storyPath, 'utf8'));
-    if (story.illustratedEdition?.status !== 'generating') continue;
-    const scene = story.illustratedEdition.scenes?.find(
-      (candidate) => (candidate.status === 'pending' || candidate.status === 'generating')
-        && candidate.attempts < MAX_ATTEMPTS
-    );
-    if (!scene) continue;
-
     const files = pathsFor(options, story.id);
-    const brief = JSON.parse(await readFile(files.brief, 'utf8'));
-    const briefScene = brief.scenes?.find(({ id }) => id === scene.id);
-    if (!briefScene?.prompt) throw new Error(`Illustration prompt not found: ${story.id}/${scene.id}`);
+    await reconcileTechnicalError(files, story, options);
+    if (story.illustratedEdition?.status !== 'generating') continue;
+    while (story.illustratedEdition.status === 'generating') {
+      const scene = story.illustratedEdition.scenes?.find(
+        (candidate) => (candidate.status === 'pending' || candidate.status === 'generating')
+          && candidate.attempts < MAX_ATTEMPTS
+      );
+      if (!scene) break;
 
-    scene.status = 'generating';
-    await writeJsonAtomically(storyPath, story);
-    return {
-      storyId: story.id,
-      sceneId: scene.id,
-      prompt: briefScene.prompt,
-      alt: scene.alt,
-      references: scene.id === 'opening'
-        ? []
-        : [`src/site/public/assets/${story.id}/illustrated/opening.webp`],
-      sourceOutput: path.join(workDir, story.id, `${scene.id}.png`)
-    };
+      const inspect = options.inspectFinalAssetImpl ?? inspectFinalAsset;
+      const published = await inspect(files.image(scene.id));
+      if (published.valid) {
+        scene.attempts += 1;
+        scene.status = 'complete';
+        finalizeEdition(story);
+        await (options.writeJsonImpl ?? writeJsonAtomically)(storyPath, story);
+        continue;
+      }
+
+      const brief = JSON.parse(await readFile(files.brief, 'utf8'));
+      const briefScene = brief.scenes?.find(({ id }) => id === scene.id);
+      if (!briefScene?.prompt) throw new Error(`Illustration prompt not found: ${story.id}/${scene.id}`);
+
+      scene.status = 'generating';
+      await (options.writeJsonImpl ?? writeJsonAtomically)(storyPath, story);
+      return {
+        storyId: story.id,
+        sceneId: scene.id,
+        prompt: briefScene.prompt,
+        alt: scene.alt,
+        references: scene.id === 'opening'
+          ? []
+          : [`src/site/public/assets/${story.id}/illustrated/opening.webp`],
+        sourceOutput: path.join(workDir, story.id, `${scene.id}.png`)
+      };
+    }
   }
   return null;
 }
 
-export async function compressIllustration(sourcePath, destinationPath) {
-  const source = await dimensions(sourcePath);
+export async function compressIllustration(sourcePath, destinationPath, options = {}) {
+  const executeImpl = options.executeImpl ?? execute;
+  const inspect = options.inspectFinalAssetImpl ?? inspectFinalAsset;
+  const source = await rasterMetadata(sourcePath, executeImpl);
   await mkdir(path.dirname(destinationPath), { recursive: true });
 
   for (let index = 0; index < COMPRESSION_ATTEMPTS.length; index += 1) {
@@ -144,12 +248,11 @@ export async function compressIllustration(sourcePath, destinationPath) {
     args.push(sourcePath, '-o', temporaryPath);
 
     try {
-      await execute('cwebp', args);
-      const output = await dimensions(temporaryPath);
-      const outputStat = await stat(temporaryPath);
-      if (output.width <= maxSide && output.height <= maxSide && outputStat.size <= MAX_BYTES) {
+      await executeImpl('cwebp', args);
+      const output = await inspect(temporaryPath, { executeImpl });
+      if (output.valid && output.width <= maxSide && output.height <= maxSide) {
         await rename(temporaryPath, destinationPath);
-        return { ...output, size: outputStat.size };
+        return output;
       }
     } finally {
       await rm(temporaryPath, { force: true });
@@ -161,8 +264,49 @@ export async function compressIllustration(sourcePath, destinationPath) {
 
 export async function completeIllustrationJob(options) {
   const { files, story, scene } = await loadJob(options);
+  const inspect = options.inspectFinalAssetImpl ?? inspectFinalAsset;
+  if (scene.status === 'complete') {
+    const existing = await inspect(files.image(scene.id));
+    if (existing.valid) return scene;
+    throw new Error(`Cannot complete terminal scene with an invalid final asset: ${options.storyId}/${options.sceneId}`);
+  }
+  if (scene.status === 'failed') {
+    throw new Error(`Cannot complete terminal scene: ${options.storyId}/${options.sceneId}`);
+  }
+  if (scene.status !== 'generating') {
+    throw new Error(`Scene must be generating before complete: ${options.storyId}/${options.sceneId}`);
+  }
+  if (scene.attempts >= MAX_ATTEMPTS) {
+    throw new Error(`Cannot complete terminal scene: ${options.storyId}/${options.sceneId}`);
+  }
+  const existingBeforeCompression = await inspect(files.image(scene.id));
+  if (existingBeforeCompression.exists) {
+    if (existingBeforeCompression.valid) {
+      throw new Error(`A valid final asset already exists: ${files.image(scene.id)}`);
+    }
+    throw new Error(`A final asset already exists and regeneration is unsupported: ${files.image(scene.id)}`);
+  }
   const compress = options.compress ?? compressIllustration;
-  await compress(options.sourcePath, files.image(scene.id));
+  const incomingPath = `${files.image(scene.id)}.incoming-${randomUUID()}.webp`;
+  await compress(options.sourcePath, incomingPath);
+  const published = await inspect(incomingPath);
+  if (!published.valid) {
+    await rm(incomingPath, { force: true });
+    throw new Error(`Compressed output is invalid: ${published.problems.join(', ')}`);
+  }
+  try {
+    await link(incomingPath, files.image(scene.id));
+  } catch (error) {
+    if (error.code !== 'EEXIST') throw error;
+    const racedAsset = await inspect(files.image(scene.id));
+    if (racedAsset.valid) {
+      throw new Error(`A valid final asset already exists: ${files.image(scene.id)}`);
+    }
+    throw new Error(`A final asset already exists and regeneration is unsupported: ${files.image(scene.id)}`);
+  } finally {
+    await rm(incomingPath, { force: true });
+  }
+  await options.afterStage?.('asset-published');
   const workDir = path.resolve(options.workDir ?? 'tmp/illustrations');
   const sourcePath = path.resolve(options.sourcePath);
   if (sourcePath.startsWith(`${workDir}${path.sep}`)) {
@@ -171,33 +315,57 @@ export async function completeIllustrationJob(options) {
   scene.attempts += 1;
   scene.status = 'complete';
   finalizeEdition(story);
-  await writeJsonAtomically(files.story, story);
+  await (options.writeJsonImpl ?? writeJsonAtomically)(files.story, story);
   return scene;
 }
 
 export async function failIllustrationJob(options) {
   const { files, story, scene } = await loadJob(options);
-  if (scene.attempts >= MAX_ATTEMPTS) return scene;
   const brief = JSON.parse(await readFile(files.brief, 'utf8'));
+  if (scene.status === 'failed' && scene.attempts === MAX_ATTEMPTS) {
+    const recorded = brief.errors?.find(
+      (error) => error.sceneId === scene.id && error.attempt === scene.attempts
+    );
+    if (recorded?.message === options.message) return scene;
+    throw new Error(`Cannot fail terminal scene: ${options.storyId}/${options.sceneId}`);
+  }
+  if (scene.status === 'complete' || scene.status === 'failed' || scene.attempts >= MAX_ATTEMPTS) {
+    throw new Error(`Cannot fail terminal scene: ${options.storyId}/${options.sceneId}`);
+  }
+  if (scene.status !== 'generating') {
+    throw new Error(`Scene must be generating before fail: ${options.storyId}/${options.sceneId}`);
+  }
   scene.attempts += 1;
   scene.status = scene.attempts >= MAX_ATTEMPTS ? 'failed' : 'pending';
-  brief.errors = Array.isArray(brief.errors) ? brief.errors : [];
-  brief.errors.push({ sceneId: scene.id, attempt: scene.attempts, message: options.message });
+  story.illustratedEdition.lastTechnicalError = {
+    sceneId: scene.id,
+    attempt: scene.attempts,
+    message: options.message
+  };
   finalizeEdition(story);
-  await writeJsonAtomically(files.brief, brief);
-  await writeJsonAtomically(files.story, story);
+  await (options.writeJsonImpl ?? writeJsonAtomically)(files.story, story);
+  await afterStage(options, 'story-error-journaled');
+  await reconcileTechnicalError(files, story, options);
   return scene;
 }
 
 export async function deferIllustrationJob(options) {
   const { files, story, scene } = await loadJob(options);
+  if (scene.status === 'pending') return scene;
+  if (scene.status === 'complete' || scene.status === 'failed') {
+    throw new Error(`Cannot defer terminal scene: ${options.storyId}/${options.sceneId}`);
+  }
+  if (scene.status !== 'generating') {
+    throw new Error(`Scene must be generating before defer: ${options.storyId}/${options.sceneId}`);
+  }
   scene.status = 'pending';
   finalizeEdition(story);
-  await writeJsonAtomically(files.story, story);
+  await (options.writeJsonImpl ?? writeJsonAtomically)(files.story, story);
   return scene;
 }
 
 export async function auditIllustrations(options = {}) {
+  validateMonth(options.month);
   const storiesDir = options.storiesDir ?? 'data/stories';
   const publicDir = options.publicDir ?? 'src/site/public';
   const filenames = (await readdir(storiesDir))
@@ -208,12 +376,13 @@ export async function auditIllustrations(options = {}) {
   const problems = [];
   const counts = { stories: filenames.length, completeScenes: 0, failedOpenings: 0, failedScenes: 0 };
 
-  if (options.storyId && filenames.length === 0) {
-    problems.push(`${options.storyId}: story not found`);
+  if ((options.storyId || options.month) && filenames.length === 0) {
+    problems.push(`${options.storyId ?? options.month}: no stories matched requested scope`);
   }
 
   for (const filename of filenames) {
     const story = JSON.parse(await readFile(path.join(storiesDir, filename), 'utf8'));
+    await reconcileTechnicalError(pathsFor(options, story.id), story, options);
     const edition = story.illustratedEdition;
     if (!edition) {
       problems.push(`${story.id}: missing illustrated edition`);
@@ -234,42 +403,45 @@ export async function auditIllustrations(options = {}) {
     }
     const errors = Array.isArray(brief.errors) ? brief.errors : [];
     const opening = scenes.find(({ id }) => id === 'opening');
-    const openingErrors = errors.filter(({ sceneId }) => sceneId === 'opening');
-    if (opening?.status === 'failed' && opening.attempts === MAX_ATTEMPTS && openingErrors.length === MAX_ATTEMPTS) {
+    const degradedOpening = opening?.status === 'failed'
+      && opening.attempts === MAX_ATTEMPTS
+      && hasExactTechnicalErrors(errors, 'opening');
+    if (opening?.status === 'failed' && opening.attempts === MAX_ATTEMPTS && edition.status !== 'failed') {
+      problems.push(`${story.id}: edition status must be failed after opening failure`);
+    }
+    if (degradedOpening) {
       counts.failedOpenings += 1;
-      continue;
     }
 
     for (const scene of scenes) {
       const label = `${story.id}/${scene.id}`;
       if (scene.status === 'pending' || scene.status === 'generating') {
-        problems.push(`${label}: pending scene`);
+        const untouchedDependent = degradedOpening
+          && scene.id !== 'opening'
+          && scene.status === 'pending'
+          && scene.attempts === 0;
+        if (!untouchedDependent) problems.push(`${label}: pending scene`);
       } else if (scene.status === 'complete') {
         counts.completeScenes += 1;
         const imagePath = path.join(publicDir, 'assets', story.id, 'illustrated', `${scene.id}.webp`);
-        let imageStat;
-        try {
-          imageStat = await stat(imagePath);
-        } catch {
+        const inspect = options.inspectFinalAssetImpl ?? inspectFinalAsset;
+        const asset = await inspect(imagePath);
+        if (!asset.exists) {
           problems.push(`${label}: completed scene has a missing file`);
           continue;
         }
-        if (imageStat.size > MAX_BYTES) {
-          problems.push(`${label}: file is over 200 KB`);
-        }
-        try {
-          const imageDimensions = await dimensions(imagePath);
-          if (imageDimensions.width > 768 || imageDimensions.height > 768) {
-            problems.push(`${label}: raster is longer than 768 px`);
-          }
-        } catch {
-          problems.push(`${label}: file is not a valid raster`);
+        for (const assetProblem of asset.problems) {
+          if (assetProblem === 'invalid raster') problems.push(`${label}: file is not a valid raster`);
+          else if (assetProblem === 'format is not webp') problems.push(`${label}: file format is not webp`);
+          else problems.push(`${label}: ${assetProblem}`);
         }
       } else if (scene.status === 'failed') {
-        if (scene.id === 'opening') counts.failedOpenings += 1;
-        else counts.failedScenes += 1;
-        const sceneErrors = errors.filter(({ sceneId }) => sceneId === scene.id);
-        if (scene.attempts !== MAX_ATTEMPTS || sceneErrors.length !== MAX_ATTEMPTS) {
+        if (scene.id === 'opening') {
+          if (!degradedOpening) counts.failedOpenings += 1;
+        } else {
+          counts.failedScenes += 1;
+        }
+        if (scene.attempts !== MAX_ATTEMPTS || !hasExactTechnicalErrors(errors, scene.id)) {
           problems.push(`${label}: failed scene does not have exactly two recorded technical errors`);
         }
       } else {
@@ -296,7 +468,9 @@ Commands:
   audit [--story MM-DD | --month MM]
 
 Options:
-  --help  Show this help`;
+  --help  Show this help
+
+Existing final assets are never replaced; regeneration is unsupported by this command.`;
 }
 
 function parseArguments(argv) {
@@ -321,7 +495,7 @@ function parseArguments(argv) {
     }
   }
   if (options.storyId && !/^\d{2}-\d{2}$/u.test(options.storyId)) throw new Error('--story requires MM-DD');
-  if (options.month && !/^\d{2}$/u.test(options.month)) throw new Error('--month requires MM');
+  if (options.month && !/^(?:0[1-9]|1[0-2])$/u.test(options.month)) throw new Error('--month requires 01 through 12');
   if (options.storyId && options.month) throw new Error('Choose at most one scope: --story or --month');
   return { command, options };
 }
