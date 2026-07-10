@@ -9,22 +9,24 @@ const OBSERVABLE_ART_DIRECTION = 'soft watercolour, pencil texture, irregular fi
 const CONTINUITY_DIRECTION = 'Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes.';
 const SAFETY_DIRECTION = 'Do not imitate any named artist; no words, lettering, logos, or signatures.';
 const UNSAFE_DESCRIPTION_PATTERNS = [
-  /\b(?:style\s+of|estilo\s+de)\b/iu,
+  /^\s*(?:please\s+)?(?:compose|draw|illustrate|paint|render|use)\b[\s\S]{0,80}\b(?:aesthetic|manner|style|visual\s+language)\b/iu,
+  /^\s*(?:please\s+)?(?:compose|draw|illustrate|paint|render|use)\b[\s\S]{0,80}\b(?:as\s+if\s+by|by|like)\b/iu,
+  /^\s*(?:compor|componha|compõe|desenhar|desenhe|ilustrar|ilustre|pintar|pinte|renderizar|renderize|usar|use)\b[\s\S]{0,80}\b(?:estética|estilo|linguagem\s+visual|maneira)\b/iu,
+  /^\s*(?:compor|componha|compõe|desenhar|desenhe|ilustrar|ilustre|pintar|pinte|renderizar|renderize|usar|use)\b[\s\S]{0,80}\bcomo\b/iu,
+  /\b(?:drawing|illustration|painting|watercolou?r)\s+by\b/iu,
+  /\b(?:[Aa]guarela|[Aa]quarela|[Dd]esenho|[Ii]lustração|[Pp]intura)\s+por\s+\p{Lu}[\p{L}'’-]+\s+(?:(?:d[aeo]s?|das)\s+)?\p{Lu}[\p{L}'’-]+\b/u,
   /^\s*[\p{L}'’-]+(?:\s+[\p{L}'’-]+){1,3}\s+style\b/iu,
-  /\b[\p{L}'’-]+(?:\s+[\p{L}'’-]+){0,3}['’]s\s+style\b/iu,
-  /\b(?:visual\s+language|linguagem\s+visual)\s+(?:of|d[aeo])\b/iu,
-  /(?:^|[\s,;:])à\s+maneira\s+d[aeo]\b/iu,
-  /\b(?:drawing|illustration|painting|watercolou?r|aguarela|aquarela|desenho|ilustração|pintura)\s+(?:by|por)\b/iu,
-  /\b(?:draw|illustrate|paint|render)\b[\s\S]{0,80}\b(?:manner|style)\b/iu,
-  /\b(?:draw|illustrate|paint|render)\b[\s\S]{0,80}\bas\s+if\s+by\b/iu,
-  /\b(?:drawing|illustration|painting|watercolou?r|aguarela|aquarela|desenho|ilustração|pintura)\b[\s\S]{0,80}\b(?:aesthetic|estética)\s+(?:of|d[aeo])\b/iu,
-  /\b(?:draw|illustrate|paint|render)(?:\s+(?:it|this|the\s+(?:image|scene)))?\s+like\b/iu,
-  /\b(?:emulate|imitate)\b/iu,
+  /^\s*[\p{L}'’-]+(?:\s+[\p{L}'’-]+){0,3}['’]s\s+(?:aesthetic|style)\b/iu,
+  /^\s*(?:[Aa]esthetic|[Ss]tyle|[Ee]stética|[Ee]stilo)\s+(?:of|d[aeo])\s+\p{Lu}[\p{L}'’-]+\s+(?:(?:d[aeo]s?|das)\s+)?\p{Lu}[\p{L}'’-]+\b/u,
+  /^\s*(?:[Vv]isual\s+language|[Ll]inguagem\s+visual)\s+(?:of|d[aeo])\s+\p{Lu}[\p{L}'’-]+\s+(?:(?:d[aeo]s?|das)\s+)?\p{Lu}[\p{L}'’-]+\b/u,
+  /^\s*[Àà]\s+maneira\s+d[aeo]\s+\p{Lu}[\p{L}'’-]+\s+(?:(?:d[aeo]s?|das)\s+)?\p{Lu}[\p{L}'’-]+\b/u,
+  /\b(?:[Aa]guarela|[Aa]quarela|[Dd]esenho|[Ii]lustração|[Pp]intura)\b[\s\S]{0,80}\b[Ee]stética\s+d[aeo]\s+\p{Lu}[\p{L}'’-]+\s+(?:(?:d[aeo]s?|das)\s+)?\p{Lu}[\p{L}'’-]+\b/u,
   /(?:^\s*|\b(?:composition|illustration|image|scene|composição|ilustração|imagem|cena)\b[\s\S]{0,80})inspired\s+by\b/iu,
   /\b(?:composição|ilustração|imagem|cena)\b[\s\S]{0,80}\binspirad[ao]s?\s+(?:em|por)\b/iu,
+  /^\s*(?:emulate|imitate)\b/iu,
+  /\b(?:disregard|forget|ignore)\b[\s\S]{0,120}\b(?:emulate|imitate)\b/iu,
   /^\s*(?:emular|imitar)\s+[\p{L}]/iu,
   /\b(?:desconsidera|esquece|ignora|ignorar)\b[\s\S]{0,120}\b(?:emular|emule|imitar|imite)\b/iu,
-  /\b(?:desenhar|ilustrar|pintar)(?:\s+(?:isto|esta\s+(?:abertura|cena|imagem)))?\s+como\b/iu,
 ];
 
 function assertText(value, field) {

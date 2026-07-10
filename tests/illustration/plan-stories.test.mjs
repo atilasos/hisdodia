@@ -473,7 +473,10 @@ describe('Luna planner', () => {
       'Render in Quentin Blake manner.',
       'Paint as if by Quentin Blake.',
       'Watercolour by Quentin Blake.',
-      'Ilustração segundo a estética de Paula Rego.'
+      'Ilustração segundo a estética de Paula Rego.',
+      "Use Quentin Blake's aesthetic for the scene.",
+      'Use the aesthetic of Quentin Blake.',
+      'Compose this in Quentin Blake manner.'
     ];
 
     for (const description of unsafeDescriptions) {

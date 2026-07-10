@@ -183,7 +183,10 @@ describe('illustrated edition contract', () => {
       'Render in Quentin Blake manner.',
       'Paint as if by Quentin Blake.',
       'Watercolour by Quentin Blake.',
-      'Ilustração segundo a estética de Paula Rego.'
+      'Ilustração segundo a estética de Paula Rego.',
+      "Use Quentin Blake's aesthetic for the scene.",
+      'Use the aesthetic of Quentin Blake.',
+      'Compose this in Quentin Blake manner.'
     ];
 
     for (const description of unsafeDescriptions) {
@@ -205,7 +208,11 @@ describe('illustrated edition contract', () => {
       'A criança, inspirada por João, observa a estrada.',
       'Inspirada por João, a criança observa o pássaro.',
       'A mulher usa um chapéu de estilo antigo.',
-      'Um jovem de estilo desajeitado tropeça na estrada.'
+      'Um jovem de estilo desajeitado tropeça na estrada.',
+      'Uma pintura por cima da lareira mostra um barco.',
+      'A ilustração por concluir está pousada sobre a mesa.',
+      'O rapaz acena à maneira do pai.',
+      'O estilo de vida humilde vê-se na casa quase vazia.'
     ];
 
     for (const description of safeDescriptions) {
