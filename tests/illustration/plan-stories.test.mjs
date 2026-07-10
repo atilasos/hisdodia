@@ -82,6 +82,17 @@ function failingAtomicWriter(failAfter) {
 }
 
 describe('Luna planner', () => {
+  it('uses a Codex-compatible nullable after schema', async () => {
+    const schemaPath = fileURLToPath(new URL('../../src/illustration/scene-plan.schema.json', import.meta.url));
+    const schema = JSON.parse(await readFile(schemaPath, 'utf8'));
+    const afterSchema = schema.properties.scenes.items.properties.after;
+
+    assert.equal('oneOf' in afterSchema, false);
+    assert.deepEqual(afterSchema.anyOf.map((branch) => branch.type), ['null', 'object']);
+    assert.deepEqual(afterSchema.anyOf[1].required, ['segment', 'paragraph']);
+    assert.equal(afterSchema.anyOf[1].additionalProperties, false);
+  });
+
   it('builds a prompt from narrative content without illustrator identity', () => {
     const prompt = buildPlanningPrompt({
       id: '01-01',
@@ -145,6 +156,45 @@ describe('Luna planner', () => {
     assert.equal(calls, 1);
     assert.equal(call.args[call.args.indexOf('--model') + 1], 'gpt-5.4-mini');
     assert.equal(call.options.timeout, 1_234);
+  });
+
+  it('preserves subprocess diagnostics without retrying', async () => {
+    const plannerError = new Error('Codex exited with status 1');
+    let calls = 0;
+    const execFileImpl = (_command, _args, _options, callback) => {
+      calls += 1;
+      callback(plannerError, 'partial planner output', 'invalid_json_schema: oneOf is not permitted');
+    };
+
+    await assert.rejects(
+      () => runLunaPlanner('prompt', { execFileImpl }),
+      (error) => {
+        assert.equal(error, plannerError);
+        assert.match(error.message, /partial planner output/);
+        assert.match(error.message, /invalid_json_schema: oneOf is not permitted/);
+        assert.equal(error.stdout, 'partial planner output');
+        assert.equal(error.stderr, 'invalid_json_schema: oneOf is not permitted');
+        return true;
+      }
+    );
+    assert.equal(calls, 1);
+  });
+
+  it('reports missing structured output with subprocess diagnostics instead of raw ENOENT', async () => {
+    const execFileImpl = (_command, _args, _options, callback) => {
+      callback(null, 'planner completed', 'planner warning');
+    };
+
+    await assert.rejects(
+      () => runLunaPlanner('prompt', { execFileImpl }),
+      (error) => {
+        assert.match(error.message, /did not produce structured output/);
+        assert.match(error.message, /planner completed/);
+        assert.match(error.message, /planner warning/);
+        assert.equal(error.cause?.code, 'ENOENT');
+        return true;
+      }
+    );
   });
 
   it('propagates an explicit model to the planner and story metadata', async () => {

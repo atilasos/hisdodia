@@ -41,6 +41,13 @@ function execute(command, args, options, execFileImpl) {
   return new Promise((resolve, reject) => {
     execFileImpl(command, args, options, (error, stdout, stderr) => {
       if (error) {
+        error.stdout = stdout;
+        error.stderr = stderr;
+        const diagnostics = [
+          stdout ? `stdout:\n${stdout}` : '',
+          stderr ? `stderr:\n${stderr}` : ''
+        ].filter(Boolean).join('\n');
+        if (diagnostics) error.message = `${error.message}\n${diagnostics}`;
         reject(error);
         return;
       }
@@ -72,8 +79,21 @@ export async function runLunaPlanner(prompt, options = {}) {
   ];
 
   try {
-    await execute('codex', args, { cwd, timeout }, execFileImpl);
-    return JSON.parse(await readFile(outputPath, 'utf8'));
+    const { stdout, stderr } = await execute('codex', args, { cwd, timeout }, execFileImpl);
+    let output;
+    try {
+      output = await readFile(outputPath, 'utf8');
+    } catch (cause) {
+      const diagnostics = [
+        stdout ? `stdout:\n${stdout}` : '',
+        stderr ? `stderr:\n${stderr}` : ''
+      ].filter(Boolean).join('\n');
+      throw new Error([
+        'Codex planner did not produce structured output.',
+        diagnostics
+      ].filter(Boolean).join('\n'), { cause });
+    }
+    return JSON.parse(output);
   } finally {
     await rm(temporaryDir, { recursive: true, force: true });
   }
