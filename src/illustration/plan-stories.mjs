@@ -25,7 +25,7 @@ import {
 } from './edition.mjs';
 
 const DIRECTION = `Plan a contemporary illustrated edition of this Portuguese children's story as strict JSON.
-Choose three to six scenes, including exactly one opening first. Every scene description and alternative text must contain only visually observable facts explicitly supported by the story. For every later scene, anchor after a zero-based segment and paragraph that is the final paragraph of the depicted narrative beat, so the illustration appears after the event. The description, alternative text, and anchor must describe the same moment. The canonical image prompt combines the description with story evidence. Use observable media traits only: soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Keep characters, clothes, recurring objects, setting, and palette consistent within the story. Every image prompt must say: no words, lettering, logos, or signatures. Never name or imitate a specific artist. Alternative text must be concise European Portuguese.`;
+Choose three to six scenes, including exactly one opening. Return one evidence string for each scene. Opening evidence is the exact first non-empty narrative paragraph. For every later scene, evidence is the exact final paragraph of the depicted narrative beat, so the illustration appears after the event. Evidence must be copied verbatim, not summarized. Description and alternative text must contain only visually observable facts explicitly supported by that evidence. Use observable media traits only: soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Keep characters, clothes, recurring objects, setting, and palette consistent within the story. Depict no words, lettering, logos, or signatures. Never name or imitate a specific artist. Alternative text must be concise European Portuguese.`;
 
 const moduleDir = path.dirname(fileURLToPath(import.meta.url));
 const defaultSchemaPath = path.join(moduleDir, 'scene-plan.schema.json');
@@ -172,23 +172,66 @@ function selectedFilename(filename, { storyId, month, all }) {
   return all === true;
 }
 
-function normalizeOpeningScene(scenes) {
+function storyParagraphs(story) {
+  return (story.textSegments ?? []).flatMap((segment, segmentIndex) => (
+    (segment?.paragraphs ?? []).map((paragraph, paragraphIndex) => ({
+      segment: segmentIndex,
+      paragraph: paragraphIndex,
+      text: typeof paragraph === 'string' ? paragraph.trim() : ''
+    }))
+  )).filter(({ text }) => text !== '');
+}
+
+function approvedSceneFields(scene) {
+  return {
+    id: scene?.id,
+    evidence: typeof scene?.evidence === 'string' ? scene.evidence.trim() : scene?.evidence,
+    layout: scene?.layout,
+    description: scene?.description,
+    alt: scene?.alt
+  };
+}
+
+function deriveScenes(story, scenes) {
   if (!Array.isArray(scenes)) return scenes;
   const openingCandidates = scenes
     .map((scene, index) => ({ scene, index }))
     .filter(({ scene }) => (
       scene?.id === 'opening'
       || scene?.layout === 'opening'
-      || scene?.after === null
     ));
-  if (openingCandidates.length !== 1) return scenes;
+  if (openingCandidates.length !== 1) {
+    throw new Error('A scene plan must contain exactly one opening candidate');
+  }
 
   const [{ scene: opening, index: openingIndex }] = openingCandidates;
-  return [
-    { ...opening, id: 'opening', layout: 'opening', after: null },
+  const ordered = [
+    { ...approvedSceneFields(opening), id: 'opening', layout: 'opening' },
     ...scenes.slice(0, openingIndex),
     ...scenes.slice(openingIndex + 1)
   ];
+  const paragraphs = storyParagraphs(story);
+  if (ordered[0].evidence !== paragraphs[0]?.text) {
+    throw new Error('Opening evidence must equal the exact first non-empty narrative paragraph');
+  }
+
+  return ordered.map((rawScene, index) => {
+    const scene = index === 0 ? rawScene : approvedSceneFields(rawScene);
+    const after = index === 0
+      ? null
+      : (() => {
+        if (typeof scene.evidence !== 'string' || scene.evidence === '') {
+          throw new Error('Scene evidence must be non-empty text');
+        }
+        const matches = paragraphs.filter(({ text }) => text === scene.evidence);
+        if (matches.length !== 1) {
+          throw new Error('Every non-opening scene evidence must match exactly one unique story paragraph');
+        }
+        return { segment: matches[0].segment, paragraph: matches[0].paragraph };
+      })();
+    const derived = { ...scene, after };
+    return { ...derived, prompt: buildCanonicalScenePrompt(story, derived) };
+  });
 }
 
 async function writeJsonAtomically(filename, value) {
@@ -247,15 +290,13 @@ export async function planStories(options = {}) {
     }
 
     const returnedPlan = await runPlanner(buildPlanningPrompt(story), { planningModel });
-    const normalizedScenes = normalizeOpeningScene(returnedPlan?.scenes);
+    const derivedScenes = deriveScenes(story, returnedPlan?.scenes);
     const plan = {
-      ...returnedPlan,
-      scenes: Array.isArray(normalizedScenes)
-        ? normalizedScenes.map((scene) => ({
-          ...scene,
-          prompt: buildCanonicalScenePrompt(story, scene)
-        }))
-        : normalizedScenes
+      characters: returnedPlan?.characters,
+      environment: returnedPlan?.environment,
+      palette: returnedPlan?.palette,
+      recurringObjects: returnedPlan?.recurringObjects,
+      scenes: derivedScenes
     };
     validateScenePlan(story, plan);
 

@@ -25,23 +25,18 @@ function fixtureStory() {
   };
 }
 
-function validPlan(source = fixtureStory()) {
-  const result = {
+function validPlan() {
+  return {
     characters: [],
     environment: 'A village road.',
     palette: ['warm paper', 'soft blue'],
     recurringObjects: ['mill'],
     scenes: [
-      { id: 'opening', after: null, layout: 'opening', description: 'Opening.', alt: 'Opening scene.', prompt: '' },
-      { id: 'middle', after: { segment: 0, paragraph: 0 }, layout: 'marginal', description: 'Middle.', alt: 'Middle scene.', prompt: '' },
-      { id: 'ending', after: { segment: 0, paragraph: 1 }, layout: 'vignette', description: 'Ending.', alt: 'Ending scene.', prompt: '' }
+      { id: 'opening', evidence: 'Primeiro.', layout: 'opening', description: 'Opening.', alt: 'Opening scene.' },
+      { id: 'middle', evidence: 'Primeiro.', layout: 'marginal', description: 'Middle.', alt: 'Middle scene.' },
+      { id: 'ending', evidence: 'Segundo.', layout: 'vignette', description: 'Ending.', alt: 'Ending scene.' }
     ]
   };
-  result.scenes = result.scenes.map((scene) => ({
-    ...scene,
-    prompt: buildCanonicalScenePrompt(source, scene)
-  }));
-  return result;
 }
 
 function planWithPrompt(prompt) {
@@ -119,15 +114,16 @@ describe('Luna planner', () => {
     await assertPlanningRejectsPersistedStoryId('../../outside', 'traversal');
   });
 
-  it('uses a Codex-compatible nullable after schema', async () => {
+  it('asks the model for evidence instead of numeric anchors or image prompts', async () => {
     const schemaPath = fileURLToPath(new URL('../../src/illustration/scene-plan.schema.json', import.meta.url));
     const schema = JSON.parse(await readFile(schemaPath, 'utf8'));
-    const afterSchema = schema.properties.scenes.items.properties.after;
+    const sceneSchema = schema.properties.scenes.items;
 
-    assert.equal('oneOf' in afterSchema, false);
-    assert.deepEqual(afterSchema.anyOf.map((branch) => branch.type), ['null', 'object']);
-    assert.deepEqual(afterSchema.anyOf[1].required, ['segment', 'paragraph']);
-    assert.equal(afterSchema.anyOf[1].additionalProperties, false);
+    assert.deepEqual(sceneSchema.required, ['id', 'evidence', 'layout', 'description', 'alt']);
+    assert.equal('evidence' in sceneSchema.properties, true);
+    assert.equal('after' in sceneSchema.properties, false);
+    assert.equal('prompt' in sceneSchema.properties, false);
+    assert.equal(sceneSchema.additionalProperties, false);
   });
 
   it('builds a prompt from narrative content without illustrator identity', () => {
@@ -141,10 +137,12 @@ describe('Luna planner', () => {
     assert.match(prompt, /Primeiro\./);
     assert.doesNotMatch(prompt, /Cristina Malaquias/);
     assert.match(prompt, /no words, lettering, logos, or signatures/);
-    assert.match(prompt, /description, alternative text, and anchor must describe the same moment/i);
+    assert.match(prompt, /evidence must be copied verbatim/i);
+    assert.match(prompt, /opening evidence is the exact first non-empty narrative paragraph/i);
     assert.match(prompt, /final paragraph of the depicted narrative beat/i);
-    assert.match(prompt, /only visually observable facts explicitly supported by the story/i);
-    assert.match(prompt, /canonical image prompt combines the description with story evidence/i);
+    assert.match(prompt, /description and alternative text must contain only visually observable facts explicitly supported by that evidence/i);
+    assert.doesNotMatch(prompt, /zero-based segment and paragraph/i);
+    assert.doesNotMatch(prompt, /canonical image prompt/i);
   });
 
   it('invokes ephemeral Luna by default with a three-minute timeout', async () => {
@@ -491,7 +489,7 @@ describe('Luna planner', () => {
         id: '01-01',
         title: 'Teste',
         textSegments: [{ paragraphs: ['Primeiro.', 'Segundo.'] }]
-      }, validPlan().scenes[1])
+      }, { ...validPlan().scenes[1], after: { segment: 0, paragraph: 0 } })
     );
   });
 
@@ -570,16 +568,17 @@ describe('Luna planner', () => {
     );
     assert.equal(brief.scenes[0].description, 'Preserved opening.');
     assert.equal(brief.scenes[0].alt, 'Abertura preservada.');
+    assert.equal(brief.scenes[0].evidence, 'Primeiro.');
     assert.equal(brief.scenes[0].prompt, buildCanonicalScenePrompt(fixtureStory(), brief.scenes[0]));
     assert.deepEqual(
-      brief.scenes.slice(1).map(({ id, after, layout, description, alt }) => ({ id, after, layout, description, alt })),
+      brief.scenes.slice(1).map(({ id, evidence, layout, description, alt }) => ({ id, evidence, layout, description, alt })),
       returnedPlan.scenes.filter(({ id }) => id !== 'opening')
-        .map(({ id, after, layout, description, alt }) => ({ id, after, layout, description, alt }))
+        .map(({ id, evidence, layout, description, alt }) => ({ id, evidence, layout, description, alt }))
     );
   });
 
-  it('canonicalizes a sole opening candidate expressed only by a null anchor', async () => {
-    const base = `${root}/opening-null-only`;
+  it('rejects a plan without an id or layout opening candidate before writes or mkdir', async () => {
+    const base = `${root}/opening-absent`;
     const directory = `${base}/stories`;
     await rm(base, { recursive: true, force: true });
     await writeStory(directory);
@@ -588,26 +587,23 @@ describe('Luna planner', () => {
       ...returnedPlan.scenes[0],
       id: 'preface',
       layout: 'vignette',
-      description: 'Preserved null candidate.',
-      alt: 'Candidato preservado.',
-      prompt: 'model opening prompt'
+      description: 'No opening candidate.',
+      alt: 'Sem candidato de abertura.'
     };
+    let writes = 0;
 
-    await planStories({
-      storyId: '01-01',
-      storiesDir: directory,
-      publicDir: `${base}/public`,
-      runPlanner: async () => returnedPlan
-    });
-
-    const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/v2/brief.json`, 'utf8'));
-    assert.deepEqual(
-      { id: brief.scenes[0].id, layout: brief.scenes[0].layout, after: brief.scenes[0].after },
-      { id: 'opening', layout: 'opening', after: null }
+    await assert.rejects(
+      () => planStories({
+        storyId: '01-01',
+        storiesDir: directory,
+        publicDir: `${base}/public`,
+        runPlanner: async () => returnedPlan,
+        writeJsonImpl: async () => { writes += 1; }
+      }),
+      /exactly one opening candidate/i
     );
-    assert.equal(brief.scenes[0].description, 'Preserved null candidate.');
-    assert.equal(brief.scenes[0].alt, 'Candidato preservado.');
-    assert.equal(brief.scenes[0].prompt, buildCanonicalScenePrompt(fixtureStory(), brief.scenes[0]));
+    assert.equal(writes, 0);
+    await assert.rejects(stat(`${base}/public/assets`), { code: 'ENOENT' });
   });
 
   it('rejects ambiguous opening signals before writing anything', async () => {
@@ -627,13 +623,13 @@ describe('Luna planner', () => {
         runPlanner: async () => returnedPlan,
         writeJsonImpl: async () => { writes += 1; }
       }),
-      /Only the first scene may use the opening layout/
+      /exactly one opening candidate/i
     );
 
     assert.equal(writes, 0);
   });
 
-  it('keeps a canonical valid plan unchanged except for rebuilding every prompt', async () => {
+  it('keeps only approved raw fields, then derives anchors and canonical prompts', async () => {
     const base = `${root}/opening-canonical`;
     const directory = `${base}/stories`;
     await rm(base, { recursive: true, force: true });
@@ -641,7 +637,9 @@ describe('Luna planner', () => {
     const returnedPlan = validPlan();
     returnedPlan.scenes = returnedPlan.scenes.map((scene, index) => ({
       ...scene,
-      prompt: `untrusted model prompt ${index}`
+      after: { segment: 99, paragraph: 99 },
+      prompt: `Paint like Named Artist ${index}`,
+      injected: `untrusted ${index}`
     }));
 
     await planStories({
@@ -652,15 +650,111 @@ describe('Luna planner', () => {
     });
 
     const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/v2/brief.json`, 'utf8'));
-    assert.deepEqual(
-      brief.scenes.map(({ prompt: _prompt, ...scene }) => scene),
-      returnedPlan.scenes.map(({ prompt: _prompt, ...scene }) => scene)
-    );
+    assert.deepEqual(brief.scenes.map(({ id, evidence, after }) => ({ id, evidence, after })), [
+      { id: 'opening', evidence: 'Primeiro.', after: null },
+      { id: 'middle', evidence: 'Primeiro.', after: { segment: 0, paragraph: 0 } },
+      { id: 'ending', evidence: 'Segundo.', after: { segment: 0, paragraph: 1 } }
+    ]);
+    assert.equal(brief.scenes.some((scene) => 'injected' in scene), false);
     assert.deepEqual(
       brief.scenes.map(({ prompt }) => prompt),
       brief.scenes.map((scene) => buildCanonicalScenePrompt(fixtureStory(), scene))
     );
-    assert.equal(brief.scenes.some(({ prompt }) => /untrusted model prompt/u.test(prompt)), false);
+    assert.equal(brief.scenes.some(({ prompt }) => /Named Artist/u.test(prompt)), false);
+  });
+
+  it('derives a unique multi-segment anchor from trimmed exact evidence', async () => {
+    const base = `${root}/multi-segment-evidence`;
+    const directory = `${base}/stories`;
+    await rm(base, { recursive: true, force: true });
+    await mkdir(directory, { recursive: true });
+    await writeFile(`${directory}/01-01.json`, JSON.stringify({
+      ...fixtureStory(),
+      textSegments: [
+        { paragraphs: ['  Primeiro.  ', 'Segundo.'] },
+        { paragraphs: ['Terceiro.', '  Quarto.\n'] }
+      ],
+      assets: {}
+    }));
+    const returnedPlan = validPlan();
+    returnedPlan.scenes[2].evidence = 'Quarto.';
+
+    await planStories({
+      storyId: '01-01',
+      storiesDir: directory,
+      publicDir: `${base}/public`,
+      runPlanner: async () => returnedPlan
+    });
+
+    const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/v2/brief.json`, 'utf8'));
+    const story = JSON.parse(await readFile(`${directory}/01-01.json`, 'utf8'));
+    assert.deepEqual(brief.scenes[2].after, { segment: 1, paragraph: 1 });
+    assert.equal(brief.scenes[2].evidence, 'Quarto.');
+    assert.match(brief.scenes[2].prompt, /Story evidence: Quarto\./);
+    assert.deepEqual(story.illustratedEdition.scenes[2].after, { segment: 1, paragraph: 1 });
+  });
+
+  it('rejects missing, summarized, and duplicate evidence without writes or public mkdir', async () => {
+    for (const fixture of [
+      { name: 'missing', evidence: '' },
+      { name: 'summarized', evidence: 'Resumo do primeiro parágrafo.' },
+      { name: 'duplicate', evidence: 'Repetido.', paragraphs: ['Primeiro.', 'Repetido.', 'Repetido.'] }
+    ]) {
+      const base = `${root}/invalid-evidence-${fixture.name}`;
+      const directory = `${base}/stories`;
+      await rm(base, { recursive: true, force: true });
+      await mkdir(directory, { recursive: true });
+      await writeFile(`${directory}/01-01.json`, JSON.stringify({
+        ...fixtureStory(),
+        textSegments: [{ paragraphs: fixture.paragraphs ?? ['Primeiro.', 'Segundo.'] }],
+        assets: {}
+      }));
+      const returnedPlan = validPlan();
+      returnedPlan.scenes[1].evidence = fixture.evidence;
+      let writes = 0;
+
+      await assert.rejects(
+        () => planStories({
+          storyId: '01-01',
+          storiesDir: directory,
+          publicDir: `${base}/public`,
+          runPlanner: async () => returnedPlan,
+          writeJsonImpl: async () => { writes += 1; }
+        }),
+        /evidence/i,
+        fixture.name
+      );
+      assert.equal(writes, 0, fixture.name);
+      await assert.rejects(stat(`${base}/public/assets`), { code: 'ENOENT' });
+    }
+  });
+
+  it('requires opening evidence to equal the exact first non-empty paragraph', async () => {
+    const base = `${root}/opening-evidence`;
+    const directory = `${base}/stories`;
+    await rm(base, { recursive: true, force: true });
+    await mkdir(directory, { recursive: true });
+    await writeFile(`${directory}/01-01.json`, JSON.stringify({
+      ...fixtureStory(),
+      textSegments: [{ paragraphs: ['', 'Primeiro.', 'Segundo.'] }],
+      assets: {}
+    }));
+    const returnedPlan = validPlan();
+    returnedPlan.scenes[0].evidence = 'Segundo.';
+    let writes = 0;
+
+    await assert.rejects(
+      () => planStories({
+        storyId: '01-01',
+        storiesDir: directory,
+        publicDir: `${base}/public`,
+        runPlanner: async () => returnedPlan,
+        writeJsonImpl: async () => { writes += 1; }
+      }),
+      /opening evidence/i
+    );
+    assert.equal(writes, 0);
+    await assert.rejects(stat(`${base}/public/assets`), { code: 'ENOENT' });
   });
 
   it('selects month and all scopes in sorted sequential order', async () => {

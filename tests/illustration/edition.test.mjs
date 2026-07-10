@@ -28,6 +28,7 @@ function plan(source = story()) {
     scenes: [
       {
         id: 'opening',
+        evidence: 'Primeiro parágrafo.',
         after: null,
         layout: 'opening',
         description: 'Encontro na estrada.',
@@ -36,6 +37,7 @@ function plan(source = story()) {
       },
       {
         id: 'encontro',
+        evidence: 'Segundo parágrafo.',
         after: { segment: 0, paragraph: 1 },
         layout: 'marginal',
         description: 'Os rapazes discutem.',
@@ -44,6 +46,7 @@ function plan(source = story()) {
       },
       {
         id: 'abraco',
+        evidence: 'Terceiro parágrafo.',
         after: { segment: 1, paragraph: 0 },
         layout: 'vignette',
         description: 'Todos se reconciliam.',
@@ -271,7 +274,7 @@ describe('illustrated edition contract', () => {
     );
   });
 
-  it('clips an oversized opening paragraph only at a word boundary', () => {
+  it('uses the persisted exact opening evidence without combining later paragraphs', () => {
     const longParagraph = `${'palavra '.repeat(100)}fim`.trim();
     const source = {
       ...story(),
@@ -279,6 +282,7 @@ describe('illustrated edition contract', () => {
     };
     const prompt = buildCanonicalScenePrompt(source, {
       id: 'opening',
+      evidence: longParagraph,
       after: null,
       layout: 'opening',
       description: 'Uma abertura com palavras completas.',
@@ -288,12 +292,11 @@ describe('illustrated edition contract', () => {
     const evidence = prompt.match(/Story evidence: (.*?) Do not imitate any named artist/u)?.[1];
 
     assert.ok(evidence);
-    assert.ok(evidence.length <= 600);
-    assert.equal(longParagraph.startsWith(`${evidence} `), true);
+    assert.equal(evidence, longParagraph);
     assert.doesNotMatch(evidence, /Segundo parágrafo/);
   });
 
-  it('keeps a complete opening paragraph instead of clipping the next one', () => {
+  it('keeps a complete opening paragraph instead of including the next one', () => {
     const firstParagraph = `${'inteiro '.repeat(62)}fim`.trim();
     const source = {
       ...story(),
@@ -301,6 +304,7 @@ describe('illustrated edition contract', () => {
     };
     const prompt = buildCanonicalScenePrompt(source, {
       id: 'opening',
+      evidence: firstParagraph,
       after: null,
       layout: 'opening',
       description: 'Uma abertura apoiada no primeiro parágrafo.',
@@ -312,29 +316,11 @@ describe('illustrated edition contract', () => {
     assert.doesNotMatch(prompt, /seguinte/);
   });
 
-  it('rejects opening evidence that cannot be clipped at a word boundary', () => {
-    const source = {
-      ...story(),
-      textSegments: [{ paragraphs: ['x'.repeat(601)] }]
-    };
-
-    assert.throws(
-      () => buildCanonicalScenePrompt(source, {
-        id: 'opening',
-        after: null,
-        layout: 'opening',
-        description: 'Uma abertura apoiada na narrativa.',
-        alt: 'Uma abertura.',
-        prompt: ''
-      }),
-      /Opening story evidence cannot be clipped at a word boundary within 600 characters/
-    );
-  });
-
   it('never emits an empty story evidence field', () => {
     assert.throws(
       () => buildCanonicalScenePrompt({ ...story(), textSegments: [] }, {
         id: 'opening',
+        evidence: '',
         after: null,
         layout: 'opening',
         description: 'Uma abertura apoiada na narrativa.',
@@ -343,6 +329,36 @@ describe('illustrated edition contract', () => {
       }),
       /Story evidence must be non-empty text/
     );
+  });
+
+  it('rejects missing evidence and evidence that disagrees with its derived anchor', () => {
+    const missing = plan();
+    delete missing.scenes[1].evidence;
+    assert.throws(() => validateScenePlan(story(), missing), /evidence must be non-empty text/i);
+
+    const disagreement = plan();
+    disagreement.scenes[1].evidence = 'Terceiro parágrafo.';
+    disagreement.scenes[1].prompt = buildCanonicalScenePrompt(story(), disagreement.scenes[1]);
+    assert.throws(() => validateScenePlan(story(), disagreement), /evidence.*anchor/i);
+  });
+
+  it('rejects evidence matching duplicate source paragraphs even when the anchor points to one', () => {
+    const source = {
+      ...story(),
+      textSegments: [
+        { paragraphs: ['Primeiro parágrafo.', 'Repetido.', 'Repetido.'] },
+        { paragraphs: ['Terceiro parágrafo.'] }
+      ]
+    };
+    const duplicate = plan(source);
+    duplicate.scenes[1] = {
+      ...duplicate.scenes[1],
+      evidence: 'Repetido.',
+      after: { segment: 0, paragraph: 1 }
+    };
+    duplicate.scenes[1].prompt = buildCanonicalScenePrompt(source, duplicate.scenes[1]);
+
+    assert.throws(() => validateScenePlan(source, duplicate), /evidence.*unique/i);
   });
 
   it('allows the opening layout only on the first scene', () => {

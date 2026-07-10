@@ -4,7 +4,6 @@ export const PLANNING_MODEL = 'gpt-5.6-luna';
 
 const LAYOUTS = new Set(['opening', 'double-page', 'marginal', 'vignette']);
 const MODEL_SLUG_PATTERN = /^[a-z0-9]+(?:[._-][a-z0-9]+)*$/u;
-const OPENING_EXCERPT_MAX_LENGTH = 600;
 const OBSERVABLE_ART_DIRECTION = 'soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space.';
 const CONTINUITY_DIRECTION = 'Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes.';
 const SAFETY_DIRECTION = 'Do not imitate any named artist; no words, lettering, logos, or signatures.';
@@ -107,46 +106,21 @@ function assertSafeSceneDescription(story, description) {
   }
 }
 
-function clipAtWordBoundary(text, maximumLength) {
-  if (text.length <= maximumLength) return text;
-  const candidate = text.slice(0, maximumLength);
-  if (/\s/u.test(text[maximumLength])) return candidate.trimEnd();
-  for (let index = candidate.length - 1; index >= 0; index -= 1) {
-    if (/\s/u.test(candidate[index])) return candidate.slice(0, index).trimEnd();
-  }
-  throw new Error(`Opening story evidence cannot be clipped at a word boundary within ${maximumLength} characters`);
-}
-
-function openingExcerpt(story) {
-  const paragraphs = (story.textSegments ?? [])
-    .flatMap((segment) => segment?.paragraphs ?? [])
-    .filter((paragraph) => typeof paragraph === 'string' && paragraph.trim() !== '')
-    .map((paragraph) => paragraph.trim());
-  let excerpt = '';
-  for (const paragraph of paragraphs) {
-    const separator = excerpt === '' ? '' : ' ';
-    const remaining = OPENING_EXCERPT_MAX_LENGTH - excerpt.length - separator.length;
-    if (remaining <= 0) break;
-    if (paragraph.length <= remaining) {
-      excerpt += `${separator}${paragraph}`;
-      continue;
-    }
-    if (excerpt === '') excerpt = clipAtWordBoundary(paragraph, remaining);
-    break;
-  }
-  return excerpt;
+function storyParagraphs(story) {
+  return (story.textSegments ?? []).flatMap((segment, segmentIndex) => (
+    (segment?.paragraphs ?? []).map((paragraph, paragraphIndex) => ({
+      segment: segmentIndex,
+      paragraph: paragraphIndex,
+      text: typeof paragraph === 'string' ? paragraph.trim() : ''
+    }))
+  )).filter(({ text }) => text !== '');
 }
 
 export function buildCanonicalScenePrompt(story, scene) {
   assertSafeSceneDescription(story, scene.description);
   const isOpening = scene.after === null;
-  let excerpt;
-  if (isOpening) {
-    excerpt = openingExcerpt(story);
-  } else {
-    assertAnchor(story, scene.after);
-    excerpt = String(story.textSegments[scene.after.segment].paragraphs[scene.after.paragraph]).trim();
-  }
+  if (!isOpening) assertAnchor(story, scene.after);
+  const excerpt = typeof scene.evidence === 'string' ? scene.evidence.trim() : scene.evidence;
   assertText(excerpt, 'Story evidence');
   return [
     OBSERVABLE_ART_DIRECTION,
@@ -172,14 +146,24 @@ export function validateScenePlan(story, plan) {
     if (!LAYOUTS.has(scene.layout)) throw new Error(`Unsupported layout: ${scene.layout}`);
     assertText(scene.description, 'description');
     assertText(scene.alt, 'alt');
+    assertText(scene.evidence, 'evidence');
     assertText(scene.prompt, 'prompt');
+    const paragraphs = storyParagraphs(story);
     if (index === 0) {
       if (scene.id !== 'opening' || scene.layout !== 'opening' || scene.after !== null) {
         throw new Error('The first scene must be the opening');
       }
+      if (scene.evidence !== paragraphs[0]?.text) {
+        throw new Error('Opening evidence must agree exactly with the first non-empty paragraph');
+      }
     } else {
       if (scene.layout === 'opening') throw new Error('Only the first scene may use the opening layout');
       assertAnchor(story, scene.after);
+      const matches = paragraphs.filter(({ text }) => text === scene.evidence);
+      if (matches.length !== 1) throw new Error('Scene evidence must match one unique story paragraph');
+      if (matches[0].segment !== scene.after.segment || matches[0].paragraph !== scene.after.paragraph) {
+        throw new Error('Scene evidence must agree exactly with its anchor paragraph');
+      }
     }
     if (scene.prompt !== buildCanonicalScenePrompt(story, scene)) {
       throw new Error('Every prompt must equal its canonical scene prompt');
