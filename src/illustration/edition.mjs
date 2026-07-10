@@ -66,8 +66,26 @@ export function validatePlanningModel(value) {
 }
 
 function assertAnchor(story, anchor) {
-  if (!anchor || !Number.isInteger(anchor.segment) || !Number.isInteger(anchor.paragraph)) {
-    throw new Error('Every non-opening scene must reference a valid paragraph');
+  const plainObject = anchor !== null
+    && typeof anchor === 'object'
+    && !Array.isArray(anchor)
+    && Object.getPrototypeOf(anchor) === Object.prototype;
+  const enumerableKeys = plainObject
+    ? Reflect.ownKeys(anchor).filter((key) => (
+      Object.getOwnPropertyDescriptor(anchor, key)?.enumerable === true
+    ))
+    : [];
+  if (
+    !plainObject
+    || enumerableKeys.length !== 2
+    || !enumerableKeys.includes('segment')
+    || !enumerableKeys.includes('paragraph')
+    || !Number.isInteger(anchor.segment)
+    || !Number.isInteger(anchor.paragraph)
+  ) {
+    throw new Error(
+      'Every non-opening anchor must be a plain object with exactly own enumerable keys segment and paragraph, both integers'
+    );
   }
   const paragraphs = story.textSegments?.[anchor.segment]?.paragraphs;
   if (!paragraphs || anchor.paragraph < 0 || anchor.paragraph >= paragraphs.length) {

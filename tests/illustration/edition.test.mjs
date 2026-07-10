@@ -140,6 +140,38 @@ describe('illustrated edition contract', () => {
     }), /valid paragraph/);
   });
 
+  it('requires every later anchor to be an exact plain own-key object', () => {
+    const inherited = Object.assign(Object.create({ paragraph: 1 }), { segment: 0 });
+    const customPrototype = Object.assign(Object.create({ marker: true }), {
+      segment: 0,
+      paragraph: 1
+    });
+    const malformed = [
+      { segment: 0, paragraph: 1, extra: true },
+      { segment: 0 },
+      [0, 1],
+      inherited,
+      customPrototype,
+      { segment: 0, paragraph: 1.5 }
+    ];
+
+    for (const after of malformed) {
+      const invalid = plan();
+      invalid.scenes[1].after = after;
+      assert.throws(
+        () => validateScenePlan(story(), invalid),
+        /anchor must be a plain object with exactly own enumerable keys segment and paragraph/i
+      );
+    }
+  });
+
+  it('requires the opening anchor to be exactly null', () => {
+    const invalid = plan();
+    invalid.scenes[0].after = { segment: 0, paragraph: 0 };
+
+    assert.throws(() => validateScenePlan(story(), invalid), /first scene must be the opening/i);
+  });
+
   it('rejects explicit references to Cristina Malaquias', () => {
     assert.throws(
       () => validateScenePlan(story(), planWithPrompt('Watercolour by Cristina Malaquias; no words, lettering, logos, or signatures.')),
