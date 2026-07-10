@@ -59,6 +59,7 @@ function execute(command, args, options, execFileImpl) {
 export async function runLunaPlanner(prompt, options = {}) {
   const cwd = options.cwd ?? process.cwd();
   const execFileImpl = options.execFileImpl ?? execFile;
+  const rmImpl = options.rmImpl ?? rm;
   const schemaPath = options.schemaPath ?? defaultSchemaPath;
   const planningModel = validatePlanningModel(
     options.planningModel === undefined ? PLANNING_MODEL : options.planningModel
@@ -77,6 +78,8 @@ export async function runLunaPlanner(prompt, options = {}) {
     '--cd', cwd,
     prompt
   ];
+  let operationFailed = false;
+  let primaryError;
 
   try {
     const { stdout, stderr } = await execute('codex', args, { cwd, timeout }, execFileImpl);
@@ -94,8 +97,21 @@ export async function runLunaPlanner(prompt, options = {}) {
       ].filter(Boolean).join('\n'), { cause });
     }
     return JSON.parse(output);
+  } catch (error) {
+    operationFailed = true;
+    primaryError = error;
+    throw error;
   } finally {
-    await rm(temporaryDir, { recursive: true, force: true });
+    try {
+      await rmImpl(temporaryDir, { recursive: true, force: true });
+    } catch (cleanupError) {
+      if (!operationFailed) throw cleanupError;
+      try {
+        primaryError.cleanupError = cleanupError;
+      } catch {
+        // Preserve the primary error even when it cannot be annotated.
+      }
+    }
   }
 }
 

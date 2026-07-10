@@ -180,6 +180,47 @@ describe('Luna planner', () => {
     assert.equal(calls, 1);
   });
 
+  it('preserves a primary planner error when temporary cleanup also fails', async () => {
+    const plannerError = new Error('Codex exited with status 1');
+    const cleanupError = new Error('Temporary cleanup failed');
+    let calls = 0;
+    const execFileImpl = (_command, _args, _options, callback) => {
+      calls += 1;
+      callback(plannerError, '', 'planner failed');
+    };
+    const rmImpl = async (...args) => {
+      await rm(...args);
+      throw cleanupError;
+    };
+
+    await assert.rejects(
+      () => runLunaPlanner('prompt', { execFileImpl, rmImpl }),
+      (error) => {
+        assert.equal(error, plannerError);
+        assert.equal(error.cleanupError, cleanupError);
+        return true;
+      }
+    );
+    assert.equal(calls, 1);
+  });
+
+  it('throws a temporary cleanup error when planning succeeds', async () => {
+    const cleanupError = new Error('Temporary cleanup failed');
+    const execFileImpl = (_command, args, _options, callback) => {
+      writeFile(args[args.indexOf('--output-last-message') + 1], JSON.stringify(validPlan()))
+        .then(() => callback(null, '', ''));
+    };
+    const rmImpl = async (...args) => {
+      await rm(...args);
+      throw cleanupError;
+    };
+
+    await assert.rejects(
+      () => runLunaPlanner('prompt', { execFileImpl, rmImpl }),
+      (error) => error === cleanupError
+    );
+  });
+
   it('reports missing structured output with subprocess diagnostics instead of raw ENOENT', async () => {
     const execFileImpl = (_command, _args, _options, callback) => {
       callback(null, 'planner completed', 'planner warning');
