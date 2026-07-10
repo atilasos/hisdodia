@@ -18,6 +18,7 @@ function renderScene(story, scene, index, { escapeHtml, safeAssetUrl }) {
 
   return `<figure class="illustrated-scene scene-${scene.layout}${side}">
         <img src="${escapeHtml(source)}" alt="${escapeHtml(scene.alt)}" loading="lazy">
+        <figcaption>${escapeHtml(story.illustratedEdition.credit)}</figcaption>
       </figure>`;
 }
 

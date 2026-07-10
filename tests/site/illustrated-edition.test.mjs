@@ -38,6 +38,18 @@ describe('illustrated story renderer', () => {
     assert.match(html, /Edição ilustrada contemporânea gerada com IA/);
   });
 
+  it('credits every non-opening figure with escaped edition text', () => {
+    const story = structuredClone(baseStory);
+    story.illustratedEdition.credit = 'Edição <IA> & contemporânea';
+    story.illustratedEdition.scenes[2].status = 'complete';
+
+    const html = renderIllustratedEdition(story, helpers);
+    const caption = '<figcaption>Edição &lt;IA&gt; &amp; contemporânea</figcaption>';
+
+    assert.equal(html.split(caption).length - 1, 2);
+    assert.doesNotMatch(html, /<figcaption>Edição <IA>/);
+  });
+
   it('returns null without a completed safe opening', () => {
     assert.equal(renderIllustratedEdition({ ...baseStory, illustratedEdition: undefined }, helpers), null);
     const unsafe = structuredClone(baseStory);

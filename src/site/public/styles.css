@@ -281,6 +281,120 @@ h2 {
   max-width: 72ch;
 }
 
+.reader-illustrated {
+  max-width: 72rem;
+}
+
+.edition-switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-block: 1rem 2rem;
+}
+
+.edition-switcher a {
+  min-height: 2.75rem;
+  padding: 0.7rem 0.9rem;
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.edition-switcher a:hover {
+  background: color-mix(in oklch, var(--paper) 72%, var(--amber-soft));
+}
+
+.edition-switcher a[aria-current="true"] {
+  background: var(--amber);
+}
+
+.illustrated-opening {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(18rem, 1.1fr);
+  gap: clamp(1.5rem, 5vw, 4rem);
+  align-items: center;
+  padding: clamp(1rem, 4vw, 2rem);
+  border-radius: 14px;
+  background: var(--paper-warm);
+  box-shadow: 0.6rem 0.8rem 0 var(--paper-shadow);
+}
+
+.illustrated-opening img {
+  width: 100%;
+  max-height: 38rem;
+  object-fit: contain;
+  background: var(--paper);
+}
+
+.illustrated-opening-copy {
+  padding-block: clamp(0.5rem, 3vw, 2rem);
+}
+
+.illustrated-opening-copy h1 {
+  font-size: clamp(2.25rem, 6vw, 5rem);
+}
+
+.illustrated-credit {
+  max-width: 42ch;
+  margin-top: 1.5rem;
+  color: var(--muted-ink);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.illustrated-text {
+  max-width: 65ch;
+  margin-inline: auto;
+}
+
+.illustrated-edition .story-segment {
+  max-width: 65ch;
+  margin-inline: auto;
+}
+
+.illustrated-scene {
+  margin-block: 2rem;
+  background: var(--paper-warm);
+}
+
+.scene-double-page {
+  width: min(72rem, calc(100vw - 2rem));
+  margin-inline: 50%;
+  transform: translateX(-50%);
+}
+
+.scene-marginal {
+  width: min(18rem, 42%);
+}
+
+.scene-side-left {
+  float: inline-start;
+  margin-inline: 0 1.25rem;
+}
+
+.scene-side-right {
+  float: inline-end;
+  margin-inline: 1.25rem 0;
+}
+
+.scene-vignette {
+  width: min(24rem, 100%);
+  margin-inline: auto;
+}
+
+.illustrated-scene img {
+  width: 100%;
+  object-fit: contain;
+  background: var(--paper);
+}
+
+.illustrated-scene figcaption {
+  padding: 0.65rem;
+  color: var(--muted-ink);
+  font-size: 0.9rem;
+}
+
 .reader-header {
   margin-bottom: 1.5rem;
 }
@@ -714,6 +828,25 @@ h2 {
 :focus-visible {
   outline: 4px solid var(--amber);
   outline-offset: 3px;
+}
+
+@media (max-width: 48rem) {
+  .illustrated-opening {
+    grid-template-columns: 1fr;
+  }
+
+  .scene-double-page {
+    width: 100%;
+    margin-inline: 0;
+    transform: none;
+  }
+
+  .scene-marginal,
+  .scene-vignette {
+    float: none;
+    width: 100%;
+    margin-inline: 0;
+  }
 }
 
 @media (max-width: 760px) {

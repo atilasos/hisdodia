@@ -191,6 +191,13 @@ describe('renderSite', () => {
     assert.match(homepage, /class="skip-link"/);
     assert.match(stylesheet, /Atelier de papel/);
     assert.match(script, /glossary/);
+    assert.match(script, /data-edition-target/);
+    assert.match(script, /panel\.hidden/);
+    assert.match(stylesheet, /\.illustrated-opening/);
+    assert.match(stylesheet, /\.scene-double-page/);
+    assert.match(stylesheet, /\.scene-marginal/);
+    assert.match(stylesheet, /\.scene-vignette/);
+    assert.match(stylesheet, /@media \(max-width: 48rem\)/);
   });
 
   it('renders the homepage with the story matching the current calendar date', async () => {
