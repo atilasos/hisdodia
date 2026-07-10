@@ -42,7 +42,9 @@
     "recoveredAudio": null,
     "gallery": [
       "/recovered/0000/07/21/images/ee3b07a067f2ac18def1085b/imagens/icone.jpg"
-    ]
+    ],
+    "rerecordedAudio": "/assets/07-21/narracao-tts.mp3",
+    "captions": "/assets/07-21/narracao-tts.vtt"
   },
   "recovery": {
     "text": "blog-pdf-extracted",
@@ -50,17 +52,19 @@
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "blog-text"
+    "completeness": "blog-text",
+    "rerecordedAudio": "openai-gpt-4o-mini-tts-shimmer"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/07/21/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado.",
+    "A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   ]
 }

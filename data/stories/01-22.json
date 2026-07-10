@@ -48,7 +48,9 @@
       "/recovered/0000/01/22/images/5f7c7d700d1b7e8142f38e55/propostas/botaourso.jpg",
       "/recovered/0000/01/22/images/5lagivi4up47bqgjnmcoyrud5snjflws/propostas/botaourso.jpg",
       "/recovered/0000/01/22/images/e6a68b2b1859df942de72b93/imagens/entrada.jpg"
-    ]
+    ],
+    "rerecordedAudio": "/assets/01-22/narracao-tts.mp3",
+    "captions": "/assets/01-22/narracao-tts.vtt"
   },
   "recovery": {
     "text": "blog-pdf-extracted",
@@ -56,17 +58,19 @@
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "blog-text"
+    "completeness": "blog-text",
+    "rerecordedAudio": "openai-gpt-4o-mini-tts-cedar"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/01/22/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado. A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado.",
+    "A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
   ]
 }
