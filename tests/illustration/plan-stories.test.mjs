@@ -448,6 +448,126 @@ describe('Luna planner', () => {
     );
   });
 
+  it('moves a sole exact opening candidate to the front before rebuilding prompts', async () => {
+    const base = `${root}/opening-later`;
+    const directory = `${base}/stories`;
+    await rm(base, { recursive: true, force: true });
+    await writeStory(directory);
+    const returnedPlan = validPlan();
+    returnedPlan.scenes = [
+      { ...returnedPlan.scenes[1], prompt: 'model middle prompt' },
+      { ...returnedPlan.scenes[0], description: 'Preserved opening.', alt: 'Abertura preservada.', prompt: 'model opening prompt' },
+      { ...returnedPlan.scenes[2], prompt: 'model ending prompt' }
+    ];
+
+    await planStories({
+      storyId: '01-01',
+      storiesDir: directory,
+      publicDir: `${base}/public`,
+      runPlanner: async () => returnedPlan
+    });
+
+    const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/brief.json`, 'utf8'));
+    assert.deepEqual(brief.scenes.map(({ id }) => id), ['opening', 'middle', 'ending']);
+    assert.deepEqual(
+      { id: brief.scenes[0].id, layout: brief.scenes[0].layout, after: brief.scenes[0].after },
+      { id: 'opening', layout: 'opening', after: null }
+    );
+    assert.equal(brief.scenes[0].description, 'Preserved opening.');
+    assert.equal(brief.scenes[0].alt, 'Abertura preservada.');
+    assert.equal(brief.scenes[0].prompt, buildCanonicalScenePrompt(fixtureStory(), brief.scenes[0]));
+    assert.deepEqual(
+      brief.scenes.slice(1).map(({ id, after, layout, description, alt }) => ({ id, after, layout, description, alt })),
+      returnedPlan.scenes.filter(({ id }) => id !== 'opening')
+        .map(({ id, after, layout, description, alt }) => ({ id, after, layout, description, alt }))
+    );
+  });
+
+  it('canonicalizes a sole opening candidate expressed only by a null anchor', async () => {
+    const base = `${root}/opening-null-only`;
+    const directory = `${base}/stories`;
+    await rm(base, { recursive: true, force: true });
+    await writeStory(directory);
+    const returnedPlan = validPlan();
+    returnedPlan.scenes[0] = {
+      ...returnedPlan.scenes[0],
+      id: 'preface',
+      layout: 'vignette',
+      description: 'Preserved null candidate.',
+      alt: 'Candidato preservado.',
+      prompt: 'model opening prompt'
+    };
+
+    await planStories({
+      storyId: '01-01',
+      storiesDir: directory,
+      publicDir: `${base}/public`,
+      runPlanner: async () => returnedPlan
+    });
+
+    const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/brief.json`, 'utf8'));
+    assert.deepEqual(
+      { id: brief.scenes[0].id, layout: brief.scenes[0].layout, after: brief.scenes[0].after },
+      { id: 'opening', layout: 'opening', after: null }
+    );
+    assert.equal(brief.scenes[0].description, 'Preserved null candidate.');
+    assert.equal(brief.scenes[0].alt, 'Candidato preservado.');
+    assert.equal(brief.scenes[0].prompt, buildCanonicalScenePrompt(fixtureStory(), brief.scenes[0]));
+  });
+
+  it('rejects ambiguous opening signals before writing anything', async () => {
+    const base = `${root}/opening-ambiguous`;
+    const directory = `${base}/stories`;
+    await rm(base, { recursive: true, force: true });
+    await writeStory(directory);
+    const returnedPlan = validPlan();
+    returnedPlan.scenes[1] = { ...returnedPlan.scenes[1], layout: 'opening' };
+    let writes = 0;
+
+    await assert.rejects(
+      () => planStories({
+        storyId: '01-01',
+        storiesDir: directory,
+        publicDir: `${base}/public`,
+        runPlanner: async () => returnedPlan,
+        writeJsonImpl: async () => { writes += 1; }
+      }),
+      /Only the first scene may use the opening layout/
+    );
+
+    assert.equal(writes, 0);
+  });
+
+  it('keeps a canonical valid plan unchanged except for rebuilding every prompt', async () => {
+    const base = `${root}/opening-canonical`;
+    const directory = `${base}/stories`;
+    await rm(base, { recursive: true, force: true });
+    await writeStory(directory);
+    const returnedPlan = validPlan();
+    returnedPlan.scenes = returnedPlan.scenes.map((scene, index) => ({
+      ...scene,
+      prompt: `untrusted model prompt ${index}`
+    }));
+
+    await planStories({
+      storyId: '01-01',
+      storiesDir: directory,
+      publicDir: `${base}/public`,
+      runPlanner: async () => returnedPlan
+    });
+
+    const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/brief.json`, 'utf8'));
+    assert.deepEqual(
+      brief.scenes.map(({ prompt: _prompt, ...scene }) => scene),
+      returnedPlan.scenes.map(({ prompt: _prompt, ...scene }) => scene)
+    );
+    assert.deepEqual(
+      brief.scenes.map(({ prompt }) => prompt),
+      brief.scenes.map((scene) => buildCanonicalScenePrompt(fixtureStory(), scene))
+    );
+    assert.equal(brief.scenes.some(({ prompt }) => /untrusted model prompt/u.test(prompt)), false);
+  });
+
   it('selects month and all scopes in sorted sequential order', async () => {
     const base = `${root}/scopes`;
     const directory = `${base}/stories`;

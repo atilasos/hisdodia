@@ -169,6 +169,25 @@ function selectedFilename(filename, { storyId, month, all }) {
   return all === true;
 }
 
+function normalizeOpeningScene(scenes) {
+  if (!Array.isArray(scenes)) return scenes;
+  const openingCandidates = scenes
+    .map((scene, index) => ({ scene, index }))
+    .filter(({ scene }) => (
+      scene?.id === 'opening'
+      || scene?.layout === 'opening'
+      || scene?.after === null
+    ));
+  if (openingCandidates.length !== 1) return scenes;
+
+  const [{ scene: opening, index: openingIndex }] = openingCandidates;
+  return [
+    { ...opening, id: 'opening', layout: 'opening', after: null },
+    ...scenes.slice(0, openingIndex),
+    ...scenes.slice(openingIndex + 1)
+  ];
+}
+
 async function writeJsonAtomically(filename, value) {
   const directory = path.dirname(filename);
   const temporaryDir = await mkdtemp(path.join(directory, '.illustration-plan-'));
@@ -224,14 +243,15 @@ export async function planStories(options = {}) {
     }
 
     const returnedPlan = await runPlanner(buildPlanningPrompt(story), { planningModel });
+    const normalizedScenes = normalizeOpeningScene(returnedPlan?.scenes);
     const plan = {
       ...returnedPlan,
-      scenes: Array.isArray(returnedPlan?.scenes)
-        ? returnedPlan.scenes.map((scene) => ({
+      scenes: Array.isArray(normalizedScenes)
+        ? normalizedScenes.map((scene) => ({
           ...scene,
           prompt: buildCanonicalScenePrompt(story, scene)
         }))
-        : returnedPlan?.scenes
+        : normalizedScenes
     };
     validateScenePlan(story, plan);
 
