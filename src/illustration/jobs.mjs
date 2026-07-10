@@ -4,9 +4,11 @@ import { execFile } from 'node:child_process';
 import { randomUUID } from 'node:crypto';
 import {
   link,
+  lstat,
   mkdir,
   mkdtemp,
   readFile,
+  realpath,
   readdir,
   rename,
   rm,
@@ -178,11 +180,42 @@ function hasExactTechnicalErrors(errors, sceneId) {
   return attempts.length === MAX_ATTEMPTS && attempts[0] === 1 && attempts[1] === 2;
 }
 
-async function removeCanonicalWorkSource(workDir, storyId, sceneId) {
-  const resolvedWorkDir = path.resolve(workDir);
-  const sourcePath = path.resolve(workDir, storyId, `${sceneId}.png`);
-  if (!sourcePath.startsWith(`${resolvedWorkDir}${path.sep}`)) return;
-  await rm(sourcePath, { force: true });
+async function safeRemoveWorkFile(workDir, candidatePath) {
+  let candidateInfo;
+  try {
+    candidateInfo = await lstat(candidatePath);
+  } catch (error) {
+    if (error.code === 'ENOENT') return false;
+    throw error;
+  }
+  if (!candidateInfo.isFile()) return false;
+  let realWorkDir;
+  let realCandidate;
+  try {
+    [realWorkDir, realCandidate] = await Promise.all([
+      realpath(workDir),
+      realpath(candidatePath)
+    ]);
+  } catch (error) {
+    if (error.code === 'ENOENT') return false;
+    throw error;
+  }
+  const relativeCandidate = path.relative(realWorkDir, realCandidate);
+  const isStrictDescendant = relativeCandidate !== ''
+    && relativeCandidate !== '..'
+    && !relativeCandidate.startsWith(`..${path.sep}`)
+    && !path.isAbsolute(relativeCandidate);
+  if (!isStrictDescendant) return false;
+  let realCandidateInfo;
+  try {
+    realCandidateInfo = await lstat(realCandidate);
+  } catch (error) {
+    if (error.code === 'ENOENT') return false;
+    throw error;
+  }
+  if (!realCandidateInfo.isFile()) return false;
+  await rm(realCandidate, { force: true });
+  return true;
 }
 
 export async function nextIllustrationJob(options = {}) {
@@ -211,7 +244,7 @@ export async function nextIllustrationJob(options = {}) {
       const inspect = options.inspectFinalAssetImpl ?? inspectFinalAsset;
       const published = await inspect(files.image(scene.id));
       if (published.valid) {
-        await removeCanonicalWorkSource(workDir, story.id, scene.id);
+        await safeRemoveWorkFile(workDir, path.join(workDir, story.id, `${scene.id}.png`));
         scene.attempts += 1;
         scene.status = 'complete';
         finalizeEdition(story);
@@ -315,11 +348,7 @@ export async function completeIllustrationJob(options) {
     await rm(incomingPath, { force: true });
   }
   await options.afterStage?.('asset-published');
-  const workDir = path.resolve(options.workDir ?? 'tmp/illustrations');
-  const sourcePath = path.resolve(options.sourcePath);
-  if (sourcePath.startsWith(`${workDir}${path.sep}`)) {
-    await rm(sourcePath, { force: true });
-  }
+  await safeRemoveWorkFile(options.workDir ?? 'tmp/illustrations', options.sourcePath);
   scene.attempts += 1;
   scene.status = 'complete';
   finalizeEdition(story);

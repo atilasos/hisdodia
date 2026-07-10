@@ -1,7 +1,8 @@
 import { beforeEach, describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 import { execFile } from 'node:child_process';
-import { copyFile, mkdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
+import { copyFile, lstat, mkdir, readFile, rm, stat, symlink, writeFile } from 'node:fs/promises';
+import path from 'node:path';
 import {
   auditIllustrations,
   completeIllustrationJob,
@@ -254,6 +255,67 @@ describe('illustration jobs', () => {
     const next = await nextIllustrationJob(options);
     assert.equal(next.sceneId, 'middle');
     assert.ok((await stat(outsideSource)).isFile());
+  });
+
+  it('does not follow a workDir parent symlink outside during reconciliation', async () => {
+    const externalDirectory = path.resolve(`${root}/external-parent`);
+    const externalSource = `${externalDirectory}/opening.png`;
+    await mkdir(externalDirectory, { recursive: true });
+    await mkdir(options.workDir, { recursive: true });
+    await copyFile(fixture, externalSource);
+    await symlink(externalDirectory, `${options.workDir}/01-01`, 'dir');
+    await compressIllustration(fixture, `${root}/public/assets/01-01/illustrated/opening.webp`);
+
+    const next = await nextIllustrationJob(options);
+    assert.equal(next.sceneId, 'middle');
+    assert.ok((await stat(externalSource)).isFile());
+  });
+
+  it('does not follow a workDir parent symlink outside during complete cleanup', async () => {
+    const externalDirectory = path.resolve(`${root}/external-complete`);
+    const externalSource = `${externalDirectory}/opening.png`;
+    await mkdir(externalDirectory, { recursive: true });
+    await mkdir(options.workDir, { recursive: true });
+    await copyFile(fixture, externalSource);
+    await symlink(externalDirectory, `${options.workDir}/01-01`, 'dir');
+    const job = await nextIllustrationJob(options);
+
+    await completeIllustrationJob({
+      ...options,
+      storyId: '01-01',
+      sceneId: 'opening',
+      sourcePath: job.sourceOutput
+    });
+    assert.ok((await stat(externalSource)).isFile());
+  });
+
+  it('leaves a source-file symlink to an external file untouched', async () => {
+    const externalDirectory = path.resolve(`${root}/external-file`);
+    const externalSource = `${externalDirectory}/opening.png`;
+    const canonicalSource = `${options.workDir}/01-01/opening.png`;
+    await mkdir(externalDirectory, { recursive: true });
+    await mkdir(`${options.workDir}/01-01`, { recursive: true });
+    await copyFile(fixture, externalSource);
+    await symlink(externalSource, canonicalSource, 'file');
+    await compressIllustration(fixture, `${root}/public/assets/01-01/illustrated/opening.webp`);
+
+    await nextIllustrationJob(options);
+    assert.ok((await stat(externalSource)).isFile());
+    assert.equal((await lstat(canonicalSource)).isSymbolicLink(), true);
+  });
+
+  it('cleans a canonical source when workDir itself is a symlink', async () => {
+    const realWorkDir = path.resolve(`${root}/real-work`);
+    const linkedWorkDir = `${root}/linked-work`;
+    const sourcePath = `${realWorkDir}/01-01/opening.png`;
+    await mkdir(`${realWorkDir}/01-01`, { recursive: true });
+    await copyFile(fixture, sourcePath);
+    await symlink(realWorkDir, linkedWorkDir, 'dir');
+    await compressIllustration(fixture, `${root}/public/assets/01-01/illustrated/opening.webp`);
+
+    const next = await nextIllustrationJob({ ...options, workDir: linkedWorkDir });
+    assert.equal(next.sceneId, 'middle');
+    await assert.rejects(stat(sourcePath), { code: 'ENOENT' });
   });
 
   it('does not overwrite an existing valid final asset on complete', async () => {
