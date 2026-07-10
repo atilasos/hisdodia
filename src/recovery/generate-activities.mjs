@@ -359,7 +359,16 @@ export function generateSequenceActivity(story) {
 }
 
 export function generateActivitiesForStory(story, corpusLexicon) {
-  if (extractReadableParagraphs(story).length === 0) return null;
+  if (extractReadableParagraphs(story).length === 0) {
+    const puzzle = generatePuzzleActivity(story);
+    if (!puzzle) return null;
+    return {
+      id: story.id,
+      generatedFrom: 'recovered-illustration',
+      generatorVersion: 1,
+      activities: [puzzle]
+    };
+  }
 
   const activities = [];
   const findWord = generateFindWordActivity(story);

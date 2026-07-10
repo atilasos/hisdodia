@@ -85,7 +85,8 @@ A ilustração original recuperada cortada em grelha 3×2. Recomposição por tr
 ```
 
 Regras do gerador:
-- Só gera para histórias cujo `textSegments` não seja placeholder (`layer != "archive-placeholder"`).
+- Só gera para histórias cujo `textSegments` não seja placeholder (`layer != "archive-placeholder"` e `!= "archive-missing"`).
+- Exceção: histórias com texto perdido mas ilustração local recuperada publicam um bloco só com o `puzzle-ilustracao` (`generatedFrom: "recovered-illustration"`), com nota de proveniência adaptada ("Jogo criado a partir da ilustração original recuperada."). O mínimo de 2 atividades não se aplica a este caso.
 - Cada atividade só é incluída se os dados a suportarem (ex.: sem glossário → sem memória aprofundar; sem ilustração local → sem puzzle). Mínimo para publicar o bloco: 2 atividades.
 - Seleção de palavras significativas: palavras de conteúdo (excluir stopwords pt), 4-9 letras, sem nomes próprios se possível, priorizar as que ocorrem ≥2 vezes ou constam do glossário; determinístico (ordenação estável, sem aleatoriedade — o baralhar acontece na UI em runtime).
 - Silabificação pt-PT por algoritmo determinístico (regras de divisão silábica do português europeu; tratar dígrafos nh/lh/ch/rr/ss/qu/gu, grupos consonânticos pr/br/tr/…, ditongos). Palavras com hífen, apóstrofo ou irregulares que o algoritmo não cubra com confiança são excluídas — preferir menos palavras a sílabas erradas.

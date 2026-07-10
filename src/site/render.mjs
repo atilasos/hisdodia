@@ -266,7 +266,9 @@ function playCorner(activities) {
       <header class="play-corner-header">
         <p class="eyebrow">Voltar ao texto</p>
         <h2 id="brincar-titulo">Brincar</h2>
-        <p class="play-provenance">Jogos criados a partir do texto recuperado desta história. Não faziam parte do site original.</p>
+        <p class="play-provenance">${activities.generatedFrom === 'recovered-illustration'
+          ? 'Jogo criado a partir da ilustração original recuperada. Não fazia parte do site original.'
+          : 'Jogos criados a partir do texto recuperado desta história. Não faziam parte do site original.'}</p>
       </header>
       <script type="application/json" id="activities-data">${embeddedData}</script>
       <div id="activities-root"></div>
