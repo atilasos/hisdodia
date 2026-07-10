@@ -1,0 +1,128 @@
+{
+  "id": "08-22",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "sede",
+          "distractors": [
+            "gota",
+            "pling",
+            "assim"
+          ],
+          "sentence": "Esta gota de água queria matar a sede a alguém que tivesse muita sede."
+        },
+        {
+          "target": "gota",
+          "distractors": [
+            "sede",
+            "pling",
+            "assim"
+          ],
+          "sentence": "Se cada uma cumpriu ou não o seu destino, não sabemos, porque nesta história só nos ocupamos da gota com sede de matar a sede."
+        },
+        {
+          "target": "pling",
+          "distractors": [
+            "sede",
+            "gota",
+            "assim"
+          ],
+          "sentence": "Caiu na copa de uma árvore e foi escorrendo de ramo em ramo, pling, pling, pling, como uma lágrima feliz."
+        },
+        {
+          "target": "assim",
+          "distractors": [
+            "sede",
+            "gota",
+            "pling"
+          ],
+          "sentence": "Não faz sentido, mas acreditem que assim era."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "sede",
+          "syllables": [
+            "se",
+            "de"
+          ]
+        },
+        {
+          "word": "gota",
+          "syllables": [
+            "go",
+            "ta"
+          ]
+        },
+        {
+          "word": "matar",
+          "syllables": [
+            "ma",
+            "tar"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "goma",
+          "syllables": [
+            "go",
+            "ma"
+          ]
+        },
+        {
+          "word": "mago",
+          "syllables": [
+            "ma",
+            "go"
+          ]
+        },
+        {
+          "word": "mata",
+          "syllables": [
+            "ma",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "sede",
+          "b": "sede"
+        },
+        {
+          "a": "gota",
+          "b": "gota"
+        },
+        {
+          "a": "pling",
+          "b": "pling"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Não faz sentido, mas acreditem que assim era.",
+        "Até que a nuvem em que vinha, de carregada que estava, não podendo mais, se desfez em chuva.",
+        "Vou acrescentar água a um rio quase seco.",
+        "Até que chegou a uma folha, mesmo por cima de um ninho.",
+        "Foi o passarinho, tempos depois, que me contou esta história."
+      ]
+    }
+  ]
+}

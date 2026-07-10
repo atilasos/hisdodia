@@ -4,14 +4,38 @@
   "day": 10,
   "dateLabel": "10 de Agosto",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 10 de Agosto",
+  "title": "O Cão Farol",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Q uem me contou esta história foi o senhor Tomé. Passo-lhe a palavra:",
+        "\"O meu cão Farol era um portento. Um faro que só ele! Não há-de haver em todo o mundo e arredores um cão caçador que se lhe compare.",
+        "Felpa de coelho que ele cheirasse, num rasgo de urzes, era, daí a nada, mais um trangalhadanças preso ao meu cinto. Sim, eu é que dava o tiro, mas o mérito todo da caçada pertencia-lhe.",
+        "Às vezes, dava comigo a pensar se o caçador não seria ele... Bem vistas as coisas, o Farol é que me levava atrás, ele é que buscava, ele é que apanhava o rasto, ele é que corria, ele é que levantava a caça. E eu sempre atrás. Dar o tiro de remate não custava nada.",
+        "Quando eu via o coelho a fugir aos ziguezagues, gritava-lhe, a avisar:",
+        "– Pára, senão disparo.",
+        "Como nunca nenhum coelho parou ao meu mandado, tive sempre de cumprir o prometido. Sem falhar um.",
+        "O Farol trazia-mo, depois, na boca, a babar-se de riso, como quem me dá os parabéns pela pontaria, mas isso que importância tinha, comparado com o esforço dele? Fazia-lhe uma esfregada na peitaça, sinal e festa de agradecimento, que mais parecia pedido de desculpa por tirar-lhe o coelho dos dentes.",
+        "Estou convencido que, mesmo sem festas, o Farol me devolveria a caça. Ele era um mansarrão. Um companheirão. Um cão.",
+        "Envelheceu como eu envelheci. Já nos ia faltando genica para correr montados. Mas passei sempre as culpas para mim:",
+        "– Sabes, Farol, o teu dono está um pitosga. Não acerta nem numa perdiz no choco. Tremem-lhe as mãos. Tremem-lhe as pernas e já não troca as pantufas pelas botas de caçador.",
+        "Não era tanto assim, mas eu tinha de exagerar um bocado.",
+        "– Por este andar, amigo Farol, vais ter de arranjar outro dono que te leve à caça.",
+        "À maneira de resposta, o Farol poisava a cabeça nos meus joelhos, como se quisesse dizer que já não estava em idade de mudar de dono.",
+        "Na época da caça é que se enervava mais. Ouvia os outros latirem lá fora, mais os estampidos das caçadeiras.",
+        "Talvez ainda lhe chegasse às narinas o cheiro a medo, que vinha das luras, das moitas, do esconso das matas.",
+        "Nessas ocasiões, para entretê-lo, sabe o que é que eu fazia? Sombras chinesas, no muro do quintal:",
+        "– Olha o coelho, Farol. Busca! – gritava-lhe.",
+        "Ele saltava. A sombra robusta do cão caçador cobria a cabeça do coelho, que eu desenhara, à contraluz, com a habilidade das minhas mãos. Desde criança que eu não brincava a isto. Para o que me havia de dar, chegado a velho...",
+        "– Olha, agora, Farol, esta lebre. Corre!",
+        "E a lebre desaparecia, engolida pela sombra do Farol.",
+        "Dei-lhe as satisfações que podia. Só não estava na minha mão prolongar-lhe a vida...\"",
+        "O senhor Tomé, no fim do contar, enxugou uma lágrima. Depois, ainda disse, enquanto fixava, tristemente, o muro do quintal, caiado, muito branco, à luz do sol:",
+        "– De consolação fica-me a memória do belo cão que ele foi.",
+        "A cabeça bonita de um cão perdigueiro recortou-se, então, em sombras nítidas, na caliça do muro."
       ]
     }
   ],
@@ -25,22 +49,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/08/10/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

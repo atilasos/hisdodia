@@ -1,0 +1,130 @@
+{
+  "id": "08-24",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "toupeira",
+          "distractors": [
+            "troca",
+            "desgraça",
+            "queríamos"
+          ],
+          "sentence": "Foi então que reparei numa toupeira, que saía por um buraquinho."
+        },
+        {
+          "target": "ouro",
+          "distractors": [
+            "conto",
+            "mina",
+            "conta"
+          ],
+          "sentence": "Só naquele corredor, que eu considerava de minha propriedade, havia ouro que chegava para comprar o mundo todo e ainda sobrava."
+        },
+        {
+          "target": "janela",
+          "distractors": [
+            "conto",
+            "grande",
+            "conta"
+          ],
+          "sentence": "O contador, reformado de tantas aventuras, não gostou da observação e fechou-nos a janela na cara."
+        },
+        {
+          "target": "conto",
+          "distractors": [
+            "ouro",
+            "janela",
+            "mina"
+          ],
+          "sentence": "Vocês podem supor-me louco ou mentiroso, mas foi assim tal e qual como vos conto."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "toupeira",
+          "syllables": [
+            "tou",
+            "pei",
+            "ra"
+          ]
+        },
+        {
+          "word": "ouro",
+          "syllables": [
+            "ou",
+            "ro"
+          ]
+        },
+        {
+          "word": "janela",
+          "syllables": [
+            "ja",
+            "ne",
+            "la"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "nela",
+          "syllables": [
+            "ne",
+            "la"
+          ]
+        },
+        {
+          "word": "raro",
+          "syllables": [
+            "ra",
+            "ro"
+          ]
+        },
+        {
+          "word": "touro",
+          "syllables": [
+            "tou",
+            "ro"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "toupeira",
+          "b": "toupeira"
+        },
+        {
+          "a": "ouro",
+          "b": "ouro"
+        },
+        {
+          "a": "janela",
+          "b": "janela"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Foi marinheiro, fragateiro, fuzileiro, montanheiro, quadrilheiro, falcoeiro, artilheiro, enfim, um grande aventureiro.",
+        "Mas finge-se desinteressado e ocupado com outros assuntos mais urgentes.",
+        "Como o víamos ali, diante de nós, não nos alarmámos muito com a desgraça e a tragédia, de que ele nos falava.",
+        "Depois de muitas voltas, consegui negociar, de novo, a minha condição.",
+        "O contador, reformado de tantas aventuras, não gostou da observação e fechou-nos a janela na cara."
+      ]
+    }
+  ]
+}

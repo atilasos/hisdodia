@@ -1,0 +1,134 @@
+{
+  "id": "08-29",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "grão",
+          "distractors": [
+            "barco",
+            "vindo",
+            "sinal"
+          ],
+          "sentence": "Era uma vez um grão de areia que vivia num barco."
+        },
+        {
+          "target": "barco",
+          "distractors": [
+            "grão",
+            "vindo",
+            "sinal"
+          ],
+          "sentence": "O barco não era dele, já se vê, mas de uns pescadores, que todos os dias deitavam as redes ao mar."
+        },
+        {
+          "target": "vindo",
+          "distractors": [
+            "grão",
+            "barco",
+            "sinal"
+          ],
+          "sentence": "Este tinha vindo da praia, agarrado ao pé de um dos pescadores, e estava um tanto enjoado com os balanços do barco."
+        },
+        {
+          "target": "agarrado",
+          "distractors": [
+            "perguntou",
+            "respondeu",
+            "namorado"
+          ],
+          "sentence": "Tinha vindo agarrado a um cadeirinha de transportar bebés."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "barco",
+          "syllables": [
+            "bar",
+            "co"
+          ]
+        },
+        {
+          "word": "perguntou",
+          "syllables": [
+            "per",
+            "gun",
+            "tou"
+          ]
+        },
+        {
+          "word": "agarrado",
+          "syllables": [
+            "a",
+            "gar",
+            "ra",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "agarra",
+          "syllables": [
+            "a",
+            "gar",
+            "ra"
+          ]
+        },
+        {
+          "word": "apertou",
+          "syllables": [
+            "a",
+            "per",
+            "tou"
+          ]
+        },
+        {
+          "word": "arado",
+          "syllables": [
+            "a",
+            "ra",
+            "do"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "grão",
+          "b": "grão"
+        },
+        {
+          "a": "barco",
+          "b": "barco"
+        },
+        {
+          "a": "perguntou",
+          "b": "perguntou"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um grão de areia que vivia num barco.",
+        "Estamos na praia – explicou o grão de areia mais viajado.",
+        "Não há-de ser fácil – tranquilizou-o o outro.",
+        "Era um dos tais, por sinal o mais viajado.",
+        "Sabia por experiência própria que a um grão de areia tudo pode acontecer."
+      ]
+    }
+  ]
+}

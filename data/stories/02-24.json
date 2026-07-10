@@ -4,14 +4,32 @@
   "day": 24,
   "dateLabel": "24 de Fevereiro",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 24 de Fevereiro",
+  "title": "O Espelhinho",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Naquela terra não havia espelhos. Nem nunca tinha havido.",
+        "Era uma aldeia longe de tudo, onde nada chegava. Nem espelhos.",
+        "Uma vez, o senhor Chamisso, lá da aldeia, foi à cidade. Ih, que assombro! Ruas, carros, gente com pressa, casas altas de pasmar…",
+        "Atarantado, o senhor Chamisso o que queria era voltar para a sua aldeia. Ia a passar por uma loja e viu, na montra, um espelho.",
+        "– Olha o retrato do meu pai – exclamou.",
+        "O pai do senhor Chamisso tinha morrido há anos e não era de estranhar que o filho estivesse parecido com ele.",
+        "Entrou na loja e comprou o espelho. Depois, com o espelho embrulhado debaixo do braço, voltou para a aldeia.",
+        "Chegou já era noite.",
+        "Na manhã seguinte, quando acordou, virou-se para a mulher, ainda meio estremunhada, e disse-lhe:",
+        "– Calcula o que eu encontrei, na cidade. Nem mais nem menos do que o retrato do meu pai. Vai tu ver, que o deixei embrulhado, na cozinha.",
+        "A mulher calçou os chinelos e, ainda desgrenhada e mal pronta, foi ver. Quando desembrulhou o espelho, indignou-se:",
+        "– Ai que mentiroso que é o meu marido. A dizer que tinha trazido o retrato do pai, quando o que trouxe para casa foi o retrato de uma marafona, com cara de porca.",
+        "E foi fazer queixa à mãe.",
+        "– Só queria que a mãe visse a feiosa que ela é, toda mal pronta e esguedelhada. Uma pouca-vergonha de uma mulher!",
+        "– Deixa estar, filha, que eu vou ver e, se for como tu dizes, a gente dá uma desanda no teu marido.",
+        "A mãe foi espreitar o espelho.",
+        "– Ai que velha avantesma! – gritou.",
+        "Com o susto, largou o espelhinho, que caiu no chão e se partiu em mil bocados.",
+        "Pois foi assim tal e qual. Naquela família continuaram a não saber o que era um espelho… Melhor para eles…"
       ]
     }
   ],
@@ -25,22 +43,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/02/24/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

@@ -4,14 +4,25 @@
   "day": 26,
   "dateLabel": "26 de Julho",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 26 de Julho",
+  "title": "História Perdida",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Ia para contar uma história, mas no caminho para casa ou lá onde fosse esqueci-me.",
+        "Sentado à secretária, onde escrevo as histórias que me ocorrem por aqui e por ali, chamei pela minha história e ela nicles! Não respondeu à chamada.",
+        "Onde a teria perdido? No corredor? Não, que não era história de correr. Na casa de jantar? Não, que não era história de comer. No quarto? Não, que não era história para adormecer.",
+        "Naturalmente, foi na rua, antes de eu ter entrado em casa. Ficou à porta, envergonhada, e andará agora por aí, ao deus-dará, sem ninguém que lhe dê a mão, desabrigadinha de todo, a minha pobre história perdida.",
+        "Que impressão isto me faz.",
+        "Vou amanhã a um jornal e ponho um anúncio: HISTÓRIA PERDEU-SE. RECOMPENSA-SE QUEM A ACHAR E A TROUXER À SEGUINTE MORADA...",
+        "Mas como é que as pessoas vão dar com a minha história, se andam por aí tantas histórias pela rua, ao desamparo, só à espera de alguém que as conte? Vou ficar com a minha casa cheia de histórias que não me pertencem. É embaraçante. Eu só preciso de uma. A minha. Como resolver esta aflição?",
+        "Bem... Podia imaginar... Podia, por exemplo, imaginar que a minha história, depois de ter andado ao acaso, foi ter a um jardim, onde estava uma senhora de cabelos brancos, sentada num banco, pensativa, preocupada... Ia visitar os netos e não tinha nada para lhes levar. Nem carrinho, nem bola, nem boneco... E eles, já se vê, à espera de uma lembrança. Mas a vida tão cara!",
+        "A minha história adivinhou-lhe os pensamentos. E a minha história, sempre tão tímida, tão metida consigo, teve uma ousadia. Ofereceu-se:",
+        "– Leve-me aos seus netos. Conte-me. Também sou uma prenda.",
+        "Assim aconteceu. E os netos parece que gostaram.",
+        "Afinal, sempre se aproveitou a minha história perdida."
       ]
     }
   ],
@@ -25,22 +36,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/07/26/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

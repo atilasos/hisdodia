@@ -1,0 +1,128 @@
+{
+  "id": "01-25",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "flor",
+          "distractors": [
+            "sino",
+            "erva",
+            "caber"
+          ],
+          "sentence": "C omo é que uma flor e um sino podem caber na mesma história?"
+        },
+        {
+          "target": "sino",
+          "distractors": [
+            "flor",
+            "erva",
+            "caber"
+          ],
+          "sentence": "A flor tão rasteira e o sino tão alto nada têm a ver um com o outro."
+        },
+        {
+          "target": "erva",
+          "distractors": [
+            "flor",
+            "sino",
+            "caber"
+          ],
+          "sentence": "Perguntem-me porque nasci – gritava a erva, numa vozinha de erva-fina."
+        },
+        {
+          "target": "caber",
+          "distractors": [
+            "flor",
+            "sino",
+            "erva"
+          ],
+          "sentence": "Aí têm como um sino e uma flor podem caber na mesma história."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "sino",
+          "syllables": [
+            "si",
+            "no"
+          ]
+        },
+        {
+          "word": "erva",
+          "syllables": [
+            "er",
+            "va"
+          ]
+        },
+        {
+          "word": "caber",
+          "syllables": [
+            "ca",
+            "ber"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cano",
+          "syllables": [
+            "ca",
+            "no"
+          ]
+        },
+        {
+          "word": "cava",
+          "syllables": [
+            "ca",
+            "va"
+          ]
+        },
+        {
+          "word": "nova",
+          "syllables": [
+            "no",
+            "va"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "flor",
+          "b": "flor"
+        },
+        {
+          "a": "sino",
+          "b": "sino"
+        },
+        {
+          "a": "erva",
+          "b": "erva"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "C omo é que uma flor e um sino podem caber na mesma história?",
+        "Mas tudo tem uma lógica, um começo, um antes do que está para vir.",
+        "Nisto o sino, tlim-dlão-dlim, tlim-dlão-dlim, e apareceu a flor.",
+        "Passado tempo, a flor desprendeu-se da lapela.",
+        "Pelos tempos fora, o sino vai voltar a bater e as flores a crescer."
+      ]
+    }
+  ]
+}

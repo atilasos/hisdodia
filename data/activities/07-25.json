@@ -1,8 +1,121 @@
 {
   "id": "07-25",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "galinha",
+          "distractors": [
+            "capoeira",
+            "pernas",
+            "galinhas"
+          ],
+          "sentence": "A galinha chamou-o de filho e o corvinho trangalhadanças chamou-a de mãe."
+        },
+        {
+          "target": "corvo",
+          "distractors": [
+            "capoeira",
+            "pernas",
+            "filho"
+          ],
+          "sentence": "Tinha-as de um preto tão luzidio que, por elas rasando, de um certo e determinado ângulo, os raios de sol, parecia o corvo uma ave rara…"
+        },
+        {
+          "target": "capoeira",
+          "distractors": [
+            "galinha",
+            "corvo",
+            "galinhas"
+          ],
+          "sentence": "Era um ladrão, pilha-galinhas, rapinante, desses que torcem o pescoço ao galinhame adormecido e zás, atiram o recheio de uma capoeira…"
+        },
+        {
+          "target": "pernas",
+          "distractors": [
+            "galinha",
+            "corvo",
+            "filho"
+          ],
+          "sentence": "Passado tempo, do ovo rompeu um passareco feinho que mal se tinha nas pernas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "galinha",
+          "syllables": [
+            "ga",
+            "li",
+            "nha"
+          ]
+        },
+        {
+          "word": "corvo",
+          "syllables": [
+            "cor",
+            "vo"
+          ]
+        },
+        {
+          "word": "capoeira",
+          "syllables": [
+            "ca",
+            "po",
+            "ei",
+            "ra"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cara",
+          "syllables": [
+            "ca",
+            "ra"
+          ]
+        },
+        {
+          "word": "cavo",
+          "syllables": [
+            "ca",
+            "vo"
+          ]
+        },
+        {
+          "word": "corpo",
+          "syllables": [
+            "cor",
+            "po"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "galinha",
+          "b": "galinha"
+        },
+        {
+          "a": "corvo",
+          "b": "corvo"
+        },
+        {
+          "a": "capoeira",
+          "b": "capoeira"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +125,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Ela chocava os ovos, mas saíam todos goros.",
+        "Não é dos nossos – cacarejavam as restantes galinhas.",
+        "A mãe galinha, orgulhosa, não se cansava de olhá-lo.",
+        "Estava ele uma noite, no seu matutar, virado para a Lua, quando sentiu umas raspadelas suspeitas, do lado em que a rede estava mais folgada.",
+        "E logo ali decidiram, com muitos bravos, que o corvo passava à categoria de segurança, guarda-nocturno, guarda-redes de toda a capoeira."
+      ]
     }
   ]
 }

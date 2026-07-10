@@ -4,14 +4,39 @@
   "day": 15,
   "dateLabel": "15 de Novembro",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 15 de Novembro",
+  "title": "O Senhor Frutuoso Inventor",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "O senhor Frutuoso é um grande inventor. Entre máquinas e maquinetas da sua particular invenção tem em casa para cima de uma centena.",
+        "Juntem-lhe as máquinas e maquinetas que outros inventores, de diversos pontos do mundo, lhe enviam e imaginem como será a casa do senhor Frutuoso, com tantos maquinismos a trabalhar.",
+        "Uma barulheira que só ouvindo. Tlim, tcham, pung… Poc, poc, poc… Bié, bié, bié… Bong! Tuque, taque, tique, tuque… Tuque, taque, tique, tuque… A história podia ser toda assim, embora talvez fosse um pouco cansativa.",
+        "– Tudo preciosidades – costuma dizer-me o senhor Frutuoso, quando vou visitá-lo e ele me encaminha pelos salões e corredores da sua casa, cheios de vitrines e de prateleiras, carregadas de inventos.",
+        "– Repare-me neste prodígio que me mandaram pelo correio – diz-me o senhor Frutuoso, acabando de desembrulhar diante de mim uma enorme encomenda.",
+        "– É um bonito relógio de parede – digo eu.",
+        "O senhor Frutuoso indigna-se:",
+        "– Isto não é num relógio de parede. É um invento fantástico de um ilustre correspondente meu do Brasil, o doutor Janísio Bisnaga Filho, não sei se conhece?",
+        "Por sinal, não conheço, mas isso pouco importa.",
+        "– Explicou-me o meu amigo Janísio por carta que este relógio tem um mostrador e três ponteiros. Um para as horas, outro para os minutos e o terceiro sabe para quê?",
+        "– Naturalmente para os segundos.",
+        "– Nada disso. O terceiro é para anunciar o tempo – proclama, entusiasmado, o senhor Frutuoso.",
+        "Não se percebe onde está o espanto, porque, tanto quanto sei, todos os relógios anunciam o tempo.",
+        "– Não é esse tempo, mas o tempo que vai fazer – impacienta-se o sábio.",
+        "– Ah! Anuncia as horas com antecedência… – estranho eu.",
+        "– Refiro-me ao tempo atmosférico, o tempo meteorológico, entendeu? Este relógio, além de dar horas, informa-nos, com vinte e quatro horas de antecedência, sobre o tempo que vamos ter, no dia seguinte.",
+        "Finalmente, o senhor Frutuoso conseguia fazer-me entender. De facto, o relógio, tal como os barómetros, tinha à roda do mostrador várias indicações: chuva, aguaceiros, tempo variável, bom tempo, etc. Não tinha \"etc.\", já se vê, mas percebe-se…",
+        "O senhor Frutuoso deu-lhe corda e o relógio começou a trabalhar num tic-tac certinho e cumpridor. Reparei que o terceiro ponteiro apontou para as palavras \"Tempo quente\". Ainda bem.",
+        "No dia seguinte, fiado no invento do Doutor Jasmínio Bisnaga Filho, saí de casa à fresca. Pois apanhei uma chuvada e uma friagem que não queiram saber. \"Afinal o relógio também se engana\", pensei e nunca mais quis saber do caso.",
+        "Só há dias, quando tive de telefonar ao senhor Frutuoso por outros assuntos, é que voltei a lembrar-me do caprichoso relógio de parede. Do lado de lá, o senhor Frutuoso atendeu-me, com a voz fanhosa das grandes constipações.",
+        "– Estou assim por causa do relógio – explicou. – Tenho-me guiado pelo conselhos dele e não calcula as chuvadas e resfriamentos que suportei, nestes últimos dias. Passa-se qualquer coisa no funcionamento do aparelho, que não entendo. Atchim!",
+        "O sábio a espirrar e uma ideia a trespassar-me a cabeça de lado a lado. Botei-a logo cá para fora:",
+        "– Se o relógio veio do Brasil, não estará ele regulado para outro clima diferente do nosso? – perguntei.",
+        "Fez-se silêncio do outro lado do fio. Depois, o senhor Frutuoso voltou à fala:",
+        "– Tem razão, tem toda a razão. O relógio diz que está bom tempo e tempo quente, mas é no Brasil, onde foi montado. Seja como for é um grande invento. Atchim!",
+        "E o senhor Frutuoso desligou apressadamente o telefone, para poder assoar-se mais à vontade."
       ]
     }
   ],
@@ -25,22 +50,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/11/15/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

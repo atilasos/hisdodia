@@ -1,0 +1,129 @@
+{
+  "id": "09-28",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "urso",
+          "distractors": [
+            "velha",
+            "irmão",
+            "velho"
+          ],
+          "sentence": "Um velho urso paspalhão a sonhar com palácios e criados de nariz no chão."
+        },
+        {
+          "target": "velha",
+          "distractors": [
+            "urso",
+            "irmão",
+            "velho"
+          ],
+          "sentence": "Mas que encontro afinal: cinzas frias na lareira e uma velha a um canto, enrolada em cobertores, a resmungar, com voz de bruxa..."
+        },
+        {
+          "target": "irmão",
+          "distractors": [
+            "urso",
+            "velha",
+            "velho"
+          ],
+          "sentence": "Mal o irmão entrava em casa e fechava a porta, começava a bulha."
+        },
+        {
+          "target": "velho",
+          "distractors": [
+            "urso",
+            "velha",
+            "irmão"
+          ],
+          "sentence": "Portanto, tenho direito de dormir o que me apetece e o que o meu corpo pede – respondia-lhe o velho, com a cabeça escondida nos cobertores."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "urso",
+          "syllables": [
+            "ur",
+            "so"
+          ]
+        },
+        {
+          "word": "velha",
+          "syllables": [
+            "ve",
+            "lha"
+          ]
+        },
+        {
+          "word": "cabana",
+          "syllables": [
+            "ca",
+            "ba",
+            "na"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "calha",
+          "syllables": [
+            "ca",
+            "lha"
+          ]
+        },
+        {
+          "word": "cana",
+          "syllables": [
+            "ca",
+            "na"
+          ]
+        },
+        {
+          "word": "caso",
+          "syllables": [
+            "ca",
+            "so"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "urso",
+          "b": "urso"
+        },
+        {
+          "a": "velha",
+          "b": "velha"
+        },
+        {
+          "a": "irmão",
+          "b": "irmão"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "H avia na floresta uma cabana, modesta morada de lenhadores.",
+        "De manhã, chovesse ou fizesse sol, havia sempre tempestade na cabana.",
+        "Não quero nada de ti – disse-lhe o urso.",
+        "Voltado para a parede, o irmão não dava resposta.",
+        "Gregório Epifanov nunca mais se esqueceu do urso que lhe prestara tão bons serviços."
+      ]
+    }
+  ]
+}

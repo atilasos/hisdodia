@@ -1,0 +1,133 @@
+{
+  "id": "09-11",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "tartaruga",
+          "distractors": [
+            "floresta",
+            "troçar",
+            "ridícula"
+          ],
+          "sentence": "A tartaruga aturava estas falas, sem lhes dar resposta."
+        },
+        {
+          "target": "raposa",
+          "distractors": [
+            "macaco",
+            "sempre",
+            "corrida"
+          ],
+          "sentence": "Ninguém seria capaz de imaginar um monstro como tu – dizia-lhe a raposa, passando por ela de raspão."
+        },
+        {
+          "target": "macaco",
+          "distractors": [
+            "raposa",
+            "sempre",
+            "corrida"
+          ],
+          "sentence": "Pressionado pelo tumulto do público, o árbitro macaco também teve de reconhecer que ela é que tinha razão."
+        },
+        {
+          "target": "sempre",
+          "distractors": [
+            "raposa",
+            "macaco",
+            "corrida"
+          ],
+          "sentence": "Andava à sua vida, vagarosa como sempre, embora lá por dentro o coração batucasse muito depressa, sentido e revoltado."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "tartaruga",
+          "syllables": [
+            "tar",
+            "ta",
+            "ru",
+            "ga"
+          ]
+        },
+        {
+          "word": "raposa",
+          "syllables": [
+            "ra",
+            "po",
+            "sa"
+          ]
+        },
+        {
+          "word": "macaco",
+          "syllables": [
+            "ma",
+            "ca",
+            "co"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cama",
+          "syllables": [
+            "ca",
+            "ma"
+          ]
+        },
+        {
+          "word": "cara",
+          "syllables": [
+            "ca",
+            "ra"
+          ]
+        },
+        {
+          "word": "casaco",
+          "syllables": [
+            "ca",
+            "sa",
+            "co"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "tartaruga",
+          "b": "tartaruga"
+        },
+        {
+          "a": "raposa",
+          "b": "raposa"
+        },
+        {
+          "a": "macaco",
+          "b": "macaco"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "És tão feia, tão ridícula, tão lenta, tão preguiçosa.",
+        "Ninguém seria capaz de imaginar um monstro como tu – dizia-lhe a raposa, passando por ela de raspão.",
+        "Correu a raposa, de focinho afilado, em direcção à toca.",
+        "A minha casa, como a do caracol, anda sempre comigo.",
+        "A raposa, de emplumada cauda a arrastar a sua humilhação, ela que se considerava a mais inteligente da floresta, calou-se."
+      ]
+    }
+  ]
+}

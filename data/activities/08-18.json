@@ -1,0 +1,132 @@
+{
+  "id": "08-18",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "fruto",
+          "distractors": [
+            "primo",
+            "planta",
+            "frutos"
+          ],
+          "sentence": "A planta deu flor e a flor fruto, um grande e estranho fruto dourado do tamanho de uma abóbora."
+        },
+        {
+          "target": "armazém",
+          "distractors": [
+            "andorinha",
+            "sementes",
+            "planta"
+          ],
+          "sentence": "Cada qual tinha um armazém de sementes e frutos secos, frente a frente, numa das ruas de mercadores da cidade Piong, na Península da Coreia."
+        },
+        {
+          "target": "andorinha",
+          "distractors": [
+            "armazém",
+            "sementes",
+            "ambos"
+          ],
+          "sentence": "Uma vez, uma pequena andorinha, que ainda não sabia voar, partiu uma asa, ao cair no beiral."
+        },
+        {
+          "target": "sementes",
+          "distractors": [
+            "armazém",
+            "andorinha",
+            "semente"
+          ],
+          "sentence": "Eram os pássaros que lhe roubavam as sementes."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "fruto",
+          "syllables": [
+            "fru",
+            "to"
+          ]
+        },
+        {
+          "word": "armazém",
+          "syllables": [
+            "ar",
+            "ma",
+            "zém"
+          ]
+        },
+        {
+          "word": "andorinha",
+          "syllables": [
+            "an",
+            "do",
+            "ri",
+            "nha"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "ando",
+          "syllables": [
+            "an",
+            "do"
+          ]
+        },
+        {
+          "word": "arma",
+          "syllables": [
+            "ar",
+            "ma"
+          ]
+        },
+        {
+          "word": "armado",
+          "syllables": [
+            "ar",
+            "ma",
+            "do"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "fruto",
+          "b": "fruto"
+        },
+        {
+          "a": "armazém",
+          "b": "armazém"
+        },
+        {
+          "a": "andorinha",
+          "b": "andorinha"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O outro, Li-Kong, um patifório sem coração.",
+        "Na Primavera seguinte, passou pelo armazém de Li-Fong e depositou nas mãos do seu protector uma semente, que trouxera no bico, sabe-se…",
+        "E tudo, num repente, num sopro, sem que os dois primos tivessem sequer tempo para fechar a boca.",
+        "A planta fez-lhe a vontade e presenteou-o com três enormes frutos dourados.",
+        "Pelos lanhos abertos no fruto disparou uma ventania que varreu as sementes todas do armazém."
+      ]
+    }
+  ]
+}

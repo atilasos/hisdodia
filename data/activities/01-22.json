@@ -1,8 +1,119 @@
 {
   "id": "01-22",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "urso",
+          "distractors": [
+            "ursos",
+            "ajuda",
+            "tempo"
+          ],
+          "sentence": "Dois amigos acertaram em ir à caça a um grande urso, que andava a assustar os rebanhos."
+        },
+        {
+          "target": "ursos",
+          "distractors": [
+            "urso",
+            "ajuda",
+            "árvore"
+          ],
+          "sentence": "No tempo em que havia ursos a rondar os povoados, também havia homens que lhes davam caça com a ajuda de lanças e flechas, porque as…"
+        },
+        {
+          "target": "ajuda",
+          "distractors": [
+            "urso",
+            "ursos",
+            "árvore"
+          ],
+          "sentence": "Um dos amigos, esquecido do prometido, logo marinhou por uma árvore acima, deixando o companheiro sem ajuda."
+        },
+        {
+          "target": "árvore",
+          "distractors": [
+            "ursos",
+            "ajuda",
+            "caçador"
+          ],
+          "sentence": "O caçador de ursos, por pouco caçado, ainda se deixou ficar quieto mais um tempo, até o amigo saltar da árvore e vir ter com ele."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "urso",
+          "syllables": [
+            "ur",
+            "so"
+          ]
+        },
+        {
+          "word": "ursos",
+          "syllables": [
+            "ur",
+            "sos"
+          ]
+        },
+        {
+          "word": "caçador",
+          "syllables": [
+            "ca",
+            "ça",
+            "dor"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "caso",
+          "syllables": [
+            "ca",
+            "so"
+          ]
+        },
+        {
+          "word": "casos",
+          "syllables": [
+            "ca",
+            "sos"
+          ]
+        },
+        {
+          "word": "dorso",
+          "syllables": [
+            "dor",
+            "so"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "urso",
+          "b": "urso"
+        },
+        {
+          "a": "ursos",
+          "b": "ursos"
+        },
+        {
+          "a": "ajuda",
+          "b": "ajuda"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +123,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "No tempo em que havia ursos a rondar os povoados, também havia homens que lhes davam caça com a ajuda de lanças e flechas, porque as…",
+        "Um dos amigos, esquecido do prometido, logo marinhou por uma árvore acima, deixando o companheiro sem ajuda.",
+        "O caçador de ursos, por pouco caçado, ainda se deixou ficar quieto mais um tempo, até o amigo saltar da árvore e vir ter com ele.",
+        "De facto, ele esteve que tempos com o focinho encostado à tua orelha.",
+        "E, dizendo isto, o caçador pegou na lança e avançou pelo caminho do mato."
+      ]
     }
   ]
 }

@@ -4,14 +4,41 @@
   "day": 18,
   "dateLabel": "18 de Agosto",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 18 de Agosto",
+  "title": "Os Dois Primos Li",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Eram dois primos, mas nem pareciam. Um, Li-Fong, um coração de oiro. O outro, Li-Kong, um patifório sem coração.",
+        "Trabalhavam ambos no mesmo ramo. Cada qual tinha um armazém de sementes e frutos secos, frente a frente, numa das ruas de mercadores da cidade Piong, na Península da Coreia.",
+        "Li-Kong passava o tempo a queixar-se de tudo. Eram os negócios que corriam mal. Eram as chuvas que vinham fora da época. Eram os pássaros que lhe roubavam as sementes.",
+        "Li-Fong sorria a tudo. Se tinha razões de queixa, não se dava por isso. Até os pássaros que depenicavam sementes, à porta do armazém, lhe davam motivo para sorrir.",
+        "Uma vez, uma pequena andorinha, que ainda não sabia voar, partiu uma asa, ao cair no beiral. Li-Fong cuidou dela e com muito carinho pôs-lhe uma tala, que atou com um fio à asa partida.",
+        "A andorinha recuperou e, chegado o Outono, ganhou forças para subir aos ares com as suas companheiras, em direcção a outras paragens. Mas não se esqueceu de quem a salvara...",
+        "Na Primavera seguinte, passou pelo armazém de Li-Fong e depositou nas mãos do seu protector uma semente, que trouxera no bico, sabe-se lá donde. Depois, abalou.",
+        "Li-Fong, que sabia tudo de sementes, mas não conhecia aquela, resolveu semeá-la no quintal. A semente germinou e uma planta de grandes folhas verdes trepou pela parede. Li-Fong regava-a cuidadosamente e animava-a a crescer, com palavras de mimo, como se ela o entendesse.",
+        "A planta deu flor e a flor fruto, um grande e estranho fruto dourado do tamanho de uma abóbora. Li-Fong cheirou-o, mas não o reconheceu pelo cheiro. A bem dizer, não cheirava a nada. Em contrapartida, encostando o ouvido à casca do fruto, parecia que se ouvia música e uma longínqua agitação de festa.",
+        "O primo Li-Kong troçou dele, com o seu habitual azedume:",
+        "– Esse fruto estapafúrdio vai dar-te para fazeres uma sopa de barulho.",
+        "Li-Fong resolveu-se a abri-lo e, quando o fez, diante do primo, ficaram ambos sem fala. Daquela espécie de abóbora saiu um exército de criados que armou mesas e dispôs iguarias para um grande banquete. Seguiu-se um exército de artesãos que montou móveis, estendeu tapetes, armou cortinados e transformou o armazém num palácio. Depois, vieram músicos e com eles um financeiro, carregado de sacos, cheios de moedas de ouro.",
+        "No fim – ah! ah!, no fim... – saiu do fruto mágico uma jovem linda que disse que queria casar-se com Li-Fong.",
+        "E tudo, num repente, num sopro, sem que os dois primos tivessem sequer tempo para fechar a boca.",
+        "O invejoso do Li-Kong não descansou enquanto não soube a origem de toda aquela fortuna. Quando o primo lhe contou a história da andorinha que socorrera, Li-Kong rangeu os dentes e disse:",
+        "– Só por isso? Então, não custa nada.",
+        "Foi ao beiral do seu armazém, pegou numa andorinha, que ainda estava no ninho, e partiu-lhe uma asa. Em seguida, muito despachadamente, depois de ter feito o mal, tentou fazer o bem. Tal como o primo lhe ensinara, atou uma tala à asa partida da pobre andorinha e recomendou-lhe, ameaçadoramente:",
+        "– Vê lá se agora não te esqueces de mim...",
+        "De facto, na Primavera seguinte, esta andorinha quis demonstrar a Li-Kong que estava bem lembrada do que ele lhe fizera. Trouxe-lhe uma semente.",
+        "Li-Kong enterrou-a no quintal e ficou à espera. Brotou da terra uma planta de grandes folhas verdes, que demorou a crescer, parede acima.",
+        "– Então cresces ou não cresces, maldita? – impacientava-se Li-Kong. – Dá-me frutos, depressa.",
+        "A planta fez-lhe a vontade e presenteou-o com três enormes frutos dourados.",
+        "– Vou ser três vezes mais rico do que o meu primo – rejubilava Li-Kong, de faca na mão.",
+        "Golpeou o primeiro fruto, que se abriu numa grande gargalhada e logo se desfez.",
+        "Segundo fruto e outra gargalhada enorme...",
+        "Furioso, Li-Kong atirou-se ao terceiro fruto, como se a faca fosse um punhal.",
+        "– Não quero que te rias mais de mim! Não quero que te rias! – gritava ele.",
+        "Pelos lanhos abertos no fruto disparou uma ventania que varreu as sementes todas do armazém. Saltaram portas e janelas, voaram as telhas e estremeceram as paredes até aos alicerces. Li-Kong, soprado para longe, perdeu os sentidos. Quando os recuperou viu-se sozinho, desamparado, no meio das ruínas."
       ]
     }
   ],
@@ -25,22 +52,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/08/18/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

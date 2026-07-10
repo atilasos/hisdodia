@@ -4,14 +4,39 @@
   "day": 29,
   "dateLabel": "29 de Agosto",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 29 de Agosto",
+  "title": "Os Grãozinhos Andam de Barco",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Era uma vez um grão de areia que vivia num barco. O barco não era dele, já se vê, mas de uns pescadores, que todos os dias deitavam as redes ao mar.",
+        "– Onde é que eu estou? – perguntou um outro grão de areia, acabado de chegar.",
+        "Este tinha vindo da praia, agarrado ao pé de um dos pescadores, e estava um tanto enjoado com os balanços do barco.",
+        "O grão de areia mais antigo explicou-lhe onde se encontravam.",
+        "– Com a prática do mar alto, vais habituar-te – disse o grão de areia marinheiro.",
+        "Por sinal que não lhe deram tempo para tal, porque o barco estava muito velho, metia água e, depois de uma última pescaria, foi abandonado, como coisa sem préstimo.",
+        "– Já não balança – disse o grão de areia menos viajado.",
+        "– Estamos na praia – explicou o grão de areia mais viajado.",
+        "– Não vejo praia nenhuma – estranhou o grão de areia menos viajado.",
+        "Pudera! Donde estavam só se via o barco por dentro e o céu, lá muito em cima. Assim ficaram que tempos. Anos, talvez. Tanto fazia.",
+        "A madeira do barco apodreceu e, numa noite de Inverno, uns rapazes resolveram fazer uma fogueira com o que restava do velho barco.",
+        "– Vamos morrer queimados – alarmou-se o grão de areia menos experiente.",
+        "– Não há-de ser fácil – tranquilizou-o o outro. – Nós, os grãos de areia, somos muito resistentes.",
+        "Se eram! Tudo à volta em cinzas e eles a brilharem como novos.",
+        "– E agora? – perguntou o grão de areia mais assustadiço.",
+        "– Depois se verá – respondeu o grão de areia que sabia muito. – Nós, os grãos de areia, temos de estar prontos para tudo.",
+        "Veio o vento que varreu as cinzas e deu asas aos grãozinhos. Cada qual para seu lado.",
+        "– Que impressão. Tenho um grão de areia num olho – queixou-se uma namorada para o respectivo namorado.",
+        "– Eu tiro-to, meu amor – acorreu o namorado a socorrê-la.",
+        "Soprou e pronto. O grão caiu. Era um dos tais, por sinal o mais viajado.",
+        "Caiu no convés de um grande barco, daqueles que proporcionam excursões, à beira-mar.",
+        "– Olá, colega – disse-lhe, à beira dele, outro grão de areia.",
+        "Era o menos viajado. Tinha vindo agarrado a um cadeirinha de transportar bebés. Poisada a cadeirinha, caíra para o chão.",
+        "– E já se não sente agoniado? – perguntou-lhe o grão de areia mais experiente.",
+        "– Este barco é muito mais cómodo – respondeu o grãozinho. – Por este andar, à velocidade a que temos progredido, ainda vamos parar a um transatlântico e atravessar os mares, até à América.",
+        "O outro concordou. Sabia por experiência própria que a um grão de areia tudo pode acontecer."
       ]
     }
   ],
@@ -25,22 +50,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/08/29/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

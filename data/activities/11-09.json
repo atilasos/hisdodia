@@ -64,33 +64,27 @@
           ]
         },
         {
-          "word": "lago",
+          "word": "pequeno",
           "syllables": [
-            "la",
-            "go"
+            "pe",
+            "que",
+            "no"
           ]
         }
       ],
       "recombine": [
         {
-          "word": "cola",
+          "word": "nota",
           "syllables": [
-            "co",
-            "la"
-          ]
-        },
-        {
-          "word": "gola",
-          "syllables": [
-            "go",
-            "la"
-          ]
-        },
-        {
-          "word": "gota",
-          "syllables": [
-            "go",
+            "no",
             "ta"
+          ]
+        },
+        {
+          "word": "taque",
+          "syllables": [
+            "ta",
+            "que"
           ]
         }
       ]

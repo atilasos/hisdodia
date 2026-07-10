@@ -1,0 +1,124 @@
+{
+  "id": "03-18",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "espada",
+          "distractors": [
+            "pedra",
+            "filho",
+            "condes"
+          ],
+          "sentence": "Olhai, que uma espada está enterrada no coração da pedra..."
+        },
+        {
+          "target": "pedra",
+          "distractors": [
+            "espada",
+            "filho",
+            "príncipes"
+          ],
+          "sentence": "À medida que os muitos condes e príncipes chegavam à clareira da floresta, onde fora marcada a reunião, uma grande pedra branca ia…"
+        },
+        {
+          "target": "filho",
+          "distractors": [
+            "espada",
+            "pedra",
+            "condes"
+          ],
+          "sentence": "Mas, embora ninguém soubesse, o rei Uther tinha deixado um filho, chamado Artur, a quem, por direito, a coroa real devia pertencer."
+        },
+        {
+          "target": "príncipes",
+          "distractors": [
+            "pedra",
+            "cavaleiro",
+            "arcebispo"
+          ],
+          "sentence": "Quando o trono deste país ficou vazio, ficou o reino sem rei nem roque, porque príncipes e condes todos queriam, à uma, experimentar a…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "espada",
+          "syllables": [
+            "es",
+            "pa",
+            "da"
+          ]
+        },
+        {
+          "word": "pedra",
+          "syllables": [
+            "pe",
+            "dra"
+          ]
+        },
+        {
+          "word": "filho",
+          "syllables": [
+            "fi",
+            "lho"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "espelho",
+          "syllables": [
+            "es",
+            "pe",
+            "lho"
+          ]
+        },
+        {
+          "word": "pedrada",
+          "syllables": [
+            "pe",
+            "dra",
+            "da"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "espada",
+          "b": "espada"
+        },
+        {
+          "a": "pedra",
+          "b": "pedra"
+        },
+        {
+          "a": "filho",
+          "b": "filho"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Há muito e muito tempo, num país de nuvens e lendas, vivia um rei chamado Uther.",
+        "A meio, uma bela espada de punho de oiro reluzia cravada na rocha.",
+        "Eu vou buscar-ta – ofereceu-se Artur, montando a cavalo.",
+        "Perdi um filho, mas o reino ganhou um rei – disse Sir Heitor, ajoelhando-se diante de Artur, que se aproximara deles.",
+        "Apesar de todas as evidências, os pretendentes puseram-se a murmurar contra o jovem desconhecido e recusaram-se a aclamá-lo rei."
+      ]
+    }
+  ]
+}

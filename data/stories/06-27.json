@@ -4,14 +4,24 @@
   "day": 27,
   "dateLabel": "27 de Junho",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 27 de Junho",
+  "title": "O Bom Gigante",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Era uma vez um gigante que não gostava de ser gigante.",
+        "– Chamo muito a atenção – queixava-se ele. – Para onde quer que vá, todos, de longe, apontam o dedo para mim \"Lá vai o gigante!\" E assustam-se. E abusam do meu nome e pessoa, metendo medo aos meninos: \"Se não comes a sopa, chamo o gigante\". E espalham disparates a meu respeito, dizendo que eu como gente, sou mau e outras calúnias que tais. Não aturo isto.",
+        "Pôs-se a andar de joelhos, a ver se não davam tanto por ele. Qual quê! Um gigante de joelhos, quer se queira quer não, é sempre um gigante, ainda que de joelhos.",
+        "Deixou de aparecer. Fechou-se no seu palácio de gigante e nunca mais pôs um pé fora de casa. Mas um gigante escondido, que de um momento para o outro pode aparecer, aterroriza ainda mais a vizinhança do que se andasse sempre na rua.",
+        "– Vou mudar de terra – decidiu o desgostado gigante.",
+        "Andou por vários reinos, sempre precedido pela sua fama.",
+        "– Vem aí o gigante – gritavam.",
+        "E todos fugiam.",
+        "Até que foi ter a uma terra de gigantes. De gigantões. Todos muito maiores do que ele.",
+        "– Aqui é que me convém ficar a viver – disse o gigante. – Ninguém vai reparar em mim.",
+        "Por acaso reparavam. Chamavam-no, nessa terra, de gigantões matulões, chamavam ao gigante desta história de \"pitorro\", \"badameco\", \"homenzinho\", \"pigmeu\"... Mas ele, que tinha muito bom feitio, não se importava."
       ]
     }
   ],
@@ -25,22 +35,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/06/27/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

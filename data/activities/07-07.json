@@ -74,6 +74,13 @@
       ],
       "recombine": [
         {
+          "word": "fole",
+          "syllables": [
+            "fo",
+            "le"
+          ]
+        },
+        {
           "word": "fora",
           "syllables": [
             "fo",
@@ -85,13 +92,6 @@
           "syllables": [
             "pe",
             "guei"
-          ]
-        },
-        {
-          "word": "peão",
-          "syllables": [
-            "pe",
-            "ão"
           ]
         }
       ]

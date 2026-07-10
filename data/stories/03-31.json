@@ -4,14 +4,33 @@
   "day": 31,
   "dateLabel": "31 de Março",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 31 de Março",
+  "title": "Acreditem",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Era uma vez uma senhora que tinha três cães. Um era já velhote. Outro, assim assim. O terceiro era um cachorro ladino, que nunca estava quieto.",
+        "Os três da mesma raça. Não me perguntem qual, porque nisso de marcas de cães e raças de automóveis – perdão! – de raças de cães e marcas de automóveis sou muito ignorante.",
+        "O cão velho, deitado no capacho da entrada, vendo o mais novo a correr atrás de uma aranha, de uma borboleta, até da própria sombra, comentava para o cão do meio:",
+        "– Também já fui assim.",
+        "– Não acredito – latia o cachorrinho, sem deixar de correr. – Tu nunca brincaste.",
+        "– Brinquei, podes estar certo. E, às vezes, ainda me apetece. Se não me sentisse tão pesado, ainda te apanhava.",
+        "– Não acredito – insistia o cachorrinho, de riso nos dentes muito brancos.",
+        "– Mas deves acreditar – aconselhou o cão do meio. – Nós que somos mais velhos, já fomos tão ligeiros como tu.",
+        "– Não acredito – teimava o cachorrinho, sempre a correr.",
+        "– Como é que havemos de convencê-lo que já passámos pela idade dele e que ele há-de chegar à nossa? – perguntou o cão do meio ao cão mais velho.",
+        "– Vai ser difícil – concluiu o cão velhote, sem se despegar do capacho.",
+        "A senhora, dona dos três cães, que toda esta conversa ouvira ou adivinhara, trouxe um álbum de fotografias, poisou o cachorrinho no colo e mostrou-lhe:",
+        "– Este é o retrato do velho Piloto, quando ainda só comia sopinhas de leite. A fotografia está tremida, porque ele era um vivo demónio. Nunca se cansava de correr.",
+        "– Não acredito – protestava o cachorrinho, no colo da dona.",
+        "Páginas adiante, a senhora apontou outro cãozinho de grandes olhos brilhantes e orelhas espetadas:",
+        "– Este é o Xana, quando veio cá para casa, dentro de um cestinho. Era um brincalhão.",
+        "– Não acredito – esbraveja o cachorro, no colo da dona.",
+        "E sem querer saber de mais histórias antigas, o cãozinho soltou-se das mãos da dona e desatou a correr.",
+        "Não acreditava, não acreditava, não acreditava que aqueles dois cãozarrões sisudos, muito dignamente sentados nas patas traseiras, já tivessem sido como ele. Era mentira. Era impossível. Era um disparate. Não acreditava, pronto.",
+        "Mas, com o tempo, acabou por acreditar..."
       ]
     }
   ],
@@ -25,22 +44,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/03/31/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

@@ -1,0 +1,129 @@
+{
+  "id": "06-12",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhora",
+          "distractors": [
+            "ladrão",
+            "casebre",
+            "contar"
+          ],
+          "sentence": "Um senhora, chamada Laura, tinha uma sapataria."
+        },
+        {
+          "target": "casa",
+          "distractors": [
+            "loja",
+            "casebre",
+            "contar"
+          ],
+          "sentence": "Para atrair a clientela, trouxera de casa um papagaio exótico e multicolor, uma raridade em forma de papagaio."
+        },
+        {
+          "target": "loja",
+          "distractors": [
+            "casa",
+            "ladrão",
+            "passa"
+          ],
+          "sentence": "O ladrão, entre outros valores, levou-lhe o papagaio, a atracção da loja, por assim dizer o emblema vivo da sapataria."
+        },
+        {
+          "target": "ladrão",
+          "distractors": [
+            "senhora",
+            "loja",
+            "casebre"
+          ],
+          "sentence": "A história acaba bem, menos para o ladrão."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhora",
+          "syllables": [
+            "se",
+            "nho",
+            "ra"
+          ]
+        },
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        },
+        {
+          "word": "loja",
+          "syllables": [
+            "lo",
+            "ja"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cara",
+          "syllables": [
+            "ca",
+            "ra"
+          ]
+        },
+        {
+          "word": "loca",
+          "syllables": [
+            "lo",
+            "ca"
+          ]
+        },
+        {
+          "word": "ralo",
+          "syllables": [
+            "ra",
+            "lo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhora",
+          "b": "senhora"
+        },
+        {
+          "a": "casa",
+          "b": "casa"
+        },
+        {
+          "a": "loja",
+          "b": "loja"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Um senhora, chamada Laura, tinha uma sapataria.",
+        "Podiam ter-me roubado tudo, menos o papagaio – lamentava-se ela a toda a gente.",
+        "Vieram uma quantidade de polícias, que cercaram a casa, e atrás deles a dona da loja.",
+        "Ele tentou desculpar-se, dizendo que tinha encontrado o papagaio, empoleirado numa vedação, mas as botas impecavelmente novas que o…",
+        "Comentário de um dos polícias que participou na captura: \"Quem rouba um papagaio que fala, o melhor é ensiná-lo a calar-se..."
+      ]
+    }
+  ]
+}

@@ -4,14 +4,33 @@
   "day": 13,
   "dateLabel": "13 de Junho",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 13 de Junho",
+  "title": "Quem Ajuda o Pardalito?",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Era um passarinho caído do ninho. Mais precisamente um pardal, um pardalito tontelas, de asas molhadas de medo.",
+        "Os irmãos tinham-no empurrado, sem querer, e ali estava ele, a pisar pela primeira vez o chão áspero que lhe feria o macio das patas. Dava saltinhos, a ensaiar o voo, mas ainda estava longe de saber voar. Que ia ser dele?",
+        "Viu uma formiga, a correr de um lado para o outro, e pediu-lhe, num fiozinho de choro:",
+        "– Ajuda-me.",
+        "Ela nem lhe respondeu, atarefada que andava, lá na vida dela.",
+        "Viu um besouro, a voar em círculos, e pediu-lhe:",
+        "– Ajuda-me.",
+        "Mas o besouro, talvez por culpa do motor barulhento que o sustinha no ar, nem lhe ligou.",
+        "Viu uma andorinha nem que uma seta, a rasar o chão, e pediu-lhe:",
+        "– Ajuda-me.",
+        "Mas já a andorinha ia muito longe, a apagar-se no céu.",
+        "Que ia ser dele?",
+        "Havia de vir um gato e dar-lhe uma sapatada.",
+        "Havia de vir uma cobra e dar-lhe uma picada.",
+        "Havia de vir um cão e dar-lhe uma dentada.",
+        "Mas veio uma menina que andava a colher amoras para dentro do chapéu de lona, e levou-o com ela.",
+        "O pardalito nem se atrevera a pedir-lhe ajuda. Ela é que o achara e ameigara nas mãos em concha, como se fosse em ninho.",
+        "Levou-o para casa. Deu-lhe pãozinho. Deu-lhe miminhos.",
+        "Eu conheço essa menina. E também o pardalito, agora um pardal pardalão que não se cansa de voar.",
+        "Mas por onde quer que ande, no seu agitado voo de pardal aventureiro, de uma coisa se não esquece. Todos os dias, à mesma hora, bate com o bico na vidraça da janela. A menina abre-a e dá-lhe as migalhas da merenda. Depois, o atrevido salta-lhe para o ombro e pica-lhe, num desafio de ternura, a polpa da orelha. A menina encolhe-se num riso e ele foge a gorjear de alegria."
       ]
     }
   ],
@@ -25,22 +44,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/06/13/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

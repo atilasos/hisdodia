@@ -4,14 +4,39 @@
   "day": 10,
   "dateLabel": "10 de Julho",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 10 de Julho",
+  "title": "O Toino Distraído",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "O Toino era muito distraído.",
+        "A mãe, quando ele saía para a escola, cobria-o de recomendações:",
+        "– Cuidado ao atravessares a rua, Toino. Olha para a esquerda e olha para a direita, vê se não vem nenhum carro e só depois é que atravessas. E sempre nas passagens zebradas.",
+        "– Sim, mãe – dizia o Toino, mas a pensar noutra coisa.",
+        "– E toma cuidado onde pões os pés. E não tropeces. E mantém sempre os atacadores apertados.",
+        "– Sim, mãe – dizia o Toino.",
+        "– E não converses com desconhecidos. E cumprimenta sempre os conhecidos. E porta-te bem.",
+        "– Sim, mãe – dizia o Toino.",
+        "Se estivéssemos com atenção, quase que podíamos ver as falas da mãe entrarem em fila por um ouvido e saírem pelo outro, na mesma enfiada certinha. Aquilo em que o Toino estava a pensar é que já não se podia ver, porque a cabeça das pessoas não é tão transparente como um aquário. Nem convinha que fosse.",
+        "O Toino atravessava a rua, ao calhas. Guinchavam automóveis, em travagens assustadoras. Automobilistas barafustavam:",
+        "– Assim não vais longe, palerma.",
+        "Ele nem reparava. A olhar para o ar, escorregava em cascas de fruta (quando não era coisa pior...), tropeçava em caixas, à porta de lojas, e os atacadores mal apertados, num instante se desapertavam. Ele, indiferente.",
+        "– Bom dia – cumprimenta o Toino.",
+        "Por sinal que era um desconhecido. Em contrapartida, uma pessoa conhecida falava-lhe:",
+        "– Olá Toino, como estás?",
+        "E ele, nada.",
+        "Não era por má-criação. Era por distracção.",
+        "Só numa coisa correspondia à risca aos preceitos da mãe. O Toino não se portava mal. Não era um gandulo travesso que porfiasse em cometer ruindades. Lá isso, não. O Toino era bom rapaz. Muito distraído, mas bom rapazinho.",
+        "Mais pena me fez quando soube que tinha sido atropelado. Atravessou sem cautelas e um automóvel tropeçou nele. O Toino foi parar ao hospital.",
+        "Estive lá, ontem, a vê-lo. Todo ligado e engessado, o Toino vai ter muito tempo para pensar.",
+        "Depois da visita, a mãe dele saiu comigo. Estava muito abalada, como se imagina. E um pouco intrigada, também.",
+        "A senhora, à porta do hospital, confidenciou-me:",
+        "– O meu filho, com o desastre, ficou meio azamboado. Calcule que, à despedida me recomendou: \"A mãe tome cuidado onde tropece. Antes de atravessar a rua, cumprimente sempre para a direita e para a esquerda e veja se não vem nenhum desconhecido. Só atravesse nas passagens com atacadores apertados.\"",
+        "Efeito do choque. Mas há-de recompor-se. Estou mesmo convencido de que o Toino, ultrapassada esta balbúrdia de ideias em salada, vai ficar outro, capaz até de passar a ser ele a dar bons conselhos à mãe, quando ela descer à rua:",
+        "– Cuidado ao atravessares, mãe. Olha para a esquerda e para a direita, vê se não vem nenhum carro e só depois é que atravessas. Etc. Etc. E porta-te bem, mãe. Porta-te bem.",
+        "Acredito que a senhora vá cumprir às riscas as recomendações do filho."
       ]
     }
   ],
@@ -25,22 +50,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/07/10/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

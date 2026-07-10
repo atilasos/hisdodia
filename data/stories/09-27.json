@@ -4,14 +4,45 @@
   "day": 27,
   "dateLabel": "27 de Setembro",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 27 de Setembro",
+  "title": "Um Cliente Fora de Prazo",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Pelos fins de Setembro, os hóspedes começam sempre a rarear na estalagem do senhor Pestana. Foi-se aquela agitação dos meses de Julho e Agosto, com meninos a correrem pelos corredores, banhistas de sandálias saltitantes, a descerem pelas escadas, senhoras encaloradas na esplanada, a baterem os leques e a pedirem por socorro \"uma limonada, com muito gelo... muito gelo\", os quartos todos ocupados, o telefone a tocar constantemente e o senhor Pestana, muito cortês, a ter de dizer, desolado: \"Faça favor de desculpar, mas não temos vagas até meados de Setembro\".",
+        "Pois. Vem a segunda quinzena de Setembro e tudo muda. A sala de jantar fica às moscas. Às moscas é maneira de dizer, porque o senhor Pestana nem um mosquito consente na sua irrepreensível estalagem.",
+        "– Moscas e melgas são os únicos clientes indesejáveis – costuma dizer o senhor Pestana, cheio de razão.",
+        "Pois por um destes dias, estava o senhor Pestana ao balcão da entrada a deitar contas à vida, desconsolado com a falta de clientela, quando lhe entra pela estalagem dentro um... um... até tremo, ao escrever, como podem avaliar pelas fileiras de reticências... um... um urso.",
+        "Mas o senhor Pestana, sempre imperturbável, não tremeu.",
+        "– Quero um quarto com uma grande cama – disse o urso.",
+        "– Para casal? – perguntou o senhor Pestana.",
+        "– Não. Só para mim – respondeu o urso.",
+        "– Com banho?",
+        "– Sem banho.",
+        "– Com vista para a piscina?",
+        "– Tanto faz. Pode ser um quarto escuro.",
+        "Isto dizendo, o urso ria-se, mostrando os dentes e as gengivas. Polidamente, o senhor Pestana sorria, sem perceber onde é que estava a graça.",
+        "– E quer com pensão completa? – perguntou.",
+        "– O que é isso de pensão completa? – quis saber o urso.",
+        "– É com refeições incluídas, o pequeno-almoço, o almoço e o jantar – esclareceu o senhor Pestana.",
+        "– Sem refeições, por enquanto – disse o urso.",
+        "– E por quantos dias?",
+        "– No fim, contamos.",
+        "Esta resposta do urso pareceu um pouco esquisita ao senhor Pestana, mas uma das regras da sua profissão era de saber respeitar, em todas as circunstâncias, os caprichos dos seus clientes.",
+        "O urso abria a boca, num grande bocejo.",
+        "– Quero experimentar a cama – exigiu ele.",
+        "– Vossa Excelência, vai-se já deitar? – estranhou o senhor Pestana, porque ainda era de dia. – Quando quer que o acorde?",
+        "– A meio de Março – respondeu o urso, espreguiçando-se.",
+        "Foi, então, que o senhor Pestana percebeu. Aquele urso ia hibernar. E logo na sua estalagem.",
+        "– Nós fechamos a estalagem em Outubro – explicou o senhor Pestana.",
+        "– Não faz mal. Fico cá eu – respondeu o urso.",
+        "– Mas nós vamos fazer limpezas gerais...",
+        "– Não faz mal. Tenho o sono muito pesado.",
+        "Se tinha! Depois de ter dormido Outubro, Novembro, Dezembro, Janeiro, Fevereiro e a primeira quinzena de Março, o urso acordou sem despertador. Vinha muito magrinho do sono, tão escanifrado que a pele parecia um robe turco muito largo.",
+        "– Estou cá com uma fome! – foi a primeira coisa que disse.",
+        "E gritou pelo pequeno-almoço, aliás por cem pequenos-almoços juntos, porque, como se entende, estava atrasado na alimentação. O senhor Pestana nunca teve tanto trabalho de uma só vez, nem nos dias em cheio do meio do Verão. A profissão de estalajadeiro é muito ingrata."
       ]
     }
   ],
@@ -25,22 +56,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/09/27/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

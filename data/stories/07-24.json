@@ -4,14 +4,53 @@
   "day": 24,
   "dateLabel": "24 de Julho",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 24 de Julho",
+  "title": "O Homem dos Impossíveis",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "E le era o homem dos impossíveis.",
+        "Fazia chover, se lhe pediam.",
+        "Calava as trovoadas, quando lhe apetecia.",
+        "Mudava as estações, sempre que queria.",
+        "Fantástico. Possuía dons que eram dele, muito dele, de mais ninguém. Mas não os aplicava.",
+        "Nunca mandara a chuva soltar-se das nuvens nem a trovoada serenar nem as estações trocarem de posição umas com as outras, porque ninguém lhe pedira tais feitos. Verdade se diga que ele próprio também não sentia vontade de exercer os seus dotes mágicos.",
+        "Que chovesse ou não chovesse, que trovejasse ou não trovejasse, que fosse Primavera, Verão, Outono ou Inverno tanto lhe fazia.",
+        "O homem dos impossíveis era, afinal, um homem simples e descuidado.",
+        "Outro que fosse e onde quer que estivesse pôr-se-ia a gabar as suas habilidades e talentos. Ou pendurava um cartaz à porta, a anunciar: MÁGICO QUE FAZ CHOVER. Ele, não.",
+        "Seria difícil encontrar pessoa mais modesta e discreta. Casa emprego, emprego casa, fizesse sol ou fizesse chuva e sempre de chapéu-de-chuva debaixo do braço, não fosse o tempo mudar, por exclusivo capricho do tempo.",
+        "Em casa, a mulher queixava-se:",
+        "– Tantos dotes mágicos, tantos dotes mágicos e está a torradeira escangalhada, há que tempos, e não há meio de te dispores a arranjá-la.",
+        "É preciso que se diga que o homem dos impossíveis era também um bocado desleixado.",
+        "– Um paspalho – dizia a mulher. – Se te aplicasses, podias ganhar fortunas. Comprávamos uma torradeira nova, uma casa nova, um automóvel novo...",
+        "Pois sim. Pois sim, mas o homem dos impossíveis não esteve para aí virado. Ralações não eram com ele.",
+        "Só uma vez se indignou e puxou a brios as suas escondidas faculdades mágicas. Foi quando ia a passar por uma praceta e ouviu um fulano gritar, no meio de uma quantidade de gente:",
+        "– Comigo não há impossíveis. Peçam-me o que quiserem que eu, o grande mago Hermenegildo, mais hora menos hora, mais dia menos dia, mais mês menos mês, concedo o que me pedirem. Só exijo que me paguem adiantado.",
+        "Era à evidência um aldrabão. Mas há quem goste e ache graça.",
+        "Levantou-se uma voz do grupo dos basbaques que pediu:",
+        "– Faça chover, se consegue.",
+        "– Se pagarem antes, faço – respondeu, prontamente, o trapaceiro.",
+        "Vivia-se uma época de grande seca. À míngua de água as searas definhavam. Das torneiras escorria um fio, quando escorria. Aos poços via-se-lhes o fundo.",
+        "Em tempo de desespero, qualquer promessa, por mais incrível que seja, refresca a esperança. Como o orvalho pela manhã.",
+        "O aldrabilhas ia levar a sua avante. As primeiras moedas pingaram no chapéu que ele estendia.",
+        "– Contribuam todos que, em chegando a uma determinada quantia, eu garanto que faço chover – dizia o manhoso do Hermenegildo.",
+        "– Quando? – perguntavam, em volta.",
+        "– Depende da soma que juntar neste peditório – explicava o falso mago, contando as moedas. – Se for muita, mais cedo. Se for pouca, mais tarde...",
+        "Foi aqui que o homem dos impossíveis decidiu intervir:",
+        "– Esse sujeito é um vigarista. Ele nunca conseguirá fazer chover.",
+        "– Isso julga você, seu invejoso – replicou-lhe o mágico Hermenegildo. – Como é que sabe?",
+        "– Sei, porque eu é que faço chover – disse o verdadeiro homem dos impossíveis, muito direito e seguro de si.",
+        "Riram-se os do grupo. O que mais se riu foi o aldrabão.",
+        "Arredado do ajuntamento pela troça dos outros, o homem dos impossíveis foi para uma das arcadas da praça, encostar-se a uma coluna, como um menino amuado.",
+        "– Ai não acreditam em mim? Pois já vos conto como é – dizia ele, de si para si.",
+        "Aplicou-se a fundo, fez força ou lá como foi e uns primeiros borrifos caíram na praça. As pessoas olharam para o céu e viram-no carregado de nuvens cada vez mais escuras. Uma abada de água entornou-se lá de cima. Nunca mais parava de chover.",
+        "– Vêem, vêem o que as vossas moedas renderam – gritava o trapalhão, secretamente, espantado com o que se passava. – Continuem a contribuir, se não querem que deixe de chover. Eu, o mágico Hermenegildo, o que prometo faço!",
+        "Saiu dali rico. E famoso. E até um bocadinho convencido de que, realmente, era capaz de comandar a chuva.",
+        "Quanto ao homem dos impossíveis, que logo nesse dia se tinha esquecido do chapéu-de– chuva, chegou a casa todo encharcado.",
+        "– Francamente, homem! – ralhou-lhe a mulher. – O trabalho que eu vou ter a enxugar a tua roupa. E ainda te podes constipar... És mesmo impossível!",
+        "Mas ele não se ralou. Estava até muito divertido. Tão divertido que deu um espirro, parou de chover e um magnífico arco-íris desenhou-se no céu."
       ]
     }
   ],
@@ -25,22 +64,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/07/24/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

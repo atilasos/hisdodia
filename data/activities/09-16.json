@@ -1,0 +1,133 @@
+{
+  "id": "09-16",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "leão",
+          "distractors": [
+            "lido",
+            "parte",
+            "caça"
+          ],
+          "sentence": "Assim se fará e em boa ordem – concordou o leão."
+        },
+        {
+          "target": "animais",
+          "distractors": [
+            "doninha",
+            "gazela",
+            "aprovaram"
+          ],
+          "sentence": "O s animais carniceiros juntaram-se todos e decidiram ir à caça."
+        },
+        {
+          "target": "doninha",
+          "distractors": [
+            "animais",
+            "gazela",
+            "decidiram"
+          ],
+          "sentence": "Descansem, que a aliança pouco dura – tranquilizou-os uma velha doninha que já tinha vivido muitas histórias e lido muitas fábulas."
+        },
+        {
+          "target": "gazela",
+          "distractors": [
+            "animais",
+            "doninha",
+            "parte"
+          ],
+          "sentence": "Não as tomou uma gazela estarola que sem saber como se viu cercada pelos carnívoros..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "leão",
+          "syllables": [
+            "le",
+            "ão"
+          ]
+        },
+        {
+          "word": "animais",
+          "syllables": [
+            "a",
+            "ni",
+            "mais"
+          ]
+        },
+        {
+          "word": "aprovaram",
+          "syllables": [
+            "a",
+            "pro",
+            "va",
+            "ram"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "aprova",
+          "syllables": [
+            "a",
+            "pro",
+            "va"
+          ]
+        },
+        {
+          "word": "leva",
+          "syllables": [
+            "le",
+            "va"
+          ]
+        },
+        {
+          "word": "levaram",
+          "syllables": [
+            "le",
+            "va",
+            "ram"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "leão",
+          "b": "leão"
+        },
+        {
+          "a": "animais",
+          "b": "animais"
+        },
+        {
+          "a": "doninha",
+          "b": "doninha"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O s animais carniceiros juntaram-se todos e decidiram ir à caça.",
+        "Não as tomou uma gazela estarola que sem saber como se viu cercada pelos carnívoros...",
+        "Também me cabe a segunda, porque fui eu quem comandou a perseguição e o cerco.",
+        "A quarta e última parte pertence-me, porque não conheço nenhum bicho com força e coragem suficientes para ma disputar.",
+        "Realmente, a doninha, apesar de pequena, era uma grande sábia adivinha."
+      ]
+    }
+  ]
+}

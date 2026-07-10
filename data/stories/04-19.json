@@ -4,14 +4,37 @@
   "day": 19,
   "dateLabel": "19 de Abril",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 19 de Abril",
+  "title": "Quem Vai Casar com a Princesa?",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Lá para os lados da Malásia ou mais longe ainda, havia uma linda princesa, chamada Sita Devi. Como estava em idade de casar, o Rajá Masicó, seu pai, encomendou um grande banquete e convidou para a festa todos os rajás e príncipes, jovens, belos, amáveis e solteiros, das regiões vizinhas. Um de entre eles havia de ser o futuro marido da princesa.",
+        "O marajá Ravana, do reino de Langcapuri, embora fosse solteiro e reinasse numa ilha próxima, não chegou a ser convidado. Faltavam-lhe condições para pretender a mão da princesa. Não era jovem, não era belo e, principalmente, não era amável. Muito pelo contrário.",
+        "Ficou furioso o marajá Ravana de Langcapuri. Se não tinha sido convidado, fazia-se convidado. Também ia ao palácio, juntar-se aos pretendentes, ora pois.",
+        "Na fila dos candidatos estavam dois jovens príncipes, filhos de um marajá amigo do Rajá Masicó. Chamavam-se eles: Sri Bama e Lacsamana. Eram muito novos ainda, de forma que os outros pretendentes, de barba e bigode, faziam troça deles.",
+        "Estavam nesta chacota, quando um arauto anunciou a prova a que os príncipes e rajás iriam sujeitar-se, por vontade do Rajá Masicó. Os que fossem eliminados podiam ir-se embora, que nem ao banquete tinham direito. Assim mesmo.",
+        "E em que consistia a prova?",
+        "– Cada pretendente – gritava o arauto – tem de disparar uma flecha através de um renque de quarenta palmeiras, situadas nos jardins do palácio de Sua Majestade Altíssima e Digníssima o Rajá Masicó, junto de quem os dragões rastejam, obedientes.",
+        "– Que tal está a história! – protestaram alguns dos príncipes. – A prova é difícil. Vamos desistir.",
+        "E desistiam, virando costas ao arauto.",
+        "Só ficaram os dois irmãos e o marajá Ravana, muito mal-encarado.",
+        "Foi o primeiro a disparar e falhou. Os seus gritos de raiva assustaram o Sol, que se escondeu atrás das nuvens. Passado um bocadinho, estava a chover. A prova teve de ser interrompida.",
+        "Um dos irmãos, o mais velho, indiferente ao aguaceiro, percorreu o renque das quarenta palmeiras e, lá para o fim, patinhando na lama, descobriu qualquer coisa, que veio, a correr, contar ao irmão mais novo:",
+        "– Duas palmeiras da fila têm as raízes assentes num dragão enorme, que de vez em quando se agita, debaixo da terra. Ora eu escavei um bocado na lama e descobri-lhe a cauda. Quando tu disparares o arco, eu prendo a cauda do dragão, para que ele se não mexa. Só assim conseguirás acertar no alvo.",
+        "Foi o que sucedeu. Glória ao príncipe Sri Bama, futuro marido da Sita Devi! O Sol espreitou atrás das nuvens e de novo surgiria em toda a sua grandeza, se o marajá Ravana não tivesse gritado e urrado rancorosos projectos de vingança. Escondeu-se, outra vez, o Sol e voltou a chover. Era um Sol muito assustadiço.",
+        "Por causa da chuva, que encharcou a mesa do banquete, a boda teve de ser adiada. Que pena!",
+        "Um dia, andavam os noivos a passear nas cercanias do palácio, quando, ambos ao mesmo tempo, tiveram sede. Como por encanto, brotaram a seus pés dois veios de água. Sim, era um encanto preparado pelo pérfido Ravana, que sabia das artes da feitiçaria.",
+        "Os dois enamorados beberam a água embruxada e ficaram transformados em macacos. Ravana, escondido no meio da folhagem, lançava grandes gargalhadas:",
+        "– Ah! Ah! Estes dois macaquinhos bravos só outro feitiço poderá desencantar. Teriam de ser atravessados por duas flechas, previamente mergulhadas em seiva de teca. Se tal sucedesse, deixavam de ser macacos e quem primeiro vos enfeitiçara é que ficava transformado em macaco, para sempre. Oh! Oh!",
+        "E ria-se muito o marajá Ravana, porque achava isso impossível.",
+        "No entanto, Lacsamana, irmão de Sri Bama, que, de longe, acompanhava os noivos, ouviu o que o odioso marajá dissera e correu em perseguição dos macaquinhos.",
+        "Foi difícil a caçada, porque os macaquinhos corriam e saltavam e guinchavam, como se nunca tivessem sido outra coisa na vida. Finalmente, Lacsamana conseguiu atingi-los com duas setas do seu arco. As flechas, impregnadas de seiva de teca, quebraram o encanto.",
+        "Nesse mesmo instante, Ravana chegava ao seu palácio. Ia, nesse preciso momento, ordenar aos guardas que lhe abrissem as portas, para o deixarem passar a ele, temido senhor de Langcapuri. Não chegou a dar as ordens. Um guincho cortou-lhe a fala. Estava transformado em macaco macacão. Os guardas atiraram-lhe pedras e gritaram:",
+        "– Vai-te daqui, macaco!",
+        "Lá longe, no palácio do Rajá Masicó, realizava-se no meio de grande pompa o casamento da princesa Sita Devi com o príncipe Sri Bama. Iam os dois muito bonitos."
       ]
     }
   ],
@@ -25,22 +48,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/04/19/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

@@ -1,8 +1,113 @@
 {
   "id": "12-27",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "açúcar",
+          "distractors": [
+            "primo",
+            "fosse",
+            "ficou"
+          ],
+          "sentence": "Têm mais açúcar, desfazem-se mal lhes tocamos…"
+        },
+        {
+          "target": "boca",
+          "distractors": [
+            "mesa",
+            "primo",
+            "lado"
+          ],
+          "sentence": "E a filhó, a última filhó, andava de boca em boca, sem se fixar na boca de ninguém."
+        },
+        {
+          "target": "mesa",
+          "distractors": [
+            "boca",
+            "primo",
+            "lado"
+          ],
+          "sentence": "Afinal ninguém a come – observaram do outro extremo da mesa."
+        },
+        {
+          "target": "travessa",
+          "distractors": [
+            "bocadinho",
+            "ninguém",
+            "meninos"
+          ],
+          "sentence": "Douradas, muito douradinhas são elas todas, empilhadas na travessa, como um castelo por conquistar."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "açúcar",
+          "syllables": [
+            "a",
+            "çú",
+            "car"
+          ]
+        },
+        {
+          "word": "boca",
+          "syllables": [
+            "bo",
+            "ca"
+          ]
+        },
+        {
+          "word": "mesa",
+          "syllables": [
+            "me",
+            "sa"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "acabo",
+          "syllables": [
+            "a",
+            "ca",
+            "bo"
+          ]
+        },
+        {
+          "word": "cabo",
+          "syllables": [
+            "ca",
+            "bo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "açúcar",
+          "b": "açúcar"
+        },
+        {
+          "a": "boca",
+          "b": "boca"
+        },
+        {
+          "a": "mesa",
+          "b": "mesa"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +117,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "A história que vou contar chama-se \"A Filhó Dourada\".",
+        "Comam vocês – dizia ela, apontando para a filhó e para os filhos.",
+        "Parecia que nenhum queria tomar a responsabilidade de comer a filhó.",
+        "Afinal ninguém a come – observaram do outro extremo da mesa.",
+        "Quando todos já se tinham ido embora, a filhó, no lusco-fusco, ao meio da mesa, começou a brilhar."
+      ]
     }
   ]
 }

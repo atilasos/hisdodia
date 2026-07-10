@@ -1,0 +1,129 @@
+{
+  "id": "08-16",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "raposa",
+          "distractors": [
+            "ambos",
+            "fugir",
+            "samarra"
+          ],
+          "sentence": "O gato e a raposa não privavam, em trato de amizade, mas de uma vez que o acaso os juntou deram em considerar que não eram tão…"
+        },
+        {
+          "target": "gato",
+          "distractors": [
+            "ambos",
+            "cães",
+            "fugir"
+          ],
+          "sentence": "Nem me fales nesses monstros, que fico com o pêlo em pé – disse o gato."
+        },
+        {
+          "target": "ambos",
+          "distractors": [
+            "raposa",
+            "gato",
+            "cães"
+          ],
+          "sentence": "Ambos tinham cauda, embora a da raposa mais felpuda e mais calhada para gola de samarra, o que não era de bom tom lembrar à raposa..."
+        },
+        {
+          "target": "cães",
+          "distractors": [
+            "gato",
+            "ambos",
+            "fugir"
+          ],
+          "sentence": "Se uma matilha de cães nos perseguisse, o que é que tu farias?"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "raposa",
+          "syllables": [
+            "ra",
+            "po",
+            "sa"
+          ]
+        },
+        {
+          "word": "gato",
+          "syllables": [
+            "ga",
+            "to"
+          ]
+        },
+        {
+          "word": "ambos",
+          "syllables": [
+            "am",
+            "bos"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "bossa",
+          "syllables": [
+            "bos",
+            "sa"
+          ]
+        },
+        {
+          "word": "rato",
+          "syllables": [
+            "ra",
+            "to"
+          ]
+        },
+        {
+          "word": "sapo",
+          "syllables": [
+            "sa",
+            "po"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "raposa",
+          "b": "raposa"
+        },
+        {
+          "a": "gato",
+          "b": "gato"
+        },
+        {
+          "a": "ambos",
+          "b": "ambos"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O gato e a raposa não privavam, em trato de amizade, mas de uma vez que o acaso os juntou deram em considerar que não eram tão…",
+        "Se uma matilha de cães nos perseguisse, o que é que tu farias?",
+        "Vejo que és um pouco simplório e covarde – comentou a raposa.",
+        "Então o gato viu a raposa, que há pouco se gabava de dispor de tantos e tão variados expedientes contra a fúria dos cães, fugir a bom…",
+        "Do seu providencial poleiro, o gato matutava que mais vale saber do que apregoar que se sabe."
+      ]
+    }
+  ]
+}

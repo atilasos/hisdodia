@@ -74,6 +74,13 @@
       ],
       "recombine": [
         {
+          "word": "bata",
+          "syllables": [
+            "ba",
+            "ta"
+          ]
+        },
+        {
           "word": "carta",
           "syllables": [
             "car",
@@ -85,13 +92,6 @@
           "syllables": [
             "fi",
             "car"
-          ]
-        },
-        {
-          "word": "fita",
-          "syllables": [
-            "fi",
-            "ta"
           ]
         }
       ]

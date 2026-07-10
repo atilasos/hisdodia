@@ -1,8 +1,118 @@
 {
   "id": "06-28",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "poço",
+          "distractors": [
+            "taça",
+            "rapaz",
+            "gente"
+          ],
+          "sentence": "Antes de o ladrão ir ter à casa onde se acoitava, costumava passar por perto de um poço da aldeia."
+        },
+        {
+          "target": "ladrão",
+          "distractors": [
+            "rapaz",
+            "senhor",
+            "gente"
+          ],
+          "sentence": "Lá na aldeia todos sabiam que ele era ladrão, mas tinham-lhe medo."
+        },
+        {
+          "target": "taça",
+          "distractors": [
+            "poço",
+            "rapaz",
+            "gente"
+          ],
+          "sentence": "Trazia uma pesada taça de prata, que a minha mãe tinha areado, a mando do senhor padre..."
+        },
+        {
+          "target": "rapaz",
+          "distractors": [
+            "poço",
+            "ladrão",
+            "taça"
+          ],
+          "sentence": "Desta vez, o malfeitor encontrou um rapaz, que chorava baba e ranho, à beira do poço."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "poço",
+          "syllables": [
+            "po",
+            "ço"
+          ]
+        },
+        {
+          "word": "ladrão",
+          "syllables": [
+            "la",
+            "drão"
+          ]
+        },
+        {
+          "word": "taça",
+          "syllables": [
+            "ta",
+            "ça"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "lata",
+          "syllables": [
+            "la",
+            "ta"
+          ]
+        },
+        {
+          "word": "poça",
+          "syllables": [
+            "po",
+            "ça"
+          ]
+        },
+        {
+          "word": "tala",
+          "syllables": [
+            "ta",
+            "la"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "poço",
+          "b": "poço"
+        },
+        {
+          "a": "ladrão",
+          "b": "ladrão"
+        },
+        {
+          "a": "taça",
+          "b": "taça"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +122,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Lá na aldeia todos sabiam que ele era ladrão, mas tinham-lhe medo.",
+        "Antes de o ladrão ir ter à casa onde se acoitava, costumava passar por perto de um poço da aldeia.",
+        "Como se temesse as respostas, o rapaz voltou ao berreiro.",
+        "O ladrão, que se segurava por uma corda presa à cintura, desceu mais um tanto, agarrado às paredes do poço.",
+        "Passou a ser conhecido pelo poço do Natério."
+      ]
     }
   ]
 }

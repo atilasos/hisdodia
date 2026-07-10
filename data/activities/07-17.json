@@ -1,8 +1,120 @@
 {
   "id": "07-17",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "barbas",
+          "distractors": [
+            "homem",
+            "machado",
+            "camisa"
+          ],
+          "sentence": "E stava um lenhador sentado, junto à margem de um rio, de queixo nos joelhos, muito triste, quando por ele passou um homem de barbas azuis."
+        },
+        {
+          "target": "homem",
+          "distractors": [
+            "barbas",
+            "oiro",
+            "camisa"
+          ],
+          "sentence": "O lenhador nem reparou na cor das barbas do homem."
+        },
+        {
+          "target": "machado",
+          "distractors": [
+            "barbas",
+            "lenhador",
+            "camisa"
+          ],
+          "sentence": "Estava a dormitar, cansado do trabalho, ao fresco da beira-rio, quando o machado me escorregou."
+        },
+        {
+          "target": "lenhador",
+          "distractors": [
+            "machado",
+            "machados",
+            "vizinho"
+          ],
+          "sentence": "Uma grande desgraça – respondeu o lenhador."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "barbas",
+          "syllables": [
+            "bar",
+            "bas"
+          ]
+        },
+        {
+          "word": "homem",
+          "syllables": [
+            "ho",
+            "mem"
+          ]
+        },
+        {
+          "word": "machado",
+          "syllables": [
+            "ma",
+            "cha",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "chama",
+          "syllables": [
+            "cha",
+            "ma"
+          ]
+        },
+        {
+          "word": "chamado",
+          "syllables": [
+            "cha",
+            "ma",
+            "do"
+          ]
+        },
+        {
+          "word": "chamem",
+          "syllables": [
+            "cha",
+            "mem"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "barbas",
+          "b": "barbas"
+        },
+        {
+          "a": "homem",
+          "b": "homem"
+        },
+        {
+          "a": "machado",
+          "b": "machado"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +124,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "E stava um lenhador sentado, junto à margem de um rio, de queixo nos joelhos, muito triste, quando por ele passou um homem de barbas azuis.",
+        "Mergulhou nas águas do rio, que estava limoso e redemoinhento.",
+        "Pela primeira vez o lenhador reparou nas barbas do seu benfeitor.",
+        "Ai quem me acode, que perdi todos os meus pertences e não sei nadar!",
+        "Mais se ria, à socapa, a Lua, cheia e chapada, no meio da noite."
+      ]
     }
   ]
 }

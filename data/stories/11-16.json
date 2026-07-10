@@ -4,14 +4,34 @@
   "day": 16,
   "dateLabel": "16 de Novembro",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 16 de Novembro",
+  "title": "Cuidado com o Poço",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Uma raposa, que vinha a fugir dos caçadores, enfiou para dentro de um poço, à falta de melhor esconderijo.",
+        "Lá no fundo, lamentou-se:",
+        "– Safei-me de morrer de uma chumbada, mas daqui de dentro é que eu não me salvo.",
+        "Era um poço seco, um poço abandonado. Recordando o antigo uso, tinha na borda um balde, preso a uma corda de rodízio. A outra ponta da corda estava caída no fundo, aos pés da raposa.",
+        "– Se eu conseguisse trepar pela corda acima, estava garantida – pensou a raposa.",
+        "Tentou, mas só conseguiu soltar o balde que balançou, na outra extremidade, como um sino sem badalo.",
+        "Uma ovelha, despegada de um rebanho que pastava num monte perto, estranhou o barulho e o balde a baloiçar, na boca do poço, e foi espreitar. A raposa viu-lhe a cabeça felpuda e gritou-lhe:",
+        "– Senhora ovelha, ainda bem que a encontro. Quero partilhar consigo esta novidade. Encontrei aqui em baixo uma mina de água, que é a uma maravilha. Um milagre! Mal a bebemos, ficamos com asas. Tão leves, tão leves que nem passarinhos…",
+        "A parva da ovelha entusiasmou-se:",
+        "– Com asas? Quem me dera! Como posso provar dessa água milagrosa?",
+        "– Meta-se no balde, que está aí em cima, e venha ter comigo, antes que a água acabe.",
+        "A ovelha não pensou duas vezes. Atirou-se para dentro do balde, que desceu com o peso, puxando para cima a outra ponta da corda, onde vinha agarrada a raposa.",
+        "– Eu bem dizia que este poço dava asas – dizia a espertalhona, ao pôr os pés em chão seguro.",
+        "E fugiu daquela armadilha do destino, a rir-se da malvadez.",
+        "A ovelha baliu desesperada e humilhada com a sua tontice. Dar ouvidos a uma raposa, acreditar em água ou o que fosse que oferece asas a quem quer beber, que disparate, que estupidez!",
+        "Por tanta imbecilidade junta, mais merecia ela lá ficar no fundo do poço do que a raposa. A ovelha chorou, mas já não lhe valia de nada.",
+        "Vá que vá que ainda lhe valeu…",
+        "O pastor, quando foi a contar as ovelhas e deu pela falta de uma, foi procurá-la.",
+        "Chamado pelas lamúrias da ovelha, chegou-se à beira do poço e salvou-a a tempo.",
+        "Vá que vá que a história acabou em bem…",
+        "Mas nem sempre acabam assim…"
       ]
     }
   ],
@@ -25,22 +45,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/11/16/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

@@ -4,14 +4,30 @@
   "day": 22,
   "dateLabel": "22 de Agosto",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 22 de Agosto",
+  "title": "A Gota com Sede",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Era uma vez uma gota cheia de sede. Não faz sentido, mas acreditem que assim era.",
+        "Esta gota de água queria matar a sede a alguém que tivesse muita sede. Desejo grande, desejo único que a arredondava mais e mais, e a enchia de fé como um coração palpitante. Mas não havia meio.",
+        "Cavalgando uma nuvem, correu o deserto, à cata de um viajante sequioso. Não encontrou nenhum.",
+        "Depois, percorreu, por cima dos mares, as ondas revoltas dos oceanos. Talvez um náufrago de boca salgada precisasse dela e da sua ajuda doce. Assim que o visse, ela caía lá do alto e poisava nos lábios do náufrago como uma última bênção. Mas não encontrou nenhum.",
+        "Queria ser útil. Não conseguia.",
+        "Até que a nuvem em que vinha, de carregada que estava, não podendo mais, se desfez em chuva. Ela precipitou-se para a terra, no meio das outras.",
+        "– Vou lavar as pedras da calçada – dizia uma.",
+        "– Vou mergulhar até à raiz de uma planta e dar-lhe vida – dizia outra.",
+        "– Vou acrescentar água a um rio quase seco. Vou ajudar uma azenha a trabalhar. Vou alimentar uma barragem. Vou empurrar um barco encalhado.",
+        "Isto diziam várias gotas, todas generosas, enquanto caíam.",
+        "Se cada uma cumpriu ou não o seu destino, não sabemos, porque nesta história só nos ocupamos da gota com sede de matar a sede.",
+        "Caiu na copa de uma árvore e foi escorrendo de ramo em ramo, pling, pling, pling, como uma lágrima feliz.",
+        "Até que chegou a uma folha, mesmo por cima de um ninho. Caio? Não caio? Deixou-se ficar, a ver no que dava.",
+        "A casca de um ovo estalou e um passarinho rompeu, aflito, lá de dentro, de bico aberto, num grito mudo.",
+        "– Caio – decidiu a gota.",
+        "Soltou-se da folha para a garganta aberta do passarinho, que a engoliu e, logo em seguida, piou, agradecido.",
+        "Foi o passarinho, tempos depois, que me contou esta história."
       ]
     }
   ],
@@ -25,22 +41,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/08/22/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

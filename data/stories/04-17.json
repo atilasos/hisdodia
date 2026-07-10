@@ -4,14 +4,41 @@
   "day": 17,
   "dateLabel": "17 de Abril",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 17 de Abril",
+  "title": "Conselhos de Mocho Não Chegam ao Chão",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Uma vez o coelho e o rato encontraram-se.",
+        "– Tu tens os dentes da frente um bocado saídos – observou o rato para o coelho.",
+        "– Mas tu ainda tens mais – respondeu-lhe o coelho e deu uma corrida e foi-se embora.",
+        "O rato ficou sozinho, mas por pouco tempo. Apareceu ao pé dele uma lagartixa:",
+        "– Tu tens a cauda muito comprida – observou o rato para a lagartixa.",
+        "– Mas tu ainda tens mais – respondeu-lhe a lagartixa e deu meia volta e desapareceu.",
+        "O rato ficou outra vez sozinho, mas por pouco tempo. Apareceu ao pé dele uma rã.",
+        "– Tu és muito pequena e insignificante – observou o rato para a rã.",
+        "– Mas tu ainda és mais – respondeu-lhe a rã e deu um salto e fugiu.",
+        "O rato ficou, mais uma vez, sozinho. Que tempos!",
+        "Deu um suspiro e pensou:",
+        "– Ninguém se chega a mim. Não consigo fazer amigos. Porque será?",
+        "Como o rato pensava em voz alta, o mocho, que estava empoleirado numa árvore perto e a tudo tinha assistido, respondeu-lhe:",
+        "– Não fazes amigos, porque não olhas a bem para eles. Tenta proceder de outra maneira e verás os resultados.",
+        "O rato fechou os olhos e pensou:",
+        "– Quando encontrar o coelho vou dizer-lhe que gostava de ter as orelhas tão compridas como as dele.",
+        "Como pensava em voz alta, o mocho ouviu tudo e agitou-se, no seu poleiro. Estava nervoso e com vontade de intervir, mas o rato continuava:",
+        "– E quando encontrar a lagartixa vou dizer-lhe que gostava de arrastar a barriga pelo chão como ela arrasta.",
+        "Mais uma vez o mocho se enervou e ia falar, mas o rato prosseguia os seus pensamentos:",
+        "– Quando encontrar a rã vou dizer-lhe que gostava de ter a pele escorregadiça e fria como a dela.",
+        "O mocho não podia aguentar mais disparates e indignou-se:",
+        "– És tolo, duas vezes tolo, rato! Há elogios que matam. Não podes valorizar o que os teus amigos consideram defeitos. Vê se te emendas ou nunca encontrarás quem goste de andar contigo.",
+        "O rato virou-se para ele e apreciou-o em silêncio. Depois, pensou em voz alta:",
+        "– O senhor mocho dá conselhos com muito acerto, apesar de ser tão feio.",
+        "Dito isto, foi-se embora.",
+        "Ficou o mocho a pensar, também em voz alta:",
+        "– Este rato não tem emenda. Se em vez de ter estado a aturá-lo o tivesse comido, eu tinha feito melhor. E tinha prestado um grande serviço ao resto da bicharada, porque este rato por onde passar só vai causar aborrecimentos. Eu é que fui parvo em poupá-lo, em vez de papá-lo.",
+        "E se os mochos gostam de ratos! Mas desta feita o jantar já ia longe."
       ]
     }
   ],
@@ -25,22 +52,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/04/17/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

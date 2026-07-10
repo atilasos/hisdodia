@@ -4,14 +4,39 @@
   "day": 21,
   "dateLabel": "21 de Janeiro",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 21 de Janeiro",
+  "title": "Pancrácia",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Era uma vez uma dama, que tinha uma criada meia-zaranza e papa-moscas, que não fazia nada com jeito. Chamava-se a criada Pancrácia.",
+        "Um dia, a dama teve de ausentar-se de casa por uns tempos e de deixar tudo aos cuidados da Pancrácia. Antes de sair, recomendou-lhe:",
+        "– Enquanto eu estiver fora, vê bem como cuidas dos meus haveres. A qualquer um, que te apareça, diz sempre \"Não\". Está bem?",
+        "– Não – respondeu a criada, muito obediente.",
+        "A dama percebeu que o recado estava aprendido e saiu mais descansada.",
+        "Dias depois, bateram à porta de casa. Era ou fazia de conta que era um mendigo.",
+        "– Senhora, dê-me resguardo, que está muito frio cá fora…",
+        "– Não – disse a criada.",
+        "– E uma sopinha quente, para comer aqui, mesmo à soleira?",
+        "– Não – disse a criada.",
+        "– Nem uma esmolinha de uns tostões poucos?",
+        "– Não – disse a criada.",
+        "Aqui o mendigo começou a perceber que aquele \"não\" era de encomenda. Por isso, resolveu virar as perguntas do avesso:",
+        "– Então a senhora consente que eu enregele de frio, cá fora?",
+        "– Não.",
+        "– Então a senhora recusa-se a dar-me de jantar?",
+        "– Não.",
+        "– Então a senhora importa-se que eu dê uma volta pela casa?",
+        "– Não.",
+        "E assim o falso mendigo foi conseguindo os seus intentos.",
+        "– Não faz mal que eu meta para o saco algumas lembranças desta minha visita, pois não?",
+        "– Não.",
+        "O larápio levou o que quis e a Pancrácia ajudou.",
+        "Quando a dama regressou de viagem e viu a casa roubada, desesperou-se:",
+        "– Ó mulher, tu não te importaste que me levassem tudo o que levaram?",
+        "– Não – respondeu, muito bem ensinada, a Pancrácia."
       ]
     }
   ],
@@ -27,22 +52,22 @@
     ]
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/01/21/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

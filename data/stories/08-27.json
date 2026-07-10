@@ -4,14 +4,35 @@
   "day": 27,
   "dateLabel": "27 de Agosto",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 27 de Agosto",
+  "title": "O Rato o Fugitivo",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Era um fugitivo. A coberto da noite, escapara-se da prisão, uma torre alta, rodeada por um muro mais alto ainda, e correra descalço, sobre cascalho e pedras soltas que não serviam de caminho senão a cabras de cascos duros.",
+        "Descia a montanha, coroada pela tal prisão. Olhando para trás, deixara de ver a silhueta assustadora das muralhas, tão escuras como a noite, o que era bom sinal. Sinal de que se distanciava cada vez mais dos soldados, que o perseguiriam, quando na manhã seguinte dessem com a cela vazia e uma corda pendurada das grades serradas.",
+        "O pior era depois. Os soldados montariam em cavalos, que galopariam desenfreadamente até apanhá-lo. Pois era.",
+        "Mas aquele bocadinho de liberdade já ninguém lhe tirava. A respiração da noite, o cantar trémulo dos grilos, o faiscar dos pirilampos, o balido dos cabritos nos cortelhos e o céu imenso, coalhado de estrelas, valiam tudo, todos os riscos e até a desilusão de ser de novo feito prisioneiro e reconduzido à cela das suas angústias e revolta.",
+        "Sim, porque o homem estava preso injustamente. Invejas, intrigas tinham posto o rei do mal com ele, a ponto de lhe dar de morada, para o resto da vida, a torre, de que o muro cinzento à volta retirava toda a vista do mundo. Naquele tempo, rei que pusesse a mão sobre um dos pratos da balança da justiça valia mais do que todos os tribunais juntos.",
+        "Levantava-se a primeira claridade da madrugada. O fugitivo que descera a montanha aos tombos, de pés a sangrar, chegara à planície. E agora?",
+        "Estava na estrada de areia. Ah, tivesse ele um cavalo que, seguramente, se escaparia dos seus perseguidores. Mas onde descobri-lo? E com que dinheiro comprá-lo, se tinha os bolsos em farrapos como o resto da roupa que o cobria? Só Deus ou um anjo por ele podiam salvá-lo.",
+        "Numa curva da estrada que a luz do céu, a inundar-se de lilás, desenhava como a indecisa aguarela de uma nuvem, o homem viu uma vedação e, atrás da vedação, cavalos a pastar. Eram brancos, de longas crinas.",
+        "Para lá dos cavalos serenos, um ferrador, num telheiro, ateava o forno, de fole em punho. Apesar do fugitivo o ver de longe, percebeu-lhe, por trás das barbas tão brancas como as crinas dos cavalos, um sorriso feliz de quem vai começar o dia com gosto, até, talvez, com uma boa acção...",
+        "– Quer um cavalo para a viagem? – perguntou o velho das barbas brancas ao homem que muito penara já na prisão.",
+        "– Não tenho com que pagar-lhe – respondeu o pobre esfarrapado, numa voz de queixume.",
+        "– Paga depois – disse-lhe o ferrador, sorrindo, e fez um gesto de desimportamento, um gesto largo, tão rasgado e generoso que abrangia o espaço em redor e tudo o mais que a vista alcançava até ao horizonte ou à transparência azul do céu, para lá da finitude do tempo.",
+        "Depois acrescentou:",
+        "– Vou ferrar-lhe um destes cavalos, mas de um modo que eu cá sei...",
+        "Era um homem de mistérios. O fugitivo acolheu-se aos seus desígnios porque sentiu, no aperto do seu coração, que mais ninguém senão aquele homem de gestos suaves podia salvá-lo.",
+        "A manhã abria-se, empolgante. Lá, na prisão, já teriam dado pela fuga, já os soldados lançariam o alarme, já se aprestavam para persegui-lo.",
+        "O velho das barbas brancas ferrou um cavalo. O fugitivo montou-o. Ia para agradecer, mas o velho interrompeu-lhe as palavras e mandou-o seguir. Depois, ficou, à beira da vedação, a ver o cavalo fogoso a afastar-se, numa nuvem de pó.",
+        "Inclinou-se para o chão que o cavalo tinha pisado. Na areia, as patas ferradas do cavalo imprimiam-se como se o cavalo e o cavaleiro tivessem seguido o caminho oposto. Ele, ferrador experiente e avisado, tinha pregado as ferraduras ao contrário.",
+        "Quando o tropel dos perseguidores desceu à estrada e consultou as pegadas do cavalo fugitivo foi iludido pelo sentido que indicavam as ferraduras.",
+        "– Foi por ali – apontou o capitão dos guardas.",
+        "Mas ele tinha ido por acolá. Nunca mais o apanharam.",
+        "Também o ferrador desapareceu da paisagem. Nem cavalos nem vedação nem forno. Nada. Só árvores, mato e o céu ao fundo."
       ]
     }
   ],
@@ -25,22 +46,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/08/27/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

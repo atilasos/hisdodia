@@ -4,14 +4,34 @@
   "day": 22,
   "dateLabel": "22 de Janeiro",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 22 de Janeiro",
+  "title": "O Urso Dá Conselhos",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "No tempo em que havia ursos a rondar os povoados, também havia homens que lhes davam caça com a ajuda de lanças e flechas, porque as espingardas ainda não tinham sido inventadas.",
+        "Dois amigos acertaram em ir à caça a um grande urso, que andava a assustar os rebanhos.",
+        "Foram para o mato e ambos prometeram um ao outro que mal vissem o urso o cercariam, um pela frente, outro por trás, porque nisto de ursos brutamontes duas lanças valem mais do que uma.",
+        "Nisto, apareceu o urso. Um dos amigos, esquecido do prometido, logo marinhou por uma árvore acima, deixando o companheiro sem ajuda.",
+        "O que ficara em terra quase desmaiou de susto.",
+        "Desmaio, não desmaio...",
+        "Pelo sim pelo não, lançou-se ao comprido para o meio do chão, onde se deixou ficar, muito quietinho. Ouvira uma vez dizer que os ursos se agoniavam com a carne morta. Fazer de conta que tinha morrido talvez resultasse.",
+        "O urso mirou-o, virou-o com as patonas, cheirou-o dos pés à cabeça, com especial predilecção pelos ouvidos, e, depois, sem lhe fazer um arranhão sequer, deixou-o em paz. Abalou.",
+        "O caçador de ursos, por pouco caçado, ainda se deixou ficar quieto mais um tempo, até o amigo saltar da árvore e vir ter com ele.",
+        "– Não ganhámos para o susto – disse-lhe o amigo, limpando da testa o suor do medo.",
+        "– Eu ganhei – retorquiu o caçador, levantando-se do chão.",
+        "O outro estranhou:",
+        "– O que é que ganhaste?",
+        "– Um conselho do urso – disse.",
+        "– O quê? O urso falou-te.",
+        "– Pois falou. Não o viste segredar-me ao ouvido?",
+        "– De facto, ele esteve que tempos com o focinho encostado à tua orelha. E o que é que ele te disse?",
+        "– Disse-me que, daqui para diante, em ocasiões de perigo, não me ficasse mais nas promessas de ajuda dos companheiros de caçada.",
+        "– Ele disse isso? Garantes?",
+        "– Garanto. Até acrescentou que mais valia caçar sozinho do que na companhia de poltrões.",
+        "E, dizendo isto, o caçador pegou na lança e avançou pelo caminho do mato. O companheiro, que saltara da árvore, seguiu-lhe os passos, muito enfiado e arrependido."
       ]
     }
   ],
@@ -31,22 +51,22 @@
     ]
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/01/22/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

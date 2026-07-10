@@ -4,14 +4,26 @@
   "day": 25,
   "dateLabel": "25 de Março",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 25 de Março",
+  "title": "Exposição de Flores",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Aqui perto, houve uma exposição de flores. De flores naturais, fiquem sabendo Nem fazia sentido que a exposição fosse de flores de plástico. Ou de pano. Ou de papel. Ou de flores pintadas em quadros.",
+        "As flores, em qualquer jardim, estão sempre em exposição.",
+        "– Admirem as nossas cores – dizem as rosas.",
+        "– Apreciem o vigor do nosso caule e a elegância da nossa corola – dizem os jarros, a que os brasileiros chamam \"copos de leite\". Porque será?",
+        "– Extasiem-se com a delicada pintura das nossas pétalas – dizem os amores-perfeitos.",
+        "As flores de jardim são umas vaidosas. Na exposição, dispostas em jarros ou em vasos, encantavam quem por elas passava.",
+        "À entrada, mas do lado de fora do festival das flores, uma papoila chama-me a atenção.",
+        "– Não me deixaram entrar – queixou-se ela. – Dizem que a exposição é só para flores cultivadas. Acho uma injustiça.",
+        "Também achei o mesmo. Por isso, para repor a justiça e homenagear as flores do campo, que têm tanto de humildade como de beleza, peguei na papoila e prendi-a na lapela. Depois, entrei na exposição como se trouxesse ao peito uma condecoração de fazer inveja a generais.",
+        "Houve escândalo entre as flores a concurso.",
+        "– O que é que esta paspalhona provinciana tem de estar aqui a exibir-se? – perguntavam umas às outras.",
+        "Mas os visitantes da exposição olhavam para nós – para a papoila e para mim – e sorriam.",
+        "A minha papoila, muito ruborizada, sentia-se a rainha da festa. Nunca concentrara sobre ela tantos olhares, tanta atenção, tanta simpatia. Era emoção demais para uma papoila tão frágil. Antes que eu chegasse ao fim da exposição as pétalas da minha papoila voaram. Para onde? Não importa. Aquele tinha sido o momento mais glorioso da sua curta vida."
       ]
     }
   ],
@@ -25,22 +37,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/03/25/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

@@ -65,27 +65,26 @@
           ]
         },
         {
-          "word": "escamas",
+          "word": "rica",
           "syllables": [
-            "es",
-            "ca",
-            "mas"
+            "ri",
+            "ca"
           ]
         }
       ],
       "recombine": [
         {
-          "word": "camas",
-          "syllables": [
-            "ca",
-            "mas"
-          ]
-        },
-        {
           "word": "caninos",
           "syllables": [
             "ca",
             "ni",
+            "nos"
+          ]
+        },
+        {
+          "word": "canos",
+          "syllables": [
+            "ca",
             "nos"
           ]
         }

@@ -1,0 +1,129 @@
+{
+  "id": "09-10",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "pato",
+          "distractors": [
+            "pernas",
+            "patas",
+            "nadar"
+          ],
+          "sentence": "Era uma vez um pato que tinha quatro pernas ou patas."
+        },
+        {
+          "target": "quatro",
+          "distractors": [
+            "pernas",
+            "patas",
+            "nadar"
+          ],
+          "sentence": "Mas a nadar, zap, zap, zap, a pedalar com as quatro pernas dentro de água, levava todos de vencida."
+        },
+        {
+          "target": "patas",
+          "distractors": [
+            "pato",
+            "quatro",
+            "pernas"
+          ],
+          "sentence": "Eles vão a voar e eu vou a nadar – decidiu o pato com quatro patas."
+        },
+        {
+          "target": "patos",
+          "distractors": [
+            "pato",
+            "quatro",
+            "pernas"
+          ],
+          "sentence": "Quando chegou o tempo dos patos mudarem de ares, em busca de terras mais quentes, é que foram elas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "pato",
+          "syllables": [
+            "pa",
+            "to"
+          ]
+        },
+        {
+          "word": "quatro",
+          "syllables": [
+            "qua",
+            "tro"
+          ]
+        },
+        {
+          "word": "pernas",
+          "syllables": [
+            "per",
+            "nas"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "patonas",
+          "syllables": [
+            "pa",
+            "to",
+            "nas"
+          ]
+        },
+        {
+          "word": "perto",
+          "syllables": [
+            "per",
+            "to"
+          ]
+        },
+        {
+          "word": "tropa",
+          "syllables": [
+            "tro",
+            "pa"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "pato",
+          "b": "pato"
+        },
+        {
+          "a": "quatro",
+          "b": "quatro"
+        },
+        {
+          "a": "pernas",
+          "b": "pernas"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um pato que tinha quatro pernas ou patas.",
+        "Vão vocês andando, que eu já lá chego – disse o pato aos companheiros.",
+        "Ena, que isto agora é a sério – dizia o pato, no meio das ondas salgadas.",
+        "Ali ficou que tempos, sozinho, como um náufrago.",
+        "Era mentira e os outros patos sabiam-no, mas não quiseram desmenti-lo."
+      ]
+    }
+  ]
+}

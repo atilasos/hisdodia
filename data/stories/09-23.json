@@ -4,14 +4,54 @@
   "day": 23,
   "dateLabel": "23 de Setembro",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 23 de Setembro",
+  "title": "O Casal de Gafanhotos",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Era um casal de gafanhotos. Ele tinha repentes de aventureiro. Ela não tanto.",
+        "– Vamos dar a volta ao mundo, mulher – dizia o gafanhoto.",
+        "– Demorará muito, homem? – perguntava a gafanhota.",
+        "– Vamos e vimos, num salto.",
+        "Mas não era bem assim. Tiveram de dar muitos saltos, uns a seguir aos outros, sem que chegassem sequer a sítio que se visse.",
+        "– Doem-me as dobradiças das pernas – queixava-se a gafanhota.",
+        "Ele animava-a:",
+        "– É só mais uns saltos e estamos lá.",
+        "Lá, aonde? O gafanhoto não sabia, mas continuava a saltar como se tivesse molas nas pernas. E tinha.",
+        "A gafanhota foi ficando para trás, cada vez mais para trás. Já nem se via, de tão longe que estava. E ele sempre aos saltos para a frente.",
+        "Perderam-se um do outro.",
+        "– Quando tornar da volta ao mundo, encontro-a – dizia o gafanhoto.",
+        "E continuou a sua sobressaltada viagem.",
+        "A gafanhota, derreadinha, pendurou-se numa haste de caniço e esperou. Esperou que tempos. Ai que tempos, ai que tempos, ai que tempos...",
+        "Estes ais todos são os suspiros da gafanhota, com saudades do seu gafanhoto.",
+        "Até que viu, ao longe, do lado donde tinham partido, um gafanhoto, saltaricando, em direcção a ela. Como a gafanhota sabia que o mundo é redondo, não estranhou. O gafanhoto aproximava-se, a olhos vistos. Até que enfim.",
+        "Mas, afinal, não era quem ela esperava. Era outro gafanhoto.",
+        "– O seu marido manda dizer que está para chegar não tarda – avisou-a o saltarico, sem deixar de saltar.",
+        "Sempre era uma esperança. Ai, ai, ai, mais uma fiada de suspiros da gafanhota, porque o tal, que prometia não tardar, tardou.",
+        "– Se eu fosse para trás, encontrava-me com ele e encurtava-lhe a viagem – matutava a gafanhota.",
+        "Foi o que fez. Mas – azar dos azares! – desencontraram-se. Ele por uma linha de salto, ela por outra. Cruzaram-se no ar, à distância de não se verem.",
+        "A gafanhota, depois do seu longo repouso, ganhara novas energias e saltava, saltava, ao ritmo do seu coração em ânsias.",
+        "– Hei-de encontrá-lo! Hei-de encontrá-lo! – era a música dela.",
+        "Quem lhe diria que se afastava, que se afastavam os dois, cada um a saltar para a sua banda?",
+        "Quando o gafanhoto passou pelas pirâmides do Egipto, disse:",
+        "– Já aqui estive uma vez.",
+        "Fez cálculos de cabeça e concluiu que estava a caminho da segunda volta ao mundo. Por isso é que ele se sentia cansado...",
+        "Parou.",
+        "Fincou as patas na cabeça da Esfinge, que, impenetrável, olha o tempo, e esperou. Assim que lhe passasse a quebreira das pernas, havia de continuar.",
+        "O gafanhoto sonolento cabeceava, quando uma voz conhecida o despertou de vez.",
+        "– Ai o meu gafanhoto querido! Quem se quer bem sempre se encontra...",
+        "Claro que era a gafanhota. Fizeram uma grande festa um ao outro, na cabeça da Esfinge, e depois puseram-se a trocar impressões. Perguntava o gafanhoto para a gafanhota:",
+        "– Tu viste uma cidade onde as ruas são canais de água? E aquela torre de ferro muito alta, no meio de uma cidade linda, viste? E aquele grande rio, na Índia, onde vêm banhar-se novos e velhos, doentes e sãos, viste?",
+        "Ela dizia que não. Não vira nada, no fito só de encontrá-lo a ele.",
+        "– Nem sabes o que perdeste, mulher. Mas deixa estar que é a maneira de eu, agora, te mostrar isso tudo.",
+        "– Trouxeste postais? – perguntou a gafanhota, ingenuamente.",
+        "– Quais postais, qual nada. Vamos correr mundo, dar outra vez a volta toda – entusiasmou-se o gafanhoto.",
+        "– Fica para depois... – ainda propôs a gafanhota.",
+        "Sem sucesso. Já o gafanhoto saltava, de pernas elásticas, como se a histótia agora tivesse começado.",
+        "– Anda, mulher. Não te atrases – gritava-lhe.",
+        "E lá foi ele a saltar, à frente."
       ]
     }
   ],
@@ -25,22 +65,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/09/23/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

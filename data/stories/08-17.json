@@ -4,14 +4,32 @@
   "day": 17,
   "dateLabel": "17 de Agosto",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 17 de Agosto",
+  "title": "O Homem de Chapéu nas Mãos",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Andava um pobre homem de tribunal em tribunal, de juiz em juiz, a apresentar queixa de um vizinho que lhe ficara com umas terras de pasto:",
+        "– Pôs lá as ovelhas do rebanho dele e, se eu as enxoto, ameaça-me com o arcabuz. Por este andar, qualquer dia, vou esquecer-me de que o terreno é meu. Ou então compro também um arcabuz...",
+        "– Não o aconselho a tal extremo – dizia-lhe o juiz.",
+        "– Nesse caso, o que me aconselha, Vossa Senhoria? – perguntava o homem, com muitos bons modos.",
+        "– Nada, nada que, agora, não tenho tempo. Leve a pendência a outro colega e saia-me da frente.",
+        "O homem, de chapéu nas mãos, ia a outro juiz, que, por coincidência, também não tinha tempo para ouvi-lo. Sempre muito atarefados estes senhores juízes.",
+        "De uns para outros e de outros para uns, o homem perdia tempo. E paciência.",
+        "Até que, de perda em perda, terá perdido o juízo.",
+        "Passou a ser visto, na praça principal da cidade, a falar para as árvores. A cada uma delas contava em pormenor o seu caso, como se a árvore fosse uma pessoa. Ou um juiz.",
+        "Tamanha sandice chamou a atenção do rei, que estava à janela. Como não tinha mais nada com que distrair-se, mandou vir o homem à sua presença.",
+        "– Então, as árvores falam contigo? – perguntou o rei, em ar de troça.",
+        "– Saiba Vossa Majestade que não. Eu é que falo com elas – respondeu o bom homem.",
+        "– E que lhes dizes?",
+        "– Saiba Vossa Majestade que lhes explico as razões da minha queixa de um vizinho que anda a querer roubar-me uma terra, à força de arcabuz.",
+        "O rei estava divertido com a historia.",
+        "– E tu julgas que as árvores são sensíveis ao que lhes contas?",
+        "– Tão sensíveis são as árvores como os homens. Têm, porém, sobre eles uma vantagem. As árvores não me interrompem nem se desculpam de que lhes falta tempo para atenderem as minhas queixas.",
+        "Afinal, o homem era mais ajuizado do que parecia. Assim pensou o rei, que tomou o caso ao seu cuidado e o despachou como devia ser.",
+        "E o homem pôde voltar a casa mais tranquilo."
       ]
     }
   ],
@@ -25,22 +43,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/08/17/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

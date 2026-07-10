@@ -1,8 +1,125 @@
 {
   "id": "06-27",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "gigante",
+          "distractors": [
+            "joelhos",
+            "sempre",
+            "aparecer"
+          ],
+          "sentence": "Era uma vez um gigante que não gostava de ser gigante."
+        },
+        {
+          "target": "joelhos",
+          "distractors": [
+            "gigante",
+            "sempre",
+            "aparecer"
+          ],
+          "sentence": "Pôs-se a andar de joelhos, a ver se não davam tanto por ele."
+        },
+        {
+          "target": "sempre",
+          "distractors": [
+            "gigante",
+            "joelhos",
+            "terra"
+          ],
+          "sentence": "Um gigante de joelhos, quer se queira quer não, é sempre um gigante, ainda que de joelhos."
+        },
+        {
+          "target": "terra",
+          "distractors": [
+            "sempre",
+            "longe",
+            "dedo"
+          ],
+          "sentence": "Vou mudar de terra – decidiu o desgostado gigante."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "gigante",
+          "syllables": [
+            "gi",
+            "gan",
+            "te"
+          ]
+        },
+        {
+          "word": "joelhos",
+          "syllables": [
+            "jo",
+            "e",
+            "lhos"
+          ]
+        },
+        {
+          "word": "aparecer",
+          "syllables": [
+            "a",
+            "pa",
+            "re",
+            "cer"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "aparelhos",
+          "syllables": [
+            "a",
+            "pa",
+            "re",
+            "lhos"
+          ]
+        },
+        {
+          "word": "parecer",
+          "syllables": [
+            "pa",
+            "re",
+            "cer"
+          ]
+        },
+        {
+          "word": "tecer",
+          "syllables": [
+            "te",
+            "cer"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "gigante",
+          "b": "gigante"
+        },
+        {
+          "a": "joelhos",
+          "b": "joelhos"
+        },
+        {
+          "a": "sempre",
+          "b": "sempre"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +129,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um gigante que não gostava de ser gigante.",
+        "Pôs-se a andar de joelhos, a ver se não davam tanto por ele.",
+        "Vou mudar de terra – decidiu o desgostado gigante.",
+        "Até que foi ter a uma terra de gigantes.",
+        "Chamavam-no, nessa terra, de gigantões matulões, chamavam ao gigante desta história de \"pitorro\", \"badameco\", \"homenzinho\", \"pigmeu\"..."
+      ]
     }
   ]
 }

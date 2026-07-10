@@ -4,14 +4,29 @@
   "day": 14,
   "dateLabel": "14 de Julho",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 14 de Julho",
+  "title": "Dom Heleno",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "E stão a ver um cavaleiro, daqueles de armadura, espada e lança, sempre prontas para o bom combate, em defesa dos mais fracos?",
+        "Chama-se Heleno, Dom Heleno e o seu fiel cavalo é o Valdevinos.",
+        "Quando esta história começa, apronta-se Dom Heleno para mais um torneio de vida ou de morte, desta vez contra um gigante cabeçudo que amedrontava os povoados.",
+        "Temos, assim, de uma banda o cavaleiro Heleno, montado no Valdevinos, e da outra banda, a pé, empunhando um enorme cacete, o gigante, a rir-se da insignificância do adversário.",
+        "Heleno investe, de lança apontada aos joelhos do gigante, que a mais alto não consegue chegar. O gigante sarilha a moca e zás! Só com a deslocação do vento, o cavaleiro solta-se do cavalo e cai no chão.",
+        "Vitória assegurada para o gigante, que continuaria a amedrontar os pobres camponeses das aldeias ao redor.",
+        "Já está o gigante debruçado sobre a sua vítima, pronto a assentar-lhe uma última cacetada. Que desgraça!",
+        "Mas o cavalo Valdevinos, liberto do peso do cavaleiro, vem por trás e ferra uma gigantesca dentada na canela do gigante cabeçudo.",
+        "– Irra! – grita o gigante entre outras palavras adequadas à dor que sentira.",
+        "O gigante levanta o pé, para perceber o que lhe sucedera, e, nessa oportunidade, o cavaleiro Dom Heleno, recomposto da queda, atira-lhe a lança à barriga da perna, que sustinha o gigante.",
+        "– Arre! – grita o gigante entre outras palavras de mais peso.",
+        "Com as duas pernas feridas, o gigante desequilibra-se e cai. Ora um gigante caído é um gigante vencido, para mais cabeçudo e trangalhadanças.",
+        "Prontamente amarrado pelos camponeses que assistiam à luta, visivelmente o perigo que ele representava tinha passado. Claro que houve festa, onde Heleno foi aclamado o maior herói de toda a história da cavalaria.",
+        "Terminada a festa e de novo a caminho sobre a sua fiel montada, Dom Heleno comenta de si para si:",
+        "– Esta foi uma das minhas mais memoráveis vitórias.",
+        "Valdevinos ouve e cala, mas ri-se, mostrando os seus grandes dentes, os dentes com que ferrara a dentada decisiva no calcanhar do gigante."
       ]
     }
   ],
@@ -25,22 +40,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/07/14/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

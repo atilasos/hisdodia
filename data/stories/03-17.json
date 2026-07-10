@@ -4,14 +4,29 @@
   "day": 17,
   "dateLabel": "17 de Março",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 17 de Março",
+  "title": "O Relógio do Joca",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Deram um relógio ao Joca. O primeiro. Ele queria um de mostrador irrequieto, sempre com os segundos aos saltinhos, mas o padrinho deu-lhe um de ponteiros, à antiga.",
+        "– É um relógio do meu tempo – disse o padrinho.",
+        "– Então não me serve – disse o Joca. – Estás sempre a dizer que, no teu tempo, não havia tanta pressa. Ora eu não quero chegar atrasado à escola.",
+        "O padrinho achou muita graça ao afilhado e explicou que o tempo, embora não pareça, é igual para todos. Todos os relógios estão acertados uns pelos outros.",
+        "– E quem os acerta? – quis saber o Joca.",
+        "– É o Sol e somos nós, que estabelecemos esta regra – respondeu o padrinho com pouca paciência para mais explicações.",
+        "Quando se viu sozinho, o Joca pôs-se a regular o tempo, à sua conta. Decidiu que era hora de almoço e impôs aos ponteiros o meio– dia e trinta minutos. Mas ninguém o chamou para almoçar.",
+        "Passou, então, os ponteiros para as cinco. Hora do lanche. Esperou que o chamassem. Nada.",
+        "Assim entretido, esqueceu-se das horas.",
+        "– Anda-te deitar, Joca – chamou a mãe.",
+        "Como podia ser?",
+        "– O teu relógio deve estar escangalhado – disse o Joca para a mãe. – No meu ainda falta muito.",
+        "A mãe espreitou para o relógio do filho. Marcava duas horas em ponto.",
+        "– Mas é tardíssimo. Duas horas da manhã? – fingiu que se assustava a mãe. – Tão tarde e tu ainda a pé? Não pode ser.",
+        "– Duas horas da tarde – protestou o Joca.",
+        "Mas não levou a dele avante. Aqueles relógios de ponteiros, afinal, ainda eram muito imperfeitos..."
       ]
     }
   ],
@@ -25,22 +40,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/03/17/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

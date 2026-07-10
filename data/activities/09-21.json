@@ -1,8 +1,121 @@
 {
   "id": "09-21",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "macaco",
+          "distractors": [
+            "macacada",
+            "ouviu",
+            "carta"
+          ],
+          "sentence": "J á há muito tempo que não tinha carta do macaco Umbelino."
+        },
+        {
+          "target": "macacada",
+          "distractors": [
+            "macaco",
+            "mordam",
+            "sujeito"
+          ],
+          "sentence": "Se era o fim da macacada, o caso dizia-lhe respeito."
+        },
+        {
+          "target": "ouviu",
+          "distractors": [
+            "macaco",
+            "loja",
+            "carta"
+          ],
+          "sentence": "Sofreu uns contratempos – num sítio ouviu um senhor dizer: \"Macacos me mordam\" e ele mordeu mesmo..."
+        },
+        {
+          "target": "loja",
+          "distractors": [
+            "ouviu",
+            "carta",
+            "assim"
+          ],
+          "sentence": "Calculem que se estabeleceu com uma loja de barbeiro, isto é de cabeleireiro."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "macaco",
+          "syllables": [
+            "ma",
+            "ca",
+            "co"
+          ]
+        },
+        {
+          "word": "macacada",
+          "syllables": [
+            "ma",
+            "ca",
+            "ca",
+            "da"
+          ]
+        },
+        {
+          "word": "ouviu",
+          "syllables": [
+            "ou",
+            "viu"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cama",
+          "syllables": [
+            "ca",
+            "ma"
+          ]
+        },
+        {
+          "word": "coma",
+          "syllables": [
+            "co",
+            "ma"
+          ]
+        },
+        {
+          "word": "dama",
+          "syllables": [
+            "da",
+            "ma"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "macaco",
+          "b": "macaco"
+        },
+        {
+          "a": "macacada",
+          "b": "macacada"
+        },
+        {
+          "a": "ouviu",
+          "b": "ouviu"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +125,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "J á há muito tempo que não tinha carta do macaco Umbelino.",
+        "Pois acabo de receber mais uma carta do Umbelino, com notícias frescas.",
+        "Umbelino, cabeleireiro de macacos\", lia-se em grandes letras, na portada do estabelecimento.",
+        "Mas, um dia, um sujeito com ar divertido passou pela loja, leu o letreiro, viu o Umbelino à porta, de bata branca, e desatou a rir-se.",
+        "Conta-me ele, agora, que se refugiou na selva, disfarçado de Tarzan."
+      ]
     }
   ]
 }

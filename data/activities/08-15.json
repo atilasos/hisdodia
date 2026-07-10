@@ -1,8 +1,122 @@
 {
   "id": "08-15",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "cavalinho",
+          "distractors": [
+            "cavalo",
+            "automóvel",
+            "cerca"
+          ],
+          "sentence": "Tinham-lhe dito que o pai ia concorrer, na Grande Prova Internacional a Todo o Galope, e o cavalinho, que nunca tinha vencido a cerca do…"
+        },
+        {
+          "target": "fosse",
+          "distractors": [
+            "cavalo",
+            "cerca",
+            "prado"
+          ],
+          "sentence": "Se fosse o meu pai, melhor ele saltaria – disse de si para si o cavalinho."
+        },
+        {
+          "target": "cavalo",
+          "distractors": [
+            "cavalinho",
+            "fosse",
+            "cerca"
+          ],
+          "sentence": "Um cavalo na estrada, sem cavaleiro nem atrelado, chama sempre a atenção."
+        },
+        {
+          "target": "automóvel",
+          "distractors": [
+            "cavalinho",
+            "barreira",
+            "corridas"
+          ],
+          "sentence": "Se não tivesse inflectido para um caminho de mau piso, o automóvel tinha-o apanhado."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "cavalinho",
+          "syllables": [
+            "ca",
+            "va",
+            "li",
+            "nho"
+          ]
+        },
+        {
+          "word": "fosse",
+          "syllables": [
+            "fos",
+            "se"
+          ]
+        },
+        {
+          "word": "cavalo",
+          "syllables": [
+            "ca",
+            "va",
+            "lo"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cava",
+          "syllables": [
+            "ca",
+            "va"
+          ]
+        },
+        {
+          "word": "cavava",
+          "syllables": [
+            "ca",
+            "va",
+            "va"
+          ]
+        },
+        {
+          "word": "loca",
+          "syllables": [
+            "lo",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "cavalinho",
+          "b": "cavalinho"
+        },
+        {
+          "a": "fosse",
+          "b": "fosse"
+        },
+        {
+          "a": "cavalo",
+          "b": "cavalo"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +126,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Tinham-lhe dito que o pai ia concorrer, na Grande Prova Internacional a Todo o Galope, e o cavalinho, que nunca tinha vencido a cerca do…",
+        "Se não tivesse inflectido para um caminho de mau piso, o automóvel tinha-o apanhado.",
+        "Era o que se ia ver na tal Grande Prova a Todo o Galope.",
+        "Agora de novo no prado com a cerca à volta, o cavalinho faz companhia ao pai, que coxeia, de perna ligada, para que se cure depressa.",
+        "O cavalo de corrida faz que sim com a cabeça e relincha."
+      ]
     }
   ]
 }

@@ -4,14 +4,29 @@
   "day": 16,
   "dateLabel": "16 de Abril",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 16 de Abril",
+  "title": "Os Sapatos Novos do Senhor Túlio",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "O senhor Túlio perdeu os sapatos novos que tinha comprado, na Feira de Almeirim. Mas o que é grave é que os perdeu depois de os ter calçado. E ainda mais grave é que os perdeu sem ter substitutos à mão. Isto é, ao pé. E ainda muitíssimo mais grave é que, depois que os perdeu, teve de voltar descalço para casa.",
+        "Isto conta-se bem. Contar não custa. Passar por esta trapalhada terá custado ao senhor Túlio muito mais.",
+        "Para começar custou-lhe o preço de uns bons sapatos de carneira. Contente por tê-los comprado e farto dos sapatos velhos, há que tempos a precisar de dobradas meias solas, deitou-os para a boca de um contentor do lixo. Deste gesto, mais tarde, muito se arrependeria.",
+        "Montado nos sapatos novos, foi à vida.",
+        "Cirandou por aqui e por ali, que uma feira tem sempre muito que ver, mas o raio dos butes, que a princípio lhe pareciam tão macios, começaram a morder-lhe os pés.",
+        "À beira de um riacho, aliviou-se dos malditos, que lhe apertavam os joanetes, tirou as peúgas, arregaçou as calças, e foi refrescar os pés na aguinha corrente. Outros e outras, talvez aflitos como ele do afogo da carneira nova, tinham feito o mesmo.",
+        "Depois, cada um, velho ou novo, sentado na relva, secou-se ao sol, feliz e a acenar com os dedos dos pés desencontrados, como que a fazer gaifonas à água do riacho. Bem bom.",
+        "Na altura de calçar-se, deu por que os sapatos afinal lhe estavam folgados. Teriam engelhado os pés ou crescido os sapatos?",
+        "O senhor Túlio não sabia explicar a situação.",
+        "– Oiça lá, ó parceiro: quem lhe mandou calçar os meus sapatos? – disse-lhe um sujeito de grandes calcantes descalços, junto dele.",
+        "O senhor Túlio pediu desculpa do engano e devolveu o seu ao seu dono. Mas os dele, onde parariam? Não pararam, andaram. Calçados por pés enganados, sem ser por mal, os sapatos tinham abalado de vez.",
+        "Restava-lhe esperar que da confusão das trocas sobrasse para ele algum par, nem que muito usado. Mas não sobrou. Nem umas sandálias de plástico.",
+        "– Está visto que o tipo que os levou tinha quatro patas, o grande burro.",
+        "Ao senhor Túlio as indignações nunca duram muito. Como contei, no princípio, voltou para casa descalço. Mas a rir-se:",
+        "– Dantes, nem tamancos tinha. Eu era garoto e andava no pó, nas pedras e na lama, sempre de pés nus. Ganhei casco para a vida, foi o que foi. Mas, vai daí, depois, com o bom tratamento do calçado, os pés amoleceram. Pois que reaprendam e saibam quanto custou, para que não se esqueçam.",
+        "De tudo o senhor Túlio tira proveito da lição e até os seus próprios pés ele gosta de ensinar."
       ]
     }
   ],
@@ -25,22 +40,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/04/16/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

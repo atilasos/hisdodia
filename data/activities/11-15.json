@@ -1,0 +1,121 @@
+{
+  "id": "11-15",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhor",
+          "distractors": [
+            "tuque",
+            "horas",
+            "parede"
+          ],
+          "sentence": "Juntem-lhe as máquinas e maquinetas que outros inventores, de diversos pontos do mundo, lhe enviam e imaginem como será a casa do senhor…"
+        },
+        {
+          "target": "casa",
+          "distractors": [
+            "tuque",
+            "horas",
+            "lado"
+          ],
+          "sentence": "Entre máquinas e maquinetas da sua particular invenção tem em casa para cima de uma centena."
+        },
+        {
+          "target": "horas",
+          "distractors": [
+            "senhor",
+            "casa",
+            "tuque"
+          ],
+          "sentence": "Um para as horas, outro para os minutos e o terceiro sabe para quê?"
+        },
+        {
+          "target": "lado",
+          "distractors": [
+            "casa",
+            "tuque",
+            "horas"
+          ],
+          "sentence": "Do lado de lá, o senhor Frutuoso atendeu-me, com a voz fanhosa das grandes constipações."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        },
+        {
+          "word": "horas",
+          "syllables": [
+            "ho",
+            "ras"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "caras",
+          "syllables": [
+            "ca",
+            "ras"
+          ]
+        },
+        {
+          "word": "seca",
+          "syllables": [
+            "se",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "casa",
+          "b": "casa"
+        },
+        {
+          "a": "tuque",
+          "b": "tuque"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Entre máquinas e maquinetas da sua particular invenção tem em casa para cima de uma centena.",
+        "É um bonito relógio de parede – digo eu.",
+        "Não é esse tempo, mas o tempo que vai fazer – impacienta-se o sábio.",
+        "Só há dias, quando tive de telefonar ao senhor Frutuoso por outros assuntos, é que voltei a lembrar-me do caprichoso relógio de parede.",
+        "E o senhor Frutuoso desligou apressadamente o telefone, para poder assoar-se mais à vontade."
+      ]
+    }
+  ]
+}

@@ -1,8 +1,122 @@
 {
   "id": "09-23",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "gafanhoto",
+          "distractors": [
+            "gafanhota",
+            "suspiros",
+            "grande"
+          ],
+          "sentence": "Vamos dar a volta ao mundo, mulher – dizia o gafanhoto."
+        },
+        {
+          "target": "gafanhota",
+          "distractors": [
+            "gafanhoto",
+            "suspiros",
+            "grande"
+          ],
+          "sentence": "Doem-me as dobradiças das pernas – queixava-se a gafanhota."
+        },
+        {
+          "target": "mundo",
+          "distractors": [
+            "volta",
+            "pernas",
+            "saltar"
+          ],
+          "sentence": "Quando tornar da volta ao mundo, encontro-a – dizia o gafanhoto."
+        },
+        {
+          "target": "volta",
+          "distractors": [
+            "mundo",
+            "pernas",
+            "saltar"
+          ],
+          "sentence": "Fez cálculos de cabeça e concluiu que estava a caminho da segunda volta ao mundo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "gafanhoto",
+          "syllables": [
+            "ga",
+            "fa",
+            "nho",
+            "to"
+          ]
+        },
+        {
+          "word": "gafanhota",
+          "syllables": [
+            "ga",
+            "fa",
+            "nho",
+            "ta"
+          ]
+        },
+        {
+          "word": "mundo",
+          "syllables": [
+            "mun",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "fato",
+          "syllables": [
+            "fa",
+            "to"
+          ]
+        },
+        {
+          "word": "gado",
+          "syllables": [
+            "ga",
+            "do"
+          ]
+        },
+        {
+          "word": "ganho",
+          "syllables": [
+            "ga",
+            "nho"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "gafanhoto",
+          "b": "gafanhoto"
+        },
+        {
+          "a": "gafanhota",
+          "b": "gafanhota"
+        },
+        {
+          "a": "mundo",
+          "b": "mundo"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +126,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Vamos dar a volta ao mundo, mulher – dizia o gafanhoto.",
+        "A gafanhota, derreadinha, pendurou-se numa haste de caniço e esperou.",
+        "Ele por uma linha de salto, ela por outra.",
+        "O gafanhoto sonolento cabeceava, quando uma voz conhecida o despertou de vez.",
+        "Já o gafanhoto saltava, de pernas elásticas, como se a histótia agora tivesse começado."
+      ]
     }
   ]
 }

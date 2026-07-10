@@ -1,0 +1,131 @@
+{
+  "id": "03-31",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "correr",
+          "distractors": [
+            "cães",
+            "senhora",
+            "assim"
+          ],
+          "sentence": "Não acredito – latia o cachorrinho, sem deixar de correr."
+        },
+        {
+          "target": "acredito",
+          "distractors": [
+            "senhora",
+            "assim",
+            "velhote"
+          ],
+          "sentence": "Não acredito – insistia o cachorrinho, de riso nos dentes muito brancos."
+        },
+        {
+          "target": "cães",
+          "distractors": [
+            "correr",
+            "dona",
+            "três"
+          ],
+          "sentence": "Era uma vez uma senhora que tinha três cães."
+        },
+        {
+          "target": "dona",
+          "distractors": [
+            "cães",
+            "três",
+            "assim"
+          ],
+          "sentence": "Não acredito – protestava o cachorrinho, no colo da dona."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "correr",
+          "syllables": [
+            "cor",
+            "rer"
+          ]
+        },
+        {
+          "word": "acredito",
+          "syllables": [
+            "a",
+            "cre",
+            "di",
+            "to"
+          ]
+        },
+        {
+          "word": "dona",
+          "syllables": [
+            "do",
+            "na"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "acordo",
+          "syllables": [
+            "a",
+            "cor",
+            "do"
+          ]
+        },
+        {
+          "word": "acre",
+          "syllables": [
+            "a",
+            "cre"
+          ]
+        },
+        {
+          "word": "nado",
+          "syllables": [
+            "na",
+            "do"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "correr",
+          "b": "correr"
+        },
+        {
+          "a": "acredito",
+          "b": "acredito"
+        },
+        {
+          "a": "cães",
+          "b": "cães"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez uma senhora que tinha três cães.",
+        "Não acredito – insistia o cachorrinho, de riso nos dentes muito brancos.",
+        "Vai ser difícil – concluiu o cão velhote, sem se despegar do capacho.",
+        "Este é o Xana, quando veio cá para casa, dentro de um cestinho.",
+        "Mas, com o tempo, acabou por acreditar..."
+      ]
+    }
+  ]
+}

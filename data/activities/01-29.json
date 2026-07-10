@@ -1,0 +1,130 @@
+{
+  "id": "01-29",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "perguntas",
+          "distractors": [
+            "soldados",
+            "respostas",
+            "pergunta"
+          ],
+          "sentence": "Pelo sim pelo não, o sargento ensinou-o a pronunciar as respostas convenientes às perguntas que o rei costumava fazer."
+        },
+        {
+          "target": "rapaz",
+          "distractors": [
+            "magala",
+            "tantos",
+            "cara"
+          ],
+          "sentence": "Ora entrou para o serviço militar um rapaz vindo de longe, de uma região onde não se falava a mesma língua da cidade."
+        },
+        {
+          "target": "magala",
+          "distractors": [
+            "rapaz",
+            "serviço",
+            "tantos"
+          ],
+          "sentence": "O magala, já se vê, respondia que ambos o satisfaziam."
+        },
+        {
+          "target": "soldados",
+          "distractors": [
+            "perguntas",
+            "serviço",
+            "soldado"
+          ],
+          "sentence": "Até lhe chamavam o rei dos soldados ou rei-soldado, embora ele fosse o general de todos os generais."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "perguntas",
+          "syllables": [
+            "per",
+            "gun",
+            "tas"
+          ]
+        },
+        {
+          "word": "rapaz",
+          "syllables": [
+            "ra",
+            "paz"
+          ]
+        },
+        {
+          "word": "magala",
+          "syllables": [
+            "ma",
+            "ga",
+            "la"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "gala",
+          "syllables": [
+            "ga",
+            "la"
+          ]
+        },
+        {
+          "word": "gatas",
+          "syllables": [
+            "ga",
+            "tas"
+          ]
+        },
+        {
+          "word": "lama",
+          "syllables": [
+            "la",
+            "ma"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "perguntas",
+          "b": "perguntas"
+        },
+        {
+          "a": "rapaz",
+          "b": "rapaz"
+        },
+        {
+          "a": "magala",
+          "b": "magala"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um rei que gostava muito de desfiles e paradas.",
+        "Bem impressionado com as respostas, o rei prosseguia, de peito inchado e queixo alto, muito orgulhoso do seu exército de luzidos soldados.",
+        "Ora entrou para o serviço militar um rapaz vindo de longe, de uma região onde não se falava a mesma língua da cidade.",
+        "Logo por azar, dessa vez o rei alterou a ordem das perguntas.",
+        "Vinte anos – respondeu o rapaz, imperturbável."
+      ]
+    }
+  ]
+}

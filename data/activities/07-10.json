@@ -1,8 +1,119 @@
 {
   "id": "07-10",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "sempre",
+          "distractors": [
+            "direita",
+            "depois",
+            "pensar"
+          ],
+          "sentence": "E mantém sempre os atacadores apertados."
+        },
+        {
+          "target": "olha",
+          "distractors": [
+            "coisa",
+            "carro",
+            "porta"
+          ],
+          "sentence": "Olha para a esquerda e olha para a direita, vê se não vem nenhum carro e só depois é que atravessas."
+        },
+        {
+          "target": "esquerda",
+          "distractors": [
+            "direita",
+            "apertados",
+            "distraído"
+          ],
+          "sentence": "Antes de atravessar a rua, cumprimente sempre para a direita e para a esquerda e veja se não vem nenhum desconhecido."
+        },
+        {
+          "target": "direita",
+          "distractors": [
+            "sempre",
+            "esquerda",
+            "depois"
+          ],
+          "sentence": "Olha para a esquerda e para a direita, vê se não vem nenhum carro e só depois é que atravessas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "sempre",
+          "syllables": [
+            "sem",
+            "pre"
+          ]
+        },
+        {
+          "word": "olha",
+          "syllables": [
+            "o",
+            "lha"
+          ]
+        },
+        {
+          "word": "direita",
+          "syllables": [
+            "di",
+            "rei",
+            "ta"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "direi",
+          "syllables": [
+            "di",
+            "rei"
+          ]
+        },
+        {
+          "word": "dita",
+          "syllables": [
+            "di",
+            "ta"
+          ]
+        },
+        {
+          "word": "preta",
+          "syllables": [
+            "pre",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "sempre",
+          "b": "sempre"
+        },
+        {
+          "a": "olha",
+          "b": "olha"
+        },
+        {
+          "a": "esquerda",
+          "b": "esquerda"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +123,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Olha para a esquerda e olha para a direita, vê se não vem nenhum carro e só depois é que atravessas.",
+        "Se estivéssemos com atenção, quase que podíamos ver as falas da mãe entrarem em fila por um ouvido e saírem pelo outro, na mesma enfiada…",
+        "Só numa coisa correspondia à risca aos preceitos da mãe.",
+        "Depois da visita, a mãe dele saiu comigo.",
+        "Acredito que a senhora vá cumprir às riscas as recomendações do filho."
+      ]
     }
   ]
 }

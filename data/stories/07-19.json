@@ -4,14 +4,32 @@
   "day": 19,
   "dateLabel": "19 de Julho",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 19 de Julho",
+  "title": "Não Dá Fruto",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Era uma vez um arbusto, a crescer para árvore. Não era uma árvore de fruto.",
+        "Isso é que a desgostava, porque ela tinha um sonho: queria dar. Fossem cerejas, maçãs, laranjas, nozes, limões, fosse o que fosse. Esta arvorezinha tinha o gosto de dar prendas. Mas o quê, se não dispunha de prendas para oferecer?",
+        "Parou à beira dela uma vaca.",
+        "– Tu que dás? – perguntou a árvore.",
+        "– Dou leite – respondeu a vaca.",
+        "Depois, parou uma ovelha.",
+        "– Tu que dás? – perguntou a árvore.",
+        "– Dou lã – respondeu a ovelha.",
+        "Depois, parou um porquinho.",
+        "– Tu que dás? – perguntou a árvore.",
+        "– Dou tudo – respondeu o porco.",
+        "Não julguem que dizia isto com ar resignado e triste, a pensar na salgadeira. Dizia até com bastante orgulho. Os porcos sabem que são muito úteis.",
+        "– Só eu sou uma inútil – queixava-se a árvore.",
+        "A vaca, a ovelha e o porco, sentados a descansar, junto à árvore, não eram da mesma opinião.",
+        "– Tu dás imenso e sem regatear a todos os que por ti passam – disse um deles.",
+        "A árvore não queria acreditar:",
+        "– O que é que eu dou, coitadinha?",
+        "– Dás sombra – disseram os três animais, em coro – És fundamental.",
+        "Daí para diante, a arvorezinha cresceu mais feliz."
       ]
     }
   ],
@@ -25,22 +43,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/07/19/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

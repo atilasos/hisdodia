@@ -4,14 +4,28 @@
   "day": 25,
   "dateLabel": "25 de Agosto",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 25 de Agosto",
+  "title": "Um Avental Cheio",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Isto passou-se num tempo em que mouros e cristãos andavam à bulha pela mesma terra, por sinal a mesma que, mais tarde, se chamou de Portugal.",
+        "Uns de um lado, outros do outro, conquistavam vilas e aldeias, que logo a seguir tinham de abandonar, para mais depois reconquistarem, numa luta desenfreada e sem fronteiras certas. Alfanges e espadas cruzavam-se com raiva, corria sangue, perdiam-se muitas vidas.",
+        "Aconteceu que, uma vez, não sei onde, uma mulher sarracena estava para dar à luz. O marido, aflito, procurou entre as mulheres mouriscas quem a socorresse, mas nenhuma tinha experiência para tal. Falaram-lhe, no entanto, de uma parteira cristã, que vivia do outro lado da guerra.",
+        "O homem arriscou-se. A coberto da noite, evitou as sentinelas e conseguiu chegar a casa da parteira. Com muito bons modos, pediu-lhe que lhe acudisse à mulher e ao filho que estava para nascer.",
+        "– Prometo encher-te o avental de riquezas – disse ele, a convencê-la.",
+        "A parteira, ou por cobiça ou por condoimento, foi com o mouro, passando, no entanto, pelos mesmos riscos por que ele tinha passado.",
+        "Concluído o parto, sossegada a mãe com o bebé nos braços, o mouro mandou-a levantar o avental e despejou-lhe para a abada dele uma cesta cheia de carvão de lenha.",
+        "– Guarda-a até chegares a casa – avisou-a o pai do menino que ela ajudara a nascer.",
+        "A mulher sentiu-se lograda, mas temeu-se de protestar, receosa de que o mouro lhe levasse a mal. No seu íntimo, resmungava: \"Então este montinho de carvões, que me sujam o aventalinho de chita, é que valem a riqueza prometida? Da próxima não torno, ai não torno não, mouro velhaco\".",
+        "Voltava para casa já de madrugada. Uns soldados cristãos, que estavam de atalaia, viram-na e mandaram-na parar, de lanças em riste:",
+        "– Se vens de terra inimiga, não vens por bem – disseram-lhe.",
+        "Ela benzeu-se diante deles e mostrou-lhes o seu leve carrego de carvões, desculpando-se:",
+        "– Sou uma pobre mulher que anda a colher gravetos de uma queimada, para conforto da casa e meu e de meu gato, que gosta de dormir ao borralho.",
+        "Deixaram-na ir. Quando chegou a casa e fechou a porta atrás dela, de coração ainda a bater de susto, ia para deitar os carvões para a lareira e viu que – olhai a surpresa! – tinha o avental cheio de barras de ouro. Até o pó de carvão se tinha transformado em ouro em pó. Afinal o mouro era um mágico e não lhe falhara a paga.",
+        "Parece que o único que não apreciou a transformação foi o gato que gostava de dormir ao calor do borralho."
       ]
     }
   ],
@@ -25,22 +39,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/08/25/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

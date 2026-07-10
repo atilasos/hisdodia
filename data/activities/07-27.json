@@ -1,8 +1,115 @@
 {
   "id": "07-27",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "elefantes",
+          "distractors": [
+            "elefante",
+            "então",
+            "floresta"
+          ],
+          "sentence": "Ele só se dava com a alta, com os bicharocos grossos e pernaltas, girafas, leões, elefantes, rinocerontes, hipopótamos e outros que tais…"
+        },
+        {
+          "target": "elefante",
+          "distractors": [
+            "elefantes",
+            "ratinho",
+            "então"
+          ],
+          "sentence": "Que montanha ondulante, bamboleante o elefante!"
+        },
+        {
+          "target": "ratinho",
+          "distractors": [
+            "elefante",
+            "floresta",
+            "clareira"
+          ],
+          "sentence": "Por pouco que o ratinho Ratolas não ficou esmagado debaixo da pata de chumbo de um dos elefantes matulões."
+        },
+        {
+          "target": "então",
+          "distractors": [
+            "elefantes",
+            "elefante",
+            "fala"
+          ],
+          "sentence": "Então, o elefante dizia-lhe adeus e lá continuava nas suas graves passadas, que abalavam a floresta."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "elefantes",
+          "syllables": [
+            "e",
+            "le",
+            "fan",
+            "tes"
+          ]
+        },
+        {
+          "word": "elefante",
+          "syllables": [
+            "e",
+            "le",
+            "fan",
+            "te"
+          ]
+        },
+        {
+          "word": "fala",
+          "syllables": [
+            "fa",
+            "la"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "fale",
+          "syllables": [
+            "fa",
+            "le"
+          ]
+        },
+        {
+          "word": "tela",
+          "syllables": [
+            "te",
+            "la"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "elefantes",
+          "b": "elefantes"
+        },
+        {
+          "a": "elefante",
+          "b": "elefante"
+        },
+        {
+          "a": "fala",
+          "b": "fala"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +119,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez um rato, chamado Ratolas, que se julgava mais que os outros - os outros animais rasteiros da sua condição ou aproximados.",
+        "O Ratolas respondia que sim, que passava bem, muito obrigado.",
+        "Demorou que tempos pelo caminho, porque levava carga pesada.",
+        "Trago-vos um presente, uma pequena lembrança...",
+        "Estava mudado, não havia dúvida, o ratinho Ratolas."
+      ]
     }
   ]
 }

@@ -65,35 +65,27 @@
           ]
         },
         {
-          "word": "aberto",
+          "word": "página",
           "syllables": [
-            "a",
-            "ber",
-            "to"
+            "pá",
+            "gi",
+            "na"
           ]
         }
       ],
       "recombine": [
         {
-          "word": "acha",
+          "word": "dona",
           "syllables": [
-            "a",
-            "cha"
+            "do",
+            "na"
           ]
         },
         {
-          "word": "achado",
+          "word": "nado",
           "syllables": [
-            "a",
-            "cha",
+            "na",
             "do"
-          ]
-        },
-        {
-          "word": "chato",
-          "syllables": [
-            "cha",
-            "to"
           ]
         }
       ]

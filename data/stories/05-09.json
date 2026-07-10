@@ -4,14 +4,36 @@
   "day": 9,
   "dateLabel": "9 de Maio",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 9 de Maio",
+  "title": "O Perfume Prodigioso",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Dantes, lá muito dantes, não havia estradas a cruzar os países de fora a fora. Quanto muito, caminhos.",
+        "Por isso quem tinha de viajar ou se deslocava a pé, arrimado a um bordão, ou andava a cavalo, quando tinha dinheiro para comprar um. Se não lhe chegasse senão para um burro, também convinha.",
+        "Quando nós, hoje, atravessamos a Europa de lés a lés, em comboios velozes, que já não fazem \"pouca terra... pouca terra...\", ou quando, de avião, em poucas horas, chegamos a Roma ou a Berlim, não fazemos a mínima ideia das canseiras e aflições por que passavam os nossos antepassados que tinham de viajar.",
+        "Eram dois homens. Vinha um de um lado, o outro do outro. Iam ficar frente a frente, no estreito caminho que calcorreavam. Um, montado numa mula de alforges carregados, devia ser mercador. O outro de capa larga e botas gastas devia ser peregrino pelo modo de usar levantada a aba do chapéu e pela vieira nela pregada.",
+        "Seria, não seria? O melhor era o mercador puxar do punhal que trazia à cinta, prevenção sofrível contra os maus encontros.",
+        "– Gente de paz! – disse-lhe, de longe, o peregrino, adivinhando-lhe o gesto.",
+        "A voz parecia sincera. O mercador acreditou. Alivia mais acreditar do que alimentar desconfianças.",
+        "Ambos pararam e, à beira do caminho, confraternizaram, trocando o que traziam para a merenda.",
+        "O peregrino vinha de Santiago de Compostela, consolado e feliz com todo o esplendor sagrado que aí vira. O mercador ia para Salamanca, terra rica, segundo lhe constava, onde poderia vender por bom preço as suas mercadorias.",
+        "– E o que traz? – perguntou-lhe o peregrino.",
+        "– Cheiros – segredou-lhe o mercador, como se os perfumes do seu carregamento pudessem volatilizar-se no ar.",
+        "De facto, um perfume muito doce penetrava no nariz do peregrino, que o estranhou. Já o sentira antes, quando de longe enfrentara o mercador.",
+        "– Um frasco cheio de mais que verteu – explicou ele. – É um concentrado de folhas aromáticas colhidas na Índia. Este perfume, por mais que me lave, vai perseguir-me a vida inteira. É prodigioso.",
+        "O peregrino riu-se do exagero. Estavam de despedida. Devia ser para sempre, porque não era natural que, na Europa enorme daquele tempo, dois viajantes, que o acaso tinha cruzado, voltassem a encontrar-se.",
+        "Mas encontraram-se, vejam a coincidência. Muitos anos depois, em Roma, no Vaticano, na investidura de um novo Papa, aconteceu o seguinte episódio.",
+        "Era extensa a fila de convidados, príncipes, embaixadores, ministros, que iam prestar vassalagem ao Papa. Coros soavam nas abóbadas, vestes ricas de tecidos raros roçavam os mármores das colunas. Tudo deslumbrava os olhos dos presentes, por mais habituados que estivessem às galas e opulências das majestades do mundo.",
+        "Os convidados, um por um, inclinavam-se diante do trono do Papa e beijavam-lhe o anel. Calhava a vez a um governador da Flandres. Ele a ajoelhar-se e o Papa a dizer:",
+        "– Este perfume...",
+        "Como uma interrogação suspensa, vinda de muito longe, as palavras do Papa levaram o governador, que se conservava de olhos baixos, a levantá-los e, semicerrando-os, a buscar na memória quem aquele rosto de sorriso enrugado lhe recordava.",
+        "– É o mercador – disse o Papa, mais lesto na lembrança.",
+        "– É o peregrino – gritou o mercador, agora governador da Flandres, de dedo espetado para o Papa.",
+        "Sobressalto entre os guardas suíços e a marcha púrpura dos cardeais. Ao sobressalto juntou-se a surpresa, quando viram o Papa e o governador risonhamente abraçarem-se num apertado abraço de reencontro, que destoava da solenidade do momento.",
+        "Da força do abraço, o doce perfume ficou a pairar entre os dois homens e colou-se para sempre às vestes do Papa."
       ]
     }
   ],
@@ -25,22 +47,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/05/09/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

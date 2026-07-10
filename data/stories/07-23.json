@@ -4,14 +4,39 @@
   "day": 23,
   "dateLabel": "23 de Julho",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 23 de Julho",
+  "title": "Lindinho e Feião",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "A minha tia tem telemóvel, mas só para falar para o meu primo. É um telemóvel de sentido único.",
+        "– Lindinho, estás na piscina? Não vás para a água senão com o estômago vazio.",
+        "Ou:",
+        "– Lindinho, estás na praia? Não andes ao sol senão com chapéu.",
+        "Ou:",
+        "– Lindinho, estás na esplanada? Não te empanturres em gelados senão não jantas.",
+        "Tudo recomendações sensatas, a que o meu primo Arlindo ou Lindinho presta a atenção devida. O Arlindo sempre foi um rapazinho atilado e obediente, o que só lhe fica bem.",
+        "Tem um único defeito, que nem sei se defeito será. É muito esquecido.",
+        "À conta deste senão, perdeu, há dias, o telemóvel. Deixou-o na areia da praia.",
+        "Um velho pescador, desses que já não pescam, mas nunca se desapegam do mar, descobriu o telemóvel, no preciso instante em que ele se pôs a tocar. Automaticamente, atendeu e ouviu:",
+        "– Lindinho, estás na praia? Toma cuidado e não andes ao sol senão com chapéu...",
+        "O pescador, a quem nunca ninguém o tratara por lindinho, levou a mão à testa descoberta e curtida de muitos sóis e fez um ar de grande espanto.",
+        "– Lindinho, estás a ouvir-me? – prosseguia a minha tia. – Não vás para a água senão com o estômago vazio.",
+        "Com esta é que o velho pescador não contava. Tinha mesmo de responder:",
+        "– Ó minha senhora, não têm conta as vezes que eu me fiz ao mar de estômago vazio...",
+        "– Quem está aí? – estranhou a minha tia. – Não é o Lindinho?",
+        "– Lindinho, minha senhora, só se fosse para a minha mãe, que Deus lá tenha em descanso.",
+        "– Então com quem é que eu estou a falar?",
+        "– Com o Zé da Felismina, também conhecido por Feião pela minha gente do bairro dos pescadores.",
+        "Alarmou-se a minha tia:",
+        "– E o meu filho? Onde pára o meu Lindinho?",
+        "O Zé pescador tranquilizou-a e palavras depois tudo estava esclarecido. Ele próprio se encarregou de ir levar o telemóvel do meu primo à casa de férias dos meus tios.",
+        "Este desencontro de vozes deu, afinal, oportunidade a que Lindinho e Feião se encontrassem e conhecessem.",
+        "O velho pescador conta ao meu primo peripécias da sua antiga vida de homem do mar e anda, agora, a ensiná-lo a pregar o isco ao anzol e a lançar a linha. O meu primo Arlindo até já pescou um robalito.",
+        "Assim se desenvolveu uma grande amizade.",
+        "Os telemóveis são, realmente, uma grande invenção."
       ]
     }
   ],
@@ -25,22 +50,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/07/23/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

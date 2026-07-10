@@ -4,14 +4,35 @@
   "day": 29,
   "dateLabel": "29 de Janeiro",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 29 de Janeiro",
+  "title": "O Rei dos Soldados",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Era uma vez um rei que gostava muito de desfiles e paradas. Até lhe chamavam o rei dos soldados ou rei-soldado, embora ele fosse o general de todos os generais.",
+        "Quando passava revista à guarda de honra, cerimónia a que se dedicava várias vezes ao dia, tinha por hábito estacar de tantos em tantos homens, para dirigir, cara na cara, ao soldado perfilado à sua frente as seguintes perguntas:",
+        "– Que idade tens?",
+        "O magala respondia.",
+        "– Há quanto tempo estás ao meu serviço?",
+        "O magala respondia.",
+        "– O soldo e o rancho satisfazem-te?",
+        "O magala, já se vê, respondia que ambos o satisfaziam.",
+        "Bem impressionado com as respostas, o rei prosseguia, de peito inchado e queixo alto, muito orgulhoso do seu exército de luzidos soldados.",
+        "Ora entrou para o serviço militar um rapaz vindo de longe, de uma região onde não se falava a mesma língua da cidade. Tinha por isso muita dificuldade em perceber as ordens e em fazer-se entender. Os colegas troçavam dele, mas o rapaz não se importava.",
+        "Pelo sim pelo não, o sargento ensinou-o a pronunciar as respostas convenientes às perguntas que o rei costumava fazer. Como a fiada de perguntas era sempre igual e pela mesma ordem, caso lhe calhasse em sorte ser interrogado pelo rei, o novo soldado não daria parte fraca.",
+        "E calhou.",
+        "Logo por azar, dessa vez o rei alterou a ordem das perguntas. Começou assim:",
+        "– Há quanto tempo estás ao meu serviço?",
+        "– Vinte anos – respondeu o rapaz, imperturbável.",
+        "O rei encarou o jovem tarata com estranheza e fez-lhe a segunda pergunta:",
+        "– E que idade tens?",
+        "– Dois meses, Majestade.",
+        "Mais se admirou o rei, que comentou:",
+        "– Isso não faz sentido. Um de nós está maluco.",
+        "O rapaz, julgando que estava a responder à terceira pergunta, sorriu com cortesia e disse:",
+        "– Ambos, Majestade."
       ]
     }
   ],
@@ -25,22 +46,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/01/29/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

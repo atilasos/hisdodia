@@ -4,14 +4,29 @@
   "day": 30,
   "dateLabel": "30 de Junho",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 30 de Junho",
+  "title": "Por Bem",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Uma galinha, um pato, um cão e um burro iam a fugir por uma estrada fora. Corta-lhes a correria um polícia:",
+        "– Alto lá, seus fugitivos. Para irem com essa pressa, alguma maroteira fizeram.",
+        "Eles protestaram que não, mas o polícia, desconfiado, quis saber pormenores. Então, a galinha explicou:",
+        "– Eu ia a fugir, porque ontem ouvi que iam fazer canja, lá em casa.",
+        "Ao que o pato acrescentou:",
+        "– E depois da canja, pato com arroz...",
+        "O cão explicou:",
+        "– O meu dono ia mandar-me para o canil.",
+        "– E o meu dizia que eu estava velho e ia mandar-me abater – disse o burro.",
+        "– Mas comigo ainda podes – disse o polícia, saltando-lhe para os costados.",
+        "Presa a cada mão, trazia o pato e a galinha. Salvara-se o cão, que o polícia não teve maneira de prender.",
+        "– Toca a andar para a esquadra – comandou o polícia. – Vai tudo preso.",
+        "O burro, habituado a obedecer, obedeceu. Mas o cão, que se safara, é que não se conformou. Deu uma valente mordidela numa das patas do burro, que escoiceou. O polícia caiu ao chão e largou a galinha mais o pato.",
+        "Correram os bichos. Mal refeito da queda, o polícia não teve forças para persegui-los.",
+        "– Desculpa a dentada – disse o cão ao burro, quando se viram a salvo. – Mas foi por bem.",
+        "– Não tem importância – respondeu o burro, a mostrar os grandes dentes, num riso de felicidade. – Há coisas que ardem, mas curam."
       ]
     }
   ],
@@ -27,22 +42,22 @@
     ]
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/06/30/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

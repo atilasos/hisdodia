@@ -1,0 +1,131 @@
+{
+  "id": "08-10",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "coelho",
+          "distractors": [
+            "caçador",
+            "caça",
+            "sempre"
+          ],
+          "sentence": "Felpa de coelho que ele cheirasse, num rasgo de urzes, era, daí a nada, mais um trangalhadanças preso ao meu cinto."
+        },
+        {
+          "target": "caçador",
+          "distractors": [
+            "coelho",
+            "caça",
+            "sempre"
+          ],
+          "sentence": "Não há-de haver em todo o mundo e arredores um cão caçador que se lhe compare."
+        },
+        {
+          "target": "caça",
+          "distractors": [
+            "coelho",
+            "caçador",
+            "dono"
+          ],
+          "sentence": "Estou convencido que, mesmo sem festas, o Farol me devolveria a caça."
+        },
+        {
+          "target": "sempre",
+          "distractors": [
+            "coelho",
+            "caçador",
+            "cabeça"
+          ],
+          "sentence": "Como nunca nenhum coelho parou ao meu mandado, tive sempre de cumprir o prometido."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "coelho",
+          "syllables": [
+            "co",
+            "e",
+            "lho"
+          ]
+        },
+        {
+          "word": "caçador",
+          "syllables": [
+            "ca",
+            "ça",
+            "dor"
+          ]
+        },
+        {
+          "word": "dono",
+          "syllables": [
+            "do",
+            "no"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cano",
+          "syllables": [
+            "ca",
+            "no"
+          ]
+        },
+        {
+          "word": "caçado",
+          "syllables": [
+            "ca",
+            "ça",
+            "do"
+          ]
+        },
+        {
+          "word": "coça",
+          "syllables": [
+            "co",
+            "ça"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "coelho",
+          "b": "coelho"
+        },
+        {
+          "a": "caçador",
+          "b": "caçador"
+        },
+        {
+          "a": "caça",
+          "b": "caça"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Q uem me contou esta história foi o senhor Tomé.",
+        "O Farol trazia-mo, depois, na boca, a babar-se de riso, como quem me dá os parabéns pela pontaria, mas isso que importância tinha…",
+        "Por este andar, amigo Farol, vais ter de arranjar outro dono que te leve à caça.",
+        "A sombra robusta do cão caçador cobria a cabeça do coelho, que eu desenhara, à contraluz, com a habilidade das minhas mãos.",
+        "A cabeça bonita de um cão perdigueiro recortou-se, então, em sombras nítidas, na caliça do muro."
+      ]
+    }
+  ]
+}

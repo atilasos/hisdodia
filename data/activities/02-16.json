@@ -1,0 +1,128 @@
+{
+  "id": "02-16",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "lobos",
+          "distractors": [
+            "cama",
+            "gelo",
+            "fora"
+          ],
+          "sentence": "Joca: Hoje não se pode fazer mal aos lobos."
+        },
+        {
+          "target": "cama",
+          "distractors": [
+            "lobos",
+            "gelo",
+            "fora"
+          ],
+          "sentence": "Levanta-te, Joca, ou puxo-te por um braço e sais da cama magoado."
+        },
+        {
+          "target": "gelo",
+          "distractors": [
+            "lobos",
+            "cama",
+            "fora"
+          ],
+          "sentence": "Naquelas manhãs frias, frias, frias, em que as ruas que vão dar à escola estão como gelo e as frieiras dos pés ardem, por dentro das…"
+        },
+        {
+          "target": "fora",
+          "distractors": [
+            "lobos",
+            "cama",
+            "gelo"
+          ],
+          "sentence": "Daqueles dois seria sempre cada dia, fizesse o frio que fizesse lá fora."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "lobos",
+          "syllables": [
+            "lo",
+            "bos"
+          ]
+        },
+        {
+          "word": "cama",
+          "syllables": [
+            "ca",
+            "ma"
+          ]
+        },
+        {
+          "word": "gelo",
+          "syllables": [
+            "ge",
+            "lo"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cabos",
+          "syllables": [
+            "ca",
+            "bos"
+          ]
+        },
+        {
+          "word": "gema",
+          "syllables": [
+            "ge",
+            "ma"
+          ]
+        },
+        {
+          "word": "loca",
+          "syllables": [
+            "lo",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "lobos",
+          "b": "lobos"
+        },
+        {
+          "a": "cama",
+          "b": "cama"
+        },
+        {
+          "a": "gelo",
+          "b": "gelo"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Naquelas manhãs frias, frias, frias, em que as ruas que vão dar à escola estão como gelo e as frieiras dos pés ardem, por dentro das…",
+        "Joca: Hoje não se pode fazer mal aos lobos.",
+        "Joca: Mas os lobos comem imenso e não gostam de sopa nem de alface nem de pastéis de bacalhau.",
+        "Joca: Quando os lobos perdem, dão dentadas nos outros.",
+        "Mãe e filho juntaram num abraço riso e uivos, como numa gruta de lobos felizes."
+      ]
+    }
+  ]
+}

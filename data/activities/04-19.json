@@ -1,0 +1,131 @@
+{
+  "id": "04-19",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "marajá",
+          "distractors": [
+            "prova",
+            "longe",
+            "arauto"
+          ],
+          "sentence": "O marajá Ravana, do reino de Langcapuri, embora fosse solteiro e reinasse numa ilha próxima, não chegou a ser convidado."
+        },
+        {
+          "target": "dois",
+          "distractors": [
+            "prova",
+            "longe",
+            "rajás"
+          ],
+          "sentence": "Na fila dos candidatos estavam dois jovens príncipes, filhos de um marajá amigo do Rajá Masicó."
+        },
+        {
+          "target": "princesa",
+          "distractors": [
+            "príncipes",
+            "prova",
+            "banquete"
+          ],
+          "sentence": "Lá para os lados da Malásia ou mais longe ainda, havia uma linda princesa, chamada Sita Devi."
+        },
+        {
+          "target": "príncipes",
+          "distractors": [
+            "princesa",
+            "prova",
+            "banquete"
+          ],
+          "sentence": "Como estava em idade de casar, o Rajá Masicó, seu pai, encomendou um grande banquete e convidou para a festa todos os rajás e príncipes…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "marajá",
+          "syllables": [
+            "ma",
+            "ra",
+            "já"
+          ]
+        },
+        {
+          "word": "princesa",
+          "syllables": [
+            "prin",
+            "ce",
+            "sa"
+          ]
+        },
+        {
+          "word": "príncipes",
+          "syllables": [
+            "prín",
+            "ci",
+            "pes"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cera",
+          "syllables": [
+            "ce",
+            "ra"
+          ]
+        },
+        {
+          "word": "cima",
+          "syllables": [
+            "ci",
+            "ma"
+          ]
+        },
+        {
+          "word": "rama",
+          "syllables": [
+            "ra",
+            "ma"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "marajá",
+          "b": "marajá"
+        },
+        {
+          "a": "dois",
+          "b": "dois"
+        },
+        {
+          "a": "princesa",
+          "b": "princesa"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Lá para os lados da Malásia ou mais longe ainda, havia uma linda princesa, chamada Sita Devi.",
+        "Cada pretendente – gritava o arauto – tem de disparar uma flecha através de um renque de quarenta palmeiras, situadas nos jardins do…",
+        "Glória ao príncipe Sri Bama, futuro marido da Sita Devi!",
+        "E ria-se muito o marajá Ravana, porque achava isso impossível.",
+        "Lá longe, no palácio do Rajá Masicó, realizava-se no meio de grande pompa o casamento da princesa Sita Devi com o príncipe Sri Bama."
+      ]
+    }
+  ]
+}

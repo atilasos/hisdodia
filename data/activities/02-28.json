@@ -57,41 +57,33 @@
           ]
         },
         {
-          "word": "fome",
+          "word": "ninho",
           "syllables": [
-            "fo",
-            "me"
+            "ni",
+            "nho"
           ]
         },
         {
-          "word": "pensava",
+          "word": "ramo",
           "syllables": [
-            "pen",
-            "sa",
-            "va"
+            "ra",
+            "mo"
           ]
         }
       ],
       "recombine": [
         {
-          "word": "mesa",
+          "word": "mora",
           "syllables": [
-            "me",
-            "sa"
+            "mo",
+            "ra"
           ]
         },
         {
-          "word": "mesas",
+          "word": "ranho",
           "syllables": [
-            "me",
-            "sas"
-          ]
-        },
-        {
-          "word": "pensa",
-          "syllables": [
-            "pen",
-            "sa"
+            "ra",
+            "nho"
           ]
         }
       ]

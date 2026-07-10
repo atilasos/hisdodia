@@ -1,0 +1,131 @@
+{
+  "id": "08-11",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhor",
+          "distractors": [
+            "pulga",
+            "quartos",
+            "balcão"
+          ],
+          "sentence": "D epois do almoço, altura de menor movimento na estalagem, o senhor Pestana, protegido pelo balcão da entrada, lia tranquilamente o seu…"
+        },
+        {
+          "target": "pulga",
+          "distractors": [
+            "senhor",
+            "balcão",
+            "jornal"
+          ],
+          "sentence": "Para não prolongar o mistério, vamos já esclarecer que o corpo desta voz tinha o tamanho de uma pulga."
+        },
+        {
+          "target": "quartos",
+          "distractors": [
+            "senhor",
+            "balcão",
+            "hóspedes"
+          ],
+          "sentence": "Se, nos respectivos quartos, os hóspedes faziam a sua sesta, porque não havia o hospedeiro de fazer o mesmo?"
+        },
+        {
+          "target": "estalagem",
+          "distractors": [
+            "hóspedes",
+            "perguntou",
+            "privativo"
+          ],
+          "sentence": "Está em jogo a reputação da minha estalagem."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "pulga",
+          "syllables": [
+            "pul",
+            "ga"
+          ]
+        },
+        {
+          "word": "estalagem",
+          "syllables": [
+            "es",
+            "ta",
+            "la",
+            "gem"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "estala",
+          "syllables": [
+            "es",
+            "ta",
+            "la"
+          ]
+        },
+        {
+          "word": "gala",
+          "syllables": [
+            "ga",
+            "la"
+          ]
+        },
+        {
+          "word": "gata",
+          "syllables": [
+            "ga",
+            "ta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "pulga",
+          "b": "pulga"
+        },
+        {
+          "a": "quartos",
+          "b": "quartos"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "D epois do almoço, altura de menor movimento na estalagem, o senhor Pestana, protegido pelo balcão da entrada, lia tranquilamente o seu…",
+        "Para não prolongar o mistério, vamos já esclarecer que o corpo desta voz tinha o tamanho de uma pulga.",
+        "Nos nossos passeios, deslocamo-nos sempre de cão.",
+        "Está em jogo a reputação da minha estalagem.",
+        "O senhor Pestana também não se importava."
+      ]
+    }
+  ]
+}

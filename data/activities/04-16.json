@@ -1,0 +1,122 @@
+{
+  "id": "04-16",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "sapatos",
+          "distractors": [
+            "senhor",
+            "perdeu",
+            "depois"
+          ],
+          "sentence": "O senhor Túlio perdeu os sapatos novos que tinha comprado, na Feira de Almeirim."
+        },
+        {
+          "target": "senhor",
+          "distractors": [
+            "sapatos",
+            "perdeu",
+            "depois"
+          ],
+          "sentence": "Passar por esta trapalhada terá custado ao senhor Túlio muito mais."
+        },
+        {
+          "target": "perdeu",
+          "distractors": [
+            "sapatos",
+            "senhor",
+            "depois"
+          ],
+          "sentence": "Mas o que é grave é que os perdeu depois de os ter calçado."
+        },
+        {
+          "target": "depois",
+          "distractors": [
+            "sapatos",
+            "senhor",
+            "perdeu"
+          ],
+          "sentence": "E ainda muitíssimo mais grave é que, depois que os perdeu, teve de voltar descalço para casa."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "sapatos",
+          "syllables": [
+            "sa",
+            "pa",
+            "tos"
+          ]
+        },
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "perdeu",
+          "syllables": [
+            "per",
+            "deu"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "patos",
+          "syllables": [
+            "pa",
+            "tos"
+          ]
+        },
+        {
+          "word": "persa",
+          "syllables": [
+            "per",
+            "sa"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "sapatos",
+          "b": "sapatos"
+        },
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "perdeu",
+          "b": "perdeu"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O senhor Túlio perdeu os sapatos novos que tinha comprado, na Feira de Almeirim.",
+        "À beira de um riacho, aliviou-se dos malditos, que lhe apertavam os joanetes, tirou as peúgas, arregaçou as calças, e foi refrescar os…",
+        "O senhor Túlio não sabia explicar a situação.",
+        "Está visto que o tipo que os levou tinha quatro patas, o grande burro.",
+        "De tudo o senhor Túlio tira proveito da lição e até os seus próprios pés ele gosta de ensinar."
+      ]
+    }
+  ]
+}

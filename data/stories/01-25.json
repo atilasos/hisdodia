@@ -4,14 +4,37 @@
   "day": 25,
   "dateLabel": "25 de Janeiro",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 25 de Janeiro",
+  "title": "A Flor e o Sino",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "C omo é que uma flor e um sino podem caber na mesma história?",
+        "Há-de ser difícil. A flor tão rasteira e o sino tão alto nada têm a ver um com o outro. Hão-de pertencer a histórias diferentes.",
+        "Talvez sim e talvez não…",
+        "A flor tinha acordado, na ponta de um caule, quando o sino se pôs a badalar. Abriu-se de espanto, porque nunca tinha ouvido música assim: tlim-dlão-dlim…",
+        "Mas tudo tem uma lógica, um começo, um antes do que está para vir. Nós contamos.",
+        "A erva donde a flor nascera tinha rompido a terra como um dedo espetado, que quer chamar a atenção:",
+        "– Perguntem-me porque nasci – gritava a erva, numa vozinha de erva-fina.",
+        "Ninguém lhe perguntava.",
+        "E ela, impaciente, sempre na sua:",
+        "– Perguntem-me porque nasci. Perguntem-me.",
+        "Estávamos bem servidos, se tivéssemos de dar conversa a todas as ervas do caminho…",
+        "– Então, não querem saber? Perguntem-me – teimava a erva.",
+        "Fartos de ouvi-la, debruçámo-nos, enfim, para a ervinha. Logo ela, muito direita, na sua importância de erva fresca, nos disse:",
+        "– Nasci, sabem porquê? Nasci para dar uma flor.",
+        "Olha a admiração! Nisto o sino, tlim-dlão-dlim, tlim-dlão-dlim, e apareceu a flor.",
+        "– Quem me chama? Quem me chama? – perguntou a flor, que nasceu a falar.",
+        "O sino anunciava um casamento. Era o José mais a Maria que iam casar.",
+        "O noivo, antes de entrar na igreja, colheu, à beira da estrada, uma flor com que enfeitou a lapela. Logo, por coincidência, a flor que tinha acabado de nascer.",
+        "Aí têm como um sino e uma flor podem caber na mesma história. Mas não acaba aqui.",
+        "Passado tempo, a flor desprendeu-se da lapela. Já tinha dado um ar da sua graça.",
+        "Secou, desfez-se, juntou-se à terra. É sempre assim.",
+        "Na Primavera seguinte, mais coisa menos coisa, o sino outra vez a badalar: tlim-dlão-dlim, tlim-dlão-dlim. Desta vez, era um baptizado, o do menino José Maria, filho de Maria e do José.",
+        "Depois, houve boda. No centro da mesa, um grande ramo de flores campestres, iguais à que viveu nesta história.",
+        "Tudo se multiplica. Pelos tempos fora, o sino vai voltar a bater e as flores a crescer. É uma história que não acaba."
       ]
     }
   ],
@@ -25,22 +48,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/01/25/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

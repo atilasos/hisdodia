@@ -1,8 +1,121 @@
 {
   "id": "07-20",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "termas",
+          "distractors": [
+            "hotel",
+            "jogar",
+            "pessoas"
+          ],
+          "sentence": "Saiba quem não souber que as termas são lugares tranquilos, onde descansam dos sobressaltos da cidade os que precisam de descansar e…"
+        },
+        {
+          "target": "hotel",
+          "distractors": [
+            "termas",
+            "jogar",
+            "idade"
+          ],
+          "sentence": "Até que, à entrada do hotel, descobriu um rapazinho tão desamparado quanto ele."
+        },
+        {
+          "target": "respondeu",
+          "distractors": [
+            "perguntou",
+            "precisam",
+            "carrinhos"
+          ],
+          "sentence": "Sou do Sporting – respondeu o Guilherme."
+        },
+        {
+          "target": "pessoas",
+          "distractors": [
+            "termas",
+            "perguntou",
+            "precisam"
+          ],
+          "sentence": "As pessoas que vão para as termas conversam, lêem e, sobretudo, repousam."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "termas",
+          "syllables": [
+            "ter",
+            "mas"
+          ]
+        },
+        {
+          "word": "respondeu",
+          "syllables": [
+            "res",
+            "pon",
+            "deu"
+          ]
+        },
+        {
+          "word": "idade",
+          "syllables": [
+            "i",
+            "da",
+            "de"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dares",
+          "syllables": [
+            "da",
+            "res"
+          ]
+        },
+        {
+          "word": "deres",
+          "syllables": [
+            "de",
+            "res"
+          ]
+        },
+        {
+          "word": "responda",
+          "syllables": [
+            "res",
+            "pon",
+            "da"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "termas",
+          "b": "termas"
+        },
+        {
+          "a": "hotel",
+          "b": "hotel"
+        },
+        {
+          "a": "respondeu",
+          "b": "respondeu"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +125,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Saiba quem não souber que as termas são lugares tranquilos, onde descansam dos sobressaltos da cidade os que precisam de descansar e…",
+        "E o Joca, logo às primeiras, quis saber coisas do Guilherme, assim se chamava o outro garotinho.",
+        "Só nós os dois não tem graça – respondeu o Guilherme.",
+        "Ia a passar um vendedor de gelados, a apregoar a cantiguinha tentadora, que todos nós bem conhecemos.",
+        "E cada um foi comprar um gelado de morango."
+      ]
     }
   ]
 }

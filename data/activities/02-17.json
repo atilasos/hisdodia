@@ -64,27 +64,26 @@
           ]
         },
         {
-          "word": "tamanho",
+          "word": "bicho",
           "syllables": [
-            "ta",
-            "ma",
-            "nho"
+            "bi",
+            "cho"
           ]
         }
       ],
       "recombine": [
         {
-          "word": "coma",
+          "word": "bico",
           "syllables": [
-            "co",
-            "ma"
+            "bi",
+            "co"
           ]
         },
         {
-          "word": "mata",
+          "word": "choco",
           "syllables": [
-            "ma",
-            "ta"
+            "cho",
+            "co"
           ]
         }
       ]

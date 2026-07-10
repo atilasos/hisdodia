@@ -1,0 +1,121 @@
+{
+  "id": "09-19",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "homem",
+          "distractors": [
+            "touro",
+            "correr",
+            "atrás"
+          ],
+          "sentence": "I a um homem a correr por uma extensa planície relvada, que nem cem campos de futebol, uns a seguir aos outros."
+        },
+        {
+          "target": "touro",
+          "distractors": [
+            "homem",
+            "correr",
+            "atrás"
+          ],
+          "sentence": "A sombra do homem e a sombra do touro deslizavam pelo chão, quase a tocarem-se."
+        },
+        {
+          "target": "correr",
+          "distractors": [
+            "homem",
+            "touro",
+            "sozinho"
+          ],
+          "sentence": "Ia o homem a bom correr, mas não ia sozinho."
+        },
+        {
+          "target": "sozinho",
+          "distractors": [
+            "correr",
+            "árvore",
+            "socorro"
+          ],
+          "sentence": "Se queres que eu te traga o Sol, outra vez, deixa-me seguir, sozinho, naquela direcção – e o homem apontava o sentido contrário ao Sol…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "homem",
+          "syllables": [
+            "ho",
+            "mem"
+          ]
+        },
+        {
+          "word": "touro",
+          "syllables": [
+            "tou",
+            "ro"
+          ]
+        },
+        {
+          "word": "correr",
+          "syllables": [
+            "cor",
+            "rer"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "corro",
+          "syllables": [
+            "cor",
+            "ro"
+          ]
+        },
+        {
+          "word": "cortou",
+          "syllables": [
+            "cor",
+            "tou"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "homem",
+          "b": "homem"
+        },
+        {
+          "a": "touro",
+          "b": "touro"
+        },
+        {
+          "a": "correr",
+          "b": "correr"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "I a um homem a correr por uma extensa planície relvada, que nem cem campos de futebol, uns a seguir aos outros.",
+        "Mas também não havia buracos, naquela planície lisa.",
+        "Se continuas a perseguir-me, roubo-te o Sol – gritou o homem, num último alento.",
+        "Se queres que eu te traga o Sol, outra vez, deixa-me seguir, sozinho, naquela direcção – e o homem apontava o sentido contrário ao Sol…",
+        "Na manhã seguinte, o Sol, tal como o homem tinha prometido, voltou a aquecer o touro e a planície, a perder de vista."
+      ]
+    }
+  ]
+}

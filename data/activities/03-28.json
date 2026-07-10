@@ -1,0 +1,130 @@
+{
+  "id": "03-28",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "sapatos",
+          "distractors": [
+            "sempre",
+            "coisas",
+            "irmãos"
+          ],
+          "sentence": "Pois, no outro dia, o meu amigo apareceu com sapatos novos."
+        },
+        {
+          "target": "amigo",
+          "distractors": [
+            "sempre",
+            "razão",
+            "ficou"
+          ],
+          "sentence": "Quem conta esta história é o nosso amigo Flávio."
+        },
+        {
+          "target": "sempre",
+          "distractors": [
+            "sapatos",
+            "amigo",
+            "razão"
+          ],
+          "sentence": "Temos quase a mesma idade, gostamos das mesmas coisas, jogamos sempre pela mesma equipa, conversamos muito."
+        },
+        {
+          "target": "razão",
+          "distractors": [
+            "amigo",
+            "sempre",
+            "ficou"
+          ],
+          "sentence": "Explicaram-me, em minha casa, que isto tem a sua razão de ser."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "sapatos",
+          "syllables": [
+            "sa",
+            "pa",
+            "tos"
+          ]
+        },
+        {
+          "word": "amigo",
+          "syllables": [
+            "a",
+            "mi",
+            "go"
+          ]
+        },
+        {
+          "word": "sempre",
+          "syllables": [
+            "sem",
+            "pre"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "pago",
+          "syllables": [
+            "pa",
+            "go"
+          ]
+        },
+        {
+          "word": "patos",
+          "syllables": [
+            "pa",
+            "tos"
+          ]
+        },
+        {
+          "word": "prego",
+          "syllables": [
+            "pre",
+            "go"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "sapatos",
+          "b": "sapatos"
+        },
+        {
+          "a": "amigo",
+          "b": "amigo"
+        },
+        {
+          "a": "sempre",
+          "b": "sempre"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Quem conta esta história é o nosso amigo Flávio.",
+        "Como calculam, o Marcelino não é um menino rico.",
+        "Bem razão tinha eu em dizer que os sapatos me pertenciam.",
+        "Com que então com os meus sapatos, seu felizardo!",
+        "No dia seguinte, o Marcelino voltou à escola com os velhos sapatos bambos."
+      ]
+    }
+  ]
+}

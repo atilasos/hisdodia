@@ -1,0 +1,134 @@
+{
+  "id": "02-24",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "espelho",
+          "distractors": [
+            "retrato",
+            "senhor",
+            "mulher"
+          ],
+          "sentence": "Ia a passar por uma loja e viu, na montra, um espelho."
+        },
+        {
+          "target": "retrato",
+          "distractors": [
+            "espelho",
+            "senhor",
+            "mulher"
+          ],
+          "sentence": "Nem mais nem menos do que o retrato do meu pai."
+        },
+        {
+          "target": "senhor",
+          "distractors": [
+            "espelho",
+            "retrato",
+            "mulher"
+          ],
+          "sentence": "Uma vez, o senhor Chamisso, lá da aldeia, foi à cidade."
+        },
+        {
+          "target": "mulher",
+          "distractors": [
+            "espelho",
+            "retrato",
+            "senhor"
+          ],
+          "sentence": "A mulher calçou os chinelos e, ainda desgrenhada e mal pronta, foi ver."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "espelho",
+          "syllables": [
+            "es",
+            "pe",
+            "lho"
+          ]
+        },
+        {
+          "word": "retrato",
+          "syllables": [
+            "re",
+            "tra",
+            "to"
+          ]
+        },
+        {
+          "word": "cidade",
+          "syllables": [
+            "ci",
+            "da",
+            "de"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "estrada",
+          "syllables": [
+            "es",
+            "tra",
+            "da"
+          ]
+        },
+        {
+          "word": "pedacito",
+          "syllables": [
+            "pe",
+            "da",
+            "ci",
+            "to"
+          ]
+        },
+        {
+          "word": "pede",
+          "syllables": [
+            "pe",
+            "de"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "espelho",
+          "b": "espelho"
+        },
+        {
+          "a": "retrato",
+          "b": "retrato"
+        },
+        {
+          "a": "senhor",
+          "b": "senhor"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma aldeia longe de tudo, onde nada chegava.",
+        "O pai do senhor Chamisso tinha morrido há anos e não era de estranhar que o filho estivesse parecido com ele.",
+        "A mulher calçou os chinelos e, ainda desgrenhada e mal pronta, foi ver.",
+        "Só queria que a mãe visse a feiosa que ela é, toda mal pronta e esguedelhada.",
+        "Naquela família continuaram a não saber o que era um espelho…"
+      ]
+    }
+  ]
+}

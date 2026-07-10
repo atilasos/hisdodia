@@ -1,0 +1,130 @@
+{
+  "id": "08-26",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "ovos",
+          "distractors": [
+            "galo",
+            "vinte",
+            "choco"
+          ],
+          "sentence": "Teimava a galinácea que seria capaz de chocar de uma só vez trinta ovos e de fazer assim nascer, sem tirar nem pôr, trinta pintainhos…"
+        },
+        {
+          "target": "galo",
+          "distractors": [
+            "ovos",
+            "vinte",
+            "choco"
+          ],
+          "sentence": "Quem os acondicionara no ninho, que a galinha cobria, tinha sido a Dona Gertrudes, dona da galinha, do galo e do galinheiro todo, onde…"
+        },
+        {
+          "target": "vinte",
+          "distractors": [
+            "ovos",
+            "galo",
+            "choco"
+          ],
+          "sentence": "Consta-me que pertence a uma galinha australiana que deu à luz vinte e nove pintos, num único choco."
+        },
+        {
+          "target": "choco",
+          "distractors": [
+            "ovos",
+            "galo",
+            "vinte"
+          ],
+          "sentence": "Estavam seguros, seguríssimos, da impecável qualidade dos ovos, dispostos para o choco."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "ovos",
+          "syllables": [
+            "o",
+            "vos"
+          ]
+        },
+        {
+          "word": "galo",
+          "syllables": [
+            "ga",
+            "lo"
+          ]
+        },
+        {
+          "word": "cabeça",
+          "syllables": [
+            "ca",
+            "be",
+            "ça"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "belo",
+          "syllables": [
+            "be",
+            "lo"
+          ]
+        },
+        {
+          "word": "cabe",
+          "syllables": [
+            "ca",
+            "be"
+          ]
+        },
+        {
+          "word": "cabelo",
+          "syllables": [
+            "ca",
+            "be",
+            "lo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "ovos",
+          "b": "ovos"
+        },
+        {
+          "a": "galo",
+          "b": "galo"
+        },
+        {
+          "a": "vinte",
+          "b": "vinte"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Aquele jornalista das perguntas, que já conhecem, foi entrevistar uma galinha, mas uma galinha especial.",
+        "E tem a certeza que os ovos estão todos em condições de ser chocados?",
+        "Lá que a galinha se esforçava ninguém duvida.",
+        "Record mundial: \"Trinta pintos para uma galinha\", já via ele, em grossas letras, na primeira página.",
+        "E foi assim que esta esforçada galinha não entrou no Guinness, o livro dos recordes."
+      ]
+    }
+  ]
+}

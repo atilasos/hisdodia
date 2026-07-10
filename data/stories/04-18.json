@@ -4,14 +4,34 @@
   "day": 18,
   "dateLabel": "18 de Abril",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 18 de Abril",
+  "title": "Manuel e os Pássaros",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "No tempo em que os meninos trabalhavam de criados, havia uma patroa muito má que tomara a seu serviço um rapazinho, o Manuel, a quem dava ordens por tudo e por nada, qual delas a mais disparatada.",
+        "No quintal, a senhora dona tinha uma figueira que, nesse ano, dera um único figo. Pois não é que a maluca da mulher exigiu ao Manuel que estivesse todo o tempo de atalaia, não se desse o caso de os pássaros cobiçarem o figuinho?",
+        "– Quero comê-lo, quando estiver maduro. Ai de ti, se deixares os melros roubarem-no.",
+        "Bem os afugentava o garoto, mas os passarocos de bico cor de laranja são teimosos. E gulosos... Às duas por três, adeus figuinho.",
+        "– Maldito miúdo. Vais pagar-mas – gritou a megera.",
+        "E meteu-o de castigo numa pipa vazia, às escuras. Sorte para o Manuel que os melros tivessem sabido. Logo convocaram os pica-paus e outros passarinhos de bico duro. Todos juntos, toc toc toc, libertaram o Manelinho.",
+        "Depois, uma águia, que também tinha sido chamada para ajudar, levantou o rapazinho nos ares.",
+        "A patroa viu-os e foi buscar uma caçadeira, mas já não chegou a tempo. Era mesmo má a criatura.",
+        "A águia sobrevoou montes, campos, pinhais, aldeias, como se andasse à procura não se sabe de quê, até que poisou o Manuel num quintal, onde havia uma figueira. Depois, bateu as asas e desapareceu.",
+        "O rapaz, ainda meio tonto, viu a figueira e nela um único figo lampo. \"Que desgraça a minha. Vai voltar tudo ao princípio\", pensou o Manuel.",
+        "De dentro da casa, donde era o quintal, apareceu uma velhota. O miúdo encolheu-se e pensou: \"Estou mesmo com azar. Esta há-de ser ainda mais torta do que a outra\".",
+        "– Como te chamas? – perguntou a velha.",
+        "– Manuel, para a servir.",
+        "– Para me servires? – riu-se a velha, num riso desdentado. – Eu nunca tive criados, mas querendo, podes ficar a cuidar-me da horta. Queres?",
+        "– Sim, minha senhora.",
+        "– Estamos acertados. E, olha, enquanto te preparo umas sopas, lambe-te com aquele figuinho único que a figueira me deu.",
+        "– A senhora não o quer para si?",
+        "A velhota fez uma careta.",
+        "– Não me dou bem com figos e tu puseste-te a olhar para ele como nunca vi ninguém olhar para um figo. Deve ser da fome que trazes.",
+        "O Manuel chamou a si o figo e pronto. Enquanto saboreava o figo e a velhinha, enternecida, sorria para ele, o Manuel pensou: \"Valera a pena conhecer as alturas, porque a águia sabia onde me deixava.\"",
+        "Também estamos em crer que sim. As águias, lá de cima, vêem muito, olá se vêem."
       ]
     }
   ],
@@ -25,23 +45,23 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/04/18/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido.",
-    "A referência de impressão arquivada é uma página anti-bot em HTML, não o PDF original, pelo que foi anulada."
+    "A referência de impressão arquivada é uma página anti-bot em HTML, não o PDF original, pelo que foi anulada.",
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

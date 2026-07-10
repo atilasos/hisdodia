@@ -1,0 +1,129 @@
+{
+  "id": "09-18",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "lobo",
+          "distractors": [
+            "casa",
+            "forte",
+            "força"
+          ],
+          "sentence": "Entre a raposa e o lobo, qual é o mais forte?"
+        },
+        {
+          "target": "raposa",
+          "distractors": [
+            "forte",
+            "força",
+            "andava"
+          ],
+          "sentence": "Mais forte, mais forte é o lobo, mas mais esperta é a raposa."
+        },
+        {
+          "target": "casa",
+          "distractors": [
+            "lobo",
+            "forte",
+            "força"
+          ],
+          "sentence": "Andava uma raposa à procura de sítio onde fazer uma casa."
+        },
+        {
+          "target": "força",
+          "distractors": [
+            "lobo",
+            "raposa",
+            "casa"
+          ],
+          "sentence": "E o que vale mais: a esperteza ou a força?"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "lobo",
+          "syllables": [
+            "lo",
+            "bo"
+          ]
+        },
+        {
+          "word": "raposa",
+          "syllables": [
+            "ra",
+            "po",
+            "sa"
+          ]
+        },
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "boca",
+          "syllables": [
+            "bo",
+            "ca"
+          ]
+        },
+        {
+          "word": "bolo",
+          "syllables": [
+            "bo",
+            "lo"
+          ]
+        },
+        {
+          "word": "cabo",
+          "syllables": [
+            "ca",
+            "bo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "lobo",
+          "b": "lobo"
+        },
+        {
+          "a": "raposa",
+          "b": "raposa"
+        },
+        {
+          "a": "casa",
+          "b": "casa"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Entre a raposa e o lobo, qual é o mais forte?",
+        "Andava uma raposa à procura de sítio onde fazer uma casa.",
+        "Quando, por sua vez, veio a raposa e viu a casa pronta, meteu-se lá dentro.",
+        "Um dia, que andava no mato, encontrou um lobo morto, talvez fugido dos caçadores.",
+        "Afinal o que vale mais: a força ou a esperteza?"
+      ]
+    }
+  ]
+}

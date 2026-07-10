@@ -1,0 +1,129 @@
+{
+  "id": "04-17",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "rato",
+          "distractors": [
+            "mocho",
+            "ficou",
+            "alta"
+          ],
+          "sentence": "Uma vez o coelho e o rato encontraram-se."
+        },
+        {
+          "target": "mocho",
+          "distractors": [
+            "rato",
+            "coelho",
+            "ficou"
+          ],
+          "sentence": "Como pensava em voz alta, o mocho ouviu tudo e agitou-se, no seu poleiro."
+        },
+        {
+          "target": "coelho",
+          "distractors": [
+            "mocho",
+            "ficou",
+            "sozinho"
+          ],
+          "sentence": "Tu tens os dentes da frente um bocado saídos – observou o rato para o coelho."
+        },
+        {
+          "target": "ficou",
+          "distractors": [
+            "rato",
+            "mocho",
+            "coelho"
+          ],
+          "sentence": "O rato ficou sozinho, mas por pouco tempo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "rato",
+          "syllables": [
+            "ra",
+            "to"
+          ]
+        },
+        {
+          "word": "mocho",
+          "syllables": [
+            "mo",
+            "cho"
+          ]
+        },
+        {
+          "word": "coelho",
+          "syllables": [
+            "co",
+            "e",
+            "lho"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "choco",
+          "syllables": [
+            "cho",
+            "co"
+          ]
+        },
+        {
+          "word": "chora",
+          "syllables": [
+            "cho",
+            "ra"
+          ]
+        },
+        {
+          "word": "molho",
+          "syllables": [
+            "mo",
+            "lho"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "rato",
+          "b": "rato"
+        },
+        {
+          "a": "mocho",
+          "b": "mocho"
+        },
+        {
+          "a": "coelho",
+          "b": "coelho"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Uma vez o coelho e o rato encontraram-se.",
+        "Tu tens a cauda muito comprida – observou o rato para a lagartixa.",
+        "Não fazes amigos, porque não olhas a bem para eles.",
+        "Quando encontrar a rã vou dizer-lhe que gostava de ter a pele escorregadiça e fria como a dela.",
+        "Se em vez de ter estado a aturá-lo o tivesse comido, eu tinha feito melhor."
+      ]
+    }
+  ]
+}

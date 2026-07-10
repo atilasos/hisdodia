@@ -4,14 +4,29 @@
   "day": 12,
   "dateLabel": "12 de Julho",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 12 de Julho",
+  "title": "O Peixe Tolo",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "O peixe-espada gostava de ser espingarda, bazuca, metralhadora... Espada é que não.",
+        "– Está fora de moda, nas guerras de agora.",
+        "E perguntara aos outros peixes se peixe-metralhadora lhes soava bem. Eles, que o achavam um bacoco peixe taralhoco, diziam-lhe a tudo que sim, mas a rirem de troça. O peixe-espada é que não dava por isso, incorrigível na sua ideia de trocar a espada por arma mais actual. Que grande tolo!",
+        "– Quem poderá mudar-me o nome? – perguntava ele, a torto e a direito.",
+        "– Talvez a santola saiba – respondiam-lhe, só para despachá-lo.",
+        "A santola ganhara fama de sábia, vai-se lá saber porquê. E da fama tirava bom proveito.",
+        "Exposta a pretensão à santola, disse-lhe ela:",
+        "– Foram os homens que te deram, dantes, esse nome, a condizer com o teu feitio. Não vejo quem mais possa trocar-te o nome senão eles.",
+        "Afinal, à santola não faltava sabedoria.",
+        "– Então, como é que eu faço?",
+        "– Tanto não sei – respondeu a santola. – Não te aconselho a meteres-te numa dessas redes que, de vez em quando, eles lançam, mas a decisão é tua.",
+        "Está-se mesmo a ver o que o peixe-espada decidiu. Meteu-se mesmo numa das redes, onde já se debatiam outros peixes, que, evidentemente, ali tinham ido parar de má vontade. Cardumes de carapaus, sardinhas, sardas e chicharros. O único que ali estava muito feliz era o peixe-espada.",
+        "– Eles puxam a rede e, chegando lá acima, ao primeiro homem que encontrar exijo que me dê um nome mais moderno. Peixe-foguetão é que estava a calhar-me.",
+        "Quando os pescadores puxaram as redes e os peixes e peixinhos começaram a saltar no convés, um dos homens, vendo, no meio deles, o desgraçado herói desta história, exclamou:",
+        "– Que belo peixe-espada. É um espadão!",
+        "Mas o infeliz já não ouviu o elogio. E, mesmo que ainda estivesse vivo, talvez não gostasse."
       ]
     }
   ],
@@ -25,22 +40,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/07/12/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

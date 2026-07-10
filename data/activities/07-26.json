@@ -1,8 +1,120 @@
 {
   "id": "07-26",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "casa",
+          "distractors": [
+            "netos",
+            "contar",
+            "caminho"
+          ],
+          "sentence": "Ia para contar uma história, mas no caminho para casa ou lá onde fosse esqueci-me."
+        },
+        {
+          "target": "netos",
+          "distractors": [
+            "casa",
+            "espera",
+            "sempre"
+          ],
+          "sentence": "Ia visitar os netos e não tinha nada para lhes levar."
+        },
+        {
+          "target": "perdida",
+          "distractors": [
+            "espera",
+            "imaginar",
+            "sempre"
+          ],
+          "sentence": "Afinal, sempre se aproveitou a minha história perdida."
+        },
+        {
+          "target": "espera",
+          "distractors": [
+            "netos",
+            "perdida",
+            "sempre"
+          ],
+          "sentence": "Mas como é que as pessoas vão dar com a minha história, se andam por aí tantas histórias pela rua, ao desamparo, só à espera de alguém…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        },
+        {
+          "word": "netos",
+          "syllables": [
+            "ne",
+            "tos"
+          ]
+        },
+        {
+          "word": "perdida",
+          "syllables": [
+            "per",
+            "di",
+            "da"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "casada",
+          "syllables": [
+            "ca",
+            "sa",
+            "da"
+          ]
+        },
+        {
+          "word": "perca",
+          "syllables": [
+            "per",
+            "ca"
+          ]
+        },
+        {
+          "word": "perda",
+          "syllables": [
+            "per",
+            "da"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "casa",
+          "b": "casa"
+        },
+        {
+          "a": "netos",
+          "b": "netos"
+        },
+        {
+          "a": "perdida",
+          "b": "perdida"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +124,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Ia para contar uma história, mas no caminho para casa ou lá onde fosse esqueci-me.",
+        "Não, que não era história para adormecer.",
+        "Vou amanhã a um jornal e ponho um anúncio: HISTÓRIA PERDEU-SE.",
+        "Podia, por exemplo, imaginar que a minha história, depois de ter andado ao acaso, foi ter a um jardim, onde estava uma senhora de…",
+        "Afinal, sempre se aproveitou a minha história perdida."
+      ]
     }
   ]
 }

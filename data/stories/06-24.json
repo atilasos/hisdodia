@@ -4,14 +4,34 @@
   "day": 24,
   "dateLabel": "24 de Junho",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 24 de Junho",
+  "title": "Era para Ser",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Há muitos monstros nesta história. É um aviso, a tempo. Não querendo, não conto.",
+        "Estava a apetecer-me, mas desisto. Mudo para uma história sem monstros. Pronto, acabou-se. Ele há tantas histórias por contar...",
+        "Por sinal que nesta até havia monstros simpáticos. Coitados. Que culpa tinham eles, se os enfiaram a todos na mesma história, empurrados, varridos, enxotados, expulsos, desterrados das histórias onde estão proibidos os monstros.",
+        "A monte, num grande aperto, ogres, lobisomens, monstrengos e gigantones eram um espectáculo desolador.",
+        "Já não metiam medo. Quanto muito, metiam dó.",
+        "– Prestamos para nada – dizia um gigantão, com um olho só, no meio da testa. – É que ninguém, ninguém, ninguém nos liga.",
+        "E tinha razão o ciclope. Limpou uma lágrima que lhe escorria do olho único e fungou, que nem um menino amuado.",
+        "Como os monstros não se assustam uns aos outros, que préstimo tinham, ali acocorados, de cabeça baixa, a limparem as unhas, feitos monos?",
+        "– Só se fizéssemos um concurso. Elegíamos a Miss ou o Mister Monstro, que tinha de ser o mais feio de nós todos – sugeriu um lobisomem horrendo, com uma secreta esperança de ganhar. – Convocávamos a televisão e fazíamos um grande desfile.",
+        "Em resposta, um ogre, que estava perto, fez uma pavorosa careta de incredulidade.",
+        "– Concursos só se forem de beleza. A televisão não se interessa por concursos de fealdade.",
+        "Enganava-se. Este ogre estava pouco a par da programação televisiva. Não há nada mais na moda do que concursos de monstros e de monstruosidades.",
+        "Houve logo uma estação que pegou na ideia. E exigiu exclusivo.",
+        "– Preparem tudo em segredo, para que não haja fuga de informações nem copianços – recomendou o director do canal televisivo.",
+        "– Mas isso não era possível, porque estamos cá todos. Não há mais monstros por fora – disseram os monstros.",
+        "– Vocês esquecem-se de que a concorrência é terrível e bem capaz de inventar um concurso de falsos monstros – lembrou o director da estação, que sabia do que falava.",
+        "Mas, afinal, não chegou a haver concurso, para grande desolação dos monstros concorrentes. Sabem porquê? Porque não se conseguiu juntar um júri à altura.",
+        "Os jurados ou se amedrontavam ou desatavam a rir, para não se amedrontarem. Vieram levas sucessivas, à experiência, de óculos escuros, sem óculos escuros, de lenço ao pescoço, sem lenço ao pescoço, e ninguém ficou para as provas finais.",
+        "Em conclusão: os monstros voltaram ao mesmo desânimo. Se os deixassem passear, nem que fosse só um bocadinho, entrada por saída, vou ali e já venho, pelas histórias donde tinham sido expulsos, talvez arribassem, ganhassem melhor parecer, mais verdes, mais escamosos, mais peludos...",
+        "Qual quê! Ninguém os pode convidar para semelhante passeio. Até eu, que, às vezes, tenho ganas de contar histórias de monstros, sou sempre obrigado a desistir. Como agora.",
+        "Em segredo, aqui para nós, talvez volte a tentar, lá mais para diante."
       ]
     }
   ],
@@ -27,22 +47,22 @@
     ]
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/06/24/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

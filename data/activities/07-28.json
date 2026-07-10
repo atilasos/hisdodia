@@ -1,8 +1,115 @@
 {
   "id": "07-28",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "neve",
+          "distractors": [
+            "país",
+            "conta",
+            "agora"
+          ],
+          "sentence": "Há aquela história de um boneco de neve, que foi a uma agência de viagens..."
+        },
+        {
+          "target": "boneco",
+          "distractors": [
+            "conta",
+            "sombras",
+            "quente"
+          ],
+          "sentence": "O que quero é ir para um país quente – anunciou o boneco de neve."
+        },
+        {
+          "target": "país",
+          "distractors": [
+            "neve",
+            "conta",
+            "agora"
+          ],
+          "sentence": "Quero que me venda uma passagem de avião para um país que valha a pena – pediu ele ao balcão da agência de viagens."
+        },
+        {
+          "target": "empregado",
+          "distractors": [
+            "passagem",
+            "exclamou",
+            "temperado"
+          ],
+          "sentence": "Um país frio, naturalmente – concluiu, à sua própria conta, o empregado da agência."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "neve",
+          "syllables": [
+            "ne",
+            "ve"
+          ]
+        },
+        {
+          "word": "boneco",
+          "syllables": [
+            "bo",
+            "ne",
+            "co"
+          ]
+        },
+        {
+          "word": "empregado",
+          "syllables": [
+            "em",
+            "pre",
+            "ga",
+            "do"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "gado",
+          "syllables": [
+            "ga",
+            "do"
+          ]
+        },
+        {
+          "word": "pregado",
+          "syllables": [
+            "pre",
+            "ga",
+            "do"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "neve",
+          "b": "neve"
+        },
+        {
+          "a": "boneco",
+          "b": "boneco"
+        },
+        {
+          "a": "país",
+          "b": "país"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +119,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Há aquela história de um boneco de neve, que foi a uma agência de viagens...",
+        "Num país frio vivo eu, desde que me conheço.",
+        "Bilhete só de ida, naturalmente – concluiu, à sua própria conta, o empregado da agência.",
+        "A nossa agência não pode responsabilizar-se pelos acidentes e sobressaltos que possam ocorrer aos nossos clientes.",
+        "Ele preferia viajar incógnito, dentro da caixa frigorífica, mas nestas viagens turísticas nem tudo corre sempre à medida dos nossos desejos."
+      ]
     }
   ]
 }

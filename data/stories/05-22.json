@@ -4,14 +4,29 @@
   "day": 22,
   "dateLabel": "22 de Maio",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 22 de Maio",
+  "title": "Querendo, Dá-Se um Jeito...",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Era uma vez um cavalo de carrossel que andava a estudar para cavalo de circo. Não era fácil.",
+        "Era uma vez um galo de barro que andava a estudar para galo de capoeira.",
+        "Não era fácil.",
+        "Era uma vez uma boneca de plástico que andava a estudar para menina de carne e osso.",
+        "Não era fácil.",
+        "O cavalo de carrossel, o galo de barro e a boneca de plástico encontraram-se na mesma escola, onde se aprendem estas coisas.",
+        "– Parece que não mudamos de classe – disse o cavalo de carrossel. – Vamos reprovar. Ficar na mesma.",
+        "Estava muito desgostoso. Os outros também. Então a boneca de plástico sugeriu:",
+        "– Só se fossemos ter com quem nos inventou. Talvez nos desse um jeito.",
+        "E vieram ter comigo. Fiz-lhe a vontade. Com uma varinha mágica pus o cavalo de carrossel a saltar numa pista de circo, o galo de barro a depenicar numa capoeira e a boneca de plástico a brincar num recreio. Ficaram todos contentes.",
+        "Mas, passado um tempo, voltaram à minha oficina de artes mágicas.",
+        "O cavalo de circo queixava-se do chicote do domador, sempre a estalar à sua volta. O galo de penas queixava-se do facalhão da cozinheira, sempre a ameaçá-lo por tudo e por nada. A menina de carne e osso queixava-se de dores de ouvidos, de dentes, de garganta, sempre a importuná-la, sem quê nem porquê.",
+        "– Dantes, não sabíamos de chicotes nem de facalhões nem de dores – explicavam-se.",
+        "Em resumo: queriam voltar ao que eram dantes. Como eu tenho muita paciência e boa-vontade, transformei-os outra vez no que tinham sido – cavalo de carrossel, galo de barro, boneca de plástico. Mas disse-lhes:",
+        "– Não tornem a aparecer-me. Estou farto dos vossos caprichos. Não quero mais histórias com vocês. Acabou-se.",
+        "E acabou-se mesmo."
       ]
     }
   ],
@@ -27,22 +42,22 @@
     ]
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/05/22/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

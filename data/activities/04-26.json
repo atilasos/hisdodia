@@ -1,0 +1,121 @@
+{
+  "id": "04-26",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "olhos",
+          "distractors": [
+            "verdes",
+            "peixe",
+            "dois"
+          ],
+          "sentence": "A jovem princesa começou por surpreender-se com as falas de um peixe de olhos verdes."
+        },
+        {
+          "target": "verdes",
+          "distractors": [
+            "olhos",
+            "peixe",
+            "filhos"
+          ],
+          "sentence": "Com ajuda dos exércitos do sogro, o príncipe de olhos verdes recuperou o reino, aprisionou a cunhada e o irmão e reinou feliz em…"
+        },
+        {
+          "target": "peixe",
+          "distractors": [
+            "olhos",
+            "verdes",
+            "princesa"
+          ],
+          "sentence": "O bom príncipe bebeu e transformou-se em peixe."
+        },
+        {
+          "target": "princesa",
+          "distractors": [
+            "peixe",
+            "príncipe",
+            "varanda"
+          ],
+          "sentence": "Ficou num aquário, à cabeceira da cama da princesa, que logo se encantou por ele."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "olhos",
+          "syllables": [
+            "o",
+            "lhos"
+          ]
+        },
+        {
+          "word": "verdes",
+          "syllables": [
+            "ver",
+            "des"
+          ]
+        },
+        {
+          "word": "velho",
+          "syllables": [
+            "ve",
+            "lho"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "olho",
+          "syllables": [
+            "o",
+            "lho"
+          ]
+        },
+        {
+          "word": "velhos",
+          "syllables": [
+            "ve",
+            "lhos"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "olhos",
+          "b": "olhos"
+        },
+        {
+          "a": "verdes",
+          "b": "verdes"
+        },
+        {
+          "a": "peixe",
+          "b": "peixe"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Esta história passou-se na Índia, há muito tempo.",
+        "A feiticeira, casada com o mais velho, não gostou da escolha do sogro e maquinou um feitiço para afastar o cunhado rival.",
+        "Muitos peixes morreram antes de chegar ao palácio.",
+        "Pois eu gostava de ser homem, para poder estar ao teu lado – segredou-lhe o peixe.",
+        "Nestas histórias fica sempre muita coisa por contar..."
+      ]
+    }
+  ]
+}

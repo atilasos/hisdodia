@@ -64,33 +64,26 @@
           ]
         },
         {
-          "word": "bolo",
+          "word": "velas",
           "syllables": [
-            "bo",
-            "lo"
+            "ve",
+            "las"
           ]
         }
       ],
       "recombine": [
         {
-          "word": "bofes",
+          "word": "alas",
           "syllables": [
-            "bo",
-            "fes"
+            "a",
+            "las"
           ]
         },
         {
-          "word": "bota",
+          "word": "talas",
           "syllables": [
-            "bo",
-            "ta"
-          ]
-        },
-        {
-          "word": "lobo",
-          "syllables": [
-            "lo",
-            "bo"
+            "ta",
+            "las"
           ]
         }
       ]

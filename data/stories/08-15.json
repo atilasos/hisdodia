@@ -4,14 +4,29 @@
   "day": 15,
   "dateLabel": "15 de Agosto",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 15 de Agosto",
+  "title": "Cavalinho e Cavalo",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Ocavalinho foi ver o pai às corridas.",
+        "Tinham-lhe dito que o pai ia concorrer, na Grande Prova Internacional a Todo o Galope, e o cavalinho, que nunca tinha vencido a cerca do prado onde vivia, deu um salto e pronto. Estava do outro lado.",
+        "– Se fosse o meu pai, melhor ele saltaria – disse de si para si o cavalinho. – O meu pai é um grande saltador.",
+        "Um cavalo na estrada, sem cavaleiro nem atrelado, chama sempre a atenção. Um automóvel parou, ao pé dele.",
+        "– Ó cavalicoque, posso dar uma voltinha? – perguntou uma risonha voz de dentro do carro.",
+        "O cavalinho assustou-se e fugiu. Correu. O automóvel atrás dele.",
+        "Se não tivesse inflectido para um caminho de mau piso, o automóvel tinha-o apanhado. Assim, escapou.",
+        "– Se fosse o meu pai, melhor correria – disse de si para si o cavalinho. – O meu pai é um grande corredor.",
+        "Era o que se ia ver na tal Grande Prova a Todo o Galope. Postados, na linha de partida, cavaleiros e cavalos. Entre eles, o pai do cavalinho.",
+        "Desataram todos a correr ao mesmo tempo. Nem se percebia qual ia à frente, tanto o pó que levantavam.",
+        "– Deve ser o meu pai – dizia o cavalinho.",
+        "Fosse ou não fosse, o certo é que, numa curva, depois de terem saltado uma barreira, os cavalos tropeçaram uns nos outros e caíram. E magoaram-se. Entre eles, o pai do cavalinho.",
+        "Foi interrompida e anulada a corrida.",
+        "Agora de novo no prado com a cerca à volta, o cavalinho faz companhia ao pai, que coxeia, de perna ligada, para que se cure depressa.",
+        "– Se não tivesse havido aquela confusão, depois da barreira, tu é que tinhas ganho – disse-lhe o filho.",
+        "O cavalo de corrida faz que sim com a cabeça e relincha. O pescoço musculoso brilha como seda. As crinas ondeiam. É um lindo cavalo castanho, cor de terra molhada. O filho sai a ele."
       ]
     }
   ],
@@ -25,22 +40,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/08/15/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

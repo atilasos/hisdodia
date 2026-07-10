@@ -1,8 +1,111 @@
 {
   "id": "06-24",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "monstros",
+          "distractors": [
+            "ninguém",
+            "concurso",
+            "expulsos"
+          ],
+          "sentence": "Por sinal que nesta até havia monstros simpáticos."
+        },
+        {
+          "target": "ninguém",
+          "distractors": [
+            "monstros",
+            "grande",
+            "concurso"
+          ],
+          "sentence": "É que ninguém, ninguém, ninguém nos liga."
+        },
+        {
+          "target": "grande",
+          "distractors": [
+            "ninguém",
+            "contar",
+            "estação"
+          ],
+          "sentence": "A monte, num grande aperto, ogres, lobisomens, monstrengos e gigantones eram um espectáculo desolador."
+        },
+        {
+          "target": "concurso",
+          "distractors": [
+            "monstros",
+            "ninguém",
+            "contar"
+          ],
+          "sentence": "Vocês esquecem-se de que a concorrência é terrível e bem capaz de inventar um concurso de falsos monstros – lembrou o director da…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "monstros",
+          "syllables": [
+            "mons",
+            "tros"
+          ]
+        },
+        {
+          "word": "grande",
+          "syllables": [
+            "gran",
+            "de"
+          ]
+        },
+        {
+          "word": "contar",
+          "syllables": [
+            "con",
+            "tar"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "conde",
+          "syllables": [
+            "con",
+            "de"
+          ]
+        },
+        {
+          "word": "tarde",
+          "syllables": [
+            "tar",
+            "de"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "monstros",
+          "b": "monstros"
+        },
+        {
+          "a": "ninguém",
+          "b": "ninguém"
+        },
+        {
+          "a": "grande",
+          "b": "grande"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +115,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Por sinal que nesta até havia monstros simpáticos.",
+        "Como os monstros não se assustam uns aos outros, que préstimo tinham, ali acocorados, de cabeça baixa, a limparem as unhas, feitos monos?",
+        "Houve logo uma estação que pegou na ideia.",
+        "Mas, afinal, não chegou a haver concurso, para grande desolação dos monstros concorrentes.",
+        "Em segredo, aqui para nós, talvez volte a tentar, lá mais para diante."
+      ]
     }
   ]
 }

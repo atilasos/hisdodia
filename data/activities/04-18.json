@@ -1,0 +1,130 @@
+{
+  "id": "04-18",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "figo",
+          "distractors": [
+            "figueira",
+            "tempo",
+            "único"
+          ],
+          "sentence": "No quintal, a senhora dona tinha uma figueira que, nesse ano, dera um único figo."
+        },
+        {
+          "target": "figueira",
+          "distractors": [
+            "figo",
+            "quintal",
+            "senhora"
+          ],
+          "sentence": "O rapaz, ainda meio tonto, viu a figueira e nela um único figo lampo."
+        },
+        {
+          "target": "tempo",
+          "distractors": [
+            "figo",
+            "único",
+            "pensou"
+          ],
+          "sentence": "No tempo em que os meninos trabalhavam de criados, havia uma patroa muito má que tomara a seu serviço um rapazinho, o Manuel, a quem…"
+        },
+        {
+          "target": "quintal",
+          "distractors": [
+            "figueira",
+            "senhora",
+            "pensou"
+          ],
+          "sentence": "A águia sobrevoou montes, campos, pinhais, aldeias, como se andasse à procura não se sabe de quê, até que poisou o Manuel num quintal…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "figo",
+          "syllables": [
+            "fi",
+            "go"
+          ]
+        },
+        {
+          "word": "figueira",
+          "syllables": [
+            "fi",
+            "guei",
+            "ra"
+          ]
+        },
+        {
+          "word": "senhora",
+          "syllables": [
+            "se",
+            "nho",
+            "ra"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "ranho",
+          "syllables": [
+            "ra",
+            "nho"
+          ]
+        },
+        {
+          "word": "rara",
+          "syllables": [
+            "ra",
+            "ra"
+          ]
+        },
+        {
+          "word": "senho",
+          "syllables": [
+            "se",
+            "nho"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "figo",
+          "b": "figo"
+        },
+        {
+          "a": "figueira",
+          "b": "figueira"
+        },
+        {
+          "a": "tempo",
+          "b": "tempo"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "No tempo em que os meninos trabalhavam de criados, havia uma patroa muito má que tomara a seu serviço um rapazinho, o Manuel, a quem…",
+        "E meteu-o de castigo numa pipa vazia, às escuras.",
+        "A águia sobrevoou montes, campos, pinhais, aldeias, como se andasse à procura não se sabe de quê, até que poisou o Manuel num quintal…",
+        "E, olha, enquanto te preparo umas sopas, lambe-te com aquele figuinho único que a figueira me deu.",
+        "As águias, lá de cima, vêem muito, olá se vêem."
+      ]
+    }
+  ]
+}

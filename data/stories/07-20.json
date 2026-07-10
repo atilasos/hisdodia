@@ -4,14 +4,42 @@
   "day": 20,
   "dateLabel": "20 de Julho",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 20 de Julho",
+  "title": "Joca Procura Amigo",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "O Joca foi com os avós para férias. Para as termas.",
+        "Saiba quem não souber que as termas são lugares tranquilos, onde descansam dos sobressaltos da cidade os que precisam de descansar e onde se tratam das queixas e doenças da vida os que precisam de se tratar. Mas não são nenhuns hospitais.",
+        "Há hotéis, piscinas, campos de ténis e muitos sítios para passear. As pessoas que vão para as termas conversam, lêem e, sobretudo, repousam.",
+        "Ah, mas não esquecer: bebem aguinhas, aguinhas termais que fazem bem ao fígado, ao estômago, aos rins e outras vísceras que me dispenso de enumerar. Ficam as pessoas lavadas por dentro, embora também haja termas onde são receitados banhos para quem sofra da pele. Tudo muito higiénico.",
+        "O Joca, a princípio, maçou-se. Faltavam-lhe meninos da idade dele para brincar. Até que, à entrada do hotel, descobriu um rapazinho tão desamparado quanto ele.",
+        "Entrar à conversa não custou nada. E o Joca, logo às primeiras, quis saber coisas do Guilherme, assim se chamava o outro garotinho.",
+        "Na recepção do hotel, o recepcionista ouvia o relato de um jogo de futebol. Vinha mesmo a propósito.",
+        "– Também és do Benfica? – perguntou o Joca.",
+        "– Não. Sou do Sporting – respondeu o Guilherme.",
+        "Mau começo. Mas talvez as coisas se compusessem...",
+        "– Então, queres jogar à bola? – perguntou o Joca.",
+        "– Só nós os dois não tem graça – respondeu o Guilherme.",
+        "O Joca ainda esteve para replicar que não ia ser fácil encontrar, naquele pequeno hotel das termas, mais miúdos da idade deles que dessem para formar duas equipas, mas preferiu mudar de assunto.",
+        "– Trouxe os meus carrinhos. Vou buscá-los ao quarto e fazemos uma corrida no pátio do hotel.",
+        "– Não me apetece brincar com carrinhos – respondeu o Guilherme, com cara de enjoado. – Mas podemos jogar às damas. No salão, há um tabuleiro.",
+        "Agora foi a vez de o Joca recusar a ideia:",
+        "– Não gosto de jogar às damas.",
+        "A verdade é que não sabia ou ainda não sabia, mas não quis dar parte fraca e propôs:",
+        "– Mas podemos jogar às cartas...",
+        "Recusa do Guilherme. Cartas não eram com ele.",
+        "Ia a passar um vendedor de gelados, a apregoar a cantiguinha tentadora, que todos nós bem conhecemos.",
+        "– Gostas de gelados? – perguntou o Joca.",
+        "– Gosto – respondeu o Guilherme.",
+        "– A mim apetece-me um de morango – disse o Joca.",
+        "– A mim também – disse o Guilherme.",
+        "Acabavam-se os desencontros.",
+        "O Joca encarou o Guilherme e concluiu, feliz:",
+        "– Bem me parecia que tínhamos os mesmos gostos. Vamos ser amigos.",
+        "E cada um foi comprar um gelado de morango."
       ]
     }
   ],
@@ -25,22 +53,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/07/20/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

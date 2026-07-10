@@ -4,14 +4,39 @@
   "day": 16,
   "dateLabel": "16 de Fevereiro",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 16 de Fevereiro",
+  "title": "Joca e os Lobos",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Naquelas manhãs frias, frias, frias, em que as ruas que vão dar à escola estão como gelo e as frieiras dos pés ardem, por dentro das botas, e o nariz pinga, por fora do cachecol, o Joca, ainda no quente fofo da cama, põe-se a tiritar de falso medo.",
+        "Joca: Mãe, mãe, hoje é o Dia Mundial do Lobo.",
+        "Mãe: Não sabia dessa. Mas levanta-te. Despacha-te.",
+        "Joca: Hoje é o dia de protecção ao lobo, que é um animal que está a acabar.",
+        "Mãe: Uma espécie em vias de extinção, queres tu dizer. Mas levanta-te.",
+        "Joca: Hoje não se pode fazer mal aos lobos. Eles vão andar por todo o lado, aos montes…",
+        "Mãe: Em alcateia, queres tu dizer. Despacha-te.",
+        "Joca: E não se lhes pode fazer mal. Vão andar nas ruas, nos autocarros, à porta das escolas…",
+        "Mãe: O que tu queres dizer sei eu, Joca. Deixa-te de invenções e despacha-te.",
+        "Joca: A nossa professora vai convidar lobos para comerem connosco, na cantina.",
+        "Mãe: Boa ideia. Partilhas com eles do teu almoço. Levanta-te, Joca, que já estás atrasado.",
+        "Joca: Mas os lobos comem imenso e não gostam de sopa nem de alface nem de pastéis de bacalhau. Eu tenho medo de, logo à noite, não chegar a casa inteiro.",
+        "Mãe: Chegas. Tenho a certeza. Levanta-te, Joca, ou puxo-te por um braço e sais da cama magoado.",
+        "Joca: Os lobos vão fazer ginástica connosco. E vão jogar à bola, no recreio. Sabias que os lobos não gostam de perder?",
+        "Mãe: Não sabia nem isso, agora, interessa. Levanta-te, Joca.",
+        "Joca: Quando os lobos perdem, dão dentadas nos outros.",
+        "Mãe: Nos adversários, queres tu dizer. Mas, se assim acontecer, o árbitro expulsa-os do jogo.",
+        "Joca: Mas os árbitros, hoje, são todos lobos. Estão feitos com eles.",
+        "Mãe: Já chega, Joca. Levanta-te ou eu zango-me. E, quando eu me zango, uivo.",
+        "Joca: Tu uivas, mãe?",
+        "Mãe: Claro que uivo. Queres ouvir: Uh! Uh! Uh! Se não sais da cama como-te cru.",
+        "O Joca riu-se. Fartou-se de rir. E a rir-se, desmanchou a cama e saltou para o chão.",
+        "Joca: Tenho uma mãe-loba! Tenho uma mãe-loba!",
+        "Mãe: E tu és o meu lobinho.",
+        "Joca: Somos lobos. Uh! Uh! Uh! Hoje é o nosso dia.",
+        "Mãe e filho juntaram num abraço riso e uivos, como numa gruta de lobos felizes. Daqueles dois seria sempre cada dia, fizesse o frio que fizesse lá fora. O calor do abraço deles estava ali pronto para vencer e derreter o gelo todo do mundo."
       ]
     }
   ],
@@ -25,22 +50,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/02/16/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

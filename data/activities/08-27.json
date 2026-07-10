@@ -1,0 +1,133 @@
+{
+  "id": "08-27",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "cavalo",
+          "distractors": [
+            "cavalos",
+            "homem",
+            "prisão"
+          ],
+          "sentence": "Ah, tivesse ele um cavalo que, seguramente, se escaparia dos seus perseguidores."
+        },
+        {
+          "target": "fugitivo",
+          "distractors": [
+            "cavalos",
+            "vedação",
+            "ferrador"
+          ],
+          "sentence": "O fugitivo que descera a montanha aos tombos, de pés a sangrar, chegara à planície."
+        },
+        {
+          "target": "cavalos",
+          "distractors": [
+            "cavalo",
+            "fugitivo",
+            "prisão"
+          ],
+          "sentence": "Os soldados montariam em cavalos, que galopariam desenfreadamente até apanhá-lo."
+        },
+        {
+          "target": "homem",
+          "distractors": [
+            "cavalo",
+            "prisão",
+            "depois"
+          ],
+          "sentence": "Sim, porque o homem estava preso injustamente."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "cavalo",
+          "syllables": [
+            "ca",
+            "va",
+            "lo"
+          ]
+        },
+        {
+          "word": "fugitivo",
+          "syllables": [
+            "fu",
+            "gi",
+            "ti",
+            "vo"
+          ]
+        },
+        {
+          "word": "cavalos",
+          "syllables": [
+            "ca",
+            "va",
+            "los"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cava",
+          "syllables": [
+            "ca",
+            "va"
+          ]
+        },
+        {
+          "word": "cavava",
+          "syllables": [
+            "ca",
+            "va",
+            "va"
+          ]
+        },
+        {
+          "word": "cavo",
+          "syllables": [
+            "ca",
+            "vo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "cavalo",
+          "b": "cavalo"
+        },
+        {
+          "a": "fugitivo",
+          "b": "fugitivo"
+        },
+        {
+          "a": "cavalos",
+          "b": "cavalos"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "A coberto da noite, escapara-se da prisão, uma torre alta, rodeada por um muro mais alto ainda, e correra descalço, sobre cascalho e…",
+        "Levantava-se a primeira claridade da madrugada.",
+        "Não tenho com que pagar-lhe – respondeu o pobre esfarrapado, numa voz de queixume.",
+        "O velho das barbas brancas ferrou um cavalo.",
+        "Também o ferrador desapareceu da paisagem."
+      ]
+    }
+  ]
+}

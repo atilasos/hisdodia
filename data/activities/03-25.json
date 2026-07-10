@@ -1,0 +1,131 @@
+{
+  "id": "03-25",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "flores",
+          "distractors": [
+            "papoila",
+            "jardim",
+            "jarros"
+          ],
+          "sentence": "Aqui perto, houve uma exposição de flores."
+        },
+        {
+          "target": "exposição",
+          "distractors": [
+            "naturais",
+            "plástico",
+            "pintadas"
+          ],
+          "sentence": "De flores naturais, fiquem sabendo Nem fazia sentido que a exposição fosse de flores de plástico."
+        },
+        {
+          "target": "papoila",
+          "distractors": [
+            "flores",
+            "jardim",
+            "jarros"
+          ],
+          "sentence": "À entrada, mas do lado de fora do festival das flores, uma papoila chama-me a atenção."
+        },
+        {
+          "target": "jardim",
+          "distractors": [
+            "flores",
+            "papoila",
+            "jarros"
+          ],
+          "sentence": "As flores, em qualquer jardim, estão sempre em exposição."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "flores",
+          "syllables": [
+            "flo",
+            "res"
+          ]
+        },
+        {
+          "word": "exposição",
+          "syllables": [
+            "ex",
+            "po",
+            "si",
+            "ção"
+          ]
+        },
+        {
+          "word": "papoila",
+          "syllables": [
+            "pa",
+            "poi",
+            "la"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "pala",
+          "syllables": [
+            "pa",
+            "la"
+          ]
+        },
+        {
+          "word": "papo",
+          "syllables": [
+            "pa",
+            "po"
+          ]
+        },
+        {
+          "word": "popa",
+          "syllables": [
+            "po",
+            "pa"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "flores",
+          "b": "flores"
+        },
+        {
+          "a": "exposição",
+          "b": "exposição"
+        },
+        {
+          "a": "papoila",
+          "b": "papoila"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Aqui perto, houve uma exposição de flores.",
+        "Apreciem o vigor do nosso caule e a elegância da nossa corola – dizem os jarros, a que os brasileiros chamam \"copos de leite\".",
+        "À entrada, mas do lado de fora do festival das flores, uma papoila chama-me a atenção.",
+        "Houve escândalo entre as flores a concurso.",
+        "A minha papoila, muito ruborizada, sentia-se a rainha da festa."
+      ]
+    }
+  ]
+}

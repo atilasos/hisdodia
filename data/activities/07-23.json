@@ -1,8 +1,120 @@
 {
   "id": "07-23",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senão",
+          "distractors": [
+            "primo",
+            "conta",
+            "velho"
+          ],
+          "sentence": "Não vás para a água senão com o estômago vazio."
+        },
+        {
+          "target": "telemóvel",
+          "distractors": [
+            "pescador",
+            "estômago",
+            "esplanada"
+          ],
+          "sentence": "A minha tia tem telemóvel, mas só para falar para o meu primo."
+        },
+        {
+          "target": "primo",
+          "distractors": [
+            "senão",
+            "pescador",
+            "conta"
+          ],
+          "sentence": "Tudo recomendações sensatas, a que o meu primo Arlindo ou Lindinho presta a atenção devida."
+        },
+        {
+          "target": "pescador",
+          "distractors": [
+            "telemóvel",
+            "primo",
+            "estômago"
+          ],
+          "sentence": "Um velho pescador, desses que já não pescam, mas nunca se desapegam do mar, descobriu o telemóvel, no preciso instante em que ele se pôs…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senão",
+          "syllables": [
+            "se",
+            "não"
+          ]
+        },
+        {
+          "word": "telemóvel",
+          "syllables": [
+            "te",
+            "le",
+            "mó",
+            "vel"
+          ]
+        },
+        {
+          "word": "primo",
+          "syllables": [
+            "pri",
+            "mo"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "mole",
+          "syllables": [
+            "mo",
+            "le"
+          ]
+        },
+        {
+          "word": "mote",
+          "syllables": [
+            "mo",
+            "te"
+          ]
+        },
+        {
+          "word": "sete",
+          "syllables": [
+            "se",
+            "te"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senão",
+          "b": "senão"
+        },
+        {
+          "a": "telemóvel",
+          "b": "telemóvel"
+        },
+        {
+          "a": "primo",
+          "b": "primo"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +124,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "A minha tia tem telemóvel, mas só para falar para o meu primo.",
+        "Tem um único defeito, que nem sei se defeito será.",
+        "Com esta é que o velho pescador não contava.",
+        "O Zé pescador tranquilizou-a e palavras depois tudo estava esclarecido.",
+        "Os telemóveis são, realmente, uma grande invenção."
+      ]
     }
   ]
 }

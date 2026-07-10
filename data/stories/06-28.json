@@ -4,14 +4,38 @@
   "day": 28,
   "dateLabel": "28 de Junho",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 28 de Junho",
+  "title": "Viva o Natério",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Lá na aldeia todos sabiam que ele era ladrão, mas tinham-lhe medo.",
+        "Diziam que ele assaltava viajantes, noite alta. Também contavam de assaltos a casas dos povoados próximos, estivessem lá moradores ou não. E era cruel, rancoroso, arrebatado, perverso. Um tojo, um cardo de malvadez.",
+        "A gente pacífica da aldeia não descortinava maneira de ver-se livre do malfeitor. No tempo em que esta história aconteceu, não havia polícia senão nas cidades maiores. Os caminhos para lá chegar eram demorados e pouco seguros.",
+        "Por isso, sem autoridades que lhes valessem, os aldeãos viviam em perpétuo terror.",
+        "Até que, um dia, o Natério, um dez-réis de gente, mas muito vivaço e destemido, resolveu dar a volta à história. Naquele estado de pavor geral é que as coisas não podiam continuar.",
+        "Antes de o ladrão ir ter à casa onde se acoitava, costumava passar por perto de um poço da aldeia. Quando lhe adivinhavam a sombra, as mulheres que vinham buscar água fugiam e até bilhas e celhas deixavam na borda.",
+        "Desta vez, o malfeitor encontrou um rapaz, que chorava baba e ranho, à beira do poço. Era o Natério.",
+        "Não que se impressionasse com as lágrimas, mas por curiosidade, o ladrão perguntou qual a razão da choradeira.",
+        "– Trazia uma pesada taça de prata, que a minha mãe tinha areado, a mando do senhor padre...",
+        "– Era pesada a taça, disseste tu? – interessou-se o maganão, de olhos a luzir.",
+        "O rapaz fez que sim e continuou o seu relato:",
+        "– Debrucei-me para o poço, à caça de uma lagartixa, e a taça caiu-me lá dentro. Uma desgraça! O que é que eu vou dizer à minha mãe? E ao senhor prior?",
+        "Como se temesse as respostas, o rapaz voltou ao berreiro.",
+        "– Deixa estar que eles escusam de saber – disse o ladrão, escarranchado no bordo do poço. – Eu trago-te a taça, não tarda.",
+        "Enfiou pelo poço abaixo, que era fundo e estava menos de meio.",
+        "– Não encontro a taça – dizia ele.",
+        "A voz ecoava na abóbada do poço. Era assustadora.",
+        "– Procure o senhor do seu lado direito, que ela caiu mais para esse lado.",
+        "O ladrão, que se segurava por uma corda presa à cintura, desceu mais um tanto, agarrado às paredes do poço. Valente era ele.",
+        "– Ainda não achei – dizia.",
+        "– Mas achámo-lo nós – gritou-lhe de cima o Natério.",
+        "Dos pinhais ao redor romperam mulheres e homens, à chamada do rapaz. Agarraram todos uma enorme pedra e puseram-na a tapar a boca do poço. O bandido gritou, mas de nada lhe valeu.",
+        "Já outros da aldeia tinham ido à cidade chamar a guarda. Dias depois, foi removida a pedra e o ladrão saiu a praguejar da armadilha que lhe tinham pregado. Chegando ao cimo, calou-se. Tinha guarda de honra à espera, uma fieira de canos de espingarda apontada para ele.",
+        "Os guardas levaram-no e nunca mais se soube do brutamontes.",
+        "O poço ganhou nome. Passou a ser conhecido pelo poço do Natério. E se, um dia, andarem por terras monfortinhas, a caminho de Castelo Branco, talvez ainda haja quem saiba dizer onde fica."
       ]
     }
   ],
@@ -25,22 +49,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/06/28/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

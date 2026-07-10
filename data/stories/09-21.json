@@ -4,14 +4,23 @@
   "day": 21,
   "dateLabel": "21 de Setembro",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 21 de Setembro",
+  "title": "A Última Carta do Umbelino",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "J á há muito tempo que não tinha carta do macaco Umbelino. E andava em cuidados.",
+        "Como vocês se lembram, o Umbelino é um macaco aventureiro, que, depois de muitas trocas e baldrocas, foi correr mundo, com a viola no saco. Sofreu uns contratempos – num sítio ouviu um senhor dizer: \"Macacos me mordam\" e ele mordeu mesmo... Noutro sítio ouviu contar que uma senhora tinha macaquinhos no sótão e ele foi procurá-los... Desgraças.",
+        "Pois acabo de receber mais uma carta do Umbelino, com notícias frescas. Calculem que se estabeleceu com uma loja de barbeiro, isto é de cabeleireiro. A história que ele tem para contar começou, há que tempos, numa barbearia, bem podia acabar noutra barbearia. Mas não acabou, como vão ver.",
+        "A escolha da nova profissão teve uma origem. De uma vez em que ele andava sem saber as voltas que dar à vida, alguém, por desfastio, lhe dissera:",
+        "– Vá pentear macacos.",
+        "E ele foi. \"Umbelino, cabeleireiro de macacos\", lia-se em grandes letras, na portada do estabelecimento. Não tinha grande clientela. Por assim dizer, não tinha nenhuma. Os macacos não gostam de passar por macacos e as pessoas muito menos.",
+        "Mas, um dia, um sujeito com ar divertido passou pela loja, leu o letreiro, viu o Umbelino à porta, de bata branca, e desatou a rir-se. O macaco Umbelino estranhou a risota e perguntou ao senhor, com muito bons modos, o que se passava. O tal sujeito, entre risadas, só conseguiu responder:",
+        "– Um macaco cabeleireiro! Mas isso é o fim da macacada.",
+        "\"O fim da macacada...\", ouviu distintamente o Umbelino. Muito aflito, despiu logo a bata, fechou a loja e desatou a correr. Se era o fim da macacada, o caso dizia-lhe respeito. Foge!",
+        "Nunca mais o viram na cidade. Conta-me ele, agora, que se refugiou na selva, disfarçado de Tarzan. É assim mesmo que ele assina, numa caligrafia muito macaca – Umbelino Tarzan, o rei dos macacos. Se os outros macacos da tribo consentem, quem sou eu para o contrariar? Mas aqui para nós: Umbelino Tarzan, rei dos macacos, macacos me mordam, mas é mesmo o fim da macacada..."
       ]
     }
   ],
@@ -25,22 +34,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/09/21/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

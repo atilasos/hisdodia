@@ -1,8 +1,121 @@
 {
   "id": "09-27",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhor",
+          "distractors": [
+            "sempre",
+            "jantar",
+            "deitar"
+          ],
+          "sentence": "Pelos fins de Setembro, os hóspedes começam sempre a rarear na estalagem do senhor Pestana."
+        },
+        {
+          "target": "urso",
+          "distractors": [
+            "gelo",
+            "cama",
+            "banho"
+          ],
+          "sentence": "Quero um quarto com uma grande cama – disse o urso."
+        },
+        {
+          "target": "estalagem",
+          "distractors": [
+            "respondeu",
+            "quinzena",
+            "perguntou"
+          ],
+          "sentence": "Às moscas é maneira de dizer, porque o senhor Pestana nem um mosquito consente na sua irrepreensível estalagem."
+        },
+        {
+          "target": "respondeu",
+          "distractors": [
+            "estalagem",
+            "quinzena",
+            "perguntou"
+          ],
+          "sentence": "A meio de Março – respondeu o urso, espreguiçando-se."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "urso",
+          "syllables": [
+            "ur",
+            "so"
+          ]
+        },
+        {
+          "word": "estalagem",
+          "syllables": [
+            "es",
+            "ta",
+            "la",
+            "gem"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "estala",
+          "syllables": [
+            "es",
+            "ta",
+            "la"
+          ]
+        },
+        {
+          "word": "lata",
+          "syllables": [
+            "la",
+            "ta"
+          ]
+        },
+        {
+          "word": "sela",
+          "syllables": [
+            "se",
+            "la"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "urso",
+          "b": "urso"
+        },
+        {
+          "a": "estalagem",
+          "b": "estalagem"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +125,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Pelos fins de Setembro, os hóspedes começam sempre a rarear na estalagem do senhor Pestana.",
+        "Mas o senhor Pestana, sempre imperturbável, não tremeu.",
+        "É com refeições incluídas, o pequeno-almoço, o almoço e o jantar – esclareceu o senhor Pestana.",
+        "Foi, então, que o senhor Pestana percebeu.",
+        "E gritou pelo pequeno-almoço, aliás por cem pequenos-almoços juntos, porque, como se entende, estava atrasado na alimentação."
+      ]
     }
   ]
 }

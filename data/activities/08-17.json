@@ -1,0 +1,122 @@
+{
+  "id": "08-17",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "homem",
+          "distractors": [
+            "tempo",
+            "caso",
+            "queixa"
+          ],
+          "sentence": "O homem, de chapéu nas mãos, ia a outro juiz, que, por coincidência, também não tinha tempo para ouvi-lo."
+        },
+        {
+          "target": "árvores",
+          "distractors": [
+            "arcabuz",
+            "tribunal",
+            "queixa"
+          ],
+          "sentence": "Passou a ser visto, na praça principal da cidade, a falar para as árvores."
+        },
+        {
+          "target": "tempo",
+          "distractors": [
+            "homem",
+            "caso",
+            "tribunal"
+          ],
+          "sentence": "De uns para outros e de outros para uns, o homem perdia tempo."
+        },
+        {
+          "target": "arcabuz",
+          "distractors": [
+            "árvores",
+            "tribunal",
+            "queixa"
+          ],
+          "sentence": "Pôs lá as ovelhas do rebanho dele e, se eu as enxoto, ameaça-me com o arcabuz."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "homem",
+          "syllables": [
+            "ho",
+            "mem"
+          ]
+        },
+        {
+          "word": "árvores",
+          "syllables": [
+            "ár",
+            "vo",
+            "res"
+          ]
+        },
+        {
+          "word": "tempo",
+          "syllables": [
+            "tem",
+            "po"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "pores",
+          "syllables": [
+            "po",
+            "res"
+          ]
+        },
+        {
+          "word": "povo",
+          "syllables": [
+            "po",
+            "vo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "homem",
+          "b": "homem"
+        },
+        {
+          "a": "árvores",
+          "b": "árvores"
+        },
+        {
+          "a": "tempo",
+          "b": "tempo"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Pôs lá as ovelhas do rebanho dele e, se eu as enxoto, ameaça-me com o arcabuz.",
+        "O homem, de chapéu nas mãos, ia a outro juiz, que, por coincidência, também não tinha tempo para ouvi-lo.",
+        "Passou a ser visto, na praça principal da cidade, a falar para as árvores.",
+        "E tu julgas que as árvores são sensíveis ao que lhes contas?",
+        "E o homem pôde voltar a casa mais tranquilo."
+      ]
+    }
+  ]
+}

@@ -4,14 +4,33 @@
   "day": 9,
   "dateLabel": "9 de Abril",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 9 de Abril",
+  "title": "O Salpico",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Era uma vez um salpico. De tinta. Caíra por acaso num nariz. O nariz estava, já se vê, numa cara. A cara pertencia, como se imagina, a um corpo.",
+        "Nariz, cara, corpo, mais braços e pernas, tudo nos seus respectivos lugares, compunham um boneco de pasta ou de plástico, igual a dezenas de outros, numa oficina de brinquedos.",
+        "Vestidos com o mesmo tecido barato, todos enfileirados e prontos, os bonecos, aliás, as bonecas, estavam ali para o que desse e viesse.",
+        "Arrecadadas umas tantas para dentro de uma caixa, viajaram até uma feira. Dispostas lado a lado, no escaparate do feirante, pareciam uma varanda de meninas para casar.",
+        "Elas não diziam: \"quem quer, quem quer casar com a carochinha\", mas era como se dissessem.",
+        "– Quanto custa esta boneca? – perguntava alguém.",
+        "– Tanto – dizia o vendedor.",
+        "Algumas iam à vida, embrulhadas em papel de cor. Tinham o destino certo. Mas a maioria ficava.",
+        "– Ó mãe, olha ali aquelas bonecas. Compra-me uma... – pediu uma garotinha de olhos tristes.",
+        "A mãe fez de conta que não ouvia. A miúda insistiu:",
+        "– Compra, mãe, compra.",
+        "E a mãe:",
+        "– Não pode ser, filha. Não temos dinheiro para luxos.",
+        "Era uma pobre de pedir. Mas talvez se tenha lembrado de quando era menina, sem bonecas nem brinquedos, e perguntou ao feirante o preço das monas. Recuou, quando soube. A mão da filha muito apertada na sua... Foi então que deu com a boneca salpicada.",
+        "– E esta, que tem defeito, por que preço a faz? – perguntou.",
+        "O vendedor nem tinha reparado. Aborreceu-se com a descoberta e para despachar a mercadoria disse:",
+        "– Tanto – ... muito menos que as outras.",
+        "A mulher contou as moedas e pagou. Aninhou-se a boneca nos braços da miúda. Por causa de um salpico do acaso, vejam só o que pode acontecer!",
+        "E não é que o salpico da boneca, ao colo da menina, se desvaneceu, como por encanto?!",
+        "Há casos assim. Acontece, às vezes."
       ]
     }
   ],
@@ -25,22 +44,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/04/09/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

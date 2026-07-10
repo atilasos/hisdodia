@@ -1,8 +1,112 @@
 {
   "id": "07-21",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhor",
+          "distractors": [
+            "hóspede",
+            "quarto",
+            "casal"
+          ],
+          "sentence": "N aquelas férias, a Estalagem Pestana do senhor Pestana não era das mais frequentadas."
+        },
+        {
+          "target": "lago",
+          "distractors": [
+            "cama",
+            "casal",
+            "banho"
+          ],
+          "sentence": "Tenho sim, senhor, e com vista para o lago."
+        },
+        {
+          "target": "hóspede",
+          "distractors": [
+            "senhor",
+            "quarto",
+            "piscina"
+          ],
+          "sentence": "Dizendo isto, encarou com o novo hóspede."
+        },
+        {
+          "target": "quarto",
+          "distractors": [
+            "senhor",
+            "hóspede",
+            "casal"
+          ],
+          "sentence": "Tem um quarto espaçoso, com cama de casal e casa-de-banho?"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "perguntou",
+          "syllables": [
+            "per",
+            "gun",
+            "tou"
+          ]
+        },
+        {
+          "word": "lago",
+          "syllables": [
+            "la",
+            "go"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "gola",
+          "syllables": [
+            "go",
+            "la"
+          ]
+        },
+        {
+          "word": "sela",
+          "syllables": [
+            "se",
+            "la"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "perguntou",
+          "b": "perguntou"
+        },
+        {
+          "a": "lago",
+          "b": "lago"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +116,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "N aquelas férias, a Estalagem Pestana do senhor Pestana não era das mais frequentadas.",
+        "Dizendo isto, encarou com o novo hóspede.",
+        "Era, de facto, um hipopótamo muito compreensivo.",
+        "Faça-me a conta, por favor, porque parto amanhã.",
+        "E foi devido às boas informações dadas pelo hipopótamo que, no ano seguinte, o senhor Pestana teve de recusar muitos clientes..."
+      ]
     }
   ]
 }

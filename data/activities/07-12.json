@@ -1,8 +1,119 @@
 {
   "id": "07-12",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "santola",
+          "distractors": [
+            "peixes",
+            "espada",
+            "homens"
+          ],
+          "sentence": "Talvez a santola saiba – respondiam-lhe, só para despachá-lo."
+        },
+        {
+          "target": "nome",
+          "distractors": [
+            "redes",
+            "fama",
+            "fora"
+          ],
+          "sentence": "Foram os homens que te deram, dantes, esse nome, a condizer com o teu feitio."
+        },
+        {
+          "target": "peixes",
+          "distractors": [
+            "santola",
+            "redes",
+            "espada"
+          ],
+          "sentence": "E perguntara aos outros peixes se peixe-metralhadora lhes soava bem."
+        },
+        {
+          "target": "redes",
+          "distractors": [
+            "nome",
+            "peixes",
+            "espada"
+          ],
+          "sentence": "Não te aconselho a meteres-te numa dessas redes que, de vez em quando, eles lançam, mas a decisão é tua."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "santola",
+          "syllables": [
+            "san",
+            "to",
+            "la"
+          ]
+        },
+        {
+          "word": "nome",
+          "syllables": [
+            "no",
+            "me"
+          ]
+        },
+        {
+          "word": "peixes",
+          "syllables": [
+            "pei",
+            "xes"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "peito",
+          "syllables": [
+            "pei",
+            "to"
+          ]
+        },
+        {
+          "word": "santo",
+          "syllables": [
+            "san",
+            "to"
+          ]
+        },
+        {
+          "word": "tola",
+          "syllables": [
+            "to",
+            "la"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "santola",
+          "b": "santola"
+        },
+        {
+          "a": "nome",
+          "b": "nome"
+        },
+        {
+          "a": "peixes",
+          "b": "peixes"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +123,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O peixe-espada gostava de ser espingarda, bazuca, metralhadora...",
+        "Talvez a santola saiba – respondiam-lhe, só para despachá-lo.",
+        "Foram os homens que te deram, dantes, esse nome, a condizer com o teu feitio.",
+        "Está-se mesmo a ver o que o peixe-espada decidiu.",
+        "E, mesmo que ainda estivesse vivo, talvez não gostasse."
+      ]
     }
   ]
 }

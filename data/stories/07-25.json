@@ -4,14 +4,29 @@
   "day": 25,
   "dateLabel": "25 de Julho",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 25 de Julho",
+  "title": "O Pinto Preto",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Era uma galinha que não tinha pintos. Ela chocava os ovos, mas saíam todos goros.",
+        "Um dia, alguém, por maldade ou distracção, meteu no choco um ovo de corva. Passado tempo, do ovo rompeu um passareco feinho que mal se tinha nas pernas.",
+        "A galinha chamou-o de filho e o corvinho trangalhadanças chamou-a de mãe. Assim podia acabar a história, que acabava em maravilha.",
+        "Mas a capoeira não aceitou este final.",
+        "– Não é dos nossos – cacarejavam as restantes galinhas.",
+        "– Vai dar má fama ao poleiro – proclamava o galo.",
+        "Só a galinha o defendia e com tanta força nas bicadas que se deu ao respeito.",
+        "Entretanto, as pernas espetadas do bicharoco foram ganhando outra compostura e volume e brilho. Tinha-as de um preto tão luzidio que, por elas rasando, de um certo e determinado ângulo, os raios de sol, parecia o corvo uma ave rara, toda vestida de prata e azul.",
+        "A mãe galinha, orgulhosa, não se cansava de olhá-lo. O galaró, esse, fazia vista grossa, mas começava a sentir-se ameaçado nos seus poderes e prosápias.",
+        "Sem razão, afinal. O corvo era manso, respeitador. Por vontade dele, seria toda a vida pinto.",
+        "Passava a noite acordado, enquanto a criação dormia. Não era crise de insónia, mas uma forma de se proteger do desgosto de se sentir diferente. Por sua vez, mal o sol despontava, metia a cabeça debaixo da asa e adormecia. Era da maneira que não aturava os olhares despeitados dos colegas do galinheiro.",
+        "Estava ele uma noite, no seu matutar, virado para a Lua, quando sentiu umas raspadelas suspeitas, do lado em que a rede estava mais folgada. Era um ladrão, pilha-galinhas, rapinante, desses que torcem o pescoço ao galinhame adormecido e zás, atiram o recheio de uma capoeira toda para dentro de um saco, em menos de um ai.",
+        "– Ai! – terá gritado o corvo de alerta. E continuou na gritaria.",
+        "Se não foi \"ai\" foi coisa parecida, grasnada em toque de cornetim. Saltaram galo e galinhas do poleiro – algumas até caíram -, o ladrão atarantou-se com a chinfrineira e pôs-se a cavar, de saco vazio.",
+        "– Salvaram-se, graças ao meu filho – não se cansava de repetir a mãe galinha.",
+        "Concordância geral. Todos abriram as asas ao herói. E logo ali decidiram, com muitos bravos, que o corvo passava à categoria de segurança, guarda-nocturno, guarda-redes de toda a capoeira. As penas do corvo luziam de felicidade."
       ]
     }
   ],
@@ -25,22 +40,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/07/25/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

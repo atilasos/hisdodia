@@ -4,14 +4,31 @@
   "day": 28,
   "dateLabel": "28 de Julho",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 28 de Julho",
+  "title": "Turista Especial",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Há aquela história de um boneco de neve, que foi a uma agência de viagens...",
+        "– Quero que me venda uma passagem de avião para um país que valha a pena – pediu ele ao balcão da agência de viagens.",
+        "– Um país frio, naturalmente – concluiu, à sua própria conta, o empregado da agência.",
+        "– Nem por sombras! – exclamou o boneco de neve. – Num país frio vivo eu, desde que me conheço.",
+        "– Nesse caso, prefere ir para um país de clima temperado, nem muito frio nem muito quente – concluiu, à sua própria conta, o empregado da agência.",
+        "– Nem por sombras! O que quero é ir para um país quente – anunciou o boneco de neve. – Passe-me já o bilhete, que estou com pressa.",
+        "– Bilhete só de ida, naturalmente – concluiu, à sua própria conta, o empregado da agência.",
+        "– Exacto! Finalmente, acertou – aplaudiu o boneco de neve. – Quero só um bilhete de ida, para nunca mais voltar.",
+        "O empregado da agência ainda observou, a medo:",
+        "– A nossa agência não pode responsabilizar-se pelos acidentes e sobressaltos que possam ocorrer aos nossos clientes. Nem as companhias de seguros cobrem todos os riscos. Bem vê: a neve, em climas quentes, tem tendência a...",
+        "– Deixe-se de conversas. Quero viajar e pronto. Arranje-me o bilhete. Despache-se!",
+        "– Tem alguma preferência? – perguntou o empregado, sem nenhuma vontade de atender aquele cliente. – Florida? Antilhas? Córsega? Norte de África? Algarve?...",
+        "– Pode ser esse, que disse agora – interrompeu o boneco de neve.",
+        "– Algarve?",
+        "– Exactamente. Não sei onde fica, mas soa bem. Quero ir viver para o Algarve.",
+        "E veio mesmo. Anda por lá agora. Quando virem uma carrinha de gelados, a passear entre Faro e Portimão, já sabem quem vai lá dentro.",
+        "– Gelado fresquinho! – apregoa o motorista do boneco de neve, tilintando a campainha do triciclo.",
+        "O boneco de neve dispensava o pregão. Ele preferia viajar incógnito, dentro da caixa frigorífica, mas nestas viagens turísticas nem tudo corre sempre à medida dos nossos desejos."
       ]
     }
   ],
@@ -27,22 +44,22 @@
     ]
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/07/28/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

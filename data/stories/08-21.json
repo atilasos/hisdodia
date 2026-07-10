@@ -4,14 +4,37 @@
   "day": 21,
   "dateLabel": "21 de Agosto",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 21 de Agosto",
+  "title": "Mau Aliado",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Dantes, o cavalo e o veado eram amigos. Repartiam as mesmas pastagens. Bebiam lado a lado da água do mesmo ribeiro. Dormiam, trocando calor, na paz do mesmo conchego. Eram amigos, pronto.",
+        "Mas, nem eles saberiam dizer porquê, um dia, zangaram-se.",
+        "Ou porque um pisou a relva destinada ao outro.",
+        "Ou porque um turvou a água que o outro ia beber.",
+        "Ou porque um se agitou no sono e interrompeu o dormir do outro.",
+        "Por qualquer ninharia tola deixaram de ser amigos.",
+        "Zangaram-se, pronto.",
+        "Muito enfadado com o antigo parceiro, o cavalo foi ter com o homem.",
+        "– Quero que tu me livres do javardão do veado – disse ele ao homem, por sinal um caçador de arco e flecha.",
+        "– Isso interessa-me – respondeu o homem, aprestando os instrumentos de caça. – Mas o veado é rápido. Vai ser difícil apanhá-lo.",
+        "– Não é impedimento, se tu me montares – ofereceu-se o cavalo. – Eu sou tão ou mais rápido do que ele e depressa o alcançaremos.",
+        "Não sei se já disse que o cavalo era selvagem.",
+        "Nunca tinha suportado peso nenhum em cima nem sabia o que era puxar uma carroça. Vivera sempre em liberdade, ao lado do veado, e longe dos homens, das cilhas, das selas, dos freios, das bridas, das esporas, que os homens inventam para submeter os cavalos ao seu mando. Era livre, pronto.",
+        "Aparelhado à conveniência do caçador, lá foi o cavalo a galope, ao encontro do veado. Caçá-lo não custou nada.",
+        "– Livrei-te do teu inimigo – disse o cavaleiro ao cavalo. – Estás contente?",
+        "Aqui para nós, o cavalo o que estava era arrependido. Ver o antigo companheiro trespassado pelas setas do homem doía-lhe muito. Mas fez-se forte e disse:",
+        "– Claro que estou contente. Este veado não merecia outra coisa. Agora tira-me a sela e desaperta-me as correias. Quero gozar sozinho o que, dantes, tinha de partilhar com o paspalhão do veado.",
+        "O homem riu-se:",
+        "– Acho-te muita graça, cavalinho. Então tu julgas que, depois do trabalho que me deste, ia deixar-te partir?",
+        "– Mas foi só um serviço, um negócio, uma aliança entre nós dois – protestou o cavalo. – Arrumado o caso, volta cada um para seu lado. Liberta-me do freio que me está a magoar.",
+        "– Nunca mais – sentenciou o homem. – Vais conhecer as minhas cavalariças, assim como já conheceste as minhas ordens.",
+        "De nada valeu ao cavalo escoicear e encabritar-se, na vã tentativa de escapar ao aperto do homem. Ele era um bom cavaleiro e estava habituado a domar cavalos selvagens.",
+        "Aquele oferecera-se. Agora suportava as consequências.",
+        "O cavalo acabou por aceitar, resignado, o seu novo destino. Era o castigo, pronto. Acabou-se."
       ]
     }
   ],
@@ -25,22 +48,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/08/21/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

@@ -1,8 +1,111 @@
 {
   "id": "07-24",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "homem",
+          "distractors": [
+            "casa",
+            "chuva",
+            "nunca"
+          ],
+          "sentence": "O homem dos impossíveis era, afinal, um homem simples e descuidado."
+        },
+        {
+          "target": "casa",
+          "distractors": [
+            "homem",
+            "chuva",
+            "nunca"
+          ],
+          "sentence": "Casa emprego, emprego casa, fizesse sol ou fizesse chuva e sempre de chapéu-de-chuva debaixo do braço, não fosse o tempo mudar, por…"
+        },
+        {
+          "target": "chuva",
+          "distractors": [
+            "homem",
+            "casa",
+            "nunca"
+          ],
+          "sentence": "Nunca mandara a chuva soltar-se das nuvens nem a trovoada serenar nem as estações trocarem de posição umas com as outras, porque ninguém…"
+        },
+        {
+          "target": "dotes",
+          "distractors": [
+            "homem",
+            "casa",
+            "chuva"
+          ],
+          "sentence": "Verdade se diga que ele próprio também não sentia vontade de exercer os seus dotes mágicos."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "homem",
+          "syllables": [
+            "ho",
+            "mem"
+          ]
+        },
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        },
+        {
+          "word": "chuva",
+          "syllables": [
+            "chu",
+            "va"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cava",
+          "syllables": [
+            "ca",
+            "va"
+          ]
+        },
+        {
+          "word": "vaca",
+          "syllables": [
+            "va",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "homem",
+          "b": "homem"
+        },
+        {
+          "a": "casa",
+          "b": "casa"
+        },
+        {
+          "a": "chuva",
+          "b": "chuva"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +115,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Calava as trovoadas, quando lhe apetecia.",
+        "Tantos dotes mágicos, tantos dotes mágicos e está a torradeira escangalhada, há que tempos, e não há meio de te dispores a arranjá-la.",
+        "Das torneiras escorria um fio, quando escorria.",
+        "Arredado do ajuntamento pela troça dos outros, o homem dos impossíveis foi para uma das arcadas da praça, encostar-se a uma coluna, como…",
+        "Tão divertido que deu um espirro, parou de chover e um magnífico arco-íris desenhou-se no céu."
+      ]
     }
   ]
 }

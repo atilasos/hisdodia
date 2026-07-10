@@ -4,14 +4,26 @@
   "day": 12,
   "dateLabel": "12 de Junho",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 12 de Junho",
+  "title": "Laura e o Papagaio",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "O que eu vou contar, li no jornal. Era uma notícia. Passa a ser uma história.",
+        "Um senhora, chamada Laura, tinha uma sapataria. Para atrair a clientela, trouxera de casa um papagaio exótico e multicolor, uma raridade em forma de papagaio.",
+        "Uma vez, a loja foi assaltada. O ladrão, entre outros valores, levou-lhe o papagaio, a atracção da loja, por assim dizer o emblema vivo da sapataria.",
+        "A senhora Laura ficou desolada.",
+        "– Podiam ter-me roubado tudo, menos o papagaio – lamentava-se ela a toda a gente.",
+        "Na cidade onde isto se passou, o caso foi comentado. Aconteceu que uns garotos, que andavam pelos arredores, a apanhar caracóis, ouviram, vindo de um casebre isolado, uma vozinha inconfundível gritar:",
+        "– Laura! Laura! Laura!",
+        "Foram fazer queixa à esquadra. Vieram uma quantidade de polícias, que cercaram a casa, e atrás deles a dona da loja. Quando entraram no casebre e viram o papagaio, deram logo ordem de prisão ao vagabundo, que lá vivia.",
+        "Ele tentou desculpar-se, dizendo que tinha encontrado o papagaio, empoleirado numa vedação, mas as botas impecavelmente novas que o homem ostentava não deixaram margem para dúvidas.",
+        "Quando a senhora da sapataria, de olhos lacrimejantes, entrou, por sua vez, na casa do ladrão, o papagaio exclamou:",
+        "– Laura, Laura, até que enfim.",
+        "A história acaba bem, menos para o ladrão.",
+        "Comentário de um dos polícias que participou na captura: \"Quem rouba um papagaio que fala, o melhor é ensiná-lo a calar-se...\""
       ]
     }
   ],
@@ -25,22 +37,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/06/12/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

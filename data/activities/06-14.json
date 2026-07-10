@@ -1,8 +1,121 @@
 {
   "id": "06-14",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "bicicleta",
+          "distractors": [
+            "ciclistas",
+            "diferença",
+            "perguntou"
+          ],
+          "sentence": "Pedro IV, a cavalo numa bicicleta, e, depois das vistas sobre o Porto, passaram ao Mosteiro da Batalha, para mostrarem a estátua de D."
+        },
+        {
+          "target": "sonho",
+          "distractors": [
+            "depois",
+            "cima",
+            "senhor"
+          ],
+          "sentence": "Nesse sonho, eu apagava o televisor e descia à rua, a caminho da Praça da Figueira, em Lisboa."
+        },
+        {
+          "target": "depois",
+          "distractors": [
+            "sonho",
+            "senhor",
+            "andar"
+          ],
+          "sentence": "Algumas, só depois é que aprendiam a andar em cima dos seus próprios pés."
+        },
+        {
+          "target": "cima",
+          "distractors": [
+            "sonho",
+            "andar",
+            "nuno"
+          ],
+          "sentence": "João I, todo ancho, em cima de uma bicicleta da mesma marca da do Condestável D."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "bicicleta",
+          "syllables": [
+            "bi",
+            "ci",
+            "cle",
+            "ta"
+          ]
+        },
+        {
+          "word": "sonho",
+          "syllables": [
+            "so",
+            "nho"
+          ]
+        },
+        {
+          "word": "cima",
+          "syllables": [
+            "ci",
+            "ma"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "manhoso",
+          "syllables": [
+            "ma",
+            "nho",
+            "so"
+          ]
+        },
+        {
+          "word": "mata",
+          "syllables": [
+            "ma",
+            "ta"
+          ]
+        },
+        {
+          "word": "soma",
+          "syllables": [
+            "so",
+            "ma"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "bicicleta",
+          "b": "bicicleta"
+        },
+        {
+          "a": "sonho",
+          "b": "sonho"
+        },
+        {
+          "a": "depois",
+          "b": "depois"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +125,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Q uando eu vi, na televisão, a estátua de D.",
+        "Estou com umas dores na barriga das pernas que mal me tenho em pé – queixava-se uma senhora, ao desembarcar de um dos tais cacilheiros…",
+        "Eu cá não me queixo – continuou o senhor magrinho.",
+        "Assim que uma criança deixava de andar de gatas, passava a andar de triciclo.",
+        "Como é que o meu pai tinha adivinhado este meu secreto desejo, nunca revelado a ninguém?"
+      ]
     }
   ]
 }

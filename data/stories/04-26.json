@@ -4,14 +4,34 @@
   "day": 26,
   "dateLabel": "26 de Abril",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 26 de Abril",
+  "title": "Olhos Verdes",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Esta história passou-se na Índia, há muito tempo.",
+        "Certo rajá tinha dois filhos, dois filhos já homens, mas muito diferentes entre eles. Um, o mais velho, era tão feio por dentro como por fora. Para condizer, casara-se com uma feiticeira, uma peste.",
+        "O mais novo, ainda solteiro, não era feio nem bonito, mas, conhecendo-o melhor, percebia-se que a beleza dele estava toda concentrada no coração. E tinha olhos verdes.",
+        "O rei ou rajá, encarando os dois filhos e ajuizando sobre o que deles sabia, decidiu:",
+        "– Quem vai herdar o meu reino será o meu filho mais novo, que tem qualidade para ser um bom rei.",
+        "A feiticeira, casada com o mais velho, não gostou da escolha do sogro e maquinou um feitiço para afastar o cunhado rival. Convidou-o a tomar chá na varanda dos seus aposentos e misturou uma poção mágica nas folhas da chaleira.",
+        "O bom príncipe bebeu e transformou-se em peixe.",
+        "– Vai nadar para o meio dos teus irmãos – disse a bruxa, atirando-o ao rio, que corria debaixo da varanda do palácio, e largando uma daquelas gargalhadas arrepiantes, que só as bruxas sabem dar: – Ah! Ah! Ah! Não é assim, nem pouco mais ou menos, mas como não sou bruxa...",
+        "O príncipe, transformado em peixe, nadou rio abaixo. Deste rio passou para outro maior, que se comunicava com outro imenso, tão largo como um braço de mar.",
+        "Foi pescado.",
+        "A rede que o pescou, de cambulhada com outros peixes, era puxada pelos servos de outro rajá, rei de outro reino.",
+        "Muitos peixes morreram antes de chegar ao palácio. Um dos que sobreviveu e que chamou a atenção do cozinheiro foi o bom do peixe-príncipe.",
+        "– É diferente dos outros – disse o cozinheiro. – Tem olhos verdes e corpo dourado. Vou oferecê-lo à princesa.",
+        "Ficou num aquário, à cabeceira da cama da princesa, que logo se encantou por ele.",
+        "– Gostava tanto de ser peixe, para nadar ao teu lado – segredou-lhe, um dia, a princesa.",
+        "– Pois eu gostava de ser homem, para poder estar ao teu lado – segredou-lhe o peixe.",
+        "Tamanha vontade dos dois tinha de resultar. O amor é uma grande magia.",
+        "A jovem princesa começou por surpreender-se com as falas de um peixe de olhos verdes. Mais razão tinha para estranhar, quando o peixe se transformou em homem. Mas não estranhou. Os olhos verdes eram os mesmos...",
+        "Claro que daí a um tempo casaram.",
+        "Com ajuda dos exércitos do sogro, o príncipe de olhos verdes recuperou o reino, aprisionou a cunhada e o irmão e reinou feliz em companhia da princesa, rodeados por principezinhos de olhos verdes e de olhos castanhos. Não sei se disse que a princesa tinha olhos profundamente castanhos. Belíssimos.",
+        "Nestas histórias fica sempre muita coisa por contar..."
       ]
     }
   ],
@@ -25,22 +45,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/04/26/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

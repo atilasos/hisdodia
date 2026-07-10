@@ -1,0 +1,130 @@
+{
+  "id": "04-09",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "boneca",
+          "distractors": [
+            "salpico",
+            "nariz",
+            "bonecas"
+          ],
+          "sentence": "Foi então que deu com a boneca salpicada."
+        },
+        {
+          "target": "salpico",
+          "distractors": [
+            "boneca",
+            "bonecas",
+            "braços"
+          ],
+          "sentence": "Por causa de um salpico do acaso, vejam só o que pode acontecer!"
+        },
+        {
+          "target": "nariz",
+          "distractors": [
+            "boneca",
+            "cara",
+            "acaso"
+          ],
+          "sentence": "Nariz, cara, corpo, mais braços e pernas, tudo nos seus respectivos lugares, compunham um boneco de pasta ou de plástico, igual a…"
+        },
+        {
+          "target": "cara",
+          "distractors": [
+            "nariz",
+            "acaso",
+            "corpo"
+          ],
+          "sentence": "A cara pertencia, como se imagina, a um corpo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "boneca",
+          "syllables": [
+            "bo",
+            "ne",
+            "ca"
+          ]
+        },
+        {
+          "word": "salpico",
+          "syllables": [
+            "sal",
+            "pi",
+            "co"
+          ]
+        },
+        {
+          "word": "nariz",
+          "syllables": [
+            "na",
+            "riz"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "boca",
+          "syllables": [
+            "bo",
+            "ca"
+          ]
+        },
+        {
+          "word": "cabo",
+          "syllables": [
+            "ca",
+            "bo"
+          ]
+        },
+        {
+          "word": "cana",
+          "syllables": [
+            "ca",
+            "na"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "boneca",
+          "b": "boneca"
+        },
+        {
+          "a": "salpico",
+          "b": "salpico"
+        },
+        {
+          "a": "nariz",
+          "b": "nariz"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "A cara pertencia, como se imagina, a um corpo.",
+        "Vestidos com o mesmo tecido barato, todos enfileirados e prontos, os bonecos, aliás, as bonecas, estavam ali para o que desse e viesse.",
+        "Algumas iam à vida, embrulhadas em papel de cor.",
+        "E esta, que tem defeito, por que preço a faz?",
+        "E não é que o salpico da boneca, ao colo da menina, se desvaneceu, como por encanto?!"
+      ]
+    }
+  ]
+}

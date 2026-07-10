@@ -4,14 +4,32 @@
   "day": 21,
   "dateLabel": "21 de Julho",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 21 de Julho",
+  "title": "Não Cabem Mais",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "N aquelas férias, a Estalagem Pestana do senhor Pestana não era das mais frequentadas. Por isso, quando, um dia, chegou à recepção, atrás da qual o senhor Pestana fazia as suas contas, um hóspede que perguntou:",
+        "– Tem um quarto espaçoso, com cama de casal e casa-de-banho?",
+        "O senhor Pestana, sem levantar os olhos dos seus papéis, respondeu:",
+        "– Tenho sim, senhor, e com vista para o lago. Já mando buscar as suas bagagens.",
+        "Dizendo isto, encarou com o novo hóspede. Era um hipopótamo, um hipopótamo autêntico, como o do Jardim Zoológico e o dos filmes de África. O senhor Pestana, atarantado, só conseguiu gaguejar estas palavras:",
+        "– Lamentamos... lamento... mas, a piscina... a piscina ainda não está a funcionar.",
+        "– Não tem importância. Tomo banho no lago.",
+        "O senhor Pestana, que era um excelente estalajadeiro, sempre muito correcto e atencioso, perguntou a medo:",
+        "– Vossa Excelência vem acompanhado?",
+        "– Venho sozinho – esclareceu o hipopótamo. – Se pedi uma cama de casal, é porque a minha corpulência... Compreende?",
+        "– Perfeitamente. Vossa Excelência pode ficar descansado, que as nossas camas são óptimas e muito resistentes. Agradecia, no entanto, que não utilizasse o elevador.",
+        "– Não se preocupe. Eu também compreendo.",
+        "Era, de facto, um hipopótamo muito compreensivo. Tomava, discretamente, o pequeno-almoço no quarto, descia as escadas com toda a delicadeza e ia dar uma voltinha. Pelas onze da manhã, já estava a tomar banho no lago, para grande satisfação dos outros clientes da estalagem, encantados com aquela novidade em cores africanas.",
+        "A notícia divulgou-se e a estalagem encheu-se. O senhor Pestana andava contentíssimo. Calculem, portanto, a decepção que ele sofreu quando, um dia, o seu afamado cliente o informou:",
+        "– Faça-me a conta, por favor, porque parto amanhã.",
+        "Desolado, o senhor Pestana perguntou ao hipopótamo:",
+        "– Vossa Excelência tem alguma razão de queixa dos nossos serviços? Parte incomodado ou desagradado com alguma falta nossa?",
+        "– De forma alguma – tranquilizou-o o hipopótamo. – Gostei imenso destas férias. Esteja seguro de que vou recomendar a sua estalagem aos meus amigos.",
+        "Assim aconteceu. E foi devido às boas informações dadas pelo hipopótamo que, no ano seguinte, o senhor Pestana teve de recusar muitos clientes..."
       ]
     }
   ],
@@ -27,22 +45,22 @@
     ]
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/07/21/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

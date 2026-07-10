@@ -65,34 +65,27 @@
           ]
         },
         {
-          "word": "menino",
+          "word": "colega",
           "syllables": [
-            "me",
-            "ni",
-            "no"
+            "co",
+            "le",
+            "ga"
           ]
         }
       ],
       "recombine": [
         {
-          "word": "metem",
+          "word": "ganho",
           "syllables": [
-            "me",
-            "tem"
-          ]
-        },
-        {
-          "word": "ninho",
-          "syllables": [
-            "ni",
+            "ga",
             "nho"
           ]
         },
         {
-          "word": "nome",
+          "word": "ponho",
           "syllables": [
-            "no",
-            "me"
+            "po",
+            "nho"
           ]
         }
       ]

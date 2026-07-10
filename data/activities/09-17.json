@@ -1,0 +1,130 @@
+{
+  "id": "09-17",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "boneco",
+          "distractors": [
+            "quase",
+            "papel",
+            "senhor"
+          ],
+          "sentence": "O papel, onde ia o boneco, voou, levado pelo rodopio."
+        },
+        {
+          "target": "princesa",
+          "distractors": [
+            "papel",
+            "página",
+            "distraído"
+          ],
+          "sentence": "Por palavras, o príncipe já entrara na história e salvara a princesa."
+        },
+        {
+          "target": "quase",
+          "distractors": [
+            "boneco",
+            "papel",
+            "senhor"
+          ],
+          "sentence": "E de que havia ele de ter medo, se mal ou quase nada conhecia do mundo?"
+        },
+        {
+          "target": "papel",
+          "distractors": [
+            "boneco",
+            "princesa",
+            "quase"
+          ],
+          "sentence": "Tinha nascido numa folha de papel, de lápis distraído de um senhor, que estava a pensar noutras coisas."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "boneco",
+          "syllables": [
+            "bo",
+            "ne",
+            "co"
+          ]
+        },
+        {
+          "word": "princesa",
+          "syllables": [
+            "prin",
+            "ce",
+            "sa"
+          ]
+        },
+        {
+          "word": "quase",
+          "syllables": [
+            "qua",
+            "se"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "saco",
+          "syllables": [
+            "sa",
+            "co"
+          ]
+        },
+        {
+          "word": "sebo",
+          "syllables": [
+            "se",
+            "bo"
+          ]
+        },
+        {
+          "word": "seco",
+          "syllables": [
+            "se",
+            "co"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "boneco",
+          "b": "boneco"
+        },
+        {
+          "a": "princesa",
+          "b": "princesa"
+        },
+        {
+          "a": "quase",
+          "b": "quase"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Tinha nascido numa folha de papel, de lápis distraído de um senhor, que estava a pensar noutras coisas.",
+        "Foi no meio do silêncio que o boneco desta história resolveu, ainda a medo, sair da folha de papel, que lhe servira de leito.",
+        "Ia ele por um corredor, nos seus passinhos leves e tranquilos, quando viu aparecer à sua frente uma fieira de bonequinhos pequeninos…",
+        "Naquela casa abandonada, vivia uma grande tristeza.",
+        "E foi assim que o boneco feio casou com a princesa Jasmínia."
+      ]
+    }
+  ]
+}

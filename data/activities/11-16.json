@@ -1,0 +1,130 @@
+{
+  "id": "11-16",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "raposa",
+          "distractors": [
+            "ovelha",
+            "balde",
+            "corda"
+          ],
+          "sentence": "Uma raposa, que vinha a fugir dos caçadores, enfiou para dentro de um poço, à falta de melhor esconderijo."
+        },
+        {
+          "target": "poço",
+          "distractors": [
+            "balde",
+            "corda",
+            "água"
+          ],
+          "sentence": "Uma ovelha, despegada de um rebanho que pastava num monte perto, estranhou o barulho e o balde a baloiçar, na boca do poço, e foi espreitar."
+        },
+        {
+          "target": "ovelha",
+          "distractors": [
+            "raposa",
+            "balde",
+            "corda"
+          ],
+          "sentence": "Senhora ovelha, ainda bem que a encontro."
+        },
+        {
+          "target": "balde",
+          "distractors": [
+            "raposa",
+            "poço",
+            "ovelha"
+          ],
+          "sentence": "Recordando o antigo uso, tinha na borda um balde, preso a uma corda de rodízio."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "raposa",
+          "syllables": [
+            "ra",
+            "po",
+            "sa"
+          ]
+        },
+        {
+          "word": "poço",
+          "syllables": [
+            "po",
+            "ço"
+          ]
+        },
+        {
+          "word": "ovelha",
+          "syllables": [
+            "o",
+            "ve",
+            "lha"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "olha",
+          "syllables": [
+            "o",
+            "lha"
+          ]
+        },
+        {
+          "word": "sapo",
+          "syllables": [
+            "sa",
+            "po"
+          ]
+        },
+        {
+          "word": "velha",
+          "syllables": [
+            "ve",
+            "lha"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "raposa",
+          "b": "raposa"
+        },
+        {
+          "a": "poço",
+          "b": "poço"
+        },
+        {
+          "a": "ovelha",
+          "b": "ovelha"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Uma raposa, que vinha a fugir dos caçadores, enfiou para dentro de um poço, à falta de melhor esconderijo.",
+        "Tentou, mas só conseguiu soltar o balde que balançou, na outra extremidade, como um sino sem badalo.",
+        "Meta-se no balde, que está aí em cima, e venha ter comigo, antes que a água acabe.",
+        "A ovelha baliu desesperada e humilhada com a sua tontice.",
+        "Chamado pelas lamúrias da ovelha, chegou-se à beira do poço e salvou-a a tempo."
+      ]
+    }
+  ]
+}

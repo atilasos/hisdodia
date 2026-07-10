@@ -1,0 +1,130 @@
+{
+  "id": "03-30",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "cores",
+          "distractors": [
+            "verdes",
+            "verde",
+            "feita"
+          ],
+          "sentence": "E há cores intermédias: cor de laranja, azul marinho, violeta, cor-de-rosa..."
+        },
+        {
+          "target": "respondeu",
+          "distractors": [
+            "limonada",
+            "esplanada",
+            "pergunta"
+          ],
+          "sentence": "Amarelo – respondeu a mãe, cheia de paciência."
+        },
+        {
+          "target": "verdes",
+          "distractors": [
+            "cores",
+            "verde",
+            "feita"
+          ],
+          "sentence": "Claro que há coisas amarelas, outras azuis, outras vermelhas, outras verdes."
+        },
+        {
+          "target": "verde",
+          "distractors": [
+            "cores",
+            "verdes",
+            "feita"
+          ],
+          "sentence": "Um ventinho ligeiro enfunava o toldo verde escuro da esplanada, arrepiava as folhas verdes, de um verde clarinho, das acácias, agitava…"
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "cores",
+          "syllables": [
+            "co",
+            "res"
+          ]
+        },
+        {
+          "word": "respondeu",
+          "syllables": [
+            "res",
+            "pon",
+            "deu"
+          ]
+        },
+        {
+          "word": "verde",
+          "syllables": [
+            "ver",
+            "de"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "deres",
+          "syllables": [
+            "de",
+            "res"
+          ]
+        },
+        {
+          "word": "dever",
+          "syllables": [
+            "de",
+            "ver"
+          ]
+        },
+        {
+          "word": "responde",
+          "syllables": [
+            "res",
+            "pon",
+            "de"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "cores",
+          "b": "cores"
+        },
+        {
+          "a": "respondeu",
+          "b": "respondeu"
+        },
+        {
+          "a": "verdes",
+          "b": "verdes"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O Joca ficou silencioso, mas só por um instante.",
+        "Amarelo – respondeu a mãe, cheia de paciência.",
+        "Nunca conseguimos conhecer as cores todas, porque não há duas cores iguais.",
+        "Vou comprar-te uma caixa de tintas – disse-lhe a mãe.",
+        "E aprendem também – o que não é menos importante – a viver umas com as outras, a conviver, a relacionarem-se..."
+      ]
+    }
+  ]
+}

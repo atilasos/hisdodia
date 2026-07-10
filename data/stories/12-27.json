@@ -4,14 +4,36 @@
   "day": 27,
   "dateLabel": "27 de Dezembro",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 27 de Dezembro",
+  "title": "A Filhó Dourada",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "A história que vou contar chama-se \"A Filhó Dourada\". Douradas, muito douradinhas são elas todas, empilhadas na travessa, como um castelo por conquistar.",
+        "As últimas são as melhores. Têm mais açúcar, desfazem-se mal lhes tocamos… A gente pega delicadamente numa das que sobraram, dá-lhe um impulso que a ponha a deslizar na travessa, para ensopar bem, e num gesto rápido, sem pingar a toalha, mete-a na boca. O estalar dela, de encontro aos nossos dentes, é música com açúcar.",
+        "Naquela ceia de Natal, todos tinham comido filhós.",
+        "– Estão uma delícia – comentavam.",
+        "E, porque estavam uma delícia, não tinha sobrado senão uma, no fundo da travessa. Era uma ilha minúscula e redondinha, rodeada por um mar de açúcar. Todos os olhos fitavam a filhó, que estalava em reflexos de oiro. Uma tentação.",
+        "À roda da mesa, diziam para o avô:",
+        "– Só ficou uma filhó. Porque é que a não come?",
+        "O avô, então, virava-se para a avó e segredava-lhe:",
+        "– Come tu, anda lá.",
+        "A avó não queria.",
+        "– Comam vocês – dizia ela, apontando para a filhó e para os filhos.",
+        "– Eu já comi muitas – desculpava-se um.",
+        "– Também tenho a minha conta – dizia outro.",
+        "– Nem mais um bocadinho – declarava um terceiro.",
+        "Parecia que nenhum queria tomar a responsabilidade de comer a filhó. No entanto, ela lá estava muito dourada, a recortar-se no meio da calda de açúcar. Apetecia mesmo ver e… comer.",
+        "Mas, à volta da mesa, não se decidiam. E a filhó, a última filhó, andava de boca em boca, sem se fixar na boca de ninguém. De oferta em oferta, chegou a vez da tia Luísa propor:",
+        "– Os pequenos que comam. Sempre quero ver qual dos meus sobrinhos chega primeiro à filhó.",
+        "Os meninos não se precipitaram sobre a filhó apetitosa, como seria de esperar. Cada um ficou à espera do primo ao lado, e o primo ao lado do outro primo ao lado… Fosse por acanhamento ou fosse por que fosse…",
+        "– Afinal ninguém a come – observaram do outro extremo da mesa. – Esta filhó deve ser mágica.",
+        "Olharam uns para os outros e sorriram.",
+        "A ceia estava no fim. Os meninos tinham sono. O avô cabeceava. Começou a ouvir-se o arrastar das cadeiras. Era a debandada.",
+        "– Amanhã se arruma a casa – disse a tia Luísa, e apagou a luz da sala de jantar.",
+        "Quando todos já se tinham ido embora, a filhó, no lusco-fusco, ao meio da mesa, começou a brilhar. Intensamente. Acreditem ou não, como se tivesse luz dentro. Como um pequeno sol ou um bocadinho de oiro, a desfazer-se em açúcar."
       ]
     }
   ],
@@ -25,22 +47,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/12/27/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

@@ -1,0 +1,123 @@
+{
+  "id": "11-22",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "senhor",
+          "distractors": [
+            "quimono",
+            "gigante",
+            "depois"
+          ],
+          "sentence": "O maior aventureiro da nossa rua é o senhor Teotónio."
+        },
+        {
+          "target": "madrinha",
+          "distractors": [
+            "quimono",
+            "gigante",
+            "menina"
+          ],
+          "sentence": "Segundo o seu contar, vinha do Japão, como marujo, num navio mercante, quando se lembrou de que tinha prometido à madrinha um quimono."
+        },
+        {
+          "target": "quimono",
+          "distractors": [
+            "senhor",
+            "madrinha",
+            "gigante"
+          ],
+          "sentence": "Depois, remou, noite e dia, dia e noite, tudo por causa do quimono da madrinha."
+        },
+        {
+          "target": "gigante",
+          "distractors": [
+            "senhor",
+            "madrinha",
+            "quimono"
+          ],
+          "sentence": "Uns enormes olhos fitavam-no e ele estava nas mãos de um gigante."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "senhor",
+          "syllables": [
+            "se",
+            "nhor"
+          ]
+        },
+        {
+          "word": "madrinha",
+          "syllables": [
+            "ma",
+            "dri",
+            "nha"
+          ]
+        },
+        {
+          "word": "quimono",
+          "syllables": [
+            "qui",
+            "mo",
+            "no"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "manha",
+          "syllables": [
+            "ma",
+            "nha"
+          ]
+        },
+        {
+          "word": "mano",
+          "syllables": [
+            "ma",
+            "no"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "senhor",
+          "b": "senhor"
+        },
+        {
+          "a": "madrinha",
+          "b": "madrinha"
+        },
+        {
+          "a": "quimono",
+          "b": "quimono"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "O maior aventureiro da nossa rua é o senhor Teotónio.",
+        "Estou a recordar-me de um naufrágio por que passei, de uma vez que vinha do Japão – começa ele.",
+        "Mas levantou-se uma tempestade e o barquinho a remos, que ia a passar pelo meio de uns ilhéus, sacudido de um lado para o outro, foi…",
+        "Ser despido e vestido pela carantonha, embalado e lavado, pendurado de pernas para o ar e atirado ao chão, sem cerimónia, não se tolerava.",
+        "Não valia a pena explicar à madrinha os perigos e sacrifícios por que passara para lhe trazer aquele roupão de mangas larguíssimas."
+      ]
+    }
+  ]
+}

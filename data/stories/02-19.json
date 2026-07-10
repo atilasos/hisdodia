@@ -4,14 +4,25 @@
   "day": 19,
   "dateLabel": "19 de Fevereiro",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 19 de Fevereiro",
+  "title": "A Pantera e o Leão",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "E sta história contou-ma um amigo meu que esteve em África. Fala de panteras e de leões.",
+        "A pantera tinha caçado um cabrito. Preparava-se para comê-lo, quando apareceu o leão.",
+        "– Pantera, não toques nesse cabrito – rugiu o leão.",
+        "– Mas fui eu que o cacei – protestou a pantera.",
+        "– Não toques, já disse. Eu é que mando. Eu é que decido.",
+        "Como se vê, o leão abusava do seu título de rei da selva.",
+        "A pantera não quis teimar mais. Mas o caso não ficava assim…",
+        "Matutando no que havia de fazer para recuperar o seu cabrito, a pantera foi ter a uma praia cheia de conchas. Aí estava uma ideia!",
+        "A pantera recolheu uma quantidade de conchas, enfiou-as num cordão e voltou para junto do leão, que estava a dormir. Já tinha comido metade do cabrito.",
+        "Sem ruído, a pantera aproximou-se do leão e pôs-lhe ao pescoço o colar de conchas. Vendo que o dorminhoco estava com o sono ferrado, quebrou perto um arbusto. Tréquele!",
+        "O leão acordou em sobressalto e sacudiu-se. O barulho das conchas a chocarem-se umas de encontro às outras acompanhou-lhe os movimentos. O leão, sem perceber do que se tratava, desatou a correr. Quanto mais corria, mais o barulho das conchas o perseguia…",
+        "Então a pantera acabou de comer, muito descansadamente, o resto do cabrito."
       ]
     }
   ],
@@ -25,22 +36,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/02/19/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

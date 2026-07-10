@@ -1,0 +1,130 @@
+{
+  "id": "03-17",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "padrinho",
+          "distractors": [
+            "ponteiros",
+            "primeiro",
+            "mostrador"
+          ],
+          "sentence": "Ele queria um de mostrador irrequieto, sempre com os segundos aos saltinhos, mas o padrinho deu-lhe um de ponteiros, à antiga."
+        },
+        {
+          "target": "ponteiros",
+          "distractors": [
+            "padrinho",
+            "primeiro",
+            "mostrador"
+          ],
+          "sentence": "Decidiu que era hora de almoço e impôs aos ponteiros o meio– dia e trinta minutos."
+        },
+        {
+          "target": "tempo",
+          "distractors": [
+            "horas",
+            "sempre",
+            "hora"
+          ],
+          "sentence": "É um relógio do meu tempo – disse o padrinho."
+        },
+        {
+          "target": "sempre",
+          "distractors": [
+            "tempo",
+            "horas",
+            "chamou"
+          ],
+          "sentence": "Estás sempre a dizer que, no teu tempo, não havia tanta pressa."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "padrinho",
+          "syllables": [
+            "pa",
+            "dri",
+            "nho"
+          ]
+        },
+        {
+          "word": "ponteiros",
+          "syllables": [
+            "pon",
+            "tei",
+            "ros"
+          ]
+        },
+        {
+          "word": "tempo",
+          "syllables": [
+            "tem",
+            "po"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "papo",
+          "syllables": [
+            "pa",
+            "po"
+          ]
+        },
+        {
+          "word": "ponho",
+          "syllables": [
+            "po",
+            "nho"
+          ]
+        },
+        {
+          "word": "popa",
+          "syllables": [
+            "po",
+            "pa"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "padrinho",
+          "b": "padrinho"
+        },
+        {
+          "a": "ponteiros",
+          "b": "ponteiros"
+        },
+        {
+          "a": "tempo",
+          "b": "tempo"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Ele queria um de mostrador irrequieto, sempre com os segundos aos saltinhos, mas o padrinho deu-lhe um de ponteiros, à antiga.",
+        "Estás sempre a dizer que, no teu tempo, não havia tanta pressa.",
+        "Quando se viu sozinho, o Joca pôs-se a regular o tempo, à sua conta.",
+        "O teu relógio deve estar escangalhado – disse o Joca para a mãe.",
+        "Aqueles relógios de ponteiros, afinal, ainda eram muito imperfeitos..."
+      ]
+    }
+  ]
+}

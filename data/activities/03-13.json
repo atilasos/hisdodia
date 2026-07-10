@@ -74,6 +74,13 @@
       ],
       "recombine": [
         {
+          "word": "ranho",
+          "syllables": [
+            "ra",
+            "nho"
+          ]
+        },
+        {
           "word": "rara",
           "syllables": [
             "ra",
@@ -86,13 +93,6 @@
             "ra",
             "ti",
             "to"
-          ]
-        },
-        {
-          "word": "tira",
-          "syllables": [
-            "ti",
-            "ra"
           ]
         }
       ]

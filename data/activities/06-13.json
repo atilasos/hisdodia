@@ -1,0 +1,131 @@
+{
+  "id": "06-13",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "menina",
+          "distractors": [
+            "pardal",
+            "ninho",
+            "longe"
+          ],
+          "sentence": "Mas veio uma menina que andava a colher amoras para dentro do chapéu de lona, e levou-o com ela."
+        },
+        {
+          "target": "pardal",
+          "distractors": [
+            "menina",
+            "pardalito",
+            "ninho"
+          ],
+          "sentence": "Mais precisamente um pardal, um pardalito tontelas, de asas molhadas de medo."
+        },
+        {
+          "target": "pardalito",
+          "distractors": [
+            "pardal",
+            "andorinha",
+            "tontelas"
+          ],
+          "sentence": "O pardalito nem se atrevera a pedir-lhe ajuda."
+        },
+        {
+          "target": "voar",
+          "distractors": [
+            "ninho",
+            "chão",
+            "longe"
+          ],
+          "sentence": "Dava saltinhos, a ensaiar o voo, mas ainda estava longe de saber voar."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "menina",
+          "syllables": [
+            "me",
+            "ni",
+            "na"
+          ]
+        },
+        {
+          "word": "pardal",
+          "syllables": [
+            "par",
+            "dal"
+          ]
+        },
+        {
+          "word": "pardalito",
+          "syllables": [
+            "par",
+            "da",
+            "li",
+            "to"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "dali",
+          "syllables": [
+            "da",
+            "li"
+          ]
+        },
+        {
+          "word": "lida",
+          "syllables": [
+            "li",
+            "da"
+          ]
+        },
+        {
+          "word": "parda",
+          "syllables": [
+            "par",
+            "da"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "menina",
+          "b": "menina"
+        },
+        {
+          "a": "pardal",
+          "b": "pardal"
+        },
+        {
+          "a": "pardalito",
+          "b": "pardalito"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Mais precisamente um pardal, um pardalito tontelas, de asas molhadas de medo.",
+        "Mas o besouro, talvez por culpa do motor barulhento que o sustinha no ar, nem lhe ligou.",
+        "Havia de vir uma cobra e dar-lhe uma picada.",
+        "Mas veio uma menina que andava a colher amoras para dentro do chapéu de lona, e levou-o com ela.",
+        "Mas por onde quer que ande, no seu agitado voo de pardal aventureiro, de uma coisa se não esquece."
+      ]
+    }
+  ]
+}

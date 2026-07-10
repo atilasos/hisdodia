@@ -1,0 +1,128 @@
+{
+  "id": "08-25",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "casa",
+          "distractors": [
+            "mouro",
+            "carvões",
+            "cristãos"
+          ],
+          "sentence": "A coberto da noite, evitou as sentinelas e conseguiu chegar a casa da parteira."
+        },
+        {
+          "target": "mouro",
+          "distractors": [
+            "casa",
+            "mulher",
+            "terra"
+          ],
+          "sentence": "A parteira, ou por cobiça ou por condoimento, foi com o mouro, passando, no entanto, pelos mesmos riscos por que ele tinha passado."
+        },
+        {
+          "target": "mulher",
+          "distractors": [
+            "mouro",
+            "avental",
+            "carvões"
+          ],
+          "sentence": "Aconteceu que, uma vez, não sei onde, uma mulher sarracena estava para dar à luz."
+        },
+        {
+          "target": "parteira",
+          "distractors": [
+            "avental",
+            "carvões",
+            "cristãos"
+          ],
+          "sentence": "Falaram-lhe, no entanto, de uma parteira cristã, que vivia do outro lado da guerra."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        },
+        {
+          "word": "mouro",
+          "syllables": [
+            "mou",
+            "ro"
+          ]
+        },
+        {
+          "word": "mulher",
+          "syllables": [
+            "mu",
+            "lher"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "caro",
+          "syllables": [
+            "ca",
+            "ro"
+          ]
+        },
+        {
+          "word": "muro",
+          "syllables": [
+            "mu",
+            "ro"
+          ]
+        },
+        {
+          "word": "rosa",
+          "syllables": [
+            "ro",
+            "sa"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "casa",
+          "b": "casa"
+        },
+        {
+          "a": "mouro",
+          "b": "mouro"
+        },
+        {
+          "a": "mulher",
+          "b": "mulher"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Isto passou-se num tempo em que mouros e cristãos andavam à bulha pela mesma terra, por sinal a mesma que, mais tarde, se chamou de…",
+        "A coberto da noite, evitou as sentinelas e conseguiu chegar a casa da parteira.",
+        "Concluído o parto, sossegada a mãe com o bebé nos braços, o mouro mandou-a levantar o avental e despejou-lhe para a abada dele uma cesta…",
+        "Se vens de terra inimiga, não vens por bem – disseram-lhe.",
+        "Parece que o único que não apreciou a transformação foi o gato que gostava de dormir ao calor do borralho."
+      ]
+    }
+  ]
+}

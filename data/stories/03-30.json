@@ -4,14 +4,38 @@
   "day": 30,
   "dateLabel": "30 de Março",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 30 de Março",
+  "title": "O Joca Brinca com as Cores",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Perguntava o Joca:",
+        "– Mãe, de que cor são os pintainhos?",
+        "– Os pintainhos são amarelos.",
+        "O Joca ficou silencioso, mas só por um instante.",
+        "– E de que cor é aquilo que o ovo cozido tem dentro?",
+        "– Aquilo chama-se gema e a cor é amarela.",
+        "– Ó mãe, o que é isso que está a beber?",
+        "– É limonada.",
+        "– A limonada é feita com o quê, mãe?",
+        "– É feita com sumo de limão.",
+        "– E de que cor é o limão?",
+        "– Amarelo – respondeu a mãe, cheia de paciência.",
+        "O Joca engoliu o último bocado do bolo e comentou:",
+        "– Há muito amarelo por aí, não há? – e fez um gesto que abrangia a esplanada, o toldo, as pessoas que passavam na rua, os automóveis, os prédios em frente, as outras ruas, as casas das outras ruas, a cidade, o país, a terra e o céu. Enfim, gesto largo, muito largo...",
+        "A mãe esclareceu:",
+        "– Claro que há coisas amarelas, outras azuis, outras vermelhas, outras verdes. E há cores intermédias: cor de laranja, azul marinho, violeta, cor-de-rosa... As cores estão espalhadas pelo mundo, para alegria dos olhos dos meninos e dos homens. Tu ainda não conheces todas as cores, mas hás-de conhecê-las.",
+        "– Todas? – pergunta o Joca, ansioso.",
+        "Um ventinho ligeiro enfunava o toldo verde escuro da esplanada, arrepiava as folhas verdes, de um verde clarinho, das acácias, agitava uma blusa verde-garrafa, a secar numa janela. Mas há mais verdes, tantos mais que nós não contamos por preguiça...",
+        "A mãe do Joca via o que nós víamos. Por isso respondeu assim:",
+        "– Nunca conseguimos conhecer as cores todas, porque não há duas cores iguais. É fácil dizer: aquilo é azul, mas há tantos azuis... Baptizar uma cor é, afinal, muito difícil. Percebeste, Joca?",
+        "De olhos muito abertos, virados para a mãe, o Joca só os pestanejou quando, à pergunta, respondeu que não percebera.",
+        "– Vou comprar-te uma caixa de tintas – disse-lhe a mãe. – Hás-de aprender por ti.",
+        "É o que está a acontecer. O Joca mais a sua caixa de aguarelas andam a aprender. O Joca aprende a trabalhar com os pincéis e a estender as cores sobre a folha branca. Por sua vez, as cores, que acordaram dos quadradinhos apertados, onde dormiam, aprendem a viajar sobre desenhos e paisagens.",
+        "E aprendem também – o que não é menos importante – a viver umas com as outras, a conviver, a relacionarem-se... Põe-se o amarelo à conversa com o encarnado e aparece o cor de laranja... Está o encarnado à conversa com o verde e descobrem o castanho...",
+        "É uma festa para o Joca. É uma festa para as cores."
       ]
     }
   ],
@@ -25,22 +49,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/03/30/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

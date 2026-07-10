@@ -1,0 +1,132 @@
+{
+  "id": "05-09",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "mercador",
+          "distractors": [
+            "peregrino",
+            "perfume",
+            "caminho"
+          ],
+          "sentence": "Um, montado numa mula de alforges carregados, devia ser mercador."
+        },
+        {
+          "target": "peregrino",
+          "distractors": [
+            "mercador",
+            "perfume",
+            "estradas"
+          ],
+          "sentence": "O outro de capa larga e botas gastas devia ser peregrino pelo modo de usar levantada a aba do chapéu e pela vieira nela pregada."
+        },
+        {
+          "target": "perfume",
+          "distractors": [
+            "mercador",
+            "peregrino",
+            "dantes"
+          ],
+          "sentence": "De facto, um perfume muito doce penetrava no nariz do peregrino, que o estranhou."
+        },
+        {
+          "target": "terra",
+          "distractors": [
+            "dois",
+            "longe",
+            "dantes"
+          ],
+          "sentence": "Quando nós, hoje, atravessamos a Europa de lés a lés, em comboios velozes, que já não fazem \"pouca terra..."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "mercador",
+          "syllables": [
+            "mer",
+            "ca",
+            "dor"
+          ]
+        },
+        {
+          "word": "peregrino",
+          "syllables": [
+            "pe",
+            "re",
+            "gri",
+            "no"
+          ]
+        },
+        {
+          "word": "perfume",
+          "syllables": [
+            "per",
+            "fu",
+            "me"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cano",
+          "syllables": [
+            "ca",
+            "no"
+          ]
+        },
+        {
+          "word": "dorme",
+          "syllables": [
+            "dor",
+            "me"
+          ]
+        },
+        {
+          "word": "nome",
+          "syllables": [
+            "no",
+            "me"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "mercador",
+          "b": "mercador"
+        },
+        {
+          "a": "peregrino",
+          "b": "peregrino"
+        },
+        {
+          "a": "perfume",
+          "b": "perfume"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Dantes, lá muito dantes, não havia estradas a cruzar os países de fora a fora.",
+        "Alivia mais acreditar do que alimentar desconfianças.",
+        "Um frasco cheio de mais que verteu – explicou ele.",
+        "Os convidados, um por um, inclinavam-se diante do trono do Papa e beijavam-lhe o anel.",
+        "Da força do abraço, o doce perfume ficou a pairar entre os dois homens e colou-se para sempre às vestes do Papa."
+      ]
+    }
+  ]
+}

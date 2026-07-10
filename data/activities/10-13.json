@@ -77,6 +77,13 @@
       ],
       "recombine": [
         {
+          "word": "cacei",
+          "syllables": [
+            "ca",
+            "cei"
+          ]
+        },
+        {
           "word": "caro",
           "syllables": [
             "ca",
@@ -89,13 +96,6 @@
             "ca",
             "ça",
             "do"
-          ]
-        },
-        {
-          "word": "dores",
-          "syllables": [
-            "do",
-            "res"
           ]
         }
       ]

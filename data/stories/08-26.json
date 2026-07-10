@@ -4,14 +4,45 @@
   "day": 26,
   "dateLabel": "26 de Agosto",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 26 de Agosto",
+  "title": "A Galinha da Dona Gertrudes",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Aquele jornalista das perguntas, que já conhecem, foi entrevistar uma galinha, mas uma galinha especial. Propunha-se a cacarejante criatura entrar para o Guinness, o livro dos recordes. E a fazer o quê? A pôr um ovo de ouro? Não, que ideia, que vulgaridade. Essa é uma história muito antiga e já foi contada, há que tempos.",
+        "O fito dela era outro. Teimava a galinácea que seria capaz de chocar de uma só vez trinta ovos e de fazer assim nascer, sem tirar nem pôr, trinta pintainhos, trinta irmãozinhos pipilantes, cor de gema de ovo.",
+        "– Vai precisar de alguma preparação especial? – perguntou-lhe o jornalista, passando a cabeça por cima da rede do galinheiro.",
+        "– Cacracá, cacracá, cacracá – respondeu-lhe a galinha.",
+        "Queria ela dizer na dela que, estando choca, só precisava de muita paciência, porque a natureza faria o resto.",
+        "– E tem a certeza que os ovos estão todos em condições de ser chocados? – insistiu o jornalista.",
+        "Respondeu a galinha:",
+        "– Cacracá, cacracá, cacracá.",
+        "Ao que o galo da capoeira, muito senhor de si, acrescentou:",
+        "– Cocrocó, cocrocó, cocrocó.",
+        "O que ambos queriam dizer percebe-se. Estavam seguros, seguríssimos, da impecável qualidade dos ovos, dispostos para o choco.",
+        "Quem os acondicionara no ninho, que a galinha cobria, tinha sido a Dona Gertrudes, dona da galinha, do galo e do galinheiro todo, onde também estanciavam outros bicos, patas e patos, peruas e perus, como se pertencessem à mesma família.",
+        "– Em quanto está o último recorde? – quis saber o jornalista. – Consta-me que pertence a uma galinha australiana que deu à luz vinte e nove pintos, num único choco. Confirma?",
+        "– Cacracá.",
+        "A galinha confirmava. Estava bem informado o jornalista.",
+        "Foi para o jornal e escreveu a notícia com o seguinte título: \"Galinha portuguesa vai derrotar galinha australiana\". Era um bocado exagero ou precipitação, mas este jornalista deixava-se levar pelo entusiasmo, que nem sempre é bom conselheiro de quem redige notícias.",
+        "Lá que a galinha se esforçava ninguém duvida. Fazia-se leve e alargava as asas o mais que podia, para dar a todos os ovos calor por igual. Quando ela ia depenicar qualquer coisinha, o galo revezava-a no choco, o que não era desprimor nenhum.",
+        "Os dias iam passando. No jornal, que era diário, o jornalista ia mantendo viva a atenção dos leitores. Já entrevistara por diversas vezes a Senhora Gertrudes, o marido da Senhora Gertrudes, vizinhos da Senhora Gertrudes e até tentara obter, em primeira mão, um depoimento do peru.",
+        "– Glu, glu, glu – dissera-lhe ele, meneando a cabeça com alguma inquietação.",
+        "Não era muito optimista o peru, o que se compreende. A aproximação do Natal trazia-o muito apreensivo.",
+        "As cascas dos ovos começaram a estalar. O jornalista, avisado, trouxe fotógrafo para o grande acontecimento.",
+        "Record mundial: \"Trinta pintos para uma galinha\", já via ele, em grossas letras, na primeira página. \"Portugal derrota Austrália, no jogo da capoeira...\", assim começaria a notícia.",
+        "Afinal, não começou. Afinal, não derrotou. Ficaram empatados. Eu explico.",
+        "Os pintainhos foram nascendo, um a um, a trocar o passo, molhados e tiritantes. Mal se desembaraçavam da casca, fugiam outra vez para o calor da mãe. O pai galo, enternecido, ia-os contando:",
+        "– Cocrocó... Cocrocó... Cocrocó... Cocrocó...",
+        "O jornalista e o fotógrafo e a Senhora Gertrudes e o marido da Senhora Gertrudes e os vizinhos e as vizinhas da Senhora Gertrudes também, em coro afinado, contavam:",
+        "– ... Vinte e seis, vinte e sete, vinte e oito, vinte e nove...",
+        "– Só falta um! Só falta um! – gritava, exaltado, o jornalista, que mais parecia um locutor de um relato de futebol.",
+        "O residente do último ovo resistia. Ou fosse ele mais preguiçoso ou fosse a casca mais grossa, não havia meio. Finalmente... craque, craque, craque... partiu-se. E ouviu-se, à roda, um \"Oh!\" – de desapontamento geral.",
+        "Não era um pinto, o que o último ovo escondia. Era um pato, um patinho vacilante, que logo foi esconder-se e juntar-se aos seus irmãos do choco.",
+        "– Ai que troquei este ovo. Cabeça a minha! – exclamou a Senhora Gertrudes, dando uma palmada na testa.",
+        "E foi assim que esta esforçada galinha não entrou no Guinness, o livro dos recordes. Dizem-me que está a ensaiar-se para nova tentativa! Ela e o galo, como não podia deixar de ser."
       ]
     }
   ],
@@ -25,22 +56,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/08/26/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

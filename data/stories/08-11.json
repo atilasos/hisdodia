@@ -4,14 +4,39 @@
   "day": 11,
   "dateLabel": "11 de Agosto",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 11 de Agosto",
+  "title": "Hóspedes Indesejáveis",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "D epois do almoço, altura de menor movimento na estalagem, o senhor Pestana, protegido pelo balcão da entrada, lia tranquilamente o seu jornal. Às vezes dormitava, o que não era de censurar. Se, nos respectivos quartos, os hóspedes faziam a sua sesta, porque não havia o hospedeiro de fazer o mesmo?",
+        "Foi numa ocasião destas que uma vozinha sobre o balcão perguntou:",
+        "– Tem quartos livres?",
+        "O senhor Pestana levantou os olhos do jornal, mas não viu ninguém. Debruçou-se do balcão e espreitou para o outro lado, não fosse o cliente de baixa estatura. Nem sombra. \"Adormeci, foi o que foi, e já estava a sonhar com mais hóspedes\", pensou, resignadamente, o senhor Pestana.",
+        "– Afinal, tem ou não tem quartos disponíveis? – voltou a perguntar a vozinha, já com alguma impaciência.",
+        "Quem tem voz, tem corpo. Para não prolongar o mistério, vamos já esclarecer que o corpo desta voz tinha o tamanho de uma pulga. Era efectivamente uma pulga a causadora da confusão.",
+        "– Pretende um quarto com vista para o lago? – perguntou o senhor Pestana, que não se perturbava por tão pouco.",
+        "– A vista é o menos – respondeu a pulga. – Mas queremos sossego.",
+        "– Queremos? – estranhou o senhor Pestana. – Quantas são?",
+        "– Vinte e cinco, contando comigo. É um grupo de excursionistas.",
+        "O senhor Pestana estava desolado. Não tinha quartos que chegassem. Mas não quis perder a oportunidade:",
+        "– Se coubessem todas em três quartos...",
+        "A pulga aceitou a sugestão. Não tencionavam demorar-se muito. Duas noites, se tanto.",
+        "– Também precisamos de instalações para o nosso transporte – lembrou a pulga. – Uma casota chega.",
+        "– Casota para a camioneta? – admirou-se o senhor Pestana.",
+        "A pulga riu-se. Tinha um riso fininho, irritante esta pulga.",
+        "– Nos nossos passeios, deslocamo-nos sempre de cão. Temos um cão privativo e muito felpudo, que nós guiamos para onde queremos.",
+        "O senhor Pestana começava a arrepender-se de ter dado hospedagem aquelas pulgas presumidas.",
+        "Na manhã seguinte, mais se arrependeu. Vieram ter com ele hóspedes antigos e respeitáveis queixar-se de que tinham dormido mal, assaltados durante a noite por cócegas e picadas esquisitas, inconvenientes. Estão a entender, não é verdade? Efectivamente, algumas excursionistas tinham-se enganado no número do quarto...",
+        "O senhor Pestana, muito incomodado, foi ter com a responsável pela excursão:",
+        "– Desculpem, mas não podem continuar cá. Está em jogo a reputação da minha estalagem.",
+        "As pulgas compreenderam a situação. Pagaram a conta e chamaram o transporte privativo, para mudarem de poiso. Quando foram fazer a contagem, eram vinte e oito.",
+        "O senhor Pestana preocupou-se:",
+        "– Como apareceram essas três a mais?",
+        "– Dizem que são inglesas – esclareceu a pulga chefe. – Parece que as viram num fox-terrier, pêlo de arame, de um \"mister\" qualquer. Agora querem acamaradar connosco. Nós não nos importamos.",
+        "O senhor Pestana também não se importava. Desde que deixassem a estalagem, era-lhe indiferente, mas pelo sim pelo não, andou a espalhar insecticida por baixo das camas de todos os quartos."
       ]
     }
   ],
@@ -25,22 +50,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/08/11/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

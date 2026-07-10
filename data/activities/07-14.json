@@ -1,8 +1,122 @@
 {
   "id": "07-14",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "gigante",
+          "distractors": [
+            "cavalo",
+            "cabeçudo",
+            "dentada"
+          ],
+          "sentence": "Quando esta história começa, apronta-se Dom Heleno para mais um torneio de vida ou de morte, desta vez contra um gigante cabeçudo que…"
+        },
+        {
+          "target": "cavaleiro",
+          "distractors": [
+            "cavalo",
+            "cabeçudo",
+            "palavras"
+          ],
+          "sentence": "E stão a ver um cavaleiro, daqueles de armadura, espada e lança, sempre prontas para o bom combate, em defesa dos mais fracos?"
+        },
+        {
+          "target": "lança",
+          "distractors": [
+            "cavalo",
+            "banda",
+            "peso"
+          ],
+          "sentence": "Heleno investe, de lança apontada aos joelhos do gigante, que a mais alto não consegue chegar."
+        },
+        {
+          "target": "cavalo",
+          "distractors": [
+            "gigante",
+            "cavaleiro",
+            "lança"
+          ],
+          "sentence": "Chama-se Heleno, Dom Heleno e o seu fiel cavalo é o Valdevinos."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "gigante",
+          "syllables": [
+            "gi",
+            "gan",
+            "te"
+          ]
+        },
+        {
+          "word": "cavaleiro",
+          "syllables": [
+            "ca",
+            "va",
+            "lei",
+            "ro"
+          ]
+        },
+        {
+          "word": "lança",
+          "syllables": [
+            "lan",
+            "ça"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "caro",
+          "syllables": [
+            "ca",
+            "ro"
+          ]
+        },
+        {
+          "word": "carote",
+          "syllables": [
+            "ca",
+            "ro",
+            "te"
+          ]
+        },
+        {
+          "word": "cava",
+          "syllables": [
+            "ca",
+            "va"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "gigante",
+          "b": "gigante"
+        },
+        {
+          "a": "cavaleiro",
+          "b": "cavaleiro"
+        },
+        {
+          "a": "lança",
+          "b": "lança"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +126,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "E stão a ver um cavaleiro, daqueles de armadura, espada e lança, sempre prontas para o bom combate, em defesa dos mais fracos?",
+        "Temos, assim, de uma banda o cavaleiro Heleno, montado no Valdevinos, e da outra banda, a pé, empunhando um enorme cacete, o gigante, a…",
+        "Já está o gigante debruçado sobre a sua vítima, pronto a assentar-lhe uma última cacetada.",
+        "Com as duas pernas feridas, o gigante desequilibra-se e cai.",
+        "Valdevinos ouve e cala, mas ri-se, mostrando os seus grandes dentes, os dentes com que ferrara a dentada decisiva no calcanhar do gigante."
+      ]
     }
   ]
 }

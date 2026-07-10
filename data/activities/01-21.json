@@ -1,8 +1,120 @@
 {
   "id": "01-21",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "dama",
+          "distractors": [
+            "casa",
+            "fora",
+            "jeito"
+          ],
+          "sentence": "Era uma vez uma dama, que tinha uma criada meia-zaranza e papa-moscas, que não fazia nada com jeito."
+        },
+        {
+          "target": "casa",
+          "distractors": [
+            "dama",
+            "fora",
+            "jeito"
+          ],
+          "sentence": "Um dia, a dama teve de ausentar-se de casa por uns tempos e de deixar tudo aos cuidados da Pancrácia."
+        },
+        {
+          "target": "fora",
+          "distractors": [
+            "dama",
+            "casa",
+            "jeito"
+          ],
+          "sentence": "Enquanto eu estiver fora, vê bem como cuidas dos meus haveres."
+        },
+        {
+          "target": "mendigo",
+          "distractors": [
+            "tempos",
+            "deixar",
+            "estiver"
+          ],
+          "sentence": "Era ou fazia de conta que era um mendigo."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "dama",
+          "syllables": [
+            "da",
+            "ma"
+          ]
+        },
+        {
+          "word": "casa",
+          "syllables": [
+            "ca",
+            "sa"
+          ]
+        },
+        {
+          "word": "fora",
+          "syllables": [
+            "fo",
+            "ra"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cama",
+          "syllables": [
+            "ca",
+            "ma"
+          ]
+        },
+        {
+          "word": "camarada",
+          "syllables": [
+            "ca",
+            "ma",
+            "ra",
+            "da"
+          ]
+        },
+        {
+          "word": "cara",
+          "syllables": [
+            "ca",
+            "ra"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "dama",
+          "b": "dama"
+        },
+        {
+          "a": "casa",
+          "b": "casa"
+        },
+        {
+          "a": "fora",
+          "b": "fora"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +124,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Era uma vez uma dama, que tinha uma criada meia-zaranza e papa-moscas, que não fazia nada com jeito.",
+        "A dama percebeu que o recado estava aprendido e saiu mais descansada.",
+        "Aqui o mendigo começou a perceber que aquele \"não\" era de encomenda.",
+        "E assim o falso mendigo foi conseguindo os seus intentos.",
+        "Não – respondeu, muito bem ensinada, a Pancrácia."
+      ]
     }
   ]
 }

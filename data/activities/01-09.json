@@ -64,27 +64,27 @@
           ]
         },
         {
-          "word": "galinhas",
+          "word": "orelhas",
           "syllables": [
-            "ga",
-            "li",
-            "nhas"
+            "o",
+            "re",
+            "lhas"
           ]
         }
       ],
       "recombine": [
         {
-          "word": "liga",
+          "word": "olhas",
           "syllables": [
-            "li",
-            "ga"
+            "o",
+            "lhas"
           ]
         },
         {
-          "word": "linhas",
+          "word": "rolhas",
           "syllables": [
-            "li",
-            "nhas"
+            "ro",
+            "lhas"
           ]
         }
       ]

@@ -4,14 +4,36 @@
   "day": 14,
   "dateLabel": "14 de Junho",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 14 de Junho",
+  "title": "Um Sonho do Joca",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Q uando eu vi, na televisão, a estátua de D. Pedro IV, a cavalo numa bicicleta, e, depois das vistas sobre o Porto, passaram ao Mosteiro da Batalha, para mostrarem a estátua de D. Nuno Álvares Pereira, também montado noutra bicicleta, embora mais antiga, eu percebi que estava a sonhar.",
+        "Nesse sonho, eu apagava o televisor e descia à rua, a caminho da Praça da Figueira, em Lisboa. Lá estava o rei D. João I, todo ancho, em cima de uma bicicleta da mesma marca da do Condestável D. Nuno.",
+        "Seguindo pela Baixa fora, com um trânsito de ciclistas que não se faz ideia, ia ter ao Terreiro do Paço. No meio da praça, o rei D. José de bronze olhava o Tejo, sobre uma bicicleta, com a roda da frente no ar. Devia estar a fazer uma pirueta, em cima do pedestal, para chamar a atenção.",
+        "Seria difícil repararem nele, com tantas bicicletas paradas e empilhadas, à roda da estátua. Em vez de um parque de estacionamento de automóveis, o Terreiro do Paço tinha-se transformado num parque de estacionamento de bicicletas. Pequena diferença, afinal.",
+        "Onde se estranhava mais a diferença era no movimento do Tejo. Dantes, os cacilheiros atravessavam-no de lado a lado. Agora, no meu sonho, grandes \"gaivotas\" de pedais, com dezenas de passageiros pedalantes, andavam de cá para lá, de lá para cá.",
+        "– Estou com umas dores na barriga das pernas que mal me tenho em pé – queixava-se uma senhora, ao desembarcar de um dos tais cacilheiros de pedais. – É que há uns que pedalam e outros que fazem de conta...",
+        "Os comboios partiam ao sinal de uma pistola de fulminantes, empunhada pelo chefe da estação. Cada passageiro, no seu respectivo lugar, punha-se então a pedalar com toda a força, como se estivesse numa corrida de bicicletas. Mas, neste caso, chegaram todos à meta ao mesmo tempo.",
+        "– Ainda há lugares? – perguntou um passageiro, na paragem seguinte.",
+        "– Se não vier muito carregado e se for enérgico de perna, pode entrar para o pelotão – respondia-lhe um senhor magrinho, montado num dos lugares-bicicleta.",
+        "E já com o comboio a deslizar sobre os carris, este senhor contava para os companheiros de viagem:",
+        "– Na semana passada, fui a Leiria, mas caí na asneira de entrar num comboio quase vazio. Demorei três dias a chegar.",
+        "– Estes comboios estão cada vez piores – comentaram em volta.",
+        "– Eu cá não me queixo – continuou o senhor magrinho. – A paisagem ao longo da linha é muito bonita e eu emagreci quinze quilos.",
+        "Via-se.",
+        "– Fiz esta viagem por recomendação do médico. Eu estava um bocado gordo. Mas acho que exagerei.",
+        "Os restantes passageiros também acharam, enquanto, suando, pedalavam juntos, a caminho de Sintra.",
+        "O país de Norte a Sul era uma permanente volta a Portugal em bicicleta. Auto-estradas, estradas, ruas, pontes, caminhos, cheios de ciclistas pedalando...",
+        "Uma bicicleta por cada português. Ou mais. Assim que uma criança deixava de andar de gatas, passava a andar de triciclo. Algumas, só depois é que aprendiam a andar em cima dos seus próprios pés.",
+        "Nunca vi tantas bicicletas juntas como no meu sonho.",
+        "Mal acordei, fui logo contá-lo aos meus pais, que estavam a tomar o pequeno-almoço. Um sonho tão lindo tinha de ser partilhado.",
+        "O meu pai, depois de me ouvir, poisou a chávena de café e olhou para mim, muito sério.",
+        "– Queres, então, que eu te compre uma bicicleta, para as próximas férias, é? – perguntou ele sorrindo.",
+        "Como é que o meu pai tinha adivinhado este meu secreto desejo, nunca revelado a ninguém?"
       ]
     }
   ],
@@ -25,22 +47,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "archive-originals",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/06/14/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

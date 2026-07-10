@@ -4,14 +4,32 @@
   "day": 10,
   "dateLabel": "10 de Setembro",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 10 de Setembro",
+  "title": "O Pato das Quatro Patas",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "Era uma vez um pato que tinha quatro pernas ou patas. Duas à frente e duas atrás. Nascera assim, o que se havia de fazer.",
+        "A andar, atrapalhava-se um bocado. Trocava as pernas. Eram pernas a mais para um pato só.",
+        "Mas a nadar, zap, zap, zap, a pedalar com as quatro pernas dentro de água, levava todos de vencida.",
+        "Não era um pato de capoeira, não sei se disse. Era um pato bravo, um pato de arribação.",
+        "Quando chegou o tempo dos patos mudarem de ares, em busca de terras mais quentes, é que foram elas. O pato, mais pesado do que os outros, levantava voo mas subia pouco e cansava-se depressa.",
+        "– Vão vocês andando, que eu já lá chego – disse o pato aos companheiros.",
+        "O bando alçou-se aos ares e ele ficou a vê-los. Todas aquelas asas juntas produziam um zumbido alegre, que foi decrescendo até se deixar de ouvir.",
+        "– Eles vão a voar e eu vou a nadar – decidiu o pato com quatro patas.",
+        "Desceu pelo rio que foi dar a outro rio que desembocou num grande rio que foi ter ao mar.",
+        "– Ena, que isto agora é a sério – dizia o pato, no meio das ondas salgadas. Se era! Ondas da altura de um prédio.",
+        "Ele nadar, nadava, mas avançava pouco. A bem dizer, não avançava nada, porque as ondas o empurravam para terra. Acabou por fazer-lhes a vontade.",
+        "Foi ter a uma praia nem muito quente nem muito fria. Cansadíssimo.",
+        "Ali ficou que tempos, sozinho, como um náufrago.",
+        "– Isto não é vida – disse, um dia. – Já que não consigo ir onde eles foram, o melhor será voltar para donde vim.",
+        "E voltou. Ora a nado ora a pé. A voar, só de raro em raro.",
+        "Quando chegou à pateira donde todos tinham partido, vinha o bando dos patos bravos a regressar da sua longa ausência.",
+        "– Não chegaste a ir? – perguntaram-lhe os companheiros.",
+        "– Claro que fui – respondeu o pato das quatro patas. – Quando lá cheguei já vocês tinham partido e tive de voltar a nado, a toda a pressa, para os alcançar no regresso.",
+        "Era mentira e os outros patos sabiam-no, mas não quiseram desmenti-lo. Todos tinham em muito respeito aquele pato com quatro patas e só duas asas. E não se falou mais nisso."
       ]
     }
   ],
@@ -25,22 +43,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/09/10/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

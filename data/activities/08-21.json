@@ -1,0 +1,131 @@
+{
+  "id": "08-21",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "cavalo",
+          "distractors": [
+            "veado",
+            "homem",
+            "pronto"
+          ],
+          "sentence": "Muito enfadado com o antigo parceiro, o cavalo foi ter com o homem."
+        },
+        {
+          "target": "veado",
+          "distractors": [
+            "cavalo",
+            "homem",
+            "lado"
+          ],
+          "sentence": "Quero que tu me livres do javardão do veado – disse ele ao homem, por sinal um caçador de arco e flecha."
+        },
+        {
+          "target": "homem",
+          "distractors": [
+            "cavalo",
+            "veado",
+            "lado"
+          ],
+          "sentence": "Isso interessa-me – respondeu o homem, aprestando os instrumentos de caça."
+        },
+        {
+          "target": "lado",
+          "distractors": [
+            "veado",
+            "homem",
+            "água"
+          ],
+          "sentence": "Bebiam lado a lado da água do mesmo ribeiro."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "cavalo",
+          "syllables": [
+            "ca",
+            "va",
+            "lo"
+          ]
+        },
+        {
+          "word": "veado",
+          "syllables": [
+            "ve",
+            "a",
+            "do"
+          ]
+        },
+        {
+          "word": "homem",
+          "syllables": [
+            "ho",
+            "mem"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cava",
+          "syllables": [
+            "ca",
+            "va"
+          ]
+        },
+        {
+          "word": "cavado",
+          "syllables": [
+            "ca",
+            "va",
+            "do"
+          ]
+        },
+        {
+          "word": "cave",
+          "syllables": [
+            "ca",
+            "ve"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "cavalo",
+          "b": "cavalo"
+        },
+        {
+          "a": "veado",
+          "b": "veado"
+        },
+        {
+          "a": "homem",
+          "b": "homem"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Bebiam lado a lado da água do mesmo ribeiro.",
+        "Por qualquer ninharia tola deixaram de ser amigos.",
+        "Não sei se já disse que o cavalo era selvagem.",
+        "Agora tira-me a sela e desaperta-me as correias.",
+        "O cavalo acabou por aceitar, resignado, o seu novo destino."
+      ]
+    }
+  ]
+}

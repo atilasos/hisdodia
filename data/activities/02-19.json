@@ -1,0 +1,129 @@
+{
+  "id": "02-19",
+  "generatedFrom": "recovered-text",
+  "generatorVersion": 1,
+  "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "leão",
+          "distractors": [
+            "amigo",
+            "fala",
+            "leões"
+          ],
+          "sentence": "Preparava-se para comê-lo, quando apareceu o leão."
+        },
+        {
+          "target": "cabrito",
+          "distractors": [
+            "conchas",
+            "toques",
+            "barulho"
+          ],
+          "sentence": "Pantera, não toques nesse cabrito – rugiu o leão."
+        },
+        {
+          "target": "conchas",
+          "distractors": [
+            "cabrito",
+            "toques",
+            "barulho"
+          ],
+          "sentence": "Matutando no que havia de fazer para recuperar o seu cabrito, a pantera foi ter a uma praia cheia de conchas."
+        },
+        {
+          "target": "barulho",
+          "distractors": [
+            "cabrito",
+            "conchas",
+            "toques"
+          ],
+          "sentence": "O barulho das conchas a chocarem-se umas de encontro às outras acompanhou-lhe os movimentos."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "leão",
+          "syllables": [
+            "le",
+            "ão"
+          ]
+        },
+        {
+          "word": "cabrito",
+          "syllables": [
+            "ca",
+            "bri",
+            "to"
+          ]
+        },
+        {
+          "word": "conchas",
+          "syllables": [
+            "con",
+            "chas"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "cato",
+          "syllables": [
+            "ca",
+            "to"
+          ]
+        },
+        {
+          "word": "conto",
+          "syllables": [
+            "con",
+            "to"
+          ]
+        },
+        {
+          "word": "toca",
+          "syllables": [
+            "to",
+            "ca"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "leão",
+          "b": "leão"
+        },
+        {
+          "a": "cabrito",
+          "b": "cabrito"
+        },
+        {
+          "a": "conchas",
+          "b": "conchas"
+        }
+      ]
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "E sta história contou-ma um amigo meu que esteve em África.",
+        "Pantera, não toques nesse cabrito – rugiu o leão.",
+        "Matutando no que havia de fazer para recuperar o seu cabrito, a pantera foi ter a uma praia cheia de conchas.",
+        "Sem ruído, a pantera aproximou-se do leão e pôs-lhe ao pescoço o colar de conchas.",
+        "Então a pantera acabou de comer, muito descansadamente, o resto do cabrito."
+      ]
+    }
+  ]
+}

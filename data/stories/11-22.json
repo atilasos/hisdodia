@@ -4,14 +4,41 @@
   "day": 22,
   "dateLabel": "22 de Novembro",
   "dayContext": "História recuperada do arquivo original.",
-  "title": "História de 22 de Novembro",
+  "title": "Uma História do Teotónio",
   "author": "António Torrado",
   "illustrator": "Ilustrador original por confirmar",
   "textSegments": [
     {
-      "layer": "archive-missing",
+      "layer": "blog-compilation",
       "paragraphs": [
-        "O texto original desta história perdeu-se. Não foi possível recuperá-lo do arquivo da Internet. Talvez exista nas edições em livro das histórias de António Torrado."
+        "O maior aventureiro da nossa rua é o senhor Teotónio. Correu mundo e gosta que saibam.",
+        "– Não ficou nenhum cantinho por conhecer – costuma ele gabar-se, quando fazemos roda à sua volta.",
+        "– Esteve na Índia? – pergunta um de nós.",
+        "– Sete vezes – responde ele.",
+        "– E na China?",
+        "– Outras tantas – responde o Teotónio.",
+        "– Conhece o Japão?",
+        "– Como os meus dedos.",
+        "– Então conte-nos uma aventura sua no Japão – pedimos.",
+        "– Hoje não, que não tenho paciência – responde-nos o senhor Teotónio, a fingir que se levanta e que se vai embora.",
+        "Nós insistimos. Ele faz de conta que não quer contar e passamos assim que tempos, neste jogo. Até que levamos a nossa a melhor. Levamos sempre.",
+        "– Estou a recordar-me de um naufrágio por que passei, de uma vez que vinha do Japão – começa ele.",
+        "É uma história do Teotónio. Verdade ou mentira ele que responda.",
+        "Segundo o seu contar, vinha do Japão, como marujo, num navio mercante, quando se lembrou de que tinha prometido à madrinha um quimono. A senhora que fazia tanto gosto no roupão de seda bordada e ele que se esquecera da encomenda. Não podia voltar atrás o navio, mas podia ele.",
+        "Às escondidas, baixou um escaler e abandonou o barco.",
+        "Depois, remou, noite e dia, dia e noite, tudo por causa do quimono da madrinha.",
+        "Que dedicação de afilhado!",
+        "Mas levantou-se uma tempestade e o barquinho a remos, que ia a passar pelo meio de uns ilhéus, sacudido de um lado para o outro, foi embater nuns escolhos e desfez-se. Por pouco que não se desfez com ele o senhor Teotónio.",
+        "Muito abalado, conseguiu nadar até à praia de um dos ilhéus, onde, exausto, se deixou adormecer.",
+        "Acordou, tempos depois, com uma esquisita sensação de aperto. Uns enormes olhos fitavam-no e ele estava nas mãos de um gigante. O senhor Teotónio viera ter à ilha dos temíveis Carantões, uma ilha lendária que todos os marinheiros japoneses temem.",
+        "A carantonha que o segurava nos dedos era uma gigante ainda pequenina, uma menina gigante. Para ela, o senhor Teotónio equivalia a um boneco achado na praia.",
+        "Ele não podia dar parte fraca. Fez-se de borracha e exibiu um risinho rígido de boneco japonês. Nessa qualidade, passou a confraternizar com os outros brinquedos da menina carantonha.",
+        "Mas aquilo não era vida. Ser despido e vestido pela carantonha, embalado e lavado, pendurado de pernas para o ar e atirado ao chão, sem cerimónia, não se tolerava.",
+        "Eram humilhações demais para um aventureiro.",
+        "Decidiu fugir. Num barco de brinquedo, quase do tamanho do escaler em que naufragara, fez-se ao mar, à hora da sesta da sua tutora e carcereira. De bagagem, levava um quimono, surripiado à menina.",
+        "– Ó Teotónio, mas este quimono está-me enorme! – disse-lhe, tempo depois, a madrinha, que até era bastante avantajada de corpo. – Tu julgas que eu sou alguma gigante ou quê?",
+        "Não valia a pena explicar à madrinha os perigos e sacrifícios por que passara para lhe trazer aquele roupão de mangas larguíssimas. Talvez até ela o tomasse por mentiroso.",
+        "Nessa não caímos nós."
       ]
     }
   ],
@@ -25,22 +52,22 @@
     "gallery": []
   },
   "recovery": {
-    "text": "text-lost",
+    "text": "blog-pdf-extracted",
     "illustration": "missing",
     "originalAudio": "missing",
     "recoveredAudio": "missing",
     "pdf": "missing",
-    "completeness": "text-lost"
+    "completeness": "blog-text"
   },
   "provenance": {
     "storyPage": null,
     "printPdf": null,
     "archiveDay": "/recovered/0000/11/22/",
-    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Não foi encontrada uma fonte local com o texto original recuperável."
+    "notes": "Dia presente no calendário, mas sem texto HTML extraível no índice recuperado. PDF/assets ficam ligados quando existem. Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   },
   "editorialNotes": [
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
-    "O texto original não está disponível nas fontes locais recuperadas e foi assinalado como perdido."
+    "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado."
   ]
 }

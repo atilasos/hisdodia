@@ -1,8 +1,120 @@
 {
   "id": "06-30",
-  "generatedFrom": "recovered-illustration",
+  "generatedFrom": "recovered-text",
   "generatorVersion": 1,
   "activities": [
+    {
+      "type": "encontra-palavra",
+      "level": "descobrir",
+      "rounds": [
+        {
+          "target": "burro",
+          "distractors": [
+            "pato",
+            "fugir",
+            "canja"
+          ],
+          "sentence": "Uma galinha, um pato, um cão e um burro iam a fugir por uma estrada fora."
+        },
+        {
+          "target": "pato",
+          "distractors": [
+            "burro",
+            "fugir",
+            "canja"
+          ],
+          "sentence": "Presa a cada mão, trazia o pato e a galinha."
+        },
+        {
+          "target": "galinha",
+          "distractors": [
+            "explicou",
+            "estrada",
+            "pressa"
+          ],
+          "sentence": "O polícia caiu ao chão e largou a galinha mais o pato."
+        },
+        {
+          "target": "fugir",
+          "distractors": [
+            "burro",
+            "pato",
+            "canja"
+          ],
+          "sentence": "Eu ia a fugir, porque ontem ouvi que iam fazer canja, lá em casa."
+        }
+      ]
+    },
+    {
+      "type": "fabrica-palavras",
+      "level": "descobrir",
+      "compose": [
+        {
+          "word": "burro",
+          "syllables": [
+            "bur",
+            "ro"
+          ]
+        },
+        {
+          "word": "pato",
+          "syllables": [
+            "pa",
+            "to"
+          ]
+        },
+        {
+          "word": "galinha",
+          "syllables": [
+            "ga",
+            "li",
+            "nha"
+          ]
+        }
+      ],
+      "recombine": [
+        {
+          "word": "ganha",
+          "syllables": [
+            "ga",
+            "nha"
+          ]
+        },
+        {
+          "word": "garoto",
+          "syllables": [
+            "ga",
+            "ro",
+            "to"
+          ]
+        },
+        {
+          "word": "gato",
+          "syllables": [
+            "ga",
+            "to"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jogo-memoria",
+      "level": "descobrir",
+      "pairs": [
+        {
+          "a": "burro",
+          "b": "burro"
+        },
+        {
+          "a": "pato",
+          "b": "pato"
+        },
+        {
+          "a": "galinha",
+          "b": "galinha"
+        }
+      ]
+    },
     {
       "type": "puzzle-ilustracao",
       "level": "descobrir",
@@ -12,6 +124,17 @@
         2
       ],
       "credit": "Ilustrador original por confirmar"
+    },
+    {
+      "type": "ordena-historia",
+      "level": "aprofundar",
+      "sentences": [
+        "Uma galinha, um pato, um cão e um burro iam a fugir por uma estrada fora.",
+        "Eu ia a fugir, porque ontem ouvi que iam fazer canja, lá em casa.",
+        "Presa a cada mão, trazia o pato e a galinha.",
+        "O burro, habituado a obedecer, obedeceu.",
+        "Não tem importância – respondeu o burro, a mostrar os grandes dentes, num riso de felicidade."
+      ]
     }
   ]
 }
