@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["characters", "environment", "palette", "recurringObjects", "scenes"],
+  "properties": {
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "appearance"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "appearance": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "environment": { "type": "string", "minLength": 1 },
+    "palette": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "recurringObjects": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "scenes": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "after", "layout", "description", "alt", "prompt"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "after": {
+            "oneOf": [
+              { "type": "null" },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["segment", "paragraph"],
+                "properties": {
+                  "segment": { "type": "integer", "minimum": 0 },
+                  "paragraph": { "type": "integer", "minimum": 0 }
+                }
+              }
+            ]
+          },
+          "layout": { "enum": ["opening", "double-page", "marginal", "vignette"] },
+          "description": { "type": "string", "minLength": 1 },
+          "alt": { "type": "string", "minLength": 1 },
+          "prompt": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

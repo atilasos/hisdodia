@@ -14,6 +14,7 @@
     "extract:pending-text": "node src/recovery/extract-pending-text.mjs",
     "extract:blog": "node src/recovery/extract-blog-compilation.mjs",
     "generate:tts": "node src/recovery/generate-tts-audio.mjs",
-    "generate:activities": "node src/recovery/generate-activities.mjs"
+    "generate:activities": "node src/recovery/generate-activities.mjs",
+    "illustrations:plan": "node src/illustration/plan-stories.mjs"
   }
 }
