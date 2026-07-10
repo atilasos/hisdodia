@@ -182,7 +182,8 @@ describe('renderSite', () => {
     assert.match(story, /Narração sintetizada em pt-PT/);
     assert.match(story, /narracao-tts\.mp3/);
     assert.match(story, /kind="captions"/);
-    assert.match(homepage, /src="\/assets\/01-01\/illustration-original\.jpg"/);
+    assert.match(homepage, /src="\/assets\/01-01\/illustrated\/opening\.webp"/);
+    assert.doesNotMatch(homepage, /src="\/assets\/01-01\/illustration-original\.jpg"/);
     assert.match(story, /href="\/assets\/01-01\/imprimir\.pdf"/);
     assert.match(story, /Imagens recuperadas/);
     assert.match(story, /\/recovered\/0000\/01\/01\//);
