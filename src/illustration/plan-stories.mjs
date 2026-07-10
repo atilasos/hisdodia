@@ -18,6 +18,7 @@ import {
   applyScenePlan,
   assertStoryIdMatches,
   buildCanonicalScenePrompt,
+  buildSceneEvidenceContext,
   illustrationAssetDirectory,
   PLANNING_MODEL,
   validatePlanningModel,
@@ -25,7 +26,7 @@ import {
 } from './edition.mjs';
 
 const DIRECTION = `Plan a contemporary illustrated edition of this Portuguese children's story as strict JSON.
-Choose three to six scenes, including exactly one opening. Return one evidenceRef for each scene. For every later scene, select the evidenceRef of the exact final paragraph of the depicted narrative beat, so the illustration appears after the event. Opening evidenceRef is best effort and the application canonicalizes it to the first non-empty paragraph. Description and alternative text must contain only visually observable facts supported by the referenced text. Use observable media traits only: soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Keep characters, clothes, recurring objects, setting, and palette consistent within the story. Depict no words, lettering, logos, or signatures. Never name or imitate a specific artist. Alternative text must be concise European Portuguese.`;
+Choose three to six scenes, including exactly one opening. Return one evidenceRef for each scene. For every later scene, select the evidenceRef of the exact final paragraph of the depicted narrative beat, so the illustration appears after the event. Opening evidenceRef is best effort and the application canonicalizes it to the first non-empty paragraph. The application adds up to two preceding paragraphs as visual context. Description and alternative text must contain only visually observable facts supported by that ending context window. Never use text after the selected ref. Use observable media traits only: soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Keep characters, clothes, recurring objects, setting, and palette consistent within the story. Depict no words, lettering, logos, or signatures. Never name or imitate a specific artist. Alternative text must be concise European Portuguese.`;
 
 const moduleDir = path.dirname(fileURLToPath(import.meta.url));
 const defaultSchemaPath = path.join(moduleDir, 'scene-plan.schema.json');
@@ -178,17 +179,6 @@ function selectedFilename(filename, { storyId, month, all }) {
   return all === true;
 }
 
-function storyParagraphs(story) {
-  return (story.textSegments ?? []).flatMap((segment, segmentIndex) => (
-    (segment?.paragraphs ?? []).map((paragraph, paragraphIndex) => ({
-      segment: segmentIndex,
-      paragraph: paragraphIndex,
-      ref: `s${segmentIndex}p${paragraphIndex}`,
-      text: typeof paragraph === 'string' ? paragraph.trim() : ''
-    }))
-  )).filter(({ text }) => text !== '');
-}
-
 function approvedSceneFields(scene) {
   return {
     id: scene?.id,
@@ -212,13 +202,12 @@ function deriveScenes(story, scenes) {
   }
 
   const [{ scene: opening, index: openingIndex }] = openingCandidates;
-  const paragraphs = storyParagraphs(story);
+  const openingContext = buildSceneEvidenceContext(story, undefined, { opening: true });
   const ordered = [
     {
       ...approvedSceneFields(opening),
       id: 'opening',
-      evidenceRef: paragraphs[0]?.ref,
-      evidence: paragraphs[0]?.text,
+      ...openingContext,
       layout: 'opening'
     },
     ...scenes.slice(0, openingIndex),
@@ -228,19 +217,21 @@ function deriveScenes(story, scenes) {
   return ordered.map((rawScene, index) => {
     const scene = index === 0 ? rawScene : approvedSceneFields(rawScene);
     if (index === 0) {
-      const derived = { ...scene, after: null };
+      const derived = { ...scene, ...openingContext };
       return { ...derived, prompt: buildCanonicalScenePrompt(story, derived) };
     }
     if (typeof scene.evidenceRef !== 'string' || !/^s(?:0|[1-9]\d*)p(?:0|[1-9]\d*)$/u.test(scene.evidenceRef)) {
       throw new Error('Scene evidence ref must be a canonical paragraph reference');
     }
-    const paragraph = paragraphs.find(({ ref }) => ref === scene.evidenceRef);
-    if (!paragraph) throw new Error('Scene evidence ref must identify an existing non-empty story paragraph');
+    let context;
+    try {
+      context = buildSceneEvidenceContext(story, scene.evidenceRef);
+    } catch (cause) {
+      throw new Error('Scene evidence ref must identify an existing non-empty story paragraph', { cause });
+    }
     const derived = {
       ...scene,
-      evidenceRef: paragraph.ref,
-      evidence: paragraph.text,
-      after: { segment: paragraph.segment, paragraph: paragraph.paragraph }
+      ...context
     };
     return { ...derived, prompt: buildCanonicalScenePrompt(story, derived) };
   });

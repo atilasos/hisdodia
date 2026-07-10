@@ -144,7 +144,9 @@ describe('Luna planner', () => {
     assert.match(prompt, /no words, lettering, logos, or signatures/);
     assert.match(prompt, /select the evidenceRef of the exact final paragraph of the depicted narrative beat/i);
     assert.match(prompt, /opening evidenceRef is best effort/i);
-    assert.match(prompt, /description and alternative text must contain only visually observable facts supported by the referenced text/i);
+    assert.match(prompt, /application adds up to two preceding paragraphs as visual context/i);
+    assert.match(prompt, /description and alternative text must contain only visually observable facts supported by that ending context window/i);
+    assert.match(prompt, /never use text after the selected ref/i);
     assert.doesNotMatch(prompt, /zero-based segment and paragraph/i);
     assert.doesNotMatch(prompt, /canonical image prompt/i);
     assert.deepEqual(narrative.textSegments, [
@@ -197,7 +199,76 @@ describe('Luna planner', () => {
     const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/v2/brief.json`, 'utf8'));
     assert.deepEqual(brief.scenes[1].after, { segment: 10, paragraph: 11 });
     assert.equal(brief.scenes[1].evidenceRef, 's10p11');
-    assert.equal(brief.scenes[1].evidence, '10:11');
+    assert.deepEqual(brief.scenes[1].evidenceRefs, ['s10p9', 's10p10', 's10p11']);
+    assert.equal(brief.scenes[1].evidence, '10:9 10:10 10:11');
+  });
+
+  it('uses the first one, two, or three non-empty paragraphs as opening context', async () => {
+    for (const count of [1, 2, 4]) {
+      const base = `${root}/opening-context-${count}`;
+      const directory = `${base}/stories`;
+      const paragraphs = Array.from({ length: count }, (_value, index) => `P${index}.`);
+      await rm(base, { recursive: true, force: true });
+      await mkdir(directory, { recursive: true });
+      await writeFile(`${directory}/01-01.json`, JSON.stringify({
+        ...fixtureStory(),
+        textSegments: [{ paragraphs }],
+        assets: {}
+      }));
+      const returnedPlan = validPlan();
+      returnedPlan.scenes[1].evidenceRef = 's0p0';
+      returnedPlan.scenes[2].evidenceRef = `s0p${count - 1}`;
+
+      await planStories({
+        storyId: '01-01',
+        storiesDir: directory,
+        publicDir: `${base}/public`,
+        runPlanner: async () => returnedPlan
+      });
+
+      const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/v2/brief.json`, 'utf8'));
+      const expected = paragraphs.slice(0, 3);
+      assert.deepEqual(brief.scenes[0].evidenceRefs, expected.map((_text, index) => `s0p${index}`));
+      assert.equal(brief.scenes[0].evidence, expected.join(' '));
+    }
+  });
+
+  it('bounds later context at the first, second, and later flattened positions', async () => {
+    const base = `${root}/later-context-boundaries`;
+    const directory = `${base}/stories`;
+    await rm(base, { recursive: true, force: true });
+    await mkdir(directory, { recursive: true });
+    await writeFile(`${directory}/01-01.json`, JSON.stringify({
+      ...fixtureStory(),
+      textSegments: [
+        { paragraphs: ['P0.', 'P1.'] },
+        { paragraphs: ['P2.', 'P3.', 'Future.'] }
+      ],
+      assets: {}
+    }));
+    const returnedPlan = validPlan();
+    returnedPlan.scenes = [
+      returnedPlan.scenes[0],
+      { ...returnedPlan.scenes[1], id: 'first', evidenceRef: 's0p0' },
+      { ...returnedPlan.scenes[1], id: 'second', evidenceRef: 's0p1' },
+      { ...returnedPlan.scenes[2], id: 'later', evidenceRef: 's1p1' }
+    ];
+
+    await planStories({
+      storyId: '01-01',
+      storiesDir: directory,
+      publicDir: `${base}/public`,
+      runPlanner: async () => returnedPlan
+    });
+
+    const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/v2/brief.json`, 'utf8'));
+    assert.deepEqual(brief.scenes.slice(1).map(({ evidenceRefs }) => evidenceRefs), [
+      ['s0p0'],
+      ['s0p0', 's0p1'],
+      ['s0p1', 's1p0', 's1p1']
+    ]);
+    assert.equal(brief.scenes[3].evidence, 'P1. P2. P3.');
+    assert.doesNotMatch(brief.scenes[3].prompt, /Future/);
   });
 
   it('invokes ephemeral Luna by default with a three-minute timeout', async () => {
@@ -628,7 +699,8 @@ describe('Luna planner', () => {
     assert.equal(brief.scenes[0].description, 'Preserved opening.');
     assert.equal(brief.scenes[0].alt, 'Abertura preservada.');
     assert.equal(brief.scenes[0].evidenceRef, 's0p0');
-    assert.equal(brief.scenes[0].evidence, 'Primeiro.');
+    assert.deepEqual(brief.scenes[0].evidenceRefs, ['s0p0', 's0p1']);
+    assert.equal(brief.scenes[0].evidence, 'Primeiro. Segundo.');
     assert.equal(brief.scenes[0].prompt, buildCanonicalScenePrompt(fixtureStory(), brief.scenes[0]));
     assert.deepEqual(
       brief.scenes.slice(1).map(({ id, evidenceRef, layout, description, alt }) => ({ id, evidenceRef, layout, description, alt })),
@@ -700,6 +772,7 @@ describe('Luna planner', () => {
       after: { segment: 99, paragraph: 99 },
       prompt: `Paint like Named Artist ${index}`,
       evidence: `Injected prose ${index}`,
+      evidenceRefs: ['s99p98', 's99p99'],
       injected: `untrusted ${index}`
     }));
 
@@ -711,10 +784,10 @@ describe('Luna planner', () => {
     });
 
     const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/v2/brief.json`, 'utf8'));
-    assert.deepEqual(brief.scenes.map(({ id, evidenceRef, evidence, after }) => ({ id, evidenceRef, evidence, after })), [
-      { id: 'opening', evidenceRef: 's0p0', evidence: 'Primeiro.', after: null },
-      { id: 'middle', evidenceRef: 's0p0', evidence: 'Primeiro.', after: { segment: 0, paragraph: 0 } },
-      { id: 'ending', evidenceRef: 's0p1', evidence: 'Segundo.', after: { segment: 0, paragraph: 1 } }
+    assert.deepEqual(brief.scenes.map(({ id, evidenceRef, evidenceRefs, evidence, after }) => ({ id, evidenceRef, evidenceRefs, evidence, after })), [
+      { id: 'opening', evidenceRef: 's0p0', evidenceRefs: ['s0p0', 's0p1'], evidence: 'Primeiro. Segundo.', after: null },
+      { id: 'middle', evidenceRef: 's0p0', evidenceRefs: ['s0p0'], evidence: 'Primeiro.', after: { segment: 0, paragraph: 0 } },
+      { id: 'ending', evidenceRef: 's0p1', evidenceRefs: ['s0p0', 's0p1'], evidence: 'Primeiro. Segundo.', after: { segment: 0, paragraph: 1 } }
     ]);
     assert.equal(brief.scenes.some((scene) => 'injected' in scene), false);
     assert.deepEqual(
@@ -732,8 +805,8 @@ describe('Luna planner', () => {
     await writeFile(`${directory}/01-01.json`, JSON.stringify({
       ...fixtureStory(),
       textSegments: [
-        { paragraphs: ['  Primeiro.  ', 'Segundo.'] },
-        { paragraphs: ['Terceiro.', '  Quarto.\n'] }
+        { paragraphs: ['  Primeiro.  ', 'O urso saiu da mata.'] },
+        { paragraphs: ['As crianças correram pela estrada.', '  - Ui!\n', 'Futuro proibido.'] }
       ],
       assets: {}
     }));
@@ -751,8 +824,16 @@ describe('Luna planner', () => {
     const story = JSON.parse(await readFile(`${directory}/01-01.json`, 'utf8'));
     assert.deepEqual(brief.scenes[2].after, { segment: 1, paragraph: 1 });
     assert.equal(brief.scenes[2].evidenceRef, 's1p1');
-    assert.equal(brief.scenes[2].evidence, 'Quarto.');
-    assert.match(brief.scenes[2].prompt, /Story evidence: Quarto\./);
+    assert.deepEqual(brief.scenes[2].evidenceRefs, ['s0p1', 's1p0', 's1p1']);
+    assert.equal(
+      brief.scenes[2].evidence,
+      'O urso saiu da mata. As crianças correram pela estrada. - Ui!'
+    );
+    assert.match(
+      brief.scenes[2].prompt,
+      /Story evidence: O urso saiu da mata\. As crianças correram pela estrada\. - Ui!/
+    );
+    assert.doesNotMatch(brief.scenes[2].prompt, /Futuro proibido/);
     assert.deepEqual(story.illustratedEdition.scenes[2].after, { segment: 1, paragraph: 1 });
   });
 
@@ -814,7 +895,8 @@ describe('Luna planner', () => {
 
     const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/v2/brief.json`, 'utf8'));
     assert.equal(brief.scenes[1].evidenceRef, 's0p2');
-    assert.equal(brief.scenes[1].evidence, 'Repetido.');
+    assert.deepEqual(brief.scenes[1].evidenceRefs, ['s0p0', 's0p1', 's0p2']);
+    assert.equal(brief.scenes[1].evidence, 'Primeiro. Repetido. Repetido.');
     assert.deepEqual(brief.scenes[1].after, { segment: 0, paragraph: 2 });
   });
 
@@ -847,10 +929,11 @@ describe('Luna planner', () => {
     });
 
     const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/v2/brief.json`, 'utf8'));
-    assert.equal(brief.scenes[0].evidence, 'Primeiro.');
     assert.equal(brief.scenes[0].evidenceRef, 's0p1');
+    assert.deepEqual(brief.scenes[0].evidenceRefs, ['s0p1', 's0p2']);
+    assert.equal(brief.scenes[0].evidence, 'Primeiro. Segundo.');
     assert.equal(brief.scenes[0].after, null);
-    assert.match(brief.scenes[0].prompt, /Story evidence: Primeiro\./);
+    assert.match(brief.scenes[0].prompt, /Story evidence: Primeiro\. Segundo\./);
     assert.doesNotMatch(JSON.stringify(brief.scenes[0]), /Named Artist|Malicious opening prompt/);
   });
 

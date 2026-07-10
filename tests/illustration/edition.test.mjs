@@ -19,7 +19,29 @@ function story() {
   };
 }
 
+function evidenceFor(source, refs) {
+  return refs.map((ref) => {
+    const match = /^s(\d+)p(\d+)$/u.exec(ref);
+    return source.textSegments[Number(match[1])].paragraphs[Number(match[2])].trim();
+  }).join(' ');
+}
+
+function contextRefs(source, anchorRef, opening = false) {
+  const refs = source.textSegments.flatMap((segment, segmentIndex) => (
+    segment.paragraphs.map((paragraph, paragraphIndex) => ({
+      ref: `s${segmentIndex}p${paragraphIndex}`,
+      text: paragraph.trim()
+    }))
+  )).filter(({ text }) => text !== '').map(({ ref }) => ref);
+  if (opening) return refs.slice(0, 3);
+  const anchorIndex = refs.indexOf(anchorRef);
+  return refs.slice(Math.max(0, anchorIndex - 2), anchorIndex + 1);
+}
+
 function plan(source = story()) {
+  const openingRefs = contextRefs(source, 's0p0', true);
+  const middleRefs = contextRefs(source, 's0p1');
+  const endingRefs = contextRefs(source, 's1p0');
   const result = {
     characters: [{ name: 'Rapaz', appearance: 'Cabelo escuro e casaco azul.' }],
     environment: 'Estrada rural luminosa.',
@@ -29,7 +51,8 @@ function plan(source = story()) {
       {
         id: 'opening',
         evidenceRef: 's0p0',
-        evidence: 'Primeiro parágrafo.',
+        evidenceRefs: openingRefs,
+        evidence: evidenceFor(source, openingRefs),
         after: null,
         layout: 'opening',
         description: 'Encontro na estrada.',
@@ -39,7 +62,8 @@ function plan(source = story()) {
       {
         id: 'encontro',
         evidenceRef: 's0p1',
-        evidence: 'Segundo parágrafo.',
+        evidenceRefs: middleRefs,
+        evidence: evidenceFor(source, middleRefs),
         after: { segment: 0, paragraph: 1 },
         layout: 'marginal',
         description: 'Os rapazes discutem.',
@@ -49,7 +73,8 @@ function plan(source = story()) {
       {
         id: 'abraco',
         evidenceRef: 's1p0',
-        evidence: 'Terceiro parágrafo.',
+        evidenceRefs: endingRefs,
+        evidence: evidenceFor(source, endingRefs),
         after: { segment: 1, paragraph: 0 },
         layout: 'vignette',
         description: 'Todos se reconciliam.',
@@ -182,12 +207,12 @@ describe('illustrated edition contract', () => {
 
     assert.ok(opening.startsWith('soft watercolour'));
     assert.match(opening, /Scene composition: Texto livre da descrição/);
-    assert.match(opening, /Story evidence: Primeiro parágrafo\./);
+    assert.match(opening, /Story evidence: Primeiro parágrafo\. Segundo parágrafo\. Terceiro parágrafo\./);
     assert.match(anchored, /Scene composition: Os rapazes discutem\./);
-    assert.match(anchored, /Story evidence: Segundo parágrafo\./);
+    assert.match(anchored, /Story evidence: Primeiro parágrafo\. Segundo parágrafo\./);
     assert.match(opening, /Primeiro parágrafo\./);
     assert.match(anchored, /Segundo parágrafo\./);
-    assert.doesNotMatch(anchored, /Primeiro parágrafo\./);
+    assert.doesNotMatch(anchored, /Terceiro parágrafo\./);
     assert.match(anchored, /Maintain the established characters/);
     assert.ok(anchored.endsWith('Do not imitate any named artist; no words, lettering, logos, or signatures.'));
     assert.doesNotMatch(opening, /Autora Reservada|Ilustrador Reservado/);
@@ -277,7 +302,7 @@ describe('illustrated edition contract', () => {
     );
   });
 
-  it('uses the persisted exact opening evidence without combining later paragraphs', () => {
+  it('uses supplied canonical opening evidence exactly', () => {
     const longParagraph = `${'palavra '.repeat(100)}fim`.trim();
     const source = {
       ...story(),
@@ -300,7 +325,7 @@ describe('illustrated edition contract', () => {
     assert.doesNotMatch(evidence, /Segundo parágrafo/);
   });
 
-  it('keeps a complete opening paragraph instead of including the next one', () => {
+  it('keeps complete supplied opening evidence unchanged', () => {
     const firstParagraph = `${'inteiro '.repeat(62)}fim`.trim();
     const source = {
       ...story(),
@@ -346,6 +371,10 @@ describe('illustrated edition contract', () => {
     delete missingRef.scenes[1].evidenceRef;
     assert.throws(() => validateScenePlan(story(), missingRef), /evidenceRef/i);
 
+    const missingRefs = plan();
+    delete missingRefs.scenes[1].evidenceRefs;
+    assert.throws(() => validateScenePlan(story(), missingRefs), /evidenceRefs.*context window/i);
+
     const referenceDisagreement = plan();
     referenceDisagreement.scenes[1].evidenceRef = 's1p0';
     assert.throws(() => validateScenePlan(story(), referenceDisagreement), /evidenceRef.*anchor/i);
@@ -354,6 +383,25 @@ describe('illustrated edition contract', () => {
     textDisagreement.scenes[1].evidence = 'Terceiro parágrafo.';
     textDisagreement.scenes[1].prompt = buildCanonicalScenePrompt(story(), textDisagreement.scenes[1]);
     assert.throws(() => validateScenePlan(story(), textDisagreement), /evidence text.*referenced paragraph/i);
+  });
+
+  it('rejects missing, reordered, extra, or future context refs', () => {
+    const variants = [
+      ['s0p1'],
+      ['s0p1', 's0p0'],
+      ['s0p0', 's0p1', 's1p0'],
+      ['s1p0']
+    ];
+
+    for (const evidenceRefs of variants) {
+      const invalid = plan();
+      invalid.scenes[1].evidenceRefs = evidenceRefs;
+      assert.throws(
+        () => validateScenePlan(story(), invalid),
+        /evidenceRefs.*context window/i,
+        evidenceRefs.join(',')
+      );
+    }
   });
 
   it('keeps final opening evidence validation exact after planner canonicalization', () => {
@@ -366,7 +414,7 @@ describe('illustrated edition contract', () => {
     const invalidText = plan();
     invalidText.scenes[0].evidence = 'Segundo parágrafo.';
     invalidText.scenes[0].prompt = buildCanonicalScenePrompt(story(), invalidText.scenes[0]);
-    assert.throws(() => validateScenePlan(story(), invalidText), /opening evidence text.*referenced paragraph/i);
+    assert.throws(() => validateScenePlan(story(), invalidText), /evidence text.*context window/i);
   });
 
   it('accepts duplicate source text when evidenceRef identifies one exact location', () => {
@@ -381,7 +429,8 @@ describe('illustrated edition contract', () => {
     duplicate.scenes[1] = {
       ...duplicate.scenes[1],
       evidenceRef: 's0p2',
-      evidence: 'Repetido.',
+      evidenceRefs: ['s0p0', 's0p1', 's0p2'],
+      evidence: 'Primeiro parágrafo. Repetido. Repetido.',
       after: { segment: 0, paragraph: 2 }
     };
     duplicate.scenes[1].prompt = buildCanonicalScenePrompt(source, duplicate.scenes[1]);

@@ -118,6 +118,33 @@ function storyParagraphs(story) {
   )).filter(({ text }) => text !== '');
 }
 
+export function buildSceneEvidenceContext(story, evidenceRef, options = {}) {
+  const paragraphs = storyParagraphs(story);
+  const opening = options.opening === true;
+  const anchorIndex = opening
+    ? 0
+    : paragraphs.findIndex(({ ref }) => ref === evidenceRef);
+  if (anchorIndex < 0 || !paragraphs[anchorIndex]) {
+    throw new Error('evidenceRef must identify an existing non-empty story paragraph');
+  }
+  const context = opening
+    ? paragraphs.slice(0, 3)
+    : paragraphs.slice(Math.max(0, anchorIndex - 2), anchorIndex + 1);
+  const anchor = paragraphs[anchorIndex];
+  return {
+    evidenceRef: anchor.ref,
+    evidenceRefs: context.map(({ ref }) => ref),
+    evidence: context.map(({ text }) => text).join(' '),
+    after: opening ? null : { segment: anchor.segment, paragraph: anchor.paragraph }
+  };
+}
+
+function sameRefs(actual, expected) {
+  return Array.isArray(actual)
+    && actual.length === expected.length
+    && actual.every((ref, index) => ref === expected[index]);
+}
+
 export function buildCanonicalScenePrompt(story, scene) {
   assertSafeSceneDescription(story, scene.description);
   const isOpening = scene.after === null;
@@ -153,30 +180,35 @@ export function validateScenePlan(story, plan) {
     }
     assertText(scene.evidence, 'evidence');
     assertText(scene.prompt, 'prompt');
-    const paragraphs = storyParagraphs(story);
+    let expectedContext;
     if (index === 0) {
       if (scene.id !== 'opening' || scene.layout !== 'opening' || scene.after !== null) {
         throw new Error('The first scene must be the opening');
       }
-      if (scene.evidenceRef !== paragraphs[0]?.ref) {
+      expectedContext = buildSceneEvidenceContext(story, scene.evidenceRef, { opening: true });
+      if (scene.evidenceRef !== expectedContext.evidenceRef) {
         throw new Error('Opening evidenceRef must identify the first non-empty paragraph');
-      }
-      if (scene.evidence !== paragraphs[0]?.text) {
-        throw new Error('Opening evidence text must equal the referenced paragraph');
       }
     } else {
       if (scene.layout === 'opening') throw new Error('Only the first scene may use the opening layout');
       assertAnchor(story, scene.after);
-      const expectedRef = `s${scene.after.segment}p${scene.after.paragraph}`;
-      if (scene.evidenceRef !== expectedRef) {
+      const anchoredRef = `s${scene.after.segment}p${scene.after.paragraph}`;
+      if (scene.evidenceRef !== anchoredRef) {
         throw new Error('Scene evidenceRef must agree exactly with its anchor paragraph');
       }
-      const referencedText = String(
-        story.textSegments[scene.after.segment].paragraphs[scene.after.paragraph]
-      ).trim();
-      if (scene.evidence !== referencedText) {
-        throw new Error('Scene evidence text must equal the referenced paragraph');
+      expectedContext = buildSceneEvidenceContext(story, scene.evidenceRef);
+      if (
+        scene.after.segment !== expectedContext.after.segment
+        || scene.after.paragraph !== expectedContext.after.paragraph
+      ) {
+        throw new Error('Scene after must agree exactly with the anchor ref');
       }
+    }
+    if (!sameRefs(scene.evidenceRefs, expectedContext.evidenceRefs)) {
+      throw new Error('Scene evidenceRefs must equal the deterministic context window');
+    }
+    if (scene.evidence !== expectedContext.evidence) {
+      throw new Error('Scene evidence text must equal the referenced paragraphs in the context window');
     }
     if (scene.prompt !== buildCanonicalScenePrompt(story, scene)) {
       throw new Error('Every prompt must equal its canonical scene prompt');
