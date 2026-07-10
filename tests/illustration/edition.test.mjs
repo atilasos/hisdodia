@@ -28,6 +28,7 @@ function plan(source = story()) {
     scenes: [
       {
         id: 'opening',
+        evidenceRef: 's0p0',
         evidence: 'Primeiro parágrafo.',
         after: null,
         layout: 'opening',
@@ -37,6 +38,7 @@ function plan(source = story()) {
       },
       {
         id: 'encontro',
+        evidenceRef: 's0p1',
         evidence: 'Segundo parágrafo.',
         after: { segment: 0, paragraph: 1 },
         layout: 'marginal',
@@ -46,6 +48,7 @@ function plan(source = story()) {
       },
       {
         id: 'abraco',
+        evidenceRef: 's1p0',
         evidence: 'Terceiro parágrafo.',
         after: { segment: 1, paragraph: 0 },
         layout: 'vignette',
@@ -282,6 +285,7 @@ describe('illustrated edition contract', () => {
     };
     const prompt = buildCanonicalScenePrompt(source, {
       id: 'opening',
+      evidenceRef: 's0p0',
       evidence: longParagraph,
       after: null,
       layout: 'opening',
@@ -304,6 +308,7 @@ describe('illustrated edition contract', () => {
     };
     const prompt = buildCanonicalScenePrompt(source, {
       id: 'opening',
+      evidenceRef: 's0p0',
       evidence: firstParagraph,
       after: null,
       layout: 'opening',
@@ -320,6 +325,7 @@ describe('illustrated edition contract', () => {
     assert.throws(
       () => buildCanonicalScenePrompt({ ...story(), textSegments: [] }, {
         id: 'opening',
+        evidenceRef: 's0p0',
         evidence: '',
         after: null,
         layout: 'opening',
@@ -331,26 +337,39 @@ describe('illustrated edition contract', () => {
     );
   });
 
-  it('rejects missing evidence and evidence that disagrees with its derived anchor', () => {
+  it('rejects missing evidence fields and reference, anchor, or text disagreement', () => {
     const missing = plan();
     delete missing.scenes[1].evidence;
     assert.throws(() => validateScenePlan(story(), missing), /evidence must be non-empty text/i);
 
-    const disagreement = plan();
-    disagreement.scenes[1].evidence = 'Terceiro parágrafo.';
-    disagreement.scenes[1].prompt = buildCanonicalScenePrompt(story(), disagreement.scenes[1]);
-    assert.throws(() => validateScenePlan(story(), disagreement), /evidence.*anchor/i);
+    const missingRef = plan();
+    delete missingRef.scenes[1].evidenceRef;
+    assert.throws(() => validateScenePlan(story(), missingRef), /evidenceRef/i);
+
+    const referenceDisagreement = plan();
+    referenceDisagreement.scenes[1].evidenceRef = 's1p0';
+    assert.throws(() => validateScenePlan(story(), referenceDisagreement), /evidenceRef.*anchor/i);
+
+    const textDisagreement = plan();
+    textDisagreement.scenes[1].evidence = 'Terceiro parágrafo.';
+    textDisagreement.scenes[1].prompt = buildCanonicalScenePrompt(story(), textDisagreement.scenes[1]);
+    assert.throws(() => validateScenePlan(story(), textDisagreement), /evidence text.*referenced paragraph/i);
   });
 
   it('keeps final opening evidence validation exact after planner canonicalization', () => {
-    const invalid = plan();
-    invalid.scenes[0].evidence = 'Segundo parágrafo.';
-    invalid.scenes[0].prompt = buildCanonicalScenePrompt(story(), invalid.scenes[0]);
+    const invalidRef = plan();
+    invalidRef.scenes[0].evidenceRef = 's0p1';
+    invalidRef.scenes[0].evidence = 'Segundo parágrafo.';
+    invalidRef.scenes[0].prompt = buildCanonicalScenePrompt(story(), invalidRef.scenes[0]);
+    assert.throws(() => validateScenePlan(story(), invalidRef), /opening evidenceRef.*first non-empty paragraph/i);
 
-    assert.throws(() => validateScenePlan(story(), invalid), /opening evidence.*first non-empty paragraph/i);
+    const invalidText = plan();
+    invalidText.scenes[0].evidence = 'Segundo parágrafo.';
+    invalidText.scenes[0].prompt = buildCanonicalScenePrompt(story(), invalidText.scenes[0]);
+    assert.throws(() => validateScenePlan(story(), invalidText), /opening evidence text.*referenced paragraph/i);
   });
 
-  it('rejects evidence matching duplicate source paragraphs even when the anchor points to one', () => {
+  it('accepts duplicate source text when evidenceRef identifies one exact location', () => {
     const source = {
       ...story(),
       textSegments: [
@@ -361,12 +380,13 @@ describe('illustrated edition contract', () => {
     const duplicate = plan(source);
     duplicate.scenes[1] = {
       ...duplicate.scenes[1],
+      evidenceRef: 's0p2',
       evidence: 'Repetido.',
-      after: { segment: 0, paragraph: 1 }
+      after: { segment: 0, paragraph: 2 }
     };
     duplicate.scenes[1].prompt = buildCanonicalScenePrompt(source, duplicate.scenes[1]);
 
-    assert.throws(() => validateScenePlan(source, duplicate), /evidence.*unique/i);
+    assert.equal(validateScenePlan(source, duplicate), true);
   });
 
   it('allows the opening layout only on the first scene', () => {

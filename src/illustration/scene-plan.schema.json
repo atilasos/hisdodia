@@ -26,10 +26,13 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "evidence", "layout", "description", "alt"],
+        "required": ["id", "evidenceRef", "layout", "description", "alt"],
         "properties": {
           "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
-          "evidence": { "type": "string", "minLength": 1 },
+          "evidenceRef": {
+            "type": "string",
+            "pattern": "^s(?:0|[1-9]\\d*)p(?:0|[1-9]\\d*)$"
+          },
           "layout": { "enum": ["opening", "double-page", "marginal", "vignette"] },
           "description": { "type": "string", "minLength": 1 },
           "alt": { "type": "string", "minLength": 1 }

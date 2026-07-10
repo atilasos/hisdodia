@@ -4,6 +4,7 @@ export const PLANNING_MODEL = 'gpt-5.6-luna';
 
 const LAYOUTS = new Set(['opening', 'double-page', 'marginal', 'vignette']);
 const MODEL_SLUG_PATTERN = /^[a-z0-9]+(?:[._-][a-z0-9]+)*$/u;
+const EVIDENCE_REF_PATTERN = /^s(?:0|[1-9]\d*)p(?:0|[1-9]\d*)$/u;
 const OBSERVABLE_ART_DIRECTION = 'soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space.';
 const CONTINUITY_DIRECTION = 'Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes.';
 const SAFETY_DIRECTION = 'Do not imitate any named artist; no words, lettering, logos, or signatures.';
@@ -111,6 +112,7 @@ function storyParagraphs(story) {
     (segment?.paragraphs ?? []).map((paragraph, paragraphIndex) => ({
       segment: segmentIndex,
       paragraph: paragraphIndex,
+      ref: `s${segmentIndex}p${paragraphIndex}`,
       text: typeof paragraph === 'string' ? paragraph.trim() : ''
     }))
   )).filter(({ text }) => text !== '');
@@ -146,6 +148,9 @@ export function validateScenePlan(story, plan) {
     if (!LAYOUTS.has(scene.layout)) throw new Error(`Unsupported layout: ${scene.layout}`);
     assertText(scene.description, 'description');
     assertText(scene.alt, 'alt');
+    if (typeof scene.evidenceRef !== 'string' || !EVIDENCE_REF_PATTERN.test(scene.evidenceRef)) {
+      throw new Error('evidenceRef must be a canonical paragraph reference');
+    }
     assertText(scene.evidence, 'evidence');
     assertText(scene.prompt, 'prompt');
     const paragraphs = storyParagraphs(story);
@@ -153,16 +158,24 @@ export function validateScenePlan(story, plan) {
       if (scene.id !== 'opening' || scene.layout !== 'opening' || scene.after !== null) {
         throw new Error('The first scene must be the opening');
       }
+      if (scene.evidenceRef !== paragraphs[0]?.ref) {
+        throw new Error('Opening evidenceRef must identify the first non-empty paragraph');
+      }
       if (scene.evidence !== paragraphs[0]?.text) {
-        throw new Error('Opening evidence must agree exactly with the first non-empty paragraph');
+        throw new Error('Opening evidence text must equal the referenced paragraph');
       }
     } else {
       if (scene.layout === 'opening') throw new Error('Only the first scene may use the opening layout');
       assertAnchor(story, scene.after);
-      const matches = paragraphs.filter(({ text }) => text === scene.evidence);
-      if (matches.length !== 1) throw new Error('Scene evidence must match one unique story paragraph');
-      if (matches[0].segment !== scene.after.segment || matches[0].paragraph !== scene.after.paragraph) {
-        throw new Error('Scene evidence must agree exactly with its anchor paragraph');
+      const expectedRef = `s${scene.after.segment}p${scene.after.paragraph}`;
+      if (scene.evidenceRef !== expectedRef) {
+        throw new Error('Scene evidenceRef must agree exactly with its anchor paragraph');
+      }
+      const referencedText = String(
+        story.textSegments[scene.after.segment].paragraphs[scene.after.paragraph]
+      ).trim();
+      if (scene.evidence !== referencedText) {
+        throw new Error('Scene evidence text must equal the referenced paragraph');
       }
     }
     if (scene.prompt !== buildCanonicalScenePrompt(story, scene)) {
