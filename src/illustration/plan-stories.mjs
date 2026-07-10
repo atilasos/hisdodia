@@ -75,7 +75,7 @@ function selectedFilename(filename, { storyId, month, all }) {
   return all === true;
 }
 
-async function replaceJsonAtomically(filename, value) {
+async function writeJsonAtomically(filename, value) {
   const directory = path.dirname(filename);
   const temporaryDir = await mkdtemp(path.join(directory, '.illustration-plan-'));
   const temporaryFile = path.join(temporaryDir, path.basename(filename));
@@ -103,6 +103,7 @@ export async function planStories(options = {}) {
 
   const runPlanner = options.runPlanner
     ?? ((prompt) => runLunaPlanner(prompt, { cwd: options.cwd ?? process.cwd() }));
+  const writeJson = options.writeJsonImpl ?? writeJsonAtomically;
   const filenames = (await readdir(storiesDir))
     .filter((filename) => selectedFilename(filename, { storyId, month, all }))
     .sort();
@@ -116,7 +117,7 @@ export async function planStories(options = {}) {
   for (const filename of filenames) {
     const storyPath = path.join(storiesDir, filename);
     const story = JSON.parse(await readFile(storyPath, 'utf8'));
-    if (story.illustratedEdition && !force) {
+    if (story.illustratedEdition && story.illustratedEdition.status !== 'planning' && !force) {
       skipped.push(story.id);
       continue;
     }
@@ -126,11 +127,12 @@ export async function planStories(options = {}) {
 
     const briefDir = path.join(publicDir, 'assets', story.id, 'illustrated');
     await mkdir(briefDir, { recursive: true });
-    await writeFile(
-      path.join(briefDir, 'brief.json'),
-      `${JSON.stringify({ ...plan, errors: [] }, null, 2)}\n`
-    );
-    await replaceJsonAtomically(storyPath, applyScenePlan(story, plan));
+    await writeJson(storyPath, {
+      ...story,
+      illustratedEdition: { status: 'planning' }
+    });
+    await writeJson(path.join(briefDir, 'brief.json'), { ...plan, errors: [] });
+    await writeJson(storyPath, applyScenePlan(story, plan));
     planned.push(story.id);
   }
 

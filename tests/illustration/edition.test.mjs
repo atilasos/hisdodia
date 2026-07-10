@@ -29,7 +29,7 @@ function plan() {
         layout: 'opening',
         description: 'Encontro na estrada.',
         alt: 'Dois rapazes encontram-se numa estrada.',
-        prompt: 'Watercolour and pencil on warm paper; expressive children; no text.'
+        prompt: 'Watercolour and pencil on warm paper; expressive children; no words, lettering, logos, or signatures.'
       },
       {
         id: 'encontro',
@@ -37,7 +37,7 @@ function plan() {
         layout: 'marginal',
         description: 'Os rapazes discutem.',
         alt: 'Os dois rapazes discutem junto dos pais.',
-        prompt: 'Watercolour vignette; the same children argue; no text.'
+        prompt: 'Watercolour vignette; the same children argue; no words, lettering, logos, or signatures.'
       },
       {
         id: 'abraco',
@@ -45,7 +45,7 @@ function plan() {
         layout: 'vignette',
         description: 'Todos se reconciliam.',
         alt: 'As duas famílias abraçam-se e riem.',
-        prompt: 'Watercolour vignette; the same families embrace; no text.'
+        prompt: 'Watercolour vignette; the same families embrace; no words, lettering, logos, or signatures.'
       }
     ]
   };
@@ -78,21 +78,30 @@ describe('illustrated edition contract', () => {
 
   it('rejects explicit references to Cristina Malaquias', () => {
     assert.throws(
-      () => validateScenePlan(story(), planWithPrompt('Watercolour by Cristina Malaquias; no text.')),
+      () => validateScenePlan(story(), planWithPrompt('Watercolour by Cristina Malaquias; no words, lettering, logos, or signatures.')),
       /specific artist/
+    );
+  });
+
+  it('rejects prompts without the exact negative clause', () => {
+    assert.throws(
+      () => validateScenePlan(story(), planWithPrompt('Watercolour vignette; no text.')),
+      /no words, lettering, logos, or signatures/
     );
   });
 
   it('rejects common named-style request formulations', () => {
     const prompts = [
-      'Paint like Beatrix Potter.',
-      'Draw like Quentin Blake.',
-      'Inspired by Tove Jansson.',
-      'Imitate Maurice Sendak.',
-      'Emulate Leo Lionni.',
-      'In the style of Eric Carle.',
-      'No estilo de Paula Rego.',
-      'À maneira de Júlio Pomar.'
+      'Paint like Beatrix Potter; no words, lettering, logos, or signatures.',
+      'Draw like Quentin Blake; no words, lettering, logos, or signatures.',
+      'Inspired by Tove Jansson; no words, lettering, logos, or signatures.',
+      'Imitate Maurice Sendak; no words, lettering, logos, or signatures.',
+      'Emulate Leo Lionni; no words, lettering, logos, or signatures.',
+      'In the style of Eric Carle; no words, lettering, logos, or signatures.',
+      'No estilo de Paula Rego; no words, lettering, logos, or signatures.',
+      'À maneira de Júlio Pomar; no words, lettering, logos, or signatures.',
+      'Watercolour by Beatrix Potter; no words, lettering, logos, or signatures.',
+      "Beatrix Potter's style; no words, lettering, logos, or signatures."
     ];
 
     for (const prompt of prompts) {

@@ -4,6 +4,9 @@ export const PLANNING_MODEL = 'gpt-5.6-luna';
 
 const LAYOUTS = new Set(['opening', 'double-page', 'marginal', 'vignette']);
 const ARTIST_PATTERN = /(?:\bin the style of\b|\bno estilo de\b|à maneira de\b|\b(?:paint|draw)\s+like\b|\binspired\s+by\b|\b(?:imitate|emulate)\b|\bcristina malaquias\b)/iu;
+const ARTIST_ATTRIBUTION_PATTERN = /\bby\s+\p{Lu}[\p{L}\p{M}'’.-]*(?:\s+\p{Lu}[\p{L}\p{M}'’.-]*)+\b/u;
+const ARTIST_POSSESSIVE_PATTERN = /\b\p{Lu}[\p{L}\p{M}'’.-]*(?:\s+\p{Lu}[\p{L}\p{M}'’.-]*)+['’]s\s+style\b/u;
+const REQUIRED_NEGATIVE_CLAUSE = 'no words, lettering, logos, or signatures';
 
 function assertText(value, field) {
   if (typeof value !== 'string' || value.trim() === '') {
@@ -37,7 +40,16 @@ export function validateScenePlan(story, plan) {
     assertText(scene.description, 'description');
     assertText(scene.alt, 'alt');
     assertText(scene.prompt, 'prompt');
-    if (ARTIST_PATTERN.test(scene.prompt)) throw new Error('Prompts must not imitate a specific artist');
+    if (
+      ARTIST_PATTERN.test(scene.prompt)
+      || ARTIST_ATTRIBUTION_PATTERN.test(scene.prompt)
+      || ARTIST_POSSESSIVE_PATTERN.test(scene.prompt)
+    ) {
+      throw new Error('Prompts must not imitate a specific artist');
+    }
+    if (!scene.prompt.toLocaleLowerCase('en').includes(REQUIRED_NEGATIVE_CLAUSE)) {
+      throw new Error(`Every prompt must include: ${REQUIRED_NEGATIVE_CLAUSE}`);
+    }
     if (index === 0) {
       if (scene.id !== 'opening' || scene.layout !== 'opening' || scene.after !== null) {
         throw new Error('The first scene must be the opening');
