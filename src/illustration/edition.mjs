@@ -8,26 +8,6 @@ const EVIDENCE_REF_PATTERN = /^s(?:0|[1-9]\d*)p(?:0|[1-9]\d*)$/u;
 const OBSERVABLE_ART_DIRECTION = 'soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space.';
 const CONTINUITY_DIRECTION = 'Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes.';
 const SAFETY_DIRECTION = 'Do not imitate any named artist; no words, lettering, logos, or signatures.';
-const UNSAFE_DESCRIPTION_PATTERNS = [
-  /^\s*(?:please\s+)?(?:compose|draw|illustrate|paint|render|use)\b[\s\S]{0,80}\b(?:aesthetic|manner|style|visual\s+language)\b/iu,
-  /^\s*(?:please\s+)?(?:compose|draw|illustrate|paint|render|use)\b[\s\S]{0,80}\b(?:as\s+if\s+by|by|like)\b/iu,
-  /^\s*(?:compor|componha|compõe|desenhar|desenhe|ilustrar|ilustre|pintar|pinte|renderizar|renderize|usar|use)\b[\s\S]{0,80}\b(?:estética|estilo|linguagem\s+visual|maneira)\b/iu,
-  /^\s*(?:compor|componha|compõe|desenhar|desenhe|ilustrar|ilustre|pintar|pinte|renderizar|renderize|usar|use)\b[\s\S]{0,80}\bcomo\b/iu,
-  /\b(?:drawing|illustration|painting|watercolou?r)\s+by\b/iu,
-  /\b(?:[Aa]guarela|[Aa]quarela|[Dd]esenho|[Ii]lustração|[Pp]intura)\s+por\s+\p{Lu}[\p{L}'’-]+\s+(?:(?:d[aeo]s?|das)\s+)?\p{Lu}[\p{L}'’-]+\b/u,
-  /^\s*[\p{L}'’-]+(?:\s+[\p{L}'’-]+){1,3}\s+style\b/iu,
-  /^\s*[\p{L}'’-]+(?:\s+[\p{L}'’-]+){0,3}['’]s\s+(?:aesthetic|style)\b/iu,
-  /^\s*(?:[Aa]esthetic|[Ss]tyle|[Ee]stética|[Ee]stilo)\s+(?:of|d[aeo])\s+\p{Lu}[\p{L}'’-]+\s+(?:(?:d[aeo]s?|das)\s+)?\p{Lu}[\p{L}'’-]+\b/u,
-  /^\s*(?:[Vv]isual\s+language|[Ll]inguagem\s+visual)\s+(?:of|d[aeo])\s+\p{Lu}[\p{L}'’-]+\s+(?:(?:d[aeo]s?|das)\s+)?\p{Lu}[\p{L}'’-]+\b/u,
-  /^\s*[Àà]\s+maneira\s+d[aeo]\s+\p{Lu}[\p{L}'’-]+\s+(?:(?:d[aeo]s?|das)\s+)?\p{Lu}[\p{L}'’-]+\b/u,
-  /\b(?:[Aa]guarela|[Aa]quarela|[Dd]esenho|[Ii]lustração|[Pp]intura)\b[\s\S]{0,80}\b[Ee]stética\s+d[aeo]\s+\p{Lu}[\p{L}'’-]+\s+(?:(?:d[aeo]s?|das)\s+)?\p{Lu}[\p{L}'’-]+\b/u,
-  /(?:^\s*|\b(?:composition|illustration|image|scene|composição|ilustração|imagem|cena)\b[\s\S]{0,80})inspired\s+by\b/iu,
-  /\b(?:composição|ilustração|imagem|cena)\b[\s\S]{0,80}\binspirad[ao]s?\s+(?:em|por)\b/iu,
-  /^\s*(?:emulate|imitate)\b/iu,
-  /\b(?:disregard|forget|ignore)\b[\s\S]{0,120}\b(?:emulate|imitate)\b/iu,
-  /^\s*(?:emular|imitar)\s+[\p{L}]/iu,
-  /\b(?:desconsidera|esquece|ignora|ignorar)\b[\s\S]{0,120}\b(?:emular|emule|imitar|imite)\b/iu,
-];
 
 export function validateStoryId(storyId) {
   if (typeof storyId !== 'string' || !/^\d{2}-\d{2}$/u.test(storyId)) {
@@ -93,38 +73,6 @@ function assertAnchor(story, anchor) {
   }
 }
 
-function normalizedText(value) {
-  return String(value ?? '')
-    .normalize('NFKC')
-    .trim()
-    .replace(/\s+/gu, ' ')
-    .toLocaleLowerCase('pt-PT');
-}
-
-function escapeRegularExpression(value) {
-  return value.replace(/[.*+?^${}()|[\]\\]/gu, '\\$&');
-}
-
-function containsUnicodePhrase(text, phrase) {
-  if (phrase === '') return false;
-  return new RegExp(
-    `(?:^|[^\\p{L}\\p{N}])${escapeRegularExpression(phrase)}(?=$|[^\\p{L}\\p{N}])`,
-    'u'
-  ).test(text);
-}
-
-function assertSafeSceneDescription(story, description) {
-  assertText(description, 'description');
-  const normalizedDescription = normalizedText(description);
-  const illustrator = normalizedText(story.illustrator);
-  if (
-    containsUnicodePhrase(normalizedDescription, illustrator)
-    || UNSAFE_DESCRIPTION_PATTERNS.some((pattern) => pattern.test(description))
-  ) {
-    throw new Error('description contains unsafe artist or style instructions');
-  }
-}
-
 function storyParagraphs(story) {
   return (story.textSegments ?? []).flatMap((segment, segmentIndex) => (
     (segment?.paragraphs ?? []).map((paragraph, paragraphIndex) => ({
@@ -164,18 +112,24 @@ function sameRefs(actual, expected) {
 }
 
 export function buildCanonicalScenePrompt(story, scene) {
-  assertSafeSceneDescription(story, scene.description);
   const isOpening = scene.after === null;
   if (!isOpening) assertAnchor(story, scene.after);
   const excerpt = typeof scene.evidence === 'string' ? scene.evidence.trim() : scene.evidence;
   assertText(excerpt, 'Story evidence');
   return [
     OBSERVABLE_ART_DIRECTION,
-    `Scene composition: ${scene.description.trim()}`,
     `Story evidence: ${excerpt}`,
     isOpening ? null : CONTINUITY_DIRECTION,
     SAFETY_DIRECTION
   ].filter(Boolean).join(' ');
+}
+
+export function canonicalSceneAlt(story, scene) {
+  if (scene?.after !== null) return '';
+  const title = typeof story?.title === 'string' ? story.title.trim() : '';
+  return title === ''
+    ? 'Ilustração de abertura da história.'
+    : `Ilustração de abertura da história «${title}».`;
 }
 
 export function validateScenePlan(story, plan) {
@@ -191,8 +145,7 @@ export function validateScenePlan(story, plan) {
   }
   scenes.forEach((scene, index) => {
     if (!LAYOUTS.has(scene.layout)) throw new Error(`Unsupported layout: ${scene.layout}`);
-    assertText(scene.description, 'description');
-    assertText(scene.alt, 'alt');
+    if (Object.hasOwn(scene, 'description')) throw new Error('Final scenes must not persist description');
     if (typeof scene.evidenceRef !== 'string' || !EVIDENCE_REF_PATTERN.test(scene.evidenceRef)) {
       throw new Error('evidenceRef must be a canonical paragraph reference');
     }
@@ -221,6 +174,9 @@ export function validateScenePlan(story, plan) {
       ) {
         throw new Error('Scene after must agree exactly with the anchor ref');
       }
+    }
+    if (scene.alt !== canonicalSceneAlt(story, scene)) {
+      throw new Error('Every scene alt must equal the canonical alt policy');
     }
     if (!sameRefs(scene.evidenceRefs, expectedContext.evidenceRefs)) {
       throw new Error('Scene evidenceRefs must equal the deterministic context window');

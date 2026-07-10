@@ -26,16 +26,14 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "evidenceRef", "layout", "description", "alt"],
+        "required": ["id", "evidenceRef", "layout"],
         "properties": {
           "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
           "evidenceRef": {
             "type": "string",
             "pattern": "^s(?:0|[1-9]\\d*)p(?:0|[1-9]\\d*)$"
           },
-          "layout": { "enum": ["opening", "double-page", "marginal", "vignette"] },
-          "description": { "type": "string", "minLength": 1 },
-          "alt": { "type": "string", "minLength": 1 }
+          "layout": { "enum": ["opening", "double-page", "marginal", "vignette"] }
         }
       }
     }

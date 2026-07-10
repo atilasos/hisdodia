@@ -19,6 +19,7 @@ import {
   assertStoryIdMatches,
   buildCanonicalScenePrompt,
   buildSceneEvidenceContext,
+  canonicalSceneAlt,
   illustrationAssetDirectory,
   PLANNING_MODEL,
   validatePlanningModel,
@@ -26,7 +27,7 @@ import {
 } from './edition.mjs';
 
 const DIRECTION = `Plan a contemporary illustrated edition of this Portuguese children's story as strict JSON.
-Choose three to six scenes, including exactly one opening. Return one evidenceRef for each scene. For every later scene, select the evidenceRef of the exact final paragraph of the depicted narrative beat, so the illustration appears after the event. Opening evidenceRef is best effort and the application canonicalizes it to the first non-empty paragraph. The application adds up to two preceding paragraphs as visual context. Description and alternative text must contain only visually observable facts supported by that ending context window. Never use text after the selected ref. Use observable media traits only: soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Keep characters, clothes, recurring objects, setting, and palette consistent within the story. Depict no words, lettering, logos, or signatures. Never name or imitate a specific artist. Alternative text must be concise European Portuguese.`;
+Choose three to six visually useful beats by final paragraph ref and layout only, including exactly one opening. Return one evidenceRef for each scene. For every later scene, select the evidenceRef of the exact final paragraph of the depicted narrative beat, so the illustration appears after the event. Opening evidenceRef is best effort and the application canonicalizes it to the first non-empty paragraph. The application adds up to two preceding paragraphs as visual context. Image content comes exclusively from fixed directions and original story text. The application adds repository-owned art, continuity, and safety directions: no words, lettering, logos, or signatures. Never use text after the selected ref. Do not return composition, description, alternative text, prompts, or image instructions.`;
 
 const moduleDir = path.dirname(fileURLToPath(import.meta.url));
 const defaultSchemaPath = path.join(moduleDir, 'scene-plan.schema.json');
@@ -183,9 +184,7 @@ function approvedSceneFields(scene) {
   return {
     id: scene?.id,
     evidenceRef: scene?.evidenceRef,
-    layout: scene?.layout,
-    description: scene?.description,
-    alt: scene?.alt
+    layout: scene?.layout
   };
 }
 
@@ -218,7 +217,11 @@ function deriveScenes(story, scenes) {
     const scene = index === 0 ? rawScene : approvedSceneFields(rawScene);
     if (index === 0) {
       const derived = { ...scene, ...openingContext };
-      return { ...derived, prompt: buildCanonicalScenePrompt(story, derived) };
+      return {
+        ...derived,
+        alt: canonicalSceneAlt(story, derived),
+        prompt: buildCanonicalScenePrompt(story, derived)
+      };
     }
     if (typeof scene.evidenceRef !== 'string' || !/^s(?:0|[1-9]\d*)p(?:0|[1-9]\d*)$/u.test(scene.evidenceRef)) {
       throw new Error('Scene evidence ref must be a canonical paragraph reference');
@@ -233,7 +236,11 @@ function deriveScenes(story, scenes) {
       ...scene,
       ...context
     };
-    return { ...derived, prompt: buildCanonicalScenePrompt(story, derived) };
+    return {
+      ...derived,
+      alt: canonicalSceneAlt(story, derived),
+      prompt: buildCanonicalScenePrompt(story, derived)
+    };
   });
 }
 

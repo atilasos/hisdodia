@@ -10,10 +10,11 @@ const baseStory = {
   textSegments: [{ paragraphs: ['Primeiro parágrafo.', 'Segundo parágrafo.', 'Terceiro parágrafo.'] }],
   illustratedEdition: {
     status: 'complete',
+    artDirectionVersion: '2',
     credit: 'Edição ilustrada contemporânea gerada com IA',
     scenes: [
-      { id: 'opening', status: 'complete', after: null, layout: 'opening', image: '/assets/01-01/illustrated/opening.webp', alt: 'Abertura.' },
-      { id: 'middle', status: 'complete', after: { segment: 0, paragraph: 0 }, layout: 'marginal', image: '/assets/01-01/illustrated/middle.webp', alt: 'Cena intermédia.' },
+      { id: 'opening', status: 'complete', after: null, layout: 'opening', image: '/assets/01-01/illustrated/opening.webp', alt: 'Ilustração de abertura da história «História teste».' },
+      { id: 'middle', status: 'complete', after: { segment: 0, paragraph: 0 }, layout: 'marginal', image: '/assets/01-01/illustrated/middle.webp', alt: '' },
       { id: 'ending', status: 'failed', after: { segment: 0, paragraph: 2 }, layout: 'vignette', image: '/assets/01-01/illustrated/failed.webp', alt: 'Cena falhada.' }
     ]
   }
@@ -31,11 +32,37 @@ describe('illustrated story renderer', () => {
     assert.match(html, /id="edicao-ilustrada"/);
     assert.match(html, /class="illustrated-opening"/);
     assert.match(html, /class="illustrated-scene scene-marginal scene-side-right"/);
+    assert.match(html, /src="\/assets\/01-01\/illustrated\/middle\.webp" alt=""/);
+    assert.match(html, /alt="Ilustração de abertura da história «História teste»\."/);
     assert.ok(html.indexOf('Primeiro parágrafo') < html.indexOf('middle.webp'));
     assert.ok(html.indexOf('middle.webp') < html.indexOf('Segundo parágrafo'));
     assert.doesNotMatch(html, /failed.webp/);
     assert.doesNotMatch(html, /javascript:/);
     assert.match(html, /Edição ilustrada contemporânea gerada com IA/);
+  });
+
+  it('escapes the repository-owned opening title alt', () => {
+    const story = structuredClone(baseStory);
+    story.title = 'História <teste> & companhia';
+    story.illustratedEdition.scenes[0].alt = 'Ilustração de abertura da história «História <teste> & companhia».';
+
+    const html = renderIllustratedEdition(story, helpers);
+
+    assert.match(
+      html,
+      /alt="Ilustração de abertura da história «História &lt;teste&gt; &amp; companhia»\."/
+    );
+    assert.doesNotMatch(html, /alt="[^"]*<teste>/);
+  });
+
+  it('keeps legacy v1 alternative text rendering unchanged', () => {
+    const story = structuredClone(baseStory);
+    story.illustratedEdition.artDirectionVersion = '1';
+    story.illustratedEdition.scenes[1].alt = 'Descrição histórica da cena.';
+
+    const html = renderIllustratedEdition(story, helpers);
+
+    assert.match(html, /middle\.webp" alt="Descrição histórica da cena\."/);
   });
 
   it('credits every non-opening figure with escaped edition text', () => {

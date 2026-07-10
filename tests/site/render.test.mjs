@@ -247,8 +247,8 @@ describe('renderSite', () => {
           status: 'complete',
           credit: 'Edição ilustrada contemporânea gerada com IA',
           scenes: [
-            { id: 'opening', status: 'complete', after: null, layout: 'opening', image: '/assets/99-99/illustrated/opening.webp', alt: 'Abertura ilustrada.' },
-            { id: 'middle', status: 'complete', after: { segment: 0, paragraph: 0 }, layout: 'marginal', image: '/assets/99-99/illustrated/middle.webp', alt: 'Cena intermédia.' }
+            { id: 'opening', status: 'complete', after: null, layout: 'opening', image: '/assets/99-99/illustrated/opening.webp', alt: 'Ilustração de abertura da história «Uma edição ilustrada».' },
+            { id: 'middle', status: 'complete', after: { segment: 0, paragraph: 0 }, layout: 'marginal', image: '/assets/99-99/illustrated/middle.webp', alt: '' }
           ]
         }
       })
@@ -268,11 +268,13 @@ describe('renderSite', () => {
     const originalPanel = sectionMarkup(story, 'edicao-original');
 
     assert.match(homepage, /src="\/assets\/99-99\/illustrated\/opening\.webp"/);
+    assert.match(homepage, /alt="Ilustração de abertura da história «Uma edição ilustrada»\."/);
     assert.doesNotMatch(homepage, /src="\/assets\/01-01\/illustration-original\.jpg"/);
     assert.match(story, /<article class="reader reader-illustrated">/);
     assert.match(story, /class="edition-switcher"/);
     assert.equal((story.match(/<h1(?:\s|>)/g) ?? []).length, 1);
     assert.match(story, /Edição ilustrada contemporânea gerada com IA/);
+    assert.match(story, /middle\.webp" alt=""/);
     assert.match(story, /Autora Original escreveu\. Ilustrador Original ilustrou\./);
     assert.ok(story.indexOf('class="edition-switcher"') < story.indexOf('id="edicao-ilustrada"'));
     assert.ok(story.indexOf('id="edicao-ilustrada"') < story.indexOf('id="edicao-original"'));
