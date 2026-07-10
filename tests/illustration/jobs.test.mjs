@@ -215,14 +215,18 @@ describe('illustration jobs', () => {
     assert.equal((await readStory()).illustratedEdition.scenes[0].attempts, 2);
   });
 
-  it('reconciles a valid published asset before leasing the next scene', async () => {
-    await nextIllustrationJob(options);
+  it('reconciles a published asset and removes its canonical work source', async () => {
+    const first = await nextIllustrationJob(options);
+    const sourcePath = `${options.workDir}/01-01/opening.png`;
+    assert.equal(first.sourceOutput, sourcePath);
+    await mkdir(`${options.workDir}/01-01`, { recursive: true });
+    await copyFile(fixture, sourcePath);
     await assert.rejects(
       completeIllustrationJob({
         ...options,
         storyId: '01-01',
         sceneId: 'opening',
-        sourcePath: fixture,
+        sourcePath,
         afterStage(stage) {
           if (stage === 'asset-published') throw new Error('crash after publish');
         }
@@ -230,6 +234,7 @@ describe('illustration jobs', () => {
       /crash after publish/u
     );
     assert.equal((await readStory()).illustratedEdition.scenes[0].status, 'generating');
+    assert.ok((await stat(sourcePath)).isFile());
 
     const next = await nextIllustrationJob(options);
     assert.equal(next.sceneId, 'middle');
@@ -237,6 +242,18 @@ describe('illustration jobs', () => {
     assert.equal(opening.status, 'complete');
     assert.equal(opening.attempts, 1);
     assert.equal((await inspectFinalAsset(`${root}/public/assets/01-01/illustrated/opening.webp`)).valid, true);
+    await assert.rejects(stat(sourcePath), { code: 'ENOENT' });
+  });
+
+  it('does not remove a same-named source outside workDir during reconciliation', async () => {
+    const outsideSource = `${root}/outside/01-01/opening.png`;
+    await mkdir(`${root}/outside/01-01`, { recursive: true });
+    await copyFile(fixture, outsideSource);
+    await compressIllustration(fixture, `${root}/public/assets/01-01/illustrated/opening.webp`);
+
+    const next = await nextIllustrationJob(options);
+    assert.equal(next.sceneId, 'middle');
+    assert.ok((await stat(outsideSource)).isFile());
   });
 
   it('does not overwrite an existing valid final asset on complete', async () => {

@@ -178,6 +178,13 @@ function hasExactTechnicalErrors(errors, sceneId) {
   return attempts.length === MAX_ATTEMPTS && attempts[0] === 1 && attempts[1] === 2;
 }
 
+async function removeCanonicalWorkSource(workDir, storyId, sceneId) {
+  const resolvedWorkDir = path.resolve(workDir);
+  const sourcePath = path.resolve(workDir, storyId, `${sceneId}.png`);
+  if (!sourcePath.startsWith(`${resolvedWorkDir}${path.sep}`)) return;
+  await rm(sourcePath, { force: true });
+}
+
 export async function nextIllustrationJob(options = {}) {
   validateMonth(options.month);
   const storiesDir = options.storiesDir ?? 'data/stories';
@@ -204,6 +211,7 @@ export async function nextIllustrationJob(options = {}) {
       const inspect = options.inspectFinalAssetImpl ?? inspectFinalAsset;
       const published = await inspect(files.image(scene.id));
       if (published.valid) {
+        await removeCanonicalWorkSource(workDir, story.id, scene.id);
         scene.attempts += 1;
         scene.status = 'complete';
         finalizeEdition(story);
