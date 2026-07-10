@@ -3,7 +3,7 @@ export const ILLUSTRATION_CREDIT = 'Edição ilustrada contemporânea gerada com
 export const PLANNING_MODEL = 'gpt-5.6-luna';
 
 const LAYOUTS = new Set(['opening', 'double-page', 'marginal', 'vignette']);
-const ARTIST_PATTERN = /(?:in the style of|no estilo de|à maneira de|cristina malaquias)/iu;
+const ARTIST_PATTERN = /(?:\bin the style of\b|\bno estilo de\b|à maneira de\b|\b(?:paint|draw)\s+like\b|\binspired\s+by\b|\b(?:imitate|emulate)\b|\bcristina malaquias\b)/iu;
 
 function assertText(value, field) {
   if (typeof value !== 'string' || value.trim() === '') {
