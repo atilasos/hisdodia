@@ -1,6 +1,7 @@
 import { after, describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 import { execFile } from 'node:child_process';
+import { writeFileSync } from 'node:fs';
 import { mkdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { promisify } from 'node:util';
@@ -132,6 +133,57 @@ describe('Luna planner', () => {
     ]);
     assert.deepEqual(call.options, { cwd, timeout: 180_000 });
     assert.deepEqual(result, validPlan());
+  });
+
+  it('closes the Codex child stdin once while preserving the positional prompt and callback output', async () => {
+    const prompt = 'prompt supplied as the final positional argument';
+    let call;
+    let stdinEndCalls = 0;
+    const execFileImpl = (command, args, options, callback) => {
+      call = { command, args, options };
+      writeFile(args[args.indexOf('--output-last-message') + 1], JSON.stringify(validPlan()))
+        .then(() => callback(null, 'planner stdout', 'planner stderr'));
+      return {
+        stdin: {
+          end() {
+            stdinEndCalls += 1;
+          }
+        }
+      };
+    };
+
+    const result = await runLunaPlanner(prompt, { execFileImpl });
+
+    assert.equal(stdinEndCalls, 1);
+    assert.equal(call.args.at(-1), prompt);
+    assert.deepEqual(result, validPlan());
+  });
+
+  it('rejects a synchronous stdin-close error even when the spawn callback fires first', async () => {
+    const closeError = new Error('Could not close planner stdin');
+    let callbackCalls = 0;
+    let stdinEndCalls = 0;
+    const execFileImpl = (_command, args, _options, callback) => {
+      const outputPath = args[args.indexOf('--output-last-message') + 1];
+      writeFileSync(outputPath, JSON.stringify(validPlan()));
+      callbackCalls += 1;
+      callback(null, 'planner stdout', 'planner stderr');
+      return {
+        stdin: {
+          end() {
+            stdinEndCalls += 1;
+            throw closeError;
+          }
+        }
+      };
+    };
+
+    await assert.rejects(
+      () => runLunaPlanner('prompt', { execFileImpl }),
+      (error) => error === closeError
+    );
+    assert.equal(callbackCalls, 1);
+    assert.equal(stdinEndCalls, 1);
   });
 
   it('passes an explicit model and timeout to codex without retrying planner errors', async () => {

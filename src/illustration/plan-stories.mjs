@@ -39,7 +39,12 @@ export function buildPlanningPrompt(story) {
 
 function execute(command, args, options, execFileImpl) {
   return new Promise((resolve, reject) => {
-    execFileImpl(command, args, options, (error, stdout, stderr) => {
+    let callbackResult;
+    let spawnComplete = false;
+    let settled = false;
+    const finish = (error, stdout, stderr) => {
+      if (settled) return;
+      settled = true;
       if (error) {
         error.stdout = stdout;
         error.stderr = stderr;
@@ -52,7 +57,27 @@ function execute(command, args, options, execFileImpl) {
         return;
       }
       resolve({ stdout, stderr });
-    });
+    };
+    const callback = (...result) => {
+      if (!spawnComplete) {
+        callbackResult = result;
+        return;
+      }
+      finish(...result);
+    };
+
+    try {
+      const child = execFileImpl(command, args, options, callback);
+      child?.stdin?.end();
+      spawnComplete = true;
+      if (callbackResult) finish(...callbackResult);
+    } catch (error) {
+      spawnComplete = true;
+      if (!settled) {
+        settled = true;
+        reject(error);
+      }
+    }
   });
 }
 
