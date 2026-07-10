@@ -342,6 +342,14 @@ describe('illustrated edition contract', () => {
     assert.throws(() => validateScenePlan(story(), disagreement), /evidence.*anchor/i);
   });
 
+  it('keeps final opening evidence validation exact after planner canonicalization', () => {
+    const invalid = plan();
+    invalid.scenes[0].evidence = 'Segundo parágrafo.';
+    invalid.scenes[0].prompt = buildCanonicalScenePrompt(story(), invalid.scenes[0]);
+
+    assert.throws(() => validateScenePlan(story(), invalid), /opening evidence.*first non-empty paragraph/i);
+  });
+
   it('rejects evidence matching duplicate source paragraphs even when the anchor points to one', () => {
     const source = {
       ...story(),

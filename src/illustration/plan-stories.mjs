@@ -25,7 +25,7 @@ import {
 } from './edition.mjs';
 
 const DIRECTION = `Plan a contemporary illustrated edition of this Portuguese children's story as strict JSON.
-Choose three to six scenes, including exactly one opening. Return one evidence string for each scene. Opening evidence is the exact first non-empty narrative paragraph. For every later scene, evidence is the exact final paragraph of the depicted narrative beat, so the illustration appears after the event. Evidence must be copied verbatim, not summarized. Description and alternative text must contain only visually observable facts explicitly supported by that evidence. Use observable media traits only: soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Keep characters, clothes, recurring objects, setting, and palette consistent within the story. Depict no words, lettering, logos, or signatures. Never name or imitate a specific artist. Alternative text must be concise European Portuguese.`;
+Choose three to six scenes, including exactly one opening. Return one evidence string for each scene. As a best effort, opening evidence should copy the exact first non-empty narrative paragraph; the application canonicalizes it from the source story. For every later scene, evidence is the exact final paragraph of the depicted narrative beat, so the illustration appears after the event. Evidence must be copied verbatim, not summarized. Description and alternative text must contain only visually observable facts explicitly supported by that evidence. Use observable media traits only: soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Keep characters, clothes, recurring objects, setting, and palette consistent within the story. Depict no words, lettering, logos, or signatures. Never name or imitate a specific artist. Alternative text must be concise European Portuguese.`;
 
 const moduleDir = path.dirname(fileURLToPath(import.meta.url));
 const defaultSchemaPath = path.join(moduleDir, 'scene-plan.schema.json');
@@ -205,15 +205,17 @@ function deriveScenes(story, scenes) {
   }
 
   const [{ scene: opening, index: openingIndex }] = openingCandidates;
+  const paragraphs = storyParagraphs(story);
   const ordered = [
-    { ...approvedSceneFields(opening), id: 'opening', layout: 'opening' },
+    {
+      ...approvedSceneFields(opening),
+      id: 'opening',
+      evidence: paragraphs[0]?.text,
+      layout: 'opening'
+    },
     ...scenes.slice(0, openingIndex),
     ...scenes.slice(openingIndex + 1)
   ];
-  const paragraphs = storyParagraphs(story);
-  if (ordered[0].evidence !== paragraphs[0]?.text) {
-    throw new Error('Opening evidence must equal the exact first non-empty narrative paragraph');
-  }
 
   return ordered.map((rawScene, index) => {
     const scene = index === 0 ? rawScene : approvedSceneFields(rawScene);
