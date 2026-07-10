@@ -1,9 +1,11 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 import {
+  ART_DIRECTION_VERSION,
   applyScenePlan,
   buildCanonicalScenePrompt,
   completedOpening,
+  illustrationAssetDirectory,
   validateScenePlan
 } from '../../src/illustration/edition.mjs';
 
@@ -64,6 +66,22 @@ function planWithPrompt(prompt) {
 }
 
 describe('illustrated edition contract', () => {
+  it('maps repository art-direction versions to isolated asset directories', () => {
+    assert.equal(ART_DIRECTION_VERSION, '2');
+    assert.equal(illustrationAssetDirectory('01-01', '1'), '/assets/01-01/illustrated');
+    assert.equal(illustrationAssetDirectory('01-01', '2'), '/assets/01-01/illustrated/v2');
+    assert.equal(illustrationAssetDirectory('01-01', '23'), '/assets/01-01/illustrated/v23');
+  });
+
+  it('rejects non-canonical or unsafe art-direction versions', () => {
+    for (const version of [undefined, null, 0, 1, '', '0', '01', '../2', '2/escape', '1.0']) {
+      assert.throws(
+        () => illustrationAssetDirectory('01-01', version),
+        /artDirectionVersion must be a positive decimal string/u
+      );
+    }
+  });
+
   it('accepts three to six ordered scenes with valid paragraph anchors', () => {
     assert.equal(validateScenePlan(story(), plan()), true);
   });
@@ -337,8 +355,9 @@ describe('illustrated edition contract', () => {
     const result = applyScenePlan(original, plan());
     assert.equal(result.illustratedEdition.status, 'generating');
     assert.equal(result.illustratedEdition.credit, 'Edição ilustrada contemporânea gerada com IA');
+    assert.equal(result.illustratedEdition.artDirectionVersion, '2');
     assert.equal(result.illustratedEdition.planningModel, 'gpt-5.6-luna');
-    assert.equal(result.illustratedEdition.visualBrief, '/assets/01-01/illustrated/brief.json');
+    assert.equal(result.illustratedEdition.visualBrief, '/assets/01-01/illustrated/v2/brief.json');
     assert.equal(result.author, original.author);
     assert.equal(result.illustrator, original.illustrator);
     assert.deepEqual(result.illustratedEdition.scenes[1], {
@@ -347,7 +366,7 @@ describe('illustrated edition contract', () => {
       attempts: 0,
       after: { segment: 0, paragraph: 1 },
       layout: 'marginal',
-      image: '/assets/01-01/illustrated/encontro.webp',
+      image: '/assets/01-01/illustrated/v2/encontro.webp',
       alt: 'Os dois rapazes discutem junto dos pais.'
     });
     assert.equal(completedOpening(result), null);

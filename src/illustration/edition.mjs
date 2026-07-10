@@ -1,4 +1,4 @@
-export const ART_DIRECTION_VERSION = '1';
+export const ART_DIRECTION_VERSION = '2';
 export const ILLUSTRATION_CREDIT = 'Edição ilustrada contemporânea gerada com IA';
 export const PLANNING_MODEL = 'gpt-5.6-luna';
 
@@ -28,6 +28,14 @@ const UNSAFE_DESCRIPTION_PATTERNS = [
   /^\s*(?:emular|imitar)\s+[\p{L}]/iu,
   /\b(?:desconsidera|esquece|ignora|ignorar)\b[\s\S]{0,120}\b(?:emular|emule|imitar|imite)\b/iu,
 ];
+
+export function illustrationAssetDirectory(storyId, artDirectionVersion) {
+  if (typeof artDirectionVersion !== 'string' || !/^[1-9]\d*$/u.test(artDirectionVersion)) {
+    throw new Error('artDirectionVersion must be a positive decimal string');
+  }
+  const base = `/assets/${storyId}/illustrated`;
+  return artDirectionVersion === '1' ? base : `${base}/v${artDirectionVersion}`;
+}
 
 function assertText(value, field) {
   if (typeof value !== 'string' || value.trim() === '') {
@@ -170,6 +178,7 @@ export function applyScenePlan(story, plan, options = {}) {
     options.planningModel === undefined ? PLANNING_MODEL : options.planningModel
   );
   validateScenePlan(story, plan);
+  const assetDirectory = illustrationAssetDirectory(story.id, ART_DIRECTION_VERSION);
   return {
     ...story,
     illustratedEdition: {
@@ -177,14 +186,14 @@ export function applyScenePlan(story, plan, options = {}) {
       credit: ILLUSTRATION_CREDIT,
       artDirectionVersion: ART_DIRECTION_VERSION,
       planningModel,
-      visualBrief: `/assets/${story.id}/illustrated/brief.json`,
+      visualBrief: `${assetDirectory}/brief.json`,
       scenes: plan.scenes.map(({ id, after, layout, alt }) => ({
         id,
         status: 'pending',
         attempts: 0,
         after,
         layout,
-        image: `/assets/${story.id}/illustrated/${id}.webp`,
+        image: `${assetDirectory}/${id}.webp`,
         alt
       }))
     }

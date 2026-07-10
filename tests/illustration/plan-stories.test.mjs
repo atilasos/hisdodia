@@ -389,7 +389,7 @@ describe('Luna planner', () => {
     await planStories({ storyId: '01-01', storiesDir: `${root}/stories`, publicDir: `${root}/public`, runPlanner });
     await planStories({ storyId: '01-01', storiesDir: `${root}/stories`, publicDir: `${root}/public`, runPlanner });
     const story = JSON.parse(await readFile(`${root}/stories/01-01.json`, 'utf8'));
-    const brief = JSON.parse(await readFile(`${root}/public/assets/01-01/illustrated/brief.json`, 'utf8'));
+    const brief = JSON.parse(await readFile(`${root}/public/assets/01-01/illustrated/v2/brief.json`, 'utf8'));
     assert.equal(calls, 1);
     assert.equal(story.illustratedEdition.status, 'generating');
     assert.equal(brief.scenes.length, 3);
@@ -397,8 +397,11 @@ describe('Luna planner', () => {
 
   it('replans an existing illustrated edition only with force', async () => {
     const directory = `${root}/force/stories`;
+    const legacyDirectory = `${root}/force/public/assets/01-01/illustrated`;
     await rm(`${root}/force`, { recursive: true, force: true });
-    await writeStory(directory, { status: 'generating' });
+    await writeStory(directory, { status: 'complete', artDirectionVersion: '1' });
+    await mkdir(legacyDirectory, { recursive: true });
+    await writeFile(`${legacyDirectory}/opening.webp`, 'v1 sentinel');
     let calls = 0;
     const runPlanner = async () => { calls += 1; return validPlan(); };
 
@@ -408,7 +411,11 @@ describe('Luna planner', () => {
     assert.equal(calls, 1);
     const story = JSON.parse(await readFile(`${directory}/01-01.json`, 'utf8'));
     assert.equal(story.illustratedEdition.status, 'generating');
+    assert.equal(story.illustratedEdition.artDirectionVersion, '2');
+    assert.equal(story.illustratedEdition.visualBrief, '/assets/01-01/illustrated/v2/brief.json');
     assert.equal(story.illustratedEdition.scenes.length, 3);
+    assert.equal(await readFile(`${legacyDirectory}/opening.webp`, 'utf8'), 'v1 sentinel');
+    assert.equal(JSON.parse(await readFile(`${legacyDirectory}/v2/brief.json`, 'utf8')).scenes.length, 3);
   });
 
   it('requires exactly one story scope', async () => {
@@ -436,7 +443,7 @@ describe('Luna planner', () => {
         publicDir: `${base}/public`,
         runPlanner: async () => planWithPrompt(prompt)
       });
-      const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/brief.json`, 'utf8'));
+      const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/v2/brief.json`, 'utf8'));
       canonicalPrompts.push(brief.scenes[1].prompt);
       assert.doesNotMatch(brief.scenes[1].prompt, /Quentin Blake|Maurice Sendak/);
     }
@@ -519,7 +526,7 @@ describe('Luna planner', () => {
       runPlanner: async () => returnedPlan
     });
 
-    const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/brief.json`, 'utf8'));
+    const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/v2/brief.json`, 'utf8'));
     assert.deepEqual(brief.scenes.map(({ id }) => id), ['opening', 'middle', 'ending']);
     assert.deepEqual(
       { id: brief.scenes[0].id, layout: brief.scenes[0].layout, after: brief.scenes[0].after },
@@ -557,7 +564,7 @@ describe('Luna planner', () => {
       runPlanner: async () => returnedPlan
     });
 
-    const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/brief.json`, 'utf8'));
+    const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/v2/brief.json`, 'utf8'));
     assert.deepEqual(
       { id: brief.scenes[0].id, layout: brief.scenes[0].layout, after: brief.scenes[0].after },
       { id: 'opening', layout: 'opening', after: null }
@@ -608,7 +615,7 @@ describe('Luna planner', () => {
       runPlanner: async () => returnedPlan
     });
 
-    const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/brief.json`, 'utf8'));
+    const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/v2/brief.json`, 'utf8'));
     assert.deepEqual(
       brief.scenes.map(({ prompt: _prompt, ...scene }) => scene),
       returnedPlan.scenes.map(({ prompt: _prompt, ...scene }) => scene)
@@ -673,10 +680,10 @@ describe('Luna planner', () => {
       await planStories({ storyId: '01-01', storiesDir: directory, publicDir, runPlanner });
 
       const story = JSON.parse(await readFile(`${directory}/01-01.json`, 'utf8'));
-      const brief = JSON.parse(await readFile(`${publicDir}/assets/01-01/illustrated/brief.json`, 'utf8'));
+      const brief = JSON.parse(await readFile(`${publicDir}/assets/01-01/illustrated/v2/brief.json`, 'utf8'));
       assert.equal(calls, 2);
       assert.equal(story.illustratedEdition.status, 'generating');
-      assert.equal(story.illustratedEdition.visualBrief, '/assets/01-01/illustrated/brief.json');
+      assert.equal(story.illustratedEdition.visualBrief, '/assets/01-01/illustrated/v2/brief.json');
       assert.deepEqual(
         story.illustratedEdition.scenes.map(({ id, alt }) => ({ id, alt })),
         brief.scenes.map(({ id, alt }) => ({ id, alt }))

@@ -17,6 +17,7 @@ import {
 } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
+import { illustrationAssetDirectory } from './edition.mjs';
 
 const MAX_ATTEMPTS = 2;
 const MAX_BYTES = 204800;
@@ -107,13 +108,28 @@ async function writeJsonAtomically(filename, value) {
   }
 }
 
-function pathsFor(options, storyId) {
+function storyPathFor(options, storyId) {
   const storiesDir = options.storiesDir ?? 'data/stories';
+  return path.join(storiesDir, `${storyId}.json`);
+}
+
+function pathsFor(options, story) {
   const publicDir = options.publicDir ?? 'src/site/public';
+  const assetDirectory = illustrationAssetDirectory(
+    story.id,
+    story.illustratedEdition?.artDirectionVersion
+  );
+  const assetParts = assetDirectory.split('/').filter(Boolean);
+  const versionParts = assetParts.slice(3);
+  const assetPath = path.join(publicDir, ...assetParts);
   return {
-    story: path.join(storiesDir, `${storyId}.json`),
-    brief: path.join(publicDir, 'assets', storyId, 'illustrated', 'brief.json'),
-    image: (sceneId) => path.join(publicDir, 'assets', storyId, 'illustrated', `${sceneId}.webp`)
+    story: storyPathFor(options, story.id),
+    brief: path.join(assetPath, 'brief.json'),
+    briefUrl: `${assetDirectory}/brief.json`,
+    image: (sceneId) => path.join(assetPath, `${sceneId}.webp`),
+    imageUrl: (sceneId) => `${assetDirectory}/${sceneId}.webp`,
+    referenceImage: (sceneId) => path.posix.join('src/site/public', ...assetParts, `${sceneId}.webp`),
+    sourceImage: (workDir, sceneId) => path.join(workDir, story.id, ...versionParts, `${sceneId}.png`)
   };
 }
 
@@ -145,8 +161,8 @@ async function reconcileTechnicalError(files, story, options = {}) {
 }
 
 async function loadJob(options) {
-  const files = pathsFor(options, options.storyId);
-  const story = JSON.parse(await readFile(files.story, 'utf8'));
+  const story = JSON.parse(await readFile(storyPathFor(options, options.storyId), 'utf8'));
+  const files = pathsFor(options, story);
   await reconcileTechnicalError(files, story, options);
   const scenes = story.illustratedEdition?.scenes;
   const scene = scenes?.find(({ id }) => id === options.sceneId);
@@ -231,9 +247,9 @@ export async function nextIllustrationJob(options = {}) {
   for (const filename of filenames) {
     const storyPath = path.join(storiesDir, filename);
     const story = JSON.parse(await readFile(storyPath, 'utf8'));
-    const files = pathsFor(options, story.id);
-    await reconcileTechnicalError(files, story, options);
     if (story.illustratedEdition?.status !== 'generating') continue;
+    const files = pathsFor(options, story);
+    await reconcileTechnicalError(files, story, options);
     while (story.illustratedEdition.status === 'generating') {
       const scene = story.illustratedEdition.scenes?.find(
         (candidate) => (candidate.status === 'pending' || candidate.status === 'generating')
@@ -244,7 +260,7 @@ export async function nextIllustrationJob(options = {}) {
       const inspect = options.inspectFinalAssetImpl ?? inspectFinalAsset;
       const published = await inspect(files.image(scene.id));
       if (published.valid) {
-        await safeRemoveWorkFile(workDir, path.join(workDir, story.id, `${scene.id}.png`));
+        await safeRemoveWorkFile(workDir, files.sourceImage(workDir, scene.id));
         scene.attempts += 1;
         scene.status = 'complete';
         finalizeEdition(story);
@@ -265,8 +281,8 @@ export async function nextIllustrationJob(options = {}) {
         alt: scene.alt,
         references: scene.id === 'opening'
           ? []
-          : [`src/site/public/assets/${story.id}/illustrated/opening.webp`],
-        sourceOutput: path.join(workDir, story.id, `${scene.id}.png`)
+          : [files.referenceImage('opening')],
+        sourceOutput: files.sourceImage(workDir, scene.id)
       };
     }
   }
@@ -404,7 +420,6 @@ export async function deferIllustrationJob(options) {
 export async function auditIllustrations(options = {}) {
   validateMonth(options.month);
   const storiesDir = options.storiesDir ?? 'data/stories';
-  const publicDir = options.publicDir ?? 'src/site/public';
   const filenames = (await readdir(storiesDir))
     .filter((filename) => /^\d{2}-\d{2}\.json$/u.test(filename))
     .filter((filename) => !options.storyId || filename === `${options.storyId}.json`)
@@ -419,11 +434,15 @@ export async function auditIllustrations(options = {}) {
 
   for (const filename of filenames) {
     const story = JSON.parse(await readFile(path.join(storiesDir, filename), 'utf8'));
-    await reconcileTechnicalError(pathsFor(options, story.id), story, options);
     const edition = story.illustratedEdition;
     if (!edition) {
       problems.push(`${story.id}: missing illustrated edition`);
       continue;
+    }
+    const files = pathsFor(options, story);
+    await reconcileTechnicalError(files, story, options);
+    if (edition.visualBrief !== files.briefUrl) {
+      problems.push(`${story.id}: visual brief URL does not match art direction version`);
     }
     const scenes = edition.scenes;
     if (!Array.isArray(scenes) || scenes.length < 3 || scenes.length > 6) {
@@ -433,7 +452,7 @@ export async function auditIllustrations(options = {}) {
 
     let brief;
     try {
-      brief = JSON.parse(await readFile(path.join(publicDir, 'assets', story.id, 'illustrated', 'brief.json'), 'utf8'));
+      brief = JSON.parse(await readFile(files.brief, 'utf8'));
     } catch {
       problems.push(`${story.id}: missing visual brief`);
       brief = { errors: [] };
@@ -452,6 +471,9 @@ export async function auditIllustrations(options = {}) {
 
     for (const scene of scenes) {
       const label = `${story.id}/${scene.id}`;
+      if (scene.image !== files.imageUrl(scene.id)) {
+        problems.push(`${label}: image URL does not match art direction version`);
+      }
       if (scene.status === 'pending' || scene.status === 'generating') {
         const untouchedDependent = degradedOpening
           && scene.id !== 'opening'
@@ -460,7 +482,7 @@ export async function auditIllustrations(options = {}) {
         if (!untouchedDependent) problems.push(`${label}: pending scene`);
       } else if (scene.status === 'complete') {
         counts.completeScenes += 1;
-        const imagePath = path.join(publicDir, 'assets', story.id, 'illustrated', `${scene.id}.webp`);
+        const imagePath = files.image(scene.id);
         const inspect = options.inspectFinalAssetImpl ?? inspectFinalAsset;
         const asset = await inspect(imagePath);
         if (!asset.exists) {

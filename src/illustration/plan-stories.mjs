@@ -14,8 +14,10 @@ import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import {
+  ART_DIRECTION_VERSION,
   applyScenePlan,
   buildCanonicalScenePrompt,
+  illustrationAssetDirectory,
   PLANNING_MODEL,
   validatePlanningModel,
   validateScenePlan
@@ -255,14 +257,16 @@ export async function planStories(options = {}) {
     };
     validateScenePlan(story, plan);
 
-    const briefDir = path.join(publicDir, 'assets', story.id, 'illustrated');
+    const plannedStory = applyScenePlan(story, plan, { planningModel });
+    const assetDirectory = illustrationAssetDirectory(story.id, ART_DIRECTION_VERSION);
+    const briefDir = path.join(publicDir, ...assetDirectory.split('/').filter(Boolean));
     await mkdir(briefDir, { recursive: true });
     await writeJson(storyPath, {
       ...story,
       illustratedEdition: { status: 'planning' }
     });
     await writeJson(path.join(briefDir, 'brief.json'), { ...plan, errors: [] });
-    await writeJson(storyPath, applyScenePlan(story, plan, { planningModel }));
+    await writeJson(storyPath, plannedStory);
     planned.push(story.id);
   }
 

@@ -32,6 +32,7 @@ async function seed() {
     textSegments: [{ paragraphs: ['Primeiro.', 'Segundo.'] }],
     illustratedEdition: {
       status: 'generating',
+      artDirectionVersion: '1',
       visualBrief: '/assets/01-01/illustrated/brief.json',
       scenes: [
         { id: 'opening', status: 'pending', attempts: 0, after: null, layout: 'opening', image: '/assets/01-01/illustrated/opening.webp', alt: 'Abertura.' },
@@ -48,6 +49,23 @@ async function seed() {
       { id: 'ending', prompt: 'Ending prompt.' }
     ]
   }));
+}
+
+async function seedV2() {
+  await seed();
+  const story = await readStory();
+  story.illustratedEdition.artDirectionVersion = '2';
+  story.illustratedEdition.visualBrief = '/assets/01-01/illustrated/v2/brief.json';
+  story.illustratedEdition.scenes = story.illustratedEdition.scenes.map((scene) => ({
+    ...scene,
+    image: `/assets/01-01/illustrated/v2/${scene.id}.webp`
+  }));
+  await writeFile(`${root}/stories/01-01.json`, JSON.stringify(story));
+  await mkdir(`${root}/public/assets/01-01/illustrated/v2`, { recursive: true });
+  await writeFile(
+    `${root}/public/assets/01-01/illustrated/v2/brief.json`,
+    await readFile(`${root}/public/assets/01-01/illustrated/brief.json`)
+  );
 }
 
 const readStory = async () => JSON.parse(await readFile(`${root}/stories/01-01.json`, 'utf8'));
@@ -83,6 +101,85 @@ describe('illustration jobs', () => {
     const second = await nextIllustrationJob(jobOptions);
     assert.equal(second.sceneId, 'middle');
     assert.deepEqual(second.references, ['src/site/public/assets/01-01/illustrated/opening.webp']);
+  });
+
+  it('leases, references, completes, reconciles, and audits v2 assets without using v1', async () => {
+    await seedV2();
+    await writeFile(`${root}/public/assets/01-01/illustrated/opening.webp`, 'v1 sentinel');
+
+    const first = await nextIllustrationJob(jobOptions);
+    assert.equal(first.sceneId, 'opening');
+    assert.deepEqual(first.references, []);
+    assert.equal(first.sourceOutput, `${root}/work/01-01/v2/opening.png`);
+    await completeIllustrationJob({
+      ...jobOptions,
+      storyId: '01-01',
+      sceneId: 'opening',
+      sourcePath: fixture
+    });
+    assert.equal(await readFile(`${root}/public/assets/01-01/illustrated/opening.webp`, 'utf8'), 'v1 sentinel');
+    assert.ok((await stat(`${root}/public/assets/01-01/illustrated/v2/opening.webp`)).isFile());
+
+    const second = await nextIllustrationJob(jobOptions);
+    assert.equal(second.sceneId, 'middle');
+    assert.deepEqual(second.references, ['src/site/public/assets/01-01/illustrated/v2/opening.webp']);
+
+    const story = await readStory();
+    story.illustratedEdition.status = 'complete';
+    for (const scene of story.illustratedEdition.scenes) {
+      scene.status = 'complete';
+      scene.attempts = 1;
+      await writeFile(`${root}/public/assets/01-01/illustrated/v2/${scene.id}.webp`, 'webp');
+    }
+    await writeFile(`${root}/stories/01-01.json`, JSON.stringify(story));
+
+    const result = await auditIllustrations(jobOptions);
+    assert.deepEqual(result.problems, []);
+    assert.equal(result.completeScenes, 3);
+  });
+
+  it('rejects an invalid edition version before asset inspection or writes', async () => {
+    const story = await readStory();
+    story.illustratedEdition.artDirectionVersion = '../escape';
+    await writeFile(`${root}/stories/01-01.json`, JSON.stringify(story));
+    let inspected = 0;
+    let writes = 0;
+
+    await assert.rejects(
+      () => nextIllustrationJob({
+        ...jobOptions,
+        inspectFinalAssetImpl: async () => { inspected += 1; return inspectFakeAsset('missing'); },
+        writeJsonImpl: async () => { writes += 1; }
+      }),
+      /artDirectionVersion must be a positive decimal string/u
+    );
+    assert.equal(inspected, 0);
+    assert.equal(writes, 0);
+  });
+
+  it('skips stories without an active illustrated edition before resolving asset paths', async () => {
+    const story = await readStory();
+    delete story.illustratedEdition;
+    await writeFile(`${root}/stories/01-01.json`, JSON.stringify(story));
+    let inspected = 0;
+
+    assert.equal(await nextIllustrationJob({
+      ...jobOptions,
+      inspectFinalAssetImpl: async () => { inspected += 1; return inspectFakeAsset('missing'); }
+    }), null);
+    assert.equal(inspected, 0);
+  });
+
+  it('audits stored brief and image URLs against the edition version', async () => {
+    await seedV2();
+    const story = await readStory();
+    story.illustratedEdition.visualBrief = '/assets/01-01/illustrated/brief.json';
+    story.illustratedEdition.scenes[0].image = '/assets/01-01/illustrated/opening.webp';
+    await writeFile(`${root}/stories/01-01.json`, JSON.stringify(story));
+
+    const result = await auditIllustrations(jobOptions);
+    assert.ok(result.problems.some((problem) => problem.includes('visual brief URL does not match art direction version')));
+    assert.ok(result.problems.some((problem) => problem.includes('01-01/opening') && problem.includes('image URL does not match art direction version')));
   });
 
   it('counts technical failures, stops after two, and completes with a failed non-opening scene', async () => {
