@@ -1,6 +1,7 @@
 import { cp, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { illustratedCover, renderIllustratedEdition } from './illustrated-edition.mjs';
 
 const SITE_DIR = path.dirname(fileURLToPath(import.meta.url));
 const PUBLIC_DIR = path.join(SITE_DIR, 'public');
@@ -31,7 +32,7 @@ async function loadActivities(activitiesDir, storyId) {
   }
 }
 
-function escapeHtml(value) {
+export function escapeHtml(value) {
   return String(value ?? '')
     .replaceAll('&', '&amp;')
     .replaceAll('<', '&lt;')
@@ -80,7 +81,7 @@ function assetUrl(story, assetPath) {
   return `${archivePrefix}${origin}/${assetPath.replace(/^\/+/, '')}`;
 }
 
-function safeAssetUrl(story, assetPath) {
+export function safeAssetUrl(story, assetPath) {
   return safeUrl(assetUrl(story, assetPath));
 }
 
@@ -184,6 +185,20 @@ function recoveredImage(story, context = 'large') {
   return `<figure class="story-art story-art-${context}">
     <img src="${escapeHtml(source)}" alt="Ilustração original recuperada para ${escapeHtml(story.title)}" loading="${context === 'large' ? 'eager' : 'lazy'}">
     <figcaption>Ilustração original recuperada</figcaption>
+  </figure>`;
+}
+
+function homepageImage(story) {
+  const cover = illustratedCover(story);
+  const source = cover && safeAssetUrl(story, cover.image);
+
+  if (!source) {
+    return recoveredImage(story);
+  }
+
+  return `<figure class="story-art story-art-large illustrated-cover">
+    <img src="${escapeHtml(source)}" alt="${escapeHtml(cover.alt)}" loading="eager">
+    <figcaption>${escapeHtml(story.illustratedEdition.credit)}</figcaption>
   </figure>`;
 }
 
@@ -292,7 +307,7 @@ function renderHome(story) {
         </div>
         ${recoveryBadges(story)}
       </div>
-      ${recoveredImage(story)}
+      ${homepageImage(story)}
     </section>`
   });
 }
@@ -319,6 +334,41 @@ ${stories
 }
 
 function renderStory(story, activities) {
+  const illustratedEdition = renderIllustratedEdition(story, { escapeHtml, safeAssetUrl });
+
+  if (illustratedEdition) {
+    return pageShell({
+      title: `${story.title} | História do Dia`,
+      scripts: activities ? ['/brincar.js'] : [],
+      body: `    <article class="reader reader-illustrated">
+      <nav class="edition-switcher" aria-label="Escolher edição">
+        <a href="#edicao-ilustrada" data-edition-target="edicao-ilustrada" aria-current="true">Edição ilustrada</a>
+        <a href="#edicao-original" data-edition-target="edicao-original" aria-current="false">Original recuperado</a>
+      </nav>
+      <div class="edition-toolbar">
+        ${recoveryBadges(story)}
+        ${activities ? `<div class="actions" aria-label="Ações da história">
+          <a class="button secondary" href="#brincar">Brincar</a>
+        </div>` : ''}
+      </div>
+      ${illustratedEdition}
+      <section id="edicao-original" class="edition-panel original-edition" tabindex="-1">
+        <p class="credits original-credit">${escapeHtml(story.author)} escreveu. ${escapeHtml(story.illustrator)} ilustrou.</p>
+        ${recoveredImage(story, 'reader')}
+${storyText(story)}
+        ${imageGallery(story)}
+      </section>
+      <section id="audio" class="audio-panel" aria-labelledby="ouvir">
+        <h2 id="ouvir">Ouvir</h2>
+        ${audioNotice(story)}
+      </section>
+      ${glossary(story)}
+      ${playCorner(activities)}
+      ${provenance(story)}
+    </article>`
+    });
+  }
+
   return pageShell({
     title: `${story.title} | História do Dia`,
     scripts: activities ? ['/brincar.js'] : [],
