@@ -134,7 +134,7 @@ describe('illustrated edition contract', () => {
     }
   });
 
-  it('builds canonical prompts from original narrative without story credits', () => {
+  it('builds canonical prompts from the planned composition and original narrative without story credits', () => {
     const source = {
       ...story(),
       author: 'Autora Reservada',
@@ -147,13 +147,99 @@ describe('illustrated edition contract', () => {
     });
     const anchored = buildCanonicalScenePrompt(source, plan().scenes[1]);
 
+    assert.ok(opening.startsWith('soft watercolour'));
+    assert.match(opening, /Scene composition: Texto livre da descrição/);
+    assert.match(opening, /Story evidence: Primeiro parágrafo\./);
+    assert.match(anchored, /Scene composition: Os rapazes discutem\./);
+    assert.match(anchored, /Story evidence: Segundo parágrafo\./);
     assert.match(opening, /Primeiro parágrafo\./);
     assert.match(anchored, /Segundo parágrafo\./);
     assert.doesNotMatch(anchored, /Primeiro parágrafo\./);
+    assert.match(anchored, /Maintain the established characters/);
     assert.ok(anchored.endsWith('Do not imitate any named artist; no words, lettering, logos, or signatures.'));
     assert.doesNotMatch(opening, /Autora Reservada|Ilustrador Reservado/);
     assert.doesNotMatch(anchored, /Autora Reservada|Ilustrador Reservado/);
-    assert.doesNotMatch(opening, /Texto livre da descrição|Texto livre do prompt/);
+    assert.doesNotMatch(opening, /Texto livre do prompt/);
+  });
+
+  it('rejects artist and named-style instructions in descriptions while allowing character names', () => {
+    const source = { ...story(), illustrator: 'Cristina Malaquias' };
+    const opening = plan(source).scenes[0];
+    const unsafeDescriptions = [
+      'Cristina Malaquias desenha o encontro.',
+      'CRISTINA   MALAQUIAS surge como referência visual.',
+      'Pintar no estilo de Quentin Blake.',
+      'Quentin Blake style, with loose expressive lines.',
+      'Estilo de Paula Rego para a cena na estrada.',
+      'Draw it like Beatrix Potter.',
+      'Imitate Maurice Sendak.',
+      'Uma composição inspired by Tove Jansson.',
+      'À maneira de Júlio Pomar, mostrar a estrada.'
+    ];
+
+    for (const description of unsafeDescriptions) {
+      assert.throws(
+        () => buildCanonicalScenePrompt(source, { ...opening, description }),
+        /description contains unsafe artist or style instructions/,
+        description
+      );
+    }
+
+    assert.match(
+      buildCanonicalScenePrompt(source, {
+        ...opening,
+        description: 'Cristina e João encontram a cadela Malaquias na estrada.'
+      }),
+      /Cristina e João encontram a cadela Malaquias/
+    );
+    assert.match(
+      buildCanonicalScenePrompt(source, {
+        ...opening,
+        description: 'O rapaz tenta imitar o urso enquanto João observa.'
+      }),
+      /O rapaz tenta imitar o urso/
+    );
+  });
+
+  it('clips an oversized opening paragraph only at a word boundary', () => {
+    const longParagraph = `${'palavra '.repeat(100)}fim`.trim();
+    const source = {
+      ...story(),
+      textSegments: [{ paragraphs: [longParagraph, 'Segundo parágrafo intacto.'] }]
+    };
+    const prompt = buildCanonicalScenePrompt(source, {
+      id: 'opening',
+      after: null,
+      layout: 'opening',
+      description: 'Uma abertura com palavras completas.',
+      alt: 'Uma abertura.',
+      prompt: ''
+    });
+    const evidence = prompt.match(/Story evidence: (.*?) Do not imitate any named artist/u)?.[1];
+
+    assert.ok(evidence);
+    assert.ok(evidence.length <= 600);
+    assert.equal(longParagraph.startsWith(`${evidence} `), true);
+    assert.doesNotMatch(evidence, /Segundo parágrafo/);
+  });
+
+  it('keeps a complete opening paragraph instead of clipping the next one', () => {
+    const firstParagraph = `${'inteiro '.repeat(62)}fim`.trim();
+    const source = {
+      ...story(),
+      textSegments: [{ paragraphs: [firstParagraph, `${'seguinte '.repeat(30)}fim`.trim()] }]
+    };
+    const prompt = buildCanonicalScenePrompt(source, {
+      id: 'opening',
+      after: null,
+      layout: 'opening',
+      description: 'Uma abertura apoiada no primeiro parágrafo.',
+      alt: 'Uma abertura.',
+      prompt: ''
+    });
+
+    assert.match(prompt, new RegExp(`Story evidence: ${firstParagraph.replaceAll(' ', '\\s')}`));
+    assert.doesNotMatch(prompt, /seguinte/);
   });
 
   it('allows the opening layout only on the first scene', () => {

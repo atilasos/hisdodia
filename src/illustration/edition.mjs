@@ -8,6 +8,17 @@ const OPENING_EXCERPT_MAX_LENGTH = 600;
 const OBSERVABLE_ART_DIRECTION = 'soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space.';
 const CONTINUITY_DIRECTION = 'Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes.';
 const SAFETY_DIRECTION = 'Do not imitate any named artist; no words, lettering, logos, or signatures.';
+const UNSAFE_DESCRIPTION_PATTERNS = [
+  /\b(?:draw|illustrate|paint|render)(?:\s+(?:it|this|the\s+(?:image|scene)))?\s+like\b/iu,
+  /^\s*(?:please\s+)?(?:emulate|imitate)\s+[\p{L}]/iu,
+  /\b(?:inspired\s+by|in\s+the\s+style\s+of|visual\s+language\s+of)\b/iu,
+  /\binspirad[ao]s?\s+(?:em|por)\b/iu,
+  /\b(?:[Nn]o\s+)?[Ee]stilo\s+de\s+\p{Lu}[\p{L}'’-]*(?:\s+\p{Lu}[\p{L}'’-]*){0,3}\b/u,
+  /^\s*(?:emular|imitar)\s+[\p{L}]/iu,
+  /(?:^|[\s,;:])à\s+maneira\s+de\b/iu,
+  /\b(?:desenhar|ilustrar|pintar)(?:\s+(?:isto|esta\s+(?:abertura|cena|imagem)))?\s+como\b/iu,
+  /(?:^|[^\p{L}])\p{Lu}[\p{L}'’-]*(?:\s+\p{Lu}[\p{L}'’-]*){0,3}(?:['’]s\s+[Ss]tyle|\s+[Ss]tyle)\b/u
+];
 
 function assertText(value, field) {
   if (typeof value !== 'string' || value.trim() === '') {
@@ -32,6 +43,36 @@ function assertAnchor(story, anchor) {
   }
 }
 
+function normalizedText(value) {
+  return String(value ?? '')
+    .normalize('NFKC')
+    .trim()
+    .replace(/\s+/gu, ' ')
+    .toLocaleLowerCase('pt-PT');
+}
+
+function assertSafeSceneDescription(story, description) {
+  assertText(description, 'description');
+  const normalizedDescription = normalizedText(description);
+  const illustrator = normalizedText(story.illustrator);
+  if (
+    (illustrator !== '' && normalizedDescription.includes(illustrator))
+    || UNSAFE_DESCRIPTION_PATTERNS.some((pattern) => pattern.test(description))
+  ) {
+    throw new Error('description contains unsafe artist or style instructions');
+  }
+}
+
+function clipAtWordBoundary(text, maximumLength) {
+  if (text.length <= maximumLength) return text;
+  const candidate = text.slice(0, maximumLength);
+  if (/\s/u.test(text[maximumLength])) return candidate.trimEnd();
+  for (let index = candidate.length - 1; index >= 0; index -= 1) {
+    if (/\s/u.test(candidate[index])) return candidate.slice(0, index).trimEnd();
+  }
+  return '';
+}
+
 function openingExcerpt(story) {
   const paragraphs = (story.textSegments ?? [])
     .flatMap((segment) => segment?.paragraphs ?? [])
@@ -42,13 +83,18 @@ function openingExcerpt(story) {
     const separator = excerpt === '' ? '' : ' ';
     const remaining = OPENING_EXCERPT_MAX_LENGTH - excerpt.length - separator.length;
     if (remaining <= 0) break;
-    excerpt += `${separator}${paragraph.slice(0, remaining)}`;
-    if (paragraph.length > remaining) break;
+    if (paragraph.length <= remaining) {
+      excerpt += `${separator}${paragraph}`;
+      continue;
+    }
+    if (excerpt === '') excerpt = clipAtWordBoundary(paragraph, remaining);
+    break;
   }
   return excerpt;
 }
 
 export function buildCanonicalScenePrompt(story, scene) {
+  assertSafeSceneDescription(story, scene.description);
   const isOpening = scene.after === null;
   let excerpt;
   if (isOpening) {
@@ -59,7 +105,8 @@ export function buildCanonicalScenePrompt(story, scene) {
   }
   return [
     OBSERVABLE_ART_DIRECTION,
-    excerpt,
+    `Scene composition: ${scene.description.trim()}`,
+    `Story evidence: ${excerpt}`,
     isOpening ? null : CONTINUITY_DIRECTION,
     SAFETY_DIRECTION
   ].filter(Boolean).join(' ');

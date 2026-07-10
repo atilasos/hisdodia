@@ -105,6 +105,10 @@ describe('Luna planner', () => {
     assert.match(prompt, /Primeiro\./);
     assert.doesNotMatch(prompt, /Cristina Malaquias/);
     assert.match(prompt, /no words, lettering, logos, or signatures/);
+    assert.match(prompt, /description, alternative text, and anchor must describe the same moment/i);
+    assert.match(prompt, /final paragraph of the depicted narrative beat/i);
+    assert.match(prompt, /only visually observable facts explicitly supported by the story/i);
+    assert.match(prompt, /canonical image prompt combines the description with story evidence/i);
   });
 
   it('invokes ephemeral Luna by default with a three-minute timeout', async () => {
@@ -446,6 +450,39 @@ describe('Luna planner', () => {
         textSegments: [{ paragraphs: ['Primeiro.', 'Segundo.'] }]
       }, validPlan().scenes[1])
     );
+  });
+
+  it('rejects unsafe scene descriptions before any story or brief write', async () => {
+    const base = `${root}/unsafe-description`;
+    const directory = `${base}/stories`;
+    await rm(base, { recursive: true, force: true });
+    await mkdir(directory, { recursive: true });
+    await writeFile(`${directory}/01-01.json`, JSON.stringify({
+      id: '01-01',
+      title: 'Teste',
+      illustrator: 'Cristina Malaquias',
+      textSegments: [{ paragraphs: ['Primeiro.', 'Segundo.'] }],
+      assets: {}
+    }));
+    const returnedPlan = validPlan();
+    returnedPlan.scenes[0] = {
+      ...returnedPlan.scenes[0],
+      description: 'Criar esta abertura no estilo de Cristina Malaquias.'
+    };
+    let writes = 0;
+
+    await assert.rejects(
+      () => planStories({
+        storyId: '01-01',
+        storiesDir: directory,
+        publicDir: `${base}/public`,
+        runPlanner: async () => returnedPlan,
+        writeJsonImpl: async () => { writes += 1; }
+      }),
+      /description contains unsafe artist or style instructions/
+    );
+
+    assert.equal(writes, 0);
   });
 
   it('moves a sole exact opening candidate to the front before rebuilding prompts', async () => {
