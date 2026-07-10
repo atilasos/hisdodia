@@ -3,5 +3,6 @@ tmp/
 data/tts/
 .env
 .superpowers/
+.worktrees/
 .omx/logs/
 .DS_Store
