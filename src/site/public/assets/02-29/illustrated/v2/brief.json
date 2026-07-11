@@ -1,0 +1,108 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Fazer anos é bom. Há festa, há presentes e há a família e os amigos todos à volta de nós e do bolo, a cantar, afinados ou desafinados, os \"Parabéns a Você\". Sopram-se as velas, ouvem-se as palmas e tocam-se os copos, \"tchim-tchim!\", à saúde do aniversariante. Mas por que estou eu aqui a contar o que toda a gente sabe? Sim, porquê? Porque o Mário só tem direito a esta festa de quatro em quatro anos, precisamente no dia 29 de Fevereiro de cada ano bissexto . Nasceu num dia desses de um ano desses, que se há-de fazer?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Os Favores do Borda d'Água».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Fazer anos é bom. Há festa, há presentes e há a família e os amigos todos à volta de nós e do bolo, a cantar, afinados ou desafinados, os \"Parabéns a Você\". Sopram-se as velas, ouvem-se as palmas e tocam-se os copos, \"tchim-tchim!\", à saúde do aniversariante. Mas por que estou eu aqui a contar o que toda a gente sabe? Sim, porquê? Porque o Mário só tem direito a esta festa de quatro em quatro anos, precisamente no dia 29 de Fevereiro de cada ano bissexto . Nasceu num dia desses de um ano desses, que se há-de fazer? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "Porque o Mário só tem direito a esta festa de quatro em quatro anos, precisamente no dia 29 de Fevereiro de cada ano bissexto . Nasceu num dia desses de um ano desses, que se há-de fazer? O Joca, amigo e vizinho do Mário, já que ambos moram no mesmo prédio, o Joca é que não se conforma: - Tu devias receber as prendas vezes quatro.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Porque o Mário só tem direito a esta festa de quatro em quatro anos, precisamente no dia 29 de Fevereiro de cada ano bissexto . Nasceu num dia desses de um ano desses, que se há-de fazer? O Joca, amigo e vizinho do Mário, já que ambos moram no mesmo prédio, o Joca é que não se conforma: - Tu devias receber as prendas vezes quatro. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Um montão delas, a contar com os anos em que não tiveste festa. - E recebo - explicou o Mário. - Na Páscoa, os meus pais e os meus avós dão-me sempre mais prendinhas e dizem-me que são as dos meus anos. Assim sendo, o Joca já não sentia tanta pena do seu amigo Mário. À noite, à hora da deita, pôs-se a matutar que as pessoas deviam fazer anos sempre que quisessem.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um montão delas, a contar com os anos em que não tiveste festa. - E recebo - explicou o Mário. - Na Páscoa, os meus pais e os meus avós dão-me sempre mais prendinhas e dizem-me que são as dos meus anos. Assim sendo, o Joca já não sentia tanta pena do seu amigo Mário. À noite, à hora da deita, pôs-se a matutar que as pessoas deviam fazer anos sempre que quisessem. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p1",
+        "s5p2",
+        "s5p3"
+      ],
+      "evidence": "- Se não lhe custasse muito, duas. Ou três... Ou quatro... Ou cinco... - As que quiseres - decidiu o Borda d'Água, um mãos-largas nisto de dar à manivela do tempo. E assim passou a acontecer. Corriam os dias, corriam as festas de anos.",
+      "after": {
+        "segment": 5,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Se não lhe custasse muito, duas. Ou três... Ou quatro... Ou cinco... - As que quiseres - decidiu o Borda d'Água, um mãos-largas nisto de dar à manivela do tempo. E assim passou a acontecer. Corriam os dias, corriam as festas de anos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s8p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s8p0",
+        "s8p1",
+        "s8p2"
+      ],
+      "evidence": "E com o cabelo a fugir-lhe? E as olheiras, a cavarem-lhe os olhos? Percebeu, então. Cada festa era um ano que mudava. Naquele corrupio de aniversários, esquecera-se desse pormenor. Tinha de voltar atrás. Tinha de pedir ao Borda d'Água que suspendesse a roda do tempo, se não, se não as últimas velas da vida apagavam-se num sopro.",
+      "after": {
+        "segment": 8,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E com o cabelo a fugir-lhe? E as olheiras, a cavarem-lhe os olhos? Percebeu, então. Cada festa era um ano que mudava. Naquele corrupio de aniversários, esquecera-se desse pormenor. Tinha de voltar atrás. Tinha de pedir ao Borda d'Água que suspendesse a roda do tempo, se não, se não as últimas velas da vida apagavam-se num sopro. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s10p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s9p1",
+        "s9p2",
+        "s10p0"
+      ],
+      "evidence": "- Como estás no meio de um sonho, posso satisfazer o que me pedes. Mal acordares, voltas a ter a idade com que adormeceste, ainda que com umas horitas a mais. Nada de importância. E assim aconteceu. Quando o Joca se viu ao espelho, na manhã seguinte, e encontrou de novo o seu rosto de menino, não podem calcular o alívio que o Joca sentiu.",
+      "after": {
+        "segment": 10,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Como estás no meio de um sonho, posso satisfazer o que me pedes. Mal acordares, voltas a ter a idade com que adormeceste, ainda que com umas horitas a mais. Nada de importância. E assim aconteceu. Quando o Joca se viu ao espelho, na manhã seguinte, e encontrou de novo o seu rosto de menino, não podem calcular o alívio que o Joca sentiu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

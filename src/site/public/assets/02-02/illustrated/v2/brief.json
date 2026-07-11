@@ -1,0 +1,121 @@
+{
+  "characters": [],
+  "environment": "Portuguese ballroom-preparation interior with a dressing table, mirror, jewelry boxes, and later a kitchen setting with vinegar.",
+  "palette": [
+    "white",
+    "blue",
+    "pink",
+    "pearl",
+    "soft cream",
+    "muted gold"
+  ],
+  "recurringObjects": [
+    "pearls",
+    "necklaces",
+    "mirror",
+    "jewelry box",
+    "vinegar bowl"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Joanina e Lionídia eram duas jovens que se preparavam para o primeiro baile. Vestiam vestidos de seda branca com muita goma e roda, todos enfeitados de lacinhos azuis e cor-de-rosa. Não haverá hoje raparigas que consintam em usar vestidos destes, mas isto passou-se há muito tempo.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Colares de Pérolas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Joanina e Lionídia eram duas jovens que se preparavam para o primeiro baile. Vestiam vestidos de seda branca com muita goma e roda, todos enfeitados de lacinhos azuis e cor-de-rosa. Não haverá hoje raparigas que consintam em usar vestidos destes, mas isto passou-se há muito tempo. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Não haverá hoje raparigas que consintam em usar vestidos destes, mas isto passou-se há muito tempo. Diante do toucador , ajeitaram ao espelho os caracóis e canudos de cabelo, que as faziam parecer bonecas de porcelana. Sentiam-se lindas. E, efectivamente, sinceramente, estavam. Chegou a altura dos últimos adornos. Brincos, anéis, pulseiras e um diadema no toucado. Até o espelho pestanejou com tanto brilho.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não haverá hoje raparigas que consintam em usar vestidos destes, mas isto passou-se há muito tempo. Diante do toucador , ajeitaram ao espelho os caracóis e canudos de cabelo, que as faziam parecer bonecas de porcelana. Sentiam-se lindas. E, efectivamente, sinceramente, estavam. Chegou a altura dos últimos adornos. Brincos, anéis, pulseiras e um diadema no toucado. Até o espelho pestanejou com tanto brilho. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "Lionídia tinha um colar igual. Ou quase. - O teu colar é de pérolas falsas - disse Lionídia, olhando de esguelha para o colar de Joanina. - Como é que tu sabes? - indignou-se ela.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Lionídia tinha um colar igual. Ou quase. - O teu colar é de pérolas falsas - disse Lionídia, olhando de esguelha para o colar de Joanina. - Como é que tu sabes? - indignou-se ela. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s7p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s7p0",
+        "s7p1",
+        "s7p2"
+      ],
+      "evidence": "- Só há uma prova a fazer. O vinagre! Quem não souber que aprenda que o vinagre desfaz as pérolas naturais, as legítimas, as fabricadas com sossego e demora, dentro da concha paciente das ostras. Muito exaltadas e avinagradas , foram buscar à cozinha uma tigela de vinagre.",
+      "after": {
+        "segment": 7,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Só há uma prova a fazer. O vinagre! Quem não souber que aprenda que o vinagre desfaz as pérolas naturais, as legítimas, as fabricadas com sossego e demora, dentro da concha paciente das ostras. Muito exaltadas e avinagradas , foram buscar à cozinha uma tigela de vinagre. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s8p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s8p0",
+        "s8p1",
+        "s8p2"
+      ],
+      "evidence": "- Queres ver que o teu colar pelintra não se desfaz - disse a Joanina à Lionídia. - A porcaria do teu colar é que não vai desfazer-se - disse Lionídia à Joanina. O resto está-se mesmo a ver. Dissolveram-se no banho de vinagre as pérolas de ambos os colares. Dissolveram-se no banho de vinagre as pérolas de ambos os colares.",
+      "after": {
+        "segment": 8,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Queres ver que o teu colar pelintra não se desfaz - disse a Joanina à Lionídia. - A porcaria do teu colar é que não vai desfazer-se - disse Lionídia à Joanina. O resto está-se mesmo a ver. Dissolveram-se no banho de vinagre as pérolas de ambos os colares. Dissolveram-se no banho de vinagre as pérolas de ambos os colares. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s9p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s8p2",
+        "s9p0",
+        "s9p1"
+      ],
+      "evidence": "O resto está-se mesmo a ver. Dissolveram-se no banho de vinagre as pérolas de ambos os colares. Dissolveram-se no banho de vinagre as pérolas de ambos os colares. Só sobraram para amostra fios e fechos, tão valiosos como duas espinhas de peixe. E as duas jovens, depois de chorarem muitas lágrimas, abraçadas uma à outra, lá tiveram de ir para o baile sem os seus preciosos colares.",
+      "after": {
+        "segment": 9,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O resto está-se mesmo a ver. Dissolveram-se no banho de vinagre as pérolas de ambos os colares. Dissolveram-se no banho de vinagre as pérolas de ambos os colares. Só sobraram para amostra fios e fechos, tão valiosos como duas espinhas de peixe. E as duas jovens, depois de chorarem muitas lágrimas, abraçadas uma à outra, lá tiveram de ir para o baile sem os seus preciosos colares. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

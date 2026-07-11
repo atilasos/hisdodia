@@ -1,0 +1,141 @@
+{
+  "characters": [
+    {
+      "name": "Fulano",
+      "appearance": "Homem astuto, traje simples de restaurante, postura confiante, expressão calculista, por vezes com palito na boca."
+    },
+    {
+      "name": "Beltrano",
+      "appearance": "Homem comum, observador, depois incrédulo e vencido, visto fora do restaurante e mais tarde como imitador frustrado."
+    },
+    {
+      "name": "Cicrano",
+      "appearance": "Conhecido de Beltrano, presença breve, atitude neutra, apenas a assistir à aposta do dia seguinte."
+    },
+    {
+      "name": "Empregado",
+      "appearance": "Criado de restaurante, em movimento constante, atento e depois alarmado, roupa de serviço tradicional."
+    },
+    {
+      "name": "Dono do restaurante",
+      "appearance": "Patrão do restaurante, figura mais autoritária, surgindo furioso e a arregaçar as mangas."
+    }
+  ],
+  "environment": "Um restaurante de esquina português, interior tradicional com mesas, balcão e montra para a rua, cenário urbano de bairro em tom de fábula quotidiana.",
+  "palette": [
+    "creme",
+    "castanho",
+    "verde-escuro",
+    "vermelho-queimado",
+    "azul-petróleo"
+  ],
+  "recurringObjects": [
+    "mesa de restaurante",
+    "taça/prato de sopa",
+    "conta em papel",
+    "palito",
+    "montra do restaurante"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Fulano apostou com Beltrano que havia de conseguir jantar naquele restaurante, ali da esquina, sem pagar cheta . O caso passou-se assim. Fulano sentou-se a uma mesa e veio o empregado informar: - Temos sopa de agriões. Deseja sopa?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Jantar de Assobio».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Fulano apostou com Beltrano que havia de conseguir jantar naquele restaurante, ali da esquina, sem pagar cheta . O caso passou-se assim. Fulano sentou-se a uma mesa e veio o empregado informar: - Temos sopa de agriões. Deseja sopa? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "O nosso amigo Fulano limitou-se a soltar duas assobiadelas, que o criado interpretou à sua maneira, trazendo-lhe um prato de sopa. A seguir, o criado perguntou ao silencioso cliente se queria provar uma dobrada à moda do Porto, acabadinha de fazer. Mais duas assobiadelas de resposta. Veio a dobrada.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O nosso amigo Fulano limitou-se a soltar duas assobiadelas, que o criado interpretou à sua maneira, trazendo-lhe um prato de sopa. A seguir, o criado perguntou ao silencioso cliente se queria provar uma dobrada à moda do Porto, acabadinha de fazer. Mais duas assobiadelas de resposta. Veio a dobrada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "E assim sucessivamente, o vinho, a fruta, o doce. Por fim, a conta. Aqui chegado, Fulano rejeitou o papelinho com a despesa do jantar. E pela primeira vez falou: - Não pago.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E assim sucessivamente, o vinho, a fruta, o doce. Por fim, a conta. Aqui chegado, Fulano rejeitou o papelinho com a despesa do jantar. E pela primeira vez falou: - Não pago. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "- Eu nunca pedi nada. O empregado vinha e perguntava se eu queria isto e aquilo. Eu assobiava e ele trazia a comida. O que é dado, nunca se recusa. Mas como nunca pedi, não devo nada. E Fulano saiu do restaurante, todo emproado , de palito na boca, perante o pasmo do patrão e do criado. Beltrano, que o esperava cá fora e a tudo assistira, através da montra do restaurante, teve de dar-se por vencido. Fulano ganhara a aposta e um jantar de graça.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Eu nunca pedi nada. O empregado vinha e perguntava se eu queria isto e aquilo. Eu assobiava e ele trazia a comida. O que é dado, nunca se recusa. Mas como nunca pedi, não devo nada. E Fulano saiu do restaurante, todo emproado , de palito na boca, perante o pasmo do patrão e do criado. Beltrano, que o esperava cá fora e a tudo assistira, através da montra do restaurante, teve de dar-se por vencido. Fulano ganhara a aposta e um jantar de graça. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s6p0",
+        "s6p1",
+        "s6p2"
+      ],
+      "evidence": "Quando Beltrano se sentou a uma mesa e o criado veio com a terrina da sopa, as duas assobiadelas do freguês puseram o empregado de sobreaviso. Foi a correr, lá dentro, avisar o patrão: - Está cá outro com a mesma história dos assobios. O que é que eu faço?",
+      "after": {
+        "segment": 6,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando Beltrano se sentou a uma mesa e o criado veio com a terrina da sopa, as duas assobiadelas do freguês puseram o empregado de sobreaviso. Foi a correr, lá dentro, avisar o patrão: - Está cá outro com a mesma história dos assobios. O que é que eu faço? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s7p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s7p0",
+        "s7p1",
+        "s7p2"
+      ],
+      "evidence": "- Pergunta-lhe se ele quer mais sopa - disse o patrão, arregaçando as mangas da camisa. Aos dois assobios, criado e patrão agarraram em Beltrano e correram-no do restaurante, a pontapés. Há receitas que resultam uma vez, mas à segunda mais vale não experimentar. O Beltrano aprova o que aqui fica dito, soltando dois tristes assobios.",
+      "after": {
+        "segment": 7,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Pergunta-lhe se ele quer mais sopa - disse o patrão, arregaçando as mangas da camisa. Aos dois assobios, criado e patrão agarraram em Beltrano e correram-no do restaurante, a pontapés. Há receitas que resultam uma vez, mas à segunda mais vale não experimentar. O Beltrano aprova o que aqui fica dito, soltando dois tristes assobios. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

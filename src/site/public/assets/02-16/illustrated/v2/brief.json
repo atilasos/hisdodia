@@ -1,0 +1,96 @@
+{
+  "characters": [
+    {
+      "name": "Joca",
+      "appearance": "Menino pequeno, de cama, ainda ensonado, depois vestido para sair, expressivo e imaginativo."
+    },
+    {
+      "name": "Mãe",
+      "appearance": "Adulta em casa, firme e bem-humorada, primeiro junto à cama e depois em gesto de brincadeira com uivos."
+    }
+  ],
+  "environment": "Casa numa manhã fria de inverno, começando no quarto com a cama desfeita e acabando num abraço caloroso entre mãe e filho, com a sensação de contraste entre o frio exterior e o aconchego interior.",
+  "palette": [
+    "azuis frios",
+    "cinzentos pálidos",
+    "brancos gelados",
+    "amarelos quentes",
+    "castanhos suaves",
+    "vermelhos discretos"
+  ],
+  "recurringObjects": [
+    "cama desfeita",
+    "cachecol",
+    "botas",
+    "janela fria",
+    "abraço"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Naquelas manhãs frias, frias, frias, em que as ruas que vão dar à escola estão como gelo e as frieiras dos pés ardem, por dentro das botas, e o nariz pinga, por fora do cachecol, o Joca, ainda no quente fofo da cama, põe-se a tiritar de falso medo. Joca: Mãe, mãe, hoje é o Dia Mundial do Lobo. Mãe: Não sabia dessa. Mas levanta-te. Despacha-te.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Joca e os Lobos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Naquelas manhãs frias, frias, frias, em que as ruas que vão dar à escola estão como gelo e as frieiras dos pés ardem, por dentro das botas, e o nariz pinga, por fora do cachecol, o Joca, ainda no quente fofo da cama, põe-se a tiritar de falso medo. Joca: Mãe, mãe, hoje é o Dia Mundial do Lobo. Mãe: Não sabia dessa. Mas levanta-te. Despacha-te. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p21",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p19",
+        "s0p20",
+        "s0p21"
+      ],
+      "evidence": "Joca: Tu uivas, mãe? Mãe: Claro que uivo. Queres ouvir: Uh! Uh! Uh! Se não sais da cama como-te cru. O Joca riu-se. Fartou-se de rir. E a rir-se, desmanchou a cama e saltou para o chão.",
+      "after": {
+        "segment": 0,
+        "paragraph": 21
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Joca: Tu uivas, mãe? Mãe: Claro que uivo. Queres ouvir: Uh! Uh! Uh! Se não sais da cama como-te cru. O Joca riu-se. Fartou-se de rir. E a rir-se, desmanchou a cama e saltou para o chão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p24",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p22",
+        "s0p23",
+        "s0p24"
+      ],
+      "evidence": "Joca: Tenho uma mãe-loba! Tenho uma mãe-loba! Mãe: E tu és o meu lobinho. Joca: Somos lobos. Uh! Uh! Uh! Hoje é o nosso dia.",
+      "after": {
+        "segment": 0,
+        "paragraph": 24
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Joca: Tenho uma mãe-loba! Tenho uma mãe-loba! Mãe: E tu és o meu lobinho. Joca: Somos lobos. Uh! Uh! Uh! Hoje é o nosso dia. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p25",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p23",
+        "s0p24",
+        "s0p25"
+      ],
+      "evidence": "Mãe: E tu és o meu lobinho. Joca: Somos lobos. Uh! Uh! Uh! Hoje é o nosso dia. Mãe e filho juntaram num abraço riso e uivos, como numa gruta de lobos felizes. Daqueles dois seria sempre cada dia, fizesse o frio que fizesse lá fora. O calor do abraço deles estava ali pronto para vencer e derreter o gelo todo do mundo.",
+      "after": {
+        "segment": 0,
+        "paragraph": 25
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mãe: E tu és o meu lobinho. Joca: Somos lobos. Uh! Uh! Uh! Hoje é o nosso dia. Mãe e filho juntaram num abraço riso e uivos, como numa gruta de lobos felizes. Daqueles dois seria sempre cada dia, fizesse o frio que fizesse lá fora. O calor do abraço deles estava ali pronto para vencer e derreter o gelo todo do mundo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

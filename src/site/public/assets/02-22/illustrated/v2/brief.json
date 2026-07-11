@@ -1,0 +1,96 @@
+{
+  "characters": [
+    {
+      "name": "Viajante",
+      "appearance": "Homem cansado, perdido no deserto, roupa poeirenta, postura abatida"
+    },
+    {
+      "name": "Escorpião do deserto",
+      "appearance": "Escorpião pequeno mas ameaçador, tenazes erguidas, presença marcante"
+    }
+  ],
+  "environment": "Deserto amplo e árido, com dunas de areia, depois um oásis com tamareiras e poço de água fresca",
+  "palette": [
+    "areias quentes",
+    "ocre",
+    "castanho seco",
+    "azul claro do céu",
+    "verde do oásis",
+    "branco luminoso da água"
+  ],
+  "recurringObjects": [
+    "dunas de areia",
+    "pegadas na areia",
+    "escorpião",
+    "oásis",
+    "poço de água"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um viajante que se perdeu no deserto. Não sei se já andaram no deserto, mas se não andaram, imaginem. É fácil uma pessoa perder-se no deserto. Não há sinais de trânsito nem setas a apontar. Não há ninguém a quem perguntar o caminho. Nem sequer há caminho. Só areia, areia, areia, a perder a vista. Uma maçada.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Podia ser Pior».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um viajante que se perdeu no deserto. Não sei se já andaram no deserto, mas se não andaram, imaginem. É fácil uma pessoa perder-se no deserto. Não há sinais de trânsito nem setas a apontar. Não há ninguém a quem perguntar o caminho. Nem sequer há caminho. Só areia, areia, areia, a perder a vista. Uma maçada. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Só areia, areia, areia, a perder a vista. Uma maçada. Pois este viajante, que se tinha perdido no deserto, desesperado, pôs-se a gritar: - Acudam-me, acudam-me, senão eu morro de sede, de fome, de calor...",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Só areia, areia, areia, a perder a vista. Uma maçada. Pois este viajante, que se tinha perdido no deserto, desesperado, pôs-se a gritar: - Acudam-me, acudam-me, senão eu morro de sede, de fome, de calor... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "O homem, ainda mais assustado, correu, à frente do escorpião. - Segue adiante ou eu mordo-te - gritava-lhe o escorpião de tenazes ameaçadoras, sempre atrás dele. - Agora, inflecte para a esquerda... Agora corta à direita... O desesperado viajante, a puxar pelas últimas forças, corria a bom correr guiado pelas ordens do escorpião, que não lhe largava a sombra.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O homem, ainda mais assustado, correu, à frente do escorpião. - Segue adiante ou eu mordo-te - gritava-lhe o escorpião de tenazes ameaçadoras, sempre atrás dele. - Agora, inflecte para a esquerda... Agora corta à direita... O desesperado viajante, a puxar pelas últimas forças, corria a bom correr guiado pelas ordens do escorpião, que não lhe largava a sombra. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "Olhou para trás e viu que o escorpião estacara. Devia agradecer-lhe. Em vez disso pegou numa grande pedra e atirou-lha, gritando: - Maldito escorpião. Felizmente que o escorpião se desviou a tempo, caso contrário esta história teria um fim bastante desanimador.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Olhou para trás e viu que o escorpião estacara. Devia agradecer-lhe. Em vez disso pegou numa grande pedra e atirou-lha, gritando: - Maldito escorpião. Felizmente que o escorpião se desviou a tempo, caso contrário esta história teria um fim bastante desanimador. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

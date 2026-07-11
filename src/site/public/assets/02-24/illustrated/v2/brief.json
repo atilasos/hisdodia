@@ -1,0 +1,114 @@
+{
+  "characters": [
+    {
+      "name": "senhor Chamisso",
+      "appearance": "homem da aldeia, de meia-idade, roupa simples"
+    },
+    {
+      "name": "esposa do senhor Chamisso",
+      "appearance": "mulher da aldeia, desalinhada, de chinelos"
+    },
+    {
+      "name": "mãe da esposa",
+      "appearance": "mulher mais velha, aspecto severo"
+    }
+  ],
+  "environment": "aldeia portuguesa remota, interior de casa simples, cidade ao longe, loja com montra, noite e cozinha rural",
+  "palette": [
+    "tons terrosos",
+    "azuis apagados",
+    "ocres",
+    "cinzentos suaves",
+    "vermelhos discretos"
+  ],
+  "recurringObjects": [
+    "espelho embrulhado",
+    "chinelos",
+    "casa da aldeia"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Naquela terra não havia espelhos. Nem nunca tinha havido. Era uma aldeia longe de tudo, onde nada chegava. Nem espelhos. Uma vez, o senhor Chamisso, lá da aldeia, foi à cidade. Ih, que assombro! Ruas, carros, gente com pressa, casas altas de pasmar…",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Espelhinho».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Naquela terra não havia espelhos. Nem nunca tinha havido. Era uma aldeia longe de tudo, onde nada chegava. Nem espelhos. Uma vez, o senhor Chamisso, lá da aldeia, foi à cidade. Ih, que assombro! Ruas, carros, gente com pressa, casas altas de pasmar… Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s0p3"
+      ],
+      "evidence": "Era uma aldeia longe de tudo, onde nada chegava. Nem espelhos. Uma vez, o senhor Chamisso, lá da aldeia, foi à cidade. Ih, que assombro! Ruas, carros, gente com pressa, casas altas de pasmar… Atarantado, o senhor Chamisso o que queria era voltar para a sua aldeia. Ia a passar por uma loja e viu, na montra, um espelho.",
+      "after": {
+        "segment": 0,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma aldeia longe de tudo, onde nada chegava. Nem espelhos. Uma vez, o senhor Chamisso, lá da aldeia, foi à cidade. Ih, que assombro! Ruas, carros, gente com pressa, casas altas de pasmar… Atarantado, o senhor Chamisso o que queria era voltar para a sua aldeia. Ia a passar por uma loja e viu, na montra, um espelho. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p11",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p9",
+        "s0p10",
+        "s0p11"
+      ],
+      "evidence": "– Calcula o que eu encontrei, na cidade. Nem mais nem menos do que o retrato do meu pai. Vai tu ver, que o deixei embrulhado, na cozinha. A mulher calçou os chinelos e, ainda desgrenhada e mal pronta, foi ver. Quando desembrulhou o espelho, indignou-se: – Ai que mentiroso que é o meu marido. A dizer que tinha trazido o retrato do pai, quando o que trouxe para casa foi o retrato de uma marafona, com cara de porca.",
+      "after": {
+        "segment": 0,
+        "paragraph": 11
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Calcula o que eu encontrei, na cidade. Nem mais nem menos do que o retrato do meu pai. Vai tu ver, que o deixei embrulhado, na cozinha. A mulher calçou os chinelos e, ainda desgrenhada e mal pronta, foi ver. Quando desembrulhou o espelho, indignou-se: – Ai que mentiroso que é o meu marido. A dizer que tinha trazido o retrato do pai, quando o que trouxe para casa foi o retrato de uma marafona, com cara de porca. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p16",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p14",
+        "s0p15",
+        "s0p16"
+      ],
+      "evidence": "– Deixa estar, filha, que eu vou ver e, se for como tu dizes, a gente dá uma desanda no teu marido. A mãe foi espreitar o espelho. – Ai que velha avantesma! – gritou.",
+      "after": {
+        "segment": 0,
+        "paragraph": 16
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Deixa estar, filha, que eu vou ver e, se for como tu dizes, a gente dá uma desanda no teu marido. A mãe foi espreitar o espelho. – Ai que velha avantesma! – gritou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p17",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p15",
+        "s0p16",
+        "s0p17"
+      ],
+      "evidence": "A mãe foi espreitar o espelho. – Ai que velha avantesma! – gritou. Com o susto, largou o espelhinho, que caiu no chão e se partiu em mil bocados.",
+      "after": {
+        "segment": 0,
+        "paragraph": 17
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A mãe foi espreitar o espelho. – Ai que velha avantesma! – gritou. Com o susto, largou o espelhinho, que caiu no chão e se partiu em mil bocados. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

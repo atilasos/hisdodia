@@ -1,0 +1,103 @@
+{
+  "characters": [],
+  "environment": "Forest clearing with a magical duel, then shrinking into animal forms as a dog enters the scene",
+  "palette": [
+    "deep green",
+    "earth brown",
+    "smoke gray",
+    "toad green",
+    "mouse gray",
+    "warning red"
+  ],
+  "recurringObjects": [
+    "magic sparks",
+    "wand-like gestures",
+    "animals in motion",
+    "dust and smoke"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Eram dois feiticeiros. Detestavam-se. Uma chamava-se Xarabim e o outro chamava-se Zipalam. Ambos fabricavam feitiços e usavam palavras mágicas, daquelas de pôr a arder uma árvore, sem quê nem porquê, só por efeito de um gesto e um bichanar de lábios que acordam labaredas. Eram os dois muito competentes nas suas magias.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Os dois feiticeiros».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eram dois feiticeiros. Detestavam-se. Uma chamava-se Xarabim e o outro chamava-se Zipalam. Ambos fabricavam feitiços e usavam palavras mágicas, daquelas de pôr a arder uma árvore, sem quê nem porquê, só por efeito de um gesto e um bichanar de lábios que acordam labaredas. Eram os dois muito competentes nas suas magias. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p2",
+        "s1p3",
+        "s1p4"
+      ],
+      "evidence": "Xarabim ameaçou: - Vou transformar-te em sapo. Belg... Zelg... Velg... À última palavra dita e o Zipalam passou a ser um sapo que metia medo.",
+      "after": {
+        "segment": 1,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Xarabim ameaçou: - Vou transformar-te em sapo. Belg... Zelg... Velg... À última palavra dita e o Zipalam passou a ser um sapo que metia medo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Mas o sapo Zipalam falava. Deitou uma enorme língua na direcção do adversário e silvou: - Vou transformar-te em ratazana. Vong... Bong... Tong... À última palavra e o Xarabim passou a ser uma ratazana de muito mau aspecto.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas o sapo Zipalam falava. Deitou uma enorme língua na direcção do adversário e silvou: - Vou transformar-te em ratazana. Vong... Bong... Tong... À última palavra e o Xarabim passou a ser uma ratazana de muito mau aspecto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "- Pois eu a ti vou transformar-te num insignificante rato cinzento. Trag... Trig... Trug... Assim foi. Ficou um ratito, diante de uma ratazana. E o combate podia continuar, sabe-se lá até quando? Podia continuar, não fosse, nesse momento ter, aparecido a cadela Nina, caçadora de tudo o que corre, rasteja e mexe.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Pois eu a ti vou transformar-te num insignificante rato cinzento. Trag... Trig... Trug... Assim foi. Ficou um ratito, diante de uma ratazana. E o combate podia continuar, sabe-se lá até quando? Podia continuar, não fosse, nesse momento ter, aparecido a cadela Nina, caçadora de tudo o que corre, rasteja e mexe. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p2",
+        "s3p3",
+        "s4p0"
+      ],
+      "evidence": "Assim foi. Ficou um ratito, diante de uma ratazana. E o combate podia continuar, sabe-se lá até quando? Podia continuar, não fosse, nesse momento ter, aparecido a cadela Nina, caçadora de tudo o que corre, rasteja e mexe. Com total desrespeito pelas artes mágicas, a cadela Nina deu, logo ali, cabo do rato e da ratazana. Para sempre.",
+      "after": {
+        "segment": 4,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Assim foi. Ficou um ratito, diante de uma ratazana. E o combate podia continuar, sabe-se lá até quando? Podia continuar, não fosse, nesse momento ter, aparecido a cadela Nina, caçadora de tudo o que corre, rasteja e mexe. Com total desrespeito pelas artes mágicas, a cadela Nina deu, logo ali, cabo do rato e da ratazana. Para sempre. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

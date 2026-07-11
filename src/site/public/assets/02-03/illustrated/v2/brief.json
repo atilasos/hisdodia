@@ -1,0 +1,102 @@
+{
+  "characters": [],
+  "environment": "Portuguese countryside racecourse and nearby civic places",
+  "palette": [
+    "earthy browns",
+    "muted greens",
+    "warm reds",
+    "steel gray",
+    "cream"
+  ],
+  "recurringObjects": [
+    "race track",
+    "ambulance",
+    "racing car",
+    "locomotive"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O cágado, a tartaruga e o caracol foram fazer uma corrida. - Qual de nós é o mais veloz? - tinha desafiado o caracol. Cada qual se sentia mais rápido do que os outros dois, mas, à cautela, cada um tinha preparado o seu plano secreto para ser o vencedor.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Maratona dos Batoteiros».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O cágado, a tartaruga e o caracol foram fazer uma corrida. - Qual de nós é o mais veloz? - tinha desafiado o caracol. Cada qual se sentia mais rápido do que os outros dois, mas, à cautela, cada um tinha preparado o seu plano secreto para ser o vencedor. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p7",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p5",
+        "s1p6",
+        "s1p7"
+      ],
+      "evidence": "- Chega! Não me enerves, que vou na mecha. O caracol irritou-se: - Cala-te!",
+      "after": {
+        "segment": 1,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Chega! Não me enerves, que vou na mecha. O caracol irritou-se: - Cala-te! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p2",
+        "s2p3",
+        "s2p4"
+      ],
+      "evidence": "O cágado dirigiu-se para um quartel de bombeiros e entrou para uma ambulância. A tartaruga orientou-se para um stand de automóveis e subiu para um carro de corridas. O caracol procurou uma estação de caminhos-de-ferro e trepou para uma locomotiva.",
+      "after": {
+        "segment": 2,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O cágado dirigiu-se para um quartel de bombeiros e entrou para uma ambulância. A tartaruga orientou-se para um stand de automóveis e subiu para um carro de corridas. O caracol procurou uma estação de caminhos-de-ferro e trepou para uma locomotiva. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "Só que... Só que a ambulância, onde o cágado se escondera, foi participar numa procissão e depois voltou ao quartel. Só que o carro de corridas, onde a tartaruga se enfiou, foi mostrar-se a uma exposição de automóveis e depois voltou para o stand.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Só que... Só que a ambulância, onde o cágado se escondera, foi participar numa procissão e depois voltou ao quartel. Só que o carro de corridas, onde a tartaruga se enfiou, foi mostrar-se a uma exposição de automóveis e depois voltou para o stand. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Só que a locomotiva, onde o caracol se meteu, foi fazer umas manobras e depois voltou para a oficina. - Nunca mais chegam? - impacientou-se a lebre, na meta da corrida, há que tempos. Não chegam, nem chegarão. E, por este andar, os três batoteiros, que se perderam da corrida, ainda vão ter de palmilhar muita estrada até descobrirem de novo a linha de partida.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Só que a locomotiva, onde o caracol se meteu, foi fazer umas manobras e depois voltou para a oficina. - Nunca mais chegam? - impacientou-se a lebre, na meta da corrida, há que tempos. Não chegam, nem chegarão. E, por este andar, os três batoteiros, que se perderam da corrida, ainda vão ter de palmilhar muita estrada até descobrirem de novo a linha de partida. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

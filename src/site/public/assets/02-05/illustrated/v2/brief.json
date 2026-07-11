@@ -1,0 +1,121 @@
+{
+  "characters": [],
+  "environment": "interior doméstico noturno",
+  "palette": [
+    "tons escuros",
+    "amarelo pálido",
+    "castanho",
+    "cinza"
+  ],
+  "recurringObjects": [
+    "cama",
+    "lençóis",
+    "pulga"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O homem das forças achou uma pulga. Prendeu-a entre os dedos e disse-lhe: - És um ser insignificante e reles. Como te atreves a aparecer ao pé de mim, que sou o homem mais forte do mundo? Respondeu a pulga:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Força da Pulga».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O homem das forças achou uma pulga. Prendeu-a entre os dedos e disse-lhe: - És um ser insignificante e reles. Como te atreves a aparecer ao pé de mim, que sou o homem mais forte do mundo? Respondeu a pulga: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p4",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "O homem riu-se da prosápia da pulga. Ia a castigá-la pelo atrevimento, mas ela escorregou-lhe pela polpa dos dedos e desapareceu. Estava já o homem das forças a dormir, quando a pulga se chegou, de novo, a ele. Passeou pelos lençóis e procurou-lhe o quente do corpo. Num sítio azado , por altura dos rins, ferrou-lhe uma grande dentada.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O homem riu-se da prosápia da pulga. Ia a castigá-la pelo atrevimento, mas ela escorregou-lhe pela polpa dos dedos e desapareceu. Estava já o homem das forças a dormir, quando a pulga se chegou, de novo, a ele. Passeou pelos lençóis e procurou-lhe o quente do corpo. Num sítio azado , por altura dos rins, ferrou-lhe uma grande dentada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Estava já o homem das forças a dormir, quando a pulga se chegou, de novo, a ele. Passeou pelos lençóis e procurou-lhe o quente do corpo. Num sítio azado , por altura dos rins, ferrou-lhe uma grande dentada. O homem, que estava no mais fundo do sono, mesmo assim, sentiu-se. Ergueu o corpo, apoiando-se na nuca e nos calcanhares e coçou, instintivamente, o lugar picado. A pulga escapuliu-se-lhe às unhas e pregou-lhe outra ferroada, no mesmo sítio. Mais se arqueou o corpo do homem das forças, levantando ainda mais alto os lençóis que o cobriram.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Estava já o homem das forças a dormir, quando a pulga se chegou, de novo, a ele. Passeou pelos lençóis e procurou-lhe o quente do corpo. Num sítio azado , por altura dos rins, ferrou-lhe uma grande dentada. O homem, que estava no mais fundo do sono, mesmo assim, sentiu-se. Ergueu o corpo, apoiando-se na nuca e nos calcanhares e coçou, instintivamente, o lugar picado. A pulga escapuliu-se-lhe às unhas e pregou-lhe outra ferroada, no mesmo sítio. Mais se arqueou o corpo do homem das forças, levantando ainda mais alto os lençóis que o cobriram. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "Quem não soubesse a razão destes movimentos, acharia que o homem estava a ser soerguido e levado ao colo por uma escondida força, superior à dele. E estava. O homem das forças acordou, atormentado pela comichão, mas a pulga nem se deu ao trabalho de cobrar-lhe a aposta. Com certos casmurros, quanto menos conversas, melhor.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quem não soubesse a razão destes movimentos, acharia que o homem estava a ser soerguido e levado ao colo por uma escondida força, superior à dele. E estava. O homem das forças acordou, atormentado pela comichão, mas a pulga nem se deu ao trabalho de cobrar-lhe a aposta. Com certos casmurros, quanto menos conversas, melhor. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s4p0"
+      ],
+      "evidence": "E estava. O homem das forças acordou, atormentado pela comichão, mas a pulga nem se deu ao trabalho de cobrar-lhe a aposta. Com certos casmurros, quanto menos conversas, melhor. E, aqui para nós, com aquelas duas chupadelas de sangue já se sentia bem paga...",
+      "after": {
+        "segment": 4,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E estava. O homem das forças acordou, atormentado pela comichão, mas a pulga nem se deu ao trabalho de cobrar-lhe a aposta. Com certos casmurros, quanto menos conversas, melhor. E, aqui para nós, com aquelas duas chupadelas de sangue já se sentia bem paga... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": [
+    {
+      "sceneId": "scene-2",
+      "attempt": 1,
+      "message": "Built-in imagegen technical failure: image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 0ef785b2-35b7-4ce8-8587-169689101181. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "sceneId": "scene-2",
+      "attempt": 2,
+      "message": "Built-in imagegen technical failure: image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 052c9715-207f-400f-8592-88aa8b18d9c8. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "sceneId": "scene-3",
+      "attempt": 1,
+      "message": "Built-in imagegen technical failure: image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 8c7810eb-5c93-4754-ae28-2f9b735b1189. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "sceneId": "scene-3",
+      "attempt": 2,
+      "message": "Built-in imagegen technical failure: image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 30fa01e9-45c1-4977-b2dc-8beb4a6899fe. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    }
+  ]
+}

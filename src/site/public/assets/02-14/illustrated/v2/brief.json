@@ -1,0 +1,124 @@
+{
+  "characters": [
+    {
+      "name": "young hippo",
+      "appearance": "young hippo by a lake, self-conscious at first, then brightening"
+    },
+    {
+      "name": "young elephant",
+      "appearance": "young elephant by a lake, self-conscious at first, then brightening"
+    },
+    {
+      "name": "young hippo partner",
+      "appearance": "young hippo across the lake, graceful and appealing"
+    },
+    {
+      "name": "young elephant partner",
+      "appearance": "young elephant across the lake, charming and lively"
+    },
+    {
+      "name": "Moon",
+      "appearance": "round, festive moon rising over a spring night"
+    }
+  ],
+  "environment": "A lakeside setting with reflective water and opposite banks, shifting from quiet self-consciousness to playful springtime joy and a luminous night sky.",
+  "palette": [
+    "soft lake blues",
+    "spring greens",
+    "warm earth tones",
+    "gentle pinks",
+    "moonlit silver",
+    "golden highlights"
+  ],
+  "recurringObjects": [
+    "lake mirror reflection",
+    "opposite riverbank",
+    "spring vegetation",
+    "night moon"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "O jovem hipopótamo olha-se no espelho do lago e diz, tristemente: - Sou tão feio! Tenho a boca enorme, dentes separados, uns olhos de choro, orelhas ridículas e um corpo... oh, um corpo tão deselegante, tão desajeitado que nunca vou poder dançar com ninguém. O jovem elefante também se olha no espelho do lago e diz, tristemente:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Lua Cheia».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O jovem hipopótamo olha-se no espelho do lago e diz, tristemente: - Sou tão feio! Tenho a boca enorme, dentes separados, uns olhos de choro, orelhas ridículas e um corpo... oh, um corpo tão deselegante, tão desajeitado que nunca vou poder dançar com ninguém. O jovem elefante também se olha no espelho do lago e diz, tristemente: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "- Sou tão feio! Tenho uma tromba imensa, orelhas de abano, olhinhos piscos e um corpo... oh, um corpo tão trangalhadanças e descomunal que nunca vou poder jogar às escondidas com ninguém. Mas, quando o jovem hipopótamo, depois de, tristemente, se ter mirado no espelho do lago, levantou a cabeça, viu, na outra margem, uma jovem hipopótama. - Que linda! - exclamou. - Tem uma boca grande e expressiva, dentes bem implantados, uns olhos enternecidos, orelhas mimosas e um corpo tão elegante que apetece logo convidá-la para dançar.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Sou tão feio! Tenho uma tromba imensa, orelhas de abano, olhinhos piscos e um corpo... oh, um corpo tão trangalhadanças e descomunal que nunca vou poder jogar às escondidas com ninguém. Mas, quando o jovem hipopótamo, depois de, tristemente, se ter mirado no espelho do lago, levantou a cabeça, viu, na outra margem, uma jovem hipopótama. - Que linda! - exclamou. - Tem uma boca grande e expressiva, dentes bem implantados, uns olhos enternecidos, orelhas mimosas e um corpo tão elegante que apetece logo convidá-la para dançar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "- Que linda! - exclamou. - Tem uma boca grande e expressiva, dentes bem implantados, uns olhos enternecidos, orelhas mimosas e um corpo tão elegante que apetece logo convidá-la para dançar. Também o jovem elefante, depois de, tristemente, se ter visto reflectido no espelho do lago, ao levantar a cabeça, deparou com uma jovem elefanta, na outra margem. - Que encantadora! - exclamou.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Que linda! - exclamou. - Tem uma boca grande e expressiva, dentes bem implantados, uns olhos enternecidos, orelhas mimosas e um corpo tão elegante que apetece logo convidá-la para dançar. Também o jovem elefante, depois de, tristemente, se ter visto reflectido no espelho do lago, ao levantar a cabeça, deparou com uma jovem elefanta, na outra margem. - Que encantadora! - exclamou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s4p3"
+      ],
+      "evidence": "É de ficar por aqui. A estas horas, o jovem elefante e o seu par jogam às escondidas, correm, perseguem-se, riem, à beira do lago. Que felizes que eles estão! Estão eles e estamos nós.",
+      "after": {
+        "segment": 4,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: É de ficar por aqui. A estas horas, o jovem elefante e o seu par jogam às escondidas, correm, perseguem-se, riem, à beira do lago. Que felizes que eles estão! Estão eles e estamos nós. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p2",
+        "s4p3",
+        "s5p0"
+      ],
+      "evidence": "A estas horas, o jovem elefante e o seu par jogam às escondidas, correm, perseguem-se, riem, à beira do lago. Que felizes que eles estão! Estão eles e estamos nós. Até a Lua, bem redonda e festiva, que sobe pela noite, se debruça lá do alto, para não perder nem um pouco de perfume da Primavera, a despontar na terra, nos animais, nas plantas, em tudo o que é vida e anuncia a felicidade.",
+      "after": {
+        "segment": 5,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A estas horas, o jovem elefante e o seu par jogam às escondidas, correm, perseguem-se, riem, à beira do lago. Que felizes que eles estão! Estão eles e estamos nós. Até a Lua, bem redonda e festiva, que sobe pela noite, se debruça lá do alto, para não perder nem um pouco de perfume da Primavera, a despontar na terra, nos animais, nas plantas, em tudo o que é vida e anuncia a felicidade. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

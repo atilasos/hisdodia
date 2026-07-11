@@ -1,0 +1,148 @@
+{
+  "characters": [
+    {
+      "name": "Saltimbanco",
+      "appearance": "adult man, travel-worn but alert, simple rural clothes, carrying berries or firewood in later beats"
+    },
+    {
+      "name": "Mulher",
+      "appearance": "adult woman, protective stance, plain camp-life clothing, guarding sleeping children near the fire"
+    },
+    {
+      "name": "Lobo",
+      "appearance": "large gray wolf, tense and predatory, later shown startled, fleeing, and leading the pack"
+    },
+    {
+      "name": "Crianças",
+      "appearance": "two or more small sleeping children, bundled and vulnerable beside the camp"
+    },
+    {
+      "name": "Alcateia",
+      "appearance": "several wolves used in the pack scene, clustered together in a precarious stacked formation"
+    }
+  ],
+  "environment": "A wooded forest campsite at dusk or night, centered on a small fire, a hanging or ground-level pot, and a nearby tree used in the later chase and pack scene.",
+  "palette": [
+    "earthy browns",
+    "forest greens",
+    "dull gray",
+    "fire orange",
+    "muted ochre",
+    "smoky black"
+  ],
+  "recurringObjects": [
+    "fogueira",
+    "panela de água",
+    "árvore alta",
+    "bagas de amoras",
+    "alcateia de lobos"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Uns saltimbancos tinham acampado num bosque. Era um pobre casal com filhos ainda pequenos. Fizeram uma fogueira, puseram uma panela de água em cima, com batatas e feijões, mas como a água não levantasse fervura para cozer a sopa, o homem foi procurar, ao redor, uns cavacos e umas pinhas, com que atiçasse mais o lume.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Panela ao Lume».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Uns saltimbancos tinham acampado num bosque. Era um pobre casal com filhos ainda pequenos. Fizeram uma fogueira, puseram uma panela de água em cima, com batatas e feijões, mas como a água não levantasse fervura para cozer a sopa, o homem foi procurar, ao redor, uns cavacos e umas pinhas, com que atiçasse mais o lume. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Uns saltimbancos tinham acampado num bosque. Era um pobre casal com filhos ainda pequenos. Fizeram uma fogueira, puseram uma panela de água em cima, com batatas e feijões, mas como a água não levantasse fervura para cozer a sopa, o homem foi procurar, ao redor, uns cavacos e umas pinhas, com que atiçasse mais o lume.",
+      "after": {
+        "segment": 0,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Uns saltimbancos tinham acampado num bosque. Era um pobre casal com filhos ainda pequenos. Fizeram uma fogueira, puseram uma panela de água em cima, com batatas e feijões, mas como a água não levantasse fervura para cozer a sopa, o homem foi procurar, ao redor, uns cavacos e umas pinhas, com que atiçasse mais o lume. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "Atraído pelo cheiro do cozinhado, apareceu um lobo. Era inevitável. Nestas histórias, está-se sempre à espera que ele apareça... A mulher, ao princípio, não deu pelo lobo, que, devagarinho, se aproximava dos meninos.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Atraído pelo cheiro do cozinhado, apareceu um lobo. Era inevitável. Nestas histórias, está-se sempre à espera que ele apareça... A mulher, ao princípio, não deu pelo lobo, que, devagarinho, se aproximava dos meninos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s2p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p3",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "A mulher, ao princípio, não deu pelo lobo, que, devagarinho, se aproximava dos meninos. Quando ela o viu, susteve o grito e agarrou no panelão cheio de água e despejou-o em cima do lobo. A água não estava a ferver, mas pouco faltava. O lobo fugiu, aos uivos. Serviu-lhe de emenda.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A mulher, ao princípio, não deu pelo lobo, que, devagarinho, se aproximava dos meninos. Quando ela o viu, susteve o grito e agarrou no panelão cheio de água e despejou-o em cima do lobo. A água não estava a ferver, mas pouco faltava. O lobo fugiu, aos uivos. Serviu-lhe de emenda. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "O homem trepou a uma árvore, mas o lobo ainda lhe ficou com os fundilhos das calças nos dentes. De mal a menos. O pior foi quando o lobo se pôs a chamar pelos outros da alcateia. Vieram uns tantos. Como a árvore era das altas, os lobos colocaram-se em castelo, uns em cima dos outros. Quem os aguentava, em baixo, era o mais forte, o lobo que os chamara.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O homem trepou a uma árvore, mas o lobo ainda lhe ficou com os fundilhos das calças nos dentes. De mal a menos. O pior foi quando o lobo se pôs a chamar pelos outros da alcateia. Vieram uns tantos. Como a árvore era das altas, os lobos colocaram-se em castelo, uns em cima dos outros. Quem os aguentava, em baixo, era o mais forte, o lobo que os chamara. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s6p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s6p0"
+      ],
+      "evidence": "Ora o homem tinha reparado que a este lobo faltava pêlo nos lombos, como se estivessem a sarar de alguma queimadura. Isto lembrou-lhe o que a mulher lhe contara. Então gritou, num último alento de coragem: - Ó Maria, traz a panela com a água ao lume. Não havia Maria, não havia panela, não havia água, mas o lobo sentiu o grito como uma ameaça a arder e fugiu a sete pés. Os outros perderam o equilíbrio e estatelaram-se no chão. Fugiram também.",
+      "after": {
+        "segment": 6,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ora o homem tinha reparado que a este lobo faltava pêlo nos lombos, como se estivessem a sarar de alguma queimadura. Isto lembrou-lhe o que a mulher lhe contara. Então gritou, num último alento de coragem: - Ó Maria, traz a panela com a água ao lume. Não havia Maria, não havia panela, não havia água, mas o lobo sentiu o grito como uma ameaça a arder e fugiu a sete pés. Os outros perderam o equilíbrio e estatelaram-se no chão. Fugiram também. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": [
+    {
+      "sceneId": "scene-2",
+      "attempt": 1,
+      "message": "Built-in imagegen rejected the returned relative reference path before generation: AbsolutePathBuf deserialized without a base path"
+    }
+  ]
+}

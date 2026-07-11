@@ -1,0 +1,129 @@
+{
+  "characters": [
+    {
+      "name": "ratinho 1",
+      "appearance": "pequeno rato português, expressão inicialmente desconfiada e depois amigável, vive numa bota-casa"
+    },
+    {
+      "name": "ratinho 2",
+      "appearance": "pequeno rato português, expressão inicialmente irritada e depois cooperativa, vive noutra bota-casa"
+    }
+  ],
+  "environment": "Paisagem rural portuguesa, inicialmente seca e depois tomada por temporal, chuva e cheia; duas botas usadas como casas geminadas, mais tarde pousadas lado a lado sobre areia, com o entorno a sugerir reparações e vida partilhada.",
+  "palette": [
+    "castanhos quentes",
+    "cinzentos de tempestade",
+    "azuis frios",
+    "ocres de areia",
+    "verdes discretos"
+  ],
+  "recurringObjects": [
+    "duas botas-casa",
+    "atacadores soltos",
+    "chuva e vento",
+    "pedras e seixos",
+    "montinho de areia"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Eram dois ratos e cada um vivia na sua bota. Mas viviam um tanto afastados, porque, embora as botas fossem irmãs e em tempos tivessem caminhado juntas, os ratos que as habitavam, por razões que não vêm para o caso, andavam de mal um com o outro. Por isso estavam as botas de costas voltadas, isto é, de calcanhares voltados, como as botas de Charlot. Mas, num dia de grande temporal, o vento soprou a valer por aqueles sítios e empurrou uma das botas em direcção à irmã, que também se deslocou com a ventania.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Os Ratos das Botas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eram dois ratos e cada um vivia na sua bota. Mas viviam um tanto afastados, porque, embora as botas fossem irmãs e em tempos tivessem caminhado juntas, os ratos que as habitavam, por razões que não vêm para o caso, andavam de mal um com o outro. Por isso estavam as botas de costas voltadas, isto é, de calcanhares voltados, como as botas de Charlot. Mas, num dia de grande temporal, o vento soprou a valer por aqueles sítios e empurrou uma das botas em direcção à irmã, que também se deslocou com a ventania. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Por isso estavam as botas de costas voltadas, isto é, de calcanhares voltados, como as botas de Charlot. Mas, num dia de grande temporal, o vento soprou a valer por aqueles sítios e empurrou uma das botas em direcção à irmã, que também se deslocou com a ventania. - Quem está aos pontapés à minha casa? - irritou-se um dos ratinhos, muito assustado com a tempestade.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Por isso estavam as botas de costas voltadas, isto é, de calcanhares voltados, como as botas de Charlot. Mas, num dia de grande temporal, o vento soprou a valer por aqueles sítios e empurrou uma das botas em direcção à irmã, que também se deslocou com a ventania. - Quem está aos pontapés à minha casa? - irritou-se um dos ratinhos, muito assustado com a tempestade. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "- Quem está aos pontapés à minha casa? - irritou-se um dos ratinhos, muito assustado com a tempestade. O vento puxou a chuva que, cada vez mais forte, alagou aquele cantinho do mundo onde estavam as botas. - Ora botas! Já nem se vive em sossego na nossa própria casa - lastimou-se um dos ratinhos.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Quem está aos pontapés à minha casa? - irritou-se um dos ratinhos, muito assustado com a tempestade. O vento puxou a chuva que, cada vez mais forte, alagou aquele cantinho do mundo onde estavam as botas. - Ora botas! Já nem se vive em sossego na nossa própria casa - lastimou-se um dos ratinhos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Quando a água da chuva inundou aquelas paragens, e a corrente deu em rio, as duas botas foram arrastadas na chuva e rolaram, muito trangalhadanças , sobre pedras e seixos. - Ora botas! Em vez de casa, um barco - desesperava-se um ratinho. - Ora botas! Em vez de bota, um bote - desesperava-se o outro ratinho.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando a água da chuva inundou aquelas paragens, e a corrente deu em rio, as duas botas foram arrastadas na chuva e rolaram, muito trangalhadanças , sobre pedras e seixos. - Ora botas! Em vez de casa, um barco - desesperava-se um ratinho. - Ora botas! Em vez de bota, um bote - desesperava-se o outro ratinho. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p5",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p3",
+        "s6p4",
+        "s6p5"
+      ],
+      "evidence": "- E tem bom ar. - E boa vista. - E bom piso.",
+      "after": {
+        "segment": 6,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - E tem bom ar. - E boa vista. - E bom piso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s8p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s7p4",
+        "s8p0",
+        "s8p1"
+      ],
+      "evidence": "- As suas persianas também precisam de arranjo. Eu ajudo-o. Passaram a tarde a consertar as casas e, com a boa ajuda um do outro, o trabalho rendeu muito. Vão agora, segundo combinaram, fazer uma vedação para proteger uma horta, que querem cultivar a meias. Ficaram outra vez dois ratinhos amigos, e as botas, aliás as casas geminadas , são bem prova disso.",
+      "after": {
+        "segment": 8,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - As suas persianas também precisam de arranjo. Eu ajudo-o. Passaram a tarde a consertar as casas e, com a boa ajuda um do outro, o trabalho rendeu muito. Vão agora, segundo combinaram, fazer uma vedação para proteger uma horta, que querem cultivar a meias. Ficaram outra vez dois ratinhos amigos, e as botas, aliás as casas geminadas , são bem prova disso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

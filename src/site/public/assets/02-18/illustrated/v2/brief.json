@@ -1,0 +1,132 @@
+{
+  "characters": [
+    {
+      "name": "bola de pingue-pongue",
+      "appearance": "pequena bola branca, redonda, leve, curiosa, em movimento"
+    },
+    {
+      "name": "sábios",
+      "appearance": "figuras humanas discretas de laboratório ou centro espacial, observadoras"
+    },
+    {
+      "name": "Lua",
+      "appearance": "grande corpo lunar redondo, com presença expressiva e cansada"
+    }
+  ],
+  "environment": "De uma mesa de pingue-pongue para o chão, escadas e colinas, um centro espacial e o espaço entre planetas, terminando num jardim calmo com tanque e repuxo.",
+  "palette": [
+    "brancos e cremes",
+    "azuis profundos",
+    "cinzas suaves",
+    "amarelos discretos",
+    "verdes calmos"
+  ],
+  "recurringObjects": [
+    "bola redonda",
+    "mesa de pingue-pongue",
+    "satélites e planetas",
+    "repuxo no jardim"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma bola de pingue-pongue. Um dia, a bola de pingue-pongue disse assim: - Já chega de andar aos trambolhões de um lado para o outro: encontrão daqui, safanão ali, toma lá, dá cá e volta ao princípio, numa roda viva entres duas senhoras raquetes. Afinal nunca passo da mesma mesa.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A bola de pingue-pongue».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma bola de pingue-pongue. Um dia, a bola de pingue-pongue disse assim: - Já chega de andar aos trambolhões de um lado para o outro: encontrão daqui, safanão ali, toma lá, dá cá e volta ao princípio, numa roda viva entres duas senhoras raquetes. Afinal nunca passo da mesma mesa. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Mas, mesmo assim, deve haver melhor destino. É que havia mesmo. E a pequenina bola de pingue-pongue queria conhecê-lo. Ser bola de futebol, de basquetebol não lhe bastava. O que ela queria era correr mundo! E foi. Saltaricou da mesa para o chão, desceu escadas, escorregou por colinas, e foi ter - vejam bem a sorte que ela teve!",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas, mesmo assim, deve haver melhor destino. É que havia mesmo. E a pequenina bola de pingue-pongue queria conhecê-lo. Ser bola de futebol, de basquetebol não lhe bastava. O que ela queria era correr mundo! E foi. Saltaricou da mesa para o chão, desceu escadas, escorregou por colinas, e foi ter - vejam bem a sorte que ela teve! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s3p0"
+      ],
+      "evidence": "É que havia mesmo. E a pequenina bola de pingue-pongue queria conhecê-lo. Ser bola de futebol, de basquetebol não lhe bastava. O que ela queria era correr mundo! E foi. Saltaricou da mesa para o chão, desceu escadas, escorregou por colinas, e foi ter - vejam bem a sorte que ela teve! - e foi ter a um sítio muito especial, que era assim a modos que um centro espacial. Deste centro especial espacial atiravam para os céus bolas e bolinhas, que uma vez lá de cima, a dançar no meio dos astros, lançavam para a terra uns sinais esquisitos - bip! bip! bip! - como se fossem grilos... Mas não eram grilos essas bolas espaciais. Eram satélites dos artificiais.",
+      "after": {
+        "segment": 3,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: É que havia mesmo. E a pequenina bola de pingue-pongue queria conhecê-lo. Ser bola de futebol, de basquetebol não lhe bastava. O que ela queria era correr mundo! E foi. Saltaricou da mesa para o chão, desceu escadas, escorregou por colinas, e foi ter - vejam bem a sorte que ela teve! - e foi ter a um sítio muito especial, que era assim a modos que um centro espacial. Deste centro especial espacial atiravam para os céus bolas e bolinhas, que uma vez lá de cima, a dançar no meio dos astros, lançavam para a terra uns sinais esquisitos - bip! bip! bip! - como se fossem grilos... Mas não eram grilos essas bolas espaciais. Eram satélites dos artificiais. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "- Se as outras conseguem, também eu hei-de conseguir - pensou a bola de pingue-pongue. Ela que sabia dizer \"pingue\" e \"pongue\", e \"pongue\" e \"pingue\", depressa aprendeu a dizer \"bip!\" \"bip!\" \"bip!\". Não custava nada. E lá foi pelos ares, viajante do espaço, à roda do mundo, tão redondo como ela.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Se as outras conseguem, também eu hei-de conseguir - pensou a bola de pingue-pongue. Ela que sabia dizer \"pingue\" e \"pongue\", e \"pongue\" e \"pingue\", depressa aprendeu a dizer \"bip!\" \"bip!\" \"bip!\". Não custava nada. E lá foi pelos ares, viajante do espaço, à roda do mundo, tão redondo como ela. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s6p0",
+        "s6p1",
+        "s6p2"
+      ],
+      "evidence": "- Tirem-me de ao pé de mim este satélite maluco. Não consigo dormir em paz - gritou a Lua, que é assim uma espécie de bola de pingue-pongue, mas em grande. Os sábios fizeram a vontade à Lua e mandaram descer a nossa bolinha de pingue-pongue. - Estou satisfeita - contou a bola, ao regressar à Terra.",
+      "after": {
+        "segment": 6,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Tirem-me de ao pé de mim este satélite maluco. Não consigo dormir em paz - gritou a Lua, que é assim uma espécie de bola de pingue-pongue, mas em grande. Os sábios fizeram a vontade à Lua e mandaram descer a nossa bolinha de pingue-pongue. - Estou satisfeita - contou a bola, ao regressar à Terra. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s8p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s8p1",
+        "s8p2",
+        "s8p3"
+      ],
+      "evidence": "Equilibrou-a no alto de um repuxo no meio do tanque do jardim. Depois de ter visto tudo, de ter rolado e saltitado pelo espaço além, a bola descansa, a recordar o que vira. E suspira, satisfeita: - Está-se bem aqui.",
+      "after": {
+        "segment": 8,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Equilibrou-a no alto de um repuxo no meio do tanque do jardim. Depois de ter visto tudo, de ter rolado e saltitado pelo espaço além, a bola descansa, a recordar o que vira. E suspira, satisfeita: - Está-se bem aqui. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

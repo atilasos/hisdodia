@@ -1,0 +1,100 @@
+{
+  "characters": [
+    {
+      "name": "O senhor Abílio Gomes",
+      "appearance": "Homem idoso de calva rosada e redonda, bochechas caídas, olhos vivos, ar sereno e bondoso"
+    },
+    {
+      "name": "Narrador",
+      "appearance": "Frequentador do café, observador discreto"
+    },
+    {
+      "name": "Desconhecido",
+      "appearance": "Homem brusco, entrou de rompante, gesto agressivo"
+    }
+  ],
+  "environment": "Café de bairro em Portugal, de manhã, com mesa habitual, chávena de meia de leite, queque, chão de lajedo e atmosfera quotidiana.",
+  "palette": [
+    "rosado suave",
+    "creme",
+    "castanho quente",
+    "azulejo gasto",
+    "cinza pedra",
+    "amarelo manteiga"
+  ],
+  "recurringObjects": [
+    "mesa de café",
+    "chávena de meia de leite",
+    "pires partido",
+    "queque",
+    "lajedo do chão"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Aquele senhor ali, de calva rosada e redonda, olhos pestanejantes de menino velho, bochechinhas caídas, da cor da calva , tem mesmo ar de boa pessoa. Uma jóia. Uma raridade. Um paz de alma. Todas as manhãs se senta à mesma mesa do nosso café do bairro e pede numa voz mansa, de palavras pronunciadas sílaba a sílaba: - Se faz favor trazia-me uma meia de leite, mas não muito quente, acompanhada por um queque, de preferência ainda quentinho...",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Paz de Alma».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Aquele senhor ali, de calva rosada e redonda, olhos pestanejantes de menino velho, bochechinhas caídas, da cor da calva , tem mesmo ar de boa pessoa. Uma jóia. Uma raridade. Um paz de alma. Todas as manhãs se senta à mesma mesa do nosso café do bairro e pede numa voz mansa, de palavras pronunciadas sílaba a sílaba: - Se faz favor trazia-me uma meia de leite, mas não muito quente, acompanhada por um queque, de preferência ainda quentinho... Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "Todas as manhãs se senta à mesma mesa do nosso café do bairro e pede numa voz mansa, de palavras pronunciadas sílaba a sílaba: - Se faz favor trazia-me uma meia de leite, mas não muito quente, acompanhada por um queque, de preferência ainda quentinho... E ri-se, suavemente, do seu capricho guloso.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Todas as manhãs se senta à mesma mesa do nosso café do bairro e pede numa voz mansa, de palavras pronunciadas sílaba a sílaba: - Se faz favor trazia-me uma meia de leite, mas não muito quente, acompanhada por um queque, de preferência ainda quentinho... E ri-se, suavemente, do seu capricho guloso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "E sem esperar pela resposta, nem sequer dar tempo ao senhor para poisar a chávena, pregou-lhe uma bofetada de todo o tamanho e saiu disparado, tal como entrara. Esparramou-se o conteúdo da chávena, que se partiu mais o pires, no lajedo do café. Eu, que estava perto, ainda apanhei uns salpicos.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E sem esperar pela resposta, nem sequer dar tempo ao senhor para poisar a chávena, pregou-lhe uma bofetada de todo o tamanho e saiu disparado, tal como entrara. Esparramou-se o conteúdo da chávena, que se partiu mais o pires, no lajedo do café. Eu, que estava perto, ainda apanhei uns salpicos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p2",
+        "s4p3",
+        "s4p4"
+      ],
+      "evidence": "- Então o senhor apanha uma bofetada destas e fica-se? Acabando de engolir o queque, o senhor só respondeu: - O caso não era comigo. Deve ter sido engano. Eu nem me chamo Abílio...",
+      "after": {
+        "segment": 4,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Então o senhor apanha uma bofetada destas e fica-se? Acabando de engolir o queque, o senhor só respondeu: - O caso não era comigo. Deve ter sido engano. Eu nem me chamo Abílio... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

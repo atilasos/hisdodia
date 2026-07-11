@@ -1,0 +1,106 @@
+{
+  "characters": [
+    {
+      "name": "Leão velho",
+      "appearance": "Leão majestoso, idoso, expressão mal-humorada, corpo robusto e juba envelhecida"
+    },
+    {
+      "name": "Leopardo",
+      "appearance": "Felino esguio, atento, visivelmente receoso diante do leão"
+    },
+    {
+      "name": "Hiena",
+      "appearance": "Hiena de porte médio, postura tensa e assustada"
+    },
+    {
+      "name": "Gato do mato",
+      "appearance": "Pequeno felino selvagem, muito nervoso"
+    },
+    {
+      "name": "Elefante",
+      "appearance": "Elefante enorme, imponente, com tromba forte"
+    }
+  ],
+  "environment": "Selva africana com gruta, árvores, vegetação densa e clareiras de passeio matinal.",
+  "palette": [
+    "verdes profundos",
+    "ocres quentes",
+    "castanhos terrosos",
+    "dourados suaves",
+    "cinzentos naturais"
+  ],
+  "recurringObjects": [
+    "gruta",
+    "árvores da selva",
+    "caminho de passeio",
+    "tromba do elefante"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O velho leão acordou mal disposto. Para desanuviar o corpo e o espírito saiu da gruta e, majestosamente, foi dar o seu passeio matinal. Encontrou um leopardo e perguntou-lhe: – Ouve lá, ó tu, quem é o rei da selva?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Quem é o Rei?».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O velho leão acordou mal disposto. Para desanuviar o corpo e o espírito saiu da gruta e, majestosamente, foi dar o seu passeio matinal. Encontrou um leopardo e perguntou-lhe: – Ouve lá, ó tu, quem é o rei da selva? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "– Ouve lá, ó tu, quem é o rei da selva? O leopardo, a tremer, respondeu: – És tu, poderoso leão.",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Ouve lá, ó tu, quem é o rei da selva? O leopardo, a tremer, respondeu: – És tu, poderoso leão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p10",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p8",
+        "s0p9",
+        "s0p10"
+      ],
+      "evidence": "Mais adiante, encontrou um gato do mato e perguntou-lhe: – Ouve lá, ó tu, quem é o rei da selva? – És tu, poderoso leão – respondeu o gato do mato, num grande pânico.",
+      "after": {
+        "segment": 0,
+        "paragraph": 10
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mais adiante, encontrou um gato do mato e perguntou-lhe: – Ouve lá, ó tu, quem é o rei da selva? – És tu, poderoso leão – respondeu o gato do mato, num grande pânico. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p13",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p11",
+        "s0p12",
+        "s0p13"
+      ],
+      "evidence": "A seguir, encontrou um enorme elefante e fez-lhe a mesma pergunta. O elefante nem lhe respondeu. Enrolou-o com a tromba e atirou-o de encontro a uma árvore. Meio desfeito com o embate, todo amachucado, o leão levantou-se com dificuldade e queixou-se: – Há bichos que são mesmos brutos. Lá porque não sabia responder, pedia-me para eu lhe fazer outra pergunta. Perguntar não ofende e não saber não é vergonha. Mas o elefante já ia longe e não o ouviu.",
+      "after": {
+        "segment": 0,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A seguir, encontrou um enorme elefante e fez-lhe a mesma pergunta. O elefante nem lhe respondeu. Enrolou-o com a tromba e atirou-o de encontro a uma árvore. Meio desfeito com o embate, todo amachucado, o leão levantou-se com dificuldade e queixou-se: – Há bichos que são mesmos brutos. Lá porque não sabia responder, pedia-me para eu lhe fazer outra pergunta. Perguntar não ofende e não saber não é vergonha. Mas o elefante já ia longe e não o ouviu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}
