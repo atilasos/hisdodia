@@ -1,0 +1,91 @@
+{
+  "characters": [
+    {
+      "name": "poeta",
+      "appearance": "homem pobre, notívago, sentado à mesa com papel e pena, depois na janela e por fim às apalpadelas para a cama"
+    }
+  ],
+  "environment": "Interior pobre de uma casa ao anoitecer, com janela para o luar e mudança para vento e chuva durante a noite.",
+  "palette": [
+    "azul-escuro",
+    "cinza-prateado",
+    "amarelo-fraco",
+    "castanho-escuro",
+    "preto"
+  ],
+  "recurringObjects": [
+    "candeeiro ou vela",
+    "janela",
+    "mesa de escrita",
+    "papel do poema",
+    "cama"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "No tempo em que ainda não havia luz eléctrica, mas pouco faltava, quem quisesse trabalhar ou ler depois do Sol posto alumiava-se com candeeiros de petróleo. Os mais pobres, sem dinheiro para o petróleo, usavam velas de sebo . Era o caso do poeta da nossa história. Estava ele, à noite, a escrever uns versos, iluminado apenas pela luz do luar e pela chama incerta de uma velinha a finar-se, quando uma nuvem interceptou a luz da Lua.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Ninguém é sempre perfeito».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No tempo em que ainda não havia luz eléctrica, mas pouco faltava, quem quisesse trabalhar ou ler depois do Sol posto alumiava-se com candeeiros de petróleo. Os mais pobres, sem dinheiro para o petróleo, usavam velas de sebo . Era o caso do poeta da nossa história. Estava ele, à noite, a escrever uns versos, iluminado apenas pela luz do luar e pela chama incerta de uma velinha a finar-se, quando uma nuvem interceptou a luz da Lua. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Era o caso do poeta da nossa história. Estava ele, à noite, a escrever uns versos, iluminado apenas pela luz do luar e pela chama incerta de uma velinha a finar-se, quando uma nuvem interceptou a luz da Lua. - Ai! - lamentou-se o poeta. - Não tarda que a vela acabe. Como vou eu conseguir terminar o poema?",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era o caso do poeta da nossa história. Estava ele, à noite, a escrever uns versos, iluminado apenas pela luz do luar e pela chama incerta de uma velinha a finar-se, quando uma nuvem interceptou a luz da Lua. - Ai! - lamentou-se o poeta. - Não tarda que a vela acabe. Como vou eu conseguir terminar o poema? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "- Vento, se és meu amigo, afasta a nuvem, para que o luar volte a iluminar-me. O vento terá ouvido o pedido e rodopiou numa súbita ventania. Tanta foi que soprou a vela do poeta. Ficou o pobre às escuras. - Vento, tu não percebeste o que te pedi - irritou-se o poeta. - És um desastrado.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Vento, se és meu amigo, afasta a nuvem, para que o luar volte a iluminar-me. O vento terá ouvido o pedido e rodopiou numa súbita ventania. Tanta foi que soprou a vela do poeta. Ficou o pobre às escuras. - Vento, tu não percebeste o que te pedi - irritou-se o poeta. - És um desastrado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "Do céu carregado de nuvens começou a cair uma valente chuvada. - Pronto. Não precisas de chorar. Ninguém é sempre perfeito - disse o poeta ao vento. Fechou a janela e, resignado, foi para a cama às apalpadelas. Ficou o poema em meio. Não se perdia grande coisa, que o poema valia pouco. Ninguém é sempre perfeito...",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Do céu carregado de nuvens começou a cair uma valente chuvada. - Pronto. Não precisas de chorar. Ninguém é sempre perfeito - disse o poeta ao vento. Fechou a janela e, resignado, foi para a cama às apalpadelas. Ficou o poema em meio. Não se perdia grande coisa, que o poema valia pouco. Ninguém é sempre perfeito... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

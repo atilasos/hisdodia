@@ -1,0 +1,103 @@
+{
+  "characters": [],
+  "environment": "Portuguese village path by a church, with seasonal transitions from spring to later family celebrations",
+  "palette": [
+    "spring green",
+    "wildflower yellow",
+    "soft white",
+    "church bell bronze",
+    "earth brown"
+  ],
+  "recurringObjects": [
+    "bell",
+    "wild grass",
+    "small roadside flower",
+    "church",
+    "wedding bouquet"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "C omo é que uma flor e um sino podem caber na mesma história? Há-de ser difícil. A flor tão rasteira e o sino tão alto nada têm a ver um com o outro. Hão-de pertencer a histórias diferentes. Talvez sim e talvez não…",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Flor e o Sino».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: C omo é que uma flor e um sino podem caber na mesma história? Há-de ser difícil. A flor tão rasteira e o sino tão alto nada têm a ver um com o outro. Hão-de pertencer a histórias diferentes. Talvez sim e talvez não… Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p17",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p15",
+        "s0p16",
+        "s0p17"
+      ],
+      "evidence": "– Quem me chama? Quem me chama? – perguntou a flor, que nasceu a falar. O sino anunciava um casamento. Era o José mais a Maria que iam casar. O noivo, antes de entrar na igreja, colheu, à beira da estrada, uma flor com que enfeitou a lapela. Logo, por coincidência, a flor que tinha acabado de nascer.",
+      "after": {
+        "segment": 0,
+        "paragraph": 17
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Quem me chama? Quem me chama? – perguntou a flor, que nasceu a falar. O sino anunciava um casamento. Era o José mais a Maria que iam casar. O noivo, antes de entrar na igreja, colheu, à beira da estrada, uma flor com que enfeitou a lapela. Logo, por coincidência, a flor que tinha acabado de nascer. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p20",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p18",
+        "s0p19",
+        "s0p20"
+      ],
+      "evidence": "Aí têm como um sino e uma flor podem caber na mesma história. Mas não acaba aqui. Passado tempo, a flor desprendeu-se da lapela. Já tinha dado um ar da sua graça. Secou, desfez-se, juntou-se à terra. É sempre assim.",
+      "after": {
+        "segment": 0,
+        "paragraph": 20
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Aí têm como um sino e uma flor podem caber na mesma história. Mas não acaba aqui. Passado tempo, a flor desprendeu-se da lapela. Já tinha dado um ar da sua graça. Secou, desfez-se, juntou-se à terra. É sempre assim. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p21",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p19",
+        "s0p20",
+        "s0p21"
+      ],
+      "evidence": "Passado tempo, a flor desprendeu-se da lapela. Já tinha dado um ar da sua graça. Secou, desfez-se, juntou-se à terra. É sempre assim. Na Primavera seguinte, mais coisa menos coisa, o sino outra vez a badalar: tlim-dlão-dlim, tlim-dlão-dlim. Desta vez, era um baptizado, o do menino José Maria, filho de Maria e do José.",
+      "after": {
+        "segment": 0,
+        "paragraph": 21
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Passado tempo, a flor desprendeu-se da lapela. Já tinha dado um ar da sua graça. Secou, desfez-se, juntou-se à terra. É sempre assim. Na Primavera seguinte, mais coisa menos coisa, o sino outra vez a badalar: tlim-dlão-dlim, tlim-dlão-dlim. Desta vez, era um baptizado, o do menino José Maria, filho de Maria e do José. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p22",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p20",
+        "s0p21",
+        "s0p22"
+      ],
+      "evidence": "Secou, desfez-se, juntou-se à terra. É sempre assim. Na Primavera seguinte, mais coisa menos coisa, o sino outra vez a badalar: tlim-dlão-dlim, tlim-dlão-dlim. Desta vez, era um baptizado, o do menino José Maria, filho de Maria e do José. Depois, houve boda. No centro da mesa, um grande ramo de flores campestres, iguais à que viveu nesta história.",
+      "after": {
+        "segment": 0,
+        "paragraph": 22
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Secou, desfez-se, juntou-se à terra. É sempre assim. Na Primavera seguinte, mais coisa menos coisa, o sino outra vez a badalar: tlim-dlão-dlim, tlim-dlão-dlim. Desta vez, era um baptizado, o do menino José Maria, filho de Maria e do José. Depois, houve boda. No centro da mesa, um grande ramo de flores campestres, iguais à que viveu nesta história. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,57 @@
+{
+  "characters": [],
+  "environment": "cavalariça e pista de corrida",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Três cavalos encontraram-se numa cavalariça. Um era castanho, outro era branco e o terceiro era quase amarelo. - Que cor tão ridícula a tua - riram-se o cavalo branco e o castanho. - Não sei porquê. Tenho quatro patas como vocês têm. Pescoço e peito musculosos como vocês têm. Crinas como vocês têm. E relincho como vocês.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Três Cavalos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Três cavalos encontraram-se numa cavalariça. Um era castanho, outro era branco e o terceiro era quase amarelo. - Que cor tão ridícula a tua - riram-se o cavalo branco e o castanho. - Não sei porquê. Tenho quatro patas como vocês têm. Pescoço e peito musculosos como vocês têm. Crinas como vocês têm. E relincho como vocês. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "- Não sei porquê. Tenho quatro patas como vocês têm. Pescoço e peito musculosos como vocês têm. Crinas como vocês têm. E relincho como vocês. Isto relinchou o cavalo quase amarelo. Os outros dois cavalos continuaram a rir-se dele. Passaram a noite numa grande troça. O cavalo quase amarelo, para não ouvir-lhes a risota de zombaria, fez-se mula. Isto é: não lhes ligou. Fechou os olhos e adormeceu. No dia seguinte, vieram buscá-los. Os três cavalos iam participar numa corrida.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Não sei porquê. Tenho quatro patas como vocês têm. Pescoço e peito musculosos como vocês têm. Crinas como vocês têm. E relincho como vocês. Isto relinchou o cavalo quase amarelo. Os outros dois cavalos continuaram a rir-se dele. Passaram a noite numa grande troça. O cavalo quase amarelo, para não ouvir-lhes a risota de zombaria, fez-se mula. Isto é: não lhes ligou. Fechou os olhos e adormeceu. No dia seguinte, vieram buscá-los. Os três cavalos iam participar numa corrida. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "- Partida! - gritou um senhor, levantando uma bandeirinha. Os três cavalos desataram a correr. Ia o castanho à frente. Depois, o branco ultrapassou-o. Por fim, o cavalo quase amarelo avançou para a meta, deixando para trás o branco e o castanho. Ganhou ele a corrida. Os outros dois cavalos é que não acharam graça nenhuma. Paciência. Já tinham rido tanto...",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Partida! - gritou um senhor, levantando uma bandeirinha. Os três cavalos desataram a correr. Ia o castanho à frente. Depois, o branco ultrapassou-o. Por fim, o cavalo quase amarelo avançou para a meta, deixando para trás o branco e o castanho. Ganhou ele a corrida. Os outros dois cavalos é que não acharam graça nenhuma. Paciência. Já tinham rido tanto... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

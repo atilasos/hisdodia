@@ -1,0 +1,114 @@
+{
+  "characters": [
+    {
+      "name": "quatro búfalos",
+      "appearance": "quatro búfalos fortes e inseparáveis na savana, com chifres marcantes"
+    },
+    {
+      "name": "senhor leão",
+      "appearance": "leão atento e astuto, observando de um outeiro"
+    },
+    {
+      "name": "chacal",
+      "appearance": "chacal espalhafatoso, usado como mensageiro involuntário"
+    }
+  ],
+  "environment": "savana africana com outeiros, pasto aberto e a presença da vida selvagem em tensão crescente",
+  "palette": [
+    "ocres quentes",
+    "verdes secos",
+    "castanhos naturais",
+    "dourado de fim de tarde",
+    "sombras profundas"
+  ],
+  "recurringObjects": [
+    "chifres dos búfalos",
+    "outeiro",
+    "savana aberta"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Eram quatro búfalos muito amigos. Que nenhum bicho se metesse com eles! Verdade se diga que não havia quem se atravesse a desafiar os quatro possantes animais, aprestados com um equipamento de chifres de alto lá, com todo o respeito. Somados, valiam por oito lanças. Sempre perto uns dos outros, os quatros búfalos pastavam na savana como se cada um fosse o vértice de um quadrado. Se fossem três formariam um triângulo. Se fossem dois uma linha com duas pontas. Se fosse um não formaria nenhuma figura geométrica. Seria apenas um corpo vagaroso, de costados largos, à mercê das garras e da dentuça de algum animal carniceiro.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Quatro Amigos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eram quatro búfalos muito amigos. Que nenhum bicho se metesse com eles! Verdade se diga que não havia quem se atravesse a desafiar os quatro possantes animais, aprestados com um equipamento de chifres de alto lá, com todo o respeito. Somados, valiam por oito lanças. Sempre perto uns dos outros, os quatros búfalos pastavam na savana como se cada um fosse o vértice de um quadrado. Se fossem três formariam um triângulo. Se fossem dois uma linha com duas pontas. Se fosse um não formaria nenhuma figura geométrica. Seria apenas um corpo vagaroso, de costados largos, à mercê das garras e da dentuça de algum animal carniceiro. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Sempre perto uns dos outros, os quatros búfalos pastavam na savana como se cada um fosse o vértice de um quadrado. Se fossem três formariam um triângulo. Se fossem dois uma linha com duas pontas. Se fosse um não formaria nenhuma figura geométrica. Seria apenas um corpo vagaroso, de costados largos, à mercê das garras e da dentuça de algum animal carniceiro. \"Uma tentação\", pensava, meneando a juba, o senhor leão, observando de um outeiro os quatro inseparáveis amigos.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Sempre perto uns dos outros, os quatros búfalos pastavam na savana como se cada um fosse o vértice de um quadrado. Se fossem três formariam um triângulo. Se fossem dois uma linha com duas pontas. Se fosse um não formaria nenhuma figura geométrica. Seria apenas um corpo vagaroso, de costados largos, à mercê das garras e da dentuça de algum animal carniceiro. \"Uma tentação\", pensava, meneando a juba, o senhor leão, observando de um outeiro os quatro inseparáveis amigos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s4p3"
+      ],
+      "evidence": "Tratando-se do chacal, um desbocado , o aviso transformava-se em notícia, lançada aos quatro ventos. Pouco depois, toda a selva estava ao corrente. Até os próprios búfalos. - Então vocês estão de mal comigo? - perguntou um deles, já muito amuado , aos restantes colegas.",
+      "after": {
+        "segment": 4,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Tratando-se do chacal, um desbocado , o aviso transformava-se em notícia, lançada aos quatro ventos. Pouco depois, toda a selva estava ao corrente. Até os próprios búfalos. - Então vocês estão de mal comigo? - perguntou um deles, já muito amuado , aos restantes colegas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "- O que me contaram foi que tu andas a rir-te dos meus chifres - ripostou um dos outros. Entraram em discussão. E, estupidamente, acabaram mesmo por desentender-se. Foi cada qual para seu lado, muito ofendido com os parceiros. Era o que o leão calculava.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - O que me contaram foi que tu andas a rir-te dos meus chifres - ripostou um dos outros. Entraram em discussão. E, estupidamente, acabaram mesmo por desentender-se. Foi cada qual para seu lado, muito ofendido com os parceiros. Era o que o leão calculava. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p2",
+        "s6p3",
+        "s6p4"
+      ],
+      "evidence": "Foi-se ao seguinte e tal e qual. Não merece a pena prosseguir. Contem até quatro. O resto dos despojos , que o leão já não quis, foram para o chacal.",
+      "after": {
+        "segment": 6,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Foi-se ao seguinte e tal e qual. Não merece a pena prosseguir. Contem até quatro. O resto dos despojos , que o leão já não quis, foram para o chacal. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

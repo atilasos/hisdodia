@@ -1,0 +1,130 @@
+{
+  "characters": [
+    {
+      "name": "O burro",
+      "appearance": "Burro de quintal, de aspeto simples e confiante, orelhas longas, expressão vaidosa no início e depois assustada no confronto com o leão."
+    },
+    {
+      "name": "O leão",
+      "appearance": "Leão majestoso, de juba farta, porte calmo e imponente, expressão irónica e segura."
+    }
+  ],
+  "environment": "Quintal rural português muito povoado, com capoeira, estábulo, coelheira, cortelho e um outeiro próximo, sob luz forte de dia.",
+  "palette": [
+    "ocres",
+    "castanhos quentes",
+    "verdes secos",
+    "amarelos de sol",
+    "azul claro",
+    "sombreados profundos"
+  ],
+  "recurringObjects": [
+    "quintal rural",
+    "outeiro",
+    "capoeira",
+    "estábulo",
+    "sombra do leão"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "O burro andava muito feliz. Sentia-se o rei da criação, isto é, o rei das galinhas, dos patos e dos perus do quintal onde vivia. E também das cabras, dos porcos e das ovelhas, porque aquele quintal era muito povoado. Quando ele zurrava, todos fugiam. As zurradelas do burro, realmente, eram de tal força, que assustavam qualquer bichinho. Até o cão se afastava, em sinal de respeito.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Burro e o Leão».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O burro andava muito feliz. Sentia-se o rei da criação, isto é, o rei das galinhas, dos patos e dos perus do quintal onde vivia. E também das cabras, dos porcos e das ovelhas, porque aquele quintal era muito povoado. Quando ele zurrava, todos fugiam. As zurradelas do burro, realmente, eram de tal força, que assustavam qualquer bichinho. Até o cão se afastava, em sinal de respeito. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "As zurradelas do burro, realmente, eram de tal força, que assustavam qualquer bichinho. Até o cão se afastava, em sinal de respeito. - Nunca imaginei que possuísse tanto poder... - dizia de si para si o burro, todo inchado de bazófia . E fartava-se de zurrar, a torto e a direito, clamando que era ele o rei... iam-iam!..",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: As zurradelas do burro, realmente, eram de tal força, que assustavam qualquer bichinho. Até o cão se afastava, em sinal de respeito. - Nunca imaginei que possuísse tanto poder... - dizia de si para si o burro, todo inchado de bazófia . E fartava-se de zurrar, a torto e a direito, clamando que era ele o rei... iam-iam!.. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s4p3"
+      ],
+      "evidence": "- Vamos lá visitar esse fenómeno que se proclamou o rei dos animais. Encontrou o burro a pastar num outeiro, não longe do quintal, onde tinha estábulo. O burro, quando o viu, estremeceu, mas não quis dar parte fraca.",
+      "after": {
+        "segment": 4,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Vamos lá visitar esse fenómeno que se proclamou o rei dos animais. Encontrou o burro a pastar num outeiro, não longe do quintal, onde tinha estábulo. O burro, quando o viu, estremeceu, mas não quis dar parte fraca. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s7p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p1",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "- Iniciei a dinastia - explicou o burro. - Iniciei a dinastia, com a força da minha voz. Queres ver? - Estou cheio de curiosidade - disse o leão, sentando-se nas patas traseiras. - Demonstra-me, então, os teus predicados reais. O burro repuxou o ar para os pulmões e, do alto do outeiro, trombeteou uma zurradela tão poderosa que gafanhotos, perdizes, estorninhos, lebres e coelhos do mato saltaram de todos os lados, num grande alarme.",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Iniciei a dinastia - explicou o burro. - Iniciei a dinastia, com a força da minha voz. Queres ver? - Estou cheio de curiosidade - disse o leão, sentando-se nas patas traseiras. - Demonstra-me, então, os teus predicados reais. O burro repuxou o ar para os pulmões e, do alto do outeiro, trombeteou uma zurradela tão poderosa que gafanhotos, perdizes, estorninhos, lebres e coelhos do mato saltaram de todos os lados, num grande alarme. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s10p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s10p0",
+        "s10p1",
+        "s10p2"
+      ],
+      "evidence": "A sua sombra majestosa projectou-se sobre a capoeira, a coelheira, o estábulo e o cortelho . Um vozear de pânico despegou-se da natureza, fosse brava ou mansa: - O leão! - como o rolar de trovoada ao longe. Depois, fez-se silêncio e frio, nem que tivesse descido, repentinamente, a noite. Até as cigarras pararam de serrar o sol.",
+      "after": {
+        "segment": 10,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A sua sombra majestosa projectou-se sobre a capoeira, a coelheira, o estábulo e o cortelho . Um vozear de pânico despegou-se da natureza, fosse brava ou mansa: - O leão! - como o rolar de trovoada ao longe. Depois, fez-se silêncio e frio, nem que tivesse descido, repentinamente, a noite. Até as cigarras pararam de serrar o sol. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s11p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s11p0",
+        "s11p1",
+        "s11p2"
+      ],
+      "evidence": "O burro sentiu esse raio paralisante, que atravessava tudo, e borrou-se de medo. Já o leão se afastava, pausada e majestosamente. Não precisava de dizer mais nada. A verdadeira grandeza dispensa zurradelas. Em sentido contrário ao do leão, o burro, de orelhas caídas, desceu o outeiro, em direcção ao quintal. Recolhia à estrebaria e levava muito em que pensar.",
+      "after": {
+        "segment": 11,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O burro sentiu esse raio paralisante, que atravessava tudo, e borrou-se de medo. Já o leão se afastava, pausada e majestosamente. Não precisava de dizer mais nada. A verdadeira grandeza dispensa zurradelas. Em sentido contrário ao do leão, o burro, de orelhas caídas, desceu o outeiro, em direcção ao quintal. Recolhia à estrebaria e levava muito em que pensar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

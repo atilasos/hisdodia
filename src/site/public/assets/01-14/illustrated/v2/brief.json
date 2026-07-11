@@ -1,0 +1,103 @@
+{
+  "characters": [],
+  "environment": "Portuguese children's story interior with a handkerchief, tears, and a child implied by the narrative",
+  "palette": [
+    "soft pastel blues",
+    "warm creams",
+    "gentle pinks",
+    "muted yellows",
+    "light gray"
+  ],
+  "recurringObjects": [
+    "handkerchief",
+    "tears",
+    "nose",
+    "gavet drawer",
+    "cloth"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era uma vez uma lágrima, uma lágrima de constipação. Sabem como é: o pingo no nariz, os olhos a arder, um espirro, outro espirro, e uma lágrima que se solta pelo cantinho do olho e escorrega, bochecha abaixo... Era uma vez uma lágrima, uma lágrima de riso. Sabem do que falo: de tanto rir, tudo estala em nós e as lágrimas saltam dos olhos como fogo-de-artifício, foguetes de lágrimas...",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Lágrimas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma lágrima, uma lágrima de constipação. Sabem como é: o pingo no nariz, os olhos a arder, um espirro, outro espirro, e uma lágrima que se solta pelo cantinho do olho e escorrega, bochecha abaixo... Era uma vez uma lágrima, uma lágrima de riso. Sabem do que falo: de tanto rir, tudo estala em nós e as lágrimas saltam dos olhos como fogo-de-artifício, foguetes de lágrimas... Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "Sabem do que falo: de tanto rir, tudo estala em nós e as lágrimas saltam dos olhos como fogo-de-artifício, foguetes de lágrimas... Eram, pois, duas lágrimas. Encontraram-se, no mesmo lenço.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Sabem do que falo: de tanto rir, tudo estala em nós e as lágrimas saltam dos olhos como fogo-de-artifício, foguetes de lágrimas... Eram, pois, duas lágrimas. Encontraram-se, no mesmo lenço. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "Mas uma terceira lágrima chegou ao lenço. Tão de água, tão salgada como as outras. E da fonte dos mesmos olhos. Mas esta era diferente. - Sou uma lágrima de dor - apresentou-se ela. Seria verdade? Às outras duas parecia impossível.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas uma terceira lágrima chegou ao lenço. Tão de água, tão salgada como as outras. E da fonte dos mesmos olhos. Mas esta era diferente. - Sou uma lágrima de dor - apresentou-se ela. Seria verdade? Às outras duas parecia impossível. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "Quem a soltara, constipado que estava, ainda há pouco rira até às lágrimas. Como é que se pode passar, assim tão de repente, da alegria à mágoa? - O que aconteceu, entretanto? - quiseram saber as duas lágrimas mais antigas. - Foi um entalão - explicou a recém-chegada. - Quem me soltou tinha ido buscar um lenço dobrado à gaveta e, entretido a rir, ao fechar, entalou um dedo.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quem a soltara, constipado que estava, ainda há pouco rira até às lágrimas. Como é que se pode passar, assim tão de repente, da alegria à mágoa? - O que aconteceu, entretanto? - quiseram saber as duas lágrimas mais antigas. - Foi um entalão - explicou a recém-chegada. - Quem me soltou tinha ido buscar um lenço dobrado à gaveta e, entretido a rir, ao fechar, entalou um dedo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "- Há desgraças piores - comentou a lágrima da constipação. - Prefiro nem saber - suspirou a lágrima do riso. O resto da conversa já não acompanhei, porque eu, o dono das três lágrimas, desfiz-me do lenço molhado para dentro da roupa suja. Lenços não me faltam, brancos ou às cores e para todas as ocasiões da vida.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Há desgraças piores - comentou a lágrima da constipação. - Prefiro nem saber - suspirou a lágrima do riso. O resto da conversa já não acompanhei, porque eu, o dono das três lágrimas, desfiz-me do lenço molhado para dentro da roupa suja. Lenços não me faltam, brancos ou às cores e para todas as ocasiões da vida. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

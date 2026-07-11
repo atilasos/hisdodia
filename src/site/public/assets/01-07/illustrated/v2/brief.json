@@ -1,0 +1,108 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O coelho e o macaco eram amigos, mas estavam sempre a atazanar-se um ao outro. Sei de outros casos parecidos... O macaco via o coelho ao longe e começava logo, de pirraça : - Coelho dentudo, peludo e orelhudo, focinho focinhudo, corpo barrigudo, pernas de canudo, rabo de veludo!",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Bons Amigos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O coelho e o macaco eram amigos, mas estavam sempre a atazanar-se um ao outro. Sei de outros casos parecidos... O macaco via o coelho ao longe e começava logo, de pirraça : - Coelho dentudo, peludo e orelhudo, focinho focinhudo, corpo barrigudo, pernas de canudo, rabo de veludo! Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "O coelho respondia-lhe, no mesmo tom: - Olha o macaco macacão, olhos de sabão, miolos de algodão, cara de espantalho paspalhão. Continuavam assim, que tempos, até chegarem ao pé um do outro. Depois, riam e davam grandes abraços.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O coelho respondia-lhe, no mesmo tom: - Olha o macaco macacão, olhos de sabão, miolos de algodão, cara de espantalho paspalhão. Continuavam assim, que tempos, até chegarem ao pé um do outro. Depois, riam e davam grandes abraços. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "De uma vez que o coelho estava a dormir, muito descansado, o macaco, pendurado de uma árvore, puxou-lhe as orelhas com toda a força. O coelho acordou dorido e num grande sobressalto. - Ai desculpa - disse o macaco, a fugir. - Andava a caçar borboletas e julguei que as tuas orelhas eram uma borboleta gigante.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: De uma vez que o coelho estava a dormir, muito descansado, o macaco, pendurado de uma árvore, puxou-lhe as orelhas com toda a força. O coelho acordou dorido e num grande sobressalto. - Ai desculpa - disse o macaco, a fugir. - Andava a caçar borboletas e julguei que as tuas orelhas eram uma borboleta gigante. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "De outra vez, estava o coelho a roer um cogumelo e o macaco gritou-lhe, fingindo um grande susto: - Cuidado, não comas mais que estás a ficar com as orelhas azuis! Esse cogumelo há-de ser venenoso. O coelho ficou apavorado. Foi a correr ao rio. Mirou-se e remirou-se.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: De outra vez, estava o coelho a roer um cogumelo e o macaco gritou-lhe, fingindo um grande susto: - Cuidado, não comas mais que estás a ficar com as orelhas azuis! Esse cogumelo há-de ser venenoso. O coelho ficou apavorado. Foi a correr ao rio. Mirou-se e remirou-se. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Quando percebeu que era tudo mentira, desatou a perseguir o macaco, mas onde é que já ia! - Não esperas pela pancada! - ameaçou-o, de longe. Não esperou mesmo. Numa ocasião em que o macaco estava a dormir num galho, com a comprida cauda dependurada, o coelho muniu-se de um cacete e zás! Deu-lhe uma pancada, com toda a força, na cauda desenrolada.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando percebeu que era tudo mentira, desatou a perseguir o macaco, mas onde é que já ia! - Não esperas pela pancada! - ameaçou-o, de longe. Não esperou mesmo. Numa ocasião em que o macaco estava a dormir num galho, com a comprida cauda dependurada, o coelho muniu-se de um cacete e zás! Deu-lhe uma pancada, com toda a força, na cauda desenrolada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s6p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p1",
+        "s5p2",
+        "s6p0"
+      ],
+      "evidence": "- Porque me fizeste isto, traidor? - gritava o macaco. - Ai, desculpa - disse o coelho, muito inocente. - Julguei que era uma cobra. Apesar destas peripécias e facécias , o macaco e o coelho continuam a ser bons amigos.",
+      "after": {
+        "segment": 6,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Porque me fizeste isto, traidor? - gritava o macaco. - Ai, desculpa - disse o coelho, muito inocente. - Julguei que era uma cobra. Apesar destas peripécias e facécias , o macaco e o coelho continuam a ser bons amigos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

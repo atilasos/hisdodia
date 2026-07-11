@@ -1,0 +1,85 @@
+{
+  "characters": [],
+  "environment": "Portuguese barracks and parade-ground setting with a king inspecting soldiers",
+  "palette": [
+    "red",
+    "gold",
+    "navy",
+    "olive",
+    "cream"
+  ],
+  "recurringObjects": [
+    "uniforms",
+    "helmets",
+    "rifles",
+    "parade formation"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um rei que gostava muito de desfiles e paradas. Até lhe chamavam o rei dos soldados ou rei-soldado, embora ele fosse o general de todos os generais. Quando passava revista à guarda de honra, cerimónia a que se dedicava várias vezes ao dia, tinha por hábito estacar de tantos em tantos homens, para dirigir, cara na cara, ao soldado perfilado à sua frente as seguintes perguntas: – Que idade tens?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Rei dos Soldados».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um rei que gostava muito de desfiles e paradas. Até lhe chamavam o rei dos soldados ou rei-soldado, embora ele fosse o general de todos os generais. Quando passava revista à guarda de honra, cerimónia a que se dedicava várias vezes ao dia, tinha por hábito estacar de tantos em tantos homens, para dirigir, cara na cara, ao soldado perfilado à sua frente as seguintes perguntas: – Que idade tens? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p8",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p6",
+        "s0p7",
+        "s0p8"
+      ],
+      "evidence": "– O soldo e o rancho satisfazem-te? O magala, já se vê, respondia que ambos o satisfaziam. Bem impressionado com as respostas, o rei prosseguia, de peito inchado e queixo alto, muito orgulhoso do seu exército de luzidos soldados.",
+      "after": {
+        "segment": 0,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – O soldo e o rancho satisfazem-te? O magala, já se vê, respondia que ambos o satisfaziam. Bem impressionado com as respostas, o rei prosseguia, de peito inchado e queixo alto, muito orgulhoso do seu exército de luzidos soldados. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p11",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p9",
+        "s0p10",
+        "s0p11"
+      ],
+      "evidence": "Ora entrou para o serviço militar um rapaz vindo de longe, de uma região onde não se falava a mesma língua da cidade. Tinha por isso muita dificuldade em perceber as ordens e em fazer-se entender. Os colegas troçavam dele, mas o rapaz não se importava. Pelo sim pelo não, o sargento ensinou-o a pronunciar as respostas convenientes às perguntas que o rei costumava fazer. Como a fiada de perguntas era sempre igual e pela mesma ordem, caso lhe calhasse em sorte ser interrogado pelo rei, o novo soldado não daria parte fraca. E calhou.",
+      "after": {
+        "segment": 0,
+        "paragraph": 11
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ora entrou para o serviço militar um rapaz vindo de longe, de uma região onde não se falava a mesma língua da cidade. Tinha por isso muita dificuldade em perceber as ordens e em fazer-se entender. Os colegas troçavam dele, mas o rapaz não se importava. Pelo sim pelo não, o sargento ensinou-o a pronunciar as respostas convenientes às perguntas que o rei costumava fazer. Como a fiada de perguntas era sempre igual e pela mesma ordem, caso lhe calhasse em sorte ser interrogado pelo rei, o novo soldado não daria parte fraca. E calhou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p21",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p19",
+        "s0p20",
+        "s0p21"
+      ],
+      "evidence": "– Isso não faz sentido. Um de nós está maluco. O rapaz, julgando que estava a responder à terceira pergunta, sorriu com cortesia e disse: – Ambos, Majestade.",
+      "after": {
+        "segment": 0,
+        "paragraph": 21
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Isso não faz sentido. Um de nós está maluco. O rapaz, julgando que estava a responder à terceira pergunta, sorriu com cortesia e disse: – Ambos, Majestade. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

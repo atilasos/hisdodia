@@ -1,0 +1,115 @@
+{
+  "characters": [
+    {
+      "name": "Caçador que fica em terra",
+      "appearance": "Homem português, rural, de aspeto simples, com lança, roupa de caça e expressão assustada no início, depois mais firme"
+    },
+    {
+      "name": "Companheiro da caça",
+      "appearance": "Homem português, rural, de aspeto simples, com lança, primeiro em pânico a subir a uma árvore, depois envergonhado e arrependido"
+    },
+    {
+      "name": "Urso",
+      "appearance": "Urso grande e atento, presença imponente, a farejar e a aproximar o focinho da orelha do caçador"
+    }
+  ],
+  "environment": "Mato e floresta rural, com árvores altas, chão de terra e vegetação densa, num ambiente de caça antigo e tenso.",
+  "palette": [
+    "castanhos terrosos",
+    "verdes apagados",
+    "ocres",
+    "cinzentos quentes",
+    "azuis escuros discretos"
+  ],
+  "recurringObjects": [
+    "lanças",
+    "árvores altas",
+    "chão de terra",
+    "rebanho ao longe"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "No tempo em que havia ursos a rondar os povoados, também havia homens que lhes davam caça com a ajuda de lanças e flechas, porque as espingardas ainda não tinham sido inventadas. Dois amigos acertaram em ir à caça a um grande urso, que andava a assustar os rebanhos. Foram para o mato e ambos prometeram um ao outro que mal vissem o urso o cercariam, um pela frente, outro por trás, porque nisto de ursos brutamontes duas lanças valem mais do que uma.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Urso Dá Conselhos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No tempo em que havia ursos a rondar os povoados, também havia homens que lhes davam caça com a ajuda de lanças e flechas, porque as espingardas ainda não tinham sido inventadas. Dois amigos acertaram em ir à caça a um grande urso, que andava a assustar os rebanhos. Foram para o mato e ambos prometeram um ao outro que mal vissem o urso o cercariam, um pela frente, outro por trás, porque nisto de ursos brutamontes duas lanças valem mais do que uma. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s0p3"
+      ],
+      "evidence": "Dois amigos acertaram em ir à caça a um grande urso, que andava a assustar os rebanhos. Foram para o mato e ambos prometeram um ao outro que mal vissem o urso o cercariam, um pela frente, outro por trás, porque nisto de ursos brutamontes duas lanças valem mais do que uma. Nisto, apareceu o urso. Um dos amigos, esquecido do prometido, logo marinhou por uma árvore acima, deixando o companheiro sem ajuda.",
+      "after": {
+        "segment": 0,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Dois amigos acertaram em ir à caça a um grande urso, que andava a assustar os rebanhos. Foram para o mato e ambos prometeram um ao outro que mal vissem o urso o cercariam, um pela frente, outro por trás, porque nisto de ursos brutamontes duas lanças valem mais do que uma. Nisto, apareceu o urso. Um dos amigos, esquecido do prometido, logo marinhou por uma árvore acima, deixando o companheiro sem ajuda. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p7",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p5",
+        "s0p6",
+        "s0p7"
+      ],
+      "evidence": "Desmaio, não desmaio... Pelo sim pelo não, lançou-se ao comprido para o meio do chão, onde se deixou ficar, muito quietinho. Ouvira uma vez dizer que os ursos se agoniavam com a carne morta. Fazer de conta que tinha morrido talvez resultasse. O urso mirou-o, virou-o com as patonas, cheirou-o dos pés à cabeça, com especial predilecção pelos ouvidos, e, depois, sem lhe fazer um arranhão sequer, deixou-o em paz. Abalou.",
+      "after": {
+        "segment": 0,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Desmaio, não desmaio... Pelo sim pelo não, lançou-se ao comprido para o meio do chão, onde se deixou ficar, muito quietinho. Ouvira uma vez dizer que os ursos se agoniavam com a carne morta. Fazer de conta que tinha morrido talvez resultasse. O urso mirou-o, virou-o com as patonas, cheirou-o dos pés à cabeça, com especial predilecção pelos ouvidos, e, depois, sem lhe fazer um arranhão sequer, deixou-o em paz. Abalou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p13",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p11",
+        "s0p12",
+        "s0p13"
+      ],
+      "evidence": "O outro estranhou: – O que é que ganhaste? – Um conselho do urso – disse.",
+      "after": {
+        "segment": 0,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O outro estranhou: – O que é que ganhaste? – Um conselho do urso – disse. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p20",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p18",
+        "s0p19",
+        "s0p20"
+      ],
+      "evidence": "– Ele disse isso? Garantes? – Garanto. Até acrescentou que mais valia caçar sozinho do que na companhia de poltrões. E, dizendo isto, o caçador pegou na lança e avançou pelo caminho do mato. O companheiro, que saltara da árvore, seguiu-lhe os passos, muito enfiado e arrependido.",
+      "after": {
+        "segment": 0,
+        "paragraph": 20
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Ele disse isso? Garantes? – Garanto. Até acrescentou que mais valia caçar sozinho do que na companhia de poltrões. E, dizendo isto, o caçador pegou na lança e avançou pelo caminho do mato. O companheiro, que saltara da árvore, seguiu-lhe os passos, muito enfiado e arrependido. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}
