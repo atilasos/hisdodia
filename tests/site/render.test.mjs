@@ -161,6 +161,16 @@ describe('renderSite', () => {
 
   it('renders homepage, archive, and story page from story data', async () => {
     await rm('dist', { recursive: true, force: true });
+    const storyData = JSON.parse(await readFile('data/stories/01-01.json', 'utf8'));
+    const completedOpening = storyData.illustratedEdition?.scenes?.find(
+      (scene) => scene.id === 'opening' && scene.status === 'complete' && scene.image
+    );
+
+    assert.ok(
+      completedOpening,
+      'expected data/stories/01-01.json to contain a completed opening scene with an image'
+    );
+
     await renderSite({ storiesDir: 'data/stories', outDir: 'dist', today: new Date('2026-01-01T12:00:00+00:00') });
 
     const homepage = await readFile('dist/index.html', 'utf8');
@@ -182,7 +192,10 @@ describe('renderSite', () => {
     assert.match(story, /Narração sintetizada em pt-PT/);
     assert.match(story, /narracao-tts\.mp3/);
     assert.match(story, /kind="captions"/);
-    assert.match(homepage, /src="\/assets\/01-01\/illustrated\/opening\.webp"/);
+    assert.ok(
+      homepage.includes(`src="${completedOpening.image}"`),
+      `expected homepage to render completed opening ${completedOpening.image}`
+    );
     assert.doesNotMatch(homepage, /src="\/assets\/01-01\/illustration-original\.jpg"/);
     assert.match(story, /href="\/assets\/01-01\/imprimir\.pdf"/);
     assert.match(story, /Imagens recuperadas/);
