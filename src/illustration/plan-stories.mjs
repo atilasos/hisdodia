@@ -27,7 +27,7 @@ import {
 } from './edition.mjs';
 
 const DIRECTION = `Plan a contemporary illustrated edition of this Portuguese children's story as strict JSON.
-Choose three to six visually useful beats by final paragraph ref and layout only, including exactly one opening. Return one evidenceRef for each scene. For every later scene, select the evidenceRef of the exact final paragraph of the depicted narrative beat, so the illustration appears after the event. Opening evidenceRef is best effort and the application canonicalizes it to the first non-empty paragraph. The application adds up to two preceding paragraphs as visual context. Image content comes exclusively from fixed directions and original story text. The application adds repository-owned art, continuity, and safety directions: no words, lettering, logos, or signatures. Never use text after the selected ref. Do not return composition, description, alternative text, prompts, or image instructions.`;
+Choose three to six visually useful beats by final paragraph ref and layout only. The first scene must be the opening. Return one evidenceRef for each scene. For every later scene, select the evidenceRef of the exact final paragraph of the depicted narrative beat, so the illustration appears after the event. Opening evidenceRef is best effort and the application canonicalizes it to the first non-empty paragraph. The application adds up to two preceding paragraphs as visual context. Image content comes exclusively from fixed directions and original story text. The application adds repository-owned art, continuity, and safety directions: no words, lettering, logos, or signatures. Never use text after the selected ref. Do not return composition, description, alternative text, prompts, or image instructions.`;
 
 const moduleDir = path.dirname(fileURLToPath(import.meta.url));
 const defaultSchemaPath = path.join(moduleDir, 'scene-plan.schema.json');
@@ -188,30 +188,45 @@ function approvedSceneFields(scene) {
   };
 }
 
-function deriveScenes(story, scenes) {
-  if (!Array.isArray(scenes)) return scenes;
-  const openingCandidates = scenes
-    .map((scene, index) => ({ scene, index }))
-    .filter(({ scene }) => (
-      scene?.id === 'opening'
-      || scene?.layout === 'opening'
-    ));
-  if (openingCandidates.length !== 1) {
-    throw new Error('A scene plan must contain exactly one opening candidate');
+function canonicalLaterSceneId(scene, index, usedIds) {
+  const rawId = scene?.id;
+  if (
+    rawId !== 'opening'
+    && /^[a-z0-9]+(?:-[a-z0-9]+)*$/u.test(rawId ?? '')
+    && !usedIds.has(rawId)
+  ) {
+    return rawId;
   }
 
-  const [{ scene: opening, index: openingIndex }] = openingCandidates;
+  const base = `scene-${index + 1}`;
+  let candidate = base;
+  let suffix = 2;
+  while (usedIds.has(candidate)) {
+    candidate = `${base}-${suffix}`;
+    suffix += 1;
+  }
+  return candidate;
+}
+
+function deriveScenes(story, scenes) {
+  if (!Array.isArray(scenes)) return scenes;
   const openingContext = buildSceneEvidenceContext(story, undefined, { opening: true });
-  const ordered = [
-    {
-      ...approvedSceneFields(opening),
-      id: 'opening',
-      ...openingContext,
-      layout: 'opening'
-    },
-    ...scenes.slice(0, openingIndex),
-    ...scenes.slice(openingIndex + 1)
-  ];
+  const usedIds = new Set(['opening']);
+  const ordered = scenes.map((rawScene, index) => {
+    if (index === 0) {
+      return {
+        ...approvedSceneFields(rawScene),
+        id: 'opening',
+        ...openingContext,
+        layout: 'opening'
+      };
+    }
+    const scene = approvedSceneFields(rawScene);
+    scene.id = canonicalLaterSceneId(scene, index, usedIds);
+    usedIds.add(scene.id);
+    if (scene.layout === 'opening') scene.layout = 'vignette';
+    return scene;
+  });
 
   return ordered.map((rawScene, index) => {
     const scene = index === 0 ? rawScene : approvedSceneFields(rawScene);

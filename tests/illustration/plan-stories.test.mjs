@@ -140,6 +140,7 @@ describe('Luna planner', () => {
     });
     const narrative = JSON.parse(prompt.slice(prompt.indexOf('{')));
     assert.match(prompt, /three to six visually useful beats/);
+    assert.match(prompt, /first scene must be the opening/i);
     assert.match(prompt, /Primeiro\./);
     assert.doesNotMatch(prompt, /Cristina Malaquias/);
     assert.match(prompt, /no words, lettering, logos, or signatures/);
@@ -626,7 +627,7 @@ describe('Luna planner', () => {
     );
   });
 
-  it('moves a sole exact opening candidate to the front before rebuilding prompts', async () => {
+  it('makes the first raw scene the canonical opening without reordering model beats', async () => {
     const base = `${root}/opening-later`;
     const directory = `${base}/stories`;
     await rm(base, { recursive: true, force: true });
@@ -651,7 +652,7 @@ describe('Luna planner', () => {
     });
 
     const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/v2/brief.json`, 'utf8'));
-    assert.deepEqual(brief.scenes.map(({ id }) => id), ['opening', 'middle', 'ending']);
+    assert.deepEqual(brief.scenes.map(({ id }) => id), ['opening', 'scene-2', 'ending']);
     assert.deepEqual(
       { id: brief.scenes[0].id, layout: brief.scenes[0].layout, after: brief.scenes[0].after },
       { id: 'opening', layout: 'opening', after: null }
@@ -664,12 +665,14 @@ describe('Luna planner', () => {
     assert.equal(brief.scenes[0].prompt, buildCanonicalScenePrompt(fixtureStory(), brief.scenes[0]));
     assert.deepEqual(
       brief.scenes.slice(1).map(({ id, evidenceRef, layout }) => ({ id, evidenceRef, layout })),
-      returnedPlan.scenes.filter(({ id }) => id !== 'opening')
-        .map(({ id, evidenceRef, layout }) => ({ id, evidenceRef, layout }))
+      [
+        { id: 'scene-2', evidenceRef: 's0p0', layout: 'vignette' },
+        { id: 'ending', evidenceRef: 's0p1', layout: 'vignette' }
+      ]
     );
   });
 
-  it('rejects a plan without an id or layout opening candidate before writes or mkdir', async () => {
+  it('normalizes the first scene when the model returns no opening signal', async () => {
     const base = `${root}/opening-absent`;
     const directory = `${base}/stories`;
     await rm(base, { recursive: true, force: true });
@@ -682,43 +685,50 @@ describe('Luna planner', () => {
       description: 'No opening candidate.',
       alt: 'Sem candidato de abertura.'
     };
-    let writes = 0;
+    await planStories({
+      storyId: '01-01',
+      storiesDir: directory,
+      publicDir: `${base}/public`,
+      runPlanner: async () => returnedPlan
+    });
 
-    await assert.rejects(
-      () => planStories({
-        storyId: '01-01',
-        storiesDir: directory,
-        publicDir: `${base}/public`,
-        runPlanner: async () => returnedPlan,
-        writeJsonImpl: async () => { writes += 1; }
-      }),
-      /exactly one opening candidate/i
-    );
-    assert.equal(writes, 0);
-    await assert.rejects(stat(`${base}/public/assets`), { code: 'ENOENT' });
+    const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/v2/brief.json`, 'utf8'));
+    assert.deepEqual(brief.scenes.map(({ id, layout }) => ({ id, layout })), [
+      { id: 'opening', layout: 'opening' },
+      { id: 'middle', layout: 'marginal' },
+      { id: 'ending', layout: 'vignette' }
+    ]);
+    assert.equal(brief.scenes[0].evidenceRef, 's0p0');
   });
 
-  it('rejects ambiguous opening signals before writing anything', async () => {
+  it('normalizes multiple later opening signals to unique canonical ids and non-opening layouts', async () => {
     const base = `${root}/opening-ambiguous`;
     const directory = `${base}/stories`;
     await rm(base, { recursive: true, force: true });
     await writeStory(directory);
     const returnedPlan = validPlan();
-    returnedPlan.scenes[1] = { ...returnedPlan.scenes[1], layout: 'opening' };
-    let writes = 0;
+    returnedPlan.scenes = [
+      returnedPlan.scenes[0],
+      { ...returnedPlan.scenes[1], id: 'opening', layout: 'opening' },
+      { ...returnedPlan.scenes[1], id: 'scene-2', layout: 'opening' },
+      returnedPlan.scenes[2]
+    ];
 
-    await assert.rejects(
-      () => planStories({
-        storyId: '01-01',
-        storiesDir: directory,
-        publicDir: `${base}/public`,
-        runPlanner: async () => returnedPlan,
-        writeJsonImpl: async () => { writes += 1; }
-      }),
-      /exactly one opening candidate/i
-    );
+    await planStories({
+      storyId: '01-01',
+      storiesDir: directory,
+      publicDir: `${base}/public`,
+      runPlanner: async () => returnedPlan
+    });
 
-    assert.equal(writes, 0);
+    const brief = JSON.parse(await readFile(`${base}/public/assets/01-01/illustrated/v2/brief.json`, 'utf8'));
+    assert.deepEqual(brief.scenes.map(({ id, layout }) => ({ id, layout })), [
+      { id: 'opening', layout: 'opening' },
+      { id: 'scene-2', layout: 'vignette' },
+      { id: 'scene-3', layout: 'vignette' },
+      { id: 'ending', layout: 'vignette' }
+    ]);
+    assert.equal(new Set(brief.scenes.map(({ id }) => id)).size, brief.scenes.length);
   });
 
   it('keeps only approved raw fields, then derives anchors and canonical prompts', async () => {
