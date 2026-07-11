@@ -1,0 +1,122 @@
+{
+  "characters": [
+    {
+      "name": "Zahil",
+      "appearance": "Homem pobre e preguiçoso, com ar astuto, roupa simples e desalinhada, em ambiente urbano asiático"
+    },
+    {
+      "name": "Samam",
+      "appearance": "Mulher de Zahil, igualmente pobre e desconfiada, roupa simples, expressão prática e irritada"
+    },
+    {
+      "name": "Comerciante",
+      "appearance": "Mercador rico, bem vestido, curioso e depois desconcertado"
+    }
+  ],
+  "environment": "Rua pobre de uma cidade asiática, mercado movimentado de mercadores ricos, e interior modesto da casa de Zahil com mesa preparada para jantar",
+  "palette": [
+    "tons terrosos",
+    "verdes vivos",
+    "ocres",
+    "azuis escuros",
+    "luzes quentes de interior"
+  ],
+  "recurringObjects": [
+    "periquito verde",
+    "gaiola",
+    "albornoz",
+    "mesa de jantar",
+    "panelas com caril e arroz"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Vivia na rua mais pobre e mais sombria de uma cidade da Ásia um homem chamado Zahil, que era muito preguiçoso. Ela e a mulher, não menos amiga de pouco fazer do que o marido, nunca se tinham disposto a aprender uma profissão ou, a bem dizer, a única profissão que sabiam era a de pregar más partidas aos camponeses e aos lavradores ricos, que passavam pela cidade. Tinham, realmente, fama de vigaristas e não menor proveito. Sucedia, às vezes, que Zahil e Samam, assim se chamava a mulher, à falta de engenho ficavam com a barriga vazia.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Dois vigaristas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Vivia na rua mais pobre e mais sombria de uma cidade da Ásia um homem chamado Zahil, que era muito preguiçoso. Ela e a mulher, não menos amiga de pouco fazer do que o marido, nunca se tinham disposto a aprender uma profissão ou, a bem dizer, a única profissão que sabiam era a de pregar más partidas aos camponeses e aos lavradores ricos, que passavam pela cidade. Tinham, realmente, fama de vigaristas e não menor proveito. Sucedia, às vezes, que Zahil e Samam, assim se chamava a mulher, à falta de engenho ficavam com a barriga vazia. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p3",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "- Ui! Disso estás tu bem livre - e Zahil saltou da cama e saiu sem dizer ao que ia. Voltou, passado tempo, com uma gaiola. Dentro da gaiola, no mesmo poleiro, vinham dois periquitos verdes, iguaizinhos. A mulher zangou-se:",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Ui! Disso estás tu bem livre - e Zahil saltou da cama e saiu sem dizer ao que ia. Voltou, passado tempo, com uma gaiola. Dentro da gaiola, no mesmo poleiro, vinham dois periquitos verdes, iguaizinhos. A mulher zangou-se: Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s7p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s6p1",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "- Quer vir jantar a minha casa? O interpelado, que mal conhecia Zahil, estranhou o convite, mas o finório não lhe deu sequer tempo para pensar e acrescentou: - Se quiser, eu digo ao meu periquito para avisar a minha mulher que temos mais um conviva - e mostrou o passarinho, preso na mão.",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Quer vir jantar a minha casa? O interpelado, que mal conhecia Zahil, estranhou o convite, mas o finório não lhe deu sequer tempo para pensar e acrescentou: - Se quiser, eu digo ao meu periquito para avisar a minha mulher que temos mais um conviva - e mostrou o passarinho, preso na mão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s10p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s9p1",
+        "s10p0",
+        "s10p1"
+      ],
+      "evidence": "- Não acreditam? Pois convido-os a virem jantar comigo. A minha mulher já deve ter chegado a casa, de forma que eu vou dizer ao meu periquito para ir avisá-la de que levo alguns amigos para o nosso jantar. Gostam de galinha de caril com arroz? Todos gostavam. - Então, amigo, vai dizer à tua dona para preparar uma grande tachada de galinha com arroz. Quando chegarmos, quero tudo pronto. Vai! - e Zahil largou o periquito, que, vendo-se, tão de súbito, em liberdade, voou para onde muito bem quis.",
+      "after": {
+        "segment": 10,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Não acreditam? Pois convido-os a virem jantar comigo. A minha mulher já deve ter chegado a casa, de forma que eu vou dizer ao meu periquito para ir avisá-la de que levo alguns amigos para o nosso jantar. Gostam de galinha de caril com arroz? Todos gostavam. - Então, amigo, vai dizer à tua dona para preparar uma grande tachada de galinha com arroz. Quando chegarmos, quero tudo pronto. Vai! - e Zahil largou o periquito, que, vendo-se, tão de súbito, em liberdade, voou para onde muito bem quis. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s18p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s17p0",
+        "s17p1",
+        "s18p0"
+      ],
+      "evidence": "- Sabia ele, porventura, onde era a vossa casa? Já lá tinha estado convosco? - inquiriu Zahil, sem perder a calma. O comerciante ficou atrapalhado. Realmente, como podia o periquito saber onde ele morava se ninguém lho dissera. E, pensando no seu esquecimento e pouca sorte, o comerciante saiu da casa de Zahil, muito acabrunhado.",
+      "after": {
+        "segment": 18,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Sabia ele, porventura, onde era a vossa casa? Já lá tinha estado convosco? - inquiriu Zahil, sem perder a calma. O comerciante ficou atrapalhado. Realmente, como podia o periquito saber onde ele morava se ninguém lho dissera. E, pensando no seu esquecimento e pouca sorte, o comerciante saiu da casa de Zahil, muito acabrunhado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": [
+    {
+      "sceneId": "opening",
+      "attempt": 1,
+      "message": "One-character prompt transport corruption in built-in invocation; call terminated and no output accepted."
+    }
+  ]
+}

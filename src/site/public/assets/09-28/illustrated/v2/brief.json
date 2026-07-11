@@ -1,0 +1,118 @@
+{
+  "characters": [
+    {
+      "name": "Gregório Epifanov",
+      "appearance": "velhinho lenhador, corpo gasto pelo trabalho, roupas simples e gastas de madeira-floresta"
+    },
+    {
+      "name": "Agripina",
+      "appearance": "velhinha rabugenta, postura aguda e enérgica, roupas domésticas simples e gastas"
+    },
+    {
+      "name": "urso",
+      "appearance": "urso autêntico da floresta, grande e imponente, presença física forte e expressiva"
+    }
+  ],
+  "environment": "Uma cabana modesta de lenhadores na floresta, com interior apertado e gasto, cama simples, lareira, selha, lenha e a mata densa em redor.",
+  "palette": [
+    "castanhos de madeira e terra",
+    "cinzas de cinza e fumaça",
+    "verdes escuros da floresta",
+    "azuis frios de manhã",
+    "ocres quentes de interior"
+  ],
+  "recurringObjects": [
+    "cabana de madeira",
+    "machado",
+    "lenha",
+    "cama coberta de cobertores",
+    "selha",
+    "poço",
+    "urso da floresta"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "H avia na floresta uma cabana, modesta morada de lenhadores. Nessa cabana, moravam um velhinho e uma velhinha que eram irmãos, mas pouco amigos. Por aqui começa esta história. Desconfio que não estou a dizer a verdade toda. Talvez os dois irmãos fossem amigos, lá muito no fundo dos seus corações de velhos rabugentos, mas quem os visse e ouvisse a enfrenesiarem-se constantemente por dá cá aquela palha, tal não diria. A velhinha, então, era a mais abespinhada. Mal o irmão entrava em casa e fechava a porta, começava a bulha. – Estou farta de te recomendar, Gregório Epifanov, para não entrares sem primeiro bater à porta. Assustas o gato, assustas-me a mim e abalas a casa com essas botifarras. Porque não te descalças à porta?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Um Urso Que Impõe Respeito».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: H avia na floresta uma cabana, modesta morada de lenhadores. Nessa cabana, moravam um velhinho e uma velhinha que eram irmãos, mas pouco amigos. Por aqui começa esta história. Desconfio que não estou a dizer a verdade toda. Talvez os dois irmãos fossem amigos, lá muito no fundo dos seus corações de velhos rabugentos, mas quem os visse e ouvisse a enfrenesiarem-se constantemente por dá cá aquela palha, tal não diria. A velhinha, então, era a mais abespinhada. Mal o irmão entrava em casa e fechava a porta, começava a bulha. – Estou farta de te recomendar, Gregório Epifanov, para não entrares sem primeiro bater à porta. Assustas o gato, assustas-me a mim e abalas a casa com essas botifarras. Porque não te descalças à porta? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p14",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p12",
+        "s0p13",
+        "s0p14"
+      ],
+      "evidence": "– Deixa-me em paz, velha ruim. Passo dia a trabalhar. Portanto, tenho direito de dormir o que me apetece e o que o meu corpo pede – respondia-lhe o velho, com a cabeça escondida nos cobertores. – Isso são desculpas de urso. Se te não levantas já, vou ao poço, encho a selha e despejo-ta pela cabeça abaixo – ameaçava a velha. Gregório Epifanov levantava-se, pegava no machado e ia-se embora, sem dar os bons-dias nem comer as sopas da manhã.",
+      "after": {
+        "segment": 0,
+        "paragraph": 14
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Deixa-me em paz, velha ruim. Passo dia a trabalhar. Portanto, tenho direito de dormir o que me apetece e o que o meu corpo pede – respondia-lhe o velho, com a cabeça escondida nos cobertores. – Isso são desculpas de urso. Se te não levantas já, vou ao poço, encho a selha e despejo-ta pela cabeça abaixo – ameaçava a velha. Gregório Epifanov levantava-se, pegava no machado e ia-se embora, sem dar os bons-dias nem comer as sopas da manhã. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p23",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p21",
+        "s0p22",
+        "s0p23"
+      ],
+      "evidence": "– E isso ofende-te? – perguntou-lhe o urso. Pois claro que se ofendia. Se não fosse ele, a miséria na choupana ainda seria maior. Com o que ele ganhava a vender lenha, ambos comiam. Além de que não era um urso, era um homem. Então o urso teve uma ideia. Chegou o focinho à orelha do lenhador e segredou-lhe o seu plano. Foi uma risota!",
+      "after": {
+        "segment": 0,
+        "paragraph": 23
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – E isso ofende-te? – perguntou-lhe o urso. Pois claro que se ofendia. Se não fosse ele, a miséria na choupana ainda seria maior. Com o que ele ganhava a vender lenha, ambos comiam. Além de que não era um urso, era um homem. Então o urso teve uma ideia. Chegou o focinho à orelha do lenhador e segredou-lhe o seu plano. Foi uma risota! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p30",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p28",
+        "s0p29",
+        "s0p30"
+      ],
+      "evidence": "Dito e feito. Encheu a selha, carregou com ela e despejou-a em cima da cama do infeliz Gregório Epifanov, gralhando o que se segue: – Prova desta água, urso paspalhão, mandrião e resmungão, a ver se te emendas! Espalharam-se os cobertores e da cama saltou não o lenhador mas um urso, um urso autêntico que se pôs a correr atrás da velha, pela casa fora. Ela, aterrorizada, tropeçou na selha, caiu, levantou-se, fugiu, sentindo sempre as garras do urso quase a tocarem-lhe.",
+      "after": {
+        "segment": 0,
+        "paragraph": 30
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Dito e feito. Encheu a selha, carregou com ela e despejou-a em cima da cama do infeliz Gregório Epifanov, gralhando o que se segue: – Prova desta água, urso paspalhão, mandrião e resmungão, a ver se te emendas! Espalharam-se os cobertores e da cama saltou não o lenhador mas um urso, um urso autêntico que se pôs a correr atrás da velha, pela casa fora. Ela, aterrorizada, tropeçou na selha, caiu, levantou-se, fugiu, sentindo sempre as garras do urso quase a tocarem-lhe. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p33",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p31",
+        "s0p32",
+        "s0p33"
+      ],
+      "evidence": "– Quem me acode! – gritava ela que metia pena. Valeu-lhe o irmão que entrou, nesse instante, na cabana, empunhando um machado. Arremedou-se, ali, uma luta que mais parecia uma dança... O urso fez de conta que estava cheio de medo e, fingindo uma grande aflição, fugiu para a floresta donde viera. A partir desse dia, a velha Agripina passou a tratar o mano com melhores modos. Fora uma ou outra rabugice, os dois irmãos começaram a dar-se muito bem e voltaram a ser bons amigos. As sementes de amizade, escondidas no fundo dos seus corações cansados, estavam a dar flores...",
+      "after": {
+        "segment": 0,
+        "paragraph": 33
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Quem me acode! – gritava ela que metia pena. Valeu-lhe o irmão que entrou, nesse instante, na cabana, empunhando um machado. Arremedou-se, ali, uma luta que mais parecia uma dança... O urso fez de conta que estava cheio de medo e, fingindo uma grande aflição, fugiu para a floresta donde viera. A partir desse dia, a velha Agripina passou a tratar o mano com melhores modos. Fora uma ou outra rabugice, os dois irmãos começaram a dar-se muito bem e voltaram a ser bons amigos. As sementes de amizade, escondidas no fundo dos seus corações cansados, estavam a dar flores... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

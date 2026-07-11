@@ -84,9 +84,9 @@
   "illustratedEdition": {
     "status": "complete",
     "credit": "Edição ilustrada contemporânea gerada com IA",
-    "artDirectionVersion": "1",
+    "artDirectionVersion": "2",
     "planningModel": "gpt-5.4-mini",
-    "visualBrief": "/assets/09-28/illustrated/brief.json",
+    "visualBrief": "/assets/09-28/illustrated/v2/brief.json",
     "scenes": [
       {
         "id": "opening",
@@ -94,8 +94,8 @@
         "attempts": 1,
         "after": null,
         "layout": "opening",
-        "image": "/assets/09-28/illustrated/opening.webp",
-        "alt": "Cabana na floresta com dois velhos à porta."
+        "image": "/assets/09-28/illustrated/v2/opening.webp",
+        "alt": "Ilustração de abertura da história «Um Urso Que Impõe Respeito»."
       },
       {
         "id": "scene-2",
@@ -103,11 +103,11 @@
         "attempts": 1,
         "after": {
           "segment": 0,
-          "paragraph": 10
+          "paragraph": 14
         },
         "layout": "double-page",
-        "image": "/assets/09-28/illustrated/scene-2.webp",
-        "alt": "Discussão matinal dentro da cabana."
+        "image": "/assets/09-28/illustrated/v2/scene-2.webp",
+        "alt": ""
       },
       {
         "id": "scene-3",
@@ -115,11 +115,11 @@
         "attempts": 1,
         "after": {
           "segment": 0,
-          "paragraph": 14
+          "paragraph": 23
         },
-        "layout": "vignette",
-        "image": "/assets/09-28/illustrated/scene-3.webp",
-        "alt": "Gregório encontra o urso na floresta."
+        "layout": "marginal",
+        "image": "/assets/09-28/illustrated/v2/scene-3.webp",
+        "alt": ""
       },
       {
         "id": "scene-4",
@@ -127,11 +127,11 @@
         "attempts": 1,
         "after": {
           "segment": 0,
-          "paragraph": 20
+          "paragraph": 30
         },
         "layout": "double-page",
-        "image": "/assets/09-28/illustrated/scene-4.webp",
-        "alt": "O urso salta da cama e assusta Agripina."
+        "image": "/assets/09-28/illustrated/v2/scene-4.webp",
+        "alt": ""
       },
       {
         "id": "scene-5",
@@ -139,11 +139,11 @@
         "attempts": 1,
         "after": {
           "segment": 0,
-          "paragraph": 22
+          "paragraph": 33
         },
-        "layout": "marginal",
-        "image": "/assets/09-28/illustrated/scene-5.webp",
-        "alt": "Os irmãos fazem as pazes e deixam mel para o urso."
+        "layout": "vignette",
+        "image": "/assets/09-28/illustrated/v2/scene-5.webp",
+        "alt": ""
       }
     ]
   }
