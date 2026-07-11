@@ -1,0 +1,130 @@
+{
+  "characters": [
+    {
+      "name": "Joca",
+      "appearance": "Portuguese child arriving from school, animated and curious, central child figure"
+    },
+    {
+      "name": "Mãe",
+      "appearance": "Adult woman at home, attentive parent"
+    },
+    {
+      "name": "Pai",
+      "appearance": "Adult man at home, attentive parent"
+    },
+    {
+      "name": "Tio Almiro",
+      "appearance": "Older uncle, nearly bald"
+    },
+    {
+      "name": "Avó",
+      "appearance": "Elderly grandmother"
+    },
+    {
+      "name": "Avô",
+      "appearance": "Elderly grandfather"
+    }
+  ],
+  "environment": "A contemporary Portuguese domestic and street setting: home doorway, staircase, apartment facade, sidewalk with stones, and an expansive sky for the closing idea of uncountable things.",
+  "palette": [
+    "warm ochres",
+    "soft blues",
+    "brick red",
+    "cream",
+    "slate gray",
+    "muted green"
+  ],
+  "recurringObjects": [
+    "school bag",
+    "stairs",
+    "apartment windows",
+    "mirror",
+    "sidewalk stones",
+    "clock"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Hoje, sem mais nem menos, o Joca, ao chegar da escola, chamou com muita solenidade os pais e contou-lhes isto que vais ouvir: - Mãe e pai, oiçam o que eu tenho para dizer. Fiquem avisados que já sei contar. Agora não há nada que me escape. Eu conto tudo. A começar por mim. Querem ver? Tenho cinco dedos em cada mão, outros tantos em cada pé. Portanto, como tenho duas mãos e dois pés, o total dos dedos é... deixem-me contar... o total escreve-se assim.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Sei contar».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Hoje, sem mais nem menos, o Joca, ao chegar da escola, chamou com muita solenidade os pais e contou-lhes isto que vais ouvir: - Mãe e pai, oiçam o que eu tenho para dizer. Fiquem avisados que já sei contar. Agora não há nada que me escape. Eu conto tudo. A começar por mim. Querem ver? Tenho cinco dedos em cada mão, outros tantos em cada pé. Portanto, como tenho duas mãos e dois pés, o total dos dedos é... deixem-me contar... o total escreve-se assim. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Hoje, sem mais nem menos, o Joca, ao chegar da escola, chamou com muita solenidade os pais e contou-lhes isto que vais ouvir: - Mãe e pai, oiçam o que eu tenho para dizer. Fiquem avisados que já sei contar. Agora não há nada que me escape. Eu conto tudo. A começar por mim. Querem ver? Tenho cinco dedos em cada mão, outros tantos em cada pé. Portanto, como tenho duas mãos e dois pés, o total dos dedos é... deixem-me contar... o total escreve-se assim.",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Hoje, sem mais nem menos, o Joca, ao chegar da escola, chamou com muita solenidade os pais e contou-lhes isto que vais ouvir: - Mãe e pai, oiçam o que eu tenho para dizer. Fiquem avisados que já sei contar. Agora não há nada que me escape. Eu conto tudo. A começar por mim. Querem ver? Tenho cinco dedos em cada mão, outros tantos em cada pé. Portanto, como tenho duas mãos e dois pés, o total dos dedos é... deixem-me contar... o total escreve-se assim. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p0",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Quarenta e sete pestanas no olho esquerdo, quarenta e uma no olho direito. Estou desequilibrado em pestanas. Para onde teriam ido as outras? E cabelo, quantos cabelos? Que maçada! Nunca vou conseguir contar todos os meus cabelos. Se fossem os do meu tio Almiro, não custava nada. Ele, como vocês sabem, é praticamente careca e cola os cabelos que tem, muito acamadinhos, como se fosse uma rede de pesca. Desço os degraus da minha escada e conto: trinta e seis. A subir são só trinta e cinco. Porque será? Chego à rua e conto as janelas do prédio em frente: dezoito, se não contarmos com a montra da loja do senhor Narciso.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quarenta e sete pestanas no olho esquerdo, quarenta e uma no olho direito. Estou desequilibrado em pestanas. Para onde teriam ido as outras? E cabelo, quantos cabelos? Que maçada! Nunca vou conseguir contar todos os meus cabelos. Se fossem os do meu tio Almiro, não custava nada. Ele, como vocês sabem, é praticamente careca e cola os cabelos que tem, muito acamadinhos, como se fosse uma rede de pesca. Desço os degraus da minha escada e conto: trinta e seis. A subir são só trinta e cinco. Porque será? Chego à rua e conto as janelas do prédio em frente: dezoito, se não contarmos com a montra da loja do senhor Narciso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s5p0"
+      ],
+      "evidence": "Ele, como vocês sabem, é praticamente careca e cola os cabelos que tem, muito acamadinhos, como se fosse uma rede de pesca. Desço os degraus da minha escada e conto: trinta e seis. A subir são só trinta e cinco. Porque será? Chego à rua e conto as janelas do prédio em frente: dezoito, se não contarmos com a montra da loja do senhor Narciso. Olho para o chão e vejo muitas pedras da calçada. Ponho-me a contá-las. Já vou em cento e oitenta e seis e ainda só dei dois passos. Onde é que acaba a calçada? Até onde chegam os números? Não vou conseguir contar todas as pedras. Não vou conseguir.",
+      "after": {
+        "segment": 5,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ele, como vocês sabem, é praticamente careca e cola os cabelos que tem, muito acamadinhos, como se fosse uma rede de pesca. Desço os degraus da minha escada e conto: trinta e seis. A subir são só trinta e cinco. Porque será? Chego à rua e conto as janelas do prédio em frente: dezoito, se não contarmos com a montra da loja do senhor Narciso. Olho para o chão e vejo muitas pedras da calçada. Ponho-me a contá-las. Já vou em cento e oitenta e seis e ainda só dei dois passos. Onde é que acaba a calçada? Até onde chegam os números? Não vou conseguir contar todas as pedras. Não vou conseguir. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s7p0",
+        "s7p1",
+        "s7p2"
+      ],
+      "evidence": "E por mais números que saiba, dizem-me, nunca conseguirei contar. Afinal de que servem os triliões, os quadrilhões, se, mesmo esses, são poucos para contar tudo o que há para contar? - Pois. Já sei contar. Mas ainda me falta saber tanta coisa...",
+      "after": {
+        "segment": 7,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E por mais números que saiba, dizem-me, nunca conseguirei contar. Afinal de que servem os triliões, os quadrilhões, se, mesmo esses, são poucos para contar tudo o que há para contar? - Pois. Já sei contar. Mas ainda me falta saber tanta coisa... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

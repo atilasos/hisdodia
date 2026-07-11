@@ -1,0 +1,97 @@
+{
+  "characters": [
+    {
+      "name": "quadrado",
+      "appearance": "quadrado"
+    },
+    {
+      "name": "triângulo",
+      "appearance": "triângulo"
+    },
+    {
+      "name": "borracha",
+      "appearance": "borracha"
+    }
+  ],
+  "environment": "folha de papel quadriculado",
+  "palette": [
+    "branco",
+    "preto",
+    "cinzento",
+    "azul",
+    "amarelo"
+  ],
+  "recurringObjects": [
+    "papel quadriculado",
+    "caderno escolar",
+    "borracha"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Numa folha de papel quadriculado passa-se cada coisa... Às vezes, passam-se contas. É o mais normal. Nem sempre as contas batem certo, apesar dos quadrados quadradinhos, muito certinhos, terem sido feitos para contas muito bem contadas, certeiras, certinhas, acertadas. Quando a conta não está certa, risca-se ou apaga-se. A folha quadriculada tudo consente, mas no fundo, é muito exigente.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Histórias em quadradinhos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Numa folha de papel quadriculado passa-se cada coisa... Às vezes, passam-se contas. É o mais normal. Nem sempre as contas batem certo, apesar dos quadrados quadradinhos, muito certinhos, terem sido feitos para contas muito bem contadas, certeiras, certinhas, acertadas. Quando a conta não está certa, risca-se ou apaga-se. A folha quadriculada tudo consente, mas no fundo, é muito exigente. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "Quando a conta não está certa, risca-se ou apaga-se. A folha quadriculada tudo consente, mas no fundo, é muito exigente. Mas há mais: onde estão contas, podem estar contos... Às vezes, numa folha de papel quadriculado, acontecem histórias. São estas as autênticas, as primeiras histórias em quadradinhos. Como a que vamos contar.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando a conta não está certa, risca-se ou apaga-se. A folha quadriculada tudo consente, mas no fundo, é muito exigente. Mas há mais: onde estão contas, podem estar contos... Às vezes, numa folha de papel quadriculado, acontecem histórias. São estas as autênticas, as primeiras histórias em quadradinhos. Como a que vamos contar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "O quadrado calado, muito calado, só ouvia. Continuava o triângulo: - Eu sim, sou variável. Umas vezes faço-me triângulo equilátero . Outras, isósceles . Outras, escaleno . Sou um triângulo de muitas formas e feitios. Gosto de variar.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O quadrado calado, muito calado, só ouvia. Continuava o triângulo: - Eu sim, sou variável. Umas vezes faço-me triângulo equilátero . Outras, isósceles . Outras, escaleno . Sou um triângulo de muitas formas e feitios. Gosto de variar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "Então o quadrado não se conteve mais e ripostou: - Vai falando, vai, triângulo presunçoso , mas olha que iguais a ti já eu tenho dois, cá dentro! Então o triângulo ficou tão enfiado que pediu a uma borracha que o apagasse.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Então o quadrado não se conteve mais e ripostou: - Vai falando, vai, triângulo presunçoso , mas olha que iguais a ti já eu tenho dois, cá dentro! Então o triângulo ficou tão enfiado que pediu a uma borracha que o apagasse. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

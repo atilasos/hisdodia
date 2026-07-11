@@ -1,0 +1,122 @@
+{
+  "characters": [
+    {
+      "name": "Milocas",
+      "appearance": "white mother cat"
+    },
+    {
+      "name": "Bibim",
+      "appearance": "white kitten"
+    },
+    {
+      "name": "Bombom",
+      "appearance": "white kitten"
+    },
+    {
+      "name": "Zé Lucas",
+      "appearance": "cat with one black ear, later black body and white ear"
+    },
+    {
+      "name": "médico dos gatos",
+      "appearance": "cat doctor"
+    }
+  ],
+  "environment": "Portuguese children's story world, home and veterinary clinic scenes with a simple domestic and medical setting",
+  "palette": [
+    "white",
+    "black",
+    "soft cream",
+    "muted gray",
+    "warm pastel tones"
+  ],
+  "recurringObjects": [
+    "medicine injection",
+    "doctor's table",
+    "cat bed or home interior"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "A gata Milocas é uma gata branca... A gata Milocas teve três gatinhos. Os gatinhos chamavam-se Bibim, Bombom e Zé Lucas. O Bibim e o Bombom são todos brancos.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Sape Gato».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A gata Milocas é uma gata branca... A gata Milocas teve três gatinhos. Os gatinhos chamavam-se Bibim, Bombom e Zé Lucas. O Bibim e o Bombom são todos brancos. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "O Zé Lucas não é todo branco. Tem uma orelha preta. O Zé Lucas está sempre a lavar a orelha preta, a ver se a orelha muda de cor. Mas a orelha não muda de cor. Continua preta. Então o Zé Lucas resolve ir ao médico dos gatos.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Zé Lucas não é todo branco. Tem uma orelha preta. O Zé Lucas está sempre a lavar a orelha preta, a ver se a orelha muda de cor. Mas a orelha não muda de cor. Continua preta. Então o Zé Lucas resolve ir ao médico dos gatos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p8",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p6",
+        "s2p7",
+        "s2p8"
+      ],
+      "evidence": "- Então? - É preta. A minha orelha é preta. - Quer que lhe corte a orelha?",
+      "after": {
+        "segment": 2,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Então? - É preta. A minha orelha é preta. - Quer que lhe corte a orelha? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p6",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p4",
+        "s3p5",
+        "s3p6"
+      ],
+      "evidence": "Veio com a injecção e deu a injecção ao Zé Lucas. O Zé Lucas disse: - Ai.",
+      "after": {
+        "segment": 3,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Veio com a injecção e deu a injecção ao Zé Lucas. O Zé Lucas disse: - Ai. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p2",
+        "s4p3",
+        "s4p4"
+      ],
+      "evidence": "- Está contente? - perguntou-lhe o médico dos gatos. - Estou - respondeu o Zé Lucas. E estava mesmo!",
+      "after": {
+        "segment": 4,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Está contente? - perguntou-lhe o médico dos gatos. - Estou - respondeu o Zé Lucas. E estava mesmo! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

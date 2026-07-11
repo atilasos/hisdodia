@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era um papagaio muito bem ensinado. Tinha poiso à porta de uma mercearia. De uma vez que o merceeiro estava lá para dentro, um freguês, por pirraça , ensinou o papagaio a dizer: \"Está tudo podre\". E o papagaio, de aí em diante, não disse outra coisa. O anúncio, lançado aos quatro ventos, afastava a clientela. Mal chegava alguém ao balcão da mercearia, o papagaio avisava:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Papagaio bem ensinado».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era um papagaio muito bem ensinado. Tinha poiso à porta de uma mercearia. De uma vez que o merceeiro estava lá para dentro, um freguês, por pirraça , ensinou o papagaio a dizer: \"Está tudo podre\". E o papagaio, de aí em diante, não disse outra coisa. O anúncio, lançado aos quatro ventos, afastava a clientela. Mal chegava alguém ao balcão da mercearia, o papagaio avisava: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p2",
+        "s1p3",
+        "s1p4"
+      ],
+      "evidence": "Ficava furioso o merceeiro: - Este papagaio leva-me à ruína - dizia o merceeiro. - Tenho de dá-lo. E assim fez. Deu-o a um barbeiro.",
+      "after": {
+        "segment": 1,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ficava furioso o merceeiro: - Este papagaio leva-me à ruína - dizia o merceeiro. - Tenho de dá-lo. E assim fez. Deu-o a um barbeiro. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "Isto enervava o barbeiro e enervada o barbeado. - Tenho de ver-me livre deste animal - disse o barbeiro. E atirou-o pela janela. Mas o papagaio, que não estava habituado à liberdade, voltou a poisar no parapeito.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Isto enervava o barbeiro e enervada o barbeado. - Tenho de ver-me livre deste animal - disse o barbeiro. E atirou-o pela janela. Mas o papagaio, que não estava habituado à liberdade, voltou a poisar no parapeito. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Isto uma, duas, três vezes, até que o barbeiro, já exasperado com a teima do passaroco, foi buscar uma caçadeira e deu uns tiros para o ar, só para afugentá-lo, enquanto gritava: - Rua! Rua! O papagaio esvoaçou, a princípio atarantado, mas depressa ganhou altura e voou feliz. Passado muito tempo, foi ter a um armazém em ruínas.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Isto uma, duas, três vezes, até que o barbeiro, já exasperado com a teima do passaroco, foi buscar uma caçadeira e deu uns tiros para o ar, só para afugentá-lo, enquanto gritava: - Rua! Rua! O papagaio esvoaçou, a princípio atarantado, mas depressa ganhou altura e voou feliz. Passado muito tempo, foi ter a um armazém em ruínas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s8p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s8p1",
+        "s8p2",
+        "s8p3"
+      ],
+      "evidence": "- Rua! Rua! Os bandidos, assim que ouviram os disparos, saltaram de medo, supondo que era a polícia. Fugiram todos, rua fora, largando tudo. O papagaio bem ensinado acertara, ao menos uma vez, no que dizia.",
+      "after": {
+        "segment": 8,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Rua! Rua! Os bandidos, assim que ouviram os disparos, saltaram de medo, supondo que era a polícia. Fugiram todos, rua fora, largando tudo. O papagaio bem ensinado acertara, ao menos uma vez, no que dizia. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

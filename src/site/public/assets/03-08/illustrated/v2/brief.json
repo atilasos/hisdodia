@@ -1,0 +1,136 @@
+{
+  "characters": [
+    {
+      "name": "lavrador",
+      "appearance": "homem camponês muito medroso"
+    },
+    {
+      "name": "tigre",
+      "appearance": "tigre de grande porte"
+    },
+    {
+      "name": "mulher do lavrador",
+      "appearance": "mulher destemida, disfarçada de gigante"
+    }
+  ],
+  "environment": "povoado e campos rurais na China antiga",
+  "palette": [
+    "ocres",
+    "verdes apagados",
+    "castanhos terrosos",
+    "vermelhos escuros",
+    "preto"
+  ],
+  "recurringObjects": [
+    "galinhas",
+    "boi",
+    "arado",
+    "machado",
+    "cabaça",
+    "máscara demoníaca",
+    "andas",
+    "túnica longa"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Havia na China de antigamente um lavrador muito medroso. E talvez não lhe faltasse alguma razão, porque, entre outros perigos de respeito, um tigre de grande porte rondava o povoado e saltava aos caminhos, exigindo o seu quinhão. - Dá-me metade das galinhas que levas para o mercado - pedia o tigre, numa voz que não era de pedir. E o pobre camponês, apanhado no caminho, não tinha outro remédio senão dividir a sua carga a meias com o tigre.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O tigre e a mulher do lavrador».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Havia na China de antigamente um lavrador muito medroso. E talvez não lhe faltasse alguma razão, porque, entre outros perigos de respeito, um tigre de grande porte rondava o povoado e saltava aos caminhos, exigindo o seu quinhão. - Dá-me metade das galinhas que levas para o mercado - pedia o tigre, numa voz que não era de pedir. E o pobre camponês, apanhado no caminho, não tinha outro remédio senão dividir a sua carga a meias com o tigre. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "E o pobre camponês, apanhado no caminho, não tinha outro remédio senão dividir a sua carga a meias com o tigre. Um dia, calhou a vez ao lavrador, que sulcava as suas terras com um arado, puxado por um boi. Apareceu-lhe o tigre, que disse: - Dá-me metade desse boi.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E o pobre camponês, apanhado no caminho, não tinha outro remédio senão dividir a sua carga a meias com o tigre. Um dia, calhou a vez ao lavrador, que sulcava as suas terras com um arado, puxado por um boi. Apareceu-lhe o tigre, que disse: - Dá-me metade desse boi. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p2",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "- Dá-me metade desse boi. O camponês, depois de recuperar a fala, que lhe fugira com o susto, pediu misericórdia. Atabalhoadamente, tentou explicar à fera que passar a lavrar a terra só com metade de um boi não ia ser fácil. - Quero lá saber! Arranja-te como puderes - disse o tigre, num tom que não admitia mais discussões.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Dá-me metade desse boi. O camponês, depois de recuperar a fala, que lhe fugira com o susto, pediu misericórdia. Atabalhoadamente, tentou explicar à fera que passar a lavrar a terra só com metade de um boi não ia ser fácil. - Quero lá saber! Arranja-te como puderes - disse o tigre, num tom que não admitia mais discussões. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "- Quero lá saber! Arranja-te como puderes - disse o tigre, num tom que não admitia mais discussões. - Então eu vou buscar o machado a casa, para dividirmos o boi ao meio - disse o lavrador, a ganhar tempo. Quando, esbaforido , chegou a casa e contou à mulher o que se passara, ela, que era mais destemida do que o marido (o que não era difícil...), barafustou com o negócio e propôs-se tratar do caso à sua maneira.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Quero lá saber! Arranja-te como puderes - disse o tigre, num tom que não admitia mais discussões. - Então eu vou buscar o machado a casa, para dividirmos o boi ao meio - disse o lavrador, a ganhar tempo. Quando, esbaforido , chegou a casa e contou à mulher o que se passara, ela, que era mais destemida do que o marido (o que não era difícil...), barafustou com o negócio e propôs-se tratar do caso à sua maneira. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p1",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Quando, esbaforido , chegou a casa e contou à mulher o que se passara, ela, que era mais destemida do que o marido (o que não era difícil...), barafustou com o negócio e propôs-se tratar do caso à sua maneira. Pendurou uma cabaça ao pescoço, que lhe tapava a boca, calçou umas andas, vestiu uma longa túnica e escondeu a cara dentro de uma máscara demoníaca. Parecia um gigante. Assim vestida, pôs-se ao caminho, de machado na mão.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando, esbaforido , chegou a casa e contou à mulher o que se passara, ela, que era mais destemida do que o marido (o que não era difícil...), barafustou com o negócio e propôs-se tratar do caso à sua maneira. Pendurou uma cabaça ao pescoço, que lhe tapava a boca, calçou umas andas, vestiu uma longa túnica e escondeu a cara dentro de uma máscara demoníaca. Parecia um gigante. Assim vestida, pôs-se ao caminho, de machado na mão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s5p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p1",
+        "s5p2",
+        "s5p3"
+      ],
+      "evidence": "- Apetece-me comer um tigre às fatias, cortadas uma a uma pelas riscas dos lombos. - A voz dela ressoava no vazio da cabaça e ribombava , cava e tremenda. O tigre ouviu-a e espreitou por entre os canaviais. Seria o diabo ou a mãe do diabo?",
+      "after": {
+        "segment": 5,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Apetece-me comer um tigre às fatias, cortadas uma a uma pelas riscas dos lombos. - A voz dela ressoava no vazio da cabaça e ribombava , cava e tremenda. O tigre ouviu-a e espreitou por entre os canaviais. Seria o diabo ou a mãe do diabo? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

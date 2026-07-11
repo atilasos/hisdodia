@@ -1,0 +1,142 @@
+{
+  "characters": [
+    {
+      "name": "Joaquim",
+      "appearance": "Young rural Portuguese man, uneasy and impulsive, dressed in simple everyday clothes"
+    },
+    {
+      "name": "Joaquina",
+      "appearance": "Young Portuguese woman, cautious and restrained, in modest village attire"
+    },
+    {
+      "name": "Bruxa",
+      "appearance": "Old witch with a severe, folk-tale look and rustic clothes"
+    },
+    {
+      "name": "Égua branca",
+      "appearance": "White mare, prized and affectionate, central animal figure"
+    },
+    {
+      "name": "Village onlookers",
+      "appearance": "Churchgoers and neighbors in a small Portuguese village, reactive and concerned"
+    }
+  ],
+  "environment": "A small Portuguese village with a house window, a church adro, and a tense outdoor rescue scene that ends in a wedding-like happy resolution.",
+  "palette": [
+    "warm earth tones",
+    "soft whites",
+    "muted browns",
+    "village stone gray",
+    "subtle greens",
+    "gentle daylight reds"
+  ],
+  "recurringObjects": [
+    "bolo de pão e ervas",
+    "janela/parapeito",
+    "freio/bridle",
+    "adro da igreja",
+    "arms embrace / rescue pose"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era um rapaz que gostava muito de uma rapariga. Ela não tanto. Chamava-se ele Joaquim. Chamava-se ela Joaquina. Com estes nomes via-se que estavam mesmo feitos um para o outro. Mas nem sempre as coisas são como a gente julga. - Queres casar comigo, Joaquina?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Pobre da égua branca».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era um rapaz que gostava muito de uma rapariga. Ela não tanto. Chamava-se ele Joaquim. Chamava-se ela Joaquina. Com estes nomes via-se que estavam mesmo feitos um para o outro. Mas nem sempre as coisas são como a gente julga. - Queres casar comigo, Joaquina? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "O rapaz impacientou-se. Impacientou-se e foi consultar uma bruxa, que lhe fez um bolo de pão e ervas, muito bem amassado. Enquanto preparava o bolo a bruxa dizia: - Chapa daqui, chapa dali, quem te comer morrerá por mim. Era para ele dar a comer à namorada.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O rapaz impacientou-se. Impacientou-se e foi consultar uma bruxa, que lhe fez um bolo de pão e ervas, muito bem amassado. Enquanto preparava o bolo a bruxa dizia: - Chapa daqui, chapa dali, quem te comer morrerá por mim. Era para ele dar a comer à namorada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p2",
+        "s1p3",
+        "s2p0"
+      ],
+      "evidence": "- Chapa daqui, chapa dali, quem te comer morrerá por mim. Era para ele dar a comer à namorada. O rapaz deixou o bolo a arrefecer no parapeito da janela da Joaquina, a contar que ela lhe pegasse. Logo por azar, quem abocanhou o bolo mágico foi uma égua branca de muita estimação da rapariga. Montada nela, é que Joaquina ia sempre à missa.",
+      "after": {
+        "segment": 2,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Chapa daqui, chapa dali, quem te comer morrerá por mim. Era para ele dar a comer à namorada. O rapaz deixou o bolo a arrefecer no parapeito da janela da Joaquina, a contar que ela lhe pegasse. Logo por azar, quem abocanhou o bolo mágico foi uma égua branca de muita estimação da rapariga. Montada nela, é que Joaquina ia sempre à missa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "O rapaz deixou o bolo a arrefecer no parapeito da janela da Joaquina, a contar que ela lhe pegasse. Logo por azar, quem abocanhou o bolo mágico foi uma égua branca de muita estimação da rapariga. Montada nela, é que Joaquina ia sempre à missa. No domingo, pespegou-se o Joaquim, no meio do adro da igreja, à espera do efeito do feitiço. Assim que o viu, a égua, que trazia a Joaquina em cima, pôs-se aos pulos e aos coices, numa grande alegria. Que paixão mais disparatada! - A égua tomou o freio nos dentes - gritaram.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O rapaz deixou o bolo a arrefecer no parapeito da janela da Joaquina, a contar que ela lhe pegasse. Logo por azar, quem abocanhou o bolo mágico foi uma égua branca de muita estimação da rapariga. Montada nela, é que Joaquina ia sempre à missa. No domingo, pespegou-se o Joaquim, no meio do adro da igreja, à espera do efeito do feitiço. Assim que o viu, a égua, que trazia a Joaquina em cima, pôs-se aos pulos e aos coices, numa grande alegria. Que paixão mais disparatada! - A égua tomou o freio nos dentes - gritaram. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "O Joaquim acudiu à Joaquina, mesmo no instante em que ela ia a cair da montada. Ficou o rapaz com a rapariga nos braços. A égua, que continuava desaustinada , teve que ser abatida, com grande pena da dona que tremia e chorava no colo do seu salvador. - Queres casar comigo, Joaquina? - perguntou ele.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Joaquim acudiu à Joaquina, mesmo no instante em que ela ia a cair da montada. Ficou o rapaz com a rapariga nos braços. A égua, que continuava desaustinada , teve que ser abatida, com grande pena da dona que tremia e chorava no colo do seu salvador. - Queres casar comigo, Joaquina? - perguntou ele. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s5p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p2",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "- Queres casar comigo, Joaquina? - perguntou ele. - Quero, sim, Joaquim - respondeu ela, num primeiro sorriso, depois das lágrimas. Casaram e foram muito felizes.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Queres casar comigo, Joaquina? - perguntou ele. - Quero, sim, Joaquim - respondeu ela, num primeiro sorriso, depois das lágrimas. Casaram e foram muito felizes. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

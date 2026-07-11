@@ -1,0 +1,139 @@
+{
+  "characters": [
+    {
+      "name": "Mário",
+      "appearance": "Rapaz curioso, atento e determinado; expressão de detective improvisado, roupa infantil contemporânea simples, postura activa e observadora."
+    },
+    {
+      "name": "José Marques Silva",
+      "appearance": "Homem de 55 anos, presença adulta tranquila, expressão aliviada e grata ao recuperar a carteira."
+    },
+    {
+      "name": "Manuel Maria Pereira dos Santos",
+      "appearance": "Rapaz da idade do Mário, energico, surpreendido no momento da revelacao, ambiente de aniversario."
+    },
+    {
+      "name": "Empregado da camisaria",
+      "appearance": "Adulto de loja, postura de atendimento, discreto, a indicar arquivos e listas."
+    }
+  ],
+  "environment": "Portugal contemporanea, ruas urbanas de bairro, camisaria de bairro, secretaria de clube, porta de casa e, no desfecho, uma pequena festa de aniversario com clima caloroso e quotidiano.",
+  "palette": [
+    "tons quentes de pele e tijolo",
+    "azuis e verdes suaves de roupa e azulejo",
+    "bege, castanho e creme para papel, madeira e carteira",
+    "acentos vermelhos e amarelos discretos para energia e celebracao",
+    "luz natural clara de dia"
+  ],
+  "recurringObjects": [
+    "carteira de pele",
+    "cartoes e papeis",
+    "calendario pequeno",
+    "factura da camisaria",
+    "lista de telefones",
+    "porta de casa",
+    "cartao do Clube Nacional de Natação"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O Mário encontrou uma carteira no chão. Olhou para um lado e para o outro, ninguém no passeio. Mas podia ter caído de uma janela. O Mário olhou para cima. Um alto muro, sem nenhuma abertura, foi o que viu. A carteira era de pele de boa qualidade. Nesse caso, pensou o Mário, não foi deitada fora, como coisa sem préstimo.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A carteira perdida».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Mário encontrou uma carteira no chão. Olhou para um lado e para o outro, ninguém no passeio. Mas podia ter caído de uma janela. O Mário olhou para cima. Um alto muro, sem nenhuma abertura, foi o que viu. A carteira era de pele de boa qualidade. Nesse caso, pensou o Mário, não foi deitada fora, como coisa sem préstimo. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s2p0"
+      ],
+      "evidence": "A alguém devia pertencer. Alguém que a perdera e que, aflito, a procurava. Quem seria? Abriu a carteira, à procura de algum documento que o pusesse na pista do dono. Encontrou notas, uma quantidade delas, e alguns cartões e papéis. Põe-se a lê-los, um por um, na esperança de assim chegar ao dono da carteira. Havia um cartão de identidade, em nome de José Marques Silva, de 55 anos. Havia um cartão de sócio do Clube Nacional de Natação, um cartão novinho, em nome de Manuel Maria Pereira dos Santos, com o retrato do dito, o de um rapaz pouco mais ou menos pela idade do Mário. Havia um passe de transportes, em nome do tal José Marques Silva de 55 anos.",
+      "after": {
+        "segment": 2,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A alguém devia pertencer. Alguém que a perdera e que, aflito, a procurava. Quem seria? Abriu a carteira, à procura de algum documento que o pusesse na pista do dono. Encontrou notas, uma quantidade delas, e alguns cartões e papéis. Põe-se a lê-los, um por um, na esperança de assim chegar ao dono da carteira. Havia um cartão de identidade, em nome de José Marques Silva, de 55 anos. Havia um cartão de sócio do Clube Nacional de Natação, um cartão novinho, em nome de Manuel Maria Pereira dos Santos, com o retrato do dito, o de um rapaz pouco mais ou menos pela idade do Mário. Havia um passe de transportes, em nome do tal José Marques Silva de 55 anos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s4p0"
+      ],
+      "evidence": "Portanto, tudo fazia crer que a carteira pertencesse ao senhor José. O cartão do clube, com o retrato do Manuel Maria, estava ali só para baralhar as investigações. Porque, de facto, para o Mário, aquilo era uma investigação. O caso estava a entusiasmá-lo. Podia, pura e simplesmente, entregar a carteira, na esquadra da polícia mais próxima, onde iria parar à secção dos objectos perdidos. Poder, podia, mas ser ele a chegar, sozinho, ao dono da carteira tinha mais graça. Mais classe. Mais pinta.",
+      "after": {
+        "segment": 4,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Portanto, tudo fazia crer que a carteira pertencesse ao senhor José. O cartão do clube, com o retrato do Manuel Maria, estava ali só para baralhar as investigações. Porque, de facto, para o Mário, aquilo era uma investigação. O caso estava a entusiasmá-lo. Podia, pura e simplesmente, entregar a carteira, na esquadra da polícia mais próxima, onde iria parar à secção dos objectos perdidos. Poder, podia, mas ser ele a chegar, sozinho, ao dono da carteira tinha mais graça. Mais classe. Mais pinta. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "Entre papéis com apontamentos, numa letra ilegível, havia uma factura de uma camisaria, com a seguinte indicação: \"Levantar calças no dia 12/3\". Como a carteira tinha um pequeno calendário, Mário conferiu a data. Dia 12 de Março... - É hoje - exclamou o Mário.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Entre papéis com apontamentos, numa letra ilegível, havia uma factura de uma camisaria, com a seguinte indicação: \"Levantar calças no dia 12/3\". Como a carteira tinha um pequeno calendário, Mário conferiu a data. Dia 12 de Março... - É hoje - exclamou o Mário. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s9p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s8p1",
+        "s9p0",
+        "s9p1"
+      ],
+      "evidence": "- É uma ideia, que fica de reserva - disse o Mário. - Cá para mim, há outra mais fácil. Vou ao Clube Nacional de Natação e pergunto pela morada deste Manuel Maria, que tem cara de ser da minha idade. Na secretaria do clube, o cartão de sócio chamou a folha de inscrição, onde figurava a morada do tal Manuel Maria. De posse dessa informação essencial, o Mário correu para a rua do Manuel Maria. Bateu à porta e um rapaz veio atender. - Tu és o Manuel Maria - disse o Mário, de dedo apontado.",
+      "after": {
+        "segment": 9,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - É uma ideia, que fica de reserva - disse o Mário. - Cá para mim, há outra mais fácil. Vou ao Clube Nacional de Natação e pergunto pela morada deste Manuel Maria, que tem cara de ser da minha idade. Na secretaria do clube, o cartão de sócio chamou a folha de inscrição, onde figurava a morada do tal Manuel Maria. De posse dessa informação essencial, o Mário correu para a rua do Manuel Maria. Bateu à porta e um rapaz veio atender. - Tu és o Manuel Maria - disse o Mário, de dedo apontado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s11p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s10p3",
+        "s11p0",
+        "s11p1"
+      ],
+      "evidence": "Não eram bem. O Manuel Maria estava a festejar o aniversário, que o colocava um ano acima da idade do Mário. Uma das prendas que o padrinho para ele tinha reservado era o cartão de sócio do Clube Nacional de Natação. A outra eram as calças. Mas quem se sentiu mais prendado, com a inesperada restituição da carteira intacta, foi o senhor José Marques Silva.",
+      "after": {
+        "segment": 11,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não eram bem. O Manuel Maria estava a festejar o aniversário, que o colocava um ano acima da idade do Mário. Uma das prendas que o padrinho para ele tinha reservado era o cartão de sócio do Clube Nacional de Natação. A outra eram as calças. Mas quem se sentiu mais prendado, com a inesperada restituição da carteira intacta, foi o senhor José Marques Silva. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

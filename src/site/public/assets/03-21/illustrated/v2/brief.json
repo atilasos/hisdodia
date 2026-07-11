@@ -1,0 +1,111 @@
+{
+  "characters": [
+    {
+      "name": "o vento",
+      "appearance": "força invisível e dominante, presença móvel nas dunas"
+    },
+    {
+      "name": "os pinheiros novos",
+      "appearance": "brotos e árvores jovens, finos, resistentes, crescendo na areia"
+    }
+  ],
+  "environment": "Dunas costeiras amplas e ventosas, areia movediça, vegetação rasteira e depois uma pequena mata de pinheiros em crescimento.",
+  "palette": [
+    "areia dourada",
+    "ocre pálido",
+    "azul desbotado",
+    "verde jovem",
+    "castanho seco"
+  ],
+  "recurringObjects": [
+    "dunas",
+    "vento",
+    "ervinhas rasteiras",
+    "pinheiros jovens"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Eram dunas e dunas, a perder de vista. Montes de areia para o vento brincar... Hoje, fazia uma duna maior aqui, amanhã apagava-a, para fazê-la mais além e, sempre segundo os seus caprichos, onde estavam montes, cavava vales, onde estavam vales, amoldava montes. O vento era uma vassoura enorme. Cabeleiras dóceis de ervinhas rasteiras deixavam-se pentear, despentear, ao sabor do vento gigante. Ele é que mandava.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Da erva à árvore».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eram dunas e dunas, a perder de vista. Montes de areia para o vento brincar... Hoje, fazia uma duna maior aqui, amanhã apagava-a, para fazê-la mais além e, sempre segundo os seus caprichos, onde estavam montes, cavava vales, onde estavam vales, amoldava montes. O vento era uma vassoura enorme. Cabeleiras dóceis de ervinhas rasteiras deixavam-se pentear, despentear, ao sabor do vento gigante. Ele é que mandava. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Hoje, fazia uma duna maior aqui, amanhã apagava-a, para fazê-la mais além e, sempre segundo os seus caprichos, onde estavam montes, cavava vales, onde estavam vales, amoldava montes. O vento era uma vassoura enorme. Cabeleiras dóceis de ervinhas rasteiras deixavam-se pentear, despentear, ao sabor do vento gigante. Ele é que mandava. Uma delas, à beira de um tojo só picos, cresceu. Delgadinha que era arriscou-se à vida. Rompera a areia e apontava para cima. Ela lá sabia.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Hoje, fazia uma duna maior aqui, amanhã apagava-a, para fazê-la mais além e, sempre segundo os seus caprichos, onde estavam montes, cavava vales, onde estavam vales, amoldava montes. O vento era uma vassoura enorme. Cabeleiras dóceis de ervinhas rasteiras deixavam-se pentear, despentear, ao sabor do vento gigante. Ele é que mandava. Uma delas, à beira de um tojo só picos, cresceu. Delgadinha que era arriscou-se à vida. Rompera a areia e apontava para cima. Ela lá sabia. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "Lá se foi aguentando. O vento, a princípio, nem dava por ela. Era uma erva como as outras. Senhor daquelas dunas, o que ele queria era disciplina, ordem, submissão. A erva, que erva afinal não era, submetia-se. Óptimo. Foi crescendo e o vento sem dar por ela. Era um tronco já, uma árvorezinha de Natal para casa de bonecas. Outras ervinhas como, dantes, ela tinha sido, despontavam também, na mesma duna.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Lá se foi aguentando. O vento, a princípio, nem dava por ela. Era uma erva como as outras. Senhor daquelas dunas, o que ele queria era disciplina, ordem, submissão. A erva, que erva afinal não era, submetia-se. Óptimo. Foi crescendo e o vento sem dar por ela. Era um tronco já, uma árvorezinha de Natal para casa de bonecas. Outras ervinhas como, dantes, ela tinha sido, despontavam também, na mesma duna. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p1",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Foi crescendo e o vento sem dar por ela. Era um tronco já, uma árvorezinha de Natal para casa de bonecas. Outras ervinhas como, dantes, ela tinha sido, despontavam também, na mesma duna. Ali havia uma pequena nação de pinheiros novos. A ordem era: persistir. Por enquanto, persistir. Resistir, seria para depois. E foram vingando. Quando o vento deu por eles, teve uma grande cólera e soprou, dias a fio, sobre a duna, donde nascia, miudamente, frágil ainda, um sinal de rebeldia ao seu poder.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Foi crescendo e o vento sem dar por ela. Era um tronco já, uma árvorezinha de Natal para casa de bonecas. Outras ervinhas como, dantes, ela tinha sido, despontavam também, na mesma duna. Ali havia uma pequena nação de pinheiros novos. A ordem era: persistir. Por enquanto, persistir. Resistir, seria para depois. E foram vingando. Quando o vento deu por eles, teve uma grande cólera e soprou, dias a fio, sobre a duna, donde nascia, miudamente, frágil ainda, um sinal de rebeldia ao seu poder. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p2",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "Uns e outros, os maiores e os mais pequenos, começaram a olhar para a sombra. Alastravam para outras dunas. Guerreiros chamavam por outros guerreiros e desafiavam o vento. \"Nada podes contra nós\", gritavam-lhe. O maior, o chefe, o mais velho, que da erva se fez tronco, do tronco se fez árvore, comandava a defesa e dizia aos mais novos, nas alturas em que o vento lhes fazia ranger os ramos: \"Aguentem, que já passámos por pior\". Eles aguentavam. E foi assim que o vento, o gigante caprichoso que dantes arrasava dunas, teve de deixar de fazer castelos na areia.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Uns e outros, os maiores e os mais pequenos, começaram a olhar para a sombra. Alastravam para outras dunas. Guerreiros chamavam por outros guerreiros e desafiavam o vento. \"Nada podes contra nós\", gritavam-lhe. O maior, o chefe, o mais velho, que da erva se fez tronco, do tronco se fez árvore, comandava a defesa e dizia aos mais novos, nas alturas em que o vento lhes fazia ranger os ramos: \"Aguentem, que já passámos por pior\". Eles aguentavam. E foi assim que o vento, o gigante caprichoso que dantes arrasava dunas, teve de deixar de fazer castelos na areia. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

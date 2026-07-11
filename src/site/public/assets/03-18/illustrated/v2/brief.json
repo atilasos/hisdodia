@@ -1,0 +1,104 @@
+{
+  "characters": [],
+  "environment": "country of clouds and legends, forest clearing, royal tournament grounds, castle court",
+  "palette": [
+    "white",
+    "gold",
+    "deep green",
+    "blue",
+    "red",
+    "brown"
+  ],
+  "recurringObjects": [
+    "crown",
+    "sword",
+    "stone",
+    "horse",
+    "banner"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Há muito e muito tempo, num país de nuvens e lendas, vivia um rei chamado Uther. Quando o trono deste país ficou vazio, ficou o reino sem rei nem roque, porque príncipes e condes todos queriam, à uma, experimentar a coroa do rei Uther, a ver se lhes assentava bem... Mas, embora ninguém soubesse, o rei Uther tinha deixado um filho, chamado Artur, a quem, por direito, a coroa real devia pertencer. O sábio Merlim, receando que algum mal sucedesse ao principezinho, levara-o da corte, para entregá-lo aos cuidados de Sir Heitor, um bom e leal cavaleiro. No castelo deste fidalgo, crescera. Tão carinhosamente tratado sempre fora que se julgava filho de Sir Heitor e irmão de Kay, um jovem da sua idade, filho único do cavaleiro.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Espada do Rei Uther».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Há muito e muito tempo, num país de nuvens e lendas, vivia um rei chamado Uther. Quando o trono deste país ficou vazio, ficou o reino sem rei nem roque, porque príncipes e condes todos queriam, à uma, experimentar a coroa do rei Uther, a ver se lhes assentava bem... Mas, embora ninguém soubesse, o rei Uther tinha deixado um filho, chamado Artur, a quem, por direito, a coroa real devia pertencer. O sábio Merlim, receando que algum mal sucedesse ao principezinho, levara-o da corte, para entregá-lo aos cuidados de Sir Heitor, um bom e leal cavaleiro. No castelo deste fidalgo, crescera. Tão carinhosamente tratado sempre fora que se julgava filho de Sir Heitor e irmão de Kay, um jovem da sua idade, filho único do cavaleiro. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p5",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p3",
+        "s0p4",
+        "s0p5"
+      ],
+      "evidence": "Como, à falta de um rei, ninguém se entendia, o arcebispo, encarregado de velar pelo reino, decidiu convocar todos os pretendentes. À medida que os muitos condes e príncipes chegavam à clareira da floresta, onde fora marcada a reunião, uma grande pedra branca ia rompendo da terra, como se fosse empurrada de baixo por qualquer força estranha. Perturbados, os cavaleiros viam-na crescer, até que um deles exclamou: – Olhai, que uma espada está enterrada no coração da pedra... A pedra parou. A meio, uma bela espada de punho de oiro reluzia cravada na rocha.",
+      "after": {
+        "segment": 0,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Como, à falta de um rei, ninguém se entendia, o arcebispo, encarregado de velar pelo reino, decidiu convocar todos os pretendentes. À medida que os muitos condes e príncipes chegavam à clareira da floresta, onde fora marcada a reunião, uma grande pedra branca ia rompendo da terra, como se fosse empurrada de baixo por qualquer força estranha. Perturbados, os cavaleiros viam-na crescer, até que um deles exclamou: – Olhai, que uma espada está enterrada no coração da pedra... A pedra parou. A meio, uma bela espada de punho de oiro reluzia cravada na rocha. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p7",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p5",
+        "s0p6",
+        "s0p7"
+      ],
+      "evidence": "A pedra parou. A meio, uma bela espada de punho de oiro reluzia cravada na rocha. – Esta espada pertenceu ao generoso e amado rei Uther, que sempre a levantou em defesa dos fracos e dos bons – proclamou o arcebispo. – Glória a quem a arrancar da pedra, porque esse será o rei. Precipitaram-se os pretendentes para a espada. Príncipes e condes tentaram a sua sorte. Em vão. A espada não se deixava mover.",
+      "after": {
+        "segment": 0,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A pedra parou. A meio, uma bela espada de punho de oiro reluzia cravada na rocha. – Esta espada pertenceu ao generoso e amado rei Uther, que sempre a levantou em defesa dos fracos e dos bons – proclamou o arcebispo. – Glória a quem a arrancar da pedra, porque esse será o rei. Precipitaram-se os pretendentes para a espada. Príncipes e condes tentaram a sua sorte. Em vão. A espada não se deixava mover. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p14",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p12",
+        "s0p13",
+        "s0p14"
+      ],
+      "evidence": "Mas, quando chegou à estalagem, as portas estavam cerradas e a estalagem vazia. Os donos e a criadagem tinham ido ver os torneios. Desolado, Artur regressou ao acampamento de Sir Heitor. Entretanto, lembrou-se de que vira, numa clareira por onde passara, uma enorme pedra branca, encimada por uma espada. Procurou o local e encontrou-o. Também os guardas tinham trocado a missão de sentinela pelo torneio... No meio da floresta, enterrada na pedra, uma espada aguardava o jovem cavaleiro. O moço Artur merecia-a. Num único impulso, arrancou-a da bainha mágica e trouxe-a a Kay.",
+      "after": {
+        "segment": 0,
+        "paragraph": 14
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas, quando chegou à estalagem, as portas estavam cerradas e a estalagem vazia. Os donos e a criadagem tinham ido ver os torneios. Desolado, Artur regressou ao acampamento de Sir Heitor. Entretanto, lembrou-se de que vira, numa clareira por onde passara, uma enorme pedra branca, encimada por uma espada. Procurou o local e encontrou-o. Também os guardas tinham trocado a missão de sentinela pelo torneio... No meio da floresta, enterrada na pedra, uma espada aguardava o jovem cavaleiro. O moço Artur merecia-a. Num único impulso, arrancou-a da bainha mágica e trouxe-a a Kay. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p25",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p23",
+        "s0p24",
+        "s0p25"
+      ],
+      "evidence": "– Mas eu não quero ser rei – lastimava-se Artur. – Vós sois o meu pai muito amado e Kay o meu querido irmão. Sir Heitor assegurou-lhe que continuariam sempre seus amigos. Com esta promessa, Artur concordou em que o levassem à presença do arcebispo. Diante de todo o povo, Artur enterrou a espada na pedra e arrancou-a, como se a pedra fosse terra mole. Os condes e os príncipes não queriam acreditar no que viam e exigiram nova demonstração. Artur acedeu.",
+      "after": {
+        "segment": 0,
+        "paragraph": 25
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Mas eu não quero ser rei – lastimava-se Artur. – Vós sois o meu pai muito amado e Kay o meu querido irmão. Sir Heitor assegurou-lhe que continuariam sempre seus amigos. Com esta promessa, Artur concordou em que o levassem à presença do arcebispo. Diante de todo o povo, Artur enterrou a espada na pedra e arrancou-a, como se a pedra fosse terra mole. Os condes e os príncipes não queriam acreditar no que viam e exigiram nova demonstração. Artur acedeu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

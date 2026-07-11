@@ -1,0 +1,99 @@
+{
+  "characters": [
+    {
+      "name": "Joca",
+      "appearance": "child with lively, stubborn expression; simple home clothes; focused on a classic pointer clock"
+    },
+    {
+      "name": "Padrinho",
+      "appearance": "older adult with amused, patient presence; practical everyday clothing"
+    },
+    {
+      "name": "Mãe",
+      "appearance": "adult woman with calm, teasing manner; nightwear or home clothes"
+    }
+  ],
+  "environment": "A domestic Portuguese home across day and night, centered on Joca’s room and the household clock, with family interiors suggesting meals, bedtime, and the passage of time.",
+  "palette": [
+    "warm cream",
+    "muted ochre",
+    "soft brown",
+    "dusty blue",
+    "night navy",
+    "gentle red accents"
+  ],
+  "recurringObjects": [
+    "classic pointer clock",
+    "table clock",
+    "bedroom setting",
+    "meal-time cues"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Deram um relógio ao Joca. O primeiro. Ele queria um de mostrador irrequieto, sempre com os segundos aos saltinhos, mas o padrinho deu-lhe um de ponteiros, à antiga. – É um relógio do meu tempo – disse o padrinho. – Então não me serve – disse o Joca. – Estás sempre a dizer que, no teu tempo, não havia tanta pressa. Ora eu não quero chegar atrasado à escola.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Relógio do Joca».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Deram um relógio ao Joca. O primeiro. Ele queria um de mostrador irrequieto, sempre com os segundos aos saltinhos, mas o padrinho deu-lhe um de ponteiros, à antiga. – É um relógio do meu tempo – disse o padrinho. – Então não me serve – disse o Joca. – Estás sempre a dizer que, no teu tempo, não havia tanta pressa. Ora eu não quero chegar atrasado à escola. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p6",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "– E quem os acerta? – quis saber o Joca. – É o Sol e somos nós, que estabelecemos esta regra – respondeu o padrinho com pouca paciência para mais explicações. Quando se viu sozinho, o Joca pôs-se a regular o tempo, à sua conta. Decidiu que era hora de almoço e impôs aos ponteiros o meio– dia e trinta minutos. Mas ninguém o chamou para almoçar.",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – E quem os acerta? – quis saber o Joca. – É o Sol e somos nós, que estabelecemos esta regra – respondeu o padrinho com pouca paciência para mais explicações. Quando se viu sozinho, o Joca pôs-se a regular o tempo, à sua conta. Decidiu que era hora de almoço e impôs aos ponteiros o meio– dia e trinta minutos. Mas ninguém o chamou para almoçar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p13",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p11",
+        "s0p12",
+        "s0p13"
+      ],
+      "evidence": "– O teu relógio deve estar escangalhado – disse o Joca para a mãe. – No meu ainda falta muito. A mãe espreitou para o relógio do filho. Marcava duas horas em ponto. – Mas é tardíssimo. Duas horas da manhã? – fingiu que se assustava a mãe. – Tão tarde e tu ainda a pé? Não pode ser.",
+      "after": {
+        "segment": 0,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – O teu relógio deve estar escangalhado – disse o Joca para a mãe. – No meu ainda falta muito. A mãe espreitou para o relógio do filho. Marcava duas horas em ponto. – Mas é tardíssimo. Duas horas da manhã? – fingiu que se assustava a mãe. – Tão tarde e tu ainda a pé? Não pode ser. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p15",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p13",
+        "s0p14",
+        "s0p15"
+      ],
+      "evidence": "– Mas é tardíssimo. Duas horas da manhã? – fingiu que se assustava a mãe. – Tão tarde e tu ainda a pé? Não pode ser. – Duas horas da tarde – protestou o Joca. Mas não levou a dele avante. Aqueles relógios de ponteiros, afinal, ainda eram muito imperfeitos...",
+      "after": {
+        "segment": 0,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Mas é tardíssimo. Duas horas da manhã? – fingiu que se assustava a mãe. – Tão tarde e tu ainda a pé? Não pode ser. – Duas horas da tarde – protestou o Joca. Mas não levou a dele avante. Aqueles relógios de ponteiros, afinal, ainda eram muito imperfeitos... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

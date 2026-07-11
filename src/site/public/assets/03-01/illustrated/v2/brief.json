@@ -1,0 +1,115 @@
+{
+  "characters": [
+    {
+      "name": "o cão",
+      "appearance": "cão pequeno e espigado, de pêlo desalinhado, postura inquieta e a coçar-se com insistência"
+    },
+    {
+      "name": "o narrador",
+      "appearance": "adulto em roupa simples de casa, expressão irónica e gestos de decisão"
+    },
+    {
+      "name": "o mar",
+      "appearance": "ondas frias de março, água escura e agitada junto à praia"
+    }
+  ],
+  "environment": "Casa portuguesa simples, praia ventosa de março e regresso acolhedor ao interior com lareira acesa.",
+  "palette": [
+    "azuis frios",
+    "cinzentos de mar e céu",
+    "areia bege",
+    "castanhos quentes da lareira",
+    "toques de vermelho discreto"
+  ],
+  "recurringObjects": [
+    "coleira do cão",
+    "ondas da praia",
+    "lareira",
+    "roupa molhada"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O meu cão está com comichão. Coça-se desenfreadamente , todo o santo dia. - Queres tomar uma banhoca? - pergunto-lhe eu. Mas ele foge-me. Diz que não é cão de água e que as pulgas são dele, só dele, muito dele.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Comichão de cão».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O meu cão está com comichão. Coça-se desenfreadamente , todo o santo dia. - Queres tomar uma banhoca? - pergunto-lhe eu. Mas ele foge-me. Diz que não é cão de água e que as pulgas são dele, só dele, muito dele. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "- Preferes continuar com essa comichão, preferes? Ele diz que sim e coça-se. Mas isto não me parece bem. Quem o vir naquele desespero o que dirá? Que o dono é um porco, porque nunca dá banho ao desgraçado do cão.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Preferes continuar com essa comichão, preferes? Ele diz que sim e coça-se. Mas isto não me parece bem. Quem o vir naquele desespero o que dirá? Que o dono é um porco, porque nunca dá banho ao desgraçado do cão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s2p0"
+      ],
+      "evidence": "Ele diz que sim e coça-se. Mas isto não me parece bem. Quem o vir naquele desespero o que dirá? Que o dono é um porco, porque nunca dá banho ao desgraçado do cão. Tive de tomar providências. Fui passear com ele à praia e, de repente, sem me despir, atirei-me para o meio das ondas. Ele que me segue para todo o lado, seguiu-me. Coisas do instinto, de que rapidamente se arrependeu, mas já era tarde. Estávamos os dois a nadar, cada qual no seu estilo. Eu tiritava, porque o mar de Março é gelo derretido. Nunca experimentem.",
+      "after": {
+        "segment": 2,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ele diz que sim e coça-se. Mas isto não me parece bem. Quem o vir naquele desespero o que dirá? Que o dono é um porco, porque nunca dá banho ao desgraçado do cão. Tive de tomar providências. Fui passear com ele à praia e, de repente, sem me despir, atirei-me para o meio das ondas. Ele que me segue para todo o lado, seguiu-me. Coisas do instinto, de que rapidamente se arrependeu, mas já era tarde. Estávamos os dois a nadar, cada qual no seu estilo. Eu tiritava, porque o mar de Março é gelo derretido. Nunca experimentem. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p0",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "Tive de tomar providências. Fui passear com ele à praia e, de repente, sem me despir, atirei-me para o meio das ondas. Ele que me segue para todo o lado, seguiu-me. Coisas do instinto, de que rapidamente se arrependeu, mas já era tarde. Estávamos os dois a nadar, cada qual no seu estilo. Eu tiritava, porque o mar de Março é gelo derretido. Nunca experimentem. Quando, ambos a pingar, regressámos a casa, fui logo acender a lareira e mudar de roupa. Ele ficou com o pêlo de sempre, mas já não se coçava. As pulgas teriam morrido afogadas ou de frio ou de susto. O meu cão de pêlo salgado regalava-se ao calor da lareira.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Tive de tomar providências. Fui passear com ele à praia e, de repente, sem me despir, atirei-me para o meio das ondas. Ele que me segue para todo o lado, seguiu-me. Coisas do instinto, de que rapidamente se arrependeu, mas já era tarde. Estávamos os dois a nadar, cada qual no seu estilo. Eu tiritava, porque o mar de Março é gelo derretido. Nunca experimentem. Quando, ambos a pingar, regressámos a casa, fui logo acender a lareira e mudar de roupa. Ele ficou com o pêlo de sempre, mas já não se coçava. As pulgas teriam morrido afogadas ou de frio ou de susto. O meu cão de pêlo salgado regalava-se ao calor da lareira. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s4p0"
+      ],
+      "evidence": "Quando, ambos a pingar, regressámos a casa, fui logo acender a lareira e mudar de roupa. Ele ficou com o pêlo de sempre, mas já não se coçava. As pulgas teriam morrido afogadas ou de frio ou de susto. O meu cão de pêlo salgado regalava-se ao calor da lareira. Lá para Julho volto a experimentar o truque. Pode não resultar, mas, ao menos, já não me constipo.",
+      "after": {
+        "segment": 4,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando, ambos a pingar, regressámos a casa, fui logo acender a lareira e mudar de roupa. Ele ficou com o pêlo de sempre, mas já não se coçava. As pulgas teriam morrido afogadas ou de frio ou de susto. O meu cão de pêlo salgado regalava-se ao calor da lareira. Lá para Julho volto a experimentar o truque. Pode não resultar, mas, ao menos, já não me constipo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

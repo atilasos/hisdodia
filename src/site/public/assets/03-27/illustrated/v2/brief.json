@@ -1,0 +1,142 @@
+{
+  "characters": [
+    {
+      "name": "senhor muito curioso",
+      "appearance": "adult man, expressive and inquisitive, simple clothes, animated posture, often centered as host of the scene"
+    },
+    {
+      "name": "menino elefante",
+      "appearance": "small elephant child, playful and gentle, later masked as a flea"
+    },
+    {
+      "name": "girafa",
+      "appearance": "tall giraffe, elegant and secretive, later disguised as a crab"
+    },
+    {
+      "name": "coelho",
+      "appearance": "small rabbit, alert and nervous, later disguised as a wolf"
+    },
+    {
+      "name": "leão",
+      "appearance": "lion with a sleepy, dignified presence, later disguised as a sheep"
+    }
+  ],
+  "environment": "Um baile de máscaras num espaço interior festivo, com atmosfera de brincadeira, confusão e movimento crescente.",
+  "palette": [
+    "creme",
+    "azul profundo",
+    "vermelho quente",
+    "dourado suave",
+    "verde apagado",
+    "preto suave"
+  ],
+  "recurringObjects": [
+    "máscaras",
+    "orquestra",
+    "porta estreita",
+    "fato de baile",
+    "fantasias de animais"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um senhor muito, muito curioso. Uma vez perguntou ao menino elefante o que é que ele gostava de ser, quando fosse crescido. O elefante respondeu que gostava de ser pulga. - E porquê?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Baile de Máscaras».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um senhor muito, muito curioso. Uma vez perguntou ao menino elefante o que é que ele gostava de ser, quando fosse crescido. O elefante respondeu que gostava de ser pulga. - E porquê? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "Depois, o senhor muito curioso perguntou à girafa se ela tinha algum desejo que quisesse revelar. A girafa respondeu, em segredo, que gostava de ser, ao menos uma vez, caranguejo. - E porquê? - Para poder andar rasteirinha, a ver o que não vejo...",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Depois, o senhor muito curioso perguntou à girafa se ela tinha algum desejo que quisesse revelar. A girafa respondeu, em segredo, que gostava de ser, ao menos uma vez, caranguejo. - E porquê? - Para poder andar rasteirinha, a ver o que não vejo... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "Então o senhor muito curioso perguntou ao leão em que é que ele magicava, antes de adormecer. O leão respondeu que, em noites de insónia, pensava que era ovelha. - E porquê? - Para não me dar ao trabalho de caçar. Regalava-me com ervas e pronto... de papo para o ar!",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Então o senhor muito curioso perguntou ao leão em que é que ele magicava, antes de adormecer. O leão respondeu que, em noites de insónia, pensava que era ovelha. - E porquê? - Para não me dar ao trabalho de caçar. Regalava-me com ervas e pronto... de papo para o ar! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p2",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "- Para não me dar ao trabalho de caçar. Regalava-me com ervas e pronto... de papo para o ar! Para satisfazer os bichos, o senhor muito curioso, que também inventava histórias como esta, resolveu organizar um baile de máscaras. Veio o elefante mascarado de pulga, a girafa vestida de caranguejo, o coelho disfarçado de lobo e o leão de ovelha. Nem calculam como acabou a festa!",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Para não me dar ao trabalho de caçar. Regalava-me com ervas e pronto... de papo para o ar! Para satisfazer os bichos, o senhor muito curioso, que também inventava histórias como esta, resolveu organizar um baile de máscaras. Veio o elefante mascarado de pulga, a girafa vestida de caranguejo, o coelho disfarçado de lobo e o leão de ovelha. Nem calculam como acabou a festa! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p9",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p7",
+        "s5p8",
+        "s5p9"
+      ],
+      "evidence": "desta agitação foi quando o coelho quis comer o leão.",
+      "after": {
+        "segment": 5,
+        "paragraph": 9
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: desta agitação foi quando o coelho quis comer o leão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s6p4",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s6p2",
+        "s6p3",
+        "s6p4"
+      ],
+      "evidence": "em completa confusão. Até eu, que a inventei, levei um encontrão!",
+      "after": {
+        "segment": 6,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: em completa confusão. Até eu, que a inventei, levei um encontrão! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

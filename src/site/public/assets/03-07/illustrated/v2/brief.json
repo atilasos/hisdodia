@@ -1,0 +1,137 @@
+{
+  "characters": [
+    {
+      "name": "urso de peluche",
+      "appearance": "pequeno urso macio e gasto, de aspeto infantil"
+    },
+    {
+      "name": "Teresa",
+      "appearance": "menina pequena, afetuosa, ligada ao urso"
+    },
+    {
+      "name": "pai de Teresa",
+      "appearance": "adulto tranquilo, presença prática e protetora"
+    },
+    {
+      "name": "boneca",
+      "appearance": "uma das bonecas da casa, imóvel e silenciosa"
+    }
+  ],
+  "environment": "quarto infantil e casa de férias, com sensação doméstica, noturna e acolhedora",
+  "palette": [
+    "azuis escuros",
+    "cremes suaves",
+    "castanhos quentes",
+    "amarelos discretos",
+    "tons de noite com luz interior macia"
+  ],
+  "recurringObjects": [
+    "urso de peluche",
+    "boneca",
+    "cama infantil",
+    "pasta de viagem",
+    "abraço"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um urso de peluche que não conseguia dormir sem uma menina chamada Teresa, abraçada a ele. Um dia, a menina chamada Teresa foi de férias e esqueceu-se do urso de peluche em casa. O pobre do ursinho passou a noite em branco.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O urso com insónias».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um urso de peluche que não conseguia dormir sem uma menina chamada Teresa, abraçada a ele. Um dia, a menina chamada Teresa foi de férias e esqueceu-se do urso de peluche em casa. O pobre do ursinho passou a noite em branco. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um urso de peluche que não conseguia dormir sem uma menina chamada Teresa, abraçada a ele. Um dia, a menina chamada Teresa foi de férias e esqueceu-se do urso de peluche em casa. O pobre do ursinho passou a noite em branco.",
+      "after": {
+        "segment": 0,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um urso de peluche que não conseguia dormir sem uma menina chamada Teresa, abraçada a ele. Um dia, a menina chamada Teresa foi de férias e esqueceu-se do urso de peluche em casa. O pobre do ursinho passou a noite em branco. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s2p0"
+      ],
+      "evidence": "O pobre do ursinho passou a noite em branco. À segunda noite, ainda tentou pedir a uma boneca, das muitas que a menina não tinha levado na bagagem, se não se importava, isto é, se não via inconveniente, ou melhor, se não lhe fazia diferença que ele se aconchegasse a ela. Claro que não era a mesma coisa, mas talvez resultasse. Tentou pedir, esboçou uma conversa sem propósito, mas não passou disso. Teve vergonha de formular o pedido, embaraçou-se nas palavras requeridas e passou outra noite de insónia . A boneca nem chegou a perceber o que ele realmente queria.",
+      "after": {
+        "segment": 2,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O pobre do ursinho passou a noite em branco. À segunda noite, ainda tentou pedir a uma boneca, das muitas que a menina não tinha levado na bagagem, se não se importava, isto é, se não via inconveniente, ou melhor, se não lhe fazia diferença que ele se aconchegasse a ela. Claro que não era a mesma coisa, mas talvez resultasse. Tentou pedir, esboçou uma conversa sem propósito, mas não passou disso. Teve vergonha de formular o pedido, embaraçou-se nas palavras requeridas e passou outra noite de insónia . A boneca nem chegou a perceber o que ele realmente queria. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "Tentou pedir, esboçou uma conversa sem propósito, mas não passou disso. Teve vergonha de formular o pedido, embaraçou-se nas palavras requeridas e passou outra noite de insónia . A boneca nem chegou a perceber o que ele realmente queria. Na terceira noite, de olhos a arder, o urso de peluche cabeceou de sono, mas não conseguiu dormir como deve ser. Faltava-lhe a menina, a respiração da menina, o perfume da menina, os cabelos da menina, a comicharem-lhe o nariz. Ah, se ele soubesse para onde é que ela tinha ido! À quarta noite...",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Tentou pedir, esboçou uma conversa sem propósito, mas não passou disso. Teve vergonha de formular o pedido, embaraçou-se nas palavras requeridas e passou outra noite de insónia . A boneca nem chegou a perceber o que ele realmente queria. Na terceira noite, de olhos a arder, o urso de peluche cabeceou de sono, mas não conseguiu dormir como deve ser. Faltava-lhe a menina, a respiração da menina, o perfume da menina, os cabelos da menina, a comicharem-lhe o nariz. Ah, se ele soubesse para onde é que ela tinha ido! À quarta noite... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Não, não vamos fazê-lo sofrer mais. Antes da nova noite de espertina que se anunciava, o pai de Teresa entrou no quarto, agarrou no urso de peluche e meteu-o na pasta. Para onde era a viagem? Já se calcula. Quando o pai chegou à casa de férias e tirou o ursinho da pasta, foi uma alegria.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não, não vamos fazê-lo sofrer mais. Antes da nova noite de espertina que se anunciava, o pai de Teresa entrou no quarto, agarrou no urso de peluche e meteu-o na pasta. Para onde era a viagem? Já se calcula. Quando o pai chegou à casa de férias e tirou o ursinho da pasta, foi uma alegria. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s6p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p0",
+        "s6p1",
+        "s6p2"
+      ],
+      "evidence": "- Nunca - exclamou a menina. \"Nunca\", teria dito o ursinho, se não fosse tão envergonhado. Claro que a menina cresceu e provou-se que o pai tinha razão, mas isso já faz parte de outra história e esta tem de acabar aqui e bem.",
+      "after": {
+        "segment": 6,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Nunca - exclamou a menina. \"Nunca\", teria dito o ursinho, se não fosse tão envergonhado. Claro que a menina cresceu e provou-se que o pai tinha razão, mas isso já faz parte de outra história e esta tem de acabar aqui e bem. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

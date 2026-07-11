@@ -1,0 +1,114 @@
+{
+  "characters": [
+    {
+      "name": "Joca",
+      "appearance": "A curious young boy"
+    },
+    {
+      "name": "Mãe",
+      "appearance": "Joca's mother"
+    }
+  ],
+  "environment": "A lively outdoor cafe terrace and later a painting scene with paper and watercolors",
+  "palette": [
+    "amarelo",
+    "verde",
+    "azul",
+    "vermelho",
+    "laranja",
+    "branco"
+  ],
+  "recurringObjects": [
+    "pintainhos",
+    "ovo cozido",
+    "limonada",
+    "tintas de aguarela",
+    "pincéis",
+    "folha branca"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Perguntava o Joca: – Mãe, de que cor são os pintainhos? – Os pintainhos são amarelos.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Joca Brinca com as Cores».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Perguntava o Joca: – Mãe, de que cor são os pintainhos? – Os pintainhos são amarelos. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p11",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p9",
+        "s0p10",
+        "s0p11"
+      ],
+      "evidence": "– É feita com sumo de limão. – E de que cor é o limão? – Amarelo – respondeu a mãe, cheia de paciência.",
+      "after": {
+        "segment": 0,
+        "paragraph": 11
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – É feita com sumo de limão. – E de que cor é o limão? – Amarelo – respondeu a mãe, cheia de paciência. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p19",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p17",
+        "s0p18",
+        "s0p19"
+      ],
+      "evidence": "Um ventinho ligeiro enfunava o toldo verde escuro da esplanada, arrepiava as folhas verdes, de um verde clarinho, das acácias, agitava uma blusa verde-garrafa, a secar numa janela. Mas há mais verdes, tantos mais que nós não contamos por preguiça... A mãe do Joca via o que nós víamos. Por isso respondeu assim: – Nunca conseguimos conhecer as cores todas, porque não há duas cores iguais. É fácil dizer: aquilo é azul, mas há tantos azuis... Baptizar uma cor é, afinal, muito difícil. Percebeste, Joca?",
+      "after": {
+        "segment": 0,
+        "paragraph": 19
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um ventinho ligeiro enfunava o toldo verde escuro da esplanada, arrepiava as folhas verdes, de um verde clarinho, das acácias, agitava uma blusa verde-garrafa, a secar numa janela. Mas há mais verdes, tantos mais que nós não contamos por preguiça... A mãe do Joca via o que nós víamos. Por isso respondeu assim: – Nunca conseguimos conhecer as cores todas, porque não há duas cores iguais. É fácil dizer: aquilo é azul, mas há tantos azuis... Baptizar uma cor é, afinal, muito difícil. Percebeste, Joca? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p21",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p19",
+        "s0p20",
+        "s0p21"
+      ],
+      "evidence": "– Nunca conseguimos conhecer as cores todas, porque não há duas cores iguais. É fácil dizer: aquilo é azul, mas há tantos azuis... Baptizar uma cor é, afinal, muito difícil. Percebeste, Joca? De olhos muito abertos, virados para a mãe, o Joca só os pestanejou quando, à pergunta, respondeu que não percebera. – Vou comprar-te uma caixa de tintas – disse-lhe a mãe. – Hás-de aprender por ti.",
+      "after": {
+        "segment": 0,
+        "paragraph": 21
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Nunca conseguimos conhecer as cores todas, porque não há duas cores iguais. É fácil dizer: aquilo é azul, mas há tantos azuis... Baptizar uma cor é, afinal, muito difícil. Percebeste, Joca? De olhos muito abertos, virados para a mãe, o Joca só os pestanejou quando, à pergunta, respondeu que não percebera. – Vou comprar-te uma caixa de tintas – disse-lhe a mãe. – Hás-de aprender por ti. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p24",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p22",
+        "s0p23",
+        "s0p24"
+      ],
+      "evidence": "É o que está a acontecer. O Joca mais a sua caixa de aguarelas andam a aprender. O Joca aprende a trabalhar com os pincéis e a estender as cores sobre a folha branca. Por sua vez, as cores, que acordaram dos quadradinhos apertados, onde dormiam, aprendem a viajar sobre desenhos e paisagens. E aprendem também – o que não é menos importante – a viver umas com as outras, a conviver, a relacionarem-se... Põe-se o amarelo à conversa com o encarnado e aparece o cor de laranja... Está o encarnado à conversa com o verde e descobrem o castanho... É uma festa para o Joca. É uma festa para as cores.",
+      "after": {
+        "segment": 0,
+        "paragraph": 24
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: É o que está a acontecer. O Joca mais a sua caixa de aguarelas andam a aprender. O Joca aprende a trabalhar com os pincéis e a estender as cores sobre a folha branca. Por sua vez, as cores, que acordaram dos quadradinhos apertados, onde dormiam, aprendem a viajar sobre desenhos e paisagens. E aprendem também – o que não é menos importante – a viver umas com as outras, a conviver, a relacionarem-se... Põe-se o amarelo à conversa com o encarnado e aparece o cor de laranja... Está o encarnado à conversa com o verde e descobrem o castanho... É uma festa para o Joca. É uma festa para as cores. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

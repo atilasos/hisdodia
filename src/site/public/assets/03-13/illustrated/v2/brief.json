@@ -1,0 +1,119 @@
+{
+  "characters": [
+    {
+      "name": "ratinho",
+      "appearance": "pequeno rato"
+    },
+    {
+      "name": "leão",
+      "appearance": "leão"
+    },
+    {
+      "name": "princesa leoa",
+      "appearance": "princesa leoa"
+    },
+    {
+      "name": "elefantes",
+      "appearance": "elefantes da orquestra"
+    }
+  ],
+  "environment": "festa real na selva, com banquete, discursos e baile no palácio do leão",
+  "palette": [
+    "dourado",
+    "verde selva",
+    "vermelho festivo",
+    "creme",
+    "cinza suave"
+  ],
+  "recurringObjects": [
+    "rede de caça",
+    "mesa de festa",
+    "orquestra",
+    "pista de baile"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Conta-se que um ratinho salvou, uma vez, um leão, que tinha caído numa armadilha. Roeu, roeu e o leão safou-se da rede em que se deixara caçar. Muito grato ao minúsculo roedor, que mais uma vez provara que os grandes nunca devem desprezar a ajuda dos mais pequenos, o rei leão deu uma festa em honra do seu salvador. Por altura dos discursos, o leão, diante da bicharada reunida, elogiou o ratinho e a força dos seus dentes. Sua Majestade estava comovida.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Um rato a mais».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Conta-se que um ratinho salvou, uma vez, um leão, que tinha caído numa armadilha. Roeu, roeu e o leão safou-se da rede em que se deixara caçar. Muito grato ao minúsculo roedor, que mais uma vez provara que os grandes nunca devem desprezar a ajuda dos mais pequenos, o rei leão deu uma festa em honra do seu salvador. Por altura dos discursos, o leão, diante da bicharada reunida, elogiou o ratinho e a força dos seus dentes. Sua Majestade estava comovida. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Muito grato ao minúsculo roedor, que mais uma vez provara que os grandes nunca devem desprezar a ajuda dos mais pequenos, o rei leão deu uma festa em honra do seu salvador. Por altura dos discursos, o leão, diante da bicharada reunida, elogiou o ratinho e a força dos seus dentes. Sua Majestade estava comovida. - Para provar a minha gratidão, dou-te o direito de escolher o que tu quiseres, em paga dos teus serviços.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Muito grato ao minúsculo roedor, que mais uma vez provara que os grandes nunca devem desprezar a ajuda dos mais pequenos, o rei leão deu uma festa em honra do seu salvador. Por altura dos discursos, o leão, diante da bicharada reunida, elogiou o ratinho e a força dos seus dentes. Sua Majestade estava comovida. - Para provar a minha gratidão, dou-te o direito de escolher o que tu quiseres, em paga dos teus serviços. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "- Quero casar com a tua filha, para vir a ser, mais tarde, ao lado dela, o rei dos animais. Com isto é que o leão não contava, mas não podia voltar com a palavra atrás. A princesa leoa ficou furiosa. Ela casar com um rato? Que ridículo!",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Quero casar com a tua filha, para vir a ser, mais tarde, ao lado dela, o rei dos animais. Com isto é que o leão não contava, mas não podia voltar com a palavra atrás. A princesa leoa ficou furiosa. Ela casar com um rato? Que ridículo! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "Já a orquestra dos elefantes começava a soprar, no fim do banquete, dando início ao baile real. - Os noivos, os noivos! Eles que dancem! - gritavam de vários lados. Muito compenetrado do seu papel, o ratinho foi buscar a princesa. A vénia com que ele a convidou era de uma elegância sem igual.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Já a orquestra dos elefantes começava a soprar, no fim do banquete, dando início ao baile real. - Os noivos, os noivos! Eles que dancem! - gritavam de vários lados. Muito compenetrado do seu papel, o ratinho foi buscar a princesa. A vénia com que ele a convidou era de uma elegância sem igual. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p2",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Muito compenetrado do seu papel, o ratinho foi buscar a princesa. A vénia com que ele a convidou era de uma elegância sem igual. O pior foi durante a bailação, propriamente dita. O rato podia valsar maravilhosamente, mas o par ajudava pouco... Primeiro levou uma pisadela que quase o esborrachava. Depois apanhou com uma patada que o atirou para o colo de um dos elefantes da orquestra.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Muito compenetrado do seu papel, o ratinho foi buscar a princesa. A vénia com que ele a convidou era de uma elegância sem igual. O pior foi durante a bailação, propriamente dita. O rato podia valsar maravilhosamente, mas o par ajudava pouco... Primeiro levou uma pisadela que quase o esborrachava. Depois apanhou com uma patada que o atirou para o colo de um dos elefantes da orquestra. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}
