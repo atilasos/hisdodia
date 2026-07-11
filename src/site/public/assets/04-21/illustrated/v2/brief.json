@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": "journalistic interview setting",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "- Eu não sou porco - disse o porco, em voz forte e categórica . - Então o que é? - perguntou o jornalista, aquele jornalista de microfone na mão, que anda sempre à cata de notícias e entrevistas sensacionais. - Antes de mais sou um mamífero - precisou o porco.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Porco é que não».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Eu não sou porco - disse o porco, em voz forte e categórica . - Então o que é? - perguntou o jornalista, aquele jornalista de microfone na mão, que anda sempre à cata de notícias e entrevistas sensacionais. - Antes de mais sou um mamífero - precisou o porco. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p2",
+        "s1p3",
+        "s1p4"
+      ],
+      "evidence": "E o porco mostrou a patinha ao jornalista, um mimoso chispe de unha limpa: - Artiodáctilo quer dizer de número par de dedos. Artros, em grego, par. Dactylos, dedo. Era um porco sábio, estudioso das línguas mortas.",
+      "after": {
+        "segment": 1,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E o porco mostrou a patinha ao jornalista, um mimoso chispe de unha limpa: - Artiodáctilo quer dizer de número par de dedos. Artros, em grego, par. Dactylos, dedo. Era um porco sábio, estudioso das línguas mortas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Chamam-me chico - emendou o porco. - Nas palavras cruzadas, dão-me o nome de tó. Estas duas letras dão sempre jeito. O jornalista, que se tinha esquecido do gravador e do microfone, ia escrevendo, num bloco de notas, as declarações do chico tó. - Qual prefere? - perguntou ele.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Chamam-me chico - emendou o porco. - Nas palavras cruzadas, dão-me o nome de tó. Estas duas letras dão sempre jeito. O jornalista, que se tinha esquecido do gravador e do microfone, ia escrevendo, num bloco de notas, as declarações do chico tó. - Qual prefere? - perguntou ele. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s6p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p0",
+        "s6p1",
+        "s6p2"
+      ],
+      "evidence": "- Acho pouco digno - respondeu ele. - Então eu vou encimar a notícia acerca da nossa entrevista com o seguinte título: \"SUÍNO DIZ QUE NÃO É PORCO\". Acha bem? O porco, perdão, o suíno grunhiu, cheio de importância, a sua aprovação.",
+      "after": {
+        "segment": 6,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Acho pouco digno - respondeu ele. - Então eu vou encimar a notícia acerca da nossa entrevista com o seguinte título: \"SUÍNO DIZ QUE NÃO É PORCO\". Acha bem? O porco, perdão, o suíno grunhiu, cheio de importância, a sua aprovação. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p1",
+        "s6p2",
+        "s7p0"
+      ],
+      "evidence": "- Então eu vou encimar a notícia acerca da nossa entrevista com o seguinte título: \"SUÍNO DIZ QUE NÃO É PORCO\". Acha bem? O porco, perdão, o suíno grunhiu, cheio de importância, a sua aprovação. E a notícia veio nas páginas do jornal com o devido destaque. Serviram elas, dias depois, para embrulhar uns chouriços.",
+      "after": {
+        "segment": 7,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Então eu vou encimar a notícia acerca da nossa entrevista com o seguinte título: \"SUÍNO DIZ QUE NÃO É PORCO\". Acha bem? O porco, perdão, o suíno grunhiu, cheio de importância, a sua aprovação. E a notícia veio nas páginas do jornal com o devido destaque. Serviram elas, dias depois, para embrulhar uns chouriços. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

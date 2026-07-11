@@ -1,0 +1,103 @@
+{
+  "characters": [],
+  "environment": "Two neighboring ancient communities in wartime, separated by a river and later reconciled on the battlefield and at home.",
+  "palette": [
+    "earth tones",
+    "black mourning garments",
+    "iron gray",
+    "muted red",
+    "warm ochre"
+  ],
+  "recurringObjects": [
+    "round shields",
+    "spears",
+    "mourning mantles",
+    "children",
+    "river"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Uma lenda conta que havia, dantes, dois povos vizinhos e inimigos. Uns eram romanos, outros, sabinos. Por tudo e por nada levantavam os estandartes da guerra. Por tudo e por nada desbaratavam-se uns aos outros. Nos dois territórios próximos, o número de órfãos e de viuvas aumentava, assustadoramente. Não havia família que não estivesse de luto.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Lanças e enxadas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Uma lenda conta que havia, dantes, dois povos vizinhos e inimigos. Uns eram romanos, outros, sabinos. Por tudo e por nada levantavam os estandartes da guerra. Por tudo e por nada desbaratavam-se uns aos outros. Nos dois territórios próximos, o número de órfãos e de viuvas aumentava, assustadoramente. Não havia família que não estivesse de luto. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s5p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "Não ouvem senão o entrechocar das armas e os gritos da cólera e do ódio - disse outra mulher, talvez sabina, talvez romana. Então Hersélia lançou para o meio da assembleia de mulheres esta proposta: - Se não queremos perder os nossos filhos e maridos, temos de nos armar com toda a nossa coragem.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não ouvem senão o entrechocar das armas e os gritos da cólera e do ódio - disse outra mulher, talvez sabina, talvez romana. Então Hersélia lançou para o meio da assembleia de mulheres esta proposta: - Se não queremos perder os nossos filhos e maridos, temos de nos armar com toda a nossa coragem. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s6p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p2",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "- Se não queremos perder os nossos filhos e maridos, temos de nos armar com toda a nossa coragem. Cobertas com os nossos mantos de luto, de cabelos caídos e com nossos filhos pequenos pela mão, corramos para o campo de batalha. Atiremos os nossos corpos indefesos para o centro da luta e, com uma única voz, gritemos, imploremos aos combatentes que larguem as armas. Assim fizeram.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Se não queremos perder os nossos filhos e maridos, temos de nos armar com toda a nossa coragem. Cobertas com os nossos mantos de luto, de cabelos caídos e com nossos filhos pequenos pela mão, corramos para o campo de batalha. Atiremos os nossos corpos indefesos para o centro da luta e, com uma única voz, gritemos, imploremos aos combatentes que larguem as armas. Assim fizeram. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s7p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s7p1",
+        "s7p2",
+        "s7p3"
+      ],
+      "evidence": "- Parai, parai de lutar - gritavam. Gritavam e choravam e suplicavam. Eram muitas. Caíram os braços que seguravam as lanças. Resvalavam dos braços os escudos.",
+      "after": {
+        "segment": 7,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Parai, parai de lutar - gritavam. Gritavam e choravam e suplicavam. Eram muitas. Caíram os braços que seguravam as lanças. Resvalavam dos braços os escudos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s9p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s8p4",
+        "s9p0",
+        "s9p1"
+      ],
+      "evidence": "E fez-se a paz. Conta-se que os escudos redondos dos antigos guerreiros, de feitio de conchas, passaram, depois, a servir de berços para as crianças que nasceram, depois de a guerra ter terminado. Com os paus das lanças fizeram cabos de enxadas.",
+      "after": {
+        "segment": 9,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E fez-se a paz. Conta-se que os escudos redondos dos antigos guerreiros, de feitio de conchas, passaram, depois, a servir de berços para as crianças que nasceram, depois de a guerra ter terminado. Com os paus das lanças fizeram cabos de enxadas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

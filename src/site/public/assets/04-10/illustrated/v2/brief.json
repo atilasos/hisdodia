@@ -1,0 +1,141 @@
+{
+  "characters": [
+    {
+      "name": "caracol",
+      "appearance": "caracol velho com carapaça pesada e dois pauzinhos visíveis"
+    },
+    {
+      "name": "formiga",
+      "appearance": "formiga ocupada, apressada"
+    },
+    {
+      "name": "lagarto",
+      "appearance": "lagarto a bocejar ou a dormir ao sol"
+    },
+    {
+      "name": "grilo",
+      "appearance": "grilo falador, com ar doutoral"
+    },
+    {
+      "name": "rã",
+      "appearance": "rã junto ao canavial"
+    }
+  ],
+  "environment": "Caminho de campo entre ervas, canavial e margem de água; a viagem culmina num pequeno charco ou lago junto a caniços, com sensação de mar ao longe.",
+  "palette": [
+    "verdes de erva e canavial",
+    "castanhos de terra e carapaça",
+    "azuis e cinzentos da água",
+    "amarelos quentes de sol",
+    "tons suaves e naturais"
+  ],
+  "recurringObjects": [
+    "carapaça do caracol",
+    "rasto luminoso nas ervas",
+    "pausinhos do caracol",
+    "sol forte de caminho",
+    "caniços e água parada"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Era uma vez um caracol que, além da carapaça, transportava com ele uma ambição, um sonho de caracol novo: conhecer o mar. Para satisfazer o seu sonho sentia-se capaz de tudo. Lentamente, pacientemente, percorria um carreiro de que não sabia o fim. Andando sempre, perguntava: - Senhora Formiga, sabe dizer-me se vou no bom caminho para chegar ao mar?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O mar e o caracol».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um caracol que, além da carapaça, transportava com ele uma ambição, um sonho de caracol novo: conhecer o mar. Para satisfazer o seu sonho sentia-se capaz de tudo. Lentamente, pacientemente, percorria um carreiro de que não sabia o fim. Andando sempre, perguntava: - Senhora Formiga, sabe dizer-me se vou no bom caminho para chegar ao mar? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "- Senhora Formiga, sabe dizer-me se vou no bom caminho para chegar ao mar? - Não sei, não sei do que fala. Eu só conheço o formigueiro onde vivo e chega e chega para o trabalho que me dá. O caracol não quis reter por mais tempo a afadigada, enfrenesiada formiga...",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Senhora Formiga, sabe dizer-me se vou no bom caminho para chegar ao mar? - Não sei, não sei do que fala. Eu só conheço o formigueiro onde vivo e chega e chega para o trabalho que me dá. O caracol não quis reter por mais tempo a afadigada, enfrenesiada formiga... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Mais lá para diante, encontrou o Lagarto. Fez-lhe a mesma pergunta, a que o Lagarto, entre dois bocejos, respondeu: - Deixe-se de aventuras, caracol amigo. Sabe tão bem gozar o calor do sol, enquanto se dorme uma boa sesta. E, dizendo isto, adormeceu. O caracol, embaraçado, não voltou a acordá-lo.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mais lá para diante, encontrou o Lagarto. Fez-lhe a mesma pergunta, a que o Lagarto, entre dois bocejos, respondeu: - Deixe-se de aventuras, caracol amigo. Sabe tão bem gozar o calor do sol, enquanto se dorme uma boa sesta. E, dizendo isto, adormeceu. O caracol, embaraçado, não voltou a acordá-lo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p2",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "O caracol deixou o grilo a contas com os seus discursos enfatuados e virou-lhe as costas, discretamente. Andou, andou. Viu mais animais, todos virados para as suas respectivas vidas e alheios ao mar. O caracol andou, andou. Devagarinho, porque só devagarinho sabia andar, o caracol, que iniciara ainda muito novo a sua aventura, já se sentia velho. Estava mesmo muito velho, mas não cansado. Isso era impossível.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O caracol deixou o grilo a contas com os seus discursos enfatuados e virou-lhe as costas, discretamente. Andou, andou. Viu mais animais, todos virados para as suas respectivas vidas e alheios ao mar. O caracol andou, andou. Devagarinho, porque só devagarinho sabia andar, o caracol, que iniciara ainda muito novo a sua aventura, já se sentia velho. Estava mesmo muito velho, mas não cansado. Isso era impossível. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p2",
+        "s6p3",
+        "s7p0"
+      ],
+      "evidence": "- O mar, o mar é já ali. Põe-se lá em dois saltos. Infelizmente, o caracol velhinho não saltava. Além disso, a carapaça já lhe pesava muito. Por isso demorou ainda mais um ano, dois meses e oito dias até chegar ao lugar que a rã apontara. Mas, quando chegou, que deslumbramento. Sempre era o mar, o seu querido mar que tanto, tanto desejara conhecer.",
+      "after": {
+        "segment": 7,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - O mar, o mar é já ali. Põe-se lá em dois saltos. Infelizmente, o caracol velhinho não saltava. Além disso, a carapaça já lhe pesava muito. Por isso demorou ainda mais um ano, dois meses e oito dias até chegar ao lugar que a rã apontara. Mas, quando chegou, que deslumbramento. Sempre era o mar, o seu querido mar que tanto, tanto desejara conhecer. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s9p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s8p1",
+        "s9p0",
+        "s9p1"
+      ],
+      "evidence": "O mar calmo reflectia nas águas os dois pausinhos do velho caracol, debruçado na margem. Realizara finalmente o sonho de toda a sua vida. Que bom! Devagar, muito devagarinho, o caracol buscou o caminho do regresso. Tinha muito que contar. Coitado do caracol! Mal sabia ele que não chegara a conhecer o mar, o mar verdadeiro, mas apenas um pequeno lago de águas paradas, formado pelas chuvas, feio, sujo, infestado de mosquitos, enfim, um charco entre caniços.",
+      "after": {
+        "segment": 9,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O mar calmo reflectia nas águas os dois pausinhos do velho caracol, debruçado na margem. Realizara finalmente o sonho de toda a sua vida. Que bom! Devagar, muito devagarinho, o caracol buscou o caminho do regresso. Tinha muito que contar. Coitado do caracol! Mal sabia ele que não chegara a conhecer o mar, o mar verdadeiro, mas apenas um pequeno lago de águas paradas, formado pelas chuvas, feio, sujo, infestado de mosquitos, enfim, um charco entre caniços. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

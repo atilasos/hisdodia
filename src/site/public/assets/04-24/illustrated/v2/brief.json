@@ -1,0 +1,125 @@
+{
+  "characters": [
+    {
+      "name": "mosquito",
+      "appearance": "small ignorant mosquito reading a dictionary"
+    }
+  ],
+  "environment": "A dictionary-driven domestic scene that shifts into a scientific lookup moment and ends with an approaching threat implied by smell and sound.",
+  "palette": [
+    "warm paper tones",
+    "muted browns",
+    "ink black",
+    "pale yellows",
+    "soft grey-blue"
+  ],
+  "recurringObjects": [
+    "dicionário",
+    "mosquito",
+    "page text blocks",
+    "six legs",
+    "word lookup"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era uma vez um mosquito que andava à procura de insecticida. Isto é: andava à procura, no dicionário, da palavra \"insecticida\". Tanto que o tinham prevenido: \"Cuidado com os insecticidas! Não te chegues aos insecticidas! Não deixes que os insecticidas se cheguem a ti!\" Mas não lhe tinham explicado mais. Sim, o que seria isso de insecticida? Ali estava, em letras mais pretas: \"Insecticida - substância que destrói, que mata insectos.\" Alto lá! A coisa era grave, devia ser grave para os insectos, pobrezinhos. E, no fim de contas, o que queria dizer \"insecto\"?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O mosquito ignorante».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um mosquito que andava à procura de insecticida. Isto é: andava à procura, no dicionário, da palavra \"insecticida\". Tanto que o tinham prevenido: \"Cuidado com os insecticidas! Não te chegues aos insecticidas! Não deixes que os insecticidas se cheguem a ti!\" Mas não lhe tinham explicado mais. Sim, o que seria isso de insecticida? Ali estava, em letras mais pretas: \"Insecticida - substância que destrói, que mata insectos.\" Alto lá! A coisa era grave, devia ser grave para os insectos, pobrezinhos. E, no fim de contas, o que queria dizer \"insecto\"? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Tanto que o tinham prevenido: \"Cuidado com os insecticidas! Não te chegues aos insecticidas! Não deixes que os insecticidas se cheguem a ti!\" Mas não lhe tinham explicado mais. Sim, o que seria isso de insecticida? Ali estava, em letras mais pretas: \"Insecticida - substância que destrói, que mata insectos.\" Alto lá! A coisa era grave, devia ser grave para os insectos, pobrezinhos. E, no fim de contas, o que queria dizer \"insecto\"? O mosquito era pouco versado em zoologia.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Tanto que o tinham prevenido: \"Cuidado com os insecticidas! Não te chegues aos insecticidas! Não deixes que os insecticidas se cheguem a ti!\" Mas não lhe tinham explicado mais. Sim, o que seria isso de insecticida? Ali estava, em letras mais pretas: \"Insecticida - substância que destrói, que mata insectos.\" Alto lá! A coisa era grave, devia ser grave para os insectos, pobrezinhos. E, no fim de contas, o que queria dizer \"insecto\"? O mosquito era pouco versado em zoologia. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p1",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "Como tal, não sabia o que queria dizer \"insecto\". Não estranhem. Se perguntarem a uma mosca, aposto que ela também não sabe. Nem as aranhas. Nem as melgas. Nem as baratas. Todas muito incultas. O mosquito, depois de ter encontrado \"insecticida\", foi procurar \"insecto\": animal in...ver...te...bra...do, de corpo ar...ticu...lado, provido de seis patas, que respira pela tra...",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Como tal, não sabia o que queria dizer \"insecto\". Não estranhem. Se perguntarem a uma mosca, aposto que ela também não sabe. Nem as aranhas. Nem as melgas. Nem as baratas. Todas muito incultas. O mosquito, depois de ter encontrado \"insecticida\", foi procurar \"insecto\": animal in...ver...te...bra...do, de corpo ar...ticu...lado, provido de seis patas, que respira pela tra... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p1",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "Primeiro: \"invertebrado\". Leu no dicionário: \"que não tem vértebras\". Pouco esclarecedor. E \"vértebras\"? O dicionário ensinava: \"cada um dos ossos que constitui a coluna vertebral\". Ossos? Isso não lhe dizia respeito. Ele não possuía ossos. Em contrapartida, tinha patas. Precisamente seis, como esses tais insectos. Coincidência interessante. Dar-se-ia o caso de...? Que grande novidade, se assim fosse! Leu outra vez: ... provido de seis patas, que respira pela traqueia...",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Primeiro: \"invertebrado\". Leu no dicionário: \"que não tem vértebras\". Pouco esclarecedor. E \"vértebras\"? O dicionário ensinava: \"cada um dos ossos que constitui a coluna vertebral\". Ossos? Isso não lhe dizia respeito. Ele não possuía ossos. Em contrapartida, tinha patas. Precisamente seis, como esses tais insectos. Coincidência interessante. Dar-se-ia o caso de...? Que grande novidade, se assim fosse! Leu outra vez: ... provido de seis patas, que respira pela traqueia... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "Precisamente seis, como esses tais insectos. Coincidência interessante. Dar-se-ia o caso de...? Que grande novidade, se assim fosse! Leu outra vez: ... provido de seis patas, que respira pela traqueia... Nisto, atrás dele um som \"pff!\", seguido dum cheiro desmoralizador.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Precisamente seis, como esses tais insectos. Coincidência interessante. Dar-se-ia o caso de...? Que grande novidade, se assim fosse! Leu outra vez: ... provido de seis patas, que respira pela traqueia... Nisto, atrás dele um som \"pff!\", seguido dum cheiro desmoralizador. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s6p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p1",
+        "s5p2",
+        "s6p0"
+      ],
+      "evidence": "Dar-se-ia o caso de...? Que grande novidade, se assim fosse! Leu outra vez: ... provido de seis patas, que respira pela traqueia... Nisto, atrás dele um som \"pff!\", seguido dum cheiro desmoralizador. O mosquito procurou afanosamente a palavra \"traqueia\", mas já não foi a tempo...",
+      "after": {
+        "segment": 6,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Dar-se-ia o caso de...? Que grande novidade, se assim fosse! Leu outra vez: ... provido de seis patas, que respira pela traqueia... Nisto, atrás dele um som \"pff!\", seguido dum cheiro desmoralizador. O mosquito procurou afanosamente a palavra \"traqueia\", mas já não foi a tempo... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

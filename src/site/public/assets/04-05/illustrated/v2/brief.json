@@ -1,0 +1,145 @@
+{
+  "characters": [
+    {
+      "name": "Tina",
+      "appearance": "Rapariga pequena, desgrenhada e aflita, com ar infantil e enérgico, em roupa de escola ou roupa simples de brincar"
+    },
+    {
+      "name": "Filipa",
+      "appearance": "Bebé pequena, tranquila, de carrinho/cadeirinha, geralmente a dormir ou a palrar"
+    },
+    {
+      "name": "Mãe",
+      "appearance": "Mulher adulta, doméstica, a dar uma incumbência à Tina"
+    },
+    {
+      "name": "Avó",
+      "appearance": "Mulher idosa, doméstica, associada à casa da avó"
+    },
+    {
+      "name": "Guarda",
+      "appearance": "Homem adulto, guarda de jardim, postura atenta e conciliadora"
+    },
+    {
+      "name": "Senhora apressada",
+      "appearance": "Mulher adulta apressada, a empurrar uma cadeirinha, confundida com uma ladra"
+    }
+  ],
+  "environment": "Um jardim urbano com piteiras grandes e parecidas, carrinho de bebé, caminho de ida e volta entre casa da avó e o jardim, com clima de confusão crescente e resolução final",
+  "palette": [
+    "Verdes de jardim",
+    "Tons quentes de tarde",
+    "Azuis suaves",
+    "Amarelos claros",
+    "Castanhos e ocres naturais"
+  ],
+  "recurringObjects": [
+    "Carrinho ou cadeirinha de bebé",
+    "Piteiras grandes",
+    "Caminho de jardim",
+    "Aba de casaco",
+    "Bebé na cadeirinha"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "A Tina não tem tino . Coisas que se dizem e se espalham, sem quê nem porquê. Serão verdade? Serão mentira? Eu cá não respondo. Sucedeu, uma vez, que a Tina, acabada de chegar da escola, ainda afogueada da corrida, recebeu da mãe esta incumbência : - Vai, se fazes favor, buscar a tua irmã a casa da avó.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Tina aflita».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A Tina não tem tino . Coisas que se dizem e se espalham, sem quê nem porquê. Serão verdade? Serão mentira? Eu cá não respondo. Sucedeu, uma vez, que a Tina, acabada de chegar da escola, ainda afogueada da corrida, recebeu da mãe esta incumbência : - Vai, se fazes favor, buscar a tua irmã a casa da avó. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "- Levo o carrinho? - perguntou a Tina, que gostava de guiar cadeirinhas de bebé. A mãe disse que sim e a Tina desarvorou, empurrando o carrinho, que ia leve, muito leve, como se imagina. Não era grande a distância. A Tina pôs-se num instante em casa da avó.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Levo o carrinho? - perguntou a Tina, que gostava de guiar cadeirinhas de bebé. A mãe disse que sim e a Tina desarvorou, empurrando o carrinho, que ia leve, muito leve, como se imagina. Não era grande a distância. A Tina pôs-se num instante em casa da avó. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Pegou na irmãzinha, que palrava e ria, contente com a viagem que a esperava e voltou pelo mesmo caminho. Ao passar por um jardim, umas amigas da Tina desafiaram-na para o jogo do apanha. Convite irresistível. A Tina colocou a cadeirinha com a bebé à sombra de uma grande piteira e foi brincar. Até que se fartou.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Pegou na irmãzinha, que palrava e ria, contente com a viagem que a esperava e voltou pelo mesmo caminho. Ao passar por um jardim, umas amigas da Tina desafiaram-na para o jogo do apanha. Convite irresistível. A Tina colocou a cadeirinha com a bebé à sombra de uma grande piteira e foi brincar. Até que se fartou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "Nem bebé nem cadeira de bebé. Muito aflita, pôs-se a chamar: - Filipa! Filipa! - como se a bebé soubesse responder-lhe. Olhou em volta e viu, lá adiante, uma senhora apressada, a empurrar uma cadeirinha. Levava-lhe a irmã, a grande ladra. Patifa.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Nem bebé nem cadeira de bebé. Muito aflita, pôs-se a chamar: - Filipa! Filipa! - como se a bebé soubesse responder-lhe. Olhou em volta e viu, lá adiante, uma senhora apressada, a empurrar uma cadeirinha. Levava-lhe a irmã, a grande ladra. Patifa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p4",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p2",
+        "s6p3",
+        "s6p4"
+      ],
+      "evidence": "A Tina indicou. Voltaram para junto da piteira e, efectivamente, do carrinho e da bebé nem rastos. - Mas há outra piteira igual, mais adiante - apontou o guarda. Foram ver. Lá estava a Filipa, tranquilamente a dormir, na cadeirinha.",
+      "after": {
+        "segment": 6,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A Tina indicou. Voltaram para junto da piteira e, efectivamente, do carrinho e da bebé nem rastos. - Mas há outra piteira igual, mais adiante - apontou o guarda. Foram ver. Lá estava a Filipa, tranquilamente a dormir, na cadeirinha. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s7p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p4",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "Foram ver. Lá estava a Filipa, tranquilamente a dormir, na cadeirinha. Afinal, a Tina tinha confundido as piteiras, ambas grandes, ambas da mesma cor, ambas com asas de dragão. A cadeirinha nunca tinha saído do mesmo sítio. Ninguém raptara a bebé. A Tina abraçou-se à irmã, a chorar. A bebé sentiu-se apertada e também chorou. Até o senhor guarda se comoveu.",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Foram ver. Lá estava a Filipa, tranquilamente a dormir, na cadeirinha. Afinal, a Tina tinha confundido as piteiras, ambas grandes, ambas da mesma cor, ambas com asas de dragão. A cadeirinha nunca tinha saído do mesmo sítio. Ninguém raptara a bebé. A Tina abraçou-se à irmã, a chorar. A bebé sentiu-se apertada e também chorou. Até o senhor guarda se comoveu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

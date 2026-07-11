@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Naquela quinta havia muitas árvores. Eram árvores de fruto. Também havia pássaros, grandes e pequenos, uns de bico amarelo, outros de bico encarnado, outros de bico lilás... E cinzentos de penas ou pretos ou castanhos... E de outras cores. Muitos pássaros, todos chilreantes.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Há coisas assim».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Naquela quinta havia muitas árvores. Eram árvores de fruto. Também havia pássaros, grandes e pequenos, uns de bico amarelo, outros de bico encarnado, outros de bico lilás... E cinzentos de penas ou pretos ou castanhos... E de outras cores. Muitos pássaros, todos chilreantes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Não era para admirar. Os pássaros gostam das árvores, principalmente dos frutos. E as árvores também gostam dos pássaros. Naquela quinta só havia uma árvore sem pássaros e sem frutos. Era uma árvore triste. Sequinha de tristeza, despida de folhas, a árvore destoava, no meio daquele pomar frondoso.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não era para admirar. Os pássaros gostam das árvores, principalmente dos frutos. E as árvores também gostam dos pássaros. Naquela quinta só havia uma árvore sem pássaros e sem frutos. Era uma árvore triste. Sequinha de tristeza, despida de folhas, a árvore destoava, no meio daquele pomar frondoso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p1",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Naquela quinta só havia uma árvore sem pássaros e sem frutos. Era uma árvore triste. Sequinha de tristeza, despida de folhas, a árvore destoava, no meio daquele pomar frondoso. Sentia-se a mais, muito desolada, muito só, muito perdida. A infelicidade ela sabia o que era. Até que, uma noite, a árvore sonhou que se enchia de flores. Sonhou que se enchia de flores e que das flores nasciam pássaros. De que cor? De todas, até das cores que ainda não têm nome.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Naquela quinta só havia uma árvore sem pássaros e sem frutos. Era uma árvore triste. Sequinha de tristeza, despida de folhas, a árvore destoava, no meio daquele pomar frondoso. Sentia-se a mais, muito desolada, muito só, muito perdida. A infelicidade ela sabia o que era. Até que, uma noite, a árvore sonhou que se enchia de flores. Sonhou que se enchia de flores e que das flores nasciam pássaros. De que cor? De todas, até das cores que ainda não têm nome. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "Depois, cansados, os pássaros poisavam na árvore e transformavam-se em frutos. Frutos, já se vê, de todas as cores. Às vezes, as árvores tristes têm sonhos assim, sem explicação nem sentido. Mas o que depois sucedeu a esta árvore é que parece fantástico.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Depois, cansados, os pássaros poisavam na árvore e transformavam-se em frutos. Frutos, já se vê, de todas as cores. Às vezes, as árvores tristes têm sonhos assim, sem explicação nem sentido. Mas o que depois sucedeu a esta árvore é que parece fantástico. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p2",
+        "s3p3",
+        "s4p0"
+      ],
+      "evidence": "Às vezes, as árvores tristes têm sonhos assim, sem explicação nem sentido. Mas o que depois sucedeu a esta árvore é que parece fantástico. Calculem que, no dia seguinte, quando acordou, a árvore estava, realmente, cheia de flores - as flores que anunciam os frutos, os frutos que chamam os pássaros...",
+      "after": {
+        "segment": 4,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Às vezes, as árvores tristes têm sonhos assim, sem explicação nem sentido. Mas o que depois sucedeu a esta árvore é que parece fantástico. Calculem que, no dia seguinte, quando acordou, a árvore estava, realmente, cheia de flores - as flores que anunciam os frutos, os frutos que chamam os pássaros... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

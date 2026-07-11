@@ -1,0 +1,102 @@
+{
+  "characters": [],
+  "environment": "Índia antiga, palácio real, rio largo e aposentos da princesa.",
+  "palette": [
+    "dourado",
+    "verde profundo",
+    "azul rio",
+    "castanho quente"
+  ],
+  "recurringObjects": [
+    "coroa",
+    "taça de chá",
+    "peixe dourado",
+    "aquário",
+    "rio"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Esta história passou-se na Índia, há muito tempo. Certo rajá tinha dois filhos, dois filhos já homens, mas muito diferentes entre eles. Um, o mais velho, era tão feio por dentro como por fora. Para condizer, casara-se com uma feiticeira, uma peste. O mais novo, ainda solteiro, não era feio nem bonito, mas, conhecendo-o melhor, percebia-se que a beleza dele estava toda concentrada no coração. E tinha olhos verdes.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Olhos Verdes».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Esta história passou-se na Índia, há muito tempo. Certo rajá tinha dois filhos, dois filhos já homens, mas muito diferentes entre eles. Um, o mais velho, era tão feio por dentro como por fora. Para condizer, casara-se com uma feiticeira, uma peste. O mais novo, ainda solteiro, não era feio nem bonito, mas, conhecendo-o melhor, percebia-se que a beleza dele estava toda concentrada no coração. E tinha olhos verdes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p6",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "– Quem vai herdar o meu reino será o meu filho mais novo, que tem qualidade para ser um bom rei. A feiticeira, casada com o mais velho, não gostou da escolha do sogro e maquinou um feitiço para afastar o cunhado rival. Convidou-o a tomar chá na varanda dos seus aposentos e misturou uma poção mágica nas folhas da chaleira. O bom príncipe bebeu e transformou-se em peixe.",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Quem vai herdar o meu reino será o meu filho mais novo, que tem qualidade para ser um bom rei. A feiticeira, casada com o mais velho, não gostou da escolha do sogro e maquinou um feitiço para afastar o cunhado rival. Convidou-o a tomar chá na varanda dos seus aposentos e misturou uma poção mágica nas folhas da chaleira. O bom príncipe bebeu e transformou-se em peixe. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p13",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p11",
+        "s0p12",
+        "s0p13"
+      ],
+      "evidence": "Muitos peixes morreram antes de chegar ao palácio. Um dos que sobreviveu e que chamou a atenção do cozinheiro foi o bom do peixe-príncipe. – É diferente dos outros – disse o cozinheiro. – Tem olhos verdes e corpo dourado. Vou oferecê-lo à princesa. Ficou num aquário, à cabeceira da cama da princesa, que logo se encantou por ele.",
+      "after": {
+        "segment": 0,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Muitos peixes morreram antes de chegar ao palácio. Um dos que sobreviveu e que chamou a atenção do cozinheiro foi o bom do peixe-príncipe. – É diferente dos outros – disse o cozinheiro. – Tem olhos verdes e corpo dourado. Vou oferecê-lo à princesa. Ficou num aquário, à cabeceira da cama da princesa, que logo se encantou por ele. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p17",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p15",
+        "s0p16",
+        "s0p17"
+      ],
+      "evidence": "– Pois eu gostava de ser homem, para poder estar ao teu lado – segredou-lhe o peixe. Tamanha vontade dos dois tinha de resultar. O amor é uma grande magia. A jovem princesa começou por surpreender-se com as falas de um peixe de olhos verdes. Mais razão tinha para estranhar, quando o peixe se transformou em homem. Mas não estranhou. Os olhos verdes eram os mesmos...",
+      "after": {
+        "segment": 0,
+        "paragraph": 17
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Pois eu gostava de ser homem, para poder estar ao teu lado – segredou-lhe o peixe. Tamanha vontade dos dois tinha de resultar. O amor é uma grande magia. A jovem princesa começou por surpreender-se com as falas de um peixe de olhos verdes. Mais razão tinha para estranhar, quando o peixe se transformou em homem. Mas não estranhou. Os olhos verdes eram os mesmos... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p19",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p17",
+        "s0p18",
+        "s0p19"
+      ],
+      "evidence": "A jovem princesa começou por surpreender-se com as falas de um peixe de olhos verdes. Mais razão tinha para estranhar, quando o peixe se transformou em homem. Mas não estranhou. Os olhos verdes eram os mesmos... Claro que daí a um tempo casaram. Com ajuda dos exércitos do sogro, o príncipe de olhos verdes recuperou o reino, aprisionou a cunhada e o irmão e reinou feliz em companhia da princesa, rodeados por principezinhos de olhos verdes e de olhos castanhos. Não sei se disse que a princesa tinha olhos profundamente castanhos. Belíssimos.",
+      "after": {
+        "segment": 0,
+        "paragraph": 19
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A jovem princesa começou por surpreender-se com as falas de um peixe de olhos verdes. Mais razão tinha para estranhar, quando o peixe se transformou em homem. Mas não estranhou. Os olhos verdes eram os mesmos... Claro que daí a um tempo casaram. Com ajuda dos exércitos do sogro, o príncipe de olhos verdes recuperou o reino, aprisionou a cunhada e o irmão e reinou feliz em companhia da princesa, rodeados por principezinhos de olhos verdes e de olhos castanhos. Não sei se disse que a princesa tinha olhos profundamente castanhos. Belíssimos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

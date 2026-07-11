@@ -1,0 +1,138 @@
+{
+  "characters": [
+    {
+      "name": "rei vencedor",
+      "appearance": "comandante triunfante, traje régio de guerra, presença autoritária"
+    },
+    {
+      "name": "princesa bailarina",
+      "appearance": "jovem muito bela, adornada com guizos e sinos nos braços, pernas e pescoço, expressão séria"
+    },
+    {
+      "name": "rei deposto",
+      "appearance": "monarca vencido e acorrentado, figura abatida"
+    },
+    {
+      "name": "músicos e convivas",
+      "appearance": "grupo de corte em festa, observadores atónitos e maravilhados"
+    }
+  ],
+  "environment": "palácio conquistado na Índia antiga, com salão de banquete, arcarias, instrumentos musicais e atmosfera de vitória militar transformada em celebração",
+  "palette": [
+    "ouro envelhecido",
+    "vermelho profundo",
+    "azul índigo",
+    "verde esmeralda",
+    "marfim",
+    "bronze"
+  ],
+  "recurringObjects": [
+    "guizos e sinos",
+    "instrumentos musicais",
+    "correntes",
+    "arcarias do palácio",
+    "trajes cerimoniais"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Conta-se que, na Índia, há muito tempo, quando não paravam as guerras entre reis vizinhos por frívolas disputas de terras e riquezas, os vencidos, fossem generais, nobres, senhores poderosos, passavam à condição de escravos dos vencedores. No termo de uma dessas lutas, houve festa no palácio conquistado. Depois do banquete da vitória, o chefe dos vencedores exigiu a presença dos músicos e das bailarinas. Estava radioso de felicidade e queria que à sua volta tudo espelhasse a sua alegria de guerreiro triunfador.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A dança prodigiosa».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Conta-se que, na Índia, há muito tempo, quando não paravam as guerras entre reis vizinhos por frívolas disputas de terras e riquezas, os vencidos, fossem generais, nobres, senhores poderosos, passavam à condição de escravos dos vencedores. No termo de uma dessas lutas, houve festa no palácio conquistado. Depois do banquete da vitória, o chefe dos vencedores exigiu a presença dos músicos e das bailarinas. Estava radioso de felicidade e queria que à sua volta tudo espelhasse a sua alegria de guerreiro triunfador. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "No termo de uma dessas lutas, houve festa no palácio conquistado. Depois do banquete da vitória, o chefe dos vencedores exigiu a presença dos músicos e das bailarinas. Estava radioso de felicidade e queria que à sua volta tudo espelhasse a sua alegria de guerreiro triunfador. Entre as bailarinas, uma se destacava mais do que as outras.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No termo de uma dessas lutas, houve festa no palácio conquistado. Depois do banquete da vitória, o chefe dos vencedores exigiu a presença dos músicos e das bailarinas. Estava radioso de felicidade e queria que à sua volta tudo espelhasse a sua alegria de guerreiro triunfador. Entre as bailarinas, uma se destacava mais do que as outras. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "Um dos convivas reparou no desconcerto e disse-o em voz alta. Outro, a seu lado, explicou: - Não admira. É a princesa, filha do rei deposto. O pai acorrentado na cave e ela a dançar no salão... - Mesmo assim, para quem dança sem vontade muito bem dança - comentou outro conviva.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um dos convivas reparou no desconcerto e disse-o em voz alta. Outro, a seu lado, explicou: - Não admira. É a princesa, filha do rei deposto. O pai acorrentado na cave e ela a dançar no salão... - Mesmo assim, para quem dança sem vontade muito bem dança - comentou outro conviva. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "- Embora, melhor dançaria se sorrisse... - Ri - ordenou-lhe o senhor da festa e dos vencedores, tanto como dos vencidos. Mas a bailarina nem sorriu. Continuava a dançar, vestida da música, com a felicidade a tinir nos pulsos e nos tornozelos, como se o corpo existisse sozinho, decepado do rosto em luto.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Embora, melhor dançaria se sorrisse... - Ri - ordenou-lhe o senhor da festa e dos vencedores, tanto como dos vencidos. Mas a bailarina nem sorriu. Continuava a dançar, vestida da música, com a felicidade a tinir nos pulsos e nos tornozelos, como se o corpo existisse sozinho, decepado do rosto em luto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p0",
+        "s6p1",
+        "s6p2"
+      ],
+      "evidence": "Então, o comandante, de coração rendido, proclamou: - Libertem de vez o rei vencido. Quero-o, aqui, ao nosso lado, a ver a filha dançar. Uma labareda de guizos e risos correu, rolou, adejou pelas arcarias do palácio.",
+      "after": {
+        "segment": 6,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Então, o comandante, de coração rendido, proclamou: - Libertem de vez o rei vencido. Quero-o, aqui, ao nosso lado, a ver a filha dançar. Uma labareda de guizos e risos correu, rolou, adejou pelas arcarias do palácio. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s8p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p2",
+        "s7p0",
+        "s8p0"
+      ],
+      "evidence": "Uma labareda de guizos e risos correu, rolou, adejou pelas arcarias do palácio. Os músicos atónitos ouviram a música, que eles não tocavam, desprender-se, intacta, dos seus instrumentos e engrinaldar de alegria redopiante a princesa dançarina. Nenhuma bailarina dançou, em gestos de riso, em olhos e lábios iluminados de riso, como, naquela noite, a princesa dançou... E por muitos mais anos se contará a história da dança prodigiosa, que fez pulsar, em triunfo, a harmonia da música nos corações dos homens, vencedores ou vencidos...",
+      "after": {
+        "segment": 8,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Uma labareda de guizos e risos correu, rolou, adejou pelas arcarias do palácio. Os músicos atónitos ouviram a música, que eles não tocavam, desprender-se, intacta, dos seus instrumentos e engrinaldar de alegria redopiante a princesa dançarina. Nenhuma bailarina dançou, em gestos de riso, em olhos e lábios iluminados de riso, como, naquela noite, a princesa dançou... E por muitos mais anos se contará a história da dança prodigiosa, que fez pulsar, em triunfo, a harmonia da música nos corações dos homens, vencedores ou vencidos... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

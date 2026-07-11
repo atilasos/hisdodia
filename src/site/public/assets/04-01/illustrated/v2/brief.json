@@ -1,0 +1,141 @@
+{
+  "characters": [
+    {
+      "name": "senhor mordido",
+      "appearance": "homem adulto"
+    },
+    {
+      "name": "senhor partido",
+      "appearance": "homem adulto"
+    },
+    {
+      "name": "senhor queimado",
+      "appearance": "homem adulto"
+    },
+    {
+      "name": "médico",
+      "appearance": "médico"
+    },
+    {
+      "name": "macaco",
+      "appearance": "macaco"
+    }
+  ],
+  "environment": "Vila e hospital, com tom de fábula popular e humor moralizante.",
+  "palette": [
+    "creme",
+    "castanho",
+    "vermelho",
+    "cinzento",
+    "amarelo"
+  ],
+  "recurringObjects": [
+    "folha de papel",
+    "hospital",
+    "macaco",
+    "raio",
+    "fogo"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Um senhor disse: - Macacos me mordam, se o que eu digo não se passou assim mesmo... Como não se tinha passado assim, nem tão-pouco mais ou menos, veio um macaco e mordeu-o.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O risco das mentiras».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um senhor disse: - Macacos me mordam, se o que eu digo não se passou assim mesmo... Como não se tinha passado assim, nem tão-pouco mais ou menos, veio um macaco e mordeu-o. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Um senhor disse: - Macacos me mordam, se o que eu digo não se passou assim mesmo... Como não se tinha passado assim, nem tão-pouco mais ou menos, veio um macaco e mordeu-o.",
+      "after": {
+        "segment": 0,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um senhor disse: - Macacos me mordam, se o que eu digo não se passou assim mesmo... Como não se tinha passado assim, nem tão-pouco mais ou menos, veio um macaco e mordeu-o. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s0p4",
+        "s1p0"
+      ],
+      "evidence": "Um outro senhor disse: - Raios me partam, se não é assim tal como eu conto... Como não era assim tal como ele contava, nem sequer parecido, veio um raio e partiu-o.",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um outro senhor disse: - Raios me partam, se não é assim tal como eu conto... Como não era assim tal como ele contava, nem sequer parecido, veio um raio e partiu-o. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "Um terceiro senhor disse: - Ponho as mãos no fogo como falei toda a verdade... Como não tinha falado toda a verdade, nem sequer um bocadinho, veio o fogo e queimo-o.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um terceiro senhor disse: - Ponho as mãos no fogo como falei toda a verdade... Como não tinha falado toda a verdade, nem sequer um bocadinho, veio o fogo e queimo-o. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s2p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p2",
+        "s1p3",
+        "s2p0"
+      ],
+      "evidence": "- Ponho as mãos no fogo como falei toda a verdade... Como não tinha falado toda a verdade, nem sequer um bocadinho, veio o fogo e queimo-o. O senhor mordido, o senhor partido e o senhor queimado encontraram-se os três, no mesmo hospital. O médico que os atendeu quis primeiro saber o que se tinha passado. Os senhores contaram e, desta vez, sem tirar nem pôr, contaram a verdade por inteiro.",
+      "after": {
+        "segment": 2,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Ponho as mãos no fogo como falei toda a verdade... Como não tinha falado toda a verdade, nem sequer um bocadinho, veio o fogo e queimo-o. O senhor mordido, o senhor partido e o senhor queimado encontraram-se os três, no mesmo hospital. O médico que os atendeu quis primeiro saber o que se tinha passado. Os senhores contaram e, desta vez, sem tirar nem pôr, contaram a verdade por inteiro. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s3p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "Saíram do hospital muito contentes e nunca mais juraram falso. Acreditam? Não acreditam? Pois foi assim tal e qual como eu conto.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Saíram do hospital muito contentes e nunca mais juraram falso. Acreditam? Não acreditam? Pois foi assim tal e qual como eu conto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

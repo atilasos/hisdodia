@@ -1,0 +1,135 @@
+{
+  "characters": [
+    {
+      "name": "galo",
+      "appearance": "ave de quinta com crista viva; presença alerta e dominante"
+    },
+    {
+      "name": "pato",
+      "appearance": "ave de quinta de porte baixo; aparência curiosa e firme"
+    },
+    {
+      "name": "peru",
+      "appearance": "ave grande e vistosa; presença pesada e impressionante"
+    },
+    {
+      "name": "porco",
+      "appearance": "animal robusto e compacto; postura resoluta"
+    },
+    {
+      "name": "gato",
+      "appearance": "animal pequeno e ágil; expressão vigilante"
+    },
+    {
+      "name": "ovelha",
+      "appearance": "animal lanoso e corpulento; ar sereno mas forte"
+    },
+    {
+      "name": "lobos",
+      "appearance": "grupo de lobos famintos e tensos; aparência ameaçadora mas depois atordoada"
+    }
+  ],
+  "environment": "quinta rural e casebre simples com telhado, quatro paredes e lareira acesa, avançando para uma noite tensa que termina com a casa tomada pelos bichos e os lobos fugidos.",
+  "palette": [
+    "castanhos terrosos",
+    "ocres",
+    "verdes escuros",
+    "cinzas azulados",
+    "amarelo quente do fogo",
+    "brancos lanosos",
+    "preto e vermelho pontual nas aves"
+  ],
+  "recurringObjects": [
+    "casebre",
+    "lareira com brasas",
+    "porta aberta",
+    "trave do tecto",
+    "borralho",
+    "selha"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Um velho, que tinha uma quinta, morreu. O galo, o pato, o peru, o porco, o gato e a ovelha, que viviam na quinta, ficaram sem dono. Como não queriam ver-se apartados uns dos outros, resolveram fugir todos juntos. Puseram-se a caminho. À boca da noite, deram com um casebre de porta aberta.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Quem vem lá que vá».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um velho, que tinha uma quinta, morreu. O galo, o pato, o peru, o porco, o gato e a ovelha, que viviam na quinta, ficaram sem dono. Como não queriam ver-se apartados uns dos outros, resolveram fugir todos juntos. Puseram-se a caminho. À boca da noite, deram com um casebre de porta aberta. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "- Esta vai ser a nossa casa - disse um dos bichos. Ainda não era certo, mas fosse como fosse, naquela altura dava jeito. Tinha o que bastava: um telhado, quatro paredes e brasas a luzir na lareira. Os bichos instalaram-se. O gato acocorou-se junto ao borralho. O porco deitou-se ao pé da selha.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Esta vai ser a nossa casa - disse um dos bichos. Ainda não era certo, mas fosse como fosse, naquela altura dava jeito. Tinha o que bastava: um telhado, quatro paredes e brasas a luzir na lareira. Os bichos instalaram-se. O gato acocorou-se junto ao borralho. O porco deitou-se ao pé da selha. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p2",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Os bichos instalaram-se. O gato acocorou-se junto ao borralho. O porco deitou-se ao pé da selha. O galo e o peru empoleiraram-se na trave do tecto. O pato e a ovelha puseram-se atrás da porta. Não se estava mal. Já a noite ia adiantada, quando chegaram os lobos, que moravam naquela casa. Tinham andado à caça, mas sem que tivessem caçado nada que valesse. Vinham furiosos os lobos. E esfomeados.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os bichos instalaram-se. O gato acocorou-se junto ao borralho. O porco deitou-se ao pé da selha. O galo e o peru empoleiraram-se na trave do tecto. O pato e a ovelha puseram-se atrás da porta. Não se estava mal. Já a noite ia adiantada, quando chegaram os lobos, que moravam naquela casa. Tinham andado à caça, mas sem que tivessem caçado nada que valesse. Vinham furiosos os lobos. E esfomeados. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "Já a noite ia adiantada, quando chegaram os lobos, que moravam naquela casa. Tinham andado à caça, mas sem que tivessem caçado nada que valesse. Vinham furiosos os lobos. E esfomeados. Um deles, assim que entrou, chegou-se para o borralho. O gato pressentiu-o e esgatanhou-lhe o focinho. O lobo, que não contava com aquela surpresa no meio do escuro, desatou a correr. Os outros iam para acudir, mas o porco ferrou uma dentada na perna de um e a ovelha atirou uma marrada à barriga de outro.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Já a noite ia adiantada, quando chegaram os lobos, que moravam naquela casa. Tinham andado à caça, mas sem que tivessem caçado nada que valesse. Vinham furiosos os lobos. E esfomeados. Um deles, assim que entrou, chegou-se para o borralho. O gato pressentiu-o e esgatanhou-lhe o focinho. O lobo, que não contava com aquela surpresa no meio do escuro, desatou a correr. Os outros iam para acudir, mas o porco ferrou uma dentada na perna de um e a ovelha atirou uma marrada à barriga de outro. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s8p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s8p1",
+        "s8p2",
+        "s8p3"
+      ],
+      "evidence": "- E eu ouvi um que berrava: \"Quem vem lá que vá! Quem vem lá que vá! Quem vem lá que vá!\" Assim ele ouvira a voz do pato. Os lobos apanharam tal susto que nunca mais quiseram voltar ao casebre, onde passaram a viver o galo, o pato, o peru, o porco, o gato e a ovelha. E sempre muito amigos.",
+      "after": {
+        "segment": 8,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - E eu ouvi um que berrava: \"Quem vem lá que vá! Quem vem lá que vá! Quem vem lá que vá!\" Assim ele ouvira a voz do pato. Os lobos apanharam tal susto que nunca mais quiseram voltar ao casebre, onde passaram a viver o galo, o pato, o peru, o porco, o gato e a ovelha. E sempre muito amigos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

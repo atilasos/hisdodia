@@ -1,0 +1,106 @@
+{
+  "characters": [
+    {
+      "name": "coelho",
+      "appearance": "small white rabbit with prominent front teeth"
+    },
+    {
+      "name": "rato",
+      "appearance": "small gray mouse"
+    },
+    {
+      "name": "lagartixa",
+      "appearance": "slender lizard with long tail"
+    },
+    {
+      "name": "rã",
+      "appearance": "small frog"
+    },
+    {
+      "name": "mocho",
+      "appearance": "owl perched in a tree"
+    }
+  ],
+  "environment": "A natural outdoor clearing near a tree, with simple forest-animal surroundings and a calm daytime storybook atmosphere.",
+  "palette": [
+    "earthy browns",
+    "soft greens",
+    "muted grays",
+    "warm cream",
+    "subtle blue accents"
+  ],
+  "recurringObjects": [
+    "tree branch",
+    "forest clearing",
+    "animal groupings",
+    "moonless daytime sky"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Uma vez o coelho e o rato encontraram-se. – Tu tens os dentes da frente um bocado saídos – observou o rato para o coelho. – Mas tu ainda tens mais – respondeu-lhe o coelho e deu uma corrida e foi-se embora.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Conselhos de Mocho Não Chegam ao Chão».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Uma vez o coelho e o rato encontraram-se. – Tu tens os dentes da frente um bocado saídos – observou o rato para o coelho. – Mas tu ainda tens mais – respondeu-lhe o coelho e deu uma corrida e foi-se embora. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p13",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p11",
+        "s0p12",
+        "s0p13"
+      ],
+      "evidence": "– Ninguém se chega a mim. Não consigo fazer amigos. Porque será? Como o rato pensava em voz alta, o mocho, que estava empoleirado numa árvore perto e a tudo tinha assistido, respondeu-lhe: – Não fazes amigos, porque não olhas a bem para eles. Tenta proceder de outra maneira e verás os resultados.",
+      "after": {
+        "segment": 0,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Ninguém se chega a mim. Não consigo fazer amigos. Porque será? Como o rato pensava em voz alta, o mocho, que estava empoleirado numa árvore perto e a tudo tinha assistido, respondeu-lhe: – Não fazes amigos, porque não olhas a bem para eles. Tenta proceder de outra maneira e verás os resultados. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p21",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p19",
+        "s0p20",
+        "s0p21"
+      ],
+      "evidence": "– Quando encontrar a rã vou dizer-lhe que gostava de ter a pele escorregadiça e fria como a dela. O mocho não podia aguentar mais disparates e indignou-se: – És tolo, duas vezes tolo, rato! Há elogios que matam. Não podes valorizar o que os teus amigos consideram defeitos. Vê se te emendas ou nunca encontrarás quem goste de andar contigo.",
+      "after": {
+        "segment": 0,
+        "paragraph": 21
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Quando encontrar a rã vou dizer-lhe que gostava de ter a pele escorregadiça e fria como a dela. O mocho não podia aguentar mais disparates e indignou-se: – És tolo, duas vezes tolo, rato! Há elogios que matam. Não podes valorizar o que os teus amigos consideram defeitos. Vê se te emendas ou nunca encontrarás quem goste de andar contigo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p27",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p25",
+        "s0p26",
+        "s0p27"
+      ],
+      "evidence": "Ficou o mocho a pensar, também em voz alta: – Este rato não tem emenda. Se em vez de ter estado a aturá-lo o tivesse comido, eu tinha feito melhor. E tinha prestado um grande serviço ao resto da bicharada, porque este rato por onde passar só vai causar aborrecimentos. Eu é que fui parvo em poupá-lo, em vez de papá-lo. E se os mochos gostam de ratos! Mas desta feita o jantar já ia longe.",
+      "after": {
+        "segment": 0,
+        "paragraph": 27
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ficou o mocho a pensar, também em voz alta: – Este rato não tem emenda. Se em vez de ter estado a aturá-lo o tivesse comido, eu tinha feito melhor. E tinha prestado um grande serviço ao resto da bicharada, porque este rato por onde passar só vai causar aborrecimentos. Eu é que fui parvo em poupá-lo, em vez de papá-lo. E se os mochos gostam de ratos! Mas desta feita o jantar já ia longe. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

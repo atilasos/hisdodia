@@ -1,0 +1,121 @@
+{
+  "characters": [
+    {
+      "name": "Viriato",
+      "appearance": "Lusitanian war leader, rugged and resolute, in ancient Iberian attire"
+    },
+    {
+      "name": "Lusitanos",
+      "appearance": "Small band of Iberian guerrillas, lightly armed and mountain-hardened"
+    },
+    {
+      "name": "Roman soldiers",
+      "appearance": "Numerous imperial troops with helmets, spears, and heavy armor"
+    },
+    {
+      "name": "Pastor da Serra da Estrela",
+      "appearance": "Old mountain shepherd, weathered and mysterious"
+    }
+  ],
+  "environment": "Ancient mountainous Iberia, with the Serra da Estrela, Roman encampments, drifting fog, and nocturnal mountain paths",
+  "palette": [
+    "earth brown",
+    "stone gray",
+    "forest green",
+    "mist white",
+    "iron red",
+    "torch gold"
+  ],
+  "recurringObjects": [
+    "mountain ridges",
+    "Roman armor and spears",
+    "fog",
+    "sheep with lanterns on their horns",
+    "torches"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Hoje, vou contar-vos uma história, que passa por verdadeira. Uma história da nossa História... Quem ma contou foi um velho pastor da Serra da Estrela, tinha eu pouco mais ou menos a vossa idade. Aí vai. Há muitos e muitos séculos, ainda não havia sequer Portugal, os romanos tinham conquistado quase por completo a Península Ibérica. De entre os que mais se opuseram às invasões dos reluzentes exércitos do Império, destacaram-se os lusitanos, comandados pelo temível Viriato.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Uma história de Viriato».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Hoje, vou contar-vos uma história, que passa por verdadeira. Uma história da nossa História... Quem ma contou foi um velho pastor da Serra da Estrela, tinha eu pouco mais ou menos a vossa idade. Aí vai. Há muitos e muitos séculos, ainda não havia sequer Portugal, os romanos tinham conquistado quase por completo a Península Ibérica. De entre os que mais se opuseram às invasões dos reluzentes exércitos do Império, destacaram-se os lusitanos, comandados pelo temível Viriato. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Hoje, vou contar-vos uma história, que passa por verdadeira. Uma história da nossa História... Quem ma contou foi um velho pastor da Serra da Estrela, tinha eu pouco mais ou menos a vossa idade. Aí vai. Há muitos e muitos séculos, ainda não havia sequer Portugal, os romanos tinham conquistado quase por completo a Península Ibérica. De entre os que mais se opuseram às invasões dos reluzentes exércitos do Império, destacaram-se os lusitanos, comandados pelo temível Viriato.",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Hoje, vou contar-vos uma história, que passa por verdadeira. Uma história da nossa História... Quem ma contou foi um velho pastor da Serra da Estrela, tinha eu pouco mais ou menos a vossa idade. Aí vai. Há muitos e muitos séculos, ainda não havia sequer Portugal, os romanos tinham conquistado quase por completo a Península Ibérica. De entre os que mais se opuseram às invasões dos reluzentes exércitos do Império, destacaram-se os lusitanos, comandados pelo temível Viriato. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p0",
+        "s2p0",
+        "s3p0"
+      ],
+      "evidence": "Há muitos e muitos séculos, ainda não havia sequer Portugal, os romanos tinham conquistado quase por completo a Península Ibérica. De entre os que mais se opuseram às invasões dos reluzentes exércitos do Império, destacaram-se os lusitanos, comandados pelo temível Viriato. Como eram poucos e mal armados, os lusitanos não podiam enfrentar o inimigo em campo de batalha, onde seriam, pela certa, derrotados. A táctica tinha de ser outra, um misto de manha e coragem, em emboscadas de toca e foge, contra as quais os romanos nada podiam. Certa vez, uma zona da serra foi sitiada . Vinham romanos de todos os lados, de lanças faiscantes, chapéus emplumados e grossas armaduras de couro e ferro. Era de prever a vitória final de Roma. Eis senão quando, começou a descer, lentamente, o nevoeiro sobre as montanhas. Pior para os romanos. O ataque decisivo das legiões invasoras tinha de ser adiado.",
+      "after": {
+        "segment": 3,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Há muitos e muitos séculos, ainda não havia sequer Portugal, os romanos tinham conquistado quase por completo a Península Ibérica. De entre os que mais se opuseram às invasões dos reluzentes exércitos do Império, destacaram-se os lusitanos, comandados pelo temível Viriato. Como eram poucos e mal armados, os lusitanos não podiam enfrentar o inimigo em campo de batalha, onde seriam, pela certa, derrotados. A táctica tinha de ser outra, um misto de manha e coragem, em emboscadas de toca e foge, contra as quais os romanos nada podiam. Certa vez, uma zona da serra foi sitiada . Vinham romanos de todos os lados, de lanças faiscantes, chapéus emplumados e grossas armaduras de couro e ferro. Era de prever a vitória final de Roma. Eis senão quando, começou a descer, lentamente, o nevoeiro sobre as montanhas. Pior para os romanos. O ataque decisivo das legiões invasoras tinha de ser adiado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s6p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p0",
+        "s6p1",
+        "s6p2"
+      ],
+      "evidence": "E os soldados aterrorizados abandonavam por terra armaduras e armas. Aumentava o tropel . Já gritavam vitória os lusitanos. Desfizera-se o cerco. Desfizera-se o cerco graças a um ardil . Poucos continuavam a ser os lusitanos, mas eram numerosos os seus aliados... Milhares de carneiros, imagine-se.",
+      "after": {
+        "segment": 6,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E os soldados aterrorizados abandonavam por terra armaduras e armas. Aumentava o tropel . Já gritavam vitória os lusitanos. Desfizera-se o cerco. Desfizera-se o cerco graças a um ardil . Poucos continuavam a ser os lusitanos, mas eram numerosos os seus aliados... Milhares de carneiros, imagine-se. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s7p0",
+        "s7p1",
+        "s7p2"
+      ],
+      "evidence": "Em cada carneiro, um lampião preso aos chifres. Todos juntos fingiam um exército imenso. Que fantástica habilidade! A batalha fora vencida, sem combate. Esta foi a história que o pastor da Serra da Estrela me contou. Quem sabe se ele não seria descendente dos guerreiros-pastores, companheiros de Viriato?",
+      "after": {
+        "segment": 7,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Em cada carneiro, um lampião preso aos chifres. Todos juntos fingiam um exército imenso. Que fantástica habilidade! A batalha fora vencida, sem combate. Esta foi a história que o pastor da Serra da Estrela me contou. Quem sabe se ele não seria descendente dos guerreiros-pastores, companheiros de Viriato? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,102 @@
+{
+  "characters": [],
+  "environment": "Portuguese storybook setting moving from plants to taller and taller structures and finally skyward space",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Eram duas plantas muito diferentes. Uma, a trepadeira. Outra, o chorão. Chorão, neste caso, não é o que chora muito, mas uma espécie de salgueiro, de ramos pendentes, com longos cabelos penteados, a roçar a terra. Em contrapartida, trepadeira é a que trepa muito, muros, árvores, casas, vedações, o que calha.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Chorão e trepadeira».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eram duas plantas muito diferentes. Uma, a trepadeira. Outra, o chorão. Chorão, neste caso, não é o que chora muito, mas uma espécie de salgueiro, de ramos pendentes, com longos cabelos penteados, a roçar a terra. Em contrapartida, trepadeira é a que trepa muito, muros, árvores, casas, vedações, o que calha. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "- Tivesse eu a que me agarrar, que ia até ao céu - dizia a trepadeira. - Exageras - comentava o chorão. - A meio caminho faltava-te o ar, tremiam-te as pernas e caías. Sei de um feijoeiro com ambições, que também se perdeu pelo caminho. Uma desgraça! Esta conversa desesperava a trepadeira.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Tivesse eu a que me agarrar, que ia até ao céu - dizia a trepadeira. - Exageras - comentava o chorão. - A meio caminho faltava-te o ar, tremiam-te as pernas e caías. Sei de um feijoeiro com ambições, que também se perdeu pelo caminho. Uma desgraça! Esta conversa desesperava a trepadeira. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "- Pois vamos apostar que sou capaz. Apostaram. A trepadeira apoiou-se a uma parede, depois passou para outra mais alta, subiu a um mastro, fincou-se a uma torre, saltou para um arranha-céus e, subindo sempre, cheia de genica , chegou onde nunca tinha chegado. Mas o céu sempre longe.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Pois vamos apostar que sou capaz. Apostaram. A trepadeira apoiou-se a uma parede, depois passou para outra mais alta, subiu a um mastro, fincou-se a uma torre, saltou para um arranha-céus e, subindo sempre, cheia de genica , chegou onde nunca tinha chegado. Mas o céu sempre longe. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p3",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "- Leve-me consigo - pediu ela a um foguetão, que ia por ali fora, como se levasse fogo no rabo. E levava... Mas o foguetão também não ligou. A trepadeira, então, desistiu. Os ramos começaram a pender no sentido donde tinham vindo. Parecia - mal acomparado ! - parecia um chorão. E chorava e chorava mesmo.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Leve-me consigo - pediu ela a um foguetão, que ia por ali fora, como se levasse fogo no rabo. E levava... Mas o foguetão também não ligou. A trepadeira, então, desistiu. Os ramos começaram a pender no sentido donde tinham vindo. Parecia - mal acomparado ! - parecia um chorão. E chorava e chorava mesmo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "Mais consolada com estas palavras, a trepadeira confidenciou : - Quando estava lá em cima, tive uma tontura e... saudades tuas. Trepadeira e chorão entrelaçaram os ramos. Há plantas, às vezes, que são como gente.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mais consolada com estas palavras, a trepadeira confidenciou : - Quando estava lá em cima, tive uma tontura e... saudades tuas. Trepadeira e chorão entrelaçaram os ramos. Há plantas, às vezes, que são como gente. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": [
+    {
+      "sceneId": "scene-3",
+      "attempt": 1,
+      "message": "Built-in imagegen technical moderation failure before raster: http 400 Bad Request; code=moderation_blocked; moderation_stage=input; categories=[self-harm]; request ID unavailable because the function-call transport truncated the 142-token error at a 100-token output limit."
+    },
+    {
+      "sceneId": "scene-3",
+      "attempt": 2,
+      "message": "Built-in imagegen technical failure: image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 494027c7-99d5-4a47-ab7f-50b084cb5b9e. safety_violations=[self-harm].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"self-harm\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    }
+  ]
+}

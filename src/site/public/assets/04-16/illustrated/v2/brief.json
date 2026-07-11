@@ -1,0 +1,101 @@
+{
+  "characters": [
+    {
+      "name": "Senhor Túlio",
+      "appearance": "Adult man, rural Portuguese, practical clothes, bare feet after losing his shoes"
+    },
+    {
+      "name": "Homem dos sapatos trocados",
+      "appearance": "Adult man with oversized bare feet and mixed-up shoes"
+    },
+    {
+      "name": "Feirantes e transeuntes",
+      "appearance": "Crowd of market-goers in simple everyday clothing"
+    }
+  ],
+  "environment": "Feira de Almeirim, with busy market paths, a nearby riacho, grassy banks, and the walk home implied at the end.",
+  "palette": [
+    "earth brown",
+    "dusty beige",
+    "sunlit gold",
+    "river blue",
+    "grass green",
+    "muted red"
+  ],
+  "recurringObjects": [
+    "new leather shoes",
+    "old worn shoes",
+    "contentor do lixo",
+    "riacho",
+    "peúgas",
+    "tamancos/sandals as lost footwear"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O senhor Túlio perdeu os sapatos novos que tinha comprado, na Feira de Almeirim. Mas o que é grave é que os perdeu depois de os ter calçado. E ainda mais grave é que os perdeu sem ter substitutos à mão. Isto é, ao pé. E ainda muitíssimo mais grave é que, depois que os perdeu, teve de voltar descalço para casa. Isto conta-se bem. Contar não custa. Passar por esta trapalhada terá custado ao senhor Túlio muito mais. Para começar custou-lhe o preço de uns bons sapatos de carneira. Contente por tê-los comprado e farto dos sapatos velhos, há que tempos a precisar de dobradas meias solas, deitou-os para a boca de um contentor do lixo. Deste gesto, mais tarde, muito se arrependeria.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Os Sapatos Novos do Senhor Túlio».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O senhor Túlio perdeu os sapatos novos que tinha comprado, na Feira de Almeirim. Mas o que é grave é que os perdeu depois de os ter calçado. E ainda mais grave é que os perdeu sem ter substitutos à mão. Isto é, ao pé. E ainda muitíssimo mais grave é que, depois que os perdeu, teve de voltar descalço para casa. Isto conta-se bem. Contar não custa. Passar por esta trapalhada terá custado ao senhor Túlio muito mais. Para começar custou-lhe o preço de uns bons sapatos de carneira. Contente por tê-los comprado e farto dos sapatos velhos, há que tempos a precisar de dobradas meias solas, deitou-os para a boca de um contentor do lixo. Deste gesto, mais tarde, muito se arrependeria. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "Para começar custou-lhe o preço de uns bons sapatos de carneira. Contente por tê-los comprado e farto dos sapatos velhos, há que tempos a precisar de dobradas meias solas, deitou-os para a boca de um contentor do lixo. Deste gesto, mais tarde, muito se arrependeria. Montado nos sapatos novos, foi à vida. Cirandou por aqui e por ali, que uma feira tem sempre muito que ver, mas o raio dos butes, que a princípio lhe pareciam tão macios, começaram a morder-lhe os pés.",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Para começar custou-lhe o preço de uns bons sapatos de carneira. Contente por tê-los comprado e farto dos sapatos velhos, há que tempos a precisar de dobradas meias solas, deitou-os para a boca de um contentor do lixo. Deste gesto, mais tarde, muito se arrependeria. Montado nos sapatos novos, foi à vida. Cirandou por aqui e por ali, que uma feira tem sempre muito que ver, mas o raio dos butes, que a princípio lhe pareciam tão macios, começaram a morder-lhe os pés. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p10",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p8",
+        "s0p9",
+        "s0p10"
+      ],
+      "evidence": "O senhor Túlio não sabia explicar a situação. – Oiça lá, ó parceiro: quem lhe mandou calçar os meus sapatos? – disse-lhe um sujeito de grandes calcantes descalços, junto dele. O senhor Túlio pediu desculpa do engano e devolveu o seu ao seu dono. Mas os dele, onde parariam? Não pararam, andaram. Calçados por pés enganados, sem ser por mal, os sapatos tinham abalado de vez.",
+      "after": {
+        "segment": 0,
+        "paragraph": 10
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O senhor Túlio não sabia explicar a situação. – Oiça lá, ó parceiro: quem lhe mandou calçar os meus sapatos? – disse-lhe um sujeito de grandes calcantes descalços, junto dele. O senhor Túlio pediu desculpa do engano e devolveu o seu ao seu dono. Mas os dele, onde parariam? Não pararam, andaram. Calçados por pés enganados, sem ser por mal, os sapatos tinham abalado de vez. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p15",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p13",
+        "s0p14",
+        "s0p15"
+      ],
+      "evidence": "Ao senhor Túlio as indignações nunca duram muito. Como contei, no princípio, voltou para casa descalço. Mas a rir-se: – Dantes, nem tamancos tinha. Eu era garoto e andava no pó, nas pedras e na lama, sempre de pés nus. Ganhei casco para a vida, foi o que foi. Mas, vai daí, depois, com o bom tratamento do calçado, os pés amoleceram. Pois que reaprendam e saibam quanto custou, para que não se esqueçam. De tudo o senhor Túlio tira proveito da lição e até os seus próprios pés ele gosta de ensinar.",
+      "after": {
+        "segment": 0,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ao senhor Túlio as indignações nunca duram muito. Como contei, no princípio, voltou para casa descalço. Mas a rir-se: – Dantes, nem tamancos tinha. Eu era garoto e andava no pó, nas pedras e na lama, sempre de pés nus. Ganhei casco para a vida, foi o que foi. Mas, vai daí, depois, com o bom tratamento do calçado, os pés amoleceram. Pois que reaprendam e saibam quanto custou, para que não se esqueçam. De tudo o senhor Túlio tira proveito da lição e até os seus próprios pés ele gosta de ensinar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

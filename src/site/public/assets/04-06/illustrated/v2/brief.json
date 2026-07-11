@@ -1,0 +1,110 @@
+{
+  "characters": [
+    {
+      "name": "Narrador",
+      "appearance": "Adulto observador, andarilho curioso, expressão intrigada e ligeiramente azamboada"
+    },
+    {
+      "name": "Gato verde-claro",
+      "appearance": "Gatinho pequeno, verde-alface, destacado no mato"
+    },
+    {
+      "name": "Senhora de idade",
+      "appearance": "Velhota à janela, serena mas depois arreliada, com um gato branco ao colo"
+    },
+    {
+      "name": "Gato branco",
+      "appearance": "Gato branco ao colo da senhora"
+    },
+    {
+      "name": "Gato verde-escuro",
+      "appearance": "Gato referido como o pai, de cor verde-escura"
+    }
+  ],
+  "environment": "Campo com mato, clareira e uma casinha de bonecas no meio; depois, uma casa no meio do mato com janela aberta, e por fim o caminho de regresso no campo",
+  "palette": [
+    "verde-claro",
+    "verde-alface",
+    "verde-escuro",
+    "branco",
+    "amarelo",
+    "azul",
+    "tons terrosos"
+  ],
+  "recurringObjects": [
+    "mato",
+    "clareira",
+    "casinha de bonecas",
+    "janela",
+    "colo da senhora",
+    "caminho do campo"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Fui há dias dar um passeio pelo campo e até me perdi. Eu gosto muito de perder-me, principalmente porque sei que, mais tarde os mais cedo, acabo sempre por encontrar-me. Quem se perde, sempre alcança. Ou não é assim o provérbio? Quem se perde por gosto, não se cansa. Será este? Também não me soa bem... Mas já estou a desviar-me. Fui ao campo e, no meio do mato, o que é que eu encontrei? Um gato, que rima com mato. Um gato todo verde - verde-claro, verde-alface. Um gatinho.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A cor dos gatos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Fui há dias dar um passeio pelo campo e até me perdi. Eu gosto muito de perder-me, principalmente porque sei que, mais tarde os mais cedo, acabo sempre por encontrar-me. Quem se perde, sempre alcança. Ou não é assim o provérbio? Quem se perde por gosto, não se cansa. Será este? Também não me soa bem... Mas já estou a desviar-me. Fui ao campo e, no meio do mato, o que é que eu encontrei? Um gato, que rima com mato. Um gato todo verde - verde-claro, verde-alface. Um gatinho. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Quem se perde, sempre alcança. Ou não é assim o provérbio? Quem se perde por gosto, não se cansa. Será este? Também não me soa bem... Mas já estou a desviar-me. Fui ao campo e, no meio do mato, o que é que eu encontrei? Um gato, que rima com mato. Um gato todo verde - verde-claro, verde-alface. Um gatinho. Não acreditam? A mim, a princípio, também me custou a acreditar. Fui atrás dele e assim cheguei a uma clareira, com uma espécie de casinha de bonecas no meio.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quem se perde, sempre alcança. Ou não é assim o provérbio? Quem se perde por gosto, não se cansa. Será este? Também não me soa bem... Mas já estou a desviar-me. Fui ao campo e, no meio do mato, o que é que eu encontrei? Um gato, que rima com mato. Um gato todo verde - verde-claro, verde-alface. Um gatinho. Não acreditam? A mim, a princípio, também me custou a acreditar. Fui atrás dele e assim cheguei a uma clareira, com uma espécie de casinha de bonecas no meio. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s4p0"
+      ],
+      "evidence": "- O pai é um gato verde-escuro, que por aí anda. Está-se mesmo a ver: branco com verde-escuro não pode ser encarnado... - Pois não - concordei eu. - Mas um gato verde-escuro não lhe parece esquisito? - O senhor deve ter a mania das complicações - disse-me a velha, isto é, a senhora de idade, já um bocado arreliada. - A cor dele é verde-escura, porque a mãe era uma gata amarela e o pai um gato azul. Onde está a admiração?",
+      "after": {
+        "segment": 4,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - O pai é um gato verde-escuro, que por aí anda. Está-se mesmo a ver: branco com verde-escuro não pode ser encarnado... - Pois não - concordei eu. - Mas um gato verde-escuro não lhe parece esquisito? - O senhor deve ter a mania das complicações - disse-me a velha, isto é, a senhora de idade, já um bocado arreliada. - A cor dele é verde-escura, porque a mãe era uma gata amarela e o pai um gato azul. Onde está a admiração? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s5p0"
+      ],
+      "evidence": "- O senhor deve ter a mania das complicações - disse-me a velha, isto é, a senhora de idade, já um bocado arreliada. - A cor dele é verde-escura, porque a mãe era uma gata amarela e o pai um gato azul. Onde está a admiração? - A admiração?! Não sei onde está - balbuciei eu. - Naturalmente também se perdeu. Sem mais achar que dizer, despedi-me da senhora de idade e, pé ante pé, virei as costas àquela casa no meio do mato. Demorei que tempos até encontrar-me. Estava um bocado azamboado . E ainda estou. Nota-se?",
+      "after": {
+        "segment": 5,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - O senhor deve ter a mania das complicações - disse-me a velha, isto é, a senhora de idade, já um bocado arreliada. - A cor dele é verde-escura, porque a mãe era uma gata amarela e o pai um gato azul. Onde está a admiração? - A admiração?! Não sei onde está - balbuciei eu. - Naturalmente também se perdeu. Sem mais achar que dizer, despedi-me da senhora de idade e, pé ante pé, virei as costas àquela casa no meio do mato. Demorei que tempos até encontrar-me. Estava um bocado azamboado . E ainda estou. Nota-se? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}
