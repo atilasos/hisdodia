@@ -1,0 +1,118 @@
+{
+  "characters": [
+    {
+      "name": "coelho mais novo",
+      "appearance": "young wild rabbit, alert and curious, later wounded and subdued"
+    },
+    {
+      "name": "coelho mais velho",
+      "appearance": "older wild rabbit, wary and protective, later tending wounds"
+    },
+    {
+      "name": "senhor Esteves",
+      "appearance": "distant gardener figure implied by presence, associated with the vegetable patch and shotgun"
+    }
+  ],
+  "environment": "A rural Portuguese vegetable garden at the edge of scrubby woodland, with dense greenery, cabbages, lettuces, a muddy brejo, and a sense of danger just beyond the horta.",
+  "palette": [
+    "earth brown",
+    "leaf green",
+    "muted olive",
+    "soft beige",
+    "dull gray",
+    "rust red"
+  ],
+  "recurringObjects": [
+    "horta",
+    "couves",
+    "alfaces",
+    "espingarda",
+    "brejo",
+    "ervas frescas"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Dois coelhos do mato miravam, a uma respeitável distância, a horta do senhor Esteves. - Que lindeza de couves! E as alfaces tão apetitosas... - dizia o coelho mais novo. - Mas não te chegues - aconselhava-o o coelho mais velho. - O Esteves, se te apanha a roer-lhe alguma couve, não te perdoa.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A horta do Esteves».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Dois coelhos do mato miravam, a uma respeitável distância, a horta do senhor Esteves. - Que lindeza de couves! E as alfaces tão apetitosas... - dizia o coelho mais novo. - Mas não te chegues - aconselhava-o o coelho mais velho. - O Esteves, se te apanha a roer-lhe alguma couve, não te perdoa. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "E ia-se chegando para a horta. - Eu aviso-te. O Esteves não é para brincadeiras - gritava-lhe, já de longe, o coelho mais velho. - Quando era da tua idade, também me tentei e ainda guardo, de recordação, um chumbo na perna. Mas o coelho mais novo já não o ouviu.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E ia-se chegando para a horta. - Eu aviso-te. O Esteves não é para brincadeiras - gritava-lhe, já de longe, o coelho mais velho. - Quando era da tua idade, também me tentei e ainda guardo, de recordação, um chumbo na perna. Mas o coelho mais novo já não o ouviu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "- A espingarda do Esteves - exclamou e fugiu a sete pés, embora não fosse nada com ele. Não correu muito, porque o chumbinho antigo ainda se fazia sentir. Alapado num brejo , esperou. O amigo ter-se-ia escapulido ?",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - A espingarda do Esteves - exclamou e fugiu a sete pés, embora não fosse nada com ele. Não correu muito, porque o chumbinho antigo ainda se fazia sentir. Alapado num brejo , esperou. O amigo ter-se-ia escapulido ? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Era o aventureiro, que até ali se arrastara, a esvair-se em sangue. - Quando fores da minha idade, também vais ter para contar aos mais novos - dizia-lhe o velho companheiro, enquanto com ervas frescas lhe estancava as feridas. O coelhinho dava-se ao tratamento e só respondia com um ai, de quando em vez.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era o aventureiro, que até ali se arrastara, a esvair-se em sangue. - Quando fores da minha idade, também vais ter para contar aos mais novos - dizia-lhe o velho companheiro, enquanto com ervas frescas lhe estancava as feridas. O coelhinho dava-se ao tratamento e só respondia com um ai, de quando em vez. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "- Ao menos diz-me: as alfaces eram tão tenras como parecem? - perguntou o mais velho, a fingir indiferença. - Mal provei - suspirou o coelhinho - O que a nós nos vale é que o Esteves continua sem pontaria, senão nem sobrava um coelho que avisasse os mais novos - concluiu o velho coelho e concluiu muito bem.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Ao menos diz-me: as alfaces eram tão tenras como parecem? - perguntou o mais velho, a fingir indiferença. - Mal provei - suspirou o coelhinho - O que a nós nos vale é que o Esteves continua sem pontaria, senão nem sobrava um coelho que avisasse os mais novos - concluiu o velho coelho e concluiu muito bem. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "O senhor Túlio foi ao Brasil de avião. Ele que nunca tinha saído lá da sua aldeia, aventurar-se a uma viagem tamanha era de espantar. Mas o senhor Túlio tinha uma filha no Rio de Janeiro, filha essa que lhe dera uma neta, neta essa que ia a baptizar, baptizado esse a que o senhor Túlio nem por nada podia faltar. Na grande cidade do Rio de Janeiro, tudo o espantou: o tamanho dos prédios, a largueza das avenidas, a extensão das praias, a bicheza de gente. - É tudo maior do que na minha terra - dizia ele, constantemente. - Até a Lua daqui é mais grada do que a nossa.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Duas luas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O senhor Túlio foi ao Brasil de avião. Ele que nunca tinha saído lá da sua aldeia, aventurar-se a uma viagem tamanha era de espantar. Mas o senhor Túlio tinha uma filha no Rio de Janeiro, filha essa que lhe dera uma neta, neta essa que ia a baptizar, baptizado esse a que o senhor Túlio nem por nada podia faltar. Na grande cidade do Rio de Janeiro, tudo o espantou: o tamanho dos prédios, a largueza das avenidas, a extensão das praias, a bicheza de gente. - É tudo maior do que na minha terra - dizia ele, constantemente. - Até a Lua daqui é mais grada do que a nossa. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "O senhor Túlio foi ao Brasil de avião. Ele que nunca tinha saído lá da sua aldeia, aventurar-se a uma viagem tamanha era de espantar. Mas o senhor Túlio tinha uma filha no Rio de Janeiro, filha essa que lhe dera uma neta, neta essa que ia a baptizar, baptizado esse a que o senhor Túlio nem por nada podia faltar. Na grande cidade do Rio de Janeiro, tudo o espantou: o tamanho dos prédios, a largueza das avenidas, a extensão das praias, a bicheza de gente. - É tudo maior do que na minha terra - dizia ele, constantemente. - Até a Lua daqui é mais grada do que a nossa.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O senhor Túlio foi ao Brasil de avião. Ele que nunca tinha saído lá da sua aldeia, aventurar-se a uma viagem tamanha era de espantar. Mas o senhor Túlio tinha uma filha no Rio de Janeiro, filha essa que lhe dera uma neta, neta essa que ia a baptizar, baptizado esse a que o senhor Túlio nem por nada podia faltar. Na grande cidade do Rio de Janeiro, tudo o espantou: o tamanho dos prédios, a largueza das avenidas, a extensão das praias, a bicheza de gente. - É tudo maior do que na minha terra - dizia ele, constantemente. - Até a Lua daqui é mais grada do que a nossa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "A filha indignava-se: - Ó pai, não ande sempre de boca aberta que parece mal e, por favor, não diga que esta Lua é maior do que a lá da aldeia, porque a Lua é só uma. O senhor Túlio engolia e calava-se, mas, à cautela, pôs-se a medir aos palmos, de longe, a Lua Cheia sobre o Pão de Açúcar.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A filha indignava-se: - Ó pai, não ande sempre de boca aberta que parece mal e, por favor, não diga que esta Lua é maior do que a lá da aldeia, porque a Lua é só uma. O senhor Túlio engolia e calava-se, mas, à cautela, pôs-se a medir aos palmos, de longe, a Lua Cheia sobre o Pão de Açúcar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "\"Um palmo bem medido\", memorizou ele. Quando, com muita pena, teve de voltar para Portugal e regressou à aldeia, não se esqueceu do que matutara. Numa noite de Lua bem redonda, estendeu a palma da mão para o céu e mediu: - Um palmo e nem mais um niquito.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: \"Um palmo bem medido\", memorizou ele. Quando, com muita pena, teve de voltar para Portugal e regressou à aldeia, não se esqueceu do que matutara. Numa noite de Lua bem redonda, estendeu a palma da mão para o céu e mediu: - Um palmo e nem mais um niquito. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p2",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "- Um palmo e nem mais um niquito. Ficou-se a pensar e concluiu: - Ai que tu engordaste, magana, enquanto eu andei lá por fora!",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Um palmo e nem mais um niquito. Ficou-se a pensar e concluiu: - Ai que tu engordaste, magana, enquanto eu andei lá por fora! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,114 @@
+{
+  "characters": [
+    {
+      "name": "sete alfaiates",
+      "appearance": "grupo inicial pequeno de alfaiates em trajes de trabalho"
+    },
+    {
+      "name": "aranha",
+      "appearance": "pequena aranha recorrente, discreta e fugidia"
+    },
+    {
+      "name": "multidão de alfaiates",
+      "appearance": "aglomerados crescentes de alfaiates a correr e agitar-se"
+    }
+  ],
+  "environment": "ambiente de fábula popular, exterior simples e dinâmico, com sensação de alarme crescente e multidão em movimento",
+  "palette": [
+    "tons quentes e terrosos",
+    "azuis e cinzas suaves",
+    "vermelhos de alerta",
+    "contrastes claros para destacar a aranha"
+  ],
+  "recurringObjects": [
+    "tesouras",
+    "vassouras",
+    "sinos de rebate",
+    "ferramentas de alfaiate"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Andam sete alfaiates para matar uma aranha. vejam só o disparate",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A aranha e os alfaiates».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Andam sete alfaiates para matar uma aranha. vejam só o disparate Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "quais soldados em campanha. tocam os sinos a rebate para matar uma aranha.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: quais soldados em campanha. tocam os sinos a rebate para matar uma aranha. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "e todos: \"Farei, farei!\" para matar um aranha gritam: \"Aqui d'el-rei!\"",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: e todos: \"Farei, farei!\" para matar um aranha gritam: \"Aqui d'el-rei!\" Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p1",
+        "s5p2",
+        "s5p3"
+      ],
+      "evidence": "cada um com uma tesoira. sete milhões de alfaiates cada qual com uma vassoira.",
+      "after": {
+        "segment": 5,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: cada um com uma tesoira. sete milhões de alfaiates cada qual com uma vassoira. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s6p1",
+        "s6p2",
+        "s6p3"
+      ],
+      "evidence": "não se crê em tal façanha que tantos valentes juntos deixem fugir uma aranha.",
+      "after": {
+        "segment": 6,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: não se crê em tal façanha que tantos valentes juntos deixem fugir uma aranha. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

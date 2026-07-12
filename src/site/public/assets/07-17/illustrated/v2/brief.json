@@ -1,0 +1,109 @@
+{
+  "characters": [
+    {
+      "name": "lenhador",
+      "appearance": "homem pobre e cansado, sentado junto ao rio, depois com ar desolado e humilde"
+    },
+    {
+      "name": "homem de barbas azuis",
+      "appearance": "figura misteriosa e bondosa, com barbas azuis, que mergulha no rio e recupera machados"
+    },
+    {
+      "name": "vizinho",
+      "appearance": "homem ganancioso e aflito, conduzindo mula e carroça antes de ficar quase nu junto ao rio"
+    },
+    {
+      "name": "mula",
+      "appearance": "mula da lavoura, solta, pastando e de expressão trocista"
+    },
+    {
+      "name": "Lua",
+      "appearance": "lua cheia observando a cena noturna"
+    }
+  ],
+  "environment": "margem de um rio limoso e redemoinhento, com margem rural, entardecer que passa para noite, carroça de lavoura e moitas escuras junto ao rio",
+  "palette": [
+    "azul profundo",
+    "castanho terroso",
+    "prata",
+    "ouro",
+    "verde escuro",
+    "cinza de noite",
+    "amarelo pálido da lua"
+  ],
+  "recurringObjects": [
+    "rio",
+    "machado",
+    "carroça",
+    "mula",
+    "Lua"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "E stava um lenhador sentado, junto à margem de um rio, de queixo nos joelhos, muito triste, quando por ele passou um homem de barbas azuis. Um homem de barbas azuis? Como pode ser isso? Pode, pois. Nas histórias tudo pode acontecer. Então, era um feiticeiro?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Homem de Barbas Azuis».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E stava um lenhador sentado, junto à margem de um rio, de queixo nos joelhos, muito triste, quando por ele passou um homem de barbas azuis. Um homem de barbas azuis? Como pode ser isso? Pode, pois. Nas histórias tudo pode acontecer. Então, era um feiticeiro? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "s2",
+      "evidenceRef": "s0p12",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p10",
+        "s0p11",
+        "s0p12"
+      ],
+      "evidence": "– Ó meu senhor, esse não é. O meu machado é ferramenta de pobre. O homem de barbas azuis mergulhou de novo, para logo voltar à superfície, empunhando um machado de prata. Claro que também aquele não era o machado do lenhador. Ao terceiro mergulho trouxe-lhe o machado perdido.",
+      "after": {
+        "segment": 0,
+        "paragraph": 12
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Ó meu senhor, esse não é. O meu machado é ferramenta de pobre. O homem de barbas azuis mergulhou de novo, para logo voltar à superfície, empunhando um machado de prata. Claro que também aquele não era o machado do lenhador. Ao terceiro mergulho trouxe-lhe o machado perdido. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "s3",
+      "evidenceRef": "s0p15",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p13",
+        "s0p14",
+        "s0p15"
+      ],
+      "evidence": "– E, como és honesto e sincero, levas também os outros machados – disse-lhe o homem de barbas azuis. Pela primeira vez o lenhador reparou nas barbas do seu benfeitor. Assustou-se, atrapalhou-se e, tartamudeando uns agradecimentos em voz sumida, abalou com os três machados. Entardecia. Antes de chegar a casa, encontrou um vizinho a quem contou a maravilha, exibindo os machados de oiro e de prata que refulgiam, à luz do sol a despedir-se.",
+      "after": {
+        "segment": 0,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – E, como és honesto e sincero, levas também os outros machados – disse-lhe o homem de barbas azuis. Pela primeira vez o lenhador reparou nas barbas do seu benfeitor. Assustou-se, atrapalhou-se e, tartamudeando uns agradecimentos em voz sumida, abalou com os três machados. Entardecia. Antes de chegar a casa, encontrou um vizinho a quem contou a maravilha, exibindo os machados de oiro e de prata que refulgiam, à luz do sol a despedir-se. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "s4",
+      "evidenceRef": "s0p26",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p24",
+        "s0p25",
+        "s0p26"
+      ],
+      "evidence": "E o homem, quase nu, numa aflição, cada vez mais a sério: – Quem me salva? Quem me acode? Mas ninguém lhe acudiu.",
+      "after": {
+        "segment": 0,
+        "paragraph": 26
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E o homem, quase nu, numa aflição, cada vez mais a sério: – Quem me salva? Quem me acode? Mas ninguém lhe acudiu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

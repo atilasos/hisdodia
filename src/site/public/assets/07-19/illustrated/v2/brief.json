@@ -1,0 +1,102 @@
+{
+  "characters": [
+    {
+      "name": "arbusto/arvorezinha",
+      "appearance": "pequena árvore jovem, copa simples, sem frutos, expressão primeiro triste depois mais serena"
+    },
+    {
+      "name": "vaca",
+      "appearance": "vaca calma, corpo claro com manchas, postura de pausa junto da árvore"
+    },
+    {
+      "name": "ovelha",
+      "appearance": "ovelha branca, macia e tranquila, sentada a descansar perto da árvore"
+    },
+    {
+      "name": "porquinho",
+      "appearance": "porquinho rosado, atento e orgulhoso, ao lado dos outros animais"
+    }
+  ],
+  "environment": "campo tranquilo com uma árvore jovem no centro, espaço aberto de descanso ao redor, sensação rural e luminosa",
+  "palette": [
+    "verdes suaves",
+    "castanhos quentes",
+    "branco cremoso",
+    "rosa discreto",
+    "azul claro"
+  ],
+  "recurringObjects": [
+    "árvore jovem",
+    "sombra da copa",
+    "três animais reunidos",
+    "chão de campo"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um arbusto, a crescer para árvore. Não era uma árvore de fruto. Isso é que a desgostava, porque ela tinha um sonho: queria dar. Fossem cerejas, maçãs, laranjas, nozes, limões, fosse o que fosse. Esta arvorezinha tinha o gosto de dar prendas. Mas o quê, se não dispunha de prendas para oferecer? Parou à beira dela uma vaca.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Não Dá Fruto».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um arbusto, a crescer para árvore. Não era uma árvore de fruto. Isso é que a desgostava, porque ela tinha um sonho: queria dar. Fossem cerejas, maçãs, laranjas, nozes, limões, fosse o que fosse. Esta arvorezinha tinha o gosto de dar prendas. Mas o quê, se não dispunha de prendas para oferecer? Parou à beira dela uma vaca. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p10",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p8",
+        "s0p9",
+        "s0p10"
+      ],
+      "evidence": "Depois, parou um porquinho. – Tu que dás? – perguntou a árvore. – Dou tudo – respondeu o porco.",
+      "after": {
+        "segment": 0,
+        "paragraph": 10
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Depois, parou um porquinho. – Tu que dás? – perguntou a árvore. – Dou tudo – respondeu o porco. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p17",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p15",
+        "s0p16",
+        "s0p17"
+      ],
+      "evidence": "A árvore não queria acreditar: – O que é que eu dou, coitadinha? – Dás sombra – disseram os três animais, em coro – És fundamental.",
+      "after": {
+        "segment": 0,
+        "paragraph": 17
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A árvore não queria acreditar: – O que é que eu dou, coitadinha? – Dás sombra – disseram os três animais, em coro – És fundamental. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p18",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p16",
+        "s0p17",
+        "s0p18"
+      ],
+      "evidence": "– O que é que eu dou, coitadinha? – Dás sombra – disseram os três animais, em coro – És fundamental. Daí para diante, a arvorezinha cresceu mais feliz.",
+      "after": {
+        "segment": 0,
+        "paragraph": 18
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – O que é que eu dou, coitadinha? – Dás sombra – disseram os três animais, em coro – És fundamental. Daí para diante, a arvorezinha cresceu mais feliz. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

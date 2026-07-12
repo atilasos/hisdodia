@@ -1,0 +1,125 @@
+{
+  "characters": [
+    {
+      "name": "papagaio",
+      "appearance": "bird with vivid multicolored plumage, alert eyes, expressive posture"
+    },
+    {
+      "name": "leão",
+      "appearance": "royal lion with a mane, authoritative stance"
+    },
+    {
+      "name": "corvo",
+      "appearance": "black crow, observant and instructive"
+    },
+    {
+      "name": "burro",
+      "appearance": "donkey with drooping ears, plain, puzzled expression"
+    },
+    {
+      "name": "various animals",
+      "appearance": "mixed gathering of mammals, birds, insects, and amphibians in a folktale setting"
+    }
+  ],
+  "environment": "folktale animal world centered on a royal palace clearing, an outdoor assembly space, and open ground where the animals disperse",
+  "palette": [
+    "earthy browns",
+    "golden ochres",
+    "muted greens",
+    "charcoal black",
+    "warm reds",
+    "soft blues"
+  ],
+  "recurringObjects": [
+    "palace gate",
+    "open clearing",
+    "crowd of animals",
+    "gesture-based communication",
+    "echoing animal voices"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s2p0"
+      ],
+      "evidence": "No tempo em que os animais falavam nem calculam a confusão que era! Os lobos imitavam a voz dos homens, os homens imitavam a voz dos lobos, os cães imitavam a voz dos donos, os gatos imitavam a voz dos cães, os ratos imitavam a voz dos gatos e a raposa, do lado de fora das redes da capoeira, imitava a voz das galinhas.. Como, no fim de contas, ninguém tirava vantagens desta situação, porque se está mesmo a ver que a fala dos bichos só servia para eles se enganarem uns aos outros, o leão, que já nessa altura era o rei dos animais, convocou uma grande assembleia para a cerca do seu palácio. Vieram todos os bichos da Terra, do elefante às formigas, que também falavam, mas sempre em coro, e todos os bichos do ar, do abutre ao noitibó, que era um passarinho de poucas falas.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «No tempo em que os animais falavam...».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No tempo em que os animais falavam nem calculam a confusão que era! Os lobos imitavam a voz dos homens, os homens imitavam a voz dos lobos, os cães imitavam a voz dos donos, os gatos imitavam a voz dos cães, os ratos imitavam a voz dos gatos e a raposa, do lado de fora das redes da capoeira, imitava a voz das galinhas.. Como, no fim de contas, ninguém tirava vantagens desta situação, porque se está mesmo a ver que a fala dos bichos só servia para eles se enganarem uns aos outros, o leão, que já nessa altura era o rei dos animais, convocou uma grande assembleia para a cerca do seu palácio. Vieram todos os bichos da Terra, do elefante às formigas, que também falavam, mas sempre em coro, e todos os bichos do ar, do abutre ao noitibó, que era um passarinho de poucas falas. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "Vieram todos os bichos da Terra, do elefante às formigas, que também falavam, mas sempre em coro, e todos os bichos do ar, do abutre ao noitibó, que era um passarinho de poucas falas. Bichos da água não veio nenhum, por causa da distância e da incomodidade da viagem, mas fizeram-se representar por uns tais que andam cá e lá, ora na água ora em terra - os anfíbios. O discurso do leão, por ser muito grande, não cabe aqui. Digamos, em resumo, o que ele propunha.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Vieram todos os bichos da Terra, do elefante às formigas, que também falavam, mas sempre em coro, e todos os bichos do ar, do abutre ao noitibó, que era um passarinho de poucas falas. Bichos da água não veio nenhum, por causa da distância e da incomodidade da viagem, mas fizeram-se representar por uns tais que andam cá e lá, ora na água ora em terra - os anfíbios. O discurso do leão, por ser muito grande, não cabe aqui. Digamos, em resumo, o que ele propunha. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s5p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "Ele é que adestrava os patos a grasnar, os cães a ladrar, os pombos a arrulhar, os elefantes a bramir e por aí adiante. Discursava muito bem o leão, lá isso discursava, e até é pena que, depois disto, só passasse a rugir. Perdeu-se um grande orador. Toda a bicharada aplaudiu as palavras do rei, palavras que eram ordens.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ele é que adestrava os patos a grasnar, os cães a ladrar, os pombos a arrulhar, os elefantes a bramir e por aí adiante. Discursava muito bem o leão, lá isso discursava, e até é pena que, depois disto, só passasse a rugir. Perdeu-se um grande orador. Toda a bicharada aplaudiu as palavras do rei, palavras que eram ordens. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s8p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s8p0",
+        "s8p1",
+        "s8p2"
+      ],
+      "evidence": "- O que se passou? O que ficou decidido? - perguntava ele à esquerda e à direita. Latidos, mios, cacarejos, guinchos, grasnidos, uivos, balidos, berros, pios, chiados, zumbidos, assobios, bramidos, roncos, arrulhos, regougos foi o que o papagaio ouviu. - Ai a minha cabeça - queixou-se ele.",
+      "after": {
+        "segment": 8,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - O que se passou? O que ficou decidido? - perguntava ele à esquerda e à direita. Latidos, mios, cacarejos, guinchos, grasnidos, uivos, balidos, berros, pios, chiados, zumbidos, assobios, bramidos, roncos, arrulhos, regougos foi o que o papagaio ouviu. - Ai a minha cabeça - queixou-se ele. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s11p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s10p3",
+        "s11p0",
+        "s11p1"
+      ],
+      "evidence": "- Ai que sina a minha! Não sei para que lado me voltar - afligia-se o papagaio. - Que voz me calhou em sorte? A do burro? A da cabra? A da galinha? A da serpente? A do homem? Não sei! Não sei! Não sei! E ainda não sabe. E nunca saberá. Por isso, como não sabe a voz que lhe coube, o papagaio imita, repete, experimenta, arremeda as outras vozes. Calado é que ele não fica.",
+      "after": {
+        "segment": 11,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Ai que sina a minha! Não sei para que lado me voltar - afligia-se o papagaio. - Que voz me calhou em sorte? A do burro? A da cabra? A da galinha? A da serpente? A do homem? Não sei! Não sei! Não sei! E ainda não sabe. E nunca saberá. Por isso, como não sabe a voz que lhe coube, o papagaio imita, repete, experimenta, arremeda as outras vozes. Calado é que ele não fica. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

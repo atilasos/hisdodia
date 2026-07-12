@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": "seara, estrada, circo, quartel e horta",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era uma vez um espantalho. De braços abertos, no meio da seara, grande chapéu desabado e camisa ao vento, o espantalho aborrecia-se: - Estou aqui especado, a guardar o que não é meu e nem me pagam o encargo. Até os pardais já troçam de mim. Vou mas é desempregar-me. E desempregou-se mesmo, isto é, saltou para o chão, atravessou a seara e foi dar à estrada.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O espantalho aventureiro».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um espantalho. De braços abertos, no meio da seara, grande chapéu desabado e camisa ao vento, o espantalho aborrecia-se: - Estou aqui especado, a guardar o que não é meu e nem me pagam o encargo. Até os pardais já troçam de mim. Vou mas é desempregar-me. E desempregou-se mesmo, isto é, saltou para o chão, atravessou a seara e foi dar à estrada. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "- Estou aqui especado, a guardar o que não é meu e nem me pagam o encargo. Até os pardais já troçam de mim. Vou mas é desempregar-me. E desempregou-se mesmo, isto é, saltou para o chão, atravessou a seara e foi dar à estrada. De princípio, custou-lhe a andar. Tinha as pernas trôpegas , claro. Em compensação, podia descansar os braços. Que alívio! Pelo caminho ia pensando: \"Preciso de arranjar trabalho que me dê maquia .",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Estou aqui especado, a guardar o que não é meu e nem me pagam o encargo. Até os pardais já troçam de mim. Vou mas é desempregar-me. E desempregou-se mesmo, isto é, saltou para o chão, atravessou a seara e foi dar à estrada. De princípio, custou-lhe a andar. Tinha as pernas trôpegas , claro. Em compensação, podia descansar os braços. Que alívio! Pelo caminho ia pensando: \"Preciso de arranjar trabalho que me dê maquia . Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p2",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "- Venha connosco - convidaram eles. - Um homem de palha, no nosso espectáculo, é novidade que enche um programa. Ele foi, que o trabalho não era difícil. Dava uns saltos, fazia umas cabriolas, umas palhaçadas e recebia dinheiro. Com o primeiro ordenado comprou uma bolsa e na bolsa meteu as moedas, que ia ganhando. Nada mau! Mas, um dia, apanhou um susto.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Venha connosco - convidaram eles. - Um homem de palha, no nosso espectáculo, é novidade que enche um programa. Ele foi, que o trabalho não era difícil. Dava uns saltos, fazia umas cabriolas, umas palhaçadas e recebia dinheiro. Com o primeiro ordenado comprou uma bolsa e na bolsa meteu as moedas, que ia ganhando. Nada mau! Mas, um dia, apanhou um susto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s6p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p1",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "De arma ao ombro, percorreu caminhos, guerras, países. Foi considerado um herói. Recebeu medalhas e louvores. Pois pudera: as balas atravessavam-no, que o sangue não corria, porque sangue não havia. As lanças trespassavam-no, que dor nunca sentia, porque nervos não havia. Não, nunca caía o espantalho no meio da batalha. Era tal a valentia. Mas também se desconsolou de ser soldado.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: De arma ao ombro, percorreu caminhos, guerras, países. Foi considerado um herói. Recebeu medalhas e louvores. Pois pudera: as balas atravessavam-no, que o sangue não corria, porque sangue não havia. As lanças trespassavam-no, que dor nunca sentia, porque nervos não havia. Não, nunca caía o espantalho no meio da batalha. Era tal a valentia. Mas também se desconsolou de ser soldado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s10p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s9p0",
+        "s10p0",
+        "s10p1"
+      ],
+      "evidence": "Colocou-se de braços abertos, a proteger a propriedade, e ali ficou, de grande chapéu desabado , camisa ao vento... Tinha sido espantalho, saltimbanco, mercenário. Voltava a ser espantalho - perdão! - proprietário! Estava feliz? Não sabemos. - Também agora os pardais troçam de mim - queixava-se ele, quando pouco mais ou menos a história chega ao fim. Para nós, que aqui o vemos, o fim voltou ao princípio, ao ofício de espantalho. Há muitas histórias assim...",
+      "after": {
+        "segment": 10,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Colocou-se de braços abertos, a proteger a propriedade, e ali ficou, de grande chapéu desabado , camisa ao vento... Tinha sido espantalho, saltimbanco, mercenário. Voltava a ser espantalho - perdão! - proprietário! Estava feliz? Não sabemos. - Também agora os pardais troçam de mim - queixava-se ele, quando pouco mais ou menos a história chega ao fim. Para nós, que aqui o vemos, o fim voltou ao princípio, ao ofício de espantalho. Há muitas histórias assim... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

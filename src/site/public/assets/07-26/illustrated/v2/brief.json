@@ -1,0 +1,83 @@
+{
+  "characters": [],
+  "environment": "Contemporary Portuguese domestic interior, a street outside the house, and a quiet garden bench scene",
+  "palette": [
+    "warm neutrals",
+    "soft greens",
+    "muted blues",
+    "gentle autumn tones"
+  ],
+  "recurringObjects": [
+    "desk",
+    "chair",
+    "garden bench"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Ia para contar uma história, mas no caminho para casa ou lá onde fosse esqueci-me. Sentado à secretária, onde escrevo as histórias que me ocorrem por aqui e por ali, chamei pela minha história e ela nicles! Não respondeu à chamada. Onde a teria perdido? No corredor? Não, que não era história de correr. Na casa de jantar? Não, que não era história de comer. No quarto? Não, que não era história para adormecer.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «História Perdida».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ia para contar uma história, mas no caminho para casa ou lá onde fosse esqueci-me. Sentado à secretária, onde escrevo as histórias que me ocorrem por aqui e por ali, chamei pela minha história e ela nicles! Não respondeu à chamada. Onde a teria perdido? No corredor? Não, que não era história de correr. Na casa de jantar? Não, que não era história de comer. No quarto? Não, que não era história para adormecer. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s0p3"
+      ],
+      "evidence": "Sentado à secretária, onde escrevo as histórias que me ocorrem por aqui e por ali, chamei pela minha história e ela nicles! Não respondeu à chamada. Onde a teria perdido? No corredor? Não, que não era história de correr. Na casa de jantar? Não, que não era história de comer. No quarto? Não, que não era história para adormecer. Naturalmente, foi na rua, antes de eu ter entrado em casa. Ficou à porta, envergonhada, e andará agora por aí, ao deus-dará, sem ninguém que lhe dê a mão, desabrigadinha de todo, a minha pobre história perdida.",
+      "after": {
+        "segment": 0,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Sentado à secretária, onde escrevo as histórias que me ocorrem por aqui e por ali, chamei pela minha história e ela nicles! Não respondeu à chamada. Onde a teria perdido? No corredor? Não, que não era história de correr. Na casa de jantar? Não, que não era história de comer. No quarto? Não, que não era história para adormecer. Naturalmente, foi na rua, antes de eu ter entrado em casa. Ficou à porta, envergonhada, e andará agora por aí, ao deus-dará, sem ninguém que lhe dê a mão, desabrigadinha de todo, a minha pobre história perdida. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p9",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p7",
+        "s0p8",
+        "s0p9"
+      ],
+      "evidence": "Bem... Podia imaginar... Podia, por exemplo, imaginar que a minha história, depois de ter andado ao acaso, foi ter a um jardim, onde estava uma senhora de cabelos brancos, sentada num banco, pensativa, preocupada... Ia visitar os netos e não tinha nada para lhes levar. Nem carrinho, nem bola, nem boneco... E eles, já se vê, à espera de uma lembrança. Mas a vida tão cara! A minha história adivinhou-lhe os pensamentos. E a minha história, sempre tão tímida, tão metida consigo, teve uma ousadia. Ofereceu-se: – Leve-me aos seus netos. Conte-me. Também sou uma prenda.",
+      "after": {
+        "segment": 0,
+        "paragraph": 9
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Bem... Podia imaginar... Podia, por exemplo, imaginar que a minha história, depois de ter andado ao acaso, foi ter a um jardim, onde estava uma senhora de cabelos brancos, sentada num banco, pensativa, preocupada... Ia visitar os netos e não tinha nada para lhes levar. Nem carrinho, nem bola, nem boneco... E eles, já se vê, à espera de uma lembrança. Mas a vida tão cara! A minha história adivinhou-lhe os pensamentos. E a minha história, sempre tão tímida, tão metida consigo, teve uma ousadia. Ofereceu-se: – Leve-me aos seus netos. Conte-me. Também sou uma prenda. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p11",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p9",
+        "s0p10",
+        "s0p11"
+      ],
+      "evidence": "– Leve-me aos seus netos. Conte-me. Também sou uma prenda. Assim aconteceu. E os netos parece que gostaram. Afinal, sempre se aproveitou a minha história perdida.",
+      "after": {
+        "segment": 0,
+        "paragraph": 11
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Leve-me aos seus netos. Conte-me. Também sou uma prenda. Assim aconteceu. E os netos parece que gostaram. Afinal, sempre se aproveitou a minha história perdida. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

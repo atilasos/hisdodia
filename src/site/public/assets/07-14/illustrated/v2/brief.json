@@ -1,0 +1,100 @@
+{
+  "characters": [
+    {
+      "name": "Dom Heleno",
+      "appearance": "cavaleiro de armadura, com espada e lança, montado no cavalo Valdevinos"
+    },
+    {
+      "name": "Valdevinos",
+      "appearance": "cavalo fiel, grande, expressivo, com dentes marcantes"
+    },
+    {
+      "name": "Gigante cabeçudo",
+      "appearance": "gigante muito grande, de cabeça desproporcionada, com um enorme cacete"
+    }
+  ],
+  "environment": "povoados e campo de torneio medieval, com camponeses a assistir e, no fim, clima de festa após a captura do gigante",
+  "palette": [
+    "metal cinzento",
+    "vermelhos terrosos",
+    "castanhos quentes",
+    "azuis profundos",
+    "tons dourados de festa"
+  ],
+  "recurringObjects": [
+    "armadura",
+    "lança",
+    "espada",
+    "cacete",
+    "cordas",
+    "cavalo"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "E stão a ver um cavaleiro, daqueles de armadura, espada e lança, sempre prontas para o bom combate, em defesa dos mais fracos? Chama-se Heleno, Dom Heleno e o seu fiel cavalo é o Valdevinos. Quando esta história começa, apronta-se Dom Heleno para mais um torneio de vida ou de morte, desta vez contra um gigante cabeçudo que amedrontava os povoados.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Dom Heleno».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E stão a ver um cavaleiro, daqueles de armadura, espada e lança, sempre prontas para o bom combate, em defesa dos mais fracos? Chama-se Heleno, Dom Heleno e o seu fiel cavalo é o Valdevinos. Quando esta história começa, apronta-se Dom Heleno para mais um torneio de vida ou de morte, desta vez contra um gigante cabeçudo que amedrontava os povoados. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "Quando esta história começa, apronta-se Dom Heleno para mais um torneio de vida ou de morte, desta vez contra um gigante cabeçudo que amedrontava os povoados. Temos, assim, de uma banda o cavaleiro Heleno, montado no Valdevinos, e da outra banda, a pé, empunhando um enorme cacete, o gigante, a rir-se da insignificância do adversário. Heleno investe, de lança apontada aos joelhos do gigante, que a mais alto não consegue chegar. O gigante sarilha a moca e zás! Só com a deslocação do vento, o cavaleiro solta-se do cavalo e cai no chão.",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando esta história começa, apronta-se Dom Heleno para mais um torneio de vida ou de morte, desta vez contra um gigante cabeçudo que amedrontava os povoados. Temos, assim, de uma banda o cavaleiro Heleno, montado no Valdevinos, e da outra banda, a pé, empunhando um enorme cacete, o gigante, a rir-se da insignificância do adversário. Heleno investe, de lança apontada aos joelhos do gigante, que a mais alto não consegue chegar. O gigante sarilha a moca e zás! Só com a deslocação do vento, o cavaleiro solta-se do cavalo e cai no chão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p11",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p9",
+        "s0p10",
+        "s0p11"
+      ],
+      "evidence": "O gigante levanta o pé, para perceber o que lhe sucedera, e, nessa oportunidade, o cavaleiro Dom Heleno, recomposto da queda, atira-lhe a lança à barriga da perna, que sustinha o gigante. – Arre! – grita o gigante entre outras palavras de mais peso. Com as duas pernas feridas, o gigante desequilibra-se e cai. Ora um gigante caído é um gigante vencido, para mais cabeçudo e trangalhadanças.",
+      "after": {
+        "segment": 0,
+        "paragraph": 11
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O gigante levanta o pé, para perceber o que lhe sucedera, e, nessa oportunidade, o cavaleiro Dom Heleno, recomposto da queda, atira-lhe a lança à barriga da perna, que sustinha o gigante. – Arre! – grita o gigante entre outras palavras de mais peso. Com as duas pernas feridas, o gigante desequilibra-se e cai. Ora um gigante caído é um gigante vencido, para mais cabeçudo e trangalhadanças. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p15",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p13",
+        "s0p14",
+        "s0p15"
+      ],
+      "evidence": "Terminada a festa e de novo a caminho sobre a sua fiel montada, Dom Heleno comenta de si para si: – Esta foi uma das minhas mais memoráveis vitórias. Valdevinos ouve e cala, mas ri-se, mostrando os seus grandes dentes, os dentes com que ferrara a dentada decisiva no calcanhar do gigante.",
+      "after": {
+        "segment": 0,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Terminada a festa e de novo a caminho sobre a sua fiel montada, Dom Heleno comenta de si para si: – Esta foi uma das minhas mais memoráveis vitórias. Valdevinos ouve e cala, mas ri-se, mostrando os seus grandes dentes, os dentes com que ferrara a dentada decisiva no calcanhar do gigante. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

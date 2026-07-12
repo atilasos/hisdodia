@@ -1,0 +1,126 @@
+{
+  "characters": [
+    {
+      "name": "Galinha",
+      "appearance": "Mãe galinha da capoeira"
+    },
+    {
+      "name": "Corvinho / corvo",
+      "appearance": "Passaroco preto, pequeno no início, depois de penas brilhantes"
+    },
+    {
+      "name": "Galo",
+      "appearance": "Galaró da capoeira"
+    },
+    {
+      "name": "Restantes galinhas",
+      "appearance": "Grupo de galinhas da capoeira"
+    },
+    {
+      "name": "Ladrão",
+      "appearance": "Pilha-galinhas que invade a capoeira"
+    }
+  ],
+  "environment": "Capoeira rural portuguesa, com poleiro, rede, noite e amanhecer.",
+  "palette": [
+    "preto lustroso",
+    "castanho quente",
+    "ocre",
+    "branco sujo",
+    "azul-prateado",
+    "amarelo do sol",
+    "tons escuros de noite"
+  ],
+  "recurringObjects": [
+    "ovos",
+    "poleiro",
+    "rede da capoeira",
+    "asas",
+    "saco do ladrão"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma galinha que não tinha pintos. Ela chocava os ovos, mas saíam todos goros. Um dia, alguém, por maldade ou distracção, meteu no choco um ovo de corva. Passado tempo, do ovo rompeu um passareco feinho que mal se tinha nas pernas. A galinha chamou-o de filho e o corvinho trangalhadanças chamou-a de mãe. Assim podia acabar a história, que acabava em maravilha.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Pinto Preto».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma galinha que não tinha pintos. Ela chocava os ovos, mas saíam todos goros. Um dia, alguém, por maldade ou distracção, meteu no choco um ovo de corva. Passado tempo, do ovo rompeu um passareco feinho que mal se tinha nas pernas. A galinha chamou-o de filho e o corvinho trangalhadanças chamou-a de mãe. Assim podia acabar a história, que acabava em maravilha. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma galinha que não tinha pintos. Ela chocava os ovos, mas saíam todos goros. Um dia, alguém, por maldade ou distracção, meteu no choco um ovo de corva. Passado tempo, do ovo rompeu um passareco feinho que mal se tinha nas pernas. A galinha chamou-o de filho e o corvinho trangalhadanças chamou-a de mãe. Assim podia acabar a história, que acabava em maravilha.",
+      "after": {
+        "segment": 0,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma galinha que não tinha pintos. Ela chocava os ovos, mas saíam todos goros. Um dia, alguém, por maldade ou distracção, meteu no choco um ovo de corva. Passado tempo, do ovo rompeu um passareco feinho que mal se tinha nas pernas. A galinha chamou-o de filho e o corvinho trangalhadanças chamou-a de mãe. Assim podia acabar a história, que acabava em maravilha. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p6",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "– Não é dos nossos – cacarejavam as restantes galinhas. – Vai dar má fama ao poleiro – proclamava o galo. Só a galinha o defendia e com tanta força nas bicadas que se deu ao respeito.",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Não é dos nossos – cacarejavam as restantes galinhas. – Vai dar má fama ao poleiro – proclamava o galo. Só a galinha o defendia e com tanta força nas bicadas que se deu ao respeito. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p13",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p11",
+        "s0p12",
+        "s0p13"
+      ],
+      "evidence": "Estava ele uma noite, no seu matutar, virado para a Lua, quando sentiu umas raspadelas suspeitas, do lado em que a rede estava mais folgada. Era um ladrão, pilha-galinhas, rapinante, desses que torcem o pescoço ao galinhame adormecido e zás, atiram o recheio de uma capoeira toda para dentro de um saco, em menos de um ai. – Ai! – terá gritado o corvo de alerta. E continuou na gritaria. Se não foi \"ai\" foi coisa parecida, grasnada em toque de cornetim. Saltaram galo e galinhas do poleiro – algumas até caíram -, o ladrão atarantou-se com a chinfrineira e pôs-se a cavar, de saco vazio.",
+      "after": {
+        "segment": 0,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Estava ele uma noite, no seu matutar, virado para a Lua, quando sentiu umas raspadelas suspeitas, do lado em que a rede estava mais folgada. Era um ladrão, pilha-galinhas, rapinante, desses que torcem o pescoço ao galinhame adormecido e zás, atiram o recheio de uma capoeira toda para dentro de um saco, em menos de um ai. – Ai! – terá gritado o corvo de alerta. E continuou na gritaria. Se não foi \"ai\" foi coisa parecida, grasnada em toque de cornetim. Saltaram galo e galinhas do poleiro – algumas até caíram -, o ladrão atarantou-se com a chinfrineira e pôs-se a cavar, de saco vazio. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p15",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p13",
+        "s0p14",
+        "s0p15"
+      ],
+      "evidence": "Se não foi \"ai\" foi coisa parecida, grasnada em toque de cornetim. Saltaram galo e galinhas do poleiro – algumas até caíram -, o ladrão atarantou-se com a chinfrineira e pôs-se a cavar, de saco vazio. – Salvaram-se, graças ao meu filho – não se cansava de repetir a mãe galinha. Concordância geral. Todos abriram as asas ao herói. E logo ali decidiram, com muitos bravos, que o corvo passava à categoria de segurança, guarda-nocturno, guarda-redes de toda a capoeira. As penas do corvo luziam de felicidade.",
+      "after": {
+        "segment": 0,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Se não foi \"ai\" foi coisa parecida, grasnada em toque de cornetim. Saltaram galo e galinhas do poleiro – algumas até caíram -, o ladrão atarantou-se com a chinfrineira e pôs-se a cavar, de saco vazio. – Salvaram-se, graças ao meu filho – não se cansava de repetir a mãe galinha. Concordância geral. Todos abriram as asas ao herói. E logo ali decidiram, com muitos bravos, que o corvo passava à categoria de segurança, guarda-nocturno, guarda-redes de toda a capoeira. As penas do corvo luziam de felicidade. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,112 @@
+{
+  "characters": [
+    {
+      "name": "Toino",
+      "appearance": "um rapaz novo, distraído, bom rapaz, com ar pensativo e descuidado"
+    },
+    {
+      "name": "Mãe de Toino",
+      "appearance": "uma mãe atenta e preocupada, postura protetora"
+    }
+  ],
+  "environment": "uma cidade portuguesa contemporânea, com rua movimentada, passadeiras, lojas de bairro e hospital",
+  "palette": [
+    "cores urbanas suaves",
+    "tons quentes de pele e roupa",
+    "cinzentos e azuis da cidade",
+    "vermelhos de sinalização",
+    "brancos de hospital"
+  ],
+  "recurringObjects": [
+    "passadeira",
+    "automóveis",
+    "atacadores desatados",
+    "porta de escola",
+    "hospital"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O Toino era muito distraído. A mãe, quando ele saía para a escola, cobria-o de recomendações: – Cuidado ao atravessares a rua, Toino. Olha para a esquerda e olha para a direita, vê se não vem nenhum carro e só depois é que atravessas. E sempre nas passagens zebradas.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Toino Distraído».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Toino era muito distraído. A mãe, quando ele saía para a escola, cobria-o de recomendações: – Cuidado ao atravessares a rua, Toino. Olha para a esquerda e olha para a direita, vê se não vem nenhum carro e só depois é que atravessas. E sempre nas passagens zebradas. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p7",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p5",
+        "s0p6",
+        "s0p7"
+      ],
+      "evidence": "– Sim, mãe – dizia o Toino. – E não converses com desconhecidos. E cumprimenta sempre os conhecidos. E porta-te bem. – Sim, mãe – dizia o Toino.",
+      "after": {
+        "segment": 0,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Sim, mãe – dizia o Toino. – E não converses com desconhecidos. E cumprimenta sempre os conhecidos. E porta-te bem. – Sim, mãe – dizia o Toino. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p17",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p15",
+        "s0p16",
+        "s0p17"
+      ],
+      "evidence": "E ele, nada. Não era por má-criação. Era por distracção. Só numa coisa correspondia à risca aos preceitos da mãe. O Toino não se portava mal. Não era um gandulo travesso que porfiasse em cometer ruindades. Lá isso, não. O Toino era bom rapaz. Muito distraído, mas bom rapazinho.",
+      "after": {
+        "segment": 0,
+        "paragraph": 17
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E ele, nada. Não era por má-criação. Era por distracção. Só numa coisa correspondia à risca aos preceitos da mãe. O Toino não se portava mal. Não era um gandulo travesso que porfiasse em cometer ruindades. Lá isso, não. O Toino era bom rapaz. Muito distraído, mas bom rapazinho. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p19",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p17",
+        "s0p18",
+        "s0p19"
+      ],
+      "evidence": "Só numa coisa correspondia à risca aos preceitos da mãe. O Toino não se portava mal. Não era um gandulo travesso que porfiasse em cometer ruindades. Lá isso, não. O Toino era bom rapaz. Muito distraído, mas bom rapazinho. Mais pena me fez quando soube que tinha sido atropelado. Atravessou sem cautelas e um automóvel tropeçou nele. O Toino foi parar ao hospital. Estive lá, ontem, a vê-lo. Todo ligado e engessado, o Toino vai ter muito tempo para pensar.",
+      "after": {
+        "segment": 0,
+        "paragraph": 19
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Só numa coisa correspondia à risca aos preceitos da mãe. O Toino não se portava mal. Não era um gandulo travesso que porfiasse em cometer ruindades. Lá isso, não. O Toino era bom rapaz. Muito distraído, mas bom rapazinho. Mais pena me fez quando soube que tinha sido atropelado. Atravessou sem cautelas e um automóvel tropeçou nele. O Toino foi parar ao hospital. Estive lá, ontem, a vê-lo. Todo ligado e engessado, o Toino vai ter muito tempo para pensar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p24",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p22",
+        "s0p23",
+        "s0p24"
+      ],
+      "evidence": "– O meu filho, com o desastre, ficou meio azamboado. Calcule que, à despedida me recomendou: \"A mãe tome cuidado onde tropece. Antes de atravessar a rua, cumprimente sempre para a direita e para a esquerda e veja se não vem nenhum desconhecido. Só atravesse nas passagens com atacadores apertados.\" Efeito do choque. Mas há-de recompor-se. Estou mesmo convencido de que o Toino, ultrapassada esta balbúrdia de ideias em salada, vai ficar outro, capaz até de passar a ser ele a dar bons conselhos à mãe, quando ela descer à rua: – Cuidado ao atravessares, mãe. Olha para a esquerda e para a direita, vê se não vem nenhum carro e só depois é que atravessas. Etc. Etc. E porta-te bem, mãe. Porta-te bem.",
+      "after": {
+        "segment": 0,
+        "paragraph": 24
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – O meu filho, com o desastre, ficou meio azamboado. Calcule que, à despedida me recomendou: \"A mãe tome cuidado onde tropece. Antes de atravessar a rua, cumprimente sempre para a direita e para a esquerda e veja se não vem nenhum desconhecido. Só atravesse nas passagens com atacadores apertados.\" Efeito do choque. Mas há-de recompor-se. Estou mesmo convencido de que o Toino, ultrapassada esta balbúrdia de ideias em salada, vai ficar outro, capaz até de passar a ser ele a dar bons conselhos à mãe, quando ela descer à rua: – Cuidado ao atravessares, mãe. Olha para a esquerda e para a direita, vê se não vem nenhum carro e só depois é que atravessas. Etc. Etc. E porta-te bem, mãe. Porta-te bem. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

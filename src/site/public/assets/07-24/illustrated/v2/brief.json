@@ -1,0 +1,120 @@
+{
+  "characters": [
+    {
+      "name": "O homem dos impossíveis",
+      "appearance": "Homem simples, descuidado e modesto, com chapéu-de-chuva debaixo do braço"
+    },
+    {
+      "name": "A mulher",
+      "appearance": "Esposa prática e repreensiva, em ambiente doméstico"
+    },
+    {
+      "name": "Hermenegildo",
+      "appearance": "Falso mago trapaceiro, teatral e convencido, a pedir pagamentos adiantados"
+    },
+    {
+      "name": "Grupo de pessoas",
+      "appearance": "Multidão de curiosos e basbaques reunida na praça"
+    }
+  ],
+  "environment": "Uma cidade portuguesa em época de seca, com praça pública, arcadas, coluna, gente reunida, casas modestas e clima que passa de seco a chuva intensa, terminando num arco-íris.",
+  "palette": [
+    "tons quentes e poeirentos",
+    "ocres e castanhos secos",
+    "azuis cinzentos de chuva",
+    "brancos luminosos",
+    "verdes suaves do arco-íris"
+  ],
+  "recurringObjects": [
+    "chapéu-de-chuva",
+    "chapéu para moedas",
+    "coluna das arcadas",
+    "nuvens",
+    "moedas"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "E le era o homem dos impossíveis. Fazia chover, se lhe pediam. Calava as trovoadas, quando lhe apetecia.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Homem dos Impossíveis».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E le era o homem dos impossíveis. Fazia chover, se lhe pediam. Calava as trovoadas, quando lhe apetecia. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p24",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p22",
+        "s0p23",
+        "s0p24"
+      ],
+      "evidence": "Em tempo de desespero, qualquer promessa, por mais incrível que seja, refresca a esperança. Como o orvalho pela manhã. O aldrabilhas ia levar a sua avante. As primeiras moedas pingaram no chapéu que ele estendia. – Contribuam todos que, em chegando a uma determinada quantia, eu garanto que faço chover – dizia o manhoso do Hermenegildo.",
+      "after": {
+        "segment": 0,
+        "paragraph": 24
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Em tempo de desespero, qualquer promessa, por mais incrível que seja, refresca a esperança. Como o orvalho pela manhã. O aldrabilhas ia levar a sua avante. As primeiras moedas pingaram no chapéu que ele estendia. – Contribuam todos que, em chegando a uma determinada quantia, eu garanto que faço chover – dizia o manhoso do Hermenegildo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p30",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p28",
+        "s0p29",
+        "s0p30"
+      ],
+      "evidence": "– Esse sujeito é um vigarista. Ele nunca conseguirá fazer chover. – Isso julga você, seu invejoso – replicou-lhe o mágico Hermenegildo. – Como é que sabe? – Sei, porque eu é que faço chover – disse o verdadeiro homem dos impossíveis, muito direito e seguro de si.",
+      "after": {
+        "segment": 0,
+        "paragraph": 30
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Esse sujeito é um vigarista. Ele nunca conseguirá fazer chover. – Isso julga você, seu invejoso – replicou-lhe o mágico Hermenegildo. – Como é que sabe? – Sei, porque eu é que faço chover – disse o verdadeiro homem dos impossíveis, muito direito e seguro de si. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p34",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p32",
+        "s0p33",
+        "s0p34"
+      ],
+      "evidence": "Arredado do ajuntamento pela troça dos outros, o homem dos impossíveis foi para uma das arcadas da praça, encostar-se a uma coluna, como um menino amuado. – Ai não acreditam em mim? Pois já vos conto como é – dizia ele, de si para si. Aplicou-se a fundo, fez força ou lá como foi e uns primeiros borrifos caíram na praça. As pessoas olharam para o céu e viram-no carregado de nuvens cada vez mais escuras. Uma abada de água entornou-se lá de cima. Nunca mais parava de chover.",
+      "after": {
+        "segment": 0,
+        "paragraph": 34
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Arredado do ajuntamento pela troça dos outros, o homem dos impossíveis foi para uma das arcadas da praça, encostar-se a uma coluna, como um menino amuado. – Ai não acreditam em mim? Pois já vos conto como é – dizia ele, de si para si. Aplicou-se a fundo, fez força ou lá como foi e uns primeiros borrifos caíram na praça. As pessoas olharam para o céu e viram-no carregado de nuvens cada vez mais escuras. Uma abada de água entornou-se lá de cima. Nunca mais parava de chover. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p39",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p37",
+        "s0p38",
+        "s0p39"
+      ],
+      "evidence": "Quanto ao homem dos impossíveis, que logo nesse dia se tinha esquecido do chapéu-de– chuva, chegou a casa todo encharcado. – Francamente, homem! – ralhou-lhe a mulher. – O trabalho que eu vou ter a enxugar a tua roupa. E ainda te podes constipar... És mesmo impossível! Mas ele não se ralou. Estava até muito divertido. Tão divertido que deu um espirro, parou de chover e um magnífico arco-íris desenhou-se no céu.",
+      "after": {
+        "segment": 0,
+        "paragraph": 39
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quanto ao homem dos impossíveis, que logo nesse dia se tinha esquecido do chapéu-de– chuva, chegou a casa todo encharcado. – Francamente, homem! – ralhou-lhe a mulher. – O trabalho que eu vou ter a enxugar a tua roupa. E ainda te podes constipar... És mesmo impossível! Mas ele não se ralou. Estava até muito divertido. Tão divertido que deu um espirro, parou de chover e um magnífico arco-íris desenhou-se no céu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

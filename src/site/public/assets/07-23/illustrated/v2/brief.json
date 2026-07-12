@@ -1,0 +1,115 @@
+{
+  "characters": [
+    {
+      "name": "Tia",
+      "appearance": "Mãe atenta e prática, sempre a dar recomendações ao telefone."
+    },
+    {
+      "name": "Lindinho (Arlindo)",
+      "appearance": "Rapaz obediente e esquecido, associado ao mar e à praia."
+    },
+    {
+      "name": "Feião (Zé da Felismina)",
+      "appearance": "Velho pescador curtido pelo sol, ligado ao mar e ao bairro dos pescadores."
+    }
+  ],
+  "environment": "Praia, mar e casa de férias numa aldeia costeira portuguesa, com ambiente de verão e encontro entre gerações.",
+  "palette": [
+    "azuis do mar",
+    "areia dourada",
+    "brancos e cremes",
+    "vermelhos discretos",
+    "tons quentes de sol envelhecido"
+  ],
+  "recurringObjects": [
+    "telemóvel",
+    "chapéu de sol",
+    "anzol e linha de pesca",
+    "barco ou elementos de pesca"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "A minha tia tem telemóvel, mas só para falar para o meu primo. É um telemóvel de sentido único. – Lindinho, estás na piscina? Não vás para a água senão com o estômago vazio. Ou:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Lindinho e Feião».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A minha tia tem telemóvel, mas só para falar para o meu primo. É um telemóvel de sentido único. – Lindinho, estás na piscina? Não vás para a água senão com o estômago vazio. Ou: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p8",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p6",
+        "s0p7",
+        "s0p8"
+      ],
+      "evidence": "Tudo recomendações sensatas, a que o meu primo Arlindo ou Lindinho presta a atenção devida. O Arlindo sempre foi um rapazinho atilado e obediente, o que só lhe fica bem. Tem um único defeito, que nem sei se defeito será. É muito esquecido. À conta deste senão, perdeu, há dias, o telemóvel. Deixou-o na areia da praia.",
+      "after": {
+        "segment": 0,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Tudo recomendações sensatas, a que o meu primo Arlindo ou Lindinho presta a atenção devida. O Arlindo sempre foi um rapazinho atilado e obediente, o que só lhe fica bem. Tem um único defeito, que nem sei se defeito será. É muito esquecido. À conta deste senão, perdeu, há dias, o telemóvel. Deixou-o na areia da praia. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p11",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p9",
+        "s0p10",
+        "s0p11"
+      ],
+      "evidence": "Um velho pescador, desses que já não pescam, mas nunca se desapegam do mar, descobriu o telemóvel, no preciso instante em que ele se pôs a tocar. Automaticamente, atendeu e ouviu: – Lindinho, estás na praia? Toma cuidado e não andes ao sol senão com chapéu... O pescador, a quem nunca ninguém o tratara por lindinho, levou a mão à testa descoberta e curtida de muitos sóis e fez um ar de grande espanto.",
+      "after": {
+        "segment": 0,
+        "paragraph": 11
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um velho pescador, desses que já não pescam, mas nunca se desapegam do mar, descobriu o telemóvel, no preciso instante em que ele se pôs a tocar. Automaticamente, atendeu e ouviu: – Lindinho, estás na praia? Toma cuidado e não andes ao sol senão com chapéu... O pescador, a quem nunca ninguém o tratara por lindinho, levou a mão à testa descoberta e curtida de muitos sóis e fez um ar de grande espanto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p21",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p19",
+        "s0p20",
+        "s0p21"
+      ],
+      "evidence": "Alarmou-se a minha tia: – E o meu filho? Onde pára o meu Lindinho? O Zé pescador tranquilizou-a e palavras depois tudo estava esclarecido. Ele próprio se encarregou de ir levar o telemóvel do meu primo à casa de férias dos meus tios.",
+      "after": {
+        "segment": 0,
+        "paragraph": 21
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Alarmou-se a minha tia: – E o meu filho? Onde pára o meu Lindinho? O Zé pescador tranquilizou-a e palavras depois tudo estava esclarecido. Ele próprio se encarregou de ir levar o telemóvel do meu primo à casa de férias dos meus tios. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p24",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p22",
+        "s0p23",
+        "s0p24"
+      ],
+      "evidence": "Este desencontro de vozes deu, afinal, oportunidade a que Lindinho e Feião se encontrassem e conhecessem. O velho pescador conta ao meu primo peripécias da sua antiga vida de homem do mar e anda, agora, a ensiná-lo a pregar o isco ao anzol e a lançar a linha. O meu primo Arlindo até já pescou um robalito. Assim se desenvolveu uma grande amizade.",
+      "after": {
+        "segment": 0,
+        "paragraph": 24
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Este desencontro de vozes deu, afinal, oportunidade a que Lindinho e Feião se encontrassem e conhecessem. O velho pescador conta ao meu primo peripécias da sua antiga vida de homem do mar e anda, agora, a ensiná-lo a pregar o isco ao anzol e a lançar a linha. O meu primo Arlindo até já pescou um robalito. Assim se desenvolveu uma grande amizade. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

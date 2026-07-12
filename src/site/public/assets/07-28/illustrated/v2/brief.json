@@ -1,0 +1,96 @@
+{
+  "characters": [
+    {
+      "name": "Boneco de neve",
+      "appearance": "Boneco de neve pequeno e expressivo, com postura decidida e presença incongruente de viajante"
+    },
+    {
+      "name": "Empregado da agência de viagens",
+      "appearance": "Atendente de balcão, atento e desconfiado, num ambiente urbano contemporâneo"
+    }
+  ],
+  "environment": "Agência de viagens contemporânea, seguida de deslocação para um destino quente em Portugal, com o Algarve como cenário final",
+  "palette": [
+    "branco frio",
+    "azul claro",
+    "amarelo solar",
+    "cor de areia",
+    "turquesa",
+    "vermelho discreto"
+  ],
+  "recurringObjects": [
+    "balcão de agência",
+    "bilhete de avião",
+    "campainha",
+    "carrinha de gelados",
+    "caixa frigorífica"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Há aquela história de um boneco de neve, que foi a uma agência de viagens... – Quero que me venda uma passagem de avião para um país que valha a pena – pediu ele ao balcão da agência de viagens. – Um país frio, naturalmente – concluiu, à sua própria conta, o empregado da agência.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Turista Especial».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Há aquela história de um boneco de neve, que foi a uma agência de viagens... – Quero que me venda uma passagem de avião para um país que valha a pena – pediu ele ao balcão da agência de viagens. – Um país frio, naturalmente – concluiu, à sua própria conta, o empregado da agência. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p7",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p5",
+        "s0p6",
+        "s0p7"
+      ],
+      "evidence": "– Nem por sombras! O que quero é ir para um país quente – anunciou o boneco de neve. – Passe-me já o bilhete, que estou com pressa. – Bilhete só de ida, naturalmente – concluiu, à sua própria conta, o empregado da agência. – Exacto! Finalmente, acertou – aplaudiu o boneco de neve. – Quero só um bilhete de ida, para nunca mais voltar.",
+      "after": {
+        "segment": 0,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Nem por sombras! O que quero é ir para um país quente – anunciou o boneco de neve. – Passe-me já o bilhete, que estou com pressa. – Bilhete só de ida, naturalmente – concluiu, à sua própria conta, o empregado da agência. – Exacto! Finalmente, acertou – aplaudiu o boneco de neve. – Quero só um bilhete de ida, para nunca mais voltar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p14",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p12",
+        "s0p13",
+        "s0p14"
+      ],
+      "evidence": "– Pode ser esse, que disse agora – interrompeu o boneco de neve. – Algarve? – Exactamente. Não sei onde fica, mas soa bem. Quero ir viver para o Algarve.",
+      "after": {
+        "segment": 0,
+        "paragraph": 14
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Pode ser esse, que disse agora – interrompeu o boneco de neve. – Algarve? – Exactamente. Não sei onde fica, mas soa bem. Quero ir viver para o Algarve. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p17",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p15",
+        "s0p16",
+        "s0p17"
+      ],
+      "evidence": "E veio mesmo. Anda por lá agora. Quando virem uma carrinha de gelados, a passear entre Faro e Portimão, já sabem quem vai lá dentro. – Gelado fresquinho! – apregoa o motorista do boneco de neve, tilintando a campainha do triciclo. O boneco de neve dispensava o pregão. Ele preferia viajar incógnito, dentro da caixa frigorífica, mas nestas viagens turísticas nem tudo corre sempre à medida dos nossos desejos.",
+      "after": {
+        "segment": 0,
+        "paragraph": 17
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E veio mesmo. Anda por lá agora. Quando virem uma carrinha de gelados, a passear entre Faro e Portimão, já sabem quem vai lá dentro. – Gelado fresquinho! – apregoa o motorista do boneco de neve, tilintando a campainha do triciclo. O boneco de neve dispensava o pregão. Ele preferia viajar incógnito, dentro da caixa frigorífica, mas nestas viagens turísticas nem tudo corre sempre à medida dos nossos desejos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

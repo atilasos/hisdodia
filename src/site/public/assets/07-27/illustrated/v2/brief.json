@@ -1,0 +1,102 @@
+{
+  "characters": [
+    {
+      "name": "Ratolas",
+      "appearance": "um rato pequeno e vaidoso"
+    },
+    {
+      "name": "Elefante",
+      "appearance": "um elefante enorme e pesado"
+    },
+    {
+      "name": "Lagartixa",
+      "appearance": "uma lagartixa pequena"
+    },
+    {
+      "name": "Esquilo",
+      "appearance": "um esquilo"
+    }
+  ],
+  "environment": "mundo subterrâneo e floresta, com clareira de festa entre árvores",
+  "palette": [
+    "tons terrosos",
+    "verde floresta",
+    "cinzentos suaves",
+    "ocres",
+    "azul discreto"
+  ],
+  "recurringObjects": [
+    "pedra",
+    "nozes embrulhadas",
+    "clareira",
+    "toca"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um rato, chamado Ratolas, que se julgava mais que os outros - os outros animais rasteiros da sua condição ou aproximados. Ratos, ratazanas, toupeiras, doninhas, ouriços, lagartixas e restante pessoal do mundo subterrâneo ou rente à terra, nunca lhe ouviram um \"Olá, como vais tu?\", porque o Ratolas não prestava atenção aos insignificantes bichos seus iguais. Ele só se dava com a alta, com os bicharocos grossos e pernaltas, girafas, leões, elefantes, rinocerontes, hipopótamos e outros que tais matulões. Um dos amigos era o elefante. Que montanha ondulante, bamboleante o elefante! Que gigante! – Psst! – chamava o ratinho – Olá, amigo! Então passa e não fala?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Rato Ratolas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um rato, chamado Ratolas, que se julgava mais que os outros - os outros animais rasteiros da sua condição ou aproximados. Ratos, ratazanas, toupeiras, doninhas, ouriços, lagartixas e restante pessoal do mundo subterrâneo ou rente à terra, nunca lhe ouviram um \"Olá, como vais tu?\", porque o Ratolas não prestava atenção aos insignificantes bichos seus iguais. Ele só se dava com a alta, com os bicharocos grossos e pernaltas, girafas, leões, elefantes, rinocerontes, hipopótamos e outros que tais matulões. Um dos amigos era o elefante. Que montanha ondulante, bamboleante o elefante! Que gigante! – Psst! – chamava o ratinho – Olá, amigo! Então passa e não fala? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p6",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "– Sou eu, o Ratolas. Estou aqui, em cima desta pedra, em bicos de pés. Então não me vês? – Agora vejo. Como tens passado, aí por baixo? O Ratolas respondia que sim, que passava bem, muito obrigado. Soprava mais umas coisitas sem importância e, depois, calava-se. Conversas destas nunca podiam ser muito longas, porque o rato depressa ficava com a garganta seca de tanto se esganiçar. Então, o elefante dizia-lhe adeus e lá continuava nas suas graves passadas, que abalavam a floresta.",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Sou eu, o Ratolas. Estou aqui, em cima desta pedra, em bicos de pés. Então não me vês? – Agora vejo. Como tens passado, aí por baixo? O Ratolas respondia que sim, que passava bem, muito obrigado. Soprava mais umas coisitas sem importância e, depois, calava-se. Conversas destas nunca podiam ser muito longas, porque o rato depressa ficava com a garganta seca de tanto se esganiçar. Então, o elefante dizia-lhe adeus e lá continuava nas suas graves passadas, que abalavam a floresta. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p14",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p12",
+        "s0p13",
+        "s0p14"
+      ],
+      "evidence": "Adiantou-se um passo o Ratolas: – Trago-vos um presente, uma pequena lembrança... Mas a dança, que era de truz, abalava tudo. Abalava tudo e tanto que as nozes rolaram pelo chão. Foi o Ratolas apanhá-las, mas não fosse ele tão rápido nos movimentos e a história acabava mesmo aqui. Acabava mesmo aqui, o que era um pena. Por pouco que o ratinho Ratolas não ficou esmagado debaixo da pata de chumbo de um dos elefantes matulões. Escapou-se por uma unha limpa.",
+      "after": {
+        "segment": 0,
+        "paragraph": 14
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Adiantou-se um passo o Ratolas: – Trago-vos um presente, uma pequena lembrança... Mas a dança, que era de truz, abalava tudo. Abalava tudo e tanto que as nozes rolaram pelo chão. Foi o Ratolas apanhá-las, mas não fosse ele tão rápido nos movimentos e a história acabava mesmo aqui. Acabava mesmo aqui, o que era um pena. Por pouco que o ratinho Ratolas não ficou esmagado debaixo da pata de chumbo de um dos elefantes matulões. Escapou-se por uma unha limpa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p19",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p17",
+        "s0p18",
+        "s0p19"
+      ],
+      "evidence": "Mais adiante cruzou-se com um esquilo: – Que belo dia, amigo esquilo. Saúde e sorte é o que lhe desejo. Estava mudado, não havia dúvida, o ratinho Ratolas.",
+      "after": {
+        "segment": 0,
+        "paragraph": 19
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mais adiante cruzou-se com um esquilo: – Que belo dia, amigo esquilo. Saúde e sorte é o que lhe desejo. Estava mudado, não havia dúvida, o ratinho Ratolas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}
