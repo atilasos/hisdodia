@@ -1,0 +1,110 @@
+{
+  "characters": [
+    {
+      "name": "cavalo sem cabeça",
+      "appearance": "cavalo de brincar e de balancé, velho, estragado, sem cabeça"
+    },
+    {
+      "name": "dois homens",
+      "appearance": "dois homens a limpar uma arrecadação"
+    }
+  ],
+  "environment": "arrecadação antiga a ser esvaziada, terreno ao sol com montes de tarecos e uma grande fogueira ao anoitecer",
+  "palette": [
+    "castanhos gastos",
+    "cinzentos poeirentos",
+    "amarelos de sol",
+    "laranjas e vermelhos de fogo",
+    "azul escuro da noite"
+  ],
+  "recurringObjects": [
+    "cavalo de madeira sem cabeça",
+    "tarecos e móveis velhos",
+    "fogo e cinzas"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um cavalo sem cabeça. Um cavalo de brincar, um cavalo de balancé. Onde tinha ido parar a cabeça, ele não sabia. Estava velho, todo estragado e também muito esquecido. Sem cabeça, não admira. Desconfio que os meninos que o tinham montado não estariam menos velhos do que ele.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O cavalo sem cabeça».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um cavalo sem cabeça. Um cavalo de brincar, um cavalo de balancé. Onde tinha ido parar a cabeça, ele não sabia. Estava velho, todo estragado e também muito esquecido. Sem cabeça, não admira. Desconfio que os meninos que o tinham montado não estariam menos velhos do que ele. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "Quando os nossos brinquedos envelhecem, nós, mais tarde ou mais cedo, acabamos por fazer-lhes companhia. Por ficar parecidos com os nossos velhos brinquedos. Ou vice-versa. - Olha um cavalo sem cabeça - disse alguém, que andava a arrumar a arrecadação. - Guarda-se cada coisa mais inútil - disse outro alguém.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando os nossos brinquedos envelhecem, nós, mais tarde ou mais cedo, acabamos por fazer-lhes companhia. Por ficar parecidos com os nossos velhos brinquedos. Ou vice-versa. - Olha um cavalo sem cabeça - disse alguém, que andava a arrumar a arrecadação. - Guarda-se cada coisa mais inútil - disse outro alguém. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p0",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "Eram dois homens, que estavam incumbidos da limpeza daquela casa de arrumos, para transformá-la num quarto ou noutra divisão qualquer. Iam abrir janelas, pintar paredes, assoalhar o chão. Mas primeiro tinham de desfazer-se do que não prestasse. As tralhas retiradas da arrecadação amontoaram-se num terreno, ao sol. Mais pareciam sobras de um naufrágio. Eram malas que não fechavam. Maples sem braços. Cadeiras sem pernas. Guarda-chuvas sem pano. E tudo meio podre, bolorento, cheio de pó e teias de aranha.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eram dois homens, que estavam incumbidos da limpeza daquela casa de arrumos, para transformá-la num quarto ou noutra divisão qualquer. Iam abrir janelas, pintar paredes, assoalhar o chão. Mas primeiro tinham de desfazer-se do que não prestasse. As tralhas retiradas da arrecadação amontoaram-se num terreno, ao sol. Mais pareciam sobras de um naufrágio. Eram malas que não fechavam. Maples sem braços. Cadeiras sem pernas. Guarda-chuvas sem pano. E tudo meio podre, bolorento, cheio de pó e teias de aranha. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s4p3"
+      ],
+      "evidence": "No cimo do monte de tarecos, o cavalicoque sem cabeça. Se tivesse cabeça, devia apreciar o destaque. - Deita-se-lhes fogo - propôs um dos homens. Assim fizeram.",
+      "after": {
+        "segment": 4,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No cimo do monte de tarecos, o cavalicoque sem cabeça. Se tivesse cabeça, devia apreciar o destaque. - Deita-se-lhes fogo - propôs um dos homens. Assim fizeram. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p0",
+        "s6p1",
+        "s7p0"
+      ],
+      "evidence": "Só o cavalo sem cabeça resistiu, no seu pedestal de lume. Mas uma espadanada de fogo chamou-o a si. O cavalinho ardeu. Estalaram os restos de pintura. Fendeu-se a madeira apodrecida. Soltaram-se os pregos que o prendiam ao arco do balanço. Foi então que um ímpeto de chamas desassossegadas se desprendeu do incêndio e um impaciente cavalo saltou do alto da fogueira, voou sobre o fumo e desapareceu, no escuro do firmamento. Tinha cabeça, crinas e pescoço de labaredas, o corpo em brasa viva. Era ágil e rápido como um grito. Desvaneceu-se no azul da noite.",
+      "after": {
+        "segment": 7,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Só o cavalo sem cabeça resistiu, no seu pedestal de lume. Mas uma espadanada de fogo chamou-o a si. O cavalinho ardeu. Estalaram os restos de pintura. Fendeu-se a madeira apodrecida. Soltaram-se os pregos que o prendiam ao arco do balanço. Foi então que um ímpeto de chamas desassossegadas se desprendeu do incêndio e um impaciente cavalo saltou do alto da fogueira, voou sobre o fumo e desapareceu, no escuro do firmamento. Tinha cabeça, crinas e pescoço de labaredas, o corpo em brasa viva. Era ágil e rápido como um grito. Desvaneceu-se no azul da noite. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

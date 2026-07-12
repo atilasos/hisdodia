@@ -1,0 +1,122 @@
+{
+  "characters": [
+    {
+      "name": "macacos",
+      "appearance": "grupo de macacos nas árvores, expressões trocistas"
+    },
+    {
+      "name": "elefante",
+      "appearance": "elefante grande, calmo, com tromba robusta"
+    },
+    {
+      "name": "girafa",
+      "appearance": "girafa alta e jovem, de porte elegante"
+    },
+    {
+      "name": "leopardo",
+      "appearance": "leopardo malhado, astuto e vigilante"
+    }
+  ],
+  "environment": "selva tropical com árvores altas, riacho e cascata, clareiras sombreadas e margem da água",
+  "palette": [
+    "verdes densos",
+    "castanhos quentes",
+    "amarelos dourados",
+    "ocres suaves",
+    "azuis de água",
+    "sombras profundas"
+  ],
+  "recurringObjects": [
+    "árvores altas",
+    "cascata",
+    "riacho",
+    "tromba do elefante",
+    "pescoço da girafa",
+    "manchas do leopardo"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Passa-se na selva a história que vou contar. Nela entram três personagens principais, o leopardo, a girafa e o elefante, mas a mim apetece-me mais começar pelos macacos. Empoleirados nas árvores, os macacos ocupam o dia a troçar da vizinhança, isto é, dos restantes bichos da selva. - Do elefante é que não há nada a declarar - diz uma macaca velha, fazendo um trejeito malicioso.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O leopardo, a girafa e o elefante».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Passa-se na selva a história que vou contar. Nela entram três personagens principais, o leopardo, a girafa e o elefante, mas a mim apetece-me mais começar pelos macacos. Empoleirados nas árvores, os macacos ocupam o dia a troçar da vizinhança, isto é, dos restantes bichos da selva. - Do elefante é que não há nada a declarar - diz uma macaca velha, fazendo um trejeito malicioso. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "- Paspalhão. - Mas é bom, um bonzão - concluiu a macaca velha. Nisto estão todos de acordo. O elefante pode não ser bonito, segundo as normas de beleza dos macacos, mas não molesta ninguém. Essa é que é essa.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Paspalhão. - Mas é bom, um bonzão - concluiu a macaca velha. Nisto estão todos de acordo. O elefante pode não ser bonito, segundo as normas de beleza dos macacos, mas não molesta ninguém. Essa é que é essa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s9p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s9p2",
+        "s9p3",
+        "s9p4"
+      ],
+      "evidence": "- Andam para aí a murmurar... E o leopardo tentou convencer o elefante, por meias palavras, de que a girafa, nas suas costas, o tratava por \"paquiderme\", palavra muito ofensiva entre os elefantes. - Não acredito.",
+      "after": {
+        "segment": 9,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Andam para aí a murmurar... E o leopardo tentou convencer o elefante, por meias palavras, de que a girafa, nas suas costas, o tratava por \"paquiderme\", palavra muito ofensiva entre os elefantes. - Não acredito. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s12p4",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s12p2",
+        "s12p3",
+        "s12p4"
+      ],
+      "evidence": "O macaco não ficou espantado: - Bem sei. Do leopardo tudo se deve esperar... - Do leopardo? - estranhou o elefante.",
+      "after": {
+        "segment": 12,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O macaco não ficou espantado: - Bem sei. Do leopardo tudo se deve esperar... - Do leopardo? - estranhou o elefante. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s16p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s15p2",
+        "s16p0",
+        "s16p1"
+      ],
+      "evidence": "Ele é que não escapou, ai não, porque a cólera do elefante, animal paciente até onde se pode ser, não perdoa. Lançado a muitos quilómetros de distância, o leopardo não ganhou para o susto nem para os curativos. De aí em diante passou a andar sempre sozinho e nunca sai senão de noite, quando os elefantes dormem.",
+      "after": {
+        "segment": 16,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ele é que não escapou, ai não, porque a cólera do elefante, animal paciente até onde se pode ser, não perdoa. Lançado a muitos quilómetros de distância, o leopardo não ganhou para o susto nem para os curativos. De aí em diante passou a andar sempre sozinho e nunca sai senão de noite, quando os elefantes dormem. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

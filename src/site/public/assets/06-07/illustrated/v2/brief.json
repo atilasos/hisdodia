@@ -1,0 +1,74 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O senhor Tomé era um lavrador abastado. De uma vez que foi à feira da vila fazer uns negócios, levou consigo uma bolsa com libras, com libras bem contadas e recontadas. Como tivesse medo que lhas roubassem, nos encontrões da feira, deu-as a guardar ao estalajadeiro. - Vá descansado que ficam em boas mãos - disse-lhe este.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O lavrador Tomé e o saco das libras».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O senhor Tomé era um lavrador abastado. De uma vez que foi à feira da vila fazer uns negócios, levou consigo uma bolsa com libras, com libras bem contadas e recontadas. Como tivesse medo que lhas roubassem, nos encontrões da feira, deu-as a guardar ao estalajadeiro. - Vá descansado que ficam em boas mãos - disse-lhe este. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s1p0"
+      ],
+      "evidence": "De uma vez que foi à feira da vila fazer uns negócios, levou consigo uma bolsa com libras, com libras bem contadas e recontadas. Como tivesse medo que lhas roubassem, nos encontrões da feira, deu-as a guardar ao estalajadeiro. - Vá descansado que ficam em boas mãos - disse-lhe este. Quando, mais tarde, precisou das libras, voltou à estalagem para as levar. Sabem o que o estalajadeiro lhe respondeu? Respondeu-lhe, fingindo de parvo, que não se lembrava de ter recebido nenhuma bolsa com libras. Vejam lá o descaramento!",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: De uma vez que foi à feira da vila fazer uns negócios, levou consigo uma bolsa com libras, com libras bem contadas e recontadas. Como tivesse medo que lhas roubassem, nos encontrões da feira, deu-as a guardar ao estalajadeiro. - Vá descansado que ficam em boas mãos - disse-lhe este. Quando, mais tarde, precisou das libras, voltou à estalagem para as levar. Sabem o que o estalajadeiro lhe respondeu? Respondeu-lhe, fingindo de parvo, que não se lembrava de ter recebido nenhuma bolsa com libras. Vejam lá o descaramento! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s7p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p0",
+        "s6p1",
+        "s7p0"
+      ],
+      "evidence": "Ainda que com má vontade, o senhor Tomé resolveu-se a seguir o conselho. Procurou na feira um amigo endinheirado, que lhe emprestasse cem libras e que se dispusesse a acompanhá-lo à estalagem. Encontrada a testemunha, levou-a consigo, pedindo-lhe segredo do que se estava a tramar. - Desculpe, mas há bocado pensei mal de si - disse o senhor Tomé ao estalajadeiro. - Foi tudo um engano meu, porque o dinheiro que eu procurava tinha-o eu deixado noutra parte. Guarde-me agora estas cem libras, que, depois, lhas peço.",
+      "after": {
+        "segment": 7,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ainda que com má vontade, o senhor Tomé resolveu-se a seguir o conselho. Procurou na feira um amigo endinheirado, que lhe emprestasse cem libras e que se dispusesse a acompanhá-lo à estalagem. Encontrada a testemunha, levou-a consigo, pedindo-lhe segredo do que se estava a tramar. - Desculpe, mas há bocado pensei mal de si - disse o senhor Tomé ao estalajadeiro. - Foi tudo um engano meu, porque o dinheiro que eu procurava tinha-o eu deixado noutra parte. Guarde-me agora estas cem libras, que, depois, lhas peço. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s10p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s9p3",
+        "s10p0",
+        "s10p1"
+      ],
+      "evidence": "- Estas já cá estão! Só faltam as outras cem. - Também virão, descanse - tranquilizou-o o advogado. - Passe por lá agora com o seu amigo, que as viu depositar. Não é preciso dizer que o estalajadeiro se viu apanhado e não teve outro remédio senão dar as outras cem libras ao lavrador.",
+      "after": {
+        "segment": 10,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Estas já cá estão! Só faltam as outras cem. - Também virão, descanse - tranquilizou-o o advogado. - Passe por lá agora com o seu amigo, que as viu depositar. Não é preciso dizer que o estalajadeiro se viu apanhado e não teve outro remédio senão dar as outras cem libras ao lavrador. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,117 @@
+{
+  "characters": [
+    {
+      "name": "Urso Branco",
+      "appearance": "urso polar branco, grande, sereno, expressão curiosa e por vezes sonolenta"
+    },
+    {
+      "name": "Papagaio",
+      "appearance": "papagaio multicolorido, vivaz, viajante, figura chamativa no gelo"
+    },
+    {
+      "name": "Pinguins",
+      "appearance": "grupo de pinguins pretos e brancos, numerosos, curiosos, em massa compacta"
+    }
+  ],
+  "environment": "Polo Sul gelado, com extensões de neve e gelo, encontro improvável entre fauna ártica/antártica e um visitante tropical colorido",
+  "palette": [
+    "branco",
+    "azul gelo",
+    "preto",
+    "amarelo",
+    "vermelho",
+    "verde",
+    "castanho"
+  ],
+  "recurringObjects": [
+    "gelo",
+    "neve",
+    "grupo de pinguins",
+    "papagaio multicolorido"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Passeava o Urso Branco a sua indolente figura pelos desertos gelados do Polo Sul, quando, espremendo os olhos cansados de tanto branco, divisou ao longe uma coisa de muitas cores, planta, flor ou bicho, de estranhar naqueles sítios. Foi-se aproximando e, à medida que se aproximava, ia contando as cores: \"Verde, azul, amarelo, vermelho, castanho... É um arco-íris concentrado e mexe. O que será?\" A tal coisa, quando o urso lhe chegou o focinho, apresentou-se:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Na terra dos pinguins».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Passeava o Urso Branco a sua indolente figura pelos desertos gelados do Polo Sul, quando, espremendo os olhos cansados de tanto branco, divisou ao longe uma coisa de muitas cores, planta, flor ou bicho, de estranhar naqueles sítios. Foi-se aproximando e, à medida que se aproximava, ia contando as cores: \"Verde, azul, amarelo, vermelho, castanho... É um arco-íris concentrado e mexe. O que será?\" A tal coisa, quando o urso lhe chegou o focinho, apresentou-se: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "A tal coisa, quando o urso lhe chegou o focinho, apresentou-se: - Sou um papagaio e ando em viagem. Que frio que está por aqui! Ainda não pensaram em aquecer este gelo todo? O urso arregalou os olhos.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A tal coisa, quando o urso lhe chegou o focinho, apresentou-se: - Sou um papagaio e ando em viagem. Que frio que está por aqui! Ainda não pensaram em aquecer este gelo todo? O urso arregalou os olhos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "- Donde veio Vossa Excelência? Da Amazónia, no Brasil, uma maravilha de terra... - Mas Vossa Excelência veio-se embora... - interrompeu, timidamente, o Urso.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Donde veio Vossa Excelência? Da Amazónia, no Brasil, uma maravilha de terra... - Mas Vossa Excelência veio-se embora... - interrompeu, timidamente, o Urso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p2",
+        "s4p3",
+        "s4p4"
+      ],
+      "evidence": "- Há pinguins - informou o urso. - Milhares de pinguins. - Apresente-me esses tais pinguins, que devem ser bacanas . Muitos pinguins juntos fazem um bocado de impressão.",
+      "after": {
+        "segment": 4,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Há pinguins - informou o urso. - Milhares de pinguins. - Apresente-me esses tais pinguins, que devem ser bacanas . Muitos pinguins juntos fazem um bocado de impressão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s8p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s8p1",
+        "s8p2",
+        "s8p3"
+      ],
+      "evidence": "Aquilo já não interessava ao Urso Branco. Virou-se para o outro lado e voltou a fechar os olhos. Mas, antes de adormecer, ainda sentenciou: - Em terra de pinguins pretos e brancos, qualquer fruta-cores é rei. E adormeceu, definitivamente.",
+      "after": {
+        "segment": 8,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Aquilo já não interessava ao Urso Branco. Virou-se para o outro lado e voltou a fechar os olhos. Mas, antes de adormecer, ainda sentenciou: - Em terra de pinguins pretos e brancos, qualquer fruta-cores é rei. E adormeceu, definitivamente. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

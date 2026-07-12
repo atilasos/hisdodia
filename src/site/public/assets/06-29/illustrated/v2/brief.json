@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": "indefinido",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um corvo. Preto e luzidio como todos o são, este corvo sentia-se fadado para grandes voos. Mas que voos?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O corvo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um corvo. Preto e luzidio como todos o são, este corvo sentia-se fadado para grandes voos. Mas que voos? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Assim vestido, como se usasse casaca, podia ser músico. Aí estava uma profissão bonita. Atrairia os olhares das plateias e os aplausos do público, seria conhecido e gabado. Ele, o corvo violinista ou pianista ou violoncelista, com o nome destacado em todos os cartazes de concertos, pelo mundo fora, não era sensacional? Mas, para que isso acontecesse, tinha primeiro de aprender música. Pois era. Aí é que estava o enfado.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Assim vestido, como se usasse casaca, podia ser músico. Aí estava uma profissão bonita. Atrairia os olhares das plateias e os aplausos do público, seria conhecido e gabado. Ele, o corvo violinista ou pianista ou violoncelista, com o nome destacado em todos os cartazes de concertos, pelo mundo fora, não era sensacional? Mas, para que isso acontecesse, tinha primeiro de aprender música. Pois era. Aí é que estava o enfado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Mas, para que isso acontecesse, tinha primeiro de exercitar minuciosamente cada truque, preparar-se muito bem, experimentar, adestrar-se . Que canseira! Afinal, pensando bem, já não queria ser ilusionista. Mas podia ser juiz.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas, para que isso acontecesse, tinha primeiro de exercitar minuciosamente cada truque, preparar-se muito bem, experimentar, adestrar-se . Que canseira! Afinal, pensando bem, já não queria ser ilusionista. Mas podia ser juiz. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s8p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s7p0",
+        "s8p0",
+        "s8p1"
+      ],
+      "evidence": "Apetecia-lhe ser pregador, professor catedrático, diplomata, presidente da república, eu sei lá que mais, embora houvesse sempre uns preparos a cumprir, uns estudos a fazer, que antecipadamente o agoniavam. Em qualquer dos casos, sobre o preto brilhante das penas, a fieira de condecorações em destaque provaria que ele era um corvo distinto, diferente, especial, um corvo lançado em altos voos. Pois sim, mas... Há sempre um \"mas\" arreliador, ao cabo destas histórias.",
+      "after": {
+        "segment": 8,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Apetecia-lhe ser pregador, professor catedrático, diplomata, presidente da república, eu sei lá que mais, embora houvesse sempre uns preparos a cumprir, uns estudos a fazer, que antecipadamente o agoniavam. Em qualquer dos casos, sobre o preto brilhante das penas, a fieira de condecorações em destaque provaria que ele era um corvo distinto, diferente, especial, um corvo lançado em altos voos. Pois sim, mas... Há sempre um \"mas\" arreliador, ao cabo destas histórias. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s10p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s10p1",
+        "s10p2",
+        "s10p3"
+      ],
+      "evidence": "Umas tantas tesouradas riparam-lhe as penas mais compridas das asas. Para sempre. O corvo trabalha agora num armazém de carvão. Faz de guarda. Usa uma corrente comprida presa à pata e grasna, a dar sinal, à presença de qualquer estranho. Os corvos são muito bons nisso.",
+      "after": {
+        "segment": 10,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Umas tantas tesouradas riparam-lhe as penas mais compridas das asas. Para sempre. O corvo trabalha agora num armazém de carvão. Faz de guarda. Usa uma corrente comprida presa à pata e grasna, a dar sinal, à presença de qualquer estranho. Os corvos são muito bons nisso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

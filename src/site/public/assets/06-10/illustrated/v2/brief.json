@@ -1,0 +1,143 @@
+{
+  "characters": [
+    {
+      "name": "Magriço",
+      "appearance": "Portuguese knight in armor, mounted on horseback"
+    },
+    {
+      "name": "Duque de Lencastre",
+      "appearance": "elderly duke in courtly attire"
+    },
+    {
+      "name": "Doze damas inglesas",
+      "appearance": "court ladies in long dresses and pointed hats"
+    },
+    {
+      "name": "Cavaleiros portugueses",
+      "appearance": "a group of young Portuguese knights in armor on horseback"
+    },
+    {
+      "name": "Cavaleiros ingleses",
+      "appearance": "twelve English knights in armor on horseback"
+    }
+  ],
+  "environment": "Medieval court, English tournament grounds, and the journey between Portugal and England",
+  "palette": [
+    "deep red",
+    "gold",
+    "steel gray",
+    "navy blue",
+    "earth brown",
+    "cream"
+  ],
+  "recurringObjects": [
+    "horse",
+    "armor",
+    "lance",
+    "helmet",
+    "ducal court",
+    "dust cloud"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s2p0"
+      ],
+      "evidence": "A história que vou contar será bom que, de aqui a alguns anos, a leiam em livro, para confirmarem se a contei como deve ser. Tenho as minhas dúvidas... Por enquanto talvez seja cedo, mas, em chegando o tempo certo, procurem-na n' Os Lusíadas , livro de muitas aventuras, que Luís de Camões escreveu em versos grandiosos e resplandecentes , onde sobressaem o orgulho de ser português e a voz \"nua e pura\" de um grande poeta. Desculpem-me este começo solene, tão fora da minha maneira de contar, mas prometo que, de ora em diante, a história vai ganhar velocidade e galopar a toda a brida .",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Os doze de Inglaterra».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A história que vou contar será bom que, de aqui a alguns anos, a leiam em livro, para confirmarem se a contei como deve ser. Tenho as minhas dúvidas... Por enquanto talvez seja cedo, mas, em chegando o tempo certo, procurem-na n' Os Lusíadas , livro de muitas aventuras, que Luís de Camões escreveu em versos grandiosos e resplandecentes , onde sobressaem o orgulho de ser português e a voz \"nua e pura\" de um grande poeta. Desculpem-me este começo solene, tão fora da minha maneira de contar, mas prometo que, de ora em diante, a história vai ganhar velocidade e galopar a toda a brida . Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s6p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s6p0"
+      ],
+      "evidence": "Veja-se o caso do Magriço, nome por que era conhecido Álvaro Gonçalves Coutinho, destemido cavaleiro da corte do nosso rei D. João I, não sei se estão a par. Como tudo isto se passou há cerca de 600 anos, é natural que não se lembrem. Mas cá estou eu, à conta do Luís Vaz de Camões, para vos trazer alguns pormenores mais. Deu-se o caso que doze damas da corte inglesa, de saias a arrastar e chapéus pontiagudos de fada, se sentiram ofendidas por uns grosseirões duns nobres, de má catadura e pior educação. Uns \"holigans\" do tempo, não sei se estão a imaginar.",
+      "after": {
+        "segment": 6,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Veja-se o caso do Magriço, nome por que era conhecido Álvaro Gonçalves Coutinho, destemido cavaleiro da corte do nosso rei D. João I, não sei se estão a par. Como tudo isto se passou há cerca de 600 anos, é natural que não se lembrem. Mas cá estou eu, à conta do Luís Vaz de Camões, para vos trazer alguns pormenores mais. Deu-se o caso que doze damas da corte inglesa, de saias a arrastar e chapéus pontiagudos de fada, se sentiram ofendidas por uns grosseirões duns nobres, de má catadura e pior educação. Uns \"holigans\" do tempo, não sei se estão a imaginar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s9p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s9p0",
+        "s9p1",
+        "s9p2"
+      ],
+      "evidence": "Vai daí recomendou-lhes: - Quem pode salvar a vossa honra ofendida e fazer frente aos marmanjos ingleses são aqueles bravos rapazes lá de baixo. Escrevam-lhes a pedir socorro. Foi o que elas fizeram, na mais elegante das caligrafias e com as mais sedutoras e doces palavras.",
+      "after": {
+        "segment": 9,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Vai daí recomendou-lhes: - Quem pode salvar a vossa honra ofendida e fazer frente aos marmanjos ingleses são aqueles bravos rapazes lá de baixo. Escrevam-lhes a pedir socorro. Foi o que elas fizeram, na mais elegante das caligrafias e com as mais sedutoras e doces palavras. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s11p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s10p1",
+        "s11p0",
+        "s11p1"
+      ],
+      "evidence": "Embarcaram os jovens portugueses na foz do Douro com seus aprestos e cavalos. Todos menos um, o tal Magriço, que preferiu viajar, montado no seu cavalo e já de lança e armadura, como se Inglaterra fosse ali adiante. - Olha que não chegas a tempo - lembraram-lhe os companheiros. - Vê no que te metes! Mas o Magriço fez de conta que enjoava a viagem por mar e enfiou pela terra adiante. Um estirão .",
+      "after": {
+        "segment": 11,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Embarcaram os jovens portugueses na foz do Douro com seus aprestos e cavalos. Todos menos um, o tal Magriço, que preferiu viajar, montado no seu cavalo e já de lança e armadura, como se Inglaterra fosse ali adiante. - Olha que não chegas a tempo - lembraram-lhe os companheiros. - Vê no que te metes! Mas o Magriço fez de conta que enjoava a viagem por mar e enfiou pela terra adiante. Um estirão . Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s15p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s15p0",
+        "s15p1",
+        "s15p2"
+      ],
+      "evidence": "Todos viram o rosto, à procura da causa do reboliço. É Magriço, pronto para o combate, que chega, envolto numa nuvem de pó. A Magriça inglesa sustem as lágrimas e sorri como um arco-íris, depois da tempestade. Ao som das tubas, largam rédeas, esporeiam os cavalos, baixam lanças e \"fere a terra fogo\".",
+      "after": {
+        "segment": 15,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Todos viram o rosto, à procura da causa do reboliço. É Magriço, pronto para o combate, que chega, envolto numa nuvem de pó. A Magriça inglesa sustem as lágrimas e sorri como um arco-íris, depois da tempestade. Ao som das tubas, largam rédeas, esporeiam os cavalos, baixam lanças e \"fere a terra fogo\". Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s18p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s17p3",
+        "s18p0",
+        "s18p1"
+      ],
+      "evidence": "Qual com os penachos do elmo açoute as ancas. E os doze valentes portugueses derribaram os doze brutos ingleses. Para os nossos a palma da vitória e as damas vencedoras e com glória. Depois, já se vê, houve festa da rija, nos paços do Duque de Lencastre.",
+      "after": {
+        "segment": 18,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Qual com os penachos do elmo açoute as ancas. E os doze valentes portugueses derribaram os doze brutos ingleses. Para os nossos a palma da vitória e as damas vencedoras e com glória. Depois, já se vê, houve festa da rija, nos paços do Duque de Lencastre. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

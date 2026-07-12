@@ -1,0 +1,120 @@
+{
+  "characters": [],
+  "environment": "Portuguese pinhal que vai sendo transformado em espaço urbano/luxuoso, começando num bosque simples e terminando num campo de golfe",
+  "palette": [
+    "verde pinho",
+    "castanho terra",
+    "cinzento troncos secos",
+    "verde relvado",
+    "azul claro"
+  ],
+  "recurringObjects": [
+    "pinheiro",
+    "carvalho",
+    "lenhadores",
+    "tractores",
+    "bolas de golfe"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um pinheiro, um vulgaríssimo pinheiro de pinhas chochas e tronco escanifrado, igual a milhões de outros. Pois este pinheiro quis passar a chamar-se João. - Sou o João Pinheiro - avisou ele.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Nem tanto assim».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um pinheiro, um vulgaríssimo pinheiro de pinhas chochas e tronco escanifrado, igual a milhões de outros. Pois este pinheiro quis passar a chamar-se João. - Sou o João Pinheiro - avisou ele. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "- Sou o João Pinheiro - avisou ele. Os colegas do pinhal riram-se e, por troça, começaram a tratá-lo por doutor - Doutor João Pinheiro -, o que ele tomou muito a sério. A história constou, foi comentada por mais árvores, e uma velha nogueira, de ramos a pender sobre um casebre em ruínas, acordou, um dia, com vontade de chamar-se Madalena.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Sou o João Pinheiro - avisou ele. Os colegas do pinhal riram-se e, por troça, começaram a tratá-lo por doutor - Doutor João Pinheiro -, o que ele tomou muito a sério. A história constou, foi comentada por mais árvores, e uma velha nogueira, de ramos a pender sobre um casebre em ruínas, acordou, um dia, com vontade de chamar-se Madalena. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "- revoltou-se um salgueiro, à beira rio. E, dada a sua proximidade da água, fez constar que só responderia pelo nome de Almirante Filipe de Freitas Melo e Salgueiro, com muita honra, ora pois! Um vendaval de maluquice agitou o arvoredo.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - revoltou-se um salgueiro, à beira rio. E, dada a sua proximidade da água, fez constar que só responderia pelo nome de Almirante Filipe de Freitas Melo e Salgueiro, com muita honra, ora pois! Um vendaval de maluquice agitou o arvoredo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p1",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "Até que se passaram por lá uns lenhadores com serras mecânicas e tractores, dos que arrancam tudo, arrasam tudo, revolvem tudo... O primeiro a sofrer-lhes o embate foi o Doutor João Pinheiro, tonto pinheirinho que nem chegou ao Natal. E os mais, de seguida. Tudo a eito. Escapou o carvalho, atendendo à idade e ao volume da copa. À sua volta, depois do assalto dos tractores, só desmanchados torrões a monte, na planície a perder a vista.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Até que se passaram por lá uns lenhadores com serras mecânicas e tractores, dos que arrancam tudo, arrasam tudo, revolvem tudo... O primeiro a sofrer-lhes o embate foi o Doutor João Pinheiro, tonto pinheirinho que nem chegou ao Natal. E os mais, de seguida. Tudo a eito. Escapou o carvalho, atendendo à idade e ao volume da copa. À sua volta, depois do assalto dos tractores, só desmanchados torrões a monte, na planície a perder a vista. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s6p0",
+        "s6p1",
+        "s6p2"
+      ],
+      "evidence": "- Mudou tudo - reconsiderou, melancolicamente , o velho carvalho, esquecido já dos títulos universitários. Nem tanto assim... Calculem que o terreno, onde coube a nossa história, alberga, agora, um campo de golfe.",
+      "after": {
+        "segment": 6,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Mudou tudo - reconsiderou, melancolicamente , o velho carvalho, esquecido já dos títulos universitários. Nem tanto assim... Calculem que o terreno, onde coube a nossa história, alberga, agora, um campo de golfe. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s9p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s8p1",
+        "s9p0",
+        "s9p1"
+      ],
+      "evidence": "São o Doutor João Pinheiro, o Almirante Salgueiro e até um professor Doutor Sousa Carvalho por lá anda. Já para não falar do Capitão Loureiro, do Arquitecto Castanheiro, do engenheiro Madeira de Oliveira e de outros que tais. Com tudo isto, o velho carvalho anda muito admirado.",
+      "after": {
+        "segment": 9,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: São o Doutor João Pinheiro, o Almirante Salgueiro e até um professor Doutor Sousa Carvalho por lá anda. Já para não falar do Capitão Loureiro, do Arquitecto Castanheiro, do engenheiro Madeira de Oliveira e de outros que tais. Com tudo isto, o velho carvalho anda muito admirado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

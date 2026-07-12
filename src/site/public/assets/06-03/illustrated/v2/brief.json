@@ -1,0 +1,108 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "A boneca da madrinha era a mais linda de todas. Nem as das lojas de brinquedos, nem as daquele museu, onde havia bonecas de princesas ao colo de princesas bonecas. Ai, a boneca da madrinha, poisada no toucador , multiplicada pelos espelhos em centenas de bonecas iguais! Tinha caracóis louros, de cabelos de verdade. Usava chapelinho à banda, com friso de redezinha. O vestido era de seda tão azul como os olhos dela. A saia de baixo engomada levantava-lhe o vestido. As meias de renda branca, as botas de pelica fina, botas de pôr e tirar, tudo uma maravilha.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A boneca da madrinha».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A boneca da madrinha era a mais linda de todas. Nem as das lojas de brinquedos, nem as daquele museu, onde havia bonecas de princesas ao colo de princesas bonecas. Ai, a boneca da madrinha, poisada no toucador , multiplicada pelos espelhos em centenas de bonecas iguais! Tinha caracóis louros, de cabelos de verdade. Usava chapelinho à banda, com friso de redezinha. O vestido era de seda tão azul como os olhos dela. A saia de baixo engomada levantava-lhe o vestido. As meias de renda branca, as botas de pelica fina, botas de pôr e tirar, tudo uma maravilha. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Ai, a boneca da madrinha, poisada no toucador , multiplicada pelos espelhos em centenas de bonecas iguais! Tinha caracóis louros, de cabelos de verdade. Usava chapelinho à banda, com friso de redezinha. O vestido era de seda tão azul como os olhos dela. A saia de baixo engomada levantava-lhe o vestido. As meias de renda branca, as botas de pelica fina, botas de pôr e tirar, tudo uma maravilha. Descalça, os pezinhos rechonchudos eram tal e qual os de um bebé.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ai, a boneca da madrinha, poisada no toucador , multiplicada pelos espelhos em centenas de bonecas iguais! Tinha caracóis louros, de cabelos de verdade. Usava chapelinho à banda, com friso de redezinha. O vestido era de seda tão azul como os olhos dela. A saia de baixo engomada levantava-lhe o vestido. As meias de renda branca, as botas de pelica fina, botas de pôr e tirar, tudo uma maravilha. Descalça, os pezinhos rechonchudos eram tal e qual os de um bebé. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s5p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "As visitas à madrinha só aconteciam, de longe em longe, mas eram sempre uma festa antecipada. - Hoje vamos a casa da madrinha, Mariana - dizia-lhe a mãe. Que bom! Que bom, por causa da boneca. Não que a madrinha não fosse uma senhora simpática.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: As visitas à madrinha só aconteciam, de longe em longe, mas eram sempre uma festa antecipada. - Hoje vamos a casa da madrinha, Mariana - dizia-lhe a mãe. Que bom! Que bom, por causa da boneca. Não que a madrinha não fosse uma senhora simpática. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s11p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s9p2",
+        "s10p0",
+        "s11p0"
+      ],
+      "evidence": "\"Uma rica prenda?\", interrogou-se a Mariana. Seria a boneca? A boneca de chapeuzinho à banda e botas de pôr e tirar? A sua boneca? Podia lá ser outra coisa! Enquanto a Mariana desembrulhava a grande caixa, que guardava uma qualquer coisa pesada, que balançava lá dentro, o coração bateu-lhe no peito que nem tambor em batuque. À volta, as pessoas crescidas, entre as quais a madrinha, sorriam, embevecidas . Ela a destapar a caixa e uma morena vistosa, de saia encarnada e laçarote à cintura, a olhar para ela. Boneca e menina fitaram-se, surpreendidas. Afinal não era a boneca da madrinha.",
+      "after": {
+        "segment": 11,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: \"Uma rica prenda?\", interrogou-se a Mariana. Seria a boneca? A boneca de chapeuzinho à banda e botas de pôr e tirar? A sua boneca? Podia lá ser outra coisa! Enquanto a Mariana desembrulhava a grande caixa, que guardava uma qualquer coisa pesada, que balançava lá dentro, o coração bateu-lhe no peito que nem tambor em batuque. À volta, as pessoas crescidas, entre as quais a madrinha, sorriam, embevecidas . Ela a destapar a caixa e uma morena vistosa, de saia encarnada e laçarote à cintura, a olhar para ela. Boneca e menina fitaram-se, surpreendidas. Afinal não era a boneca da madrinha. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s13p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s12p1",
+        "s13p0",
+        "s13p1"
+      ],
+      "evidence": "Entretanto, a boneca gemeu. Era das que choram, quando se lhes carrega na barriga. Um mecanismo como outro qualquer. Mariana, só um bocadinho interessada por esta habilidade da sua nova boneca, olhou pela primeira vez para ela, com olhos de ver. Olhou e abismou-se. A boneca chorava de verdade. Duas grossas lágrimas corriam-lhe pela face. Estava visivelmente triste, muito triste por ter desgostado a menina.",
+      "after": {
+        "segment": 13,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Entretanto, a boneca gemeu. Era das que choram, quando se lhes carrega na barriga. Um mecanismo como outro qualquer. Mariana, só um bocadinho interessada por esta habilidade da sua nova boneca, olhou pela primeira vez para ela, com olhos de ver. Olhou e abismou-se. A boneca chorava de verdade. Duas grossas lágrimas corriam-lhe pela face. Estava visivelmente triste, muito triste por ter desgostado a menina. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s15p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s14p1",
+        "s15p0",
+        "s15p1"
+      ],
+      "evidence": "Mariana enterneceu-se e limpou as lágrimas da boneca e as suas próprias lágrimas. Ou as lágrimas da boneca também eram da menina? Pouco importa. Esta história tem mais que se lhe diga. - Não chores, que gosto muito de ti - disse a menina, apertando a boneca nos braços. E ficaram para sempre muito amigas.",
+      "after": {
+        "segment": 15,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mariana enterneceu-se e limpou as lágrimas da boneca e as suas próprias lágrimas. Ou as lágrimas da boneca também eram da menina? Pouco importa. Esta história tem mais que se lhe diga. - Não chores, que gosto muito de ti - disse a menina, apertando a boneca nos braços. E ficaram para sempre muito amigas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

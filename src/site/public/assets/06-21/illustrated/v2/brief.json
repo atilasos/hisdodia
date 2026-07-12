@@ -1,0 +1,109 @@
+{
+  "characters": [
+    {
+      "name": "vizinho do violino",
+      "appearance": "morador do 1.º esquerdo, músico"
+    },
+    {
+      "name": "vizinho do violoncelo",
+      "appearance": "morador do 2.º direito, músico"
+    },
+    {
+      "name": "vizinho do piano",
+      "appearance": "morador do 1.º direito, músico"
+    },
+    {
+      "name": "vizinho da viola clássica",
+      "appearance": "morador do 2.º esquerdo, músico"
+    },
+    {
+      "name": "aranha da escada",
+      "appearance": "narradora escondida na escada, toca harpa"
+    }
+  ],
+  "environment": "um prédio urbano pequeno e harmonioso, com rés-do-chão, primeiro e segundo andares, escada interior e loja de instrumentos no rés-do-chão",
+  "palette": [
+    "tons quentes de madeira",
+    "azuis e verdes suaves",
+    "cremes e cinzas urbanos",
+    "acentos dourados",
+    "vermelhos discretos dos instrumentos"
+  ],
+  "recurringObjects": [
+    "violino",
+    "violoncelo",
+    "piano",
+    "viola clássica",
+    "harpa",
+    "escada do prédio",
+    "loja de instrumentos musicais"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Tenho um vizinho que toca violino, e que bem que toca violino o meu vizinho. Mora no 1.º esquerdo. Tenho outro vizinho que toca violoncelo, e que bem que toca violoncelo o meu vizinho. Mora no 2.º direito. Tenho outro vizinho que toca piano, e que bem que toca piano o meu vizinho. Mora no 1.º direito.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O prédio harmonioso».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Tenho um vizinho que toca violino, e que bem que toca violino o meu vizinho. Mora no 1.º esquerdo. Tenho outro vizinho que toca violoncelo, e que bem que toca violoncelo o meu vizinho. Mora no 2.º direito. Tenho outro vizinho que toca piano, e que bem que toca piano o meu vizinho. Mora no 1.º direito. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Tenho outro vizinho que toca piano, e que bem que toca piano o meu vizinho. Mora no 1.º direito. Tenho outro vizinho que toca viola clássica, e que bem que toca viola o meu vizinho. Mora no 2.º esquerdo. No rés-do-chão há uma loja de instrumentos musicais. A loja, durante o dia, está sempre cheia de música, porque nela vendem pianos, acordeons, violinos, violas, guitarras... eu sei lá que mais. Vendem e consertam.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Tenho outro vizinho que toca piano, e que bem que toca piano o meu vizinho. Mora no 1.º direito. Tenho outro vizinho que toca viola clássica, e que bem que toca viola o meu vizinho. Mora no 2.º esquerdo. No rés-do-chão há uma loja de instrumentos musicais. A loja, durante o dia, está sempre cheia de música, porque nela vendem pianos, acordeons, violinos, violas, guitarras... eu sei lá que mais. Vendem e consertam. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "Moro na escada, num canto escondido, e não me canso de ouvir música. Quando oiço os meus vizinhos tocar, digo-lhes, em surdina , em segredo, como se eles pudessem ouvir: \"Certinhos! Certinhos! Muito certinhos!\". É um prédio muito harmonioso. Pelo meu lado, faço o que posso. Também toco, pois claro. Toco harpa.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Moro na escada, num canto escondido, e não me canso de ouvir música. Quando oiço os meus vizinhos tocar, digo-lhes, em surdina , em segredo, como se eles pudessem ouvir: \"Certinhos! Certinhos! Muito certinhos!\". É um prédio muito harmonioso. Pelo meu lado, faço o que posso. Também toco, pois claro. Toco harpa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p2",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Pelo meu lado, faço o que posso. Também toco, pois claro. Toco harpa. Sou a aranha da escada e toco harpa, quando os meus vizinhos já estão a dormir. Acredito que, em sonhos, eles devem ouvir-me. Assim, o prédio harmonioso nunca conhece o silêncio.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Pelo meu lado, faço o que posso. Também toco, pois claro. Toco harpa. Sou a aranha da escada e toco harpa, quando os meus vizinhos já estão a dormir. Acredito que, em sonhos, eles devem ouvir-me. Assim, o prédio harmonioso nunca conhece o silêncio. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

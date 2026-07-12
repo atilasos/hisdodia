@@ -1,0 +1,107 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s2p0"
+      ],
+      "evidence": "Era uma vez um rei que tinha, à roda do palácio, onde vivia, um enorme pomar muito bem tratado. Imensos jardineiros cuidavam desse pomar, que era a vaidade do rei. Árvores de fruto de todas as espécies, algumas vindas de terras distantes, transformavam, na Primavera, o pomar num jardim magnífico, onde sobressaíam o cor-de-rosa, o azul, o branco e o amarelo das flores, sobre o verde fresco das folhas. E, quando os frutos começavam a ganhar forma, o perfume que inundava o pomar quase entontecia.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Quem sabe é o jardineiro».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um rei que tinha, à roda do palácio, onde vivia, um enorme pomar muito bem tratado. Imensos jardineiros cuidavam desse pomar, que era a vaidade do rei. Árvores de fruto de todas as espécies, algumas vindas de terras distantes, transformavam, na Primavera, o pomar num jardim magnífico, onde sobressaíam o cor-de-rosa, o azul, o branco e o amarelo das flores, sobre o verde fresco das folhas. E, quando os frutos começavam a ganhar forma, o perfume que inundava o pomar quase entontecia. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0"
+      ],
+      "evidence": "Era uma vez um rei que tinha, à roda do palácio, onde vivia, um enorme pomar muito bem tratado. Imensos jardineiros cuidavam desse pomar, que era a vaidade do rei. Árvores de fruto de todas as espécies, algumas vindas de terras distantes, transformavam, na Primavera, o pomar num jardim magnífico, onde sobressaíam o cor-de-rosa, o azul, o branco e o amarelo das flores, sobre o verde fresco das folhas.",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um rei que tinha, à roda do palácio, onde vivia, um enorme pomar muito bem tratado. Imensos jardineiros cuidavam desse pomar, que era a vaidade do rei. Árvores de fruto de todas as espécies, algumas vindas de terras distantes, transformavam, na Primavera, o pomar num jardim magnífico, onde sobressaíam o cor-de-rosa, o azul, o branco e o amarelo das flores, sobre o verde fresco das folhas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "- Explique-me este desleixo. Quem é o responsável? - Foram os pássaros, Majestade, que bicaram os frutos mais apetitosos - explicou o jardineiro. - Pássaros? - exclamou o rei.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Explique-me este desleixo. Quem é o responsável? - Foram os pássaros, Majestade, que bicaram os frutos mais apetitosos - explicou o jardineiro. - Pássaros? - exclamou o rei. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s5p0"
+      ],
+      "evidence": "- Os pássaros têm asas e não conhecem muros - respondeu o jardineiro. - Pois vou eu ensiná-los - indignou-se o rei. - Que podem os pássaros contra mim? E o rei foi para o palácio, onde ditou um decreto para ser espalhado pelo reino, em que mandava matar todos os pássaros, passarinhos e passarocos, sem escapar um. As ordens do rei tinham de se cumprir. Foi uma mortandade .",
+      "after": {
+        "segment": 5,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Os pássaros têm asas e não conhecem muros - respondeu o jardineiro. - Pois vou eu ensiná-los - indignou-se o rei. - Que podem os pássaros contra mim? E o rei foi para o palácio, onde ditou um decreto para ser espalhado pelo reino, em que mandava matar todos os pássaros, passarinhos e passarocos, sem escapar um. As ordens do rei tinham de se cumprir. Foi uma mortandade . Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p0",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "E o rei foi para o palácio, onde ditou um decreto para ser espalhado pelo reino, em que mandava matar todos os pássaros, passarinhos e passarocos, sem escapar um. As ordens do rei tinham de se cumprir. Foi uma mortandade . No ano seguinte, realmente, já não havia pássaros atrevidos a bicar nos frutos do pomar real. Mas, em contrapartida, uma praga aflitiva de lagartas e insectos destruiu as colheitas, minou os frutos, empobreceu o reino. - Como se explica isto? - perguntou o rei ao jardineiro.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E o rei foi para o palácio, onde ditou um decreto para ser espalhado pelo reino, em que mandava matar todos os pássaros, passarinhos e passarocos, sem escapar um. As ordens do rei tinham de se cumprir. Foi uma mortandade . No ano seguinte, realmente, já não havia pássaros atrevidos a bicar nos frutos do pomar real. Mas, em contrapartida, uma praga aflitiva de lagartas e insectos destruiu as colheitas, minou os frutos, empobreceu o reino. - Como se explica isto? - perguntou o rei ao jardineiro. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s8p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s8p0",
+        "s8p1",
+        "s8p2"
+      ],
+      "evidence": "- Podias ter explicado isso mais cedo - comentou o rei, fazendo-se esquecido. Logo ali mandou anular o decreto, que tinha apagado as asas dos céus do reino. Os pássaros já podiam, de novo, voar livremente. E poisar onde lhes apetecesse. Assim é que estava certo.",
+      "after": {
+        "segment": 8,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Podias ter explicado isso mais cedo - comentou o rei, fazendo-se esquecido. Logo ali mandou anular o decreto, que tinha apagado as asas dos céus do reino. Os pássaros já podiam, de novo, voar livremente. E poisar onde lhes apetecesse. Assim é que estava certo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

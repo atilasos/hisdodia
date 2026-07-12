@@ -1,0 +1,125 @@
+{
+  "characters": [
+    {
+      "name": "Galinha pedrês",
+      "appearance": "Hen with mottled speckled plumage, vigilant and stern maternal posture"
+    },
+    {
+      "name": "Mais Um",
+      "appearance": "Chicken who grows into a brash rooster with an aggressive, dominant stance"
+    },
+    {
+      "name": "Pato",
+      "appearance": "Plain farm duck, practical and corrective in manner"
+    },
+    {
+      "name": "Conceição",
+      "appearance": "Offstage human figure implied by the story, associated with the fatal blow"
+    },
+    {
+      "name": "Pombos",
+      "appearance": "Group of pigeons acting as rumor carriers"
+    }
+  ],
+  "environment": "Portuguese farmyard and poultry yard, with coop, perch, pombal, and village mornings under changing daylight",
+  "palette": [
+    "speckled brown",
+    "warm straw",
+    "dusty cream",
+    "barn red",
+    "muted gray-blue",
+    "soft dawn gold"
+  ],
+  "recurringObjects": [
+    "coops",
+    "perches",
+    "four chicks",
+    "feeding ground",
+    "farmyard silhouettes"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma galinha pedrês que só sabia contar até três. Logo aconteceu nascerem-lhe quatro pintainhos. Ela contava-os assim:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Mais um».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma galinha pedrês que só sabia contar até três. Logo aconteceu nascerem-lhe quatro pintainhos. Ela contava-os assim: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "- Não impliques com teus irmãos, Mais Um! Não queiras a comida toda para ti, Mais Um! Ficou a chamar-se Mais Um. Frango e depois galo, como era bruto e pespontão , ganhou o nome de Mais Um, \"O Terrível\". As galinhas que o dissessem, coitadas, de crista sempre a sangrar das bicadas do tiranete .",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Não impliques com teus irmãos, Mais Um! Não queiras a comida toda para ti, Mais Um! Ficou a chamar-se Mais Um. Frango e depois galo, como era bruto e pespontão , ganhou o nome de Mais Um, \"O Terrível\". As galinhas que o dissessem, coitadas, de crista sempre a sangrar das bicadas do tiranete . Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Todo o povo da capoeira o detestava. E com razão. Mais Um, \"O Terrível\", cantava de alto. Estou mesmo convencido que se não fosse ele o primeiro a alarmar os campos adormecidos com os seus gargarejos de madrugador, os restantes galos do povoado, por acanhamento, nem cantariam. Foi o que aconteceu, ainda há pouco.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Todo o povo da capoeira o detestava. E com razão. Mais Um, \"O Terrível\", cantava de alto. Estou mesmo convencido que se não fosse ele o primeiro a alarmar os campos adormecidos com os seus gargarejos de madrugador, os restantes galos do povoado, por acanhamento, nem cantariam. Foi o que aconteceu, ainda há pouco. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p4",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p2",
+        "s3p3",
+        "s3p4"
+      ],
+      "evidence": "- Morreu Mais Um às mãos da Conceição do facalhão. - Mais Um sacrificado, em canja e em guisado... - Lá está Mais Um no prato, duro que nem sola de sapato...",
+      "after": {
+        "segment": 3,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Morreu Mais Um às mãos da Conceição do facalhão. - Mais Um sacrificado, em canja e em guisado... - Lá está Mais Um no prato, duro que nem sola de sapato... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p3",
+        "s3p4",
+        "s4p0"
+      ],
+      "evidence": "- Mais Um sacrificado, em canja e em guisado... - Lá está Mais Um no prato, duro que nem sola de sapato... Houve um certo alívio nos galinheiros. Mas, agora me lembro que hoje os galos ainda não cantaram. Porquê? Talvez um secreto mal-estar se tenha espalhado pela criação. Imagino os galos no poleiro, cada um por si, a matutar: \"Foi-se Mais Um... Quem irá, depois?\" Pensamentos destes não dão mote para cantigas.",
+      "after": {
+        "segment": 4,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Mais Um sacrificado, em canja e em guisado... - Lá está Mais Um no prato, duro que nem sola de sapato... Houve um certo alívio nos galinheiros. Mas, agora me lembro que hoje os galos ainda não cantaram. Porquê? Talvez um secreto mal-estar se tenha espalhado pela criação. Imagino os galos no poleiro, cada um por si, a matutar: \"Foi-se Mais Um... Quem irá, depois?\" Pensamentos destes não dão mote para cantigas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

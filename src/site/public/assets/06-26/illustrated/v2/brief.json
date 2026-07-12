@@ -1,0 +1,128 @@
+{
+  "characters": [
+    {
+      "name": "mosquito",
+      "appearance": "small insect"
+    },
+    {
+      "name": "leão",
+      "appearance": "large lion with mane"
+    }
+  ],
+  "environment": "floresta africana à noite, com folha como leito, luar e teia de aranha no fecho",
+  "palette": [
+    "azul-noite",
+    "verde-floresta",
+    "dourado-mel",
+    "castanho-terra",
+    "cinzento-lunar"
+  ],
+  "recurringObjects": [
+    "folha",
+    "luar",
+    "juba",
+    "teia de aranha"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Algures, no coração de África, sobre uma folha tenra e macia da floresta, um mosquito dorme. Assim que o sol desaparecera no horizonte, o mosquito tinha procurado um poiso tranquilo e adormecera. Com ele, tudo à sua volta adormecia também. Mas eis que rompe o silêncio um tremendo ru-ru-ru-gido. Estremunhados, os bichos acordam e o mosquito da nossa história ergue-se e esfrega os olhos com as patas da frente:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O leão e o mosquito».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Algures, no coração de África, sobre uma folha tenra e macia da floresta, um mosquito dorme. Assim que o sol desaparecera no horizonte, o mosquito tinha procurado um poiso tranquilo e adormecera. Com ele, tudo à sua volta adormecia também. Mas eis que rompe o silêncio um tremendo ru-ru-ru-gido. Estremunhados, os bichos acordam e o mosquito da nossa história ergue-se e esfrega os olhos com as patas da frente: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p3",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Enorme é ele, não há dúvida. Bamboleando a sua imensa majestade, chicoteando o ar com a cauda felpuda, de focinho torcido e sobrolho carregado, o leão avança. O mosquito via mal ao longe.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Enorme é ele, não há dúvida. Bamboleando a sua imensa majestade, chicoteando o ar com a cauda felpuda, de focinho torcido e sobrolho carregado, o leão avança. O mosquito via mal ao longe. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s6p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s5p2",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "- Essa é boa! Eu sou o rei da floresta, por isso faço o que me apetece, digo o que me apetece, como o que me apetece e rujo, canto, urro, brado, quando muito bem me apetece. - E quem lhe disse que era o rei da floresta? - interrompeu-o, tranquilamente o mosquito.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Essa é boa! Eu sou o rei da floresta, por isso faço o que me apetece, digo o que me apetece, como o que me apetece e rujo, canto, urro, brado, quando muito bem me apetece. - E quem lhe disse que era o rei da floresta? - interrompeu-o, tranquilamente o mosquito. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s8p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s8p0",
+        "s8p1",
+        "s8p2"
+      ],
+      "evidence": "- Um mosquito tem a ousadia de provocar o rei dos animais? Nunca em tal se ouviu falar. E, dizendo isto, o leão soprou, com quantas forças tinha, para cima da folha, onde estava o mosquito. A folha balançou-se como se o vento a impelisse, enquanto o mosquito, agarrado a ela, rindo-se, pedia: - Mais, mais. Que belo baloiço!",
+      "after": {
+        "segment": 8,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Um mosquito tem a ousadia de provocar o rei dos animais? Nunca em tal se ouviu falar. E, dizendo isto, o leão soprou, com quantas forças tinha, para cima da folha, onde estava o mosquito. A folha balançou-se como se o vento a impelisse, enquanto o mosquito, agarrado a ela, rindo-se, pedia: - Mais, mais. Que belo baloiço! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s10p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s9p1",
+        "s10p0",
+        "s10p1"
+      ],
+      "evidence": "- Ah! Hoc! Ah! Hoc! Hoc! Entretanto, o mosquito fora alojar-se, sabem onde? Numa das narinas da fera, nem mais nem menos. As cócegas e as picadas puseram o rei dos animais a espirrar que não tinha fim: - Atchim! Atchim! Larga-me, deixa-me... Hoc! Ah! Eu abdico... Atchim! Faço-te rei dos animais... Hoc! Atchim!",
+      "after": {
+        "segment": 10,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Ah! Hoc! Ah! Hoc! Hoc! Entretanto, o mosquito fora alojar-se, sabem onde? Numa das narinas da fera, nem mais nem menos. As cócegas e as picadas puseram o rei dos animais a espirrar que não tinha fim: - Atchim! Atchim! Larga-me, deixa-me... Hoc! Ah! Eu abdico... Atchim! Faço-te rei dos animais... Hoc! Atchim! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s12p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s12p0",
+        "s12p1",
+        "s12p2"
+      ],
+      "evidence": "Esta floresta e as outras florestas pertencem-me. Os bichos que as povoam devem-me obediência, porque eu sou o rei. Eu sou o rei dos animais! O REI! E seria, de facto, o rei dos animais, se não tivesse esbarrado numa enorme teia de fios invisíveis, tecidos pela gulosa aranha das oito patas... E lá se acabou o reinado do rei mosquito.",
+      "after": {
+        "segment": 12,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Esta floresta e as outras florestas pertencem-me. Os bichos que as povoam devem-me obediência, porque eu sou o rei. Eu sou o rei dos animais! O REI! E seria, de facto, o rei dos animais, se não tivesse esbarrado numa enorme teia de fios invisíveis, tecidos pela gulosa aranha das oito patas... E lá se acabou o reinado do rei mosquito. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,104 @@
+{
+  "characters": [],
+  "environment": "sala da tia Elisa com um grande aquário-globo de vidro, depois a sala em luto, e por fim um tanque de quintal com águas profundas",
+  "palette": [
+    "vermelho",
+    "azul",
+    "vidro transparente",
+    "verdes de algas",
+    "tons suaves de interior doméstico",
+    "sombras escuras de água"
+  ],
+  "recurringObjects": [
+    "aquário de globo",
+    "algas",
+    "peixinho vermelho com riscas azuis",
+    "sala de visitas",
+    "tanque do quintal"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "- Não gosto nada que olhem para mim - dizia o peixinho vermelho com riscas azuis, que morava no aquário. Era um grande globo de vidro, enfeitado com algas, umas verdadeiras, outras a fingir, e estava, em lugar de destaque, na sala da tia Elisa. Quem ia fazer uma visita à tia Elisa dava sempre uma mirada ao peixinho, que revolteava na água, muito enervado.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Um peixe na sala».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Não gosto nada que olhem para mim - dizia o peixinho vermelho com riscas azuis, que morava no aquário. Era um grande globo de vidro, enfeitado com algas, umas verdadeiras, outras a fingir, e estava, em lugar de destaque, na sala da tia Elisa. Quem ia fazer uma visita à tia Elisa dava sempre uma mirada ao peixinho, que revolteava na água, muito enervado. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "E o peixinho tentava esconder-se por trás de umas algas, mas sem nenhum êxito. Ou sobrava cauda ou sobrava cabeça. A tia Elisa, que era uma simpática velhinha, cuidava dele com todo o desvelo. O peixe conhecia-a bem e agradava-se das suas atenções. Era, aliás, a única pessoa que ele tolerava. Mas a tia Elisa adoeceu.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E o peixinho tentava esconder-se por trás de umas algas, mas sem nenhum êxito. Ou sobrava cauda ou sobrava cabeça. A tia Elisa, que era uma simpática velhinha, cuidava dele com todo o desvelo. O peixe conhecia-a bem e agradava-se das suas atenções. Era, aliás, a única pessoa que ele tolerava. Mas a tia Elisa adoeceu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s6p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p2",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "Para o peixe, a tia Elisa há muito que tinha desaparecido. Desde que adoecera. Quem lhe polvilhava a superfície da água com a ração diária de comida era uma empregada, mas sem as gentilezas da tia Elisa. O peixe sentia a diferença. Até que, um dia, a tia Elisa morreu. Ficou a sala que tempos sem visitas, de cortinas descidas, portadas cerradas. Mas o peixe sentiu-se mais aliviado.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Para o peixe, a tia Elisa há muito que tinha desaparecido. Desde que adoecera. Quem lhe polvilhava a superfície da água com a ração diária de comida era uma empregada, mas sem as gentilezas da tia Elisa. O peixe sentia a diferença. Até que, um dia, a tia Elisa morreu. Ficou a sala que tempos sem visitas, de cortinas descidas, portadas cerradas. Mas o peixe sentiu-se mais aliviado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s7p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s7p1",
+        "s7p2",
+        "s7p3"
+      ],
+      "evidence": "- Quem quer ficar com o peixe do aquário? - perguntou um deles. Nenhum queria. - Deita-se o peixe para o tanque do quintal - decidiu um e os outros concordaram.",
+      "after": {
+        "segment": 7,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Quem quer ficar com o peixe do aquário? - perguntou um deles. Nenhum queria. - Deita-se o peixe para o tanque do quintal - decidiu um e os outros concordaram. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s8p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s7p3",
+        "s8p0",
+        "s8p1"
+      ],
+      "evidence": "- Deita-se o peixe para o tanque do quintal - decidiu um e os outros concordaram. O peixinho vermelho com riscas azuis foi parar a um tanque de águas profundas. Podia nadar à vontade, pelo meio das sombras e dos lodos, que já ninguém o via. Foi então e só então que o peixe vermelho começou a sentir saudades do tempo em que todos olhavam para ele.",
+      "after": {
+        "segment": 8,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Deita-se o peixe para o tanque do quintal - decidiu um e os outros concordaram. O peixinho vermelho com riscas azuis foi parar a um tanque de águas profundas. Podia nadar à vontade, pelo meio das sombras e dos lodos, que já ninguém o via. Foi então e só então que o peixe vermelho começou a sentir saudades do tempo em que todos olhavam para ele. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

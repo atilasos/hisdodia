@@ -1,0 +1,104 @@
+{
+  "characters": [],
+  "environment": "A ruined wall and the remains of an unfinished grand house in a rural Portuguese landscape, with overgrown vegetation and signs of abandonment over time.",
+  "palette": [
+    "earthy stone greys",
+    "muted moss green",
+    "weathered beige",
+    "dusty brown",
+    "soft olive"
+  ],
+  "recurringObjects": [
+    "ruined wall",
+    "stone blocks",
+    "moss",
+    "hera",
+    "silvas",
+    "mato"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Um muro em ruínas pediu-me que contasse a história dele. Que se pode dizer de um muro coberto de musgo e hera, à beira de um caminho por onde já quase ninguém passa? De um lado, o muro termina num meio arco de pedra, a lembrar que por ali abria e fechava porta ou portão.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Um muro sem história».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um muro em ruínas pediu-me que contasse a história dele. Que se pode dizer de um muro coberto de musgo e hera, à beira de um caminho por onde já quase ninguém passa? De um lado, o muro termina num meio arco de pedra, a lembrar que por ali abria e fechava porta ou portão. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "- Quero que a minha casa seja equivalente à casa de um rei - dizia ele. Vieram operários da cidade ajudar à construção. Carros de bois trouxeram, custosamente, pedregulhos das montanhas longínquas. Pedreiros partiram os pedregulhos em blocos e começaram a levantar as paredes.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Quero que a minha casa seja equivalente à casa de um rei - dizia ele. Vieram operários da cidade ajudar à construção. Carros de bois trouxeram, custosamente, pedregulhos das montanhas longínquas. Pedreiros partiram os pedregulhos em blocos e começaram a levantar as paredes. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s5p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s5p0"
+      ],
+      "evidence": "Se ele mandara estender a estrada até àquele lugar, se ele mandara cavar um poço, donde rompia a água que iria regar os futuros jardins à volta da futura casa, só faltava estar a casa pronta, para poder inaugurá-la com uma grande festa, cheia de amigos, música e foguetes. Mas as obras arrastavam-se. Também seria culpa do homem, que umas vezes queria uma coisa, outras queria outra. Uma torre, à esquerda da entrada, devia, vendo bem, ficar melhor, à direita. Onde estava previsto o salão ia ficar a cozinha ou talvez fosse melhor desfazer as paredes dos quartos para alargar o salão... Levantava-se, deitava-se abaixo. O encarregado da obra andava atordoado.",
+      "after": {
+        "segment": 5,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Se ele mandara estender a estrada até àquele lugar, se ele mandara cavar um poço, donde rompia a água que iria regar os futuros jardins à volta da futura casa, só faltava estar a casa pronta, para poder inaugurá-la com uma grande festa, cheia de amigos, música e foguetes. Mas as obras arrastavam-se. Também seria culpa do homem, que umas vezes queria uma coisa, outras queria outra. Uma torre, à esquerda da entrada, devia, vendo bem, ficar melhor, à direita. Onde estava previsto o salão ia ficar a cozinha ou talvez fosse melhor desfazer as paredes dos quartos para alargar o salão... Levantava-se, deitava-se abaixo. O encarregado da obra andava atordoado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s6p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p0",
+        "s6p1",
+        "s6p2"
+      ],
+      "evidence": "- O homem deve estar louco - dizia ele, em voz baixa. - Está a gastar uma fortuna e nunca mais vê a casa pronta. Foi o que aconteceu. Com os pagamentos atrasados, os operários abandonaram o trabalho. Tempos depois, silvas e mato tomaram conta das paredes. Muitos anos correram.",
+      "after": {
+        "segment": 6,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - O homem deve estar louco - dizia ele, em voz baixa. - Está a gastar uma fortuna e nunca mais vê a casa pronta. Foi o que aconteceu. Com os pagamentos atrasados, os operários abandonaram o trabalho. Tempos depois, silvas e mato tomaram conta das paredes. Muitos anos correram. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p2",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "Tempos depois, silvas e mato tomaram conta das paredes. Muitos anos correram. Chuvas, cheias, vendavais arrasaram o que restava da casa inacabada. Resistiu o muro coberto de musgo e hera.",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Tempos depois, silvas e mato tomaram conta das paredes. Muitos anos correram. Chuvas, cheias, vendavais arrasaram o que restava da casa inacabada. Resistiu o muro coberto de musgo e hera. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

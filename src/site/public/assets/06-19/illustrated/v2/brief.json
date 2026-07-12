@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": "Riverside journey along a deep river with a crossing that turns into a bargaining trap.",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Um rato, que andava a viajar, chegou, a certa altura, à margem de um rio profundo. Nem ponte nem barco. Uma rã, que andava por ali, ofereceu-se para levá-lo até ao outro lado. Como paga pelo serviço pedia vinte mosquitos. - Mosquitos não tenho, que não é moeda do meu uso - disse-lhe o rato.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Queda para o negócio».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um rato, que andava a viajar, chegou, a certa altura, à margem de um rio profundo. Nem ponte nem barco. Uma rã, que andava por ali, ofereceu-se para levá-lo até ao outro lado. Como paga pelo serviço pedia vinte mosquitos. - Mosquitos não tenho, que não é moeda do meu uso - disse-lhe o rato. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "- Três - respondeu a rã, que tinha queda para o negócio. O rato acedeu. Também não lhe restava outra alternativa... A rã pôs-se a nadar, com o rato encavalitado no dorso.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Três - respondeu a rã, que tinha queda para o negócio. O rato acedeu. Também não lhe restava outra alternativa... A rã pôs-se a nadar, com o rato encavalitado no dorso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Faltavam talvez dois terços da viagem, quando a rã disse: - Afinal você pesa mais do que eu supunha. Levo quatro fatias pelo transporte. O rato, que não sabia nadar, olhou para a água, em corrente assustadora, e disse que sim. Nem tinha outro remédio.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Faltavam talvez dois terços da viagem, quando a rã disse: - Afinal você pesa mais do que eu supunha. Levo quatro fatias pelo transporte. O rato, que não sabia nadar, olhou para a água, em corrente assustadora, e disse que sim. Nem tinha outro remédio. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p4",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "- Mau! - sobressaltou-se a rã. - Então em que ficamos? Estava a margem à largura de um salto. Foi o salto que o rato deu, salpicando-se todo. Mas estava em terra firme.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Mau! - sobressaltou-se a rã. - Então em que ficamos? Estava a margem à largura de um salto. Foi o salto que o rato deu, salpicando-se todo. Mas estava em terra firme. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s6p1",
+        "s6p2",
+        "s6p3"
+      ],
+      "evidence": "E desapareceu, pelo meio de uns caniços. - Já me tinha constado que se não deve concluir negócios com ratos - disse de si para si a rã. - São muito pouco honestos... E o que diria o rato, se pudéssemos ouvi-lo?",
+      "after": {
+        "segment": 6,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E desapareceu, pelo meio de uns caniços. - Já me tinha constado que se não deve concluir negócios com ratos - disse de si para si a rã. - São muito pouco honestos... E o que diria o rato, se pudéssemos ouvi-lo? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,118 @@
+{
+  "characters": [
+    {
+      "name": "Narrator",
+      "appearance": "Slim childlike adult man, neatly dressed, observant, increasingly uneasy"
+    },
+    {
+      "name": "Hotel guests and staff",
+      "appearance": "Mostly heavyset women and men, calm, inquisitive, formally presented"
+    },
+    {
+      "name": "Hotel manager and waiter",
+      "appearance": "Polite hotel staff, composed, deferential, authoritative"
+    }
+  ],
+  "environment": "A contemporary hotel with reception, salon mirrors, dining room, and pool area used as a weight-loss retreat",
+  "palette": [
+    "warm beige",
+    "soft cream",
+    "muted terracotta",
+    "olive green",
+    "cool blue",
+    "charcoal gray"
+  ],
+  "recurringObjects": [
+    "suitcase",
+    "hotel mirror",
+    "menu",
+    "chairs",
+    "pool",
+    "cinturon"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Quando entrei no hotel, estava uma senhora muito gorda à entrada, que me olhou com curiosidade. Devolvi-lhe o olhar, enquanto tirava a mala do carro, e esbocei um sorriso de cumprimento. Talvez nos conhecêssemos de algum lugar. A senhora devolveu-me o sorriso e ficámos quites. Junto à recepção, estavam dois senhores muito gordos à conversa. Suspenderam as falas, quando me viram entrar. Cumprimentei-os, eles cumprimentaram-me e também ficámos quites, isto é, empatados nos cumprimentos.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Aqui não volto».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando entrei no hotel, estava uma senhora muito gorda à entrada, que me olhou com curiosidade. Devolvi-lhe o olhar, enquanto tirava a mala do carro, e esbocei um sorriso de cumprimento. Talvez nos conhecêssemos de algum lugar. A senhora devolveu-me o sorriso e ficámos quites. Junto à recepção, estavam dois senhores muito gordos à conversa. Suspenderam as falas, quando me viram entrar. Cumprimentei-os, eles cumprimentaram-me e também ficámos quites, isto é, empatados nos cumprimentos. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s6p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s5p0",
+        "s6p0"
+      ],
+      "evidence": "Uma vez, terei pisado uma pastilha elástica que se agarrou ao resto de uma serpentina, deixada no passeio (estava-se em período carnavalesco) e eu entrei numa cerimónia muito grave e distinta com um resto de serpentina atrás de mim. Quando, pelos olhares de reprovação à minha volta, dei por mim, tentei desembaraçar-me da longa e comprometedora fita de papel presa a um dos pés, mas com tanto azar que perdi o equilíbrio, logo na ocasião em que se dirigia a mim, para cumprimentar-me, o presidente da cerimónia. Caí-lhe nos braços, para grande surpresa do senhor, que não esperava tal efusão da minha parte e, quando ele se virou, vi que, sem querer, lhe tinha prendido a pastilha elástica e a serpentina às costas. Que desastre. Nem me quero lembrar, que me arrepio todo.",
+      "after": {
+        "segment": 6,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Uma vez, terei pisado uma pastilha elástica que se agarrou ao resto de uma serpentina, deixada no passeio (estava-se em período carnavalesco) e eu entrei numa cerimónia muito grave e distinta com um resto de serpentina atrás de mim. Quando, pelos olhares de reprovação à minha volta, dei por mim, tentei desembaraçar-me da longa e comprometedora fita de papel presa a um dos pés, mas com tanto azar que perdi o equilíbrio, logo na ocasião em que se dirigia a mim, para cumprimentar-me, o presidente da cerimónia. Caí-lhe nos braços, para grande surpresa do senhor, que não esperava tal efusão da minha parte e, quando ele se virou, vi que, sem querer, lhe tinha prendido a pastilha elástica e a serpentina às costas. Que desastre. Nem me quero lembrar, que me arrepio todo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s10p4",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s10p2",
+        "s10p3",
+        "s10p4"
+      ],
+      "evidence": "- E os outros hóspedes? - Comem na piscina - esclareceu o chefe de mesa, com um sorrizinho de condescendência. Estranhei.",
+      "after": {
+        "segment": 10,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - E os outros hóspedes? - Comem na piscina - esclareceu o chefe de mesa, com um sorrizinho de condescendência. Estranhei. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s13p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s12p1",
+        "s13p0",
+        "s13p1"
+      ],
+      "evidence": "Para desmoer, fui dar um passeio até à piscina do hotel. O espectáculo que se me deparou, nunca o esquecerei. A piscina até era grandinha, mas transbordava, inundando o relvado à volta. Pudera. Cheia de gordos, gordinhos e gordíssimos que tentavam nadar, sem se empurrarem uns aos outros... A piscina era um festival de barrigas. As senhoras e os senhores pararam de esbracejar, quando me viram. Senti-me nu, eu que era o único mais vestido de todos.",
+      "after": {
+        "segment": 13,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Para desmoer, fui dar um passeio até à piscina do hotel. O espectáculo que se me deparou, nunca o esquecerei. A piscina até era grandinha, mas transbordava, inundando o relvado à volta. Pudera. Cheia de gordos, gordinhos e gordíssimos que tentavam nadar, sem se empurrarem uns aos outros... A piscina era um festival de barrigas. As senhoras e os senhores pararam de esbracejar, quando me viram. Senti-me nu, eu que era o único mais vestido de todos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s17p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s17p0",
+        "s17p1",
+        "s17p2"
+      ],
+      "evidence": "Era de inveja, de profunda e desabrida inveja, por saberem que o \"Chico Fininho\" não tinha de sujeitar-se a estas torturas da fome. Aterrorizado, pedi a conta e saí do hotel nesse mesmo dia. Tenho de começar a ponderar melhor o que e quanto e quando como. À cautela. É que, ontem, precisei de atrasar um furo à fivela do meu cinto.",
+      "after": {
+        "segment": 17,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era de inveja, de profunda e desabrida inveja, por saberem que o \"Chico Fininho\" não tinha de sujeitar-se a estas torturas da fome. Aterrorizado, pedi a conta e saí do hotel nesse mesmo dia. Tenho de começar a ponderar melhor o que e quanto e quando como. À cautela. É que, ontem, precisei de atrasar um furo à fivela do meu cinto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}
