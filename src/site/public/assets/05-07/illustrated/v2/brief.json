@@ -1,0 +1,136 @@
+{
+  "characters": [
+    {
+      "name": "Joaninha",
+      "appearance": "Small red ladybug with black spots; later disguised as a striped beetle in a pajama-like cover"
+    },
+    {
+      "name": "Menina",
+      "appearance": "Unspecified child hands holding the insect between fingers"
+    },
+    {
+      "name": "Dr. Bisnaga",
+      "appearance": "Scientific collector with a pince and laboratory equipment"
+    }
+  ],
+  "environment": "A playful Portuguese children’s story world moving from a child’s hands to open air, then to Dr. Bisnaga’s Lisbon laboratory and out through a window over the city.",
+  "palette": [
+    "encarnado",
+    "preto",
+    "creme",
+    "azul cinza",
+    "amarelo suave",
+    "tons urbanos de Lisboa"
+  ],
+  "recurringObjects": [
+    "dedos a prender a joaninha",
+    "pijama às riscas",
+    "pinça",
+    "frasquinho",
+    "laboratório",
+    "janela",
+    "cidade de Lisboa"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era uma vez uma joaninha. Pintas pretas sobre fundo encarnado, conhecem o género, não conhecem? Bem. Como ia contando: era uma vez uma joaninha... O que ela se enfastiava quando uma menina qualquer a prendia entre os dedos, para lhe soprar a lengalenga do costume: \"Joaninha voa, voa, que o teu pai está em Lisboa\". Largada, depois, ares fora, a nossa joaninha refilava:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A joaninha cansada».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma joaninha. Pintas pretas sobre fundo encarnado, conhecem o género, não conhecem? Bem. Como ia contando: era uma vez uma joaninha... O que ela se enfastiava quando uma menina qualquer a prendia entre os dedos, para lhe soprar a lengalenga do costume: \"Joaninha voa, voa, que o teu pai está em Lisboa\". Largada, depois, ares fora, a nossa joaninha refilava: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "- Mas qual pai? Mas qual Lisboa? O pai dela, coitado, morrera há tempos, e a cidade de Lisboa não estava nos seus projectos de viagem. Que mania! Por isso a joaninha resolveu mascarar-se de escaravelho. Vestiu um pijama às riscas e pronto.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Mas qual pai? Mas qual Lisboa? O pai dela, coitado, morrera há tempos, e a cidade de Lisboa não estava nos seus projectos de viagem. Que mania! Por isso a joaninha resolveu mascarar-se de escaravelho. Vestiu um pijama às riscas e pronto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p3",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Por isso a joaninha resolveu mascarar-se de escaravelho. Vestiu um pijama às riscas e pronto. Ninguém diz: \"Escaravelho voa, voa, que o teu pai está em Lisboa\". Não dá jeito. Com o que ela não contava era com o Dr. Bisnaga, cientista estudioso de escaravelhos e do grande dano que eles causam à fruta e às batatas. Pois o Dr. Bisnaga viu aquele exemplar um tanto fantasista, ainda não classificado entre as suas variedades, e zás!",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Por isso a joaninha resolveu mascarar-se de escaravelho. Vestiu um pijama às riscas e pronto. Ninguém diz: \"Escaravelho voa, voa, que o teu pai está em Lisboa\". Não dá jeito. Com o que ela não contava era com o Dr. Bisnaga, cientista estudioso de escaravelhos e do grande dano que eles causam à fruta e às batatas. Pois o Dr. Bisnaga viu aquele exemplar um tanto fantasista, ainda não classificado entre as suas variedades, e zás! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "Com o que ela não contava era com o Dr. Bisnaga, cientista estudioso de escaravelhos e do grande dano que eles causam à fruta e às batatas. Pois o Dr. Bisnaga viu aquele exemplar um tanto fantasista, ainda não classificado entre as suas variedades, e zás! Agarrou-o com uma pinça, meteu-o num frasquinho e ala com ele para o seu laboratório, em Lisboa. Depois classificou-o. Deu-lhe um nome, por sinal o seu, \"Escaravelho Bisnaguense\", visto que se sentia o descobridor e, até certo ponto, o pai daquela preciosidade.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Com o que ela não contava era com o Dr. Bisnaga, cientista estudioso de escaravelhos e do grande dano que eles causam à fruta e às batatas. Pois o Dr. Bisnaga viu aquele exemplar um tanto fantasista, ainda não classificado entre as suas variedades, e zás! Agarrou-o com uma pinça, meteu-o num frasquinho e ala com ele para o seu laboratório, em Lisboa. Depois classificou-o. Deu-lhe um nome, por sinal o seu, \"Escaravelho Bisnaguense\", visto que se sentia o descobridor e, até certo ponto, o pai daquela preciosidade. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Por fim, tirou-lhe o retrato, para um grande álbum de escaravelhos que estava a preparar, e foi à vida, à sua vida de incansável investigador de escaravelhos. Ficaria a pobre joaninha condenada a prisão perpétua, não se tivesse desfeito, a tempo, do pijama às riscas. - Uma vulgar joaninha no meu laboratório?",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Por fim, tirou-lhe o retrato, para um grande álbum de escaravelhos que estava a preparar, e foi à vida, à sua vida de incansável investigador de escaravelhos. Ficaria a pobre joaninha condenada a prisão perpétua, não se tivesse desfeito, a tempo, do pijama às riscas. - Uma vulgar joaninha no meu laboratório? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s5p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p1",
+        "s5p2",
+        "s5p3"
+      ],
+      "evidence": "E atirou-a pela janela... A joaninha saltou e, atarantada, esvoaçou sobre a fumarada da cidade. Depois, mais decidida, voou desta história para fora. Uf! Chega de aventuras. Se a virem por aí, deixem-na viver sossegada o seu próprio destino de joaninha sem nome. Ela agradece.",
+      "after": {
+        "segment": 5,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E atirou-a pela janela... A joaninha saltou e, atarantada, esvoaçou sobre a fumarada da cidade. Depois, mais decidida, voou desta história para fora. Uf! Chega de aventuras. Se a virem por aí, deixem-na viver sossegada o seu próprio destino de joaninha sem nome. Ela agradece. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

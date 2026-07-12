@@ -1,0 +1,114 @@
+{
+  "characters": [],
+  "environment": "Mountain-side legend landscape around Serra da Penha and Portalegre, centered on the Cova da Moura setting.",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Tantas lendas de mouras que há e eu ainda não contei nenhuma. Esta soube-a, quando andava a passear na Serra da Penha, para as bandas de Portalegre. Cada cidade tem muitas histórias para contar. Falam as pedras, murmuram as árvores, segredam as fontes o que as pessoas não vêem nem sabem. Esta lenda da Cova da Moura mergulha as suas raízes mais fundas nas encostas da Serra da Penha. Vamos conhecê-la.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Lenda da Cova da Moura».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Tantas lendas de mouras que há e eu ainda não contei nenhuma. Esta soube-a, quando andava a passear na Serra da Penha, para as bandas de Portalegre. Cada cidade tem muitas histórias para contar. Falam as pedras, murmuram as árvores, segredam as fontes o que as pessoas não vêem nem sabem. Esta lenda da Cova da Moura mergulha as suas raízes mais fundas nas encostas da Serra da Penha. Vamos conhecê-la. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s2p0"
+      ],
+      "evidence": "Esta lenda da Cova da Moura mergulha as suas raízes mais fundas nas encostas da Serra da Penha. Vamos conhecê-la. Dantes, muito antes de haver Portugal, os mouros ocupavam aqueles lugares. Mas raramente viviam em paz. Quando as disputas entre eles gritavam mais alto do que o bom senso e a cortesia, que deve regular sempre as relações entre vizinhos, quando das ameaças passavam aos actos, rompia a guerra e faiscavam as cimitarras .",
+      "after": {
+        "segment": 2,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Esta lenda da Cova da Moura mergulha as suas raízes mais fundas nas encostas da Serra da Penha. Vamos conhecê-la. Dantes, muito antes de haver Portugal, os mouros ocupavam aqueles lugares. Mas raramente viviam em paz. Quando as disputas entre eles gritavam mais alto do que o bom senso e a cortesia, que deve regular sempre as relações entre vizinhos, quando das ameaças passavam aos actos, rompia a guerra e faiscavam as cimitarras . Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p1",
+        "s2p0",
+        "s3p0"
+      ],
+      "evidence": "Dantes, muito antes de haver Portugal, os mouros ocupavam aqueles lugares. Mas raramente viviam em paz. Quando as disputas entre eles gritavam mais alto do que o bom senso e a cortesia, que deve regular sempre as relações entre vizinhos, quando das ameaças passavam aos actos, rompia a guerra e faiscavam as cimitarras . Um chefe mouro, reconhecendo que não tinha tropas que chegassem para enfrentar um aguerrido exército invasor dos seus domínios, abandonou o amuralhado da cidade e refugiou-se com a família e a corte nos brejos da serra.",
+      "after": {
+        "segment": 3,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Dantes, muito antes de haver Portugal, os mouros ocupavam aqueles lugares. Mas raramente viviam em paz. Quando as disputas entre eles gritavam mais alto do que o bom senso e a cortesia, que deve regular sempre as relações entre vizinhos, quando das ameaças passavam aos actos, rompia a guerra e faiscavam as cimitarras . Um chefe mouro, reconhecendo que não tinha tropas que chegassem para enfrentar um aguerrido exército invasor dos seus domínios, abandonou o amuralhado da cidade e refugiou-se com a família e a corte nos brejos da serra. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Um chefe mouro, reconhecendo que não tinha tropas que chegassem para enfrentar um aguerrido exército invasor dos seus domínios, abandonou o amuralhado da cidade e refugiou-se com a família e a corte nos brejos da serra. Carregadas por escravos iam, no meio do apressado cortejo em fuga, as arcas cheias de tesouros, para serem depostas em lugar seguro, longe da cobiça dos agressores. Mas um escravo escapou-se do emboscado acampamento e foi avisar o comandante inimigo. A partir daí, já nada podia salvar os foragidos .",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um chefe mouro, reconhecendo que não tinha tropas que chegassem para enfrentar um aguerrido exército invasor dos seus domínios, abandonou o amuralhado da cidade e refugiou-se com a família e a corte nos brejos da serra. Carregadas por escravos iam, no meio do apressado cortejo em fuga, as arcas cheias de tesouros, para serem depostas em lugar seguro, longe da cobiça dos agressores. Mas um escravo escapou-se do emboscado acampamento e foi avisar o comandante inimigo. A partir daí, já nada podia salvar os foragidos . Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p1",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "- Tu és a jóia mais preciosa dos meus tesouros. Junto deles vou encantar-te, para que nenhumas mãos impuras aflijam a tua inocência. E assim fez. Ele, que tinha poderes mágicos, transformou a filha e as arcas carregadas de riquezas em pedras de uma gruta. Depois, ainda tentou usar da mesma magia para ele próprio e os seus mais próximos, mas já não foi a tempo.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Tu és a jóia mais preciosa dos meus tesouros. Junto deles vou encantar-te, para que nenhumas mãos impuras aflijam a tua inocência. E assim fez. Ele, que tinha poderes mágicos, transformou a filha e as arcas carregadas de riquezas em pedras de uma gruta. Depois, ainda tentou usar da mesma magia para ele próprio e os seus mais próximos, mas já não foi a tempo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s9p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s7p1",
+        "s8p0",
+        "s9p0"
+      ],
+      "evidence": "Contam os mais velhos que aquele sítio se chama Cova da Moura, porque, em noites de luar, ainda há quem veja a menina vestida de branco, a andar sem rumo pelo alto da serra. Ouvem-na lamentar-se em língua estranha e chorar os pais e a felicidade que perdeu. Impressão será ou o sussurro do vento pelo meio da folhagem dos castanheiros... Seja do que for, os mais velhos acreditam que a moura encantada da Serra da Penha guarda arcas e arcas de tesouros por desencantar. Vale a pena ir lá de propósito, em passeio, que mais não seja porque do alto da colina, onde a meio da encosta, alveja uma ermidinha, se abrange todo o casario da cidade de Portalegre, o perfil do Castelo, as torres da Sé e, longe, a Serra de S. Mamede e a imensa planura alentejana. É outra forma de encantamento.",
+      "after": {
+        "segment": 9,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Contam os mais velhos que aquele sítio se chama Cova da Moura, porque, em noites de luar, ainda há quem veja a menina vestida de branco, a andar sem rumo pelo alto da serra. Ouvem-na lamentar-se em língua estranha e chorar os pais e a felicidade que perdeu. Impressão será ou o sussurro do vento pelo meio da folhagem dos castanheiros... Seja do que for, os mais velhos acreditam que a moura encantada da Serra da Penha guarda arcas e arcas de tesouros por desencantar. Vale a pena ir lá de propósito, em passeio, que mais não seja porque do alto da colina, onde a meio da encosta, alveja uma ermidinha, se abrange todo o casario da cidade de Portalegre, o perfil do Castelo, as torres da Sé e, longe, a Serra de S. Mamede e a imensa planura alentejana. É outra forma de encantamento. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": [
+    {
+      "sceneId": "scene-4",
+      "attempt": 1,
+      "message": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID f76f8ed4-f1f1-4366-9d4d-bbd258b56b25. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    }
+  ]
+}

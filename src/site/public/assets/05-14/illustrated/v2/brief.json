@@ -1,0 +1,87 @@
+{
+  "characters": [],
+  "environment": "Índia costeira e fundo do mar, com mar, rochas, ostras, um pescador de pérolas e a lenda da primeira pérola como eixo visual; atmosfera mítica, marítima e contemplativa.",
+  "palette": [
+    "azuis profundos",
+    "verde-mar",
+    "branco pérola",
+    "areia dourada",
+    "tons de cera",
+    "cinzentos de rocha"
+  ],
+  "recurringObjects": [
+    "pérolas",
+    "ostras",
+    "ondas",
+    "gotas de água",
+    "rochas submersas"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Acreditava-se na Índia que as pérolas eram oferenda dos deuses. Prendas raras são elas, porque entre milhares de ostras, presas às rochas do fundo do mar, só umas poucas fabricam estas esferazinhas cor de cera, mas tão luminosas como se tivesse cada uma delas, escondido no seu interior, um ponto de luz aceso. A pérola desenvolve-se quando um minúsculo parasita se introduz dentro da concha. Para se defender do intruso, a ostra segrega uma espécie de cera que envolve e neutraliza o incómodo visitante.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A primeira pérola».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Acreditava-se na Índia que as pérolas eram oferenda dos deuses. Prendas raras são elas, porque entre milhares de ostras, presas às rochas do fundo do mar, só umas poucas fabricam estas esferazinhas cor de cera, mas tão luminosas como se tivesse cada uma delas, escondido no seu interior, um ponto de luz aceso. A pérola desenvolve-se quando um minúsculo parasita se introduz dentro da concha. Para se defender do intruso, a ostra segrega uma espécie de cera que envolve e neutraliza o incómodo visitante. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Acreditava-se na Índia que as pérolas eram oferenda dos deuses. Prendas raras são elas, porque entre milhares de ostras, presas às rochas do fundo do mar, só umas poucas fabricam estas esferazinhas cor de cera, mas tão luminosas como se tivesse cada uma delas, escondido no seu interior, um ponto de luz aceso. A pérola desenvolve-se quando um minúsculo parasita se introduz dentro da concha. Para se defender do intruso, a ostra segrega uma espécie de cera que envolve e neutraliza o incómodo visitante.",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Acreditava-se na Índia que as pérolas eram oferenda dos deuses. Prendas raras são elas, porque entre milhares de ostras, presas às rochas do fundo do mar, só umas poucas fabricam estas esferazinhas cor de cera, mas tão luminosas como se tivesse cada uma delas, escondido no seu interior, um ponto de luz aceso. A pérola desenvolve-se quando um minúsculo parasita se introduz dentro da concha. Para se defender do intruso, a ostra segrega uma espécie de cera que envolve e neutraliza o incómodo visitante. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "A pérola desenvolve-se quando um minúsculo parasita se introduz dentro da concha. Para se defender do intruso, a ostra segrega uma espécie de cera que envolve e neutraliza o incómodo visitante. Este líquido gelatinoso vai solidificando, ao longo de muito tempo, ganhando novas camadas, como um casulo de bicho-da-seda, mas rijo, maciço, impenetrável. Quando o pescador de pérolas, no fim de muitos mergulhos, descobre uma ostra perolífera, mete a pérola debaixo da língua e nada para terra.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A pérola desenvolve-se quando um minúsculo parasita se introduz dentro da concha. Para se defender do intruso, a ostra segrega uma espécie de cera que envolve e neutraliza o incómodo visitante. Este líquido gelatinoso vai solidificando, ao longo de muito tempo, ganhando novas camadas, como um casulo de bicho-da-seda, mas rijo, maciço, impenetrável. Quando o pescador de pérolas, no fim de muitos mergulhos, descobre uma ostra perolífera, mete a pérola debaixo da língua e nada para terra. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s4p3"
+      ],
+      "evidence": "- Tão insignificante que eu sou nesta imensidão. Respondeu-lhe o mar: - A tua extrema modéstia enternece-me. Vou fazer de ti, gotinha de água, uma gota de luz. Tu serás a jóia mais pura entre as jóias. Reinarás no mundo e reinarás sobre a mulher, a quem acrescentarás felicidade e beleza.",
+      "after": {
+        "segment": 4,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Tão insignificante que eu sou nesta imensidão. Respondeu-lhe o mar: - A tua extrema modéstia enternece-me. Vou fazer de ti, gotinha de água, uma gota de luz. Tu serás a jóia mais pura entre as jóias. Reinarás no mundo e reinarás sobre a mulher, a quem acrescentarás felicidade e beleza. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

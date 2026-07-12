@@ -1,0 +1,110 @@
+{
+  "characters": [
+    {
+      "name": "Limoeiro",
+      "appearance": "Árvore velha e carregada de limões, ramos expressivos movidos pelo vento."
+    },
+    {
+      "name": "Jornalista",
+      "appearance": "Pessoa apressada com microfone em punho."
+    }
+  ],
+  "environment": "Um pomar ao ar livre, com vento amável e uma folha de jornal no final.",
+  "palette": [
+    "amarelo-limão",
+    "verde folhagem",
+    "azul suave",
+    "castanho natural",
+    "branco de papel jornal"
+  ],
+  "recurringObjects": [
+    "microfone",
+    "limões",
+    "folha de jornal"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O limoeiro está carregadinho de limões. Veio aquele jornalista que anda por tudo o que é sítio, sempre de microfone em punho, e perguntou-lhe: - Está satisfeito com o seu trabalho?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Entrevista ao limoeiro».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O limoeiro está carregadinho de limões. Veio aquele jornalista que anda por tudo o que é sítio, sempre de microfone em punho, e perguntou-lhe: - Está satisfeito com o seu trabalho? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s0p3"
+      ],
+      "evidence": "Veio aquele jornalista que anda por tudo o que é sítio, sempre de microfone em punho, e perguntou-lhe: - Está satisfeito com o seu trabalho? O limoeiro acenou que sim com os ramos, impelidos por um ventinho amável.",
+      "after": {
+        "segment": 0,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Veio aquele jornalista que anda por tudo o que é sítio, sempre de microfone em punho, e perguntou-lhe: - Está satisfeito com o seu trabalho? O limoeiro acenou que sim com os ramos, impelidos por um ventinho amável. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "O jornalista entusiasmou-se: - Nesse caso, vai mudar de produto de fabrico? De cima para baixo, rangendo ao sabor da brisa, os ramos do limoeiro responderam que sim. Estava a ganhar interesse a entrevista.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O jornalista entusiasmou-se: - Nesse caso, vai mudar de produto de fabrico? De cima para baixo, rangendo ao sabor da brisa, os ramos do limoeiro responderam que sim. Estava a ganhar interesse a entrevista. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s4p3"
+      ],
+      "evidence": "- Pêssegos? Aí o limoeiro agitou afirmativamente os ramos, tocados pelo vento. Desandou o jornalista a toda a pressa em direcção ao jornal.",
+      "after": {
+        "segment": 4,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Pêssegos? Aí o limoeiro agitou afirmativamente os ramos, tocados pelo vento. Desandou o jornalista a toda a pressa em direcção ao jornal. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "No dia seguinte, na primeira página, vinha o seguinte título: LIMOEIRO VAI DAR PÊSSEGOS O limoeiro propriamente dito não desmentiu a notícia. Também, pouco tempo depois, a folha do jornal rolava amarfanhada pelo chão ao sabor do ventinho caprichoso que faz acenar os limoeiros.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No dia seguinte, na primeira página, vinha o seguinte título: LIMOEIRO VAI DAR PÊSSEGOS O limoeiro propriamente dito não desmentiu a notícia. Também, pouco tempo depois, a folha do jornal rolava amarfanhada pelo chão ao sabor do ventinho caprichoso que faz acenar os limoeiros. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

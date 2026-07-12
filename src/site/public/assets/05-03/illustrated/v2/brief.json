@@ -1,0 +1,126 @@
+{
+  "characters": [],
+  "environment": "An artisan workshop street with neighboring workspaces and a busy market feel",
+  "palette": [
+    "warm ochres",
+    "muted browns",
+    "dusty blues",
+    "soft reds",
+    "cream"
+  ],
+  "recurringObjects": [
+    "benches",
+    "chairs",
+    "workbenches",
+    "wooden tools",
+    "customers"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era uma vez um homem que fazia bancos. Tinha aprendido em pequeno a arte ou ofício de fazer bancos e, como se ajeitava bem, era rápido e vendia a mercadoria com facilidade, nunca quis fazer outra coisa. Ao lado da oficina do homem que fabricava bancos, instalou-se um outro artesão. Mas este só fabricava cadeiras. Os clientes começaram a dividir-se. Havia os que continuavam a comprar bancos, que eram mais baratos, e os que preferiam comprar cadeiras, um pouco mais caras, mas mais cómodas. Experimentem e, depois, digam-me.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Bancos e cadeiras».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um homem que fazia bancos. Tinha aprendido em pequeno a arte ou ofício de fazer bancos e, como se ajeitava bem, era rápido e vendia a mercadoria com facilidade, nunca quis fazer outra coisa. Ao lado da oficina do homem que fabricava bancos, instalou-se um outro artesão. Mas este só fabricava cadeiras. Os clientes começaram a dividir-se. Havia os que continuavam a comprar bancos, que eram mais baratos, e os que preferiam comprar cadeiras, um pouco mais caras, mas mais cómodas. Experimentem e, depois, digam-me. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Ao lado da oficina do homem que fabricava bancos, instalou-se um outro artesão. Mas este só fabricava cadeiras. Os clientes começaram a dividir-se. Havia os que continuavam a comprar bancos, que eram mais baratos, e os que preferiam comprar cadeiras, um pouco mais caras, mas mais cómodas. Experimentem e, depois, digam-me. O homem que fazia bancos enervou-se. Até os bancos lhe saíam menos perfeitos.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ao lado da oficina do homem que fabricava bancos, instalou-se um outro artesão. Mas este só fabricava cadeiras. Os clientes começaram a dividir-se. Havia os que continuavam a comprar bancos, que eram mais baratos, e os que preferiam comprar cadeiras, um pouco mais caras, mas mais cómodas. Experimentem e, depois, digam-me. O homem que fazia bancos enervou-se. Até os bancos lhe saíam menos perfeitos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Para poder escoar o produto do seu trabalho, baixou para metade o preço dos bancos. Os bancos continuavam do mesmo tamanho, o preço é que diminuiu. O concorrente ao lado fez o mesmo. Uma cadeira passou a ser tão barata que até dava vontade de rir. Aproveitando a baixa de preços, a clientela afluía às duas lojas-oficinas.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Para poder escoar o produto do seu trabalho, baixou para metade o preço dos bancos. Os bancos continuavam do mesmo tamanho, o preço é que diminuiu. O concorrente ao lado fez o mesmo. Uma cadeira passou a ser tão barata que até dava vontade de rir. Aproveitando a baixa de preços, a clientela afluía às duas lojas-oficinas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p2",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "Aproveitando a baixa de preços, a clientela afluía às duas lojas-oficinas. Voaram (maneira de dizer!) bancos e cadeiras. Mas aquilo era um disparate, tanto maior quanto, descendo os preços, de dia para dia, chegou uma altura em que os bancos e as cadeiras eram dados. E quem levasse uma cadeira de graça, recebia outra de brinde. E tal e qual para os bancos.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Aproveitando a baixa de preços, a clientela afluía às duas lojas-oficinas. Voaram (maneira de dizer!) bancos e cadeiras. Mas aquilo era um disparate, tanto maior quanto, descendo os preços, de dia para dia, chegou uma altura em que os bancos e as cadeiras eram dados. E quem levasse uma cadeira de graça, recebia outra de brinde. E tal e qual para os bancos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Os dois artesãos fartavam-se de trabalhar, noite e dia, para responder aos pedidos. Arruinavam-se. Isto mesmo lhes disse um amigo de ambos. - Porque é que vocês não se juntam e formam uma sociedade que venda cadeiras e bancos, ao mesmo tempo e por um preço razoável?",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os dois artesãos fartavam-se de trabalhar, noite e dia, para responder aos pedidos. Arruinavam-se. Isto mesmo lhes disse um amigo de ambos. - Porque é que vocês não se juntam e formam uma sociedade que venda cadeiras e bancos, ao mesmo tempo e por um preço razoável? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s6p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s6p0"
+      ],
+      "evidence": "A princípio, eles não queriam. Estavam habituados a trabalhar sozinhos e cada qual tinha as suas razões de queixa do concorrente. Mas conformaram-se, a ver no que dava. Deu certo. A Sociedade Banco & Cadeira, formada pelos dois antigos rivais, agora amigos, vai de vento em popa. E, trabalhando a meias, vão os dois lançar um novo produto no mercado: mesas.",
+      "after": {
+        "segment": 6,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A princípio, eles não queriam. Estavam habituados a trabalhar sozinhos e cada qual tinha as suas razões de queixa do concorrente. Mas conformaram-se, a ver no que dava. Deu certo. A Sociedade Banco & Cadeira, formada pelos dois antigos rivais, agora amigos, vai de vento em popa. E, trabalhando a meias, vão os dois lançar um novo produto no mercado: mesas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": [
+    {
+      "sceneId": "opening",
+      "attempt": 1,
+      "message": "Orchestration was deliberately terminated while the built-in image generation call was in flight to reconcile an inaccurate attempt number in the ignored call ledger; no generated raster or new generated-image source was produced."
+    }
+  ]
+}

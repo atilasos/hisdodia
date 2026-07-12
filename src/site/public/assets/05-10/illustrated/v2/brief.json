@@ -1,0 +1,132 @@
+{
+  "characters": [
+    {
+      "name": "senhora",
+      "appearance": "cliente do cabeleireiro, cabelo progressivamente arrepiado e depois desalinhado, expressão irritada e depois aliviada"
+    },
+    {
+      "name": "cabeleireiras",
+      "appearance": "funcionárias do cabeleireiro, observadoras e atarefadas"
+    },
+    {
+      "name": "clientes",
+      "appearance": "outras pessoas no salão, curiosas e a rir-se discretamente"
+    }
+  ],
+  "environment": "cabeleireiro e, depois, uma festa social onde a senhora chama atenção e mais tarde já ninguém repara no cabelo desalinhado.",
+  "palette": [
+    "tons claros e modernos de salão",
+    "neutros quentes",
+    "acentos vivos de festa",
+    "contraste entre cabelo escuro/aprumado e fundo suave"
+  ],
+  "recurringObjects": [
+    "cadeiras de cabeleireiro",
+    "espelho",
+    "secador",
+    "rolos de cabelo",
+    "laca"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma senhora que estava no cabeleireiro, à espera de ser atendida. - Estou pelos cabelos! - dizia a senhora, muito irritada. - Nunca mais chega a minha vez, francamente. Uma das cabeleireiras passou por ela e reparou:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Cabelo espetado».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma senhora que estava no cabeleireiro, à espera de ser atendida. - Estou pelos cabelos! - dizia a senhora, muito irritada. - Nunca mais chega a minha vez, francamente. Uma das cabeleireiras passou por ela e reparou: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "Depois, vai ser um sarilho para penteá-la. E foi. Quando a senhora se sentou, finalmente, numa das cadeiras, frente ao espelho, estava uma lástima. Tinha o cabelo que nem escova de arame. Lavaram-no, massajaram-no, puseram-lhe rolos, encharcaram-no com laca, mas não havia meio.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Depois, vai ser um sarilho para penteá-la. E foi. Quando a senhora se sentou, finalmente, numa das cadeiras, frente ao espelho, estava uma lástima. Tinha o cabelo que nem escova de arame. Lavaram-no, massajaram-no, puseram-lhe rolos, encharcaram-no com laca, mas não havia meio. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "O cabelo empinava, tão espetado e rijo como se a senhora tivesse apanhado um choque eléctrico. - Tem de acalmar-se. Vá lá, sossegue - diziam-lhe as empregadas do cabeleireiro. Mais lhe diziam, pior era. Tantas pessoas à volta dela e as outras clientes aos risinhos punham-na fula. E, já se vê, a cabeleira ouriçava-se-lhe ainda mais. Aquilo não havia remédio.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O cabelo empinava, tão espetado e rijo como se a senhora tivesse apanhado um choque eléctrico. - Tem de acalmar-se. Vá lá, sossegue - diziam-lhe as empregadas do cabeleireiro. Mais lhe diziam, pior era. Tantas pessoas à volta dela e as outras clientes aos risinhos punham-na fula. E, já se vê, a cabeleira ouriçava-se-lhe ainda mais. Aquilo não havia remédio. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "- Só se voltar cá mais calma, noutro dia - propuseram-lhe. - Como é que pode ser, se hoje é que eu tenho uma festa, a que não posso faltar, dê por onde der? - esganiçava-se a senhora de cabelos arrepiados, cada vez mais arrepiados. Teve de ir assim mesmo à tal festa. Nervosíssima. Arrepiadíssima. E querem saber?",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Só se voltar cá mais calma, noutro dia - propuseram-lhe. - Como é que pode ser, se hoje é que eu tenho uma festa, a que não posso faltar, dê por onde der? - esganiçava-se a senhora de cabelos arrepiados, cada vez mais arrepiados. Teve de ir assim mesmo à tal festa. Nervosíssima. Arrepiadíssima. E querem saber? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Foi um êxito, o alvo de todas as atenções, de todos os elogios. - Que penteado tão original! E que bem que lhe fica! Onde é que o fez? - perguntavam-lhe a torto e a direito. A senhora punha a mão no coração, consolada e feliz. Acalmou. Vai daí o cabelo perdeu a electricidade e caiu-lhe em pontas desgraciosas, escorrido e feio como pêlo de cão à chuva.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Foi um êxito, o alvo de todas as atenções, de todos os elogios. - Que penteado tão original! E que bem que lhe fica! Onde é que o fez? - perguntavam-lhe a torto e a direito. A senhora punha a mão no coração, consolada e feliz. Acalmou. Vai daí o cabelo perdeu a electricidade e caiu-lhe em pontas desgraciosas, escorrido e feio como pêlo de cão à chuva. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s5p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s5p0"
+      ],
+      "evidence": "- Que penteado tão original! E que bem que lhe fica! Onde é que o fez? - perguntavam-lhe a torto e a direito. A senhora punha a mão no coração, consolada e feliz. Acalmou. Vai daí o cabelo perdeu a electricidade e caiu-lhe em pontas desgraciosas, escorrido e feio como pêlo de cão à chuva. Mas vá lá que a festa tinha chegado ao fim e já ninguém reparou.",
+      "after": {
+        "segment": 5,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Que penteado tão original! E que bem que lhe fica! Onde é que o fez? - perguntavam-lhe a torto e a direito. A senhora punha a mão no coração, consolada e feliz. Acalmou. Vai daí o cabelo perdeu a electricidade e caiu-lhe em pontas desgraciosas, escorrido e feio como pêlo de cão à chuva. Mas vá lá que a festa tinha chegado ao fim e já ninguém reparou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

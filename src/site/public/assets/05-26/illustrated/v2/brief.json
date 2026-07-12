@@ -1,0 +1,147 @@
+{
+  "characters": [
+    {
+      "name": "Urso Gingão",
+      "appearance": "urso castanho grande, expressivo, com laçarote exagerado no pescoço no início, depois em poses de pino, violino e bicicleta, e por fim em aspeto de urso de verdade sem máscara"
+    },
+    {
+      "name": "Bichos da floresta",
+      "appearance": "grupo variado de animais pequenos da floresta, atentos e depois em fuga"
+    },
+    {
+      "name": "Convidados mascarados",
+      "appearance": "piratas, bruxas, sultões e outros convidados de baile com máscaras e adereços"
+    },
+    {
+      "name": "Dona da casa",
+      "appearance": "figura elegante do palácio, anfitriã do baile"
+    },
+    {
+      "name": "Senhora amável",
+      "appearance": "convidada educada do baile, de gesto solícito"
+    },
+    {
+      "name": "Senhor de general",
+      "appearance": "convidado vestido de general, alarmado"
+    }
+  ],
+  "environment": "floresta portuguesa e palácio iluminado com baile de máscaras, passando de cenários naturais tranquilos para interior festivo e depois para a fuga noturna de volta à floresta",
+  "palette": [
+    "castanhos quentes",
+    "verdes de floresta",
+    "dourados de salão",
+    "vermelhos e azuis de fantasia",
+    "pretos e brancos de máscaras",
+    "tons crepusculares suaves"
+  ],
+  "recurringObjects": [
+    "laçarote",
+    "violino",
+    "bicicleta",
+    "máscaras",
+    "palácio iluminado",
+    "coroa de luzes do baile"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "O urso Gingão gostava de dar nas vistas. Mas, por mais que se esforçasse, não conseguia chamar a atenção dos outros bichos. O que é que adiantava aos afazeres de cada qual um urso com um enorme laçarote à volta do pescoço? Nem lhe ligavam. E o urso Gingão lá ia tirar o laçarote. No dia seguinte, aparecia a fazer o pino. Atravessava a floresta, de cabeça para baixo, ouvido atento a qualquer comentário. Nenhum! Os bichos tinham mais que fazer.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Figura de urso».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O urso Gingão gostava de dar nas vistas. Mas, por mais que se esforçasse, não conseguia chamar a atenção dos outros bichos. O que é que adiantava aos afazeres de cada qual um urso com um enorme laçarote à volta do pescoço? Nem lhe ligavam. E o urso Gingão lá ia tirar o laçarote. No dia seguinte, aparecia a fazer o pino. Atravessava a floresta, de cabeça para baixo, ouvido atento a qualquer comentário. Nenhum! Os bichos tinham mais que fazer. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "E o urso Gingão lá ia tirar o laçarote. No dia seguinte, aparecia a fazer o pino. Atravessava a floresta, de cabeça para baixo, ouvido atento a qualquer comentário. Nenhum! Os bichos tinham mais que fazer. Então, o urso Gingão pegava num violino e ia tocar para uma clareira. Tocava, tocava (pouco bem, aliás!), mas espectadores nem um.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E o urso Gingão lá ia tirar o laçarote. No dia seguinte, aparecia a fazer o pino. Atravessava a floresta, de cabeça para baixo, ouvido atento a qualquer comentário. Nenhum! Os bichos tinham mais que fazer. Então, o urso Gingão pegava num violino e ia tocar para uma clareira. Tocava, tocava (pouco bem, aliás!), mas espectadores nem um. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "- Cá vou eu! Cá vou eu! Fugiam os lagartos, com medo de ficarem sem rabo. Fugiam as doninhas, os coelhos, os texugos, as lebres, as perdizes... Fugiam todos. E ele que gostava tanto de dar nas vistas!",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Cá vou eu! Cá vou eu! Fugiam os lagartos, com medo de ficarem sem rabo. Fugiam as doninhas, os coelhos, os texugos, as lebres, as perdizes... Fugiam todos. E ele que gostava tanto de dar nas vistas! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p3",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "E ele que gostava tanto de dar nas vistas! Desanimado, foi procurar outras paragens. Por atalhos e desvios, chegou diante de um palácio. Porque não tentar ali mesmo a sua sorte? Sem cerimónia, como se estivesse na floresta, entrou no palacete iluminado. Era um baile de máscaras. O urso fez sensação. Tocou violino. Muitas palmas. Fez o pino. Mais palmas. Deu cambalhotas e perdeu o tino.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E ele que gostava tanto de dar nas vistas! Desanimado, foi procurar outras paragens. Por atalhos e desvios, chegou diante de um palácio. Porque não tentar ali mesmo a sua sorte? Sem cerimónia, como se estivesse na floresta, entrou no palacete iluminado. Era um baile de máscaras. O urso fez sensação. Tocou violino. Muitas palmas. Fez o pino. Mais palmas. Deu cambalhotas e perdeu o tino. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Mais e mais palmas. No mais animado da festa, a dona da casa anunciou: - Meus queridos convidados, chegou o momento de tirarem as máscaras. Quero ver os vossos rostos amigos. Os piratas desfizeram-se das palas, as bruxas dos narizes, os sultões dos bigodes. Só o urso ficou, no meio da sala, um pouco comprometido.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mais e mais palmas. No mais animado da festa, a dona da casa anunciou: - Meus queridos convidados, chegou o momento de tirarem as máscaras. Quero ver os vossos rostos amigos. Os piratas desfizeram-se das palas, as bruxas dos narizes, os sultões dos bigodes. Só o urso ficou, no meio da sala, um pouco comprometido. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s6p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p0",
+        "s6p1",
+        "s6p2"
+      ],
+      "evidence": "Só ficou na sala o urso. Afinal, tinham-no tomado por aquilo que ele não era. Cabisbaixo, voltou à floresta, saboreando pensamentos novos. Parece que o urso Gingão ainda toca violino, mas porque gosta. Já não quer dar nas vistas. Perdeu a presunção num baile de máscaras.",
+      "after": {
+        "segment": 6,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Só ficou na sala o urso. Afinal, tinham-no tomado por aquilo que ele não era. Cabisbaixo, voltou à floresta, saboreando pensamentos novos. Parece que o urso Gingão ainda toca violino, mas porque gosta. Já não quer dar nas vistas. Perdeu a presunção num baile de máscaras. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,144 @@
+{
+  "characters": [
+    {
+      "name": "Narrator",
+      "appearance": "Child narrator living in a top-floor apartment overlooking rooftops and a river; observant and fond of Rogério and Didi."
+    },
+    {
+      "name": "Rogério",
+      "appearance": "Boy and former neighbor of the narrator; Didi's owner; later visits from Strasbourg and rescues the cat."
+    },
+    {
+      "name": "Didi",
+      "appearance": "Small, affectionate, adventurous cat with blue eyes and an upturned tail; dark-furred in the Strasbourg episode, sensitive to cold."
+    },
+    {
+      "name": "Rogério's mother",
+      "appearance": "Adult woman who opens the door in the 2nd-right apartment and worries about Didi."
+    },
+    {
+      "name": "Rogério's father",
+      "appearance": "Adult man who decides to call the firefighters when Didi is trapped."
+    }
+  ],
+  "environment": "A top-floor apartment building with a window onto rooftops and a river, interior staircases, and later a similar building in Strasbourg with snowy roofs, a dark roof at dusk, and a warm fireplace scene indoors.",
+  "palette": [
+    "winter blue",
+    "cool gray",
+    "roof terracotta",
+    "soft white",
+    "warm amber",
+    "charcoal black"
+  ],
+  "recurringObjects": [
+    "window",
+    "spiral iron staircase",
+    "rooftops",
+    "roof tiles",
+    "cat carrierless carrying in arms",
+    "fireplace",
+    "blankets"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s2p0"
+      ],
+      "evidence": "Quem me contou esta história foi o Rogério, um rapazinho meu amigo, que morava no 2º direito do prédio onde eu moro. Deixou de ser meu vizinho há coisa de um ano, pouco mais ou menos. O pai dele foi colocado em Estrasburgo, que fica em França, perto da Alemanha, e, como é bom de ver, a família mudou-se também. Quando se foi embora, o Rogério passou por minha casa para se despedir. Prometeu que me escreveria muitas vezes, mas já se sabe: fora um postal com vistas da cidade e um cartão de Boas-Festas, não voltei a ter notícias dele. E senti-lhe a falta! Sim, tive, sinceramente, saudades do Rogério e da Didi. \"Quem será esta Didi que aqui aparece de surpresa?\", perguntam vocês. Didi é nome de gato, ou melhor, de gata, da gatinha do Rogério, uma simpática e atrevida bichana que, quase todos os dias, eu tinha de ir levar ao 2º direito. Entrava-me pela janela e saía ao colo, a princesa de olhos azuis e rabinho alçado.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Didi dá que fazer».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quem me contou esta história foi o Rogério, um rapazinho meu amigo, que morava no 2º direito do prédio onde eu moro. Deixou de ser meu vizinho há coisa de um ano, pouco mais ou menos. O pai dele foi colocado em Estrasburgo, que fica em França, perto da Alemanha, e, como é bom de ver, a família mudou-se também. Quando se foi embora, o Rogério passou por minha casa para se despedir. Prometeu que me escreveria muitas vezes, mas já se sabe: fora um postal com vistas da cidade e um cartão de Boas-Festas, não voltei a ter notícias dele. E senti-lhe a falta! Sim, tive, sinceramente, saudades do Rogério e da Didi. \"Quem será esta Didi que aqui aparece de surpresa?\", perguntam vocês. Didi é nome de gato, ou melhor, de gata, da gatinha do Rogério, uma simpática e atrevida bichana que, quase todos os dias, eu tinha de ir levar ao 2º direito. Entrava-me pela janela e saía ao colo, a princesa de olhos azuis e rabinho alçado. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s2p0"
+      ],
+      "evidence": "Quem me contou esta história foi o Rogério, um rapazinho meu amigo, que morava no 2º direito do prédio onde eu moro. Deixou de ser meu vizinho há coisa de um ano, pouco mais ou menos. O pai dele foi colocado em Estrasburgo, que fica em França, perto da Alemanha, e, como é bom de ver, a família mudou-se também. Quando se foi embora, o Rogério passou por minha casa para se despedir. Prometeu que me escreveria muitas vezes, mas já se sabe: fora um postal com vistas da cidade e um cartão de Boas-Festas, não voltei a ter notícias dele. E senti-lhe a falta! Sim, tive, sinceramente, saudades do Rogério e da Didi. \"Quem será esta Didi que aqui aparece de surpresa?\", perguntam vocês. Didi é nome de gato, ou melhor, de gata, da gatinha do Rogério, uma simpática e atrevida bichana que, quase todos os dias, eu tinha de ir levar ao 2º direito. Entrava-me pela janela e saía ao colo, a princesa de olhos azuis e rabinho alçado.",
+      "after": {
+        "segment": 2,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quem me contou esta história foi o Rogério, um rapazinho meu amigo, que morava no 2º direito do prédio onde eu moro. Deixou de ser meu vizinho há coisa de um ano, pouco mais ou menos. O pai dele foi colocado em Estrasburgo, que fica em França, perto da Alemanha, e, como é bom de ver, a família mudou-se também. Quando se foi embora, o Rogério passou por minha casa para se despedir. Prometeu que me escreveria muitas vezes, mas já se sabe: fora um postal com vistas da cidade e um cartão de Boas-Festas, não voltei a ter notícias dele. E senti-lhe a falta! Sim, tive, sinceramente, saudades do Rogério e da Didi. \"Quem será esta Didi que aqui aparece de surpresa?\", perguntam vocês. Didi é nome de gato, ou melhor, de gata, da gatinha do Rogério, uma simpática e atrevida bichana que, quase todos os dias, eu tinha de ir levar ao 2º direito. Entrava-me pela janela e saía ao colo, a princesa de olhos azuis e rabinho alçado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p0",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Moro no último andar de uma casa amansardada com vista para o telhado e para o rio. Os telhados, como sabes, são território exclusivo dos gatos. Por contrato antigo, os bichanos tomaram conta dos telhados das cidades e ali reinam e ditam leis. Que ninguém se atreva a contestar-lhes o direito, porque senão pode haver guerra entre gatos e homens, o que seria uma verdadeira desgraça, principalmente para os homens. Pois a Didi subia ao telhado pela escada de ferro, em caracol, a escada das traseiras, mas para descer passava sempre por minha casa.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Moro no último andar de uma casa amansardada com vista para o telhado e para o rio. Os telhados, como sabes, são território exclusivo dos gatos. Por contrato antigo, os bichanos tomaram conta dos telhados das cidades e ali reinam e ditam leis. Que ninguém se atreva a contestar-lhes o direito, porque senão pode haver guerra entre gatos e homens, o que seria uma verdadeira desgraça, principalmente para os homens. Pois a Didi subia ao telhado pela escada de ferro, em caracol, a escada das traseiras, mas para descer passava sempre por minha casa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s9p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s8p0",
+        "s8p1",
+        "s9p0"
+      ],
+      "evidence": "A mãe, embora não dissesse, também aprovava. Ora, no outro dia, o Rogério voltou. Está de férias, em casa de uns tios, e demora-se um mês por cá, para matar saudades e rever amigos. Perguntei-lhe pela Didi e, neste ponto, é que entra a aventura, que ele me contou. O prédio para onde foram viver, em Estrasburgo, pouco diferia do nosso: vários andares, vários inquilinos, escada principal, escada de serviço, etc. Quem, a princípio, estranhou mais foi a Didi, mas depressa achou meio de subir para o telhado, e aí estava ela onde e como queria...",
+      "after": {
+        "segment": 9,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A mãe, embora não dissesse, também aprovava. Ora, no outro dia, o Rogério voltou. Está de férias, em casa de uns tios, e demora-se um mês por cá, para matar saudades e rever amigos. Perguntei-lhe pela Didi e, neste ponto, é que entra a aventura, que ele me contou. O prédio para onde foram viver, em Estrasburgo, pouco diferia do nosso: vários andares, vários inquilinos, escada principal, escada de serviço, etc. Quem, a princípio, estranhou mais foi a Didi, mas depressa achou meio de subir para o telhado, e aí estava ela onde e como queria... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s12p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s12p1",
+        "s12p2",
+        "s12p3"
+      ],
+      "evidence": "Um dia, escapou-se. Quando o Rogério voltou da escola, deram-lhe a notícia. A Didi tinha fugido para o telhado e não conseguia descer. - Chamamos os bombeiros - decidiu o pai. E se a Didi se assustava?",
+      "after": {
+        "segment": 12,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um dia, escapou-se. Quando o Rogério voltou da escola, deram-lhe a notícia. A Didi tinha fugido para o telhado e não conseguia descer. - Chamamos os bombeiros - decidiu o pai. E se a Didi se assustava? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s15p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s15p0",
+        "s15p1",
+        "s15p2"
+      ],
+      "evidence": "O Rogério chamou, primeiro baixinho, depois mais alto: - Didi, sou eu. Vem cá, Didi. Nem um ronrom, nem um miado, e o céu cada vez mais escuro. Ele a dar mais um passo resvaladiço e um peso inesperado a saltar-lhe para os ombros. Era a Didi, tiritante, que lhe dava marradinhas no pescoço e se queixava do frio, quase sem voz para um terno ronrom.",
+      "after": {
+        "segment": 15,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Rogério chamou, primeiro baixinho, depois mais alto: - Didi, sou eu. Vem cá, Didi. Nem um ronrom, nem um miado, e o céu cada vez mais escuro. Ele a dar mais um passo resvaladiço e um peso inesperado a saltar-lhe para os ombros. Era a Didi, tiritante, que lhe dava marradinhas no pescoço e se queixava do frio, quase sem voz para um terno ronrom. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

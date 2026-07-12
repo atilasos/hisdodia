@@ -1,0 +1,84 @@
+{
+  "characters": [],
+  "environment": "mó à beira de um cenário rural; depois padaria com pão de mistura",
+  "palette": [
+    "tons dourados",
+    "castanhos de cereal",
+    "creme",
+    "terra"
+  ],
+  "recurringObjects": [
+    "mó",
+    "espigas",
+    "farinha",
+    "pão"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Três espigas encontram-se à beira da mesma mó. Uma de centeio, outra de trigo e a terceira, uma grande espiga de milho. Todas muito antipáticas umas para as outras. Dizia o trigo para o centeio:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Três Espigas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Três espigas encontram-se à beira da mesma mó. Uma de centeio, outra de trigo e a terceira, uma grande espiga de milho. Todas muito antipáticas umas para as outras. Dizia o trigo para o centeio: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p22",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p20",
+        "s0p21",
+        "s0p22"
+      ],
+      "evidence": "suas choninhas, suas lingrinhas, suas fuinhas, caras bicudas, comigo não fazem vocês farinha!",
+      "after": {
+        "segment": 0,
+        "paragraph": 22
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: suas choninhas, suas lingrinhas, suas fuinhas, caras bicudas, comigo não fazem vocês farinha! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p23",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p21",
+        "s0p22",
+        "s0p23"
+      ],
+      "evidence": "suas fuinhas, caras bicudas, comigo não fazem vocês farinha! As outras iam para responder, mas a mó pôs-se a trabalhar...",
+      "after": {
+        "segment": 0,
+        "paragraph": 23
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: suas fuinhas, caras bicudas, comigo não fazem vocês farinha! As outras iam para responder, mas a mó pôs-se a trabalhar... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p25",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p23",
+        "s0p24",
+        "s0p25"
+      ],
+      "evidence": "As outras iam para responder, mas a mó pôs-se a trabalhar... E não é que a farinha delas e de outras mais, de centeio, de trigo e milho, foi parar a uma padaria – veja-se a coincidência! – especializada, precisamente, em belos pães de mistura? Provei um, ainda quente, barrado com manteiga. Estava óptimo!",
+      "after": {
+        "segment": 0,
+        "paragraph": 25
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: As outras iam para responder, mas a mó pôs-se a trabalhar... E não é que a farinha delas e de outras mais, de centeio, de trigo e milho, foi parar a uma padaria – veja-se a coincidência! – especializada, precisamente, em belos pães de mistura? Provei um, ainda quente, barrado com manteiga. Estava óptimo! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,120 @@
+{
+  "characters": [],
+  "environment": "Portuguese domestic and theatrical settings centered on two generations of brooms, with a playful school-to-stage-to-despensa arc",
+  "palette": [
+    "warm neutrals",
+    "muted wood tones",
+    "theatrical red",
+    "soft gold",
+    "charcoal accents"
+  ],
+  "recurringObjects": [
+    "broom",
+    "old broom",
+    "aspirador",
+    "porta da despensa",
+    "projectores de teatro"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era uma vez uma vassoura que andava a estudar para aspirador. Mas sem grandes resultados, deixem-me que lhes diga. Ela bem que se esforçava, nas aulas de Electricidade e, sobretudo, nas aulas de Ginástica respiratória. Inspirava... inspirava... só inspirava, mas pouco avançava na matéria. Da avó, uma velha vassoura fora de uso, só ouvia palavras de desânimo:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A vassoura nova».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma vassoura que andava a estudar para aspirador. Mas sem grandes resultados, deixem-me que lhes diga. Ela bem que se esforçava, nas aulas de Electricidade e, sobretudo, nas aulas de Ginástica respiratória. Inspirava... inspirava... só inspirava, mas pouco avançava na matéria. Da avó, uma velha vassoura fora de uso, só ouvia palavras de desânimo: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "- Cada um é para o que nasce, rapariga. Ela revoltava-se: - Não me enfrenesie com lamúrias, senhora. Vassourar toda a vida e, depois, acabar a um canto, como a avó, não contem comigo.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Cada um é para o que nasce, rapariga. Ela revoltava-se: - Não me enfrenesie com lamúrias, senhora. Vassourar toda a vida e, depois, acabar a um canto, como a avó, não contem comigo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene3",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Eu nasci para outros voos. Um dia, foi preciso uma vassoura para uma peça de teatro - uma história, que metia feiticeiras, daquelas de lenço e nariz de cavalete (de papelão, já se vê...). Eram bruxas à antiga, que cavalgavam vassouras e voavam no palco (a fingir, já se sabe...). Escolheram a vassoura aspirante a aspirador.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eu nasci para outros voos. Um dia, foi preciso uma vassoura para uma peça de teatro - uma história, que metia feiticeiras, daquelas de lenço e nariz de cavalete (de papelão, já se vê...). Eram bruxas à antiga, que cavalgavam vassouras e voavam no palco (a fingir, já se sabe...). Escolheram a vassoura aspirante a aspirador. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene4",
+      "evidenceRef": "s3p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p2",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "Escolheram a vassoura aspirante a aspirador. - Vê, avó, como eu tinha razão - disse a vassourinha. - Sempre vou mudar de vida. Pois mudou. Voava pelos ares, como barra de trapézio, ao som da música e no meio das gargalhadas cacarejantes das senhoras feiticeiras da peça. Encandeada pelos projectores, fazia um figuraço.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Escolheram a vassoura aspirante a aspirador. - Vê, avó, como eu tinha razão - disse a vassourinha. - Sempre vou mudar de vida. Pois mudou. Voava pelos ares, como barra de trapézio, ao som da música e no meio das gargalhadas cacarejantes das senhoras feiticeiras da peça. Encandeada pelos projectores, fazia um figuraço. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene5",
+      "evidenceRef": "s5p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p1",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "Era pena, mas não estava. Por sinal que, lá em casa, tinha-se avariado o aspirador e quem, agora, fazia toda a lida da casa era a vassoura velha. \"Se a minha neta aqui estivesse, havia de me ajudar\", pensava, muito desconsolada, a avó vassoura. Avó e neta acabaram por encontrar-se. Tinha terminado a carreira da peça e já o aspirador estava arranjado. Penduradas as duas, atrás da porta da despensa, descansavam das emoções e trabalhos.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era pena, mas não estava. Por sinal que, lá em casa, tinha-se avariado o aspirador e quem, agora, fazia toda a lida da casa era a vassoura velha. \"Se a minha neta aqui estivesse, havia de me ajudar\", pensava, muito desconsolada, a avó vassoura. Avó e neta acabaram por encontrar-se. Tinha terminado a carreira da peça e já o aspirador estava arranjado. Penduradas as duas, atrás da porta da despensa, descansavam das emoções e trabalhos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene6",
+      "evidenceRef": "s6p4",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s6p2",
+        "s6p3",
+        "s6p4"
+      ],
+      "evidence": "- Estás tão desempregada como eu - rematava a velha. - Não estou nada. Agora sou uma actriz em férias, fique sabendo. Tem muita genica a vassourinha.",
+      "after": {
+        "segment": 6,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Estás tão desempregada como eu - rematava a velha. - Não estou nada. Agora sou uma actriz em férias, fique sabendo. Tem muita genica a vassourinha. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

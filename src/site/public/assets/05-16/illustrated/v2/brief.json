@@ -1,0 +1,123 @@
+{
+  "characters": [
+    {
+      "name": "Lili",
+      "appearance": "menina pequena, curiosa, em ambiente de prédio urbano"
+    },
+    {
+      "name": "Lulu",
+      "appearance": "menina pequena, curiosa, em ambiente de prédio urbano"
+    },
+    {
+      "name": "Lalá",
+      "appearance": "menina pequena, vizinha e amiga, em ambiente de prédio urbano"
+    },
+    {
+      "name": "Lelé",
+      "appearance": "menina pequena, vizinha vinda de Espanha, em ambiente de prédio urbano"
+    },
+    {
+      "name": "Loló",
+      "appearance": "gatinha reboluda, olhos azuis, muito esperta"
+    }
+  ],
+  "environment": "prédio de habitação português, escadas e patamares próximos, ambiente de bairro urbano, depois transição para a escola e regresso à escada com convívio entre vizinhas",
+  "palette": [
+    "cremes quentes",
+    "azuis suaves",
+    "verdes discretos",
+    "vermelhos ou cor de tijolo leves",
+    "tons solares e acolhedores"
+  ],
+  "recurringObjects": [
+    "porta porta no mesmo patamar",
+    "escadas do prédio",
+    "mochilas ou material de escola",
+    "gatinha"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "A Lili e a Lulu eram amigas. Meninas a crescer para Lídia e para Lúcia moravam no mesmo prédio, por sinal porta com porta, no mesmo patamar. Um dia, os vizinhos de cima mudaram-se. Quem vem para o segundo esquerdo, quem não vem?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Lili, Lulu e mais amigas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A Lili e a Lulu eram amigas. Meninas a crescer para Lídia e para Lúcia moravam no mesmo prédio, por sinal porta com porta, no mesmo patamar. Um dia, os vizinhos de cima mudaram-se. Quem vem para o segundo esquerdo, quem não vem? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "s1",
+      "evidenceRef": "s0p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s0p3"
+      ],
+      "evidence": "Um dia, os vizinhos de cima mudaram-se. Quem vem para o segundo esquerdo, quem não vem? Veio uma família da qual fazia parte uma menina pela mesma idade da Lili e da Lulu.",
+      "after": {
+        "segment": 0,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um dia, os vizinhos de cima mudaram-se. Quem vem para o segundo esquerdo, quem não vem? Veio uma família da qual fazia parte uma menina pela mesma idade da Lili e da Lulu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "s2",
+      "evidenceRef": "s2p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p3",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Ia ser difícil. No prédio não vagava nenhum andar. Nos prédios perto também não. Lalá, Lili e Lulu já estavam conformadas. Eram as três muito amigas e por aí se ficariam. Mas vai que o casal do segundo direito recebeu a visita de uma neta, que vinha de Espanha e ficou a viver com os avós. Chamava-se Lénia. Passou a chamar-se Lelé.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ia ser difícil. No prédio não vagava nenhum andar. Nos prédios perto também não. Lalá, Lili e Lulu já estavam conformadas. Eram as três muito amigas e por aí se ficariam. Mas vai que o casal do segundo direito recebeu a visita de uma neta, que vinha de Espanha e ficou a viver com os avós. Chamava-se Lénia. Passou a chamar-se Lelé. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "s3",
+      "evidenceRef": "s3p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "Até que chegou a idade de as quatro meninas irem para a escola. - Lá é que vamos conhecer uma Loló - lembrou uma delas, não sei se a Lalá, a Lelé, a Lili ou a Lulu. Não conheceram. Havia uma Nonô, de Leonor. Uma Teté, de Teresa.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Até que chegou a idade de as quatro meninas irem para a escola. - Lá é que vamos conhecer uma Loló - lembrou uma delas, não sei se a Lalá, a Lelé, a Lili ou a Lulu. Não conheceram. Havia uma Nonô, de Leonor. Uma Teté, de Teresa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "s4",
+      "evidenceRef": "s7p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p1",
+        "s6p2",
+        "s7p0"
+      ],
+      "evidence": "- Como é doida por pão-de-ló, vai chamar-se Loló - respondi. Foi uma festa. Tem sido uma festa cá na escada. Eu já nem sei se sou eu o dono da gatinha ou as quatro meninas minhas vizinhas. Mas não podia acabar melhor a história que começou com uma Lili e uma Lulu e termina com a Lalá, a Lelé, a Lili, a Loló e a Lulu numa grande brincadeira.",
+      "after": {
+        "segment": 7,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Como é doida por pão-de-ló, vai chamar-se Loló - respondi. Foi uma festa. Tem sido uma festa cá na escada. Eu já nem sei se sou eu o dono da gatinha ou as quatro meninas minhas vizinhas. Mas não podia acabar melhor a história que começou com uma Lili e uma Lulu e termina com a Lalá, a Lelé, a Lili, a Loló e a Lulu numa grande brincadeira. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

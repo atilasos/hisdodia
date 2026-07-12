@@ -1,0 +1,115 @@
+{
+  "characters": [
+    {
+      "name": "senhor muito rico",
+      "appearance": "homem elegante e abastado, postura autoritária, expressão exigente"
+    },
+    {
+      "name": "pintor muito pobre",
+      "appearance": "homem humilde, roupa simples manchada de tinta, expressão inicialmente triste e depois serena"
+    }
+  ],
+  "environment": "salão de pintura num interior burguês, com o quadro em progressão; mais tarde, a mesma obra reaparece envelhecida numa arrecadação de escritório",
+  "palette": [
+    "cinzentos",
+    "rosas pálidos",
+    "brancos",
+    "azuis do mar",
+    "tons terrosos",
+    "ocres envelhecidos"
+  ],
+  "recurringObjects": [
+    "quadro em execução",
+    "telas e pincéis",
+    "nuvens",
+    "montanha com palácio",
+    "iate",
+    "peixes",
+    "pássaros"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Um senhor muito rico contratou um pintor muito pobre para lhe pintar um quadro. - Eu pago-lhe tudo - anunciou o senhor rico. - Pago-lhe as tintas, a tela, os pincéis e pago-lhe o trabalho. Pago-lhe bem. Principescamente ! Como nunca ninguém lhe pagou. O pintor sorriu. Era um sorriso triste o do pintor.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O quadro feito por medida».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um senhor muito rico contratou um pintor muito pobre para lhe pintar um quadro. - Eu pago-lhe tudo - anunciou o senhor rico. - Pago-lhe as tintas, a tela, os pincéis e pago-lhe o trabalho. Pago-lhe bem. Principescamente ! Como nunca ninguém lhe pagou. O pintor sorriu. Era um sorriso triste o do pintor. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Há-de pintar, depois, uns pássaros a voar no céu, mas essa parte da composição fica ao seu cuidado. Por agora, à minha conta, quero as nuvens. O pintor obedeceu. - Agora quero, deixe-me pensar... Quero uma montanha com uma casa, ao cimo, ou melhor, um palácio, um enorme palácio, encarrapitado na montanha... Exactamente. Fica bem assim.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Há-de pintar, depois, uns pássaros a voar no céu, mas essa parte da composição fica ao seu cuidado. Por agora, à minha conta, quero as nuvens. O pintor obedeceu. - Agora quero, deixe-me pensar... Quero uma montanha com uma casa, ao cimo, ou melhor, um palácio, um enorme palácio, encarrapitado na montanha... Exactamente. Fica bem assim. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s5p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "- Vou interromper a sessão de pintura - disse o senhor muito rico. - Mas, praticamente, o quadro está no fim. Vá pintando o mar, porque, quando eu vier, quero ver o efeito. E o senhor muito rico virou costas ao quadro e abandonou o salão. Ficou o pintor sozinho a pintar o mar.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Vou interromper a sessão de pintura - disse o senhor muito rico. - Mas, praticamente, o quadro está no fim. Vá pintando o mar, porque, quando eu vier, quero ver o efeito. E o senhor muito rico virou costas ao quadro e abandonou o salão. Ficou o pintor sozinho a pintar o mar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s11p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s10p1",
+        "s11p0",
+        "s11p1"
+      ],
+      "evidence": "- A sua observação é extremamente oportuna. Se a parede está assim, um tanto rachada, mais real se torna e melhor se destaca a grandiosidade do conjunto. - E o meu iate não está um bocadinho a descair para um lado? - estranhou o senhor muito rico. - Também foi de propósito - respondeu o pintor. - Adornei sensivelmente o barco para defender o realismo e a beleza da cena.",
+      "after": {
+        "segment": 11,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - A sua observação é extremamente oportuna. Se a parede está assim, um tanto rachada, mais real se torna e melhor se destaca a grandiosidade do conjunto. - E o meu iate não está um bocadinho a descair para um lado? - estranhou o senhor muito rico. - Também foi de propósito - respondeu o pintor. - Adornei sensivelmente o barco para defender o realismo e a beleza da cena. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s15p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s14p0",
+        "s14p1",
+        "s15p0"
+      ],
+      "evidence": "O palácio, no alto da montanha, estava em ruínas. Servia de poiso e abrigo aos pássaros, que há volta dele continuavam a voar. Pelo seu lado, o iate tinha ido ao fundo. Distinguiam-se os peixes, que nadavam livremente pelo meio dos destroços do barco, coberto de lodo. Era um quadro estranho, mas de uma grande beleza. Chamaram o pintor já muito velho e mostraram-lhe o quadro. Ele, vendo o quadro que em jovem pintara, e que tão diferente já estava, limitou-se a sorrir. Não era um sorriso triste. Não era, realmente, um sorriso nada triste o do pintor.",
+      "after": {
+        "segment": 15,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O palácio, no alto da montanha, estava em ruínas. Servia de poiso e abrigo aos pássaros, que há volta dele continuavam a voar. Pelo seu lado, o iate tinha ido ao fundo. Distinguiam-se os peixes, que nadavam livremente pelo meio dos destroços do barco, coberto de lodo. Era um quadro estranho, mas de uma grande beleza. Chamaram o pintor já muito velho e mostraram-lhe o quadro. Ele, vendo o quadro que em jovem pintara, e que tão diferente já estava, limitou-se a sorrir. Não era um sorriso triste. Não era, realmente, um sorriso nada triste o do pintor. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,121 @@
+{
+  "characters": [],
+  "environment": "Ancient Egypt, centered on the Pharaoh’s dream, court, and Joseph’s rise to authority",
+  "palette": [
+    "gold",
+    "sand",
+    "lapis blue",
+    "river green",
+    "ivory",
+    "deep red"
+  ],
+  "recurringObjects": [
+    "river",
+    "cattle",
+    "grain storage",
+    "royal ring",
+    "throne"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Os reis que mandavam no Egipto de antigamente eram os faraós. Um deles, uma vez, teve um sonho. No princípio do sonho, o faraó viu-se junto à margem de um rio. Do rio saíram sete vacas bonitas e gordas, que se puseram a pastar na erva. Passado algum tempo, outras sete vacas saíram do rio, mas estas eram enfezadas e feias. Depois - coisa estranha! - as sete vacas magras devoraram as sete vacas gordas. Só em sonhos isto pode acontecer.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O tempo das vacas magras».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os reis que mandavam no Egipto de antigamente eram os faraós. Um deles, uma vez, teve um sonho. No princípio do sonho, o faraó viu-se junto à margem de um rio. Do rio saíram sete vacas bonitas e gordas, que se puseram a pastar na erva. Passado algum tempo, outras sete vacas saíram do rio, mas estas eram enfezadas e feias. Depois - coisa estranha! - as sete vacas magras devoraram as sete vacas gordas. Só em sonhos isto pode acontecer. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "No princípio do sonho, o faraó viu-se junto à margem de um rio. Do rio saíram sete vacas bonitas e gordas, que se puseram a pastar na erva. Passado algum tempo, outras sete vacas saíram do rio, mas estas eram enfezadas e feias. Depois - coisa estranha! - as sete vacas magras devoraram as sete vacas gordas. Só em sonhos isto pode acontecer. Foi este o pensamento do faraó, ao acordar.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No princípio do sonho, o faraó viu-se junto à margem de um rio. Do rio saíram sete vacas bonitas e gordas, que se puseram a pastar na erva. Passado algum tempo, outras sete vacas saíram do rio, mas estas eram enfezadas e feias. Depois - coisa estranha! - as sete vacas magras devoraram as sete vacas gordas. Só em sonhos isto pode acontecer. Foi este o pensamento do faraó, ao acordar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "- Há-de ser um sinal, um aviso - dizia, constantemente, o faraó. - Mas que sinal, que aviso? Alguém se lembrou de um escravo, chamado José, que tinha fama de interpretar os sonhos mais escabrosos . Naquele tempo, acreditava-se que os sonhos eram recomendações divinas para guiar a conduta dos homens. Chamado à corte, José ouviu do faraó o estranho sonho. Os cortesãos já quase o sabiam de cor.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Há-de ser um sinal, um aviso - dizia, constantemente, o faraó. - Mas que sinal, que aviso? Alguém se lembrou de um escravo, chamado José, que tinha fama de interpretar os sonhos mais escabrosos . Naquele tempo, acreditava-se que os sonhos eram recomendações divinas para guiar a conduta dos homens. Chamado à corte, José ouviu do faraó o estranho sonho. Os cortesãos já quase o sabiam de cor. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "José ouviu e ficou, depois, em meditações, como se estivesse a rezar. À sua volta, aumentava a impaciência. Até que José anunciou: - As sete vacas gordas vão ser sete anos de abundância. A seguir virão sete anos de fome, como sete vacas magras.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: José ouviu e ficou, depois, em meditações, como se estivesse a rezar. À sua volta, aumentava a impaciência. Até que José anunciou: - As sete vacas gordas vão ser sete anos de abundância. A seguir virão sete anos de fome, como sete vacas magras. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p1",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "- Deveis mandar acumular toda a alimentação excedente desses anos férteis, que se aproximam. O trigo armazenado ficará de reserva, como recurso para minorar os sete anos de fome. - Visto que o teu Deus te revelou tudo isso, não há ninguém, no Egipto, mais sábio do que tu - proclamou o faraó. - Tu mesmo serás o chefe da minha casa. Todo o meu povo será governado por ti, como primeiro representante do meu mando. Então, o faraó tirou da sua mão direita um anel e entregou-o a José.",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Deveis mandar acumular toda a alimentação excedente desses anos férteis, que se aproximam. O trigo armazenado ficará de reserva, como recurso para minorar os sete anos de fome. - Visto que o teu Deus te revelou tudo isso, não há ninguém, no Egipto, mais sábio do que tu - proclamou o faraó. - Tu mesmo serás o chefe da minha casa. Todo o meu povo será governado por ti, como primeiro representante do meu mando. Então, o faraó tirou da sua mão direita um anel e entregou-o a José. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s8p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s7p0",
+        "s7p1",
+        "s8p0"
+      ],
+      "evidence": "- Visto que o teu Deus te revelou tudo isso, não há ninguém, no Egipto, mais sábio do que tu - proclamou o faraó. - Tu mesmo serás o chefe da minha casa. Todo o meu povo será governado por ti, como primeiro representante do meu mando. Então, o faraó tirou da sua mão direita um anel e entregou-o a José. Tudo aconteceu como ele previra. Quando chegaram os anos de seca, a fome tomou conta dos países vizinhos, mas no Egipto não faltou o pão. Por isso o povo glorificou o nome do antigo escravo que ensinara ao faraó as regras do bom governo e os ditames da prudência.",
+      "after": {
+        "segment": 8,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Visto que o teu Deus te revelou tudo isso, não há ninguém, no Egipto, mais sábio do que tu - proclamou o faraó. - Tu mesmo serás o chefe da minha casa. Todo o meu povo será governado por ti, como primeiro representante do meu mando. Então, o faraó tirou da sua mão direita um anel e entregou-o a José. Tudo aconteceu como ele previra. Quando chegaram os anos de seca, a fome tomou conta dos países vizinhos, mas no Egipto não faltou o pão. Por isso o povo glorificou o nome do antigo escravo que ensinara ao faraó as regras do bom governo e os ditames da prudência. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

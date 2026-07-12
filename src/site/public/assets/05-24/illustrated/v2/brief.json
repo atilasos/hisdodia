@@ -1,0 +1,111 @@
+{
+  "characters": [],
+  "environment": "schoolyard and tree-lined outdoor setting",
+  "palette": [],
+  "recurringObjects": [
+    "school",
+    "tree"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Dantes, os cães e os gatos eram amigos. Tanto assim era que, uma vez, um cão pediu a um gato para ir com ele à escola. Que escola? A escola dos gatos, já se vê. - Gostava de saber fazer o que vocês fazem - disse o cão. - Gostava de aprender a miar, a trepar às árvores...",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A escola dos gatos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Dantes, os cães e os gatos eram amigos. Tanto assim era que, uma vez, um cão pediu a um gato para ir com ele à escola. Que escola? A escola dos gatos, já se vê. - Gostava de saber fazer o que vocês fazem - disse o cão. - Gostava de aprender a miar, a trepar às árvores... Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "Mas o cão era muito distraído. Não só dava pouca atenção às aulas como faltava muito. E chegava sempre atrasado. Perdia que tempos até chegar à escola. Pelo caminho, junto de cada árvore, alçava a perna...",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas o cão era muito distraído. Não só dava pouca atenção às aulas como faltava muito. E chegava sempre atrasado. Perdia que tempos até chegar à escola. Pelo caminho, junto de cada árvore, alçava a perna... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p4",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p2",
+        "s2p3",
+        "s2p4"
+      ],
+      "evidence": "- Para onde foram os meus amigos gatos? - perguntou ele à professora, que ia a sair. - Procura - respondeu a professora e foi à sua vida. O cão baseou-se no pouco que até aí tinha aprendido.",
+      "after": {
+        "segment": 2,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Para onde foram os meus amigos gatos? - perguntou ele à professora, que ia a sair. - Procura - respondeu a professora e foi à sua vida. O cão baseou-se no pouco que até aí tinha aprendido. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "Farejou para um lado, farejou para o outro e encontrou um rasto de gato. Sempre de focinho no chão, chegou ao pé de uma árvore. Ia fazer o que costumava fazer junto de cada árvore, quando ouviu um risinho por cima da sua cabeça. Era o gato que o tinha inscrito na escola dos gatos. - Do que é que estás a rir ? - perguntou-lhe o cão.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Farejou para um lado, farejou para o outro e encontrou um rasto de gato. Sempre de focinho no chão, chegou ao pé de uma árvore. Ia fazer o que costumava fazer junto de cada árvore, quando ouviu um risinho por cima da sua cabeça. Era o gato que o tinha inscrito na escola dos gatos. - Do que é que estás a rir ? - perguntou-lhe o cão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p6",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p4",
+        "s4p5",
+        "s4p6"
+      ],
+      "evidence": "- És um desqualificado - insistiu o gato. - Não sou nada - zangou-se o cão. E começou a ladrar, de patas fincadas ao tronco da árvore.",
+      "after": {
+        "segment": 4,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - És um desqualificado - insistiu o gato. - Não sou nada - zangou-se o cão. E começou a ladrar, de patas fincadas ao tronco da árvore. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s5p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p1",
+        "s5p2",
+        "s5p3"
+      ],
+      "evidence": "O cão desesperou-se, mas já era tarde. Nunca iria aprender a miar e a subir às árvores. Por culpa sua. E o cão e o gato deixaram de ser amigos.",
+      "after": {
+        "segment": 5,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O cão desesperou-se, mas já era tarde. Nunca iria aprender a miar e a subir às árvores. Por culpa sua. E o cão e o gato deixaram de ser amigos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

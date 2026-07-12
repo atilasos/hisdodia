@@ -1,0 +1,103 @@
+{
+  "characters": [
+    {
+      "name": "Mercador",
+      "appearance": "Homem viajante sobre mula, com alforges, capa de viagem e punhal à cinta"
+    },
+    {
+      "name": "Peregrino",
+      "appearance": "Homem viajante de capa larga, botas gastas, chapéu levantado e vieira pregada"
+    },
+    {
+      "name": "Papa",
+      "appearance": "Figura papal em cerimónia solene, com vestes ricas e anel"
+    },
+    {
+      "name": "Governador da Flandres",
+      "appearance": "Antigo peregrino tornado dignitário, em vestes de autoridade"
+    }
+  ],
+  "environment": "Primeiro, um caminho estreito e antigo entre viajantes; depois, uma cena solene no Vaticano, com guardas suíços, cardeais, mármores e coroas de cerimónia.",
+  "palette": [
+    "ocres terrosos",
+    "azuis e cinzentos de viagem",
+    "dourados litúrgicos",
+    "púrpura cardinalícia",
+    "brancos marmóreos"
+  ],
+  "recurringObjects": [
+    "mula com alforges",
+    "bordão de peregrino",
+    "vieira",
+    "frasco de perfume",
+    "anel papal"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Dantes, lá muito dantes, não havia estradas a cruzar os países de fora a fora. Quanto muito, caminhos. Por isso quem tinha de viajar ou se deslocava a pé, arrimado a um bordão, ou andava a cavalo, quando tinha dinheiro para comprar um. Se não lhe chegasse senão para um burro, também convinha. Quando nós, hoje, atravessamos a Europa de lés a lés, em comboios velozes, que já não fazem \"pouca terra... pouca terra...\", ou quando, de avião, em poucas horas, chegamos a Roma ou a Berlim, não fazemos a mínima ideia das canseiras e aflições por que passavam os nossos antepassados que tinham de viajar.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Perfume Prodigioso».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Dantes, lá muito dantes, não havia estradas a cruzar os países de fora a fora. Quanto muito, caminhos. Por isso quem tinha de viajar ou se deslocava a pé, arrimado a um bordão, ou andava a cavalo, quando tinha dinheiro para comprar um. Se não lhe chegasse senão para um burro, também convinha. Quando nós, hoje, atravessamos a Europa de lés a lés, em comboios velozes, que já não fazem \"pouca terra... pouca terra...\", ou quando, de avião, em poucas horas, chegamos a Roma ou a Berlim, não fazemos a mínima ideia das canseiras e aflições por que passavam os nossos antepassados que tinham de viajar. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p7",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p5",
+        "s0p6",
+        "s0p7"
+      ],
+      "evidence": "– Gente de paz! – disse-lhe, de longe, o peregrino, adivinhando-lhe o gesto. A voz parecia sincera. O mercador acreditou. Alivia mais acreditar do que alimentar desconfianças. Ambos pararam e, à beira do caminho, confraternizaram, trocando o que traziam para a merenda.",
+      "after": {
+        "segment": 0,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Gente de paz! – disse-lhe, de longe, o peregrino, adivinhando-lhe o gesto. A voz parecia sincera. O mercador acreditou. Alivia mais acreditar do que alimentar desconfianças. Ambos pararam e, à beira do caminho, confraternizaram, trocando o que traziam para a merenda. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p12",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p10",
+        "s0p11",
+        "s0p12"
+      ],
+      "evidence": "– Cheiros – segredou-lhe o mercador, como se os perfumes do seu carregamento pudessem volatilizar-se no ar. De facto, um perfume muito doce penetrava no nariz do peregrino, que o estranhou. Já o sentira antes, quando de longe enfrentara o mercador. – Um frasco cheio de mais que verteu – explicou ele. – É um concentrado de folhas aromáticas colhidas na Índia. Este perfume, por mais que me lave, vai perseguir-me a vida inteira. É prodigioso.",
+      "after": {
+        "segment": 0,
+        "paragraph": 12
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Cheiros – segredou-lhe o mercador, como se os perfumes do seu carregamento pudessem volatilizar-se no ar. De facto, um perfume muito doce penetrava no nariz do peregrino, que o estranhou. Já o sentira antes, quando de longe enfrentara o mercador. – Um frasco cheio de mais que verteu – explicou ele. – É um concentrado de folhas aromáticas colhidas na Índia. Este perfume, por mais que me lave, vai perseguir-me a vida inteira. É prodigioso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p21",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p19",
+        "s0p20",
+        "s0p21"
+      ],
+      "evidence": "– É o mercador – disse o Papa, mais lesto na lembrança. – É o peregrino – gritou o mercador, agora governador da Flandres, de dedo espetado para o Papa. Sobressalto entre os guardas suíços e a marcha púrpura dos cardeais. Ao sobressalto juntou-se a surpresa, quando viram o Papa e o governador risonhamente abraçarem-se num apertado abraço de reencontro, que destoava da solenidade do momento.",
+      "after": {
+        "segment": 0,
+        "paragraph": 21
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – É o mercador – disse o Papa, mais lesto na lembrança. – É o peregrino – gritou o mercador, agora governador da Flandres, de dedo espetado para o Papa. Sobressalto entre os guardas suíços e a marcha púrpura dos cardeais. Ao sobressalto juntou-se a surpresa, quando viram o Papa e o governador risonhamente abraçarem-se num apertado abraço de reencontro, que destoava da solenidade do momento. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}
