@@ -1,0 +1,103 @@
+{
+  "characters": [],
+  "environment": "Cidade portuguesa antiga com tribunais, praça principal e palácio real",
+  "palette": [
+    "tons terrosos",
+    "verdes apagados",
+    "azuis acinzentados",
+    "vermelhos discretos",
+    "creme envelhecido"
+  ],
+  "recurringObjects": [
+    "chapéu nas mãos",
+    "ovelhas",
+    "arcabuz",
+    "árvores da praça",
+    "janela do rei"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Andava um pobre homem de tribunal em tribunal, de juiz em juiz, a apresentar queixa de um vizinho que lhe ficara com umas terras de pasto: – Pôs lá as ovelhas do rebanho dele e, se eu as enxoto, ameaça-me com o arcabuz. Por este andar, qualquer dia, vou esquecer-me de que o terreno é meu. Ou então compro também um arcabuz... – Não o aconselho a tal extremo – dizia-lhe o juiz.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Homem de Chapéu nas Mãos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Andava um pobre homem de tribunal em tribunal, de juiz em juiz, a apresentar queixa de um vizinho que lhe ficara com umas terras de pasto: – Pôs lá as ovelhas do rebanho dele e, se eu as enxoto, ameaça-me com o arcabuz. Por este andar, qualquer dia, vou esquecer-me de que o terreno é meu. Ou então compro também um arcabuz... – Não o aconselho a tal extremo – dizia-lhe o juiz. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p6",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "– Nada, nada que, agora, não tenho tempo. Leve a pendência a outro colega e saia-me da frente. O homem, de chapéu nas mãos, ia a outro juiz, que, por coincidência, também não tinha tempo para ouvi-lo. Sempre muito atarefados estes senhores juízes. De uns para outros e de outros para uns, o homem perdia tempo. E paciência.",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Nada, nada que, agora, não tenho tempo. Leve a pendência a outro colega e saia-me da frente. O homem, de chapéu nas mãos, ia a outro juiz, que, por coincidência, também não tinha tempo para ouvi-lo. Sempre muito atarefados estes senhores juízes. De uns para outros e de outros para uns, o homem perdia tempo. E paciência. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p9",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p7",
+        "s0p8",
+        "s0p9"
+      ],
+      "evidence": "Até que, de perda em perda, terá perdido o juízo. Passou a ser visto, na praça principal da cidade, a falar para as árvores. A cada uma delas contava em pormenor o seu caso, como se a árvore fosse uma pessoa. Ou um juiz. Tamanha sandice chamou a atenção do rei, que estava à janela. Como não tinha mais nada com que distrair-se, mandou vir o homem à sua presença.",
+      "after": {
+        "segment": 0,
+        "paragraph": 9
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Até que, de perda em perda, terá perdido o juízo. Passou a ser visto, na praça principal da cidade, a falar para as árvores. A cada uma delas contava em pormenor o seu caso, como se a árvore fosse uma pessoa. Ou um juiz. Tamanha sandice chamou a atenção do rei, que estava à janela. Como não tinha mais nada com que distrair-se, mandou vir o homem à sua presença. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p17",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p15",
+        "s0p16",
+        "s0p17"
+      ],
+      "evidence": "– E tu julgas que as árvores são sensíveis ao que lhes contas? – Tão sensíveis são as árvores como os homens. Têm, porém, sobre eles uma vantagem. As árvores não me interrompem nem se desculpam de que lhes falta tempo para atenderem as minhas queixas. Afinal, o homem era mais ajuizado do que parecia. Assim pensou o rei, que tomou o caso ao seu cuidado e o despachou como devia ser.",
+      "after": {
+        "segment": 0,
+        "paragraph": 17
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – E tu julgas que as árvores são sensíveis ao que lhes contas? – Tão sensíveis são as árvores como os homens. Têm, porém, sobre eles uma vantagem. As árvores não me interrompem nem se desculpam de que lhes falta tempo para atenderem as minhas queixas. Afinal, o homem era mais ajuizado do que parecia. Assim pensou o rei, que tomou o caso ao seu cuidado e o despachou como devia ser. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p18",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p16",
+        "s0p17",
+        "s0p18"
+      ],
+      "evidence": "– Tão sensíveis são as árvores como os homens. Têm, porém, sobre eles uma vantagem. As árvores não me interrompem nem se desculpam de que lhes falta tempo para atenderem as minhas queixas. Afinal, o homem era mais ajuizado do que parecia. Assim pensou o rei, que tomou o caso ao seu cuidado e o despachou como devia ser. E o homem pôde voltar a casa mais tranquilo.",
+      "after": {
+        "segment": 0,
+        "paragraph": 18
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Tão sensíveis são as árvores como os homens. Têm, porém, sobre eles uma vantagem. As árvores não me interrompem nem se desculpam de que lhes falta tempo para atenderem as minhas queixas. Afinal, o homem era mais ajuizado do que parecia. Assim pensou o rei, que tomou o caso ao seu cuidado e o despachou como devia ser. E o homem pôde voltar a casa mais tranquilo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

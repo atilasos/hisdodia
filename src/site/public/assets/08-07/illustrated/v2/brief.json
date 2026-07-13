@@ -1,0 +1,95 @@
+{
+  "characters": [
+    {
+      "name": "macaco",
+      "appearance": "macaco castanho, expressivo, guloso, corpo ágil"
+    },
+    {
+      "name": "cágado",
+      "appearance": "cágado pequeno, calmo, discreto, de carapaça escura"
+    }
+  ],
+  "environment": "ambiente rural e lacustre, com interiores simples de casa e exterior junto a um lago",
+  "palette": [
+    "castanhos quentes",
+    "verdes naturais",
+    "azuis de água",
+    "ocres suaves",
+    "tons claros de luz diurna"
+  ],
+  "recurringObjects": [
+    "mesa muito alta",
+    "pratos de comida",
+    "pedregulhos ou ilhotas",
+    "lago",
+    "banquete"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O macaco fez-se amigo do cágado e propôs-lhe: - Todos os bons amigos se visitam. Um dia tu convidas-me para ir a tua casa e ofereces-me de jantar e, no dia seguinte, eu convido-te para vires a minha casa e retribuo-te o jantar. E assim por diante... Concordas? O cágado concordou.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Más combinações».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O macaco fez-se amigo do cágado e propôs-lhe: - Todos os bons amigos se visitam. Um dia tu convidas-me para ir a tua casa e ofereces-me de jantar e, no dia seguinte, eu convido-te para vires a minha casa e retribuo-te o jantar. E assim por diante... Concordas? O cágado concordou. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "O cágado concordou. Preparou um excelente banquete e ofereceu-o ao macaco que se empanturrou até não poder mais. - Amanhã dou-te eu de jantar - disse o macaco macacão, arrotando um grande arroto, lá bem do fundo do estômago repleto.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O cágado concordou. Preparou um excelente banquete e ofereceu-o ao macaco que se empanturrou até não poder mais. - Amanhã dou-te eu de jantar - disse o macaco macacão, arrotando um grande arroto, lá bem do fundo do estômago repleto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "- Amanhã é a tua vez de me receberes - lembrou o macaco. Novo banquete preparado pelo cágado. Nova barrigada do macaco. No dia seguinte, em casa do macaco, o jantar servido na mesa muito alta voltou a deixar o cágado com a barriga a dar horas.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Amanhã é a tua vez de me receberes - lembrou o macaco. Novo banquete preparado pelo cágado. Nova barrigada do macaco. No dia seguinte, em casa do macaco, o jantar servido na mesa muito alta voltou a deixar o cágado com a barriga a dar horas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s6p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p0",
+        "s6p1",
+        "s6p2"
+      ],
+      "evidence": "A água está óptima - respondeu-lhe o cágado, a rir-se baixinho. Ora, como se sabe, os macacos detestam a água... E assim se desfez a combinação entre o macaco e o cágado. Também se não perdeu grande coisa.",
+      "after": {
+        "segment": 6,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A água está óptima - respondeu-lhe o cágado, a rir-se baixinho. Ora, como se sabe, os macacos detestam a água... E assim se desfez a combinação entre o macaco e o cágado. Também se não perdeu grande coisa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

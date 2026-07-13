@@ -1,0 +1,109 @@
+{
+  "characters": [
+    {
+      "name": "gigante",
+      "appearance": "gigante bondoso, muito alto, cansado e mal acomodado em casas humanas"
+    }
+  ],
+  "environment": "Portugal contemporâneo em torno de ruínas de castelo, casas pequenas, um cais e um armazém abandonado",
+  "palette": [
+    "tons terrosos",
+    "cinzentos de pedra e cimento",
+    "azuis frios do cais",
+    "verdes apagados",
+    "amarelos suaves de luz natural"
+  ],
+  "recurringObjects": [
+    "castelo em ruínas",
+    "porta de casa pequena",
+    "corredor comprido",
+    "garagem",
+    "armazém à beira do cais",
+    "barcos de carga"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um gigante que andava à procura de casa. Tarefa difícil. Os gigantes, antigamente, moravam em castelos e, segundo contam histórias desses tempos, a sombra que a sua imensa altura projectava sobre os povoados aterrorizava as gentes. Dantes. Este não era má pessoa. À primeira vista não parecia, quem o olhasse de baixo.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Gigante procura casa».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um gigante que andava à procura de casa. Tarefa difícil. Os gigantes, antigamente, moravam em castelos e, segundo contam histórias desses tempos, a sombra que a sua imensa altura projectava sobre os povoados aterrorizava as gentes. Dantes. Este não era má pessoa. À primeira vista não parecia, quem o olhasse de baixo. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Este não era má pessoa. À primeira vista não parecia, quem o olhasse de baixo. Mas, passada a primeira impressão, percebia-se que era um bom gigante. Também tivera um castelo à sua medida. Dificuldades várias tinham levado o castelo à ruína. Chovia lá dentro, mesmo quando não chovia cá fora.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Este não era má pessoa. À primeira vista não parecia, quem o olhasse de baixo. Mas, passada a primeira impressão, percebia-se que era um bom gigante. Também tivera um castelo à sua medida. Dificuldades várias tinham levado o castelo à ruína. Chovia lá dentro, mesmo quando não chovia cá fora. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p1",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "Mas, como o bom gigante já não era novo, teve de ficar à porta. Dormir ao relento é muito desconfortável, qualquer que seja o tamanho de quem se veja obrigado a tal experiência. Por isso o gigante pôs-se a procurar casa. Como se começou por dizer, a tarefa era difícil. Hoje, ninguém constrói casas para gigantes.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas, como o bom gigante já não era novo, teve de ficar à porta. Dormir ao relento é muito desconfortável, qualquer que seja o tamanho de quem se veja obrigado a tal experiência. Por isso o gigante pôs-se a procurar casa. Como se começou por dizer, a tarefa era difícil. Hoje, ninguém constrói casas para gigantes. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s8p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s8p0",
+        "s8p1",
+        "s8p2"
+      ],
+      "evidence": "Corta-se um bocado. O difícil é a escolha. Ou as pernas ou a cabeça. O gigante saiu do consultório, a correr. Nem pagou. Bem feito para o médico não se fazer de engraçado. Ao fim de muitas voltas, alugou um armazém abandonado, à beira de um cais. Não tinha muitas comodidades, mas era avantajado como lhe convinha.",
+      "after": {
+        "segment": 8,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Corta-se um bocado. O difícil é a escolha. Ou as pernas ou a cabeça. O gigante saiu do consultório, a correr. Nem pagou. Bem feito para o médico não se fazer de engraçado. Ao fim de muitas voltas, alugou um armazém abandonado, à beira de um cais. Não tinha muitas comodidades, mas era avantajado como lhe convinha. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s10p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s9p2",
+        "s10p0",
+        "s10p1"
+      ],
+      "evidence": "O bom gigante trabalha, agora, nos carregamentos e descarregamentos dos barcos acostados ao cais. Faz as vezes de guindaste e dá muito boa conta do serviço. Um bocado cansativo, mas ele não se queixa. A vida, hoje em dia, não está fácil para ninguém. Nem para os gigantes.",
+      "after": {
+        "segment": 10,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O bom gigante trabalha, agora, nos carregamentos e descarregamentos dos barcos acostados ao cais. Faz as vezes de guindaste e dá muito boa conta do serviço. Um bocado cansativo, mas ele não se queixa. A vida, hoje em dia, não está fácil para ninguém. Nem para os gigantes. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,135 @@
+{
+  "characters": [
+    {
+      "name": "Zé do Telhado",
+      "appearance": "gato doméstico"
+    },
+    {
+      "name": "Narrador",
+      "appearance": "pessoa adulta, vizinho do gato"
+    },
+    {
+      "name": "Veterinário",
+      "appearance": "profissional de veterinária"
+    }
+  ],
+  "environment": "Lisboa, num prédio de habitação com telhado, chaminé, clarabóia e janela de trapeira; interiores domésticos quentes, com secretária, e exterior de pátio e obras nas antenas.",
+  "palette": [
+    "tons quentes de verão",
+    "ocres e telhas vermelhas",
+    "cinzentos de chuva e telhado",
+    "brancos de ligaduras",
+    "azuis suaves de interior"
+  ],
+  "recurringObjects": [
+    "telhado",
+    "chaminé",
+    "janela da trapeira",
+    "clarabóia",
+    "pratinho de fiambre",
+    "ferramentas de antena",
+    "talas e ligaduras"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "O Zé do Telhado é o meu gato preferido. E suponho que, para ele, também sou a pessoa preferida. Pois é: somos dois bons amigos. Além de amigos, somos vizinhos. Ele mora uns metros acima da minha casa, no telhado do prédio, onde ocupo o último andar. Tem lugar privativo junto à chaminé que é o sítio mais quente. Na Primavera, no Verão e no Outono, o telhado é para ele casa, jardim, passeio, miradoiro.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Zé do telhado».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Zé do Telhado é o meu gato preferido. E suponho que, para ele, também sou a pessoa preferida. Pois é: somos dois bons amigos. Além de amigos, somos vizinhos. Ele mora uns metros acima da minha casa, no telhado do prédio, onde ocupo o último andar. Tem lugar privativo junto à chaminé que é o sítio mais quente. Na Primavera, no Verão e no Outono, o telhado é para ele casa, jardim, passeio, miradoiro. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "Na Primavera, no Verão e no Outono, o telhado é para ele casa, jardim, passeio, miradoiro. No Inverno, pede-me hospedagem. E, sempre que chove, vem fazer-me uma visitinha, como quem não quer a coisa. Tenho sempre um pratinho de fiambre para o receber. Entra-me pela janela da trapeira .",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Na Primavera, no Verão e no Outono, o telhado é para ele casa, jardim, passeio, miradoiro. No Inverno, pede-me hospedagem. E, sempre que chove, vem fazer-me uma visitinha, como quem não quer a coisa. Tenho sempre um pratinho de fiambre para o receber. Entra-me pela janela da trapeira . Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p2",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Entra-me pela janela da trapeira . Quando a janela não está aberta, tem maneira de chamar a atenção, raspando as unhas nos vidros da clarabóia, o que provoca um ruído fininho de arrepiar. Vou logo abrir-lhe a janela. Ele anda na sua vida e eu na minha, mas gosta de saber-me em casa.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Entra-me pela janela da trapeira . Quando a janela não está aberta, tem maneira de chamar a atenção, raspando as unhas nos vidros da clarabóia, o que provoca um ruído fininho de arrepiar. Vou logo abrir-lhe a janela. Ele anda na sua vida e eu na minha, mas gosta de saber-me em casa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "Ele anda na sua vida e eu na minha, mas gosta de saber-me em casa. Nos dias em que sua excelência prefere o telhado, vai não vai passa rente à trapeira e, muito descaradamente, espreita para dentro. Se me vê, debruçado à secretária, a trabalhar, o Zé do Telhado descansa e segue telhas adiante. Há dias, houve um grande desastre. Exactamente o que imaginam: o Zé do Telhado caiu do telhado ao pátio.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ele anda na sua vida e eu na minha, mas gosta de saber-me em casa. Nos dias em que sua excelência prefere o telhado, vai não vai passa rente à trapeira e, muito descaradamente, espreita para dentro. Se me vê, debruçado à secretária, a trabalhar, o Zé do Telhado descansa e segue telhas adiante. Há dias, houve um grande desastre. Exactamente o que imaginam: o Zé do Telhado caiu do telhado ao pátio. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "O Zé do Telhado sobressaltou-se, indignou-se, desequilibrou-se e... foi parar ao rés-do-chão. Dizem que os gatos têm sete bofes ou sete vidas. Mas só têm quatro patas. O Zé do Telhado partiu duas. O veterinário onde o levei cuidou dele com todo o esmero e o Zé pouco se queixou.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Zé do Telhado sobressaltou-se, indignou-se, desequilibrou-se e... foi parar ao rés-do-chão. Dizem que os gatos têm sete bofes ou sete vidas. Mas só têm quatro patas. O Zé do Telhado partiu duas. O veterinário onde o levei cuidou dele com todo o esmero e o Zé pouco se queixou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s7p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s7p0",
+        "s7p1",
+        "s7p2"
+      ],
+      "evidence": "Estamos em pleno Verão e eu não posso abrir as janelas. O calor é sufocante deste terceiro andar batido pelo sol e eu suo em bica. Mais vou suar até o Zé do Telhado ficar bom. - Lá para o meio do Outono, tiro-lhe as talas - promete-me o veterinário. Mas se ainda estamos em Agosto...",
+      "after": {
+        "segment": 7,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Estamos em pleno Verão e eu não posso abrir as janelas. O calor é sufocante deste terceiro andar batido pelo sol e eu suo em bica. Mais vou suar até o Zé do Telhado ficar bom. - Lá para o meio do Outono, tiro-lhe as talas - promete-me o veterinário. Mas se ainda estamos em Agosto... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

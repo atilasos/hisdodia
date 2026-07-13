@@ -1,0 +1,121 @@
+{
+  "characters": [],
+  "environment": "Banquete de aves com um jantar de gala e uma mesa de refeição ao ar livre.",
+  "palette": [
+    "branco",
+    "preto",
+    "cinzento",
+    "azul suave",
+    "creme",
+    "castanho escuro"
+  ],
+  "recurringObjects": [
+    "mesa",
+    "terrina",
+    "pedra",
+    "galho",
+    "fato de cerimónia"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Um dia, a família dos pombos resolveu dar um banquete. Convidaram para a festa todos os animais de asas e penas, mas esqueceram-se do corvo. Imperdoável! Se estavam a águia, o falcão, a cegonha, o gaio, a coruja, o ganso, o cisne, a galinha mais o galo, o pardal, a pardoca e os respectivos pardalinhos, a codorniz, a andorinha, o melro e tantos mais, quem daria por falta do corvo?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Esqueceram o corvo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um dia, a família dos pombos resolveu dar um banquete. Convidaram para a festa todos os animais de asas e penas, mas esqueceram-se do corvo. Imperdoável! Se estavam a águia, o falcão, a cegonha, o gaio, a coruja, o ganso, o cisne, a galinha mais o galo, o pardal, a pardoca e os respectivos pardalinhos, a codorniz, a andorinha, o melro e tantos mais, quem daria por falta do corvo? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Imperdoável! Se estavam a águia, o falcão, a cegonha, o gaio, a coruja, o ganso, o cisne, a galinha mais o galo, o pardal, a pardoca e os respectivos pardalinhos, a codorniz, a andorinha, o melro e tantos mais, quem daria por falta do corvo? Deu ele, que muito se susceptibilizou com o esquecimento.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Imperdoável! Se estavam a águia, o falcão, a cegonha, o gaio, a coruja, o ganso, o cisne, a galinha mais o galo, o pardal, a pardoca e os respectivos pardalinhos, a codorniz, a andorinha, o melro e tantos mais, quem daria por falta do corvo? Deu ele, que muito se susceptibilizou com o esquecimento. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Deu ele, que muito se susceptibilizou com o esquecimento. E, como era vingativo, agarrou numa grande pedra e sobrevoou, lá muito do alto, a mesa da festança. Quando as aves estavam todas a comer, na maior das alegrias, o corvo, lá de cima, fez pontaria e largou o pedregulho. Não se queira saber! A pedra caiu no meio da mesa e espatifou tudo. Estava estragada a festa.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Deu ele, que muito se susceptibilizou com o esquecimento. E, como era vingativo, agarrou numa grande pedra e sobrevoou, lá muito do alto, a mesa da festança. Quando as aves estavam todas a comer, na maior das alegrias, o corvo, lá de cima, fez pontaria e largou o pedregulho. Não se queira saber! A pedra caiu no meio da mesa e espatifou tudo. Estava estragada a festa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "- Ah, o culpado pelo estardalhaço que interrompeu a festa foi o corvo? Pois deixa estar que não perdes pela pancada - ameaçaram. E as aves todas juntas acertaram numa conspiração . Dias depois, a família dos pombos convidou o corvo para um jantar de gala. Era ele o único convidado.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Ah, o culpado pelo estardalhaço que interrompeu a festa foi o corvo? Pois deixa estar que não perdes pela pancada - ameaçaram. E as aves todas juntas acertaram numa conspiração . Dias depois, a família dos pombos convidou o corvo para um jantar de gala. Era ele o único convidado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p1",
+        "s6p2",
+        "s6p3"
+      ],
+      "evidence": "- Do que é a sopa? - perguntou o corvo, cheio de apetite. - Sopa de pedra - disseram os pombos, em coro. E era mesmo. Lá estava, dentro de uma enorme terrina, o pedregulho que o corvo atirara.",
+      "after": {
+        "segment": 6,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Do que é a sopa? - perguntou o corvo, cheio de apetite. - Sopa de pedra - disseram os pombos, em coro. E era mesmo. Lá estava, dentro de uma enorme terrina, o pedregulho que o corvo atirara. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s8p4",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s8p2",
+        "s8p3",
+        "s8p4"
+      ],
+      "evidence": "- Muito obrigada. Estou satisfeito - respondeu o corvo. - Só mais um bocadinho, vá lá... - insistiram os pombos. E o corvo passou o jantar às bicadas à pedra.",
+      "after": {
+        "segment": 8,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Muito obrigada. Estou satisfeito - respondeu o corvo. - Só mais um bocadinho, vá lá... - insistiram os pombos. E o corvo passou o jantar às bicadas à pedra. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,87 @@
+{
+  "characters": [],
+  "environment": "Portuguese children's story world with fairground settings, imaginative scale, and nocturnal space imagery.",
+  "palette": [
+    "warm fairground reds",
+    "sunlit yellows",
+    "soft blues",
+    "moonlit silver",
+    "earthy neutrals"
+  ],
+  "recurringObjects": [
+    "carrossel",
+    "roda gigante",
+    "sobretudo",
+    "gorro de pele",
+    "Terra",
+    "Lua"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "O meu amigo Evaristo é um entusiasta. No outro dia, íamos nós a passar por perto de uma feira dessas de altifalantes, tirinhos e carrosséis de cavalinhos - é mais uma corrida! é mais uma viagem! - quando ele me travou por um braço e perguntou, de olhos a brilhar de entusiasmo: - Já te contei do meu projecto do carrossel gigante? Desse não me lembrava. O Evaristo tem sempre tantos projectos no ar...",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Os entusiasmos do Evaristo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O meu amigo Evaristo é um entusiasta. No outro dia, íamos nós a passar por perto de uma feira dessas de altifalantes, tirinhos e carrosséis de cavalinhos - é mais uma corrida! é mais uma viagem! - quando ele me travou por um braço e perguntou, de olhos a brilhar de entusiasmo: - Já te contei do meu projecto do carrossel gigante? Desse não me lembrava. O Evaristo tem sempre tantos projectos no ar... Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s6p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p1",
+        "s5p2",
+        "s6p0"
+      ],
+      "evidence": "Fiquei abismado. Aquele carrossel estava a dar-lhe a volta à cabeça. - Percebeste onde quero chegar? Ao eixo da Terra. Fixo o meu carrossel ao eixo da Terra, à roda do qual gira o nosso planeta, e nem preciso de imprimir-lhe velocidade. A Terra roda, o carrossel mantém-se parado, mas esta é que é a parte mais importante da minha invenção: os passageiros do meu carrossel têm a ilusão de que são eles que estão a andar. Percebeste?",
+      "after": {
+        "segment": 6,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Fiquei abismado. Aquele carrossel estava a dar-lhe a volta à cabeça. - Percebeste onde quero chegar? Ao eixo da Terra. Fixo o meu carrossel ao eixo da Terra, à roda do qual gira o nosso planeta, e nem preciso de imprimir-lhe velocidade. A Terra roda, o carrossel mantém-se parado, mas esta é que é a parte mais importante da minha invenção: os passageiros do meu carrossel têm a ilusão de que são eles que estão a andar. Percebeste? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s10p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s10p0",
+        "s10p1",
+        "s10p2"
+      ],
+      "evidence": "- Essa é uma miniatura comparada com a minha roda, que estou a calcular, aqui entre nós... - e o Evaristo puxou-me pelo braço e falou-me ao ouvido, com ar de história secreta. Tomei muita atenção ao segredo dele: - Estou a calcular que consiga tocar a Lua com a minha roda gigante.",
+      "after": {
+        "segment": 10,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Essa é uma miniatura comparada com a minha roda, que estou a calcular, aqui entre nós... - e o Evaristo puxou-me pelo braço e falou-me ao ouvido, com ar de história secreta. Tomei muita atenção ao segredo dele: - Estou a calcular que consiga tocar a Lua com a minha roda gigante. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s12p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s11p2",
+        "s12p0",
+        "s12p1"
+      ],
+      "evidence": "- E, desta vez, onde colocas tu o eixo da roda? Em que ponto do espaço, que fique a meio caminho entre a Terra e a Lua? - Falta só resolver esse pormenor, para avançar - tranquilizou-me o Evaristo. - Mas, no resto, acho que já adiantei muito. E lá seguiu, muito entusiasmado com o seu projecto.",
+      "after": {
+        "segment": 12,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - E, desta vez, onde colocas tu o eixo da roda? Em que ponto do espaço, que fique a meio caminho entre a Terra e a Lua? - Falta só resolver esse pormenor, para avançar - tranquilizou-me o Evaristo. - Mas, no resto, acho que já adiantei muito. E lá seguiu, muito entusiasmado com o seu projecto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

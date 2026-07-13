@@ -1,0 +1,99 @@
+{
+  "characters": [
+    {
+      "name": "macaco",
+      "appearance": "amigo do grupo, espécie de macaco, atitude entusiástica"
+    },
+    {
+      "name": "beija-flor",
+      "appearance": "amigo do grupo, pequeno beija-flor, atitude curiosa"
+    },
+    {
+      "name": "grilo",
+      "appearance": "amigo do grupo, pequeno grilo, atitude confiante"
+    }
+  ],
+  "environment": "Três amigos discutem onde passar férias, passando por propostas de armazém de bananas, jardim de flores e uma toca de madeira podre num monturo, até concluírem que continuam amigos apesar de não terem concordado.",
+  "palette": [
+    "tons tropicais e naturais",
+    "amarelos de banana",
+    "verdes de jardim",
+    "castanhos de madeira e terra",
+    "cores vivas mas suaves"
+  ],
+  "recurringObjects": [
+    "bananas",
+    "flores",
+    "néctar",
+    "toca de madeira podre",
+    "monturo"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O macaco, o beija-flor e o grilo eram amigos, muito amigos, mas nem sempre se entendiam. Acontece... Uma vez, decidiram passar férias juntos. - Vamos escolher o sítio mais lindo do mundo - concordaram os três. Mas onde?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Onde vamos passar férias?».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O macaco, o beija-flor e o grilo eram amigos, muito amigos, mas nem sempre se entendiam. Acontece... Uma vez, decidiram passar férias juntos. - Vamos escolher o sítio mais lindo do mundo - concordaram os três. Mas onde? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "Os outros não eram da mesma opinião. - A minha ideia é melhor - disse o beija-flor. - Vamos para um jardim cheio de flores, carregadinhas de néctar, para nós sorvermos. Os outros não eram da mesma opinião. O macaco e o grilo não se imaginavam a voar, de flor em flor, nem nunca tinham aprendido tal habilidade.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os outros não eram da mesma opinião. - A minha ideia é melhor - disse o beija-flor. - Vamos para um jardim cheio de flores, carregadinhas de néctar, para nós sorvermos. Os outros não eram da mesma opinião. O macaco e o grilo não se imaginavam a voar, de flor em flor, nem nunca tinham aprendido tal habilidade. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p2",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Os outros não eram da mesma opinião. O macaco e o grilo não se imaginavam a voar, de flor em flor, nem nunca tinham aprendido tal habilidade. - A minha ideia é a melhor de todas - disse o grilo. - Venham atrás de mim. Seguiram-no. Não foram longe. - Têm de concordar que este sítio, onde vos trouxe, é o mais lindo do mundo. Apreciem! - e o grilo apontava para uma toca de madeira podre, no meio de um monturo .",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os outros não eram da mesma opinião. O macaco e o grilo não se imaginavam a voar, de flor em flor, nem nunca tinham aprendido tal habilidade. - A minha ideia é a melhor de todas - disse o grilo. - Venham atrás de mim. Seguiram-no. Não foram longe. - Têm de concordar que este sítio, onde vos trouxe, é o mais lindo do mundo. Apreciem! - e o grilo apontava para uma toca de madeira podre, no meio de um monturo . Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s3p0"
+      ],
+      "evidence": "- A minha ideia é a melhor de todas - disse o grilo. - Venham atrás de mim. Seguiram-no. Não foram longe. - Têm de concordar que este sítio, onde vos trouxe, é o mais lindo do mundo. Apreciem! - e o grilo apontava para uma toca de madeira podre, no meio de um monturo . E ainda não foi daquela vez que o macaco, o beija-flor e o grilo passaram as férias juntos. Mas continuaram amigos.",
+      "after": {
+        "segment": 3,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - A minha ideia é a melhor de todas - disse o grilo. - Venham atrás de mim. Seguiram-no. Não foram longe. - Têm de concordar que este sítio, onde vos trouxe, é o mais lindo do mundo. Apreciem! - e o grilo apontava para uma toca de madeira podre, no meio de um monturo . E ainda não foi daquela vez que o macaco, o beija-flor e o grilo passaram as férias juntos. Mas continuaram amigos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Esta é a história do pato submarino, um pato que queria conhecer o mundo escondido debaixo da superfície que lhe reflectia a imagem. A história começa no dia em que o pato deu o primeiro mergulho. Cardume de peixes pequenos fugiam à sua frente e desapareceram nos fundos verdes de uma gruta. - Para onde vão eles? - perguntou o pato, mas ninguém lhe respondeu.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O pato submarino».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Esta é a história do pato submarino, um pato que queria conhecer o mundo escondido debaixo da superfície que lhe reflectia a imagem. A história começa no dia em que o pato deu o primeiro mergulho. Cardume de peixes pequenos fugiam à sua frente e desapareceram nos fundos verdes de uma gruta. - Para onde vão eles? - perguntou o pato, mas ninguém lhe respondeu. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s3p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p2",
+        "s3p3",
+        "s3p4"
+      ],
+      "evidence": "O pato admirou-se: - Parece impossível! Então a amiga truta não gosta de nadar? - Qual quê? Fujo do rio o mais que posso.",
+      "after": {
+        "segment": 3,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O pato admirou-se: - Parece impossível! Então a amiga truta não gosta de nadar? - Qual quê? Fujo do rio o mais que posso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s7p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p2",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "Na margem, o pescador estremece dos pés ao chapéu. - Isto não é peixe miúdo - exclama ele. Pois não era, não! Era pato e grande... Depois de muita luta ficou de boca aberta o senhor do chapéu de palha, ao ver o que a linha lhe trazia. Tão espantado estava que nem ouviu um tiro que, ali perto, caçador escondido dera sobre algum pássaro mais descuidado.",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Na margem, o pescador estremece dos pés ao chapéu. - Isto não é peixe miúdo - exclama ele. Pois não era, não! Era pato e grande... Depois de muita luta ficou de boca aberta o senhor do chapéu de palha, ao ver o que a linha lhe trazia. Tão espantado estava que nem ouviu um tiro que, ali perto, caçador escondido dera sobre algum pássaro mais descuidado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s9p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s8p2",
+        "s9p0",
+        "s9p1"
+      ],
+      "evidence": "Virou-se o pescador para trás e que viu? Um caçador com uma truta na mão. - Ia a atravessar a ponte, quando um peixe me saltou à frente, quase a roçar o cano da espingarda. Disparei, mesmo sem pensar - explicou ele. - Voam os peixes, nadam os pássaros. Anda o mundo virado do avesso - comentou o pescador.",
+      "after": {
+        "segment": 9,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Virou-se o pescador para trás e que viu? Um caçador com uma truta na mão. - Ia a atravessar a ponte, quando um peixe me saltou à frente, quase a roçar o cano da espingarda. Disparei, mesmo sem pensar - explicou ele. - Voam os peixes, nadam os pássaros. Anda o mundo virado do avesso - comentou o pescador. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s12p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s12p1",
+        "s12p2",
+        "s12p3"
+      ],
+      "evidence": "- Dê-lhe um tiro - gritou o pescador para o caçador. - A qual? - perguntou ele, atarantado. Salvaram-se os nossos heróis e salvou-se a história.",
+      "after": {
+        "segment": 12,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Dê-lhe um tiro - gritou o pescador para o caçador. - A qual? - perguntou ele, atarantado. Salvaram-se os nossos heróis e salvou-se a história. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

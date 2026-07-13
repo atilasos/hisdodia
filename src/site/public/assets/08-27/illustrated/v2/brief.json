@@ -1,0 +1,103 @@
+{
+  "characters": [],
+  "environment": "Montanha ao amanhecer com prisão em torre, estrada de areia, vedação com cavalos, telheiro de ferrador e planície aberta.",
+  "palette": [
+    "azul noite",
+    "lilás da madrugada",
+    "cinza da pedra",
+    "branco dos cavalos",
+    "castanho da terra"
+  ],
+  "recurringObjects": [
+    "torre da prisão",
+    "muro alto",
+    "cavalo branco",
+    "ferrador",
+    "ferraduras"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era um fugitivo. A coberto da noite, escapara-se da prisão, uma torre alta, rodeada por um muro mais alto ainda, e correra descalço, sobre cascalho e pedras soltas que não serviam de caminho senão a cabras de cascos duros. Descia a montanha, coroada pela tal prisão. Olhando para trás, deixara de ver a silhueta assustadora das muralhas, tão escuras como a noite, o que era bom sinal. Sinal de que se distanciava cada vez mais dos soldados, que o perseguiriam, quando na manhã seguinte dessem com a cela vazia e uma corda pendurada das grades serradas. O pior era depois. Os soldados montariam em cavalos, que galopariam desenfreadamente até apanhá-lo. Pois era.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Rato o Fugitivo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era um fugitivo. A coberto da noite, escapara-se da prisão, uma torre alta, rodeada por um muro mais alto ainda, e correra descalço, sobre cascalho e pedras soltas que não serviam de caminho senão a cabras de cascos duros. Descia a montanha, coroada pela tal prisão. Olhando para trás, deixara de ver a silhueta assustadora das muralhas, tão escuras como a noite, o que era bom sinal. Sinal de que se distanciava cada vez mais dos soldados, que o perseguiriam, quando na manhã seguinte dessem com a cela vazia e uma corda pendurada das grades serradas. O pior era depois. Os soldados montariam em cavalos, que galopariam desenfreadamente até apanhá-lo. Pois era. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p8",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p6",
+        "s0p7",
+        "s0p8"
+      ],
+      "evidence": "Estava na estrada de areia. Ah, tivesse ele um cavalo que, seguramente, se escaparia dos seus perseguidores. Mas onde descobri-lo? E com que dinheiro comprá-lo, se tinha os bolsos em farrapos como o resto da roupa que o cobria? Só Deus ou um anjo por ele podiam salvá-lo. Numa curva da estrada que a luz do céu, a inundar-se de lilás, desenhava como a indecisa aguarela de uma nuvem, o homem viu uma vedação e, atrás da vedação, cavalos a pastar. Eram brancos, de longas crinas. Para lá dos cavalos serenos, um ferrador, num telheiro, ateava o forno, de fole em punho. Apesar do fugitivo o ver de longe, percebeu-lhe, por trás das barbas tão brancas como as crinas dos cavalos, um sorriso feliz de quem vai começar o dia com gosto, até, talvez, com uma boa acção...",
+      "after": {
+        "segment": 0,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Estava na estrada de areia. Ah, tivesse ele um cavalo que, seguramente, se escaparia dos seus perseguidores. Mas onde descobri-lo? E com que dinheiro comprá-lo, se tinha os bolsos em farrapos como o resto da roupa que o cobria? Só Deus ou um anjo por ele podiam salvá-lo. Numa curva da estrada que a luz do céu, a inundar-se de lilás, desenhava como a indecisa aguarela de uma nuvem, o homem viu uma vedação e, atrás da vedação, cavalos a pastar. Eram brancos, de longas crinas. Para lá dos cavalos serenos, um ferrador, num telheiro, ateava o forno, de fole em punho. Apesar do fugitivo o ver de longe, percebeu-lhe, por trás das barbas tão brancas como as crinas dos cavalos, um sorriso feliz de quem vai começar o dia com gosto, até, talvez, com uma boa acção... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p16",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p14",
+        "s0p15",
+        "s0p16"
+      ],
+      "evidence": "Era um homem de mistérios. O fugitivo acolheu-se aos seus desígnios porque sentiu, no aperto do seu coração, que mais ninguém senão aquele homem de gestos suaves podia salvá-lo. A manhã abria-se, empolgante. Lá, na prisão, já teriam dado pela fuga, já os soldados lançariam o alarme, já se aprestavam para persegui-lo. O velho das barbas brancas ferrou um cavalo. O fugitivo montou-o. Ia para agradecer, mas o velho interrompeu-lhe as palavras e mandou-o seguir. Depois, ficou, à beira da vedação, a ver o cavalo fogoso a afastar-se, numa nuvem de pó.",
+      "after": {
+        "segment": 0,
+        "paragraph": 16
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era um homem de mistérios. O fugitivo acolheu-se aos seus desígnios porque sentiu, no aperto do seu coração, que mais ninguém senão aquele homem de gestos suaves podia salvá-lo. A manhã abria-se, empolgante. Lá, na prisão, já teriam dado pela fuga, já os soldados lançariam o alarme, já se aprestavam para persegui-lo. O velho das barbas brancas ferrou um cavalo. O fugitivo montou-o. Ia para agradecer, mas o velho interrompeu-lhe as palavras e mandou-o seguir. Depois, ficou, à beira da vedação, a ver o cavalo fogoso a afastar-se, numa nuvem de pó. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p20",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p18",
+        "s0p19",
+        "s0p20"
+      ],
+      "evidence": "Quando o tropel dos perseguidores desceu à estrada e consultou as pegadas do cavalo fugitivo foi iludido pelo sentido que indicavam as ferraduras. – Foi por ali – apontou o capitão dos guardas. Mas ele tinha ido por acolá. Nunca mais o apanharam.",
+      "after": {
+        "segment": 0,
+        "paragraph": 20
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando o tropel dos perseguidores desceu à estrada e consultou as pegadas do cavalo fugitivo foi iludido pelo sentido que indicavam as ferraduras. – Foi por ali – apontou o capitão dos guardas. Mas ele tinha ido por acolá. Nunca mais o apanharam. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p21",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p19",
+        "s0p20",
+        "s0p21"
+      ],
+      "evidence": "– Foi por ali – apontou o capitão dos guardas. Mas ele tinha ido por acolá. Nunca mais o apanharam. Também o ferrador desapareceu da paisagem. Nem cavalos nem vedação nem forno. Nada. Só árvores, mato e o céu ao fundo.",
+      "after": {
+        "segment": 0,
+        "paragraph": 21
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Foi por ali – apontou o capitão dos guardas. Mas ele tinha ido por acolá. Nunca mais o apanharam. Também o ferrador desapareceu da paisagem. Nem cavalos nem vedação nem forno. Nada. Só árvores, mato e o céu ao fundo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,114 @@
+{
+  "characters": [
+    {
+      "name": "O gato",
+      "appearance": "Gato pequeno, atento e ágil, com expressão vigilante e postura leve"
+    },
+    {
+      "name": "A raposa",
+      "appearance": "Raposa esguia, elegante e vaidosa, com ar seguro antes da fuga"
+    },
+    {
+      "name": "Os cães de caça",
+      "appearance": "Dois cães em corrida, corpos tensos e presença ameaçadora"
+    }
+  ],
+  "environment": "Campo aberto com caminho rural, árvore isolada e sensação de perseguição ao entardecer",
+  "palette": [
+    "Castanhos quentes",
+    "Ocre",
+    "Verde apagado",
+    "Cinzentos azulados",
+    "Luzes suaves de fim de tarde"
+  ],
+  "recurringObjects": [
+    "Árvore",
+    "Cauda da raposa",
+    "Cães em corrida"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O gato e a raposa não privavam, em trato de amizade, mas de uma vez que o acaso os juntou deram em considerar que não eram tão desparecidos um com o outro, como se julgavam. Ambos tinham cauda, embora a da raposa mais felpuda e mais calhada para gola de samarra, o que não era de bom tom lembrar à raposa... Ambos tinham o passo de bailarina em pontas. Ambos tinham olhos de farolim, para descortinar os recantos da noite. Ambos tinham artes de caça e vasto receituário de matreirices. Ambos sabiam, com vaidade, que valiam mais do que pesavam. Ambos tinham aos cães a mesma raiva. Foi, aliás, a propósito de cães que a raposa e o gato, um dia, em que passeavam a par pelo campo, tiveram a seguinte conversa:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Gato e a Raposa».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O gato e a raposa não privavam, em trato de amizade, mas de uma vez que o acaso os juntou deram em considerar que não eram tão desparecidos um com o outro, como se julgavam. Ambos tinham cauda, embora a da raposa mais felpuda e mais calhada para gola de samarra, o que não era de bom tom lembrar à raposa... Ambos tinham o passo de bailarina em pontas. Ambos tinham olhos de farolim, para descortinar os recantos da noite. Ambos tinham artes de caça e vasto receituário de matreirices. Ambos sabiam, com vaidade, que valiam mais do que pesavam. Ambos tinham aos cães a mesma raiva. Foi, aliás, a propósito de cães que a raposa e o gato, um dia, em que passeavam a par pelo campo, tiveram a seguinte conversa: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p6",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "– Nem me fales nesses monstros, que fico com o pêlo em pé – disse o gato. – Uma matilha? Bastava-me um cão só, para lhe fugir. – Pois sim, mas como te escapavas? – insistiu a raposa. – Escapava-me. Fugia. Safava-me. Debandava. Raspava-me. Sumia. Onde houvesse uma árvore para eu trepar era por ela acima que eu desaparecia da vista do cão – explicou o gato, todo arrepiado.",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Nem me fales nesses monstros, que fico com o pêlo em pé – disse o gato. – Uma matilha? Bastava-me um cão só, para lhe fugir. – Pois sim, mas como te escapavas? – insistiu a raposa. – Escapava-me. Fugia. Safava-me. Debandava. Raspava-me. Sumia. Onde houvesse uma árvore para eu trepar era por ela acima que eu desaparecia da vista do cão – explicou o gato, todo arrepiado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p7",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p5",
+        "s0p6",
+        "s0p7"
+      ],
+      "evidence": "– Pois sim, mas como te escapavas? – insistiu a raposa. – Escapava-me. Fugia. Safava-me. Debandava. Raspava-me. Sumia. Onde houvesse uma árvore para eu trepar era por ela acima que eu desaparecia da vista do cão – explicou o gato, todo arrepiado. – Vejo que és um pouco simplório e covarde – comentou a raposa. – Pois eu tenho mil manhas e recursos para os afastar de mim. Um catálogo de estratégias, podes crer. A dificuldade está na escolha, quando chega a ocasião.",
+      "after": {
+        "segment": 0,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Pois sim, mas como te escapavas? – insistiu a raposa. – Escapava-me. Fugia. Safava-me. Debandava. Raspava-me. Sumia. Onde houvesse uma árvore para eu trepar era por ela acima que eu desaparecia da vista do cão – explicou o gato, todo arrepiado. – Vejo que és um pouco simplório e covarde – comentou a raposa. – Pois eu tenho mil manhas e recursos para os afastar de mim. Um catálogo de estratégias, podes crer. A dificuldade está na escolha, quando chega a ocasião. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p10",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p8",
+        "s0p9",
+        "s0p10"
+      ],
+      "evidence": "Logo por azar, surgiu a ocasião. Dois cães de caça correram sobre o gato e a raposa. Sentindo-os perto, o gato saltou para uma árvore e pôs-se a salvo. Mas já eles corriam sobre a raposa. Então o gato viu a raposa, que há pouco se gabava de dispor de tantos e tão variados expedientes contra a fúria dos cães, fugir a bom fugir, como qualquer coelho assustadiço. E, lá mais adiante, ser filada pelo rabo...",
+      "after": {
+        "segment": 0,
+        "paragraph": 10
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Logo por azar, surgiu a ocasião. Dois cães de caça correram sobre o gato e a raposa. Sentindo-os perto, o gato saltou para uma árvore e pôs-se a salvo. Mas já eles corriam sobre a raposa. Então o gato viu a raposa, que há pouco se gabava de dispor de tantos e tão variados expedientes contra a fúria dos cães, fugir a bom fugir, como qualquer coelho assustadiço. E, lá mais adiante, ser filada pelo rabo... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p12",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p10",
+        "s0p11",
+        "s0p12"
+      ],
+      "evidence": "Então o gato viu a raposa, que há pouco se gabava de dispor de tantos e tão variados expedientes contra a fúria dos cães, fugir a bom fugir, como qualquer coelho assustadiço. E, lá mais adiante, ser filada pelo rabo... Não tardaria muito que enfeitasse uma gola de samarra. Do seu providencial poleiro, o gato matutava que mais vale saber do que apregoar que se sabe.",
+      "after": {
+        "segment": 0,
+        "paragraph": 12
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Então o gato viu a raposa, que há pouco se gabava de dispor de tantos e tão variados expedientes contra a fúria dos cães, fugir a bom fugir, como qualquer coelho assustadiço. E, lá mais adiante, ser filada pelo rabo... Não tardaria muito que enfeitasse uma gola de samarra. Do seu providencial poleiro, o gato matutava que mais vale saber do que apregoar que se sabe. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

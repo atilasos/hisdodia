@@ -1,0 +1,97 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Eram dois primos, mas nem pareciam. Um, Li-Fong, um coração de oiro. O outro, Li-Kong, um patifório sem coração. Trabalhavam ambos no mesmo ramo. Cada qual tinha um armazém de sementes e frutos secos, frente a frente, numa das ruas de mercadores da cidade Piong, na Península da Coreia. Li-Kong passava o tempo a queixar-se de tudo. Eram os negócios que corriam mal. Eram as chuvas que vinham fora da época. Eram os pássaros que lhe roubavam as sementes.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Os Dois Primos Li».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eram dois primos, mas nem pareciam. Um, Li-Fong, um coração de oiro. O outro, Li-Kong, um patifório sem coração. Trabalhavam ambos no mesmo ramo. Cada qual tinha um armazém de sementes e frutos secos, frente a frente, numa das ruas de mercadores da cidade Piong, na Península da Coreia. Li-Kong passava o tempo a queixar-se de tudo. Eram os negócios que corriam mal. Eram as chuvas que vinham fora da época. Eram os pássaros que lhe roubavam as sementes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "Li-Kong passava o tempo a queixar-se de tudo. Eram os negócios que corriam mal. Eram as chuvas que vinham fora da época. Eram os pássaros que lhe roubavam as sementes. Li-Fong sorria a tudo. Se tinha razões de queixa, não se dava por isso. Até os pássaros que depenicavam sementes, à porta do armazém, lhe davam motivo para sorrir. Uma vez, uma pequena andorinha, que ainda não sabia voar, partiu uma asa, ao cair no beiral. Li-Fong cuidou dela e com muito carinho pôs-lhe uma tala, que atou com um fio à asa partida.",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Li-Kong passava o tempo a queixar-se de tudo. Eram os negócios que corriam mal. Eram as chuvas que vinham fora da época. Eram os pássaros que lhe roubavam as sementes. Li-Fong sorria a tudo. Se tinha razões de queixa, não se dava por isso. Até os pássaros que depenicavam sementes, à porta do armazém, lhe davam motivo para sorrir. Uma vez, uma pequena andorinha, que ainda não sabia voar, partiu uma asa, ao cair no beiral. Li-Fong cuidou dela e com muito carinho pôs-lhe uma tala, que atou com um fio à asa partida. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p11",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p9",
+        "s0p10",
+        "s0p11"
+      ],
+      "evidence": "O primo Li-Kong troçou dele, com o seu habitual azedume: – Esse fruto estapafúrdio vai dar-te para fazeres uma sopa de barulho. Li-Fong resolveu-se a abri-lo e, quando o fez, diante do primo, ficaram ambos sem fala. Daquela espécie de abóbora saiu um exército de criados que armou mesas e dispôs iguarias para um grande banquete. Seguiu-se um exército de artesãos que montou móveis, estendeu tapetes, armou cortinados e transformou o armazém num palácio. Depois, vieram músicos e com eles um financeiro, carregado de sacos, cheios de moedas de ouro.",
+      "after": {
+        "segment": 0,
+        "paragraph": 11
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O primo Li-Kong troçou dele, com o seu habitual azedume: – Esse fruto estapafúrdio vai dar-te para fazeres uma sopa de barulho. Li-Fong resolveu-se a abri-lo e, quando o fez, diante do primo, ficaram ambos sem fala. Daquela espécie de abóbora saiu um exército de criados que armou mesas e dispôs iguarias para um grande banquete. Seguiu-se um exército de artesãos que montou móveis, estendeu tapetes, armou cortinados e transformou o armazém num palácio. Depois, vieram músicos e com eles um financeiro, carregado de sacos, cheios de moedas de ouro. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p16",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p14",
+        "s0p15",
+        "s0p16"
+      ],
+      "evidence": "O invejoso do Li-Kong não descansou enquanto não soube a origem de toda aquela fortuna. Quando o primo lhe contou a história da andorinha que socorrera, Li-Kong rangeu os dentes e disse: – Só por isso? Então, não custa nada. Foi ao beiral do seu armazém, pegou numa andorinha, que ainda estava no ninho, e partiu-lhe uma asa. Em seguida, muito despachadamente, depois de ter feito o mal, tentou fazer o bem. Tal como o primo lhe ensinara, atou uma tala à asa partida da pobre andorinha e recomendou-lhe, ameaçadoramente:",
+      "after": {
+        "segment": 0,
+        "paragraph": 16
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O invejoso do Li-Kong não descansou enquanto não soube a origem de toda aquela fortuna. Quando o primo lhe contou a história da andorinha que socorrera, Li-Kong rangeu os dentes e disse: – Só por isso? Então, não custa nada. Foi ao beiral do seu armazém, pegou numa andorinha, que ainda estava no ninho, e partiu-lhe uma asa. Em seguida, muito despachadamente, depois de ter feito o mal, tentou fazer o bem. Tal como o primo lhe ensinara, atou uma tala à asa partida da pobre andorinha e recomendou-lhe, ameaçadoramente: Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p27",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p25",
+        "s0p26",
+        "s0p27"
+      ],
+      "evidence": "Furioso, Li-Kong atirou-se ao terceiro fruto, como se a faca fosse um punhal. – Não quero que te rias mais de mim! Não quero que te rias! – gritava ele. Pelos lanhos abertos no fruto disparou uma ventania que varreu as sementes todas do armazém. Saltaram portas e janelas, voaram as telhas e estremeceram as paredes até aos alicerces. Li-Kong, soprado para longe, perdeu os sentidos. Quando os recuperou viu-se sozinho, desamparado, no meio das ruínas.",
+      "after": {
+        "segment": 0,
+        "paragraph": 27
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Furioso, Li-Kong atirou-se ao terceiro fruto, como se a faca fosse um punhal. – Não quero que te rias mais de mim! Não quero que te rias! – gritava ele. Pelos lanhos abertos no fruto disparou uma ventania que varreu as sementes todas do armazém. Saltaram portas e janelas, voaram as telhas e estremeceram as paredes até aos alicerces. Li-Kong, soprado para longe, perdeu os sentidos. Quando os recuperou viu-se sozinho, desamparado, no meio das ruínas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": [
+    {
+      "sceneId": "scene-4",
+      "attempt": 1,
+      "message": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID b4d5ea1a-6fac-4c5e-bf55-6de9996fa2c1. safety_violations=[self-harm].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"self-harm\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "characters": [
+    {
+      "name": "A gota",
+      "appearance": "Uma pequena gota de água personificada, solitária e determinada"
+    },
+    {
+      "name": "O passarinho",
+      "appearance": "Um passarinho recém-nascido ou muito novo, frágil, de bico aberto"
+    }
+  ],
+  "environment": "Começa com uma gota em busca de alguém com sede; atravessa deserto, oceanos e depois cai em chuva sobre a terra. A narrativa culmina numa árvore com ninho, folha e um passarinho aflito, num desfecho de utilidade e alívio.",
+  "palette": [
+    "azul suave",
+    "ocre do deserto",
+    "cinzento de nuvem",
+    "verde folha",
+    "castanho de árvore"
+  ],
+  "recurringObjects": [
+    "gota de água",
+    "nuvem",
+    "deserto",
+    "mar",
+    "árvore",
+    "folha",
+    "ninho",
+    "passarinho"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma gota cheia de sede. Não faz sentido, mas acreditem que assim era. Esta gota de água queria matar a sede a alguém que tivesse muita sede. Desejo grande, desejo único que a arredondava mais e mais, e a enchia de fé como um coração palpitante. Mas não havia meio. Cavalgando uma nuvem, correu o deserto, à cata de um viajante sequioso. Não encontrou nenhum.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Gota com Sede».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma gota cheia de sede. Não faz sentido, mas acreditem que assim era. Esta gota de água queria matar a sede a alguém que tivesse muita sede. Desejo grande, desejo único que a arredondava mais e mais, e a enchia de fé como um coração palpitante. Mas não havia meio. Cavalgando uma nuvem, correu o deserto, à cata de um viajante sequioso. Não encontrou nenhum. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "Cavalgando uma nuvem, correu o deserto, à cata de um viajante sequioso. Não encontrou nenhum. Depois, percorreu, por cima dos mares, as ondas revoltas dos oceanos. Talvez um náufrago de boca salgada precisasse dela e da sua ajuda doce. Assim que o visse, ela caía lá do alto e poisava nos lábios do náufrago como uma última bênção. Mas não encontrou nenhum. Queria ser útil. Não conseguia.",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Cavalgando uma nuvem, correu o deserto, à cata de um viajante sequioso. Não encontrou nenhum. Depois, percorreu, por cima dos mares, as ondas revoltas dos oceanos. Talvez um náufrago de boca salgada precisasse dela e da sua ajuda doce. Assim que o visse, ela caía lá do alto e poisava nos lábios do náufrago como uma última bênção. Mas não encontrou nenhum. Queria ser útil. Não conseguia. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p10",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p8",
+        "s0p9",
+        "s0p10"
+      ],
+      "evidence": "– Vou acrescentar água a um rio quase seco. Vou ajudar uma azenha a trabalhar. Vou alimentar uma barragem. Vou empurrar um barco encalhado. Isto diziam várias gotas, todas generosas, enquanto caíam. Se cada uma cumpriu ou não o seu destino, não sabemos, porque nesta história só nos ocupamos da gota com sede de matar a sede.",
+      "after": {
+        "segment": 0,
+        "paragraph": 10
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Vou acrescentar água a um rio quase seco. Vou ajudar uma azenha a trabalhar. Vou alimentar uma barragem. Vou empurrar um barco encalhado. Isto diziam várias gotas, todas generosas, enquanto caíam. Se cada uma cumpriu ou não o seu destino, não sabemos, porque nesta história só nos ocupamos da gota com sede de matar a sede. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p15",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p13",
+        "s0p14",
+        "s0p15"
+      ],
+      "evidence": "A casca de um ovo estalou e um passarinho rompeu, aflito, lá de dentro, de bico aberto, num grito mudo. – Caio – decidiu a gota. Soltou-se da folha para a garganta aberta do passarinho, que a engoliu e, logo em seguida, piou, agradecido.",
+      "after": {
+        "segment": 0,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A casca de um ovo estalou e um passarinho rompeu, aflito, lá de dentro, de bico aberto, num grito mudo. – Caio – decidiu a gota. Soltou-se da folha para a garganta aberta do passarinho, que a engoliu e, logo em seguida, piou, agradecido. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

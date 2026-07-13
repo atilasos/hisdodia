@@ -1,0 +1,128 @@
+{
+  "characters": [
+    {
+      "name": "Velho Mago",
+      "appearance": "an old, forgetful but kind wizard"
+    },
+    {
+      "name": "Raposa",
+      "appearance": "a sly fox"
+    },
+    {
+      "name": "Príncipes",
+      "appearance": "several princes"
+    },
+    {
+      "name": "Galinhas",
+      "appearance": "many chickens"
+    },
+    {
+      "name": "Pintainhos",
+      "appearance": "young chicks"
+    }
+  ],
+  "environment": "A rural magical setting centered on a wizard's house and chicken coop, shifting from calm introduction to comic magical chaos and then a more settled poultry yard.",
+  "palette": [
+    "warm earth tones",
+    "soft cream",
+    "muted green",
+    "moonlit blue",
+    "golden yellow",
+    "rust red"
+  ],
+  "recurringObjects": [
+    "chapéu de mago",
+    "varinha",
+    "capoeira",
+    "galinhas",
+    "pintainhos",
+    "raposa",
+    "palácio",
+    "lua"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um velho Mago, muito famoso. Mago equivale a feiticeiro. Feiticeiro equivale a bruxo. No entanto, este não era dos maus, daqueles que transformam príncipes em sapos ou coisas assim. Durante toda a vida, dera-lhe mais para transformar sapos em príncipes ou coisas parecidas. Era um Mago bom. Mas andava muito esquecido.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O velho mago».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um velho Mago, muito famoso. Mago equivale a feiticeiro. Feiticeiro equivale a bruxo. No entanto, este não era dos maus, daqueles que transformam príncipes em sapos ou coisas assim. Durante toda a vida, dera-lhe mais para transformar sapos em príncipes ou coisas parecidas. Era um Mago bom. Mas andava muito esquecido. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Em vez de fazer aparecer um príncipe, onde estava um sapo, fazia aparecer uma galinha. Depois, a transformação da galinha em príncipe é que era um caso sério. Um processo muito mais complicado. Quase impossível. À conta dos seus enganos, o velho Mago tinha a capoeira cheia.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Em vez de fazer aparecer um príncipe, onde estava um sapo, fazia aparecer uma galinha. Depois, a transformação da galinha em príncipe é que era um caso sério. Um processo muito mais complicado. Quase impossível. À conta dos seus enganos, o velho Mago tinha a capoeira cheia. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Um amigo, que foi visitá-lo, aconselhou-o: - Larga o ofício de Mago e transforma-te em criador de aves. Tens aqui um rico aviário. Pois tinha. Tanto que uma raposa descarada começou a rondar-lhe a capoeira.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um amigo, que foi visitá-lo, aconselhou-o: - Larga o ofício de Mago e transforma-te em criador de aves. Tens aqui um rico aviário. Pois tinha. Tanto que uma raposa descarada começou a rondar-lhe a capoeira. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s6p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p1",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "- Belico, sapetec, arlepic, pic, pic. Sofial! Jeropigue! Cavanica. Obstrúnfio. A raposa fugiu, alarmada, e as galinhas agitaram-se na capoeira, numa desusada excitação. Sucedeu o que parecia quase impossível. A capoeira ficou cheia, a abarrotar de príncipes, todos muito indignados por se encontrarem em lugar tão fora de propósito para tais Altezas.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Belico, sapetec, arlepic, pic, pic. Sofial! Jeropigue! Cavanica. Obstrúnfio. A raposa fugiu, alarmada, e as galinhas agitaram-se na capoeira, numa desusada excitação. Sucedeu o que parecia quase impossível. A capoeira ficou cheia, a abarrotar de príncipes, todos muito indignados por se encontrarem em lugar tão fora de propósito para tais Altezas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s8p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s7p0",
+        "s8p0",
+        "s8p1"
+      ],
+      "evidence": "Saíram os príncipes para os seus respectivos palácios, se é que os tinham, e o velho Mago, muito envergonhado, ficou a remoer mais este engano. Não acertava nem numa única fórmula. Que enervância! E o mais grave é que também se tinha esquecido das palavras mágicas que, infalivelmente, transformam os sapos em galinhas. Sem gemada para o lanche nem omeleta para o jantar, o Mago decidiu seguir o conselho do amigo. Comprou várias dúzias de pintainhos, meteu-os na capoeira vazia e esperou que crescessem.",
+      "after": {
+        "segment": 8,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Saíram os príncipes para os seus respectivos palácios, se é que os tinham, e o velho Mago, muito envergonhado, ficou a remoer mais este engano. Não acertava nem numa única fórmula. Que enervância! E o mais grave é que também se tinha esquecido das palavras mágicas que, infalivelmente, transformam os sapos em galinhas. Sem gemada para o lanche nem omeleta para o jantar, o Mago decidiu seguir o conselho do amigo. Comprou várias dúzias de pintainhos, meteu-os na capoeira vazia e esperou que crescessem. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}
