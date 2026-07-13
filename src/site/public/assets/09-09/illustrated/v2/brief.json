@@ -1,0 +1,125 @@
+{
+  "characters": [
+    {
+      "name": "Dona Clarisse",
+      "appearance": "avó com doçura na voz, ligada à renda e à memória da caixa de música"
+    },
+    {
+      "name": "Mané",
+      "appearance": "irmão mais novo, tranquilo, modesto, o arranjador da família"
+    },
+    {
+      "name": "Mário",
+      "appearance": "neto mais despachado, curioso e falador"
+    },
+    {
+      "name": "Rodrigo",
+      "appearance": "neto que faz perguntas para animar a avó"
+    },
+    {
+      "name": "Miguel",
+      "appearance": "neto entusiasmado, acompanha os outros na reparação"
+    }
+  ],
+  "environment": "Casa de família com sala e quarto, centrada numa merenda de avó e netos, uma mesinha com a caixa de música, cadeirão, renda e atmosfera doméstica antiga.",
+  "palette": [
+    "creme",
+    "castanho mel",
+    "azul suave",
+    "vermelho cereja",
+    "amarelo baunilha",
+    "verde apagado"
+  ],
+  "recurringObjects": [
+    "caixa de música de madeira pintada com flores",
+    "mesinha",
+    "cadeirão",
+    "lata de bolinhos",
+    "renda da avó"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s2p0"
+      ],
+      "evidence": "A merenda decorreu alegremente. Houve bolos, bolinhos e bolachas, compota de cereja e de alperce e leite com chocolate para os netos e chá com leite para a avó. O aparecimento da lata com os bolinhos secos, feitos pela Dona Clarisse, foi recebido com palmas e vivas. - Meninos, tenham compostura - mandava a Dona Clarisse, numa voz com mais açúcar que todos os bolos juntos. O Mário, que era o mais despachado, lembrou-se de qualquer coisa que queria saber e perguntou logo:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A caixa de música da avó Clarisse».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A merenda decorreu alegremente. Houve bolos, bolinhos e bolachas, compota de cereja e de alperce e leite com chocolate para os netos e chá com leite para a avó. O aparecimento da lata com os bolinhos secos, feitos pela Dona Clarisse, foi recebido com palmas e vivas. - Meninos, tenham compostura - mandava a Dona Clarisse, numa voz com mais açúcar que todos os bolos juntos. O Mário, que era o mais despachado, lembrou-se de qualquer coisa que queria saber e perguntou logo: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "O Mário, que era o mais despachado, lembrou-se de qualquer coisa que queria saber e perguntou logo: - Ó avó, para que serve aquela caixa de madeira toda pintada com flores e enfeites que tem um rolo dentro, cheio de dentinhos? - É uma caixa de música, meu neto.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Mário, que era o mais despachado, lembrou-se de qualquer coisa que queria saber e perguntou logo: - Ó avó, para que serve aquela caixa de madeira toda pintada com flores e enfeites que tem um rolo dentro, cheio de dentinhos? - É uma caixa de música, meu neto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Para afastar do rosto da avó aquele ténue véu de tristeza, o Rodrigo perguntou: - Como é que a caixa de música deixou de trabalhar? - Escangalhou-se - respondeu ela. - Escangalhei-a eu, quando era garota. Quis saber como é que trabalhava por dentro. Desmontei-a e nunca mais ninguém conseguiu pô-la a funcionar.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Para afastar do rosto da avó aquele ténue véu de tristeza, o Rodrigo perguntou: - Como é que a caixa de música deixou de trabalhar? - Escangalhou-se - respondeu ela. - Escangalhei-a eu, quando era garota. Quis saber como é que trabalhava por dentro. Desmontei-a e nunca mais ninguém conseguiu pô-la a funcionar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s7p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p0",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "Encadernava livros e reparava cadeiras, ditas de palhinha, mas sem palhinhas. Até parece que estou a fazer propaganda do Mané, de que ele, aliás, não precisa. É um rapaz tranquilo, de silêncios pensativos e de modos arrumados. E muito modesto. Pois foi assim que o Mané, ajudado pelo Rodrigo e pelo Miguel, se pôs a trabalhar na caixa de música, que tinha teias de aranha mais espessas que tecido. Demoraram à volta da caixa o resto do dia. Voltaram no dia seguinte e nem quiseram lanchar. A tarefa era absorvente.",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Encadernava livros e reparava cadeiras, ditas de palhinha, mas sem palhinhas. Até parece que estou a fazer propaganda do Mané, de que ele, aliás, não precisa. É um rapaz tranquilo, de silêncios pensativos e de modos arrumados. E muito modesto. Pois foi assim que o Mané, ajudado pelo Rodrigo e pelo Miguel, se pôs a trabalhar na caixa de música, que tinha teias de aranha mais espessas que tecido. Demoraram à volta da caixa o resto do dia. Voltaram no dia seguinte e nem quiseram lanchar. A tarefa era absorvente. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s10p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s10p0",
+        "s10p1",
+        "s10p2"
+      ],
+      "evidence": "pronto, acabou-se! - Então, avó, gostou? O Mané é um ás, não acha? - perguntava, entusiasmado, o Miguel. Os outros netos estavam calados e ele calou-se também. Dos olhos da avó fugiu uma lágrima, que os lábios, entreabertos num longo sorriso, a si chamaram.",
+      "after": {
+        "segment": 10,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: pronto, acabou-se! - Então, avó, gostou? O Mané é um ás, não acha? - perguntava, entusiasmado, o Miguel. Os outros netos estavam calados e ele calou-se também. Dos olhos da avó fugiu uma lágrima, que os lábios, entreabertos num longo sorriso, a si chamaram. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

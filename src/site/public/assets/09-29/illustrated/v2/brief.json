@@ -1,0 +1,119 @@
+{
+  "characters": [
+    {
+      "name": "rei",
+      "appearance": "monarca obeso e bonacheirão, coroado, em traje real"
+    },
+    {
+      "name": "súbditos",
+      "appearance": "grupo de cortesãos e camponeses, variados, em trajes tradicionais"
+    },
+    {
+      "name": "conselheiros",
+      "appearance": "corte de conselheiros, ministros e generais, atentos e formais"
+    },
+    {
+      "name": "reis vizinhos",
+      "appearance": "monarcas estrangeiros com séquitos, dignos e curiosos"
+    }
+  ],
+  "environment": "Reino próspero de Comilândia, com celeiros cheios, hortas, prados, fontes e sala de banquete palaciana",
+  "palette": [
+    "dourados quentes",
+    "verdes férteis",
+    "azuis claros",
+    "vermelhos cerimoniais",
+    "tons terrosos"
+  ],
+  "recurringObjects": [
+    "coroa",
+    "mesa de banquete",
+    "cestos de colheitas",
+    "cegos celeiros",
+    "fontes"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s2p0"
+      ],
+      "evidence": "Era uma vez um rei que era um grande comilão. Era o rei dos comilões. E como não havia ele de ser o rei, se o reino se chamava Comilândia ou Terra dos Comilões? Empanzinava-se o rei, do pequeno-almoço à ceia, e empanzinavam-se os seus súbditos, em menor quantidade, claro, mas também com fartura, pois então! Era um reino de abundância aquele. Tudo nascia, crescia e dava fruto que era uma admiração. O trigo a abarrotar os celeiros, o gordo gado a pastar nos prados, a água e o vinho a jorrar das fontes, as couves tronchudas a alegrar as hortas, enfim um país de maravilha, um país nunca visto, meus amigos. O que a terra dava chegava e sobrava. E o que sobrava era muito. Se fosse distribuído pelos países vizinhos, que não tinham a mesma sorte da Comilândia, a fartura tocaria a todos, a toda a gente, a todo o Mundo. Mas neste ponto, o rei comilão e rei dos comilões não era do mesmo parecer.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O rei dos comilões».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um rei que era um grande comilão. Era o rei dos comilões. E como não havia ele de ser o rei, se o reino se chamava Comilândia ou Terra dos Comilões? Empanzinava-se o rei, do pequeno-almoço à ceia, e empanzinavam-se os seus súbditos, em menor quantidade, claro, mas também com fartura, pois então! Era um reino de abundância aquele. Tudo nascia, crescia e dava fruto que era uma admiração. O trigo a abarrotar os celeiros, o gordo gado a pastar nos prados, a água e o vinho a jorrar das fontes, as couves tronchudas a alegrar as hortas, enfim um país de maravilha, um país nunca visto, meus amigos. O que a terra dava chegava e sobrava. E o que sobrava era muito. Se fosse distribuído pelos países vizinhos, que não tinham a mesma sorte da Comilândia, a fartura tocaria a todos, a toda a gente, a todo o Mundo. Mas neste ponto, o rei comilão e rei dos comilões não era do mesmo parecer. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0"
+      ],
+      "evidence": "Era uma vez um rei que era um grande comilão. Era o rei dos comilões. E como não havia ele de ser o rei, se o reino se chamava Comilândia ou Terra dos Comilões? Empanzinava-se o rei, do pequeno-almoço à ceia, e empanzinavam-se os seus súbditos, em menor quantidade, claro, mas também com fartura, pois então! Era um reino de abundância aquele. Tudo nascia, crescia e dava fruto que era uma admiração. O trigo a abarrotar os celeiros, o gordo gado a pastar nos prados, a água e o vinho a jorrar das fontes, as couves tronchudas a alegrar as hortas, enfim um país de maravilha, um país nunca visto, meus amigos.",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um rei que era um grande comilão. Era o rei dos comilões. E como não havia ele de ser o rei, se o reino se chamava Comilândia ou Terra dos Comilões? Empanzinava-se o rei, do pequeno-almoço à ceia, e empanzinavam-se os seus súbditos, em menor quantidade, claro, mas também com fartura, pois então! Era um reino de abundância aquele. Tudo nascia, crescia e dava fruto que era uma admiração. O trigo a abarrotar os celeiros, o gordo gado a pastar nos prados, a água e o vinho a jorrar das fontes, as couves tronchudas a alegrar as hortas, enfim um país de maravilha, um país nunca visto, meus amigos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p1",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Ora um dia, estranho dia, aconteceu uma coisa de espantar. Foi o caso que o rei, dirigindo-se para o salão, onde iria tomar o seu pequeno-almoço, perdeu o apetite. Perdeu o rei o apetite, antes de chegar à mesa do banquete, e não conseguiu lembrar-se de onde o teria deixado. - O rei perdeu o apetite - murmuram os conselheiros para os ministros, os ministros para os generais, os generais para os conselheiros, os conselheiros para os ministros, os ministros para os generais, num murmúrio sem fim.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ora um dia, estranho dia, aconteceu uma coisa de espantar. Foi o caso que o rei, dirigindo-se para o salão, onde iria tomar o seu pequeno-almoço, perdeu o apetite. Perdeu o rei o apetite, antes de chegar à mesa do banquete, e não conseguiu lembrar-se de onde o teria deixado. - O rei perdeu o apetite - murmuram os conselheiros para os ministros, os ministros para os generais, os generais para os conselheiros, os conselheiros para os ministros, os ministros para os generais, num murmúrio sem fim. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s9p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s8p1",
+        "s9p0",
+        "s9p1"
+      ],
+      "evidence": "- Nunca! - barafustou o monarca avarento. - Cada um que trate de si. Insistiram os conselheiros, lembrando-lhe, como argumento, que esses bens e alimentos já não eram necessários ao país. Assim conseguiram convencer o rei e logo ali se combinou um encontro entre monarcas vizinhos e o rei, que fora comilão.",
+      "after": {
+        "segment": 9,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Nunca! - barafustou o monarca avarento. - Cada um que trate de si. Insistiram os conselheiros, lembrando-lhe, como argumento, que esses bens e alimentos já não eram necessários ao país. Assim conseguiram convencer o rei e logo ali se combinou um encontro entre monarcas vizinhos e o rei, que fora comilão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s11p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s10p1",
+        "s11p0",
+        "s11p1"
+      ],
+      "evidence": "Houve cerimónias, negociações amigáveis e um grande projecto de distribuição dos excedentes do reino às populações mal alimentadas dos reinos vizinhos. No fim de tudo, um banquete oferecido pelo rei visitado aos reis visitantes assinalou condignamente os contratos de paz. Querem então saber uma coisa? Nesse jantar, pela primeira vez há muito tempo, o rei da Comilândia sentiu crescer-lhe água na boca, ao cheiro dos manjares trazidos para a mesa.",
+      "after": {
+        "segment": 11,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Houve cerimónias, negociações amigáveis e um grande projecto de distribuição dos excedentes do reino às populações mal alimentadas dos reinos vizinhos. No fim de tudo, um banquete oferecido pelo rei visitado aos reis visitantes assinalou condignamente os contratos de paz. Querem então saber uma coisa? Nesse jantar, pela primeira vez há muito tempo, o rei da Comilândia sentiu crescer-lhe água na boca, ao cheiro dos manjares trazidos para a mesa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

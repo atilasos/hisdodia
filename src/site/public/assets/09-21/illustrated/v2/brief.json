@@ -1,0 +1,115 @@
+{
+  "characters": [
+    {
+      "name": "Umbelino",
+      "appearance": "macaco aventureiro, roupa branca de cabeleireiro, depois em fuga e finalmente disfarçado de Tarzan"
+    },
+    {
+      "name": "Sujeito divertido",
+      "appearance": "homem sorridente, atitude trocista"
+    },
+    {
+      "name": "Narrador",
+      "appearance": "voz observadora, sem presença visual"
+    }
+  ],
+  "environment": "cidade com barbearia, rua urbana, loja fechada, depois selva",
+  "palette": [
+    "brancos limpos",
+    "castanhos quentes",
+    "verdes de selva",
+    "vermelhos discretos",
+    "tons neutros urbanos"
+  ],
+  "recurringObjects": [
+    "carta",
+    "bata branca",
+    "letreiro de barbearia",
+    "viola no saco"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "J á há muito tempo que não tinha carta do macaco Umbelino. E andava em cuidados. Como vocês se lembram, o Umbelino é um macaco aventureiro, que, depois de muitas trocas e baldrocas, foi correr mundo, com a viola no saco. Sofreu uns contratempos – num sítio ouviu um senhor dizer: \"Macacos me mordam\" e ele mordeu mesmo... Noutro sítio ouviu contar que uma senhora tinha macaquinhos no sótão e ele foi procurá-los... Desgraças. Pois acabo de receber mais uma carta do Umbelino, com notícias frescas. Calculem que se estabeleceu com uma loja de barbeiro, isto é de cabeleireiro. A história que ele tem para contar começou, há que tempos, numa barbearia, bem podia acabar noutra barbearia. Mas não acabou, como vão ver.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Última Carta do Umbelino».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: J á há muito tempo que não tinha carta do macaco Umbelino. E andava em cuidados. Como vocês se lembram, o Umbelino é um macaco aventureiro, que, depois de muitas trocas e baldrocas, foi correr mundo, com a viola no saco. Sofreu uns contratempos – num sítio ouviu um senhor dizer: \"Macacos me mordam\" e ele mordeu mesmo... Noutro sítio ouviu contar que uma senhora tinha macaquinhos no sótão e ele foi procurá-los... Desgraças. Pois acabo de receber mais uma carta do Umbelino, com notícias frescas. Calculem que se estabeleceu com uma loja de barbeiro, isto é de cabeleireiro. A história que ele tem para contar começou, há que tempos, numa barbearia, bem podia acabar noutra barbearia. Mas não acabou, como vão ver. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s0p4",
+        "s0p5"
+      ],
+      "evidence": "A escolha da nova profissão teve uma origem. De uma vez em que ele andava sem saber as voltas que dar à vida, alguém, por desfastio, lhe dissera: – Vá pentear macacos. E ele foi. \"Umbelino, cabeleireiro de macacos\", lia-se em grandes letras, na portada do estabelecimento. Não tinha grande clientela. Por assim dizer, não tinha nenhuma. Os macacos não gostam de passar por macacos e as pessoas muito menos.",
+      "after": {
+        "segment": 0,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A escolha da nova profissão teve uma origem. De uma vez em que ele andava sem saber as voltas que dar à vida, alguém, por desfastio, lhe dissera: – Vá pentear macacos. E ele foi. \"Umbelino, cabeleireiro de macacos\", lia-se em grandes letras, na portada do estabelecimento. Não tinha grande clientela. Por assim dizer, não tinha nenhuma. Os macacos não gostam de passar por macacos e as pessoas muito menos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p7",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p5",
+        "s0p6",
+        "s0p7"
+      ],
+      "evidence": "E ele foi. \"Umbelino, cabeleireiro de macacos\", lia-se em grandes letras, na portada do estabelecimento. Não tinha grande clientela. Por assim dizer, não tinha nenhuma. Os macacos não gostam de passar por macacos e as pessoas muito menos. Mas, um dia, um sujeito com ar divertido passou pela loja, leu o letreiro, viu o Umbelino à porta, de bata branca, e desatou a rir-se. O macaco Umbelino estranhou a risota e perguntou ao senhor, com muito bons modos, o que se passava. O tal sujeito, entre risadas, só conseguiu responder: – Um macaco cabeleireiro! Mas isso é o fim da macacada.",
+      "after": {
+        "segment": 0,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E ele foi. \"Umbelino, cabeleireiro de macacos\", lia-se em grandes letras, na portada do estabelecimento. Não tinha grande clientela. Por assim dizer, não tinha nenhuma. Os macacos não gostam de passar por macacos e as pessoas muito menos. Mas, um dia, um sujeito com ar divertido passou pela loja, leu o letreiro, viu o Umbelino à porta, de bata branca, e desatou a rir-se. O macaco Umbelino estranhou a risota e perguntou ao senhor, com muito bons modos, o que se passava. O tal sujeito, entre risadas, só conseguiu responder: – Um macaco cabeleireiro! Mas isso é o fim da macacada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p8",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p6",
+        "s0p7",
+        "s0p8"
+      ],
+      "evidence": "Mas, um dia, um sujeito com ar divertido passou pela loja, leu o letreiro, viu o Umbelino à porta, de bata branca, e desatou a rir-se. O macaco Umbelino estranhou a risota e perguntou ao senhor, com muito bons modos, o que se passava. O tal sujeito, entre risadas, só conseguiu responder: – Um macaco cabeleireiro! Mas isso é o fim da macacada. \"O fim da macacada...\", ouviu distintamente o Umbelino. Muito aflito, despiu logo a bata, fechou a loja e desatou a correr. Se era o fim da macacada, o caso dizia-lhe respeito. Foge!",
+      "after": {
+        "segment": 0,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas, um dia, um sujeito com ar divertido passou pela loja, leu o letreiro, viu o Umbelino à porta, de bata branca, e desatou a rir-se. O macaco Umbelino estranhou a risota e perguntou ao senhor, com muito bons modos, o que se passava. O tal sujeito, entre risadas, só conseguiu responder: – Um macaco cabeleireiro! Mas isso é o fim da macacada. \"O fim da macacada...\", ouviu distintamente o Umbelino. Muito aflito, despiu logo a bata, fechou a loja e desatou a correr. Se era o fim da macacada, o caso dizia-lhe respeito. Foge! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p9",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p7",
+        "s0p8",
+        "s0p9"
+      ],
+      "evidence": "– Um macaco cabeleireiro! Mas isso é o fim da macacada. \"O fim da macacada...\", ouviu distintamente o Umbelino. Muito aflito, despiu logo a bata, fechou a loja e desatou a correr. Se era o fim da macacada, o caso dizia-lhe respeito. Foge! Nunca mais o viram na cidade. Conta-me ele, agora, que se refugiou na selva, disfarçado de Tarzan. É assim mesmo que ele assina, numa caligrafia muito macaca – Umbelino Tarzan, o rei dos macacos. Se os outros macacos da tribo consentem, quem sou eu para o contrariar? Mas aqui para nós: Umbelino Tarzan, rei dos macacos, macacos me mordam, mas é mesmo o fim da macacada...",
+      "after": {
+        "segment": 0,
+        "paragraph": 9
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Um macaco cabeleireiro! Mas isso é o fim da macacada. \"O fim da macacada...\", ouviu distintamente o Umbelino. Muito aflito, despiu logo a bata, fechou a loja e desatou a correr. Se era o fim da macacada, o caso dizia-lhe respeito. Foge! Nunca mais o viram na cidade. Conta-me ele, agora, que se refugiou na selva, disfarçado de Tarzan. É assim mesmo que ele assina, numa caligrafia muito macaca – Umbelino Tarzan, o rei dos macacos. Se os outros macacos da tribo consentem, quem sou eu para o contrariar? Mas aqui para nós: Umbelino Tarzan, rei dos macacos, macacos me mordam, mas é mesmo o fim da macacada... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

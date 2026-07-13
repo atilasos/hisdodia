@@ -1,0 +1,136 @@
+{
+  "characters": [
+    {
+      "name": "A lebre Feliciana",
+      "appearance": "Lebre pequena e esperta, com avental de cozinha"
+    },
+    {
+      "name": "O lobo",
+      "appearance": "Lobo grande e guloso, de aspeto ameaçador mas trapalhão"
+    },
+    {
+      "name": "Os dois lobos amigos",
+      "appearance": "Dois lobos esfomeados, semelhantes ao lobo principal"
+    }
+  ],
+  "environment": "Ambiente rural português, com cozinha caseira, caminho íngreme, árvore à sombra e casa de lobos com caldeirão.",
+  "palette": [
+    "Tons quentes e terrosos",
+    "Verdes naturais",
+    "Castanhos de bosque",
+    "Amarelos de palha",
+    "Cinzentos de lobo"
+  ],
+  "recurringObjects": [
+    "bolo",
+    "saco",
+    "avental",
+    "tesoura",
+    "agulha",
+    "dedal",
+    "pedra",
+    "caldeirão"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "A lebre Feliciana estava a fazer um bolo, um bolo mesmo apetitoso, com erva-doce e outros preparos, que a gente não sabe, porque não conhece a receita. Destinava-se o bolo a uma festa que a lebre Feliciana ia dar, no dia seguinte, a outras lebres e coelhos seus vizinhos. Mas quem apareceu primeiro e sem ser convidado foi o lobo.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A lebre Feliciana e o lobo glutão».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A lebre Feliciana estava a fazer um bolo, um bolo mesmo apetitoso, com erva-doce e outros preparos, que a gente não sabe, porque não conhece a receita. Destinava-se o bolo a uma festa que a lebre Feliciana ia dar, no dia seguinte, a outras lebres e coelhos seus vizinhos. Mas quem apareceu primeiro e sem ser convidado foi o lobo. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "A lebre Feliciana estava a fazer um bolo, um bolo mesmo apetitoso, com erva-doce e outros preparos, que a gente não sabe, porque não conhece a receita. Destinava-se o bolo a uma festa que a lebre Feliciana ia dar, no dia seguinte, a outras lebres e coelhos seus vizinhos. Mas quem apareceu primeiro e sem ser convidado foi o lobo.",
+      "after": {
+        "segment": 0,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A lebre Feliciana estava a fazer um bolo, um bolo mesmo apetitoso, com erva-doce e outros preparos, que a gente não sabe, porque não conhece a receita. Destinava-se o bolo a uma festa que a lebre Feliciana ia dar, no dia seguinte, a outras lebres e coelhos seus vizinhos. Mas quem apareceu primeiro e sem ser convidado foi o lobo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "A lebre ainda tentou fugir à questão: - Ó senhor lobo, coma antes este lindo bolo, que eu guardei para vossa mercê. - Está bem - concordou o lobo. - Desta vez, começo pela sobremesa.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A lebre ainda tentou fugir à questão: - Ó senhor lobo, coma antes este lindo bolo, que eu guardei para vossa mercê. - Está bem - concordou o lobo. - Desta vez, começo pela sobremesa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "E, em duas dentadas, comeu o bolo. - Agora, que já não tenho apetite, vou guardar-te para o jantar - disse o lobo, metendo a lebre num saco. - Tenho visitas lá em casa, que hão-de apreciar este pitéu. Pôs o saco ao ombro e abalou.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E, em duas dentadas, comeu o bolo. - Agora, que já não tenho apetite, vou guardar-te para o jantar - disse o lobo, metendo a lebre num saco. - Tenho visitas lá em casa, que hão-de apreciar este pitéu. Pôs o saco ao ombro e abalou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Dentro do saco, a lebre pôs-se a vasculhar no avental que tinha posto para fazer o bolo e encontrou uma tesoura, uma agulha e um dedal. \"Espera, que já te arranjo, lobo lambão, glutão e paspalhão\", murmurou a lebre. Com a tesoura abriu uma fenda no saco, depois foi buscar uma grande pedra, meteu-a no saco e com a agulha e o dedal voltou a fechar o saco. E fugiu.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Dentro do saco, a lebre pôs-se a vasculhar no avental que tinha posto para fazer o bolo e encontrou uma tesoura, uma agulha e um dedal. \"Espera, que já te arranjo, lobo lambão, glutão e paspalhão\", murmurou a lebre. Com a tesoura abriu uma fenda no saco, depois foi buscar uma grande pedra, meteu-a no saco e com a agulha e o dedal voltou a fechar o saco. E fugiu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s6p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p3",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "Quando a água estava a ferver, os lobos despejaram o saco na panela. A pedra caiu, fez saltar a água em volta e os lobos - Ai! Ai! Ai! - queimaram-se. Depois, os dois lobos visitantes, julgando que tinha sido uma partida armada pelo lobo dono da casa, atiraram-se a ele e desancaram-no. Ficou o lobo em muito mau estado.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando a água estava a ferver, os lobos despejaram o saco na panela. A pedra caiu, fez saltar a água em volta e os lobos - Ai! Ai! Ai! - queimaram-se. Depois, os dois lobos visitantes, julgando que tinha sido uma partida armada pelo lobo dono da casa, atiraram-se a ele e desancaram-no. Ficou o lobo em muito mau estado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

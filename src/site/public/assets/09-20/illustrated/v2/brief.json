@@ -1,0 +1,114 @@
+{
+  "characters": [
+    {
+      "name": "Joca",
+      "appearance": "Menino em idade escolar, curioso e sonhador, com giz na mão e depois dentro do seu próprio desenho."
+    },
+    {
+      "name": "Professora",
+      "appearance": "Figura de professora que chega à sala no momento em que a aula começa."
+    }
+  ],
+  "environment": "Sala de aula com quadro de giz que se transforma num cenário de férias desenhado, incluindo praia, mar, piscina, esplanada, pinheiros, piquenique na serra e uma casa ao fundo, com passagem gradual para o outono e o regresso à escola.",
+  "palette": [
+    "azul-marinho",
+    "azul-claro",
+    "areia",
+    "branco-giz",
+    "verde-pinheiro",
+    "laranja-outono"
+  ],
+  "recurringObjects": [
+    "quadro de giz",
+    "giz",
+    "bola",
+    "piscina",
+    "casa ao fundo",
+    "campainha da escola"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Vejam lá para o que lhe deu! No primeiro dia de aulas, antes de a professora chegar, o Joca foi para o quadro fazer desenhos. Pegou no giz, suspirou fundo e pôs-se a desenhar o que lhe vinha à ideia. E o que lhe vinha à ideia?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Desenhos a giz».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Vejam lá para o que lhe deu! No primeiro dia de aulas, antes de a professora chegar, o Joca foi para o quadro fazer desenhos. Pegou no giz, suspirou fundo e pôs-se a desenhar o que lhe vinha à ideia. E o que lhe vinha à ideia? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Ora! A praia, o mar, os toldos, a piscina, a esplanada, os pinheiros, a bola a saltar, aquele piquenique na serra, enfim, o tempo bom das férias, tudo o que lhe lembrava as férias, que tinham acabado tão depressa. O Joca suspirou de novo. Estava na aula, diante do quadro, diante do seu desenho das férias.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ora! A praia, o mar, os toldos, a piscina, a esplanada, os pinheiros, a bola a saltar, aquele piquenique na serra, enfim, o tempo bom das férias, tudo o que lhe lembrava as férias, que tinham acabado tão depressa. O Joca suspirou de novo. Estava na aula, diante do quadro, diante do seu desenho das férias. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Felizmente que a professora tardava a chegar... Mas a olhar para o seu desenho com tanta coisa dentro, mesmo assim parecia que faltava nem ele bem sabia o quê. Que seria, que não seria? Quando não se sabe, o melhor é indagar. Ir ver de perto. Foi o que o Joca fez. Saltou para dentro do quadro.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Felizmente que a professora tardava a chegar... Mas a olhar para o seu desenho com tanta coisa dentro, mesmo assim parecia que faltava nem ele bem sabia o quê. Que seria, que não seria? Quando não se sabe, o melhor é indagar. Ir ver de perto. Foi o que o Joca fez. Saltou para dentro do quadro. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s4p0"
+      ],
+      "evidence": "Cá temos o Joca no meio do seu desenho. Passou pela praia, molhou os pés nas ondas baixinhas, andou por aqui e por ali e, já cansado de estar sozinho, subiu até uma casa ao fundo, uma casa muito bonita, por sinal. Foi subindo pelo quadro adiante... Passou pela piscina vazia. Passou pela esplanada sem ninguém. Passou pela clareira do piquenique desabrigada... Passou por todas as recordações das férias, que o ventinho do Outono começava a varrer. Até podemos confessar que o Joca sentiu um poucochinho de frio, e assim uma vontade de se abrigar, de se acolher a uma casa, onde o frio não chegasse. Ah! Mas aproximava-se da tal casa.",
+      "after": {
+        "segment": 4,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Cá temos o Joca no meio do seu desenho. Passou pela praia, molhou os pés nas ondas baixinhas, andou por aqui e por ali e, já cansado de estar sozinho, subiu até uma casa ao fundo, uma casa muito bonita, por sinal. Foi subindo pelo quadro adiante... Passou pela piscina vazia. Passou pela esplanada sem ninguém. Passou pela clareira do piquenique desabrigada... Passou por todas as recordações das férias, que o ventinho do Outono começava a varrer. Até podemos confessar que o Joca sentiu um poucochinho de frio, e assim uma vontade de se abrigar, de se acolher a uma casa, onde o frio não chegasse. Ah! Mas aproximava-se da tal casa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p1",
+        "s5p2",
+        "s5p3"
+      ],
+      "evidence": "Vejam afinal como são as coisas. A casa era uma escola e, na escola, havia um lugar à espera do Joca. Tocava a campainha para o começo das aulas. Que ninguém se admire. Estamos no tempo delas. E o Joca não se admirou.",
+      "after": {
+        "segment": 5,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Vejam afinal como são as coisas. A casa era uma escola e, na escola, havia um lugar à espera do Joca. Tocava a campainha para o começo das aulas. Que ninguém se admire. Estamos no tempo delas. E o Joca não se admirou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

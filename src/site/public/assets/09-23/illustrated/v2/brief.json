@@ -1,0 +1,112 @@
+{
+  "characters": [
+    {
+      "name": "gafanhoto",
+      "appearance": "gafanhoto aventureiro, energico, em salto continuo"
+    },
+    {
+      "name": "gafanhota",
+      "appearance": "gafanhota cansada no inicio, depois mais decidida e esperancosa"
+    }
+  ],
+  "environment": "Percurso amplo e mutavel de uma volta ao mundo, com espacos de viagem, separacao, espera e reencontro, culminando junto da Esfinge no Egipto.",
+  "palette": [
+    "verdes secos",
+    "ocres",
+    "amarelo queimado",
+    "azul poeirento",
+    "bege areia"
+  ],
+  "recurringObjects": [
+    "saltos",
+    "caniço",
+    "Esfinge",
+    "piramides",
+    "hastes de erva"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era um casal de gafanhotos. Ele tinha repentes de aventureiro. Ela não tanto. – Vamos dar a volta ao mundo, mulher – dizia o gafanhoto. – Demorará muito, homem? – perguntava a gafanhota.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Casal de Gafanhotos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era um casal de gafanhotos. Ele tinha repentes de aventureiro. Ela não tanto. – Vamos dar a volta ao mundo, mulher – dizia o gafanhoto. – Demorará muito, homem? – perguntava a gafanhota. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "s2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "– Demorará muito, homem? – perguntava a gafanhota. – Vamos e vimos, num salto. Mas não era bem assim. Tiveram de dar muitos saltos, uns a seguir aos outros, sem que chegassem sequer a sítio que se visse.",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Demorará muito, homem? – perguntava a gafanhota. – Vamos e vimos, num salto. Mas não era bem assim. Tiveram de dar muitos saltos, uns a seguir aos outros, sem que chegassem sequer a sítio que se visse. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "s3",
+      "evidenceRef": "s0p13",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p11",
+        "s0p12",
+        "s0p13"
+      ],
+      "evidence": "– Quando tornar da volta ao mundo, encontro-a – dizia o gafanhoto. E continuou a sua sobressaltada viagem. A gafanhota, derreadinha, pendurou-se numa haste de caniço e esperou. Esperou que tempos. Ai que tempos, ai que tempos, ai que tempos...",
+      "after": {
+        "segment": 0,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Quando tornar da volta ao mundo, encontro-a – dizia o gafanhoto. E continuou a sua sobressaltada viagem. A gafanhota, derreadinha, pendurou-se numa haste de caniço e esperou. Esperou que tempos. Ai que tempos, ai que tempos, ai que tempos... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "s4",
+      "evidenceRef": "s0p31",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p29",
+        "s0p30",
+        "s0p31"
+      ],
+      "evidence": "O gafanhoto sonolento cabeceava, quando uma voz conhecida o despertou de vez. – Ai o meu gafanhoto querido! Quem se quer bem sempre se encontra... Claro que era a gafanhota. Fizeram uma grande festa um ao outro, na cabeça da Esfinge, e depois puseram-se a trocar impressões. Perguntava o gafanhoto para a gafanhota:",
+      "after": {
+        "segment": 0,
+        "paragraph": 31
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O gafanhoto sonolento cabeceava, quando uma voz conhecida o despertou de vez. – Ai o meu gafanhoto querido! Quem se quer bem sempre se encontra... Claro que era a gafanhota. Fizeram uma grande festa um ao outro, na cabeça da Esfinge, e depois puseram-se a trocar impressões. Perguntava o gafanhoto para a gafanhota: Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "s5",
+      "evidenceRef": "s0p40",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p38",
+        "s0p39",
+        "s0p40"
+      ],
+      "evidence": "Sem sucesso. Já o gafanhoto saltava, de pernas elásticas, como se a histótia agora tivesse começado. – Anda, mulher. Não te atrases – gritava-lhe. E lá foi ele a saltar, à frente.",
+      "after": {
+        "segment": 0,
+        "paragraph": 40
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Sem sucesso. Já o gafanhoto saltava, de pernas elásticas, como se a histótia agora tivesse começado. – Anda, mulher. Não te atrases – gritava-lhe. E lá foi ele a saltar, à frente. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

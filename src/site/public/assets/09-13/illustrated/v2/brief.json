@@ -1,0 +1,108 @@
+{
+  "characters": [],
+  "environment": "Portuguese children's story with an 18th-century court and hunting-party setting",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era um enfatuado. No tempo em que esta história aconteceu, havia luxuosas carruagens, fidalgos empertigados que nelas se passeavam, grandes chapéus emplumados, fatos rendados e folhudos, cabeleiras com muitos caracóis... Eram uns tempos também muito enfatuados. Por isso os sujeitos enfatuados que viviam nesses tempos enfatuados ainda pareciam mais enfatuados do que se vivessem em tempos menos enfatuados. Estão a acompanhar-me?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O barrete emplumado do embaixador enfatuado».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era um enfatuado. No tempo em que esta história aconteceu, havia luxuosas carruagens, fidalgos empertigados que nelas se passeavam, grandes chapéus emplumados, fatos rendados e folhudos, cabeleiras com muitos caracóis... Eram uns tempos também muito enfatuados. Por isso os sujeitos enfatuados que viviam nesses tempos enfatuados ainda pareciam mais enfatuados do que se vivessem em tempos menos enfatuados. Estão a acompanhar-me? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s4p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s4p0"
+      ],
+      "evidence": "No capítulo das comparações é que a emproada personagem era de uma arrogância de meter raiva aos mais pacientes. - O quê? O vosso palácio real tem só quarenta salas e salões? - espantava-se, com espalhafato, o espaventoso espanador, perdão!, embaixador. - Pois fiquem sabendo que o mais modesto dos palácios do meu real senhor tem mais de quatrocentos salões. Vejam a diferença.",
+      "after": {
+        "segment": 4,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No capítulo das comparações é que a emproada personagem era de uma arrogância de meter raiva aos mais pacientes. - O quê? O vosso palácio real tem só quarenta salas e salões? - espantava-se, com espalhafato, o espaventoso espanador, perdão!, embaixador. - Pois fiquem sabendo que o mais modesto dos palácios do meu real senhor tem mais de quatrocentos salões. Vejam a diferença. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s9p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s8p2",
+        "s9p0",
+        "s9p1"
+      ],
+      "evidence": "Enjoado, como convinha, o embaixador compareceu, vestido a rigor. Em vez de chapéu, trazia na cabeça, como de costume, um barrete, enfeitado com uma enorme pluma de falcão. Parece que era moda, lá na terra dele. Logo, por sinal, a caçada era com falcão.",
+      "after": {
+        "segment": 9,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Enjoado, como convinha, o embaixador compareceu, vestido a rigor. Em vez de chapéu, trazia na cabeça, como de costume, um barrete, enfeitado com uma enorme pluma de falcão. Parece que era moda, lá na terra dele. Logo, por sinal, a caçada era com falcão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s11p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s10p1",
+        "s11p0",
+        "s11p1"
+      ],
+      "evidence": "A ave disparou pelo ar fora. Ia despenhar-se de bico em riste sobre a presa. Mas, desta vez, diante do séquito atónito, a caça visada pelo falcão foi outra. Qual? O barrete do embaixador fedúncio. Teria implicado com a pena? Não se chegou a saber. O falcão arrebatou o barrete e ergueu-o nos ares, tão veloz como descera.",
+      "after": {
+        "segment": 11,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A ave disparou pelo ar fora. Ia despenhar-se de bico em riste sobre a presa. Mas, desta vez, diante do séquito atónito, a caça visada pelo falcão foi outra. Qual? O barrete do embaixador fedúncio. Teria implicado com a pena? Não se chegou a saber. O falcão arrebatou o barrete e ergueu-o nos ares, tão veloz como descera. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s13p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s12p1",
+        "s13p0",
+        "s13p1"
+      ],
+      "evidence": "Passadas umas voltas pelo céu, o falcão terá reconsiderado e, aparentemente arrependido do desaforo, regressou à comitiva. De barrete no bico, voltejou à roda dos ombros do atordoado embaixador e, mais diplomata do que o cavalheiro nunca fora, restituiu o cogumelo aonde ele pertencia. Ficou o barrete um pouco à banda, mas, depois de tanta habilidade, não se pode exigir mais perícia a um falcão. De seguida, voou de novo, colhendo no ar o eco dos aplausos do séquito real.",
+      "after": {
+        "segment": 13,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Passadas umas voltas pelo céu, o falcão terá reconsiderado e, aparentemente arrependido do desaforo, regressou à comitiva. De barrete no bico, voltejou à roda dos ombros do atordoado embaixador e, mais diplomata do que o cavalheiro nunca fora, restituiu o cogumelo aonde ele pertencia. Ficou o barrete um pouco à banda, mas, depois de tanta habilidade, não se pode exigir mais perícia a um falcão. De seguida, voou de novo, colhendo no ar o eco dos aplausos do séquito real. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s15p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s14p2",
+        "s15p0",
+        "s15p1"
+      ],
+      "evidence": "- Aquilo a que assistimos, meu caro embaixador, parece uma fábula. O falcão tanto podia ter arrancado a minha coroa como o seu barrete. Que nenhum sinal de dignidade e de grandeza se julgue eterno! A importância dos reinos e dos impérios é um vai-e-vem. Qualquer golpe de asa e... vão ao ar! O embaixador alisava, exasperado, a pena do barrete. Nunca sofrera um vexame assim. Mas fazer queixa de quem?",
+      "after": {
+        "segment": 15,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Aquilo a que assistimos, meu caro embaixador, parece uma fábula. O falcão tanto podia ter arrancado a minha coroa como o seu barrete. Que nenhum sinal de dignidade e de grandeza se julgue eterno! A importância dos reinos e dos impérios é um vai-e-vem. Qualquer golpe de asa e... vão ao ar! O embaixador alisava, exasperado, a pena do barrete. Nunca sofrera um vexame assim. Mas fazer queixa de quem? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

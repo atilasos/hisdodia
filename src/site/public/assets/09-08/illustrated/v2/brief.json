@@ -1,0 +1,121 @@
+{
+  "characters": [
+    {
+      "name": "homem muito rico",
+      "appearance": "homem romano idoso, bem vestido, postura altiva, expressão vaidosa"
+    },
+    {
+      "name": "governante do palácio",
+      "appearance": "administrador romano atarefado, aparência subalterna, postura servil"
+    },
+    {
+      "name": "escravos inteligentes",
+      "appearance": "grupo de jovens e adultos romanos, roupa simples, expressão concentrada, cada um ligado a um livro decorado"
+    },
+    {
+      "name": "poetas e escritores",
+      "appearance": "convidados cultos em vestes romanas, atitude observadora e crítica"
+    }
+  ],
+  "environment": "Roma antiga, com palácio luxuoso, salão de banquete, pátio interior e atmosfera de ostentação intelectual",
+  "palette": [
+    "ocre",
+    "terracota",
+    "marfim",
+    "verde escuro",
+    "azul profundo",
+    "ouro envelhecido"
+  ],
+  "recurringObjects": [
+    "mãos a bater palmas",
+    "rolos e livros",
+    "triclínio e banquetas romanas",
+    "arquitetura de mármore",
+    "grupo de escravos em disposição cerimonial"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era uma vez, na Roma antiga, um homem muito rico, que gostava de exibir a sua riqueza em festas fabulosas. Mas havia um inconveniente. Como o ricaço tivesse pouca instrução, com dificuldade acompanhava as conversas dos seus convidados, que apreciavam falar de literatura e de outros assuntos desenvolvidos em livros, que ele desconhecia. Apercebendo-se disso, ordenou ao governante do seu palácio que escolhesse uns tantos escravos inteligentes e de boa memória. Para quê? Para obrigar cada um deles a decorar um livro. Queria assim provar que os livros eram dispensáveis, desde que se dispusesse de escravos capazes de os saber de cor e salteado.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A biblioteca viva».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez, na Roma antiga, um homem muito rico, que gostava de exibir a sua riqueza em festas fabulosas. Mas havia um inconveniente. Como o ricaço tivesse pouca instrução, com dificuldade acompanhava as conversas dos seus convidados, que apreciavam falar de literatura e de outros assuntos desenvolvidos em livros, que ele desconhecia. Apercebendo-se disso, ordenou ao governante do seu palácio que escolhesse uns tantos escravos inteligentes e de boa memória. Para quê? Para obrigar cada um deles a decorar um livro. Queria assim provar que os livros eram dispensáveis, desde que se dispusesse de escravos capazes de os saber de cor e salteado. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s2p0"
+      ],
+      "evidence": "Como o ricaço tivesse pouca instrução, com dificuldade acompanhava as conversas dos seus convidados, que apreciavam falar de literatura e de outros assuntos desenvolvidos em livros, que ele desconhecia. Apercebendo-se disso, ordenou ao governante do seu palácio que escolhesse uns tantos escravos inteligentes e de boa memória. Para quê? Para obrigar cada um deles a decorar um livro. Queria assim provar que os livros eram dispensáveis, desde que se dispusesse de escravos capazes de os saber de cor e salteado. A aprendizagem dos escravos demorou, mas ao fim de algum tempo este homem muito rico podia orgulhar-se de possuir a única biblioteca viva de todo o Império romano.",
+      "after": {
+        "segment": 2,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Como o ricaço tivesse pouca instrução, com dificuldade acompanhava as conversas dos seus convidados, que apreciavam falar de literatura e de outros assuntos desenvolvidos em livros, que ele desconhecia. Apercebendo-se disso, ordenou ao governante do seu palácio que escolhesse uns tantos escravos inteligentes e de boa memória. Para quê? Para obrigar cada um deles a decorar um livro. Queria assim provar que os livros eram dispensáveis, desde que se dispusesse de escravos capazes de os saber de cor e salteado. A aprendizagem dos escravos demorou, mas ao fim de algum tempo este homem muito rico podia orgulhar-se de possuir a única biblioteca viva de todo o Império romano. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "De uma vez, estava o homem muito rico à conversa com alguns poetas e escritores, e quis embasbacá-los. - Conheço uma passagem da \"Ilíada\", que vem a propósito do que estávamos a conversar - disse ele, enquanto batia palmas - Chamem o \"Ilíada\". Mas o escravo que sabia a \"Ilíada\" não apareceu.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: De uma vez, estava o homem muito rico à conversa com alguns poetas e escritores, e quis embasbacá-los. - Conheço uma passagem da \"Ilíada\", que vem a propósito do que estávamos a conversar - disse ele, enquanto batia palmas - Chamem o \"Ilíada\". Mas o escravo que sabia a \"Ilíada\" não apareceu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "- Que se passa? - perguntou o homem muito rico, estranhando a demora. O governante do palácio, aflito, ajoelhou-se aos pés do seu exigente patrão e balbuciou: - Perdoai-me, senhor, mas o \"Ilíada\" está com dores de barriga.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Que se passa? - perguntou o homem muito rico, estranhando a demora. O governante do palácio, aflito, ajoelhou-se aos pés do seu exigente patrão e balbuciou: - Perdoai-me, senhor, mas o \"Ilíada\" está com dores de barriga. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p1",
+        "s5p2",
+        "s6p0"
+      ],
+      "evidence": "O governante do palácio, aflito, ajoelhou-se aos pés do seu exigente patrão e balbuciou: - Perdoai-me, senhor, mas o \"Ilíada\" está com dores de barriga. Parece que foi a partir deste incidente que o homem muito rico se resolveu a ganhar instrução pelos seus próprios meios.",
+      "after": {
+        "segment": 6,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O governante do palácio, aflito, ajoelhou-se aos pés do seu exigente patrão e balbuciou: - Perdoai-me, senhor, mas o \"Ilíada\" está com dores de barriga. Parece que foi a partir deste incidente que o homem muito rico se resolveu a ganhar instrução pelos seus próprios meios. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

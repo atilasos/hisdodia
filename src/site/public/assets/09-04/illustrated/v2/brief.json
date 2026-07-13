@@ -1,0 +1,115 @@
+{
+  "characters": [
+    {
+      "name": "O príncipe",
+      "appearance": "Homem jovem de postura altiva, expressão severa, roupa principesca antiga, presença autoritária e desagradável"
+    },
+    {
+      "name": "Os camponeses",
+      "appearance": "Grupo de aldeões simples, roupa rural, rostos cansados pela seca, atitude respeitosa mas desconfiada"
+    },
+    {
+      "name": "O dono da figueira",
+      "appearance": "Camponês mais velho, porte digno, ligado à figueira, expressão cordial e depois divertida"
+    }
+  ],
+  "environment": "Aldeia portuguesa rural em tempo de seca, com largo cerimonial simples, figueira, pelourinho e ambiente de corte itinerante",
+  "palette": [
+    "ocres secos",
+    "castanhos terrosos",
+    "verdes poeirentos",
+    "azuis desbotados",
+    "toques de roxo e vermelho principesco"
+  ],
+  "recurringObjects": [
+    "travessa de figos",
+    "folhas de parra",
+    "pelourinho",
+    "comitiva principesca"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Conta-se que havia um príncipe que era muito ruim. Irmão do rei e sempre destinado a príncipe toda a vida, terá sofrido sempre dessa comichão na alma, a que se chama inveja. Também queria reinar, mas nunca reinou. Bem feito! Mesmo assim, mandava o que podia. E mandava mal. O povo, já se vê, não engraçava com ele. Temia-o muito, mas não o amava nem um bocadinho. Mais uma vez, bem feito!",
+      "after": null,
+      "alt": "Ilustração de abertura da história «De mal a menos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Conta-se que havia um príncipe que era muito ruim. Irmão do rei e sempre destinado a príncipe toda a vida, terá sofrido sempre dessa comichão na alma, a que se chama inveja. Também queria reinar, mas nunca reinou. Bem feito! Mesmo assim, mandava o que podia. E mandava mal. O povo, já se vê, não engraçava com ele. Temia-o muito, mas não o amava nem um bocadinho. Mais uma vez, bem feito! Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "- Talvez seja mais acertado oferecer-lhe um cesto de melões, dos poucos sãos que restaram da seca. - É um grande risco. Podem não ser doces - considerou um dos homens da terra. - Cá por mim dava-lhe uma travessa de figos. Os da minha figueira nunca me deixaram ficar mal. Todos acabaram por concordar.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Talvez seja mais acertado oferecer-lhe um cesto de melões, dos poucos sãos que restaram da seca. - É um grande risco. Podem não ser doces - considerou um dos homens da terra. - Cá por mim dava-lhe uma travessa de figos. Os da minha figueira nunca me deixaram ficar mal. Todos acabaram por concordar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s5p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p2",
+        "s4p0",
+        "s5p0"
+      ],
+      "evidence": "Todos acabaram por concordar. O príncipe chegou, muito emproado, e uma deputação dos camponeses da aldeia, chefiada pelo dono da figueira, veio recebê-lo no largo, singelamente enfeitado para a cerimónia. Depois de proferidas umas palavras de boas-vindas, onde também se referia o esgotamento das águas, que empobrecera os campos, o dono da figueira entregou o presente ao príncipe, avisando-o que pouco era, mas dado com boa vontade.",
+      "after": {
+        "segment": 5,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Todos acabaram por concordar. O príncipe chegou, muito emproado, e uma deputação dos camponeses da aldeia, chefiada pelo dono da figueira, veio recebê-lo no largo, singelamente enfeitado para a cerimónia. Depois de proferidas umas palavras de boas-vindas, onde também se referia o esgotamento das águas, que empobrecera os campos, o dono da figueira entregou o presente ao príncipe, avisando-o que pouco era, mas dado com boa vontade. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s7p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s7p0",
+        "s7p1",
+        "s7p2"
+      ],
+      "evidence": "E o príncipe, possuído por uma grande cólera, mandou amarrar o camponês, que o presenteara, ao pelourinho do largo. - Agora, guardas, atirem-lhe com os figos, sem escapar um. Os guardas obedeceram. Cumprida a tarefa, a principesca comitiva abandonou a aldeia, sem um gesto de despedida.",
+      "after": {
+        "segment": 7,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E o príncipe, possuído por uma grande cólera, mandou amarrar o camponês, que o presenteara, ao pelourinho do largo. - Agora, guardas, atirem-lhe com os figos, sem escapar um. Os guardas obedeceram. Cumprida a tarefa, a principesca comitiva abandonou a aldeia, sem um gesto de despedida. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s10p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s9p1",
+        "s10p0",
+        "s10p1"
+      ],
+      "evidence": "- Então, fizeram-te esta malvadez e tu ris-te? - estranhavam, à volta. Quando o dono da figueira conseguiu suster o riso, explicou: - Estou muito feliz, apesar de tudo. Calculem vocês se, em vez dos figos, lhe tínhamos oferecido as pinhas ou os melões?",
+      "after": {
+        "segment": 10,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Então, fizeram-te esta malvadez e tu ris-te? - estranhavam, à volta. Quando o dono da figueira conseguiu suster o riso, explicou: - Estou muito feliz, apesar de tudo. Calculem vocês se, em vez dos figos, lhe tínhamos oferecido as pinhas ou os melões? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

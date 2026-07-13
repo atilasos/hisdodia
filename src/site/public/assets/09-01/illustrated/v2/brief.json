@@ -1,0 +1,102 @@
+{
+  "characters": [],
+  "environment": "Africana e hotel elegante",
+  "palette": [
+    "vermelho-escuro",
+    "dourado",
+    "verde-selva",
+    "creme",
+    "preto"
+  ],
+  "recurringObjects": [
+    "viola",
+    "casaca",
+    "tabuleiro",
+    "conta do jantar"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Vocês conhecem a história daquele macaco que do rabo fez navalha, da navalha fez sardinha, da sardinha fez farinha, da farinha fez menina, da menina fez viola, frum-frum-frum e foi para Angola? Claro que conhecem. Pois o macaco mariola, que por sinal se chama Umbelino, escreveu-me há tempos, a dar notícias. E que notícias! As aventuras por que ele tem passado davam um filme. Para já, soube que não se tinha ficado por Angola.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O macaco Umbelino».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Vocês conhecem a história daquele macaco que do rabo fez navalha, da navalha fez sardinha, da sardinha fez farinha, da farinha fez menina, da menina fez viola, frum-frum-frum e foi para Angola? Claro que conhecem. Pois o macaco mariola, que por sinal se chama Umbelino, escreveu-me há tempos, a dar notícias. E que notícias! As aventuras por que ele tem passado davam um filme. Para já, soube que não se tinha ficado por Angola. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Pois o macaco mariola, que por sinal se chama Umbelino, escreveu-me há tempos, a dar notícias. E que notícias! As aventuras por que ele tem passado davam um filme. Para já, soube que não se tinha ficado por Angola. Andou a conhecer o resto de África, não como turista, mas como macaco. Macacos é o que mais há em África, embora com viola às costas, pelo meio da selva, não seja muito frequente.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Pois o macaco mariola, que por sinal se chama Umbelino, escreveu-me há tempos, a dar notícias. E que notícias! As aventuras por que ele tem passado davam um filme. Para já, soube que não se tinha ficado por Angola. Andou a conhecer o resto de África, não como turista, mas como macaco. Macacos é o que mais há em África, embora com viola às costas, pelo meio da selva, não seja muito frequente. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p1",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Andou a conhecer o resto de África, não como turista, mas como macaco. Macacos é o que mais há em África, embora com viola às costas, pelo meio da selva, não seja muito frequente. Talvez tenha sido por isso, para não dar nas vistas, que ele abandonou a música. E, ao fim de calcorrear muita terra, empregou-se, já não sei onde, como criado de mesa. De casaca lustrosa, calças de risquinha, muito bem vincadas, meias de seda e sapatos de polimento, o macaco Umbelino era um criado de mesa impecável.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Andou a conhecer o resto de África, não como turista, mas como macaco. Macacos é o que mais há em África, embora com viola às costas, pelo meio da selva, não seja muito frequente. Talvez tenha sido por isso, para não dar nas vistas, que ele abandonou a música. E, ao fim de calcorrear muita terra, empregou-se, já não sei onde, como criado de mesa. De casaca lustrosa, calças de risquinha, muito bem vincadas, meias de seda e sapatos de polimento, o macaco Umbelino era um criado de mesa impecável. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p0",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Não fosse ele tão bem mandado, que talvez ainda hoje estivesse a servir no mesmo hotel, como chefe de mesa, sabe-se lá... Mas calculem que, um dia, ouviu um cliente, a quem acabara de entregar a conta do jantar, dizer, muito espantado com o preço: - Este dinheiro todo por uma comida fria e sem graça, em que mal toquei. Parece impossível. Macacos me mordam, se percebo isto.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não fosse ele tão bem mandado, que talvez ainda hoje estivesse a servir no mesmo hotel, como chefe de mesa, sabe-se lá... Mas calculem que, um dia, ouviu um cliente, a quem acabara de entregar a conta do jantar, dizer, muito espantado com o preço: - Este dinheiro todo por uma comida fria e sem graça, em que mal toquei. Parece impossível. Macacos me mordam, se percebo isto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p1",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "- Este dinheiro todo por uma comida fria e sem graça, em que mal toquei. Parece impossível. Macacos me mordam, se percebo isto. O Umbelino, que era macaco e obediente, ao ouvir aquilo dos macacos me mordam, mordeu. Foi o cliente tratar-se ao hospital e foi ele posto na rua. E depois? Depois, um dia destes, conto mais histórias do macaco Umbelino. Ele, de vez em quando, escreve-me.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Este dinheiro todo por uma comida fria e sem graça, em que mal toquei. Parece impossível. Macacos me mordam, se percebo isto. O Umbelino, que era macaco e obediente, ao ouvir aquilo dos macacos me mordam, mordeu. Foi o cliente tratar-se ao hospital e foi ele posto na rua. E depois? Depois, um dia destes, conto mais histórias do macaco Umbelino. Ele, de vez em quando, escreve-me. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

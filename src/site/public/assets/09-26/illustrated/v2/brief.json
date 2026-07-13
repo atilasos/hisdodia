@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": "África, junto a acampamentos, floresta e paisagens abertas sob a noite, com presença recorrente de fogo e leopardo.",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Nos acampamentos, em África, à noite, há sempre uma fogueira acesa, que afasta as feras. Entre elas, o leopardo, que ganhou fama de ser de todos os animais ferozes o que mais medo tem do fogo. Porquê? Já vão saber. No princípio do mundo ou um pouco mais para diante, o leopardo e o fogo visitavam-se muito, como bons amigos que eram. Não. Não estou a ser rigoroso.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O fogo e o leopardo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Nos acampamentos, em África, à noite, há sempre uma fogueira acesa, que afasta as feras. Entre elas, o leopardo, que ganhou fama de ser de todos os animais ferozes o que mais medo tem do fogo. Porquê? Já vão saber. No princípio do mundo ou um pouco mais para diante, o leopardo e o fogo visitavam-se muito, como bons amigos que eram. Não. Não estou a ser rigoroso. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "No princípio do mundo ou um pouco mais para diante, o leopardo e o fogo visitavam-se muito, como bons amigos que eram. Não. Não estou a ser rigoroso. O leopardo visitava o fogo na sua caverna, sem que alguma vez o fogo tivesse retribuído a visita.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No princípio do mundo ou um pouco mais para diante, o leopardo e o fogo visitavam-se muito, como bons amigos que eram. Não. Não estou a ser rigoroso. O leopardo visitava o fogo na sua caverna, sem que alguma vez o fogo tivesse retribuído a visita. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p1",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "- Eu nunca saio. Sou um desastrado e muito perigoso. Aqui, na minha caverna, sinto-me como um vulcão contido. Se sair, posso não ter mão em mim e causar estragos, mesmo sem querer. Mas o leopardo tanto insistiu que o fogo acedeu. Recomendou-lhe, no entanto, que limpasse de ervas e ramos e folhas secas o caminho que ia da casa de um à casa do outro. O leopardo, que era preguiçoso, não correspondeu com o rigor devido à recomendação que o fogo lhe tinha feito e aconteceu uma grande desgraça.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Eu nunca saio. Sou um desastrado e muito perigoso. Aqui, na minha caverna, sinto-me como um vulcão contido. Se sair, posso não ter mão em mim e causar estragos, mesmo sem querer. Mas o leopardo tanto insistiu que o fogo acedeu. Recomendou-lhe, no entanto, que limpasse de ervas e ramos e folhas secas o caminho que ia da casa de um à casa do outro. O leopardo, que era preguiçoso, não correspondeu com o rigor devido à recomendação que o fogo lhe tinha feito e aconteceu uma grande desgraça. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "O fogo, à confiança, saiu do seu esconderijo e mal deu os primeiros passos, ainda tímidos, na senda da floresta, que ele supunha varrida de folhas, propagou-se, alastrou e incendiou tudo em seu redor. - Não tenho culpa. Não tenho culpa - gritava o fogo, assustado com a devastação que causava. Mas nada podia fazer.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O fogo, à confiança, saiu do seu esconderijo e mal deu os primeiros passos, ainda tímidos, na senda da floresta, que ele supunha varrida de folhas, propagou-se, alastrou e incendiou tudo em seu redor. - Não tenho culpa. Não tenho culpa - gritava o fogo, assustado com a devastação que causava. Mas nada podia fazer. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s5p0"
+      ],
+      "evidence": "- Não tenho culpa. Não tenho culpa - gritava o fogo, assustado com a devastação que causava. Mas nada podia fazer. O fogo incontrolável galgou planícies e montanhas e tudo arrasou à sua frente. O leopardo, que se dirigia ao seu encontro, teve de fugir, aterrorizado. Mas chamuscou-se, na fuga. Ainda se lhe notam as manchas das queimaduras na pele mosqueada, recordação do dia em que o fogo cometeu a imprudência de sair de casa.",
+      "after": {
+        "segment": 5,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Não tenho culpa. Não tenho culpa - gritava o fogo, assustado com a devastação que causava. Mas nada podia fazer. O fogo incontrolável galgou planícies e montanhas e tudo arrasou à sua frente. O leopardo, que se dirigia ao seu encontro, teve de fugir, aterrorizado. Mas chamuscou-se, na fuga. Ainda se lhe notam as manchas das queimaduras na pele mosqueada, recordação do dia em que o fogo cometeu a imprudência de sair de casa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

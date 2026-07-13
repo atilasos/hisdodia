@@ -1,0 +1,74 @@
+{
+  "characters": [],
+  "environment": "Portuguese countryside near a clearing and a small house",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "–Entre a raposa e o lobo, qual é o mais forte? – já me perguntaram. Mais forte, mais forte é o lobo, mas mais esperta é a raposa. – E o que vale mais: a esperteza ou a força? – voltaram a perguntar. Neste ponto, respondo com a história que vão ver e ouvir.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Os Dois uma de Lobos e Raposas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: –Entre a raposa e o lobo, qual é o mais forte? – já me perguntaram. Mais forte, mais forte é o lobo, mas mais esperta é a raposa. – E o que vale mais: a esperteza ou a força? – voltaram a perguntar. Neste ponto, respondo com a história que vão ver e ouvir. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p7",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p5",
+        "s0p6",
+        "s0p7"
+      ],
+      "evidence": "A raposa, quando voltou e viu a madeira cortada, começou a erguer as paredes. Depois, cansou-se e foi à vida. No dia seguinte, o lobo, ao ver as paredes da casa levantadas, pregou-lhe o telhado e fez-lhe a mobília. Quando, por sua vez, veio a raposa e viu a casa pronta, meteu-se lá dentro.",
+      "after": {
+        "segment": 0,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A raposa, quando voltou e viu a madeira cortada, começou a erguer as paredes. Depois, cansou-se e foi à vida. No dia seguinte, o lobo, ao ver as paredes da casa levantadas, pregou-lhe o telhado e fez-lhe a mobília. Quando, por sua vez, veio a raposa e viu a casa pronta, meteu-se lá dentro. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p13",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p11",
+        "s0p12",
+        "s0p13"
+      ],
+      "evidence": "– Se eu quisesse a casa era só minha... Sim, se eu quisesse. A raposa, que não gostava destes modos, mas não podia competir com a força do lobo, resolveu o caso assim: Um dia, que andava no mato, encontrou um lobo morto, talvez fugido dos caçadores. A muito custo, arrastou-o para casa.",
+      "after": {
+        "segment": 0,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Se eu quisesse a casa era só minha... Sim, se eu quisesse. A raposa, que não gostava destes modos, mas não podia competir com a força do lobo, resolveu o caso assim: Um dia, que andava no mato, encontrou um lobo morto, talvez fugido dos caçadores. A muito custo, arrastou-o para casa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p20",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p18",
+        "s0p19",
+        "s0p20"
+      ],
+      "evidence": "– Cale-se, cale-se! Não diga mais – atalhou o lobo. – Não quer saber? É assim \"Chiribi...\" – Cale-se que me desgraça – gritou o lobo, fugindo a sete pés.",
+      "after": {
+        "segment": 0,
+        "paragraph": 20
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Cale-se, cale-se! Não diga mais – atalhou o lobo. – Não quer saber? É assim \"Chiribi...\" – Cale-se que me desgraça – gritou o lobo, fugindo a sete pés. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

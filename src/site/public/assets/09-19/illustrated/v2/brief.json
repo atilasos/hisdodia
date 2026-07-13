@@ -1,0 +1,111 @@
+{
+  "characters": [
+    {
+      "name": "homem",
+      "appearance": "adult man running across a vast grassy plain"
+    },
+    {
+      "name": "touro",
+      "appearance": "large bull with curved horns, pursuing the man"
+    }
+  ],
+  "environment": "A broad, empty grassy plain that shifts from open daylight to sunset shadow and then to a quiet morning horizon.",
+  "palette": [
+    "green",
+    "gold",
+    "amber",
+    "brown",
+    "deep blue",
+    "violet"
+  ],
+  "recurringObjects": [
+    "sun",
+    "long shadows",
+    "open horizon"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "I a um homem a correr por uma extensa planície relvada, que nem cem campos de futebol, uns a seguir aos outros. Ia o homem a bom correr, mas não ia sozinho. Atrás dele, resfolegande, de chifres curvados, um enorme boi. Aliás, um touro. O homem corria, corria, nem ele sabia para onde, gritando: – Uma árvore! Socorro! Uma árvore!",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Sol Poente».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: I a um homem a correr por uma extensa planície relvada, que nem cem campos de futebol, uns a seguir aos outros. Ia o homem a bom correr, mas não ia sozinho. Atrás dele, resfolegande, de chifres curvados, um enorme boi. Aliás, um touro. O homem corria, corria, nem ele sabia para onde, gritando: – Uma árvore! Socorro! Uma árvore! Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p6",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "– Um buraco! Ao menos, um buraco! Socorro! – gritava o homem, quase no limite das suas forças. Mas também não havia buracos, naquela planície lisa. Situação desesperante. A sombra do homem e a sombra do touro deslizavam pelo chão, quase a tocarem-se. Alongavam-se uma e outra, cada vez mais estiradas pela planície, porque o Sol descia a olhos vistos e, daí a nada, iria desaparecer no horizonte.",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Um buraco! Ao menos, um buraco! Socorro! – gritava o homem, quase no limite das suas forças. Mas também não havia buracos, naquela planície lisa. Situação desesperante. A sombra do homem e a sombra do touro deslizavam pelo chão, quase a tocarem-se. Alongavam-se uma e outra, cada vez mais estiradas pela planície, porque o Sol descia a olhos vistos e, daí a nada, iria desaparecer no horizonte. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p10",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p8",
+        "s0p9",
+        "s0p10"
+      ],
+      "evidence": "O touro não lhe deu ouvidos. Continuou a correr de cabeça baixa, atrás do homem. Nisto, o Sol escondeu-se, sem dizer sequer: \"Até amanhã\". – Vês do que eu sou capaz? – gritou o homem, sem parar de correr. As sombras do homem e do touro tinham sido engolidas pela penumbra. O touro estacou, atemorizado.",
+      "after": {
+        "segment": 0,
+        "paragraph": 10
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O touro não lhe deu ouvidos. Continuou a correr de cabeça baixa, atrás do homem. Nisto, o Sol escondeu-se, sem dizer sequer: \"Até amanhã\". – Vês do que eu sou capaz? – gritou o homem, sem parar de correr. As sombras do homem e do touro tinham sido engolidas pela penumbra. O touro estacou, atemorizado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p13",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p11",
+        "s0p12",
+        "s0p13"
+      ],
+      "evidence": "A uma prudente distância, o homem gritou-lhe: – Se queres que eu te traga o Sol, outra vez, deixa-me seguir, sozinho, naquela direcção – e o homem apontava o sentido contrário ao Sol posto. O touro, que já sentia falta do Sol, concordou. Então, o homem, num passo a fingir de seguro, caminhou, sem pressa, em direcção ao oriente. Salvara-se.",
+      "after": {
+        "segment": 0,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A uma prudente distância, o homem gritou-lhe: – Se queres que eu te traga o Sol, outra vez, deixa-me seguir, sozinho, naquela direcção – e o homem apontava o sentido contrário ao Sol posto. O touro, que já sentia falta do Sol, concordou. Então, o homem, num passo a fingir de seguro, caminhou, sem pressa, em direcção ao oriente. Salvara-se. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p14",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p12",
+        "s0p13",
+        "s0p14"
+      ],
+      "evidence": "– Se queres que eu te traga o Sol, outra vez, deixa-me seguir, sozinho, naquela direcção – e o homem apontava o sentido contrário ao Sol posto. O touro, que já sentia falta do Sol, concordou. Então, o homem, num passo a fingir de seguro, caminhou, sem pressa, em direcção ao oriente. Salvara-se. Na manhã seguinte, o Sol, tal como o homem tinha prometido, voltou a aquecer o touro e a planície, a perder de vista.",
+      "after": {
+        "segment": 0,
+        "paragraph": 14
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Se queres que eu te traga o Sol, outra vez, deixa-me seguir, sozinho, naquela direcção – e o homem apontava o sentido contrário ao Sol posto. O touro, que já sentia falta do Sol, concordou. Então, o homem, num passo a fingir de seguro, caminhou, sem pressa, em direcção ao oriente. Salvara-se. Na manhã seguinte, o Sol, tal como o homem tinha prometido, voltou a aquecer o touro e a planície, a perder de vista. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

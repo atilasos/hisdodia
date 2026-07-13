@@ -86,5 +86,71 @@
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
     "Texto recuperado de uma compilação mensal em PDF publicada pelo blogue da biblioteca escolar da EB 2,3 de Jovim (2019-2020), que reproduzia as histórias do site original; não provém do site arquivado.",
     "A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
-  ]
+  ],
+  "illustratedEdition": {
+    "status": "complete",
+    "credit": "Edição ilustrada contemporânea gerada com IA",
+    "artDirectionVersion": "2",
+    "planningModel": "gpt-5.4-mini",
+    "visualBrief": "/assets/09-23/illustrated/v2/brief.json",
+    "scenes": [
+      {
+        "id": "opening",
+        "status": "complete",
+        "attempts": 1,
+        "after": null,
+        "layout": "opening",
+        "image": "/assets/09-23/illustrated/v2/opening.webp",
+        "alt": "Ilustração de abertura da história «O Casal de Gafanhotos»."
+      },
+      {
+        "id": "s2",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 0,
+          "paragraph": 4
+        },
+        "layout": "double-page",
+        "image": "/assets/09-23/illustrated/v2/s2.webp",
+        "alt": ""
+      },
+      {
+        "id": "s3",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 0,
+          "paragraph": 13
+        },
+        "layout": "marginal",
+        "image": "/assets/09-23/illustrated/v2/s3.webp",
+        "alt": ""
+      },
+      {
+        "id": "s4",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 0,
+          "paragraph": 31
+        },
+        "layout": "double-page",
+        "image": "/assets/09-23/illustrated/v2/s4.webp",
+        "alt": ""
+      },
+      {
+        "id": "s5",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 0,
+          "paragraph": 40
+        },
+        "layout": "vignette",
+        "image": "/assets/09-23/illustrated/v2/s5.webp",
+        "alt": ""
+      }
+    ]
+  }
 }

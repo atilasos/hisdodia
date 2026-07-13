@@ -1,0 +1,83 @@
+{
+  "characters": [],
+  "environment": "Portugal, interior de uma casa desabitada com quarto, corredores e uma varanda; atmosfera noturna e depois de reconciliação",
+  "palette": [
+    "tons apagados de papel e madeira",
+    "noite escura com sombras suaves",
+    "acento final de cores vivas na princesa e na festa"
+  ],
+  "recurringObjects": [
+    "folha de papel",
+    "bonecos desenhados",
+    "casa vazia",
+    "varanda"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um boneco muito feio. Tinha nascido numa folha de papel, de lápis distraído de um senhor, que estava a pensar noutras coisas. Quando o senhor acabou de pensar no que estava a pensar, amarrotou o papel e atirou-o para um canto. Era um senhor muito desarrumado, sem nenhumas maneiras e talvez sem cesto dos papéis em casa... Passado tempo, muito tempo, uma pá e uma vassoura pegaram no papel amachucado e atiraram-no para dentro dum caixote. Ainda mais feio e sujo ficou o boneco. Que pouca sorte a dele!",
+      "after": null,
+      "alt": "Ilustração de abertura da história «História Bonita do Boneco Feio».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um boneco muito feio. Tinha nascido numa folha de papel, de lápis distraído de um senhor, que estava a pensar noutras coisas. Quando o senhor acabou de pensar no que estava a pensar, amarrotou o papel e atirou-o para um canto. Era um senhor muito desarrumado, sem nenhumas maneiras e talvez sem cesto dos papéis em casa... Passado tempo, muito tempo, uma pá e uma vassoura pegaram no papel amachucado e atiraram-no para dentro dum caixote. Ainda mais feio e sujo ficou o boneco. Que pouca sorte a dele! Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s0p4",
+        "s0p5"
+      ],
+      "evidence": "Quem manejara a pá e a vassoura pôs o caixote à porta. Veio então o vento, que andava a limpar tudo. O papel, onde ia o boneco, voou, levado pelo rodopio. Voou, voou e foi ter a uma casa. Estavam as janelas da casa abertas de par em par, à espera sabe-se lá de quê. Foi fácil ao papel entrar, sem pedir licença. Entrou, rebolou, bolinha leve pelo soalho, e foi ter a um quarto. Era uma casa desabitada, vazia de gente e de móveis. Que préstimo teria ali aquele boneco feio? O quarto escureceu. Fez-se noite no quarto e na rua. Num grande silêncio, tudo (que era bem pouco...) se deixou levar por um longo sono, de sonhos sem fim. Nem se deram aos seus estalidos do costume as tábuas do soalho. Foi no meio do silêncio que o boneco desta história resolveu, ainda a medo, sair da folha de papel, que lhe servira de leito. Pôs um pé fora, depois outro e saltou para o chão. Uf!",
+      "after": {
+        "segment": 0,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quem manejara a pá e a vassoura pôs o caixote à porta. Veio então o vento, que andava a limpar tudo. O papel, onde ia o boneco, voou, levado pelo rodopio. Voou, voou e foi ter a uma casa. Estavam as janelas da casa abertas de par em par, à espera sabe-se lá de quê. Foi fácil ao papel entrar, sem pedir licença. Entrou, rebolou, bolinha leve pelo soalho, e foi ter a um quarto. Era uma casa desabitada, vazia de gente e de móveis. Que préstimo teria ali aquele boneco feio? O quarto escureceu. Fez-se noite no quarto e na rua. Num grande silêncio, tudo (que era bem pouco...) se deixou levar por um longo sono, de sonhos sem fim. Nem se deram aos seus estalidos do costume as tábuas do soalho. Foi no meio do silêncio que o boneco desta história resolveu, ainda a medo, sair da folha de papel, que lhe servira de leito. Pôs um pé fora, depois outro e saltou para o chão. Uf! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p9",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p7",
+        "s0p8",
+        "s0p9"
+      ],
+      "evidence": "E foi andando, à maneira de quem vai visitar um museu ou um palácio muito antigo. Ou à maneira de quem se passeia por um castelo encantado... De mãos atrás das costas, medindo os passos que dava, mirando o que havia a mirar, o boneco feio atravessou quartos, explorou salas, desceu escadas, subiu escadas e percorreu corredores. O silêncio à sua volta não lhe metia medo. E de que havia ele de ter medo, se mal ou quase nada conhecia do mundo? Ia ele por um corredor, nos seus passinhos leves e tranquilos, quando viu aparecer à sua frente uma fieira de bonequinhos pequeninos, talvez da mesma raça, também malfeitões e de bracinhos de linha feitos a lápis. Vinham a dançar, mãos nas mãos, e a dançar ficaram à sua frente. Depois, a dança alterou-se e eles, continuando de mãos dadas, fizeram uma grande roda à roda do bonequinho feio. Nele não houve sinal de espanto nem de susto. Estava preso no meio da roda e olhava para os bonecos que rodopiavam à sua volta, como se estivesse a medir parecenças. Sentia-se, afinal, entre amigos.",
+      "after": {
+        "segment": 0,
+        "paragraph": 9
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E foi andando, à maneira de quem vai visitar um museu ou um palácio muito antigo. Ou à maneira de quem se passeia por um castelo encantado... De mãos atrás das costas, medindo os passos que dava, mirando o que havia a mirar, o boneco feio atravessou quartos, explorou salas, desceu escadas, subiu escadas e percorreu corredores. O silêncio à sua volta não lhe metia medo. E de que havia ele de ter medo, se mal ou quase nada conhecia do mundo? Ia ele por um corredor, nos seus passinhos leves e tranquilos, quando viu aparecer à sua frente uma fieira de bonequinhos pequeninos, talvez da mesma raça, também malfeitões e de bracinhos de linha feitos a lápis. Vinham a dançar, mãos nas mãos, e a dançar ficaram à sua frente. Depois, a dança alterou-se e eles, continuando de mãos dadas, fizeram uma grande roda à roda do bonequinho feio. Nele não houve sinal de espanto nem de susto. Estava preso no meio da roda e olhava para os bonecos que rodopiavam à sua volta, como se estivesse a medir parecenças. Sentia-se, afinal, entre amigos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p20",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p18",
+        "s0p19",
+        "s0p20"
+      ],
+      "evidence": "– Porque é que um de vocês se não ofereceu para príncipe? – perguntou o boneco feio. – A nós já ela nos conhece, de há muito. Estivemos na mesma prateleira, amarelecemos juntos... – explicaram os bonequinhos. – Anda daí! Ela é linda, desenhada com muita arte, pintada com lindas cores. Está debruçada da varanda com uma rosa na mão e espera por ti. Vem connosco, anda. E foi assim que o boneco feio casou com a princesa Jasmínia. Ai o têm, na margem da página, a sorrir para ela, enquanto ela, da varanda, sorri para ele.",
+      "after": {
+        "segment": 0,
+        "paragraph": 20
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Porque é que um de vocês se não ofereceu para príncipe? – perguntou o boneco feio. – A nós já ela nos conhece, de há muito. Estivemos na mesma prateleira, amarelecemos juntos... – explicaram os bonequinhos. – Anda daí! Ela é linda, desenhada com muita arte, pintada com lindas cores. Está debruçada da varanda com uma rosa na mão e espera por ti. Vem connosco, anda. E foi assim que o boneco feio casou com a princesa Jasmínia. Ai o têm, na margem da página, a sorrir para ela, enquanto ela, da varanda, sorri para ele. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}
