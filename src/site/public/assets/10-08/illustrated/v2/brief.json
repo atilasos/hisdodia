@@ -1,0 +1,126 @@
+{
+  "characters": [
+    {
+      "name": "caçador",
+      "appearance": "adult man with hunting clothing and a firearm, startled and in pursuit"
+    },
+    {
+      "name": "lebre",
+      "appearance": "small brown hare, alert, fast-moving, later exhausted and hiding"
+    },
+    {
+      "name": "família de lebres",
+      "appearance": "group of hares gathered anxiously at the burrow entrance"
+    },
+    {
+      "name": "bisavó",
+      "appearance": "elderly hare matriarch, worried and dignified"
+    },
+    {
+      "name": "avó",
+      "appearance": "older hare, cautious and observant"
+    }
+  ],
+  "environment": "A rural hunting estate with moits, a hare burrow, a large field boundary, an oak tree near the entrance, and scattered posted notices indicating the land has changed ownership and become hunting territory.",
+  "palette": [
+    "earth brown",
+    "muted green",
+    "dusty beige",
+    "warm gray",
+    "deep olive",
+    "soft ochre"
+  ],
+  "recurringObjects": [
+    "shotgun",
+    "hare burrow entrance",
+    "oak trunk",
+    "posted notices",
+    "field edge",
+    "hunting estate landscape"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "- Mãos no ar - gritou o caçador para a lebre. - Qual quê! Toca mas é a correr... - Pára ou eu disparo - voltou a avisar o caçador.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Vantagens da Leitura».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Mãos no ar - gritou o caçador para a lebre. - Qual quê! Toca mas é a correr... - Pára ou eu disparo - voltou a avisar o caçador. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "- Pára ou eu disparo - voltou a avisar o caçador. Pois sim! Pernas para que vos quero... Vai daí, o caçador disparou. Disparou, mas não acertou. Foi a sorte da lebre.",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Pára ou eu disparo - voltou a avisar o caçador. Pois sim! Pernas para que vos quero... Vai daí, o caçador disparou. Disparou, mas não acertou. Foi a sorte da lebre. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p6",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "Vai daí, o caçador disparou. Disparou, mas não acertou. Foi a sorte da lebre. De moita em moita, rasteirinha, a lebre chegou, quase sem fôlego, à toca da família. Pânico geral entre os parentes.",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Vai daí, o caçador disparou. Disparou, mas não acertou. Foi a sorte da lebre. De moita em moita, rasteirinha, a lebre chegou, quase sem fôlego, à toca da família. Pânico geral entre os parentes. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p14",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p12",
+        "s0p13",
+        "s0p14"
+      ],
+      "evidence": "Por sinal que tinham sido avisadas. Se as lebres soubessem ler, teriam lido no jornal da terra o anúncio da venda. Também um edital, pregado no tronco de um sobreiro, à entrada da herdade, noticiava a mudança de proprietário. Finalmente, vários letreiros, onde estava escrito TERRENO DE CAÇA, espalhados um pouco por toda a parte, informavam que aquele território deixara de ser seguro para lebres e coelhos.",
+      "after": {
+        "segment": 0,
+        "paragraph": 14
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Por sinal que tinham sido avisadas. Se as lebres soubessem ler, teriam lido no jornal da terra o anúncio da venda. Também um edital, pregado no tronco de um sobreiro, à entrada da herdade, noticiava a mudança de proprietário. Finalmente, vários letreiros, onde estava escrito TERRENO DE CAÇA, espalhados um pouco por toda a parte, informavam que aquele território deixara de ser seguro para lebres e coelhos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p15",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p13",
+        "s0p14",
+        "s0p15"
+      ],
+      "evidence": "Se as lebres soubessem ler, teriam lido no jornal da terra o anúncio da venda. Também um edital, pregado no tronco de um sobreiro, à entrada da herdade, noticiava a mudança de proprietário. Finalmente, vários letreiros, onde estava escrito TERRENO DE CAÇA, espalhados um pouco por toda a parte, informavam que aquele território deixara de ser seguro para lebres e coelhos. Foi a partir deste incidente que as lebres decidiram todas aprender a ler. E, já agora, mudar para um sítio mais sossegado.",
+      "after": {
+        "segment": 0,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Se as lebres soubessem ler, teriam lido no jornal da terra o anúncio da venda. Também um edital, pregado no tronco de um sobreiro, à entrada da herdade, noticiava a mudança de proprietário. Finalmente, vários letreiros, onde estava escrito TERRENO DE CAÇA, espalhados um pouco por toda a parte, informavam que aquele território deixara de ser seguro para lebres e coelhos. Foi a partir deste incidente que as lebres decidiram todas aprender a ler. E, já agora, mudar para um sítio mais sossegado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,94 @@
+{
+  "characters": [
+    {
+      "name": "Narrador",
+      "appearance": "Criança ou jovem em roupa simples, no sótão, com ar embaraçado e depois cansado de remendar a teia."
+    },
+    {
+      "name": "Aranha",
+      "appearance": "Aranha faladora e exigente, presente na teia do sótão, com postura de censura e vigilância."
+    }
+  ],
+  "environment": "Sótão antigo, pouco limpo, com baús, malas e caixotes, atmosfera doméstica e um pouco poeirenta.",
+  "palette": [
+    "Tons quentes e desbotados de madeira antiga",
+    "Castanhos e cinzentos poeirentos",
+    "Brancos e fios finos de teia",
+    "Pequenos acentos escuros para contraste"
+  ],
+  "recurringObjects": [
+    "Teia de aranha",
+    "Jornais antigos",
+    "Baús, malas e caixotes",
+    "Agulha muito fina",
+    "Fio de nylon muito fino"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Eu tive de ir ao sótão procurar uns jornais antigos. Como toda a gente sabe, o sótão é o lugar da casa que menos é limpo. Nunca se convida as visitas para ir ao sótão. Nunca se utiliza o sótão, cheio de baús, malas e caixotes, para dar festas de aniversário. Até talvez não fosse má ideia… Eu a entrar no sótão, e a esbarrar com uma teia de aranha.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Teia de Aranha».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eu tive de ir ao sótão procurar uns jornais antigos. Como toda a gente sabe, o sótão é o lugar da casa que menos é limpo. Nunca se convida as visitas para ir ao sótão. Nunca se utiliza o sótão, cheio de baús, malas e caixotes, para dar festas de aniversário. Até talvez não fosse má ideia… Eu a entrar no sótão, e a esbarrar com uma teia de aranha. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s0p4",
+        "s0p5"
+      ],
+      "evidence": "– Que falta de consideração – barafustou a aranha. – Uma teia que me deu tanto trabalho a fabricar! – Foi sem querer. Desculpe – disse-lhe eu, um tanto encavacado. – Quem estraga, arranja – gritou-me ela.",
+      "after": {
+        "segment": 0,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Que falta de consideração – barafustou a aranha. – Uma teia que me deu tanto trabalho a fabricar! – Foi sem querer. Desculpe – disse-lhe eu, um tanto encavacado. – Quem estraga, arranja – gritou-me ela. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p6",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "– Mas eu não sei tecer teias de aranha… – Então, não tivesse rasgado. Quem estraga, arranja – insistiu ela. Não tenho feito outra coisa. Pedi instruções a um tecelão, a uma bordadeira e a uma senhora que trabalha em malhas. Cada uma ensinou-me o que sabia e eu, mal ou bem, com uma agulha muito fininha e um fio de nylon ainda mais fino tenho passado os dias no sótão a cosipar a teia da dona aranha.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Mas eu não sei tecer teias de aranha… – Então, não tivesse rasgado. Quem estraga, arranja – insistiu ela. Não tenho feito outra coisa. Pedi instruções a um tecelão, a uma bordadeira e a uma senhora que trabalha em malhas. Cada uma ensinou-me o que sabia e eu, mal ou bem, com uma agulha muito fininha e um fio de nylon ainda mais fino tenho passado os dias no sótão a cosipar a teia da dona aranha. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p6",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p4",
+        "s1p5",
+        "s1p6"
+      ],
+      "evidence": "E sempre a desfazer do meu trabalho: – Que falta de jeito. Que horror. Mais dia, menos dia, também eu me enervo e mando a aranha contar histórias, em vez de mim. Sempre queria ver como é que dava conta do recado.",
+      "after": {
+        "segment": 1,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E sempre a desfazer do meu trabalho: – Que falta de jeito. Que horror. Mais dia, menos dia, também eu me enervo e mando a aranha contar histórias, em vez de mim. Sempre queria ver como é que dava conta do recado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,120 @@
+{
+  "characters": [
+    {
+      "name": "Joca",
+      "appearance": "Child em idade escolar, impulsivo e expressivo, com algibeira nas calças; protagonista da troca em cadeia."
+    },
+    {
+      "name": "Rodrigo",
+      "appearance": "Colega de escola que vai passando o apara-lápis de mão em mão; aparece com objetos trocados."
+    },
+    {
+      "name": "Lurdes",
+      "appearance": "Colega a saltar à corda, ativa e distraída pela brincadeira enquanto responde sem parar."
+    },
+    {
+      "name": "Fátima",
+      "appearance": "Colega da sala de aula, associada ao lugar ao lado da Filomena e a uma nova troca."
+    }
+  ],
+  "environment": "Ambiente escolar português com recreio, pátio, corda de saltar e sala de aula; tom de movimento contínuo entre brincadeira e aula.",
+  "palette": [
+    "cores vivas e infantis",
+    "vermelhos e azuis",
+    "amarelos e verdes",
+    "tons claros de recreio escolar"
+  ],
+  "recurringObjects": [
+    "apara-lápis em forma de bota de esquiador",
+    "borracha nova",
+    "corda de saltar",
+    "caderno com bandeiras na capa",
+    "carro de brincar",
+    "banco da sala de aula"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O Joca perdeu o apara-lápis. Perder não perdeu. Trocou. Depois de ter trocado o apara-lápis por uma borracha novinha, por estrear, é que achou que tinha perdido com a troca. Quis desfazer o negócio junto do Rodrigo, que lhe tinha ficado com o apara-lápis jeitoso, em forma de bota de esquiador.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Trocas e Baldrocas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Joca perdeu o apara-lápis. Perder não perdeu. Trocou. Depois de ter trocado o apara-lápis por uma borracha novinha, por estrear, é que achou que tinha perdido com a troca. Quis desfazer o negócio junto do Rodrigo, que lhe tinha ficado com o apara-lápis jeitoso, em forma de bota de esquiador. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p6",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p4",
+        "s1p5",
+        "s1p6"
+      ],
+      "evidence": "– Dezasseis…dezassete…dezoito…dezanove…vinte. E parou. Quase sem fôlego, a Lurdes respondeu ao Joca: – Troquei o apara-lápis por esta corda. Quem o tem agora é a Fátima.",
+      "after": {
+        "segment": 1,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Dezasseis…dezassete…dezoito…dezanove…vinte. E parou. Quase sem fôlego, a Lurdes respondeu ao Joca: – Troquei o apara-lápis por esta corda. Quem o tem agora é a Fátima. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p9",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p7",
+        "s1p8",
+        "s1p9"
+      ],
+      "evidence": "O Joca foi ter com a Fátima. – Já não tenho. Troquei-o por um lugar, na aula, ao lado da minha amiga Filomena. Mas quem estava sentado ao lado da Filomena era o Rodrigo, lembrou-se o Joca. Foi outra vez ter com o Rodrigo.",
+      "after": {
+        "segment": 1,
+        "paragraph": 9
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Joca foi ter com a Fátima. – Já não tenho. Troquei-o por um lugar, na aula, ao lado da minha amiga Filomena. Mas quem estava sentado ao lado da Filomena era o Rodrigo, lembrou-se o Joca. Foi outra vez ter com o Rodrigo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p15",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p13",
+        "s1p14",
+        "s1p15"
+      ],
+      "evidence": "Então o Joca, com o coração muito apertado, foi buscar ao fundo da algibeira das calças um carro novo, que trouxera de casa pela primeira vez. – Queres este? – perguntou o Joca ao Rodrigo. Ele examinou-o cuidadosamente, experimentou-o no lajedo do recreio e concordou. Voltara o apara-lápis às mãos do Joca. Que alívio!",
+      "after": {
+        "segment": 1,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Então o Joca, com o coração muito apertado, foi buscar ao fundo da algibeira das calças um carro novo, que trouxera de casa pela primeira vez. – Queres este? – perguntou o Joca ao Rodrigo. Ele examinou-o cuidadosamente, experimentou-o no lajedo do recreio e concordou. Voltara o apara-lápis às mãos do Joca. Que alívio! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s1p16",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p14",
+        "s1p15",
+        "s1p16"
+      ],
+      "evidence": "– Queres este? – perguntou o Joca ao Rodrigo. Ele examinou-o cuidadosamente, experimentou-o no lajedo do recreio e concordou. Voltara o apara-lápis às mãos do Joca. Que alívio! Mas virando as costas ao Rodrigo, o Joca começou a ter saudades do seu carrinho, que corria tão bem pelo corredor fora. E se voltasse atrás com o negócio? Volto não volto…",
+      "after": {
+        "segment": 1,
+        "paragraph": 16
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Queres este? – perguntou o Joca ao Rodrigo. Ele examinou-o cuidadosamente, experimentou-o no lajedo do recreio e concordou. Voltara o apara-lápis às mãos do Joca. Que alívio! Mas virando as costas ao Rodrigo, o Joca começou a ter saudades do seu carrinho, que corria tão bem pelo corredor fora. E se voltasse atrás com o negócio? Volto não volto… Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

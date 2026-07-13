@@ -1,0 +1,88 @@
+{
+  "characters": [],
+  "environment": "Contemporary Portuguese coastal town and seascape, moving from a public square with a bandstand to everyday streets, then to open sea at sunset and a reflective beach scene.",
+  "palette": [
+    "warm sunset orange",
+    "sea blue",
+    "soft sky pink",
+    "sunlit cream",
+    "muted green",
+    "cool gray"
+  ],
+  "recurringObjects": [
+    "bandstand",
+    "musical notes implied by the story",
+    "sea and waves",
+    "sunset sky",
+    "glassless or lightly misted spectacles",
+    "written page or notebook"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma música, uma melodia. Andou pelos ouvidos das pessoas. Alguns cantarolavam-na. Outros assobiavam-na. Fosse em lá-lá-lá, no céu da boca, ou em tri-ti-ti, na ponta dos lábios, sabia sempre bem. Quando era tocada no coreto da praça, as pessoas paravam de conversar e aproximavam-se pé ante pé, meneando a cabeça ao som da música. E, quando a música acabava, batiam palmas entusiasmadas, que tanto se destinavam à música como à banda que apuradamente a tocara. E pediam \"Bis! Bis!\".",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Destino da Música».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma música, uma melodia. Andou pelos ouvidos das pessoas. Alguns cantarolavam-na. Outros assobiavam-na. Fosse em lá-lá-lá, no céu da boca, ou em tri-ti-ti, na ponta dos lábios, sabia sempre bem. Quando era tocada no coreto da praça, as pessoas paravam de conversar e aproximavam-se pé ante pé, meneando a cabeça ao som da música. E, quando a música acabava, batiam palmas entusiasmadas, que tanto se destinavam à música como à banda que apuradamente a tocara. E pediam \"Bis! Bis!\". Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p4",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Acontecia as pessoas acordarem, de manhã, com a música a rodopiar nos ouvidos. Era bom. Acontecia as pessoas adormecerem, à noite, com a música a rodopiar nos ouvidos. Também era bom. E, durante o dia, os carpinteiros, a serrarem, assobiavam-na, as lavadeiras, a lavarem, cantavam-na, e toda a gente, quer estivesse a trabalhar quer fosse dar um passeio solitário pelo campo, espalhava-a pelos ares, dando mais vida à música que serpenteava, feliz, em direcção às nuvens.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Acontecia as pessoas acordarem, de manhã, com a música a rodopiar nos ouvidos. Era bom. Acontecia as pessoas adormecerem, à noite, com a música a rodopiar nos ouvidos. Também era bom. E, durante o dia, os carpinteiros, a serrarem, assobiavam-na, as lavadeiras, a lavarem, cantavam-na, e toda a gente, quer estivesse a trabalhar quer fosse dar um passeio solitário pelo campo, espalhava-a pelos ares, dando mais vida à música que serpenteava, feliz, em direcção às nuvens. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p9",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p7",
+        "s1p8",
+        "s1p9"
+      ],
+      "evidence": "Eu sei, isto é, julgo saber. Os sons sobem. Seja de flauta, de harpa ou de voz, o som solta-se donde é emitido e como leve coluna de fumo busca o ar transparente, onde vogam as andorinhas. Cada vez mais alto, o som atravessa as nuvens… Quando chove e as gotas de chuva tilintam nas águas dos rios e dos lagos, os sons que subiram regressam à Terra. Todos juntos, em grande confusão, escorrem pelas correntes de água, em caudais de música, em ondas, em cascatas, e vão ter ao mar. Os sons mais pesados vão para o fundo. Os outros permanecem à superfície e, levados pelo balanço das ondas, navegam, de mistura com algas, penas de gaivotas, bocadinhos de luz e de prata, roubados ao Sol.",
+      "after": {
+        "segment": 1,
+        "paragraph": 9
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eu sei, isto é, julgo saber. Os sons sobem. Seja de flauta, de harpa ou de voz, o som solta-se donde é emitido e como leve coluna de fumo busca o ar transparente, onde vogam as andorinhas. Cada vez mais alto, o som atravessa as nuvens… Quando chove e as gotas de chuva tilintam nas águas dos rios e dos lagos, os sons que subiram regressam à Terra. Todos juntos, em grande confusão, escorrem pelas correntes de água, em caudais de música, em ondas, em cascatas, e vão ter ao mar. Os sons mais pesados vão para o fundo. Os outros permanecem à superfície e, levados pelo balanço das ondas, navegam, de mistura com algas, penas de gaivotas, bocadinhos de luz e de prata, roubados ao Sol. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s2p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "Os óculos já embaciados da poalha da maresia ficaram ainda mais embaciados, porque, de repente, me lembrei de que tinha ouvido aquela música à beira de um coreto pela mão do meu avô Domingos. Portanto, há muito e muito tempo... Não estava a inventar. Para ter a certeza, aflorei a música aos lábios, num sussurro de um assobio, que voou em direcção às nuvens rosadas do entardecer. Foi então que resolvi escrever esta história.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os óculos já embaciados da poalha da maresia ficaram ainda mais embaciados, porque, de repente, me lembrei de que tinha ouvido aquela música à beira de um coreto pela mão do meu avô Domingos. Portanto, há muito e muito tempo... Não estava a inventar. Para ter a certeza, aflorei a música aos lábios, num sussurro de um assobio, que voou em direcção às nuvens rosadas do entardecer. Foi então que resolvi escrever esta história. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

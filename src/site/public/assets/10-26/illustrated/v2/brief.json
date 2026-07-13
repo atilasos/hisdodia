@@ -1,0 +1,91 @@
+{
+  "characters": [
+    {
+      "name": "Zepeninos",
+      "appearance": "Pequenas criaturas viajantes com fatos luminosos e deslocação em discos voadores minúsculos"
+    }
+  ],
+  "environment": "Um planeta minúsculo e distante, um jardim noturno na Terra com laguinho, rãs, mosquitos e pirilampos, e o interior apertado de um disco voador em regresso.",
+  "palette": [
+    "Noite azul-escura",
+    "Verdes suaves de jardim",
+    "Luz amarela e dourada",
+    "Prata e branco luminoso",
+    "Toques de vermelho e laranja"
+  ],
+  "recurringObjects": [
+    "disco voador minúsculo",
+    "fatos luminosos",
+    "laguinho de jardim",
+    "pirilampos",
+    "rãs"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O planeta Zepeni, escondido, algures, numa curva do Universo imenso, à esquerda de quem sobe, é muito pequenino. Nenhum astrónomo da Terra ainda deu com ele, mas existe. Não é invenção minha. Os habitantes de Zepeni estão muito desenvolvidos. Deslocam-se pelo espaço a velocidades incalculáveis, numa espécie de discos voadores do tamanho de rolhas de cortiça, porque os zepeninos, a condizer com o planeta onde vivem, não são de grande estatura. Talvez do tamanho de joaninhas ou pouco mais ou menos.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Os Zepeninos e Nós».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O planeta Zepeni, escondido, algures, numa curva do Universo imenso, à esquerda de quem sobe, é muito pequenino. Nenhum astrónomo da Terra ainda deu com ele, mas existe. Não é invenção minha. Os habitantes de Zepeni estão muito desenvolvidos. Deslocam-se pelo espaço a velocidades incalculáveis, numa espécie de discos voadores do tamanho de rolhas de cortiça, porque os zepeninos, a condizer com o planeta onde vivem, não são de grande estatura. Talvez do tamanho de joaninhas ou pouco mais ou menos. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p8",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p6",
+        "s1p7",
+        "s1p8"
+      ],
+      "evidence": "Uma rã perto deu-lhe para coaxar. – Cuidado! Afinal este planeta tem monstros. Os três zepeninos puseram-se na defensiva e avisaram a nave para estar alerta.",
+      "after": {
+        "segment": 1,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Uma rã perto deu-lhe para coaxar. – Cuidado! Afinal este planeta tem monstros. Os três zepeninos puseram-se na defensiva e avisaram a nave para estar alerta. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p16",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p14",
+        "s1p15",
+        "s1p16"
+      ],
+      "evidence": "Depois, porque ao coaxar da primeira rã outras rãs responderam, a barulheira tornou-se insuportável. Muito sensatamente, os três zepeninos resolveram regressar à nave. – Descolar! – ordenou o comandante do disco voador. E o disco voador do tamanho de uma rolha de cortiça subiu ao céu.",
+      "after": {
+        "segment": 1,
+        "paragraph": 16
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Depois, porque ao coaxar da primeira rã outras rãs responderam, a barulheira tornou-se insuportável. Muito sensatamente, os três zepeninos resolveram regressar à nave. – Descolar! – ordenou o comandante do disco voador. E o disco voador do tamanho de uma rolha de cortiça subiu ao céu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s2p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Lá dentro, os três zepeninos exploradores completavam o relatório de viagem: \"Visitámos um planeta muito primitivo. Os seus habitantes principais possuem algumas semelhanças connosco, deslocam-se pelo ar, mas estão cientificamente muito atrasados. Ainda têm de sofrer muitas mutações antes de nos chegarem aos calcanhares.\" Até talvez, no fundo, os zepeninos tenham alguma razão.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Lá dentro, os três zepeninos exploradores completavam o relatório de viagem: \"Visitámos um planeta muito primitivo. Os seus habitantes principais possuem algumas semelhanças connosco, deslocam-se pelo ar, mas estão cientificamente muito atrasados. Ainda têm de sofrer muitas mutações antes de nos chegarem aos calcanhares.\" Até talvez, no fundo, os zepeninos tenham alguma razão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

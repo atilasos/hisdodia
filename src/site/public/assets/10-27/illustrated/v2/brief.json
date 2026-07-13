@@ -1,0 +1,98 @@
+{
+  "characters": [
+    {
+      "name": "O automóvel",
+      "appearance": "Carro velho e trabalhador, discreto e algo cansado ao longo da história"
+    },
+    {
+      "name": "O dono",
+      "appearance": "Homem apressado e impaciente"
+    },
+    {
+      "name": "Dona Henriqueta",
+      "appearance": "Senhora reformada, prática e satisfeita com um carro simples"
+    }
+  ],
+  "environment": "Ambientes quotidianos portugueses, entre a rua, o passeio de domingo, um armazém de carros velhos e um contexto tranquilo de reforma.",
+  "palette": [
+    "tons quentes e gastos",
+    "verdes e castanhos suaves",
+    "azuis e cinzentos urbanos",
+    "amarelos envelhecidos"
+  ],
+  "recurringObjects": [
+    "automóvel",
+    "chave do carro",
+    "estrada",
+    "armazém",
+    "reboque"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era um automóvel que trabalhava todos os dias. Acordava ou acordavam-no de manhã cedo e lá ia ele com o dono para o trabalho. Ainda se o dono trabalhasse o tempo todo num escritório, vá que vá. O automóvel, nesse caso, até podia descansar uns bons bocados, encostado ao passeio.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Automóvel Cansado».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era um automóvel que trabalhava todos os dias. Acordava ou acordavam-no de manhã cedo e lá ia ele com o dono para o trabalho. Ainda se o dono trabalhasse o tempo todo num escritório, vá que vá. O automóvel, nesse caso, até podia descansar uns bons bocados, encostado ao passeio. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p8",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Protestou mais. – Este motor está a pedir uma grande revisão – disse o dono. De protesto em protesto, o automóvel resolveu fazer finca-pé. Parou, de vez.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Protestou mais. – Este motor está a pedir uma grande revisão – disse o dono. De protesto em protesto, o automóvel resolveu fazer finca-pé. Parou, de vez. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p13",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p11",
+        "s1p12",
+        "s1p13"
+      ],
+      "evidence": "– Tanto – respondeu o vendedor. – Só dou tanto – disse a senhora. O comprador encolheu os ombros, em sinal de concordância. O automóvel desta história ganhava um novo dono, aliás dona, aliás Dona Henriqueta.",
+      "after": {
+        "segment": 1,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Tanto – respondeu o vendedor. – Só dou tanto – disse a senhora. O comprador encolheu os ombros, em sinal de concordância. O automóvel desta história ganhava um novo dono, aliás dona, aliás Dona Henriqueta. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s2p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p14",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "– É só para dar de vez em quando uns passeios, visitar os filhos, os netos – explicou a senhora. – Nada de velocidades nem de grandes viagens. Este carrinho dá-me jeito. A Dona Henriqueta já está reformada. O automóvel ainda não. Teve sorte ou melhor, ambos tiveram sorte, porque o automóvel ainda dá muito boa conta do recado. Está ali para as curvas.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – É só para dar de vez em quando uns passeios, visitar os filhos, os netos – explicou a senhora. – Nada de velocidades nem de grandes viagens. Este carrinho dá-me jeito. A Dona Henriqueta já está reformada. O automóvel ainda não. Teve sorte ou melhor, ambos tiveram sorte, porque o automóvel ainda dá muito boa conta do recado. Está ali para as curvas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

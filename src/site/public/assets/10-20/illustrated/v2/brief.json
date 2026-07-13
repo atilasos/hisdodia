@@ -1,0 +1,89 @@
+{
+  "characters": [],
+  "environment": "vento, céu, chuva e primavera",
+  "palette": [
+    "loiro",
+    "branco",
+    "azul claro",
+    "cinzento",
+    "verde suave"
+  ],
+  "recurringObjects": [
+    "cabelo",
+    "pena",
+    "fiapo de algodão",
+    "fio de seda",
+    "semente",
+    "chuva",
+    "erva",
+    "flor branca"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um belo cabelo levado pelo vento. Loiro. Vinha uma corrente de ar e soprava-o para um lado. Vinha outra corrente de ar e soprava-o para o outro. E o cabelo rodopiava, solto à luz do Sol, que com qualquer coisa se maravilha. Até um singelo grão de pó, tocado pelo Sol, fica como se fosse de prata… Cabelo de anjo seria? Cabelo de fada? Cabelo de menina que pela primeira vez se penteia? – Esta história tem um cabelo – disse alguém, fazendo uma careta, como se dissesse \"Esta sopa tem um cabelo\" e a pusesse de lado.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Vida».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um belo cabelo levado pelo vento. Loiro. Vinha uma corrente de ar e soprava-o para um lado. Vinha outra corrente de ar e soprava-o para o outro. E o cabelo rodopiava, solto à luz do Sol, que com qualquer coisa se maravilha. Até um singelo grão de pó, tocado pelo Sol, fica como se fosse de prata… Cabelo de anjo seria? Cabelo de fada? Cabelo de menina que pela primeira vez se penteia? – Esta história tem um cabelo – disse alguém, fazendo uma careta, como se dissesse \"Esta sopa tem um cabelo\" e a pusesse de lado. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s0p4",
+        "s0p5"
+      ],
+      "evidence": "Pois tem. E depois? Um cabelo não merece história? Então, continuemos. O cabelo encontrou-se no ar com uma pena, uma pequeníssima pena, tão leve como ele. De pavão? De pintassilgo? De canário? Tanto faz. Há muito tempo que sabia voar sozinha.",
+      "after": {
+        "segment": 0,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Pois tem. E depois? Um cabelo não merece história? Então, continuemos. O cabelo encontrou-se no ar com uma pena, uma pequeníssima pena, tão leve como ele. De pavão? De pintassilgo? De canário? Tanto faz. Há muito tempo que sabia voar sozinha. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p3",
+        "s1p4",
+        "s1p5"
+      ],
+      "evidence": "Uma semente, depois, agarra-se à pena, ao cabelo, ao fiapo, ao fio de seda, e todos juntos dançam a moda que o vento quer. Ah, mas a semente é pesada e a dança termina cedo. Cai, arrastando consigo na queda as asas a que se juntara. Logo a seguir veio a chuva. A semente afunda-se, um niquinho só, mais o rolo de coisas sem futuro, que caíram com ela.",
+      "after": {
+        "segment": 1,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Uma semente, depois, agarra-se à pena, ao cabelo, ao fiapo, ao fio de seda, e todos juntos dançam a moda que o vento quer. Ah, mas a semente é pesada e a dança termina cedo. Cai, arrastando consigo na queda as asas a que se juntara. Logo a seguir veio a chuva. A semente afunda-se, um niquinho só, mais o rolo de coisas sem futuro, que caíram com ela. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p8",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p6",
+        "s1p7",
+        "s1p8"
+      ],
+      "evidence": "E pronto. Para a próxima Primavera, daquela semente vai nascer uma erva, com uma flor ao cimo. Uma flor branca, como o fiapo de algodão, de pétalas frágeis como penas. Há-de vir o vento arrebatá-la da haste e levá-la com ele, como um fio de seda, um cabelo, eu sei lá que mais… É a vida.",
+      "after": {
+        "segment": 1,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E pronto. Para a próxima Primavera, daquela semente vai nascer uma erva, com uma flor ao cimo. Uma flor branca, como o fiapo de algodão, de pétalas frágeis como penas. Há-de vir o vento arrebatá-la da haste e levá-la com ele, como um fio de seda, um cabelo, eu sei lá que mais… É a vida. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

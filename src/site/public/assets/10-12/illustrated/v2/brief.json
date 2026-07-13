@@ -1,0 +1,97 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma menina que conhecia o campo, mas de longe. Vira-o, uma vez, de passagem, da janela de um automóvel. Vira-o, mais vezes, de corrida, nos ecrãs da televisão. E vira-o, outras vezes, disfarçado de paisagem, nas folhas das revistas e nas tampas das caixas de chocolate. Esta menina, afinal, não conhecia o campo a sério. Por isso, da primeira vez que foi ao campo, da primeira vez que pisou o chão rugoso do campo e respirou o ar vivo do campo e os cheiros todos do campo, a menina ficou, há que confessar, a menina ficou um tanto atordoada.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Menina e o Burro».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma menina que conhecia o campo, mas de longe. Vira-o, uma vez, de passagem, da janela de um automóvel. Vira-o, mais vezes, de corrida, nos ecrãs da televisão. E vira-o, outras vezes, disfarçado de paisagem, nas folhas das revistas e nas tampas das caixas de chocolate. Esta menina, afinal, não conhecia o campo a sério. Por isso, da primeira vez que foi ao campo, da primeira vez que pisou o chão rugoso do campo e respirou o ar vivo do campo e os cheiros todos do campo, a menina ficou, há que confessar, a menina ficou um tanto atordoada. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s0p3"
+      ],
+      "evidence": "Esta menina, afinal, não conhecia o campo a sério. Por isso, da primeira vez que foi ao campo, da primeira vez que pisou o chão rugoso do campo e respirou o ar vivo do campo e os cheiros todos do campo, a menina ficou, há que confessar, a menina ficou um tanto atordoada. Tropeçou numa pedra, comichou-lhe o nariz e picou-se nas urtigas. Mas, apesar destes contratempos, a menina, verdade se diga, não desgostou da experiência.",
+      "after": {
+        "segment": 0,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Esta menina, afinal, não conhecia o campo a sério. Por isso, da primeira vez que foi ao campo, da primeira vez que pisou o chão rugoso do campo e respirou o ar vivo do campo e os cheiros todos do campo, a menina ficou, há que confessar, a menina ficou um tanto atordoada. Tropeçou numa pedra, comichou-lhe o nariz e picou-se nas urtigas. Mas, apesar destes contratempos, a menina, verdade se diga, não desgostou da experiência. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p8",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p6",
+        "s0p7",
+        "s0p8"
+      ],
+      "evidence": "A menina, que já ouvira histórias de príncipes encantados por fadas más, pensou: \"E se é um príncipe transformado em burro?\" Podia ser. Tinha os olhos pestanudos e olhava para a menina cheio de curiosidade. \"Eu dou-lhe um beijinho, desfaz-se o encanto e ele transforma-se em príncipe\", pensou a menina. \"Até pode ser que, mais tarde, queira casar-se comigo.\"",
+      "after": {
+        "segment": 0,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A menina, que já ouvira histórias de príncipes encantados por fadas más, pensou: \"E se é um príncipe transformado em burro?\" Podia ser. Tinha os olhos pestanudos e olhava para a menina cheio de curiosidade. \"Eu dou-lhe um beijinho, desfaz-se o encanto e ele transforma-se em príncipe\", pensou a menina. \"Até pode ser que, mais tarde, queira casar-se comigo.\" Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p10",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p8",
+        "s0p9",
+        "s0p10"
+      ],
+      "evidence": "\"Eu dou-lhe um beijinho, desfaz-se o encanto e ele transforma-se em príncipe\", pensou a menina. \"Até pode ser que, mais tarde, queira casar-se comigo.\" A menina, que já se via princesa, aproximou-se do burro, para concretizar o que tinha pensado. Mas o burro é que não estava pelos ajustes. Quando viu a menina mais perto, fugiu a galope.",
+      "after": {
+        "segment": 0,
+        "paragraph": 10
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: \"Eu dou-lhe um beijinho, desfaz-se o encanto e ele transforma-se em príncipe\", pensou a menina. \"Até pode ser que, mais tarde, queira casar-se comigo.\" A menina, que já se via princesa, aproximou-se do burro, para concretizar o que tinha pensado. Mas o burro é que não estava pelos ajustes. Quando viu a menina mais perto, fugiu a galope. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p16",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p14",
+        "s0p15",
+        "s0p16"
+      ],
+      "evidence": "Era um burro novo, sem nenhuma prática social, e aquela criaturinha enervava-o. Naturalmente, não era um príncipe encantado. Devia ser só um burro. Também nos parece que sim.",
+      "after": {
+        "segment": 0,
+        "paragraph": 16
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era um burro novo, sem nenhuma prática social, e aquela criaturinha enervava-o. Naturalmente, não era um príncipe encantado. Devia ser só um burro. Também nos parece que sim. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": [
+    {
+      "sceneId": "scene-4",
+      "attempt": 1,
+      "message": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID d0a48abd-f7e2-496e-a324-1bd33facee98. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    }
+  ]
+}

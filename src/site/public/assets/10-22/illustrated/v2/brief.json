@@ -1,0 +1,86 @@
+{
+  "characters": [],
+  "environment": "Portuguese countryside under a changing sky, from overcast rain and thunder to bright blue sunlight after the storm",
+  "palette": [
+    "slate gray",
+    "washed blue",
+    "rainy green",
+    "warm yellow",
+    "bright azure"
+  ],
+  "recurringObjects": [
+    "clouds",
+    "rain",
+    "puddles",
+    "shadows",
+    "wet grass"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O dia nasceu enfarruscado. A pesada manta de nuvens cobria o céu todo, sem deixar de fora sequer uma nesga de azul. Devia ser do frio. As pessoas iam à sua vida, encafuadas nos seus pensamentos, sem a sombra a acompanhá-las. Faltava a luz do Sol. – Que dia tão feio – disse alguém.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Só Um Dia».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O dia nasceu enfarruscado. A pesada manta de nuvens cobria o céu todo, sem deixar de fora sequer uma nesga de azul. Devia ser do frio. As pessoas iam à sua vida, encafuadas nos seus pensamentos, sem a sombra a acompanhá-las. Faltava a luz do Sol. – Que dia tão feio – disse alguém. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p6",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "– Já cá falta a chuva… – disse mais alguém, chapinhando na lama. – Que dia horrível. O dia sentiu-se e, ofendido, mais carrancudo se pôs. E protestou, em forma de trovoada. Trovejou e choveu que tempos. Depois de muito ter barafustado, o dia cansou-se. Pararam chuva e trovões. Foi um alívio. Ficou o ar lavado e a terra encharcada e contente.",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Já cá falta a chuva… – disse mais alguém, chapinhando na lama. – Que dia horrível. O dia sentiu-se e, ofendido, mais carrancudo se pôs. E protestou, em forma de trovoada. Trovejou e choveu que tempos. Depois de muito ter barafustado, o dia cansou-se. Pararam chuva e trovões. Foi um alívio. Ficou o ar lavado e a terra encharcada e contente. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "Não era um elogio, mas para aquele dia, que ainda não ouvira uma palavra amável, soou a elogio. Com um suspiro reconfortado, deixou que uma brisa desvanecesse as nuvens. Começaram a desenhar-se as sombras atrás das pessoas. – Ainda vamos ter um lindo dia… – disse alguém. O dia abriu-se num sorriso que rasgou o céu de par em par, muito azul, muito luminoso.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não era um elogio, mas para aquele dia, que ainda não ouvira uma palavra amável, soou a elogio. Com um suspiro reconfortado, deixou que uma brisa desvanecesse as nuvens. Começaram a desenhar-se as sombras atrás das pessoas. – Ainda vamos ter um lindo dia… – disse alguém. O dia abriu-se num sorriso que rasgou o céu de par em par, muito azul, muito luminoso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p7",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p5",
+        "s1p6",
+        "s1p7"
+      ],
+      "evidence": "– Que dia maravilhoso – diziam as pessoas umas para as outras. O dia também era da mesma opinião. Mas de si para si comentou: \"Como as pessoas são inconstantes. Ora dizem uma coisa ora dizem outra. Não as entendo\". Pois era. Para entender as pessoas um dia não bastava…",
+      "after": {
+        "segment": 1,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Que dia maravilhoso – diziam as pessoas umas para as outras. O dia também era da mesma opinião. Mas de si para si comentou: \"Como as pessoas são inconstantes. Ora dizem uma coisa ora dizem outra. Não as entendo\". Pois era. Para entender as pessoas um dia não bastava… Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

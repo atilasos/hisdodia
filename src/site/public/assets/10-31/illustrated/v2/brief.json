@@ -1,0 +1,74 @@
+{
+  "characters": [],
+  "environment": "A humorous rural tale alternating between a barren hilltop, an abandoned mine entrance, and a patch of growing peas, ending in a comic reversal of fortune.",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Andava um galo a depenicar num monte de nada, quando, escarva aqui, escarva ali, com as patas de ancinho, encontrou uma pedra preciosa. Era uma esmeralda. – Antes fosse uma ervilha – comentou o galo. – De que me serve uma esmeralda, se não me enche o papo? Andava um mineiro a explorar uma mina abandonada quando escarva aqui, escarva ali, com a pica, de mansinho, encontrou uma semente grelada. Era uma ervilha.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Ervilhas e Esmeraldas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Andava um galo a depenicar num monte de nada, quando, escarva aqui, escarva ali, com as patas de ancinho, encontrou uma pedra preciosa. Era uma esmeralda. – Antes fosse uma ervilha – comentou o galo. – De que me serve uma esmeralda, se não me enche o papo? Andava um mineiro a explorar uma mina abandonada quando escarva aqui, escarva ali, com a pica, de mansinho, encontrou uma semente grelada. Era uma ervilha. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p5",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "O caso está imbricado. Mais imbricado ainda porque o galo, que costumava engolir pedrinhas para ajudar a trituração da comedoria (quando havia!), decidiu: - Para mim esta esmeralda é uma pedra como as outras. Que marche para o papo - e engoliu a pedra preciosa.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O caso está imbricado. Mais imbricado ainda porque o galo, que costumava engolir pedrinhas para ajudar a trituração da comedoria (quando havia!), decidiu: - Para mim esta esmeralda é uma pedra como as outras. Que marche para o papo - e engoliu a pedra preciosa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p15",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p13",
+        "s1p14",
+        "s1p15"
+      ],
+      "evidence": "Apavorado com a sentença, o pobre galo borrou-se todo. – Sujaste-me as únicas calças que tenho, patife – indignou-se o mineiro, limpando-as. - Mas que é isto? No meio dos dejectos, uma esmeralda.",
+      "after": {
+        "segment": 1,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Apavorado com a sentença, o pobre galo borrou-se todo. – Sujaste-me as únicas calças que tenho, patife – indignou-se o mineiro, limpando-as. - Mas que é isto? No meio dos dejectos, uma esmeralda. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s2p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p15",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "No meio dos dejectos, uma esmeralda. Emocionado com a descoberta, o mineiro largou o galo, que aproveitou a deixa para se pôr a salvo. Tudo voltara ao certo. O galo com ervilhas no papo. O mineiro com uma esmeralda no saco. Que alívio!",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No meio dos dejectos, uma esmeralda. Emocionado com a descoberta, o mineiro largou o galo, que aproveitou a deixa para se pôr a salvo. Tudo voltara ao certo. O galo com ervilhas no papo. O mineiro com uma esmeralda no saco. Que alívio! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

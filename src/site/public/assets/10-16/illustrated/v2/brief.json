@@ -1,0 +1,103 @@
+{
+  "characters": [],
+  "environment": "Portuguese orchard, royal court, and garden across a brief fairy-tale sequence",
+  "palette": [
+    "greens",
+    "golds",
+    "warm earth tones",
+    "cream",
+    "soft red accents"
+  ],
+  "recurringObjects": [
+    "pear tree",
+    "giant pear",
+    "bench",
+    "padiola",
+    "royal table"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "As pereiras dão peras. Não é novidade. Estranho seria se as pereiras dessem maçãs. Mas esta não é uma história vulgar. Efectivamente, na pereira para onde nós apontámos a história não nasceram maçãs nem uvas nem romãs. Nasceu apenas, entre outras peras que não mereciam especial atenção, uma pêra e peras. Enorme. Gigantesca. Uma senhora dona pêra. – Parece uma abóbora – disse o dono do pomar para a mulher. – Se não a amparamos, parte o tronco.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Rainha das Pêras».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: As pereiras dão peras. Não é novidade. Estranho seria se as pereiras dessem maçãs. Mas esta não é uma história vulgar. Efectivamente, na pereira para onde nós apontámos a história não nasceram maçãs nem uvas nem romãs. Nasceu apenas, entre outras peras que não mereciam especial atenção, uma pêra e peras. Enorme. Gigantesca. Uma senhora dona pêra. – Parece uma abóbora – disse o dono do pomar para a mulher. – Se não a amparamos, parte o tronco. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "– Parece uma abóbora – disse o dono do pomar para a mulher. – Se não a amparamos, parte o tronco. A pereira gemia ao peso da pêra fenomenal. Toda inchada para um lado, também era um fenómeno que ainda se não tivesse partido. Para reequilibrar a árvore, o dono do pomar trouxe um banco que pôs debaixo da pêra. Assim apoiada, a pêra cresceu e engordou que metia impressão.",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Parece uma abóbora – disse o dono do pomar para a mulher. – Se não a amparamos, parte o tronco. A pereira gemia ao peso da pêra fenomenal. Toda inchada para um lado, também era um fenómeno que ainda se não tivesse partido. Para reequilibrar a árvore, o dono do pomar trouxe um banco que pôs debaixo da pêra. Assim apoiada, a pêra cresceu e engordou que metia impressão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p13",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p11",
+        "s1p12",
+        "s1p13"
+      ],
+      "evidence": "Um Ah! de desolação prolongou-se, em coro, pela mesa fora. – Está verde – disseram todos os cortesãos, fazendo um ar muito desconsolado. A pêra tinha sido colhida antes do tempo.",
+      "after": {
+        "segment": 1,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um Ah! de desolação prolongou-se, em coro, pela mesa fora. – Está verde – disseram todos os cortesãos, fazendo um ar muito desconsolado. A pêra tinha sido colhida antes do tempo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s2p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "Enterraram-na no jardim, depois de os jardineiros terem cavado um fundo buraco. Anos depois, floresceu uma pereira naquele sítio. Como? Porquê? A memória do rei e dos cortesãos era muito curta. Mas o príncipe, filho do rei, passou por ali e colheu uma perinha madurinha. Provou. Gostou. E não se esqueceu.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Enterraram-na no jardim, depois de os jardineiros terem cavado um fundo buraco. Anos depois, floresceu uma pereira naquele sítio. Como? Porquê? A memória do rei e dos cortesãos era muito curta. Mas o príncipe, filho do rei, passou por ali e colheu uma perinha madurinha. Provou. Gostou. E não se esqueceu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s2p5",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p3",
+        "s2p4",
+        "s2p5"
+      ],
+      "evidence": "Mas o príncipe, filho do rei, passou por ali e colheu uma perinha madurinha. Provou. Gostou. E não se esqueceu. Passou a pedir para a sobremesa as peras daquela pereira do jardim. O príncipe cresceu. Ganhou corpo. Fez-se um belo rapaz, um mocetão desempenado e atlético. Generoso, risonho, afável. E são como um pêro. Ou uma pêra…",
+      "after": {
+        "segment": 2,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas o príncipe, filho do rei, passou por ali e colheu uma perinha madurinha. Provou. Gostou. E não se esqueceu. Passou a pedir para a sobremesa as peras daquela pereira do jardim. O príncipe cresceu. Ganhou corpo. Fez-se um belo rapaz, um mocetão desempenado e atlético. Generoso, risonho, afável. E são como um pêro. Ou uma pêra… Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

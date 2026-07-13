@@ -1,0 +1,109 @@
+{
+  "characters": [],
+  "environment": "River with two opposing banks and a bridge that later joins them",
+  "palette": [
+    "river blue",
+    "earthy green",
+    "warm sand",
+    "bridge stone gray",
+    "festival accents"
+  ],
+  "recurringObjects": [
+    "river",
+    "two banks",
+    "bridge",
+    "boats",
+    "banners"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Eram duas margens, com um rio a separá-las. Que tolice! Se não houvesse um rio entre elas, como poderiam ser duas margens? A margem de lá dizia para a margem de cá: - És mesmo feia. Quanto mais olho para ti, mais me admiro que possa haver terra tão sem graça.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Duas Margens».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eram duas margens, com um rio a separá-las. Que tolice! Se não houvesse um rio entre elas, como poderiam ser duas margens? A margem de lá dizia para a margem de cá: - És mesmo feia. Quanto mais olho para ti, mais me admiro que possa haver terra tão sem graça. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "- És mesmo feia. Quanto mais olho para ti, mais me admiro que possa haver terra tão sem graça. - Vira-me as costas - respondia-lhe a margem de cá. - Até me fazias um favor, porque escusava de ver a tua cara horrível. Passavam o tempo nisto. Insultavam-se constantemente, enquanto o rio, sem lhes ligar, corria a seus pés.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - És mesmo feia. Quanto mais olho para ti, mais me admiro que possa haver terra tão sem graça. - Vira-me as costas - respondia-lhe a margem de cá. - Até me fazias um favor, porque escusava de ver a tua cara horrível. Passavam o tempo nisto. Insultavam-se constantemente, enquanto o rio, sem lhes ligar, corria a seus pés. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "Só uma vez por outra, um turista as retratava na sua máquina fotográfica, comentando: - Bela paisagem ribeirinha... Qualquer uma das margens que ouvisse diria que, certamente, era dela que o turista falava. Duas presunçosas , afinal.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Só uma vez por outra, um turista as retratava na sua máquina fotográfica, comentando: - Bela paisagem ribeirinha... Qualquer uma das margens que ouvisse diria que, certamente, era dela que o turista falava. Duas presunçosas , afinal. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p3",
+        "s5p4",
+        "s5p5"
+      ],
+      "evidence": "- Não é! Farto das discussões, o rio interpôs-se e disse, na sua voz pausada de rio de águas mansas: - Esta ponte destina-se, como todas as outras pontes, a juntar as duas margens.",
+      "after": {
+        "segment": 5,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Não é! Farto das discussões, o rio interpôs-se e disse, na sua voz pausada de rio de águas mansas: - Esta ponte destina-se, como todas as outras pontes, a juntar as duas margens. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s7p0",
+        "s7p1",
+        "s7p2"
+      ],
+      "evidence": "As duas margens estavam enfeitadas com bandeiras e cheias de gente a acenar de margem para margem. - É um dia inesquecível para nós - disse o rio para ambas as margens. - Um dia maravilhoso. E elas, sentindo-se espelho uma da outra, concordaram.",
+      "after": {
+        "segment": 7,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: As duas margens estavam enfeitadas com bandeiras e cheias de gente a acenar de margem para margem. - É um dia inesquecível para nós - disse o rio para ambas as margens. - Um dia maravilhoso. E elas, sentindo-se espelho uma da outra, concordaram. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": [
+    {
+      "sceneId": "scene-2",
+      "attempt": 1,
+      "message": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ab21d6f7-30ae-4c32-ad7e-be12b83ea9f8. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    }
+  ]
+}

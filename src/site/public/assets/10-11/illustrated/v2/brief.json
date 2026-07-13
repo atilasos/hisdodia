@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": "farm stable at dusk",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O boi regressava do trabalho, ao entardecer. Vinha muito cansado. Por caminhos torcidos e pedregosos puxara, o dia todo, um carro de bois, que, bem vistas as coisas, devia antes chamar-se carro de boi, porque ele, sozinho, fazia as vezes de uma junta de bois, dos mais possantes. Estava mesmo exausto. A caminho do estábulo, já apaladava, na imaginação, a saborosa ceia de feno, que o aguardava na manjedoira. Merecida.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Boi Manso».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O boi regressava do trabalho, ao entardecer. Vinha muito cansado. Por caminhos torcidos e pedregosos puxara, o dia todo, um carro de bois, que, bem vistas as coisas, devia antes chamar-se carro de boi, porque ele, sozinho, fazia as vezes de uma junta de bois, dos mais possantes. Estava mesmo exausto. A caminho do estábulo, já apaladava, na imaginação, a saborosa ceia de feno, que o aguardava na manjedoira. Merecida. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s0p3"
+      ],
+      "evidence": "Estava mesmo exausto. A caminho do estábulo, já apaladava, na imaginação, a saborosa ceia de feno, que o aguardava na manjedoira. Merecida. Entrou no estábulo e o que viu? O cão da quinta, deitado no fofo do feno.",
+      "after": {
+        "segment": 0,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Estava mesmo exausto. A caminho do estábulo, já apaladava, na imaginação, a saborosa ceia de feno, que o aguardava na manjedoira. Merecida. Entrou no estábulo e o que viu? O cão da quinta, deitado no fofo do feno. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p15",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p13",
+        "s0p14",
+        "s0p15"
+      ],
+      "evidence": "- Eu entenderia a sua má disposição se o soubesse apreciador de feno. Mas se para si não serve, senão como cama, porque me proíbe de comer? Ou quer provar também do meu jantar? - Não. Não - ladrou o cão. Era malhar em ferro frio.",
+      "after": {
+        "segment": 0,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Eu entenderia a sua má disposição se o soubesse apreciador de feno. Mas se para si não serve, senão como cama, porque me proíbe de comer? Ou quer provar também do meu jantar? - Não. Não - ladrou o cão. Era malhar em ferro frio. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p24",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p22",
+        "s0p23",
+        "s0p24"
+      ],
+      "evidence": "Tu é que decides. Tu é que mandas. Já decidiste? Pois foi assim mesmo, tal como determinaste. Uma resolução muito acertada.",
+      "after": {
+        "segment": 0,
+        "paragraph": 24
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Tu é que decides. Tu é que mandas. Já decidiste? Pois foi assim mesmo, tal como determinaste. Uma resolução muito acertada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p29",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p27",
+        "s0p28",
+        "s0p29"
+      ],
+      "evidence": "- Caim! Caim! Boi ruim! Caim! Caim! Porque será?",
+      "after": {
+        "segment": 0,
+        "paragraph": 29
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Caim! Caim! Boi ruim! Caim! Caim! Porque será? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

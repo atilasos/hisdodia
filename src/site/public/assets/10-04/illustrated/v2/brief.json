@@ -1,0 +1,74 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Eram duas margens, com um rio a separá-las. Que tolice! Se não houvesse um rio entre elas, como poderiam ser duas margens? A margem de lá dizia para a margem de cá: - És mesmo feia. Quanto mais olho para ti, mais me admiro que possa haver terra tão sem graça.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Duas Margens».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eram duas margens, com um rio a separá-las. Que tolice! Se não houvesse um rio entre elas, como poderiam ser duas margens? A margem de lá dizia para a margem de cá: - És mesmo feia. Quanto mais olho para ti, mais me admiro que possa haver terra tão sem graça. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "- És mesmo feia. Quanto mais olho para ti, mais me admiro que possa haver terra tão sem graça. - Vira-me as costas - respondia-lhe a margem de cá. - Até me fazias um favor, porque escusava de ver a tua cara horrível. Passavam o tempo nisto. Insultavam-se constantemente, enquanto o rio, sem lhes ligar, corria a seus pés. Barcos e barquinhos atravessavam-no de uma para a outra margem, indiferentes ao despique interminável. Para os barcos e para as pessoas que neles viajavam, as margens não eram bonitas nem feias, mas pontos de chegada ou de partida. Só uma vez por outra, um turista as retratava na sua máquina fotográfica, comentando:",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - És mesmo feia. Quanto mais olho para ti, mais me admiro que possa haver terra tão sem graça. - Vira-me as costas - respondia-lhe a margem de cá. - Até me fazias um favor, porque escusava de ver a tua cara horrível. Passavam o tempo nisto. Insultavam-se constantemente, enquanto o rio, sem lhes ligar, corria a seus pés. Barcos e barquinhos atravessavam-no de uma para a outra margem, indiferentes ao despique interminável. Para os barcos e para as pessoas que neles viajavam, as margens não eram bonitas nem feias, mas pontos de chegada ou de partida. Só uma vez por outra, um turista as retratava na sua máquina fotográfica, comentando: Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p11",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p9",
+        "s1p10",
+        "s1p11"
+      ],
+      "evidence": "Farto das discussões, o rio interpôs-se e disse, na sua voz pausada de rio de águas mansas: - Esta ponte destina-se, como todas as outras pontes, a juntar as duas margens. Vocês vão ficar mais perto uma da outra, vejam se se entendem. Elas calaram-se. A ponte crescia a olhos vistos. Era uma grande e bela ponte.",
+      "after": {
+        "segment": 1,
+        "paragraph": 11
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Farto das discussões, o rio interpôs-se e disse, na sua voz pausada de rio de águas mansas: - Esta ponte destina-se, como todas as outras pontes, a juntar as duas margens. Vocês vão ficar mais perto uma da outra, vejam se se entendem. Elas calaram-se. A ponte crescia a olhos vistos. Era uma grande e bela ponte. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p14",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p12",
+        "s1p13",
+        "s1p14"
+      ],
+      "evidence": "No dia em que foi inaugurada, houve foguetes, música, discursos. As duas margens estavam enfeitadas com bandeiras e cheias de gente a acenar de margem para margem. - É um dia inesquecível para nós - disse o rio para ambas as margens. - Um dia maravilhoso. E elas, sentindo-se espelho uma da outra, concordaram.",
+      "after": {
+        "segment": 1,
+        "paragraph": 14
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No dia em que foi inaugurada, houve foguetes, música, discursos. As duas margens estavam enfeitadas com bandeiras e cheias de gente a acenar de margem para margem. - É um dia inesquecível para nós - disse o rio para ambas as margens. - Um dia maravilhoso. E elas, sentindo-se espelho uma da outra, concordaram. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

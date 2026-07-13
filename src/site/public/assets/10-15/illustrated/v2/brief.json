@@ -1,0 +1,112 @@
+{
+  "characters": [
+    {
+      "name": "O senhor Conde Qualquer Coisa e Tal",
+      "appearance": "Nobre português mais velho, postura autoritária, roupas elegantes e formais, ar de satisfação contida"
+    },
+    {
+      "name": "Novo criado",
+      "appearance": "Rapaz jovem, aspecto simples, expressão ingênua, roupa de serviço modesta"
+    }
+  ],
+  "environment": "Escritório de um conde, com tapete, secretária, prateleira com moedas antigas e atmosfera doméstica aristocrática portuguesa de época.",
+  "palette": [
+    "tons quentes e envelhecidos",
+    "castanhos escuros",
+    "dourados antigos",
+    "verdes apagados",
+    "cremes e beges",
+    "sombreados suaves"
+  ],
+  "recurringObjects": [
+    "moeda de cem escudos",
+    "libra de ouro",
+    "tapete do escritório",
+    "prateleira com moedas antigas"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O senhor Conde Qualquer Coisa e Tal admitiu ao seu serviço um novo criado. O rapaz não seria muito vivo de espírito, mas o senhor Conde tinha esta máxima: - Os criados pouco espertos são de maior confiança. Seriam ou não, é o que se vai saber.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Criado de Confiança».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O senhor Conde Qualquer Coisa e Tal admitiu ao seu serviço um novo criado. O rapaz não seria muito vivo de espírito, mas o senhor Conde tinha esta máxima: - Os criados pouco espertos são de maior confiança. Seriam ou não, é o que se vai saber. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s0p3"
+      ],
+      "evidence": "- Os criados pouco espertos são de maior confiança. Seriam ou não, é o que se vai saber. Estava o novo criado a limpar o escritório do senhor Conde, quando encontrou no tapete uma moeda de cem escudos.",
+      "after": {
+        "segment": 0,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Os criados pouco espertos são de maior confiança. Seriam ou não, é o que se vai saber. Estava o novo criado a limpar o escritório do senhor Conde, quando encontrou no tapete uma moeda de cem escudos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p6",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "Assim que o senhor Conde chegou, o criado apresentou-lhe a moeda que tinha achado. - Gesto bonito, sim senhor - agradou-se o Conde. - Fica tu com ela, como prémio da tua honradez.",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Assim que o senhor Conde chegou, o criado apresentou-lhe a moeda que tinha achado. - Gesto bonito, sim senhor - agradou-se o Conde. - Fica tu com ela, como prémio da tua honradez. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p11",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p9",
+        "s0p10",
+        "s0p11"
+      ],
+      "evidence": "- Tu, quando estiveste a limpar o escritório, por acaso não encontraste uma libra? - Encontrei, sim, senhor Conde. - Onde a puseste?",
+      "after": {
+        "segment": 0,
+        "paragraph": 11
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Tu, quando estiveste a limpar o escritório, por acaso não encontraste uma libra? - Encontrei, sim, senhor Conde. - Onde a puseste? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p13",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p11",
+        "s0p12",
+        "s0p13"
+      ],
+      "evidence": "- Onde a puseste? Respondeu o rapaz, com o ar mais inocente deste mundo: - Fiquei com ela, como prémio da minha honradez.",
+      "after": {
+        "segment": 0,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Onde a puseste? Respondeu o rapaz, com o ar mais inocente deste mundo: - Fiquei com ela, como prémio da minha honradez. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

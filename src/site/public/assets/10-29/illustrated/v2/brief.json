@@ -1,0 +1,86 @@
+{
+  "characters": [
+    {
+      "name": "Burro",
+      "appearance": "burro de trabalho, robusto, cansado, expressão ressentida"
+    },
+    {
+      "name": "Dono",
+      "appearance": "homem rural, áspero, carrancudo"
+    },
+    {
+      "name": "Mulher do dono",
+      "appearance": "mulher rural, atenta, prática"
+    },
+    {
+      "name": "Cachorros",
+      "appearance": "cachorros pequenos, brincalhões"
+    }
+  ],
+  "environment": "quinta e caminho rural na serra, com carroça, estábulo e manjedoira",
+  "palette": [
+    "terrosos",
+    "ocres",
+    "castanhos",
+    "verdes apagados",
+    "azuis desbotados"
+  ],
+  "recurringObjects": [
+    "carroça",
+    "chicote",
+    "manjedoira",
+    "emplastros",
+    "estábulo"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um burro de trabalho, daqueles que carregam o dobro do seu peso, de casa para o mercado e do mercado para casa. Mais esforçado burro não havia. O dono pouco lhe ligava. Alimentava-o, dava-lhe cama na estrebaria e uma chibatada ao descair, uma vez por outra, sobretudo quando o burro se atrasava pelos caminhos tortuosos da serra. Nem uma festa nas orelhas, que lhe sacudisse as moscas, nem uma palavra de reconhecimento, ao fim de um dia de canseiras. Nada.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Burro Cão».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um burro de trabalho, daqueles que carregam o dobro do seu peso, de casa para o mercado e do mercado para casa. Mais esforçado burro não havia. O dono pouco lhe ligava. Alimentava-o, dava-lhe cama na estrebaria e uma chibatada ao descair, uma vez por outra, sobretudo quando o burro se atrasava pelos caminhos tortuosos da serra. Nem uma festa nas orelhas, que lhe sacudisse as moscas, nem uma palavra de reconhecimento, ao fim de um dia de canseiras. Nada. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p2",
+        "s1p3",
+        "s1p4"
+      ],
+      "evidence": "E era verdade. – Se quero receber alguma festa ou prova de simpatia do meu dono, estou a ver que tenho de proceder da mesma maneira - continuou a penar o pobre do burro. E assim fez.",
+      "after": {
+        "segment": 1,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E era verdade. – Se quero receber alguma festa ou prova de simpatia do meu dono, estou a ver que tenho de proceder da mesma maneira - continuou a penar o pobre do burro. E assim fez. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p11",
+        "s1p12",
+        "s2p0"
+      ],
+      "evidence": "– Este burro endoideceu – gritou o homem, levantando-se. – Espera lá que já te ensino a ganhares juízo. Deu-lhe tal desanda que, não tivesse a mulher do dono, a certa altura, tirado o cabo do chicote das mãos do marido, esta história tinha tido ainda um fim mais triste do que, de facto, teve. Nem todas as histórias podem acabar bem. Esta acaba com o burro preso à manjedoira, derreadinho da sova, e a mulher do dono a cuidar-lhe das feridas, com emplastros e unguentos.",
+      "after": {
+        "segment": 2,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Este burro endoideceu – gritou o homem, levantando-se. – Espera lá que já te ensino a ganhares juízo. Deu-lhe tal desanda que, não tivesse a mulher do dono, a certa altura, tirado o cabo do chicote das mãos do marido, esta história tinha tido ainda um fim mais triste do que, de facto, teve. Nem todas as histórias podem acabar bem. Esta acaba com o burro preso à manjedoira, derreadinho da sova, e a mulher do dono a cuidar-lhe das feridas, com emplastros e unguentos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}
