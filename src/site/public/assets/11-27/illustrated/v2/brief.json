@@ -1,0 +1,68 @@
+{
+  "characters": [],
+  "environment": "A small comedic children’s-story world centered on a doctor’s office, a horse, and the contrast between the man’s size and the horse’s loss of weight.",
+  "palette": [
+    "warm creams",
+    "muted reds",
+    "gentle browns",
+    "soft blues",
+    "sunlit yellows"
+  ],
+  "recurringObjects": [
+    "doctor’s measuring tape",
+    "horse",
+    "man’s bulk",
+    "medical office furniture"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um senhor muito gordo. Foi ao médico dos gordos, que querem passar a magros ou a menos gordos. Um médico muito famoso. – O que o senhor precisa é de fazer exercício – disse-lhe o médico.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Senhor Gordo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um senhor muito gordo. Foi ao médico dos gordos, que querem passar a magros ou a menos gordos. Um médico muito famoso. – O que o senhor precisa é de fazer exercício – disse-lhe o médico. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s0p4",
+        "s0p5"
+      ],
+      "evidence": "– Que género de exercício? – perguntou o senhor muito gordo. – Desporto – explicou-lhe o médico. – Ginástica, natação, corrida… O senhor gordo, que também era muito preguiçoso, preferiu a corrida, mas a cavalo. Sempre era mais confortável.",
+      "after": {
+        "segment": 0,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Que género de exercício? – perguntou o senhor muito gordo. – Desporto – explicou-lhe o médico. – Ginástica, natação, corrida… O senhor gordo, que também era muito preguiçoso, preferiu a corrida, mas a cavalo. Sempre era mais confortável. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "– O senhor está na mesma – disse-lhe o médico, depois de medir-lhe a cintura. – Não emagreceu nada. – Mas emagreceu o cavalo – esclareceu o senhor gordo. – Depois deste mês de exercício, a carregar comigo, está só pele e osso. E o senhor continuou gordo, para o resto da vida. O cavalo, esse, teve de ir consultar um veterinário, a ver se engordava.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – O senhor está na mesma – disse-lhe o médico, depois de medir-lhe a cintura. – Não emagreceu nada. – Mas emagreceu o cavalo – esclareceu o senhor gordo. – Depois deste mês de exercício, a carregar comigo, está só pele e osso. E o senhor continuou gordo, para o resto da vida. O cavalo, esse, teve de ir consultar um veterinário, a ver se engordava. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

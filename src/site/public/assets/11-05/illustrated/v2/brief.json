@@ -1,0 +1,90 @@
+{
+  "characters": [],
+  "environment": "Portuguese suburban home, street, bicycle ride, hospital room",
+  "palette": [],
+  "recurringObjects": [
+    "bicicleta",
+    "caixa de primeiros socorros",
+    "ambulância",
+    "cama de hospital"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O meu amigo Carloto, antes de sair de casa para dar uma voltinha de bicicleta, avisou a mãe: - Hoje vou cair da bicicleta e esfolar um joelho. A mãe foi logo buscar a caixa dos primeiros socorros, para estar tudo à mão, quando o Carloto regressasse da queda. Não seria acidente grave. Nem, muito menos, o primeiro.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Carloto, O Adivinho».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O meu amigo Carloto, antes de sair de casa para dar uma voltinha de bicicleta, avisou a mãe: - Hoje vou cair da bicicleta e esfolar um joelho. A mãe foi logo buscar a caixa dos primeiros socorros, para estar tudo à mão, quando o Carloto regressasse da queda. Não seria acidente grave. Nem, muito menos, o primeiro. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p21",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p19",
+        "s0p20",
+        "s0p21"
+      ],
+      "evidence": "Uma vizinha veio dizer-lhe: - O seu Carloto caiu da bicicleta, bateu com a cabeça no passeio e foi de ambulância para o hospital. A mãe do Carloto atirou-se para dentro de um táxi com a vizinha e, numa ansiedade, que lhe cortava a respiração, foi ao hospital saber do seu mais-que-tudo na vida.",
+      "after": {
+        "segment": 0,
+        "paragraph": 21
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Uma vizinha veio dizer-lhe: - O seu Carloto caiu da bicicleta, bateu com a cabeça no passeio e foi de ambulância para o hospital. A mãe do Carloto atirou-se para dentro de um táxi com a vizinha e, numa ansiedade, que lhe cortava a respiração, foi ao hospital saber do seu mais-que-tudo na vida. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p25",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p23",
+        "s0p24",
+        "s0p25"
+      ],
+      "evidence": "- O seu filho, felizmente, não chegou a sofrer traumatismo craniano. Quando ele andar de bicicleta, recomende-lhe que use capacete. - E não está ferido, senhor doutor? - Nada de grave. Só esfolou um joelho - respondeu o médico, com um sorriso simpático.",
+      "after": {
+        "segment": 0,
+        "paragraph": 25
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - O seu filho, felizmente, não chegou a sofrer traumatismo craniano. Quando ele andar de bicicleta, recomende-lhe que use capacete. - E não está ferido, senhor doutor? - Nada de grave. Só esfolou um joelho - respondeu o médico, com um sorriso simpático. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p28",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p26",
+        "s0p27",
+        "s0p28"
+      ],
+      "evidence": "A mãe foi ver o Carloto, deitado numa cama e ainda um tanto abalado. Não se lembrava de nada, nem sequer de que tinha adivinhado o acidente. Ou parte: o joelho esfolado. Aliás, desde esse dia, fosse do que fosse, talvez da pancada, o Carloto já não conseguia prever nem sequer uma unha partida. Perdera os seus poderes especiais.",
+      "after": {
+        "segment": 0,
+        "paragraph": 28
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A mãe foi ver o Carloto, deitado numa cama e ainda um tanto abalado. Não se lembrava de nada, nem sequer de que tinha adivinhado o acidente. Ou parte: o joelho esfolado. Aliás, desde esse dia, fosse do que fosse, talvez da pancada, o Carloto já não conseguia prever nem sequer uma unha partida. Perdera os seus poderes especiais. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": [
+    {
+      "sceneId": "scene-2",
+      "attempt": 1,
+      "message": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 10404534-78e6-47ff-92f0-2df5b806afe6. safety_violations=[self-harm].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"self-harm\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "sceneId": "scene-2",
+      "attempt": 2,
+      "message": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 1e045c92-67d9-458e-9ecd-66967113811c. safety_violations=[self-harm].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"self-harm\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    }
+  ]
+}

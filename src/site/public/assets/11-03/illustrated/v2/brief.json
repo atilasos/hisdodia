@@ -1,0 +1,74 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma velha muito velha, muito velha, tão velha que não havia velha mais velha do que ela. Um dia, estava a velha a ver televisão, num aparelho também muito velho, quando anunciaram que iam fazer um concurso para proclamar a velha mais velha do mundo. Todas as velhas do mundo podiam concorrer. A velha desta história encolheu os ombros e disse:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Velha Mais Velha».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma velha muito velha, muito velha, tão velha que não havia velha mais velha do que ela. Um dia, estava a velha a ver televisão, num aparelho também muito velho, quando anunciaram que iam fazer um concurso para proclamar a velha mais velha do mundo. Todas as velhas do mundo podiam concorrer. A velha desta história encolheu os ombros e disse: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "A velha desta história encolheu os ombros e disse: - Para quê tanta complicação? Já se sabe que a velha mais velha de todas sou eu. Mas não se deu ao trabalho de concorrer.",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A velha desta história encolheu os ombros e disse: - Para quê tanta complicação? Já se sabe que a velha mais velha de todas sou eu. Mas não se deu ao trabalho de concorrer. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p10",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p8",
+        "s0p9",
+        "s0p10"
+      ],
+      "evidence": "Até que o aparelho de televisão se avariou. A velha deu-lhe uns safanões, mas o televisor não se convenceu. Continuou sem dar nem som nem imagem. Só ruídos. Estava velho. A velha foi bater à porta de um vizinho, para continuar a ver o concurso de velhas, mas o vizinho estava a ver um concurso de misses, e não quis mudar de canal.",
+      "after": {
+        "segment": 0,
+        "paragraph": 10
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Até que o aparelho de televisão se avariou. A velha deu-lhe uns safanões, mas o televisor não se convenceu. Continuou sem dar nem som nem imagem. Só ruídos. Estava velho. A velha foi bater à porta de um vizinho, para continuar a ver o concurso de velhas, mas o vizinho estava a ver um concurso de misses, e não quis mudar de canal. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p23",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p21",
+        "s0p22",
+        "s0p23"
+      ],
+      "evidence": "- Eu, que fui tua professora, nunca te ensinei a mentir, pois não? - ralhou-lhe a velha. - Não, senhora - disse a velhota, a medo, como que a pedir desculpa. Mas de nada lhe valeu o ar de menina que cometeu uma maldade, porque a velha muito velha, ali, sem mais nem menos, diante de toda aquela gente, passou-lhe um raspanete e deu-lhe um valente puxão de orelhas.",
+      "after": {
+        "segment": 0,
+        "paragraph": 23
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Eu, que fui tua professora, nunca te ensinei a mentir, pois não? - ralhou-lhe a velha. - Não, senhora - disse a velhota, a medo, como que a pedir desculpa. Mas de nada lhe valeu o ar de menina que cometeu uma maldade, porque a velha muito velha, ali, sem mais nem menos, diante de toda aquela gente, passou-lhe um raspanete e deu-lhe um valente puxão de orelhas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

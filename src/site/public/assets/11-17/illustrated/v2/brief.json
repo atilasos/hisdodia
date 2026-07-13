@@ -1,0 +1,84 @@
+{
+  "characters": [],
+  "environment": "Interior de um pacote de bolachas e a mesa da casa, com foco no contraste entre a bolacha que exige distinção e as restantes.",
+  "palette": [
+    "bege",
+    "castanho quente",
+    "creme",
+    "azul desbotado",
+    "vermelho suave"
+  ],
+  "recurringObjects": [
+    "pacote de bolachas",
+    "bolachas Maria",
+    "cão Bobi"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma bolacha Maria que disse que Maria, só Maria, não chegava. Queria ser, ao menos, Maria Emília. Bolacha Dona Maria Emília, com todo o respeito. As outras companheiras do pacote fizeram-lhe a vontade. Mas, quando uma bolacha Maria começa com exigências, oh! oh! Nunca mais pára…",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Bolacha Maria».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma bolacha Maria que disse que Maria, só Maria, não chegava. Queria ser, ao menos, Maria Emília. Bolacha Dona Maria Emília, com todo o respeito. As outras companheiras do pacote fizeram-lhe a vontade. Mas, quando uma bolacha Maria começa com exigências, oh! oh! Nunca mais pára… Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s0p3"
+      ],
+      "evidence": "Queria ser, ao menos, Maria Emília. Bolacha Dona Maria Emília, com todo o respeito. As outras companheiras do pacote fizeram-lhe a vontade. Mas, quando uma bolacha Maria começa com exigências, oh! oh! Nunca mais pára… – Pensando melhor, não dispenso os apelidos. Quero passar a ser tratada por Dona Maria Emília de Melo e Sousa Trigo de Reboredo Farinha.",
+      "after": {
+        "segment": 0,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Queria ser, ao menos, Maria Emília. Bolacha Dona Maria Emília, com todo o respeito. As outras companheiras do pacote fizeram-lhe a vontade. Mas, quando uma bolacha Maria começa com exigências, oh! oh! Nunca mais pára… – Pensando melhor, não dispenso os apelidos. Quero passar a ser tratada por Dona Maria Emília de Melo e Sousa Trigo de Reboredo Farinha. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "– Tá bem – diziam as outras, que não eram de despiques. Alguém abriu o pacote e começou a provar daquelas bolachas torradinhas e saborosas. Elas não se importavam. Sabiam para o que estavam destinadas e davam-se por contentes. Proporcionar um pouco de prazer ao paladar era a vocação delas. A Maria que não ia com a outras, por sinal a última do pacote, não seguiu o caminho das demais. Ficou a aguardar novo acesso de apetite de quem, daquela vez, já estava de barriga cheia. Ficou sozinha. Ficou esquecida.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Tá bem – diziam as outras, que não eram de despiques. Alguém abriu o pacote e começou a provar daquelas bolachas torradinhas e saborosas. Elas não se importavam. Sabiam para o que estavam destinadas e davam-se por contentes. Proporcionar um pouco de prazer ao paladar era a vocação delas. A Maria que não ia com a outras, por sinal a última do pacote, não seguiu o caminho das demais. Ficou a aguardar novo acesso de apetite de quem, daquela vez, já estava de barriga cheia. Ficou sozinha. Ficou esquecida. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p9",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p7",
+        "s1p8",
+        "s1p9"
+      ],
+      "evidence": "E chamaram: – Bobi, anda cá. Toma. O Bobi, de rabinho a abanar, muito saracoteante e salivante, veio, tomou e foi assim que a excelentíssima bolacha Dona Maria Emília de Melo e Sousa Trigo de Reboredo Farinha acabou na boca do cão.",
+      "after": {
+        "segment": 1,
+        "paragraph": 9
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E chamaram: – Bobi, anda cá. Toma. O Bobi, de rabinho a abanar, muito saracoteante e salivante, veio, tomou e foi assim que a excelentíssima bolacha Dona Maria Emília de Melo e Sousa Trigo de Reboredo Farinha acabou na boca do cão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

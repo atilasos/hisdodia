@@ -1,0 +1,98 @@
+{
+  "characters": [
+    {
+      "name": "Narrator",
+      "appearance": "Adult owner of a dark blue wool overcoat, practical winter clothing, later wearing the coat with a flower pinned to the lapel."
+    },
+    {
+      "name": "Traças",
+      "appearance": "Two small moths, discreet and destructive, associated with the coat and its lapel."
+    },
+    {
+      "name": "Amigos",
+      "appearance": "The narrator's friends, only implied by their remarks in the final scenes."
+    }
+  ],
+  "environment": "Portuguese winter domestic wardrobe and street setting, centered on a stored overcoat, later on cold-weather wear in public.",
+  "palette": [
+    "dark blue",
+    "wool gray",
+    "winter white",
+    "muted brown",
+    "soft floral accent"
+  ],
+  "recurringObjects": [
+    "overcoat",
+    "lapel",
+    "two holes",
+    "flower pinned to the lapel"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Eram duas traças. Tinham ido parar ao meu sobretudo, guardado no Verão, para voltar a servir no Inverno. As duas traças não me conheciam de parte alguma. Por isso não podiam pedir-me autorização para se servirem, à maneira delas, do meu sobretudo. Naquele guarda-vestidos havia mais roupa pendurada, mas o sobretudo azul-escuro, de lã macia, era o que mais lhes convinha. Quando, chegado o Inverno, dei com dois buracos na lapela do meu sobretudo, barafustei:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «As Traças».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eram duas traças. Tinham ido parar ao meu sobretudo, guardado no Verão, para voltar a servir no Inverno. As duas traças não me conheciam de parte alguma. Por isso não podiam pedir-me autorização para se servirem, à maneira delas, do meu sobretudo. Naquele guarda-vestidos havia mais roupa pendurada, mas o sobretudo azul-escuro, de lã macia, era o que mais lhes convinha. Quando, chegado o Inverno, dei com dois buracos na lapela do meu sobretudo, barafustei: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s0p3"
+      ],
+      "evidence": "As duas traças não me conheciam de parte alguma. Por isso não podiam pedir-me autorização para se servirem, à maneira delas, do meu sobretudo. Naquele guarda-vestidos havia mais roupa pendurada, mas o sobretudo azul-escuro, de lã macia, era o que mais lhes convinha. Quando, chegado o Inverno, dei com dois buracos na lapela do meu sobretudo, barafustei: – Malditas traças! Não há naftalina que as detenha.",
+      "after": {
+        "segment": 0,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: As duas traças não me conheciam de parte alguma. Por isso não podiam pedir-me autorização para se servirem, à maneira delas, do meu sobretudo. Naquele guarda-vestidos havia mais roupa pendurada, mas o sobretudo azul-escuro, de lã macia, era o que mais lhes convinha. Quando, chegado o Inverno, dei com dois buracos na lapela do meu sobretudo, barafustei: – Malditas traças! Não há naftalina que as detenha. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "– Logo na lapela, tão à vista de toda a gente. Podiam antes ter traçado o forro ou as abas, atrás. Assim, inutilizaram-me o sobretudo. Não tem remédio. Devia haver uma maneira de avisar as traças a não roerem lapelas, golas e peitilhos de casacos e sobretudos. Talvez mudassem de hábitos. Eu, neste Inverno, particularmente frio, tenho andado de sobretudo, o azul-escuro de lã macia, o traçado… Mas com uma particularidade: sempre com uma flor na lapela.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Logo na lapela, tão à vista de toda a gente. Podiam antes ter traçado o forro ou as abas, atrás. Assim, inutilizaram-me o sobretudo. Não tem remédio. Devia haver uma maneira de avisar as traças a não roerem lapelas, golas e peitilhos de casacos e sobretudos. Talvez mudassem de hábitos. Eu, neste Inverno, particularmente frio, tenho andado de sobretudo, o azul-escuro de lã macia, o traçado… Mas com uma particularidade: sempre com uma flor na lapela. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p5",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p3",
+        "s1p4",
+        "s1p5"
+      ],
+      "evidence": "É para tapar os buracos feitos pelas traças. Os meus amigos não sabem e dizem-me que ando com um ar festivo. – Andas tão alegre, neste Inverno – comentam. Se eles soubessem…",
+      "after": {
+        "segment": 1,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: É para tapar os buracos feitos pelas traças. Os meus amigos não sabem e dizem-me que ando com um ar festivo. – Andas tão alegre, neste Inverno – comentam. Se eles soubessem… Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

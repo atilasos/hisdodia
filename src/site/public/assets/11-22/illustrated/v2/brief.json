@@ -1,0 +1,137 @@
+{
+  "characters": [
+    {
+      "name": "senhor Teotónio",
+      "appearance": "aventureiro idoso e falador, de presença robusta"
+    },
+    {
+      "name": "as crianças narradoras",
+      "appearance": "grupo de crianças curiosas em roda"
+    },
+    {
+      "name": "menina gigante Carantona",
+      "appearance": "gigante ainda pequena, de aspeto imponente e infantil"
+    },
+    {
+      "name": "madrinha",
+      "appearance": "senhora bastante avantajada de corpo"
+    }
+  ],
+  "environment": "rua de bairro junto a uma roda de crianças, depois mar aberto com escaler e tempestade, praia de ilha remota, interior da ilha dos Carantões e, por fim, reencontro doméstico com o quimono demasiado grande",
+  "palette": [
+    "azuis marítimos",
+    "areias claras",
+    "cinzentos de tempestade",
+    "tons quentes de pele e tecido",
+    "verdes e ocres de ilha"
+  ],
+  "recurringObjects": [
+    "escaler",
+    "barco de brinquedo",
+    "quimono",
+    "roupa de marinheiro",
+    "ondas e escolhos"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O maior aventureiro da nossa rua é o senhor Teotónio. Correu mundo e gosta que saibam. – Não ficou nenhum cantinho por conhecer – costuma ele gabar-se, quando fazemos roda à sua volta. – Esteve na Índia? – pergunta um de nós.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Uma História do Teotónio».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O maior aventureiro da nossa rua é o senhor Teotónio. Correu mundo e gosta que saibam. – Não ficou nenhum cantinho por conhecer – costuma ele gabar-se, quando fazemos roda à sua volta. – Esteve na Índia? – pergunta um de nós. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p14",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p12",
+        "s0p13",
+        "s0p14"
+      ],
+      "evidence": "É uma história do Teotónio. Verdade ou mentira ele que responda. Segundo o seu contar, vinha do Japão, como marujo, num navio mercante, quando se lembrou de que tinha prometido à madrinha um quimono. A senhora que fazia tanto gosto no roupão de seda bordada e ele que se esquecera da encomenda. Não podia voltar atrás o navio, mas podia ele. Às escondidas, baixou um escaler e abandonou o barco.",
+      "after": {
+        "segment": 0,
+        "paragraph": 14
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: É uma história do Teotónio. Verdade ou mentira ele que responda. Segundo o seu contar, vinha do Japão, como marujo, num navio mercante, quando se lembrou de que tinha prometido à madrinha um quimono. A senhora que fazia tanto gosto no roupão de seda bordada e ele que se esquecera da encomenda. Não podia voltar atrás o navio, mas podia ele. Às escondidas, baixou um escaler e abandonou o barco. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p18",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p16",
+        "s0p17",
+        "s0p18"
+      ],
+      "evidence": "Que dedicação de afilhado! Mas levantou-se uma tempestade e o barquinho a remos, que ia a passar pelo meio de uns ilhéus, sacudido de um lado para o outro, foi embater nuns escolhos e desfez-se. Por pouco que não se desfez com ele o senhor Teotónio. Muito abalado, conseguiu nadar até à praia de um dos ilhéus, onde, exausto, se deixou adormecer.",
+      "after": {
+        "segment": 0,
+        "paragraph": 18
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Que dedicação de afilhado! Mas levantou-se uma tempestade e o barquinho a remos, que ia a passar pelo meio de uns ilhéus, sacudido de um lado para o outro, foi embater nuns escolhos e desfez-se. Por pouco que não se desfez com ele o senhor Teotónio. Muito abalado, conseguiu nadar até à praia de um dos ilhéus, onde, exausto, se deixou adormecer. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p21",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p19",
+        "s0p20",
+        "s0p21"
+      ],
+      "evidence": "Acordou, tempos depois, com uma esquisita sensação de aperto. Uns enormes olhos fitavam-no e ele estava nas mãos de um gigante. O senhor Teotónio viera ter à ilha dos temíveis Carantões, uma ilha lendária que todos os marinheiros japoneses temem. A carantonha que o segurava nos dedos era uma gigante ainda pequenina, uma menina gigante. Para ela, o senhor Teotónio equivalia a um boneco achado na praia. Ele não podia dar parte fraca. Fez-se de borracha e exibiu um risinho rígido de boneco japonês. Nessa qualidade, passou a confraternizar com os outros brinquedos da menina carantonha.",
+      "after": {
+        "segment": 0,
+        "paragraph": 21
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Acordou, tempos depois, com uma esquisita sensação de aperto. Uns enormes olhos fitavam-no e ele estava nas mãos de um gigante. O senhor Teotónio viera ter à ilha dos temíveis Carantões, uma ilha lendária que todos os marinheiros japoneses temem. A carantonha que o segurava nos dedos era uma gigante ainda pequenina, uma menina gigante. Para ela, o senhor Teotónio equivalia a um boneco achado na praia. Ele não podia dar parte fraca. Fez-se de borracha e exibiu um risinho rígido de boneco japonês. Nessa qualidade, passou a confraternizar com os outros brinquedos da menina carantonha. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p24",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p22",
+        "s0p23",
+        "s0p24"
+      ],
+      "evidence": "Mas aquilo não era vida. Ser despido e vestido pela carantonha, embalado e lavado, pendurado de pernas para o ar e atirado ao chão, sem cerimónia, não se tolerava. Eram humilhações demais para um aventureiro. Decidiu fugir. Num barco de brinquedo, quase do tamanho do escaler em que naufragara, fez-se ao mar, à hora da sesta da sua tutora e carcereira. De bagagem, levava um quimono, surripiado à menina.",
+      "after": {
+        "segment": 0,
+        "paragraph": 24
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas aquilo não era vida. Ser despido e vestido pela carantonha, embalado e lavado, pendurado de pernas para o ar e atirado ao chão, sem cerimónia, não se tolerava. Eram humilhações demais para um aventureiro. Decidiu fugir. Num barco de brinquedo, quase do tamanho do escaler em que naufragara, fez-se ao mar, à hora da sesta da sua tutora e carcereira. De bagagem, levava um quimono, surripiado à menina. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s0p27",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p25",
+        "s0p26",
+        "s0p27"
+      ],
+      "evidence": "– Ó Teotónio, mas este quimono está-me enorme! – disse-lhe, tempo depois, a madrinha, que até era bastante avantajada de corpo. – Tu julgas que eu sou alguma gigante ou quê? Não valia a pena explicar à madrinha os perigos e sacrifícios por que passara para lhe trazer aquele roupão de mangas larguíssimas. Talvez até ela o tomasse por mentiroso. Nessa não caímos nós.",
+      "after": {
+        "segment": 0,
+        "paragraph": 27
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Ó Teotónio, mas este quimono está-me enorme! – disse-lhe, tempo depois, a madrinha, que até era bastante avantajada de corpo. – Tu julgas que eu sou alguma gigante ou quê? Não valia a pena explicar à madrinha os perigos e sacrifícios por que passara para lhe trazer aquele roupão de mangas larguíssimas. Talvez até ela o tomasse por mentiroso. Nessa não caímos nós. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

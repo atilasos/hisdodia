@@ -1,0 +1,74 @@
+{
+  "characters": [],
+  "environment": "praia e mar",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um barco de papel, que se fez ao mar. Barco de papel, no meio do mar, estão a ver o que lhe aconteceu… Escangalhou-se à primeira onda. E regressou à praia. Estatelado na areia, era uma lástima vê-lo.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Barco de Papel».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um barco de papel, que se fez ao mar. Barco de papel, no meio do mar, estão a ver o que lhe aconteceu… Escangalhou-se à primeira onda. E regressou à praia. Estatelado na areia, era uma lástima vê-lo. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um barco de papel, que se fez ao mar. Barco de papel, no meio do mar, estão a ver o que lhe aconteceu… Escangalhou-se à primeira onda. E regressou à praia. Estatelado na areia, era uma lástima vê-lo.",
+      "after": {
+        "segment": 0,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um barco de papel, que se fez ao mar. Barco de papel, no meio do mar, estão a ver o que lhe aconteceu… Escangalhou-se à primeira onda. E regressou à praia. Estatelado na areia, era uma lástima vê-lo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p6",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "– Senhor barco de papel, como se sente, depois da aventura? O barco, todo amarrotado pelo desespero e a humilhação da derrota, esboçou um sorriso. Um sorriso de papel: – O que sinto vê-se. Não lhe posso dizer mais nada.",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Senhor barco de papel, como se sente, depois da aventura? O barco, todo amarrotado pelo desespero e a humilhação da derrota, esboçou um sorriso. Um sorriso de papel: – O que sinto vê-se. Não lhe posso dizer mais nada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p6",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p4",
+        "s1p5",
+        "s1p6"
+      ],
+      "evidence": "– Não chegou a dizer-me, senhor barco de papel… Por favor, o que teria sido se pudesse voltar atrás? De longe, quase desfeito, o barco respondeu: – Avião de papel. É evidente. E hei-de conseguir.",
+      "after": {
+        "segment": 1,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Não chegou a dizer-me, senhor barco de papel… Por favor, o que teria sido se pudesse voltar atrás? De longe, quase desfeito, o barco respondeu: – Avião de papel. É evidente. E hei-de conseguir. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

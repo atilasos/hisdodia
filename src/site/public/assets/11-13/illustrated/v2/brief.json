@@ -1,0 +1,127 @@
+{
+  "characters": [
+    {
+      "name": "cão",
+      "appearance": ":"
+    },
+    {
+      "name": "gato",
+      "appearance": ":"
+    },
+    {
+      "name": "velha",
+      "appearance": ":"
+    },
+    {
+      "name": "génio das cavernas",
+      "appearance": ":"
+    },
+    {
+      "name": "menina",
+      "appearance": ":"
+    },
+    {
+      "name": "pai",
+      "appearance": ":"
+    }
+  ],
+  "environment": "colonial Portuguese children's tale settings: a poor cottage, rainy countryside, a long cave with a luminous chamber, and an ordinary home interior",
+  "palette": [
+    "earth tones",
+    "muted browns",
+    "cool grays",
+    "soft cream light",
+    "subtle blue accents"
+  ],
+  "recurringObjects": [
+    "casebre",
+    "gruta",
+    "luz da clareira",
+    "casa nova"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O cão e o gato não eram amigos, mas faziam de conta. Viviam ambos abrigados no casebre de uma pobre velha, que com eles repartia o pouco que tinha. – Sejam amiguinhos. Sejam amiguinhos – estava sempre ela a dizer-lhes. Pela comida e dormida os dois incorrigíveis inimigos aturavam-se. Que remédio.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Cão e o Gato».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O cão e o gato não eram amigos, mas faziam de conta. Viviam ambos abrigados no casebre de uma pobre velha, que com eles repartia o pouco que tinha. – Sejam amiguinhos. Sejam amiguinhos – estava sempre ela a dizer-lhes. Pela comida e dormida os dois incorrigíveis inimigos aturavam-se. Que remédio. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "Pela comida e dormida os dois incorrigíveis inimigos aturavam-se. Que remédio. Um dia, a velhota morreu. Vieram os filhos, vieram os netos e enxotaram-nos do casebre. Cão e gato, tristes por terem perdido a sua protectora e o mínimo de conforto que ela lhes proporcionava, ficaram a rondar a casa, mas cada um para seu lado. \"Sejam amiguinhos. Sejam amiguinhos\", ainda lhes soava nos ouvidos.",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Pela comida e dormida os dois incorrigíveis inimigos aturavam-se. Que remédio. Um dia, a velhota morreu. Vieram os filhos, vieram os netos e enxotaram-nos do casebre. Cão e gato, tristes por terem perdido a sua protectora e o mínimo de conforto que ela lhes proporcionava, ficaram a rondar a casa, mas cada um para seu lado. \"Sejam amiguinhos. Sejam amiguinhos\", ainda lhes soava nos ouvidos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p10",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p8",
+        "s1p9",
+        "s1p10"
+      ],
+      "evidence": "Nada feito. Ou aceitavam a troca ou acabariam por morrer, à fome e ao frio. Lá se resignaram à mudança, já que a alternativa também não era nada apetecível. O Génio executou a magia e o gato passou para a pele de cão e o cão para a pele de gato. Esquisito.",
+      "after": {
+        "segment": 1,
+        "paragraph": 10
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Nada feito. Ou aceitavam a troca ou acabariam por morrer, à fome e ao frio. Lá se resignaram à mudança, já que a alternativa também não era nada apetecível. O Génio executou a magia e o gato passou para a pele de cão e o cão para a pele de gato. Esquisito. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p12",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p10",
+        "s1p11",
+        "s1p12"
+      ],
+      "evidence": "O Génio executou a magia e o gato passou para a pele de cão e o cão para a pele de gato. Esquisito. Correram ambos na direcção da entrada da gruta, ainda assarapantados. – Que cãozinho e que gatinho tão bonitos. Posso levá-los para casa? – perguntou uma menina ao pai.",
+      "after": {
+        "segment": 1,
+        "paragraph": 12
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Génio executou a magia e o gato passou para a pele de cão e o cão para a pele de gato. Esquisito. Correram ambos na direcção da entrada da gruta, ainda assarapantados. – Que cãozinho e que gatinho tão bonitos. Posso levá-los para casa? – perguntou uma menina ao pai. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "– Mas estes dão-se. Tão juntinhos. Tão amigos – disse a menina. Era verdade. Cada um olhava para o outro como se fosse ele próprio. Ora, como é que uma pessoa ou um bicho pode dar-se mal com ele mesmo? E assim o gato-cão e o cão-gato arranjaram uma nova dona. À noite, enroscados um no outro, não se sabe onde começa o cão e acaba o gato. Fizeram-se, realmente amigos.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Mas estes dão-se. Tão juntinhos. Tão amigos – disse a menina. Era verdade. Cada um olhava para o outro como se fosse ele próprio. Ora, como é que uma pessoa ou um bicho pode dar-se mal com ele mesmo? E assim o gato-cão e o cão-gato arranjaram uma nova dona. À noite, enroscados um no outro, não se sabe onde começa o cão e acaba o gato. Fizeram-se, realmente amigos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

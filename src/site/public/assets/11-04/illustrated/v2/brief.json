@@ -1,0 +1,98 @@
+{
+  "characters": [
+    {
+      "name": "galinha",
+      "appearance": "galinha curiosa e vaidosa, de crista viva, postura animada, alternando entre pose de galo e atitude de cacarejo"
+    },
+    {
+      "name": "galo",
+      "appearance": "galo velho, autoritário e embaraçado, com porte firme e expressão resmungona"
+    },
+    {
+      "name": "bicharia da quinta",
+      "appearance": "grupo variado de animais da quinta, atentos e curiosos, incluindo patos, perus, ovelhas, vacas, porcos, burro e cães de guarda"
+    }
+  ],
+  "environment": "quinta com capoeira, ambiente rural animado e ligeiramente cómico, centrado no espaço onde os animais se juntam à volta do galo e da galinha",
+  "palette": [
+    "vermelhos quentes",
+    "amarelos dourados",
+    "castanhos terrosos",
+    "verdes suaves",
+    "azuis desbotados"
+  ],
+  "recurringObjects": [
+    "capoeira",
+    "ovos",
+    "bichos da quinta",
+    "ninho de palha"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma galinha que cantava de galo. – Que é lá isso? Já não há respeito? – indignou-se o único galo da capoeira. – Então, daqui para a frente, passas a ser tu a anunciar a alvorada. A galinha escusou-se à responsabilidade. Que não tinha vocação para corneteiro, que não era dada a madrugar, que até tinha o sono pesado e mais que torna e mais que deixa, tudo desculpas esfarrapadas.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Fenómenos de Capoeira».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma galinha que cantava de galo. – Que é lá isso? Já não há respeito? – indignou-se o único galo da capoeira. – Então, daqui para a frente, passas a ser tu a anunciar a alvorada. A galinha escusou-se à responsabilidade. Que não tinha vocação para corneteiro, que não era dada a madrugar, que até tinha o sono pesado e mais que torna e mais que deixa, tudo desculpas esfarrapadas. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p7",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p5",
+        "s1p6",
+        "s1p7"
+      ],
+      "evidence": "Quis mantê-los à distância, mas em vão. A curiosidade era muita e não se podia perder pitada do grande acontecimento. Ovo é que não houve meio. – Desisto – concluiu o galo. – Isto de pôr ovos e, ainda por cima, diante desta plateia de basbaques, não é para as minhas forças.",
+      "after": {
+        "segment": 1,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quis mantê-los à distância, mas em vão. A curiosidade era muita e não se podia perder pitada do grande acontecimento. Ovo é que não houve meio. – Desisto – concluiu o galo. – Isto de pôr ovos e, ainda por cima, diante desta plateia de basbaques, não é para as minhas forças. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p10",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p8",
+        "s1p9",
+        "s1p10"
+      ],
+      "evidence": "Conclusão sensata. – Põe tu um ovo por mim – disse o galo para a galinha que, às vezes, cantava de galo. Ela pôs, sem nenhuma dificuldade, e, depois, não cantou de galo. Cacarejou como cacarejam as galinhas quando acabam de pôr um ovo.",
+      "after": {
+        "segment": 1,
+        "paragraph": 10
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Conclusão sensata. – Põe tu um ovo por mim – disse o galo para a galinha que, às vezes, cantava de galo. Ela pôs, sem nenhuma dificuldade, e, depois, não cantou de galo. Cacarejou como cacarejam as galinhas quando acabam de pôr um ovo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s2p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p11",
+        "s1p12",
+        "s2p0"
+      ],
+      "evidence": "– Bonita cantiga – elogiou o galo. Toda a bicharia era da mesma opinião. Um encanto de cantiguinha. Um mimo de voz. Um gargarejo mesmo melodioso. A galinha, envaidecida, corou até à crista. E não voltou a cantar de galo.",
+      "after": {
+        "segment": 2,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Bonita cantiga – elogiou o galo. Toda a bicharia era da mesma opinião. Um encanto de cantiguinha. Um mimo de voz. Um gargarejo mesmo melodioso. A galinha, envaidecida, corou até à crista. E não voltou a cantar de galo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

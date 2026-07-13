@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Uma raposa, que vinha a fugir dos caçadores, enfiou para dentro de um poço, à falta de melhor esconderijo. Lá no fundo, lamentou-se: – Safei-me de morrer de uma chumbada, mas daqui de dentro é que eu não me salvo.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Cuidado com o Poço».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Uma raposa, que vinha a fugir dos caçadores, enfiou para dentro de um poço, à falta de melhor esconderijo. Lá no fundo, lamentou-se: – Safei-me de morrer de uma chumbada, mas daqui de dentro é que eu não me salvo. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s0p4",
+        "s0p5"
+      ],
+      "evidence": "Era um poço seco, um poço abandonado. Recordando o antigo uso, tinha na borda um balde, preso a uma corda de rodízio. A outra ponta da corda estava caída no fundo, aos pés da raposa. – Se eu conseguisse trepar pela corda acima, estava garantida – pensou a raposa. Tentou, mas só conseguiu soltar o balde que balançou, na outra extremidade, como um sino sem badalo.",
+      "after": {
+        "segment": 0,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era um poço seco, um poço abandonado. Recordando o antigo uso, tinha na borda um balde, preso a uma corda de rodízio. A outra ponta da corda estava caída no fundo, aos pés da raposa. – Se eu conseguisse trepar pela corda acima, estava garantida – pensou a raposa. Tentou, mas só conseguiu soltar o balde que balançou, na outra extremidade, como um sino sem badalo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p11",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p9",
+        "s0p10",
+        "s0p11"
+      ],
+      "evidence": "– Com asas? Quem me dera! Como posso provar dessa água milagrosa? – Meta-se no balde, que está aí em cima, e venha ter comigo, antes que a água acabe. A ovelha não pensou duas vezes. Atirou-se para dentro do balde, que desceu com o peso, puxando para cima a outra ponta da corda, onde vinha agarrada a raposa.",
+      "after": {
+        "segment": 0,
+        "paragraph": 11
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Com asas? Quem me dera! Como posso provar dessa água milagrosa? – Meta-se no balde, que está aí em cima, e venha ter comigo, antes que a água acabe. A ovelha não pensou duas vezes. Atirou-se para dentro do balde, que desceu com o peso, puxando para cima a outra ponta da corda, onde vinha agarrada a raposa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p15",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p13",
+        "s0p14",
+        "s0p15"
+      ],
+      "evidence": "E fugiu daquela armadilha do destino, a rir-se da malvadez. A ovelha baliu desesperada e humilhada com a sua tontice. Dar ouvidos a uma raposa, acreditar em água ou o que fosse que oferece asas a quem quer beber, que disparate, que estupidez! Por tanta imbecilidade junta, mais merecia ela lá ficar no fundo do poço do que a raposa. A ovelha chorou, mas já não lhe valia de nada.",
+      "after": {
+        "segment": 0,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E fugiu daquela armadilha do destino, a rir-se da malvadez. A ovelha baliu desesperada e humilhada com a sua tontice. Dar ouvidos a uma raposa, acreditar em água ou o que fosse que oferece asas a quem quer beber, que disparate, que estupidez! Por tanta imbecilidade junta, mais merecia ela lá ficar no fundo do poço do que a raposa. A ovelha chorou, mas já não lhe valia de nada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p18",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p16",
+        "s0p17",
+        "s0p18"
+      ],
+      "evidence": "Vá que vá que ainda lhe valeu… O pastor, quando foi a contar as ovelhas e deu pela falta de uma, foi procurá-la. Chamado pelas lamúrias da ovelha, chegou-se à beira do poço e salvou-a a tempo.",
+      "after": {
+        "segment": 0,
+        "paragraph": 18
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Vá que vá que ainda lhe valeu… O pastor, quando foi a contar as ovelhas e deu pela falta de uma, foi procurá-la. Chamado pelas lamúrias da ovelha, chegou-se à beira do poço e salvou-a a tempo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

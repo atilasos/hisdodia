@@ -1,0 +1,99 @@
+{
+  "characters": [
+    {
+      "name": "alfaiate jovem",
+      "appearance": "homem jovem, artesão habilidoso, roupas de trabalho simples"
+    },
+    {
+      "name": "sultão",
+      "appearance": "homem mais velho, figura régia, postura severa"
+    },
+    {
+      "name": "escravo",
+      "appearance": "guardião armado, presença intimidante, de sabre"
+    }
+  ],
+  "environment": "Bagdad e o interior do palácio do sultão, com espaços privados do harém e sala de confronto",
+  "palette": [
+    "ocre",
+    "azul profundo",
+    "dourado",
+    "vermelho escuro",
+    "marfim"
+  ],
+  "recurringObjects": [
+    "tesoura",
+    "sabre",
+    "lenço de venda",
+    "vestidos finos",
+    "sinal em forma de ananás"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Lá para as terras de Bagdad, que um poderoso sultão governava, havia um alfaiate que tinha um filho tão ou mais hábil do que o pai nas artes de alfaiataria. A bem dizer, o rapaz não era filho de alfaiate. Encontrara-o ele, bebé ainda, dentro de um cestinho, à sua porta, abandonado sabe-se lá por quem. Mas tanto fazia. Recolhido e amimado, o menino crescera na casa acolhedora do velho alfaiate, sem nunca saber a sua verdadeira origem.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Alfaiate de Bagdad».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Lá para as terras de Bagdad, que um poderoso sultão governava, havia um alfaiate que tinha um filho tão ou mais hábil do que o pai nas artes de alfaiataria. A bem dizer, o rapaz não era filho de alfaiate. Encontrara-o ele, bebé ainda, dentro de um cestinho, à sua porta, abandonado sabe-se lá por quem. Mas tanto fazia. Recolhido e amimado, o menino crescera na casa acolhedora do velho alfaiate, sem nunca saber a sua verdadeira origem. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p7",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p5",
+        "s0p6",
+        "s0p7"
+      ],
+      "evidence": "- Leva a tua melhor tesoura, porque a freguesia é exigente - recomendou-lhe o escravo. Mas, para que o alfaiate não ficasse a saber o caminho nem localizasse o cliente, vendou-lhe os olhos com um lenço. Levou-o assim ao harém privado do sultão, onde, depois de tirar-lhe a venda, o apresentou às favoritas do sultão.",
+      "after": {
+        "segment": 0,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Leva a tua melhor tesoura, porque a freguesia é exigente - recomendou-lhe o escravo. Mas, para que o alfaiate não ficasse a saber o caminho nem localizasse o cliente, vendou-lhe os olhos com um lenço. Levou-o assim ao harém privado do sultão, onde, depois de tirar-lhe a venda, o apresentou às favoritas do sultão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p14",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p12",
+        "s0p13",
+        "s0p14"
+      ],
+      "evidence": "- Mas antes de cortarem a cabeça ao intruso, chicoteiem-no com cem vergastadas - ordenou o sultão. Assim se dispunham a fazer quando o rapaz, tentando salvar a vida, arrancou o sabre das mãos do escravo que o trouxera e fez frente aos guardas. Tão hábil era ele a manejar a tesoura como o sabre. Um a um, derrubou os opositores. Chegando à beira do sultão, que estava desarmado, dispunha-se a trespassá-lo. Outra solução não tinha. Ou matava ou era morto.",
+      "after": {
+        "segment": 0,
+        "paragraph": 14
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Mas antes de cortarem a cabeça ao intruso, chicoteiem-no com cem vergastadas - ordenou o sultão. Assim se dispunham a fazer quando o rapaz, tentando salvar a vida, arrancou o sabre das mãos do escravo que o trouxera e fez frente aos guardas. Tão hábil era ele a manejar a tesoura como o sabre. Um a um, derrubou os opositores. Chegando à beira do sultão, que estava desarmado, dispunha-se a trespassá-lo. Outra solução não tinha. Ou matava ou era morto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p21",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p19",
+        "s0p20",
+        "s0p21"
+      ],
+      "evidence": "Foi-se ver e era verdade. Um adivinho predissera, no nascimento do príncipe, que aquele menino iria pôr em perigo a vida do pai. Por isso é que se tinham desembaraçado dele, em criança. O velho sultão, a esvair-se em sangue, foi socorrido pelos médicos da corte. Salvaram-no. Safou-se, mas ficou muito fracalhote, daí em diante.",
+      "after": {
+        "segment": 0,
+        "paragraph": 21
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Foi-se ver e era verdade. Um adivinho predissera, no nascimento do príncipe, que aquele menino iria pôr em perigo a vida do pai. Por isso é que se tinham desembaraçado dele, em criança. O velho sultão, a esvair-se em sangue, foi socorrido pelos médicos da corte. Salvaram-no. Safou-se, mas ficou muito fracalhote, daí em diante. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

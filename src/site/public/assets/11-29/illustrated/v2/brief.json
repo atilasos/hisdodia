@@ -1,0 +1,111 @@
+{
+  "characters": [
+    {
+      "name": "papagaio",
+      "appearance": "Papagaio muito esperto e falador, de presença viva e expressiva"
+    },
+    {
+      "name": "senhor Albano",
+      "appearance": "Dono do restaurante do bairro, figura simples e prática, sempre ligado ao negócio"
+    }
+  ],
+  "environment": "Um restaurante de bairro modesto e animado, com balcão simples, mesas apertadas, porta da casa-de-banho, e espaço de arrumação com pipas e prateleiras.",
+  "palette": [
+    "tons quentes e gastros",
+    "verdes e vermelhos do papagaio",
+    "madeiras gastas",
+    "cremes e castanhos neutros",
+    "acentos de luz amarela"
+  ],
+  "recurringObjects": [
+    "restaurante modesto",
+    "porta da casa-de-banho",
+    "pipas",
+    "prateleiras com loiça",
+    "balcão do restaurante"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era um papagaio muito esperto. Tudo o que ouvia imitava. E até o que não ouvia... Tinha poiso no restaurante do senhor Albano, um modesto restaurante do bairro, sem nada de especial, salvo o papagaio. À sua conta, o palrador atraía a clientela, que vinha de longe só para ouvir-lhe as habilidades. -Como te chamas?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Papagaio do Restaurante».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era um papagaio muito esperto. Tudo o que ouvia imitava. E até o que não ouvia... Tinha poiso no restaurante do senhor Albano, um modesto restaurante do bairro, sem nada de especial, salvo o papagaio. À sua conta, o palrador atraía a clientela, que vinha de longe só para ouvir-lhe as habilidades. -Como te chamas? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1"
+      ],
+      "evidence": "Era um papagaio muito esperto. Tudo o que ouvia imitava. E até o que não ouvia... Tinha poiso no restaurante do senhor Albano, um modesto restaurante do bairro, sem nada de especial, salvo o papagaio. À sua conta, o palrador atraía a clientela, que vinha de longe só para ouvir-lhe as habilidades.",
+      "after": {
+        "segment": 0,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era um papagaio muito esperto. Tudo o que ouvia imitava. E até o que não ouvia... Tinha poiso no restaurante do senhor Albano, um modesto restaurante do bairro, sem nada de especial, salvo o papagaio. À sua conta, o palrador atraía a clientela, que vinha de longe só para ouvir-lhe as habilidades. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p25",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p23",
+        "s0p24",
+        "s0p25"
+      ],
+      "evidence": "O caso repetiu-se, a ponto de o senhor Albano se intrigar. Ele próprio foi ter à porta da casa-de-banho. - Está gente - respondeu a voz. O senhor Albano não se conformou e abriu a porta. Como se calcula, o papagaio era o responsável. Agarrado pelo pescoço, teve de ouvir das boas do dono:",
+      "after": {
+        "segment": 0,
+        "paragraph": 25
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O caso repetiu-se, a ponto de o senhor Albano se intrigar. Ele próprio foi ter à porta da casa-de-banho. - Está gente - respondeu a voz. O senhor Albano não se conformou e abriu a porta. Como se calcula, o papagaio era o responsável. Agarrado pelo pescoço, teve de ouvir das boas do dono: Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p40",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p38",
+        "s0p39",
+        "s0p40"
+      ],
+      "evidence": "O papagaio, que a tudo assistira, escondido atrás de umas pipas, riu que se fartou. Ou não se fartou, porque daí em diante, por tudo e por nada, gritava: - Albano foi engano - e largava uma risada daquelas amalandradas, de rebentar com os nervos a um santo, quanto mais a um Albano, dono de um tasco de comes e bebes.",
+      "after": {
+        "segment": 0,
+        "paragraph": 40
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O papagaio, que a tudo assistira, escondido atrás de umas pipas, riu que se fartou. Ou não se fartou, porque daí em diante, por tudo e por nada, gritava: - Albano foi engano - e largava uma risada daquelas amalandradas, de rebentar com os nervos a um santo, quanto mais a um Albano, dono de um tasco de comes e bebes. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p57",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p55",
+        "s0p56",
+        "s0p57"
+      ],
+      "evidence": "Neste ponto, o papagaio eriçava-se todo e gritava: - Galinha, qual galinha?! A minha carne é minha! A minha carne é minha! E voava assarapantado, deitando ao chão tudo o que estivesse nas prateleiras do restaurante. Nessas ocasiões, o senhor Albano, avaliados os estragos, também não se ficava a rir.",
+      "after": {
+        "segment": 0,
+        "paragraph": 57
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Neste ponto, o papagaio eriçava-se todo e gritava: - Galinha, qual galinha?! A minha carne é minha! A minha carne é minha! E voava assarapantado, deitando ao chão tudo o que estivesse nas prateleiras do restaurante. Nessas ocasiões, o senhor Albano, avaliados os estragos, também não se ficava a rir. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

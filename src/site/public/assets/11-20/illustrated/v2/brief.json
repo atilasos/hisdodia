@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um avô e um neto. Ou um neto e um avô. Tanto faz, desde que os dois estejam juntos, no jardim onde fomos encontrá-los. Dizia o neto, apontando uma teia de aranha: - Ó avô, porque é que nós não somos capazes de fazer teias?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Aprender a Voar».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um avô e um neto. Ou um neto e um avô. Tanto faz, desde que os dois estejam juntos, no jardim onde fomos encontrá-los. Dizia o neto, apontando uma teia de aranha: - Ó avô, porque é que nós não somos capazes de fazer teias? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s0p4",
+        "s0p5"
+      ],
+      "evidence": "Respondia o avô: - Claro que somos capazes. Repara nas redes de pesca dos pescadores, nas rendas da tua avó, nos tecidos das nossas roupas...",
+      "after": {
+        "segment": 0,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Respondia o avô: - Claro que somos capazes. Repara nas redes de pesca dos pescadores, nas rendas da tua avó, nos tecidos das nossas roupas... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p10",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p8",
+        "s0p9",
+        "s0p10"
+      ],
+      "evidence": "Respondia o avô: - Mas claro que somos capazes. Repara nos helicópteros, nos aviões, nas naves espaciais...",
+      "after": {
+        "segment": 0,
+        "paragraph": 10
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Respondia o avô: - Mas claro que somos capazes. Repara nos helicópteros, nos aviões, nas naves espaciais... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p15",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p13",
+        "s0p14",
+        "s0p15"
+      ],
+      "evidence": "Respondia o avô: - Mas claro que somos capazes. Repara nos mergulhadores, nos escafandristas, nos submarinos...",
+      "after": {
+        "segment": 0,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Respondia o avô: - Mas claro que somos capazes. Repara nos mergulhadores, nos escafandristas, nos submarinos... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p24",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p22",
+        "s0p23",
+        "s0p24"
+      ],
+      "evidence": "Com os homens não acontece assim... - Quer dizer que os bichos nunca mudam de vida. Deve ser chato - concluiu o neto. - E, que eu saiba, ninguém lhes conta histórias - concluiu o avô.",
+      "after": {
+        "segment": 0,
+        "paragraph": 24
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Com os homens não acontece assim... - Quer dizer que os bichos nunca mudam de vida. Deve ser chato - concluiu o neto. - E, que eu saiba, ninguém lhes conta histórias - concluiu o avô. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}
