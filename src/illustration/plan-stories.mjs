@@ -284,6 +284,9 @@ export async function planStories(options = {}) {
   if (scopeCount !== 1) {
     throw new Error('Choose exactly one scope: --story, --month, or --all');
   }
+  if (month !== undefined && !/^(?:0[1-9]|1[0-2])$/u.test(month)) {
+    throw new Error('month must be 01 through 12');
+  }
   const planningModel = validatePlanningModel(
     options.planningModel === undefined ? PLANNING_MODEL : options.planningModel
   );
@@ -302,6 +305,9 @@ export async function planStories(options = {}) {
   if (storyId && filenames.length === 0) {
     throw new Error(`Story not found: ${storyId}`);
   }
+  if (month && filenames.length === 0) {
+    throw new Error(`No stories matched requested month ${month}`);
+  }
 
   const planned = [];
   const skipped = [];
@@ -312,6 +318,19 @@ export async function planStories(options = {}) {
     if (story.illustratedEdition && story.illustratedEdition.status !== 'planning' && !force) {
       skipped.push(story.id);
       continue;
+    }
+    if (force) {
+      const currentAssetDirectory = illustrationAssetDirectory(story.id, ART_DIRECTION_VERSION);
+      const currentAssetPath = path.join(publicDir, ...currentAssetDirectory.split('/').filter(Boolean));
+      let entries = [];
+      try {
+        entries = await readdir(currentAssetPath, { withFileTypes: true });
+      } catch (error) {
+        if (error.code !== 'ENOENT') throw error;
+      }
+      if (entries.some((entry) => entry.isFile() && entry.name.endsWith('.webp'))) {
+        throw new Error(`${story.id}: current v${ART_DIRECTION_VERSION} illustration assets already exist`);
+      }
     }
 
     const returnedPlan = await runPlanner(buildPlanningPrompt(story), { planningModel });
@@ -372,8 +391,8 @@ function parseArguments(argv) {
       }
     } else if (argument === '--month') {
       options.month = argv[index += 1];
-      if (!/^\d{2}$/u.test(options.month ?? '')) {
-        throw new Error('--month requires MM');
+      if (!/^(?:0[1-9]|1[0-2])$/u.test(options.month ?? '')) {
+        throw new Error('--month requires 01 through 12');
       }
     } else if (argument === '--model') {
       options.planningModel = argv[index += 1];

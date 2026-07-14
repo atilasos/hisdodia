@@ -9,7 +9,7 @@ O projeto abrange todas as histórias, incluindo as que já têm ilustração re
 ## Restrições aprovadas
 
 - Gerar as imagens através das ferramentas disponíveis na conta Codex, sem exigir uma chave de API separada.
-- Usar `gpt-5.6-luna`, com raciocínio baixo, para planeamento de cenas, fichas visuais, prompts, texto alternativo, metadados e coordenação do processamento.
+- Usar `gpt-5.4-mini`, com raciocínio baixo, para planeamento de cenas, fichas visuais, prompts, texto alternativo, metadados e coordenação do processamento.
 - Usar a ferramenta de geração e edição de imagem do Codex para produzir os bitmaps.
 - Não introduzir seleção, correção ou aprovação editorial manual no processo normal.
 - Usar imagens pequenas e comprimidas para limitar armazenamento, transferência e recursos de geração.
@@ -58,7 +58,7 @@ Cada história recebe uma propriedade `illustratedEdition`:
     "status": "complete",
     "credit": "Edição ilustrada contemporânea gerada com IA",
     "artDirectionVersion": "1",
-    "planningModel": "gpt-5.6-luna",
+    "planningModel": "gpt-5.4-mini",
     "visualBrief": "/assets/01-01/illustrated/brief.json",
     "scenes": [
       {

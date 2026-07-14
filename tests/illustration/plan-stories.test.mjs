@@ -275,7 +275,7 @@ describe('Luna planner', () => {
     assert.doesNotMatch(brief.scenes[3].prompt, /Future/);
   });
 
-  it('invokes ephemeral Luna by default with a three-minute timeout', async () => {
+  it('invokes the economical planner by default with a three-minute timeout', async () => {
     let call;
     const execFileImpl = (command, args, options, callback) => {
       call = { command, args, options };
@@ -292,7 +292,7 @@ describe('Luna planner', () => {
       'exec',
       '--ephemeral',
       '--sandbox', 'read-only',
-      '--model', 'gpt-5.6-luna',
+      '--model', 'gpt-5.4-mini',
       '--config', 'model_reasoning_effort="low"',
       '--output-schema', schemaPath,
       '--output-last-message', outputPath,
@@ -582,10 +582,51 @@ describe('Luna planner', () => {
     assert.equal(JSON.parse(await readFile(`${legacyDirectory}/v2/brief.json`, 'utf8')).scenes.length, 3);
   });
 
+  it('refuses forced replanning when the current art-direction version already has rasters', async () => {
+    const base = `${root}/force-current-assets`;
+    const directory = `${base}/stories`;
+    const assetDirectory = `${base}/public/assets/01-01/illustrated/v2`;
+    await rm(base, { recursive: true, force: true });
+    await writeStory(directory, { status: 'complete', artDirectionVersion: '2' });
+    await mkdir(assetDirectory, { recursive: true });
+    await writeFile(`${assetDirectory}/opening.webp`, 'current sentinel');
+    let calls = 0;
+    let writes = 0;
+
+    await assert.rejects(
+      () => planStories({
+        storyId: '01-01',
+        force: true,
+        storiesDir: directory,
+        publicDir: `${base}/public`,
+        runPlanner: async () => { calls += 1; return validPlan(); },
+        writeJsonImpl: async () => { writes += 1; }
+      }),
+      /current v2 illustration assets already exist/u
+    );
+    assert.equal(calls, 0);
+    assert.equal(writes, 0);
+    assert.equal(await readFile(`${assetDirectory}/opening.webp`, 'utf8'), 'current sentinel');
+  });
+
   it('requires exactly one story scope', async () => {
     await assert.rejects(
       () => planStories({ storyId: '01-01', month: '01', all: true }),
       /exactly one scope/
+    );
+  });
+
+  it('rejects invalid or empty month scopes', async () => {
+    const directory = `${root}/empty-month`;
+    await rm(directory, { recursive: true, force: true });
+    await mkdir(directory, { recursive: true });
+    await assert.rejects(
+      () => planStories({ month: '00', storiesDir: directory }),
+      /month must be 01 through 12/u
+    );
+    await assert.rejects(
+      () => planStories({ month: '12', storiesDir: directory }),
+      /No stories matched requested month 12/u
     );
   });
 

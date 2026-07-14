@@ -63,10 +63,10 @@ The failed openings are `05-02/opening` and `10-30/opening`. Their original reco
 ## Verification
 
 - `npm run illustrations:audit -- --all`: passed — 366 stories, 1,791 complete scenes, 2 failed openings, and 9 failed non-opening scenes.
-- `node --test tests/illustration/jobs.test.mjs`: passed — 39/39 tests.
-- `npm test`: passed — 202/202 tests across 24 suites.
+- `node --test tests/illustration/jobs.test.mjs`: passed — 41/41 tests.
+- `npm test`: passed — 206/206 tests across 24 suites.
 - `npm run build`: passed and wrote `dist/`.
 - `git diff --check`: passed with no output.
 - Monthly reconciliation found no missing completed assets, unexpected v2 WebPs, duplicate current WebP content, or temporary illustration files.
 
-The explicit `--all` audit scope was added during closeout because the documented whole-archive command was not accepted by the CLI. Its regression test and the complete verification above passed before this report was written.
+The explicit `--all` audit scope was added during closeout because the documented whole-archive command was not accepted by the CLI. The final review also strengthened this gate: it now validates the canonical briefs, their correspondence with public metadata, the current art-direction version and planning model, and the aggregate edition status. Its regression tests and the complete verification above passed before this report was finalized.

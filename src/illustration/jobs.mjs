@@ -18,8 +18,11 @@ import {
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import {
+  ART_DIRECTION_VERSION,
   assertStoryIdMatches,
   illustrationAssetDirectory,
+  PLANNING_MODEL,
+  validateScenePlan,
   validateStoryId
 } from './edition.mjs';
 
@@ -132,7 +135,7 @@ function pathsFor(options, story) {
     briefUrl: `${assetDirectory}/brief.json`,
     image: (sceneId) => path.join(assetPath, `${sceneId}.webp`),
     imageUrl: (sceneId) => `${assetDirectory}/${sceneId}.webp`,
-    referenceImage: (sceneId) => path.posix.join('src/site/public', ...assetParts, `${sceneId}.webp`),
+    referenceImage: (sceneId) => path.resolve(publicDir, ...assetParts, `${sceneId}.webp`),
     sourceImage: (workDir, sceneId) => path.join(workDir, story.id, ...versionParts, `${sceneId}.png`)
   };
 }
@@ -186,6 +189,35 @@ function finalizeEdition(story) {
   } else {
     story.illustratedEdition.status = 'generating';
   }
+}
+
+function sameAnchor(left, right) {
+  if (left === null || right === null) return left === right;
+  return left?.segment === right?.segment
+    && left?.paragraph === right?.paragraph
+    && Object.keys(left).length === 2
+    && Object.keys(right).length === 2;
+}
+
+function metadataMatchesBrief(story, brief) {
+  const metadataScenes = story.illustratedEdition?.scenes;
+  const briefScenes = brief?.scenes;
+  return Array.isArray(metadataScenes)
+    && Array.isArray(briefScenes)
+    && metadataScenes.length === briefScenes.length
+    && metadataScenes.every((scene, index) => {
+      const planned = briefScenes[index];
+      return scene.id === planned?.id
+        && scene.layout === planned?.layout
+        && scene.alt === planned?.alt
+        && sameAnchor(scene.after, planned?.after);
+    });
+}
+
+function expectedEditionStatus(scenes) {
+  if (scenes.find(({ id }) => id === 'opening')?.status === 'failed') return 'failed';
+  if (scenes.some(({ status }) => status === 'pending' || status === 'generating')) return 'generating';
+  return 'complete';
 }
 
 function validateMonth(month) {
@@ -258,6 +290,11 @@ export async function nextIllustrationJob(options = {}) {
     if (story.illustratedEdition?.status !== 'generating') continue;
     const files = pathsFor(options, story);
     await reconcileTechnicalError(files, story, options);
+    const brief = JSON.parse(await readFile(files.brief, 'utf8'));
+    validateScenePlan(story, brief);
+    if (!metadataMatchesBrief(story, brief)) {
+      throw new Error(`Illustration metadata does not match visual brief: ${story.id}`);
+    }
     while (story.illustratedEdition.status === 'generating') {
       const scene = story.illustratedEdition.scenes?.find(
         (candidate) => (candidate.status === 'pending' || candidate.status === 'generating')
@@ -276,7 +313,6 @@ export async function nextIllustrationJob(options = {}) {
         continue;
       }
 
-      const brief = JSON.parse(await readFile(files.brief, 'utf8'));
       const briefScene = brief.scenes?.find(({ id }) => id === scene.id);
       if (!briefScene?.prompt) throw new Error(`Illustration prompt not found: ${story.id}/${scene.id}`);
 
@@ -454,6 +490,12 @@ export async function auditIllustrations(options = {}) {
     if (edition.visualBrief !== files.briefUrl) {
       problems.push(`${story.id}: visual brief URL does not match art direction version`);
     }
+    if (options.all && edition.artDirectionVersion !== ART_DIRECTION_VERSION) {
+      problems.push(`${story.id}: art direction version must be ${ART_DIRECTION_VERSION}`);
+    }
+    if (options.all && edition.planningModel !== PLANNING_MODEL) {
+      problems.push(`${story.id}: planning model must be ${PLANNING_MODEL}`);
+    }
     const scenes = edition.scenes;
     if (!Array.isArray(scenes) || scenes.length < 3 || scenes.length > 6) {
       problems.push(`${story.id}: invalid scene count`);
@@ -467,6 +509,14 @@ export async function auditIllustrations(options = {}) {
       problems.push(`${story.id}: missing visual brief`);
       brief = { errors: [] };
     }
+    try {
+      validateScenePlan(story, brief);
+    } catch (error) {
+      problems.push(`${story.id}: visual brief violates the canonical scene contract: ${error.message}`);
+    }
+    if (!metadataMatchesBrief(story, brief)) {
+      problems.push(`${story.id}: illustration metadata does not match visual brief`);
+    }
     const errors = Array.isArray(brief.errors) ? brief.errors : [];
     const opening = scenes.find(({ id }) => id === 'opening');
     const degradedOpening = opening?.status === 'failed'
@@ -477,6 +527,10 @@ export async function auditIllustrations(options = {}) {
     }
     if (degradedOpening) {
       counts.failedOpenings += 1;
+    }
+    const expectedStatus = expectedEditionStatus(scenes);
+    if (edition.status !== expectedStatus) {
+      problems.push(`${story.id}: edition status ${edition.status} does not match ${expectedStatus}`);
     }
 
     for (const scene of scenes) {

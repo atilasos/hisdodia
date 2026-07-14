@@ -6,12 +6,12 @@
 
 **Architecture:** Reuse the planner and job runner from the infrastructure plan without code changes. Work month by month so Codex account limits, failures, assets, metadata, and commits remain bounded and resumable. Finish with a whole-archive technical audit and a generated production report.
 
-**Tech Stack:** Existing Node.js illustration CLIs, `gpt-5.6-luna`, Codex image-generation tool, WebP, static-site build and Node tests.
+**Tech Stack:** Existing Node.js illustration CLIs, `gpt-5.4-mini`, Codex image-generation tool, WebP, static-site build and Node tests.
 
 ## Global Constraints
 
 - Complete `docs/superpowers/plans/2026-07-10-illustrated-edition-infrastructure.md` first.
-- Use `gpt-5.6-luna` at low reasoning for planning and the Codex account image tool for raster generation.
+- Use `gpt-5.4-mini` at low reasoning for planning and the Codex account image tool for raster generation.
 - Do not use a separate API key, add dependencies, select aesthetically preferred variants, or manually correct generated art.
 - Generate three to six scenes per story, including the opening, using the opening as the reference for later scenes.
 - Keep each final WebP at most 768 px on its longer side and at most 200 KB.

@@ -431,7 +431,7 @@ describe('illustrated edition contract', () => {
     assert.equal(result.illustratedEdition.status, 'generating');
     assert.equal(result.illustratedEdition.credit, 'Edição ilustrada contemporânea gerada com IA');
     assert.equal(result.illustratedEdition.artDirectionVersion, '2');
-    assert.equal(result.illustratedEdition.planningModel, 'gpt-5.6-luna');
+    assert.equal(result.illustratedEdition.planningModel, 'gpt-5.4-mini');
     assert.equal(result.illustratedEdition.visualBrief, '/assets/01-01/illustrated/v2/brief.json');
     assert.equal(result.author, original.author);
     assert.equal(result.illustrator, original.illustrator);

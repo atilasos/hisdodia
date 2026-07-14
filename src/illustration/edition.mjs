@@ -1,6 +1,6 @@
 export const ART_DIRECTION_VERSION = '2';
 export const ILLUSTRATION_CREDIT = 'Edição ilustrada contemporânea gerada com IA';
-export const PLANNING_MODEL = 'gpt-5.6-luna';
+export const PLANNING_MODEL = 'gpt-5.4-mini';
 
 const LAYOUTS = new Set(['opening', 'double-page', 'marginal', 'vignette']);
 const MODEL_SLUG_PATTERN = /^[a-z0-9]+(?:[._-][a-z0-9]+)*$/u;

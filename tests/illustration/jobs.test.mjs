@@ -4,6 +4,11 @@ import { execFile } from 'node:child_process';
 import { copyFile, lstat, mkdir, readFile, rm, stat, symlink, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import {
+  buildCanonicalScenePrompt,
+  buildSceneEvidenceContext,
+  canonicalSceneAlt
+} from '../../src/illustration/edition.mjs';
+import {
   auditIllustrations,
   completeIllustrationJob,
   compressIllustration,
@@ -27,27 +32,48 @@ async function seed() {
   await rm(root, { recursive: true, force: true });
   await mkdir(`${root}/stories`, { recursive: true });
   await mkdir(`${root}/public/assets/01-01/illustrated`, { recursive: true });
-  await writeFile(`${root}/stories/01-01.json`, JSON.stringify({
+  const story = {
     id: '01-01',
+    title: 'História teste',
     textSegments: [{ paragraphs: ['Primeiro.', 'Segundo.'] }],
+  };
+  const sceneDefinitions = [
+    { id: 'opening', evidenceRef: 's0p0', after: null, layout: 'opening' },
+    { id: 'middle', evidenceRef: 's0p0', after: { segment: 0, paragraph: 0 }, layout: 'marginal' },
+    { id: 'ending', evidenceRef: 's0p1', after: { segment: 0, paragraph: 1 }, layout: 'vignette' }
+  ];
+  const scenes = sceneDefinitions.map((definition, index) => {
+    const context = buildSceneEvidenceContext(story, definition.evidenceRef, { opening: index === 0 });
+    const scene = {
+      ...definition,
+      evidenceRefs: context.evidenceRefs,
+      evidence: context.evidence,
+      alt: canonicalSceneAlt(story, definition),
+      prompt: ''
+    };
+    return { ...scene, prompt: buildCanonicalScenePrompt(story, scene) };
+  });
+  await writeFile(`${root}/stories/01-01.json`, JSON.stringify({
+    ...story,
     illustratedEdition: {
       status: 'generating',
       artDirectionVersion: '1',
+      planningModel: 'gpt-5.4-mini',
       visualBrief: '/assets/01-01/illustrated/brief.json',
-      scenes: [
-        { id: 'opening', status: 'pending', attempts: 0, after: null, layout: 'opening', image: '/assets/01-01/illustrated/opening.webp', alt: 'Abertura.' },
-        { id: 'middle', status: 'pending', attempts: 0, after: { segment: 0, paragraph: 0 }, layout: 'marginal', image: '/assets/01-01/illustrated/middle.webp', alt: 'Meio.' },
-        { id: 'ending', status: 'pending', attempts: 0, after: { segment: 0, paragraph: 1 }, layout: 'vignette', image: '/assets/01-01/illustrated/ending.webp', alt: 'Fim.' }
-      ]
+      scenes: scenes.map(({ id, after, layout, alt }) => ({
+        id,
+        status: 'pending',
+        attempts: 0,
+        after,
+        layout,
+        image: `/assets/01-01/illustrated/${id}.webp`,
+        alt
+      }))
     }
   }));
   await writeFile(`${root}/public/assets/01-01/illustrated/brief.json`, JSON.stringify({
     errors: [],
-    scenes: [
-      { id: 'opening', prompt: 'Opening prompt.' },
-      { id: 'middle', prompt: 'Middle prompt.' },
-      { id: 'ending', prompt: 'Ending prompt.' }
-    ]
+    scenes
   }));
 }
 
@@ -136,7 +162,7 @@ describe('illustration jobs', () => {
     await completeIllustrationJob({ ...jobOptions, storyId: '01-01', sceneId: 'opening', sourcePath: fixture });
     const second = await nextIllustrationJob(jobOptions);
     assert.equal(second.sceneId, 'middle');
-    assert.deepEqual(second.references, ['src/site/public/assets/01-01/illustrated/opening.webp']);
+    assert.deepEqual(second.references, [path.resolve(`${root}/public/assets/01-01/illustrated/opening.webp`)]);
   });
 
   it('leases, references, completes, reconciles, and audits v2 assets without using v1', async () => {
@@ -158,7 +184,7 @@ describe('illustration jobs', () => {
 
     const second = await nextIllustrationJob(jobOptions);
     assert.equal(second.sceneId, 'middle');
-    assert.deepEqual(second.references, ['src/site/public/assets/01-01/illustrated/v2/opening.webp']);
+    assert.deepEqual(second.references, [path.resolve(`${root}/public/assets/01-01/illustrated/v2/opening.webp`)]);
 
     const story = await readStory();
     story.illustratedEdition.status = 'complete';
@@ -216,6 +242,42 @@ describe('illustration jobs', () => {
     const result = await auditIllustrations(jobOptions);
     assert.ok(result.problems.some((problem) => problem.includes('visual brief URL does not match art direction version')));
     assert.ok(result.problems.some((problem) => problem.includes('01-01/opening') && problem.includes('image URL does not match art direction version')));
+  });
+
+  it('whole-archive audit enforces the current semantic edition contract', async () => {
+    await seedV2();
+    const story = await readStory();
+    story.illustratedEdition.planningModel = 'gpt-5.6-luna';
+    story.illustratedEdition.status = 'complete';
+    story.illustratedEdition.scenes[1].layout = 'double-page';
+    await writeFile(`${root}/stories/01-01.json`, JSON.stringify(story));
+    const briefPath = `${root}/public/assets/01-01/illustrated/v2/brief.json`;
+    const brief = JSON.parse(await readFile(briefPath, 'utf8'));
+    brief.scenes[1].prompt = 'Invented prompt.';
+    delete brief.scenes[1].after;
+    await writeFile(briefPath, JSON.stringify(brief));
+
+    const result = await auditIllustrations({ ...jobOptions, all: true });
+    assert.ok(result.problems.some((problem) => problem.includes('planning model must be gpt-5.4-mini')));
+    assert.ok(result.problems.some((problem) => problem.includes('visual brief violates the canonical scene contract')));
+    assert.ok(result.problems.some((problem) => problem.includes('metadata does not match visual brief')));
+    assert.ok(result.problems.some((problem) => problem.includes('edition status complete does not match generating')));
+  });
+
+  it('rejects a non-canonical brief before leasing a generation job', async () => {
+    const brief = await readBrief();
+    brief.scenes[1].prompt = 'Invented prompt.';
+    await writeFile(`${root}/public/assets/01-01/illustrated/brief.json`, JSON.stringify(brief));
+    let writes = 0;
+
+    await assert.rejects(
+      () => nextIllustrationJob({
+        ...jobOptions,
+        writeJsonImpl: async () => { writes += 1; }
+      }),
+      /canonical scene prompt/u
+    );
+    assert.equal(writes, 0);
   });
 
   it('rejects a persisted story id mismatch before complete side effects', async () => {
