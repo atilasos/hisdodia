@@ -1,0 +1,102 @@
+{
+  "characters": [],
+  "environment": "montra de casa de brinquedos com bonecas e bonecos à janela",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma boneca que não chorava. Estava a boneca Marília no meio de outras bonecas, todas choronas, e junto de outros brinquedos e bonecos. Os bonecos, alguns bem patuscos , como o ensonado urso Ronrom ou o espertíssimo burrinho Trolaró, e as bonecas, entre as quais a Marília, estavam à janela a ver quem passa.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Marília não Chora».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma boneca que não chorava. Estava a boneca Marília no meio de outras bonecas, todas choronas, e junto de outros brinquedos e bonecos. Os bonecos, alguns bem patuscos , como o ensonado urso Ronrom ou o espertíssimo burrinho Trolaró, e as bonecas, entre as quais a Marília, estavam à janela a ver quem passa. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Os bonecos, alguns bem patuscos , como o ensonado urso Ronrom ou o espertíssimo burrinho Trolaró, e as bonecas, entre as quais a Marília, estavam à janela a ver quem passa. Pelo menos, era o que diziam, ainda que, quem os visse de fora, dissesse que eles estavam na montra de uma casa de brinquedos, a mais bela e iluminada montra de casa de brinquedos que olhos arregalados de meninos alguma vez miraram. E os bonecos entretinham-se imenso com os meninos que, do outro lado do vidro, os apreciavam.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os bonecos, alguns bem patuscos , como o ensonado urso Ronrom ou o espertíssimo burrinho Trolaró, e as bonecas, entre as quais a Marília, estavam à janela a ver quem passa. Pelo menos, era o que diziam, ainda que, quem os visse de fora, dissesse que eles estavam na montra de uma casa de brinquedos, a mais bela e iluminada montra de casa de brinquedos que olhos arregalados de meninos alguma vez miraram. E os bonecos entretinham-se imenso com os meninos que, do outro lado do vidro, os apreciavam. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "E punham-se todas a chorar. Tinha de intervir o urso Ronrom, do alto da escada de veludo, que ocupava metade da montra: - Caluda, meninas! Não há sossego, não há respeito, não há disciplina nesta casa? Nem se pode dormir como deve ser. Meninas tolas, meninas sirigaitas, quem vos tirou o juízo? Elas embatucavam.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E punham-se todas a chorar. Tinha de intervir o urso Ronrom, do alto da escada de veludo, que ocupava metade da montra: - Caluda, meninas! Não há sossego, não há respeito, não há disciplina nesta casa? Nem se pode dormir como deve ser. Meninas tolas, meninas sirigaitas, quem vos tirou o juízo? Elas embatucavam. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s6p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p0",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "Ouvia-se então, lá do fundo, uma zurradela do burro Troloró, que franzia o focinho e mostrava os dentes como se estivesse a rir-se. E logo a seguir ouvia-se uma límpida gargalhada, que se prolongava em música nos ouvidos das pessoas, se as pessoas também pudessem estar naquela montra, onde os brinquedos têm voz. Quem assim ria? Era a Marília, a tal boneca que não chorava, mas muito ria. Pois era. Calculem que a menina loirinha, apesar do vidro da montra, ouviu o riso da Marília. Ouviu e gostou. Gostou do riso e gostou da boneca. Queria aquela. São agora grandes amigas a Marília e a Joana. Riem-se muito e se, às vezes, a Joana, por qualquer motivo, amua e começa a fazer beicinho, a Marília ri-se para ela e a tristeza passa.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ouvia-se então, lá do fundo, uma zurradela do burro Troloró, que franzia o focinho e mostrava os dentes como se estivesse a rir-se. E logo a seguir ouvia-se uma límpida gargalhada, que se prolongava em música nos ouvidos das pessoas, se as pessoas também pudessem estar naquela montra, onde os brinquedos têm voz. Quem assim ria? Era a Marília, a tal boneca que não chorava, mas muito ria. Pois era. Calculem que a menina loirinha, apesar do vidro da montra, ouviu o riso da Marília. Ouviu e gostou. Gostou do riso e gostou da boneca. Queria aquela. São agora grandes amigas a Marília e a Joana. Riem-se muito e se, às vezes, a Joana, por qualquer motivo, amua e começa a fazer beicinho, a Marília ri-se para ela e a tristeza passa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s6p0",
+        "s6p1",
+        "s7p0"
+      ],
+      "evidence": "Calculem que a menina loirinha, apesar do vidro da montra, ouviu o riso da Marília. Ouviu e gostou. Gostou do riso e gostou da boneca. Queria aquela. São agora grandes amigas a Marília e a Joana. Riem-se muito e se, às vezes, a Joana, por qualquer motivo, amua e começa a fazer beicinho, a Marília ri-se para ela e a tristeza passa. Para rirem connosco e para nos soprarem as lágrimas é que há amigos.",
+      "after": {
+        "segment": 7,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Calculem que a menina loirinha, apesar do vidro da montra, ouviu o riso da Marília. Ouviu e gostou. Gostou do riso e gostou da boneca. Queria aquela. São agora grandes amigas a Marília e a Joana. Riem-se muito e se, às vezes, a Joana, por qualquer motivo, amua e começa a fazer beicinho, a Marília ri-se para ela e a tristeza passa. Para rirem connosco e para nos soprarem as lágrimas é que há amigos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": [
+    {
+      "sceneId": "scene-2",
+      "attempt": 1,
+      "message": "\"image generation failed: http 400 Bad Request: Some(\\\"{\\\\n  \\\\\\\"error\\\\\\\": {\\\\n    \\\\\\\"message\\\\\\\": \\\\\\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID d642dfca-29c8-40e9-9a51-cd099abea1b2.\\\\\\\",\\\\n    \\\\\\\"type\\\\\\\": \\\\\\\"image_generation_user_error\\\\\\\",\\\\n    \\\\\\\"param\\\\\\\": null,\\\\n    \\\\\\\"code\\\\\\\": \\\\\\\"moderation_blocked\\\\\\\",\\\\n    \\\\\\\"moderation_details\\\\\\\": {\\\\n      \\\\\\\"moderation_stage\\\\\\\": \\\\\\\"output\\\\\\\",\\\\n      \\\\\\\"categories\\\\\\\": [\\\\n        \\\\\\\"other\\\\\\\"\\\\n      ]\\\\n    }\\\\n  }\\\\n}\\\")\""
+    },
+    {
+      "sceneId": "scene-2",
+      "attempt": 2,
+      "message": "\"image generation failed: http 400 Bad Request: Some(\\\"{\\\\n  \\\\\\\"error\\\\\\\": {\\\\n    \\\\\\\"message\\\\\\\": \\\\\\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 0f7a5698-7c22-4846-94b9-316ee84399ca.\\\\\\\",\\\\n    \\\\\\\"type\\\\\\\": \\\\\\\"image_generation_user_error\\\\\\\",\\\\n    \\\\\\\"param\\\\\\\": null,\\\\n    \\\\\\\"code\\\\\\\": \\\\\\\"moderation_blocked\\\\\\\",\\\\n    \\\\\\\"moderation_details\\\\\\\": {\\\\n      \\\\\\\"moderation_stage\\\\\\\": \\\\\\\"output\\\\\\\",\\\\n      \\\\\\\"categories\\\\\\\": [\\\\n        \\\\\\\"other\\\\\\\"\\\\n      ]\\\\n    }\\\\n  }\\\\n}\\\")\""
+    }
+  ]
+}

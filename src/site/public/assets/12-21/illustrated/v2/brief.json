@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": "[]",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "O senhor Pinheiro é um emproado . Quando chega ao trabalho, não cumprimenta ninguém e vai logo enfiar-se no seu gabinete, como se fosse a única pessoa daquele escritório. Em contrapartida, o senhor Silva é um homem gentil, sempre de sorriso afável e muito amigo de ajudar. Lá no escritório, todos gostam dele. Estava eu a meditar nas diferenças do mundo e comportamento oposto dos meus dois colegas, quando me ocorreu esta história ou fábula entre um pinheiro e uma silva.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Silva e Pinheiro».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O senhor Pinheiro é um emproado . Quando chega ao trabalho, não cumprimenta ninguém e vai logo enfiar-se no seu gabinete, como se fosse a única pessoa daquele escritório. Em contrapartida, o senhor Silva é um homem gentil, sempre de sorriso afável e muito amigo de ajudar. Lá no escritório, todos gostam dele. Estava eu a meditar nas diferenças do mundo e comportamento oposto dos meus dois colegas, quando me ocorreu esta história ou fábula entre um pinheiro e uma silva. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Em contrapartida, o senhor Silva é um homem gentil, sempre de sorriso afável e muito amigo de ajudar. Lá no escritório, todos gostam dele. Estava eu a meditar nas diferenças do mundo e comportamento oposto dos meus dois colegas, quando me ocorreu esta história ou fábula entre um pinheiro e uma silva. Era a árvore mais imponente do lugar. De pescoço altivo, o pinheiro bravo não prestava atenção aos seus vizinhos de baixo, pinheiritos jovens e alguns arbustos, como a silva, a ensarilhar uma moita.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Em contrapartida, o senhor Silva é um homem gentil, sempre de sorriso afável e muito amigo de ajudar. Lá no escritório, todos gostam dele. Estava eu a meditar nas diferenças do mundo e comportamento oposto dos meus dois colegas, quando me ocorreu esta história ou fábula entre um pinheiro e uma silva. Era a árvore mais imponente do lugar. De pescoço altivo, o pinheiro bravo não prestava atenção aos seus vizinhos de baixo, pinheiritos jovens e alguns arbustos, como a silva, a ensarilhar uma moita. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Mas a silva, enervada com tanta prosápia , interpelou-o, como quem pede explicações: - Fale à gente. Somos todos cidadãos do reino vegetal, uns mais altos do que os outros, mas todos com raízes no mesmo chão. - Julgas tu - respondeu-lhe o pinheiro. - Eu pertenço mais ao céu do que à terra. Os meus ramos e a minha copa quase tocam as nuvens.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas a silva, enervada com tanta prosápia , interpelou-o, como quem pede explicações: - Fale à gente. Somos todos cidadãos do reino vegetal, uns mais altos do que os outros, mas todos com raízes no mesmo chão. - Julgas tu - respondeu-lhe o pinheiro. - Eu pertenço mais ao céu do que à terra. Os meus ramos e a minha copa quase tocam as nuvens. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "No meio do seu emaranhado de picos, a silva mais se retorceu de indignação, mas não quis sustentar a disputa. Àquele pinheiro nada o convencia. Convenceu-o um lenhador, que por ali passou. Bateu no tronco possante e disse: - Está na conta.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No meio do seu emaranhado de picos, a silva mais se retorceu de indignação, mas não quis sustentar a disputa. Àquele pinheiro nada o convencia. Convenceu-o um lenhador, que por ali passou. Bateu no tronco possante e disse: - Está na conta. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p2",
+        "s3p3",
+        "s4p0"
+      ],
+      "evidence": "Convenceu-o um lenhador, que por ali passou. Bateu no tronco possante e disse: - Está na conta. E começou à machadada ao pinheiro. A desmoronar-se sobre a terra, num grande gemido, o pinheiro formulou um último desejo: \"Quem me dera ser silva...\". Mas não lhe serviu de nada.",
+      "after": {
+        "segment": 4,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Convenceu-o um lenhador, que por ali passou. Bateu no tronco possante e disse: - Está na conta. E começou à machadada ao pinheiro. A desmoronar-se sobre a terra, num grande gemido, o pinheiro formulou um último desejo: \"Quem me dera ser silva...\". Mas não lhe serviu de nada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

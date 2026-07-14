@@ -1,0 +1,117 @@
+{
+  "characters": [
+    {
+      "name": "pardalito",
+      "appearance": "young sparrow"
+    },
+    {
+      "name": "avô pardal",
+      "appearance": "older sparrow"
+    },
+    {
+      "name": "pardalada",
+      "appearance": "group of sparrows"
+    }
+  ],
+  "environment": "Rossio square in Lisbon at Christmas time, with bare trees, dense sparrows, city lights, and the Teatro Nacional as a roost",
+  "palette": [
+    "warm gold",
+    "cool blue",
+    "winter gray",
+    "red",
+    "green",
+    "yellow"
+  ],
+  "recurringObjects": [
+    "tree branches",
+    "Christmas lights",
+    "glowing bulbs",
+    "Teatro Nacional building",
+    "sparrow flock"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Aqui há coisa de três semanas, um pardal do Rossio, daqueles que escolheram para poiso e morada os ramos das árvores que circundam a dita praça, começou assim a história que vamos contar: - Companheiros pardais, pardalitos e pardalões, escutem todos, a notícia é importante. Juntou-se a pardalada.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Primeiro Natal do Pardalito».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Aqui há coisa de três semanas, um pardal do Rossio, daqueles que escolheram para poiso e morada os ramos das árvores que circundam a dita praça, começou assim a história que vamos contar: - Companheiros pardais, pardalitos e pardalões, escutem todos, a notícia é importante. Juntou-se a pardalada. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s3p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "- A notícia que vos trago importa a todos. Há bocadinho, estava eu poisado num ramo baixo, e ouvi uma conversa entre um cauteleiro e um engraxador. Sabem do que estavam a falar? - De futebol - arriscou um. - Nada disso. Estavam a falar da Lotaria do Natal, imaginem!",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - A notícia que vos trago importa a todos. Há bocadinho, estava eu poisado num ramo baixo, e ouvi uma conversa entre um cauteleiro e um engraxador. Sabem do que estavam a falar? - De futebol - arriscou um. - Nada disso. Estavam a falar da Lotaria do Natal, imaginem! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s6p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p1",
+        "s5p2",
+        "s6p0"
+      ],
+      "evidence": "E cada qual debandou para o seu ramo. Neste ponto da história, parece-nos indispensável ouvir a fala de um avô pardal para o seu neto que, tal como vocês, amigos leitores, não percebera patavina do sucedido. - Na quadra do Natal, que é uma grande festa dos homens - contava ele -, multiplicam-se e crescem as luminárias por toda a parte. Nesta praça, então nem queiras saber! Fica tudo cheio de luzes e luzinhas de muitas cores, amarelas, azuis, vermelhas, verdes, que nos põem tontos. Onde os homens encontram um sítio para pendurar uma daquelas pêras de vidro que deita luz, penduram.",
+      "after": {
+        "segment": 6,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E cada qual debandou para o seu ramo. Neste ponto da história, parece-nos indispensável ouvir a fala de um avô pardal para o seu neto que, tal como vocês, amigos leitores, não percebera patavina do sucedido. - Na quadra do Natal, que é uma grande festa dos homens - contava ele -, multiplicam-se e crescem as luminárias por toda a parte. Nesta praça, então nem queiras saber! Fica tudo cheio de luzes e luzinhas de muitas cores, amarelas, azuis, vermelhas, verdes, que nos põem tontos. Onde os homens encontram um sítio para pendurar uma daquelas pêras de vidro que deita luz, penduram. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s10p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s10p0",
+        "s10p1",
+        "s10p2"
+      ],
+      "evidence": "É um bocado desabrigado e pouco cómodo, mas vais poder dizer, daqui em diante, que dormiste no Teatro Nacional... Assim que chegaram os electricistas com as escadas, os cabos e os fios, a pardalada sumiu-se... Numa destas noites, o pardalito deixou o avô a dormir com a cabeça debaixo da asa, e foi dar uma voltinha pelos arredores do seu novo poiso.",
+      "after": {
+        "segment": 10,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: É um bocado desabrigado e pouco cómodo, mas vais poder dizer, daqui em diante, que dormiste no Teatro Nacional... Assim que chegaram os electricistas com as escadas, os cabos e os fios, a pardalada sumiu-se... Numa destas noites, o pardalito deixou o avô a dormir com a cabeça debaixo da asa, e foi dar uma voltinha pelos arredores do seu novo poiso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s12p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s12p2",
+        "s12p3",
+        "s12p4"
+      ],
+      "evidence": "O pardalito explicou. Comentário do velho pardal: - Que patetice! Ainda tens muito que aprender, pequeno, até te transformares num pardalão sabido! É o que nós também achamos, ao cabo desta história.",
+      "after": {
+        "segment": 12,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O pardalito explicou. Comentário do velho pardal: - Que patetice! Ainda tens muito que aprender, pequeno, até te transformares num pardalão sabido! É o que nós também achamos, ao cabo desta história. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

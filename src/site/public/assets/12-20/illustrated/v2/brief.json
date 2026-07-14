@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": "[]",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma cabeça de alho chocho . Não fixava nada. A mãe dizia-lhe:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Cabeça de Alho Chocho».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma cabeça de alho chocho . Não fixava nada. A mãe dizia-lhe: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p2",
+        "s1p3",
+        "s1p4"
+      ],
+      "evidence": "- Não temos - diziam-lhe, na padaria. Então ele voltava para casa e despachava-se assim: - Está tudo esgotado, mãe. Posso ir brincar?",
+      "after": {
+        "segment": 1,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Não temos - diziam-lhe, na padaria. Então ele voltava para casa e despachava-se assim: - Está tudo esgotado, mãe. Posso ir brincar? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "- Vai à mercearia e compras-me três quilos de bacalhau e cento e vinte cinco gramas de azeitonas pretas. Passado um bocado, ele, o cabeça de alho chocho , voltava ao pé-coxinho pelo passeio e despachava-se assim: - Mãe, eles na mercearia dizem que cento e vinte e cinco de bacalhau nem que fossem só espinhas e três quilos de azeitonas pretas não têm que chegue. Posso ir brincar?",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Vai à mercearia e compras-me três quilos de bacalhau e cento e vinte cinco gramas de azeitonas pretas. Passado um bocado, ele, o cabeça de alho chocho , voltava ao pé-coxinho pelo passeio e despachava-se assim: - Mãe, eles na mercearia dizem que cento e vinte e cinco de bacalhau nem que fossem só espinhas e três quilos de azeitonas pretas não têm que chegue. Posso ir brincar? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "- Levas este embrulhinho para o vizinho Almiro e este bolo de amêndoas para a tia Clotilde, com as nossas boas festas. Recado feito, voltava ele, o cabeça de alho chocho : - Ó mãe, o vizinho Almiro agradece, mas diz que não pode comer bolos, porque é diabético e a tia Clotilde, depois de abrir o embrulho, perguntou-me se andamos a brincar com ela ou quê...",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Levas este embrulhinho para o vizinho Almiro e este bolo de amêndoas para a tia Clotilde, com as nossas boas festas. Recado feito, voltava ele, o cabeça de alho chocho : - Ó mãe, o vizinho Almiro agradece, mas diz que não pode comer bolos, porque é diabético e a tia Clotilde, depois de abrir o embrulho, perguntou-me se andamos a brincar com ela ou quê... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "A propósito, posso ir brincar? Sabem o que continha o embrulho? Continha uma loção para depois da barba, que, sendo para o senhor Almiro, estaria bem, mas para a tia Clotilde, um pouco forte de buço , já parecia mal...",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A propósito, posso ir brincar? Sabem o que continha o embrulho? Continha uma loção para depois da barba, que, sendo para o senhor Almiro, estaria bem, mas para a tia Clotilde, um pouco forte de buço , já parecia mal... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

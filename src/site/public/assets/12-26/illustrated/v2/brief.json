@@ -1,0 +1,121 @@
+{
+  "characters": [
+    {
+      "name": "pinheirinho",
+      "appearance": "pequeno pinheiro envergonhado, primeiro com agulhas simples, depois com ouro e prata, depois com agulhas de vidro, e por fim natural e feliz"
+    },
+    {
+      "name": "fada Flora",
+      "appearance": "fada protetora e paciente, ligada às mudanças mágicas da árvore"
+    },
+    {
+      "name": "ladrão",
+      "appearance": "figura furtiva escondida na floresta"
+    },
+    {
+      "name": "vento",
+      "appearance": "presença invisível e inquieta que agita a árvore"
+    }
+  ],
+  "environment": "Floresta portuguesa, com um pinheiro no centro da ação e mudanças sazonais e mágicas marcando a história.",
+  "palette": [
+    "verdes de floresta",
+    "ouro",
+    "prata",
+    "transparências vítreas",
+    "tons terrosos",
+    "azuis suaves"
+  ],
+  "recurringObjects": [
+    "pinheiro",
+    "folhas/aguihas",
+    "ouro e prata",
+    "vidro",
+    "vento"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "No meio da floresta, vivia um pinheirinho muito envergonhado. Queixava-se ele de que tinha umas folhas insignificantes, tão magras e aguçadas, que as outras árvores, por troça, diziam: - Tu não tens folhas. Tens agulhas, em vez de folhas. Isso custava-lhe. Magoava-o. Entristecia-o.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Pinheiro Descontente».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No meio da floresta, vivia um pinheirinho muito envergonhado. Queixava-se ele de que tinha umas folhas insignificantes, tão magras e aguçadas, que as outras árvores, por troça, diziam: - Tu não tens folhas. Tens agulhas, em vez de folhas. Isso custava-lhe. Magoava-o. Entristecia-o. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "A fada Flora, para alegrar o pinheirinho, vestiu-o, uma vez, de oiro e de prata. Estava lindo. Sentiu-se outro. Perdeu as mágoas. Mas um ladrão, que se tinha escondido na floresta, ao ver tal fortuna em ouro e prata, roubou-lhe as folhas todas.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A fada Flora, para alegrar o pinheirinho, vestiu-o, uma vez, de oiro e de prata. Estava lindo. Sentiu-se outro. Perdeu as mágoas. Mas um ladrão, que se tinha escondido na floresta, ao ver tal fortuna em ouro e prata, roubou-lhe as folhas todas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s3p0"
+      ],
+      "evidence": "Assim, sim! Nada podia acontecer-lhe de mal, porque o vidro não atrai cobiça. Só não contava com o vento, que veio a correr, para admirar de perto tal maravilha. Desastrado como ele é sempre, abanou a pequenina árvore tanto que as folhas de vidro bateram umas nas outras. Caíram no chão e partiram-se.",
+      "after": {
+        "segment": 3,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Assim, sim! Nada podia acontecer-lhe de mal, porque o vidro não atrai cobiça. Só não contava com o vento, que veio a correr, para admirar de perto tal maravilha. Desastrado como ele é sempre, abanou a pequenina árvore tanto que as folhas de vidro bateram umas nas outras. Caíram no chão e partiram-se. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p3",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "A fada Flora, cheia de paciência, tornou a dar-lhe o fato antigo de árvore verdadeira. Talvez ela já tivesse calculado que assim voltaria a acontecer. Talvez ela tivesse feito tudo de propósito... Fosse como fosse, o pinheirinho estava, finalmente, feliz.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A fada Flora, cheia de paciência, tornou a dar-lhe o fato antigo de árvore verdadeira. Talvez ela já tivesse calculado que assim voltaria a acontecer. Talvez ela tivesse feito tudo de propósito... Fosse como fosse, o pinheirinho estava, finalmente, feliz. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "Mas é um pensamento de raspão e passa-lhe depressa. No entanto, a lenda conta que alguém, adivinhando os pensamentos do pinheirinho, resolveu enfeitá-lo com lindas bolas de vidro de todas as cores e fios de prata e de ouro a fingir. Assim nasceu o pinheiro de Natal.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas é um pensamento de raspão e passa-lhe depressa. No entanto, a lenda conta que alguém, adivinhando os pensamentos do pinheirinho, resolveu enfeitá-lo com lindas bolas de vidro de todas as cores e fios de prata e de ouro a fingir. Assim nasceu o pinheiro de Natal. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

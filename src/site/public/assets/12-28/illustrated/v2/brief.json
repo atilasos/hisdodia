@@ -1,0 +1,95 @@
+{
+  "characters": [],
+  "environment": "interior doméstico português contemporâneo, centrado em convivência familiar e um instrumento musical",
+  "palette": [],
+  "recurringObjects": [
+    "viola",
+    "cordas da viola",
+    "casa do pai do Joca"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O pai do Joca tem um amigo de quem o Joca muito particularmente gosta. Chama-se Firmino e toca viola. Da viola do Firmino, dos dedos do Firmino a beliscar as cordas da viola saem as músicas que ele quer. Ou que nós queremos. Que nós pedimos. - Toca lá esta, ó Firmino - pedem-lhe.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Viola do Firmino».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O pai do Joca tem um amigo de quem o Joca muito particularmente gosta. Chama-se Firmino e toca viola. Da viola do Firmino, dos dedos do Firmino a beliscar as cordas da viola saem as músicas que ele quer. Ou que nós queremos. Que nós pedimos. - Toca lá esta, ó Firmino - pedem-lhe. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "E ele toca. O Firmino é muito amigo de fazer vontades e a viola parece-se com o dono em tudo. Um dia, o Firmino, que tinha de ir dar umas voltas em que a viola era um peso, pediu ao pai do Joca se lha guardava, lá em casa, até ao dia seguinte. Ele depois viria buscá-la.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E ele toca. O Firmino é muito amigo de fazer vontades e a viola parece-se com o dono em tudo. Um dia, o Firmino, que tinha de ir dar umas voltas em que a viola era um peso, pediu ao pai do Joca se lha guardava, lá em casa, até ao dia seguinte. Ele depois viria buscá-la. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "- Está descansado, Firmino - disse o pai do Joca. - Cá em casa fica bem guardada. Foi o que o Joca quis ouvir. Há tanto tempo que ele queria experimentar aquela viola! Quando o pai virou costas, pôs-se a mexer nas cordas da viola como via o Firmino fazer. Mas a viola, em vez de cantar, como era seu costume, em vez de tocar música catita, queixou-se.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Está descansado, Firmino - disse o pai do Joca. - Cá em casa fica bem guardada. Foi o que o Joca quis ouvir. Há tanto tempo que ele queria experimentar aquela viola! Quando o pai virou costas, pôs-se a mexer nas cordas da viola como via o Firmino fazer. Mas a viola, em vez de cantar, como era seu costume, em vez de tocar música catita, queixou-se. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "O pai do Joca veio lá de dentro e zangou-se. - Quem te autorizou a pegar na viola do Firmino? Não vês que podes estragá-la... - Estragada já ela está - respondeu o Joca. - Não toca nada que preste.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O pai do Joca veio lá de dentro e zangou-se. - Quem te autorizou a pegar na viola do Firmino? Não vês que podes estragá-la... - Estragada já ela está - respondeu o Joca. - Não toca nada que preste. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "O pai, mais compreensivo, disse, então: - Para que ela toque precisa de boa companhia. Ou julgavas tu que as violas tocavam sozinhas? Resumindo e concluindo: o Joca anda agora a aprender a tocar viola. Com muito empenho. E o professor já sabem quem é. Não adivinham?",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O pai, mais compreensivo, disse, então: - Para que ela toque precisa de boa companhia. Ou julgavas tu que as violas tocavam sozinhas? Resumindo e concluindo: o Joca anda agora a aprender a tocar viola. Com muito empenho. E o professor já sabem quem é. Não adivinham? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

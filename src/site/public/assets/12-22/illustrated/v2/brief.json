@@ -1,0 +1,101 @@
+{
+  "characters": [],
+  "environment": "Portuguese schoolyard and football pitch imagined from a children's classroom contest about desserts.",
+  "palette": [
+    "warm cream",
+    "soft red",
+    "grass green",
+    "light blue",
+    "butter yellow"
+  ],
+  "recurringObjects": [
+    "football",
+    "whistle",
+    "goalposts"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "- Eu gosto muito de arroz doce - disse um menino. - Eu gosto mais de leite creme - disse outro menino. Os dois resolveram fazer um inquérito, entre os colegas da aula. Descobriram, então, que dez eram adeptos do arroz doce e outros dez puxavam mais para o leite creme. Havia ainda três (a classe tinha vinte e cinco) que tanto se lhes dava arroz doce como o leite creme.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Sobremesa com Açúcar».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Eu gosto muito de arroz doce - disse um menino. - Eu gosto mais de leite creme - disse outro menino. Os dois resolveram fazer um inquérito, entre os colegas da aula. Descobriram, então, que dez eram adeptos do arroz doce e outros dez puxavam mais para o leite creme. Havia ainda três (a classe tinha vinte e cinco) que tanto se lhes dava arroz doce como o leite creme. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Os dois resolveram fazer um inquérito, entre os colegas da aula. Descobriram, então, que dez eram adeptos do arroz doce e outros dez puxavam mais para o leite creme. Havia ainda três (a classe tinha vinte e cinco) que tanto se lhes dava arroz doce como o leite creme. Do que eles gostavam era de bolo de bolacha. Onze para um lado. Onze para outro. Está-se mesmo a ver a consequência: um jogo de futebol. Os três apreciadores do bolo de bolacha formavam a equipa de arbitragem. O jogo começou muito favoravelmente para o grupo dos Leite Creme, porque, logo ao primeiro minuto, um defesa dos Arroz Doce, num passe azarado, meteu um golo na própria baliza.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os dois resolveram fazer um inquérito, entre os colegas da aula. Descobriram, então, que dez eram adeptos do arroz doce e outros dez puxavam mais para o leite creme. Havia ainda três (a classe tinha vinte e cinco) que tanto se lhes dava arroz doce como o leite creme. Do que eles gostavam era de bolo de bolacha. Onze para um lado. Onze para outro. Está-se mesmo a ver a consequência: um jogo de futebol. Os três apreciadores do bolo de bolacha formavam a equipa de arbitragem. O jogo começou muito favoravelmente para o grupo dos Leite Creme, porque, logo ao primeiro minuto, um defesa dos Arroz Doce, num passe azarado, meteu um golo na própria baliza. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "Um a um, igualdade entre Leite Creme e Arroz Doce. Nisto, o árbitro, sempre imparcial, marcou uma grande penalidade contra os Leite Creme, porque um Arroz Doce, dentro da grande área, tinha sido agarrado pela camisola. Goooolo!",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um a um, igualdade entre Leite Creme e Arroz Doce. Nisto, o árbitro, sempre imparcial, marcou uma grande penalidade contra os Leite Creme, porque um Arroz Doce, dentro da grande área, tinha sido agarrado pela camisola. Goooolo! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "E ainda houve mais um goooolo, antes do intervalo. Três a um, a favor do Arroz Doce. Na segunda parte, os Leite Creme recuperaram bem e o jogo terminou numa igualdade: três a três. Mas, depois, o desafio teve que ser anulado. Porquê?",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E ainda houve mais um goooolo, antes do intervalo. Três a um, a favor do Arroz Doce. Na segunda parte, os Leite Creme recuperaram bem e o jogo terminou numa igualdade: três a três. Mas, depois, o desafio teve que ser anulado. Porquê? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p2",
+        "s3p3",
+        "s4p0"
+      ],
+      "evidence": "Na segunda parte, os Leite Creme recuperaram bem e o jogo terminou numa igualdade: três a três. Mas, depois, o desafio teve que ser anulado. Porquê? Porque se soube que um elemento, que alinhava pelos Leite Creme, dava, secretamente, a sua preferência ao Mousse de Chocolate e, lá na rua dele, jogava pelos Pudim Flan. Tinha mais olhos que barriga.",
+      "after": {
+        "segment": 4,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Na segunda parte, os Leite Creme recuperaram bem e o jogo terminou numa igualdade: três a três. Mas, depois, o desafio teve que ser anulado. Porquê? Porque se soube que um elemento, que alinhava pelos Leite Creme, dava, secretamente, a sua preferência ao Mousse de Chocolate e, lá na rua dele, jogava pelos Pudim Flan. Tinha mais olhos que barriga. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

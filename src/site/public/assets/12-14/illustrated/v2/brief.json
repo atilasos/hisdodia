@@ -1,0 +1,120 @@
+{
+  "characters": [
+    {
+      "name": "O jornalista",
+      "appearance": "Homem adulto apressado, curioso, de caderno na mão e postura observadora"
+    },
+    {
+      "name": "O rio",
+      "appearance": "Curso de água pequeno no início, depois grande e vasto"
+    },
+    {
+      "name": "A árvore",
+      "appearance": "Pequena arvorezeca que cresce até se tornar uma árvore imponente"
+    },
+    {
+      "name": "A casa",
+      "appearance": "Casinha simples que evolui para um bairro inteiro"
+    }
+  ],
+  "environment": "Paisagem portuguesa em sequência de crescimento: margem de rio, campo, aldeia e bairro urbano em expansão, com sensação de passagem do tempo",
+  "palette": [
+    "azuis de água e céu",
+    "verdes naturais",
+    "ocres e castanhos terrosos",
+    "tons quentes de telhados e fachadas",
+    "cinzentos suaves de papel e cidade"
+  ],
+  "recurringObjects": [
+    "caderno do jornalista",
+    "mãos atrás das costas",
+    "rio",
+    "árvore",
+    "casinha/bairro"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Aquele jornalista que, por tudo e por nada, anda sempre a perguntar coisas teve a ideia de fazer um inquérito. Ia por aí, de mãos atrás das costas, e ao primeiro que lhe aparecesse perguntava: - O que é que quis ser, quando era pequeno? Depois somava, comparava e tirava percentagens.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Jornalista das Perguntas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Aquele jornalista que, por tudo e por nada, anda sempre a perguntar coisas teve a ideia de fazer um inquérito. Ia por aí, de mãos atrás das costas, e ao primeiro que lhe aparecesse perguntava: - O que é que quis ser, quando era pequeno? Depois somava, comparava e tirava percentagens. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p3",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Era uma ribeiro pouco profundo, mas que sabia o que queria. Respondeu: - Quando era pequeno, só um fiozinho de água a escorrer da nascente, eu queria ser um grande rio, desses que são cruzados por vapores, visitados por paquetes, atravessados por pontes enormes. E ainda não desisti.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma ribeiro pouco profundo, mas que sabia o que queria. Respondeu: - Quando era pequeno, só um fiozinho de água a escorrer da nascente, eu queria ser um grande rio, desses que são cruzados por vapores, visitados por paquetes, atravessados por pontes enormes. E ainda não desisti. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p2",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "O jornalista registou e foi perguntar a mesma coisa a uma arvorezeca, que lhe dava pelo ombro. Respondeu-lhe ela: - Quando era pequena, só uma haste a romper da terra, eu queria ser uma grande árvore, dessas que dão sombra a um rancho inteiro de camponeses ou a um dilatado piquenique de excursionistas. E ainda não desisti.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O jornalista registou e foi perguntar a mesma coisa a uma arvorezeca, que lhe dava pelo ombro. Respondeu-lhe ela: - Quando era pequena, só uma haste a romper da terra, eu queria ser uma grande árvore, dessas que dão sombra a um rancho inteiro de camponeses ou a um dilatado piquenique de excursionistas. E ainda não desisti. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p2",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "O jornalista registou e foi perguntar a mesma coisa a uma casa, duas janelas e uma porta ou pouco mais. Resposta dela: - Quando eu era pequena, só um tijolo em cima de outro, eu queria ser um bairro com muitas ruas, onde coubessem muitas famílias, e que tivesse lojas, escola, correio, igreja. E ainda não desisti.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O jornalista registou e foi perguntar a mesma coisa a uma casa, duas janelas e uma porta ou pouco mais. Resposta dela: - Quando eu era pequena, só um tijolo em cima de outro, eu queria ser um bairro com muitas ruas, onde coubessem muitas famílias, e que tivesse lojas, escola, correio, igreja. E ainda não desisti. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s6p1",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "Saberia que a arvorezeca, ao fim de muitos Invernos e muitas Primaveras, se transformou na imponente árvore da sua vontade. Saberia que a casinha, ao fim de muitos anos, muitos trabalhos, junta com outras casas, formou o bairro do seu muito querer, das suas mais profundas esperanças. Mas onde é que já ia o apressado jornalista quando isto tudo, finalmente, aconteceu?",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Saberia que a arvorezeca, ao fim de muitos Invernos e muitas Primaveras, se transformou na imponente árvore da sua vontade. Saberia que a casinha, ao fim de muitos anos, muitos trabalhos, junta com outras casas, formou o bairro do seu muito querer, das suas mais profundas esperanças. Mas onde é que já ia o apressado jornalista quando isto tudo, finalmente, aconteceu? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

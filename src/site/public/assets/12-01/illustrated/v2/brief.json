@@ -1,0 +1,122 @@
+{
+  "characters": [
+    {
+      "name": "bolo-rei",
+      "appearance": "bolo coroado com aspeto régio e ar autoritário"
+    },
+    {
+      "name": "bolo-inglês",
+      "appearance": "bolo com traços discretos e atitude de desentendimento"
+    },
+    {
+      "name": "bolo de natas",
+      "appearance": "bolo coberto de natas, fala atrapalhada"
+    },
+    {
+      "name": "bolo de amêndoa",
+      "appearance": "bolo com amêndoas torradas, resposta firme"
+    },
+    {
+      "name": "pudim de gelatina",
+      "appearance": "pudim frágil e nervoso, a tremer"
+    }
+  ],
+  "environment": "tabuleiro de pastelaria com vários bolos personificados em sequência, num tom de fábula cómica",
+  "palette": [
+    "dourado",
+    "creme",
+    "castanho tostado",
+    "branco",
+    "tons suaves de pastel"
+  ],
+  "recurringObjects": [
+    "coroa",
+    "passa",
+    "fatias"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O bolo-rei tomava-se muito a sério. Não havia discussão: ele era o rei dos bolos. Como tal, quando lhe caiu uma passa da coroa, ordenou ao bolo-inglês: - Traz-me essa passa de volta.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Bolo-Rei».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O bolo-rei tomava-se muito a sério. Não havia discussão: ele era o rei dos bolos. Como tal, quando lhe caiu uma passa da coroa, ordenou ao bolo-inglês: - Traz-me essa passa de volta. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "Então, o bolo-rei virou-se para um bolo de natas e deu a mesma ordem. Queria, outra vez, a passa a ornamentar-lhe a coroa. O bolo de natas tinha uma fala atrapalhada, por causa do excesso de natas. - Flá, plefe, pflu, pfló...",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Então, o bolo-rei virou-se para um bolo de natas e deu a mesma ordem. Queria, outra vez, a passa a ornamentar-lhe a coroa. O bolo de natas tinha uma fala atrapalhada, por causa do excesso de natas. - Flá, plefe, pflu, pfló... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Não se percebia nada. O bolo-rei, muito irritado, ordenou ao bolo de amêndoa, que lhe respondeu: - Também a mim me caiu uma amêndoa torrada e não me queixo.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não se percebia nada. O bolo-rei, muito irritado, ordenou ao bolo de amêndoa, que lhe respondeu: - Também a mim me caiu uma amêndoa torrada e não me queixo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p2",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "- Também a mim me caiu uma amêndoa torrada e não me queixo. O bolo-rei, cada vez mais exasperado , deu a mesma ordem a um pudim de gelatina, mas o pudim de gelatina era muito frágil, muito nervoso e só tremeu, tremeu, incapaz de dizer ou fazer o que quer que fosse. - São uns rebeldes estes meus súbditos - concluiu, numa grande exaltação, o bolo-rei. - Condeno-os a que sejam todos cortados às fatias.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Também a mim me caiu uma amêndoa torrada e não me queixo. O bolo-rei, cada vez mais exasperado , deu a mesma ordem a um pudim de gelatina, mas o pudim de gelatina era muito frágil, muito nervoso e só tremeu, tremeu, incapaz de dizer ou fazer o que quer que fosse. - São uns rebeldes estes meus súbditos - concluiu, numa grande exaltação, o bolo-rei. - Condeno-os a que sejam todos cortados às fatias. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s4p0"
+      ],
+      "evidence": "O bolo-rei, cada vez mais exasperado , deu a mesma ordem a um pudim de gelatina, mas o pudim de gelatina era muito frágil, muito nervoso e só tremeu, tremeu, incapaz de dizer ou fazer o que quer que fosse. - São uns rebeldes estes meus súbditos - concluiu, numa grande exaltação, o bolo-rei. - Condeno-os a que sejam todos cortados às fatias. E assim aconteceu. Mas nem o bolo-rei escapou.",
+      "after": {
+        "segment": 4,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O bolo-rei, cada vez mais exasperado , deu a mesma ordem a um pudim de gelatina, mas o pudim de gelatina era muito frágil, muito nervoso e só tremeu, tremeu, incapaz de dizer ou fazer o que quer que fosse. - São uns rebeldes estes meus súbditos - concluiu, numa grande exaltação, o bolo-rei. - Condeno-os a que sejam todos cortados às fatias. E assim aconteceu. Mas nem o bolo-rei escapou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

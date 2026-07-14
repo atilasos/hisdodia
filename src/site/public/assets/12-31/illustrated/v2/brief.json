@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Hoje vou falar do bicho de sete cabeças. Desde menino que este bicho me persegue. Desde menino, eu e não ele, que deve ser mais velho do que a Sé de Braga. Suspeito até que será mais velho do que os dinossauros. Quase de certeza. - Estás há que tempos às voltas com os atacadores e não atas nem desatas - dizia-me a minha mãe.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Bicho das Sete Cabeças».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Hoje vou falar do bicho de sete cabeças. Desde menino que este bicho me persegue. Desde menino, eu e não ele, que deve ser mais velho do que a Sé de Braga. Suspeito até que será mais velho do que os dinossauros. Quase de certeza. - Estás há que tempos às voltas com os atacadores e não atas nem desatas - dizia-me a minha mãe. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Ou então um enfermeiro, de uma vez que fui ao hospital com a cabeça partida: - A chorar por um golpezinho sem importância? Nem que fosse um bicho de sete cabeças! Isto tudo, na infância. Podia supor que, em crescendo, o bicho de sete cabeças me largasse. É o largas!",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ou então um enfermeiro, de uma vez que fui ao hospital com a cabeça partida: - A chorar por um golpezinho sem importância? Nem que fosse um bicho de sete cabeças! Isto tudo, na infância. Podia supor que, em crescendo, o bicho de sete cabeças me largasse. É o largas! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s3p0"
+      ],
+      "evidence": "- A chorar por um golpezinho sem importância? Nem que fosse um bicho de sete cabeças! Isto tudo, na infância. Podia supor que, em crescendo, o bicho de sete cabeças me largasse. É o largas! - Nunca mais te decides com a gravata, francamente - dizia-me a minha mulher. - Estamos quase a sair para o jantar e tu, diante do espelho, a pôr e a tirar gravatas, numa hesitação que até faz nervos. Calcule-se: um bicho de sete cabeças por causa de uma gravata!",
+      "after": {
+        "segment": 3,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - A chorar por um golpezinho sem importância? Nem que fosse um bicho de sete cabeças! Isto tudo, na infância. Podia supor que, em crescendo, o bicho de sete cabeças me largasse. É o largas! - Nunca mais te decides com a gravata, francamente - dizia-me a minha mulher. - Estamos quase a sair para o jantar e tu, diante do espelho, a pôr e a tirar gravatas, numa hesitação que até faz nervos. Calcule-se: um bicho de sete cabeças por causa de uma gravata! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s12p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s12p0",
+        "s12p1",
+        "s12p2"
+      ],
+      "evidence": "- Falto eu - disse a cabeça que me falava. - Eu sou a associação das outras, a porta-voz das restantes, uma espécie de soma dos desperdícios de energia, que tu gastas, com o que não merece a pena. - Como te chamas? - perguntei. - Sou o Tempo Perdido e nunca recuperado com o que não vale um rabo de lagartixa, sem lagartixa.",
+      "after": {
+        "segment": 12,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Falto eu - disse a cabeça que me falava. - Eu sou a associação das outras, a porta-voz das restantes, uma espécie de soma dos desperdícios de energia, que tu gastas, com o que não merece a pena. - Como te chamas? - perguntei. - Sou o Tempo Perdido e nunca recuperado com o que não vale um rabo de lagartixa, sem lagartixa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s13p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s13p0",
+        "s13p1",
+        "s13p2"
+      ],
+      "evidence": "À última fala, acordei. Pus-me a rememomerar o sonho, a tirar conclusões, a magicar... Não voltei a adormecer. Uma noite de insónia azeda-me o dia. Fico com olheiras mais cavadas que varandas de sacada. Que inferno! Será que de uma noite mal dormida estou a fazer um bicho de sete cabeças?",
+      "after": {
+        "segment": 13,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: À última fala, acordei. Pus-me a rememomerar o sonho, a tirar conclusões, a magicar... Não voltei a adormecer. Uma noite de insónia azeda-me o dia. Fico com olheiras mais cavadas que varandas de sacada. Que inferno! Será que de uma noite mal dormida estou a fazer um bicho de sete cabeças? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,120 @@
+{
+  "characters": [],
+  "environment": "árvore de Natal com enfeites e, depois, gruta do presépio",
+  "palette": [
+    "prata",
+    "azul frio",
+    "branco",
+    "dourado suave",
+    "verde musgo"
+  ],
+  "recurringObjects": [
+    "estrela de prata",
+    "bola de cristal",
+    "árvore",
+    "presépio",
+    "musgo"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Numa árvore que eu cá sei - que nós sabemos - estão uma estrela de prata e uma bola de cristal. - Que fazemos aqui? - perguntou a estrela. - Estamos a enfeitar - respondeu a bola.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Estrela de Prata».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Numa árvore que eu cá sei - que nós sabemos - estão uma estrela de prata e uma bola de cristal. - Que fazemos aqui? - perguntou a estrela. - Estamos a enfeitar - respondeu a bola. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "- Porque estamos a enfeitar? - Porque esta árvore não é como as outras. Os frutos dela são raros. Aparecem um dia, luzem o seu quê, conforme sabem ou podem, e depois são colhidos e guardados, até para o ano.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Porque estamos a enfeitar? - Porque esta árvore não é como as outras. Os frutos dela são raros. Aparecem um dia, luzem o seu quê, conforme sabem ou podem, e depois são colhidos e guardados, até para o ano. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "A bola de cristal tinha muita experiência de outros Natais, ao passo que a estrela era nova, de prata fresca, e não sabia quase nada. Mas tinha ouvido falar que havia estrelas cadentes, estrelas que caem do céu e no céu desaparecem, num sopro de luz. - Não serei uma dessas? - perguntou à bola. - Talvez sejas, talvez não sejas... Mas não experimentes.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A bola de cristal tinha muita experiência de outros Natais, ao passo que a estrela era nova, de prata fresca, e não sabia quase nada. Mas tinha ouvido falar que havia estrelas cadentes, estrelas que caem do céu e no céu desaparecem, num sopro de luz. - Não serei uma dessas? - perguntou à bola. - Talvez sejas, talvez não sejas... Mas não experimentes. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p2",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "- Talvez sejas, talvez não sejas... Mas não experimentes. Passou-se um tempo mais, e a estrela guardou para si aquela ideia, uma ideia pequenina. \"Não experimentes\", dissera-lhe a bola. E se experimentasse? Foi o que fez. Caiu, num susto, mas como era leve, inocente e frágil, uma corrente de ar, vinda de uma porta aberta, algures, levou-a consigo.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Talvez sejas, talvez não sejas... Mas não experimentes. Passou-se um tempo mais, e a estrela guardou para si aquela ideia, uma ideia pequenina. \"Não experimentes\", dissera-lhe a bola. E se experimentasse? Foi o que fez. Caiu, num susto, mas como era leve, inocente e frágil, uma corrente de ar, vinda de uma porta aberta, algures, levou-a consigo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Levou-a consigo e fê-la poisar, sem estrago, no fofo musgo. - Olha, é a estrela da gruta - disse alguém que estava a armar o presépio. E estrela do presépio ficou.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Levou-a consigo e fê-la poisar, sem estrago, no fofo musgo. - Olha, é a estrela da gruta - disse alguém que estava a armar o presépio. E estrela do presépio ficou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s6p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s5p0",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "Donde estava, onde a puseram, via o presépio, os pastores, os reis magos, as lavadeiras com a trouxa à cabeça, as leiteiras com a bilha à cinta, os vagabundos, o moleiro, o azeiteiro e todo o povo do presépio e mais as pessoas de carne e osso, que vinham admirar aquela lindeza, sorrir para o Menino Jesus e olhar para a estrela, suspensa do alto da gruta. Estrela de oito pontas que era, a apontar em todas as direcções, nem ela sabia para onde, brilhou imenso. Brilhou o mais que pôde. Para o ano, a estrela de prata já tem muito que contar à bola de cristal.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Donde estava, onde a puseram, via o presépio, os pastores, os reis magos, as lavadeiras com a trouxa à cabeça, as leiteiras com a bilha à cinta, os vagabundos, o moleiro, o azeiteiro e todo o povo do presépio e mais as pessoas de carne e osso, que vinham admirar aquela lindeza, sorrir para o Menino Jesus e olhar para a estrela, suspensa do alto da gruta. Estrela de oito pontas que era, a apontar em todas as direcções, nem ela sabia para onde, brilhou imenso. Brilhou o mais que pôde. Para o ano, a estrela de prata já tem muito que contar à bola de cristal. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

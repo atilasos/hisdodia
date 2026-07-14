@@ -1,0 +1,108 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Iam dois vagabundos por uma estrada, quando encontraram, do lado de fora de um portão de quinta rica, uma pasta de cabedal, daquelas que se está mesmo a ver que pertencem ou a banqueiros ou a financeiros ou a gente assim, com muito cabedal. Os dois vagabundos olharam para a pasta, olharam um para o outro e, enquanto o diabo esfrega um olho, raparam da pasta e rasparam-se, antes que aparecessem outros atrás, que fizessem o mesmo. Numa curva mais adiante, cansados da corrida, abrandaram de velocidade e abriram um dos fechos da pasta.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Pasta de Cabedal».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Iam dois vagabundos por uma estrada, quando encontraram, do lado de fora de um portão de quinta rica, uma pasta de cabedal, daquelas que se está mesmo a ver que pertencem ou a banqueiros ou a financeiros ou a gente assim, com muito cabedal. Os dois vagabundos olharam para a pasta, olharam um para o outro e, enquanto o diabo esfrega um olho, raparam da pasta e rasparam-se, antes que aparecessem outros atrás, que fizessem o mesmo. Numa curva mais adiante, cansados da corrida, abrandaram de velocidade e abriram um dos fechos da pasta. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Iam dois vagabundos por uma estrada, quando encontraram, do lado de fora de um portão de quinta rica, uma pasta de cabedal, daquelas que se está mesmo a ver que pertencem ou a banqueiros ou a financeiros ou a gente assim, com muito cabedal. Os dois vagabundos olharam para a pasta, olharam um para o outro e, enquanto o diabo esfrega um olho, raparam da pasta e rasparam-se, antes que aparecessem outros atrás, que fizessem o mesmo. Numa curva mais adiante, cansados da corrida, abrandaram de velocidade e abriram um dos fechos da pasta.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Iam dois vagabundos por uma estrada, quando encontraram, do lado de fora de um portão de quinta rica, uma pasta de cabedal, daquelas que se está mesmo a ver que pertencem ou a banqueiros ou a financeiros ou a gente assim, com muito cabedal. Os dois vagabundos olharam para a pasta, olharam um para o outro e, enquanto o diabo esfrega um olho, raparam da pasta e rasparam-se, antes que aparecessem outros atrás, que fizessem o mesmo. Numa curva mais adiante, cansados da corrida, abrandaram de velocidade e abriram um dos fechos da pasta. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "A pasta estava cheia de notas. Até parecia que a descoberta lhes trouxera novas forças, porque voltaram a correr desalmadamente, esquecidos do cansaço, da fraqueza, de tudo. Mas tanta correria acaba por esfalfar o coração e as pernas até dos mais premiados corredores olímpicos.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A pasta estava cheia de notas. Até parecia que a descoberta lhes trouxera novas forças, porque voltaram a correr desalmadamente, esquecidos do cansaço, da fraqueza, de tudo. Mas tanta correria acaba por esfalfar o coração e as pernas até dos mais premiados corredores olímpicos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s4p3"
+      ],
+      "evidence": "- É nossa... - É minha... - É nossa...",
+      "after": {
+        "segment": 4,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - É nossa... - É minha... - É nossa... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p1",
+        "s6p2",
+        "s6p3"
+      ],
+      "evidence": "- Ai agora já é nossa? - riu-se o outro. - Presta tu contas dela, que eu não tenho nada a ver com isso. E desamparou-o às mãos do motorista. De pouco lhe valeu, porque o gigante justiceiro tratou da saúde ao que chamara a pasta a si e ainda lhe sobrou tempo para dar outra sova ao que se desligara da questão.",
+      "after": {
+        "segment": 6,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Ai agora já é nossa? - riu-se o outro. - Presta tu contas dela, que eu não tenho nada a ver com isso. E desamparou-o às mãos do motorista. De pouco lhe valeu, porque o gigante justiceiro tratou da saúde ao que chamara a pasta a si e ainda lhe sobrou tempo para dar outra sova ao que se desligara da questão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s7p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s7p0",
+        "s7p1",
+        "s7p2"
+      ],
+      "evidence": "Depois afastou-se gloriosamente, com a pasta recuperada debaixo do braço, enquanto os dois vagabundos saboreavam o pó da estrada. - Que grande coça que nós levámos - dizia um deles, não interessa qual. O outro, qualquer que ele fosse, concordou...",
+      "after": {
+        "segment": 7,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Depois afastou-se gloriosamente, com a pasta recuperada debaixo do braço, enquanto os dois vagabundos saboreavam o pó da estrada. - Que grande coça que nós levámos - dizia um deles, não interessa qual. O outro, qualquer que ele fosse, concordou... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

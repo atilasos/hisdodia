@@ -1,0 +1,128 @@
+{
+  "characters": [
+    {
+      "name": "Ursinho de peluche",
+      "appearance": "Urso de peluche cor de canela, um pouco descorado, pequeno e empenhado, de expressão viva e prática."
+    },
+    {
+      "name": "Boneca",
+      "appearance": "Boneca de cabelo emaranhado e saia traçada, com ar apressado e vulnerável, que chora e depois se anima."
+    },
+    {
+      "name": "Palhaço amolgado",
+      "appearance": "Palhaço gasto e um pouco amolgado, a espreitar de trás de uma cómoda, com ar irónico mas solidário."
+    },
+    {
+      "name": "Senhor Alfredo",
+      "appearance": "Velhinho amável, atento e surpreendido, morador da casa."
+    },
+    {
+      "name": "Dona Noémia",
+      "appearance": "Velhinha amável, curiosa e acolhedora, moradora da casa."
+    }
+  ],
+  "environment": "Um sótão de velha casa, com mala entreaberta, escadote, relógio de cuco parado, gavetas, arcas, caixas, armário, máquina de costura antiga e sinais de brinquedos gastos que se transformam num espaço de trabalho animado, culminando na casa silenciosa de dois velhinhos com a chaminé e a surpresa de Natal.",
+  "palette": [
+    "castanhos quentes",
+    "cremes envelhecidos",
+    "vermelhos suaves",
+    "azuis desbotados",
+    "verdes gastos",
+    "dourados discretos"
+  ],
+  "recurringObjects": [
+    "mala entreaberta",
+    "escadote",
+    "relógio de cuco",
+    "gavetas e arcas",
+    "máquina de costura antiga",
+    "latas de tinta",
+    "ferramentas",
+    "chaminé"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Começa num sótão de uma velha casa a história que vamos contar. De uma mala entreaberta sai uma vozinha queixosa: - Está frio, hoje! A quantos estamos? \"Talvez em Dezembro\", \"Parece-me que em Novembro...\", \"Não sei se em Janeiro...\", respondem várias vozes estremunhadas .",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Oficina dos Brinquedos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Começa num sótão de uma velha casa a história que vamos contar. De uma mala entreaberta sai uma vozinha queixosa: - Está frio, hoje! A quantos estamos? \"Talvez em Dezembro\", \"Parece-me que em Novembro...\", \"Não sei se em Janeiro...\", respondem várias vozes estremunhadas . Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "\"Talvez em Dezembro\", \"Parece-me que em Novembro...\", \"Não sei se em Janeiro...\", respondem várias vozes estremunhadas . - O cuco do relógio sabe. Dêem-lhe corda que ele diz - lembra outra voz mais esperta. Da mala entreaberta sai um ursinho cor de canela, mas um pouco descorado. Espreguiça-se, volta a espreguiçar-se e trepa custosamente a um escadote. Pendurado na parede e parado está o relógio de cuco, que já se não usa. O que se não usa está usado ou estragado, no sótão fica guardado.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: \"Talvez em Dezembro\", \"Parece-me que em Novembro...\", \"Não sei se em Janeiro...\", respondem várias vozes estremunhadas . - O cuco do relógio sabe. Dêem-lhe corda que ele diz - lembra outra voz mais esperta. Da mala entreaberta sai um ursinho cor de canela, mas um pouco descorado. Espreguiça-se, volta a espreguiçar-se e trepa custosamente a um escadote. Pendurado na parede e parado está o relógio de cuco, que já se não usa. O que se não usa está usado ou estragado, no sótão fica guardado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "- Véspera de Natal, imaginem - e uma boneca de cabelo emaranhado e saia traçada salta de uma gaveta a correr. - Para onde vais tu com tanta pressa? - pergunta-lhe, do cimo do escadote, o ursinho cor de canela. - Vou arranjar-me para a ceia. Estou atrasadíssima.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Véspera de Natal, imaginem - e uma boneca de cabelo emaranhado e saia traçada salta de uma gaveta a correr. - Para onde vais tu com tanta pressa? - pergunta-lhe, do cimo do escadote, o ursinho cor de canela. - Vou arranjar-me para a ceia. Estou atrasadíssima. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s11p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s10p3",
+        "s11p0",
+        "s11p1"
+      ],
+      "evidence": "- E nós! E nós! - ecoam os bombeiros. - Pregos, martelos e outras ferramentas não faltam, por aí espalhados - grita, cada vez mais alegre, o ursinho de peluche. - Mãos à obra, meus amigos! Digamos já, para encurtar a história, que aquele sótão, há pouco triste e sonolento, se transformou numa animada oficina de brinquedos.",
+      "after": {
+        "segment": 11,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - E nós! E nós! - ecoam os bombeiros. - Pregos, martelos e outras ferramentas não faltam, por aí espalhados - grita, cada vez mais alegre, o ursinho de peluche. - Mãos à obra, meus amigos! Digamos já, para encurtar a história, que aquele sótão, há pouco triste e sonolento, se transformou numa animada oficina de brinquedos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s17p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s15p2",
+        "s16p0",
+        "s17p0"
+      ],
+      "evidence": "- Vamos - responde a dona Noémia. O senhor Alfredo e a dona Noémia entendem-se por meias palavras, mas nós, nas linhas desta história, temos de contar as palavras todas. Saibam, pois, que graças aos dois simpáticos velhinhos, transformados, para o efeito, em ajudantes de Pai Natal, os brinquedos do sótão voltaram a conhecer as mãos macias dos meninos.",
+      "after": {
+        "segment": 17,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Vamos - responde a dona Noémia. O senhor Alfredo e a dona Noémia entendem-se por meias palavras, mas nós, nas linhas desta história, temos de contar as palavras todas. Saibam, pois, que graças aos dois simpáticos velhinhos, transformados, para o efeito, em ajudantes de Pai Natal, os brinquedos do sótão voltaram a conhecer as mãos macias dos meninos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

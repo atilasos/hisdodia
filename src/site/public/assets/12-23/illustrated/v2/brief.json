@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": "remorse, winter workshop and sleigh cargo context",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Fomos encontrá-lo a fazer embrulhos e a arrumar sacos e malas no porta-bagagens do trenó. Para meter conversa, visto que o Pai Natal, sujeito muito modesto, não gosta de ser entrevistado, perguntámos-lhe: - Então, muito trabalho, este ano? - Nem calcula! É que as meninas e os meninos estão cada vez mais exigentes. Só querem brinquedos caros e volumosos.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Entrevista com o Pai Natal».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Fomos encontrá-lo a fazer embrulhos e a arrumar sacos e malas no porta-bagagens do trenó. Para meter conversa, visto que o Pai Natal, sujeito muito modesto, não gosta de ser entrevistado, perguntámos-lhe: - Então, muito trabalho, este ano? - Nem calcula! É que as meninas e os meninos estão cada vez mais exigentes. Só querem brinquedos caros e volumosos. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "Ora, eu, francamente, já não tenho forças para carregar com tanta coisa! Tome o peso a esta caixa, faça favor. Nós pegámos na caixa e concordámos que era pesada. - É um comboio eléctrico inteirinho, com os comandos, carruagens, baterias, central, estações e apeadeiros. Pois multiplique este peso por centenas e centenas. Veja o meu trabalho! E não tenho ninguém que me ajude.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ora, eu, francamente, já não tenho forças para carregar com tanta coisa! Tome o peso a esta caixa, faça favor. Nós pegámos na caixa e concordámos que era pesada. - É um comboio eléctrico inteirinho, com os comandos, carruagens, baterias, central, estações e apeadeiros. Pois multiplique este peso por centenas e centenas. Veja o meu trabalho! E não tenho ninguém que me ajude. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "A carta era assim: \"Querido Pai Natal: Queria pedir-lhe uma boneca daquelas grandes, que eu vi, no outro dia, numa montra, quando fui sair com a minha mãe. Queria o enxoval completo da boneca, uma banheira para lhe dar banho, um pente, uma escova e um secador para cabelos de bonecas. Queria também um serviço de chá para bonecas, um triciclo, um jogo e uma lapiseira azul.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A carta era assim: \"Querido Pai Natal: Queria pedir-lhe uma boneca daquelas grandes, que eu vi, no outro dia, numa montra, quando fui sair com a minha mãe. Queria o enxoval completo da boneca, uma banheira para lhe dar banho, um pente, uma escova e um secador para cabelos de bonecas. Queria também um serviço de chá para bonecas, um triciclo, um jogo e uma lapiseira azul. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s7p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p3",
+        "s6p4",
+        "s7p0"
+      ],
+      "evidence": "O Pai Natal, com a sua longa experiência, deve ter imensas histórias para contar. - Se tenho! - e as bochechas rosadas do Pai Natal alargavam-se num grande riso. - Calcule que, uma vez, num bosque, o Lobo Feroz confundiu-me com o Capuchinho Vermelho. Dei-lhe uma cacetada como prenda, mas deixei-lhe um livro com a \"História do Capuchinho Vermelho\", para que ele lesse até ao fim.",
+      "after": {
+        "segment": 7,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Pai Natal, com a sua longa experiência, deve ter imensas histórias para contar. - Se tenho! - e as bochechas rosadas do Pai Natal alargavam-se num grande riso. - Calcule que, uma vez, num bosque, o Lobo Feroz confundiu-me com o Capuchinho Vermelho. Dei-lhe uma cacetada como prenda, mas deixei-lhe um livro com a \"História do Capuchinho Vermelho\", para que ele lesse até ao fim. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s9p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s9p0",
+        "s9p1",
+        "s9p2"
+      ],
+      "evidence": "- quisemos nós saber. - Isso sim! Sofro cada desilusão, meu amigo, que é preferível ficarmos por aqui. Talvez para o ano que vem lhe conte mais coisas. Couberam ao Pai Natal as últimas palavras da entrevista. Aguardemos um ano e, até lá, vejam se não desiludem o Pai Natal.",
+      "after": {
+        "segment": 9,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - quisemos nós saber. - Isso sim! Sofro cada desilusão, meu amigo, que é preferível ficarmos por aqui. Talvez para o ano que vem lhe conte mais coisas. Couberam ao Pai Natal as últimas palavras da entrevista. Aguardemos um ano e, até lá, vejam se não desiludem o Pai Natal. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

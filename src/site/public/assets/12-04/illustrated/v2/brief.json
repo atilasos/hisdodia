@@ -1,0 +1,104 @@
+{
+  "characters": [
+    {
+      "name": "Táxi",
+      "appearance": "Cachorrinho que cresce e se torna um cão grande, simpático, de ar atento e depois desorientado; continua ágil e alegre quando acolhido"
+    },
+    {
+      "name": "Motorista",
+      "appearance": "Homem simples de praça de táxis, acolhedor, com gestos tranquilos"
+    },
+    {
+      "name": "Donos",
+      "appearance": "Adultos indiferentes que abandonam o cão"
+    },
+    {
+      "name": "Passantes",
+      "appearance": "Figuras urbanas apressadas que chamam e depois rejeitam o cão"
+    }
+  ],
+  "environment": "Uma cidade portuguesa contemporânea com rua movimentada, passeio, praça de táxis e carros de táxi em espera",
+  "palette": [
+    "amarelo-táxi",
+    "cinza urbano",
+    "azul-esbatido",
+    "castanho quente",
+    "branco sujo",
+    "vermelho discreto"
+  ],
+  "recurringObjects": [
+    "táxi amarelo",
+    "passeio urbano",
+    "rua movimentada",
+    "embalagens e sacos",
+    "bucha com queijo"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Deram ao cachorrinho o nome de \"Táxi\". Com tantos nomes disponíveis, logo foram escolher este! Mas ele não se importava. - Táxi - chamavam. E ele vinha, a dar ao rabo, sempre contente.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Táxi».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Deram ao cachorrinho o nome de \"Táxi\". Com tantos nomes disponíveis, logo foram escolher este! Mas ele não se importava. - Táxi - chamavam. E ele vinha, a dar ao rabo, sempre contente. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "- O Táxi só está a estorvar. Não podemos mantê-lo cá em casa. Abandonaram-no. Há gente assim, sem coração. O Táxi viu-se no meio de uma rua, com grande movimento, e desorientou-se.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - O Táxi só está a estorvar. Não podemos mantê-lo cá em casa. Abandonaram-no. Há gente assim, sem coração. O Táxi viu-se no meio de uma rua, com grande movimento, e desorientou-se. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "- Táxi - chamaram, mais adiante. O cão não se fez esperar, mas um senhor cheio de embrulhos, que ia a entrar num táxi, deu-lhe um pontapé. Ele não percebia. Chamavam-no e logo o rejeitavam. Gente esquisita.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Táxi - chamaram, mais adiante. O cão não se fez esperar, mas um senhor cheio de embrulhos, que ia a entrar num táxi, deu-lhe um pontapé. Ele não percebia. Chamavam-no e logo o rejeitavam. Gente esquisita. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p1",
+        "s5p2",
+        "s5p3"
+      ],
+      "evidence": "- É cá dos nossos - diziam. E adoptaram-no. Continuava a ser um táxi livre, sem dono, mas protegido por uma quantidade de amigos. Afinal o nome Táxi sempre lhe valera para alguma coisa.",
+      "after": {
+        "segment": 5,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - É cá dos nossos - diziam. E adoptaram-no. Continuava a ser um táxi livre, sem dono, mas protegido por uma quantidade de amigos. Afinal o nome Táxi sempre lhe valera para alguma coisa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

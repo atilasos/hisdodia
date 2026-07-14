@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": "[]",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um homem. Era uma vez uma mulher. Encontraram-se, agradaram-se um do outro e vai daí casaram-se. Esta história começa onde as outras acabam. Mas há mais para contar. A mulher levou para a nova casa uma cabrinha de que nunca se apartara . O homem levou um bode, que sempre lhe fizera companhia.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Por causa de uns Cabritos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um homem. Era uma vez uma mulher. Encontraram-se, agradaram-se um do outro e vai daí casaram-se. Esta história começa onde as outras acabam. Mas há mais para contar. A mulher levou para a nova casa uma cabrinha de que nunca se apartara . O homem levou um bode, que sempre lhe fizera companhia. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s0p3"
+      ],
+      "evidence": "Esta história começa onde as outras acabam. Mas há mais para contar. A mulher levou para a nova casa uma cabrinha de que nunca se apartara . O homem levou um bode, que sempre lhe fizera companhia. Já se vê que a cabra e o bode apreciaram a ideia.",
+      "after": {
+        "segment": 0,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Esta história começa onde as outras acabam. Mas há mais para contar. A mulher levou para a nova casa uma cabrinha de que nunca se apartara . O homem levou um bode, que sempre lhe fizera companhia. Já se vê que a cabra e o bode apreciaram a ideia. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "- Vou vendê-los no mercado e com o dinheiro que ganhar quero comprar umas coisas para mim - disse o homem. - E para mim? - perguntou a mulher, fazendo cara feia. - Para ti? - admirou-se o homem. - Os cabritos pertenciam-me. A tua cabra, quando veio cá para casa, não tinha cabritos. O meu bode é que lhos fez.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Vou vendê-los no mercado e com o dinheiro que ganhar quero comprar umas coisas para mim - disse o homem. - E para mim? - perguntou a mulher, fazendo cara feia. - Para ti? - admirou-se o homem. - Os cabritos pertenciam-me. A tua cabra, quando veio cá para casa, não tinha cabritos. O meu bode é que lhos fez. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "- Eu hoje não posso tratar desse caso, porque tenho de ir avisar a minha mãe de que o meu pai deu à luz um bebé. Ficaram todos muito espantados. Depois, desataram a rir. Quando o dono do bode ouviu a resposta do juiz também se riu.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Eu hoje não posso tratar desse caso, porque tenho de ir avisar a minha mãe de que o meu pai deu à luz um bebé. Ficaram todos muito espantados. Depois, desataram a rir. Quando o dono do bode ouviu a resposta do juiz também se riu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p3",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Quando o dono do bode ouviu a resposta do juiz também se riu. E a mulher com ele. Aliás, ela ainda se riu mais. Estava tudo esclarecido. Tempos depois, na casa do homem e da mulher que por pouco não fora abaixo por causa de uma discussão de cabritos, nasceu um menino. Dos dois, já se vê.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando o dono do bode ouviu a resposta do juiz também se riu. E a mulher com ele. Aliás, ela ainda se riu mais. Estava tudo esclarecido. Tempos depois, na casa do homem e da mulher que por pouco não fora abaixo por causa de uma discussão de cabritos, nasceu um menino. Dos dois, já se vê. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,108 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Eles saíram desalvorados para a escola. - Escusam de ir a correr - disse-lhes a mãe. - Têm tempo. Manuel e Manuela refrearam a marcha. Se a mãe lhes dissera que tinham tempo é porque tinham.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Manuel e Manuela».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eles saíram desalvorados para a escola. - Escusam de ir a correr - disse-lhes a mãe. - Têm tempo. Manuel e Manuela refrearam a marcha. Se a mãe lhes dissera que tinham tempo é porque tinham. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s0p3"
+      ],
+      "evidence": "- Escusam de ir a correr - disse-lhes a mãe. - Têm tempo. Manuel e Manuela refrearam a marcha. Se a mãe lhes dissera que tinham tempo é porque tinham. Logo ali, quase à mão de apanhar, umas tangerinas, penduradas de um ramo, que lhes dizia adeus.",
+      "after": {
+        "segment": 0,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Escusam de ir a correr - disse-lhes a mãe. - Têm tempo. Manuel e Manuela refrearam a marcha. Se a mãe lhes dissera que tinham tempo é porque tinham. Logo ali, quase à mão de apanhar, umas tangerinas, penduradas de um ramo, que lhes dizia adeus. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "Continuaram o caminho e logo por azar, à entrada da escola, deram com o cabo Octávio, postado de sentinela. Os dois irmãos, ao verem-no, esconderam-se atrás de uma árvore. - E se ele descobre? - assustou-se a Manuela.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Continuaram o caminho e logo por azar, à entrada da escola, deram com o cabo Octávio, postado de sentinela. Os dois irmãos, ao verem-no, esconderam-se atrás de uma árvore. - E se ele descobre? - assustou-se a Manuela. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p2",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "- Há-de ser da senhora Angelina, lavadeira - disse a Manuela. Lavaram conscienciosamente as mãos, muito bem ensaboadas, mas o sabão escorregou-lhes e foi ao fundo. Não era grande a perda. Eles a retomarem o caminho para a escola e a verem, ao longe, a senhora Angelina, com mais uma carga de roupa para lavar. Vinha em direcção a eles.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Há-de ser da senhora Angelina, lavadeira - disse a Manuela. Lavaram conscienciosamente as mãos, muito bem ensaboadas, mas o sabão escorregou-lhes e foi ao fundo. Não era grande a perda. Eles a retomarem o caminho para a escola e a verem, ao longe, a senhora Angelina, com mais uma carga de roupa para lavar. Vinha em direcção a eles. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p1",
+        "s6p2",
+        "s6p3"
+      ],
+      "evidence": "Fugiram e perderam-se. Quando retomaram o caminho e chegaram à escola, onde já não pairava a sombra do cabo Octávio, a aula tinha começado há que tempos. A professora ralhou-lhes pelo atraso.",
+      "after": {
+        "segment": 6,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Fugiram e perderam-se. Quando retomaram o caminho e chegaram à escola, onde já não pairava a sombra do cabo Octávio, a aula tinha começado há que tempos. A professora ralhou-lhes pelo atraso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s7p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p3",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "A professora ralhou-lhes pelo atraso. - Hão-de dizer à vossa mãe para passar a acordar-vos mais cedo. Os dois irmãos disseram que sim. Que mais podiam eles dizer?",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A professora ralhou-lhes pelo atraso. - Hão-de dizer à vossa mãe para passar a acordar-vos mais cedo. Os dois irmãos disseram que sim. Que mais podiam eles dizer? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

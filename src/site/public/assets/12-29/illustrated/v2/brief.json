@@ -1,0 +1,120 @@
+{
+  "characters": [
+    {
+      "name": "lavrador",
+      "appearance": "Homem rural português, roupa de trabalho simples, presença robusta e atenta"
+    },
+    {
+      "name": "galinhola",
+      "appearance": "Ave pequena e expressiva, com presença quase mágica"
+    },
+    {
+      "name": "cobra",
+      "appearance": "Serpente em contraste tenso com a galinhola, associada ao génio do mal"
+    },
+    {
+      "name": "menina",
+      "appearance": "Criança curiosa que cresce até se tornar protagonista da ação"
+    }
+  ],
+  "environment": "Mato e lavoura rural antiga, depois interior doméstico simples, tempestade súbita e, no final, um espaço de jardim palaciano sugerido",
+  "palette": [
+    "tons terrosos",
+    "verdes escuros",
+    "castanhos quentes",
+    "cinzentos de tempestade",
+    "azuis suaves",
+    "dourados discretos"
+  ],
+  "recurringObjects": [
+    "pedra-talismã",
+    "gaveta trancada",
+    "chave",
+    "pena de galinhola"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Esta história passou-se há muito tempo. Há muito e muito tempo, tanto que eu já não sei se me lembro dela toda. Começa com um lavrador que ia para a sua lavoura, pelo meio do mato. Nisto viu uma cobra a lutar com uma galinhola. O lavrador, já se vê, tomou partido da galinhola e deu uma grande sacholada na cobra que se partiu em duas, cabeça para um lado, rabo para o outro. Então a galinhola falou assim:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Pena da Galinhola».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Esta história passou-se há muito tempo. Há muito e muito tempo, tanto que eu já não sei se me lembro dela toda. Começa com um lavrador que ia para a sua lavoura, pelo meio do mato. Nisto viu uma cobra a lutar com uma galinhola. O lavrador, já se vê, tomou partido da galinhola e deu uma grande sacholada na cobra que se partiu em duas, cabeça para um lado, rabo para o outro. Então a galinhola falou assim: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "Então a galinhola falou assim: - Eu sou o génio do bem e tu acabas de salvar-me do génio do mal. Podes pedir-me o que quiseres. O lavrador não se fez rogado. Disse que lhe tinha acabado de nascer uma filha e que, como bom pai, queria para a menina tudo o que de melhor houvesse.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Então a galinhola falou assim: - Eu sou o génio do bem e tu acabas de salvar-me do génio do mal. Podes pedir-me o que quiseres. O lavrador não se fez rogado. Disse que lhe tinha acabado de nascer uma filha e que, como bom pai, queria para a menina tudo o que de melhor houvesse. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "- Guarda esta pedra contigo, que é um talismã para proteger a tua filha. Mas que ela nunca lhe pegue. O pai assim fez. Guardou a pedra numa gaveta e fechou-a à chave. Só ele e a mulher sabiam o que a pedra valia. A menina cresceu. Um dia, os pais esqueceram-se da chave em casa.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Guarda esta pedra contigo, que é um talismã para proteger a tua filha. Mas que ela nunca lhe pegue. O pai assim fez. Guardou a pedra numa gaveta e fechou-a à chave. Só ele e a mulher sabiam o que a pedra valia. A menina cresceu. Um dia, os pais esqueceram-se da chave em casa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "A menina, que era muito curiosa, foi abrir a gaveta. De lá tirou a pedrinha. Atirou-a pela janela fora. Logo ali se armou uma grande tempestade que arrebatou a menina pelo ar. Ia morrer pela certa. Mas uma pena de galinhola rodopiou à volta da menina, que a ela se agarrou como um náufrago se agarra à última salvação de um madeiro.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A menina, que era muito curiosa, foi abrir a gaveta. De lá tirou a pedrinha. Atirou-a pela janela fora. Logo ali se armou uma grande tempestade que arrebatou a menina pelo ar. Ia morrer pela certa. Mas uma pena de galinhola rodopiou à volta da menina, que a ela se agarrou como um náufrago se agarra à última salvação de um madeiro. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p2",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "Mas uma pena de galinhola rodopiou à volta da menina, que a ela se agarrou como um náufrago se agarra à última salvação de um madeiro. A pena sustentou-se no ar e, depois, poisou-a, sã e salva, no chão. O resto desta história muito antiga já não me lembro bem, mas parece que a menina foi ter aos jardins de um palácio, onde estava um príncipe que tinha perdido a pena do chapéu... Está-se mesmo a ver como a história vai acabar.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas uma pena de galinhola rodopiou à volta da menina, que a ela se agarrou como um náufrago se agarra à última salvação de um madeiro. A pena sustentou-se no ar e, depois, poisou-a, sã e salva, no chão. O resto desta história muito antiga já não me lembro bem, mas parece que a menina foi ter aos jardins de um palácio, onde estava um príncipe que tinha perdido a pena do chapéu... Está-se mesmo a ver como a história vai acabar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

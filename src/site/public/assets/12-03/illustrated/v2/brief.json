@@ -1,0 +1,133 @@
+{
+  "characters": [
+    {
+      "name": "Príncipe",
+      "appearance": "Jovem herdeiro real, expressão melancólica, traje de corte português"
+    },
+    {
+      "name": "Rei",
+      "appearance": "Monarca maduro, postura serena, trajes reais, ar de compreensão"
+    },
+    {
+      "name": "Jardineiro",
+      "appearance": "Aparece como figura de apoio, roupa de trabalho de jardim, presença discreta"
+    }
+  ],
+  "environment": "Palácio real português, jardins do palácio, sala de audiência, gabinete com projectos, transição para um grande jardim zoológico.",
+  "palette": [
+    "azuis profundos",
+    "dourados quentes",
+    "verdes de jardim",
+    "cremes e ocres",
+    "vermelhos discretos"
+  ],
+  "recurringObjects": [
+    "coroa",
+    "rolos de projectos",
+    "mesa de desenho",
+    "árvores e canteiros",
+    "estruturas de construção"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "A ele não valia a pena perguntarem-lhe o que queria ser quando fosse grande. A resposta, quisesse ele ou não quisesse, só podia ser uma: - Rei. Tinha de ser. Pois se ele era príncipe, filho único de um senhor rei, que outra coisa, profissão ou destino podia caber nos seus projectos de futuro?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Não tem Escolha».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A ele não valia a pena perguntarem-lhe o que queria ser quando fosse grande. A resposta, quisesse ele ou não quisesse, só podia ser uma: - Rei. Tinha de ser. Pois se ele era príncipe, filho único de um senhor rei, que outra coisa, profissão ou destino podia caber nos seus projectos de futuro? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "Uma vez, ouvira o jardineiro dos jardins reais queixar-se: - O meu filho, que eu gostava tanto que fosse jardineiro como eu, diz que não tem vocação para a jardinagem. Se ele dissesse o mesmo (isto é, o equivalente!), o que é que aconteceria?",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Uma vez, ouvira o jardineiro dos jardins reais queixar-se: - O meu filho, que eu gostava tanto que fosse jardineiro como eu, diz que não tem vocação para a jardinagem. Se ele dissesse o mesmo (isto é, o equivalente!), o que é que aconteceria? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "O rei, que era um homem compreensivo, respondeu-lhe: - Meu filho, eu, quando tinha a tua idade, queria ser arquitecto, mas o teu avô deixou-me esta obrigação, que havia eu de fazer? Por sinal que era um rei muito dado a construções.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O rei, que era um homem compreensivo, respondeu-lhe: - Meu filho, eu, quando tinha a tua idade, queria ser arquitecto, mas o teu avô deixou-me esta obrigação, que havia eu de fazer? Por sinal que era um rei muito dado a construções. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "- Gostava de ser veterinário - respondeu o príncipe. - Não vai ser fácil. Um rei veterinário não é muito comum. Há casos de reis-soldados, de reis-marinheiros, de reis-músicos, mas de reis-veterinários não tenho ideia. No entanto, vou pensar no assunto. Era um bom pai e um bom rei.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Gostava de ser veterinário - respondeu o príncipe. - Não vai ser fácil. Um rei veterinário não é muito comum. Há casos de reis-soldados, de reis-marinheiros, de reis-músicos, mas de reis-veterinários não tenho ideia. No entanto, vou pensar no assunto. Era um bom pai e um bom rei. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p0",
+        "s6p1",
+        "s6p2"
+      ],
+      "evidence": "- Mas o pai podia mandar construir agora - disse o príncipe. - Quero que fique à tua responsabilidade. Quando eu morrer, deixo-te o reino e estes projectos, para que te ocupes deles. Assim sucedeu. O príncipe tornou-se rei. Não tinha outra alternativa.",
+      "after": {
+        "segment": 6,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Mas o pai podia mandar construir agora - disse o príncipe. - Quero que fique à tua responsabilidade. Quando eu morrer, deixo-te o reino e estes projectos, para que te ocupes deles. Assim sucedeu. O príncipe tornou-se rei. Não tinha outra alternativa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s7p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p2",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "Assim sucedeu. O príncipe tornou-se rei. Não tinha outra alternativa. Uma vez coroado, dedicou-se com entusiasmo aos trabalhos de governação. Mas com mais entusiasmo se dedicou a levantar o jardim zoológico, que, uma vez pronto, maravilhou o mundo. Ao jardim deu o nome do senhor rei seu pai, que tinha querido ser arquitecto.",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Assim sucedeu. O príncipe tornou-se rei. Não tinha outra alternativa. Uma vez coroado, dedicou-se com entusiasmo aos trabalhos de governação. Mas com mais entusiasmo se dedicou a levantar o jardim zoológico, que, uma vez pronto, maravilhou o mundo. Ao jardim deu o nome do senhor rei seu pai, que tinha querido ser arquitecto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,119 @@
+{
+  "characters": [
+    {
+      "name": "senhor Tadeu",
+      "appearance": "homem idoso, rural, chapéu simples, roupa de trabalho, expressão paciente e teimosa"
+    },
+    {
+      "name": "pardais",
+      "appearance": "pequenos pássaros castanhos, em bando, inquietos e travessos"
+    },
+    {
+      "name": "espantalho",
+      "appearance": "espantalho improvisado com vassoura na mão, preso alto na cerejeira"
+    }
+  ],
+  "environment": "horta e cerejeira no quintal, com passagem breve pela loja de artigos de Natal; ambiente rural português, leve e doméstico",
+  "palette": [
+    "creme de papel",
+    "vermelho cereja",
+    "verde suave",
+    "castanho terra",
+    "dourado natalício",
+    "azul pálido"
+  ],
+  "recurringObjects": [
+    "cerejeira",
+    "cerejas",
+    "fitas nos ramos",
+    "espantalho de vassoura",
+    "sininhos",
+    "bolas de Natal",
+    "embrulho grande"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "O senhor Tadeu tinha, lá na horta, uma cerejeira de que gostava muito. Quando chegava o tempo das cerejas, era uma fartura, uma doçura que não havia igual. Pois é, mas os pardais também diziam o mesmo. Tinham uma predilecção por aquela cerejeira nem que as cerejas fossem de mel. Eram quase. O senhor Tadeu enxotava-os , pendurava fitas nos ramos para assustá-los e chegou a armar um espantalho de vassoura na mão, que prendeu no alto da cerejeira. Fazia vista, mas não metia medo.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Cerejeira do Natal».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O senhor Tadeu tinha, lá na horta, uma cerejeira de que gostava muito. Quando chegava o tempo das cerejas, era uma fartura, uma doçura que não havia igual. Pois é, mas os pardais também diziam o mesmo. Tinham uma predilecção por aquela cerejeira nem que as cerejas fossem de mel. Eram quase. O senhor Tadeu enxotava-os , pendurava fitas nos ramos para assustá-los e chegou a armar um espantalho de vassoura na mão, que prendeu no alto da cerejeira. Fazia vista, mas não metia medo. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Pois é, mas os pardais também diziam o mesmo. Tinham uma predilecção por aquela cerejeira nem que as cerejas fossem de mel. Eram quase. O senhor Tadeu enxotava-os , pendurava fitas nos ramos para assustá-los e chegou a armar um espantalho de vassoura na mão, que prendeu no alto da cerejeira. Fazia vista, mas não metia medo. Mal chegava o tempo das cerejas amadurarem, a pardalada vinha em excursão festiva para o meio da cerejeira.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Pois é, mas os pardais também diziam o mesmo. Tinham uma predilecção por aquela cerejeira nem que as cerejas fossem de mel. Eram quase. O senhor Tadeu enxotava-os , pendurava fitas nos ramos para assustá-los e chegou a armar um espantalho de vassoura na mão, que prendeu no alto da cerejeira. Fazia vista, mas não metia medo. Mal chegava o tempo das cerejas amadurarem, a pardalada vinha em excursão festiva para o meio da cerejeira. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "Há dias, encontrei-o, na loja de artigos de Natal, a carregar um enorme embrulho. - Ena! - exclamei eu. - O seu pinheiro vai ficar bem enfeitado. - Não é para o pinheiro - emendou o senhor Tadeu. - É para a cerejeira.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Há dias, encontrei-o, na loja de artigos de Natal, a carregar um enorme embrulho. - Ena! - exclamei eu. - O seu pinheiro vai ficar bem enfeitado. - Não é para o pinheiro - emendou o senhor Tadeu. - É para a cerejeira. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p3",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "- Não é para o pinheiro - emendou o senhor Tadeu. - É para a cerejeira. Então, explicou-me o seu plano. Quando, da Primavera para o Verão, os frutos da cerejeira começassem a engordar, ele ia enfeitar a árvore com sininhos e bolas de Natal. - Para os pardais julgarem que é um pinheiro - concluí eu, pouco convencido da eficácia do projecto. - Eles são mais espertos do que isso.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Não é para o pinheiro - emendou o senhor Tadeu. - É para a cerejeira. Então, explicou-me o seu plano. Quando, da Primavera para o Verão, os frutos da cerejeira começassem a engordar, ele ia enfeitar a árvore com sininhos e bolas de Natal. - Para os pardais julgarem que é um pinheiro - concluí eu, pouco convencido da eficácia do projecto. - Eles são mais espertos do que isso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p1",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "- Para os pardais julgarem que é um pinheiro - concluí eu, pouco convencido da eficácia do projecto. - Eles são mais espertos do que isso. Seriam, de facto, reconheceu o senhor Tadeu, mas também são uns passarinhos alarmados. Detestam ruídos imprevistos. Ouvindo os sininhos, agitados pelo vento, fogem. E as bolas de Natal, brilhando ao sol, também lhes hão-de meter respeito. O senhor Tadeu lá se foi, muito contente com o seu plano. Resulte ou não resulte, a cerejeira há-de gostar.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Para os pardais julgarem que é um pinheiro - concluí eu, pouco convencido da eficácia do projecto. - Eles são mais espertos do que isso. Seriam, de facto, reconheceu o senhor Tadeu, mas também são uns passarinhos alarmados. Detestam ruídos imprevistos. Ouvindo os sininhos, agitados pelo vento, fogem. E as bolas de Natal, brilhando ao sol, também lhes hão-de meter respeito. O senhor Tadeu lá se foi, muito contente com o seu plano. Resulte ou não resulte, a cerejeira há-de gostar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

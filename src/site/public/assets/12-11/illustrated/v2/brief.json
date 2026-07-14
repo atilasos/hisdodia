@@ -1,0 +1,111 @@
+{
+  "characters": [
+    {
+      "name": "menina princesa",
+      "appearance": "jovem princesa presa numa torre alta"
+    },
+    {
+      "name": "fada-bruxa",
+      "appearance": "velha fada de aspeto ambíguo e envergonhado"
+    }
+  ],
+  "environment": "uma torre alta de castelo, uma sala de prisão, paredes que atravessam-se por magia, clima de conto de fadas com tom contemporâneo",
+  "palette": [
+    "cinzentos de pedra",
+    "azuis frios",
+    "dourados apagados",
+    "verdes envelhecidos",
+    "vermelhos discretos"
+  ],
+  "recurringObjects": [
+    "torre do castelo",
+    "paredes de pedra",
+    "tesouro escondido",
+    "varinha ou gesto mágico"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma menina que estava presa, na torre mais alta de um castelo. Ela era um princesa, mas não lhe valia de nada, porque perdera os seus pais e o reino, numa guerra que o dono do castelo, já se vê, é que ganhara. Ainda era o tempo das fadas. Por isso a menina disse, para que as paredes ouvissem:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Gosto das Bruxas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma menina que estava presa, na torre mais alta de um castelo. Ela era um princesa, mas não lhe valia de nada, porque perdera os seus pais e o reino, numa guerra que o dono do castelo, já se vê, é que ganhara. Ainda era o tempo das fadas. Por isso a menina disse, para que as paredes ouvissem: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "Ainda era o tempo das fadas. Por isso a menina disse, para que as paredes ouvissem: – Se uma fada me salvasse, fosse boa, má ou assim-assim e eu repartia a meias com ela o tesouro do meu perdido reino, que só eu sei onde está enterrado. As paredes toda a gente diz que têm ouvidos. Estas ouviram, passaram palavra e daí a nada uma velha fada apareceu na sala.",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ainda era o tempo das fadas. Por isso a menina disse, para que as paredes ouvissem: – Se uma fada me salvasse, fosse boa, má ou assim-assim e eu repartia a meias com ela o tesouro do meu perdido reino, que só eu sei onde está enterrado. As paredes toda a gente diz que têm ouvidos. Estas ouviram, passaram palavra e daí a nada uma velha fada apareceu na sala. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p3",
+        "s1p4",
+        "s1p5"
+      ],
+      "evidence": "A princesa esgotou os nomes mais esquisitos que conhecia. E a fada sempre com a cabeça a dizer que não. Até que propôs o seguinte negócio: – Salvo-te, mesmo que não descubras o meu nome, mas fico com o tesouro só para mim. Todinho! A menina concordou. Não tinha outro remédio. Vai daí a fada pronunciou umas palavras mágicas e ela e a princesa atravessaram as paredes da prisão.",
+      "after": {
+        "segment": 1,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A princesa esgotou os nomes mais esquisitos que conhecia. E a fada sempre com a cabeça a dizer que não. Até que propôs o seguinte negócio: – Salvo-te, mesmo que não descubras o meu nome, mas fico com o tesouro só para mim. Todinho! A menina concordou. Não tinha outro remédio. Vai daí a fada pronunciou umas palavras mágicas e ela e a princesa atravessaram as paredes da prisão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p9",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p7",
+        "s1p8",
+        "s1p9"
+      ],
+      "evidence": "E o nome da fada-bruxa? Também a menina quis saber. – Chamo-me Joaninha – respondeu a fada-bruxa, baixando os olhos, envergonhada.",
+      "after": {
+        "segment": 1,
+        "paragraph": 9
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E o nome da fada-bruxa? Também a menina quis saber. – Chamo-me Joaninha – respondeu a fada-bruxa, baixando os olhos, envergonhada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s1p12",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p10",
+        "s1p11",
+        "s1p12"
+      ],
+      "evidence": "– Mas Joaninha é um nome bonito – estranhou a princesa. – Eu não acho – disse ela. – Gostava mais de ser Virgolina Zebedeia. Vá lá a gente entender o gosto das bruxas.",
+      "after": {
+        "segment": 1,
+        "paragraph": 12
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Mas Joaninha é um nome bonito – estranhou a princesa. – Eu não acho – disse ela. – Gostava mais de ser Virgolina Zebedeia. Vá lá a gente entender o gosto das bruxas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}
