@@ -738,4 +738,15 @@ describe('illustration jobs', () => {
     const result = await auditIllustrations({ ...options, month: '02' });
     assert.ok(result.problems.some((problem) => problem.includes('no stories matched requested scope')));
   });
+
+  it('accepts the explicit whole-archive audit scope', async () => {
+    const { stdout } = await execute(process.execPath, [
+      'src/illustration/jobs.mjs',
+      'audit',
+      '--all',
+      '--help'
+    ]);
+
+    assert.match(stdout, /audit \[--story MM-DD \| --month MM \| --all\]/u);
+  });
 });

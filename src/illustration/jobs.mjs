@@ -534,7 +534,7 @@ Commands:
   complete --story MM-DD --scene ID --source PATH
   fail --story MM-DD --scene ID --message TEXT
   defer --story MM-DD --scene ID [--message TEXT]
-  audit [--story MM-DD | --month MM]
+  audit [--story MM-DD | --month MM | --all]
 
 Options:
   --help  Show this help
@@ -553,6 +553,8 @@ function parseArguments(argv) {
       options.storyId = argv[index += 1];
     } else if (argument === '--month') {
       options.month = argv[index += 1];
+    } else if (argument === '--all') {
+      options.all = true;
     } else if (argument === '--scene') {
       options.sceneId = argv[index += 1];
     } else if (argument === '--source') {
@@ -565,7 +567,10 @@ function parseArguments(argv) {
   }
   if (options.storyId && !/^\d{2}-\d{2}$/u.test(options.storyId)) throw new Error('--story requires MM-DD');
   if (options.month && !/^(?:0[1-9]|1[0-2])$/u.test(options.month)) throw new Error('--month requires 01 through 12');
-  if (options.storyId && options.month) throw new Error('Choose at most one scope: --story or --month');
+  if ([options.storyId, options.month, options.all].filter(Boolean).length > 1) {
+    throw new Error('Choose at most one scope: --story, --month, or --all');
+  }
+  if (options.all && command !== 'audit') throw new Error('--all is only supported by audit');
   return { command, options };
 }
 
