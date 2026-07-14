@@ -1,0 +1,123 @@
+{
+  "characters": [
+    {
+      "name": "Vatel",
+      "appearance": "Young stable hand and apprentice farrier, attentive and ambitious, working among royal horses and forge heat"
+    },
+    {
+      "name": "Mestre Lavalard",
+      "appearance": "Experienced farrier master, authoritative, hands-on, inspecting the shoeing work"
+    },
+    {
+      "name": "Ordenança",
+      "appearance": "Royal messenger or orderlies in military context, urgent and practical"
+    },
+    {
+      "name": "Rei",
+      "appearance": "Monarch observing the battle from a hill with generals"
+    }
+  ],
+  "environment": "Royal stables and forge, then a wartime road and battlefield under pressure, moving from labor and heat to urgency and defeat",
+  "palette": [
+    "earthy browns",
+    "iron gray",
+    "ember orange",
+    "smoke black",
+    "dusty gold",
+    "muted red"
+  ],
+  "recurringObjects": [
+    "horses",
+    "horseshoes",
+    "nails",
+    "anvil",
+    "forge tools",
+    "stable straw",
+    "smoke and steam"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Há um ditado que diz assim: \"Por um cravo se perde um cavalo, por um cavalo um cavaleiro, por um cavaleiro uma batalha.\" A história está praticamente contada, mas vale a pena entrar em pormenores.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Ferrador aprendiz».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Há um ditado que diz assim: \"Por um cravo se perde um cavalo, por um cavalo um cavaleiro, por um cavaleiro uma batalha.\" A história está praticamente contada, mas vale a pena entrar em pormenores. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "A história está praticamente contada, mas vale a pena entrar em pormenores. Tudo começou quando um rapaz, chamado Vatel, entrou ao serviço das cavalariças reais. A ambição dele era chegar a ferrador-mor, mas, como em tudo, tinha de começar pelo princípio. Passeava os cavalos, antes de serem selados, dava-lhes de comer, lavava-os e limpava-os, revolvia-lhes e mudava-lhes a palha das camas, enfim, tudo trabalhos ligeiros.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A história está praticamente contada, mas vale a pena entrar em pormenores. Tudo começou quando um rapaz, chamado Vatel, entrou ao serviço das cavalariças reais. A ambição dele era chegar a ferrador-mor, mas, como em tudo, tinha de começar pelo princípio. Passeava os cavalos, antes de serem selados, dava-lhes de comer, lavava-os e limpava-os, revolvia-lhes e mudava-lhes a palha das camas, enfim, tudo trabalhos ligeiros. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p1",
+        "s2p0",
+        "s3p0"
+      ],
+      "evidence": "Passeava os cavalos, antes de serem selados, dava-lhes de comer, lavava-os e limpava-os, revolvia-lhes e mudava-lhes a palha das camas, enfim, tudo trabalhos ligeiros. De caminho, ia aprendendo a ferrar. Estava sempre de olho nos ferradores, que pegavam com tenazes as ferraduras saídas da forja e as martelavam na bigorna , para, depois de arrefecidas numa selha , muito habilmente aplicá-las nos cascos dos cavalos. As nuvens de vapor que se soltavam da selha por cada ferradura nela mergulhada toldavam os olhos de Vatel. A atmosfera afogueada dos metais fundentes, de mistura com o cheiro acre dos couros e dos cascos aquecidos, mais o suor nervoso dos cavalos, ardiam na respiração do jovem Vatel, picavam-lhe as narinas, faziam-no lacrimejar. Mas ele gostava.",
+      "after": {
+        "segment": 3,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Passeava os cavalos, antes de serem selados, dava-lhes de comer, lavava-os e limpava-os, revolvia-lhes e mudava-lhes a palha das camas, enfim, tudo trabalhos ligeiros. De caminho, ia aprendendo a ferrar. Estava sempre de olho nos ferradores, que pegavam com tenazes as ferraduras saídas da forja e as martelavam na bigorna , para, depois de arrefecidas numa selha , muito habilmente aplicá-las nos cascos dos cavalos. As nuvens de vapor que se soltavam da selha por cada ferradura nela mergulhada toldavam os olhos de Vatel. A atmosfera afogueada dos metais fundentes, de mistura com o cheiro acre dos couros e dos cascos aquecidos, mais o suor nervoso dos cavalos, ardiam na respiração do jovem Vatel, picavam-lhe as narinas, faziam-no lacrimejar. Mas ele gostava. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s9p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s8p1",
+        "s9p0",
+        "s9p1"
+      ],
+      "evidence": "- Falta só martelar este cravo - disse o mestre ao aprendiz. - Encraveira bem, para que fique à face. Tens força que chegue? Vatel disse que sim. Que outra coisa podia ele dizer? Aqui para nós, temos de reconhecer que a vontade não se igualava à força. O cravo ficou ligeiramente solto, um nada de nada, mas o suficiente para ditar a sorte de uma batalha.",
+      "after": {
+        "segment": 9,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Falta só martelar este cravo - disse o mestre ao aprendiz. - Encraveira bem, para que fique à face. Tens força que chegue? Vatel disse que sim. Que outra coisa podia ele dizer? Aqui para nós, temos de reconhecer que a vontade não se igualava à força. O cravo ficou ligeiramente solto, um nada de nada, mas o suficiente para ditar a sorte de uma batalha. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s11p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s9p1",
+        "s10p0",
+        "s11p0"
+      ],
+      "evidence": "Aqui para nós, temos de reconhecer que a vontade não se igualava à força. O cravo ficou ligeiramente solto, um nada de nada, mas o suficiente para ditar a sorte de uma batalha. Quando, tempos depois, a meio da refrega , o rei do alto de uma colina, observando com os seus generais o andamento da batalha, mandou que o cabo-estafeta, a ordenança , fosse por reforços e o cabo partiu à desfilada , já o cravo novo da ferradura estava meio desenclavinhado, por culpa da marcha que suportara. Tinia a ferradura, a soltar-se da pata do cavalo. O cavalo da ordenança tropeçou, o cavaleiro não se segurou, caiu pela frente da montada e foi bater com a cabeça numa maldita pedra, que devia ter pacto com o inimigo. Desmaiou o cabo e os reforços não foram avisados e a batalha perdeu-se.",
+      "after": {
+        "segment": 11,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Aqui para nós, temos de reconhecer que a vontade não se igualava à força. O cravo ficou ligeiramente solto, um nada de nada, mas o suficiente para ditar a sorte de uma batalha. Quando, tempos depois, a meio da refrega , o rei do alto de uma colina, observando com os seus generais o andamento da batalha, mandou que o cabo-estafeta, a ordenança , fosse por reforços e o cabo partiu à desfilada , já o cravo novo da ferradura estava meio desenclavinhado, por culpa da marcha que suportara. Tinia a ferradura, a soltar-se da pata do cavalo. O cavalo da ordenança tropeçou, o cavaleiro não se segurou, caiu pela frente da montada e foi bater com a cabeça numa maldita pedra, que devia ter pacto com o inimigo. Desmaiou o cabo e os reforços não foram avisados e a batalha perdeu-se. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

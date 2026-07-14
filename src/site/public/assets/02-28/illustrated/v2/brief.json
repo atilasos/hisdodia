@@ -1,0 +1,86 @@
+{
+  "characters": [],
+  "environment": "Montanha e ninho de águia, com chuva, ramos de árvore e céu aberto.",
+  "palette": [
+    "branco",
+    "cinzento",
+    "castanho",
+    "verde escuro",
+    "azul frio"
+  ],
+  "recurringObjects": [
+    "ninho",
+    "árvore",
+    "serpente",
+    "asas de águia",
+    "nuvens"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "A águia de penugem branca ainda não tinha saído do ninho. Via o pai e a mãe, num voo alto, rente às nuvens, e pensava: \"Nunca vou ser capaz\". O pai e a mãe traziam-lhe comida no bico. A aguiazinha devorava os petiscos, gulosa. - Não engulas tudo de uma vez, que ainda te engasgas - recomendava-lhe a mãe.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Não sou capaz».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A águia de penugem branca ainda não tinha saído do ninho. Via o pai e a mãe, num voo alto, rente às nuvens, e pensava: \"Nunca vou ser capaz\". O pai e a mãe traziam-lhe comida no bico. A aguiazinha devorava os petiscos, gulosa. - Não engulas tudo de uma vez, que ainda te engasgas - recomendava-lhe a mãe. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p2",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "- Amanhã começas a aprender a voar - disse-lhe o pai. Mas, nesse dia, choveu e a lição foi adiada. Os pais é que não desistiram de caçar. Deixaram-na só, no quente do ninho. Estava ela aconchegada e contente pelo adiamento da lição, quando sentiu um roçar de perigo, nos ramos perto. Era uma serpente, que se desenroscava por um tronco, em direcção a ela.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Amanhã começas a aprender a voar - disse-lhe o pai. Mas, nesse dia, choveu e a lição foi adiada. Os pais é que não desistiram de caçar. Deixaram-na só, no quente do ninho. Estava ela aconchegada e contente pelo adiamento da lição, quando sentiu um roçar de perigo, nos ramos perto. Era uma serpente, que se desenroscava por um tronco, em direcção a ela. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "Estava ela aconchegada e contente pelo adiamento da lição, quando sentiu um roçar de perigo, nos ramos perto. Era uma serpente, que se desenroscava por um tronco, em direcção a ela. A aguiazinha piou, aterrorizada. Eriçaram-se-lhe as penas. Bateu as asas, para afugentar a intrusa de língua silvante. A serpente continuava a deslizar para ela, segura da presa. Ia armar o último salto. Ia destroçá-la. Ia comê-la. Bateu a águia as asas com mais força e suspendeu-se no ar. Num impulso de pânico, largou o ninho. Ia cair. Não caiu.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Estava ela aconchegada e contente pelo adiamento da lição, quando sentiu um roçar de perigo, nos ramos perto. Era uma serpente, que se desenroscava por um tronco, em direcção a ela. A aguiazinha piou, aterrorizada. Eriçaram-se-lhe as penas. Bateu as asas, para afugentar a intrusa de língua silvante. A serpente continuava a deslizar para ela, segura da presa. Ia armar o último salto. Ia destroçá-la. Ia comê-la. Bateu a águia as asas com mais força e suspendeu-se no ar. Num impulso de pânico, largou o ninho. Ia cair. Não caiu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Bateu a águia as asas com mais força e suspendeu-se no ar. Num impulso de pânico, largou o ninho. Ia cair. Não caiu. Soltou-se no ar, a curta distância da árvore que abrigara o ninho. Sentiu uma tontura. Agarrou as patas a um ramo, mas o ramo cedeu. Agitou as asas com mais força e elevou-se nos ares. Tudo aquilo lhe parecia impossível. Ela voava. Quando os pais regressaram, a aguiazinha, de asas distendidas, como se quisesse abarcar o céu num grande abraço, voou, feliz, ao seu encontro.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Bateu a águia as asas com mais força e suspendeu-se no ar. Num impulso de pânico, largou o ninho. Ia cair. Não caiu. Soltou-se no ar, a curta distância da árvore que abrigara o ninho. Sentiu uma tontura. Agarrou as patas a um ramo, mas o ramo cedeu. Agitou as asas com mais força e elevou-se nos ares. Tudo aquilo lhe parecia impossível. Ela voava. Quando os pais regressaram, a aguiazinha, de asas distendidas, como se quisesse abarcar o céu num grande abraço, voou, feliz, ao seu encontro. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

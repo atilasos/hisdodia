@@ -1,0 +1,133 @@
+{
+  "characters": [
+    {
+      "name": "Larico",
+      "appearance": "young mouse child"
+    },
+    {
+      "name": "Mãe do Larico",
+      "appearance": "adult mouse mother"
+    },
+    {
+      "name": "Sábios",
+      "appearance": "group of elder mice or human-like researchers"
+    }
+  ],
+  "environment": "Nocturnal lunar and terrestrial settings moving from a mouse home to an observatory, space center, rocket launch, and the Moon.",
+  "palette": [
+    "moonlit silver",
+    "deep navy",
+    "soft gray",
+    "warm cream",
+    "muted red"
+  ],
+  "recurringObjects": [
+    "Lua",
+    "queijo",
+    "foguete",
+    "rede",
+    "telescópio"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O ratinho Larico apontou para a Lua e disse: - Mãe, mãezinha, eu quero comer aquele queijo. - Meu filho, aquilo não é um queijo, é a Lua.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O rato e a lua».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O ratinho Larico apontou para a Lua e disse: - Mãe, mãezinha, eu quero comer aquele queijo. - Meu filho, aquilo não é um queijo, é a Lua. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "- Então eu quero comer um queijo. - Ratinho impossível! Só pensa em comer. Vou fazer companhia aos seus irmãos, que são mais ajuizados. O Larico ficou sozinho a olhar para a Lua, com a água a crescer-lhe na boca.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Então eu quero comer um queijo. - Ratinho impossível! Só pensa em comer. Vou fazer companhia aos seus irmãos, que são mais ajuizados. O Larico ficou sozinho a olhar para a Lua, com a água a crescer-lhe na boca. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p2",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "O Larico ficou sozinho a olhar para a Lua, com a água a crescer-lhe na boca. De repente, zás! Sentiu-se preso numa rede, que lhe tinham atirado. Ouviu vozes. \"Muito cuidado! Não o magoem. Mandem-no para o centro de observações.\" No Centro de Observações e Pesquisas Espaciais (C.O.P.E.), deram-lhe um banho, enfiaram-lhe um capacete na cabeça e meteram-no num foguete que ia partir, imaginem para onde? Que ia partir para a Lua.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Larico ficou sozinho a olhar para a Lua, com a água a crescer-lhe na boca. De repente, zás! Sentiu-se preso numa rede, que lhe tinham atirado. Ouviu vozes. \"Muito cuidado! Não o magoem. Mandem-no para o centro de observações.\" No Centro de Observações e Pesquisas Espaciais (C.O.P.E.), deram-lhe um banho, enfiaram-lhe um capacete na cabeça e meteram-no num foguete que ia partir, imaginem para onde? Que ia partir para a Lua. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p1",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "No Centro de Observações e Pesquisas Espaciais (C.O.P.E.), deram-lhe um banho, enfiaram-lhe um capacete na cabeça e meteram-no num foguete que ia partir, imaginem para onde? Que ia partir para a Lua. O foguete partiu, Fuuuimmm! Chegou à Lua. No dia seguinte, os jornais traziam em grandes letras - UM RATO ASTRONAUTA; LARICO, O HEROI; RATOS CONQUISTAM A LUA, etc, etc. Mas um sábio, muito sábio, que passava as noites a espiar a Lua, através de um grande óculo, um telescópio, descobriu este facto alarmante: a Lua tinha um bocadinho a menos.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No Centro de Observações e Pesquisas Espaciais (C.O.P.E.), deram-lhe um banho, enfiaram-lhe um capacete na cabeça e meteram-no num foguete que ia partir, imaginem para onde? Que ia partir para a Lua. O foguete partiu, Fuuuimmm! Chegou à Lua. No dia seguinte, os jornais traziam em grandes letras - UM RATO ASTRONAUTA; LARICO, O HEROI; RATOS CONQUISTAM A LUA, etc, etc. Mas um sábio, muito sábio, que passava as noites a espiar a Lua, através de um grande óculo, um telescópio, descobriu este facto alarmante: a Lua tinha um bocadinho a menos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p0",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "Os sábios punham as mãos na cabeça, sem achar solução. Mandar um homem para a Lua não era possível, porque os astronautas estavam todos de férias, sabe-se lá onde. Mandar uma ratoeira? E quem colocava a ratoeira em condições de apanhar o rato? Só se mandassem um gato. Era uma ideia. Mas não, não podia ser. Os gatos não tinham preparação para tais viagens. Enjoavam. Borravam-se de medo... Debatiam-se os sábios nestas dúvidas, quase dispostos a riscar a Lua da lista dos planetas, quando a mãe do Larico, toda lampeira, decidiu, à sua conta, tomar providências.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os sábios punham as mãos na cabeça, sem achar solução. Mandar um homem para a Lua não era possível, porque os astronautas estavam todos de férias, sabe-se lá onde. Mandar uma ratoeira? E quem colocava a ratoeira em condições de apanhar o rato? Só se mandassem um gato. Era uma ideia. Mas não, não podia ser. Os gatos não tinham preparação para tais viagens. Enjoavam. Borravam-se de medo... Debatiam-se os sábios nestas dúvidas, quase dispostos a riscar a Lua da lista dos planetas, quando a mãe do Larico, toda lampeira, decidiu, à sua conta, tomar providências. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s7p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s7p1",
+        "s7p2",
+        "s7p3"
+      ],
+      "evidence": "- Larico atrevido, salte imediatamente daí para baixo ou apanha uma grande sova! O ratinho obedeceu. Foi assim que nós nos salvámos de ficar sem Lua.",
+      "after": {
+        "segment": 7,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Larico atrevido, salte imediatamente daí para baixo ou apanha uma grande sova! O ratinho obedeceu. Foi assim que nós nos salvámos de ficar sem Lua. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

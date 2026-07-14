@@ -1,0 +1,103 @@
+{
+  "characters": [
+    {
+      "name": "Bonecas",
+      "appearance": "Bonecas de pasta ou plástico, enfileiradas, com roupa barata e um salpico de tinta num nariz de uma delas"
+    },
+    {
+      "name": "Menina",
+      "appearance": "Garotinha de olhos tristes, a pedir uma boneca à mãe"
+    },
+    {
+      "name": "Mãe",
+      "appearance": "Mulher pobre, com a filha pela mão e moedas contadas"
+    },
+    {
+      "name": "Vendedor",
+      "appearance": "Feirante a vender bonecas no escaparate"
+    }
+  ],
+  "environment": "Oficina de brinquedos e feira popular com escaparate de bonecas, caixa de transporte e ambiente de compra humilde",
+  "palette": [
+    "cores gastas",
+    "tecidos baratos",
+    "tons de feira",
+    "papel colorido",
+    "tintas suaves"
+  ],
+  "recurringObjects": [
+    "boneca salpicada",
+    "caixa de transporte",
+    "moedas",
+    "papel de embrulho",
+    "escaparate"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um salpico. De tinta. Caíra por acaso num nariz. O nariz estava, já se vê, numa cara. A cara pertencia, como se imagina, a um corpo. Nariz, cara, corpo, mais braços e pernas, tudo nos seus respectivos lugares, compunham um boneco de pasta ou de plástico, igual a dezenas de outros, numa oficina de brinquedos. Vestidos com o mesmo tecido barato, todos enfileirados e prontos, os bonecos, aliás, as bonecas, estavam ali para o que desse e viesse.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Salpico».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um salpico. De tinta. Caíra por acaso num nariz. O nariz estava, já se vê, numa cara. A cara pertencia, como se imagina, a um corpo. Nariz, cara, corpo, mais braços e pernas, tudo nos seus respectivos lugares, compunham um boneco de pasta ou de plástico, igual a dezenas de outros, numa oficina de brinquedos. Vestidos com o mesmo tecido barato, todos enfileirados e prontos, os bonecos, aliás, as bonecas, estavam ali para o que desse e viesse. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um salpico. De tinta. Caíra por acaso num nariz. O nariz estava, já se vê, numa cara. A cara pertencia, como se imagina, a um corpo. Nariz, cara, corpo, mais braços e pernas, tudo nos seus respectivos lugares, compunham um boneco de pasta ou de plástico, igual a dezenas de outros, numa oficina de brinquedos. Vestidos com o mesmo tecido barato, todos enfileirados e prontos, os bonecos, aliás, as bonecas, estavam ali para o que desse e viesse.",
+      "after": {
+        "segment": 0,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um salpico. De tinta. Caíra por acaso num nariz. O nariz estava, já se vê, numa cara. A cara pertencia, como se imagina, a um corpo. Nariz, cara, corpo, mais braços e pernas, tudo nos seus respectivos lugares, compunham um boneco de pasta ou de plástico, igual a dezenas de outros, numa oficina de brinquedos. Vestidos com o mesmo tecido barato, todos enfileirados e prontos, os bonecos, aliás, as bonecas, estavam ali para o que desse e viesse. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p16",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p14",
+        "s0p15",
+        "s0p16"
+      ],
+      "evidence": "– E esta, que tem defeito, por que preço a faz? – perguntou. O vendedor nem tinha reparado. Aborreceu-se com a descoberta e para despachar a mercadoria disse: – Tanto – ... muito menos que as outras.",
+      "after": {
+        "segment": 0,
+        "paragraph": 16
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – E esta, que tem defeito, por que preço a faz? – perguntou. O vendedor nem tinha reparado. Aborreceu-se com a descoberta e para despachar a mercadoria disse: – Tanto – ... muito menos que as outras. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p18",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p16",
+        "s0p17",
+        "s0p18"
+      ],
+      "evidence": "– Tanto – ... muito menos que as outras. A mulher contou as moedas e pagou. Aninhou-se a boneca nos braços da miúda. Por causa de um salpico do acaso, vejam só o que pode acontecer! E não é que o salpico da boneca, ao colo da menina, se desvaneceu, como por encanto?!",
+      "after": {
+        "segment": 0,
+        "paragraph": 18
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Tanto – ... muito menos que as outras. A mulher contou as moedas e pagou. Aninhou-se a boneca nos braços da miúda. Por causa de um salpico do acaso, vejam só o que pode acontecer! E não é que o salpico da boneca, ao colo da menina, se desvaneceu, como por encanto?! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

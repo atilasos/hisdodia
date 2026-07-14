@@ -1,0 +1,141 @@
+{
+  "characters": [
+    {
+      "name": "Danilo Pai",
+      "appearance": "Esquilo viajado, adulto, pequeno e ágil."
+    },
+    {
+      "name": "Danilo Filho",
+      "appearance": "Esquilo viajado, jovem, pequeno e ágil."
+    },
+    {
+      "name": "rã",
+      "appearance": "Rã junto ao rio, observadora e saltitante."
+    },
+    {
+      "name": "sapo",
+      "appearance": "Sapo à margem, com ar distraído."
+    },
+    {
+      "name": "grilo",
+      "appearance": "Grilo poeta na margem do rio."
+    }
+  ],
+  "environment": "Margens de um rio com uma ponte velha partida, uma ponte nova mais adiante, vegetação ribeirinha e uma jangada improvisada a ser arrastada pela corrente.",
+  "palette": [
+    "Verdes naturais",
+    "Castanhos quentes",
+    "Azuis de rio",
+    "Tons de pedra e madeira",
+    "Acentos suaves de luz diurna"
+  ],
+  "recurringObjects": [
+    "ponte partida",
+    "ponte nova",
+    "jangada de canas",
+    "corda",
+    "margem do rio"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Os dois esquilos Danilos - Danilo Pai e Danilo Filho - são muito viajados. Numa das suas viagens, tiveram de atravessar um rio. Quando chegaram à ponte e viram a ponte partida, não desanimaram. - Por aí adiante, mais coisa menos coisa, deve haver outra ponte nova - lembrou-se um dos esquilos Danilos.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Os esquilos Danilos e a ponte nova».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os dois esquilos Danilos - Danilo Pai e Danilo Filho - são muito viajados. Numa das suas viagens, tiveram de atravessar um rio. Quando chegaram à ponte e viram a ponte partida, não desanimaram. - Por aí adiante, mais coisa menos coisa, deve haver outra ponte nova - lembrou-se um dos esquilos Danilos. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "Quando passaram por uma rã, perguntaram-lhe: - Sabe onde fica a ponte nova? - Ponte? É coisa de que não preciso - e a rã saltou para a água.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando passaram por uma rã, perguntaram-lhe: - Sabe onde fica a ponte nova? - Ponte? É coisa de que não preciso - e a rã saltou para a água. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "- Sabe onde fica a ponte nova? - Por aí... Por aí... - respondeu o sapo, quase sem fechar a boca. O sapo estava de língua estendida, à espera de que algum mosquito nela poisasse, e não lhe convinha muita conversa.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Sabe onde fica a ponte nova? - Por aí... Por aí... - respondeu o sapo, quase sem fechar a boca. O sapo estava de língua estendida, à espera de que algum mosquito nela poisasse, e não lhe convinha muita conversa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p2",
+        "s4p3",
+        "s4p4"
+      ],
+      "evidence": "quem tais versos não aprova cai no chão e catrapus! Do grilo poeta também não levavam nada.",
+      "after": {
+        "segment": 4,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: quem tais versos não aprova cai no chão e catrapus! Do grilo poeta também não levavam nada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p4",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "Do grilo poeta também não levavam nada. E como já estavam cansados de andar pela margem do rio, os dois esquilos Danilos - Danilo Pai e Danilo Filho - decidiram fazer uma jangada. Juntaram umas canas, amarraram-nas com raízes e saltaram-lhe para cima. A princípio não houve novidade, mas como a corrente do rio era cada vez mais forte, os dois esquilos perderam o domínio da jangada.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Do grilo poeta também não levavam nada. E como já estavam cansados de andar pela margem do rio, os dois esquilos Danilos - Danilo Pai e Danilo Filho - decidiram fazer uma jangada. Juntaram umas canas, amarraram-nas com raízes e saltaram-lhe para cima. A princípio não houve novidade, mas como a corrente do rio era cada vez mais forte, os dois esquilos perderam o domínio da jangada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s9p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s9p0",
+        "s9p1",
+        "s9p2"
+      ],
+      "evidence": "- Conseguimos - exclamou o Danilo Filho para o Danilo Pai, enquanto se sacudia da água. - Mais coisa menos coisa, conseguimos sempre - aprovou o Danilo Pai, alisando o pêlo. E os dois esquilos Danilos prosseguiram viagem.",
+      "after": {
+        "segment": 9,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Conseguimos - exclamou o Danilo Filho para o Danilo Pai, enquanto se sacudia da água. - Mais coisa menos coisa, conseguimos sempre - aprovou o Danilo Pai, alisando o pêlo. E os dois esquilos Danilos prosseguiram viagem. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

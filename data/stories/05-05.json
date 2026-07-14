@@ -102,5 +102,83 @@
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
     "A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
-  ]
+  ],
+  "illustratedEdition": {
+    "status": "complete",
+    "credit": "Edição ilustrada contemporânea gerada com IA",
+    "artDirectionVersion": "2",
+    "planningModel": "gpt-5.4-mini",
+    "visualBrief": "/assets/05-05/illustrated/v2/brief.json",
+    "scenes": [
+      {
+        "id": "opening",
+        "status": "complete",
+        "attempts": 1,
+        "after": null,
+        "layout": "opening",
+        "image": "/assets/05-05/illustrated/v2/opening.webp",
+        "alt": "Ilustração de abertura da história «A vassoura nova»."
+      },
+      {
+        "id": "scene2",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 1,
+          "paragraph": 3
+        },
+        "layout": "double-page",
+        "image": "/assets/05-05/illustrated/v2/scene2.webp",
+        "alt": ""
+      },
+      {
+        "id": "scene3",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 2,
+          "paragraph": 2
+        },
+        "layout": "double-page",
+        "image": "/assets/05-05/illustrated/v2/scene3.webp",
+        "alt": ""
+      },
+      {
+        "id": "scene4",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 3,
+          "paragraph": 1
+        },
+        "layout": "vignette",
+        "image": "/assets/05-05/illustrated/v2/scene4.webp",
+        "alt": ""
+      },
+      {
+        "id": "scene5",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 5,
+          "paragraph": 1
+        },
+        "layout": "double-page",
+        "image": "/assets/05-05/illustrated/v2/scene5.webp",
+        "alt": ""
+      },
+      {
+        "id": "scene6",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 6,
+          "paragraph": 4
+        },
+        "layout": "marginal",
+        "image": "/assets/05-05/illustrated/v2/scene6.webp",
+        "alt": ""
+      }
+    ]
+  }
 }

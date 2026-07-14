@@ -1,0 +1,103 @@
+{
+  "characters": [],
+  "environment": "Pomar de árvores de fruto num reino rural, primeiro produtivo e depois abandonado, por fim recuperado.",
+  "palette": [
+    "verdes naturais",
+    "amarelos de limão",
+    "tons terrosos",
+    "castanhos secos",
+    "azuis suaves"
+  ],
+  "recurringObjects": [
+    "árvores de fruto",
+    "limões",
+    "frutos caídos",
+    "ervas daninhas",
+    "pássaros e insectos"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "No reino das árvores, as pessoas mandam muito. Dizem até algumas árvores que as pessoas mandam demais. Pois se, para que as árvores cresçam, há que escorá-las, para que elas se desenvolvam, há que podá-las, para que elas ganhem força, há que regá-las, o que é que resta às árvores, o que é que lhes cabe fazerem sozinhas? – Fazemos os frutos – dizem as árvores mais experientes. – As pessoas ainda não conseguem fazer peras, maçãs, laranjas, romãs, cerejas, ginjas, ameixas, sem nós. – Mas, depois, as pessoas tiram-nos o que fizemos – dizia um limoeiro novo.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «As Árvores Querem Mandar».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No reino das árvores, as pessoas mandam muito. Dizem até algumas árvores que as pessoas mandam demais. Pois se, para que as árvores cresçam, há que escorá-las, para que elas se desenvolvam, há que podá-las, para que elas ganhem força, há que regá-las, o que é que resta às árvores, o que é que lhes cabe fazerem sozinhas? – Fazemos os frutos – dizem as árvores mais experientes. – As pessoas ainda não conseguem fazer peras, maçãs, laranjas, romãs, cerejas, ginjas, ameixas, sem nós. – Mas, depois, as pessoas tiram-nos o que fizemos – dizia um limoeiro novo. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s0p4",
+        "s0p5"
+      ],
+      "evidence": "– E para que é que tu precisas dos limões, meu tolo? – replicava uma macieira com muitos anos de vida. – Para enfeitar – respondia o limoeiro. Aconteceu que, naquele ano, por altura da apanha, o reino das árvores não foi visitado por ninguém.",
+      "after": {
+        "segment": 0,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – E para que é que tu precisas dos limões, meu tolo? – replicava uma macieira com muitos anos de vida. – Para enfeitar – respondia o limoeiro. Aconteceu que, naquele ano, por altura da apanha, o reino das árvores não foi visitado por ninguém. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "Os frutos por colher pendiam dos ramos. Uns secaram. Outros caíram no chão, apodrecidos. Uma lástima. Ainda se aquele pomar ficasse perto da estrada que leva à escola, talvez houvesse quem se tentasse e fizesse a colheita por sua conta… Mas, como ficava num sítio isolado e pouco acessível, ninguém deu pelo pomar ao abandono. Vieram os pássaros. Vieram as lagartas. Vieram os insectos. Foi uma razia.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os frutos por colher pendiam dos ramos. Uns secaram. Outros caíram no chão, apodrecidos. Uma lástima. Ainda se aquele pomar ficasse perto da estrada que leva à escola, talvez houvesse quem se tentasse e fizesse a colheita por sua conta… Mas, como ficava num sítio isolado e pouco acessível, ninguém deu pelo pomar ao abandono. Vieram os pássaros. Vieram as lagartas. Vieram os insectos. Foi uma razia. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p2",
+        "s1p3",
+        "s1p4"
+      ],
+      "evidence": "Ainda se aquele pomar ficasse perto da estrada que leva à escola, talvez houvesse quem se tentasse e fizesse a colheita por sua conta… Mas, como ficava num sítio isolado e pouco acessível, ninguém deu pelo pomar ao abandono. Vieram os pássaros. Vieram as lagartas. Vieram os insectos. Foi uma razia. Depois, o terreno do pomar não teve quem o lavrasse. Cresceram as silvas e as ervas daninhas. Muitas árvores ganharam moléstia. Deram, quando deram, uns frutos murchos e raquíticos. Sem préstimo.",
+      "after": {
+        "segment": 1,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ainda se aquele pomar ficasse perto da estrada que leva à escola, talvez houvesse quem se tentasse e fizesse a colheita por sua conta… Mas, como ficava num sítio isolado e pouco acessível, ninguém deu pelo pomar ao abandono. Vieram os pássaros. Vieram as lagartas. Vieram os insectos. Foi uma razia. Depois, o terreno do pomar não teve quem o lavrasse. Cresceram as silvas e as ervas daninhas. Muitas árvores ganharam moléstia. Deram, quando deram, uns frutos murchos e raquíticos. Sem préstimo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s1p8",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p6",
+        "s1p7",
+        "s1p8"
+      ],
+      "evidence": "O pequeno limoeiro, que, entretanto, crescera, olhava em volta e só via árvores secas. – Uma ruína – diziam as pessoas. – Salvou-se o limoeiro, porque é árvore resistente, mas mesmo esse precisa de tratamento. Acompanhado e tratado arribou. É, agora, um belo e perfumado limoeiro, que não se importa nada, mesmo nada, de dar os seus limões às pessoas que lhos pedem.",
+      "after": {
+        "segment": 1,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O pequeno limoeiro, que, entretanto, crescera, olhava em volta e só via árvores secas. – Uma ruína – diziam as pessoas. – Salvou-se o limoeiro, porque é árvore resistente, mas mesmo esse precisa de tratamento. Acompanhado e tratado arribou. É, agora, um belo e perfumado limoeiro, que não se importa nada, mesmo nada, de dar os seus limões às pessoas que lhos pedem. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

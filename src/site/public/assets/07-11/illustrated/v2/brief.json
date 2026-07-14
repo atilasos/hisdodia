@@ -1,0 +1,74 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Quando eu era menina, trouxeram-me de fora, de muito longe, uma boneca diferente das outras, uma boneca especial, que tinha dentro outras bonecas escondidas. A gente desatarraxava o corpo da primeira boneca e, de dentro dela, aparecia outra boneca. Esta segunda boneca tinha outra lá dentro. Desatarraxávamos a terceira boneca e aparecia-nos uma quarta boneca. Desta quarta boneca... - Uf! Não vale a pena continuar, que já avaliam o que a quarta boneca trazia dentro. E por aí fora, por aí fora...",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A mãe da Maíza é que conta».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando eu era menina, trouxeram-me de fora, de muito longe, uma boneca diferente das outras, uma boneca especial, que tinha dentro outras bonecas escondidas. A gente desatarraxava o corpo da primeira boneca e, de dentro dela, aparecia outra boneca. Esta segunda boneca tinha outra lá dentro. Desatarraxávamos a terceira boneca e aparecia-nos uma quarta boneca. Desta quarta boneca... - Uf! Não vale a pena continuar, que já avaliam o que a quarta boneca trazia dentro. E por aí fora, por aí fora... Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Desatarraxávamos a terceira boneca e aparecia-nos uma quarta boneca. Desta quarta boneca... - Uf! Não vale a pena continuar, que já avaliam o que a quarta boneca trazia dentro. E por aí fora, por aí fora... Diante dos meus olhos de menina, a minha mãe explicava-me, apontando-me a boneca maior: - Faz de conta que esta é a tua bisavó. Lembras-te da tua bisavó Esmeralda? A tua avó velhinha, como tu lhe chamavas, mas, aqui, mais nova. Da tua bisavó Esmeralda, nasceu a tua avó Elvira...",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Desatarraxávamos a terceira boneca e aparecia-nos uma quarta boneca. Desta quarta boneca... - Uf! Não vale a pena continuar, que já avaliam o que a quarta boneca trazia dentro. E por aí fora, por aí fora... Diante dos meus olhos de menina, a minha mãe explicava-me, apontando-me a boneca maior: - Faz de conta que esta é a tua bisavó. Lembras-te da tua bisavó Esmeralda? A tua avó velhinha, como tu lhe chamavas, mas, aqui, mais nova. Da tua bisavó Esmeralda, nasceu a tua avó Elvira... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "- Da tua avó Elvira, nasci eu, que sou a tua mãe... E a minha mãe mostrava-me a terceira boneca, escondida dentro da segunda boneca. - Depois de mim nasceste tu, a minha filhinha querida... - continuava a minha mãe.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Da tua avó Elvira, nasci eu, que sou a tua mãe... E a minha mãe mostrava-me a terceira boneca, escondida dentro da segunda boneca. - Depois de mim nasceste tu, a minha filhinha querida... - continuava a minha mãe. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p3",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "Já sei agora. A minha boneca chama-se Maíza e está no berço. Dorme. Quando ela crescer, e de bebé se fizer menina, hei-de contar-lhe esta história de bonecas.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Já sei agora. A minha boneca chama-se Maíza e está no berço. Dorme. Quando ela crescer, e de bebé se fizer menina, hei-de contar-lhe esta história de bonecas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

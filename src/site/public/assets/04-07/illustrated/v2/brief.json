@@ -1,0 +1,137 @@
+{
+  "characters": [
+    {
+      "name": "Joca",
+      "appearance": "Portuguese child, curious and expressive, contemporary clothes"
+    },
+    {
+      "name": "Avô",
+      "appearance": "older man, calm and thoughtful, seated companion"
+    },
+    {
+      "name": "Louis Pasteur",
+      "appearance": "19th-century French scientist, attentive and serious"
+    },
+    {
+      "name": "Menino",
+      "appearance": "young child in distress, period-appropriate clothing"
+    }
+  ],
+  "environment": "Contemporary Portuguese home framing imagined historical scenes from the age of musketeers and 19th-century medical discovery, with period interiors, laboratory references, and rural epidemic context.",
+  "palette": [
+    "warm browns",
+    "deep reds",
+    "aged cream",
+    "muted blue",
+    "olive green"
+  ],
+  "recurringObjects": [
+    "sword imagery",
+    "chair",
+    "medical flask",
+    "microscope",
+    "dog silhouette"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Confidenciava o Joca ao avô: - Gostava de ter vivido no tempo dos homens das espadas... Isto dito depois de ambos terem visto um filme daqueles de espadachins de bigodes eriçados, capa ao vento e chapéus emplumados. Fervia a espadeirada por pátios, corredores, salões, escadarias de palácios intermináveis.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «No tempo dos mosqueteiros».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Confidenciava o Joca ao avô: - Gostava de ter vivido no tempo dos homens das espadas... Isto dito depois de ambos terem visto um filme daqueles de espadachins de bigodes eriçados, capa ao vento e chapéus emplumados. Fervia a espadeirada por pátios, corredores, salões, escadarias de palácios intermináveis. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s1p0"
+      ],
+      "evidence": "- Gostava de ter vivido no tempo dos homens das espadas... Isto dito depois de ambos terem visto um filme daqueles de espadachins de bigodes eriçados, capa ao vento e chapéus emplumados. Fervia a espadeirada por pátios, corredores, salões, escadarias de palácios intermináveis. A meio dos duelos, gritavam: \"À fé de quem sou que vos hei-de trespassar, tratante !\" E, enquanto não davam conta dos vilões bandidos, os mosqueteiros decepavam velas, fendiam cadeirões, estilhaçavam jarras, rasgavam cortinados. O Joca saltava da cadeira, entusiasmado. Quem lhe dera ser um deles!",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Gostava de ter vivido no tempo dos homens das espadas... Isto dito depois de ambos terem visto um filme daqueles de espadachins de bigodes eriçados, capa ao vento e chapéus emplumados. Fervia a espadeirada por pátios, corredores, salões, escadarias de palácios intermináveis. A meio dos duelos, gritavam: \"À fé de quem sou que vos hei-de trespassar, tratante !\" E, enquanto não davam conta dos vilões bandidos, os mosqueteiros decepavam velas, fendiam cadeirões, estilhaçavam jarras, rasgavam cortinados. O Joca saltava da cadeira, entusiasmado. Quem lhe dera ser um deles! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s4p3"
+      ],
+      "evidence": "O Joca arrepiou-se. - Por tudo e por nada, a ordem do médico era: \"Sangrem-no!\" O Joca ainda mais se arrepiou.",
+      "after": {
+        "segment": 4,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Joca arrepiou-se. - Por tudo e por nada, a ordem do médico era: \"Sangrem-no!\" O Joca ainda mais se arrepiou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s9p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s8p1",
+        "s9p0",
+        "s9p1"
+      ],
+      "evidence": "No Sul de França grassara uma doença que punha em risco as culturas dos bichos-da-seda. Os fabricantes de seda de Lyon punham as mãos à cabeça, já se vendo na ruína. Chamado a investigar a causa, Pasteur isolou as bactérias portadoras da enfermidade , impediu o contágio e salvou a indústria. Outras epidemias animais foram por ele estudadas e combatidas, graças a um método experimental que consistia em tornar inofensivo o bacilo que provocava a doença.",
+      "after": {
+        "segment": 9,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No Sul de França grassara uma doença que punha em risco as culturas dos bichos-da-seda. Os fabricantes de seda de Lyon punham as mãos à cabeça, já se vendo na ruína. Chamado a investigar a causa, Pasteur isolou as bactérias portadoras da enfermidade , impediu o contágio e salvou a indústria. Outras epidemias animais foram por ele estudadas e combatidas, graças a um método experimental que consistia em tornar inofensivo o bacilo que provocava a doença. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s11p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s11p0",
+        "s11p1",
+        "s11p2"
+      ],
+      "evidence": "Uma vez, Pasteur foi chamado de urgência, em socorro de uma criança que tinha sido mordida por um cão raivoso. O seu destino seria uma morte atroz. Pasteur nunca tinha experimentado a vacina contra a raiva em seres humanos, mas não hesitou. E o menino salvou-se. Tempos perigosos esses...",
+      "after": {
+        "segment": 11,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Uma vez, Pasteur foi chamado de urgência, em socorro de uma criança que tinha sido mordida por um cão raivoso. O seu destino seria uma morte atroz. Pasteur nunca tinha experimentado a vacina contra a raiva em seres humanos, mas não hesitou. E o menino salvou-se. Tempos perigosos esses... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s12p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s11p2",
+        "s12p0",
+        "s12p1"
+      ],
+      "evidence": "Tempos perigosos esses... - Afinal, já não queria viver no tempo dos mosqueteiros - suspirou o Joca, depois de ouvir os esclarecimentos do avô. Não nos custa a ter a mesma opinião.",
+      "after": {
+        "segment": 12,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Tempos perigosos esses... - Afinal, já não queria viver no tempo dos mosqueteiros - suspirou o Joca, depois de ouvir os esclarecimentos do avô. Não nos custa a ter a mesma opinião. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

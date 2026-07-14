@@ -1,0 +1,146 @@
+{
+  "characters": [
+    {
+      "name": "escultor",
+      "appearance": "escultor"
+    },
+    {
+      "name": "Vaidade",
+      "appearance": "estátua da Vaidade"
+    },
+    {
+      "name": "monge",
+      "appearance": "estátua de um monge sentado a ler"
+    },
+    {
+      "name": "Arlequim",
+      "appearance": "estátua do Arlequim"
+    },
+    {
+      "name": "Atlas",
+      "appearance": "estátua do Atlas"
+    },
+    {
+      "name": "rei inacabado",
+      "appearance": "estátua inacabada de um rei"
+    },
+    {
+      "name": "mãe",
+      "appearance": "estátua de uma mãe"
+    },
+    {
+      "name": "menino",
+      "appearance": "criança"
+    }
+  ],
+  "environment": "oficina de escultor cheia de estátuas junto às paredes, com um grande bloco de pedra no centro e, mais tarde, a figura da mãe com o menino sendo acabada pelo escultor",
+  "palette": [
+    "tons de pedra e cinza",
+    "ocre e madeira",
+    "luz suave de oficina",
+    "sombras frias",
+    "acentos discretos de branco e pele"
+  ],
+  "recurringObjects": [
+    "bloco de pedra",
+    "estátuas alinhadas nas paredes",
+    "ferramentas de escultura",
+    "obra em progresso"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Na oficina do escultor, havia grande animação. Chegara uma pedra de cantaria, que foi colocada no meio da sala por oito homens possantes. Oito homens, imagine-se! Pesado serviço aquele. O escultor pagou-lhes e mandou-os embora. Depois olhou para o bloco, acariciou a pedra, deu uma volta por ali e saiu atrás dos carregadores. A sala ficou vazia de gente, mas continuou cheia de estátuas. Seriam talvez umas dez estátuas dispostas junto às paredes. Algumas já acabadas, prontas para partir, outras à espera que a mão do escultor as desse por terminadas. Após a saída das pessoas, cabia-lhes agora a vez de falarem.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A obra mais bela».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Na oficina do escultor, havia grande animação. Chegara uma pedra de cantaria, que foi colocada no meio da sala por oito homens possantes. Oito homens, imagine-se! Pesado serviço aquele. O escultor pagou-lhes e mandou-os embora. Depois olhou para o bloco, acariciou a pedra, deu uma volta por ali e saiu atrás dos carregadores. A sala ficou vazia de gente, mas continuou cheia de estátuas. Seriam talvez umas dez estátuas dispostas junto às paredes. Algumas já acabadas, prontas para partir, outras à espera que a mão do escultor as desse por terminadas. Após a saída das pessoas, cabia-lhes agora a vez de falarem. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "O escultor pagou-lhes e mandou-os embora. Depois olhou para o bloco, acariciou a pedra, deu uma volta por ali e saiu atrás dos carregadores. A sala ficou vazia de gente, mas continuou cheia de estátuas. Seriam talvez umas dez estátuas dispostas junto às paredes. Algumas já acabadas, prontas para partir, outras à espera que a mão do escultor as desse por terminadas. Após a saída das pessoas, cabia-lhes agora a vez de falarem. Afinal as estátuas falam?",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O escultor pagou-lhes e mandou-os embora. Depois olhou para o bloco, acariciou a pedra, deu uma volta por ali e saiu atrás dos carregadores. A sala ficou vazia de gente, mas continuou cheia de estátuas. Seriam talvez umas dez estátuas dispostas junto às paredes. Algumas já acabadas, prontas para partir, outras à espera que a mão do escultor as desse por terminadas. Após a saída das pessoas, cabia-lhes agora a vez de falarem. Afinal as estátuas falam? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s7p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s7p3",
+        "s7p4",
+        "s7p5"
+      ],
+      "evidence": "Respondeu o Arlequim: - Um elefante, pois. Que outra coisa esperam? Aquilo, de facto, intrigava.",
+      "after": {
+        "segment": 7,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Respondeu o Arlequim: - Um elefante, pois. Que outra coisa esperam? Aquilo, de facto, intrigava. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s10p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s9p1",
+        "s10p0",
+        "s10p1"
+      ],
+      "evidence": "Mas a cabeça monstruosa, pela arte do escultor, foi-se transformando numa delicada cabeça de mulher. Estava sentada a estátua. Tinha as mãos no colo, como se guardasse algo, que ainda não conseguia distinguir-se bem. - Naturalmente está a ler um livro - alvitrava o monge. Afinal não era um livro o que ela olhava. Era uma criança. O escultor passara o dia a apurar as feições do bebé. No fim, antes de sair, alargou o sorriso da mãe e foi-se embora.",
+      "after": {
+        "segment": 10,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas a cabeça monstruosa, pela arte do escultor, foi-se transformando numa delicada cabeça de mulher. Estava sentada a estátua. Tinha as mãos no colo, como se guardasse algo, que ainda não conseguia distinguir-se bem. - Naturalmente está a ler um livro - alvitrava o monge. Afinal não era um livro o que ela olhava. Era uma criança. O escultor passara o dia a apurar as feições do bebé. No fim, antes de sair, alargou o sorriso da mãe e foi-se embora. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s13p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s12p1",
+        "s12p2",
+        "s13p0"
+      ],
+      "evidence": "- Deixem-se de falas! O menino está a dormir. Inspirava respeito aquela voz. As estátuas calaram-se. Nos dias que se seguiram, o escultor demorou-se, pela noite adiante, a completar a estátua da mãe e do menino. Era a sua mais bela obra.",
+      "after": {
+        "segment": 13,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Deixem-se de falas! O menino está a dormir. Inspirava respeito aquela voz. As estátuas calaram-se. Nos dias que se seguiram, o escultor demorou-se, pela noite adiante, a completar a estátua da mãe e do menino. Era a sua mais bela obra. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": [
+    {
+      "sceneId": "opening",
+      "attempt": 1,
+      "message": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 430ce950-4a68-4539-898f-0684bd0ef820. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "sceneId": "opening",
+      "attempt": 2,
+      "message": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID c2960acf-1951-414b-b1c8-17057735dc7c. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    }
+  ]
+}

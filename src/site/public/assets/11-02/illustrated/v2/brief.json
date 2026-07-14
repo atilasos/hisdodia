@@ -1,0 +1,86 @@
+{
+  "characters": [],
+  "environment": "palácio real e jardins junto a um rio, com atmosfera de conto tradicional",
+  "palette": [
+    "azul profundo",
+    "verde esmeralda",
+    "dourado envelhecido",
+    "creme",
+    "vermelho rubi"
+  ],
+  "recurringObjects": [
+    "chaves",
+    "janelas do palácio",
+    "rio",
+    "cabelos da rainha",
+    "sombras"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um rei muito ciumento. A rainha era mulher de grande beleza, que o rei queria ser o único homem a contemplar. Por isso mantinha-a fechada a sete chaves no palácio. Mas a rainha, que não aturava esta prisão, terá descoberto as tais sete chaves e, muito secretamente, muito pezinhos de lã, veio até cá fora passear. Só para espairecer. Só por um bocadinho.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Ciúmes Reais».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um rei muito ciumento. A rainha era mulher de grande beleza, que o rei queria ser o único homem a contemplar. Por isso mantinha-a fechada a sete chaves no palácio. Mas a rainha, que não aturava esta prisão, terá descoberto as tais sete chaves e, muito secretamente, muito pezinhos de lã, veio até cá fora passear. Só para espairecer. Só por um bocadinho. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p6",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "Logo aconteceu que, mais adiante, estavam umas lavadeiras, na margem do rio, a lavar as camisas do rei. O perfume dos cabelos da rainha comunicou-se às águas do rio e impregnou a roupa. Depois de secas e engomadas, as camisas voltaram para o palácio. O rei vestiu uma e disse:",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Logo aconteceu que, mais adiante, estavam umas lavadeiras, na margem do rio, a lavar as camisas do rei. O perfume dos cabelos da rainha comunicou-se às águas do rio e impregnou a roupa. Depois de secas e engomadas, as camisas voltaram para o palácio. O rei vestiu uma e disse: Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p12",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p10",
+        "s0p11",
+        "s0p12"
+      ],
+      "evidence": "- Tu saíste, na minha ausência? - perguntou o rei, quase a zangar-se. Que havia a rainha de responder? Contou a verdade, que bem simples era. O rei barafustou muito e arranjou sete vezes sete chaves para fechar a rainha. Estava desesperado.",
+      "after": {
+        "segment": 0,
+        "paragraph": 12
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Tu saíste, na minha ausência? - perguntou o rei, quase a zangar-se. Que havia a rainha de responder? Contou a verdade, que bem simples era. O rei barafustou muito e arranjou sete vezes sete chaves para fechar a rainha. Estava desesperado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p23",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p21",
+        "s0p22",
+        "s0p23"
+      ],
+      "evidence": "Acabou por ser a sombra do rei a encontrar a sombra da rainha. As duas sombras entrelaçaram-se, diante dos olhos espantados do par real. A própria sombra do rei, contrariando o silêncio das sombras, falou pela própria voz e pediu desculpa à sombra da rainha pelo cerco ciumento em que a apertara. Perante tão estranhos factos, os reais esposos também se abraçaram e o rei logo ali pediu perdão à rainha e prometeu que nunca mais seria ciumento.",
+      "after": {
+        "segment": 0,
+        "paragraph": 23
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Acabou por ser a sombra do rei a encontrar a sombra da rainha. As duas sombras entrelaçaram-se, diante dos olhos espantados do par real. A própria sombra do rei, contrariando o silêncio das sombras, falou pela própria voz e pediu desculpa à sombra da rainha pelo cerco ciumento em que a apertara. Perante tão estranhos factos, os reais esposos também se abraçaram e o rei logo ali pediu perdão à rainha e prometeu que nunca mais seria ciumento. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

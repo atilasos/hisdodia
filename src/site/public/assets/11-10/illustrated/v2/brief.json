@@ -1,0 +1,129 @@
+{
+  "characters": [
+    {
+      "name": "Marcílio / Ivan",
+      "appearance": "young prince-hero, first hidden as Marcílio and later revealed as Ivan, determined, growing from boy to young man, traveling with a bow"
+    },
+    {
+      "name": "Olef / Olaf",
+      "appearance": "wise old mage and protector, calm, severe, guiding the hero"
+    }
+  ],
+  "environment": "A legendary desert kingdom with a hidden prince, a magical bow, a dragon on a mountain, storm clouds, a conquering palace, and a royal coronation atmosphere.",
+  "palette": [
+    "warm sand and ochre",
+    "deep desert blues",
+    "storm gray and silver",
+    "ember red",
+    "royal gold"
+  ],
+  "recurringObjects": [
+    "magical bow",
+    "desert horizon",
+    "clouds and rain",
+    "dragon",
+    "palace crown"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Marcílio não era o nome dele. Marcílio era um nome falso, um nome escondido, porque o jovem herói da nossa história não podia revelar a ninguém a sua verdadeira identidade. - Hás-de recuperar o teu reino com este arco que aqui te dou - dissera-lhe o mago Olef. - Agora há-de ser - respondera Marcílio.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Não se chama Marcílio».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Marcílio não era o nome dele. Marcílio era um nome falso, um nome escondido, porque o jovem herói da nossa história não podia revelar a ninguém a sua verdadeira identidade. - Hás-de recuperar o teu reino com este arco que aqui te dou - dissera-lhe o mago Olef. - Agora há-de ser - respondera Marcílio. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p8",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p6",
+        "s0p7",
+        "s0p8"
+      ],
+      "evidence": "- Não tens outra alternativa - dissera-lhe o Olef. O mago tinha sido o seu salvador. Recolheu-o, menino, quando o castelo e o reino do pequeno príncipe se submeteram aos conquistadores estrangeiros. Por prudência, dera ao órfão o nome de Marcílio e protegera-o e educara-o, em segredo. Via-o, agora, jovem a espigar e a arder na vontade de reconquistar o que lhe pertencera. Mas, para que tudo resultasse, não podia haver precipitação.",
+      "after": {
+        "segment": 0,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Não tens outra alternativa - dissera-lhe o Olef. O mago tinha sido o seu salvador. Recolheu-o, menino, quando o castelo e o reino do pequeno príncipe se submeteram aos conquistadores estrangeiros. Por prudência, dera ao órfão o nome de Marcílio e protegera-o e educara-o, em segredo. Via-o, agora, jovem a espigar e a arder na vontade de reconquistar o que lhe pertencera. Mas, para que tudo resultasse, não podia haver precipitação. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p20",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p18",
+        "s0p19",
+        "s0p20"
+      ],
+      "evidence": "Esperou um ano, dois anos, três anos. Três anos de seca. Ele bem repuxava a corda do arco, mas não havia meio... Ele bem ensaiava a voz num canto guerreiro, mas na voz cruzavam-se agudos e graves, à compita. Até que choveu. Um aguaceiro de nuvens breves. Mas bastou para amolecer a corda. Marcílio convocou todo o seu ânimo e retesou a corda do arco. Depois, foi à procura do dragão.",
+      "after": {
+        "segment": 0,
+        "paragraph": 20
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Esperou um ano, dois anos, três anos. Três anos de seca. Ele bem repuxava a corda do arco, mas não havia meio... Ele bem ensaiava a voz num canto guerreiro, mas na voz cruzavam-se agudos e graves, à compita. Até que choveu. Um aguaceiro de nuvens breves. Mas bastou para amolecer a corda. Marcílio convocou todo o seu ânimo e retesou a corda do arco. Depois, foi à procura do dragão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p22",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p20",
+        "s0p21",
+        "s0p22"
+      ],
+      "evidence": "Até que choveu. Um aguaceiro de nuvens breves. Mas bastou para amolecer a corda. Marcílio convocou todo o seu ânimo e retesou a corda do arco. Depois, foi à procura do dragão. Era um monstro terrível. Marcílio não o temeu. Quando se vence o medo, vence-se qualquer dragão. Foi o que aconteceu. Depois de beber do sangue do dragão, Marcílio cantou, numa voz forte e grave.",
+      "after": {
+        "segment": 0,
+        "paragraph": 22
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Até que choveu. Um aguaceiro de nuvens breves. Mas bastou para amolecer a corda. Marcílio convocou todo o seu ânimo e retesou a corda do arco. Depois, foi à procura do dragão. Era um monstro terrível. Marcílio não o temeu. Quando se vence o medo, vence-se qualquer dragão. Foi o que aconteceu. Depois de beber do sangue do dragão, Marcílio cantou, numa voz forte e grave. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p26",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p24",
+        "s0p25",
+        "s0p26"
+      ],
+      "evidence": "À frente do clamor do povo, Marcílio marchou para o palácio que lhe pertencera. Lutou e venceu. Na cerimónia da coroação do novo rei, que era um homem na força da vida, o mago Olaf chamou-o pela primeira vez pelo seu nome verdadeiro: Ivan.",
+      "after": {
+        "segment": 0,
+        "paragraph": 26
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: À frente do clamor do povo, Marcílio marchou para o palácio que lhe pertencera. Lutou e venceu. Na cerimónia da coroação do novo rei, que era um homem na força da vida, o mago Olaf chamou-o pela primeira vez pelo seu nome verdadeiro: Ivan. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s0p29",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p27",
+        "s0p28",
+        "s0p29"
+      ],
+      "evidence": "No reino de Ivan, os mais velhos contam sempre esta história, convictos de que assim conseguem moderar a pressa e a impaciência dos mais novos. - Há que confiar nos leves, vagarosos impulsos do tempo - aconselham os mais velhos, no remate da história. Será que os novos, realmente, lhes dão ouvidos?",
+      "after": {
+        "segment": 0,
+        "paragraph": 29
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No reino de Ivan, os mais velhos contam sempre esta história, convictos de que assim conseguem moderar a pressa e a impaciência dos mais novos. - Há que confiar nos leves, vagarosos impulsos do tempo - aconselham os mais velhos, no remate da história. Será que os novos, realmente, lhes dão ouvidos? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

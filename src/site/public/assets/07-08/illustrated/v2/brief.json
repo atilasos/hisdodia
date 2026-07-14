@@ -1,0 +1,117 @@
+{
+  "characters": [
+    {
+      "name": "rato",
+      "appearance": "pequeno rato urbano, discreto, atento ao lixo do restaurante"
+    },
+    {
+      "name": "pardal",
+      "appearance": "pardal saltitante, observador, confiante"
+    },
+    {
+      "name": "homem",
+      "appearance": "homem pobre e velho, a recolher folhas e cascas no contentor"
+    }
+  ],
+  "environment": "zona urbana junto a um restaurante, contentores do lixo, depois uma rua da cidade com muitos restaurantes e uma futura loja de ferragens",
+  "palette": [
+    "cinzentos suaves",
+    "castanhos quentes",
+    "ocre",
+    "verde sujo",
+    "azuis urbanos desaturados"
+  ],
+  "recurringObjects": [
+    "contentor do lixo",
+    "restaurante",
+    "folhas de couve",
+    "cascas de fruta",
+    "coelhos de estimação",
+    "loja de ferragens"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era uma vez um rato que todos os dias ia comer a um restaurante. Bom. Onde ele comia era no contentor do lixo do restaurante, o que não é bem a mesma coisa... Quem também lá aparecia quase sempre, à cata de acepipes, era um pardal saltitante e optimista . Às vezes, um homem, pobre e velho, também se abastecia no caixote, à procura de folhas de couve e cascas de fruta, para alimentar dois coelhos de estimação, que não eram esquisitos de boca.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O rato modesto e o pardal optimista».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um rato que todos os dias ia comer a um restaurante. Bom. Onde ele comia era no contentor do lixo do restaurante, o que não é bem a mesma coisa... Quem também lá aparecia quase sempre, à cata de acepipes, era um pardal saltitante e optimista . Às vezes, um homem, pobre e velho, também se abastecia no caixote, à procura de folhas de couve e cascas de fruta, para alimentar dois coelhos de estimação, que não eram esquisitos de boca. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era uma vez um rato que todos os dias ia comer a um restaurante. Bom. Onde ele comia era no contentor do lixo do restaurante, o que não é bem a mesma coisa... Quem também lá aparecia quase sempre, à cata de acepipes, era um pardal saltitante e optimista . Às vezes, um homem, pobre e velho, também se abastecia no caixote, à procura de folhas de couve e cascas de fruta, para alimentar dois coelhos de estimação, que não eram esquisitos de boca.",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um rato que todos os dias ia comer a um restaurante. Bom. Onde ele comia era no contentor do lixo do restaurante, o que não é bem a mesma coisa... Quem também lá aparecia quase sempre, à cata de acepipes, era um pardal saltitante e optimista . Às vezes, um homem, pobre e velho, também se abastecia no caixote, à procura de folhas de couve e cascas de fruta, para alimentar dois coelhos de estimação, que não eram esquisitos de boca. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Às vezes, um homem, pobre e velho, também se abastecia no caixote, à procura de folhas de couve e cascas de fruta, para alimentar dois coelhos de estimação, que não eram esquisitos de boca. Assim que o homem chegava, o pardal voava e o rato fugia, mas não voavam nem fugiam para muito longe, porque o caixote, ao fim e ao cabo, chegava para todos. E a história podia ficar por aqui, se nós não soubéssemos que o restaurante teve de fechar, por falta de clientes. Não os do contentor, já se vê...",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Às vezes, um homem, pobre e velho, também se abastecia no caixote, à procura de folhas de couve e cascas de fruta, para alimentar dois coelhos de estimação, que não eram esquisitos de boca. Assim que o homem chegava, o pardal voava e o rato fugia, mas não voavam nem fugiam para muito longe, porque o caixote, ao fim e ao cabo, chegava para todos. E a história podia ficar por aqui, se nós não soubéssemos que o restaurante teve de fechar, por falta de clientes. Não os do contentor, já se vê... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s6p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p1",
+        "s6p2",
+        "s6p3"
+      ],
+      "evidence": "- O quê? Ele tem um restaurante? - estranhou o rato. - Não me faça rir - e o pardal riu-se. - O que ele tem é muita prática de contentores. Se formos atrás dele, havemos de encontrar um que nos agrade. Assim fizeram.",
+      "after": {
+        "segment": 6,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - O quê? Ele tem um restaurante? - estranhou o rato. - Não me faça rir - e o pardal riu-se. - O que ele tem é muita prática de contentores. Se formos atrás dele, havemos de encontrar um que nos agrade. Assim fizeram. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s8p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s7p1",
+        "s8p0",
+        "s8p1"
+      ],
+      "evidence": "- E não vão todos, de um dia para o outro, transformar-se em lojas de ferragens? - perguntava o ingénuo do rato. - Não me faça rir - e o pardal riu-se. - Até que o meu amigo se veja obrigado a comer limalha de ferro e rolos de arame, ainda há-de saborear muita paparoca gostosa. Não pense em desgraças e aproveite o que há, enquanto há. Este pardal era, realmente, um optimista .",
+      "after": {
+        "segment": 8,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - E não vão todos, de um dia para o outro, transformar-se em lojas de ferragens? - perguntava o ingénuo do rato. - Não me faça rir - e o pardal riu-se. - Até que o meu amigo se veja obrigado a comer limalha de ferro e rolos de arame, ainda há-de saborear muita paparoca gostosa. Não pense em desgraças e aproveite o que há, enquanto há. Este pardal era, realmente, um optimista . Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

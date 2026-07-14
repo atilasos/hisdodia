@@ -1,0 +1,93 @@
+{
+  "characters": [
+    {
+      "name": "Galinha Pinta",
+      "appearance": "A spotted hen with a lively, valuable presence implied by the poem"
+    }
+  ],
+  "environment": "Ambiente rural português com passagem gradual para trocas fantásticas e referências a espaços urbanos e aldeias evocadas pela enumeração do poema.",
+  "palette": [
+    "Cores quentes e campestres",
+    "Amarelo suave",
+    "Terrosos",
+    "Vermelhos discretos",
+    "Azuis e verdes apagados"
+  ],
+  "recurringObjects": [
+    "ovos",
+    "galinha",
+    "vacas",
+    "cavalo",
+    "fitas",
+    "casas",
+    "meias amarelas"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "A minha galinha pinta põe três ovos ao dia, se ela pusesse quatro",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Galinha Pinta».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A minha galinha pinta põe três ovos ao dia, se ela pusesse quatro Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s0p3"
+      ],
+      "evidence": "põe três ovos ao dia, se ela pusesse quatro que dinheiro não faria!",
+      "after": {
+        "segment": 0,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: põe três ovos ao dia, se ela pusesse quatro que dinheiro não faria! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p9",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p7",
+        "s1p8",
+        "s1p9"
+      ],
+      "evidence": "a cidade de Coimbra. Já me deram pelas pernas umas meias amarelas.",
+      "after": {
+        "segment": 1,
+        "paragraph": 9
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: a cidade de Coimbra. Já me deram pelas pernas umas meias amarelas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s2p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p3",
+        "s2p4",
+        "s2p5"
+      ],
+      "evidence": "das penas até ao osso não vai parar ao convento. Vou eu comê-la ao almoço.",
+      "after": {
+        "segment": 2,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: das penas até ao osso não vai parar ao convento. Vou eu comê-la ao almoço. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,106 @@
+{
+  "characters": [],
+  "environment": "Storybook seasonal kingdom under the Sun, with the four brothers personifying the seasons across changing landscapes from autumn woods and winter snow to spring flowers and summer fields.",
+  "palette": [
+    "gold",
+    "purple",
+    "white",
+    "green",
+    "orange",
+    "red",
+    "blue"
+  ],
+  "recurringObjects": [
+    "sun",
+    "trees",
+    "flowers",
+    "snow",
+    "grain",
+    "fruit"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era uma vez um rei chamado Sol. Todos o conhecem. Todos o estimam. Poderoso, os seus raios são espadas. Majestoso, os seus raios são de ouro e mais do que todo o ouro valem. Generoso, os seus raios são fios de vida. Poderoso, majestoso e generoso era este rei, mas tinha um grande desgosto - os seus quatro filhos davam-se muito mal uns com os outros.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Os quatro irmãos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um rei chamado Sol. Todos o conhecem. Todos o estimam. Poderoso, os seus raios são espadas. Majestoso, os seus raios são de ouro e mais do que todo o ouro valem. Generoso, os seus raios são fios de vida. Poderoso, majestoso e generoso era este rei, mas tinha um grande desgosto - os seus quatro filhos davam-se muito mal uns com os outros. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Poderoso, os seus raios são espadas. Majestoso, os seus raios são de ouro e mais do que todo o ouro valem. Generoso, os seus raios são fios de vida. Poderoso, majestoso e generoso era este rei, mas tinha um grande desgosto - os seus quatro filhos davam-se muito mal uns com os outros. Chamavam-se os quatro irmãos, por ordem de idade, a começar pelo mais novo: Primavera, Verão, Outono e Inverno.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Poderoso, os seus raios são espadas. Majestoso, os seus raios são de ouro e mais do que todo o ouro valem. Generoso, os seus raios são fios de vida. Poderoso, majestoso e generoso era este rei, mas tinha um grande desgosto - os seus quatro filhos davam-se muito mal uns com os outros. Chamavam-se os quatro irmãos, por ordem de idade, a começar pelo mais novo: Primavera, Verão, Outono e Inverno. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p2",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "O Outono não gostava desta partilha. Queixava-se de que lhe não davam tempo... Ainda estava ele a arrumar e a alindar a casa, pintando tudo da cor da púrpura, em tons e meios tons amarelos doirados, e já o Inverno lhe batia à porta. Então o Outono tinha uma birra e arrancava as folhas das árvores, algumas ainda por pintar... Saía o Outono com lágrimas nos olhos e entrava o Inverno.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Outono não gostava desta partilha. Queixava-se de que lhe não davam tempo... Ainda estava ele a arrumar e a alindar a casa, pintando tudo da cor da púrpura, em tons e meios tons amarelos doirados, e já o Inverno lhe batia à porta. Então o Outono tinha uma birra e arrancava as folhas das árvores, algumas ainda por pintar... Saía o Outono com lágrimas nos olhos e entrava o Inverno. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s6p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p1",
+        "s6p2",
+        "s6p3"
+      ],
+      "evidence": "- Já posso? Ainda era cedo, mas só de lhe ouvirem a voz, as primeiras flores rompiam a terra. Então, quando ela chegava, era uma festa.",
+      "after": {
+        "segment": 6,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Já posso? Ainda era cedo, mas só de lhe ouvirem a voz, as primeiras flores rompiam a terra. Então, quando ela chegava, era uma festa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s10p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s9p1",
+        "s10p0",
+        "s10p1"
+      ],
+      "evidence": "Lá vinha o Outono, com pincel e tintas apurar as cores. Achava sempre que merecia mais tempo. São tantas as tonalidades, do verde-escuro ao castanho, do laranja ao vermelho... Não se pode fazer obra asseada quando se sente os passos do Inverno a aproximar-se. Que nervos! Sorrindo no seu trono, o Sol acompanhava a obra dos seus quatro filhos. Descansa. Eles estão a dar muito boa conta de si. E o Sol, risonho, ainda mais resplandece.",
+      "after": {
+        "segment": 10,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Lá vinha o Outono, com pincel e tintas apurar as cores. Achava sempre que merecia mais tempo. São tantas as tonalidades, do verde-escuro ao castanho, do laranja ao vermelho... Não se pode fazer obra asseada quando se sente os passos do Inverno a aproximar-se. Que nervos! Sorrindo no seu trono, o Sol acompanhava a obra dos seus quatro filhos. Descansa. Eles estão a dar muito boa conta de si. E o Sol, risonho, ainda mais resplandece. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

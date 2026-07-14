@@ -1,0 +1,116 @@
+{
+  "characters": [
+    {
+      "name": "rainha",
+      "appearance": "caprichosa, jovem, majestosa"
+    },
+    {
+      "name": "rei/Carlos",
+      "appearance": "rei decidido, depois disfarçado de mercador"
+    },
+    {
+      "name": "cozinheiros",
+      "appearance": "grupo de cozinheiros do palácio, cansados e tensos"
+    }
+  ],
+  "environment": "palácio real numa corte de inspiração eslava, com cozinha palaciana, salões de festa, exteriores nevados e atmosfera de conto tradicional",
+  "palette": [
+    "brancos frios",
+    "azuis profundos",
+    "vermelhos escuros",
+    "dourados envelhecidos",
+    "tons terrosos"
+  ],
+  "recurringObjects": [
+    "coroa",
+    "tabuleiro de cozinha",
+    "anel",
+    "dente de dragão",
+    "manto"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s2p0"
+      ],
+      "evidence": "Dantes, lá para os lados da Rússia ou mais longe ainda, havia uma rainha caprichosa e esquisita de boca, que, por maldade ou desfastio , se especializara em provocar dores de cabeça aos cozinheiros do palácio. - Amanhã quero para o almoço um puré de pétalas de açucena, colhidas ao alvorecer e sem mais tempero senão dois dedais de manteiga, fabricada com o leite de vacas brancas, sem malha nenhuma no dorso. Isto que venha a acompanhar finas fatias de fiambre de salmão da Geórgia, pescado à mão por mergulhadores bizantinos. Não esquecer o pormenor dos mergulhadores bizantinos, indispensável para a boa qualidade do salmão.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Má Boca».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Dantes, lá para os lados da Rússia ou mais longe ainda, havia uma rainha caprichosa e esquisita de boca, que, por maldade ou desfastio , se especializara em provocar dores de cabeça aos cozinheiros do palácio. - Amanhã quero para o almoço um puré de pétalas de açucena, colhidas ao alvorecer e sem mais tempero senão dois dedais de manteiga, fabricada com o leite de vacas brancas, sem malha nenhuma no dorso. Isto que venha a acompanhar finas fatias de fiambre de salmão da Geórgia, pescado à mão por mergulhadores bizantinos. Não esquecer o pormenor dos mergulhadores bizantinos, indispensável para a boa qualidade do salmão. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s3p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s3p0"
+      ],
+      "evidence": "Os cozinheiros registavam a encomenda e suspiraram para dentro, porque se suspirassem para fora, ai deles! Por muito menos já alguns tinham sido chicoteados... Tempos maus esses para os cozinheiros. Cada dia, uma extravagância nova. Quando, uma vez, a rainha exigiu, para um jantar de festa, bifes de dragão, os cozinheiros entreolharam-se, em silêncio, cheios de pavor. Onde é que eles iam encontrar um dragão? E como é que haviam de caçá-lo, eles, humildes cozinheiros, que não conheciam outras armas senão as facas de cozinha, os trinchantes e as escumadeiras? Que aflição.",
+      "after": {
+        "segment": 3,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os cozinheiros registavam a encomenda e suspiraram para dentro, porque se suspirassem para fora, ai deles! Por muito menos já alguns tinham sido chicoteados... Tempos maus esses para os cozinheiros. Cada dia, uma extravagância nova. Quando, uma vez, a rainha exigiu, para um jantar de festa, bifes de dragão, os cozinheiros entreolharam-se, em silêncio, cheios de pavor. Onde é que eles iam encontrar um dragão? E como é que haviam de caçá-lo, eles, humildes cozinheiros, que não conheciam outras armas senão as facas de cozinha, os trinchantes e as escumadeiras? Que aflição. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s6p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p0",
+        "s6p1",
+        "s6p2"
+      ],
+      "evidence": "A rainha, que se achava ainda muito nova para experimentar a viuvez, protestou, dizendo que afinal a ideia dos bifes de dragão talvez não tivesse sido muito feliz, tanto mais que, segundo constava, a carne de dragão era um bocado indigesta . - Talvez para o dragão a minha seja menos - comentou o rei, com ar decidido. E partiu.",
+      "after": {
+        "segment": 6,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A rainha, que se achava ainda muito nova para experimentar a viuvez, protestou, dizendo que afinal a ideia dos bifes de dragão talvez não tivesse sido muito feliz, tanto mais que, segundo constava, a carne de dragão era um bocado indigesta . - Talvez para o dragão a minha seja menos - comentou o rei, com ar decidido. E partiu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s9p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s9p0",
+        "s9p1",
+        "s9p2"
+      ],
+      "evidence": "Tinha um ar estranho, usava um manto até aos pés e pesadas barbas que lhe fechavam o rosto. Pediu para ser recebido pela rainha. Quando ela viu, enfiado num dos dentes de dragão, um anel a luzir, a senhora rainha desmaiou. Tinha reconhecido o anel, usado pelo rei. - Ai o meu pobre Carlos! - gemeu ela, ao desfalecer.",
+      "after": {
+        "segment": 9,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Tinha um ar estranho, usava um manto até aos pés e pesadas barbas que lhe fechavam o rosto. Pediu para ser recebido pela rainha. Quando ela viu, enfiado num dos dentes de dragão, um anel a luzir, a senhora rainha desmaiou. Tinha reconhecido o anel, usado pelo rei. - Ai o meu pobre Carlos! - gemeu ela, ao desfalecer. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s11p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s10p0",
+        "s11p0",
+        "s11p1"
+      ],
+      "evidence": "- Carlos Terceiro, Imperador da Transcaucásia, Caucásia, Subcaucásia e Recaucásia, Califados vários e Emiratos anexos. Sim, eu, o rei vosso marido - disse o mercador, arrancando as barbas, que eram postiças claro, já se percebeu. A rainha, desmaiada, desfalecidinha de todo, apanhou, para restabelecer a circulação, uns tabefes meiguinhos e, quando acordou e se viu nos braços do marido, mais não conto... Conto só que se curou dos apetites maníacos e que agora come de tudo, carne, peixe, fruta e doces do menu corrente e sempre com temperança real, como convém a tão distinta majestade.",
+      "after": {
+        "segment": 11,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Carlos Terceiro, Imperador da Transcaucásia, Caucásia, Subcaucásia e Recaucásia, Califados vários e Emiratos anexos. Sim, eu, o rei vosso marido - disse o mercador, arrancando as barbas, que eram postiças claro, já se percebeu. A rainha, desmaiada, desfalecidinha de todo, apanhou, para restabelecer a circulação, uns tabefes meiguinhos e, quando acordou e se viu nos braços do marido, mais não conto... Conto só que se curou dos apetites maníacos e que agora come de tudo, carne, peixe, fruta e doces do menu corrente e sempre com temperança real, como convém a tão distinta majestade. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

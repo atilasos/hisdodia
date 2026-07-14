@@ -1,0 +1,112 @@
+{
+  "characters": [
+    {
+      "name": "Danilo Pai",
+      "appearance": "Esquilo viajante adulto, atento e depois sonolento, com cauda enrolada e postura de quem alterna curiosidade e cansaço."
+    },
+    {
+      "name": "Danilo Filho",
+      "appearance": "Esquilo jovem, mais inquieto e imaginativo, muitas vezes alerta, excitado ou desanimado conforme a história avança."
+    }
+  ],
+  "environment": "Um castelo velho e abandonado ao anoitecer, com ruínas, torre distante, coruja, morcego, meia-noite e depois a manhã seguinte durante a arrumação das bagagens, num tom de viagem e assombração branda.",
+  "palette": [
+    "Azuis escuros crepusculares",
+    "Cinzentos de pedra antiga",
+    "Castanhos quentes dos esquilos",
+    "Amarelos suaves de luz noturna",
+    "Brancos pálidos de luar"
+  ],
+  "recurringObjects": [
+    "Ruínas de castelo",
+    "Torre com relógio",
+    "Pirilampos/luzes brilhantes",
+    "Bagagens de viagem",
+    "Pedras e correntes sugeridas pelo cenário"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Estes dois esquilos, Danilo Pai e Danilo Filho, andam sempre em viagem. Desta vez, foram ter a um castelo, um velho castelo abandonado. Como era quase noite, resolveram abrigar-se no meio das ruínas. - Havia de ser engraçado, se houvesse fantasmas - disse o Danilo Filho.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Os esquilos Danilos no castelo dos fantasmas medrosos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Estes dois esquilos, Danilo Pai e Danilo Filho, andam sempre em viagem. Desta vez, foram ter a um castelo, um velho castelo abandonado. Como era quase noite, resolveram abrigar-se no meio das ruínas. - Havia de ser engraçado, se houvesse fantasmas - disse o Danilo Filho. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Estavam eles nesta conversa, quando ouviram o pio de uma coruja. - Ouviste? É a coruja a anunciar a chegada de algum fantasma... - avisou o Danilo Filho. - Muito interessante - disse o Danilo Pai. - E achas que, daqui, a gente vê bem?",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Estavam eles nesta conversa, quando ouviram o pio de uma coruja. - Ouviste? É a coruja a anunciar a chegada de algum fantasma... - avisou o Danilo Filho. - Muito interessante - disse o Danilo Pai. - E achas que, daqui, a gente vê bem? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s4p3"
+      ],
+      "evidence": "- Está na hora - bichanou o Danilo Filho ao ouvido do pai. - Tens a certeza? - perguntou este, também em voz baixa. - E porque é que estamos a falar assim, como se estivéssemos a contar segredos um ao outro? - Para não assustar os fantasmas - esclareceu o filho.",
+      "after": {
+        "segment": 4,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Está na hora - bichanou o Danilo Filho ao ouvido do pai. - Tens a certeza? - perguntou este, também em voz baixa. - E porque é que estamos a falar assim, como se estivéssemos a contar segredos um ao outro? - Para não assustar os fantasmas - esclareceu o filho. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s7p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s7p0",
+        "s7p1",
+        "s7p2"
+      ],
+      "evidence": "Danilo Pai fixou as luminárias : - Ou o teu fantasma tem os olhos tortos ou são dois pirilampos a jogar às escondidas... Eram mesmo. Danilo Filho, desanimado, encostou a cabeça a uma pedra. Daí a nada estava a dormir e a sonhar com fantasmas.",
+      "after": {
+        "segment": 7,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Danilo Pai fixou as luminárias : - Ou o teu fantasma tem os olhos tortos ou são dois pirilampos a jogar às escondidas... Eram mesmo. Danilo Filho, desanimado, encostou a cabeça a uma pedra. Daí a nada estava a dormir e a sonhar com fantasmas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s8p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s8p0",
+        "s8p1",
+        "s8p2"
+      ],
+      "evidence": "No dia seguinte, enquanto arrumavam as bagagens, o pai disse para o filho: - Não fiques amuado. Afinal, mais coisa menos coisa, já temos uma história de fantasmas para contar. E os dois esquilos Danilos prosseguiram viagem.",
+      "after": {
+        "segment": 8,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No dia seguinte, enquanto arrumavam as bagagens, o pai disse para o filho: - Não fiques amuado. Afinal, mais coisa menos coisa, já temos uma história de fantasmas para contar. E os dois esquilos Danilos prosseguiram viagem. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

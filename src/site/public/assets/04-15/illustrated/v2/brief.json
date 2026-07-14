@@ -1,0 +1,138 @@
+{
+  "characters": [
+    {
+      "name": "O cavalo",
+      "appearance": "Cavalo desportivo em concurso hípico, grande e elegante, em movimento atlético"
+    },
+    {
+      "name": "A formiga",
+      "appearance": "Formiga pequena e trabalhadora, quase invisível, frágil e nervosa"
+    },
+    {
+      "name": "O cavaleiro",
+      "appearance": "Cavaleiro montado, ligado ao concurso e ao controlo do cavalo"
+    },
+    {
+      "name": "O público",
+      "appearance": "Multidão na tribuna, observadora e reativa"
+    }
+  ],
+  "environment": "Ambiente de concurso hípico ao ar livre, com obstáculos, tribunas, ervas no campo, vento, pó e depois a cavalariça",
+  "palette": [
+    "tons naturais de campo",
+    "castanhos e ocres",
+    "verdes de erva",
+    "azuis e cinzas suaves",
+    "contrastes luminosos de evento diurno"
+  ],
+  "recurringObjects": [
+    "obstáculos hípicos",
+    "tribuna do público",
+    "rédeas",
+    "campo de erva",
+    "poeira e vento",
+    "cavalariça"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "O cavalo e a formiga não se davam. Nem se conheciam. A formiga na sua vida, sempre enfiada no carreiro para cá e para lá, à cata de provisões para abastecer a despensa, não prestava atenção ao que se passava muito acima dela, lá no mundo dos bichos grandes. Por sua vez, o cavalo, que tinha sido treinado a saltar obstáculos, sempre ocupado nos seus exercícios desportivos, não fazia a mínima ideia de que existissem formigas.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O cavalo e a formiga».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O cavalo e a formiga não se davam. Nem se conheciam. A formiga na sua vida, sempre enfiada no carreiro para cá e para lá, à cata de provisões para abastecer a despensa, não prestava atenção ao que se passava muito acima dela, lá no mundo dos bichos grandes. Por sua vez, o cavalo, que tinha sido treinado a saltar obstáculos, sempre ocupado nos seus exercícios desportivos, não fazia a mínima ideia de que existissem formigas. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "O cavalo ia participar num concurso hípico, acontecimento de responsabilidade, com muito público a assistir. A formiga corria pelo meio das ervas, de patinhas nervosas e antenas agitadas, sem que ninguém a visse. Era a vez de o cavalo concorrer. Saltou um obstáculo, saltou dois e com tal desenvoltura e elegância que ouviu aplausos.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O cavalo ia participar num concurso hípico, acontecimento de responsabilidade, com muito público a assistir. A formiga corria pelo meio das ervas, de patinhas nervosas e antenas agitadas, sem que ninguém a visse. Era a vez de o cavalo concorrer. Saltou um obstáculo, saltou dois e com tal desenvoltura e elegância que ouviu aplausos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s6p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p1",
+        "s6p2",
+        "s6p3"
+      ],
+      "evidence": "- Ai que me vou desta - exclamou a pobrezinha. Não foi! A viagem nas ondas do vento durou um instante, mas para o coração da formiga foi um sufoco.",
+      "after": {
+        "segment": 6,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Ai que me vou desta - exclamou a pobrezinha. Não foi! A viagem nas ondas do vento durou um instante, mas para o coração da formiga foi um sufoco. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s9p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s8p1",
+        "s9p0",
+        "s9p1"
+      ],
+      "evidence": "Entretanto o cavalo esporeado pelo cavaleiro tenta no último esforço vencer o obstáculo, mas as patas traseiras não sobem o suficiente e o cavalo tropeça, cai, arrastando na queda quem o montava. Levanta-se em peso o público na tribuna: \"Ficou ferido? Magoado?\" - claro que se referem ao cavaleiro. Vá lá que não houve desgraça! Um entorse para o cavaleiro, que sai do campo coxeando enquanto puxa as rédeas do cavalo, também combalido, como se compreende.",
+      "after": {
+        "segment": 9,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Entretanto o cavalo esporeado pelo cavaleiro tenta no último esforço vencer o obstáculo, mas as patas traseiras não sobem o suficiente e o cavalo tropeça, cai, arrastando na queda quem o montava. Levanta-se em peso o público na tribuna: \"Ficou ferido? Magoado?\" - claro que se referem ao cavaleiro. Vá lá que não houve desgraça! Um entorse para o cavaleiro, que sai do campo coxeando enquanto puxa as rédeas do cavalo, também combalido, como se compreende. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s12p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s11p2",
+        "s12p0",
+        "s12p1"
+      ],
+      "evidence": "Que não desanime. Vai ter mais oportunidades, ganhar concursos, receber taças que o cavaleiro arrecadará para a sua colecção. O mais justo era que as dividisse com o cavalo. Mas, adiante. Naquela ocasião o cavalo sentia-se deprimido. E chorou uma lágrima. Uma, duas, três que bem as contei. Numa delas escorregou a formiga, a nadar de bruços no meio da água salgada, até chegar a terra, isto é, ao chão da cavalariça.",
+      "after": {
+        "segment": 12,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Que não desanime. Vai ter mais oportunidades, ganhar concursos, receber taças que o cavaleiro arrecadará para a sua colecção. O mais justo era que as dividisse com o cavalo. Mas, adiante. Naquela ocasião o cavalo sentia-se deprimido. E chorou uma lágrima. Uma, duas, três que bem as contei. Numa delas escorregou a formiga, a nadar de bruços no meio da água salgada, até chegar a terra, isto é, ao chão da cavalariça. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s13p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s12p1",
+        "s13p0",
+        "s13p1"
+      ],
+      "evidence": "Naquela ocasião o cavalo sentia-se deprimido. E chorou uma lágrima. Uma, duas, três que bem as contei. Numa delas escorregou a formiga, a nadar de bruços no meio da água salgada, até chegar a terra, isto é, ao chão da cavalariça. Sacudiu-se do molhado e lá foi à sua vida de trabalhadora incansável. Nunca ela perceberia o que lhe tinha acontecido. Nem ela nem o cavalo. Só nós é que sabemos a história toda.",
+      "after": {
+        "segment": 13,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Naquela ocasião o cavalo sentia-se deprimido. E chorou uma lágrima. Uma, duas, três que bem as contei. Numa delas escorregou a formiga, a nadar de bruços no meio da água salgada, até chegar a terra, isto é, ao chão da cavalariça. Sacudiu-se do molhado e lá foi à sua vida de trabalhadora incansável. Nunca ela perceberia o que lhe tinha acontecido. Nem ela nem o cavalo. Só nós é que sabemos a história toda. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

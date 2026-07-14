@@ -1,0 +1,124 @@
+{
+  "characters": [
+    {
+      "name": "Besnico",
+      "appearance": "small yellow chick"
+    },
+    {
+      "name": "Mother hen",
+      "appearance": "protective adult hen"
+    },
+    {
+      "name": "Cow",
+      "appearance": "black-and-white farm cow"
+    },
+    {
+      "name": "Donkey",
+      "appearance": "gray donkey with long ears"
+    },
+    {
+      "name": "Cat",
+      "appearance": "yellow striped cat asleep in the sun"
+    }
+  ],
+  "environment": "A Portuguese farmyard with a gray chicken coop, yard, sunlit earth, and nearby animals in open rural space.",
+  "palette": [
+    "soft gray",
+    "warm yellow",
+    "earth brown",
+    "sunlit cream",
+    "black and white",
+    "muted green"
+  ],
+  "recurringObjects": [
+    "wire mesh coop",
+    "sunlight",
+    "farmyard ground",
+    "mother hen's wings"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "O pintainho Besnico só conhecia a rede cinzenta da capoeira, onde tinha nascido. Por isso, quando, uma vez, se escapuliu por um buraco da rede e deu os primeiros passos à luz do Sol, foi um espanto. A mãe galinha bem o tinha avisado: \"Nunca saias sem mim. Lá fora há muitos perigos que tu não conheces. Nunca saias sem mim!\" Mas ele saiu. Desobedeceu, o maroto! A verdade é que, pouco tempo depois, estava de volta, muito afogueado , muito exaltado com tudo o que tinha visto.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Se ele estivesse acordado».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O pintainho Besnico só conhecia a rede cinzenta da capoeira, onde tinha nascido. Por isso, quando, uma vez, se escapuliu por um buraco da rede e deu os primeiros passos à luz do Sol, foi um espanto. A mãe galinha bem o tinha avisado: \"Nunca saias sem mim. Lá fora há muitos perigos que tu não conheces. Nunca saias sem mim!\" Mas ele saiu. Desobedeceu, o maroto! A verdade é que, pouco tempo depois, estava de volta, muito afogueado , muito exaltado com tudo o que tinha visto. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "A mãe galinha bem o tinha avisado: \"Nunca saias sem mim. Lá fora há muitos perigos que tu não conheces. Nunca saias sem mim!\" Mas ele saiu. Desobedeceu, o maroto! A verdade é que, pouco tempo depois, estava de volta, muito afogueado , muito exaltado com tudo o que tinha visto. A mãe, primeiro, zangou-se, mas, depois, em voz mais macia, quis saber porque vinha tão nervoso da corrida pela eira da quinta.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A mãe galinha bem o tinha avisado: \"Nunca saias sem mim. Lá fora há muitos perigos que tu não conheces. Nunca saias sem mim!\" Mas ele saiu. Desobedeceu, o maroto! A verdade é que, pouco tempo depois, estava de volta, muito afogueado , muito exaltado com tudo o que tinha visto. A mãe, primeiro, zangou-se, mas, depois, em voz mais macia, quis saber porque vinha tão nervoso da corrida pela eira da quinta. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p1",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "A mãe, primeiro, zangou-se, mas, depois, em voz mais macia, quis saber porque vinha tão nervoso da corrida pela eira da quinta. - Ai, a mãezinha tinha razão - respondeu-lhe o pintainho Besnico. - Há muitos perigos lá fora, muitos bichos esquisitos, grandes, que metem medo. Vi um muito grande, às malhas pretas e brancas, com dois paus na cabeça e um rabo sempre a dar a dar. Que susto! - É a vaca! - explicou a mãe. - Daí não vem mal nenhum.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A mãe, primeiro, zangou-se, mas, depois, em voz mais macia, quis saber porque vinha tão nervoso da corrida pela eira da quinta. - Ai, a mãezinha tinha razão - respondeu-lhe o pintainho Besnico. - Há muitos perigos lá fora, muitos bichos esquisitos, grandes, que metem medo. Vi um muito grande, às malhas pretas e brancas, com dois paus na cabeça e um rabo sempre a dar a dar. Que susto! - É a vaca! - explicou a mãe. - Daí não vem mal nenhum. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "As vacas não fazem mal aos pintos. - E um, cinzento, de grandes orelhas, que batia as patas no chão com toda a força e mostrava os dentes amarelos, enquanto comia a erva do pátio, esse deve ser dos piores, não é? - O burro? - riu-se a mãe. - Desse lado também não há que temer. Os burros não ligam aos pintos.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: As vacas não fazem mal aos pintos. - E um, cinzento, de grandes orelhas, que batia as patas no chão com toda a força e mostrava os dentes amarelos, enquanto comia a erva do pátio, esse deve ser dos piores, não é? - O burro? - riu-se a mãe. - Desse lado também não há que temer. Os burros não ligam aos pintos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p0",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "- E eu que pensava que eram perigosos! - suspirou, aliviado, o pintainho Besnico. - Mas também vi um muito simpático. Estava a dormir ao sol. Tinha uns enormes bigodes, focinho miúdo, orelhas pequenas e o corpo muito fofo, de pêlo amarelo às riscas, muito bonito. Estive quase tentado a dar-lhe uma bicada, de brincadeira... - Nunca! - gritou-lhe a mãe, toda arrepiada. - Esse bicho chama-se gato e, se estivesse acordado, não sei o que seria de ti... A mãe galinha apertou contra ela aquele filhinho inocente, que ainda tinha tanto para aprender na vida, enquanto repetia vezes sem conta: \"Ai, se ele estivesse acordado o que seria de ti... Ai, se ele estivesse acordado...\"",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - E eu que pensava que eram perigosos! - suspirou, aliviado, o pintainho Besnico. - Mas também vi um muito simpático. Estava a dormir ao sol. Tinha uns enormes bigodes, focinho miúdo, orelhas pequenas e o corpo muito fofo, de pêlo amarelo às riscas, muito bonito. Estive quase tentado a dar-lhe uma bicada, de brincadeira... - Nunca! - gritou-lhe a mãe, toda arrepiada. - Esse bicho chama-se gato e, se estivesse acordado, não sei o que seria de ti... A mãe galinha apertou contra ela aquele filhinho inocente, que ainda tinha tanto para aprender na vida, enquanto repetia vezes sem conta: \"Ai, se ele estivesse acordado o que seria de ti... Ai, se ele estivesse acordado...\" Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

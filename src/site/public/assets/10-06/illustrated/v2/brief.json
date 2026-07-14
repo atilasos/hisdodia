@@ -1,0 +1,121 @@
+{
+  "characters": [
+    {
+      "name": "rat",
+      "appearance": "small mouse-like rat with ambitions"
+    },
+    {
+      "name": "colonel",
+      "appearance": "old cavalry colonel"
+    },
+    {
+      "name": "beggar",
+      "appearance": "poorly shod beggar"
+    },
+    {
+      "name": "rat female",
+      "appearance": "antipathetic female rat"
+    }
+  ],
+  "environment": "Portuguese children's story world centered on a worn shoe, a coveted pair of boots, winter street life, and a shoe shop sale.",
+  "palette": [
+    "muted browns",
+    "weathered black leather",
+    "winter gray",
+    "soft cream",
+    "dusty red"
+  ],
+  "recurringObjects": [
+    "old shoe",
+    "pair of boots",
+    "boot lace",
+    "canoe pipe",
+    "sapataria display",
+    "galochas"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um rato que morava num sapato. Um sapato velho, um sapato sem préstimo... Não estava mal de todo. Conheço ratos que nem em chinelo moram. Nem em sandálias. Mas este rato que morava num sapato tinha ambições. Queria uma casa mais desafogada, mais espaçosa. Queria mudar de um sapato para uma bota.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Que Grande Par de Botas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um rato que morava num sapato. Um sapato velho, um sapato sem préstimo... Não estava mal de todo. Conheço ratos que nem em chinelo moram. Nem em sandálias. Mas este rato que morava num sapato tinha ambições. Queria uma casa mais desafogada, mais espaçosa. Queria mudar de um sapato para uma bota. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um rato que morava num sapato. Um sapato velho, um sapato sem préstimo... Não estava mal de todo. Conheço ratos que nem em chinelo moram. Nem em sandálias. Mas este rato que morava num sapato tinha ambições. Queria uma casa mais desafogada, mais espaçosa. Queria mudar de um sapato para uma bota.",
+      "after": {
+        "segment": 0,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um rato que morava num sapato. Um sapato velho, um sapato sem préstimo... Não estava mal de todo. Conheço ratos que nem em chinelo moram. Nem em sandálias. Mas este rato que morava num sapato tinha ambições. Queria uma casa mais desafogada, mais espaçosa. Queria mudar de um sapato para uma bota. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p6",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "Pôs um anúncio: \"BOTA POUCO USADA PRECISA-SE PARA HABITAÇÃO\". E não é que conseguiu?! Um velho coronel de cavalaria vendeu-lhe as botas. Muito em conta. O rato só precisava de uma, mas, já que se proporcionava ficar com as duas, não quis perder a ocasião.",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Pôs um anúncio: \"BOTA POUCO USADA PRECISA-SE PARA HABITAÇÃO\". E não é que conseguiu?! Um velho coronel de cavalaria vendeu-lhe as botas. Muito em conta. O rato só precisava de uma, mas, já que se proporcionava ficar com as duas, não quis perder a ocasião. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p11",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p9",
+        "s0p10",
+        "s0p11"
+      ],
+      "evidence": "Foi à casa velha buscar os cacaréus e voltou aonde tinha deixado as botas. Pois sim, as botas... Onde é que elas já iam... Um mendigo mal calçado, assim que as vira, ali ao desamparo, cobiçara-se delas e levara-as. Que desolação para o pobre rato. Correu para o sapato, mas encontrou-o já ocupado por uma ratazana antipática. Não havia discussão possível.",
+      "after": {
+        "segment": 0,
+        "paragraph": 11
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Foi à casa velha buscar os cacaréus e voltou aonde tinha deixado as botas. Pois sim, as botas... Onde é que elas já iam... Um mendigo mal calçado, assim que as vira, ali ao desamparo, cobiçara-se delas e levara-as. Que desolação para o pobre rato. Correu para o sapato, mas encontrou-o já ocupado por uma ratazana antipática. Não havia discussão possível. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p15",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p13",
+        "s0p14",
+        "s0p15"
+      ],
+      "evidence": "Voltei a encontrá-lo, há dias, numa sapataria. Nuns saldos. Estava muito entusiasmado a comprar umas galochas luzidias, daquelas com enfeites de metal, e enormes. Número 47, vejam bem! Este rato sempre teve a mania das grandezas.",
+      "after": {
+        "segment": 0,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Voltei a encontrá-lo, há dias, numa sapataria. Nuns saldos. Estava muito entusiasmado a comprar umas galochas luzidias, daquelas com enfeites de metal, e enormes. Número 47, vejam bem! Este rato sempre teve a mania das grandezas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,74 @@
+{
+  "characters": [],
+  "environment": "Portuguese domestic interiors and family life",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez duas mulheres. Uma tinha muitos filhos. A outra não tinha nenhum. Um dia, a que não tinha filhos convidou a outra para ir lá a casa. Mas que viesse só. Sim, sobretudo que viesse só, sem a ranchada de filhos atrás, porque ela, sim, tomasse nota, porque ela não gostava de crianças.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Duas Mulheres».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez duas mulheres. Uma tinha muitos filhos. A outra não tinha nenhum. Um dia, a que não tinha filhos convidou a outra para ir lá a casa. Mas que viesse só. Sim, sobretudo que viesse só, sem a ranchada de filhos atrás, porque ela, sim, tomasse nota, porque ela não gostava de crianças. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "Mas que viesse só. Sim, sobretudo que viesse só, sem a ranchada de filhos atrás, porque ela, sim, tomasse nota, porque ela não gostava de crianças. – Ui, são insuportáveis! – dizia. – Desarrumam tudo, sujam tudo, estragam tudo. Eu nunca quis ser mãe porque me falta paciência para aturar gaiatos. A casa dela estava recheada de coisas e coisinhas, todas muito bem colocadas em prateleiras e prateleirinhas. Era uma casa cheia e muito asseada, por onde se andava com muita cautela, quase em bicos de pés, para que as prateleiras não estremecessem e as coisa e coisinhas não se sobressaltassem.",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas que viesse só. Sim, sobretudo que viesse só, sem a ranchada de filhos atrás, porque ela, sim, tomasse nota, porque ela não gostava de crianças. – Ui, são insuportáveis! – dizia. – Desarrumam tudo, sujam tudo, estragam tudo. Eu nunca quis ser mãe porque me falta paciência para aturar gaiatos. A casa dela estava recheada de coisas e coisinhas, todas muito bem colocadas em prateleiras e prateleirinhas. Era uma casa cheia e muito asseada, por onde se andava com muita cautela, quase em bicos de pés, para que as prateleiras não estremecessem e as coisa e coisinhas não se sobressaltassem. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p10",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p8",
+        "s1p9",
+        "s1p10"
+      ],
+      "evidence": "Quando, já de chávenas na mão, deram pela falta do açúcar, a mãe pediu: – Rosa, pega no açucareiro e vai a casa da vizinha Adriana pôr uns torrõezinhos – pediu a mãe. – Mas, depois, não os comas pelo caminho... Toda a miudagem se riu. Era uma casa muito alegre.",
+      "after": {
+        "segment": 1,
+        "paragraph": 10
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando, já de chávenas na mão, deram pela falta do açúcar, a mãe pediu: – Rosa, pega no açucareiro e vai a casa da vizinha Adriana pôr uns torrõezinhos – pediu a mãe. – Mas, depois, não os comas pelo caminho... Toda a miudagem se riu. Era uma casa muito alegre. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s2p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p11",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Depois do chá, a filha Noémia pôs-se a pentear a mãe, que era uma maneira de fazer-lhe festas. Com o Toninho ao colo, o mais novo do rancho, a mulher que tinha muitos filhos conversava despreocupadamente com a mulher que não tinha filhos. – Eles são a minha riqueza – contava ela, sorrindo e fazendo um grande gesto em roda. A mulher sem filhos compreendeu e até talvez sentisse, lá no íntimo (que é o sítio onde se guarda o coração...) e reconsiderasse, finalmente, que a mulher com filhos era muito mais rica do que ela.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Depois do chá, a filha Noémia pôs-se a pentear a mãe, que era uma maneira de fazer-lhe festas. Com o Toninho ao colo, o mais novo do rancho, a mulher que tinha muitos filhos conversava despreocupadamente com a mulher que não tinha filhos. – Eles são a minha riqueza – contava ela, sorrindo e fazendo um grande gesto em roda. A mulher sem filhos compreendeu e até talvez sentisse, lá no íntimo (que é o sítio onde se guarda o coração...) e reconsiderasse, finalmente, que a mulher com filhos era muito mais rica do que ela. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

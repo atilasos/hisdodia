@@ -1,0 +1,128 @@
+{
+  "characters": [
+    {
+      "name": "gato do telhado",
+      "appearance": "gato doméstico curioso e sonhador"
+    },
+    {
+      "name": "gato de janela",
+      "appearance": "gato doméstico curioso e sonhador"
+    }
+  ],
+  "environment": "Uma casa em construção imaginária, com telhado, janelas, madeiras e telhas, num tom lúdico e de sonho noturno.",
+  "palette": [
+    "azuis noturnos",
+    "amarelos suaves",
+    "cinzas quentes",
+    "castanhos de madeira",
+    "brancos luminosos"
+  ],
+  "recurringObjects": [
+    "lua cheia",
+    "telhas",
+    "madeiras",
+    "casa incompleta"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O gato do telhado, que passava o dia no telhado, e o gato de janela, que passava o dia à janela, quiseram mudar de vida. - Vamos fazer uma casa só para nós - propôs um deles. - Boa ideia! Boa ideia! - aplaudiu o outro.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Os Sonhos dos Gatos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O gato do telhado, que passava o dia no telhado, e o gato de janela, que passava o dia à janela, quiseram mudar de vida. - Vamos fazer uma casa só para nós - propôs um deles. - Boa ideia! Boa ideia! - aplaudiu o outro. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "- Para construir uma casa, temos de começar pelo princípio - decidiu um deles. - Pois claro! Pois claro! - concordou o outro. Até este ponto não houve problemas.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Para construir uma casa, temos de começar pelo princípio - decidiu um deles. - Pois claro! Pois claro! - concordou o outro. Até este ponto não houve problemas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p2",
+        "s2p3",
+        "s2p4"
+      ],
+      "evidence": "- Começa-se pelas janelas - contrapôs o outro. Aqui não se entenderam. Discutiram, miaram, remiaram, bufaram e até se agatanharam . - Vou construir a minha casa sozinho - disse um deles.",
+      "after": {
+        "segment": 2,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Começa-se pelas janelas - contrapôs o outro. Aqui não se entenderam. Discutiram, miaram, remiaram, bufaram e até se agatanharam . - Vou construir a minha casa sozinho - disse um deles. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p4",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "- Vou construir a minha casa sozinho - disse um deles. - E eu também vou construir a minha casa sem mais ajuda - disse o outro. Estava desfeita a sociedade. Cada qual foi para seu lado.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Vou construir a minha casa sozinho - disse um deles. - E eu também vou construir a minha casa sem mais ajuda - disse o outro. Estava desfeita a sociedade. Cada qual foi para seu lado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p2",
+        "s4p3",
+        "s4p4"
+      ],
+      "evidence": "Depois adormeceu em cima da sua obra. O gato da janela juntou umas madeiras, pregou-as umas às outras, e miou, feliz da vida: - Na construção sou campeão!",
+      "after": {
+        "segment": 4,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Depois adormeceu em cima da sua obra. O gato da janela juntou umas madeiras, pregou-as umas às outras, e miou, feliz da vida: - Na construção sou campeão! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s5p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s5p1",
+        "s5p2",
+        "s5p3"
+      ],
+      "evidence": "Querem acordá-los do seu sonho de gatos sem eira nem beira? Querem desiludi-los e dizer-lhes que estão ambos enganados? Não querem? Nós também não.",
+      "after": {
+        "segment": 5,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Querem acordá-los do seu sonho de gatos sem eira nem beira? Querem desiludi-los e dizer-lhes que estão ambos enganados? Não querem? Nós também não. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

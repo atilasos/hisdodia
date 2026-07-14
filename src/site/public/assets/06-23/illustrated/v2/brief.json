@@ -1,0 +1,141 @@
+{
+  "characters": [
+    {
+      "name": "grão de areia do mar",
+      "appearance": "pequeno grão de areia"
+    },
+    {
+      "name": "grão de areia da pedreira",
+      "appearance": "pequeno grão de areia"
+    },
+    {
+      "name": "menino",
+      "appearance": "criança com sandálias"
+    },
+    {
+      "name": "mãe",
+      "appearance": "adulta"
+    },
+    {
+      "name": "relojoeiro",
+      "appearance": "adulto com lupa"
+    }
+  ],
+  "environment": "Praia, ruas, quintal, mar, interior de relógio e oficina de relojoeiro, com percurso errante de dois grãos de areia até à reunião final.",
+  "palette": [
+    "areia dourada",
+    "azuis marítimos",
+    "ocres e terras",
+    "brancos suaves",
+    "metal envelhecido"
+  ],
+  "recurringObjects": [
+    "grão de areia",
+    "sandálias",
+    "relógio",
+    "lupa",
+    "pinça"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Dois grãos de areia encontraram-se, numa praia. Vinham de sítios diferentes. Um andara pelo mar, revolvido do fundo, ao sabor de ondas e marés. O outro provinha de uma pedreira, esbarrondada por chuvas e vendavais. Não tinham a mesma experiência de vida. O grão do mar, encostado ao grão de terra, pôs-se a recordar: - Milhares de anos até vir aqui ter... O que eu passei!",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Dois grãos de areia».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Dois grãos de areia encontraram-se, numa praia. Vinham de sítios diferentes. Um andara pelo mar, revolvido do fundo, ao sabor de ondas e marés. O outro provinha de uma pedreira, esbarrondada por chuvas e vendavais. Não tinham a mesma experiência de vida. O grão do mar, encostado ao grão de terra, pôs-se a recordar: - Milhares de anos até vir aqui ter... O que eu passei! Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "- Milhares de anos até vir aqui ter... O que eu passei! - E eu? - suspirava o outro grãozinho. - Se te contasse, nem acreditavas... - Merecemos descanso - concluiu o grão do mar.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Milhares de anos até vir aqui ter... O que eu passei! - E eu? - suspirava o outro grãozinho. - Se te contasse, nem acreditavas... - Merecemos descanso - concluiu o grão do mar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "- Não é culpa minha. Empurram-me outros grãos. São muitos. - É o inconveniente destas praias. Muito povoadas de grãos de areia - lamentou-se o do mar. - Quem me dera um espaço só para mim! O destino fez-lhe a vontade.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Não é culpa minha. Empurram-me outros grãos. São muitos. - É o inconveniente destas praias. Muito povoadas de grãos de areia - lamentou-se o do mar. - Quem me dera um espaço só para mim! O destino fez-lhe a vontade. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "As sandálias de um menino arrebataram-no. Nem tempo teve de se despedir do companheiro de ocasião... - Tens as sandálias cheias de areia - disse a mãe do menino ao menino, à porta de casa. - Sacode-as bem. Ele assim fez e o grão de areia saiu disparado para um cova de rua.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: As sandálias de um menino arrebataram-no. Nem tempo teve de se despedir do companheiro de ocasião... - Tens as sandálias cheias de areia - disse a mãe do menino ao menino, à porta de casa. - Sacode-as bem. Ele assim fez e o grão de areia saiu disparado para um cova de rua. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s9p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s9p0",
+        "s9p1",
+        "s9p2"
+      ],
+      "evidence": "O relojoeiro abriu a caixa do relógio e, de lupa assestada no olho esquerdo, debruçou-se para os rodízios, que pulsavam nervosamente. - Tem um grão de areia na alma, a travar o mecanismo. Isto disse o relojoeiro, como se fosse um cirurgião e o relógio um doente. Com uma pinça desalojou o grãozinho.",
+      "after": {
+        "segment": 9,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O relojoeiro abriu a caixa do relógio e, de lupa assestada no olho esquerdo, debruçou-se para os rodízios, que pulsavam nervosamente. - Tem um grão de areia na alma, a travar o mecanismo. Isto disse o relojoeiro, como se fosse um cirurgião e o relógio um doente. Com uma pinça desalojou o grãozinho. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s11p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s11p1",
+        "s11p2",
+        "s11p3"
+      ],
+      "evidence": "- Por onde é que andou? - Por aí, um pouco ao acaso - respondeu o grãozinho recém-chegado. - Eu também - respondeu o mais velho no lugar. - Mas já descansei. Tão sozinho que estava, já me sentia mal.",
+      "after": {
+        "segment": 11,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Por onde é que andou? - Por aí, um pouco ao acaso - respondeu o grãozinho recém-chegado. - Eu também - respondeu o mais velho no lugar. - Mas já descansei. Tão sozinho que estava, já me sentia mal. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

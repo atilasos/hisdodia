@@ -1,0 +1,85 @@
+{
+  "characters": [],
+  "environment": "Serra path at dusk, with cold wind, pine trees, rocks, and a convent approach in the distance.",
+  "palette": [
+    "muted twilight blues",
+    "cold gray rock",
+    "dark pine green",
+    "wolf-black",
+    "warm stone beige"
+  ],
+  "recurringObjects": [
+    "hooded friar's capuche",
+    "wolf's red eyes",
+    "mountain path",
+    "convent walls"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era um frade de capuz descido, a caminho do mosteiro, no cimo da serra. A friagem do princípio da noite era de respeito. Vinha tocada pelo vento, que assobiava pelas frinchas dos rochedos e despenteava as copas dos pinheiros. O frade tremia. Tremia de frio ou tremia de medo?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Capuchinho e o Lobo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era um frade de capuz descido, a caminho do mosteiro, no cimo da serra. A friagem do princípio da noite era de respeito. Vinha tocada pelo vento, que assobiava pelas frinchas dos rochedos e despenteava as copas dos pinheiros. O frade tremia. Tremia de frio ou tremia de medo? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p6",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "- Que Santa-ta-ta Bár-ba-ba-ra me-me livre dos lo-bos-bos-bos... Nem de propósito. Salta-lhe um lobo ao caminho, com os olhos em fogo e uma dentadura de escárnio e malvadez, que metia impressão.",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Que Santa-ta-ta Bár-ba-ba-ra me-me livre dos lo-bos-bos-bos... Nem de propósito. Salta-lhe um lobo ao caminho, com os olhos em fogo e uma dentadura de escárnio e malvadez, que metia impressão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p22",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p20",
+        "s0p21",
+        "s0p22"
+      ],
+      "evidence": "- Ó capuchinho, que pressa a tua! Quando tu chegares a casa da avó, ainda ela se zanga contigo, se te vê toda suada, nesse desalinho de menina tontelas... Neste ponto, o frade, não aguentando mais o bafo do lobo, gritou, num desespero: - Não tenho avó e para onde eu vou é para o convento, se Deus quiser.",
+      "after": {
+        "segment": 0,
+        "paragraph": 22
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Ó capuchinho, que pressa a tua! Quando tu chegares a casa da avó, ainda ela se zanga contigo, se te vê toda suada, nesse desalinho de menina tontelas... Neste ponto, o frade, não aguentando mais o bafo do lobo, gritou, num desespero: - Não tenho avó e para onde eu vou é para o convento, se Deus quiser. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p29",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p27",
+        "s0p28",
+        "s0p29"
+      ],
+      "evidence": "- Quando a gente é pequena acredita em tudo o que nos contam... Nunca supus que o capuchinho tivesse voz de trovão. Até se me puseram os pelos em pé do susto que apanhei. E o lobo pôs-se a alisar os pelos do dorso com a língua salivosa. Se a noite desse para vê-lo, dir-se-ia um cachorrinho desapontado. Metia pena. Por sua vez, o frade, que, derreado, já se aproximava dos muros do convento, ainda teve fôlego para lançar às estrelas a sua possante voz, num cântico de louvor a Santa Bárbara, madrinha dos caminhantes, amansadora da braveza das feras.",
+      "after": {
+        "segment": 0,
+        "paragraph": 29
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Quando a gente é pequena acredita em tudo o que nos contam... Nunca supus que o capuchinho tivesse voz de trovão. Até se me puseram os pelos em pé do susto que apanhei. E o lobo pôs-se a alisar os pelos do dorso com a língua salivosa. Se a noite desse para vê-lo, dir-se-ia um cachorrinho desapontado. Metia pena. Por sua vez, o frade, que, derreado, já se aproximava dos muros do convento, ainda teve fôlego para lançar às estrelas a sua possante voz, num cântico de louvor a Santa Bárbara, madrinha dos caminhantes, amansadora da braveza das feras. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

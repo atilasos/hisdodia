@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Contava o Joca à mãe: - Hoje, na piscina, vi uma borboleta a voar por cima da água. - Mas onde está a admiração? - dizia-lhe a mãe.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Os pardais ensinam».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Contava o Joca à mãe: - Hoje, na piscina, vi uma borboleta a voar por cima da água. - Mas onde está a admiração? - dizia-lhe a mãe. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "- Então a borboleta não é animal? - quis saber o Joca. - E os pardais também não são animais? Sim, porque eu vi, há dias, três pardais ao pé do self-service da piscina. Ninguém os mandou embora... Havia que explicar ao Joca que os pardais, não sabendo ler, tinham de ser desculpados do atrevimento. Pouco mais ou menos, foi isto o que a mãe disse ao filho. Mas a senhora estava enganada, muito enganada.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Então a borboleta não é animal? - quis saber o Joca. - E os pardais também não são animais? Sim, porque eu vi, há dias, três pardais ao pé do self-service da piscina. Ninguém os mandou embora... Havia que explicar ao Joca que os pardais, não sabendo ler, tinham de ser desculpados do atrevimento. Pouco mais ou menos, foi isto o que a mãe disse ao filho. Mas a senhora estava enganada, muito enganada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "Não só os pardais sabiam do cartaz, à entrada da piscina, como sabiam muito bem que não estavam abrangidos pela proibição escrita no cartaz. Estranham? Admiram-se? Pois venham connosco ouvir a conversa dos pardais: Pardal - Ricas férias, amigos! Valeu a pena voar de tão longe...",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não só os pardais sabiam do cartaz, à entrada da piscina, como sabiam muito bem que não estavam abrangidos pela proibição escrita no cartaz. Estranham? Admiram-se? Pois venham connosco ouvir a conversa dos pardais: Pardal - Ricas férias, amigos! Valeu a pena voar de tão longe... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "Os banhistas que tragam os seus queridos animaizinhos de estimação têm de ficar à porta. Bem feito. Pardalinho - O aviso, à entrada, é bem claro. Lembram-se do que lá vem? Pardal, Pardalinho e Pardalão (em coro) - NÃO É PERMITIDA A ENTRADA A PESSOAS ACOMPANHADAS DE ANIMAIS.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os banhistas que tragam os seus queridos animaizinhos de estimação têm de ficar à porta. Bem feito. Pardalinho - O aviso, à entrada, é bem claro. Lembram-se do que lá vem? Pardal, Pardalinho e Pardalão (em coro) - NÃO É PERMITIDA A ENTRADA A PESSOAS ACOMPANHADAS DE ANIMAIS. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p2",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "Como se vê, os pardais sabem ler e tirar as suas conclusões. Se o Joca e a mãe passarem os olhos por estas linhas, também hão-de chegar a uma conclusão. A de que não basta ler. É preciso ler sempre bem e aproveitar o mais possível o que se lê. Os pardais ensinam.",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Como se vê, os pardais sabem ler e tirar as suas conclusões. Se o Joca e a mãe passarem os olhos por estas linhas, também hão-de chegar a uma conclusão. A de que não basta ler. É preciso ler sempre bem e aproveitar o mais possível o que se lê. Os pardais ensinam. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

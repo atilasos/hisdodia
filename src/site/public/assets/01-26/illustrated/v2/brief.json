@@ -1,0 +1,116 @@
+{
+  "characters": [
+    {
+      "name": "O emigrante",
+      "appearance": "Homem pobre regressado do Brasil, roupa simples de trabalho, aspeto cansado, a conduzir ou vender um papagaio"
+    },
+    {
+      "name": "O papagaio",
+      "appearance": "Papagaio colorido e esperto, dentro de gaiola ou pousado, expressão viva e observadora"
+    },
+    {
+      "name": "O lavrador",
+      "appearance": "Lavrador do campo, ar desconfiado e vaidoso, roupa rural tradicional"
+    }
+  ],
+  "environment": "Portugal rural de feira ao ar livre, com bancas, gente do povo, depois uma casa de lavrador com gaiola do papagaio",
+  "palette": [
+    "verdes naturais",
+    "castanhos terrosos",
+    "vermelhos quentes",
+    "amarelos vivos",
+    "azuis desbotados"
+  ],
+  "recurringObjects": [
+    "papagaio",
+    "gaiola",
+    "feira",
+    "banca de venda",
+    "dinheiro"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Do Brasil regressara à sua terra um pobre emigrante. Como única riqueza, trazia um papagaio. Pacientemente, o homem tinha ensinado o papagaio a dizer: \"Não há dúvida\". Um dia, o homem resolveu vender o papagaio.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Papagaio».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Do Brasil regressara à sua terra um pobre emigrante. Como única riqueza, trazia um papagaio. Pacientemente, o homem tinha ensinado o papagaio a dizer: \"Não há dúvida\". Um dia, o homem resolveu vender o papagaio. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "- Quem quer comprar um papagaio? Um papagaio muito esperto por cinco mil euros... Mas ninguém estava interessado. Então o homem mudou de pregão .",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Quem quer comprar um papagaio? Um papagaio muito esperto por cinco mil euros... Mas ninguém estava interessado. Então o homem mudou de pregão . Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "E pôs-se a apregoar assim: - Quem quer comprar este ser inteligente, que além do mais também é papagaio. É um sábio com penas! Ele sabe tudo e custa pouco. Por quinze mil euros, leva um sábio para casa, que até distrai e faz vista, porque é tal e qual um papagaio. Quinze mil euros, quem compra? Aproximou-se um lavrador, que tinha menos de inteligência que de riqueza.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E pôs-se a apregoar assim: - Quem quer comprar este ser inteligente, que além do mais também é papagaio. É um sábio com penas! Ele sabe tudo e custa pouco. Por quinze mil euros, leva um sábio para casa, que até distrai e faz vista, porque é tal e qual um papagaio. Quinze mil euros, quem compra? Aproximou-se um lavrador, que tinha menos de inteligência que de riqueza. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p3",
+        "s3p4",
+        "s4p0"
+      ],
+      "evidence": "- E és realmente um sábio disfarçado de papagaio? Um grande sábio? - perguntou o lavrador. - Não há dúvida - respondeu o papagaio. O lavrador ficou espantado e comprou logo o papagaio, que levou para casa.",
+      "after": {
+        "segment": 4,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - E és realmente um sábio disfarçado de papagaio? Um grande sábio? - perguntou o lavrador. - Não há dúvida - respondeu o papagaio. O lavrador ficou espantado e comprou logo o papagaio, que levou para casa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p2",
+        "s4p3",
+        "s5p0"
+      ],
+      "evidence": "Um dia, o lavrador, que já se arrependera de ter caído na esparrela , lamentou-se, junto da gaiola do passaroco: - Que burro que eu fui em ter dado tanto dinheiro por um papagaio! - Não há dúvida - gritou o papagaio. - Não há dúvida!",
+      "after": {
+        "segment": 5,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um dia, o lavrador, que já se arrependera de ter caído na esparrela , lamentou-se, junto da gaiola do passaroco: - Que burro que eu fui em ter dado tanto dinheiro por um papagaio! - Não há dúvida - gritou o papagaio. - Não há dúvida! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

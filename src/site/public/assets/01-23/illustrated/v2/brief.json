@@ -1,0 +1,99 @@
+{
+  "characters": [
+    {
+      "name": "Boneco de Neve",
+      "appearance": "Boneco de neve simples, arredondado, com expressão variável ao longo da história."
+    },
+    {
+      "name": "Esquiadores",
+      "appearance": "Várias pessoas de inverno em movimento, vistas em grupo."
+    },
+    {
+      "name": "Pessoas no vale",
+      "appearance": "Grupo de pessoas na neve, observando e reagindo ao perigo."
+    }
+  ],
+  "environment": "Serra da Estrela coberta de neve, com encosta, vale e paredão ao longe.",
+  "palette": [
+    "brancos frios",
+    "azuis gelados",
+    "cinzas suaves",
+    "toques de vermelho discreto",
+    "marrons apagados"
+  ],
+  "recurringObjects": [
+    "neve",
+    "encosta",
+    "esquis",
+    "paredão",
+    "bonecos de neve"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Estava um boneco de neve, na Serra da Estrela, à espera nem ele sabia do quê. Sair donde estava não podia, porque não lhe tinham feito as pernas. E tanto que gostava de conhecer outras paisagens, conquistar mais espaço, alongar a sombra... Só se rebolasse. Deu um jeito ao corpo e descolou de um lado. Deu mais um jeito e descolou do outro. Balançou.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Boneco de Neve».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Estava um boneco de neve, na Serra da Estrela, à espera nem ele sabia do quê. Sair donde estava não podia, porque não lhe tinham feito as pernas. E tanto que gostava de conhecer outras paisagens, conquistar mais espaço, alongar a sombra... Só se rebolasse. Deu um jeito ao corpo e descolou de um lado. Deu mais um jeito e descolou do outro. Balançou. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s1p0"
+      ],
+      "evidence": "Sair donde estava não podia, porque não lhe tinham feito as pernas. E tanto que gostava de conhecer outras paisagens, conquistar mais espaço, alongar a sombra... Só se rebolasse. Deu um jeito ao corpo e descolou de um lado. Deu mais um jeito e descolou do outro. Balançou. Com um novo impulso, rebolou encosta abaixo.",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Sair donde estava não podia, porque não lhe tinham feito as pernas. E tanto que gostava de conhecer outras paisagens, conquistar mais espaço, alongar a sombra... Só se rebolasse. Deu um jeito ao corpo e descolou de um lado. Deu mais um jeito e descolou do outro. Balançou. Com um novo impulso, rebolou encosta abaixo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "- gritava o boneco, cada vez mais forte, cada vez maior, cada vez mais cheio de si. Um brutamontes. Já não era um boneco, mas uma bola de neve. Dantes, tão simpático. Agora tão arrogante. - Uma avalanche! - gritaram, no vale. - Vem aí uma avalanche de neve!",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - gritava o boneco, cada vez mais forte, cada vez maior, cada vez mais cheio de si. Um brutamontes. Já não era um boneco, mas uma bola de neve. Dantes, tão simpático. Agora tão arrogante. - Uma avalanche! - gritaram, no vale. - Vem aí uma avalanche de neve! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "De roldão por ali abaixo, destruindo tudo por onde passava, a bola de neve era uma ameaça. Vá lá que acabou desfeita de encontro a um paredão. - Passou o perigo - suspiraram de alívio as pessoas, que andavam a brincar na neve. Algumas entretinham-se a fazer bonecos de neve.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: De roldão por ali abaixo, destruindo tudo por onde passava, a bola de neve era uma ameaça. Vá lá que acabou desfeita de encontro a um paredão. - Passou o perigo - suspiraram de alívio as pessoas, que andavam a brincar na neve. Algumas entretinham-se a fazer bonecos de neve. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

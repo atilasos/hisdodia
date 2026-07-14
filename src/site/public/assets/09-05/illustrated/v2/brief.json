@@ -1,0 +1,119 @@
+{
+  "characters": [],
+  "environment": "Praia esplanada contemporânea junto ao mar, com uma casa desabitada evocada em memória e uma jovem senhora a tricotar numa mesa próxima",
+  "palette": [
+    "tons de areia",
+    "azuis costeiros",
+    "brancos gastos",
+    "verdes suaves",
+    "vermelhos desbotados"
+  ],
+  "recurringObjects": [
+    "boneca de trapos",
+    "máquina de costura",
+    "casaquinho de bebé",
+    "tricot"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Eu estava na esplanada da praia a escrever uma história. Nada de especial. Era uma história que metia uma boneca, uma mona feita de trapos, com quem já ninguém brincava. Esquecida a um canto de uma casa há muito desabitada, a mona devia ter saudades do tempo em que era acarinhada por uma menina, a sua dona de outrora. Há quanto tempo... A menina devia ser, agora, uma velhinha.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Duas histórias».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eu estava na esplanada da praia a escrever uma história. Nada de especial. Era uma história que metia uma boneca, uma mona feita de trapos, com quem já ninguém brincava. Esquecida a um canto de uma casa há muito desabitada, a mona devia ter saudades do tempo em que era acarinhada por uma menina, a sua dona de outrora. Há quanto tempo... A menina devia ser, agora, uma velhinha. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "Nem a boneca conseguia sequer recordar-se do rosto dessa menina. Nunca mais tinham sabido uma da outra. A verdade é que estava só. Vontade de brincar não lhe faltava, mas com quem? Neste ponto da minha história, eu hesitei. Pedi outro café ao criado e olhei em volta.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Nem a boneca conseguia sequer recordar-se do rosto dessa menina. Nunca mais tinham sabido uma da outra. A verdade é que estava só. Vontade de brincar não lhe faltava, mas com quem? Neste ponto da minha história, eu hesitei. Pedi outro café ao criado e olhei em volta. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Na praia, muitos banhistas, mas na esplanada só eu e, numa mesa perto, uma jovem senhora a tricotar. Foi então que me surgiu uma ideia para continuar a minha história. Pus-me logo a escrever. A boneca solitária, feita de trapos, decidiu fabricar uma boneca igual a ela. Com que materiais?",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Na praia, muitos banhistas, mas na esplanada só eu e, numa mesa perto, uma jovem senhora a tricotar. Foi então que me surgiu uma ideia para continuar a minha história. Pus-me logo a escrever. A boneca solitária, feita de trapos, decidiu fabricar uma boneca igual a ela. Com que materiais? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "Com os seus próprios trapos. Ficaria mais magra, mais pequena, mas juntaria a ela uma companheira. Por sinal que, na casa desabitada, uma máquina de costura meio ferrugenta, mas ainda prestimosa, ofereceu os seus serviços. - Mãos à obra - exclamou a boneca de trapos, entusiasmada.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Com os seus próprios trapos. Ficaria mais magra, mais pequena, mas juntaria a ela uma companheira. Por sinal que, na casa desabitada, uma máquina de costura meio ferrugenta, mas ainda prestimosa, ofereceu os seus serviços. - Mãos à obra - exclamou a boneca de trapos, entusiasmada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p2",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "- Mãos à obra - exclamou a boneca de trapos, entusiasmada. Descoseu-se, esventrou-se, cortou, coseu, encheu e uma bonequinha parecida com ela começou a ganhar forma. Era um mona trangalhadanças, mas ia ser uma óptima companheira. A bonequinha ganhou forma, ganhou vida e eu estava quase no fim da minha história.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Mãos à obra - exclamou a boneca de trapos, entusiasmada. Descoseu-se, esventrou-se, cortou, coseu, encheu e uma bonequinha parecida com ela começou a ganhar forma. Era um mona trangalhadanças, mas ia ser uma óptima companheira. A bonequinha ganhou forma, ganhou vida e eu estava quase no fim da minha história. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s7p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p1",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "A jovem senhora apreciou, ternamente, a sua obra. Pareceu-me até que sorriu para o casaquinho. Não sei se já disse que a senhora ostentava um evidente volume de corpo de quem espera bebé, para breve... E aqui têm como, numa só história, cabem duas histórias. Ou muitas...",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A jovem senhora apreciou, ternamente, a sua obra. Pareceu-me até que sorriu para o casaquinho. Não sei se já disse que a senhora ostentava um evidente volume de corpo de quem espera bebé, para breve... E aqui têm como, numa só história, cabem duas histórias. Ou muitas... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

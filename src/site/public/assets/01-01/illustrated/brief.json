@@ -1,0 +1,89 @@
+{
+  "characters": [
+    {
+      "name": "Moleiro",
+      "appearance": "Homem adulto robusto, rosto e roupa cobertos de farinha branca, bigode curto, chapéu e avental de trabalho gastos, expressão teimosa mas não agressiva"
+    },
+    {
+      "name": "Filho do moleiro",
+      "appearance": "Rapaz magro, roupa de criança de trabalho com manchas de farinha, cabelo desalinhado, olhar vivo e curioso"
+    },
+    {
+      "name": "Carvoeiro",
+      "appearance": "Homem adulto robusto, rosto e roupa muito enegrecidos de carvão, bigode curto, chapéu e roupa de trabalho gastos, expressão teimosa mas não agressiva"
+    },
+    {
+      "name": "Filho do carvoeiro",
+      "appearance": "Rapaz magro, roupa de criança de trabalho com manchas de carvão, cabelo desalinhado, olhar vivo e orgulhoso"
+    },
+    {
+      "name": "Velho camponês",
+      "appearance": "Homem idoso de barbas respeitáveis, roupa simples de campo, postura calma, olhar firme e sábio"
+    },
+    {
+      "name": "Camponeses",
+      "appearance": "Grupo pequeno de aldeões com roupas de trabalho simples, corpos expressivos e discretamente caricaturados"
+    }
+  ],
+  "environment": "Estrada rural de terra entre campos e aldeia, com moinhos ao longe e vento leve; poeira de farinha e carvão mistura-se no ar e no chão; cenário campestre aberto, com fundos por vezes incompletos e muito espaço vazio",
+  "palette": [
+    "farinha branca",
+    "carvão preto",
+    "cinzento poeirento",
+    "ocre de estrada",
+    "castanho quente",
+    "verde apagado",
+    "azul lavado muito discreto"
+  ],
+  "recurringObjects": [
+    "sacas de farinha",
+    "sacas de carvão",
+    "chapéus de trabalho",
+    "estrada poeirenta",
+    "nuvem cinzenta de pó misto"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "after": null,
+      "layout": "opening",
+      "description": "Os dois homens e os dois rapazes avançam em lados opostos da estrada rural, prontos a cruzar-se. A composição deve mostrar logo a diferença entre farinha e carvão nas roupas, com os moinhos ao longe e bastante espaço vazio em volta, num tom calmo e observador.",
+      "alt": "Dois trabalhadores e os filhos cruzam-se na estrada.",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. No tempo em que as velas dos moinhos rodavam ao vento, um moleiro, todo enfarinhado de carregar com sacas de farinha, cruzou-se, na estrada, com um carvoeiro todo enfarruscado de carregar com sacas de carvão. Esquecemo-nos de dizer que ao lado do moleiro ia o filho do moleiro e ao lado do carvoeiro, o filho do carvoeiro. Nesse tempo também, os filhos dos moleiros não tinham outro destino senão ser moleiros e os filhos dos carvoeiros não podiam ambicionar outra vida senão ser carvoeiros. - Ó pai, já viste aqueles dois tão sujos que ali vão? - disse o filho do moleiro para o moleiro. O filho do  Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "layout": "double-page",
+      "description": "Os dois rapazes trocam insultos e os pais reagem, formando uma barreira tensa no meio da estrada. A cena deve captar a viragem do conflito com poses abertas, faces fechadas e o início da agitação entre farinha e carvão.",
+      "alt": "Os rapazes trocam provocações na estrada.",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. - Sujos vão eles - lançou o garoto do carvoeiro. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "layout": "double-page",
+      "description": "A zaragata está no auge, com braços, pernas e nuvens de pó a cruzarem-se de forma confusa. O ambiente deve parecer caótico mas ainda leve e legível, com o cinzento da mistura a dominar e os detalhes do fundo quase a desaparecer.",
+      "alt": "A confusão enche a estrada de pó cinzento.",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Mãos que ameaçam, murros que se cruzam, joelhadas que fervem, e os que estavam brancos ficaram manchados de preto e os que estavam pretos ficaram manchados de branco. De mistura com o pó da estrada, uma nuvem cinzenta - cinzenta de carvão e farinha - rodeou os contendores. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "after": {
+        "segment": 1,
+        "paragraph": 6
+      },
+      "layout": "marginal",
+      "description": "O velho camponês intervém e os dois rapazes, depois os pais, abraçam-se com relutância que se transforma em riso. A imagem deve transmitir alívio, reconciliação e a ironia visual de todos ficarem ainda mais sujos, com o velho a funcionar como centro moral da cena.",
+      "alt": "Um velho manda-os abraçar e tudo acaba em riso.",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Os garotos, um pouco reticentes, abraçaram-se. Os homens, um pouco contravontade, abraçaram-se. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

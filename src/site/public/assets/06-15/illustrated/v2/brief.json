@@ -1,0 +1,113 @@
+{
+  "characters": [
+    {
+      "name": "Rapazinho",
+      "appearance": "Menino com uma T-shirt branca com um grande A impresso no peito"
+    },
+    {
+      "name": "T-shirt/Camisola",
+      "appearance": "Peça de roupa falante, identificada por um grande A no peito"
+    }
+  ],
+  "environment": "Cenários quotidianos de rua e conversa em torno do rapaz e da roupa, com evolução para uma explicação e um efeito em cadeia nas restantes peças de vestuário.",
+  "palette": [
+    "branco",
+    "azul",
+    "vermelho",
+    "amarelo",
+    "tons neutros"
+  ],
+  "recurringObjects": [
+    "T-shirt com A no peito",
+    "letras iniciais",
+    "roupa de inverno",
+    "meias",
+    "blusas",
+    "calças"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Era uma vez uma T-shirt com um A impresso no peito. Ou melhor: era uma vez um rapazinho com uma T-shirt, que tinha um A impresso no peito. Um A grande. Muito bem desenhado. Com dois traços assim, a descer, cada qual para seu lado, e outro assim, a cortá-los, na horizontal. Claro que todos sabem como é que se escreve um A. Mas deixem-me também a mim provar que sei... Perguntavam ao menino, o tal da T-shirt com um A impresso no peito:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Um A no peito».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma T-shirt com um A impresso no peito. Ou melhor: era uma vez um rapazinho com uma T-shirt, que tinha um A impresso no peito. Um A grande. Muito bem desenhado. Com dois traços assim, a descer, cada qual para seu lado, e outro assim, a cortá-los, na horizontal. Claro que todos sabem como é que se escreve um A. Mas deixem-me também a mim provar que sei... Perguntavam ao menino, o tal da T-shirt com um A impresso no peito: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p11",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p9",
+        "s2p10",
+        "s2p11"
+      ],
+      "evidence": "- Não. - Albano? - Não.",
+      "after": {
+        "segment": 2,
+        "paragraph": 11
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Não. - Albano? - Não. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p4",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p2",
+        "s3p3",
+        "s3p4"
+      ],
+      "evidence": "- Timóteo? Mas não tem A. Espera: estás a usar uma T-shirt emprestada? - Não. - Nesse caso o A é nome de família... Chamas-te Timóteo Alves? Almeida? Amorim? Andrade? Antunes?",
+      "after": {
+        "segment": 3,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Timóteo? Mas não tem A. Espera: estás a usar uma T-shirt emprestada? - Não. - Nesse caso o A é nome de família... Chamas-te Timóteo Alves? Almeida? Amorim? Andrade? Antunes? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s4p3"
+      ],
+      "evidence": "Só então é que a T-shirt se explicou: - Não gosto que me tratem por T-shirt. Chamo-me Camisola de Manga Curta e de Algodão. O A de algodão é nome de família. Foi a partir desta altura que as outras peças de roupa passaram a exigir, bem assinaladas, as respectivas letras iniciais do apelido.",
+      "after": {
+        "segment": 4,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Só então é que a T-shirt se explicou: - Não gosto que me tratem por T-shirt. Chamo-me Camisola de Manga Curta e de Algodão. O A de algodão é nome de família. Foi a partir desta altura que as outras peças de roupa passaram a exigir, bem assinaladas, as respectivas letras iniciais do apelido. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "L de lã para as meias. S de seda para as blusas. F de feltro para as calças. E se não fizermos a vontade, a roupa já disse que deixa de nos servir. Que transtorno, ehm!? Principalmente no Inverno...",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: L de lã para as meias. S de seda para as blusas. F de feltro para as calças. E se não fizermos a vontade, a roupa já disse que deixa de nos servir. Que transtorno, ehm!? Principalmente no Inverno... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

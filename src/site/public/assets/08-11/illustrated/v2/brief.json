@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": "estalagem à beira do lago",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "D epois do almoço, altura de menor movimento na estalagem, o senhor Pestana, protegido pelo balcão da entrada, lia tranquilamente o seu jornal. Às vezes dormitava, o que não era de censurar. Se, nos respectivos quartos, os hóspedes faziam a sua sesta, porque não havia o hospedeiro de fazer o mesmo? Foi numa ocasião destas que uma vozinha sobre o balcão perguntou: – Tem quartos livres?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Hóspedes Indesejáveis».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: D epois do almoço, altura de menor movimento na estalagem, o senhor Pestana, protegido pelo balcão da entrada, lia tranquilamente o seu jornal. Às vezes dormitava, o que não era de censurar. Se, nos respectivos quartos, os hóspedes faziam a sua sesta, porque não havia o hospedeiro de fazer o mesmo? Foi numa ocasião destas que uma vozinha sobre o balcão perguntou: – Tem quartos livres? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p9",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p7",
+        "s0p8",
+        "s0p9"
+      ],
+      "evidence": "– A vista é o menos – respondeu a pulga. – Mas queremos sossego. – Queremos? – estranhou o senhor Pestana. – Quantas são? – Vinte e cinco, contando comigo. É um grupo de excursionistas.",
+      "after": {
+        "segment": 0,
+        "paragraph": 9
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – A vista é o menos – respondeu a pulga. – Mas queremos sossego. – Queremos? – estranhou o senhor Pestana. – Quantas são? – Vinte e cinco, contando comigo. É um grupo de excursionistas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p18",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p16",
+        "s0p17",
+        "s0p18"
+      ],
+      "evidence": "– Nos nossos passeios, deslocamo-nos sempre de cão. Temos um cão privativo e muito felpudo, que nós guiamos para onde queremos. O senhor Pestana começava a arrepender-se de ter dado hospedagem aquelas pulgas presumidas. Na manhã seguinte, mais se arrependeu. Vieram ter com ele hóspedes antigos e respeitáveis queixar-se de que tinham dormido mal, assaltados durante a noite por cócegas e picadas esquisitas, inconvenientes. Estão a entender, não é verdade? Efectivamente, algumas excursionistas tinham-se enganado no número do quarto...",
+      "after": {
+        "segment": 0,
+        "paragraph": 18
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Nos nossos passeios, deslocamo-nos sempre de cão. Temos um cão privativo e muito felpudo, que nós guiamos para onde queremos. O senhor Pestana começava a arrepender-se de ter dado hospedagem aquelas pulgas presumidas. Na manhã seguinte, mais se arrependeu. Vieram ter com ele hóspedes antigos e respeitáveis queixar-se de que tinham dormido mal, assaltados durante a noite por cócegas e picadas esquisitas, inconvenientes. Estão a entender, não é verdade? Efectivamente, algumas excursionistas tinham-se enganado no número do quarto... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p21",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p19",
+        "s0p20",
+        "s0p21"
+      ],
+      "evidence": "O senhor Pestana, muito incomodado, foi ter com a responsável pela excursão: – Desculpem, mas não podem continuar cá. Está em jogo a reputação da minha estalagem. As pulgas compreenderam a situação. Pagaram a conta e chamaram o transporte privativo, para mudarem de poiso. Quando foram fazer a contagem, eram vinte e oito.",
+      "after": {
+        "segment": 0,
+        "paragraph": 21
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O senhor Pestana, muito incomodado, foi ter com a responsável pela excursão: – Desculpem, mas não podem continuar cá. Está em jogo a reputação da minha estalagem. As pulgas compreenderam a situação. Pagaram a conta e chamaram o transporte privativo, para mudarem de poiso. Quando foram fazer a contagem, eram vinte e oito. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p25",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p23",
+        "s0p24",
+        "s0p25"
+      ],
+      "evidence": "– Como apareceram essas três a mais? – Dizem que são inglesas – esclareceu a pulga chefe. – Parece que as viram num fox-terrier, pêlo de arame, de um \"mister\" qualquer. Agora querem acamaradar connosco. Nós não nos importamos. O senhor Pestana também não se importava. Desde que deixassem a estalagem, era-lhe indiferente, mas pelo sim pelo não, andou a espalhar insecticida por baixo das camas de todos os quartos.",
+      "after": {
+        "segment": 0,
+        "paragraph": 25
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Como apareceram essas três a mais? – Dizem que são inglesas – esclareceu a pulga chefe. – Parece que as viram num fox-terrier, pêlo de arame, de um \"mister\" qualquer. Agora querem acamaradar connosco. Nós não nos importamos. O senhor Pestana também não se importava. Desde que deixassem a estalagem, era-lhe indiferente, mas pelo sim pelo não, andou a espalhar insecticida por baixo das camas de todos os quartos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

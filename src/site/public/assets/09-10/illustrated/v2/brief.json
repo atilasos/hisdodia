@@ -1,0 +1,102 @@
+{
+  "characters": [],
+  "environment": "Ria, rio e mar, com regressos de migração e uma pateira final.",
+  "palette": [
+    "azuis frios",
+    "verdes aquosos",
+    "castanhos naturais",
+    "amarelos suaves"
+  ],
+  "recurringObjects": [
+    "pato com quatro patas",
+    "água",
+    "asas de patos",
+    "ondas",
+    "pateira"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um pato que tinha quatro pernas ou patas. Duas à frente e duas atrás. Nascera assim, o que se havia de fazer. A andar, atrapalhava-se um bocado. Trocava as pernas. Eram pernas a mais para um pato só. Mas a nadar, zap, zap, zap, a pedalar com as quatro pernas dentro de água, levava todos de vencida.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Pato das Quatro Patas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um pato que tinha quatro pernas ou patas. Duas à frente e duas atrás. Nascera assim, o que se havia de fazer. A andar, atrapalhava-se um bocado. Trocava as pernas. Eram pernas a mais para um pato só. Mas a nadar, zap, zap, zap, a pedalar com as quatro pernas dentro de água, levava todos de vencida. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um pato que tinha quatro pernas ou patas. Duas à frente e duas atrás. Nascera assim, o que se havia de fazer. A andar, atrapalhava-se um bocado. Trocava as pernas. Eram pernas a mais para um pato só. Mas a nadar, zap, zap, zap, a pedalar com as quatro pernas dentro de água, levava todos de vencida.",
+      "after": {
+        "segment": 0,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um pato que tinha quatro pernas ou patas. Duas à frente e duas atrás. Nascera assim, o que se havia de fazer. A andar, atrapalhava-se um bocado. Trocava as pernas. Eram pernas a mais para um pato só. Mas a nadar, zap, zap, zap, a pedalar com as quatro pernas dentro de água, levava todos de vencida. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p6",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "Quando chegou o tempo dos patos mudarem de ares, em busca de terras mais quentes, é que foram elas. O pato, mais pesado do que os outros, levantava voo mas subia pouco e cansava-se depressa. – Vão vocês andando, que eu já lá chego – disse o pato aos companheiros. O bando alçou-se aos ares e ele ficou a vê-los. Todas aquelas asas juntas produziam um zumbido alegre, que foi decrescendo até se deixar de ouvir.",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando chegou o tempo dos patos mudarem de ares, em busca de terras mais quentes, é que foram elas. O pato, mais pesado do que os outros, levantava voo mas subia pouco e cansava-se depressa. – Vão vocês andando, que eu já lá chego – disse o pato aos companheiros. O bando alçou-se aos ares e ele ficou a vê-los. Todas aquelas asas juntas produziam um zumbido alegre, que foi decrescendo até se deixar de ouvir. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p11",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p9",
+        "s0p10",
+        "s0p11"
+      ],
+      "evidence": "– Ena, que isto agora é a sério – dizia o pato, no meio das ondas salgadas. Se era! Ondas da altura de um prédio. Ele nadar, nadava, mas avançava pouco. A bem dizer, não avançava nada, porque as ondas o empurravam para terra. Acabou por fazer-lhes a vontade. Foi ter a uma praia nem muito quente nem muito fria. Cansadíssimo.",
+      "after": {
+        "segment": 0,
+        "paragraph": 11
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Ena, que isto agora é a sério – dizia o pato, no meio das ondas salgadas. Se era! Ondas da altura de um prédio. Ele nadar, nadava, mas avançava pouco. A bem dizer, não avançava nada, porque as ondas o empurravam para terra. Acabou por fazer-lhes a vontade. Foi ter a uma praia nem muito quente nem muito fria. Cansadíssimo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p18",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p16",
+        "s0p17",
+        "s0p18"
+      ],
+      "evidence": "– Não chegaste a ir? – perguntaram-lhe os companheiros. – Claro que fui – respondeu o pato das quatro patas. – Quando lá cheguei já vocês tinham partido e tive de voltar a nado, a toda a pressa, para os alcançar no regresso. Era mentira e os outros patos sabiam-no, mas não quiseram desmenti-lo. Todos tinham em muito respeito aquele pato com quatro patas e só duas asas. E não se falou mais nisso.",
+      "after": {
+        "segment": 0,
+        "paragraph": 18
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Não chegaste a ir? – perguntaram-lhe os companheiros. – Claro que fui – respondeu o pato das quatro patas. – Quando lá cheguei já vocês tinham partido e tive de voltar a nado, a toda a pressa, para os alcançar no regresso. Era mentira e os outros patos sabiam-no, mas não quiseram desmenti-lo. Todos tinham em muito respeito aquele pato com quatro patas e só duas asas. E não se falou mais nisso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

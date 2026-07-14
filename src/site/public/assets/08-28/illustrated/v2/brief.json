@@ -1,0 +1,140 @@
+{
+  "characters": [
+    {
+      "name": "Gato",
+      "appearance": "Um gato grande, esfomeado e malcriado"
+    },
+    {
+      "name": "Papagaio",
+      "appearance": "Um papagaio anfitrião e bem-educado"
+    },
+    {
+      "name": "Velhinha",
+      "appearance": "Uma velhinha que repreende o gato"
+    },
+    {
+      "name": "Rei",
+      "appearance": "Um rei em cortejo com a rainha e a comitiva"
+    },
+    {
+      "name": "Caranguejos",
+      "appearance": "Dois caranguejos cinzentos"
+    }
+  ],
+  "environment": "Uma história de estrada e cortejo, começando numa mesa farta e passando por rua, procissão real e interior da barriga do gato.",
+  "palette": [
+    "amarelos de bolos e sol",
+    "verdes e vermelhos do papagaio",
+    "tons terrosos e cinzentos",
+    "azuis e dourados do cortejo real"
+  ],
+  "recurringObjects": [
+    "mesa farta",
+    "bolos redondinhos",
+    "burro carregado de feno",
+    "coroa",
+    "pinças dos caranguejos"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um gato e era uma vez um papagaio. Encontraram-se os dois nesta história e falaram assim: - Queres vir jantar comigo? Sou eu que ofereço - convidou o papagaio.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O gato gatarrão come tudo à mão».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um gato e era uma vez um papagaio. Encontraram-se os dois nesta história e falaram assim: - Queres vir jantar comigo? Sou eu que ofereço - convidou o papagaio. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s0p4",
+        "s1p0"
+      ],
+      "evidence": "- Só se o jantar valer a pena... - respondeu o gato, que era bastante malcriado. O papagaio sabia receber. Preparou uma rica mesa de paparicos que lhe deram imenso trabalho a cozinhar. Peixe, perna de vitela, fruta, chá e bolos, quinhentos bolos redondinhos, acabados de sair do forno, muito loirinhos e saborosos. Uma delícia!",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Só se o jantar valer a pena... - respondeu o gato, que era bastante malcriado. O papagaio sabia receber. Preparou uma rica mesa de paparicos que lhe deram imenso trabalho a cozinhar. Peixe, perna de vitela, fruta, chá e bolos, quinhentos bolos redondinhos, acabados de sair do forno, muito loirinhos e saborosos. Uma delícia! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s4p3"
+      ],
+      "evidence": "- Venham eles! - exclamou o gatarrão. Engoliu-os num abrir de olhos e, depois, disse: - Ainda fiquei com mais fome. E agora?",
+      "after": {
+        "segment": 4,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Venham eles! - exclamou o gatarrão. Engoliu-os num abrir de olhos e, depois, disse: - Ainda fiquei com mais fome. E agora? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s8p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s7p1",
+        "s8p0",
+        "s8p1"
+      ],
+      "evidence": "- Não é um burro que me mete medo. Já comi quinhentos bolos, uma papagaio e uma velhota. Ainda cá cabe um homem mais o burro... E glip-glip, glop-glop, engoliu o homem e engoliu o burro. Continuou o seu caminho, muito empertigado, até que encontrou pela frente um cortejo real. O rei dava o braço à rainha, atrás deles vinham os soldados e atrás dos soldados uma quantidade de elefantes, alinhados dois a dois.",
+      "after": {
+        "segment": 8,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Não é um burro que me mete medo. Já comi quinhentos bolos, uma papagaio e uma velhota. Ainda cá cabe um homem mais o burro... E glip-glip, glop-glop, engoliu o homem e engoliu o burro. Continuou o seu caminho, muito empertigado, até que encontrou pela frente um cortejo real. O rei dava o braço à rainha, atrás deles vinham os soldados e atrás dos soldados uma quantidade de elefantes, alinhados dois a dois. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s12p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s11p2",
+        "s12p0",
+        "s12p1"
+      ],
+      "evidence": "- Era o que faltava! - respondeu-lhes o gato, enfrentando-os. - Já comi quinhentos bolos, um papagaio, uma velhota, um homem e um burro, um rei, uma rainha, um exército e uma manada de elefantes. Querem ver como ainda sou capaz de comer dois caranguejos? E não lhes deu tempo. Glip-glip, glop-glop, engoliu-os em menos de um ai.",
+      "after": {
+        "segment": 12,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Era o que faltava! - respondeu-lhes o gato, enfrentando-os. - Já comi quinhentos bolos, um papagaio, uma velhota, um homem e um burro, um rei, uma rainha, um exército e uma manada de elefantes. Querem ver como ainda sou capaz de comer dois caranguejos? E não lhes deu tempo. Glip-glip, glop-glop, engoliu-os em menos de um ai. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s16p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s15p2",
+        "s15p3",
+        "s16p0"
+      ],
+      "evidence": "- Também me parece, mano - concordou o outro caranguejo. - Vamos ver se nos safamos. Com muita paciência e teimosia, começaram a cavar um buraquinho na barriga do gato. As pinças deles trabalhavam ligeiras, de modo que, em pouco tempo, tinham aberto um buraco por onde puderam passar, de lado. Depois deles, saíram, pé ante pé, o rei, a rainha, os soldados, os elefantes a dois e dois, o homem e o burro, a velha e, no fim de todos, os papagaio, com um bolo em cada mão, os únicos que tinha guardado para o seu jantar.",
+      "after": {
+        "segment": 16,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Também me parece, mano - concordou o outro caranguejo. - Vamos ver se nos safamos. Com muita paciência e teimosia, começaram a cavar um buraquinho na barriga do gato. As pinças deles trabalhavam ligeiras, de modo que, em pouco tempo, tinham aberto um buraco por onde puderam passar, de lado. Depois deles, saíram, pé ante pé, o rei, a rainha, os soldados, os elefantes a dois e dois, o homem e o burro, a velha e, no fim de todos, os papagaio, com um bolo em cada mão, os únicos que tinha guardado para o seu jantar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

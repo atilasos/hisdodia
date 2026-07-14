@@ -1,5 +1,6 @@
 dist/
 tmp/
+tmp/illustrations/
 data/tts/
 .env
 .superpowers/

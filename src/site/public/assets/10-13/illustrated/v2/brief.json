@@ -1,0 +1,112 @@
+{
+  "characters": [
+    {
+      "name": "Os três caçadores",
+      "appearance": "Três homens de caça em marcha, com espingardas, cartuchos e sacolas, em fila"
+    },
+    {
+      "name": "Coelhinho pequenino e inocente",
+      "appearance": "Coelho pequeno e atento, isolado na beira da estrada"
+    }
+  ],
+  "environment": "Paisagem agreste e deserta à beira de uma estrada, com sensação de seca, distância e silêncio, depois interrompida por tensão e barulho",
+  "palette": [
+    "tons terrosos",
+    "bege seco",
+    "verde gasto",
+    "castanhos escuros",
+    "toques de cinzento e branco"
+  ],
+  "recurringObjects": [
+    "espingardas",
+    "cartuchos pendurados",
+    "sacola de caçador",
+    "estrada",
+    "coelho"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Eram três caçadores. Um vinha à frente, outro no meio e o terceiro atrás. Percorriam terras e terras à procura de caça. Que caçavam eles? Tudo o que lhes passasse diante do cano das espingardas. Tudo o que cheirasse a bicho. Javalis, búfalos, panteras, tigres, elefantes, hipopótamos, crocodilos, hienas, lobos, lebres, coelhos, galinholas, perdizes, rolas, patos, pardais. Mas pela região por onde se tinham metido, nada encontravam que se caçasse. Nem pulgas.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Quem Caça Quer Caça».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eram três caçadores. Um vinha à frente, outro no meio e o terceiro atrás. Percorriam terras e terras à procura de caça. Que caçavam eles? Tudo o que lhes passasse diante do cano das espingardas. Tudo o que cheirasse a bicho. Javalis, búfalos, panteras, tigres, elefantes, hipopótamos, crocodilos, hienas, lobos, lebres, coelhos, galinholas, perdizes, rolas, patos, pardais. Mas pela região por onde se tinham metido, nada encontravam que se caçasse. Nem pulgas. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p8",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p6",
+        "s0p7",
+        "s0p8"
+      ],
+      "evidence": "- Persistência, colegas! Onde está o vosso brio de caçadores? - perguntava o terceiro. Eles não sabiam. Só sabiam que andavam naquela teima, há muitas e muitas horas, com a sacola às costas, os cartuchos pendurados e a espingarda aos ombros.",
+      "after": {
+        "segment": 0,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Persistência, colegas! Onde está o vosso brio de caçadores? - perguntava o terceiro. Eles não sabiam. Só sabiam que andavam naquela teima, há muitas e muitas horas, com a sacola às costas, os cartuchos pendurados e a espingarda aos ombros. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p16",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p14",
+        "s0p15",
+        "s0p16"
+      ],
+      "evidence": "- Não façam isso, que gastam cartuchos... Os outros dois caçadores calaram-se. Tinham em muito respeito o terceiro caçador, o que vinha atrás de todos. Andaram, andaram, até encontrarem à beira da estrada, muito sossegado, a ver quem passava, um coelhinho pequenino e inocente.",
+      "after": {
+        "segment": 0,
+        "paragraph": 16
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Não façam isso, que gastam cartuchos... Os outros dois caçadores calaram-se. Tinham em muito respeito o terceiro caçador, o que vinha atrás de todos. Andaram, andaram, até encontrarem à beira da estrada, muito sossegado, a ver quem passava, um coelhinho pequenino e inocente. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p26",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p24",
+        "s0p25",
+        "s0p26"
+      ],
+      "evidence": "- Eu sou o chefe. - Eu sou o mais velho. Entretanto, o coelhinho pequenino e inocente desapareceu.",
+      "after": {
+        "segment": 0,
+        "paragraph": 26
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Eu sou o chefe. - Eu sou o mais velho. Entretanto, o coelhinho pequenino e inocente desapareceu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p29",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p27",
+        "s0p28",
+        "s0p29"
+      ],
+      "evidence": "Onde está? Onde se meteu? Olharam-se, desesperados, e como estavam furiosos, começaram a dar tiros para o ar, tiros ao desbarato. Pum! Pum! E mais Pum! Pum! Quando tinham consumido o último cartucho, o coelhinho pequenino e inocente apareceu de novo, muito interessado em saber qual a razão de toda aquela barulheira.",
+      "after": {
+        "segment": 0,
+        "paragraph": 29
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Onde está? Onde se meteu? Olharam-se, desesperados, e como estavam furiosos, começaram a dar tiros para o ar, tiros ao desbarato. Pum! Pum! E mais Pum! Pum! Quando tinham consumido o último cartucho, o coelhinho pequenino e inocente apareceu de novo, muito interessado em saber qual a razão de toda aquela barulheira. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

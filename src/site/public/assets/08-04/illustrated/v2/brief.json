@@ -1,0 +1,130 @@
+{
+  "characters": [
+    {
+      "name": "Pedro",
+      "appearance": "Rapaz distraído, expressão alegre e desajeitada, roupa simples de criança rural/urbana portuguesa"
+    },
+    {
+      "name": "Mãe",
+      "appearance": "Mulher paciente, postura firme, roupa doméstica simples"
+    },
+    {
+      "name": "Senhor Cosme",
+      "appearance": "Merceeiro idoso, aparência de lojista tradicional"
+    },
+    {
+      "name": "Porco",
+      "appearance": "Porco pequeno de quinta, com ar teimoso"
+    },
+    {
+      "name": "Cântaro",
+      "appearance": "Cântaro de barro com asa, quebrado ou partido"
+    },
+    {
+      "name": "Veterinário",
+      "appearance": "Profissional rural de aparência simples"
+    }
+  ],
+  "environment": "Portugal rural/contemporâneo com mercearia de bairro, casa familiar, veterinário e feira local; interiores simples e exteriores de vila.",
+  "palette": [
+    "tons quentes de terra",
+    "ocres",
+    "verdes suaves",
+    "azuis desbotados",
+    "vermelhos discretos",
+    "neutros de papel antigo"
+  ],
+  "recurringObjects": [
+    "saco",
+    "batatas",
+    "porco",
+    "cordel",
+    "varinha",
+    "cântaro"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Ele era muito distraído. Um cabeça-no-ar. Péssimo para fazer recados. Mas, mesmo assim, a mãe dele insistia: - Ó Pedro, vai ali, se fazes favor, à mercearia do senhor Cosme e traz-me dois quilos de batatas. O Pedro ia e voltava a correr com uma batata na mão.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Boa ideia, mãe».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ele era muito distraído. Um cabeça-no-ar. Péssimo para fazer recados. Mas, mesmo assim, a mãe dele insistia: - Ó Pedro, vai ali, se fazes favor, à mercearia do senhor Cosme e traz-me dois quilos de batatas. O Pedro ia e voltava a correr com uma batata na mão. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "Nova corrida e nova batata. Trazia-as uma a uma... - Ó filho, que trabalheira! Metia-las todas num saco e trazias, de uma só vez. - Boa ideia, mãe. Para a próxima já sei.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Nova corrida e nova batata. Trazia-as uma a uma... - Ó filho, que trabalheira! Metia-las todas num saco e trazias, de uma só vez. - Boa ideia, mãe. Para a próxima já sei. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "O recado seguinte tinha a ver com o porco, que tinha ficado em observação no veterinário, por causa de umas vacinas, e que a mãe não tivera ainda tempo de ir buscar. Mandou o filho. Quando o rapaz regressou sem o bicho, a mãe admirou-se. - Fui metê-lo num saco e ele não quis - explicou o Pedro.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O recado seguinte tinha a ver com o porco, que tinha ficado em observação no veterinário, por causa de umas vacinas, e que a mãe não tivera ainda tempo de ir buscar. Mandou o filho. Quando o rapaz regressou sem o bicho, a mãe admirou-se. - Fui metê-lo num saco e ele não quis - explicou o Pedro. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "- Ó filho, trazia-lo para casa com um cordelinho amarrado pelo pé e tocáva-lo para diante com uma varinha. - Boa ideia, mãe. Para a próxima já sei. Pouco depois, a mãe mandou-o à feira para comprar um cântaro. Quando o Pedro chegou a casa trazia só a asa do cântaro, presa a um cordel.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Ó filho, trazia-lo para casa com um cordelinho amarrado pelo pé e tocáva-lo para diante com uma varinha. - Boa ideia, mãe. Para a próxima já sei. Pouco depois, a mãe mandou-o à feira para comprar um cântaro. Quando o Pedro chegou a casa trazia só a asa do cântaro, presa a um cordel. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "E ele, muito contente: - Fiz como a mãe disse. O que valia ao Pedro cabeça-no-ar é que a mãe tinha muita paciência. Ai dele se não tivesse!",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E ele, muito contente: - Fiz como a mãe disse. O que valia ao Pedro cabeça-no-ar é que a mãe tinha muita paciência. Ai dele se não tivesse! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,86 @@
+{
+  "characters": [],
+  "environment": "castanheiro no outono, com ramos a perder folhas e uma fogueira de magusto ao entardecer",
+  "palette": [
+    "castanhos quentes",
+    "ocres",
+    "vermelhos de fogo",
+    "cinzentos suaves",
+    "verdes apagados"
+  ],
+  "recurringObjects": [
+    "castanhas",
+    "ouriços",
+    "folhas de castanheiro",
+    "fogueira",
+    "fumo"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma castanha que estava como as outras, pendurada de um castanheiro. Chegando o tempo, as castanhas amadurecem e caem por si. Só que esta não caiu. – Estou bem onde estou e não quero aventuras – dizia.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Última Castanha».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma castanha que estava como as outras, pendurada de um castanheiro. Chegando o tempo, as castanhas amadurecem e caem por si. Só que esta não caiu. – Estou bem onde estou e não quero aventuras – dizia. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s0p3"
+      ],
+      "evidence": "Chegando o tempo, as castanhas amadurecem e caem por si. Só que esta não caiu. – Estou bem onde estou e não quero aventuras – dizia. Uma a uma, as outras dos ramos iam caindo e rebolando pelo chão, protegidas pelo cobertor ouriçado que as cobria até ao nariz. Nariz é modo de dizer…",
+      "after": {
+        "segment": 0,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Chegando o tempo, as castanhas amadurecem e caem por si. Só que esta não caiu. – Estou bem onde estou e não quero aventuras – dizia. Uma a uma, as outras dos ramos iam caindo e rebolando pelo chão, protegidas pelo cobertor ouriçado que as cobria até ao nariz. Nariz é modo de dizer… Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "– Ai que vou cair – gritou. Mas, no último instante, conseguiu agarrar-se. Ainda não era daquela. Entardecia. Um grupo de gente acendera uma fogueira, junto ao castanheiro. Os garotos, que tinham andado às castanhas, e os pais dos garotos e os amigos dos garotos riam e cantavam. Estavam a preparar o magusto da noite de São Martinho.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Ai que vou cair – gritou. Mas, no último instante, conseguiu agarrar-se. Ainda não era daquela. Entardecia. Um grupo de gente acendera uma fogueira, junto ao castanheiro. Os garotos, que tinham andado às castanhas, e os pais dos garotos e os amigos dos garotos riam e cantavam. Estavam a preparar o magusto da noite de São Martinho. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p6",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p4",
+        "s1p5",
+        "s1p6"
+      ],
+      "evidence": "A castanha solitária, no alto do castanheiro nu, estranhou a vizinhança. E intrigou-se. Que estaria a passar-se. Debruçou-se do ramo mais e mais. A madeira a arder estalava, mesmo por baixo da castanha, a última. O fumo entontecia-a. E se fosse ver de perto o que se passava? Foi. Caiu. E a história acaba aqui. Paciência. É o destino das castanhas. Destino é um modo de dizer…",
+      "after": {
+        "segment": 1,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A castanha solitária, no alto do castanheiro nu, estranhou a vizinhança. E intrigou-se. Que estaria a passar-se. Debruçou-se do ramo mais e mais. A madeira a arder estalava, mesmo por baixo da castanha, a última. O fumo entontecia-a. E se fosse ver de perto o que se passava? Foi. Caiu. E a história acaba aqui. Paciência. É o destino das castanhas. Destino é um modo de dizer… Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

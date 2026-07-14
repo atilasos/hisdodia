@@ -1,0 +1,129 @@
+{
+  "characters": [
+    {
+      "name": "leopardo",
+      "appearance": "grande felino manchado, ágil e atento"
+    },
+    {
+      "name": "leão",
+      "appearance": "grande felino de juba volumosa, expressão dominante"
+    },
+    {
+      "name": "zebu",
+      "appearance": "bovino robusto, assustado e isolado"
+    },
+    {
+      "name": "urso sábio",
+      "appearance": "urso observador, postura serena e conselheira"
+    },
+    {
+      "name": "chacais",
+      "appearance": "pequenos canídeos esguios, em grupo e oportunistas"
+    },
+    {
+      "name": "restante bicharada",
+      "appearance": "animais da savana e do mato, vigilantes e aliviados"
+    }
+  ],
+  "environment": "savana africana com vegetação baixa, tocas e espaço aberto de caça; clima de tensão crescente entre predadores e restante bicharada",
+  "palette": [
+    "ocres quentes",
+    "castanhos terrosos",
+    "dourados secos",
+    "verdes apagados",
+    "pretos e brancos contrastantes",
+    "sombreados dramáticos"
+  ],
+  "recurringObjects": [
+    "presa zebu",
+    "vegetação de savana",
+    "tocas e esconderijos",
+    "poeira do conflito",
+    "grupo de chacais"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O leopardo e o leão combinaram ir à caça juntos. Que susto para o resto da bicharia! Se cada um deles por si só já fazia muito estrago, o que seria com os dois, em aliança? – Aliança de pouca dura – garantiu o urso, que tinha fama de urso sábio.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Os Aliados Desavindos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O leopardo e o leão combinaram ir à caça juntos. Que susto para o resto da bicharia! Se cada um deles por si só já fazia muito estrago, o que seria com os dois, em aliança? – Aliança de pouca dura – garantiu o urso, que tinha fama de urso sábio. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "– Aliança de pouca dura – garantiu o urso, que tinha fama de urso sábio. Mas, até ver, os bichos mais indefesos tomaram as suas precauções. Esconderam-se nas suas tocas os que as tinham, abrigaram-se onde puderam os que não tinham casa sua. Todos muito quietinhos. Mas um zebu imprudente perdeu-se do resto da manada e, sem saber como, viu-se cercado pelo leopardo e pelo leão. Patada de um, patada de outro, e o zebu ficou pronto para o almoço dos dois carniceiros.",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Aliança de pouca dura – garantiu o urso, que tinha fama de urso sábio. Mas, até ver, os bichos mais indefesos tomaram as suas precauções. Esconderam-se nas suas tocas os que as tinham, abrigaram-se onde puderam os que não tinham casa sua. Todos muito quietinhos. Mas um zebu imprudente perdeu-se do resto da manada e, sem saber como, viu-se cercado pelo leopardo e pelo leão. Patada de um, patada de outro, e o zebu ficou pronto para o almoço dos dois carniceiros. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p4",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p2",
+        "s1p3",
+        "s1p4"
+      ],
+      "evidence": "– Ora essa! – protestou o leopardo. – Para mim é a mesma coisa, mas se faz diferença, porque é que há-de ser o leão o primeiro a comer? – Porque eu estou habituado a uma primeira refeição de mais substância e só um zebu inteiro me matará a fome – rugiu o leão. – E eu fico a vê-lo refastelar-se com o que nós dois caçámos? – opôs-se o leopardo. – Isso é que era bom!",
+      "after": {
+        "segment": 1,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Ora essa! – protestou o leopardo. – Para mim é a mesma coisa, mas se faz diferença, porque é que há-de ser o leão o primeiro a comer? – Porque eu estou habituado a uma primeira refeição de mais substância e só um zebu inteiro me matará a fome – rugiu o leão. – E eu fico a vê-lo refastelar-se com o que nós dois caçámos? – opôs-se o leopardo. – Isso é que era bom! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p10",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p8",
+        "s1p9",
+        "s1p10"
+      ],
+      "evidence": "Bulharam. Lutaram. Rebolaram no chão, qual de cima qual de baixo, ferozes como mais nenhuns. Aproveitando a confusão da luta, um bando de chacais, a rirem-se da velhacaria, roubaram-lhes a presa. Quando o leopardo e o leão deram pela ladroeira já era tarde.",
+      "after": {
+        "segment": 1,
+        "paragraph": 10
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Bulharam. Lutaram. Rebolaram no chão, qual de cima qual de baixo, ferozes como mais nenhuns. Aproveitando a confusão da luta, um bando de chacais, a rirem-se da velhacaria, roubaram-lhes a presa. Quando o leopardo e o leão deram pela ladroeira já era tarde. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s1p13",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p11",
+        "s1p12",
+        "s1p13"
+      ],
+      "evidence": "Resultado: nunca mais quiseram caçar juntos. – Tal como eu calculava - disse o urso sábio, que gostava sempre de tirar uma lição destas histórias de bichos. – Dois aliados de tamanha força, mais tarde ou mais cedo zangam-se. Nestas ocasiões, os mais fracos é que aproveitam. A restante bicharada concordou, com um longo suspiro de alívio.",
+      "after": {
+        "segment": 1,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Resultado: nunca mais quiseram caçar juntos. – Tal como eu calculava - disse o urso sábio, que gostava sempre de tirar uma lição destas histórias de bichos. – Dois aliados de tamanha força, mais tarde ou mais cedo zangam-se. Nestas ocasiões, os mais fracos é que aproveitam. A restante bicharada concordou, com um longo suspiro de alívio. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

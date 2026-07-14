@@ -1,0 +1,108 @@
+{
+  "characters": [
+    {
+      "name": "Galinha",
+      "appearance": "Galinha especial, foco do recorde, choca trinta ovos com o galo por perto"
+    },
+    {
+      "name": "Galo",
+      "appearance": "Galo confiante da capoeira, acompanha e revezava o choco"
+    },
+    {
+      "name": "Dona Gertrudes",
+      "appearance": "Dona da galinha e do galinheiro, responsável pelos ovos"
+    },
+    {
+      "name": "Jornalista",
+      "appearance": "Repórter curioso, entrevistador da história"
+    },
+    {
+      "name": "Fotógrafo",
+      "appearance": "Fotógrafo do jornal, presente no momento da eclosão"
+    }
+  ],
+  "environment": "Galinheiro rural português, com ninho, rede, capoeira e a presença de vários animais de quinta.",
+  "palette": [
+    "ocre",
+    "amarelo gema",
+    "castanho",
+    "branco sujo",
+    "vermelho ferrugem",
+    "verde gasto"
+  ],
+  "recurringObjects": [
+    "ninho",
+    "ovos",
+    "rede do galinheiro",
+    "jornal",
+    "câmara fotográfica"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Aquele jornalista das perguntas, que já conhecem, foi entrevistar uma galinha, mas uma galinha especial. Propunha-se a cacarejante criatura entrar para o Guinness, o livro dos recordes. E a fazer o quê? A pôr um ovo de ouro? Não, que ideia, que vulgaridade. Essa é uma história muito antiga e já foi contada, há que tempos. O fito dela era outro. Teimava a galinácea que seria capaz de chocar de uma só vez trinta ovos e de fazer assim nascer, sem tirar nem pôr, trinta pintainhos, trinta irmãozinhos pipilantes, cor de gema de ovo. – Vai precisar de alguma preparação especial? – perguntou-lhe o jornalista, passando a cabeça por cima da rede do galinheiro.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Galinha da Dona Gertrudes».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Aquele jornalista das perguntas, que já conhecem, foi entrevistar uma galinha, mas uma galinha especial. Propunha-se a cacarejante criatura entrar para o Guinness, o livro dos recordes. E a fazer o quê? A pôr um ovo de ouro? Não, que ideia, que vulgaridade. Essa é uma história muito antiga e já foi contada, há que tempos. O fito dela era outro. Teimava a galinácea que seria capaz de chocar de uma só vez trinta ovos e de fazer assim nascer, sem tirar nem pôr, trinta pintainhos, trinta irmãozinhos pipilantes, cor de gema de ovo. – Vai precisar de alguma preparação especial? – perguntou-lhe o jornalista, passando a cabeça por cima da rede do galinheiro. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p15",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p13",
+        "s0p14",
+        "s0p15"
+      ],
+      "evidence": "– Cacracá. A galinha confirmava. Estava bem informado o jornalista. Foi para o jornal e escreveu a notícia com o seguinte título: \"Galinha portuguesa vai derrotar galinha australiana\". Era um bocado exagero ou precipitação, mas este jornalista deixava-se levar pelo entusiasmo, que nem sempre é bom conselheiro de quem redige notícias.",
+      "after": {
+        "segment": 0,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Cacracá. A galinha confirmava. Estava bem informado o jornalista. Foi para o jornal e escreveu a notícia com o seguinte título: \"Galinha portuguesa vai derrotar galinha australiana\". Era um bocado exagero ou precipitação, mas este jornalista deixava-se levar pelo entusiasmo, que nem sempre é bom conselheiro de quem redige notícias. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p22",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p20",
+        "s0p21",
+        "s0p22"
+      ],
+      "evidence": "As cascas dos ovos começaram a estalar. O jornalista, avisado, trouxe fotógrafo para o grande acontecimento. Record mundial: \"Trinta pintos para uma galinha\", já via ele, em grossas letras, na primeira página. \"Portugal derrota Austrália, no jogo da capoeira...\", assim começaria a notícia. Afinal, não começou. Afinal, não derrotou. Ficaram empatados. Eu explico.",
+      "after": {
+        "segment": 0,
+        "paragraph": 22
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: As cascas dos ovos começaram a estalar. O jornalista, avisado, trouxe fotógrafo para o grande acontecimento. Record mundial: \"Trinta pintos para uma galinha\", já via ele, em grossas letras, na primeira página. \"Portugal derrota Austrália, no jogo da capoeira...\", assim começaria a notícia. Afinal, não começou. Afinal, não derrotou. Ficaram empatados. Eu explico. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p30",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p28",
+        "s0p29",
+        "s0p30"
+      ],
+      "evidence": "O residente do último ovo resistia. Ou fosse ele mais preguiçoso ou fosse a casca mais grossa, não havia meio. Finalmente... craque, craque, craque... partiu-se. E ouviu-se, à roda, um \"Oh!\" – de desapontamento geral. Não era um pinto, o que o último ovo escondia. Era um pato, um patinho vacilante, que logo foi esconder-se e juntar-se aos seus irmãos do choco. – Ai que troquei este ovo. Cabeça a minha! – exclamou a Senhora Gertrudes, dando uma palmada na testa.",
+      "after": {
+        "segment": 0,
+        "paragraph": 30
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O residente do último ovo resistia. Ou fosse ele mais preguiçoso ou fosse a casca mais grossa, não havia meio. Finalmente... craque, craque, craque... partiu-se. E ouviu-se, à roda, um \"Oh!\" – de desapontamento geral. Não era um pinto, o que o último ovo escondia. Era um pato, um patinho vacilante, que logo foi esconder-se e juntar-se aos seus irmãos do choco. – Ai que troquei este ovo. Cabeça a minha! – exclamou a Senhora Gertrudes, dando uma palmada na testa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

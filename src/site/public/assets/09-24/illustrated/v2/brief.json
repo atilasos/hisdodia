@@ -1,0 +1,98 @@
+{
+  "characters": [
+    {
+      "name": "Dona Eduarda",
+      "appearance": "aranha mulher, triste e desencantada, dentro do castelo"
+    },
+    {
+      "name": "Dom Eduardo de Calatrava",
+      "appearance": "cavaleiro muito aprumado, com espada larga branca e doirada"
+    }
+  ],
+  "environment": "um castelo verde amarelo, gasto e poeirento, com teias, arcas vazias, escada, porta da sala e um espelho fosco",
+  "palette": [
+    "verde",
+    "amarelo",
+    "dourado",
+    "branco",
+    "poeira",
+    "sombras"
+  ],
+  "recurringObjects": [
+    "castelo",
+    "teias",
+    "arcas",
+    "escada",
+    "porta",
+    "espelho fosco",
+    "espada"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "era um novelo verde amarelo. De sombras feito,",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Era um Castelo...».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: era um novelo verde amarelo. De sombras feito, Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p24",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p22",
+        "s0p23",
+        "s0p24"
+      ],
+      "evidence": "Dona Eduarda? todo em farelo. verde amarelo.",
+      "after": {
+        "segment": 0,
+        "paragraph": 24
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Dona Eduarda? todo em farelo. verde amarelo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p60",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p58",
+        "s0p59",
+        "s0p60"
+      ],
+      "evidence": "num espelho fosco da Eduarda desencantada.",
+      "after": {
+        "segment": 0,
+        "paragraph": 60
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: num espelho fosco da Eduarda desencantada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p70",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p68",
+        "s0p69",
+        "s0p70"
+      ],
+      "evidence": "sem Dom nem nada, que o Dom não cabe na mala-posta.",
+      "after": {
+        "segment": 0,
+        "paragraph": 70
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: sem Dom nem nada, que o Dom não cabe na mala-posta. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

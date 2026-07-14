@@ -1,0 +1,116 @@
+{
+  "characters": [
+    {
+      "name": "águia",
+      "appearance": "ave grande, postura altiva, ninho alto no castanheiro"
+    },
+    {
+      "name": "gata",
+      "appearance": "gata selvagem, astuta, aparência furtiva"
+    },
+    {
+      "name": "porca",
+      "appearance": "porca adulta, robusta, vive numa toca nas raízes do castanheiro"
+    }
+  ],
+  "environment": "Um castanheiro frondoso domina o espaço, com ninho no alto, buraco no tronco a meio e toca nas raízes; o cenário evolui de vizinhança tranquila para tensão silenciosa e, por fim, assalto ao ninho e à toca.",
+  "palette": [
+    "verdes profundos",
+    "castanhos quentes",
+    "creme",
+    "cinzentos suaves",
+    "dourado discreto"
+  ],
+  "recurringObjects": [
+    "castanheiro",
+    "ninho",
+    "buraco no tronco",
+    "toca nas raízes",
+    "folhas e castanhas"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma águia. Era uma vez uma gata. Era uma vez uma porca. A águia teve aguiazinhas. A gata teve gatinhos. A porca teve porquinhos. Como boas mães, procuraram abrigo onde resguardar os filhos.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Podiam ser Amigas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma águia. Era uma vez uma gata. Era uma vez uma porca. A águia teve aguiazinhas. A gata teve gatinhos. A porca teve porquinhos. Como boas mães, procuraram abrigo onde resguardar os filhos. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "A águia escolheu o alto da ramaria de um frondoso castanheiro. A gata achou um buraco a meio do tronco do mesmo castanheiro. A porca cavou uma toca, nas raízes do tal castanheiro. Eram vizinhas e talvez pudessem ser amigas.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A águia escolheu o alto da ramaria de um frondoso castanheiro. A gata achou um buraco a meio do tronco do mesmo castanheiro. A porca cavou uma toca, nas raízes do tal castanheiro. Eram vizinhas e talvez pudessem ser amigas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "A águia não fazia ideia. - Para fazer cair o seu ninho e comer os seus filhinhos - contou a mentirosa da gata. - Se fosse a si tinha muito cuidado e nunca mais abandonava os seus. A águia ficou muito aflita. Agradeceu imenso o aviso da gata e pôs-se de plantão ao ninho, apesar de os filhos reclamarem por comer.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A águia não fazia ideia. - Para fazer cair o seu ninho e comer os seus filhinhos - contou a mentirosa da gata. - Se fosse a si tinha muito cuidado e nunca mais abandonava os seus. A águia ficou muito aflita. Agradeceu imenso o aviso da gata e pôs-se de plantão ao ninho, apesar de os filhos reclamarem por comer. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s6p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p2",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "A porca ficou muito alarmada. Também agradeceu imenso o aviso da gata e nunca mais deixou os porquinhos ao desamparo, apesar de eles grunhirem, desesperados com fome. Como a águia e a porca, sempre de guarda, não saíam pelo comer, iam definhando os filhos e elas perdendo as forças.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A porca ficou muito alarmada. Também agradeceu imenso o aviso da gata e nunca mais deixou os porquinhos ao desamparo, apesar de eles grunhirem, desesperados com fome. Como a águia e a porca, sempre de guarda, não saíam pelo comer, iam definhando os filhos e elas perdendo as forças. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s8p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s7p2",
+        "s8p0",
+        "s8p1"
+      ],
+      "evidence": "Quando tudo voltou ao silêncio, a gata selvagem e os selvagens dos filhos assaltaram o ninho e banquetearam-se. Em seguida, assaltaram a toca e repetiram o banquete. Parece que, depois, morreram de indigestão. Bem feito.",
+      "after": {
+        "segment": 8,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando tudo voltou ao silêncio, a gata selvagem e os selvagens dos filhos assaltaram o ninho e banquetearam-se. Em seguida, assaltaram a toca e repetiram o banquete. Parece que, depois, morreram de indigestão. Bem feito. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

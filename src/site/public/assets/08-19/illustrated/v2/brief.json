@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": "Palácio real e salão de corte, com interiores cerimoniais e quarto da princesa.",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma princesa que perdera a fala. Que tinha sido, que não tinha sido, não se sabia. Não falava, pronto. Quanto ao resto, era igual às outras princesas. Até talvez mais bonita. Pena que não se casasse. Pretendentes não lhe faltaram, todos nobres e distintos moços, mas a princesa fazia uma careta mal os via e estava tudo dito.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A princesa que perdeu a fala».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma princesa que perdera a fala. Que tinha sido, que não tinha sido, não se sabia. Não falava, pronto. Quanto ao resto, era igual às outras princesas. Até talvez mais bonita. Pena que não se casasse. Pretendentes não lhe faltaram, todos nobres e distintos moços, mas a princesa fazia uma careta mal os via e estava tudo dito. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "- Outro pretendente - comentaram os fidalgos da corte. - Outra careta da princesa - comentaram os fidalgos da corte. O príncipe vinha embuçado.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Outro pretendente - comentaram os fidalgos da corte. - Outra careta da princesa - comentaram os fidalgos da corte. O príncipe vinha embuçado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s7p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s7p1",
+        "s7p2",
+        "s7p3"
+      ],
+      "evidence": "- Apresento-te o teu noivo - anunciou o rei. - Não! - gritou a princesa. - Não, não e não! Que horror. Depois de ter proferido estas palavras, a princesa fugiu do salão e refugiou-se no quarto.",
+      "after": {
+        "segment": 7,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Apresento-te o teu noivo - anunciou o rei. - Não! - gritou a princesa. - Não, não e não! Que horror. Depois de ter proferido estas palavras, a princesa fugiu do salão e refugiou-se no quarto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s8p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s7p3",
+        "s8p0",
+        "s8p1"
+      ],
+      "evidence": "Depois de ter proferido estas palavras, a princesa fugiu do salão e refugiou-se no quarto. - Mas falou - disse o príncipe-monstro, descolando da cara a máscara monstruosa. Era, afinal, um rapaz de muito bom parecer. Entre ele e o rei havia combinação. O jovem príncipe, em anterior visita ao palácio, sofrera a humilhação de ver-se preterido por uma careta da desdenhosa princesa.",
+      "after": {
+        "segment": 8,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Depois de ter proferido estas palavras, a princesa fugiu do salão e refugiou-se no quarto. - Mas falou - disse o príncipe-monstro, descolando da cara a máscara monstruosa. Era, afinal, um rapaz de muito bom parecer. Entre ele e o rei havia combinação. O jovem príncipe, em anterior visita ao palácio, sofrera a humilhação de ver-se preterido por uma careta da desdenhosa princesa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s10p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s9p1",
+        "s9p2",
+        "s10p0"
+      ],
+      "evidence": "- A perda da fala da princesa terá tido por origem um susto - explicava o príncipe ex-monstro. - Só outro grande susto podia curá-la, como se provou. Houve festa no palácio. A princesa, pelo sim, pelo não, saiu do quarto e veio espreitar. Não é que, pouco depois, estava a dizer sim ao tal príncipe apaixonado?",
+      "after": {
+        "segment": 10,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - A perda da fala da princesa terá tido por origem um susto - explicava o príncipe ex-monstro. - Só outro grande susto podia curá-la, como se provou. Houve festa no palácio. A princesa, pelo sim, pelo não, saiu do quarto e veio espreitar. Não é que, pouco depois, estava a dizer sim ao tal príncipe apaixonado? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

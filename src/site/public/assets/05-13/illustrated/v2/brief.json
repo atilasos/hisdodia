@@ -1,0 +1,102 @@
+{
+  "characters": [],
+  "environment": "Portuguese countryside with dry hills, scattered olive trees and holm oaks, a cave mouth, then a sudden shaft of light and the flock beyond.",
+  "palette": [
+    "warm ochres",
+    "dusty greens",
+    "dry earth browns",
+    "muted gray-blue",
+    "soft white light"
+  ],
+  "recurringObjects": [
+    "the lost lamb",
+    "olive and holm oak trees",
+    "dry ground",
+    "the flock"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era uma ovelha tresmalhada . Perdera-se do rebanho, quando lhe deu a sede e foi à cata de água nem ela sabia onde. Lembrava-se de ter bebido de uma poça acrescentada pelas chuvas. Mas isso fora dias atrás e, entretanto, a água naturalmente secara do tanto calor que fazia. Desorientou-se. Eram tantas as oliveiras e azinheiras em redor, todas iguais, espalhadas pelos outeiros, que, para qualquer lado que se virasse, a paisagem não lhe dava sinal de orientação.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A ovelhinha».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma ovelha tresmalhada . Perdera-se do rebanho, quando lhe deu a sede e foi à cata de água nem ela sabia onde. Lembrava-se de ter bebido de uma poça acrescentada pelas chuvas. Mas isso fora dias atrás e, entretanto, a água naturalmente secara do tanto calor que fazia. Desorientou-se. Eram tantas as oliveiras e azinheiras em redor, todas iguais, espalhadas pelos outeiros, que, para qualquer lado que se virasse, a paisagem não lhe dava sinal de orientação. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Nunca te apartes do rebanho. Bons conselhos eram, mas à ovelhinha nova dava-lhe raiva seguir na pisada das que, antes dela, deixavam a erva ceifada pela raiz. Com que sobras mataria a fome? Que pena a avó já não pertencer ao rebanho, para lhe perguntar. Fome e sede era o que sentia, agora, naquele ermo.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Nunca te apartes do rebanho. Bons conselhos eram, mas à ovelhinha nova dava-lhe raiva seguir na pisada das que, antes dela, deixavam a erva ceifada pela raiz. Com que sobras mataria a fome? Que pena a avó já não pertencer ao rebanho, para lhe perguntar. Fome e sede era o que sentia, agora, naquele ermo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s8p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s7p2",
+        "s8p0",
+        "s8p1"
+      ],
+      "evidence": "O vento apagou-se, num repente. As cigarras calaram-se. Tudo mergulhou num grande silêncio. Aproveitando-o, a ovelha gritou mais alto o seu susto. Foi quando uma grande nuvem, cerrada e imprevista, tapou o Sol. A sombra que estendeu sobre a terra fez crer que, de súbito, o dia terminara. A ovelha não sabia de horas, mas admirou-se que tão depressa descesse a noite. Mais se assustou.",
+      "after": {
+        "segment": 8,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O vento apagou-se, num repente. As cigarras calaram-se. Tudo mergulhou num grande silêncio. Aproveitando-o, a ovelha gritou mais alto o seu susto. Foi quando uma grande nuvem, cerrada e imprevista, tapou o Sol. A sombra que estendeu sobre a terra fez crer que, de súbito, o dia terminara. A ovelha não sabia de horas, mas admirou-se que tão depressa descesse a noite. Mais se assustou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s9p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s9p1",
+        "s9p2",
+        "s9p3"
+      ],
+      "evidence": "Não demorou muito a cerração. A cortina do céu rompeu-se e um feixe de luz desceu sobre aquele recanto recolhido do mundo. Atraída pelo leve clarão, que caía mais adiante, numa mata de azinheiras, a ovelha correu, esquecida do medo que ainda há pouco a paralisara. Ouviu vozes. Viu o rebanho. Enfim.",
+      "after": {
+        "segment": 9,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não demorou muito a cerração. A cortina do céu rompeu-se e um feixe de luz desceu sobre aquele recanto recolhido do mundo. Atraída pelo leve clarão, que caía mais adiante, numa mata de azinheiras, a ovelha correu, esquecida do medo que ainda há pouco a paralisara. Ouviu vozes. Viu o rebanho. Enfim. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s10p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s9p2",
+        "s9p3",
+        "s10p0"
+      ],
+      "evidence": "Atraída pelo leve clarão, que caía mais adiante, numa mata de azinheiras, a ovelha correu, esquecida do medo que ainda há pouco a paralisara. Ouviu vozes. Viu o rebanho. Enfim. Cessavam os sobressaltos. Tudo se recompunha em boa paz. O seu coração humilde podia, de novo, bater mais tranquilo. Ela já não era uma ovelha tresmalhada .",
+      "after": {
+        "segment": 10,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Atraída pelo leve clarão, que caía mais adiante, numa mata de azinheiras, a ovelha correu, esquecida do medo que ainda há pouco a paralisara. Ouviu vozes. Viu o rebanho. Enfim. Cessavam os sobressaltos. Tudo se recompunha em boa paz. O seu coração humilde podia, de novo, bater mais tranquilo. Ela já não era uma ovelha tresmalhada . Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

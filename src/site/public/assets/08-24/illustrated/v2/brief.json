@@ -1,0 +1,126 @@
+{
+  "characters": [
+    {
+      "name": "Senhor Teotónio",
+      "appearance": "Homem idoso e aventureiro, de presença expressiva e descontraída, contado com ar teatral e inventivo"
+    },
+    {
+      "name": "Rapazes da rua",
+      "appearance": "Grupo de meninos curiosos e entusiasmados, reunidos junto à janela"
+    },
+    {
+      "name": "Pai do narrador",
+      "appearance": "Adulto cético, observador, com atitude desconfiada"
+    },
+    {
+      "name": "Toupeira",
+      "appearance": "Animal pequeno e falante, associado ao subterrâneo e à negociação"
+    },
+    {
+      "name": "Carcereiros",
+      "appearance": "Guardas de prisão, vigilantes e estranhados pela troca de identidades"
+    }
+  ],
+  "environment": "Bairro popular com uma janela à rua, conversa de vizinhança e episódios que alternam entre mina subterrânea e prisão.",
+  "palette": [
+    "Tons terrosos",
+    "Ocres dourados",
+    "Cinzentos de pedra",
+    "Castanhos escuros",
+    "Azuis discretos",
+    "Verdes apagados"
+  ],
+  "recurringObjects": [
+    "Janela",
+    "Rua",
+    "Mina subterrânea",
+    "Ouro",
+    "Lanterna",
+    "Prisão"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O senhor Teotónio já correu mundo. Foi marinheiro, fragateiro, fuzileiro, montanheiro, quadrilheiro, falcoeiro, artilheiro, enfim, um grande aventureiro. – Um grande pantomineiro! – diz o meu pai, que não acredita, nem um nadinha, nas histórias que ele conta. Eu e os outros rapazes, cá da rua, acreditamos. Quando estamos cansados de jogar à bola, vamos bater à porta da casa dele e pedimos:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Uma História do Teotónio».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O senhor Teotónio já correu mundo. Foi marinheiro, fragateiro, fuzileiro, montanheiro, quadrilheiro, falcoeiro, artilheiro, enfim, um grande aventureiro. – Um grande pantomineiro! – diz o meu pai, que não acredita, nem um nadinha, nas histórias que ele conta. Eu e os outros rapazes, cá da rua, acreditamos. Quando estamos cansados de jogar à bola, vamos bater à porta da casa dele e pedimos: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p15",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p13",
+        "s0p14",
+        "s0p15"
+      ],
+      "evidence": "– E que mina! Só naquele corredor, que eu considerava de minha propriedade, havia ouro que chegava para comprar o mundo todo e ainda sobrava. Mas conseguir levá-lo dali? Ia ficar sepultado com a minha fortuna. Uma desgraça! Uma tragédia! Como o víamos ali, diante de nós, não nos alarmámos muito com a desgraça e a tragédia, de que ele nos falava. Queríamos era saber o resto. O senhor Teotónio prosseguiu: – Mais uma hora e a pilha da minha lanterna dava o bafo. Ficaria mergulhado na escuridão, sem ter por onde orientar-me. Foi então que reparei numa toupeira, que saía por um buraquinho. Quanto eu dava, naquela ocasião, para ser toupeira, disse de mim para mim. \"Quanto?\", ouvi, distintamente, uma voz perguntar-me. Fiquei petrificado ou quase, quando percebi que era a toupeira quem falava e que estava a propor-me um negócio. Vocês podem supor-me louco ou mentiroso, mas foi assim tal e qual como vos conto. Se não acreditarem, não continuo.",
+      "after": {
+        "segment": 0,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – E que mina! Só naquele corredor, que eu considerava de minha propriedade, havia ouro que chegava para comprar o mundo todo e ainda sobrava. Mas conseguir levá-lo dali? Ia ficar sepultado com a minha fortuna. Uma desgraça! Uma tragédia! Como o víamos ali, diante de nós, não nos alarmámos muito com a desgraça e a tragédia, de que ele nos falava. Queríamos era saber o resto. O senhor Teotónio prosseguiu: – Mais uma hora e a pilha da minha lanterna dava o bafo. Ficaria mergulhado na escuridão, sem ter por onde orientar-me. Foi então que reparei numa toupeira, que saía por um buraquinho. Quanto eu dava, naquela ocasião, para ser toupeira, disse de mim para mim. \"Quanto?\", ouvi, distintamente, uma voz perguntar-me. Fiquei petrificado ou quase, quando percebi que era a toupeira quem falava e que estava a propor-me um negócio. Vocês podem supor-me louco ou mentiroso, mas foi assim tal e qual como vos conto. Se não acreditarem, não continuo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p18",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p16",
+        "s0p17",
+        "s0p18"
+      ],
+      "evidence": "O que nós queríamos era ouvir mais. Por isso claro que acreditámos. – Acabei por oferecer todo o ouro daquela galeria, em troca da liberdade, nem que fosse sob a forma de toupeira. Fez-se a troca e não me perguntem como. A toupeira transformou-se num homem, bastante feio, aliás, e eu passei a ter a corpulência e o feitio de uma gentil toupeira. Não me vi ao espelho, para não desistir, a meio da negociação. Ficou a toupeira-homem no subterrâneo, no meio do ouro, e escapou-se o homem-toupeira que, munido do sentido de orientação das toupeiras, sem grandes dificuldades alcançou a superfície.",
+      "after": {
+        "segment": 0,
+        "paragraph": 18
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O que nós queríamos era ouvir mais. Por isso claro que acreditámos. – Acabei por oferecer todo o ouro daquela galeria, em troca da liberdade, nem que fosse sob a forma de toupeira. Fez-se a troca e não me perguntem como. A toupeira transformou-se num homem, bastante feio, aliás, e eu passei a ter a corpulência e o feitio de uma gentil toupeira. Não me vi ao espelho, para não desistir, a meio da negociação. Ficou a toupeira-homem no subterrâneo, no meio do ouro, e escapou-se o homem-toupeira que, munido do sentido de orientação das toupeiras, sem grandes dificuldades alcançou a superfície. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p24",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p22",
+        "s0p23",
+        "s0p24"
+      ],
+      "evidence": "– Então eu conto, mas depressa, que tenho mais que fazer do que aturar-vos. Soube, por intermédio de uns morcegos, que um homem, injustamente preso, tinha tentado trocar de posição com um rato, mas que a transacção não chegara a realizar-se, porque o rato achara a quantidade de queijo insuficiente. Ofereci-me eu, sem pedir contrapartida. O que eu queria era recuperar o meu corpinho de ser humano. Dei o da toupeira ao preso e fiquei eu na prisão. – E como é que se libertou? – perguntámos. – Quando os carcereiros viram que eu não era o preso, estranharam a mudança, mas não quiseram dar-me a liberdade. Tive de convencê-los com uma pedrinha de ouro, que tinha conseguido meter na boca, quando da troca, na mina...",
+      "after": {
+        "segment": 0,
+        "paragraph": 24
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Então eu conto, mas depressa, que tenho mais que fazer do que aturar-vos. Soube, por intermédio de uns morcegos, que um homem, injustamente preso, tinha tentado trocar de posição com um rato, mas que a transacção não chegara a realizar-se, porque o rato achara a quantidade de queijo insuficiente. Ofereci-me eu, sem pedir contrapartida. O que eu queria era recuperar o meu corpinho de ser humano. Dei o da toupeira ao preso e fiquei eu na prisão. – E como é que se libertou? – perguntámos. – Quando os carcereiros viram que eu não era o preso, estranharam a mudança, mas não quiseram dar-me a liberdade. Tive de convencê-los com uma pedrinha de ouro, que tinha conseguido meter na boca, quando da troca, na mina... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p26",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p24",
+        "s0p25",
+        "s0p26"
+      ],
+      "evidence": "– Quando os carcereiros viram que eu não era o preso, estranharam a mudança, mas não quiseram dar-me a liberdade. Tive de convencê-los com uma pedrinha de ouro, que tinha conseguido meter na boca, quando da troca, na mina... – O senhor Teotónio sempre me saiu um troca-tintas – disse, sem maldade, o mais atrevida do grupo. O contador, reformado de tantas aventuras, não gostou da observação e fechou-nos a janela na cara. Tão cedo não vamos ter histórias do Teotónio.",
+      "after": {
+        "segment": 0,
+        "paragraph": 26
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Quando os carcereiros viram que eu não era o preso, estranharam a mudança, mas não quiseram dar-me a liberdade. Tive de convencê-los com uma pedrinha de ouro, que tinha conseguido meter na boca, quando da troca, na mina... – O senhor Teotónio sempre me saiu um troca-tintas – disse, sem maldade, o mais atrevida do grupo. O contador, reformado de tantas aventuras, não gostou da observação e fechou-nos a janela na cara. Tão cedo não vamos ter histórias do Teotónio. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

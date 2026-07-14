@@ -1,0 +1,124 @@
+{
+  "characters": [
+    {
+      "name": "A dama do retrato",
+      "appearance": "Senhora jovem de vestido de roda, coletinho, chapéu de rendas e guarda-sol"
+    },
+    {
+      "name": "A aranha nova",
+      "appearance": "Aranha pequena e curiosa"
+    },
+    {
+      "name": "A aranha velha",
+      "appearance": "Aranha mais velha e experiente"
+    },
+    {
+      "name": "As outras aranhas",
+      "appearance": "Multidão de aranhas do castelo"
+    }
+  ],
+  "environment": "Um velho castelo sombrio que depois se abre para uma primavera soalheira à roda do castelo e pelos campos",
+  "palette": [
+    "sombras cinzentas",
+    "tons de marfim",
+    "castanhos escuros",
+    "cremes envelhecidos",
+    "brancos de teia",
+    "verdes suaves",
+    "luz dourada de primavera"
+  ],
+  "recurringObjects": [
+    "retrato",
+    "moldura",
+    "guarda-sol",
+    "chapéu de rendas",
+    "teia",
+    "quadro",
+    "parede do castelo"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "No velho castelo, aquele retrato da senhora de guarda-sol, mimoso vestido de roda, coletinho de menina e largo chapéu enfeitado, na parede sombria do castelo, aquele retrato destoava . Precisava de luz, precisava de sol o retrato, ou de outro modo não se justificava nem o chapéu de rendas da dama nem o guarda-sol, a proteger-lhe o rostinho de marfim, com uma flor de sorriso. Mas parece que ninguém tinha dado por isso. E a menina senhora dama, de mimoso vestido de roda, ali se ficara quase às escuras. Aproveitando os enfeites de um dos cantos da moldura, uma desrespeitadora aranha pôs-se a construir a sua teia. Subia, descia, tecia e quase roçava o ombro da senhora, a importuna.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A dama do retrato».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No velho castelo, aquele retrato da senhora de guarda-sol, mimoso vestido de roda, coletinho de menina e largo chapéu enfeitado, na parede sombria do castelo, aquele retrato destoava . Precisava de luz, precisava de sol o retrato, ou de outro modo não se justificava nem o chapéu de rendas da dama nem o guarda-sol, a proteger-lhe o rostinho de marfim, com uma flor de sorriso. Mas parece que ninguém tinha dado por isso. E a menina senhora dama, de mimoso vestido de roda, ali se ficara quase às escuras. Aproveitando os enfeites de um dos cantos da moldura, uma desrespeitadora aranha pôs-se a construir a sua teia. Subia, descia, tecia e quase roçava o ombro da senhora, a importuna. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Mas parece que ninguém tinha dado por isso. E a menina senhora dama, de mimoso vestido de roda, ali se ficara quase às escuras. Aproveitando os enfeites de um dos cantos da moldura, uma desrespeitadora aranha pôs-se a construir a sua teia. Subia, descia, tecia e quase roçava o ombro da senhora, a importuna. - Tanto não - protestou a dama menina, no seu retrato, e com um gesto só cortou o fio à teia. Caiu a aranha no chão. Coisa assim tão de espantar, nunca ela, ao longo da sua vida de aranha, jamais vira: um retrato a falar e a mexer-se, quem tal diria.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas parece que ninguém tinha dado por isso. E a menina senhora dama, de mimoso vestido de roda, ali se ficara quase às escuras. Aproveitando os enfeites de um dos cantos da moldura, uma desrespeitadora aranha pôs-se a construir a sua teia. Subia, descia, tecia e quase roçava o ombro da senhora, a importuna. - Tanto não - protestou a dama menina, no seu retrato, e com um gesto só cortou o fio à teia. Caiu a aranha no chão. Coisa assim tão de espantar, nunca ela, ao longo da sua vida de aranha, jamais vira: um retrato a falar e a mexer-se, quem tal diria. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p1",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "A velha aranha não se admirou com a notícia. Até conhecia histórias semelhantes, umas passadas com ela, outras contadas por aranhas amigas, de outros castelos e palácios ensombrados. - A pobre senhora está farta de viver naquele quadro, é o que é! - explicou ela à aranha nova. - Talvez nós pudéssemos dar-lhe uma ajuda... \"Nós\" eram elas todas, as milhares de aranhas daquele castelo.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A velha aranha não se admirou com a notícia. Até conhecia histórias semelhantes, umas passadas com ela, outras contadas por aranhas amigas, de outros castelos e palácios ensombrados. - A pobre senhora está farta de viver naquele quadro, é o que é! - explicou ela à aranha nova. - Talvez nós pudéssemos dar-lhe uma ajuda... \"Nós\" eram elas todas, as milhares de aranhas daquele castelo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s5p0"
+      ],
+      "evidence": "- A pobre senhora está farta de viver naquele quadro, é o que é! - explicou ela à aranha nova. - Talvez nós pudéssemos dar-lhe uma ajuda... \"Nós\" eram elas todas, as milhares de aranhas daquele castelo. Pois as milhares de aranhas, às ordens da velha aranha, juntaram-se à volta do quadro e começaram a tecer uma teia tão cerrada, tão cerrada, que por completo toldava o quadro da vista das pessoas, que distraidamente por ali passassem. Já não se via quadro nem moldura, mas só uma parede de teia.",
+      "after": {
+        "segment": 5,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - A pobre senhora está farta de viver naquele quadro, é o que é! - explicou ela à aranha nova. - Talvez nós pudéssemos dar-lhe uma ajuda... \"Nós\" eram elas todas, as milhares de aranhas daquele castelo. Pois as milhares de aranhas, às ordens da velha aranha, juntaram-se à volta do quadro e começaram a tecer uma teia tão cerrada, tão cerrada, que por completo toldava o quadro da vista das pessoas, que distraidamente por ali passassem. Já não se via quadro nem moldura, mas só uma parede de teia. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p0",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "Pois as milhares de aranhas, às ordens da velha aranha, juntaram-se à volta do quadro e começaram a tecer uma teia tão cerrada, tão cerrada, que por completo toldava o quadro da vista das pessoas, que distraidamente por ali passassem. Já não se via quadro nem moldura, mas só uma parede de teia. O quadro, a senhora dama de chapéu de rendas teria ficado, coitada, aprisionada atrás daquele biombo? Nas manhãs suaves desta Primavera soalheira, vê-se às vezes, a passear pelos campos, à roda do castelo, uma senhora de longo vestido a arrastar, guarda-sol luminoso e chapéu de rendas...",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Pois as milhares de aranhas, às ordens da velha aranha, juntaram-se à volta do quadro e começaram a tecer uma teia tão cerrada, tão cerrada, que por completo toldava o quadro da vista das pessoas, que distraidamente por ali passassem. Já não se via quadro nem moldura, mas só uma parede de teia. O quadro, a senhora dama de chapéu de rendas teria ficado, coitada, aprisionada atrás daquele biombo? Nas manhãs suaves desta Primavera soalheira, vê-se às vezes, a passear pelos campos, à roda do castelo, uma senhora de longo vestido a arrastar, guarda-sol luminoso e chapéu de rendas... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

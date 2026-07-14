@@ -1,0 +1,132 @@
+{
+  "characters": [
+    {
+      "name": "senhora velha e gorda",
+      "appearance": "mulher idosa, corpulenta, dona da cadeira"
+    },
+    {
+      "name": "menino tímido",
+      "appearance": "criança pequena, reservada, escondida atrás da tia"
+    },
+    {
+      "name": "amiga da senhora",
+      "appearance": "mulher que acompanha o sobrinho"
+    }
+  ],
+  "environment": "interior de uma casa com uma cadeira musical antiga, uma oficina de cadeiras e a sala da senhora, em tom nostálgico e quotidiano",
+  "palette": [
+    "tons quentes e envelhecidos",
+    "madeira escura",
+    "cremes suaves",
+    "verdes e castanhos discretos",
+    "acentos luminosos associados à música"
+  ],
+  "recurringObjects": [
+    "cadeira musical",
+    "campainha",
+    "sala da casa",
+    "oficina de cadeiras"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era uma cadeira que sabia música. Uma pessoa sentava-se nela e a cadeira começava a tocar. - É uma cadeira caixinha de música. Tem molas especiais que fazem \"clique\", quando uma pessoa se senta na cadeira e, então, a caixinha de música começa a tocar - explicava quem sabia destes mecanismos de cadeiras musicais. Talvez fosse, realmente, assim. O certo é que, um dia, a cadeira se avariou. Deixou de tocar música. Passou a ser uma cadeira banal, igual a milhões de outras que não tocam.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A cadeira musical».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma cadeira que sabia música. Uma pessoa sentava-se nela e a cadeira começava a tocar. - É uma cadeira caixinha de música. Tem molas especiais que fazem \"clique\", quando uma pessoa se senta na cadeira e, então, a caixinha de música começa a tocar - explicava quem sabia destes mecanismos de cadeiras musicais. Talvez fosse, realmente, assim. O certo é que, um dia, a cadeira se avariou. Deixou de tocar música. Passou a ser uma cadeira banal, igual a milhões de outras que não tocam. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Mas na oficina das cadeiras desenganaram-na: - Já não há quem arranje dessas cadeiras. Voltou a cadeira para casa da senhora que, às vezes, com saudades de outros tempos, nela se sentava, evocando a musiquinha que a cadeira, dantes, tocava.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas na oficina das cadeiras desenganaram-na: - Já não há quem arranje dessas cadeiras. Voltou a cadeira para casa da senhora que, às vezes, com saudades de outros tempos, nela se sentava, evocando a musiquinha que a cadeira, dantes, tocava. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "A velha e gorda senhora lembrava-se de quando era nova, leve e gentil e ia, às escondidas da avó, sentar-se na cadeira com música. - Tlim, tlim, tlim e mais tlim - tocava a cadeira, à volta da menina. Que saudades!",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A velha e gorda senhora lembrava-se de quando era nova, leve e gentil e ia, às escondidas da avó, sentar-se na cadeira com música. - Tlim, tlim, tlim e mais tlim - tocava a cadeira, à volta da menina. Que saudades! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "A senhora largou um imenso suspiro e foi atender à porta, porque a campainha repicara . Era uma amiga com o sobrinho, um miúdo tímido, escondido atrás da sombra da tia. - Entrem para a sala - convidou a velha senhora. Logo aconteceu que o menino se foi sentar na cadeira avariada.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A senhora largou um imenso suspiro e foi atender à porta, porque a campainha repicara . Era uma amiga com o sobrinho, um miúdo tímido, escondido atrás da sombra da tia. - Entrem para a sala - convidou a velha senhora. Logo aconteceu que o menino se foi sentar na cadeira avariada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "E não é que ela, sem mais quê nem porquê, ao leve peso do garoto, começou a tocar? O miúdo saltou, assustado, e a cadeira calou-se. Então, a velha senhora explicou o mecanismo da cadeira e tudo voltou ao certo. Naquela tarde, a cadeira tocou que foi um regalo ouvir.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E não é que ela, sem mais quê nem porquê, ao leve peso do garoto, começou a tocar? O miúdo saltou, assustado, e a cadeira calou-se. Então, a velha senhora explicou o mecanismo da cadeira e tudo voltou ao certo. Naquela tarde, a cadeira tocou que foi um regalo ouvir. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s6p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p2",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "Naquela tarde, a cadeira tocou que foi um regalo ouvir. - Eu já devia estar muito pesada para a sensibilidade da cadeira - concluiu a senhora. E logo ali ficou combinado que o menino, sempre que quisesse, podia vir visitar a senhora. E a cadeira. As duas teriam muito prazer em recebê-lo.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Naquela tarde, a cadeira tocou que foi um regalo ouvir. - Eu já devia estar muito pesada para a sensibilidade da cadeira - concluiu a senhora. E logo ali ficou combinado que o menino, sempre que quisesse, podia vir visitar a senhora. E a cadeira. As duas teriam muito prazer em recebê-lo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

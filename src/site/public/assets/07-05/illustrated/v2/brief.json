@@ -1,0 +1,148 @@
+{
+  "characters": [
+    {
+      "name": "orelhas",
+      "appearance": "duas orelhas destacadas, soltas e humanizadas"
+    },
+    {
+      "name": "óculos",
+      "appearance": "óculos gigantes com nariz associado, aparência encontrada em ferro-velho"
+    },
+    {
+      "name": "nariz",
+      "appearance": "nariz separado, ligado aos óculos na nova formação"
+    },
+    {
+      "name": "mão",
+      "appearance": "grande mão enluvada, colaboradora da sociedade"
+    },
+    {
+      "name": "coração",
+      "appearance": "coração dourado, apresentado como candidato"
+    },
+    {
+      "name": "palhaço",
+      "appearance": "cara de palhaço com grandes orelhas, óculos e nariz pintado"
+    }
+  ],
+  "environment": "cidade portuguesa com telhados, ferro-velho ao ar livre, demolição urbana, jornal de anúncio e entrada de circo",
+  "palette": [
+    "tons urbanos envelhecidos",
+    "metal gasto",
+    "dourado quente",
+    "vermelhos de circo",
+    "azuis e cinzas da cidade",
+    "amarelos e pretos de anúncio"
+  ],
+  "recurringObjects": [
+    "cartaz publicitário",
+    "óculos gigantes",
+    "nariz associado",
+    "mão enluvada",
+    "anúncio de jornal",
+    "coração dourado",
+    "entrada de circo"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Eram duas orelhas. Só duas orelhas. Estavam num grande cartaz que anunciava uma marca de aparelhos de rádio: PARA OS RÁDIOS THO-KATU-DO SOU TODO OUVIDOS. O anúncio passou à história - será esta? - e as orelhas ficaram desempregadas. Que fazer?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A sociedade dos bons sentidos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eram duas orelhas. Só duas orelhas. Estavam num grande cartaz que anunciava uma marca de aparelhos de rádio: PARA OS RÁDIOS THO-KATU-DO SOU TODO OUVIDOS. O anúncio passou à história - será esta? - e as orelhas ficaram desempregadas. Que fazer? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "O anúncio passou à história - será esta? - e as orelhas ficaram desempregadas. Que fazer? Deu-lhes para voar sobre a cidade, como uma borboleta gigante, à procura de poiso. Foram ter a um ferro-velho ao ar livre, onde, no meio de muita tralha, repousavam, sem préstimo, uns óculos gigantes, com o respectivo nariz. Tinham estado pendurados na fachada de uma loja de oculista, que mudara de ramo.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O anúncio passou à história - será esta? - e as orelhas ficaram desempregadas. Que fazer? Deu-lhes para voar sobre a cidade, como uma borboleta gigante, à procura de poiso. Foram ter a um ferro-velho ao ar livre, onde, no meio de muita tralha, repousavam, sem préstimo, uns óculos gigantes, com o respectivo nariz. Tinham estado pendurados na fachada de uma loja de oculista, que mudara de ramo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Associaram-se as orelhas aos óculos mais o nariz. Já não faltava tudo. A borboleta que voava, agora, sobre os telhados da cidade estava mais completa. Ouvia, via e cheirava. Operários andavam a desmontar do alto da porta de uma luvaria uma grande mão enluvada. O prédio ia ser deitado abaixo.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Associaram-se as orelhas aos óculos mais o nariz. Já não faltava tudo. A borboleta que voava, agora, sobre os telhados da cidade estava mais completa. Ouvia, via e cheirava. Operários andavam a desmontar do alto da porta de uma luvaria uma grande mão enluvada. O prédio ia ser deitado abaixo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s8p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s7p0",
+        "s8p0",
+        "s8p1"
+      ],
+      "evidence": "Ofereceu-se uma dentadura, mas sem boca, o que não era conveniente. Ofereceu-se a Boca do Inferno, um precipício sobre o mar de Cascais, o que estava fora de causa. Ofereceu-se um pudim chamado Boca Doce, também a despropósito. Ofereceu-se uma boca de favas, que ninguém percebia. Por isto ou por aquilo, todas as bocas que apareceram foram rejeitadas. A boca do estômago, a boca de incêndio, a boca da noite e outras bocas e boquinhas não vinham para o caso. - Parece que ficamos sem boca - não disseram eles, que não tinham boca, mas pensaram.",
+      "after": {
+        "segment": 8,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ofereceu-se uma dentadura, mas sem boca, o que não era conveniente. Ofereceu-se a Boca do Inferno, um precipício sobre o mar de Cascais, o que estava fora de causa. Ofereceu-se um pudim chamado Boca Doce, também a despropósito. Ofereceu-se uma boca de favas, que ninguém percebia. Por isto ou por aquilo, todas as bocas que apareceram foram rejeitadas. A boca do estômago, a boca de incêndio, a boca da noite e outras bocas e boquinhas não vinham para o caso. - Parece que ficamos sem boca - não disseram eles, que não tinham boca, mas pensaram. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s9p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s9p0",
+        "s9p1",
+        "s9p2"
+      ],
+      "evidence": "Até que lhes apareceu um coração, um lindo coração doirado de noiva minhota, que se apresentou nestes termos: - Faço as vezes da boca que vos faz falta, porque tenho o coração ao pé da boca. Onde? Não se via, mas eles acreditaram.",
+      "after": {
+        "segment": 9,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Até que lhes apareceu um coração, um lindo coração doirado de noiva minhota, que se apresentou nestes termos: - Faço as vezes da boca que vos faz falta, porque tenho o coração ao pé da boca. Onde? Não se via, mas eles acreditaram. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s11p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s10p2",
+        "s10p3",
+        "s11p0"
+      ],
+      "evidence": "O MAIOR ESPECTÁCULO DO MUNDO, anunciava a cara cheia de um palhaço, de grandes orelhas e óculos estapafúrdios, sobre o nariz pintado, a apontar, com a mão enluvada, a entrada de um circo. Não passava despercebida. Aquela cara inocente de palhaço tinha a boca ao pé do coração. Ou vice-versa. E cinco ou mais sentidos de alegria, sempre generosos e prontos a apresentar o maior espectáculo do mundo que é a vida. Ou vice-versa.",
+      "after": {
+        "segment": 11,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O MAIOR ESPECTÁCULO DO MUNDO, anunciava a cara cheia de um palhaço, de grandes orelhas e óculos estapafúrdios, sobre o nariz pintado, a apontar, com a mão enluvada, a entrada de um circo. Não passava despercebida. Aquela cara inocente de palhaço tinha a boca ao pé do coração. Ou vice-versa. E cinco ou mais sentidos de alegria, sempre generosos e prontos a apresentar o maior espectáculo do mundo que é a vida. Ou vice-versa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

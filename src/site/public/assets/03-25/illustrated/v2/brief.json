@@ -1,0 +1,112 @@
+{
+  "characters": [
+    {
+      "name": "Narrador",
+      "appearance": "Observador implícito que visita a exposição e leva a papoila na lapela"
+    },
+    {
+      "name": "Papoila",
+      "appearance": "Flor do campo vermelha, pequena e frágil, inicialmente do lado de fora da exposição"
+    }
+  ],
+  "environment": "Exposição de flores ao ar livre, com jardins, vasos e jarros na entrada de um festival floral, culminando no interior da mostra onde visitantes passam e observam as flores.",
+  "palette": [
+    "vermelho papoila",
+    "verdes de jardim",
+    "tons suaves de pétalas",
+    "brancos e rosados de flores cultivadas",
+    "cores quentes de festa ao ar livre"
+  ],
+  "recurringObjects": [
+    "papoila",
+    "lapela",
+    "vasos de flores",
+    "jarros",
+    "visitantes da exposição"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Aqui perto, houve uma exposição de flores. De flores naturais, fiquem sabendo Nem fazia sentido que a exposição fosse de flores de plástico. Ou de pano. Ou de papel. Ou de flores pintadas em quadros. As flores, em qualquer jardim, estão sempre em exposição. – Admirem as nossas cores – dizem as rosas.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Exposição de Flores».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Aqui perto, houve uma exposição de flores. De flores naturais, fiquem sabendo Nem fazia sentido que a exposição fosse de flores de plástico. Ou de pano. Ou de papel. Ou de flores pintadas em quadros. As flores, em qualquer jardim, estão sempre em exposição. – Admirem as nossas cores – dizem as rosas. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p7",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p5",
+        "s0p6",
+        "s0p7"
+      ],
+      "evidence": "As flores de jardim são umas vaidosas. Na exposição, dispostas em jarros ou em vasos, encantavam quem por elas passava. À entrada, mas do lado de fora do festival das flores, uma papoila chama-me a atenção. – Não me deixaram entrar – queixou-se ela. – Dizem que a exposição é só para flores cultivadas. Acho uma injustiça.",
+      "after": {
+        "segment": 0,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: As flores de jardim são umas vaidosas. Na exposição, dispostas em jarros ou em vasos, encantavam quem por elas passava. À entrada, mas do lado de fora do festival das flores, uma papoila chama-me a atenção. – Não me deixaram entrar – queixou-se ela. – Dizem que a exposição é só para flores cultivadas. Acho uma injustiça. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p8",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p6",
+        "s0p7",
+        "s0p8"
+      ],
+      "evidence": "À entrada, mas do lado de fora do festival das flores, uma papoila chama-me a atenção. – Não me deixaram entrar – queixou-se ela. – Dizem que a exposição é só para flores cultivadas. Acho uma injustiça. Também achei o mesmo. Por isso, para repor a justiça e homenagear as flores do campo, que têm tanto de humildade como de beleza, peguei na papoila e prendi-a na lapela. Depois, entrei na exposição como se trouxesse ao peito uma condecoração de fazer inveja a generais.",
+      "after": {
+        "segment": 0,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: À entrada, mas do lado de fora do festival das flores, uma papoila chama-me a atenção. – Não me deixaram entrar – queixou-se ela. – Dizem que a exposição é só para flores cultivadas. Acho uma injustiça. Também achei o mesmo. Por isso, para repor a justiça e homenagear as flores do campo, que têm tanto de humildade como de beleza, peguei na papoila e prendi-a na lapela. Depois, entrei na exposição como se trouxesse ao peito uma condecoração de fazer inveja a generais. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p11",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p9",
+        "s0p10",
+        "s0p11"
+      ],
+      "evidence": "Houve escândalo entre as flores a concurso. – O que é que esta paspalhona provinciana tem de estar aqui a exibir-se? – perguntavam umas às outras. Mas os visitantes da exposição olhavam para nós – para a papoila e para mim – e sorriam.",
+      "after": {
+        "segment": 0,
+        "paragraph": 11
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Houve escândalo entre as flores a concurso. – O que é que esta paspalhona provinciana tem de estar aqui a exibir-se? – perguntavam umas às outras. Mas os visitantes da exposição olhavam para nós – para a papoila e para mim – e sorriam. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p12",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p10",
+        "s0p11",
+        "s0p12"
+      ],
+      "evidence": "– O que é que esta paspalhona provinciana tem de estar aqui a exibir-se? – perguntavam umas às outras. Mas os visitantes da exposição olhavam para nós – para a papoila e para mim – e sorriam. A minha papoila, muito ruborizada, sentia-se a rainha da festa. Nunca concentrara sobre ela tantos olhares, tanta atenção, tanta simpatia. Era emoção demais para uma papoila tão frágil. Antes que eu chegasse ao fim da exposição as pétalas da minha papoila voaram. Para onde? Não importa. Aquele tinha sido o momento mais glorioso da sua curta vida.",
+      "after": {
+        "segment": 0,
+        "paragraph": 12
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – O que é que esta paspalhona provinciana tem de estar aqui a exibir-se? – perguntavam umas às outras. Mas os visitantes da exposição olhavam para nós – para a papoila e para mim – e sorriam. A minha papoila, muito ruborizada, sentia-se a rainha da festa. Nunca concentrara sobre ela tantos olhares, tanta atenção, tanta simpatia. Era emoção demais para uma papoila tão frágil. Antes que eu chegasse ao fim da exposição as pétalas da minha papoila voaram. Para onde? Não importa. Aquele tinha sido o momento mais glorioso da sua curta vida. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

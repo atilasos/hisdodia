@@ -1,0 +1,103 @@
+{
+  "characters": [
+    {
+      "name": "homem",
+      "appearance": "Cliente do mercado, figura simples, carregando compras e observando as panelas."
+    },
+    {
+      "name": "vendedor",
+      "appearance": "Vendedor de mercado à beira da estrada, junto das panelas e tachos."
+    },
+    {
+      "name": "panela de ferro",
+      "appearance": "Panela resistente, de ferro."
+    },
+    {
+      "name": "panela de barro",
+      "appearance": "Panela frágil, de barro."
+    }
+  ],
+  "environment": "Mercado à beira da estrada, com panelas e tachos à venda, depois a viagem das compras num saco e, por fim, a casa do homem onde ele descobre o estrago.",
+  "palette": [
+    "tons terrosos",
+    "ferro escuro",
+    "barro quente",
+    "bege poeirento",
+    "castanhos suaves"
+  ],
+  "recurringObjects": [
+    "mercado",
+    "saco de compras",
+    "panelas e tachos",
+    "panela de ferro",
+    "panela de barro"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Eram duas panelas. Uma de ferro e a outra de barro. Estavam as duas à venda, entre outras panelas e tachos, num mercado, à beira da estrada. - Quanto custa aquela? - perguntou um homem, apontando a panela de ferro. O vendedor disse o preço. Era carote.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «As duas panelas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eram duas panelas. Uma de ferro e a outra de barro. Estavam as duas à venda, entre outras panelas e tachos, num mercado, à beira da estrada. - Quanto custa aquela? - perguntou um homem, apontando a panela de ferro. O vendedor disse o preço. Era carote. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "O vendedor disse o preço. Era baratucho. - Mas se levar as duas, faço-lhe um bom desconto - acrescentou o vendedor. O homem aceitou. Valia a pena.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O vendedor disse o preço. Era baratucho. - Mas se levar as duas, faço-lhe um bom desconto - acrescentou o vendedor. O homem aceitou. Valia a pena. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p2",
+        "s1p3",
+        "s2p0"
+      ],
+      "evidence": "- Mas se levar as duas, faço-lhe um bom desconto - acrescentou o vendedor. O homem aceitou. Valia a pena. Afinal, não valeu. Metidas no mesmo saco, aconteceu que, com os solavancos da viagem, a panela de ferro rachou a panela de barro. Rachou-a e partiu-a.",
+      "after": {
+        "segment": 2,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Mas se levar as duas, faço-lhe um bom desconto - acrescentou o vendedor. O homem aceitou. Valia a pena. Afinal, não valeu. Metidas no mesmo saco, aconteceu que, com os solavancos da viagem, a panela de ferro rachou a panela de barro. Rachou-a e partiu-a. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p1",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "Quando o homem chegou a casa e tirou as compras que tinha feito, viu, desolado, a panela de barro reduzida a cacos. - Não devia ter posto as duas juntas - reconsiderou o homem. Perdeu uma panela, mas ganhou uma lição. Do mal o menos...",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando o homem chegou a casa e tirou as compras que tinha feito, viu, desolado, a panela de barro reduzida a cacos. - Não devia ter posto as duas juntas - reconsiderou o homem. Perdeu uma panela, mas ganhou uma lição. Do mal o menos... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

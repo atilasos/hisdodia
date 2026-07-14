@@ -1,0 +1,94 @@
+{
+  "characters": [
+    {
+      "name": "lenhador",
+      "appearance": "Homem adulto, roupa simples de trabalho, mãos gastas, expressão cansada e depois perplexa"
+    },
+    {
+      "name": "dois velhos",
+      "appearance": "Dois idosos de longas barbas, sentados no interior de um tronco oco, postura solene"
+    }
+  ],
+  "environment": "Floresta densa e antiga, com uma árvore enorme e um povoado rural simples ao fundo; a atmosfera passa de realista a onírica.",
+  "palette": [
+    "verdes profundos",
+    "castanhos de madeira",
+    "ocres suaves",
+    "cinzentos de neblina",
+    "luz dourada discreta"
+  ],
+  "recurringObjects": [
+    "machada",
+    "tronco oco",
+    "tabuleiro de damas",
+    "árvore gigante"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era um lenhador. Passava o dia na floresta, a cortar árvores. Os filhos traziam-lhe o almoço que ele comia à pressa, para voltar, depois de uma breve sesta, ao seu trabalho. Era muito cansativa a vida dos lenhadores. Uma tarde, ia ele desferir a primeira machada numa grande árvore, quando ouviu conversar dentro do tronco. Estranhou. Espreitou. O tronco era oco e, lá dentro, dois velhos de longas barbas, um diante do outro, muito solenes jogavam às damas.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A rainha da floresta».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era um lenhador. Passava o dia na floresta, a cortar árvores. Os filhos traziam-lhe o almoço que ele comia à pressa, para voltar, depois de uma breve sesta, ao seu trabalho. Era muito cansativa a vida dos lenhadores. Uma tarde, ia ele desferir a primeira machada numa grande árvore, quando ouviu conversar dentro do tronco. Estranhou. Espreitou. O tronco era oco e, lá dentro, dois velhos de longas barbas, um diante do outro, muito solenes jogavam às damas. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era um lenhador. Passava o dia na floresta, a cortar árvores. Os filhos traziam-lhe o almoço que ele comia à pressa, para voltar, depois de uma breve sesta, ao seu trabalho. Era muito cansativa a vida dos lenhadores. Uma tarde, ia ele desferir a primeira machada numa grande árvore, quando ouviu conversar dentro do tronco. Estranhou. Espreitou. O tronco era oco e, lá dentro, dois velhos de longas barbas, um diante do outro, muito solenes jogavam às damas.",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era um lenhador. Passava o dia na floresta, a cortar árvores. Os filhos traziam-lhe o almoço que ele comia à pressa, para voltar, depois de uma breve sesta, ao seu trabalho. Era muito cansativa a vida dos lenhadores. Uma tarde, ia ele desferir a primeira machada numa grande árvore, quando ouviu conversar dentro do tronco. Estranhou. Espreitou. O tronco era oco e, lá dentro, dois velhos de longas barbas, um diante do outro, muito solenes jogavam às damas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s3p0"
+      ],
+      "evidence": "- Passou-se mais tempo do que tu imaginas. De facto, a árvore estava maior e a floresta mais cerrada. Que teria acontecido? Sobressaltado, o lenhador voltou à aldeia, mas já não encontrou ninguém conhecido. A casa, a mulher e os filhos tinham desaparecido e ninguém se lembrava deles.",
+      "after": {
+        "segment": 3,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Passou-se mais tempo do que tu imaginas. De facto, a árvore estava maior e a floresta mais cerrada. Que teria acontecido? Sobressaltado, o lenhador voltou à aldeia, mas já não encontrou ninguém conhecido. A casa, a mulher e os filhos tinham desaparecido e ninguém se lembrava deles. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Era, certamente, um pesadelo. Os velhos concederam-lhe o que ele pedira, não sem antes o fazerem prometer que nunca abateria aquela grande árvore, no interior da qual eles jogavam um interminável jogo de damas. Quando o lenhador acordou, estava tudo como dantes. Afinal, sempre tinha sido um sonho. Mas, à cautela, o lenhador poupou a árvore, rainha da floresta.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era, certamente, um pesadelo. Os velhos concederam-lhe o que ele pedira, não sem antes o fazerem prometer que nunca abateria aquela grande árvore, no interior da qual eles jogavam um interminável jogo de damas. Quando o lenhador acordou, estava tudo como dantes. Afinal, sempre tinha sido um sonho. Mas, à cautela, o lenhador poupou a árvore, rainha da floresta. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

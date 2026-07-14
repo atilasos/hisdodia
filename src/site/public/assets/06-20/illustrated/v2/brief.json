@@ -1,0 +1,110 @@
+{
+  "characters": [
+    {
+      "name": "sapo Tubi",
+      "appearance": "sapo esverdeado acastanhado, expressão inquieta"
+    }
+  ],
+  "environment": "Planeta Algures, um mundo alagado e continuamente chuvoso, povoado apenas por sapos e rãs, com chuva de cores variáveis que depois se torna água transparente.",
+  "palette": [
+    "cor-de-rosa",
+    "verde-alface",
+    "violeta-desmaiado",
+    "azul-marinho",
+    "amarelo dourado",
+    "cinzento",
+    "transparente"
+  ],
+  "recurringObjects": [
+    "chuva",
+    "poças",
+    "nuvens",
+    "sapos",
+    "rãs"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Estava a cair uma chuvinha cor-de-rosa, mas persistente. Isto passa-se num planeta algures - parece que se chama mesmo Algures - lá para os fundos do universo. Aqui (ou ali?) só vivem sapos e rãs, únicos seres vivos do planeta, onde chove continuamente e sempre às cores.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Chuva de algures».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Estava a cair uma chuvinha cor-de-rosa, mas persistente. Isto passa-se num planeta algures - parece que se chama mesmo Algures - lá para os fundos do universo. Aqui (ou ali?) só vivem sapos e rãs, únicos seres vivos do planeta, onde chove continuamente e sempre às cores. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Os sapos e as rãs não querem outra coisa, embora lhes seja indiferente a cor da chuva, desde que molhe. Os sapos e as rãs são bichos de gostos pouco requintados. Pois, como ia dizendo, estava a cair uma chuvinha cor-de-rosa quando, sem quê nem porquê, parou de chover. Escorregou a última gota rosada de chuva sobre a pele esverdeada acastanhada do sapo, que elegemos como herói da nossa história, e o chuveiro emperrou.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os sapos e as rãs não querem outra coisa, embora lhes seja indiferente a cor da chuva, desde que molhe. Os sapos e as rãs são bichos de gostos pouco requintados. Pois, como ia dizendo, estava a cair uma chuvinha cor-de-rosa quando, sem quê nem porquê, parou de chover. Escorregou a última gota rosada de chuva sobre a pele esverdeada acastanhada do sapo, que elegemos como herói da nossa história, e o chuveiro emperrou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s5p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "O planeta Algures, somados os rios, lagos e charcos, tinha água de reserva para muitas e muitas gerações. Mas a inesperada ausência de chuva não deixava de causar inquietação. No meio da coaxante assembleia, o sapo Tubi acusou-se: - Fui eu o culpado.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O planeta Algures, somados os rios, lagos e charcos, tinha água de reserva para muitas e muitas gerações. Mas a inesperada ausência de chuva não deixava de causar inquietação. No meio da coaxante assembleia, o sapo Tubi acusou-se: - Fui eu o culpado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s10p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s10p0",
+        "s10p1",
+        "s10p2"
+      ],
+      "evidence": "Até que o Tubi, fixando tristemente o céu cinzento, se saiu com esta: - Quem dera que chovesse, nem que fosse sem cores. De imediato, uma gota de água transparente caiu no focinho do sapo. Ele lançou a serpentina da língua cá para fora e provou-a. Não sabia a nada, mas era gostosa. Água pura.",
+      "after": {
+        "segment": 10,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Até que o Tubi, fixando tristemente o céu cinzento, se saiu com esta: - Quem dera que chovesse, nem que fosse sem cores. De imediato, uma gota de água transparente caiu no focinho do sapo. Ele lançou a serpentina da língua cá para fora e provou-a. Não sabia a nada, mas era gostosa. Água pura. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s12p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s11p0",
+        "s11p1",
+        "s12p0"
+      ],
+      "evidence": "Depois da primeira gota, muitas outras se lhe seguiram. Voltava a chover no planeta Algures e logo da primeira vez, depois da seca, a abada era de respeito. As cores variadas da chuva de outrora é que não voltaram mais. Quando os sapos e as rãs contam esta história ou lenda aos filhos eles riem-se. O riso estica-lhes a pele húmida e luzidia, que ao sol ganha a reverberação das cores do arco-íris. Recordações, talvez, do tempo em que a chuva era às cores.",
+      "after": {
+        "segment": 12,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Depois da primeira gota, muitas outras se lhe seguiram. Voltava a chover no planeta Algures e logo da primeira vez, depois da seca, a abada era de respeito. As cores variadas da chuva de outrora é que não voltaram mais. Quando os sapos e as rãs contam esta história ou lenda aos filhos eles riem-se. O riso estica-lhes a pele húmida e luzidia, que ao sol ganha a reverberação das cores do arco-íris. Recordações, talvez, do tempo em que a chuva era às cores. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

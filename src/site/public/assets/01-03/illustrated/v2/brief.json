@@ -1,0 +1,74 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Ao senhor Túlio sempre lhe fizera espécie como é que os relógios trabalhavam incansavelmente e nunca paravam. - Dá-se-lhes corda e eles andam - explicavam ao senhor Túlio, que tinha um relógio dos antigos, muito anterior aos relógios a pilhas. Mas o senhor Túlio não acreditava. Devia haver outro mistério.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Relógio do Senhor Túlio».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ao senhor Túlio sempre lhe fizera espécie como é que os relógios trabalhavam incansavelmente e nunca paravam. - Dá-se-lhes corda e eles andam - explicavam ao senhor Túlio, que tinha um relógio dos antigos, muito anterior aos relógios a pilhas. Mas o senhor Túlio não acreditava. Devia haver outro mistério. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Mas o senhor Túlio não acreditava. Devia haver outro mistério. Um dia, o relógio dele parou, por mais corda que lhe desse. Quando o senhor Túlio foi levá-lo a arranjar à oficina de relojoaria, ficou maravilhado a olhar para o maquinismo do seu querido relógio, que o relojoeiro destapara. - Tantas rodinhas. Nunca pensei - admirou-se ele.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas o senhor Túlio não acreditava. Devia haver outro mistério. Um dia, o relógio dele parou, por mais corda que lhe desse. Quando o senhor Túlio foi levá-lo a arranjar à oficina de relojoaria, ficou maravilhado a olhar para o maquinismo do seu querido relógio, que o relojoeiro destapara. - Tantas rodinhas. Nunca pensei - admirou-se ele. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "- Pronto. O desarranjo estava aqui - explicou o relojoeiro, voltando a fechar a tampa do relógio. O senhor Túlio estranhou: - E não põe lá uma formiga nova?",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Pronto. O desarranjo estava aqui - explicou o relojoeiro, voltando a fechar a tampa do relógio. O senhor Túlio estranhou: - E não põe lá uma formiga nova? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "- Para quê? - Para fazer as vezes da que morreu. Como é que o relógio pode trabalhar sem maquinista? E se o senhor Túlio tivesse razão e fosse mesmo à conta das formigas que os relógios conseguem trabalhar? É uma ideia como outra qualquer e bastante divertida. Até dava outra história.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Para quê? - Para fazer as vezes da que morreu. Como é que o relógio pode trabalhar sem maquinista? E se o senhor Túlio tivesse razão e fosse mesmo à conta das formigas que os relógios conseguem trabalhar? É uma ideia como outra qualquer e bastante divertida. Até dava outra história. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,103 @@
+{
+  "characters": [],
+  "environment": "aldeia portuguesa com poço central, caminhos rurais e pinhais em redor",
+  "palette": [
+    "tons terrosos",
+    "ocre",
+    "castanho",
+    "verde escuro",
+    "cinzento pedra"
+  ],
+  "recurringObjects": [
+    "poço",
+    "corda",
+    "pedra grande",
+    "taça de prata",
+    "espingardas"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Lá na aldeia todos sabiam que ele era ladrão, mas tinham-lhe medo. Diziam que ele assaltava viajantes, noite alta. Também contavam de assaltos a casas dos povoados próximos, estivessem lá moradores ou não. E era cruel, rancoroso, arrebatado, perverso. Um tojo, um cardo de malvadez. A gente pacífica da aldeia não descortinava maneira de ver-se livre do malfeitor. No tempo em que esta história aconteceu, não havia polícia senão nas cidades maiores. Os caminhos para lá chegar eram demorados e pouco seguros.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Viva o Natério».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Lá na aldeia todos sabiam que ele era ladrão, mas tinham-lhe medo. Diziam que ele assaltava viajantes, noite alta. Também contavam de assaltos a casas dos povoados próximos, estivessem lá moradores ou não. E era cruel, rancoroso, arrebatado, perverso. Um tojo, um cardo de malvadez. A gente pacífica da aldeia não descortinava maneira de ver-se livre do malfeitor. No tempo em que esta história aconteceu, não havia polícia senão nas cidades maiores. Os caminhos para lá chegar eram demorados e pouco seguros. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "A gente pacífica da aldeia não descortinava maneira de ver-se livre do malfeitor. No tempo em que esta história aconteceu, não havia polícia senão nas cidades maiores. Os caminhos para lá chegar eram demorados e pouco seguros. Por isso, sem autoridades que lhes valessem, os aldeãos viviam em perpétuo terror. Até que, um dia, o Natério, um dez-réis de gente, mas muito vivaço e destemido, resolveu dar a volta à história. Naquele estado de pavor geral é que as coisas não podiam continuar.",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A gente pacífica da aldeia não descortinava maneira de ver-se livre do malfeitor. No tempo em que esta história aconteceu, não havia polícia senão nas cidades maiores. Os caminhos para lá chegar eram demorados e pouco seguros. Por isso, sem autoridades que lhes valessem, os aldeãos viviam em perpétuo terror. Até que, um dia, o Natério, um dez-réis de gente, mas muito vivaço e destemido, resolveu dar a volta à história. Naquele estado de pavor geral é que as coisas não podiam continuar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p13",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p11",
+        "s0p12",
+        "s0p13"
+      ],
+      "evidence": "– Debrucei-me para o poço, à caça de uma lagartixa, e a taça caiu-me lá dentro. Uma desgraça! O que é que eu vou dizer à minha mãe? E ao senhor prior? Como se temesse as respostas, o rapaz voltou ao berreiro. – Deixa estar que eles escusam de saber – disse o ladrão, escarranchado no bordo do poço. – Eu trago-te a taça, não tarda.",
+      "after": {
+        "segment": 0,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Debrucei-me para o poço, à caça de uma lagartixa, e a taça caiu-me lá dentro. Uma desgraça! O que é que eu vou dizer à minha mãe? E ao senhor prior? Como se temesse as respostas, o rapaz voltou ao berreiro. – Deixa estar que eles escusam de saber – disse o ladrão, escarranchado no bordo do poço. – Eu trago-te a taça, não tarda. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p21",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p19",
+        "s0p20",
+        "s0p21"
+      ],
+      "evidence": "– Ainda não achei – dizia. – Mas achámo-lo nós – gritou-lhe de cima o Natério. Dos pinhais ao redor romperam mulheres e homens, à chamada do rapaz. Agarraram todos uma enorme pedra e puseram-na a tapar a boca do poço. O bandido gritou, mas de nada lhe valeu.",
+      "after": {
+        "segment": 0,
+        "paragraph": 21
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Ainda não achei – dizia. – Mas achámo-lo nós – gritou-lhe de cima o Natério. Dos pinhais ao redor romperam mulheres e homens, à chamada do rapaz. Agarraram todos uma enorme pedra e puseram-na a tapar a boca do poço. O bandido gritou, mas de nada lhe valeu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p24",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p22",
+        "s0p23",
+        "s0p24"
+      ],
+      "evidence": "Já outros da aldeia tinham ido à cidade chamar a guarda. Dias depois, foi removida a pedra e o ladrão saiu a praguejar da armadilha que lhe tinham pregado. Chegando ao cimo, calou-se. Tinha guarda de honra à espera, uma fieira de canos de espingarda apontada para ele. Os guardas levaram-no e nunca mais se soube do brutamontes. O poço ganhou nome. Passou a ser conhecido pelo poço do Natério. E se, um dia, andarem por terras monfortinhas, a caminho de Castelo Branco, talvez ainda haja quem saiba dizer onde fica.",
+      "after": {
+        "segment": 0,
+        "paragraph": 24
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Já outros da aldeia tinham ido à cidade chamar a guarda. Dias depois, foi removida a pedra e o ladrão saiu a praguejar da armadilha que lhe tinham pregado. Chegando ao cimo, calou-se. Tinha guarda de honra à espera, uma fieira de canos de espingarda apontada para ele. Os guardas levaram-no e nunca mais se soube do brutamontes. O poço ganhou nome. Passou a ser conhecido pelo poço do Natério. E se, um dia, andarem por terras monfortinhas, a caminho de Castelo Branco, talvez ainda haja quem saiba dizer onde fica. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

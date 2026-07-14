@@ -1,0 +1,119 @@
+{
+  "characters": [],
+  "environment": "Pinhal e casa da galinha, com viagem pelo caminho sob sombra de sobreiro até à cozinha da casa dos raposos.",
+  "palette": [
+    "castanhos quentes",
+    "verdes de pinhal",
+    "vermelho-acastanhado",
+    "amarelo dourado",
+    "creme"
+  ],
+  "recurringObjects": [
+    "bolo",
+    "saco",
+    "pedra",
+    "panelão",
+    "raposo"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "A galinha tinha ido fazer um piquenique ao pinhal, na companhia dos filhos. Estavam eles já à volta do bolo, quando lhes apareceu um raposo raposão. - Ora viva a bela merenda - cumprimentou o raposo.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Tum-tum, Tum-tum, Tum-tum...».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A galinha tinha ido fazer um piquenique ao pinhal, na companhia dos filhos. Estavam eles já à volta do bolo, quando lhes apareceu um raposo raposão. - Ora viva a bela merenda - cumprimentou o raposo. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1"
+      ],
+      "evidence": "A galinha tinha ido fazer um piquenique ao pinhal, na companhia dos filhos. Estavam eles já à volta do bolo, quando lhes apareceu um raposo raposão.",
+      "after": {
+        "segment": 0,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A galinha tinha ido fazer um piquenique ao pinhal, na companhia dos filhos. Estavam eles já à volta do bolo, quando lhes apareceu um raposo raposão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p2",
+        "s2p3",
+        "s2p4"
+      ],
+      "evidence": "O raposo estava pelos ajustes. Deixou os pintos em paz, que fugiram atarantados, e ficou com a galinha. Meteu-a num saco, que trazia às costas, dizendo: - Hoje tenho visitas, lá em casa, e uma galinha dá sempre jeito, ao jantar.",
+      "after": {
+        "segment": 2,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O raposo estava pelos ajustes. Deixou os pintos em paz, que fugiram atarantados, e ficou com a galinha. Meteu-a num saco, que trazia às costas, dizendo: - Hoje tenho visitas, lá em casa, e uma galinha dá sempre jeito, ao jantar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p2",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "Quando o sentiu a dormir, a galinha escapou-se. Mas, à cautela, meteu uma grande pedra no saco e, com artes de costureira, voltou a coser a costura. Depois, fugiu, ao encontro dos filhos.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando o sentiu a dormir, a galinha escapou-se. Mas, à cautela, meteu uma grande pedra no saco e, com artes de costureira, voltou a coser a costura. Depois, fugiu, ao encontro dos filhos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p3",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "- Trago a galinha mais gorda da capoeira. Ponham água a ferver ao lume, que quero cozê-la com arroz. Come-se primeiro a canja e, depois, a galinha. Quando a água do panelão estava a ferver, o raposo foi buscar o saco. Raposos, raposas e raposecos puseram-se à roda do lume, para apreciar a qualidade do pitéu. Abriu-se o saco e o pedregulho, ao cair na panela, esparramou água à volta, salpicando os convidados. Uivos de dor, em coro desafinado, soltaram-se das bocas gulosas.",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Trago a galinha mais gorda da capoeira. Ponham água a ferver ao lume, que quero cozê-la com arroz. Come-se primeiro a canja e, depois, a galinha. Quando a água do panelão estava a ferver, o raposo foi buscar o saco. Raposos, raposas e raposecos puseram-se à roda do lume, para apreciar a qualidade do pitéu. Abriu-se o saco e o pedregulho, ao cair na panela, esparramou água à volta, salpicando os convidados. Uivos de dor, em coro desafinado, soltaram-se das bocas gulosas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s9p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s8p2",
+        "s9p0",
+        "s9p1"
+      ],
+      "evidence": "Na hora da deita, os pintainhos, aconchegados à mãe, adormeceram felizes. Até ela sentiu, no centro daquele calor bom, o coraçãozinho deles a bater ao mesmo compasso sereno do coração dela, tum-tum, tum-tum, tum-tum... E assim adormeceu.",
+      "after": {
+        "segment": 9,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Na hora da deita, os pintainhos, aconchegados à mãe, adormeceram felizes. Até ela sentiu, no centro daquele calor bom, o coraçãozinho deles a bater ao mesmo compasso sereno do coração dela, tum-tum, tum-tum, tum-tum... E assim adormeceu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

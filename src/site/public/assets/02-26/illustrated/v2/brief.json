@@ -1,0 +1,114 @@
+{
+  "characters": [
+    {
+      "name": "A galinha avarenta",
+      "appearance": "A hen at the center of the story, proud and possessive, with a watchful expression; she is visually associated with precious eggs and a slightly self-satisfied posture."
+    },
+    {
+      "name": "Os donos da galinha",
+      "appearance": "Rural household figures who appear stern and impatient, sometimes threatening, with practical farm clothing and rough gestures."
+    }
+  ],
+  "environment": "A rural farm setting with a chicken coop, yard, and nearby mato where the hidden treasure is kept; the tone should feel contemporary in execution but rooted in a countryside tale.",
+  "palette": [
+    "warm earth tones",
+    "gold",
+    "silver",
+    "copper",
+    "muted browns",
+    "sun-faded greens"
+  ],
+  "recurringObjects": [
+    "gold eggs",
+    "silver egg",
+    "copper egg",
+    "hidden treasure in the mato",
+    "chicken coop",
+    "farm tools"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma galinha avarenta . Punha ovos de ouro, mas não os dava a ninguém. Guardava-os para ela. Escondia-os. Os donos da galinha queixavam-se: - Esta galinha não paga o que come. Se assim continua, sem pôr ovos, ainda acaba em canja...",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A galinha avarenta».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma galinha avarenta . Punha ovos de ouro, mas não os dava a ninguém. Guardava-os para ela. Escondia-os. Os donos da galinha queixavam-se: - Esta galinha não paga o que come. Se assim continua, sem pôr ovos, ainda acaba em canja... Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "Os donos ameaçavam-na, de faca na mão: - Se até amanhã não pões um ovo que se veja, estás condenada. Ela percebeu a ameaça e pôs um ovo que se visse. Um ovo de prata. Os de ouro eram só para ela.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os donos ameaçavam-na, de faca na mão: - Se até amanhã não pões um ovo que se veja, estás condenada. Ela percebeu a ameaça e pôs um ovo que se visse. Um ovo de prata. Os de ouro eram só para ela. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "Foi uma vez sem exemplo. \"Dar os meus ovos de ouro a estes matutos não dou\", pensava a galinha. E continuou, secretamente, a pôr ovos de ouro só para ela. Os donos aborreceram-se:",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Foi uma vez sem exemplo. \"Dar os meus ovos de ouro a estes matutos não dou\", pensava a galinha. E continuou, secretamente, a pôr ovos de ouro só para ela. Os donos aborreceram-se: Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p3",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "E continuou, secretamente, a pôr ovos de ouro só para ela. Os donos aborreceram-se: - Afinal o raio da galinha não presta para nada. Pôs um ovinho de prata, faz que tempos, e nunca mais... Temos de dar cabo dela. A galinha ouviu-os e pôs um ovo. De cobre. Achava que aquela gente nem os de prata merecia. Não gostava nada de repartir esta galinha. Era só mais a mim, mais a mim... Uma somítica .",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E continuou, secretamente, a pôr ovos de ouro só para ela. Os donos aborreceram-se: - Afinal o raio da galinha não presta para nada. Pôs um ovinho de prata, faz que tempos, e nunca mais... Temos de dar cabo dela. A galinha ouviu-os e pôs um ovo. De cobre. Achava que aquela gente nem os de prata merecia. Não gostava nada de repartir esta galinha. Era só mais a mim, mais a mim... Uma somítica . Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s4p3"
+      ],
+      "evidence": "- Esta galinha anda a troçar de nós... E, no dia seguinte, comeram-na assada com batatas. O tesouro dos ovos de ouro continua escondido no mato, sem que ninguém o aproveite.",
+      "after": {
+        "segment": 4,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Esta galinha anda a troçar de nós... E, no dia seguinte, comeram-na assada com batatas. O tesouro dos ovos de ouro continua escondido no mato, sem que ninguém o aproveite. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

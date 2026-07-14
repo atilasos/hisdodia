@@ -1,0 +1,103 @@
+{
+  "characters": [],
+  "environment": "voz narrativa de estalagem e vampiro falso, em tons de medo, equívoco e revelação",
+  "palette": [
+    "escuros e sombrios",
+    "brancos pálidos",
+    "vermelhos discretos",
+    "castanhos quentes",
+    "contraste teatral"
+  ],
+  "recurringObjects": [
+    "capa escura",
+    "dentição pontiaguda",
+    "estalagem",
+    "mesa de jantar",
+    "roupas de teatro"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Aquele senhor não tinha nada bom aspecto. Havia qualquer coisa nele que intimidava. Talvez fosse da capa que usava sempre, quer de dia quer fosse noite. Talvez fosse do cabelo preto e lustroso, muito colado ao crânio e apartado em risco ao meio. Talvez fosse da dentição alva e impecável, onde sobressaíam dois caninos que metiam impressão... Quando, na estalagem do senhor Pestana, este senhor impressionante pedia ao jantar: - Um bife muito mal passado. Em sangue...",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Um hóspede de fazer fugir».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Aquele senhor não tinha nada bom aspecto. Havia qualquer coisa nele que intimidava. Talvez fosse da capa que usava sempre, quer de dia quer fosse noite. Talvez fosse do cabelo preto e lustroso, muito colado ao crânio e apartado em risco ao meio. Talvez fosse da dentição alva e impecável, onde sobressaíam dois caninos que metiam impressão... Quando, na estalagem do senhor Pestana, este senhor impressionante pedia ao jantar: - Um bife muito mal passado. Em sangue... Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "Quando, na estalagem do senhor Pestana, este senhor impressionante pedia ao jantar: - Um bife muito mal passado. Em sangue... E ria-se, exibindo os tais caninos pontiagudos... Os outros hóspedes arrepiavam-se todos.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando, na estalagem do senhor Pestana, este senhor impressionante pedia ao jantar: - Um bife muito mal passado. Em sangue... E ria-se, exibindo os tais caninos pontiagudos... Os outros hóspedes arrepiavam-se todos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p1",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "No dia seguinte, todos pediram as respectivas contas e saíram, num grande alarme. - Podemos lá continuar numa casa onde está o conde Drácula, o terrível vampiro, chupa-sangue - diziam os hóspedes, despedindo-se apressadamente do senhor Pestana. O dono da estalagem estava desolado. Ficava com a casa às moscas. Que prejuízo!",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No dia seguinte, todos pediram as respectivas contas e saíram, num grande alarme. - Podemos lá continuar numa casa onde está o conde Drácula, o terrível vampiro, chupa-sangue - diziam os hóspedes, despedindo-se apressadamente do senhor Pestana. O dono da estalagem estava desolado. Ficava com a casa às moscas. Que prejuízo! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s8p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s7p2",
+        "s8p0",
+        "s8p1"
+      ],
+      "evidence": "O senhor Pestana não estava a perceber, mas o conde explicou. Ele era actor e, quando acabasse as férias, iria representar uma peça, onde desempenhava o papel de Drácula, o tal conde guloso do sangue das suas vítimas. Trouxera os preparos para o seu desempenho e apurara-se a ensaiar. Só isso. O senhor Pestana não achou graça. Quem o indemnizava da súbita perda de clientela, assustada pelo falso Drácula?",
+      "after": {
+        "segment": 8,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O senhor Pestana não estava a perceber, mas o conde explicou. Ele era actor e, quando acabasse as férias, iria representar uma peça, onde desempenhava o papel de Drácula, o tal conde guloso do sangue das suas vítimas. Trouxera os preparos para o seu desempenho e apurara-se a ensaiar. Só isso. O senhor Pestana não achou graça. Quem o indemnizava da súbita perda de clientela, assustada pelo falso Drácula? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s10p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s9p0",
+        "s9p1",
+        "s10p0"
+      ],
+      "evidence": "- Tudo se resolverá - disse o actor. - Hoje mesmo vou encher-lhe a estalagem com os restantes colegas da companhia. Assim aconteceu. Mas como a peça era de terror, a sala de jantar da estalagem encheu-se de uma estranha população, vestida a rigor. Uns de vampiros, outros de fantasmas, um de Frankenstein e vários de monstros, numa alegre algazarra, poriam os cabelos em pé a quem, desprevenidamente, entrasse para jantar. Muito agitado, a servi-los, o senhor Pestana não se importava. Tinha a estalagem cheia. Isso é que era importante.",
+      "after": {
+        "segment": 10,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Tudo se resolverá - disse o actor. - Hoje mesmo vou encher-lhe a estalagem com os restantes colegas da companhia. Assim aconteceu. Mas como a peça era de terror, a sala de jantar da estalagem encheu-se de uma estranha população, vestida a rigor. Uns de vampiros, outros de fantasmas, um de Frankenstein e vários de monstros, numa alegre algazarra, poriam os cabelos em pé a quem, desprevenidamente, entrasse para jantar. Muito agitado, a servi-los, o senhor Pestana não se importava. Tinha a estalagem cheia. Isso é que era importante. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

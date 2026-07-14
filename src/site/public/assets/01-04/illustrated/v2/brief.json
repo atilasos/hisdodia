@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O rapaz era esperto e atrevido. Quando, lá na aldeia, souberam que o rei vinha caçar àquela região, o rapaz decidiu: - Eu hei-de falar ao rei ou não me chame Quitério. E pôs-se a esperar pelo cortejo real, à beira da estrada.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Quitério Atrevido».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O rapaz era esperto e atrevido. Quando, lá na aldeia, souberam que o rei vinha caçar àquela região, o rapaz decidiu: - Eu hei-de falar ao rei ou não me chame Quitério. E pôs-se a esperar pelo cortejo real, à beira da estrada. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "- Vou bem encaminhado para o solar do Conde de Ameal? - Eu ensinava-lhe o caminho, senhor, se não tivesse à espera do séquito do rei. - Não esperes mais, rapaz, porque o séquito já lá deve estar. Sobe tu para cima do meu cavalo e orienta-me, até chegarmos ao solar do conde.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Vou bem encaminhado para o solar do Conde de Ameal? - Eu ensinava-lhe o caminho, senhor, se não tivesse à espera do séquito do rei. - Não esperes mais, rapaz, porque o séquito já lá deve estar. Sobe tu para cima do meu cavalo e orienta-me, até chegarmos ao solar do conde. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "- Como os outros homens. Nada o distingue - respondeu o rei. - Então como é que eu sei que é o rei? - Porque todos, quando o virem, lhe tiram o chapéu.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Como os outros homens. Nada o distingue - respondeu o rei. - Então como é que eu sei que é o rei? - Porque todos, quando o virem, lhe tiram o chapéu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "Assim que os dois, montados no mesmo cavalo, chegaram aos paços do conde, logo criados e fidalgos se desbarretaram à sua passagem. O Quitério estava pasmado. - Então já sabes, agora, quem é o rei? - perguntou o rei ao rapaz. - Hei-de ser eu - respondeu o atrevido Quitério.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Assim que os dois, montados no mesmo cavalo, chegaram aos paços do conde, logo criados e fidalgos se desbarretaram à sua passagem. O Quitério estava pasmado. - Então já sabes, agora, quem é o rei? - perguntou o rei ao rapaz. - Hei-de ser eu - respondeu o atrevido Quitério. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p2",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "- Hei-de ser eu - respondeu o atrevido Quitério. - Vossemecê não tem cara de ser rei e eu conservo o chapéu na cabeça, porque o sol está bravo. O rei achou graça e a história acaba bem.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Hei-de ser eu - respondeu o atrevido Quitério. - Vossemecê não tem cara de ser rei e eu conservo o chapéu na cabeça, porque o sol está bravo. O rei achou graça e a história acaba bem. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

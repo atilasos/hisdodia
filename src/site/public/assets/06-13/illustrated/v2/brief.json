@@ -1,0 +1,112 @@
+{
+  "characters": [
+    {
+      "name": "pardalito",
+      "appearance": "passarinho muito pequeno, caído do ninho, asas molhadas, ar assustado; depois cresce e torna-se um pardal mais robusto"
+    },
+    {
+      "name": "menina",
+      "appearance": "criança que colhe amoras para um chapéu de lona, mãos cuidadosas, gesto terno"
+    }
+  ],
+  "environment": "Campo e jardim à volta de uma casa, com chão áspero, céu aberto, árvores, amoras, janela de casa e sensação de passagem do medo para o cuidado diário.",
+  "palette": [
+    "castanhos quentes",
+    "verdes suaves",
+    "azuis claros",
+    "ocres",
+    "toques de vermelho escuro das amoras"
+  ],
+  "recurringObjects": [
+    "ninho",
+    "chapéu de lona",
+    "amoras",
+    "janela",
+    "migalhas"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era um passarinho caído do ninho. Mais precisamente um pardal, um pardalito tontelas, de asas molhadas de medo. Os irmãos tinham-no empurrado, sem querer, e ali estava ele, a pisar pela primeira vez o chão áspero que lhe feria o macio das patas. Dava saltinhos, a ensaiar o voo, mas ainda estava longe de saber voar. Que ia ser dele? Viu uma formiga, a correr de um lado para o outro, e pediu-lhe, num fiozinho de choro:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Quem Ajuda o Pardalito?».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era um passarinho caído do ninho. Mais precisamente um pardal, um pardalito tontelas, de asas molhadas de medo. Os irmãos tinham-no empurrado, sem querer, e ali estava ele, a pisar pela primeira vez o chão áspero que lhe feria o macio das patas. Dava saltinhos, a ensaiar o voo, mas ainda estava longe de saber voar. Que ia ser dele? Viu uma formiga, a correr de um lado para o outro, e pediu-lhe, num fiozinho de choro: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p10",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p8",
+        "s0p9",
+        "s0p10"
+      ],
+      "evidence": "Viu uma andorinha nem que uma seta, a rasar o chão, e pediu-lhe: – Ajuda-me. Mas já a andorinha ia muito longe, a apagar-se no céu.",
+      "after": {
+        "segment": 0,
+        "paragraph": 10
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Viu uma andorinha nem que uma seta, a rasar o chão, e pediu-lhe: – Ajuda-me. Mas já a andorinha ia muito longe, a apagar-se no céu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p14",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p12",
+        "s0p13",
+        "s0p14"
+      ],
+      "evidence": "Havia de vir um gato e dar-lhe uma sapatada. Havia de vir uma cobra e dar-lhe uma picada. Havia de vir um cão e dar-lhe uma dentada.",
+      "after": {
+        "segment": 0,
+        "paragraph": 14
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Havia de vir um gato e dar-lhe uma sapatada. Havia de vir uma cobra e dar-lhe uma picada. Havia de vir um cão e dar-lhe uma dentada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p17",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p15",
+        "s0p16",
+        "s0p17"
+      ],
+      "evidence": "Mas veio uma menina que andava a colher amoras para dentro do chapéu de lona, e levou-o com ela. O pardalito nem se atrevera a pedir-lhe ajuda. Ela é que o achara e ameigara nas mãos em concha, como se fosse em ninho. Levou-o para casa. Deu-lhe pãozinho. Deu-lhe miminhos.",
+      "after": {
+        "segment": 0,
+        "paragraph": 17
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas veio uma menina que andava a colher amoras para dentro do chapéu de lona, e levou-o com ela. O pardalito nem se atrevera a pedir-lhe ajuda. Ela é que o achara e ameigara nas mãos em concha, como se fosse em ninho. Levou-o para casa. Deu-lhe pãozinho. Deu-lhe miminhos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p19",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p17",
+        "s0p18",
+        "s0p19"
+      ],
+      "evidence": "Levou-o para casa. Deu-lhe pãozinho. Deu-lhe miminhos. Eu conheço essa menina. E também o pardalito, agora um pardal pardalão que não se cansa de voar. Mas por onde quer que ande, no seu agitado voo de pardal aventureiro, de uma coisa se não esquece. Todos os dias, à mesma hora, bate com o bico na vidraça da janela. A menina abre-a e dá-lhe as migalhas da merenda. Depois, o atrevido salta-lhe para o ombro e pica-lhe, num desafio de ternura, a polpa da orelha. A menina encolhe-se num riso e ele foge a gorjear de alegria.",
+      "after": {
+        "segment": 0,
+        "paragraph": 19
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Levou-o para casa. Deu-lhe pãozinho. Deu-lhe miminhos. Eu conheço essa menina. E também o pardalito, agora um pardal pardalão que não se cansa de voar. Mas por onde quer que ande, no seu agitado voo de pardal aventureiro, de uma coisa se não esquece. Todos os dias, à mesma hora, bate com o bico na vidraça da janela. A menina abre-a e dá-lhe as migalhas da merenda. Depois, o atrevido salta-lhe para o ombro e pica-lhe, num desafio de ternura, a polpa da orelha. A menina encolhe-se num riso e ele foge a gorjear de alegria. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

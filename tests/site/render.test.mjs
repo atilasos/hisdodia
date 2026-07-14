@@ -1,7 +1,26 @@
 import { after, describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
-import { renderSite } from '../../src/site/render.mjs';
+import { normalizeBasePath, renderSite, safeAssetUrl } from '../../src/site/render.mjs';
+
+function sectionMarkup(html, id) {
+  const start = html.indexOf(`<section id="${id}"`);
+  assert.notEqual(start, -1, `expected section #${id}`);
+
+  let depth = 0;
+  for (const match of html.slice(start).matchAll(/<\/?section\b[^>]*>/g)) {
+    depth += match[0].startsWith('</') ? -1 : 1;
+    if (depth === 0) {
+      return html.slice(start, start + match.index + match[0].length);
+    }
+  }
+
+  assert.fail(`expected a closing tag for section #${id}`);
+}
+
+function countOccurrences(value, fragment) {
+  return value.split(fragment).length - 1;
+}
 
 describe('renderSite', () => {
   after(async () => {
@@ -9,6 +28,9 @@ describe('renderSite', () => {
     await rm('tmp/render-safety', { recursive: true, force: true });
     await rm('tmp/render-invalid-id', { recursive: true, force: true });
     await rm('tmp/render-today', { recursive: true, force: true });
+    await rm('tmp/render-illustrated', { recursive: true, force: true });
+    await rm('tmp/render-wayback-safety', { recursive: true, force: true });
+    await rm('src/site/public/assets/99-99', { recursive: true, force: true });
   });
 
   it('adds the activity shell and safely embedded data only to a matching story', async () => {
@@ -25,9 +47,14 @@ describe('renderSite', () => {
         illustrator: 'Cristina Malaquias',
         textSegments: [{ layer: 1, paragraphs: ['Um moleiro encontrou um carvoeiro.'] }],
         glossary: [{ term: 'moleiro', definition: 'Pessoa que trabalha num moinho.' }],
-        assets: {},
+        assets: {
+          background: '/assets/01-01/illustration-original.jpg',
+          printPdf: '/assets/01-01/imprimir.pdf',
+          rerecordedAudio: '/assets/01-01/narracao-tts.mp3',
+          captions: '/assets/01-01/narracao-tts.vtt'
+        },
         recovery: { text: 'recovered' },
-        provenance: {}
+        provenance: { storyPage: '/recovered/0000/01/01/historia.aspx' }
       })
     );
 
@@ -35,11 +62,20 @@ describe('renderSite', () => {
       storiesDir: 'tmp/render-activities/stories',
       activitiesDir: 'tests/fixtures/activities',
       outDir: 'tmp/render-activities/with-activities',
-      recoveredArchiveDir: null
+      recoveredArchiveDir: null,
+      basePath: '/hisdodia'
     });
 
     const withActivities = await readFile(
       'tmp/render-activities/with-activities/stories/01-01/index.html',
+      'utf8'
+    );
+    const prefixedHomepage = await readFile(
+      'tmp/render-activities/with-activities/index.html',
+      'utf8'
+    );
+    const prefixedArchive = await readFile(
+      'tmp/render-activities/with-activities/archive/index.html',
       'utf8'
     );
     const embeddedMatch = withActivities.match(
@@ -51,13 +87,32 @@ describe('renderSite', () => {
     assert.match(withActivities, /id="activities-root"/);
     assert.match(withActivities, /<noscript>/);
     assert.match(withActivities, /href="#brincar"[^>]*>Brincar<\/a>/);
-    assert.match(withActivities, /<script src="\/brincar\.js" defer><\/script>/);
+    assert.match(withActivities, /<script src="\/hisdodia\/brincar\.js" defer><\/script>/);
+    assert.match(withActivities, /href="\/hisdodia\/styles\.css"/);
+    assert.match(withActivities, /src="\/hisdodia\/app\.js"/);
+    assert.match(withActivities, /href="\/hisdodia\/"/);
+    assert.match(withActivities, /href="\/hisdodia\/archive\/"/);
+    assert.match(withActivities, /src="\/hisdodia\/assets\/01-01\/illustration-original\.jpg"/);
+    assert.match(withActivities, /src="\/hisdodia\/assets\/01-01\/narracao-tts\.mp3"/);
+    assert.match(withActivities, /src="\/hisdodia\/assets\/01-01\/narracao-tts\.vtt"/);
+    assert.match(withActivities, /href="\/hisdodia\/assets\/01-01\/imprimir\.pdf"/);
+    assert.match(withActivities, /href="\/hisdodia\/recovered\/0000\/01\/01\/historia\.aspx"/);
+    assert.doesNotMatch(withActivities, /\/hisdodia\/hisdodia\//);
+    assert.match(prefixedHomepage, /href="\/hisdodia\/stories\/01-01\/"/);
+    assert.match(prefixedHomepage, /src="\/hisdodia\/assets\/01-01\/illustration-original\.jpg"/);
+    assert.match(prefixedArchive, /href="\/hisdodia\/stories\/01-01\/"/);
     assert.ok(embeddedMatch, 'expected embedded activities JSON');
     assert.doesNotMatch(embeddedMatch[1], /<\/script>/);
     assert.match(embeddedMatch[1], /<\\\/script>/);
+    const embeddedActivities = JSON.parse(embeddedMatch[1]);
+
     assert.equal(
-      JSON.parse(embeddedMatch[1]).activities[0].rounds[0].sentence,
+      embeddedActivities.activities[0].rounds[0].sentence,
       'Está na história: </script> um moleiro, todo enfarinhado.'
+    );
+    assert.equal(
+      embeddedActivities.activities.find((activity) => activity.type === 'puzzle-ilustracao').image,
+      '/hisdodia/assets/01-01/illustration-original.jpg'
     );
     assert.ok(
       withActivities.indexOf('class="glossary"') < withActivities.indexOf('id="brincar"'),
@@ -113,8 +168,53 @@ describe('renderSite', () => {
     assert.doesNotMatch(withoutActivities, /\/brincar\.js/);
   });
 
+  it('validates raw asset paths before resolving recovered Wayback URLs', () => {
+    const story = {
+      provenance: {
+        storyPage: 'https://web.archive.org/web/20070101000000/http://www.historiadodia.pt/01/01/index.asp'
+      }
+    };
+
+    for (const unsafe of [
+      'javascript:alert(1)',
+      'data:text/html,unsafe',
+      'file:///tmp/private',
+      'ftp://example.com/file',
+      'imagem\u0000.jpg'
+    ]) {
+      assert.equal(safeAssetUrl(story, unsafe), null);
+    }
+    assert.equal(safeAssetUrl(story, '/assets/story image.jpg'), '/assets/story%20image.jpg');
+    assert.equal(safeAssetUrl(story, 'https://example.com/story image.jpg'), 'https://example.com/story%20image.jpg');
+    assert.equal(
+      safeAssetUrl(story, 'imagens/story image.jpg'),
+      'https://web.archive.org/web/20070101000000/http://www.historiadodia.pt/imagens/story%20image.jpg'
+    );
+  });
+
+  it('normalizes safe project-site paths and rejects unsafe values', () => {
+    assert.equal(normalizeBasePath(''), '');
+    assert.equal(normalizeBasePath('/'), '');
+    assert.equal(normalizeBasePath('hisdodia/'), '/hisdodia');
+    assert.equal(normalizeBasePath('/atelie/hisdodia'), '/atelie/hisdodia');
+
+    for (const unsafe of ['https://example.com', '/../fora', '/hisdodia?debug=1', '/hisdodia#topo']) {
+      assert.throws(() => normalizeBasePath(unsafe), /Invalid site base path/);
+    }
+  });
+
   it('renders homepage, archive, and story page from story data', async () => {
     await rm('dist', { recursive: true, force: true });
+    const storyData = JSON.parse(await readFile('data/stories/01-01.json', 'utf8'));
+    const completedOpening = storyData.illustratedEdition?.scenes?.find(
+      (scene) => scene.id === 'opening' && scene.status === 'complete' && scene.image
+    );
+
+    assert.ok(
+      completedOpening,
+      'expected data/stories/01-01.json to contain a completed opening scene with an image'
+    );
+
     await renderSite({ storiesDir: 'data/stories', outDir: 'dist', today: new Date('2026-01-01T12:00:00+00:00') });
 
     const homepage = await readFile('dist/index.html', 'utf8');
@@ -136,15 +236,33 @@ describe('renderSite', () => {
     assert.match(story, /Narração sintetizada em pt-PT/);
     assert.match(story, /narracao-tts\.mp3/);
     assert.match(story, /kind="captions"/);
-    assert.match(homepage, /src="\/assets\/01-01\/illustration-original\.jpg"/);
+    assert.ok(
+      homepage.includes(`src="${completedOpening.image}"`),
+      `expected homepage to render completed opening ${completedOpening.image}`
+    );
+    assert.doesNotMatch(homepage, /src="\/assets\/01-01\/illustration-original\.jpg"/);
     assert.match(story, /href="\/assets\/01-01\/imprimir\.pdf"/);
     assert.match(story, /Imagens recuperadas/);
     assert.match(story, /\/recovered\/0000\/01\/01\//);
     assert.doesNotMatch(story, /historiadodia\.pt:80\/assets/);
     assert.match(homepage, /lang="pt-PT"/);
     assert.match(homepage, /class="skip-link"/);
+    assert.match(homepage, /Conteúdo original do projeto sob/);
+    assert.match(homepage, />CC BY-SA 4\.0<\/a>/);
+    assert.match(homepage, /href="https:\/\/creativecommons\.org\/licenses\/by-sa\/4\.0\/deed\.pt"/);
+    assert.match(homepage, /As novas ilustrações desta edição foram geradas com inteligência artificial/);
+    assert.match(homepage, /Materiais históricos recuperados podem estar sujeitos a direitos de terceiros/);
+    assert.match(homepage, /Projeto independente de preservação e experimentação educativa/);
+    assert.equal(countOccurrences(homepage, '<footer class="site-footer">'), 1);
     assert.match(stylesheet, /Atelier de papel/);
     assert.match(script, /glossary/);
+    assert.match(script, /data-edition-target/);
+    assert.match(script, /panel\.hidden/);
+    assert.match(stylesheet, /\.illustrated-opening/);
+    assert.match(stylesheet, /\.scene-double-page/);
+    assert.match(stylesheet, /\.scene-marginal/);
+    assert.match(stylesheet, /\.scene-vignette/);
+    assert.match(stylesheet, /@media \(max-width: 48rem\)/);
   });
 
   it('renders the homepage with the story matching the current calendar date', async () => {
@@ -161,6 +279,169 @@ describe('renderSite', () => {
     assert.match(homepage, /3 de Junho/);
     assert.match(homepage, /A boneca da madrinha/);
     assert.doesNotMatch(homepage, /Moleiros e Carvoeiros/);
+  });
+
+  it('renders a completed illustrated edition and prefers its opening on the homepage', async () => {
+    await rm('tmp/render-illustrated', { recursive: true, force: true });
+    await rm('src/site/public/assets/99-99', { recursive: true, force: true });
+    await mkdir('tmp/render-illustrated/stories', { recursive: true });
+    await mkdir('tmp/render-illustrated/activities', { recursive: true });
+    await mkdir('src/site/public/assets/99-99/illustrated', { recursive: true });
+    await writeFile('src/site/public/assets/99-99/illustrated/opening.webp', 'opening');
+    await writeFile('src/site/public/assets/99-99/illustrated/middle.webp', 'middle');
+    await writeFile(
+      'tmp/render-illustrated/activities/99-99.json',
+      await readFile('tests/fixtures/activities/01-01.json', 'utf8')
+    );
+
+    await writeFile(
+      'tmp/render-illustrated/stories/99-99.json',
+      JSON.stringify({
+        id: '99-99',
+        dateLabel: '30 de Dezembro',
+        title: 'Uma edição ilustrada',
+        author: 'Autora Original',
+        illustrator: 'Ilustrador Original',
+        textSegments: [{ layer: 1, paragraphs: ['Primeiro parágrafo.', 'Segundo parágrafo.'] }],
+        glossary: [{ term: 'edição', definition: 'Uma forma de apresentar a história.' }],
+        assets: { background: '/assets/01-01/illustration-original.jpg' },
+        recovery: { text: 'recovered' },
+        provenance: { notes: 'Texto e imagem originais recuperados.' },
+        illustratedEdition: {
+          status: 'complete',
+          credit: 'Edição ilustrada contemporânea gerada com IA',
+          scenes: [
+            { id: 'opening', status: 'complete', after: null, layout: 'opening', image: '/assets/99-99/illustrated/opening.webp', alt: 'Ilustração de abertura da história «Uma edição ilustrada».' },
+            { id: 'middle', status: 'complete', after: { segment: 0, paragraph: 0 }, layout: 'marginal', image: '/assets/99-99/illustrated/middle.webp', alt: '' }
+          ]
+        }
+      })
+    );
+
+    await renderSite({
+      storiesDir: 'tmp/render-illustrated/stories',
+      activitiesDir: 'tmp/render-illustrated/activities',
+      outDir: 'tmp/render-illustrated/complete',
+      recoveredArchiveDir: null,
+      today: new Date('2026-12-30T12:00:00+00:00')
+    });
+
+    const homepage = await readFile('tmp/render-illustrated/complete/index.html', 'utf8');
+    const story = await readFile('tmp/render-illustrated/complete/stories/99-99/index.html', 'utf8');
+    const illustratedPanel = sectionMarkup(story, 'edicao-ilustrada');
+    const originalPanel = sectionMarkup(story, 'edicao-original');
+
+    assert.match(homepage, /src="\/assets\/99-99\/illustrated\/opening\.webp"/);
+    assert.match(homepage, /alt="Ilustração de abertura da história «Uma edição ilustrada»\."/);
+    assert.doesNotMatch(homepage, /src="\/assets\/01-01\/illustration-original\.jpg"/);
+    assert.match(story, /<article class="reader reader-illustrated">/);
+    assert.match(story, /class="edition-switcher"/);
+    assert.equal((story.match(/<h1(?:\s|>)/g) ?? []).length, 1);
+    assert.match(story, /Edição ilustrada contemporânea gerada com IA/);
+    assert.match(story, /Ilustrações desta edição geradas com inteligência artificial/);
+    assert.match(story, /middle\.webp" alt=""/);
+    assert.match(story, /Autora Original escreveu\. Ilustrador Original ilustrou\./);
+    assert.ok(story.indexOf('class="edition-switcher"') < story.indexOf('id="edicao-ilustrada"'));
+    assert.ok(story.indexOf('id="edicao-ilustrada"') < story.indexOf('id="edicao-original"'));
+    assert.ok(story.indexOf('Autora Original escreveu. Ilustrador Original ilustrou.') < story.indexOf('illustration-original.jpg'));
+    assert.ok(story.indexOf('illustration-original.jpg') < story.lastIndexOf('Primeiro parágrafo.'));
+    assert.ok(story.indexOf('id="edicao-original"') < story.indexOf('id="audio"'));
+    assert.ok(story.indexOf('id="audio"') < story.indexOf('class="glossary"'));
+    assert.ok(story.indexOf('class="glossary"') < story.indexOf('id="brincar"'));
+    assert.ok(story.indexOf('id="brincar"') < story.indexOf('class="provenance"'));
+    for (const paragraph of ['Primeiro parágrafo.', 'Segundo parágrafo.']) {
+      assert.equal(countOccurrences(illustratedPanel, `<p>${paragraph}</p>`), 1);
+      assert.equal(countOccurrences(originalPanel, `<p>${paragraph}</p>`), 1);
+    }
+  });
+
+  it('keeps the recovered reader for pending or failed illustrated openings', async () => {
+    for (const status of ['pending', 'failed']) {
+      const root = `tmp/render-illustrated/${status}`;
+      await mkdir(`${root}/stories`, { recursive: true });
+      await writeFile(
+        `${root}/stories/99-99.json`,
+        JSON.stringify({
+          id: '99-99',
+          dateLabel: '30 de Dezembro',
+          title: `Abertura ${status}`,
+          author: 'Autora',
+          illustrator: 'Ilustrador',
+          textSegments: [{ layer: 1, paragraphs: ['Texto recuperado intacto.'] }],
+          assets: { background: '/assets/01-01/illustration-original.jpg' },
+          recovery: { text: 'recovered' },
+          provenance: {},
+          illustratedEdition: {
+            status,
+            credit: 'Edição ilustrada contemporânea gerada com IA',
+            scenes: [
+              { id: 'opening', status, after: null, layout: 'opening', image: '/assets/99-99/illustrated/opening.webp', alt: 'Abertura.' }
+            ]
+          }
+        })
+      );
+
+      await renderSite({
+        storiesDir: `${root}/stories`,
+        outDir: `${root}/dist`,
+        recoveredArchiveDir: null
+      });
+
+      const homepage = await readFile(`${root}/dist/index.html`, 'utf8');
+      const story = await readFile(`${root}/dist/stories/99-99/index.html`, 'utf8');
+
+      assert.doesNotMatch(story, /class="edition-switcher"/);
+      assert.doesNotMatch(story, /id="edicao-ilustrada"/);
+      assert.match(story, /src="\/assets\/01-01\/illustration-original\.jpg"/);
+      assert.match(story, /Texto recuperado intacto\./);
+      assert.match(homepage, /src="\/assets\/01-01\/illustration-original\.jpg"/);
+    }
+  });
+
+  it('rejects an unsafe completed opening before resolving it through Wayback', async () => {
+    await rm('tmp/render-wayback-safety', { recursive: true, force: true });
+    await mkdir('tmp/render-wayback-safety/stories', { recursive: true });
+    await writeFile(
+      'tmp/render-wayback-safety/stories/99-98.json',
+      JSON.stringify({
+        id: '99-98',
+        dateLabel: 'Dia de teste',
+        title: 'Abertura insegura',
+        author: 'Autora',
+        illustrator: 'Ilustrador',
+        textSegments: [{ layer: 1, paragraphs: ['Texto histórico preservado.'] }],
+        assets: { background: '/assets/01-01/illustration-original.jpg' },
+        recovery: { text: 'recovered' },
+        provenance: {
+          storyPage: 'https://web.archive.org/web/20070101000000/http://www.historiadodia.pt/01/01/index.asp'
+        },
+        illustratedEdition: {
+          status: 'complete',
+          credit: 'Edição ilustrada contemporânea gerada com IA',
+          scenes: [
+            { id: 'opening', status: 'complete', after: null, layout: 'opening', image: 'javascript:alert(1)', alt: 'Abertura.' }
+          ]
+        }
+      })
+    );
+
+    await renderSite({
+      storiesDir: 'tmp/render-wayback-safety/stories',
+      outDir: 'tmp/render-wayback-safety/dist',
+      recoveredArchiveDir: null
+    });
+
+    const homepage = await readFile('tmp/render-wayback-safety/dist/index.html', 'utf8');
+    const story = await readFile('tmp/render-wayback-safety/dist/stories/99-98/index.html', 'utf8');
+
+    for (const html of [homepage, story]) {
+      assert.doesNotMatch(html, /javascript:/i);
+      assert.doesNotMatch(html, /web\.archive\.org[^"\s]*javascript:/i);
+      assert.match(html, /src="\/assets\/01-01\/illustration-original\.jpg"/);
+    }
+    assert.doesNotMatch(story, /class="edition-switcher"/);
+    assert.doesNotMatch(story, /id="edicao-ilustrada"/);
+    assert.match(story, /Texto histórico preservado\./);
   });
 
   it('escapes recovered text and rejects unsafe recovered URLs', async () => {

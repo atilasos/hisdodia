@@ -1,0 +1,121 @@
+{
+  "characters": [
+    {
+      "name": "narrador",
+      "appearance": "visto em primeira pessoa, adulto observador; presença implícita"
+    },
+    {
+      "name": "cão felpudo",
+      "appearance": "cão excessivamente peludo e confuso, quase indistinguível de um rolo de pêlos"
+    },
+    {
+      "name": "gato",
+      "appearance": "gato desconfiado e pouco cooperante"
+    },
+    {
+      "name": "tesoura",
+      "appearance": "tesoura grande usada para tosquiar"
+    }
+  ],
+  "environment": "Ambiente rural e doméstico, com quintal, árvore e momentos de observação do cão felpudo.",
+  "palette": [
+    "castanhos quentes",
+    "cremes",
+    "verdes suaves",
+    "cinzentos neutros",
+    "toques de preto"
+  ],
+  "recurringObjects": [
+    "osso",
+    "bocado de carne",
+    "bolacha",
+    "árvore",
+    "gato",
+    "tesoura"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Acreditem ou não acreditem, a verdade é que, uma vez, há muitos anos, eu tive um cão tão felpudo, tão peludo, tão cabeludo que, ao vê-lo, a gente mal se convencia que fosse cão. Ao certo, ao certo, não parecia nada, não parecia coisa nenhuma. Só com muita boa vontade é que se acreditava que, dentro daquele rolo de pêlos, devia haver bicho, provavelmente um cão. Mas de que lado teria ela a cabeça? Nessas alturas, era necessário agitar um osso, um bocadinho de carne ou uma bolacha, perto daquela coisa confusa, que parecia um cão. O lado que ficasse mais perto do osso, do bocadinho de carne ou da bolacha era, sem sombra para dúvidas, a cabeça. Esta experiência só dava resultado quando o cão tinha apetite.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Cão que não parecia Cão».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Acreditem ou não acreditem, a verdade é que, uma vez, há muitos anos, eu tive um cão tão felpudo, tão peludo, tão cabeludo que, ao vê-lo, a gente mal se convencia que fosse cão. Ao certo, ao certo, não parecia nada, não parecia coisa nenhuma. Só com muita boa vontade é que se acreditava que, dentro daquele rolo de pêlos, devia haver bicho, provavelmente um cão. Mas de que lado teria ela a cabeça? Nessas alturas, era necessário agitar um osso, um bocadinho de carne ou uma bolacha, perto daquela coisa confusa, que parecia um cão. O lado que ficasse mais perto do osso, do bocadinho de carne ou da bolacha era, sem sombra para dúvidas, a cabeça. Esta experiência só dava resultado quando o cão tinha apetite. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Acreditem ou não acreditem, a verdade é que, uma vez, há muitos anos, eu tive um cão tão felpudo, tão peludo, tão cabeludo que, ao vê-lo, a gente mal se convencia que fosse cão. Ao certo, ao certo, não parecia nada, não parecia coisa nenhuma. Só com muita boa vontade é que se acreditava que, dentro daquele rolo de pêlos, devia haver bicho, provavelmente um cão. Mas de que lado teria ela a cabeça? Nessas alturas, era necessário agitar um osso, um bocadinho de carne ou uma bolacha, perto daquela coisa confusa, que parecia um cão. O lado que ficasse mais perto do osso, do bocadinho de carne ou da bolacha era, sem sombra para dúvidas, a cabeça. Esta experiência só dava resultado quando o cão tinha apetite.",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Acreditem ou não acreditem, a verdade é que, uma vez, há muitos anos, eu tive um cão tão felpudo, tão peludo, tão cabeludo que, ao vê-lo, a gente mal se convencia que fosse cão. Ao certo, ao certo, não parecia nada, não parecia coisa nenhuma. Só com muita boa vontade é que se acreditava que, dentro daquele rolo de pêlos, devia haver bicho, provavelmente um cão. Mas de que lado teria ela a cabeça? Nessas alturas, era necessário agitar um osso, um bocadinho de carne ou uma bolacha, perto daquela coisa confusa, que parecia um cão. O lado que ficasse mais perto do osso, do bocadinho de carne ou da bolacha era, sem sombra para dúvidas, a cabeça. Esta experiência só dava resultado quando o cão tinha apetite. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "Em tais casos, a coisa complicava-se. Ou se arranjava um gato para o cão lhe ladrar ou nada feito. - Bichinho gato! Bichinho gato! Anda cá fazer um jeitinho à gente. Mas os gatos são pouco amigos de prestar favores.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Em tais casos, a coisa complicava-se. Ou se arranjava um gato para o cão lhe ladrar ou nada feito. - Bichinho gato! Bichinho gato! Anda cá fazer um jeitinho à gente. Mas os gatos são pouco amigos de prestar favores. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "Já imaginaram um gato a caçar por conta de um caçador? Não faz sentido. Os gatos trabalham, pois trabalham, mas só por conta própria. Portanto e por este lado, o dos gatos, nada feito, isto é, se continuássemos na dúvida sobre qual o lado da cabeça e qual o outro lado do cão felpudo, só havia uma solução. - Qual era?",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Já imaginaram um gato a caçar por conta de um caçador? Não faz sentido. Os gatos trabalham, pois trabalham, mas só por conta própria. Portanto e por este lado, o dos gatos, nada feito, isto é, se continuássemos na dúvida sobre qual o lado da cabeça e qual o outro lado do cão felpudo, só havia uma solução. - Qual era? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s4p3"
+      ],
+      "evidence": "- Não há remédio. Temos de tosquiar-te. Então, o cão felpudo, ao ver a tesoura e ao ouvir o que ela prometia, apanhava um susto tão grande, tão grande, que ficava com os pêlos todos em pé. Conseguia-se assim e finalmente descobrir de que lado ele tinha a cabeça.",
+      "after": {
+        "segment": 4,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Não há remédio. Temos de tosquiar-te. Então, o cão felpudo, ao ver a tesoura e ao ouvir o que ela prometia, apanhava um susto tão grande, tão grande, que ficava com os pêlos todos em pé. Conseguia-se assim e finalmente descobrir de que lado ele tinha a cabeça. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

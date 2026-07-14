@@ -1,0 +1,133 @@
+{
+  "characters": [
+    {
+      "name": "lobo",
+      "appearance": "lobo cinzento forte, expressão impaciente e agressiva"
+    },
+    {
+      "name": "mocho",
+      "appearance": "mocho pequeno, atento, com filhos no ninho num pinheiro novo"
+    },
+    {
+      "name": "filhos do mocho",
+      "appearance": "pequenos mochos no ninho, frágeis e dependentes"
+    }
+  ],
+  "environment": "bosque com pinheiros, incluindo um pinheiro novo e outro maior ao fundo",
+  "palette": [
+    "verde escuro",
+    "castanho",
+    "cinzento",
+    "ocre",
+    "azul noite"
+  ],
+  "recurringObjects": [
+    "pinheiro novo",
+    "ninho de mocho",
+    "pinhas",
+    "tronco do pinheiro",
+    "resina"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era uma vez um lobo que andava à caça. Ele andar, andava, mas a caça, fosse coelho, javardo, texugo ou perdiz, é que não andava por ali, à mão de ser caçada. Já o lobo se impacientava, quando ouviu o piar de um mocho. Estava no ninho, empoleirado num pinheiro novo. O lobo pôs-se a sacudir, furiosamente, o tronco do pinheirito, mas só lhe caíram duas pinhas na cabeça.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O lobo e o mocho».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um lobo que andava à caça. Ele andar, andava, mas a caça, fosse coelho, javardo, texugo ou perdiz, é que não andava por ali, à mão de ser caçada. Já o lobo se impacientava, quando ouviu o piar de um mocho. Estava no ninho, empoleirado num pinheiro novo. O lobo pôs-se a sacudir, furiosamente, o tronco do pinheirito, mas só lhe caíram duas pinhas na cabeça. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p2",
+        "s1p3",
+        "s1p4"
+      ],
+      "evidence": "- Ó compadre, não abane tanto o pinheiro, senão os meus filhos, que estão no ninho, acordam. - Quero lá saber! - respondeu o lobo. E continuou a sacudir o pinheiro.",
+      "after": {
+        "segment": 1,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Ó compadre, não abane tanto o pinheiro, senão os meus filhos, que estão no ninho, acordam. - Quero lá saber! - respondeu o lobo. E continuou a sacudir o pinheiro. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s5p4",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p2",
+        "s5p3",
+        "s5p4"
+      ],
+      "evidence": "- Então volto a abanar o pinheiro. - Isso é que não - e o mocho desceu mais. Quando o lobo o viu perto, abocanhou-o logo.",
+      "after": {
+        "segment": 5,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Então volto a abanar o pinheiro. - Isso é que não - e o mocho desceu mais. Quando o lobo o viu perto, abocanhou-o logo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s6p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s5p4",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "Quando o lobo o viu perto, abocanhou-o logo. - Ai compadre, que me magoa - queixou-se o mocho. - Se vai comer-me, deixe-me, ao menos, despedir-me dos meus filhos, que ficam sem ninguém que tome conta deles. O lobo, com o mocho preso na dentuça, meneou a cabeça, negativamente.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando o lobo o viu perto, abocanhou-o logo. - Ai compadre, que me magoa - queixou-se o mocho. - Se vai comer-me, deixe-me, ao menos, despedir-me dos meus filhos, que ficam sem ninguém que tome conta deles. O lobo, com o mocho preso na dentuça, meneou a cabeça, negativamente. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s8p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s8p2",
+        "s8p3",
+        "s8p4"
+      ],
+      "evidence": "- Mocho comi. Liberto dos dentes, safou-se o mocho, a voar para o cimo do pinheiro, enquanto dizia: - Mocho comi? Outro que não a mim.",
+      "after": {
+        "segment": 8,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Mocho comi. Liberto dos dentes, safou-se o mocho, a voar para o cimo do pinheiro, enquanto dizia: - Mocho comi? Outro que não a mim. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s9p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s8p4",
+        "s9p0",
+        "s9p1"
+      ],
+      "evidence": "- Mocho comi? Outro que não a mim. Pegou nos filhos um por um e foi pô-los a salvo, no alto de um pinheiro de maior porte. O lobo, de raiva, rilhou o tronco do pinheirinho e ficou com a boca a saber a resina.",
+      "after": {
+        "segment": 9,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Mocho comi? Outro que não a mim. Pegou nos filhos um por um e foi pô-los a salvo, no alto de um pinheiro de maior porte. O lobo, de raiva, rilhou o tronco do pinheirinho e ficou com a boca a saber a resina. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

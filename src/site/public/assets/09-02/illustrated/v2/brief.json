@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": "Portuguese fair and roadside setting",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "O rapaz era o Zé Pequeno. Um besnico. Bem proporcionado de corpo, tudo nos conformes, nenhum defeito, algumas qualidades, gentil, formoso, mas em ponto pequeno. Claro que queria crescer. Na idade dele todos querem. Dois aldrabões de feira, desses que andam de terra em terra a vigarizar ingénuos, souberam da vontade do moço e prometeram que o acrescentavam. Desse-lhes ele em troca o vitelo que, à conta do pai, trazia para vender.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Zé pequeno».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O rapaz era o Zé Pequeno. Um besnico. Bem proporcionado de corpo, tudo nos conformes, nenhum defeito, algumas qualidades, gentil, formoso, mas em ponto pequeno. Claro que queria crescer. Na idade dele todos querem. Dois aldrabões de feira, desses que andam de terra em terra a vigarizar ingénuos, souberam da vontade do moço e prometeram que o acrescentavam. Desse-lhes ele em troca o vitelo que, à conta do pai, trazia para vender. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "O rapaz era o Zé Pequeno. Um besnico. Bem proporcionado de corpo, tudo nos conformes, nenhum defeito, algumas qualidades, gentil, formoso, mas em ponto pequeno. Claro que queria crescer. Na idade dele todos querem. Dois aldrabões de feira, desses que andam de terra em terra a vigarizar ingénuos, souberam da vontade do moço e prometeram que o acrescentavam. Desse-lhes ele em troca o vitelo que, à conta do pai, trazia para vender.",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O rapaz era o Zé Pequeno. Um besnico. Bem proporcionado de corpo, tudo nos conformes, nenhum defeito, algumas qualidades, gentil, formoso, mas em ponto pequeno. Claro que queria crescer. Na idade dele todos querem. Dois aldrabões de feira, desses que andam de terra em terra a vigarizar ingénuos, souberam da vontade do moço e prometeram que o acrescentavam. Desse-lhes ele em troca o vitelo que, à conta do pai, trazia para vender. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "- Por enquanto, não olhe para baixo que sente vertigens - dizia o outro, de joelhos. Foram-se embora com o vitelo, a rirem-se. O rapazinho andou pela feira com a aba do chapéu enfiada até ao pescoço, que parecia um babete ou uma gola de fazer rir.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Por enquanto, não olhe para baixo que sente vertigens - dizia o outro, de joelhos. Foram-se embora com o vitelo, a rirem-se. O rapazinho andou pela feira com a aba do chapéu enfiada até ao pescoço, que parecia um babete ou uma gola de fazer rir. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s7p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p1",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "- Parem, em nome da lei. Eu, sargento Viçoso, sargento da Guarda Republicana, intimo-os a largarem o vitelo, senão disparo. Eles, que tinham a consciência pesada, aterrorizaram-se, de mãos no ar, a tremer. Então o Zé Pequeno acertou uma pedrada num, acertou uma pedrada no outro e fê-los provar o pó da estrada.",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Parem, em nome da lei. Eu, sargento Viçoso, sargento da Guarda Republicana, intimo-os a largarem o vitelo, senão disparo. Eles, que tinham a consciência pesada, aterrorizaram-se, de mãos no ar, a tremer. Então o Zé Pequeno acertou uma pedrada num, acertou uma pedrada no outro e fê-los provar o pó da estrada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s8p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s7p1",
+        "s8p0",
+        "s8p1"
+      ],
+      "evidence": "Eles, que tinham a consciência pesada, aterrorizaram-se, de mãos no ar, a tremer. Então o Zé Pequeno acertou uma pedrada num, acertou uma pedrada no outro e fê-los provar o pó da estrada. Com os dois homens desmaiados, estendidos à sua mercê, o rapaz era o mais alto. Recuperou o vitelo e voltou para a feira. Feliz com o seu sucesso, sentia-se, subitamente, mais crescido. E até talvez estivesse. Era mesmo muito natural que, depois daquela aventura, tivesse dado um grande pulo.",
+      "after": {
+        "segment": 8,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eles, que tinham a consciência pesada, aterrorizaram-se, de mãos no ar, a tremer. Então o Zé Pequeno acertou uma pedrada num, acertou uma pedrada no outro e fê-los provar o pó da estrada. Com os dois homens desmaiados, estendidos à sua mercê, o rapaz era o mais alto. Recuperou o vitelo e voltou para a feira. Feliz com o seu sucesso, sentia-se, subitamente, mais crescido. E até talvez estivesse. Era mesmo muito natural que, depois daquela aventura, tivesse dado um grande pulo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

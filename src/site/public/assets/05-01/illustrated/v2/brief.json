@@ -1,0 +1,139 @@
+{
+  "characters": [
+    {
+      "name": "Joca",
+      "appearance": "Menino português, expressão resmungona, à mesa diante de um prato de sopa"
+    },
+    {
+      "name": "Pai de Joca",
+      "appearance": "Adulto sentado à mesa, expressão paciente, a dialogar com Joca"
+    },
+    {
+      "name": "Mãe de Joca",
+      "appearance": "Adulta à mesa, expressão atenta e divertida"
+    },
+    {
+      "name": "Tio Alfredo",
+      "appearance": "Adulto animado, gesticulando enquanto explica a sopa especial"
+    }
+  ],
+  "environment": "Interior de uma casa portuguesa, jantar em família à volta de uma mesa com pratos de sopa, com cozinha em segundo plano nas cenas em que o tio Alfredo prepara e explica a origem dos ingredientes.",
+  "palette": [
+    "tons quentes de interior",
+    "castanhos e ocres",
+    "verdes de legumes",
+    "brancos e cremes da sopa",
+    "acentos vermelhos discretos"
+  ],
+  "recurringObjects": [
+    "mesa de jantar",
+    "pratos de sopa",
+    "colheres",
+    "papel e caneta",
+    "fogão",
+    "horta/legumes",
+    "fósforos"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O Joca faz cara feia à sopa. Diz ele que se engasga. - Não te engasgas com o bife nem com as batatas fritas... - diz-lhe o pai. - Porque será? A verdade é que o Joca não gosta de sopa. Já os pais estão na fruta e ele ainda a remanchar , ora uma colher ora outra, muito enfadado, diante da sopa fria.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Joca e o prato de sopa».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Joca faz cara feia à sopa. Diz ele que se engasga. - Não te engasgas com o bife nem com as batatas fritas... - diz-lhe o pai. - Porque será? A verdade é que o Joca não gosta de sopa. Já os pais estão na fruta e ele ainda a remanchar , ora uma colher ora outra, muito enfadado, diante da sopa fria. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Fechou-se na cozinha, onde se demorou que tempos, e quando terminou o preparo anunciou: - Todos para a mesa, para provarem a sopa que custou o trabalho de mais de mil. Veio a sopa para os pratos e nenhuma diferença fazia das sopas já conhecidas e rejeitadas pelo paladar do Joca.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Fechou-se na cozinha, onde se demorou que tempos, e quando terminou o preparo anunciou: - Todos para a mesa, para provarem a sopa que custou o trabalho de mais de mil. Veio a sopa para os pratos e nenhuma diferença fazia das sopas já conhecidas e rejeitadas pelo paladar do Joca. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s6p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s5p2",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "- Mais me ajudas - disse o tio Alfredo. - Quantos engenheiros foram necessários para inventar a rega por aspersão ? Quantos operários para apurar os instrumentos de rega? Quantos homens para fabricar as bombas de água, que a vão buscar aos rios? E quem fez as mangueiras? Quem concebeu a mecânica dos óleos, que accionam as bombas de água? Tanta gente à volta de um prato de sopa! Cem? Duzentos?",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Mais me ajudas - disse o tio Alfredo. - Quantos engenheiros foram necessários para inventar a rega por aspersão ? Quantos operários para apurar os instrumentos de rega? Quantos homens para fabricar as bombas de água, que a vão buscar aos rios? E quem fez as mangueiras? Quem concebeu a mecânica dos óleos, que accionam as bombas de água? Tanta gente à volta de um prato de sopa! Cem? Duzentos? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s10p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s9p0",
+        "s9p1",
+        "s10p0"
+      ],
+      "evidence": "O tio Alfredo continuava inspirado, somando parcelas, acrescentando gente. Enquanto ele sussurrava números debruçado sobre o papel, o pai do Joca tomou-lhe o fio à meada: - E o construtor do fogão, que cozinhou a sopa? E os fabricantes do gás, que acendeu o fogão? E os químicos que produziram o fósforo, com que se fizeram os fósforos, que acenderam o gás, que chegou aos bicos, trazido pelas condutas, escondidas no fogão, que cozinhou a sopa? - pergunta o pai do Joca, quase sem fôlego.",
+      "after": {
+        "segment": 10,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O tio Alfredo continuava inspirado, somando parcelas, acrescentando gente. Enquanto ele sussurrava números debruçado sobre o papel, o pai do Joca tomou-lhe o fio à meada: - E o construtor do fogão, que cozinhou a sopa? E os fabricantes do gás, que acendeu o fogão? E os químicos que produziram o fósforo, com que se fizeram os fósforos, que acenderam o gás, que chegou aos bicos, trazido pelas condutas, escondidas no fogão, que cozinhou a sopa? - pergunta o pai do Joca, quase sem fôlego. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s11p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s10p0",
+        "s11p0",
+        "s11p1"
+      ],
+      "evidence": "E os químicos que produziram o fósforo, com que se fizeram os fósforos, que acenderam o gás, que chegou aos bicos, trazido pelas condutas, escondidas no fogão, que cozinhou a sopa? - pergunta o pai do Joca, quase sem fôlego. - E os lenhadores que cortaram as árvores, que os serradores serraram e outros mais partiram e repartiram, até chegarem a fazer os paus dos fósforos? - disse a mãe do Joca, quase a rir-se. - Chega! Chega! - gritou o Joca. - Já comi a sopa toda. - O que é que há a seguir?",
+      "after": {
+        "segment": 11,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E os químicos que produziram o fósforo, com que se fizeram os fósforos, que acenderam o gás, que chegou aos bicos, trazido pelas condutas, escondidas no fogão, que cozinhou a sopa? - pergunta o pai do Joca, quase sem fôlego. - E os lenhadores que cortaram as árvores, que os serradores serraram e outros mais partiram e repartiram, até chegarem a fazer os paus dos fósforos? - disse a mãe do Joca, quase a rir-se. - Chega! Chega! - gritou o Joca. - Já comi a sopa toda. - O que é que há a seguir? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s12p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s11p0",
+        "s11p1",
+        "s12p0"
+      ],
+      "evidence": "- E os lenhadores que cortaram as árvores, que os serradores serraram e outros mais partiram e repartiram, até chegarem a fazer os paus dos fósforos? - disse a mãe do Joca, quase a rir-se. - Chega! Chega! - gritou o Joca. - Já comi a sopa toda. - O que é que há a seguir? Ia ter que esperar, porque, diante dos pais do Joca e do tio Alfredo, os pratos de sopa ainda continuavam cheios...",
+      "after": {
+        "segment": 12,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - E os lenhadores que cortaram as árvores, que os serradores serraram e outros mais partiram e repartiram, até chegarem a fazer os paus dos fósforos? - disse a mãe do Joca, quase a rir-se. - Chega! Chega! - gritou o Joca. - Já comi a sopa toda. - O que é que há a seguir? Ia ter que esperar, porque, diante dos pais do Joca e do tio Alfredo, os pratos de sopa ainda continuavam cheios... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

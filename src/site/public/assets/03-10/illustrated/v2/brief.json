@@ -1,0 +1,103 @@
+{
+  "characters": [],
+  "environment": "Lavadoiro público com tanque fundo e água turva, em ambiente quotidiano de aldeia ou bairro popular.",
+  "palette": [
+    "tons suaves e naturais",
+    "azuis esbatidos",
+    "cinzentos de água turva",
+    "verdes discretos",
+    "contraste pontual nas joias"
+  ],
+  "recurringObjects": [
+    "anel",
+    "lavadoiro público",
+    "cana",
+    "casaco",
+    "esquadra de polícia"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "A madrinha tinha-lhe dado um anel. Não seria grande coisa, um enfeite apenas, mas a Lídia gostava muito do seu anelinho. De uma vez que estava a fazer bolas de sabão, à beira de um lavadoiro público, o anel escorregou-lhe do dedo e caiu à água. Há que dizer que o tanque era fundo. Por perto, nenhuma pessoa crescida. Que fazer?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O anel».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A madrinha tinha-lhe dado um anel. Não seria grande coisa, um enfeite apenas, mas a Lídia gostava muito do seu anelinho. De uma vez que estava a fazer bolas de sabão, à beira de um lavadoiro público, o anel escorregou-lhe do dedo e caiu à água. Há que dizer que o tanque era fundo. Por perto, nenhuma pessoa crescida. Que fazer? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Por perto, nenhuma pessoa crescida. Que fazer? A Lídia experimentou com uma cana, mas como a água estava turva, não deu com o anel. Então, e só então, a Lídia chorou.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Por perto, nenhuma pessoa crescida. Que fazer? A Lídia experimentou com uma cana, mas como a água estava turva, não deu com o anel. Então, e só então, a Lídia chorou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "- Vamos lá ver se eu resolvo a situação - disse o senhor, tirando o casaco. Arregaçou a manga da camisa e enfiou o braço na água. Tacteia aqui, tacteia ali, encontrou um anel. - Cá está ele - exclamou, mostrando um rico anel de diamantes.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Vamos lá ver se eu resolvo a situação - disse o senhor, tirando o casaco. Arregaçou a manga da camisa e enfiou o braço na água. Tacteia aqui, tacteia ali, encontrou um anel. - Cá está ele - exclamou, mostrando um rico anel de diamantes. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p2",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Realmente, o que se perde a lavar a roupa... Aquele lavadoiro público era uma joalharia. Que não senhor, que aquele anel também não lhe pertencia, respondeu a Lídia, com olhos de inocente. À terceira o senhor achou o anel da Lídia, que ficou muito feliz. Agradeceu e dali partiu, aos saltinhos.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Realmente, o que se perde a lavar a roupa... Aquele lavadoiro público era uma joalharia. Que não senhor, que aquele anel também não lhe pertencia, respondeu a Lídia, com olhos de inocente. À terceira o senhor achou o anel da Lídia, que ficou muito feliz. Agradeceu e dali partiu, aos saltinhos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s8p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s7p1",
+        "s8p0",
+        "s8p1"
+      ],
+      "evidence": "- Estou tão interessado no que a menina me conta, porque soube, ainda agora, que esses anéis foram roubados. O melhor é irmos à esquadra da polícia, para que se esclareça bem tudo o que aconteceu. E, de caminho, passamos por casa da sua madrinha. Qual caminho nem meio caminho! Ouvindo isto, a Elisa desatou a fugir, nem que viesse um esquadrão de polícias a correr atrás dela. O tal senhor, esse ria, ria a bom rir.",
+      "after": {
+        "segment": 8,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Estou tão interessado no que a menina me conta, porque soube, ainda agora, que esses anéis foram roubados. O melhor é irmos à esquadra da polícia, para que se esclareça bem tudo o que aconteceu. E, de caminho, passamos por casa da sua madrinha. Qual caminho nem meio caminho! Ouvindo isto, a Elisa desatou a fugir, nem que viesse um esquadrão de polícias a correr atrás dela. O tal senhor, esse ria, ria a bom rir. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

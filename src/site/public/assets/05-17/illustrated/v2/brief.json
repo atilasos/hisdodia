@@ -1,0 +1,90 @@
+{
+  "characters": [
+    {
+      "name": "Flávio",
+      "appearance": "Menino em idade escolar, curioso, em casa e no quintal, vestido de forma simples e quotidiana."
+    }
+  ],
+  "environment": "Casa com quintal e uma pereira, vista de janela interior para exterior; ambiente doméstico tranquilo com vento e um balão preso na árvore.",
+  "palette": [
+    "tons quentes e naturais",
+    "verde da pereira",
+    "azul claro do céu",
+    "cores suaves de infância",
+    "brancos e castanhos discretos"
+  ],
+  "recurringObjects": [
+    "balão com fio e papel pendurado",
+    "janela da casa",
+    "pereira do quintal",
+    "muro do quintal"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Veio um balão, no sopro do vento. Trazia um fio pendurado e, na ponta do fio, um papel. O fio embaraçou-se na rama da pereira do quintal. Parou de viajar o balão. O Flávio, que estava a estudar, levantou os olhos do livro e olhou pela janela. O balão acenou-lhe, num cumprimento leve. \"Alguém que o perdeu\", pensou o Flávio.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Recado».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Veio um balão, no sopro do vento. Trazia um fio pendurado e, na ponta do fio, um papel. O fio embaraçou-se na rama da pereira do quintal. Parou de viajar o balão. O Flávio, que estava a estudar, levantou os olhos do livro e olhou pela janela. O balão acenou-lhe, num cumprimento leve. \"Alguém que o perdeu\", pensou o Flávio. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s2p0"
+      ],
+      "evidence": "\"Alguém que o perdeu\", pensou o Flávio. Ele, que já não era menino de andar de balão preso à mão, mesmo assim foi ver mais de perto. Talvez pensasse em deixar o balão ir outra vez pelo ar... Talvez pensasse em esvaziar o balão e guardá-lo para outra ocasião... O Flávio desceu ao quintal e trepou à pereira, que já o conhecia de equilibrismos mais antigos. Desembaraçou o fio e ia a largar o balão quando reparou no papel pendurado. E estava escrito. Que dizia ele?",
+      "after": {
+        "segment": 2,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: \"Alguém que o perdeu\", pensou o Flávio. Ele, que já não era menino de andar de balão preso à mão, mesmo assim foi ver mais de perto. Talvez pensasse em deixar o balão ir outra vez pelo ar... Talvez pensasse em esvaziar o balão e guardá-lo para outra ocasião... O Flávio desceu ao quintal e trepou à pereira, que já o conhecia de equilibrismos mais antigos. Desembaraçou o fio e ia a largar o balão quando reparou no papel pendurado. E estava escrito. Que dizia ele? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "Olá, amigo. Se leres este papel, não o deites fora nem o desprendas do balão. Larga outra vez o balão e deixa-o ir pelo ar, até chegar a outras mãos.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Olá, amigo. Se leres este papel, não o deites fora nem o desprendas do balão. Larga outra vez o balão e deixa-o ir pelo ar, até chegar a outras mãos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s5p0"
+      ],
+      "evidence": "É este o recado que o balão tem para dar, com um abraço de um Amigo desconhecido O Flávio libertou o balão e ficou a vê-lo subir, ultrapassar o muro do quintal e, num golpe do vento, mudar de direcção, sabe-se lá para onde.",
+      "after": {
+        "segment": 5,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: É este o recado que o balão tem para dar, com um abraço de um Amigo desconhecido O Flávio libertou o balão e ficou a vê-lo subir, ultrapassar o muro do quintal e, num golpe do vento, mudar de direcção, sabe-se lá para onde. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

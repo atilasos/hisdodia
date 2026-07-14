@@ -1,0 +1,109 @@
+{
+  "characters": [
+    {
+      "name": "Joca",
+      "appearance": "Portuguese boy on vacation with his grandparents, active and curious, in simple summer clothes"
+    },
+    {
+      "name": "Guilherme",
+      "appearance": "Another boy of similar age, reserved at first, in casual vacation clothes"
+    },
+    {
+      "name": "Grandparents",
+      "appearance": "Elderly couple accompanying Joca, present in the opening"
+    },
+    {
+      "name": "Hotel receptionist",
+      "appearance": "Adult at the hotel reception desk"
+    },
+    {
+      "name": "Gelato vendor",
+      "appearance": "Street vendor passing by with a cart"
+    }
+  ],
+  "environment": "A calm thermal-spa hotel with reception, pátio, salon, and outdoor leisure areas in a small resort town",
+  "palette": [
+    "soft summer greens",
+    "warm stone beige",
+    "sky blue",
+    "muted terracotta",
+    "cream white"
+  ],
+  "recurringObjects": [
+    "hotel facade",
+    "reception desk",
+    "ball",
+    "toy cars",
+    "checkers board",
+    "playing cards",
+    "ice cream cart"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O Joca foi com os avós para férias. Para as termas. Saiba quem não souber que as termas são lugares tranquilos, onde descansam dos sobressaltos da cidade os que precisam de descansar e onde se tratam das queixas e doenças da vida os que precisam de se tratar. Mas não são nenhuns hospitais. Há hotéis, piscinas, campos de ténis e muitos sítios para passear. As pessoas que vão para as termas conversam, lêem e, sobretudo, repousam.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Joca Procura Amigo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Joca foi com os avós para férias. Para as termas. Saiba quem não souber que as termas são lugares tranquilos, onde descansam dos sobressaltos da cidade os que precisam de descansar e onde se tratam das queixas e doenças da vida os que precisam de se tratar. Mas não são nenhuns hospitais. Há hotéis, piscinas, campos de ténis e muitos sítios para passear. As pessoas que vão para as termas conversam, lêem e, sobretudo, repousam. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "Há hotéis, piscinas, campos de ténis e muitos sítios para passear. As pessoas que vão para as termas conversam, lêem e, sobretudo, repousam. Ah, mas não esquecer: bebem aguinhas, aguinhas termais que fazem bem ao fígado, ao estômago, aos rins e outras vísceras que me dispenso de enumerar. Ficam as pessoas lavadas por dentro, embora também haja termas onde são receitados banhos para quem sofra da pele. Tudo muito higiénico. O Joca, a princípio, maçou-se. Faltavam-lhe meninos da idade dele para brincar. Até que, à entrada do hotel, descobriu um rapazinho tão desamparado quanto ele.",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Há hotéis, piscinas, campos de ténis e muitos sítios para passear. As pessoas que vão para as termas conversam, lêem e, sobretudo, repousam. Ah, mas não esquecer: bebem aguinhas, aguinhas termais que fazem bem ao fígado, ao estômago, aos rins e outras vísceras que me dispenso de enumerar. Ficam as pessoas lavadas por dentro, embora também haja termas onde são receitados banhos para quem sofra da pele. Tudo muito higiénico. O Joca, a princípio, maçou-se. Faltavam-lhe meninos da idade dele para brincar. Até que, à entrada do hotel, descobriu um rapazinho tão desamparado quanto ele. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p19",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p17",
+        "s0p18",
+        "s0p19"
+      ],
+      "evidence": "A verdade é que não sabia ou ainda não sabia, mas não quis dar parte fraca e propôs: – Mas podemos jogar às cartas... Recusa do Guilherme. Cartas não eram com ele.",
+      "after": {
+        "segment": 0,
+        "paragraph": 19
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A verdade é que não sabia ou ainda não sabia, mas não quis dar parte fraca e propôs: – Mas podemos jogar às cartas... Recusa do Guilherme. Cartas não eram com ele. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p28",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p26",
+        "s0p27",
+        "s0p28"
+      ],
+      "evidence": "O Joca encarou o Guilherme e concluiu, feliz: – Bem me parecia que tínhamos os mesmos gostos. Vamos ser amigos. E cada um foi comprar um gelado de morango.",
+      "after": {
+        "segment": 0,
+        "paragraph": 28
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Joca encarou o Guilherme e concluiu, feliz: – Bem me parecia que tínhamos os mesmos gostos. Vamos ser amigos. E cada um foi comprar um gelado de morango. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

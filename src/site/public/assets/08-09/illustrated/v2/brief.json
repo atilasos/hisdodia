@@ -1,0 +1,108 @@
+{
+  "characters": [],
+  "environment": "Jardim com banco, merenda simples e dois amigos em diálogo de troca e partilha.",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Num banco de jardim À hora da merenda, O João e o Joaquim",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Pão, pão â queijo, queijo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Num banco de jardim À hora da merenda, O João e o Joaquim Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p7",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p5",
+        "s0p6",
+        "s0p7"
+      ],
+      "evidence": "E põe-se a comer Um pão e só pão. Não há que saber.",
+      "after": {
+        "segment": 0,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E põe-se a comer Um pão e só pão. Não há que saber. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p7",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p5",
+        "s2p6",
+        "s2p7"
+      ],
+      "evidence": "\"Pois sim, ó João!\" E o pão e o queijo Mudaram de mão.",
+      "after": {
+        "segment": 2,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: \"Pois sim, ó João!\" E o pão e o queijo Mudaram de mão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p7",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p5",
+        "s3p6",
+        "s3p7"
+      ],
+      "evidence": "Os dois mastigantes Decidem voltar Ao que comiam dantes.",
+      "after": {
+        "segment": 3,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os dois mastigantes Decidem voltar Ao que comiam dantes. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p7",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p5",
+        "s4p6",
+        "s4p7"
+      ],
+      "evidence": "Ou o queijo com pão, Provam tudo a meias. Que grande invenção!",
+      "after": {
+        "segment": 4,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ou o queijo com pão, Provam tudo a meias. Que grande invenção! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s6p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p7",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "Tirem bom proveito. E comam pão com queijo Com um vosso amigo.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Tirem bom proveito. E comam pão com queijo Com um vosso amigo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

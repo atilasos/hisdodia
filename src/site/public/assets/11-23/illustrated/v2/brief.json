@@ -1,0 +1,95 @@
+{
+  "characters": [
+    {
+      "name": "Mula nova",
+      "appearance": "Jovem, com alforges de batatas e legumes, postura ligeira e curiosa"
+    },
+    {
+      "name": "Mula velha",
+      "appearance": "Mais velha, aparência altiva no início, depois abatida e descarregada"
+    }
+  ],
+  "environment": "Estrada rural que leva ao mercado, depois mercado/feira de animais e zona de carga para a quinta.",
+  "palette": [
+    "Terrosos quentes",
+    "Castanhos e ocres",
+    "Verdes de legumes",
+    "Cinzentos poeirentos",
+    "Tons desbotados de feira"
+  ],
+  "recurringObjects": [
+    "Alforges",
+    "Batatas e legumes",
+    "Carga trocada",
+    "Moscas",
+    "Estrume"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Iam duas mulas por uma estrada. Lado a lado trotavam. Uma, que trazia nos alforges batatas e legumes para o mercado, talvez por ser mais nova, adiantou-se à outra mula. Logo a mais velha a chamou à pedra:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Duas Mulas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Iam duas mulas por uma estrada. Lado a lado trotavam. Uma, que trazia nos alforges batatas e legumes para o mercado, talvez por ser mais nova, adiantou-se à outra mula. Logo a mais velha a chamou à pedra: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p6",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "A mula nova, que não estava para despiques, susteve o passo e deixou-a passar à frente. Mas, por curiosidade, perguntou-lhe: – Porque é que vossemecê vale assim tanto mais do que eu? – Porque trago uma fortuna que não faz ideia. Pratas lavradas, castiçais doirados, loiças da Índia e um saco de libras em ouro. Sou uma mula rica, ao passo que você, sua pindérica, é apenas uma mula com dois sacos de batatas e umas hortaliças.",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A mula nova, que não estava para despiques, susteve o passo e deixou-a passar à frente. Mas, por curiosidade, perguntou-lhe: – Porque é que vossemecê vale assim tanto mais do que eu? – Porque trago uma fortuna que não faz ideia. Pratas lavradas, castiçais doirados, loiças da Índia e um saco de libras em ouro. Sou uma mula rica, ao passo que você, sua pindérica, é apenas uma mula com dois sacos de batatas e umas hortaliças. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p2",
+        "s1p3",
+        "s1p4"
+      ],
+      "evidence": "Apartadas pela diferença de riquezas, também, na estrada, a distância entre uma e outra era cada vez maior. Perderam-se de vista. Voltaram a encontrar-se no mercado. A mula velha, descarregada do seu tesouro, metia dó. Andavam as moscas à volta dela. Estava à venda, mas ninguém a queria.",
+      "after": {
+        "segment": 1,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Apartadas pela diferença de riquezas, também, na estrada, a distância entre uma e outra era cada vez maior. Perderam-se de vista. Voltaram a encontrar-se no mercado. A mula velha, descarregada do seu tesouro, metia dó. Andavam as moscas à volta dela. Estava à venda, mas ninguém a queria. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s2p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "– Estrume – respondeu a nova, muito mula, a mostrar as favolas, cheia de riso. – Ah, estrume… – repetiu, desolada, a mais velha. – Nunca imaginei. Mas calhou assim. É a vida. Isto dito a meio de um fundo suspiro. Pois. É a vida…",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Estrume – respondeu a nova, muito mula, a mostrar as favolas, cheia de riso. – Ah, estrume… – repetiu, desolada, a mais velha. – Nunca imaginei. Mas calhou assim. É a vida. Isto dito a meio de um fundo suspiro. Pois. É a vida… Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

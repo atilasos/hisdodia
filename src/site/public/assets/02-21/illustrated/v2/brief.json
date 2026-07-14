@@ -1,0 +1,125 @@
+{
+  "characters": [
+    {
+      "name": "abutre",
+      "appearance": "ave grande, escura, necrófaga"
+    },
+    {
+      "name": "chacal",
+      "appearance": "canídeo esguio, atento, necrófago"
+    },
+    {
+      "name": "zebra velha",
+      "appearance": "zebra cansada, abatida, magra"
+    },
+    {
+      "name": "zebrinha",
+      "appearance": "zebra pequena, jovem, ágil"
+    },
+    {
+      "name": "flor roxa",
+      "appearance": "flor rara, pétalas carnudas"
+    }
+  ],
+  "environment": "savana africana com vegetação esparsa, solo seco, um rio ao longe e um pequeno cacto",
+  "palette": [
+    "ocre",
+    "bege",
+    "castanho",
+    "preto e branco",
+    "roxo",
+    "verde seco"
+  ],
+  "recurringObjects": [
+    "carcaças e restos secos",
+    "rio ao longe",
+    "cacto pequeno",
+    "flor roxa",
+    "manada de zebras"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "O abutre, no ar, e o chacal, na terra, têm uma grande parecença. Ambos se alimentam de detritos , restos putrefactos que os outros animais, mais destemidos na caça, abandonam, depois de saciados . Este gosto comum por tudo o que mete nojo é que os une. Mas não lhe queiramos mal. Estes e outros bichos que tais, como o condor, que é da família do abutre, ou a hiena, parente próxima do chacal, são essenciais à vida. Não fossem eles e a carne em putrefacção ou os animais doentes contaminariam a natureza e provocariam epidemias .",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Fim feliz ou infeliz?».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O abutre, no ar, e o chacal, na terra, têm uma grande parecença. Ambos se alimentam de detritos , restos putrefactos que os outros animais, mais destemidos na caça, abandonam, depois de saciados . Este gosto comum por tudo o que mete nojo é que os une. Mas não lhe queiramos mal. Estes e outros bichos que tais, como o condor, que é da família do abutre, ou a hiena, parente próxima do chacal, são essenciais à vida. Não fossem eles e a carne em putrefacção ou os animais doentes contaminariam a natureza e provocariam epidemias . Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "- É para hoje - dizia o chacal. - É para amanhã - dizia o abutre. - Em qualquer dos casos, temos banquete para de aqui a um mês - concluia o chacal.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - É para hoje - dizia o chacal. - É para amanhã - dizia o abutre. - Em qualquer dos casos, temos banquete para de aqui a um mês - concluia o chacal. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p4",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p2",
+        "s4p3",
+        "s4p4"
+      ],
+      "evidence": "- E o que diz? Diz bem? - quis saber o passaroco. - O melhor possível - respondeu o chacal, com um riso maldoso. A zebra encostou a cabeça à terra, pronta para tudo. Relançou um olhar resignado à volta, como que a despedir-se.",
+      "after": {
+        "segment": 4,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - E o que diz? Diz bem? - quis saber o passaroco. - O melhor possível - respondeu o chacal, com um riso maldoso. A zebra encostou a cabeça à terra, pronta para tudo. Relançou um olhar resignado à volta, como que a despedir-se. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s6p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p1",
+        "s6p2",
+        "s6p3"
+      ],
+      "evidence": "- De felicidade - respondeu a zebra. E explicou, então, que aquela flor era muito rara e tinha propriedades maravilhosas. Dava nova vida aos moribundos , força aos fracos, saúde aos doentes. Providencialmente , encontrara-a, quando já estava disposta a morrer. A velha zebra saltou como nova.",
+      "after": {
+        "segment": 6,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - De felicidade - respondeu a zebra. E explicou, então, que aquela flor era muito rara e tinha propriedades maravilhosas. Dava nova vida aos moribundos , força aos fracos, saúde aos doentes. Providencialmente , encontrara-a, quando já estava disposta a morrer. A velha zebra saltou como nova. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s7p1",
+        "s7p2",
+        "s7p3"
+      ],
+      "evidence": "- Estás a ver o que eu estou a ver? - abismou-se o chacal que, de longe, a tudo assistira. - Estou e não acredito - disse o abutre. - Fomos enganados. Esta história não devia acabar assim. Talvez não, mas quem a escreveu teve de tomar partido.",
+      "after": {
+        "segment": 7,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Estás a ver o que eu estou a ver? - abismou-se o chacal que, de longe, a tudo assistira. - Estou e não acredito - disse o abutre. - Fomos enganados. Esta história não devia acabar assim. Talvez não, mas quem a escreveu teve de tomar partido. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,74 @@
+{
+  "characters": [],
+  "environment": "Portuguese children's storybook setting centered on a giant and a land of giants",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um gigante que não gostava de ser gigante. – Chamo muito a atenção – queixava-se ele. – Para onde quer que vá, todos, de longe, apontam o dedo para mim \"Lá vai o gigante!\" E assustam-se. E abusam do meu nome e pessoa, metendo medo aos meninos: \"Se não comes a sopa, chamo o gigante\". E espalham disparates a meu respeito, dizendo que eu como gente, sou mau e outras calúnias que tais. Não aturo isto. Pôs-se a andar de joelhos, a ver se não davam tanto por ele. Qual quê! Um gigante de joelhos, quer se queira quer não, é sempre um gigante, ainda que de joelhos.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Bom Gigante».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um gigante que não gostava de ser gigante. – Chamo muito a atenção – queixava-se ele. – Para onde quer que vá, todos, de longe, apontam o dedo para mim \"Lá vai o gigante!\" E assustam-se. E abusam do meu nome e pessoa, metendo medo aos meninos: \"Se não comes a sopa, chamo o gigante\". E espalham disparates a meu respeito, dizendo que eu como gente, sou mau e outras calúnias que tais. Não aturo isto. Pôs-se a andar de joelhos, a ver se não davam tanto por ele. Qual quê! Um gigante de joelhos, quer se queira quer não, é sempre um gigante, ainda que de joelhos. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s0p3"
+      ],
+      "evidence": "– Chamo muito a atenção – queixava-se ele. – Para onde quer que vá, todos, de longe, apontam o dedo para mim \"Lá vai o gigante!\" E assustam-se. E abusam do meu nome e pessoa, metendo medo aos meninos: \"Se não comes a sopa, chamo o gigante\". E espalham disparates a meu respeito, dizendo que eu como gente, sou mau e outras calúnias que tais. Não aturo isto. Pôs-se a andar de joelhos, a ver se não davam tanto por ele. Qual quê! Um gigante de joelhos, quer se queira quer não, é sempre um gigante, ainda que de joelhos. Deixou de aparecer. Fechou-se no seu palácio de gigante e nunca mais pôs um pé fora de casa. Mas um gigante escondido, que de um momento para o outro pode aparecer, aterroriza ainda mais a vizinhança do que se andasse sempre na rua.",
+      "after": {
+        "segment": 0,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Chamo muito a atenção – queixava-se ele. – Para onde quer que vá, todos, de longe, apontam o dedo para mim \"Lá vai o gigante!\" E assustam-se. E abusam do meu nome e pessoa, metendo medo aos meninos: \"Se não comes a sopa, chamo o gigante\". E espalham disparates a meu respeito, dizendo que eu como gente, sou mau e outras calúnias que tais. Não aturo isto. Pôs-se a andar de joelhos, a ver se não davam tanto por ele. Qual quê! Um gigante de joelhos, quer se queira quer não, é sempre um gigante, ainda que de joelhos. Deixou de aparecer. Fechou-se no seu palácio de gigante e nunca mais pôs um pé fora de casa. Mas um gigante escondido, que de um momento para o outro pode aparecer, aterroriza ainda mais a vizinhança do que se andasse sempre na rua. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p7",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p5",
+        "s0p6",
+        "s0p7"
+      ],
+      "evidence": "Andou por vários reinos, sempre precedido pela sua fama. – Vem aí o gigante – gritavam. E todos fugiam.",
+      "after": {
+        "segment": 0,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Andou por vários reinos, sempre precedido pela sua fama. – Vem aí o gigante – gritavam. E todos fugiam. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p10",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p8",
+        "s0p9",
+        "s0p10"
+      ],
+      "evidence": "Até que foi ter a uma terra de gigantes. De gigantões. Todos muito maiores do que ele. – Aqui é que me convém ficar a viver – disse o gigante. – Ninguém vai reparar em mim. Por acaso reparavam. Chamavam-no, nessa terra, de gigantões matulões, chamavam ao gigante desta história de \"pitorro\", \"badameco\", \"homenzinho\", \"pigmeu\"... Mas ele, que tinha muito bom feitio, não se importava.",
+      "after": {
+        "segment": 0,
+        "paragraph": 10
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Até que foi ter a uma terra de gigantes. De gigantões. Todos muito maiores do que ele. – Aqui é que me convém ficar a viver – disse o gigante. – Ninguém vai reparar em mim. Por acaso reparavam. Chamavam-no, nessa terra, de gigantões matulões, chamavam ao gigante desta história de \"pitorro\", \"badameco\", \"homenzinho\", \"pigmeu\"... Mas ele, que tinha muito bom feitio, não se importava. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,103 @@
+{
+  "characters": [
+    {
+      "name": "senhor Firmino",
+      "appearance": "cauteleiro ambulante, boné de lado, cautelas ao braço, rosto curtido de sol e vento"
+    },
+    {
+      "name": "Anselmo Bolota",
+      "appearance": "dono das cabras, figura rural robusta"
+    },
+    {
+      "name": "Rabisca",
+      "appearance": "cabra curiosa e gulosa"
+    },
+    {
+      "name": "garoto pastor",
+      "appearance": "rapaz que conduz o rebanho"
+    }
+  ],
+  "environment": "Vila Nova, com ruas, o Outeiro, a bomba de gasolina, o café, a leitaria, o jardim e o largo da igreja",
+  "palette": [
+    "ocre",
+    "verde seco",
+    "azul desbotado",
+    "vermelho gasto",
+    "branco sujo"
+  ],
+  "recurringObjects": [
+    "cautelas",
+    "boné",
+    "rebanho de cabras",
+    "bilhete cor-de-rosa",
+    "roda da sorte"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Andava o senhor Firmino a vender lotaria nas ruas de Vila Nova, ao começo deste estranho caso. Era cauteleiro o senhor Firmino. – Quem quer a sorte? O Firmino dá sorte! Quem quer os últimos para amanhã? – apregoava ele.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Tesouro da Vila».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Andava o senhor Firmino a vender lotaria nas ruas de Vila Nova, ao começo deste estranho caso. Era cauteleiro o senhor Firmino. – Quem quer a sorte? O Firmino dá sorte! Quem quer os últimos para amanhã? – apregoava ele. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "– E desta arranjou fregueses novos… – interrompeu alguém. O senhor Firmino zangou-se: – Não brinque com a minha pouca sorte, homem! Podia eu lá calcular que me ia suceder uma daquelas?! Eu ia para lá, e cruzei-me com um rebanho de cabras, tocadas por um garoto, que é afilhado do Bolota. Estava uma ventania dos diabos. Para proteger os bilhetes, ajeitei-os debaixo do casaco e segui caminho. Passei pelo meio do rebanho e, de facto, reparei que uma das cabras engraçara comigo e se pusera a seguir-me, com o focinho a roçar-me as pernas. Achei simpático o bicho e até me virei para lhe fazer uma festa, calculem! Nessa altura, a cabra fugiu e foi quando eu vi que ela levava nos dentes um bocado de papel cor-de-rosa. Tive um pressentimento, fui ver o jogo e faltava-me um bilhete, um dos que tinha ficado fora do casaco. A cabra papara um bilhete, parte do qual levava ainda na boca. Corri atrás dela, corremos os dois, eu e o pastor ou os três, eu, o garoto e a cabra, que corria mais do que nós dois juntos. Claro que, quando a apanhámos, já tinha engolido o resto. Disse-me o rapaz que ela, no outro dia, comeu uma toalha e um lençol. Que esperam dum bicho destes?",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – E desta arranjou fregueses novos… – interrompeu alguém. O senhor Firmino zangou-se: – Não brinque com a minha pouca sorte, homem! Podia eu lá calcular que me ia suceder uma daquelas?! Eu ia para lá, e cruzei-me com um rebanho de cabras, tocadas por um garoto, que é afilhado do Bolota. Estava uma ventania dos diabos. Para proteger os bilhetes, ajeitei-os debaixo do casaco e segui caminho. Passei pelo meio do rebanho e, de facto, reparei que uma das cabras engraçara comigo e se pusera a seguir-me, com o focinho a roçar-me as pernas. Achei simpático o bicho e até me virei para lhe fazer uma festa, calculem! Nessa altura, a cabra fugiu e foi quando eu vi que ela levava nos dentes um bocado de papel cor-de-rosa. Tive um pressentimento, fui ver o jogo e faltava-me um bilhete, um dos que tinha ficado fora do casaco. A cabra papara um bilhete, parte do qual levava ainda na boca. Corri atrás dela, corremos os dois, eu e o pastor ou os três, eu, o garoto e a cabra, que corria mais do que nós dois juntos. Claro que, quando a apanhámos, já tinha engolido o resto. Disse-me o rapaz que ela, no outro dia, comeu uma toalha e um lençol. Que esperam dum bicho destes? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p5",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p3",
+        "s2p4",
+        "s2p5"
+      ],
+      "evidence": "No Café Central, na Leitaria Sevilhana, no Jardim da Guia, no largo da Igreja, no pátio da escola, nas lojas da Rua dos Alecrins, o único tema era o tesouro, o possível mas obscuro tesouro, guardado e bem guardado na barriga de uma cabra de seu nome Rabisca. E essa, sim, a Rabisca, como se comportava ela? Ora! Continuava a mastigar o que lhe vinha ao dente, sem ligar a mínima importância à balbúrdia que tinha provocado. \"Ai, se saísse a sorte grande no 17029!...\", pensava o senhor Firmino, o senhor Bolota e toda a vila, em peso.",
+      "after": {
+        "segment": 2,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No Café Central, na Leitaria Sevilhana, no Jardim da Guia, no largo da Igreja, no pátio da escola, nas lojas da Rua dos Alecrins, o único tema era o tesouro, o possível mas obscuro tesouro, guardado e bem guardado na barriga de uma cabra de seu nome Rabisca. E essa, sim, a Rabisca, como se comportava ela? Ora! Continuava a mastigar o que lhe vinha ao dente, sem ligar a mínima importância à balbúrdia que tinha provocado. \"Ai, se saísse a sorte grande no 17029!...\", pensava o senhor Firmino, o senhor Bolota e toda a vila, em peso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p6",
+        "s2p7",
+        "s3p0"
+      ],
+      "evidence": "Andou a roda, saltitaram as bolinhas dos números, mas o 17029 ficou-se no meio dos outros, dos que não saíram pela porta mágica da fortuna. Quando a vila soube que o 17029 não tinha sido premiado, respirou finalmente, aliviada. O senhor Firmino queixou-se da sua sorte e prometeu nunca mais comer queijo de cabra, mas com o tempo, o bom cauteleiro acabou por levar o caso para a brincadeira.",
+      "after": {
+        "segment": 3,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Andou a roda, saltitaram as bolinhas dos números, mas o 17029 ficou-se no meio dos outros, dos que não saíram pela porta mágica da fortuna. Quando a vila soube que o 17029 não tinha sido premiado, respirou finalmente, aliviada. O senhor Firmino queixou-se da sua sorte e prometeu nunca mais comer queijo de cabra, mas com o tempo, o bom cauteleiro acabou por levar o caso para a brincadeira. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

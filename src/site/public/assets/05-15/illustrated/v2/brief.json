@@ -1,0 +1,96 @@
+{
+  "characters": [
+    {
+      "name": "Órfãos",
+      "appearance": "Meninos magros num colégio antigo, roupa simples e gasto"
+    },
+    {
+      "name": "Prefeito do colégio",
+      "appearance": "Adulto corpulento, autoritário, à cabeceira da mesa"
+    },
+    {
+      "name": "Menino órfão",
+      "appearance": "Pequeno, faminto, atento, com gesto sereno junto ao prato"
+    }
+  ],
+  "environment": "Colégio de órfãos antigo, cantina grande e fria, com mesa de refeição pobre e atmosfera de privação.",
+  "palette": [
+    "cinzentos frios",
+    "castanhos gastos",
+    "azuis apagados",
+    "amarelos pálidos"
+  ],
+  "recurringObjects": [
+    "mesa comprida",
+    "pratos com pouca comida",
+    "peixe pequeno",
+    "concha de arroz"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s2p0"
+      ],
+      "evidence": "Num colégio de órfãos de antigamente, para onde iam os meninos que a família não podia sustentar, passava-se muita miséria. Miséria é modo de dizer... fomenica, larica, galga e outros nomes que a fome tem, mas que não disfarçam a penúria nem aconchegam o estômago. As refeições, na enorme cantina enregelada, eram um fazer sofrer e um fazer de conta. Só o regente do colégio - o prefeito -, à cabeceira da mesa, comia a seu gosto. Dizia ele que era por ser grande, grosso e grave e que os pequenos, por serem pequenos, não precisavam de comer tanto. Mentiras. Desculpas. Num almoço, puseram em cada prato dos pensionistas um peixinho de nada com a pouca companhia de uma concha de arroz.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A lição do peixe».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Num colégio de órfãos de antigamente, para onde iam os meninos que a família não podia sustentar, passava-se muita miséria. Miséria é modo de dizer... fomenica, larica, galga e outros nomes que a fome tem, mas que não disfarçam a penúria nem aconchegam o estômago. As refeições, na enorme cantina enregelada, eram um fazer sofrer e um fazer de conta. Só o regente do colégio - o prefeito -, à cabeceira da mesa, comia a seu gosto. Dizia ele que era por ser grande, grosso e grave e que os pequenos, por serem pequenos, não precisavam de comer tanto. Mentiras. Desculpas. Num almoço, puseram em cada prato dos pensionistas um peixinho de nada com a pouca companhia de uma concha de arroz. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0"
+      ],
+      "evidence": "Num colégio de órfãos de antigamente, para onde iam os meninos que a família não podia sustentar, passava-se muita miséria. Miséria é modo de dizer... fomenica, larica, galga e outros nomes que a fome tem, mas que não disfarçam a penúria nem aconchegam o estômago. As refeições, na enorme cantina enregelada, eram um fazer sofrer e um fazer de conta. Só o regente do colégio - o prefeito -, à cabeceira da mesa, comia a seu gosto. Dizia ele que era por ser grande, grosso e grave e que os pequenos, por serem pequenos, não precisavam de comer tanto. Mentiras. Desculpas.",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Num colégio de órfãos de antigamente, para onde iam os meninos que a família não podia sustentar, passava-se muita miséria. Miséria é modo de dizer... fomenica, larica, galga e outros nomes que a fome tem, mas que não disfarçam a penúria nem aconchegam o estômago. As refeições, na enorme cantina enregelada, eram um fazer sofrer e um fazer de conta. Só o regente do colégio - o prefeito -, à cabeceira da mesa, comia a seu gosto. Dizia ele que era por ser grande, grosso e grave e que os pequenos, por serem pequenos, não precisavam de comer tanto. Mentiras. Desculpas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "Os colegas estranharam e, lá do fundo, o prefeito quis saber o porquê daquela extravagância . - Estou a conversar com o peixe, senhor - esclareceu o mocinho. - Como o meu pai, que era pescador, morreu no mar, estou a perguntar-lhe se ele chegou a conhecê-lo. - E que te respondeu ele? - indagou o prefeito, divertido, entre duas garfadas.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os colegas estranharam e, lá do fundo, o prefeito quis saber o porquê daquela extravagância . - Estou a conversar com o peixe, senhor - esclareceu o mocinho. - Como o meu pai, que era pescador, morreu no mar, estou a perguntar-lhe se ele chegou a conhecê-lo. - E que te respondeu ele? - indagou o prefeito, divertido, entre duas garfadas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p2",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "- E que te respondeu ele? - indagou o prefeito, divertido, entre duas garfadas. - Respondeu-me que não se lembra, porque é muito pequenino, mas que talvez o peixe grande, que está no prato do senhor prefeito, saiba dar-me alguma notícia. Parece que a partir deste caso os meninos do orfanato passaram a ter ração melhorada. Vejam o que um peixe pequenino pode ensinar aos grandes.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - E que te respondeu ele? - indagou o prefeito, divertido, entre duas garfadas. - Respondeu-me que não se lembra, porque é muito pequenino, mas que talvez o peixe grande, que está no prato do senhor prefeito, saiba dar-me alguma notícia. Parece que a partir deste caso os meninos do orfanato passaram a ter ração melhorada. Vejam o que um peixe pequenino pode ensinar aos grandes. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

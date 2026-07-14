@@ -1,0 +1,137 @@
+{
+  "characters": [
+    {
+      "name": "sapatos do menino",
+      "appearance": "sapatos pequenos de menino, pouco usados, com ar animado e um pouco desorientado"
+    },
+    {
+      "name": "menino",
+      "appearance": "criança a dormir, ainda deitada e alheada da aventura"
+    },
+    {
+      "name": "cão vadio",
+      "appearance": "cão solto, rápido e intrometido"
+    },
+    {
+      "name": "senhora Deolinda",
+      "appearance": "senhora da limpeza, cansada no regresso a casa, prática e observadora"
+    }
+  ],
+  "environment": "Portugal contemporâneo, entre o quarto do menino, a rua noturna, a cidade de prédios altos e a casa com jardim.",
+  "palette": [
+    "azul-noite",
+    "ocre suave",
+    "verde apagado",
+    "cinzento urbano",
+    "luz dourada de amanhecer"
+  ],
+  "recurringObjects": [
+    "par de sapatos de menino",
+    "saco de senhora da limpeza",
+    "cama do menino",
+    "prédios altos",
+    "jardim de casa"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Enquanto dormimos, os sapatos dão grandes passeios. Sobretudo os de andar por casa - chinelos, pantufas, sapatilhas e por aí fora. Os sapatos dos velhinhos que, durante o dia, já só andam a arrastar, mal apanham os donos a dormir, saltam, dançam, saltaricam que é uma maravilha. Nem se acredita. As botas dos que trabalham no campo escapam-se para a cidade. Os sapatos dos citadinos vão dar uma voltinha até ao campo mais próximo. E também há sandálias que gostam de passear-se sozinhas à beira mar, nas noites de Lua Cheia.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Sapatos de passeio».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Enquanto dormimos, os sapatos dão grandes passeios. Sobretudo os de andar por casa - chinelos, pantufas, sapatilhas e por aí fora. Os sapatos dos velhinhos que, durante o dia, já só andam a arrastar, mal apanham os donos a dormir, saltam, dançam, saltaricam que é uma maravilha. Nem se acredita. As botas dos que trabalham no campo escapam-se para a cidade. Os sapatos dos citadinos vão dar uma voltinha até ao campo mais próximo. E também há sandálias que gostam de passear-se sozinhas à beira mar, nas noites de Lua Cheia. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "Agora eu vou contar a história de uns sapatos que se perderam. Eram uns sapatos de menino, ainda pouco habituado a andar. Estava o menino mergulhado em pleno sono, quando os sapatos, pé ante pé, se decidiram a ir correr mundo. Para eles o mundo seria tudo o que ultrapassasse a sua pouca experiência de sapatos de quarto, de sala, de corredor e, quando muito, de jardim. Assim que se viram sozinhos na rua desataram a correr.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Agora eu vou contar a história de uns sapatos que se perderam. Eram uns sapatos de menino, ainda pouco habituado a andar. Estava o menino mergulhado em pleno sono, quando os sapatos, pé ante pé, se decidiram a ir correr mundo. Para eles o mundo seria tudo o que ultrapassasse a sua pouca experiência de sapatos de quarto, de sala, de corredor e, quando muito, de jardim. Assim que se viram sozinhos na rua desataram a correr. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p1",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Assim que se viram sozinhos na rua desataram a correr. Com o que não contavam era com um cão vadio que, ao vê-los tão soltos, tão ligeiros, abocanhou um deles e fugiu. O outro correu atrás do bicho pulguento, a exigir o seu par. O cão assustou-se e largou-o, sem se virar para trás. Ficaram outra vez os dois sapatos lado a lado. Mas onde é que estavam?",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Assim que se viram sozinhos na rua desataram a correr. Com o que não contavam era com um cão vadio que, ao vê-los tão soltos, tão ligeiros, abocanhou um deles e fugiu. O outro correu atrás do bicho pulguento, a exigir o seu par. O cão assustou-se e largou-o, sem se virar para trás. Ficaram outra vez os dois sapatos lado a lado. Mas onde é que estavam? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s7p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p1",
+        "s6p2",
+        "s7p0"
+      ],
+      "evidence": "Os sapatinhos ainda pediram ajuda numa montra de sapataria. Sem resultado. Eram sapatos novos, recem-saídos da caixa, e não conheciam aquelas paragens. O par de sapatos do menino fartaram-se de andar, a noite toda. Já começava a nascer o sol, quando uma senhora que ia para o trabalho os viu. Pegou neles, mirou-os e remirou-os, apreciando a qualidade e pouco uso, e meteu-os no saco.",
+      "after": {
+        "segment": 7,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os sapatinhos ainda pediram ajuda numa montra de sapataria. Sem resultado. Eram sapatos novos, recem-saídos da caixa, e não conheciam aquelas paragens. O par de sapatos do menino fartaram-se de andar, a noite toda. Já começava a nascer o sol, quando uma senhora que ia para o trabalho os viu. Pegou neles, mirou-os e remirou-os, apreciando a qualidade e pouco uso, e meteu-os no saco. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s8p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s7p0",
+        "s7p1",
+        "s8p0"
+      ],
+      "evidence": "Já começava a nascer o sol, quando uma senhora que ia para o trabalho os viu. Pegou neles, mirou-os e remirou-os, apreciando a qualidade e pouco uso, e meteu-os no saco. A senhora era empregada da limpeza de uma casa com jardim, logo por coincidência a casa onde morava o menino, dono dos sapatos. Quando eles perceberam que estavam em território conhecido, saíram, muito sorrateiros, do saco da senhora mulher-a-dias e foram em bicos de pés para o quarto do menino, ainda a dormir a bom dormir.",
+      "after": {
+        "segment": 8,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Já começava a nascer o sol, quando uma senhora que ia para o trabalho os viu. Pegou neles, mirou-os e remirou-os, apreciando a qualidade e pouco uso, e meteu-os no saco. A senhora era empregada da limpeza de uma casa com jardim, logo por coincidência a casa onde morava o menino, dono dos sapatos. Quando eles perceberam que estavam em território conhecido, saíram, muito sorrateiros, do saco da senhora mulher-a-dias e foram em bicos de pés para o quarto do menino, ainda a dormir a bom dormir. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s10p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s9p0",
+        "s9p1",
+        "s10p0"
+      ],
+      "evidence": "Quando, ao fim do dia, a senhora Deolinda regressou, muito fatigada, à sua própria casa e procurou no saco os sapatinhos que, de madrugada, tinha achado na rua, não os encontrou. - Esquisito! Era capaz de garantir que os tinha guardado no saco. Ou terei sonhado? Sonho da senhora Deolinda, sonho do menino, dono dos sapatos, ou sonho dos sapatos do menino, tanto faz. O que importa é que esta história acaba onde começou.",
+      "after": {
+        "segment": 10,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando, ao fim do dia, a senhora Deolinda regressou, muito fatigada, à sua própria casa e procurou no saco os sapatinhos que, de madrugada, tinha achado na rua, não os encontrou. - Esquisito! Era capaz de garantir que os tinha guardado no saco. Ou terei sonhado? Sonho da senhora Deolinda, sonho do menino, dono dos sapatos, ou sonho dos sapatos do menino, tanto faz. O que importa é que esta história acaba onde começou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

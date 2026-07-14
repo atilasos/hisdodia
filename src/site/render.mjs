@@ -1,6 +1,7 @@
 import { cp, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { illustratedCover, renderIllustratedEdition } from './illustrated-edition.mjs';
 
 const SITE_DIR = path.dirname(fileURLToPath(import.meta.url));
 const PUBLIC_DIR = path.join(SITE_DIR, 'public');
@@ -31,7 +32,7 @@ async function loadActivities(activitiesDir, storyId) {
   }
 }
 
-function escapeHtml(value) {
+export function escapeHtml(value) {
   return String(value ?? '')
     .replaceAll('&', '&amp;')
     .replaceAll('<', '&lt;')
@@ -58,6 +59,50 @@ function safeUrl(value) {
   return encodeURI(raw);
 }
 
+export function normalizeBasePath(value = '') {
+  const raw = String(value ?? '').trim();
+
+  if (!raw || raw === '/') {
+    return '';
+  }
+
+  const normalized = `/${raw.replace(/^\/+|\/+$/g, '')}`;
+  const segments = normalized.slice(1).split('/');
+
+  if (
+    /[\u0000-\u001f\u007f?#\\]/.test(normalized) ||
+    segments.some((segment) => !segment || segment === '.' || segment === '..') ||
+    !segments.every((segment) => /^[A-Za-z0-9._~-]+$/.test(segment))
+  ) {
+    throw new Error(`Invalid site base path: ${raw}`);
+  }
+
+  return normalized;
+}
+
+function sitePath(basePath, rootPath) {
+  if (!rootPath.startsWith('/')) {
+    throw new Error(`Site path must start with /: ${rootPath}`);
+  }
+
+  const normalizedBasePath = normalizeBasePath(basePath);
+  if (!normalizedBasePath) {
+    return rootPath;
+  }
+
+  return rootPath === '/' ? `${normalizedBasePath}/` : `${normalizedBasePath}${rootPath}`;
+}
+
+function safeSiteUrl(value, basePath) {
+  const safe = safeUrl(value);
+
+  if (!safe || !safe.startsWith('/')) {
+    return safe;
+  }
+
+  return sitePath(basePath, safe);
+}
+
 function assetUrl(story, assetPath) {
   if (!assetPath) {
     return null;
@@ -80,8 +125,17 @@ function assetUrl(story, assetPath) {
   return `${archivePrefix}${origin}/${assetPath.replace(/^\/+/, '')}`;
 }
 
-function safeAssetUrl(story, assetPath) {
-  return safeUrl(assetUrl(story, assetPath));
+export function safeAssetUrl(story, assetPath, basePath = '') {
+  const raw = String(assetPath ?? '');
+  if (/[\u0000-\u001f\u007f]/.test(raw)) {
+    return null;
+  }
+
+  if (!safeUrl(raw)) {
+    return null;
+  }
+
+  return safeSiteUrl(assetUrl(story, raw.trim()), basePath);
 }
 
 function assertStoryId(story) {
@@ -90,34 +144,44 @@ function assertStoryId(story) {
   }
 }
 
-function storyHref(story) {
+function storyHref(story, basePath) {
   assertStoryId(story);
-  return `/stories/${encodeURIComponent(story.id)}/`;
+  return sitePath(basePath, `/stories/${encodeURIComponent(story.id)}/`);
 }
 
-function pageShell({ title, body, scripts = [] }) {
+function pageShell({ title, body, scripts = [], basePath = '' }) {
+  const stylesheet = sitePath(basePath, '/styles.css');
+  const appScript = sitePath(basePath, '/app.js');
+  const homepage = sitePath(basePath, '/');
+  const archive = sitePath(basePath, '/archive/');
+
   return `<!doctype html>
 <html lang="pt-PT">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(title)}</title>
-  <link rel="stylesheet" href="/styles.css">
-  <script src="/app.js" defer></script>
-${scripts.map((script) => `  <script src="${escapeHtml(script)}" defer></script>`).join('\n')}
+  <link rel="stylesheet" href="${escapeHtml(stylesheet)}">
+  <script src="${escapeHtml(appScript)}" defer></script>
+${scripts.map((script) => `  <script src="${escapeHtml(sitePath(basePath, script))}" defer></script>`).join('\n')}
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
   <header class="site-header">
-    <a class="brand" href="/" aria-label="História do Dia, página inicial">História do Dia</a>
+    <a class="brand" href="${escapeHtml(homepage)}" aria-label="História do Dia, página inicial">História do Dia</a>
     <nav aria-label="Navegação principal">
-      <a href="/">Hoje</a>
-      <a href="/archive/">Arquivo</a>
+      <a href="${escapeHtml(homepage)}">Hoje</a>
+      <a href="${escapeHtml(archive)}">Arquivo</a>
     </nav>
   </header>
   <main id="conteudo" tabindex="-1">
 ${body}
   </main>
+  <footer class="site-footer">
+    <p><strong>Transparência:</strong> As novas ilustrações desta edição foram geradas com inteligência artificial a partir do texto das histórias e de referências visuais recuperadas.</p>
+    <p>Conteúdo original do projeto sob <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt" rel="license">CC BY-SA 4.0</a>, na medida dos direitos detidos pelos responsáveis. Materiais históricos recuperados podem estar sujeitos a direitos de terceiros.</p>
+    <p>Projeto independente de preservação e experimentação educativa. Não é o site original nem tem afiliação oficial com os seus autores, ilustradores ou editores.</p>
+  </footer>
 </body>
 </html>`;
 }
@@ -141,9 +205,9 @@ ${badges
   </ul>`;
 }
 
-function audioNotice(story) {
+function audioNotice(story, basePath) {
   if (story.assets?.recoveredAudio) {
-    const audio = safeUrl(story.assets.recoveredAudio);
+    const audio = safeSiteUrl(story.assets.recoveredAudio, basePath);
 
     if (audio) {
       return `<audio controls src="${escapeHtml(audio)}"></audio>
@@ -152,8 +216,8 @@ function audioNotice(story) {
   }
 
   if (story.assets?.rerecordedAudio) {
-    const audio = safeUrl(story.assets.rerecordedAudio);
-    const captions = safeUrl(story.assets.captions);
+    const audio = safeSiteUrl(story.assets.rerecordedAudio, basePath);
+    const captions = safeSiteUrl(story.assets.captions, basePath);
 
     if (!audio) {
       return `<p class="notice">Ainda não há áudio recuperado para esta história.</p>`;
@@ -172,8 +236,8 @@ function audioNotice(story) {
   return `<p class="notice">Ainda não há áudio recuperado para esta história.</p>`;
 }
 
-function recoveredImage(story, context = 'large') {
-  const source = safeAssetUrl(story, story.assets?.background || story.assets?.archiveBackground || story.assets?.icon || story.assets?.archiveIcon);
+function recoveredImage(story, context = 'large', basePath = '') {
+  const source = safeAssetUrl(story, story.assets?.background || story.assets?.archiveBackground || story.assets?.icon || story.assets?.archiveIcon, basePath);
 
   if (!source) {
     return `<div class="asset-fallback">
@@ -187,9 +251,23 @@ function recoveredImage(story, context = 'large') {
   </figure>`;
 }
 
-function imageGallery(story) {
+function homepageImage(story, basePath) {
+  const cover = illustratedCover(story);
+  const source = cover && safeAssetUrl(story, cover.image, basePath);
+
+  if (!source) {
+    return recoveredImage(story, 'large', basePath);
+  }
+
+  return `<figure class="story-art story-art-large illustrated-cover">
+    <img src="${escapeHtml(source)}" alt="${escapeHtml(cover.alt)}" loading="eager">
+    <figcaption>${escapeHtml(story.illustratedEdition.credit)}</figcaption>
+  </figure>`;
+}
+
+function imageGallery(story, basePath) {
   const gallery = (story.assets?.gallery ?? [])
-    .map((assetPath) => safeAssetUrl(story, assetPath))
+    .map((assetPath) => safeAssetUrl(story, assetPath, basePath))
     .filter(Boolean)
     .slice(0, 12);
 
@@ -235,9 +313,9 @@ ${story.glossary
     </section>`;
 }
 
-function provenance(story) {
-  const storyPage = safeUrl(story.provenance?.storyPage);
-  const pdf = safeAssetUrl(story, story.assets?.printPdf);
+function provenance(story, basePath) {
+  const storyPage = safeSiteUrl(story.provenance?.storyPage, basePath);
+  const pdf = safeAssetUrl(story, story.assets?.printPdf, basePath);
 
   return `<section class="provenance" aria-labelledby="recuperacao">
       <h2 id="recuperacao">Recuperação</h2>
@@ -255,12 +333,25 @@ function provenance(story) {
     </section>`;
 }
 
-function playCorner(activities) {
+function playCorner(story, activities, basePath) {
   if (!activities) {
     return '';
   }
 
-  const embeddedData = JSON.stringify(activities).replaceAll('</', '<\\/');
+  const publicActivities = {
+    ...activities,
+    activities: (activities.activities ?? []).map((activity) => {
+      if (activity.type !== 'puzzle-ilustracao') {
+        return activity;
+      }
+
+      return {
+        ...activity,
+        image: safeAssetUrl(story, activity.image, basePath) ?? ''
+      };
+    })
+  };
+  const embeddedData = JSON.stringify(publicActivities).replaceAll('</', '<\\/');
 
   return `<section id="brincar" class="play-corner" aria-labelledby="brincar-titulo">
       <header class="play-corner-header">
@@ -278,35 +369,37 @@ function playCorner(activities) {
     </section>`;
 }
 
-function renderHome(story) {
+function renderHome(story, basePath) {
   return pageShell({
     title: 'História do Dia',
+    basePath,
     body: `    <section class="today-hero" aria-labelledby="historia-de-hoje">
       <div class="today-copy">
         <p class="eyebrow">${escapeHtml(story.dateLabel)}</p>
         <h1 id="historia-de-hoje">${escapeHtml(story.title)}</h1>
         <p class="context">${escapeHtml(story.dayContext || 'Uma história recuperada do arquivo original.')}</p>
         <div class="actions" aria-label="Ações da história de hoje">
-          <a class="button primary" href="${escapeHtml(storyHref(story))}">Ler</a>
-          <a class="button secondary" href="${escapeHtml(storyHref(story))}#audio">Ouvir</a>
+          <a class="button primary" href="${escapeHtml(storyHref(story, basePath))}">Ler</a>
+          <a class="button secondary" href="${escapeHtml(storyHref(story, basePath))}#audio">Ouvir</a>
         </div>
         ${recoveryBadges(story)}
       </div>
-      ${recoveredImage(story)}
+      ${homepageImage(story, basePath)}
     </section>`
   });
 }
 
-function renderArchive(stories) {
+function renderArchive(stories, basePath) {
   return pageShell({
     title: 'Arquivo das Histórias',
+    basePath,
     body: `    <section class="archive" aria-labelledby="arquivo">
       <p class="eyebrow">Arquivo</p>
       <h1 id="arquivo">Escolhe um dia</h1>
       <div class="archive-grid">
 ${stories
   .map(
-    (story) => `        <a class="archive-day" href="${escapeHtml(storyHref(story))}">
+    (story) => `        <a class="archive-day" href="${escapeHtml(storyHref(story, basePath))}">
           <span>${escapeHtml(story.dateLabel)}</span>
           <strong>${escapeHtml(story.title)}</strong>
           <small>${escapeHtml(story.recovery?.completeness || 'estado por confirmar')}</small>
@@ -318,10 +411,50 @@ ${stories
   });
 }
 
-function renderStory(story, activities) {
+function renderStory(story, activities, basePath) {
+  const illustratedEdition = renderIllustratedEdition(story, {
+    escapeHtml,
+    safeAssetUrl: (currentStory, assetPath) => safeAssetUrl(currentStory, assetPath, basePath)
+  });
+
+  if (illustratedEdition) {
+    return pageShell({
+      title: `${story.title} | História do Dia`,
+      scripts: activities ? ['/brincar.js'] : [],
+      basePath,
+      body: `    <article class="reader reader-illustrated">
+      <nav class="edition-switcher" aria-label="Escolher edição">
+        <a href="#edicao-ilustrada" data-edition-target="edicao-ilustrada" aria-current="true">Edição ilustrada</a>
+        <a href="#edicao-original" data-edition-target="edicao-original" aria-current="false">Original recuperado</a>
+      </nav>
+      <div class="edition-toolbar">
+        ${recoveryBadges(story)}
+        ${activities ? `<div class="actions" aria-label="Ações da história">
+          <a class="button secondary" href="#brincar">Brincar</a>
+        </div>` : ''}
+      </div>
+      ${illustratedEdition}
+      <section id="edicao-original" class="edition-panel original-edition" tabindex="-1">
+        <p class="credits original-credit">${escapeHtml(story.author)} escreveu. ${escapeHtml(story.illustrator)} ilustrou.</p>
+        ${recoveredImage(story, 'reader', basePath)}
+${storyText(story)}
+        ${imageGallery(story, basePath)}
+      </section>
+      <section id="audio" class="audio-panel" aria-labelledby="ouvir">
+        <h2 id="ouvir">Ouvir</h2>
+        ${audioNotice(story, basePath)}
+      </section>
+      ${glossary(story)}
+      ${playCorner(story, activities, basePath)}
+      ${provenance(story, basePath)}
+    </article>`
+    });
+  }
+
   return pageShell({
     title: `${story.title} | História do Dia`,
     scripts: activities ? ['/brincar.js'] : [],
+    basePath,
     body: `    <article class="reader">
       <header class="reader-header">
         <p class="eyebrow">${escapeHtml(story.dateLabel)}</p>
@@ -332,16 +465,16 @@ function renderStory(story, activities) {
           <a class="button secondary" href="#brincar">Brincar</a>
         </div>` : ''}
       </header>
-      ${recoveredImage(story, 'reader')}
+      ${recoveredImage(story, 'reader', basePath)}
       <section id="audio" class="audio-panel" aria-labelledby="ouvir">
         <h2 id="ouvir">Ouvir</h2>
-        ${audioNotice(story)}
+        ${audioNotice(story, basePath)}
       </section>
 ${storyText(story)}
-      ${imageGallery(story)}
+      ${imageGallery(story, basePath)}
       ${glossary(story)}
-      ${playCorner(activities)}
-      ${provenance(story)}
+      ${playCorner(story, activities, basePath)}
+      ${provenance(story, basePath)}
     </article>`
   });
 }
@@ -367,9 +500,10 @@ function selectTodayStory(stories, today, todayTimeZone) {
   return stories.find((story) => story.id === todayId) ?? stories[0];
 }
 
-export async function renderSite({ storiesDir, outDir, recoveredArchiveDir = 'archive/0000', activitiesDir = 'data/activities', today = new Date(), todayTimeZone = 'Europe/Lisbon' }) {
+export async function renderSite({ storiesDir, outDir, recoveredArchiveDir = 'archive/0000', activitiesDir = 'data/activities', today = new Date(), todayTimeZone = 'Europe/Lisbon', basePath = '' }) {
   const stories = await loadStories(storiesDir);
   const todayStory = selectTodayStory(stories, today, todayTimeZone);
+  const normalizedBasePath = normalizeBasePath(basePath);
 
   if (!todayStory) {
     throw new Error(`No story JSON files found in ${storiesDir}`);
@@ -383,14 +517,14 @@ export async function renderSite({ storiesDir, outDir, recoveredArchiveDir = 'ar
   await copyRecoveredArchive(recoveredArchiveDir, path.join(outDir, 'recovered', '0000'));
   await mkdir(path.join(outDir, 'archive'), { recursive: true });
 
-  await writeFile(path.join(outDir, 'index.html'), renderHome(todayStory));
-  await writeFile(path.join(outDir, 'archive', 'index.html'), renderArchive(stories));
+  await writeFile(path.join(outDir, 'index.html'), renderHome(todayStory, normalizedBasePath));
+  await writeFile(path.join(outDir, 'archive', 'index.html'), renderArchive(stories, normalizedBasePath));
 
   for (const story of stories) {
     const activities = await loadActivities(activitiesDir, story.id);
     const storyDir = path.join(outDir, 'stories', story.id);
     await mkdir(storyDir, { recursive: true });
-    await writeFile(path.join(storyDir, 'index.html'), renderStory(story, activities));
+    await writeFile(path.join(storyDir, 'index.html'), renderStory(story, activities, normalizedBasePath));
   }
 }
 
@@ -409,6 +543,10 @@ async function copyRecoveredArchive(sourceDir, targetDir) {
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
-  await renderSite({ storiesDir: 'data/stories', outDir: 'dist' });
+  await renderSite({
+    storiesDir: 'data/stories',
+    outDir: 'dist',
+    basePath: process.env.SITE_BASE_PATH ?? ''
+  });
   console.log('Built dist/');
 }

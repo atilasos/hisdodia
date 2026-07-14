@@ -1,0 +1,117 @@
+{
+  "characters": [],
+  "environment": "Interior doméstico com um saco de guardanapo bordado e uma jarra de porcelana.",
+  "palette": [
+    "brancos suaves",
+    "azuis porcelana",
+    "verdes discretos",
+    "tons florais delicados"
+  ],
+  "recurringObjects": [
+    "saco de guardanapo bordado",
+    "jarra de porcelana",
+    "flores"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Estava uma flor bordada num saco de guardanapo a olhar para uma flor pintada numa jarra de porcelana. E vice-versa. A flor bordada queria meter conversa com a flor pintada. E vice-versa. Entretanto, a flor bordada pensava: \"Sou mais bonita do que ela.\" E vice-versa.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «São Flores».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Estava uma flor bordada num saco de guardanapo a olhar para uma flor pintada numa jarra de porcelana. E vice-versa. A flor bordada queria meter conversa com a flor pintada. E vice-versa. Entretanto, a flor bordada pensava: \"Sou mais bonita do que ela.\" E vice-versa. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p2",
+        "s1p3",
+        "s1p4"
+      ],
+      "evidence": "A flor da jarra retorquiu, no mesmo tom: - Tu, sim, és a mais bonita. Uma perfeita imitação. Neste ponto, a conversa estragou-se.",
+      "after": {
+        "segment": 1,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A flor da jarra retorquiu, no mesmo tom: - Tu, sim, és a mais bonita. Uma perfeita imitação. Neste ponto, a conversa estragou-se. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "Não lhe ficou atrás a outra flor: - Verdadeira obra de arte sou eu. Não há flor pintada mais autêntica, pode crer. Argumentaram, discutiram, zangaram-se. Perderam a elegância do trato. Passaram a dizer mais do que pensavam:",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não lhe ficou atrás a outra flor: - Verdadeira obra de arte sou eu. Não há flor pintada mais autêntica, pode crer. Argumentaram, discutiram, zangaram-se. Perderam a elegância do trato. Passaram a dizer mais do que pensavam: Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p4",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "- E você é uma falsificação barata - dizia a flor bordada. Nisto, mãos femininas vieram colocar uma flor na jarra, até então vazia. - Qual é o tema da discussão? - quis saber a recém-vinda, debruçada da jarra.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - E você é uma falsificação barata - dizia a flor bordada. Nisto, mãos femininas vieram colocar uma flor na jarra, até então vazia. - Qual é o tema da discussão? - quis saber a recém-vinda, debruçada da jarra. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "Puseram-na a par da disputa e logo a nova flor, que era dotada de um caule esguio, folhagem vaporosa e pétalas gentis, rodopiou na jarra de porcelana, para dizer, num risinho de superioridade: - Não sejam ridículas e olhem para mim. Haverá flor mais encantadora e mais verdadeira do que eu? As duas outras calaram-se.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Puseram-na a par da disputa e logo a nova flor, que era dotada de um caule esguio, folhagem vaporosa e pétalas gentis, rodopiou na jarra de porcelana, para dizer, num risinho de superioridade: - Não sejam ridículas e olhem para mim. Haverá flor mais encantadora e mais verdadeira do que eu? As duas outras calaram-se. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s6p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p2",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "As duas outras calaram-se. Afinal, a flor de folhas frágeis, que qualquer corrente de ar agitava, a flor de longa haste, mergulhada na jarra, é que tinha razão. Aqui para nós e em segredo, diremos que também não tinha razão nenhuma. Pois se ela era apenas uma simples flor de papel...",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: As duas outras calaram-se. Afinal, a flor de folhas frágeis, que qualquer corrente de ar agitava, a flor de longa haste, mergulhada na jarra, é que tinha razão. Aqui para nós e em segredo, diremos que também não tinha razão nenhuma. Pois se ela era apenas uma simples flor de papel... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

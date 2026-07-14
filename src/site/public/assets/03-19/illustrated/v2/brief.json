@@ -1,0 +1,138 @@
+{
+  "characters": [
+    {
+      "name": "Inês",
+      "appearance": "A girl who later becomes a woman, then an elderly woman; first presented as a modest daughter in a simple home, later as a frightened captive, then aging into a frail old woman with thinning hair and no teeth."
+    },
+    {
+      "name": "O pai",
+      "appearance": "A simple, good, elderly widower who takes pride in his daughter and later welcomes her home in tears."
+    },
+    {
+      "name": "O rei",
+      "appearance": "A greedy crowned king, increasingly self-satisfied and excessive, eventually turned into a gold statue."
+    },
+    {
+      "name": "O gnomo",
+      "appearance": "A small, sudden woodland-like magical figure who appears from a sunbeam and bargains for a future price."
+    }
+  ],
+  "environment": "A Portuguese fairy-tale world moving from a humble family home to a royal court, then a locked bedroom at dawn, and finally back to the passage of years and old age.",
+  "palette": [
+    "warm parchment",
+    "muted earth tones",
+    "soft gold",
+    "crown red",
+    "dim stone gray",
+    "pale dawn light"
+  ],
+  "recurringObjects": [
+    "gold",
+    "sunlight",
+    "bed",
+    "crown",
+    "hair"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um homem simples e bom que tinha muito orgulho na filha, em todos os seus dons, dotes, prendas, primores ou como queiram chamar às qualidades que enfeitam uma filha aos olhos de um pai embevecido . - A minha Inês tudo em que toca transforma em ouro. Maneira de dizer.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O preço certo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um homem simples e bom que tinha muito orgulho na filha, em todos os seus dons, dotes, prendas, primores ou como queiram chamar às qualidades que enfeitam uma filha aos olhos de um pai embevecido . - A minha Inês tudo em que toca transforma em ouro. Maneira de dizer. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "- Há uma menina que transforma tudo em ouro. - Quero-a aqui - exigiu o rei, um ganancioso . Foram buscá-la. Imagine-se a aflição daquele pai.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Há uma menina que transforma tudo em ouro. - Quero-a aqui - exigiu o rei, um ganancioso . Foram buscá-la. Imagine-se a aflição daquele pai. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "- Ou tu, fechada neste quarto, transformas a cama em que te deitares em ouro ou amanhã mando matar-te. A menina chorou a noite toda. De madrugada, por um primeiro raio de luz, que atravessou o quarto, escorregou um gnomo, vindo não se sabe de onde.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Ou tu, fechada neste quarto, transformas a cama em que te deitares em ouro ou amanhã mando matar-te. A menina chorou a noite toda. De madrugada, por um primeiro raio de luz, que atravessou o quarto, escorregou um gnomo, vindo não se sabe de onde. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s6p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p3",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "Se não era para já, que havia de fazer? Inês consentiu. Então o gnomo cortou o raio de sol por onde tinha vindo e, como se o raio fosse uma varinha de condão, com ele tocou a cama, que ficou feita de ouro. Depois, desapareceu. O rei, quando entrou no quarto, deu pulos de contente. Claro que quis mais. Por vontade dele transformaria o reino todo, casas, montanhas, rios, pontes e até pessoas em ouro puro.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Se não era para já, que havia de fazer? Inês consentiu. Então o gnomo cortou o raio de sol por onde tinha vindo e, como se o raio fosse uma varinha de condão, com ele tocou a cama, que ficou feita de ouro. Depois, desapareceu. O rei, quando entrou no quarto, deu pulos de contente. Claro que quis mais. Por vontade dele transformaria o reino todo, casas, montanhas, rios, pontes e até pessoas em ouro puro. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s6p0",
+        "s6p1",
+        "s7p0"
+      ],
+      "evidence": "Então o gnomo cortou o raio de sol por onde tinha vindo e, como se o raio fosse uma varinha de condão, com ele tocou a cama, que ficou feita de ouro. Depois, desapareceu. O rei, quando entrou no quarto, deu pulos de contente. Claro que quis mais. Por vontade dele transformaria o reino todo, casas, montanhas, rios, pontes e até pessoas em ouro puro. Ele nesta loucura, aos gritos, e um raio de sol a fazer-lhe a vontade. Se queria tudo em ouro, nada melhor do que começar o serviço por ele próprio. O raio de sol transformou o rei numa estátua de ouro, talvez não muito puro. Para aquele sôfrego a ambição chegara ao fim.",
+      "after": {
+        "segment": 7,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Então o gnomo cortou o raio de sol por onde tinha vindo e, como se o raio fosse uma varinha de condão, com ele tocou a cama, que ficou feita de ouro. Depois, desapareceu. O rei, quando entrou no quarto, deu pulos de contente. Claro que quis mais. Por vontade dele transformaria o reino todo, casas, montanhas, rios, pontes e até pessoas em ouro puro. Ele nesta loucura, aos gritos, e um raio de sol a fazer-lhe a vontade. Se queria tudo em ouro, nada melhor do que começar o serviço por ele próprio. O raio de sol transformou o rei numa estátua de ouro, talvez não muito puro. Para aquele sôfrego a ambição chegara ao fim. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s10p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s10p0",
+        "s10p1",
+        "s10p2"
+      ],
+      "evidence": "Envelheceu, sempre acompanhada por este sobressalto. A pele esmoreceu-lhe. Muito rugosa, empergaminhada . Caíram-lhe os dentes. Rareavam os cabelos. Via cada vez pior. Já não podia dar nada que prestasse, quando o gnomo viesse. Tão velhinha que estava. Até que, um dia, percebeu.",
+      "after": {
+        "segment": 10,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Envelheceu, sempre acompanhada por este sobressalto. A pele esmoreceu-lhe. Muito rugosa, empergaminhada . Caíram-lhe os dentes. Rareavam os cabelos. Via cada vez pior. Já não podia dar nada que prestasse, quando o gnomo viesse. Tão velhinha que estava. Até que, um dia, percebeu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

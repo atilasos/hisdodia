@@ -6,11 +6,11 @@
 
 **Architecture:** A small `src/illustration/` subsystem owns scene-plan validation, Luna orchestration, job state, image compression, and auditing. The static renderer consumes only completed scene metadata and delegates illustrated markup to a focused module; the existing original-material rendering remains intact. Codex generates source images agentically, while Node scripts persist state and convert each source to a bounded WebP asset.
 
-**Tech Stack:** Node.js ES modules, Node test runner, `codex exec`, `gpt-5.6-luna`, Codex image-generation tool, macOS `sips`, `cwebp`, static HTML/CSS/JavaScript.
+**Tech Stack:** Node.js ES modules, Node test runner, `codex exec`, `gpt-5.4-mini`, Codex image-generation tool, macOS `sips`, `cwebp`, static HTML/CSS/JavaScript.
 
 ## Global Constraints
 
-- Use `gpt-5.6-luna` with `model_reasoning_effort="low"` for planning, prompts, alternative text, metadata, and orchestration.
+- Use `gpt-5.4-mini` with `model_reasoning_effort="low"` for planning, prompts, alternative text, metadata, and orchestration.
 - Use the image-generation tool available through the authenticated Codex account; do not require a separate API key.
 - Generate three to six scenes per story, including exactly one opening scene.
 - Request the smallest supported generation size and quality.
@@ -131,7 +131,7 @@ describe('illustrated edition contract', () => {
   it('maps a valid plan to resumable public metadata', () => {
     const result = applyScenePlan(story(), plan());
     assert.equal(result.illustratedEdition.status, 'generating');
-    assert.equal(result.illustratedEdition.planningModel, 'gpt-5.6-luna');
+    assert.equal(result.illustratedEdition.planningModel, 'gpt-5.4-mini');
     assert.equal(result.illustratedEdition.visualBrief, '/assets/01-01/illustrated/brief.json');
     assert.deepEqual(result.illustratedEdition.scenes[1], {
       id: 'encontro',
@@ -160,7 +160,7 @@ Expected: FAIL with `ERR_MODULE_NOT_FOUND` for `src/illustration/edition.mjs`.
 ```js
 export const ART_DIRECTION_VERSION = '1';
 export const ILLUSTRATION_CREDIT = 'Edição ilustrada contemporânea gerada com IA';
-export const PLANNING_MODEL = 'gpt-5.6-luna';
+export const PLANNING_MODEL = 'gpt-5.4-mini';
 
 const LAYOUTS = new Set(['opening', 'double-page', 'marginal', 'vignette']);
 const ARTIST_PATTERN = /(?:in the style of|no estilo de|à maneira de|cristina malaquias)/iu;
@@ -376,7 +376,7 @@ describe('Luna planner', () => {
     };
     const result = await runLunaPlanner('prompt', { cwd: process.cwd(), execFileImpl });
     assert.equal(call.command, 'codex');
-    assert.ok(call.args.includes('gpt-5.6-luna'));
+    assert.ok(call.args.includes('gpt-5.4-mini'));
     assert.ok(call.args.includes('model_reasoning_effort="low"'));
     assert.ok(call.args.includes('--ephemeral'));
     assert.ok(call.args.includes('--output-schema'));
@@ -420,7 +420,7 @@ const args = [
   'exec',
   '--ephemeral',
   '--sandbox', 'read-only',
-  '--model', 'gpt-5.6-luna',
+  '--model', 'gpt-5.4-mini',
   '--config', 'model_reasoning_effort="low"',
   '--output-schema', schemaPath,
   '--output-last-message', outputPath,

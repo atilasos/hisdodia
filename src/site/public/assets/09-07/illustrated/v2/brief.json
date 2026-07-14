@@ -1,0 +1,98 @@
+{
+  "characters": [
+    {
+      "name": "senhor Estrelinhas",
+      "appearance": "director artístico do Circo Maravilhas, recém-acordado, elegante, com relógio de bolso de ouro e ar autoritário"
+    },
+    {
+      "name": "artistas do circo",
+      "appearance": "grupo variado de acrobatas, malabaristas, trapezistas, palhaços, domadora, dançarina e lutador, saindo das roulottes ainda ensonados"
+    },
+    {
+      "name": "urso Osvaldo",
+      "appearance": "urso de circo vaidoso, surgindo num número de ilusionismo com um relógio de bolso entalado num olho"
+    }
+  ],
+  "environment": "o terreiro e a zona das roulottes do Circo Maravilhas ao início da noite, com ambiente de bastidores de circo itinerante",
+  "palette": [
+    "dourado envelhecido",
+    "vermelho circo",
+    "creme",
+    "azul-escuro",
+    "castanho quente"
+  ],
+  "recurringObjects": [
+    "relógio de bolso de ouro",
+    "corrente de ouro",
+    "roulottes",
+    "baú de ilusionismo"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s2p0"
+      ],
+      "evidence": "No circo maravilhas, uma maravilha de circo, \"a maravilha das maravilhas\", como anunciava, no início de cada novo espectáculo, o seu director artístico, no Circo Maravilhas, dizíamos, são, no momento em que esta história começa, sete horas da tarde. Sabemos que são sete horas da tarde porque o director do Circo Maravilhas acordou agora mesmo da sua prolongada sesta. O senhor Estrelinhas é sempre pontual no acordar. Ele bem sabe que são sete horas, mais segundo, menos segundo. Precisamente para saber os segundos, o senhor Estrelinha puxa, com todo o vagar, do relógio de bolso, um formosíssimo relógio de ouro, orgulho e ornato, há mais de cem anos, da família Estrelinhas.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O circo acabou mais cedo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No circo maravilhas, uma maravilha de circo, \"a maravilha das maravilhas\", como anunciava, no início de cada novo espectáculo, o seu director artístico, no Circo Maravilhas, dizíamos, são, no momento em que esta história começa, sete horas da tarde. Sabemos que são sete horas da tarde porque o director do Circo Maravilhas acordou agora mesmo da sua prolongada sesta. O senhor Estrelinhas é sempre pontual no acordar. Ele bem sabe que são sete horas, mais segundo, menos segundo. Precisamente para saber os segundos, o senhor Estrelinha puxa, com todo o vagar, do relógio de bolso, um formosíssimo relógio de ouro, orgulho e ornato, há mais de cem anos, da família Estrelinhas. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "Vai puxando a corrente, que também é de ouro, vai puxando devagarinho, e, de súbito, a corrente acaba, sem trazer nenhum relógio atrás. - Desapareceu o meu relógio! O meu relógio sumiu-se! Desapareceu... - grita o senhor Estrelinhas, saindo para o terreiro defronte do Circo Maravilhas. Aos gritos do director acorda o circo e anima-se a história.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Vai puxando a corrente, que também é de ouro, vai puxando devagarinho, e, de súbito, a corrente acaba, sem trazer nenhum relógio atrás. - Desapareceu o meu relógio! O meu relógio sumiu-se! Desapareceu... - grita o senhor Estrelinhas, saindo para o terreiro defronte do Circo Maravilhas. Aos gritos do director acorda o circo e anima-se a história. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s5p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s5p1",
+        "s5p2",
+        "s5p3"
+      ],
+      "evidence": "Juntaram-se à roda do director e perguntaram em coro, ainda ensonados: - O que é que foi? - Perdi o relógio de ouro - gritava-lhes o senhor Estrelinhas, de braços abertos e olhos fechados.",
+      "after": {
+        "segment": 5,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Juntaram-se à roda do director e perguntaram em coro, ainda ensonados: - O que é que foi? - Perdi o relógio de ouro - gritava-lhes o senhor Estrelinhas, de braços abertos e olhos fechados. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s12p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s12p0",
+        "s12p1",
+        "s12p2"
+      ],
+      "evidence": "É que, desta vez, o urso Osvaldo trazia um formoso relógio de bolso, entalado num olho. Caiu, da surpresa, o monóculo ao Dom Fuas e o urso Osvaldo, vaidoso, continuou a pedir palmas. - É o relógio do director! - gritaram vários artistas. Nessa noite, o espectáculo acabou mais cedo.",
+      "after": {
+        "segment": 12,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: É que, desta vez, o urso Osvaldo trazia um formoso relógio de bolso, entalado num olho. Caiu, da surpresa, o monóculo ao Dom Fuas e o urso Osvaldo, vaidoso, continuou a pedir palmas. - É o relógio do director! - gritaram vários artistas. Nessa noite, o espectáculo acabou mais cedo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

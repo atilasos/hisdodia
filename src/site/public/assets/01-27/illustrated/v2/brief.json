@@ -1,0 +1,124 @@
+{
+  "characters": [
+    {
+      "name": "galinha ruiva",
+      "appearance": "galinha ruiva"
+    },
+    {
+      "name": "gato",
+      "appearance": "gato"
+    },
+    {
+      "name": "ganso",
+      "appearance": "ganso"
+    },
+    {
+      "name": "porco",
+      "appearance": "porco"
+    },
+    {
+      "name": "pintainhos",
+      "appearance": "pintainhos"
+    }
+  ],
+  "environment": "campo e quintal rural com trigo, moinho, forno e mesa de pão",
+  "palette": [
+    "vermelho ruivo",
+    "dourado do trigo",
+    "creme",
+    "castanho",
+    "verde campestre"
+  ],
+  "recurringObjects": [
+    "espigas de trigo",
+    "farinha",
+    "pão",
+    "forno",
+    "moinho"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "A galinha ruiva achou umas espigas de trigo. Ela chamou o gato. Ela chamou o ganso. Ela chamou o porco. A galinha ruiva disse:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Galinha Ruiva».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A galinha ruiva achou umas espigas de trigo. Ela chamou o gato. Ela chamou o ganso. Ela chamou o porco. A galinha ruiva disse: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p7",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p5",
+        "s0p6",
+        "s0p7"
+      ],
+      "evidence": "- Eu não - disse o ganso. - Eu não - disse o porco. - Então semeio eu o trigo - disse a galinha ruiva.",
+      "after": {
+        "segment": 0,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Eu não - disse o ganso. - Eu não - disse o porco. - Então semeio eu o trigo - disse a galinha ruiva. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p7",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p5",
+        "s1p6",
+        "s1p7"
+      ],
+      "evidence": "- Eu não - disse o ganso. - Eu não - disse o porco. - Então ceifo eu o trigo - disse a galinha ruiva.",
+      "after": {
+        "segment": 1,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Eu não - disse o ganso. - Eu não - disse o porco. - Então ceifo eu o trigo - disse a galinha ruiva. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s4p3"
+      ],
+      "evidence": "- Gurnin! Gurnin! Gurnin! Quero eu, quero eu, quero eu! A galinha ruiva disse: - Vocês não me ajudaram a semear o trigo. Vocês não me ajudaram a ceifar o trigo. Vocês não me ajudaram a fazer o pão. Pois então vocês não me ajudarão a comer o pão. Os meus pintainhos comerão o pão.",
+      "after": {
+        "segment": 4,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Gurnin! Gurnin! Gurnin! Quero eu, quero eu, quero eu! A galinha ruiva disse: - Vocês não me ajudaram a semear o trigo. Vocês não me ajudaram a ceifar o trigo. Vocês não me ajudaram a fazer o pão. Pois então vocês não me ajudarão a comer o pão. Os meus pintainhos comerão o pão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "E a galinha ruiva e os pintainhos comeram o pão. Quem não trabuca não manduca . Está contada a história. Está dada a lição.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E a galinha ruiva e os pintainhos comeram o pão. Quem não trabuca não manduca . Está contada a história. Está dada a lição. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,116 @@
+{
+  "characters": [],
+  "environment": "Portuguese children's story, from football pitch to bank entrance, tram route, forest, and fire station courtyard",
+  "palette": [
+    "unknown"
+  ],
+  "recurringObjects": [
+    "football goal",
+    "bank door",
+    "tram",
+    "forest trees",
+    "firefighters"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era um guarda-redes muito medroso. Quanto mais medo tinha, à frente da baliza, mais bolas deixava entrar. - Este guarda-redes não presta para nada. É um frangueiro e a baliza, que ele devia guardar, uma capoeira - disse o treinador. - Não o quero na equipa, nem para suplente do suplente do suplente. Fora com ele. E o guarda-redes medroso foi despedido. Que havia ele de fazer? Como já estava habituado a guardar, embora mal, foi para guarda-portão ou porteiro de um grande banco. Podia ser pior, sei lá: guarda-loiça, guarda-vestidos, guarda-vento...",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O guarda-redes medroso».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era um guarda-redes muito medroso. Quanto mais medo tinha, à frente da baliza, mais bolas deixava entrar. - Este guarda-redes não presta para nada. É um frangueiro e a baliza, que ele devia guardar, uma capoeira - disse o treinador. - Não o quero na equipa, nem para suplente do suplente do suplente. Fora com ele. E o guarda-redes medroso foi despedido. Que havia ele de fazer? Como já estava habituado a guardar, embora mal, foi para guarda-portão ou porteiro de um grande banco. Podia ser pior, sei lá: guarda-loiça, guarda-vestidos, guarda-vento... Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "- Este guarda-redes não presta para nada. É um frangueiro e a baliza, que ele devia guardar, uma capoeira - disse o treinador. - Não o quero na equipa, nem para suplente do suplente do suplente. Fora com ele. E o guarda-redes medroso foi despedido. Que havia ele de fazer? Como já estava habituado a guardar, embora mal, foi para guarda-portão ou porteiro de um grande banco. Podia ser pior, sei lá: guarda-loiça, guarda-vestidos, guarda-vento... Mas não teve êxito, no novo emprego.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Este guarda-redes não presta para nada. É um frangueiro e a baliza, que ele devia guardar, uma capoeira - disse o treinador. - Não o quero na equipa, nem para suplente do suplente do suplente. Fora com ele. E o guarda-redes medroso foi despedido. Que havia ele de fazer? Como já estava habituado a guardar, embora mal, foi para guarda-portão ou porteiro de um grande banco. Podia ser pior, sei lá: guarda-loiça, guarda-vestidos, guarda-vento... Mas não teve êxito, no novo emprego. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p1",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Mas não teve êxito, no novo emprego. Ganhou tanto medo que o banco, um dia, pudesse ser assaltado e ele responsabilizado por não ter feito frente aos assaltantes, que passava o tempo a tremer. - Está com febre ou está com medo? - perguntou-lhe o director do banco. - Em qualquer dos casos, a sua fraca presença à porta não dá segurança aos depositantes. Vá para casa.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas não teve êxito, no novo emprego. Ganhou tanto medo que o banco, um dia, pudesse ser assaltado e ele responsabilizado por não ter feito frente aos assaltantes, que passava o tempo a tremer. - Está com febre ou está com medo? - perguntou-lhe o director do banco. - Em qualquer dos casos, a sua fraca presença à porta não dá segurança aos depositantes. Vá para casa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s4p0"
+      ],
+      "evidence": "E o guarda-portão, que tinha sido guarda-redes, foi despedido. Que havia ele de fazer? Como já estava habituado a guardar, embora mal, foi para guarda-freio, que é nome que dão aos condutores dos carros-eléctricos. Podia ser pior, sei lá: guarda-comidas, guarda-jóias, guarda-chuva... Mas foi um fiasco . Tinha tanto medo que o carro-eléctrico, nas curvas, derrapasse e descarrilasse, que nunca conseguia sair do mesmo sítio. Os passageiros protestavam, os outros carros-eléctricos, que vinham atrás, tilintavam e todo o trânsito interrompido, empanturrado de automóveis e de autocarros, apitava, buzinava, trombeteava, num desespero.",
+      "after": {
+        "segment": 4,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E o guarda-portão, que tinha sido guarda-redes, foi despedido. Que havia ele de fazer? Como já estava habituado a guardar, embora mal, foi para guarda-freio, que é nome que dão aos condutores dos carros-eléctricos. Podia ser pior, sei lá: guarda-comidas, guarda-jóias, guarda-chuva... Mas foi um fiasco . Tinha tanto medo que o carro-eléctrico, nas curvas, derrapasse e descarrilasse, que nunca conseguia sair do mesmo sítio. Os passageiros protestavam, os outros carros-eléctricos, que vinham atrás, tilintavam e todo o trânsito interrompido, empanturrado de automóveis e de autocarros, apitava, buzinava, trombeteava, num desespero. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p0",
+        "s6p0",
+        "s7p0"
+      ],
+      "evidence": "- Saia do seu lugar, sua azémola , que é para não dizer cavalgadura - berrou-lhe aos ouvidos um polícia, tomando conta da ocorrência e dos freios do carro-eléctrico. - Saia e nunca mais volte a pôr os pés num transporte público. Só não lhe digo ponha-se na rua, porque você nunca devia ter saído de casa. E o guarda-freio, que tinha sido guarda-portão e guarda-redes, foi despedido. Que havia ele de fazer? Como já estava habituado a guardar, com os resultados que se sabe, foi para guarda florestal. Podia ser pior, sei lá: guarda-roupa, guarda-sol, guarda-lamas... A princípio, todo aquele isolamento, no meio da floresta, o aterrorizava. Qualquer bicada de pica-pau num tronco, qualquer esvoaçar de melro, ao cimo das árvores, e o guarda florestal ficava com os cabelos tão em pé que até o boné lhe subia uns centímetros acima da testa. Sem exagero.",
+      "after": {
+        "segment": 7,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Saia do seu lugar, sua azémola , que é para não dizer cavalgadura - berrou-lhe aos ouvidos um polícia, tomando conta da ocorrência e dos freios do carro-eléctrico. - Saia e nunca mais volte a pôr os pés num transporte público. Só não lhe digo ponha-se na rua, porque você nunca devia ter saído de casa. E o guarda-freio, que tinha sido guarda-portão e guarda-redes, foi despedido. Que havia ele de fazer? Como já estava habituado a guardar, com os resultados que se sabe, foi para guarda florestal. Podia ser pior, sei lá: guarda-roupa, guarda-sol, guarda-lamas... A princípio, todo aquele isolamento, no meio da floresta, o aterrorizava. Qualquer bicada de pica-pau num tronco, qualquer esvoaçar de melro, ao cimo das árvores, e o guarda florestal ficava com os cabelos tão em pé que até o boné lhe subia uns centímetros acima da testa. Sem exagero. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s9p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s9p0",
+        "s9p1",
+        "s9p2"
+      ],
+      "evidence": "- Fogo! Fogo! - tentava ele gritar, sem fôlego. Os bombeiros acudiram e o fogo foi apagado a tempo. - Se o guarda florestal não tivesse vindo avisar com urgência, se ele não tivesse sido tão rápido, se não fosse a sua energia e o seu destemor, tinha acontecido uma grande desgraça - comentou o chefe dos bombeiros.",
+      "after": {
+        "segment": 9,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Fogo! Fogo! - tentava ele gritar, sem fôlego. Os bombeiros acudiram e o fogo foi apagado a tempo. - Se o guarda florestal não tivesse vindo avisar com urgência, se ele não tivesse sido tão rápido, se não fosse a sua energia e o seu destemor, tinha acontecido uma grande desgraça - comentou o chefe dos bombeiros. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

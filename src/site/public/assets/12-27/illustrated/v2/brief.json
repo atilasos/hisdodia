@@ -1,0 +1,104 @@
+{
+  "characters": [
+    {
+      "name": "avô",
+      "appearance": "idoso à mesa de Natal, postura cansada, expressão gulosa e hesitante"
+    },
+    {
+      "name": "avó",
+      "appearance": "idosa à mesa de Natal, expressão recatada, a recusar a última filhó"
+    },
+    {
+      "name": "tia Luísa",
+      "appearance": "mulher adulta da família, ativa na conversa, gestos animados"
+    },
+    {
+      "name": "crianças da família",
+      "appearance": "vários meninos à volta da mesa, curiosos e contidos, em pijama ou roupa de festa"
+    }
+  ],
+  "environment": "ceia de Natal numa sala de jantar familiar, mesa posta com travessa de filhós e luz que passa de quente e social para lusco-fusco misterioso",
+  "palette": [
+    "dourado",
+    "açúcar branco",
+    "castanho quente",
+    "vermelho natalício",
+    "luz âmbar",
+    "sombra suave"
+  ],
+  "recurringObjects": [
+    "travessa com a última filhó",
+    "mesa de jantar",
+    "cadeiras",
+    "calda de açúcar",
+    "pratos de ceia"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "A história que vou contar chama-se \"A Filhó Dourada\". Douradas, muito douradinhas são elas todas, empilhadas na travessa, como um castelo por conquistar. As últimas são as melhores. Têm mais açúcar, desfazem-se mal lhes tocamos… A gente pega delicadamente numa das que sobraram, dá-lhe um impulso que a ponha a deslizar na travessa, para ensopar bem, e num gesto rápido, sem pingar a toalha, mete-a na boca. O estalar dela, de encontro aos nossos dentes, é música com açúcar. Naquela ceia de Natal, todos tinham comido filhós.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Filhó Dourada».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A história que vou contar chama-se \"A Filhó Dourada\". Douradas, muito douradinhas são elas todas, empilhadas na travessa, como um castelo por conquistar. As últimas são as melhores. Têm mais açúcar, desfazem-se mal lhes tocamos… A gente pega delicadamente numa das que sobraram, dá-lhe um impulso que a ponha a deslizar na travessa, para ensopar bem, e num gesto rápido, sem pingar a toalha, mete-a na boca. O estalar dela, de encontro aos nossos dentes, é música com açúcar. Naquela ceia de Natal, todos tinham comido filhós. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p15",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p13",
+        "s0p14",
+        "s0p15"
+      ],
+      "evidence": "– Nem mais um bocadinho – declarava um terceiro. Parecia que nenhum queria tomar a responsabilidade de comer a filhó. No entanto, ela lá estava muito dourada, a recortar-se no meio da calda de açúcar. Apetecia mesmo ver e… comer. Mas, à volta da mesa, não se decidiam. E a filhó, a última filhó, andava de boca em boca, sem se fixar na boca de ninguém. De oferta em oferta, chegou a vez da tia Luísa propor:",
+      "after": {
+        "segment": 0,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Nem mais um bocadinho – declarava um terceiro. Parecia que nenhum queria tomar a responsabilidade de comer a filhó. No entanto, ela lá estava muito dourada, a recortar-se no meio da calda de açúcar. Apetecia mesmo ver e… comer. Mas, à volta da mesa, não se decidiam. E a filhó, a última filhó, andava de boca em boca, sem se fixar na boca de ninguém. De oferta em oferta, chegou a vez da tia Luísa propor: Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p19",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p17",
+        "s0p18",
+        "s0p19"
+      ],
+      "evidence": "Os meninos não se precipitaram sobre a filhó apetitosa, como seria de esperar. Cada um ficou à espera do primo ao lado, e o primo ao lado do outro primo ao lado… Fosse por acanhamento ou fosse por que fosse… – Afinal ninguém a come – observaram do outro extremo da mesa. – Esta filhó deve ser mágica. Olharam uns para os outros e sorriram.",
+      "after": {
+        "segment": 0,
+        "paragraph": 19
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os meninos não se precipitaram sobre a filhó apetitosa, como seria de esperar. Cada um ficou à espera do primo ao lado, e o primo ao lado do outro primo ao lado… Fosse por acanhamento ou fosse por que fosse… – Afinal ninguém a come – observaram do outro extremo da mesa. – Esta filhó deve ser mágica. Olharam uns para os outros e sorriram. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p22",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p20",
+        "s0p21",
+        "s0p22"
+      ],
+      "evidence": "A ceia estava no fim. Os meninos tinham sono. O avô cabeceava. Começou a ouvir-se o arrastar das cadeiras. Era a debandada. – Amanhã se arruma a casa – disse a tia Luísa, e apagou a luz da sala de jantar. Quando todos já se tinham ido embora, a filhó, no lusco-fusco, ao meio da mesa, começou a brilhar. Intensamente. Acreditem ou não, como se tivesse luz dentro. Como um pequeno sol ou um bocadinho de oiro, a desfazer-se em açúcar.",
+      "after": {
+        "segment": 0,
+        "paragraph": 22
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A ceia estava no fim. Os meninos tinham sono. O avô cabeceava. Começou a ouvir-se o arrastar das cadeiras. Era a debandada. – Amanhã se arruma a casa – disse a tia Luísa, e apagou a luz da sala de jantar. Quando todos já se tinham ido embora, a filhó, no lusco-fusco, ao meio da mesa, começou a brilhar. Intensamente. Acreditem ou não, como se tivesse luz dentro. Como um pequeno sol ou um bocadinho de oiro, a desfazer-se em açúcar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

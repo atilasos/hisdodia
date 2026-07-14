@@ -1,0 +1,74 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O senhor Frutuoso é um grande inventor. Entre máquinas e maquinetas da sua particular invenção tem em casa para cima de uma centena. Juntem-lhe as máquinas e maquinetas que outros inventores, de diversos pontos do mundo, lhe enviam e imaginem como será a casa do senhor Frutuoso, com tantos maquinismos a trabalhar. Uma barulheira que só ouvindo. Tlim, tcham, pung… Poc, poc, poc… Bié, bié, bié… Bong! Tuque, taque, tique, tuque… Tuque, taque, tique, tuque… A história podia ser toda assim, embora talvez fosse um pouco cansativa.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Senhor Frutuoso Inventor».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O senhor Frutuoso é um grande inventor. Entre máquinas e maquinetas da sua particular invenção tem em casa para cima de uma centena. Juntem-lhe as máquinas e maquinetas que outros inventores, de diversos pontos do mundo, lhe enviam e imaginem como será a casa do senhor Frutuoso, com tantos maquinismos a trabalhar. Uma barulheira que só ouvindo. Tlim, tcham, pung… Poc, poc, poc… Bié, bié, bié… Bong! Tuque, taque, tique, tuque… Tuque, taque, tique, tuque… A história podia ser toda assim, embora talvez fosse um pouco cansativa. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p17",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p15",
+        "s0p16",
+        "s0p17"
+      ],
+      "evidence": "– Refiro-me ao tempo atmosférico, o tempo meteorológico, entendeu? Este relógio, além de dar horas, informa-nos, com vinte e quatro horas de antecedência, sobre o tempo que vamos ter, no dia seguinte. Finalmente, o senhor Frutuoso conseguia fazer-me entender. De facto, o relógio, tal como os barómetros, tinha à roda do mostrador várias indicações: chuva, aguaceiros, tempo variável, bom tempo, etc. Não tinha \"etc.\", já se vê, mas percebe-se… O senhor Frutuoso deu-lhe corda e o relógio começou a trabalhar num tic-tac certinho e cumpridor. Reparei que o terceiro ponteiro apontou para as palavras \"Tempo quente\". Ainda bem.",
+      "after": {
+        "segment": 0,
+        "paragraph": 17
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Refiro-me ao tempo atmosférico, o tempo meteorológico, entendeu? Este relógio, além de dar horas, informa-nos, com vinte e quatro horas de antecedência, sobre o tempo que vamos ter, no dia seguinte. Finalmente, o senhor Frutuoso conseguia fazer-me entender. De facto, o relógio, tal como os barómetros, tinha à roda do mostrador várias indicações: chuva, aguaceiros, tempo variável, bom tempo, etc. Não tinha \"etc.\", já se vê, mas percebe-se… O senhor Frutuoso deu-lhe corda e o relógio começou a trabalhar num tic-tac certinho e cumpridor. Reparei que o terceiro ponteiro apontou para as palavras \"Tempo quente\". Ainda bem. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p18",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p16",
+        "s0p17",
+        "s0p18"
+      ],
+      "evidence": "Finalmente, o senhor Frutuoso conseguia fazer-me entender. De facto, o relógio, tal como os barómetros, tinha à roda do mostrador várias indicações: chuva, aguaceiros, tempo variável, bom tempo, etc. Não tinha \"etc.\", já se vê, mas percebe-se… O senhor Frutuoso deu-lhe corda e o relógio começou a trabalhar num tic-tac certinho e cumpridor. Reparei que o terceiro ponteiro apontou para as palavras \"Tempo quente\". Ainda bem. No dia seguinte, fiado no invento do Doutor Jasmínio Bisnaga Filho, saí de casa à fresca. Pois apanhei uma chuvada e uma friagem que não queiram saber. \"Afinal o relógio também se engana\", pensei e nunca mais quis saber do caso.",
+      "after": {
+        "segment": 0,
+        "paragraph": 18
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Finalmente, o senhor Frutuoso conseguia fazer-me entender. De facto, o relógio, tal como os barómetros, tinha à roda do mostrador várias indicações: chuva, aguaceiros, tempo variável, bom tempo, etc. Não tinha \"etc.\", já se vê, mas percebe-se… O senhor Frutuoso deu-lhe corda e o relógio começou a trabalhar num tic-tac certinho e cumpridor. Reparei que o terceiro ponteiro apontou para as palavras \"Tempo quente\". Ainda bem. No dia seguinte, fiado no invento do Doutor Jasmínio Bisnaga Filho, saí de casa à fresca. Pois apanhei uma chuvada e uma friagem que não queiram saber. \"Afinal o relógio também se engana\", pensei e nunca mais quis saber do caso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p25",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p23",
+        "s0p24",
+        "s0p25"
+      ],
+      "evidence": "Fez-se silêncio do outro lado do fio. Depois, o senhor Frutuoso voltou à fala: – Tem razão, tem toda a razão. O relógio diz que está bom tempo e tempo quente, mas é no Brasil, onde foi montado. Seja como for é um grande invento. Atchim! E o senhor Frutuoso desligou apressadamente o telefone, para poder assoar-se mais à vontade.",
+      "after": {
+        "segment": 0,
+        "paragraph": 25
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Fez-se silêncio do outro lado do fio. Depois, o senhor Frutuoso voltou à fala: – Tem razão, tem toda a razão. O relógio diz que está bom tempo e tempo quente, mas é no Brasil, onde foi montado. Seja como for é um grande invento. Atchim! E o senhor Frutuoso desligou apressadamente o telefone, para poder assoar-se mais à vontade. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

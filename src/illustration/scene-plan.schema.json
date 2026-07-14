@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["characters", "environment", "palette", "recurringObjects", "scenes"],
+  "properties": {
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "appearance"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "appearance": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "environment": { "type": "string", "minLength": 1 },
+    "palette": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "recurringObjects": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "scenes": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "evidenceRef", "layout"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "evidenceRef": {
+            "type": "string",
+            "pattern": "^s(?:0|[1-9]\\d*)p(?:0|[1-9]\\d*)$"
+          },
+          "layout": { "enum": ["opening", "double-page", "marginal", "vignette"] }
+        }
+      }
+    }
+  }
+}

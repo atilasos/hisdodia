@@ -1,0 +1,116 @@
+{
+  "characters": [
+    {
+      "name": "galinha",
+      "appearance": "galinha doméstica pequena, penas simples e expressão alerta"
+    },
+    {
+      "name": "raposa",
+      "appearance": "raposa astuta, corpo esguio e olhar atento"
+    },
+    {
+      "name": "Fiel",
+      "appearance": "cão da quinta, presença implícita e protetora"
+    }
+  ],
+  "environment": "Quintal rural ao anoitecer, com árvore alta junto à base do tronco, capoeira ao longe e atmosfera de noite húmida sob a lua.",
+  "palette": [
+    "tons de noite azulados",
+    "castanhos terrosos",
+    "amarelo suave da lua",
+    "laranjas quentes da raposa",
+    "brancos e cinzas discretos da galinha"
+  ],
+  "recurringObjects": [
+    "árvore alta",
+    "ramo de poleiro",
+    "lua",
+    "capoeira",
+    "tronco da árvore"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Esta galinha tinha-se distraído e avançara para longe do pátio do quintal. Bica aqui, bica acolá, à cata do escaravelho cascudo ou da minhoca tenra, perdera-se das companheiras e ai que desceu a noite. Por prudência, não se aventurou por descaminhos, ao calhar, apesar de a Lua prometer boa companhia. - Mais depressa chegarei amanhã, à primeira luz do alvorecer - disse de si para si a galinha. - Ainda se tivesse pintos à minha espera, arriscava, mas como os últimos que tive já cantam de galo, não me ralo.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Galinha Perdida».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Esta galinha tinha-se distraído e avançara para longe do pátio do quintal. Bica aqui, bica acolá, à cata do escaravelho cascudo ou da minhoca tenra, perdera-se das companheiras e ai que desceu a noite. Por prudência, não se aventurou por descaminhos, ao calhar, apesar de a Lua prometer boa companhia. - Mais depressa chegarei amanhã, à primeira luz do alvorecer - disse de si para si a galinha. - Ainda se tivesse pintos à minha espera, arriscava, mas como os últimos que tive já cantam de galo, não me ralo. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s0p3"
+      ],
+      "evidence": "Por prudência, não se aventurou por descaminhos, ao calhar, apesar de a Lua prometer boa companhia. - Mais depressa chegarei amanhã, à primeira luz do alvorecer - disse de si para si a galinha. - Ainda se tivesse pintos à minha espera, arriscava, mas como os últimos que tive já cantam de galo, não me ralo. Procurou poleiro num ramo alto de uma árvore e, lá chegada, aninhou-se, nem que estivesse em casa.",
+      "after": {
+        "segment": 0,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Por prudência, não se aventurou por descaminhos, ao calhar, apesar de a Lua prometer boa companhia. - Mais depressa chegarei amanhã, à primeira luz do alvorecer - disse de si para si a galinha. - Ainda se tivesse pintos à minha espera, arriscava, mas como os últimos que tive já cantam de galo, não me ralo. Procurou poleiro num ramo alto de uma árvore e, lá chegada, aninhou-se, nem que estivesse em casa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p16",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p14",
+        "s0p15",
+        "s0p16"
+      ],
+      "evidence": "- Além do mais há o perigo das cobras... Se fosse a si descia donde está. A galinha nem tugiu. - O que mais me aflige é a sua saúde. Aí em cima, parada ao frio, constipa-se, engripa-se, ganha febre... Não terá já?",
+      "after": {
+        "segment": 0,
+        "paragraph": 16
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Além do mais há o perigo das cobras... Se fosse a si descia donde está. A galinha nem tugiu. - O que mais me aflige é a sua saúde. Aí em cima, parada ao frio, constipa-se, engripa-se, ganha febre... Não terá já? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p26",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p24",
+        "s0p25",
+        "s0p26"
+      ],
+      "evidence": "- Já o oiço - disse a galinha. - Sendo assim, vou-me embora eu, que não gosto de fazer concorrência a colegas de profissão. E a raposa fugiu, de rabo entre as pernas.",
+      "after": {
+        "segment": 0,
+        "paragraph": 26
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Já o oiço - disse a galinha. - Sendo assim, vou-me embora eu, que não gosto de fazer concorrência a colegas de profissão. E a raposa fugiu, de rabo entre as pernas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p27",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p25",
+        "s0p26",
+        "s0p27"
+      ],
+      "evidence": "- Sendo assim, vou-me embora eu, que não gosto de fazer concorrência a colegas de profissão. E a raposa fugiu, de rabo entre as pernas. Mais sossegada, a galinha escondeu a cabeça na asa e adormeceu. Nem sempre a raposa é a mais matreira...",
+      "after": {
+        "segment": 0,
+        "paragraph": 27
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Sendo assim, vou-me embora eu, que não gosto de fazer concorrência a colegas de profissão. E a raposa fugiu, de rabo entre as pernas. Mais sossegada, a galinha escondeu a cabeça na asa e adormeceu. Nem sempre a raposa é a mais matreira... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

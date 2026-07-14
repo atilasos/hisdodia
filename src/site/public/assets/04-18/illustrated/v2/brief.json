@@ -1,0 +1,110 @@
+{
+  "characters": [
+    {
+      "name": "Manuel",
+      "appearance": "Rapazinho servido e magro, roupa simples de criado, ar cansado e desconfiado"
+    },
+    {
+      "name": "Patroa",
+      "appearance": "Mulher severa e cruel, postura autoritária, expressão dura"
+    },
+    {
+      "name": "Velhota",
+      "appearance": "Mulher idosa, pequena, desdentada, expressão viva e acolhedora"
+    },
+    {
+      "name": "Águia",
+      "appearance": "Ave grande e forte, asas abertas, presença imponente"
+    },
+    {
+      "name": "Melros e outros pássaros",
+      "appearance": "Pequenos pássaros de bico duro, em grupo, energia inquieta"
+    }
+  ],
+  "environment": "Portugal rural, com quintal, figueira, pipa vazia escura, campos e aldeias, depois outro quintal com horta e uma casa velha.",
+  "palette": [
+    "tons terrosos",
+    "verde figueira",
+    "azul céu",
+    "amarelo seco",
+    "castanhos quentes",
+    "vermelho escuro",
+    "cinzas suaves"
+  ],
+  "recurringObjects": [
+    "figueira",
+    "único figo",
+    "pipa vazia",
+    "horta",
+    "caçadeira",
+    "asas da águia"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "No tempo em que os meninos trabalhavam de criados, havia uma patroa muito má que tomara a seu serviço um rapazinho, o Manuel, a quem dava ordens por tudo e por nada, qual delas a mais disparatada. No quintal, a senhora dona tinha uma figueira que, nesse ano, dera um único figo. Pois não é que a maluca da mulher exigiu ao Manuel que estivesse todo o tempo de atalaia, não se desse o caso de os pássaros cobiçarem o figuinho? – Quero comê-lo, quando estiver maduro. Ai de ti, se deixares os melros roubarem-no.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Manuel e os Pássaros».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No tempo em que os meninos trabalhavam de criados, havia uma patroa muito má que tomara a seu serviço um rapazinho, o Manuel, a quem dava ordens por tudo e por nada, qual delas a mais disparatada. No quintal, a senhora dona tinha uma figueira que, nesse ano, dera um único figo. Pois não é que a maluca da mulher exigiu ao Manuel que estivesse todo o tempo de atalaia, não se desse o caso de os pássaros cobiçarem o figuinho? – Quero comê-lo, quando estiver maduro. Ai de ti, se deixares os melros roubarem-no. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s0p4",
+        "s0p5"
+      ],
+      "evidence": "Bem os afugentava o garoto, mas os passarocos de bico cor de laranja são teimosos. E gulosos... Às duas por três, adeus figuinho. – Maldito miúdo. Vais pagar-mas – gritou a megera. E meteu-o de castigo numa pipa vazia, às escuras. Sorte para o Manuel que os melros tivessem sabido. Logo convocaram os pica-paus e outros passarinhos de bico duro. Todos juntos, toc toc toc, libertaram o Manelinho.",
+      "after": {
+        "segment": 0,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Bem os afugentava o garoto, mas os passarocos de bico cor de laranja são teimosos. E gulosos... Às duas por três, adeus figuinho. – Maldito miúdo. Vais pagar-mas – gritou a megera. E meteu-o de castigo numa pipa vazia, às escuras. Sorte para o Manuel que os melros tivessem sabido. Logo convocaram os pica-paus e outros passarinhos de bico duro. Todos juntos, toc toc toc, libertaram o Manelinho. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p8",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p6",
+        "s0p7",
+        "s0p8"
+      ],
+      "evidence": "Depois, uma águia, que também tinha sido chamada para ajudar, levantou o rapazinho nos ares. A patroa viu-os e foi buscar uma caçadeira, mas já não chegou a tempo. Era mesmo má a criatura. A águia sobrevoou montes, campos, pinhais, aldeias, como se andasse à procura não se sabe de quê, até que poisou o Manuel num quintal, onde havia uma figueira. Depois, bateu as asas e desapareceu.",
+      "after": {
+        "segment": 0,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Depois, uma águia, que também tinha sido chamada para ajudar, levantou o rapazinho nos ares. A patroa viu-os e foi buscar uma caçadeira, mas já não chegou a tempo. Era mesmo má a criatura. A águia sobrevoou montes, campos, pinhais, aldeias, como se andasse à procura não se sabe de quê, até que poisou o Manuel num quintal, onde havia uma figueira. Depois, bateu as asas e desapareceu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p19",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p17",
+        "s0p18",
+        "s0p19"
+      ],
+      "evidence": "A velhota fez uma careta. – Não me dou bem com figos e tu puseste-te a olhar para ele como nunca vi ninguém olhar para um figo. Deve ser da fome que trazes. O Manuel chamou a si o figo e pronto. Enquanto saboreava o figo e a velhinha, enternecida, sorria para ele, o Manuel pensou: \"Valera a pena conhecer as alturas, porque a águia sabia onde me deixava.\"",
+      "after": {
+        "segment": 0,
+        "paragraph": 19
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A velhota fez uma careta. – Não me dou bem com figos e tu puseste-te a olhar para ele como nunca vi ninguém olhar para um figo. Deve ser da fome que trazes. O Manuel chamou a si o figo e pronto. Enquanto saboreava o figo e a velhinha, enternecida, sorria para ele, o Manuel pensou: \"Valera a pena conhecer as alturas, porque a águia sabia onde me deixava.\" Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

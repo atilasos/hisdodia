@@ -1,0 +1,146 @@
+{
+  "characters": [
+    {
+      "name": "grão de areia mais antigo",
+      "appearance": "grão de areia"
+    },
+    {
+      "name": "grão de areia menos viajado",
+      "appearance": "grão de areia"
+    },
+    {
+      "name": "pescadores",
+      "appearance": "pescadores"
+    },
+    {
+      "name": "rapazes",
+      "appearance": "rapazes"
+    },
+    {
+      "name": "namorada",
+      "appearance": "pessoa"
+    },
+    {
+      "name": "namorado",
+      "appearance": "pessoa"
+    }
+  ],
+  "environment": "barco velho, praia, fogueira, mar",
+  "palette": [
+    "azul",
+    "areia",
+    "castanho",
+    "cinzento",
+    "laranja"
+  ],
+  "recurringObjects": [
+    "barco",
+    "areia",
+    "cinzas",
+    "vento",
+    "céu",
+    "mar"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um grão de areia que vivia num barco. O barco não era dele, já se vê, mas de uns pescadores, que todos os dias deitavam as redes ao mar. – Onde é que eu estou? – perguntou um outro grão de areia, acabado de chegar. Este tinha vindo da praia, agarrado ao pé de um dos pescadores, e estava um tanto enjoado com os balanços do barco.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Os Grãozinhos Andam de Barco».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um grão de areia que vivia num barco. O barco não era dele, já se vê, mas de uns pescadores, que todos os dias deitavam as redes ao mar. – Onde é que eu estou? – perguntou um outro grão de areia, acabado de chegar. Este tinha vindo da praia, agarrado ao pé de um dos pescadores, e estava um tanto enjoado com os balanços do barco. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p9",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p7",
+        "s0p8",
+        "s0p9"
+      ],
+      "evidence": "– Estamos na praia – explicou o grão de areia mais viajado. – Não vejo praia nenhuma – estranhou o grão de areia menos viajado. Pudera! Donde estavam só se via o barco por dentro e o céu, lá muito em cima. Assim ficaram que tempos. Anos, talvez. Tanto fazia.",
+      "after": {
+        "segment": 0,
+        "paragraph": 9
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Estamos na praia – explicou o grão de areia mais viajado. – Não vejo praia nenhuma – estranhou o grão de areia menos viajado. Pudera! Donde estavam só se via o barco por dentro e o céu, lá muito em cima. Assim ficaram que tempos. Anos, talvez. Tanto fazia. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p13",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p11",
+        "s0p12",
+        "s0p13"
+      ],
+      "evidence": "– Vamos morrer queimados – alarmou-se o grão de areia menos experiente. – Não há-de ser fácil – tranquilizou-o o outro. – Nós, os grãos de areia, somos muito resistentes. Se eram! Tudo à volta em cinzas e eles a brilharem como novos.",
+      "after": {
+        "segment": 0,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Vamos morrer queimados – alarmou-se o grão de areia menos experiente. – Não há-de ser fácil – tranquilizou-o o outro. – Nós, os grãos de areia, somos muito resistentes. Se eram! Tudo à volta em cinzas e eles a brilharem como novos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p16",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p14",
+        "s0p15",
+        "s0p16"
+      ],
+      "evidence": "– E agora? – perguntou o grão de areia mais assustadiço. – Depois se verá – respondeu o grão de areia que sabia muito. – Nós, os grãos de areia, temos de estar prontos para tudo. Veio o vento que varreu as cinzas e deu asas aos grãozinhos. Cada qual para seu lado.",
+      "after": {
+        "segment": 0,
+        "paragraph": 16
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – E agora? – perguntou o grão de areia mais assustadiço. – Depois se verá – respondeu o grão de areia que sabia muito. – Nós, os grãos de areia, temos de estar prontos para tudo. Veio o vento que varreu as cinzas e deu asas aos grãozinhos. Cada qual para seu lado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p19",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p17",
+        "s0p18",
+        "s0p19"
+      ],
+      "evidence": "– Que impressão. Tenho um grão de areia num olho – queixou-se uma namorada para o respectivo namorado. – Eu tiro-to, meu amor – acorreu o namorado a socorrê-la. Soprou e pronto. O grão caiu. Era um dos tais, por sinal o mais viajado.",
+      "after": {
+        "segment": 0,
+        "paragraph": 19
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Que impressão. Tenho um grão de areia num olho – queixou-se uma namorada para o respectivo namorado. – Eu tiro-to, meu amor – acorreu o namorado a socorrê-la. Soprou e pronto. O grão caiu. Era um dos tais, por sinal o mais viajado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s0p25",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p23",
+        "s0p24",
+        "s0p25"
+      ],
+      "evidence": "– E já se não sente agoniado? – perguntou-lhe o grão de areia mais experiente. – Este barco é muito mais cómodo – respondeu o grãozinho. – Por este andar, à velocidade a que temos progredido, ainda vamos parar a um transatlântico e atravessar os mares, até à América. O outro concordou. Sabia por experiência própria que a um grão de areia tudo pode acontecer.",
+      "after": {
+        "segment": 0,
+        "paragraph": 25
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – E já se não sente agoniado? – perguntou-lhe o grão de areia mais experiente. – Este barco é muito mais cómodo – respondeu o grãozinho. – Por este andar, à velocidade a que temos progredido, ainda vamos parar a um transatlântico e atravessar os mares, até à América. O outro concordou. Sabia por experiência própria que a um grão de areia tudo pode acontecer. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

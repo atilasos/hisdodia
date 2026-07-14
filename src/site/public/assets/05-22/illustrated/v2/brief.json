@@ -1,0 +1,121 @@
+{
+  "characters": [
+    {
+      "name": "cavalo de carrossel",
+      "appearance": "cavalo decorativo de carrossel"
+    },
+    {
+      "name": "galo de barro",
+      "appearance": "galo de barro"
+    },
+    {
+      "name": "boneca de plástico",
+      "appearance": "boneca de plástico"
+    },
+    {
+      "name": "inventor",
+      "appearance": "figura de artes mágicas"
+    }
+  ],
+  "environment": "Escola e oficina de artes mágicas, com mudanças entre espaços de aprendizagem, pista de circo, capoeira e recreio, num tom de conto infantil contemporâneo",
+  "palette": [
+    "tons quentes de carrossel",
+    "vermelhos e dourados de circo",
+    "castanhos e terracotas",
+    "azuis e verdes suaves",
+    "brancos e cremes"
+  ],
+  "recurringObjects": [
+    "varinha mágica",
+    "carrossel",
+    "pista de circo",
+    "capoeira",
+    "recreio",
+    "oficina de artes mágicas"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um cavalo de carrossel que andava a estudar para cavalo de circo. Não era fácil. Era uma vez um galo de barro que andava a estudar para galo de capoeira. Não era fácil.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Querendo, Dá-Se um Jeito...».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um cavalo de carrossel que andava a estudar para cavalo de circo. Não era fácil. Era uma vez um galo de barro que andava a estudar para galo de capoeira. Não era fácil. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p8",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p6",
+        "s0p7",
+        "s0p8"
+      ],
+      "evidence": "– Parece que não mudamos de classe – disse o cavalo de carrossel. – Vamos reprovar. Ficar na mesma. Estava muito desgostoso. Os outros também. Então a boneca de plástico sugeriu: – Só se fossemos ter com quem nos inventou. Talvez nos desse um jeito.",
+      "after": {
+        "segment": 0,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Parece que não mudamos de classe – disse o cavalo de carrossel. – Vamos reprovar. Ficar na mesma. Estava muito desgostoso. Os outros também. Então a boneca de plástico sugeriu: – Só se fossemos ter com quem nos inventou. Talvez nos desse um jeito. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p9",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p7",
+        "s0p8",
+        "s0p9"
+      ],
+      "evidence": "Estava muito desgostoso. Os outros também. Então a boneca de plástico sugeriu: – Só se fossemos ter com quem nos inventou. Talvez nos desse um jeito. E vieram ter comigo. Fiz-lhe a vontade. Com uma varinha mágica pus o cavalo de carrossel a saltar numa pista de circo, o galo de barro a depenicar numa capoeira e a boneca de plástico a brincar num recreio. Ficaram todos contentes.",
+      "after": {
+        "segment": 0,
+        "paragraph": 9
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Estava muito desgostoso. Os outros também. Então a boneca de plástico sugeriu: – Só se fossemos ter com quem nos inventou. Talvez nos desse um jeito. E vieram ter comigo. Fiz-lhe a vontade. Com uma varinha mágica pus o cavalo de carrossel a saltar numa pista de circo, o galo de barro a depenicar numa capoeira e a boneca de plástico a brincar num recreio. Ficaram todos contentes. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p13",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p11",
+        "s0p12",
+        "s0p13"
+      ],
+      "evidence": "O cavalo de circo queixava-se do chicote do domador, sempre a estalar à sua volta. O galo de penas queixava-se do facalhão da cozinheira, sempre a ameaçá-lo por tudo e por nada. A menina de carne e osso queixava-se de dores de ouvidos, de dentes, de garganta, sempre a importuná-la, sem quê nem porquê. – Dantes, não sabíamos de chicotes nem de facalhões nem de dores – explicavam-se. Em resumo: queriam voltar ao que eram dantes. Como eu tenho muita paciência e boa-vontade, transformei-os outra vez no que tinham sido – cavalo de carrossel, galo de barro, boneca de plástico. Mas disse-lhes:",
+      "after": {
+        "segment": 0,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O cavalo de circo queixava-se do chicote do domador, sempre a estalar à sua volta. O galo de penas queixava-se do facalhão da cozinheira, sempre a ameaçá-lo por tudo e por nada. A menina de carne e osso queixava-se de dores de ouvidos, de dentes, de garganta, sempre a importuná-la, sem quê nem porquê. – Dantes, não sabíamos de chicotes nem de facalhões nem de dores – explicavam-se. Em resumo: queriam voltar ao que eram dantes. Como eu tenho muita paciência e boa-vontade, transformei-os outra vez no que tinham sido – cavalo de carrossel, galo de barro, boneca de plástico. Mas disse-lhes: Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p15",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p13",
+        "s0p14",
+        "s0p15"
+      ],
+      "evidence": "Em resumo: queriam voltar ao que eram dantes. Como eu tenho muita paciência e boa-vontade, transformei-os outra vez no que tinham sido – cavalo de carrossel, galo de barro, boneca de plástico. Mas disse-lhes: – Não tornem a aparecer-me. Estou farto dos vossos caprichos. Não quero mais histórias com vocês. Acabou-se. E acabou-se mesmo.",
+      "after": {
+        "segment": 0,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Em resumo: queriam voltar ao que eram dantes. Como eu tenho muita paciência e boa-vontade, transformei-os outra vez no que tinham sido – cavalo de carrossel, galo de barro, boneca de plástico. Mas disse-lhes: – Não tornem a aparecer-me. Estou farto dos vossos caprichos. Não quero mais histórias com vocês. Acabou-se. E acabou-se mesmo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

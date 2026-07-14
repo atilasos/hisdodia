@@ -1,0 +1,129 @@
+{
+  "characters": [
+    {
+      "name": "Narrador",
+      "appearance": "Criança em primeira pessoa, presente só como voz narrativa"
+    },
+    {
+      "name": "D. Pedro IV",
+      "appearance": "Estátua equestre transformada em imagem de sonho, em cima de bicicleta"
+    },
+    {
+      "name": "D. Nuno Álvares Pereira",
+      "appearance": "Estátua equestre, também montada numa bicicleta, mais antiga"
+    },
+    {
+      "name": "D. João I",
+      "appearance": "Rei muito fidalgo, em cima de uma bicicleta na Praça da Figueira"
+    },
+    {
+      "name": "D. José",
+      "appearance": "Estátua de bronze sobre bicicleta, com a roda da frente no ar"
+    },
+    {
+      "name": "Pai",
+      "appearance": "Adulto sentado ao pequeno-almoço, sério mas sorridente"
+    }
+  ],
+  "environment": "Lisboa sonhada e deslocada para um país inteiro tomado por bicicletas, com Praça da Figueira, Terreiro do Paço, Tejo, comboios a pedalar e um interior doméstico de pequeno-almoço no desfecho.",
+  "palette": [
+    "azul",
+    "ocre",
+    "verde",
+    "bronze",
+    "creme",
+    "vermelho"
+  ],
+  "recurringObjects": [
+    "bicicletas",
+    "estátuas",
+    "comboios",
+    "cacilheiros",
+    "chávena de café"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Q uando eu vi, na televisão, a estátua de D. Pedro IV, a cavalo numa bicicleta, e, depois das vistas sobre o Porto, passaram ao Mosteiro da Batalha, para mostrarem a estátua de D. Nuno Álvares Pereira, também montado noutra bicicleta, embora mais antiga, eu percebi que estava a sonhar. Nesse sonho, eu apagava o televisor e descia à rua, a caminho da Praça da Figueira, em Lisboa. Lá estava o rei D. João I, todo ancho, em cima de uma bicicleta da mesma marca da do Condestável D. Nuno. Seguindo pela Baixa fora, com um trânsito de ciclistas que não se faz ideia, ia ter ao Terreiro do Paço. No meio da praça, o rei D. José de bronze olhava o Tejo, sobre uma bicicleta, com a roda da frente no ar. Devia estar a fazer uma pirueta, em cima do pedestal, para chamar a atenção.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Um Sonho do Joca».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Q uando eu vi, na televisão, a estátua de D. Pedro IV, a cavalo numa bicicleta, e, depois das vistas sobre o Porto, passaram ao Mosteiro da Batalha, para mostrarem a estátua de D. Nuno Álvares Pereira, também montado noutra bicicleta, embora mais antiga, eu percebi que estava a sonhar. Nesse sonho, eu apagava o televisor e descia à rua, a caminho da Praça da Figueira, em Lisboa. Lá estava o rei D. João I, todo ancho, em cima de uma bicicleta da mesma marca da do Condestável D. Nuno. Seguindo pela Baixa fora, com um trânsito de ciclistas que não se faz ideia, ia ter ao Terreiro do Paço. No meio da praça, o rei D. José de bronze olhava o Tejo, sobre uma bicicleta, com a roda da frente no ar. Devia estar a fazer uma pirueta, em cima do pedestal, para chamar a atenção. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "Seguindo pela Baixa fora, com um trânsito de ciclistas que não se faz ideia, ia ter ao Terreiro do Paço. No meio da praça, o rei D. José de bronze olhava o Tejo, sobre uma bicicleta, com a roda da frente no ar. Devia estar a fazer uma pirueta, em cima do pedestal, para chamar a atenção. Seria difícil repararem nele, com tantas bicicletas paradas e empilhadas, à roda da estátua. Em vez de um parque de estacionamento de automóveis, o Terreiro do Paço tinha-se transformado num parque de estacionamento de bicicletas. Pequena diferença, afinal. Onde se estranhava mais a diferença era no movimento do Tejo. Dantes, os cacilheiros atravessavam-no de lado a lado. Agora, no meu sonho, grandes \"gaivotas\" de pedais, com dezenas de passageiros pedalantes, andavam de cá para lá, de lá para cá.",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Seguindo pela Baixa fora, com um trânsito de ciclistas que não se faz ideia, ia ter ao Terreiro do Paço. No meio da praça, o rei D. José de bronze olhava o Tejo, sobre uma bicicleta, com a roda da frente no ar. Devia estar a fazer uma pirueta, em cima do pedestal, para chamar a atenção. Seria difícil repararem nele, com tantas bicicletas paradas e empilhadas, à roda da estátua. Em vez de um parque de estacionamento de automóveis, o Terreiro do Paço tinha-se transformado num parque de estacionamento de bicicletas. Pequena diferença, afinal. Onde se estranhava mais a diferença era no movimento do Tejo. Dantes, os cacilheiros atravessavam-no de lado a lado. Agora, no meu sonho, grandes \"gaivotas\" de pedais, com dezenas de passageiros pedalantes, andavam de cá para lá, de lá para cá. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p6",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "Onde se estranhava mais a diferença era no movimento do Tejo. Dantes, os cacilheiros atravessavam-no de lado a lado. Agora, no meu sonho, grandes \"gaivotas\" de pedais, com dezenas de passageiros pedalantes, andavam de cá para lá, de lá para cá. – Estou com umas dores na barriga das pernas que mal me tenho em pé – queixava-se uma senhora, ao desembarcar de um dos tais cacilheiros de pedais. – É que há uns que pedalam e outros que fazem de conta... Os comboios partiam ao sinal de uma pistola de fulminantes, empunhada pelo chefe da estação. Cada passageiro, no seu respectivo lugar, punha-se então a pedalar com toda a força, como se estivesse numa corrida de bicicletas. Mas, neste caso, chegaram todos à meta ao mesmo tempo.",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Onde se estranhava mais a diferença era no movimento do Tejo. Dantes, os cacilheiros atravessavam-no de lado a lado. Agora, no meu sonho, grandes \"gaivotas\" de pedais, com dezenas de passageiros pedalantes, andavam de cá para lá, de lá para cá. – Estou com umas dores na barriga das pernas que mal me tenho em pé – queixava-se uma senhora, ao desembarcar de um dos tais cacilheiros de pedais. – É que há uns que pedalam e outros que fazem de conta... Os comboios partiam ao sinal de uma pistola de fulminantes, empunhada pelo chefe da estação. Cada passageiro, no seu respectivo lugar, punha-se então a pedalar com toda a força, como se estivesse numa corrida de bicicletas. Mas, neste caso, chegaram todos à meta ao mesmo tempo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p18",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p16",
+        "s0p17",
+        "s0p18"
+      ],
+      "evidence": "O país de Norte a Sul era uma permanente volta a Portugal em bicicleta. Auto-estradas, estradas, ruas, pontes, caminhos, cheios de ciclistas pedalando... Uma bicicleta por cada português. Ou mais. Assim que uma criança deixava de andar de gatas, passava a andar de triciclo. Algumas, só depois é que aprendiam a andar em cima dos seus próprios pés. Nunca vi tantas bicicletas juntas como no meu sonho.",
+      "after": {
+        "segment": 0,
+        "paragraph": 18
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O país de Norte a Sul era uma permanente volta a Portugal em bicicleta. Auto-estradas, estradas, ruas, pontes, caminhos, cheios de ciclistas pedalando... Uma bicicleta por cada português. Ou mais. Assim que uma criança deixava de andar de gatas, passava a andar de triciclo. Algumas, só depois é que aprendiam a andar em cima dos seus próprios pés. Nunca vi tantas bicicletas juntas como no meu sonho. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p22",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p20",
+        "s0p21",
+        "s0p22"
+      ],
+      "evidence": "O meu pai, depois de me ouvir, poisou a chávena de café e olhou para mim, muito sério. – Queres, então, que eu te compre uma bicicleta, para as próximas férias, é? – perguntou ele sorrindo. Como é que o meu pai tinha adivinhado este meu secreto desejo, nunca revelado a ninguém?",
+      "after": {
+        "segment": 0,
+        "paragraph": 22
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O meu pai, depois de me ouvir, poisou a chávena de café e olhou para mim, muito sério. – Queres, então, que eu te compre uma bicicleta, para as próximas férias, é? – perguntou ele sorrindo. Como é que o meu pai tinha adivinhado este meu secreto desejo, nunca revelado a ninguém? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

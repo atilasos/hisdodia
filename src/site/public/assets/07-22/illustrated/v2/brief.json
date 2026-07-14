@@ -1,0 +1,115 @@
+{
+  "characters": [
+    {
+      "name": "Arisco",
+      "appearance": "pardal curioso e atrevido, observador, pequeno e inquieto"
+    },
+    {
+      "name": "leitão",
+      "appearance": "porquinho preso entre as traves da cerca, em aflição"
+    },
+    {
+      "name": "moços da quinta",
+      "appearance": "rapazes rurais com ferramentas, a ajudar a libertar o porquinho"
+    }
+  ],
+  "environment": "campo e quinta portuguesa, com relva, livro ao ar livre, cercas de madeira, pocilga e ambiente rural",
+  "palette": [
+    "amarelos outonais",
+    "verdes de relva",
+    "castanhos rurais",
+    "cinzentos suaves",
+    "tons quentes de quinta"
+  ],
+  "recurringObjects": [
+    "livro de folhas amarelas",
+    "cerca de madeira",
+    "porquinho/leitão",
+    "grunhidos/aflição"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Quem fala sempre, do princípio ao fim, é o pardal Arisco, arisco de nome, mas atrevido como poucos: Andava eu na minha vida, a petiscar o almoço, quando vi, aberto no meio da relva, um livro de folhas amarelas, como se lhe tivesse dado o Outono antes de tempo. Não é fácil encontrar um livro no campo. Talvez seja por isso que eu não sei ler. Aqueles sinais gordos e finos, muito retorcidos, de que os livros estão cheios, a mim parecem-me minhocas, mas não enchem a barriga. Está visto que sou um pardal muito ignorante.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O pardal já sabe ler».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quem fala sempre, do princípio ao fim, é o pardal Arisco, arisco de nome, mas atrevido como poucos: Andava eu na minha vida, a petiscar o almoço, quando vi, aberto no meio da relva, um livro de folhas amarelas, como se lhe tivesse dado o Outono antes de tempo. Não é fácil encontrar um livro no campo. Talvez seja por isso que eu não sei ler. Aqueles sinais gordos e finos, muito retorcidos, de que os livros estão cheios, a mim parecem-me minhocas, mas não enchem a barriga. Está visto que sou um pardal muito ignorante. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "letras (acho que é assim que o Mocho Sábio lhes chama) e, de espaço a espaço, havia bonecos. Disso percebo eu. Basta ver. Que lindeza de bonecos! Vi, num deles, uma porca a ensinar os filhos a comer. Quase de certeza que lhes dizia: - Leitõezinhos, não comam com a boca toda. Não sejam glutões. Tomem cuidado e não sujem as patas. Não sejam porcos.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: letras (acho que é assim que o Mocho Sábio lhes chama) e, de espaço a espaço, havia bonecos. Disso percebo eu. Basta ver. Que lindeza de bonecos! Vi, num deles, uma porca a ensinar os filhos a comer. Quase de certeza que lhes dizia: - Leitõezinhos, não comam com a boca toda. Não sejam glutões. Tomem cuidado e não sujem as patas. Não sejam porcos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Folhas de Outono, não havia dúvida... Mal presas, voaram não sei para onde. Lá se ia a história. Que pena! Onde voltaria eu a arranjar outro livro, que me treinasse na leitura? Já me tinha esquecido do livro de folhas amarelas quando ouvi, não de muito longe, uns grunhidos de aflição.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Folhas de Outono, não havia dúvida... Mal presas, voaram não sei para onde. Lá se ia a história. Que pena! Onde voltaria eu a arranjar outro livro, que me treinasse na leitura? Já me tinha esquecido do livro de folhas amarelas quando ouvi, não de muito longe, uns grunhidos de aflição. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s7p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s7p0",
+        "s7p1",
+        "s7p2"
+      ],
+      "evidence": "O leitão, que fugira da pocilga, transformara-se num leitão prisioneiro. Dele já se aproximavam vários moços da quinta, com serrotes e serras. Um deles trazia um machado. Tive uma suspeita tola: iriam cortar o bicho ao meio? Pobrezinho... O leitão grunhia como se o serrassem, mas os moços afinal não tinham más intenções.",
+      "after": {
+        "segment": 7,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O leitão, que fugira da pocilga, transformara-se num leitão prisioneiro. Dele já se aproximavam vários moços da quinta, com serrotes e serras. Um deles trazia um machado. Tive uma suspeita tola: iriam cortar o bicho ao meio? Pobrezinho... O leitão grunhia como se o serrassem, mas os moços afinal não tinham más intenções. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s8p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s7p2",
+        "s8p0",
+        "s8p1"
+      ],
+      "evidence": "O leitão grunhia como se o serrassem, mas os moços afinal não tinham más intenções. Quando o libertaram da entaladela, lá foi ele a correr, mas, desta vez, a caminho da mãe. Vejam como uma história, começada num livro, termina numa quinta de verdade. Às vezes, deve ser ao contrário - começam as histórias na vida de verdade e continuam, depois, a viver nos livros...",
+      "after": {
+        "segment": 8,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O leitão grunhia como se o serrassem, mas os moços afinal não tinham más intenções. Quando o libertaram da entaladela, lá foi ele a correr, mas, desta vez, a caminho da mãe. Vejam como uma história, começada num livro, termina numa quinta de verdade. Às vezes, deve ser ao contrário - começam as histórias na vida de verdade e continuam, depois, a viver nos livros... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

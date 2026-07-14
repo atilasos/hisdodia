@@ -1,0 +1,108 @@
+{
+  "characters": [],
+  "environment": "Portuguese neighborhood, summer bus stop, beach, and nighttime fairground",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Leva uma rica vida o dragão da minha história. É verde, como dizem que são os dragões, tem escamas que o cobrem de cima a baixo e uma espinha eriçada em dentes de serra, do pescoço ao rabo. Como se vê, é um dragão vulgar. Agora imaginem-no, como eu imagino, carregado de meninos. Imaginar não custa nada. Nestes dias de Verão, por volta das nove e trinta, passa pela minha rua, deitando muito fumo pelas ventas, o dragão de que vos falo.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O dragão das nove e trinta».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Leva uma rica vida o dragão da minha história. É verde, como dizem que são os dragões, tem escamas que o cobrem de cima a baixo e uma espinha eriçada em dentes de serra, do pescoço ao rabo. Como se vê, é um dragão vulgar. Agora imaginem-no, como eu imagino, carregado de meninos. Imaginar não custa nada. Nestes dias de Verão, por volta das nove e trinta, passa pela minha rua, deitando muito fumo pelas ventas, o dragão de que vos falo. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Agora imaginem-no, como eu imagino, carregado de meninos. Imaginar não custa nada. Nestes dias de Verão, por volta das nove e trinta, passa pela minha rua, deitando muito fumo pelas ventas, o dragão de que vos falo. Pára nas paragens dos autocarros e para ele sobem os meninos em férias. Quando estão todos instalados, o dragão buzina alegremente e põe-se a andar.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Agora imaginem-no, como eu imagino, carregado de meninos. Imaginar não custa nada. Nestes dias de Verão, por volta das nove e trinta, passa pela minha rua, deitando muito fumo pelas ventas, o dragão de que vos falo. Pára nas paragens dos autocarros e para ele sobem os meninos em férias. Quando estão todos instalados, o dragão buzina alegremente e põe-se a andar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Pára nas paragens dos autocarros e para ele sobem os meninos em férias. Quando estão todos instalados, o dragão buzina alegremente e põe-se a andar. Não sabiam que os dragões buzinavam? Pois buzinam, mas só quando estão bem-dispostos. Com o seu carregamento de meninos, o dragão toma o caminho da praia. Corre ao lado do comboio, que também leva o mesmo sentido, e quase sempre chega primeiro.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Pára nas paragens dos autocarros e para ele sobem os meninos em férias. Quando estão todos instalados, o dragão buzina alegremente e põe-se a andar. Não sabiam que os dragões buzinavam? Pois buzinam, mas só quando estão bem-dispostos. Com o seu carregamento de meninos, o dragão toma o caminho da praia. Corre ao lado do comboio, que também leva o mesmo sentido, e quase sempre chega primeiro. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s3p0"
+      ],
+      "evidence": "Não sabiam que os dragões buzinavam? Pois buzinam, mas só quando estão bem-dispostos. Com o seu carregamento de meninos, o dragão toma o caminho da praia. Corre ao lado do comboio, que também leva o mesmo sentido, e quase sempre chega primeiro. Na praia, assim que o último menino salta para a areia, o dragão mete-se dentro de água, faz-se pequenino e transforma-se num hipocampo, isto é, num cavalo-marinho, para poder nadar sem chamar a atenção. Perder a banhoca é que nunca!",
+      "after": {
+        "segment": 3,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não sabiam que os dragões buzinavam? Pois buzinam, mas só quando estão bem-dispostos. Com o seu carregamento de meninos, o dragão toma o caminho da praia. Corre ao lado do comboio, que também leva o mesmo sentido, e quase sempre chega primeiro. Na praia, assim que o último menino salta para a areia, o dragão mete-se dentro de água, faz-se pequenino e transforma-se num hipocampo, isto é, num cavalo-marinho, para poder nadar sem chamar a atenção. Perder a banhoca é que nunca! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Na praia, assim que o último menino salta para a areia, o dragão mete-se dentro de água, faz-se pequenino e transforma-se num hipocampo, isto é, num cavalo-marinho, para poder nadar sem chamar a atenção. Perder a banhoca é que nunca! Ao fim da tarde, volta a crescer e a apresentar-se como um dragão aprumado e responsável, que nunca se esquece de que tem de trazer os meninos de volta para casa. À noite, trabalha na Feira Popular. Como tem uma bocarra lança-chamas, ocupa-se a assar frangos ou sardinhas.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Na praia, assim que o último menino salta para a areia, o dragão mete-se dentro de água, faz-se pequenino e transforma-se num hipocampo, isto é, num cavalo-marinho, para poder nadar sem chamar a atenção. Perder a banhoca é que nunca! Ao fim da tarde, volta a crescer e a apresentar-se como um dragão aprumado e responsável, que nunca se esquece de que tem de trazer os meninos de volta para casa. À noite, trabalha na Feira Popular. Como tem uma bocarra lança-chamas, ocupa-se a assar frangos ou sardinhas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s5p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s5p0"
+      ],
+      "evidence": "Ao fim da tarde, volta a crescer e a apresentar-se como um dragão aprumado e responsável, que nunca se esquece de que tem de trazer os meninos de volta para casa. À noite, trabalha na Feira Popular. Como tem uma bocarra lança-chamas, ocupa-se a assar frangos ou sardinhas. E, sempre que pode, vai dar uma voltinha no carrossel. Rica vida!",
+      "after": {
+        "segment": 5,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ao fim da tarde, volta a crescer e a apresentar-se como um dragão aprumado e responsável, que nunca se esquece de que tem de trazer os meninos de volta para casa. À noite, trabalha na Feira Popular. Como tem uma bocarra lança-chamas, ocupa-se a assar frangos ou sardinhas. E, sempre que pode, vai dar uma voltinha no carrossel. Rica vida! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

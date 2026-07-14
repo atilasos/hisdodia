@@ -1,0 +1,123 @@
+{
+  "characters": [
+    {
+      "name": "a senhora",
+      "appearance": "mulher muito medrosa, expressão assustada, óculos, em cenas posteriores com reação exagerada perante pequenos animais e enfeites natalícios"
+    },
+    {
+      "name": "ratos",
+      "appearance": "pequenos ratos, inicialmente cinzentos, depois pintados de encarnado para a encenação natalícia"
+    },
+    {
+      "name": "lagartixas",
+      "appearance": "lagartixas pequenas, depois pintadas de azul para a encenação natalícia"
+    },
+    {
+      "name": "aranhas",
+      "appearance": "aranhas pequenas, depois associadas a fios e teias de prata"
+    }
+  ],
+  "environment": "casa da senhora com sala e árvore de Natal enfeitada, num ambiente doméstico natalício com tensão cómica entre medo e surpresa.",
+  "palette": [
+    "cinzentos suaves",
+    "vermelho encarnado",
+    "azul intenso",
+    "prata brilhante",
+    "verdes natalícios",
+    "tons quentes de interior"
+  ],
+  "recurringObjects": [
+    "árvore de Natal",
+    "bolas vermelhas",
+    "fios de prata",
+    "óculos da senhora",
+    "ratinhos",
+    "lagartixas",
+    "teia prateada"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Há pessoas que têm medo de ratos, pessoas que têm medo de lagartixas, pessoas que têm medo de aranhas. De facto, há pessoas muito medrosas. A senhora desta história tinha medo de tudo, sobretudo de ratos, de lagartixas e de aranhas. Juntos ou separados, tanto lhe fazia, que dava sempre um grito:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Ai Que Horror!».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Há pessoas que têm medo de ratos, pessoas que têm medo de lagartixas, pessoas que têm medo de aranhas. De facto, há pessoas muito medrosas. A senhora desta história tinha medo de tudo, sobretudo de ratos, de lagartixas e de aranhas. Juntos ou separados, tanto lhe fazia, que dava sempre um grito: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "s1",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Tanto assim era que os ratos, as lagartixas e as aranhas resolveram reunir-se numa assembleia, para discutirem as medidas a tomar neste complicado caso da senhora que tinha medo deles como eles tinham medo dela. Entende-se? Os ratinhos eram os mais assustadiços. - Quando ela grita \"Ai, que horror!\", fico gelado de medo - queixava-se um.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Tanto assim era que os ratos, as lagartixas e as aranhas resolveram reunir-se numa assembleia, para discutirem as medidas a tomar neste complicado caso da senhora que tinha medo deles como eles tinham medo dela. Entende-se? Os ratinhos eram os mais assustadiços. - Quando ela grita \"Ai, que horror!\", fico gelado de medo - queixava-se um. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "s2",
+      "evidenceRef": "s6p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s5p1",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "Numa das tardes da véspera de Natal, em que a senhora tinha ido às compras, os ratos mais habilidosos pintaram-se uns aos outros com baton muito vermelho. Da caixa das pinturas da senhora tiraram outras tintas, com que besuntaram as lagartixas. Depois foram pendurar-se na arvorezinha, a fazer concorrência aos frágeis globos de vidro, que já enfeitavam o pinheiro. Por sua vez, as aranhas esmeraram-se na arte de tecer uma entrançada teia que rodeou o pinheirinho, como pinceladas de neve.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Numa das tardes da véspera de Natal, em que a senhora tinha ido às compras, os ratos mais habilidosos pintaram-se uns aos outros com baton muito vermelho. Da caixa das pinturas da senhora tiraram outras tintas, com que besuntaram as lagartixas. Depois foram pendurar-se na arvorezinha, a fazer concorrência aos frágeis globos de vidro, que já enfeitavam o pinheiro. Por sua vez, as aranhas esmeraram-se na arte de tecer uma entrançada teia que rodeou o pinheirinho, como pinceladas de neve. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "s3",
+      "evidenceRef": "s10p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s10p3",
+        "s10p4",
+        "s10p5"
+      ],
+      "evidence": "Então a senhora gritou, apavorada: - É um rato encarnado. Ai que horror! Debandada geral, na árvore.",
+      "after": {
+        "segment": 10,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Então a senhora gritou, apavorada: - É um rato encarnado. Ai que horror! Debandada geral, na árvore. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "s4",
+      "evidenceRef": "s12p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s11p3",
+        "s12p0",
+        "s12p1"
+      ],
+      "evidence": "Vá que vá, que não voltou... Daí em diante, a senhora passou a só ter medo das lagartixas azuis, de aranhas de prata e de ratos encarnados. Aos ratos cinzentos, às aranhas pretas e às lagartixas verdes deixou de ligar. E, sem mais sustos mútuos, todos viveram em boa paz.",
+      "after": {
+        "segment": 12,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Vá que vá, que não voltou... Daí em diante, a senhora passou a só ter medo das lagartixas azuis, de aranhas de prata e de ratos encarnados. Aos ratos cinzentos, às aranhas pretas e às lagartixas verdes deixou de ligar. E, sem mais sustos mútuos, todos viveram em boa paz. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

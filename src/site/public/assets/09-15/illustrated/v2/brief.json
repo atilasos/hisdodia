@@ -1,0 +1,120 @@
+{
+  "characters": [],
+  "environment": "historical Portuguese roadside with a battered royal motorcycle and a ruined palace backdrop",
+  "palette": [
+    "earthy browns",
+    "muted reds",
+    "dusty greens",
+    "cream",
+    "steel gray"
+  ],
+  "recurringObjects": [
+    "motorcycle with sidecar",
+    "royal crown",
+    "toolbox",
+    "spare wheel",
+    "magic wand"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s2p0"
+      ],
+      "evidence": "Era uma vez um rei e um rainha muito pobres. Tinham um filho, que, como é óbvio, era príncipe. Viviam numa casa arruinada, a que chamavam palácio, e nas suas viagens através do reino, que já não lhes pertencia, deslocavam-se numa moto mal enjorcada. O rei pegava no guiador só com uma mão, porque a outra a levava a agarrar a coroa, sempre ameaçada de cair com a deslocação do ar. A rainha arregaçava o manto debruado a arminho e pele de coelho e encavalitava-se atrás do seu real esposo. Quanto ao príncipe, muito esguio e alto, mal cabia no \"side-car\", que é, como nem todos sabem, o nome que se dá à barquinha atrelada a um dos lados de uma moto. Chamavam àquele bizarro meio de transporte o \"coche real\" e assim viviam contentes.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A fada Beringela».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um rei e um rainha muito pobres. Tinham um filho, que, como é óbvio, era príncipe. Viviam numa casa arruinada, a que chamavam palácio, e nas suas viagens através do reino, que já não lhes pertencia, deslocavam-se numa moto mal enjorcada. O rei pegava no guiador só com uma mão, porque a outra a levava a agarrar a coroa, sempre ameaçada de cair com a deslocação do ar. A rainha arregaçava o manto debruado a arminho e pele de coelho e encavalitava-se atrás do seu real esposo. Quanto ao príncipe, muito esguio e alto, mal cabia no \"side-car\", que é, como nem todos sabem, o nome que se dá à barquinha atrelada a um dos lados de uma moto. Chamavam àquele bizarro meio de transporte o \"coche real\" e assim viviam contentes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s5p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s5p0"
+      ],
+      "evidence": "Gritavam os três em coro as palavras mágicas: - Querida fada Beringela, que é tão bela, tão singela, não há fada como ela. Vinha a fada Beringela dizendo-se muito atarefada, muito atrasada nas suas lides de fada e, protestando sempre contra esta descuidada família real que não sabia onde punha os pés, isto é, os pneus, lá lhe consertava o furo. Depois cavalgava num foguete. Fuunh! E ia-se embora sem se voltar para trás a dizer adeus.",
+      "after": {
+        "segment": 5,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Gritavam os três em coro as palavras mágicas: - Querida fada Beringela, que é tão bela, tão singela, não há fada como ela. Vinha a fada Beringela dizendo-se muito atarefada, muito atrasada nas suas lides de fada e, protestando sempre contra esta descuidada família real que não sabia onde punha os pés, isto é, os pneus, lá lhe consertava o furo. Depois cavalgava num foguete. Fuunh! E ia-se embora sem se voltar para trás a dizer adeus. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s10p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s8p2",
+        "s9p0",
+        "s10p0"
+      ],
+      "evidence": "E a família real não tinha outro remédio... Mas coisa de furos estava na sua especialidade. Só havia um problema, que era este: a fada Beringela, para não ser constantemente importunada, impusera um limite aos seus serviços, um limite anual de cinquenta chamadas por ano, nem mais uma. Acima de cinquenta chamadas por ano a fada já não atendia. Grande berbicacho! Vocês estão já a ver que a família real, embalada neste hábito de chamar pela fada dos bons serviços por qualquer insignificância, se esquecia de contar as vezes que ela vinha em seu auxílio. Quando davam que só faltava meia dúzia de chamadas para completar as cinquenta, então é que deitavam as mãos à cabeça.",
+      "after": {
+        "segment": 10,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E a família real não tinha outro remédio... Mas coisa de furos estava na sua especialidade. Só havia um problema, que era este: a fada Beringela, para não ser constantemente importunada, impusera um limite aos seus serviços, um limite anual de cinquenta chamadas por ano, nem mais uma. Acima de cinquenta chamadas por ano a fada já não atendia. Grande berbicacho! Vocês estão já a ver que a família real, embalada neste hábito de chamar pela fada dos bons serviços por qualquer insignificância, se esquecia de contar as vezes que ela vinha em seu auxílio. Quando davam que só faltava meia dúzia de chamadas para completar as cinquenta, então é que deitavam as mãos à cabeça. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s13p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s12p2",
+        "s13p0",
+        "s13p1"
+      ],
+      "evidence": "- O que tu queres é cruzar os braços e não trabalhar - concluía a rainha. O príncipe, abespinhado, respondeu de pronto à laia de pergunta: - Que tenho eu aprendido convosco, Reais Pais?",
+      "after": {
+        "segment": 13,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - O que tu queres é cruzar os braços e não trabalhar - concluía a rainha. O príncipe, abespinhado, respondeu de pronto à laia de pergunta: - Que tenho eu aprendido convosco, Reais Pais? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s16p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s15p4",
+        "s16p0",
+        "s16p1"
+      ],
+      "evidence": "A família embatucou. O príncipe, mais do que todos, sentiu a afronta do termo \"reineta\" cair-lhe sobre a cabeça, como uma maçã do mesmo nome. Talvez por isso fosse ele o primeiro a mexer na caixa de ferramentas. Logo o rei pegou numa chave-inglesa, enquanto a mãe descalçava as luvas de seda a que faltavam dois dedos. E, num instante, substituíram a roda.",
+      "after": {
+        "segment": 16,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A família embatucou. O príncipe, mais do que todos, sentiu a afronta do termo \"reineta\" cair-lhe sobre a cabeça, como uma maçã do mesmo nome. Talvez por isso fosse ele o primeiro a mexer na caixa de ferramentas. Logo o rei pegou numa chave-inglesa, enquanto a mãe descalçava as luvas de seda a que faltavam dois dedos. E, num instante, substituíram a roda. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s17p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s16p1",
+        "s17p0",
+        "s17p1"
+      ],
+      "evidence": "E, num instante, substituíram a roda. Vocês querem crer que, de aí em diante, nunca mais a fada Beringela foi incomodada? Claro que a fada, vendo que os seus préstimos já de nada valiam, emigrou, como as suas companheiras, para dentro de um livro muito antigo, mas, antes de desaparecer de vez, ofereceu à família real um unguento mágico, infalível tratamento para todas as feridas.",
+      "after": {
+        "segment": 17,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E, num instante, substituíram a roda. Vocês querem crer que, de aí em diante, nunca mais a fada Beringela foi incomodada? Claro que a fada, vendo que os seus préstimos já de nada valiam, emigrou, como as suas companheiras, para dentro de um livro muito antigo, mas, antes de desaparecer de vez, ofereceu à família real um unguento mágico, infalível tratamento para todas as feridas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

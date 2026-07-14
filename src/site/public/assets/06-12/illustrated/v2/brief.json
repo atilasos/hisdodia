@@ -1,0 +1,107 @@
+{
+  "characters": [
+    {
+      "name": "Laura",
+      "appearance": "A senhora da sapataria, ligada à loja e ao papagaio exótico e multicolor"
+    },
+    {
+      "name": "Papagaio",
+      "appearance": "Papagaio exótico e multicolor, figura central da história"
+    },
+    {
+      "name": "Ladrão",
+      "appearance": "Homem vagabundo com botas impecavelmente novas"
+    },
+    {
+      "name": "Polícias",
+      "appearance": "Grupo de polícias que cercam o casebre"
+    },
+    {
+      "name": "Garotos",
+      "appearance": "Dois ou mais garotos que andam a apanhar caracóis"
+    }
+  ],
+  "environment": "Uma sapataria numa cidade portuguesa, um casebre isolado nos arredores e a esquadra implícita pela chegada dos polícias; atmosfera de conto popular contemporâneo com tom de notícia transformada em história.",
+  "palette": [
+    "cores vivas",
+    "tons terrosos",
+    "contraste entre o exótico do papagaio e o cenário modesto",
+    "azuis e cinzentos urbanos",
+    "verdes e vermelhos saturados no pássaro"
+  ],
+  "recurringObjects": [
+    "papagaio",
+    "sapataria",
+    "botas novas",
+    "casebre isolado",
+    "caracóis"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O que eu vou contar, li no jornal. Era uma notícia. Passa a ser uma história. Um senhora, chamada Laura, tinha uma sapataria. Para atrair a clientela, trouxera de casa um papagaio exótico e multicolor, uma raridade em forma de papagaio. Uma vez, a loja foi assaltada. O ladrão, entre outros valores, levou-lhe o papagaio, a atracção da loja, por assim dizer o emblema vivo da sapataria.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Laura e o Papagaio».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O que eu vou contar, li no jornal. Era uma notícia. Passa a ser uma história. Um senhora, chamada Laura, tinha uma sapataria. Para atrair a clientela, trouxera de casa um papagaio exótico e multicolor, uma raridade em forma de papagaio. Uma vez, a loja foi assaltada. O ladrão, entre outros valores, levou-lhe o papagaio, a atracção da loja, por assim dizer o emblema vivo da sapataria. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "Uma vez, a loja foi assaltada. O ladrão, entre outros valores, levou-lhe o papagaio, a atracção da loja, por assim dizer o emblema vivo da sapataria. A senhora Laura ficou desolada. – Podiam ter-me roubado tudo, menos o papagaio – lamentava-se ela a toda a gente.",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Uma vez, a loja foi assaltada. O ladrão, entre outros valores, levou-lhe o papagaio, a atracção da loja, por assim dizer o emblema vivo da sapataria. A senhora Laura ficou desolada. – Podiam ter-me roubado tudo, menos o papagaio – lamentava-se ela a toda a gente. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p7",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p5",
+        "s0p6",
+        "s0p7"
+      ],
+      "evidence": "Na cidade onde isto se passou, o caso foi comentado. Aconteceu que uns garotos, que andavam pelos arredores, a apanhar caracóis, ouviram, vindo de um casebre isolado, uma vozinha inconfundível gritar: – Laura! Laura! Laura! Foram fazer queixa à esquadra. Vieram uma quantidade de polícias, que cercaram a casa, e atrás deles a dona da loja. Quando entraram no casebre e viram o papagaio, deram logo ordem de prisão ao vagabundo, que lá vivia.",
+      "after": {
+        "segment": 0,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Na cidade onde isto se passou, o caso foi comentado. Aconteceu que uns garotos, que andavam pelos arredores, a apanhar caracóis, ouviram, vindo de um casebre isolado, uma vozinha inconfundível gritar: – Laura! Laura! Laura! Foram fazer queixa à esquadra. Vieram uma quantidade de polícias, que cercaram a casa, e atrás deles a dona da loja. Quando entraram no casebre e viram o papagaio, deram logo ordem de prisão ao vagabundo, que lá vivia. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p12",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p10",
+        "s0p11",
+        "s0p12"
+      ],
+      "evidence": "– Laura, Laura, até que enfim. A história acaba bem, menos para o ladrão. Comentário de um dos polícias que participou na captura: \"Quem rouba um papagaio que fala, o melhor é ensiná-lo a calar-se...\"",
+      "after": {
+        "segment": 0,
+        "paragraph": 12
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Laura, Laura, até que enfim. A história acaba bem, menos para o ladrão. Comentário de um dos polícias que participou na captura: \"Quem rouba um papagaio que fala, o melhor é ensiná-lo a calar-se...\" Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

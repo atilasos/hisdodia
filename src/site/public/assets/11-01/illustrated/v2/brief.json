@@ -1,0 +1,121 @@
+{
+  "characters": [
+    {
+      "name": "narrador",
+      "appearance": "criança ou jovem em casa, observador, à janela e depois na rua"
+    },
+    {
+      "name": "anjo",
+      "appearance": "pequeno anjo infantil, abatido, a chorar, com uma asa descaída"
+    },
+    {
+      "name": "bombeiros",
+      "appearance": "banda de bombeiros em traje de gala, em procissão"
+    },
+    {
+      "name": "S. Sebastião",
+      "appearance": "andor religioso com imagem do santo"
+    }
+  ],
+  "environment": "uma rua pequena e transversal de uma vila portuguesa, junto à Rua da República, em tarde de procissão",
+  "palette": [
+    "tons quentes de tarde",
+    "azul claro",
+    "branco",
+    "vermelho discreto",
+    "bege de rua antiga"
+  ],
+  "recurringObjects": [
+    "janela",
+    "rua estreita",
+    "procissão",
+    "andor",
+    "farda de gala",
+    "túnica do anjo"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Perdeu-se um anjo na minha rua. É uma rua pequena, sem nada de especial. Vai dar a uma rua mais larga, a que as pessoas da vila chamam Rua da República, só porque em todas as vilas que se prezam tem de haver uma Rua da República. Quando eu digo onde moro, tenho de explicar que é uma ruazinha transversal à Rua da República, senão ninguém sabe.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Anjo Perdido».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Perdeu-se um anjo na minha rua. É uma rua pequena, sem nada de especial. Vai dar a uma rua mais larga, a que as pessoas da vila chamam Rua da República, só porque em todas as vilas que se prezam tem de haver uma Rua da República. Quando eu digo onde moro, tenho de explicar que é uma ruazinha transversal à Rua da República, senão ninguém sabe. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s0p3"
+      ],
+      "evidence": "É uma rua pequena, sem nada de especial. Vai dar a uma rua mais larga, a que as pessoas da vila chamam Rua da República, só porque em todas as vilas que se prezam tem de haver uma Rua da República. Quando eu digo onde moro, tenho de explicar que é uma ruazinha transversal à Rua da República, senão ninguém sabe. Pois foi logo a esta ruazinha insignificante que veio ter um anjo. É evidente que está perdido. Olha para um lado e olha para o outro, sem saber para que lado seguir ou voar. Faz beicinho o anjo. Chora.",
+      "after": {
+        "segment": 0,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: É uma rua pequena, sem nada de especial. Vai dar a uma rua mais larga, a que as pessoas da vila chamam Rua da República, só porque em todas as vilas que se prezam tem de haver uma Rua da República. Quando eu digo onde moro, tenho de explicar que é uma ruazinha transversal à Rua da República, senão ninguém sabe. Pois foi logo a esta ruazinha insignificante que veio ter um anjo. É evidente que está perdido. Olha para um lado e olha para o outro, sem saber para que lado seguir ou voar. Faz beicinho o anjo. Chora. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s0p4",
+        "s0p5"
+      ],
+      "evidence": "Pois foi logo a esta ruazinha insignificante que veio ter um anjo. É evidente que está perdido. Olha para um lado e olha para o outro, sem saber para que lado seguir ou voar. Faz beicinho o anjo. Chora. Eu, que estou à janela, desço logo à rua, em socorro do pequeno anjo. Devia ser ao contrário. Os anjos é que costumam ajudar as pessoas. Não faz muito sentido que seja uma pessoa a ajudar um anjo. Aproximo-me dele e percebo porque chora. Além de estar perdido, não consegue voar. Tem uma das asas descaídas, coitadinho.",
+      "after": {
+        "segment": 0,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Pois foi logo a esta ruazinha insignificante que veio ter um anjo. É evidente que está perdido. Olha para um lado e olha para o outro, sem saber para que lado seguir ou voar. Faz beicinho o anjo. Chora. Eu, que estou à janela, desço logo à rua, em socorro do pequeno anjo. Devia ser ao contrário. Os anjos é que costumam ajudar as pessoas. Não faz muito sentido que seja uma pessoa a ajudar um anjo. Aproximo-me dele e percebo porque chora. Além de estar perdido, não consegue voar. Tem uma das asas descaídas, coitadinho. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p8",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p6",
+        "s0p7",
+        "s0p8"
+      ],
+      "evidence": "Chama pela mamã, em lágrimas. Fico confuso. Quem serão as mães dos anjos? Mas tudo se esclarece. Na Rua da República, depois da esquina da minha rua, vai a passar a banda dos bombeiros, vestida de gala, a tocar uma marcha solene. É tarde de procissão na vila. Este anjinho ia atrás do andor de S. Sebastião, crivado de setas, mas sentiu uma imperiosa necessidade de fazer chichi e foi levantar a túnica, junto a um tapume da minha rua. Indiferente ao caso particular deste anjo, a procissão prosseguiu, rua adiante.",
+      "after": {
+        "segment": 0,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Chama pela mamã, em lágrimas. Fico confuso. Quem serão as mães dos anjos? Mas tudo se esclarece. Na Rua da República, depois da esquina da minha rua, vai a passar a banda dos bombeiros, vestida de gala, a tocar uma marcha solene. É tarde de procissão na vila. Este anjinho ia atrás do andor de S. Sebastião, crivado de setas, mas sentiu uma imperiosa necessidade de fazer chichi e foi levantar a túnica, junto a um tapume da minha rua. Indiferente ao caso particular deste anjo, a procissão prosseguiu, rua adiante. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p9",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p7",
+        "s0p8",
+        "s0p9"
+      ],
+      "evidence": "Mas tudo se esclarece. Na Rua da República, depois da esquina da minha rua, vai a passar a banda dos bombeiros, vestida de gala, a tocar uma marcha solene. É tarde de procissão na vila. Este anjinho ia atrás do andor de S. Sebastião, crivado de setas, mas sentiu uma imperiosa necessidade de fazer chichi e foi levantar a túnica, junto a um tapume da minha rua. Indiferente ao caso particular deste anjo, a procissão prosseguiu, rua adiante. Peguei no anjinho ao colo e lá o pus no bom caminho, junto com os outros, atrás do andor de S. Sebastião. Ele, que vinha a fungar, limpou as lágrimas e o nariz com as costas da mão, e nem me agradeceu. Pouco me importa. Saio desta história consolado. Salvei um anjo de se perder.",
+      "after": {
+        "segment": 0,
+        "paragraph": 9
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas tudo se esclarece. Na Rua da República, depois da esquina da minha rua, vai a passar a banda dos bombeiros, vestida de gala, a tocar uma marcha solene. É tarde de procissão na vila. Este anjinho ia atrás do andor de S. Sebastião, crivado de setas, mas sentiu uma imperiosa necessidade de fazer chichi e foi levantar a túnica, junto a um tapume da minha rua. Indiferente ao caso particular deste anjo, a procissão prosseguiu, rua adiante. Peguei no anjinho ao colo e lá o pus no bom caminho, junto com os outros, atrás do andor de S. Sebastião. Ele, que vinha a fungar, limpou as lágrimas e o nariz com as costas da mão, e nem me agradeceu. Pouco me importa. Saio desta história consolado. Salvei um anjo de se perder. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

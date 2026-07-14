@@ -1,0 +1,102 @@
+{
+  "characters": [],
+  "environment": "Portuguese neighborhood interior and street, centered on a hat-collector's home, then the doorstep and street departure.",
+  "palette": [
+    "warm neutrals",
+    "muted reds",
+    "deep navy",
+    "brass",
+    "soft cream"
+  ],
+  "recurringObjects": [
+    "bengaleiro",
+    "chapéus",
+    "window",
+    "sapatos"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Tenho um vizinho que é coleccionador. De quê? De selos? De moedas? De caixas de fósforos? De garrafinhas de licor? De bilhetes-postais? De revistas antigas? Nada disso. O meu vizinho do lado é coleccionador, mas de chapéus. Lá em casa, logo à entrada, tem um bengaleiro, que é um museu de chapelaria.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A mania das colecções».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Tenho um vizinho que é coleccionador. De quê? De selos? De moedas? De caixas de fósforos? De garrafinhas de licor? De bilhetes-postais? De revistas antigas? Nada disso. O meu vizinho do lado é coleccionador, mas de chapéus. Lá em casa, logo à entrada, tem um bengaleiro, que é um museu de chapelaria. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "um tricórnio, de que nunca se sabe qual é o lado da frente, um chapéu de explorador africano que, depois de pintado, já serviu a um polícia sinaleiro de antigamente e muitos, muitos mais chapéus...",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: um tricórnio, de que nunca se sabe qual é o lado da frente, um chapéu de explorador africano que, depois de pintado, já serviu a um polícia sinaleiro de antigamente e muitos, muitos mais chapéus... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s6p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p0",
+        "s6p1",
+        "s6p2"
+      ],
+      "evidence": "- Ponho um anúncio - explicou-me o coleccionador. - Cada pessoa que vier leva um chapéu de graça. Mas tem de prometer que não o tira da cabeça, até ao fim da rua. - Quero estar cá, à janela, para ver isso ! - exclamei, entusiasmado. Não calculam o espectáculo. Parecia um dia de Carnaval, como aqueles que já não há. Só visto.",
+      "after": {
+        "segment": 6,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Ponho um anúncio - explicou-me o coleccionador. - Cada pessoa que vier leva um chapéu de graça. Mas tem de prometer que não o tira da cabeça, até ao fim da rua. - Quero estar cá, à janela, para ver isso ! - exclamei, entusiasmado. Não calculam o espectáculo. Parecia um dia de Carnaval, como aqueles que já não há. Só visto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s8p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s8p0",
+        "s8p1",
+        "s8p2"
+      ],
+      "evidence": "- Não, essa já deu o que tinha a dar. Vou pôr-me em campo para uma nova colecção, mas de sapatos. - Novos? - intriguei-me. - De forma alguma. Antigos, isto é, velhos, cambados , gastos. Quero coleccionar sapatos com muita andadura , muita experiência de estrada na sola dos pés.",
+      "after": {
+        "segment": 8,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Não, essa já deu o que tinha a dar. Vou pôr-me em campo para uma nova colecção, mas de sapatos. - Novos? - intriguei-me. - De forma alguma. Antigos, isto é, velhos, cambados , gastos. Quero coleccionar sapatos com muita andadura , muita experiência de estrada na sola dos pés. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s9p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s9p0",
+        "s9p1",
+        "s9p2"
+      ],
+      "evidence": "E o meu vizinho olhava para os meus sapatos, com particular interesse... O que havia eu de fazer? Ofereci-lhos para início de colecção e, descalço, atravessei o patamar até à minha casa. Entre vizinhos, temos de ser uns para os outros.",
+      "after": {
+        "segment": 9,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E o meu vizinho olhava para os meus sapatos, com particular interesse... O que havia eu de fazer? Ofereci-lhos para início de colecção e, descalço, atravessei o patamar até à minha casa. Entre vizinhos, temos de ser uns para os outros. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

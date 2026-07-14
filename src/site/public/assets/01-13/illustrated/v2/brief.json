@@ -1,0 +1,98 @@
+{
+  "characters": [
+    {
+      "name": "lobo",
+      "appearance": "lobo magro e astuto, cauda espigada, expressão cautelosa, depois faminto e desajeitado"
+    },
+    {
+      "name": "homens que o caçaram",
+      "appearance": "grupo de homens rudes do campo, roupas simples, postura de troça"
+    },
+    {
+      "name": "porco de mato",
+      "appearance": "porco de mato grande e pesado, a banhar-se no rio"
+    }
+  ],
+  "environment": "Ambiente rural com armadilha na mata, margem de rio, ervas, frutos silvestres e água pouco profunda.",
+  "palette": [
+    "castanhos terrosos",
+    "verdes apagados",
+    "cinzentos frios",
+    "azul-esverdeado da água",
+    "toques de ocre"
+  ],
+  "recurringObjects": [
+    "armadilha",
+    "rio",
+    "ervas",
+    "frutos silvestres"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Um lobo, que tinha sido apanhado numa armadilha, prometeu que mudaria de hábitos alimentares, se o poupassem. - De agora em diante, vou deixar de comer carne - garantiu ele aos homens que o tinham caçado. - Passo a comer ervas e, uma vez por outra, um peixinho de rio. Palavra de lobo! Os homens deixaram-no ir, enquanto riam e faziam apostas.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Promessas de Lobo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um lobo, que tinha sido apanhado numa armadilha, prometeu que mudaria de hábitos alimentares, se o poupassem. - De agora em diante, vou deixar de comer carne - garantiu ele aos homens que o tinham caçado. - Passo a comer ervas e, uma vez por outra, um peixinho de rio. Palavra de lobo! Os homens deixaram-no ir, enquanto riam e faziam apostas. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Um lobo, que tinha sido apanhado numa armadilha, prometeu que mudaria de hábitos alimentares, se o poupassem. - De agora em diante, vou deixar de comer carne - garantiu ele aos homens que o tinham caçado. - Passo a comer ervas e, uma vez por outra, um peixinho de rio. Palavra de lobo! Os homens deixaram-no ir, enquanto riam e faziam apostas.",
+      "after": {
+        "segment": 0,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um lobo, que tinha sido apanhado numa armadilha, prometeu que mudaria de hábitos alimentares, se o poupassem. - De agora em diante, vou deixar de comer carne - garantiu ele aos homens que o tinham caçado. - Passo a comer ervas e, uma vez por outra, um peixinho de rio. Palavra de lobo! Os homens deixaram-no ir, enquanto riam e faziam apostas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "- Talvez seja - contradiziam outros. O lobo cumpriu o prometido. Tasquinhava ervinhas como um cordeiro. Comia frutos silvestres como um macaco. Roía raízes como uma toupeira. Mas, um dia, deu com um enorme porco de mato, que tomava banho no rio.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Talvez seja - contradiziam outros. O lobo cumpriu o prometido. Tasquinhava ervinhas como um cordeiro. Comia frutos silvestres como um macaco. Roía raízes como uma toupeira. Mas, um dia, deu com um enorme porco de mato, que tomava banho no rio. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s2p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p3",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Mas, um dia, deu com um enorme porco de mato, que tomava banho no rio. - Que grande peixe! - exclamou o lobo, de olhos a luzir. - Há que tempos que não como nada de jeito. E atirou-se ao porco de mato, mas como andava fraco e perdera o jeito, deixou escapar o porco e caiu de focinho na água.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas, um dia, deu com um enorme porco de mato, que tomava banho no rio. - Que grande peixe! - exclamou o lobo, de olhos a luzir. - Há que tempos que não como nada de jeito. E atirou-se ao porco de mato, mas como andava fraco e perdera o jeito, deixou escapar o porco e caiu de focinho na água. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

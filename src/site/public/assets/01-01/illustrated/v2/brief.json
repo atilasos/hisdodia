@@ -1,0 +1,129 @@
+{
+  "characters": [
+    {
+      "name": "moleiro",
+      "appearance": "Homem coberto de farinha, roupa de trabalho clara e aspeto cansado de carregar sacas"
+    },
+    {
+      "name": "carvoeiro",
+      "appearance": "Homem coberto de fuligem, roupa de trabalho escura e aspeto cansado de carregar sacas"
+    },
+    {
+      "name": "filho do moleiro",
+      "appearance": "Rapaz acompanhado pelo pai, com roupa simples de trabalho e aspeto enfarinhado"
+    },
+    {
+      "name": "filho do carvoeiro",
+      "appearance": "Rapaz acompanhado pelo pai, com roupa simples de trabalho e aspeto enfarruscado"
+    },
+    {
+      "name": "velho camponês",
+      "appearance": "Ancião de barba respeitável, presença calma e autoridade rural"
+    },
+    {
+      "name": "camponeses",
+      "appearance": "Grupo de gente dos campos próximos, roupa de trabalho manchada pela poeira da estrada"
+    }
+  ],
+  "environment": "Estrada rural antiga entre moinhos e campos, com poeira levantada, atmosfera de trabalho duro e convivência camponesa.",
+  "palette": [
+    "farinha branca",
+    "carvão preto",
+    "cinzento poeirento",
+    "castanhos terrosos",
+    "ocre envelhecido",
+    "azul gasto"
+  ],
+  "recurringObjects": [
+    "sacos de farinha",
+    "sacos de carvão",
+    "poeira da estrada",
+    "roupa de trabalho",
+    "barba do velho camponês"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "No tempo em que as velas dos moinhos rodavam ao vento, um moleiro, todo enfarinhado de carregar com sacas de farinha, cruzou-se, na estrada, com um carvoeiro todo enfarruscado de carregar com sacas de carvão. Esquecemo-nos de dizer que ao lado do moleiro ia o filho do moleiro e ao lado do carvoeiro, o filho do carvoeiro. Nesse tempo também, os filhos dos moleiros não tinham outro destino senão ser moleiros e os filhos dos carvoeiros não podiam ambicionar outra vida senão ser carvoeiros. - Ó pai, já viste aqueles dois tão sujos que ali vão? - disse o filho do moleiro para o moleiro.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Moleiros e Carvoeiros».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No tempo em que as velas dos moinhos rodavam ao vento, um moleiro, todo enfarinhado de carregar com sacas de farinha, cruzou-se, na estrada, com um carvoeiro todo enfarruscado de carregar com sacas de carvão. Esquecemo-nos de dizer que ao lado do moleiro ia o filho do moleiro e ao lado do carvoeiro, o filho do carvoeiro. Nesse tempo também, os filhos dos moleiros não tinham outro destino senão ser moleiros e os filhos dos carvoeiros não podiam ambicionar outra vida senão ser carvoeiros. - Ó pai, já viste aqueles dois tão sujos que ali vão? - disse o filho do moleiro para o moleiro. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "- Ó pai, já viste aqueles dois tão sujos que ali vão? - disse o filho do moleiro para o moleiro. O filho do carvoeiro ouviu o comentário e não gostou. Aliás, o pai também não gostou. - Sujos vão eles - lançou o garoto do carvoeiro.",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Ó pai, já viste aqueles dois tão sujos que ali vão? - disse o filho do moleiro para o moleiro. O filho do carvoeiro ouviu o comentário e não gostou. Aliás, o pai também não gostou. - Sujos vão eles - lançou o garoto do carvoeiro. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p4",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "- Sujos vão eles - lançou o garoto do carvoeiro. Carvoeiros e moleiros pararam na estrada, enfrentando-se com ar de poucos amigos. Quem está sujo, quem não está sujo, o certo é que, depois de algumas más palavras trocadas em despique, os dois miúdos engalfinharam-se à zaragata. E os pais atrás deles. Mãos que ameaçam, murros que se cruzam, joelhadas que fervem, e os que estavam brancos ficaram manchados de preto e os que estavam pretos ficaram manchados de branco. De mistura com o pó da estrada, uma nuvem cinzenta - cinzenta de carvão e farinha - rodeou os contendores.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Sujos vão eles - lançou o garoto do carvoeiro. Carvoeiros e moleiros pararam na estrada, enfrentando-se com ar de poucos amigos. Quem está sujo, quem não está sujo, o certo é que, depois de algumas más palavras trocadas em despique, os dois miúdos engalfinharam-se à zaragata. E os pais atrás deles. Mãos que ameaçam, murros que se cruzam, joelhadas que fervem, e os que estavam brancos ficaram manchados de preto e os que estavam pretos ficaram manchados de branco. De mistura com o pó da estrada, uma nuvem cinzenta - cinzenta de carvão e farinha - rodeou os contendores. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p6",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p4",
+        "s1p5",
+        "s1p6"
+      ],
+      "evidence": "Realmente já se não distinguia qual o moleiro e qual o carvoeiro. - Se tivessem dado um abraço, em vez de bulharem, o resultado teria sido o mesmo - continuou o velho. - E, realmente, porque se não hão-de abraçar estes trabalhadores honrados, orgulhosos da profissão que escolheram e dos fatos de trabalho que envergam? Vá, dêem um abraço, rapazes! Os garotos, um pouco reticentes, abraçaram-se. Os homens, um pouco contravontade, abraçaram-se.",
+      "after": {
+        "segment": 1,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Realmente já se não distinguia qual o moleiro e qual o carvoeiro. - Se tivessem dado um abraço, em vez de bulharem, o resultado teria sido o mesmo - continuou o velho. - E, realmente, porque se não hão-de abraçar estes trabalhadores honrados, orgulhosos da profissão que escolheram e dos fatos de trabalho que envergam? Vá, dêem um abraço, rapazes! Os garotos, um pouco reticentes, abraçaram-se. Os homens, um pouco contravontade, abraçaram-se. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s2p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p7",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "- Ena, que sujo que eu estou! - riu-se o filho do carvoeiro. - Não estás menos do que eu - riu-se o filho do moleiro. Riram-se os filhos. Riram-se os pais. Toda a gente riu com gosto e a história acaba aqui. E bem.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Ena, que sujo que eu estou! - riu-se o filho do carvoeiro. - Não estás menos do que eu - riu-se o filho do moleiro. Riram-se os filhos. Riram-se os pais. Toda a gente riu com gosto e a história acaba aqui. E bem. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

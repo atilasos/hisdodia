@@ -1,0 +1,120 @@
+{
+  "characters": [
+    {
+      "name": "Senhor Vento",
+      "appearance": "Figura personificada do vento, inquieta e caprichosa, de presença aérea e agitada"
+    },
+    {
+      "name": "Senhor Sol",
+      "appearance": "Figura personificada do sol, serena e luminosa, com presença quente e alegre"
+    },
+    {
+      "name": "Romeiro",
+      "appearance": "Peregrino jovem de caminho, com chapeirão, capa larga, cajado, saquitel e cabaça"
+    }
+  ],
+  "environment": "Miradoiro elevado sobre a paisagem do caminho de Santiago, com estrada aberta, árvores, vento forte, uma fonte de beira de caminho e luz de fim de tarde.",
+  "palette": [
+    "azul claro",
+    "dourado quente",
+    "ocre",
+    "verde gasto",
+    "cinza de vento",
+    "branco solar"
+  ],
+  "recurringObjects": [
+    "chapeirão",
+    "capa",
+    "cajado",
+    "saquitel",
+    "cabaça",
+    "fonte",
+    "árvores dobradas pelo vento",
+    "raios de sol"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Consegue-se às boas, mansamente, o que não se consegue a mal, à força, de repelão. A melodia de uma flauta abre mais janelas do que uma trovoada. Vou exemplificar. O Senhor Vento e o Senhor Sol, lá do seu miradoiro, observam o que se passa cá em baixo. Os dois dispensam binóculos.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O romeiro, o vento e o sol».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Consegue-se às boas, mansamente, o que não se consegue a mal, à força, de repelão. A melodia de uma flauta abre mais janelas do que uma trovoada. Vou exemplificar. O Senhor Vento e o Senhor Sol, lá do seu miradoiro, observam o que se passa cá em baixo. Os dois dispensam binóculos. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "O Senhor Vento e o Senhor Sol, lá do seu miradoiro, observam o que se passa cá em baixo. Os dois dispensam binóculos. Estavam eles entretidos, na sua quadrilhice de varanda, quando viram um romeiro, daqueles que percorrem a pé os caminhos que vão dar à galega Compostela. Ia de chapeirão e larga capa, que o cobria até aos pés.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Senhor Vento e o Senhor Sol, lá do seu miradoiro, observam o que se passa cá em baixo. Os dois dispensam binóculos. Estavam eles entretidos, na sua quadrilhice de varanda, quando viram um romeiro, daqueles que percorrem a pé os caminhos que vão dar à galega Compostela. Ia de chapeirão e larga capa, que o cobria até aos pés. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s2p0"
+      ],
+      "evidence": "Estavam eles entretidos, na sua quadrilhice de varanda, quando viram um romeiro, daqueles que percorrem a pé os caminhos que vão dar à galega Compostela. Ia de chapeirão e larga capa, que o cobria até aos pés. Nodoso cajado de ajudar às subidas, um saquitel ao ombro e a cabaça à cintura, para o vinho que aquece, eis o quadro completo do devoto de São Tiago, o Apóstolo, com catedral famosa na cidade de Compostela.",
+      "after": {
+        "segment": 2,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Estavam eles entretidos, na sua quadrilhice de varanda, quando viram um romeiro, daqueles que percorrem a pé os caminhos que vão dar à galega Compostela. Ia de chapeirão e larga capa, que o cobria até aos pés. Nodoso cajado de ajudar às subidas, um saquitel ao ombro e a cabaça à cintura, para o vinho que aquece, eis o quadro completo do devoto de São Tiago, o Apóstolo, com catedral famosa na cidade de Compostela. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p1",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "- Aposto que não resulta - contrapôs o Senhor Sol, divertido com o passatempo. Levantou-se uma ventania de dobrar as árvores. O romeiro fincou-se ao cajado, puxou o chapéu para a cara e apertou a capa. Por mais que o Senhor Vento soprasse não houve meio de derrotar o viandante . - Primeira aposta perdida - riu-se o Senhor Sol.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Aposto que não resulta - contrapôs o Senhor Sol, divertido com o passatempo. Levantou-se uma ventania de dobrar as árvores. O romeiro fincou-se ao cajado, puxou o chapéu para a cara e apertou a capa. Por mais que o Senhor Vento soprasse não houve meio de derrotar o viandante . - Primeira aposta perdida - riu-se o Senhor Sol. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s7p1",
+        "s7p2",
+        "s7p3"
+      ],
+      "evidence": "À beira de uma fonte, o caminheiro parou. Desfez-se do chapeirão, que poisou com a capa e o cajado no rebordo do fontanário, despiu a camisa e, de tronco nu, refrescou rosto e corpo, na água que corria. Deliciado. Era loiro e jovem. - Desta vez não ganhou ninguém - concluiu o Senhor Vento.",
+      "after": {
+        "segment": 7,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: À beira de uma fonte, o caminheiro parou. Desfez-se do chapeirão, que poisou com a capa e o cajado no rebordo do fontanário, despiu a camisa e, de tronco nu, refrescou rosto e corpo, na água que corria. Deliciado. Era loiro e jovem. - Desta vez não ganhou ninguém - concluiu o Senhor Vento. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

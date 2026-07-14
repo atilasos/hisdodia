@@ -1,0 +1,93 @@
+{
+  "characters": [
+    {
+      "name": "rapaz",
+      "appearance": "rapaz novo, bravio no início, depois cansado e mais contido"
+    },
+    {
+      "name": "velhota",
+      "appearance": "velhinha pobre, frágil, a recolher pedras no quintal"
+    }
+  ],
+  "environment": "povoado rural português, casa pobre à beira do povoado, quintal com muro por consertar e pedreira próxima",
+  "palette": [
+    "tons terrosos",
+    "cinzentos de pedra",
+    "castanhos quentes",
+    "amarelo mel",
+    "azul discreto"
+  ],
+  "recurringObjects": [
+    "pedras",
+    "muro do quintal",
+    "boião de mel"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um rapaz bravio que gostava de pregar partidas e fazer matulices , só por embirração. Era muito antipático este rapaz. Mas emendou-se. Eu conto como foi. Um dia, por maldade, deu-lhe na veneta atormentar uma pobre velhota, que vivia numa casinha pobre, à beira do povoado.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Apenas um rapaz».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um rapaz bravio que gostava de pregar partidas e fazer matulices , só por embirração. Era muito antipático este rapaz. Mas emendou-se. Eu conto como foi. Um dia, por maldade, deu-lhe na veneta atormentar uma pobre velhota, que vivia numa casinha pobre, à beira do povoado. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Um dia, por maldade, deu-lhe na veneta atormentar uma pobre velhota, que vivia numa casinha pobre, à beira do povoado. Foi para uma pedreira que havia perto e pôs-se a atirar pedras e a rebolar pedregulhos, que iam cair no quintal da velhota. Para o que lhe havia de dar!? No fim do seu feito, já cansado, aproximou-se da casa da velhinha, para ver de perto os resultados da sua proeza. Andava a velhinha a recolher as pedras, espalhadas pelo quintal.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um dia, por maldade, deu-lhe na veneta atormentar uma pobre velhota, que vivia numa casinha pobre, à beira do povoado. Foi para uma pedreira que havia perto e pôs-se a atirar pedras e a rebolar pedregulhos, que iam cair no quintal da velhota. Para o que lhe havia de dar!? No fim do seu feito, já cansado, aproximou-se da casa da velhinha, para ver de perto os resultados da sua proeza. Andava a velhinha a recolher as pedras, espalhadas pelo quintal. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p2",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "- Bom rapazinho, importas-te de me ajudar a consertar o muro? Ele, que tinha de fazer de conta que era um bom rapazinho, não teve outro remédio. Passou o resto do dia a acartar pedras, as pedras que ele lançara do alto do monte. No fim da tarefa, a velhota agradeceu-lhe o trabalho e deu-lhe um grande boião de mel. O rapaz lá se foi, cansado e a lamber os beiços, um tanto confundido.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Bom rapazinho, importas-te de me ajudar a consertar o muro? Ele, que tinha de fazer de conta que era um bom rapazinho, não teve outro remédio. Passou o resto do dia a acartar pedras, as pedras que ele lançara do alto do monte. No fim da tarefa, a velhota agradeceu-lhe o trabalho e deu-lhe um grande boião de mel. O rapaz lá se foi, cansado e a lamber os beiços, um tanto confundido. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p1",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "No fim da tarefa, a velhota agradeceu-lhe o trabalho e deu-lhe um grande boião de mel. O rapaz lá se foi, cansado e a lamber os beiços, um tanto confundido. À noite, quando se deitou, estava cá com uma dor nas costas, que não lhes digo nada! Mas regalado com o mel, que a velhinha lhe dera. Ora pois! Serviu-lhe de emenda. Mudou de intenções. Não posso garantir se, dessa vez em diante, nunca mais pregou partidas. Um diabinho não se transforma de repente num santinho. É exigir demais. Mas, na verdade, deixou-se de brincadeiras tolas.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No fim da tarefa, a velhota agradeceu-lhe o trabalho e deu-lhe um grande boião de mel. O rapaz lá se foi, cansado e a lamber os beiços, um tanto confundido. À noite, quando se deitou, estava cá com uma dor nas costas, que não lhes digo nada! Mas regalado com o mel, que a velhinha lhe dera. Ora pois! Serviu-lhe de emenda. Mudou de intenções. Não posso garantir se, dessa vez em diante, nunca mais pregou partidas. Um diabinho não se transforma de repente num santinho. É exigir demais. Mas, na verdade, deixou-se de brincadeiras tolas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

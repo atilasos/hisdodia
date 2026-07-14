@@ -1,0 +1,117 @@
+{
+  "characters": [
+    {
+      "name": "Umbelino",
+      "appearance": "macaco pequeno e expressivo, ágil, com corda grossa e vassoura de cabo comprido quando em trabalho"
+    },
+    {
+      "name": "senhora do 3º esquerdo",
+      "appearance": "mulher de ar estranhamente severo, tranças meio desfeitas e grandes óculos de tartaruga"
+    },
+    {
+      "name": "porteiras",
+      "appearance": "duas porteiras de prédio, em conversa à entrada"
+    }
+  ],
+  "environment": "cidade de prédios altos com telhados e chaminés, escadas e portas de apartamentos, ambiente urbano contemporâneo",
+  "palette": [
+    "tons urbanos frios",
+    "ocres suaves",
+    "cinzentos de pedra",
+    "verdes discretos",
+    "azuis dessaturados"
+  ],
+  "recurringObjects": [
+    "telhados",
+    "chaminés",
+    "corda grossa",
+    "vassoura comprida",
+    "portas de prédio",
+    "óculos de tartaruga"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O macaco Umbelino, que vocês já conhecem, escreveu-me outra vez. Não sei em que país é que ele agora está, que nem reparei no selo do sobrescrito, mas, onde quer que esteja, é um país com telhados e chaminés. Foi mesmo de tanto olhar para os telhados e chaminés que o Umbelino teve uma ideia: - Vou trabalhar por conta própria.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Outra do macaco Umbelino».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O macaco Umbelino, que vocês já conhecem, escreveu-me outra vez. Não sei em que país é que ele agora está, que nem reparei no selo do sobrescrito, mas, onde quer que esteja, é um país com telhados e chaminés. Foi mesmo de tanto olhar para os telhados e chaminés que o Umbelino teve uma ideia: - Vou trabalhar por conta própria. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "Os telhados destes prédios não são para qualquer um. Lá no alto, os homens têm vertigens, mas os macacos não. Vou fazer-me limpa-chaminés. Arranjou uma corda grossa e muito comprida, uma vassoura com cabo maior que mastro de navio e pôs-se a tocar às campainhas das portas. - Quem é? - perguntavam.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os telhados destes prédios não são para qualquer um. Lá no alto, os homens têm vertigens, mas os macacos não. Vou fazer-me limpa-chaminés. Arranjou uma corda grossa e muito comprida, uma vassoura com cabo maior que mastro de navio e pôs-se a tocar às campainhas das portas. - Quem é? - perguntavam. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "- Não é preciso - e batiam-lhe com a porta na cara. Certa vez, ia ele a passar, ouviu esta conversa entre duas porteiras: - A inquilina do 3º esquerdo é uma esquisita. Desconfio que tem macaquinhos no sótão... - dizia uma delas.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Não é preciso - e batiam-lhe com a porta na cara. Certa vez, ia ele a passar, ouviu esta conversa entre duas porteiras: - A inquilina do 3º esquerdo é uma esquisita. Desconfio que tem macaquinhos no sótão... - dizia uma delas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "O macaco Umbelino estacou, deitou contas à vida e resolveu subir ao 3º andar. Truz! Truz! A porta abriu-se e uma senhora com tranças meio desfeitas, grandes óculos de tartaruga e um ar, realmente, muito esquisito, espreitou. - Se é para limpar a chaminé, não preciso - disse ela.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O macaco Umbelino estacou, deitou contas à vida e resolveu subir ao 3º andar. Truz! Truz! A porta abriu-se e uma senhora com tranças meio desfeitas, grandes óculos de tartaruga e um ar, realmente, muito esquisito, espreitou. - Se é para limpar a chaminé, não preciso - disse ela. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p1",
+        "s5p2",
+        "s5p3"
+      ],
+      "evidence": "- Como ouvi ainda agora dizer que V. Exª tinha macaquinhos no sótão, pensei que... - Atrevido, malcriado - gritou a senhora. - Olhe que eu chamo a Polícia. Se ela chamou ou não chamou, o macaco Umbelino não conseguiu saber, porque fugiu a tempo.",
+      "after": {
+        "segment": 5,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Como ouvi ainda agora dizer que V. Exª tinha macaquinhos no sótão, pensei que... - Atrevido, malcriado - gritou a senhora. - Olhe que eu chamo a Polícia. Se ela chamou ou não chamou, o macaco Umbelino não conseguiu saber, porque fugiu a tempo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

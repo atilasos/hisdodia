@@ -1,0 +1,104 @@
+{
+  "characters": [],
+  "environment": "Floresta, casebre do lenhador, com pinheiros, troncos marcados a cruz e uma gaiola no interior da cabana.",
+  "palette": [
+    "castanhos quentes",
+    "verdes escuros",
+    "dourado opaco",
+    "cinzentos de inverno",
+    "toques de amarelo vivo"
+  ],
+  "recurringObjects": [
+    "machado",
+    "enxadão",
+    "canivete",
+    "cruz riscada no tronco",
+    "gaiola",
+    "pinheiro"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era uma vez um velho lenhador. Andara a vida inteira a percorrer a floresta e, agora que as forças já lhe faltavam para empunhar o machado, passava os dias, tristemente, à porta do seu casebre. Entre as lembranças mais antigas que lhe preenchiam a memória, recordava-se de uma história que o tinha encantado, na infância. Nela se contava que havia, na floresta, anõezinhos tão pequenos que nem um palmo mediriam. Os anões ou gnomos, tanto faz, guardavam, num esconderijo, pedras de ouro puro, acumuladas, ao longo de séculos pelo trabalho incansável de várias gerações de mineiros anõezinhos.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Sorte para o pintassilgo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um velho lenhador. Andara a vida inteira a percorrer a floresta e, agora que as forças já lhe faltavam para empunhar o machado, passava os dias, tristemente, à porta do seu casebre. Entre as lembranças mais antigas que lhe preenchiam a memória, recordava-se de uma história que o tinha encantado, na infância. Nela se contava que havia, na floresta, anõezinhos tão pequenos que nem um palmo mediriam. Os anões ou gnomos, tanto faz, guardavam, num esconderijo, pedras de ouro puro, acumuladas, ao longo de séculos pelo trabalho incansável de várias gerações de mineiros anõezinhos. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "Um gnomo a dormir, de boca aberta, junto à raiz de um pinheiro da floresta, era uma descoberta fantástica. O lenhador agarrou-o pela cintura como quem agarra um gafanhoto e gritou-lhe: - Afinal, sempre é verdade. Agora, só falta saber o segredo do tesouro dos gnomos...",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um gnomo a dormir, de boca aberta, junto à raiz de um pinheiro da floresta, era uma descoberta fantástica. O lenhador agarrou-o pela cintura como quem agarra um gafanhoto e gritou-lhe: - Afinal, sempre é verdade. Agora, só falta saber o segredo do tesouro dos gnomos... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s7p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s7p0",
+        "s7p1",
+        "s7p2"
+      ],
+      "evidence": "Era Inverno, estação do ano em que, como se sabe, a noite cai cedo e depressa. O lenhador, contrariado por ter de guardar para o dia seguinte o que queria resolver naquele dia, fez uma cruz a canivete, no tronco da árvore indicada, e disse: - Amanhã voltamos cá e, pelo seguro, tu hoje à noite vais ficar hospedado em minha casa. Maneira de dizer...",
+      "after": {
+        "segment": 7,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era Inverno, estação do ano em que, como se sabe, a noite cai cedo e depressa. O lenhador, contrariado por ter de guardar para o dia seguinte o que queria resolver naquele dia, fez uma cruz a canivete, no tronco da árvore indicada, e disse: - Amanhã voltamos cá e, pelo seguro, tu hoje à noite vais ficar hospedado em minha casa. Maneira de dizer... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s10p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s9p3",
+        "s10p0",
+        "s10p1"
+      ],
+      "evidence": "Efectivamente, a árvore tinha uma cruz, no tronco, riscada a canivete. Mas outras árvores perto e outras longe tinham uma cruz igual. Não havia uma única árvore da imensa floresta que não exibisse uma cruz, em cheio, no dorso do tronco. Os gnomos, pela calada da noite, tinham trabalhado bem.",
+      "after": {
+        "segment": 10,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Efectivamente, a árvore tinha uma cruz, no tronco, riscada a canivete. Mas outras árvores perto e outras longe tinham uma cruz igual. Não havia uma única árvore da imensa floresta que não exibisse uma cruz, em cheio, no dorso do tronco. Os gnomos, pela calada da noite, tinham trabalhado bem. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s11p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s10p0",
+        "s10p1",
+        "s11p0"
+      ],
+      "evidence": "Mas outras árvores perto e outras longe tinham uma cruz igual. Não havia uma única árvore da imensa floresta que não exibisse uma cruz, em cheio, no dorso do tronco. Os gnomos, pela calada da noite, tinham trabalhado bem. O lenhador, a sentir-se ainda mais velho e ainda mais cansado, deixou o enxadão encostado a uma das árvores, e voltou para casa, de cabeça baixa. Nada ganhara e até o pintassilgo da gaiola ele tinha perdido...",
+      "after": {
+        "segment": 11,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas outras árvores perto e outras longe tinham uma cruz igual. Não havia uma única árvore da imensa floresta que não exibisse uma cruz, em cheio, no dorso do tronco. Os gnomos, pela calada da noite, tinham trabalhado bem. O lenhador, a sentir-se ainda mais velho e ainda mais cansado, deixou o enxadão encostado a uma das árvores, e voltou para casa, de cabeça baixa. Nada ganhara e até o pintassilgo da gaiola ele tinha perdido... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

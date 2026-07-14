@@ -1,0 +1,116 @@
+{
+  "characters": [
+    {
+      "name": "menino",
+      "appearance": "criança na praia, com balde novo, pá e ancinho"
+    },
+    {
+      "name": "mãe",
+      "appearance": "adulta, na praia, junto ao menino e ao pai"
+    },
+    {
+      "name": "pai",
+      "appearance": "adulto, na praia, mais tarde afastado e perdido entre a multidão"
+    }
+  ],
+  "environment": "Uma praia muito cheia, com toldos, barracas de lona, chapéus-de-sol sobrepostos e vista apertada pela multidão; ao longo da história, a areia livre vai-se transformando num castelo de areia cada vez maior.",
+  "palette": [
+    "areia clara",
+    "azul-mar",
+    "bege e branco das tendas",
+    "vermelhos e amarelos dos chapéus-de-sol",
+    "tons quentes de fim de tarde"
+  ],
+  "recurringObjects": [
+    "balde",
+    "pá",
+    "ancinho",
+    "chapéu-de-sol",
+    "castelo de areia"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s2p0"
+      ],
+      "evidence": "Era uma praia muito carregada de gente. Toldos e barracas de lona tapavam a vista do mar. Chapéus-de-sol, em cacho, uns sobre os outros, tapavam a vista do céu. Para que um banhista, mesmo magrinho, conseguisse estender a toalha de banho sobre a areia, tinha de pedir \"Com licença, com licença\" aos vizinhos, para que se chegassem um pouco mais para o lado. Então, toda a praia se movia, à esquerda e à direita, como uma onda e as pessoas, sucessivamente, diziam \"Com licença, com licença\", a pedirem espaço ao vizinho do lado, até nos dois extremos da praia os últimos banhistas gritarem: \"Não apertem mais!\" E estes últimos banhistas acabavam por ter de ficar em pé, de encontro à muralha.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O castelo de areia».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma praia muito carregada de gente. Toldos e barracas de lona tapavam a vista do mar. Chapéus-de-sol, em cacho, uns sobre os outros, tapavam a vista do céu. Para que um banhista, mesmo magrinho, conseguisse estender a toalha de banho sobre a areia, tinha de pedir \"Com licença, com licença\" aos vizinhos, para que se chegassem um pouco mais para o lado. Então, toda a praia se movia, à esquerda e à direita, como uma onda e as pessoas, sucessivamente, diziam \"Com licença, com licença\", a pedirem espaço ao vizinho do lado, até nos dois extremos da praia os últimos banhistas gritarem: \"Não apertem mais!\" E estes últimos banhistas acabavam por ter de ficar em pé, de encontro à muralha. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s3p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "- Só quando o teu pai for tomar banho - disse a mãe. - Para que lado é que é a água? - perguntou o pai. - Acho que é para ali - apontou a mãe.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Só quando o teu pai for tomar banho - disse a mãe. - Para que lado é que é a água? - perguntou o pai. - Acho que é para ali - apontou a mãe. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s8p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s7p1",
+        "s8p0",
+        "s8p1"
+      ],
+      "evidence": "- Quero um gelado. A mãe escusou-se, explicando-lhe que se ela fosse procurar a barraca dos gelados, ia ser muito difícil depois dar de novo com o sítio onde estavam. Mas o menino insistiu tanto, que ela acedeu.",
+      "after": {
+        "segment": 8,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Quero um gelado. A mãe escusou-se, explicando-lhe que se ela fosse procurar a barraca dos gelados, ia ser muito difícil depois dar de novo com o sítio onde estavam. Mas o menino insistiu tanto, que ela acedeu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s12p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s11p1",
+        "s11p2",
+        "s12p0"
+      ],
+      "evidence": "Pois sim. A verdade é que se demoraram, tanto que a mãe da rapariga, muito enervada, resolveu ir à cata deles, pela praia fora. A obra crescia a olhos vistos. Era um imponente amuralhado com várias cercas e fossas, torres anexas e trincheiras defensivas, esculpidas com primor pelos dedos hábeis do menino, esquecido de tudo o mais à sua volta.",
+      "after": {
+        "segment": 12,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Pois sim. A verdade é que se demoraram, tanto que a mãe da rapariga, muito enervada, resolveu ir à cata deles, pela praia fora. A obra crescia a olhos vistos. Era um imponente amuralhado com várias cercas e fossas, torres anexas e trincheiras defensivas, esculpidas com primor pelos dedos hábeis do menino, esquecido de tudo o mais à sua volta. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s14p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s14p0",
+        "s14p1",
+        "s14p2"
+      ],
+      "evidence": "Abraçaram-se, como se já tivessem perdido a esperança de voltarem a encontrar-se. - Este dia correu muito mal - concordaram os pais. Só o menino não era da mesma opinião.",
+      "after": {
+        "segment": 14,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Abraçaram-se, como se já tivessem perdido a esperança de voltarem a encontrar-se. - Este dia correu muito mal - concordaram os pais. Só o menino não era da mesma opinião. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

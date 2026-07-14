@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": "Portuguese countryside with pasture, stream, and stable",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Dantes, o cavalo e o veado eram amigos. Repartiam as mesmas pastagens. Bebiam lado a lado da água do mesmo ribeiro. Dormiam, trocando calor, na paz do mesmo conchego. Eram amigos, pronto. Mas, nem eles saberiam dizer porquê, um dia, zangaram-se. Ou porque um pisou a relva destinada ao outro.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Mau Aliado».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Dantes, o cavalo e o veado eram amigos. Repartiam as mesmas pastagens. Bebiam lado a lado da água do mesmo ribeiro. Dormiam, trocando calor, na paz do mesmo conchego. Eram amigos, pronto. Mas, nem eles saberiam dizer porquê, um dia, zangaram-se. Ou porque um pisou a relva destinada ao outro. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p6",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "Ou porque um se agitou no sono e interrompeu o dormir do outro. Por qualquer ninharia tola deixaram de ser amigos. Zangaram-se, pronto.",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ou porque um se agitou no sono e interrompeu o dormir do outro. Por qualquer ninharia tola deixaram de ser amigos. Zangaram-se, pronto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p13",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p11",
+        "s0p12",
+        "s0p13"
+      ],
+      "evidence": "Não sei se já disse que o cavalo era selvagem. Nunca tinha suportado peso nenhum em cima nem sabia o que era puxar uma carroça. Vivera sempre em liberdade, ao lado do veado, e longe dos homens, das cilhas, das selas, dos freios, das bridas, das esporas, que os homens inventam para submeter os cavalos ao seu mando. Era livre, pronto. Aparelhado à conveniência do caçador, lá foi o cavalo a galope, ao encontro do veado. Caçá-lo não custou nada.",
+      "after": {
+        "segment": 0,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não sei se já disse que o cavalo era selvagem. Nunca tinha suportado peso nenhum em cima nem sabia o que era puxar uma carroça. Vivera sempre em liberdade, ao lado do veado, e longe dos homens, das cilhas, das selas, dos freios, das bridas, das esporas, que os homens inventam para submeter os cavalos ao seu mando. Era livre, pronto. Aparelhado à conveniência do caçador, lá foi o cavalo a galope, ao encontro do veado. Caçá-lo não custou nada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p20",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p18",
+        "s0p19",
+        "s0p20"
+      ],
+      "evidence": "– Acho-te muita graça, cavalinho. Então tu julgas que, depois do trabalho que me deste, ia deixar-te partir? – Mas foi só um serviço, um negócio, uma aliança entre nós dois – protestou o cavalo. – Arrumado o caso, volta cada um para seu lado. Liberta-me do freio que me está a magoar. – Nunca mais – sentenciou o homem. – Vais conhecer as minhas cavalariças, assim como já conheceste as minhas ordens.",
+      "after": {
+        "segment": 0,
+        "paragraph": 20
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Acho-te muita graça, cavalinho. Então tu julgas que, depois do trabalho que me deste, ia deixar-te partir? – Mas foi só um serviço, um negócio, uma aliança entre nós dois – protestou o cavalo. – Arrumado o caso, volta cada um para seu lado. Liberta-me do freio que me está a magoar. – Nunca mais – sentenciou o homem. – Vais conhecer as minhas cavalariças, assim como já conheceste as minhas ordens. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p23",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p21",
+        "s0p22",
+        "s0p23"
+      ],
+      "evidence": "De nada valeu ao cavalo escoicear e encabritar-se, na vã tentativa de escapar ao aperto do homem. Ele era um bom cavaleiro e estava habituado a domar cavalos selvagens. Aquele oferecera-se. Agora suportava as consequências. O cavalo acabou por aceitar, resignado, o seu novo destino. Era o castigo, pronto. Acabou-se.",
+      "after": {
+        "segment": 0,
+        "paragraph": 23
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: De nada valeu ao cavalo escoicear e encabritar-se, na vã tentativa de escapar ao aperto do homem. Ele era um bom cavaleiro e estava habituado a domar cavalos selvagens. Aquele oferecera-se. Agora suportava as consequências. O cavalo acabou por aceitar, resignado, o seu novo destino. Era o castigo, pronto. Acabou-se. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

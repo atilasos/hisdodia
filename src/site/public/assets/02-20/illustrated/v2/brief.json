@@ -1,0 +1,133 @@
+{
+  "characters": [
+    {
+      "name": "Bumbo",
+      "appearance": "Elefante de circo curioso, tromba longa e expressiva, depois inchada nas cenas finais"
+    },
+    {
+      "name": "Cola-tudo",
+      "appearance": "Domador do circo, figura humana de autoridade, atento e repreensivo"
+    },
+    {
+      "name": "Abelhas-guerreiras",
+      "appearance": "Enxame de abelhas activas, agressivas quando o elefante se intromete"
+    }
+  ],
+  "environment": "Circo Maravilhas em viagem por caminhos rurais, com caravana, árvores, campo murado e cortiços de cortiça num cenário campestre português.",
+  "palette": [
+    "verdes naturais",
+    "castanhos de terra e cortiça",
+    "amarelos quentes de mel e sol",
+    "azuis suaves de céu",
+    "toques de vermelho e dourado de circo"
+  ],
+  "recurringObjects": [
+    "caravana do circo",
+    "tromba do elefante",
+    "cortiços de cortiça",
+    "abelhas",
+    "caminho rural"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "No Circo Maravilhas ou mesmo fora do Circo Maravilhas, o elefante era o mais abelhudo. Em tudo metia o nariz. Não havia cantinho escondido, panela tapada, caixa voltada, que o elefante Bumbo não investigasse, metendo delicadamente a ponta da tromba no objecto da sua curiosidade. O domador Cola-tudo muito se afligia com a teima do seu elefante preferido e bastas vezes o ameaçara: - Se tu não te emendas, ponho-te um açaime .",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O elefante Bumbo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: No Circo Maravilhas ou mesmo fora do Circo Maravilhas, o elefante era o mais abelhudo. Em tudo metia o nariz. Não havia cantinho escondido, panela tapada, caixa voltada, que o elefante Bumbo não investigasse, metendo delicadamente a ponta da tromba no objecto da sua curiosidade. O domador Cola-tudo muito se afligia com a teima do seu elefante preferido e bastas vezes o ameaçara: - Se tu não te emendas, ponho-te um açaime . Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "O domador Cola-tudo muito se afligia com a teima do seu elefante preferido e bastas vezes o ameaçara: - Se tu não te emendas, ponho-te um açaime . Ele dizia isto muito a sério, mas no fundo não acreditava que fosse possível arranjar um açaime onde coubesse a tromba, mesmo enrolada, do elefante Bumbo.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O domador Cola-tudo muito se afligia com a teima do seu elefante preferido e bastas vezes o ameaçara: - Se tu não te emendas, ponho-te um açaime . Ele dizia isto muito a sério, mas no fundo não acreditava que fosse possível arranjar um açaime onde coubesse a tromba, mesmo enrolada, do elefante Bumbo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s3p0"
+      ],
+      "evidence": "E, o que é mais grave, o elefante também não acreditava. Pois sucedeu, de uma vez em que o Circo Maravilhas ia de viagem, o caso que vamos contar. O Bumbo fechava a caravana. Se fosse à frente, empatava o caminho com as suas tardanças e coscuvilhices , por coisas que não valiam meio real. Assim, ia atrás de todos e livremente se demorava a meter a tromba pela ramagem folhuda de uma árvore ou a estendê-la até alguma toca abandonada de coelho. Se a caravana se distanciava muito, o Bumbo dava uma corrida que estremecia o caminho e voltava para junto dos seus companheiros de jornada.",
+      "after": {
+        "segment": 3,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E, o que é mais grave, o elefante também não acreditava. Pois sucedeu, de uma vez em que o Circo Maravilhas ia de viagem, o caso que vamos contar. O Bumbo fechava a caravana. Se fosse à frente, empatava o caminho com as suas tardanças e coscuvilhices , por coisas que não valiam meio real. Assim, ia atrás de todos e livremente se demorava a meter a tromba pela ramagem folhuda de uma árvore ou a estendê-la até alguma toca abandonada de coelho. Se a caravana se distanciava muito, o Bumbo dava uma corrida que estremecia o caminho e voltava para junto dos seus companheiros de jornada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Assim, ia atrás de todos e livremente se demorava a meter a tromba pela ramagem folhuda de uma árvore ou a estendê-la até alguma toca abandonada de coelho. Se a caravana se distanciava muito, o Bumbo dava uma corrida que estremecia o caminho e voltava para junto dos seus companheiros de jornada. Num campo murado, viu umas caixas cilíndricas de cortiça com um buraquinho na base, por onde entravam e saíam uns insectos de asas rápidas, que zumbiam numa grande ânsia de trabalho. Intrigante... Ver não bastava ao elefante Bumbo. Cheirar o que se passava no interior dos cortiços, isso sim, valia a pena.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Assim, ia atrás de todos e livremente se demorava a meter a tromba pela ramagem folhuda de uma árvore ou a estendê-la até alguma toca abandonada de coelho. Se a caravana se distanciava muito, o Bumbo dava uma corrida que estremecia o caminho e voltava para junto dos seus companheiros de jornada. Num campo murado, viu umas caixas cilíndricas de cortiça com um buraquinho na base, por onde entravam e saíam uns insectos de asas rápidas, que zumbiam numa grande ânsia de trabalho. Intrigante... Ver não bastava ao elefante Bumbo. Cheirar o que se passava no interior dos cortiços, isso sim, valia a pena. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "Alongou a tromba, apontou-a à entrada e enfiou-a afoitamente num desse esquisitos objectos de cortiça. Nem teve tempo de cheirar o mel lá guardado, porque uma legião de abelhas-guerreiras cravou as lanças dos seus ferrões aguçados na tromba do intrometido. - Ui, que comichão! - protestou o elefante, encolhendo a tromba.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Alongou a tromba, apontou-a à entrada e enfiou-a afoitamente num desse esquisitos objectos de cortiça. Nem teve tempo de cheirar o mel lá guardado, porque uma legião de abelhas-guerreiras cravou as lanças dos seus ferrões aguçados na tromba do intrometido. - Ui, que comichão! - protestou o elefante, encolhendo a tromba. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s6p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p3",
+        "s6p4",
+        "s6p5"
+      ],
+      "evidence": "- As abelhas não gostam de elefantes abelhudos, fica sabendo! - Nem os elefantes abelhudos gostam de abelhas aguçadas - dizia o elefante Bumbo, muito dorido. E, enquanto andou com a tromba inchada, não a meteu onde não devia.",
+      "after": {
+        "segment": 6,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - As abelhas não gostam de elefantes abelhudos, fica sabendo! - Nem os elefantes abelhudos gostam de abelhas aguçadas - dizia o elefante Bumbo, muito dorido. E, enquanto andou com a tromba inchada, não a meteu onde não devia. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

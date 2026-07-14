@@ -1,0 +1,74 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Este tambor, mal nasceu, foi logo para o serviço militar. Acabar de ser feito, de pele nova e madeira pintada de fresco, e, logo de seguida, assentar praça, à frente dos recrutas, não é destino que se inveje. À frente dos recrutas e a comandá-los:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «História de 23 de Outubro».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Este tambor, mal nasceu, foi logo para o serviço militar. Acabar de ser feito, de pele nova e madeira pintada de fresco, e, logo de seguida, assentar praça, à frente dos recrutas, não é destino que se inveje. À frente dos recrutas e a comandá-los: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p9",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p7",
+        "s1p8",
+        "s1p9"
+      ],
+      "evidence": "Aquilo não era a brincar. Estavam a preparar soldados para coisa mais séria. Uma guerra de verdade. O tambor também foi chamado. Era um tempo em que os exercícios avançavam para o campo de batalha ao som dos tambores. Na mais infernal mistura de ruídos, toques de cornetim, troar de canhões, silvar de balas, gritos e gemidos, o bater compassado dos tambores nunca abandonava os combatentes. Os soldados marchavam em linha, de armas apontadas. À frente deles, o tambor, marcando o passo do avanço.",
+      "after": {
+        "segment": 1,
+        "paragraph": 9
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Aquilo não era a brincar. Estavam a preparar soldados para coisa mais séria. Uma guerra de verdade. O tambor também foi chamado. Era um tempo em que os exercícios avançavam para o campo de batalha ao som dos tambores. Na mais infernal mistura de ruídos, toques de cornetim, troar de canhões, silvar de balas, gritos e gemidos, o bater compassado dos tambores nunca abandonava os combatentes. Os soldados marchavam em linha, de armas apontadas. À frente deles, o tambor, marcando o passo do avanço. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p14",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p12",
+        "s1p13",
+        "s1p14"
+      ],
+      "evidence": "– Rataplã-plã-plã! Rataplã-plã-plã! Até que, um dia, calou-se. Houve tréguas. Combinou-se a paz. Calou-se ele e calaram-se os canhões. Até que enfim.",
+      "after": {
+        "segment": 1,
+        "paragraph": 14
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Rataplã-plã-plã! Rataplã-plã-plã! Até que, um dia, calou-se. Houve tréguas. Combinou-se a paz. Calou-se ele e calaram-se os canhões. Até que enfim. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s2p6",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p4",
+        "s2p5",
+        "s2p6"
+      ],
+      "evidence": "À frente da marcha, o tambor descobria uma maneira nova de dizer que aquele era o dia mais feliz da sua vida: – Rataplã-rataplã-rataplã! Plã-rataplã! Plã-rataplã!... Rataplã-rataplã-rataplã! Plã-rataplã! Plã-rataplã!... Rataplã- rataplã-rataplã! E nunca mais quis tocar outra música.",
+      "after": {
+        "segment": 2,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: À frente da marcha, o tambor descobria uma maneira nova de dizer que aquele era o dia mais feliz da sua vida: – Rataplã-rataplã-rataplã! Plã-rataplã! Plã-rataplã!... Rataplã-rataplã-rataplã! Plã-rataplã! Plã-rataplã!... Rataplã- rataplã-rataplã! E nunca mais quis tocar outra música. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

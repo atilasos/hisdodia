@@ -1,0 +1,141 @@
+{
+  "characters": [
+    {
+      "name": "narrador",
+      "appearance": "voz observadora, implícita no texto"
+    },
+    {
+      "name": "Gata Borralheira",
+      "appearance": "jovem bondosa, figura central do conto"
+    },
+    {
+      "name": "Príncipe",
+      "appearance": "noivo real associado ao sapatinho"
+    },
+    {
+      "name": "duas mazonas",
+      "appearance": "duas irmãs de aspeto desgrenhado, depois aperaltadas e por fim mais luminosas"
+    },
+    {
+      "name": "médico",
+      "appearance": "figura clínica que examina e diagnostica"
+    }
+  ],
+  "environment": "Portugal de conto tradicional, com casamento real, banquete, consulta médica e transformação moral das duas irmãs.",
+  "palette": [
+    "tons quentes e cerimoniais",
+    "ouros e brancos de casamento",
+    "ocres e castanhos domésticos",
+    "verdes e azuis suaves de cura",
+    "acentos luminosos para a transformação final"
+  ],
+  "recurringObjects": [
+    "sapatinho",
+    "mesa de banquete",
+    "cotovelos",
+    "coração simbólico",
+    "instrumentos de médico"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Não sei se foram convidados para o casamento da Gata Borralheira com o Príncipe, o tal que andou com um sapatinho na mão, à procura de pé que lhe servisse. Esta história já conhecem bem. Eu, que até estive no casamento, não vou, agora, contá-la, porque não adiantava nada ao que já sabem. Em contrapartida, posso contar o que aconteceu às duas mazonas, de cabeleiras desgrenhadas, que faziam a vida negra à pobre da Gata Borralheira.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «As mazonas da Gata Borralheira».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não sei se foram convidados para o casamento da Gata Borralheira com o Príncipe, o tal que andou com um sapatinho na mão, à procura de pé que lhe servisse. Esta história já conhecem bem. Eu, que até estive no casamento, não vou, agora, contá-la, porque não adiantava nada ao que já sabem. Em contrapartida, posso contar o que aconteceu às duas mazonas, de cabeleiras desgrenhadas, que faziam a vida negra à pobre da Gata Borralheira. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Esta história já conhecem bem. Eu, que até estive no casamento, não vou, agora, contá-la, porque não adiantava nada ao que já sabem. Em contrapartida, posso contar o que aconteceu às duas mazonas, de cabeleiras desgrenhadas, que faziam a vida negra à pobre da Gata Borralheira. Também as vi no casamento, mais compostas, aperaltadas , embora não conseguissem disfarçar a feiura e a inveja que sentiam por não ocuparem, elas, o lugar ao lado do Príncipe. Umas safadas incorrigíveis.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Esta história já conhecem bem. Eu, que até estive no casamento, não vou, agora, contá-la, porque não adiantava nada ao que já sabem. Em contrapartida, posso contar o que aconteceu às duas mazonas, de cabeleiras desgrenhadas, que faziam a vida negra à pobre da Gata Borralheira. Também as vi no casamento, mais compostas, aperaltadas , embora não conseguissem disfarçar a feiura e a inveja que sentiam por não ocuparem, elas, o lugar ao lado do Príncipe. Umas safadas incorrigíveis. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p1",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Também as vi no casamento, mais compostas, aperaltadas , embora não conseguissem disfarçar a feiura e a inveja que sentiam por não ocuparem, elas, o lugar ao lado do Príncipe. Umas safadas incorrigíveis. No banquete, vingaram-se e comeram que nem umas desalmadas. Claro que, no dia seguinte, estavam doentes, com dores no estômago e outros problemas que não merece a pena pormenorizar. Saiba-se que, além do resto, lhes tinha aparecido uma borbulhagem nos cotovelos ossudos e pontiagudos. Quanto mais os coçavam, mais comichão tinham.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Também as vi no casamento, mais compostas, aperaltadas , embora não conseguissem disfarçar a feiura e a inveja que sentiam por não ocuparem, elas, o lugar ao lado do Príncipe. Umas safadas incorrigíveis. No banquete, vingaram-se e comeram que nem umas desalmadas. Claro que, no dia seguinte, estavam doentes, com dores no estômago e outros problemas que não merece a pena pormenorizar. Saiba-se que, além do resto, lhes tinha aparecido uma borbulhagem nos cotovelos ossudos e pontiagudos. Quanto mais os coçavam, mais comichão tinham. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Nascia no sítio onde o coração palpita, mais depressa ou mais devagar, conforme o peso e a velocidade dos sentimentos. Sentimentos? Onde é que elas os tinham? Nem coração. Quando o médico, auscultando-as, deu por que as duas manas não tinham coração, percebeu tudo.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Nascia no sítio onde o coração palpita, mais depressa ou mais devagar, conforme o peso e a velocidade dos sentimentos. Sentimentos? Onde é que elas os tinham? Nem coração. Quando o médico, auscultando-as, deu por que as duas manas não tinham coração, percebeu tudo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p1",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "Heróis com coração demasiado outros com o coração ao pé da boca... Do que me sobrou daqui e dali, amoldei dois pequenos corações vivazes, a transpirar meiguice. Preciosos maquinismos de relojoaria, batem certinhos, quando se lhes dá corda. Colocá-los no peito das duas megeras foi o que menos custou.",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Heróis com coração demasiado outros com o coração ao pé da boca... Do que me sobrou daqui e dali, amoldei dois pequenos corações vivazes, a transpirar meiguice. Preciosos maquinismos de relojoaria, batem certinhos, quando se lhes dá corda. Colocá-los no peito das duas megeras foi o que menos custou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s9p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s9p0",
+        "s9p1",
+        "s9p2"
+      ],
+      "evidence": "Elas lacrimejaram umas desculpas sentidas e ambas se ofereceram para madrinhas do primeiro filho que nascer da Gata Borralheira. A sério. E estão mais felizes, mais luminosas. Até conseguem estar bonitas. Não podemos é esquecer-nos de, todos os dias, dar-lhes corda ao coração.",
+      "after": {
+        "segment": 9,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Elas lacrimejaram umas desculpas sentidas e ambas se ofereceram para madrinhas do primeiro filho que nascer da Gata Borralheira. A sério. E estão mais felizes, mais luminosas. Até conseguem estar bonitas. Não podemos é esquecer-nos de, todos os dias, dar-lhes corda ao coração. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

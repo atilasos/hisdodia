@@ -1,0 +1,83 @@
+{
+  "characters": [],
+  "environment": "Casa com entrada e capacho, onde três cães de idades diferentes convivem com a dona.",
+  "palette": [
+    "tons quentes e domésticos",
+    "castanhos e beges",
+    "azuis suaves",
+    "contrastes de luz natural"
+  ],
+  "recurringObjects": [
+    "capacho",
+    "álbum de fotografias",
+    "cesto pequeno"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma senhora que tinha três cães. Um era já velhote. Outro, assim assim. O terceiro era um cachorro ladino, que nunca estava quieto. Os três da mesma raça. Não me perguntem qual, porque nisso de marcas de cães e raças de automóveis – perdão! – de raças de cães e marcas de automóveis sou muito ignorante. O cão velho, deitado no capacho da entrada, vendo o mais novo a correr atrás de uma aranha, de uma borboleta, até da própria sombra, comentava para o cão do meio:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Acreditem».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma senhora que tinha três cães. Um era já velhote. Outro, assim assim. O terceiro era um cachorro ladino, que nunca estava quieto. Os três da mesma raça. Não me perguntem qual, porque nisso de marcas de cães e raças de automóveis – perdão! – de raças de cães e marcas de automóveis sou muito ignorante. O cão velho, deitado no capacho da entrada, vendo o mais novo a correr atrás de uma aranha, de uma borboleta, até da própria sombra, comentava para o cão do meio: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p10",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p8",
+        "s0p9",
+        "s0p10"
+      ],
+      "evidence": "– Não acredito – teimava o cachorrinho, sempre a correr. – Como é que havemos de convencê-lo que já passámos pela idade dele e que ele há-de chegar à nossa? – perguntou o cão do meio ao cão mais velho. – Vai ser difícil – concluiu o cão velhote, sem se despegar do capacho.",
+      "after": {
+        "segment": 0,
+        "paragraph": 10
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Não acredito – teimava o cachorrinho, sempre a correr. – Como é que havemos de convencê-lo que já passámos pela idade dele e que ele há-de chegar à nossa? – perguntou o cão do meio ao cão mais velho. – Vai ser difícil – concluiu o cão velhote, sem se despegar do capacho. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p16",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p14",
+        "s0p15",
+        "s0p16"
+      ],
+      "evidence": "Páginas adiante, a senhora apontou outro cãozinho de grandes olhos brilhantes e orelhas espetadas: – Este é o Xana, quando veio cá para casa, dentro de um cestinho. Era um brincalhão. – Não acredito – esbraveja o cachorro, no colo da dona.",
+      "after": {
+        "segment": 0,
+        "paragraph": 16
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Páginas adiante, a senhora apontou outro cãozinho de grandes olhos brilhantes e orelhas espetadas: – Este é o Xana, quando veio cá para casa, dentro de um cestinho. Era um brincalhão. – Não acredito – esbraveja o cachorro, no colo da dona. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p19",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p17",
+        "s0p18",
+        "s0p19"
+      ],
+      "evidence": "E sem querer saber de mais histórias antigas, o cãozinho soltou-se das mãos da dona e desatou a correr. Não acreditava, não acreditava, não acreditava que aqueles dois cãozarrões sisudos, muito dignamente sentados nas patas traseiras, já tivessem sido como ele. Era mentira. Era impossível. Era um disparate. Não acreditava, pronto. Mas, com o tempo, acabou por acreditar...",
+      "after": {
+        "segment": 0,
+        "paragraph": 19
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E sem querer saber de mais histórias antigas, o cãozinho soltou-se das mãos da dona e desatou a correr. Não acreditava, não acreditava, não acreditava que aqueles dois cãozarrões sisudos, muito dignamente sentados nas patas traseiras, já tivessem sido como ele. Era mentira. Era impossível. Era um disparate. Não acreditava, pronto. Mas, com o tempo, acabou por acreditar... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

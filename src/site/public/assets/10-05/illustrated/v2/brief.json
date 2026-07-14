@@ -1,0 +1,85 @@
+{
+  "characters": [],
+  "environment": "Palácio e praça de um reino oriental em declínio, com interiores de almofadas e um exterior agitado diante do palácio.",
+  "palette": [
+    "ocre",
+    "azul-petróleo",
+    "vermelho-tijolo",
+    "dourado gasto",
+    "cinza poeirento"
+  ],
+  "recurringObjects": [
+    "almofadas",
+    "portas do palácio",
+    "formigas",
+    "multidão"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era um sultão bonacheirão. Sentado em almofadas, bem instalado, de pernas cruzadas, o sultão bonacheirão ouvia, sorria e calava. Vinham ministros falar-lhe das arcas dos tesouros do reino quase vazias, e o sultão bonacheirão ouvia, sorria e calava.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Sultão Bonacheirão».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era um sultão bonacheirão. Sentado em almofadas, bem instalado, de pernas cruzadas, o sultão bonacheirão ouvia, sorria e calava. Vinham ministros falar-lhe das arcas dos tesouros do reino quase vazias, e o sultão bonacheirão ouvia, sorria e calava. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p7",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p5",
+        "s0p6",
+        "s0p7"
+      ],
+      "evidence": "Tanto sorria e tanto calava que os ministros, os generais e os mensageiros desistiram de lhe falar. Um por um, foram abandonando o palácio do sultão, e com eles saíram os cortesãos, os guardas e os criados. Ficou o sultão sozinho, sentado em almofadas, de pernas cruzadas, sorrindo, sorrindo sempre.",
+      "after": {
+        "segment": 0,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Tanto sorria e tanto calava que os ministros, os generais e os mensageiros desistiram de lhe falar. Um por um, foram abandonando o palácio do sultão, e com eles saíram os cortesãos, os guardas e os criados. Ficou o sultão sozinho, sentado em almofadas, de pernas cruzadas, sorrindo, sorrindo sempre. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p15",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p13",
+        "s0p14",
+        "s0p15"
+      ],
+      "evidence": "O sultão deixou de sorrir. - Esperem por mim - balbuciou, levantando-se a custo. Foi atrás das formigas e enfiou por um subterrâneo do palácio, onde se enfarruscou todo, a ponto de, uma vez cá fora, ninguém o reconhecer como sultão.",
+      "after": {
+        "segment": 0,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O sultão deixou de sorrir. - Esperem por mim - balbuciou, levantando-se a custo. Foi atrás das formigas e enfiou por um subterrâneo do palácio, onde se enfarruscou todo, a ponto de, uma vez cá fora, ninguém o reconhecer como sultão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p20",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p18",
+        "s0p19",
+        "s0p20"
+      ],
+      "evidence": "- O antigo sultão era um paspalhão. Não prestava para nada, não sabia governar - disse outro homem, passando pelo sultão, que não sorria. - A estas horas ainda deve estar no palácio, de pernas cruzadas sobre uma montanha de almofadas. Sultão paspalhão! Vamos lá nós e cai tudo ao chão. - Vamos! Vamos! - gritaram várias vozes. Desta vez o sultão bonacheirão, vendo-os ir em direcção ao palácio, ouvi-os, sorriu e calou-se.",
+      "after": {
+        "segment": 0,
+        "paragraph": 20
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - O antigo sultão era um paspalhão. Não prestava para nada, não sabia governar - disse outro homem, passando pelo sultão, que não sorria. - A estas horas ainda deve estar no palácio, de pernas cruzadas sobre uma montanha de almofadas. Sultão paspalhão! Vamos lá nós e cai tudo ao chão. - Vamos! Vamos! - gritaram várias vozes. Desta vez o sultão bonacheirão, vendo-os ir em direcção ao palácio, ouvi-os, sorriu e calou-se. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

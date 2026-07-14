@@ -1,0 +1,120 @@
+{
+  "characters": [
+    {
+      "name": "Medo",
+      "appearance": "Jogador de futebol em tom associado ao medo, presença forte e inesperada, com ar de destaque"
+    },
+    {
+      "name": "Zé Nervos",
+      "appearance": "Jovem futebolista nervoso mas talentoso, domínio de bola irregular e remate potente"
+    },
+    {
+      "name": "Chico Nervos",
+      "appearance": "Outro futebolista nervoso, perfil de meio-campo, atento e rápido a organizar o jogo"
+    },
+    {
+      "name": "Treinador",
+      "appearance": "Treinador expansivo e confiante, depois abatido, figura central da equipa"
+    }
+  ],
+  "environment": "Estádios e balneários de futebol, com bancadas cheias, relvado vibrante e atmosfera de jogo contemporânea.",
+  "palette": [
+    "verde relvado",
+    "branco e azul de equipamento desportivo",
+    "vermelho discreto para tensão",
+    "cinzento de balneário",
+    "amarelos e laranjas de luz de estádio"
+  ],
+  "recurringObjects": [
+    "bola de futebol",
+    "balneário",
+    "bancadas do estádio",
+    "apito do treinador",
+    "camisolas da equipa"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Hoje vou falar de futebol. Era uma vez um jogador que se chamava Medo. Um grande jogador! - Vamos jogar contra o Medo - diziam, antes do desafio, os adversários, cheios de medo.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Assim não Jogo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Hoje vou falar de futebol. Era uma vez um jogador que se chamava Medo. Um grande jogador! - Vamos jogar contra o Medo - diziam, antes do desafio, os adversários, cheios de medo. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s1p0"
+      ],
+      "evidence": "- Estamos muito desfalcados - lamentavam-se os companheiros de equipa. - Sem o Medo não é a mesma coisa. Foram buscar o suplente. Por acaso, o rapaz até se chamava Nervos. Era o Zé Nervos, não muito jeitoso a dominar a bola, mas com uma potência no remate de virar os guarda-redes do avesso.",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Estamos muito desfalcados - lamentavam-se os companheiros de equipa. - Sem o Medo não é a mesma coisa. Foram buscar o suplente. Por acaso, o rapaz até se chamava Nervos. Era o Zé Nervos, não muito jeitoso a dominar a bola, mas com uma potência no remate de virar os guarda-redes do avesso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s4p0"
+      ],
+      "evidence": "- Vocês não têm mais irmãos ou primos com queda para o futebol? - perguntava aos dois Nervos o treinador. - Se tiverem, eu contrato-os. Com os Nervos todos do nosso lado, bem controlados por mim, seremos imbatíveis. Por sinal que eles não tinham mais parentes virados para o desporto. Eram os únicos Nervos futebolistas da família. Mas chegavam. - Nervos! Nervos! Nervos! - gritavam os espectadores, nas bancadas.",
+      "after": {
+        "segment": 4,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Vocês não têm mais irmãos ou primos com queda para o futebol? - perguntava aos dois Nervos o treinador. - Se tiverem, eu contrato-os. Com os Nervos todos do nosso lado, bem controlados por mim, seremos imbatíveis. Por sinal que eles não tinham mais parentes virados para o desporto. Eram os únicos Nervos futebolistas da família. Mas chegavam. - Nervos! Nervos! Nervos! - gritavam os espectadores, nas bancadas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s7p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p1",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "O treinador fez umas substituições, uns acertos e, sem dispensar os primos Nervos, mandou vir o Medo. - Por este andar, com uma equipa deste nível, vamos ganhar a Taça das Taças das Taças das Taças - dizia o treinador, a esfregar as mãos e a rir-se. Riso de pouca dura. O primeiro jogo com a nova formação foi um desastre. O segundo jogo, uma calamidade. Do terceiro jogo já não posso falar, porque não assisti.",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O treinador fez umas substituições, uns acertos e, sem dispensar os primos Nervos, mandou vir o Medo. - Por este andar, com uma equipa deste nível, vamos ganhar a Taça das Taças das Taças das Taças - dizia o treinador, a esfregar as mãos e a rir-se. Riso de pouca dura. O primeiro jogo com a nova formação foi um desastre. O segundo jogo, uma calamidade. Do terceiro jogo já não posso falar, porque não assisti. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s9p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s8p1",
+        "s8p2",
+        "s9p0"
+      ],
+      "evidence": "Sim, era eu o treinador da equipa, esqueci-me de avisar no princípio. Depois deste desaire, nunca mais voltei a um estádio. Mudei de vida. Empreguei-me a escrever histórias... Mas uma coisa aprendi da minha passagem pelo desporto: com Nervos e Medo juntos, nunca se consegue ganhar.",
+      "after": {
+        "segment": 9,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Sim, era eu o treinador da equipa, esqueci-me de avisar no princípio. Depois deste desaire, nunca mais voltei a um estádio. Mudei de vida. Empreguei-me a escrever histórias... Mas uma coisa aprendi da minha passagem pelo desporto: com Nervos e Medo juntos, nunca se consegue ganhar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

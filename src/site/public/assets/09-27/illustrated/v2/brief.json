@@ -1,0 +1,97 @@
+{
+  "characters": [],
+  "environment": "estalagem portuguesa no fim do verão e início da primavera",
+  "palette": [],
+  "recurringObjects": [
+    "balcão de receção",
+    "chave do quarto",
+    "cama grande",
+    "piscina",
+    "cobertor"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Pelos fins de Setembro, os hóspedes começam sempre a rarear na estalagem do senhor Pestana. Foi-se aquela agitação dos meses de Julho e Agosto, com meninos a correrem pelos corredores, banhistas de sandálias saltitantes, a descerem pelas escadas, senhoras encaloradas na esplanada, a baterem os leques e a pedirem por socorro \"uma limonada, com muito gelo... muito gelo\", os quartos todos ocupados, o telefone a tocar constantemente e o senhor Pestana, muito cortês, a ter de dizer, desolado: \"Faça favor de desculpar, mas não temos vagas até meados de Setembro\". Pois. Vem a segunda quinzena de Setembro e tudo muda. A sala de jantar fica às moscas. Às moscas é maneira de dizer, porque o senhor Pestana nem um mosquito consente na sua irrepreensível estalagem. – Moscas e melgas são os únicos clientes indesejáveis – costuma dizer o senhor Pestana, cheio de razão.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Um Cliente Fora de Prazo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Pelos fins de Setembro, os hóspedes começam sempre a rarear na estalagem do senhor Pestana. Foi-se aquela agitação dos meses de Julho e Agosto, com meninos a correrem pelos corredores, banhistas de sandálias saltitantes, a descerem pelas escadas, senhoras encaloradas na esplanada, a baterem os leques e a pedirem por socorro \"uma limonada, com muito gelo... muito gelo\", os quartos todos ocupados, o telefone a tocar constantemente e o senhor Pestana, muito cortês, a ter de dizer, desolado: \"Faça favor de desculpar, mas não temos vagas até meados de Setembro\". Pois. Vem a segunda quinzena de Setembro e tudo muda. A sala de jantar fica às moscas. Às moscas é maneira de dizer, porque o senhor Pestana nem um mosquito consente na sua irrepreensível estalagem. – Moscas e melgas são os únicos clientes indesejáveis – costuma dizer o senhor Pestana, cheio de razão. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p12",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p10",
+        "s0p11",
+        "s0p12"
+      ],
+      "evidence": "– Com vista para a piscina? – Tanto faz. Pode ser um quarto escuro. Isto dizendo, o urso ria-se, mostrando os dentes e as gengivas. Polidamente, o senhor Pestana sorria, sem perceber onde é que estava a graça.",
+      "after": {
+        "segment": 0,
+        "paragraph": 12
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Com vista para a piscina? – Tanto faz. Pode ser um quarto escuro. Isto dizendo, o urso ria-se, mostrando os dentes e as gengivas. Polidamente, o senhor Pestana sorria, sem perceber onde é que estava a graça. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p24",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p22",
+        "s0p23",
+        "s0p24"
+      ],
+      "evidence": "– Vossa Excelência, vai-se já deitar? – estranhou o senhor Pestana, porque ainda era de dia. – Quando quer que o acorde? – A meio de Março – respondeu o urso, espreguiçando-se. Foi, então, que o senhor Pestana percebeu. Aquele urso ia hibernar. E logo na sua estalagem.",
+      "after": {
+        "segment": 0,
+        "paragraph": 24
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Vossa Excelência, vai-se já deitar? – estranhou o senhor Pestana, porque ainda era de dia. – Quando quer que o acorde? – A meio de Março – respondeu o urso, espreguiçando-se. Foi, então, que o senhor Pestana percebeu. Aquele urso ia hibernar. E logo na sua estalagem. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p28",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p26",
+        "s0p27",
+        "s0p28"
+      ],
+      "evidence": "– Não faz mal. Fico cá eu – respondeu o urso. – Mas nós vamos fazer limpezas gerais... – Não faz mal. Tenho o sono muito pesado.",
+      "after": {
+        "segment": 0,
+        "paragraph": 28
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Não faz mal. Fico cá eu – respondeu o urso. – Mas nós vamos fazer limpezas gerais... – Não faz mal. Tenho o sono muito pesado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p31",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p29",
+        "s0p30",
+        "s0p31"
+      ],
+      "evidence": "Se tinha! Depois de ter dormido Outubro, Novembro, Dezembro, Janeiro, Fevereiro e a primeira quinzena de Março, o urso acordou sem despertador. Vinha muito magrinho do sono, tão escanifrado que a pele parecia um robe turco muito largo. – Estou cá com uma fome! – foi a primeira coisa que disse. E gritou pelo pequeno-almoço, aliás por cem pequenos-almoços juntos, porque, como se entende, estava atrasado na alimentação. O senhor Pestana nunca teve tanto trabalho de uma só vez, nem nos dias em cheio do meio do Verão. A profissão de estalajadeiro é muito ingrata.",
+      "after": {
+        "segment": 0,
+        "paragraph": 31
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Se tinha! Depois de ter dormido Outubro, Novembro, Dezembro, Janeiro, Fevereiro e a primeira quinzena de Março, o urso acordou sem despertador. Vinha muito magrinho do sono, tão escanifrado que a pele parecia um robe turco muito largo. – Estou cá com uma fome! – foi a primeira coisa que disse. E gritou pelo pequeno-almoço, aliás por cem pequenos-almoços juntos, porque, como se entende, estava atrasado na alimentação. O senhor Pestana nunca teve tanto trabalho de uma só vez, nem nos dias em cheio do meio do Verão. A profissão de estalajadeiro é muito ingrata. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,99 @@
+{
+  "characters": [
+    {
+      "name": "Pancrácia",
+      "appearance": "criada desajeitada e obediente, expressão ingénua, roupa simples de serviço"
+    },
+    {
+      "name": "Dama",
+      "appearance": "senhora da casa, postura composta, roupa doméstica elegante"
+    },
+    {
+      "name": "Falso mendigo",
+      "appearance": "homem disfarçado de mendigo, ar astuto, roupa gasta"
+    }
+  ],
+  "environment": "casa portuguesa antiga e interior doméstico simples, com porta de entrada, sala e sinais de viagem e desordem crescente",
+  "palette": [
+    "tons quentes e terrosos",
+    "azuis e cinzentos frios",
+    "cremes envelhecidos",
+    "vermelhos discretos",
+    "castanhos de madeira"
+  ],
+  "recurringObjects": [
+    "porta de entrada",
+    "saco de mendigo",
+    "mobília doméstica antiga",
+    "bagagem da senhora",
+    "pertences da casa"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma dama, que tinha uma criada meia-zaranza e papa-moscas, que não fazia nada com jeito. Chamava-se a criada Pancrácia. Um dia, a dama teve de ausentar-se de casa por uns tempos e de deixar tudo aos cuidados da Pancrácia. Antes de sair, recomendou-lhe: – Enquanto eu estiver fora, vê bem como cuidas dos meus haveres. A qualquer um, que te apareça, diz sempre \"Não\". Está bem?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Pancrácia».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma dama, que tinha uma criada meia-zaranza e papa-moscas, que não fazia nada com jeito. Chamava-se a criada Pancrácia. Um dia, a dama teve de ausentar-se de casa por uns tempos e de deixar tudo aos cuidados da Pancrácia. Antes de sair, recomendou-lhe: – Enquanto eu estiver fora, vê bem como cuidas dos meus haveres. A qualquer um, que te apareça, diz sempre \"Não\". Está bem? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s0p4",
+        "s0p5"
+      ],
+      "evidence": "– Não – respondeu a criada, muito obediente. A dama percebeu que o recado estava aprendido e saiu mais descansada. Dias depois, bateram à porta de casa. Era ou fazia de conta que era um mendigo.",
+      "after": {
+        "segment": 0,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Não – respondeu a criada, muito obediente. A dama percebeu que o recado estava aprendido e saiu mais descansada. Dias depois, bateram à porta de casa. Era ou fazia de conta que era um mendigo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p19",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p17",
+        "s0p18",
+        "s0p19"
+      ],
+      "evidence": "– Então a senhora importa-se que eu dê uma volta pela casa? – Não. E assim o falso mendigo foi conseguindo os seus intentos.",
+      "after": {
+        "segment": 0,
+        "paragraph": 19
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Então a senhora importa-se que eu dê uma volta pela casa? – Não. E assim o falso mendigo foi conseguindo os seus intentos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p25",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p23",
+        "s0p24",
+        "s0p25"
+      ],
+      "evidence": "Quando a dama regressou de viagem e viu a casa roubada, desesperou-se: – Ó mulher, tu não te importaste que me levassem tudo o que levaram? – Não – respondeu, muito bem ensinada, a Pancrácia.",
+      "after": {
+        "segment": 0,
+        "paragraph": 25
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando a dama regressou de viagem e viu a casa roubada, desesperou-se: – Ó mulher, tu não te importaste que me levassem tudo o que levaram? – Não – respondeu, muito bem ensinada, a Pancrácia. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

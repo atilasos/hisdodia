@@ -1,0 +1,97 @@
+{
+  "characters": [
+    {
+      "name": "crocodilo",
+      "appearance": "réptil grande, de boca enorme, expressão sofrida e depois aliviada"
+    },
+    {
+      "name": "passarinho",
+      "appearance": "ave pequena e ágil, atitude curiosa e corajosa"
+    },
+    {
+      "name": "outros passarinhos",
+      "appearance": "grupo de aves pequenas, vigilantes e barulhentas"
+    }
+  ],
+  "environment": "beira-rio na selva, com proximidade da água, vegetação tropical e espaço para a boca do crocodilo dominar a cena",
+  "palette": [
+    "verdes tropicais",
+    "castanhos terrosos",
+    "amarelos quentes",
+    "azuis de rio",
+    "cinzentos suaves"
+  ],
+  "recurringObjects": [
+    "rio",
+    "boca do crocodilo",
+    "passarinhos em bando"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O crocodilo estava com uma grande dor de dentes. Quem lhe acudia? Dentista, na selva não há. Podia procurá-lo na cidade mais próxima, mas quem lhe garantia que, depois, o deixavam voltar ao rio do seu pachorrento viver? Os gemidos do crocodilo metiam dó.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Lágrimas de Crocodilo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O crocodilo estava com uma grande dor de dentes. Quem lhe acudia? Dentista, na selva não há. Podia procurá-lo na cidade mais próxima, mas quem lhe garantia que, depois, o deixavam voltar ao rio do seu pachorrento viver? Os gemidos do crocodilo metiam dó. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p3",
+        "s1p4",
+        "s1p5"
+      ],
+      "evidence": "– Abre bem a boca – disse ele ao crocodilo. Saltitando entre os dentes do crocodilo, como sobre um teclado de piano, o passarinho deu com o dente furado. Era, realmente, um dos últimos, já no escuro da boca enorme do crocodilo. Com muita eficiência, o passarinho brocou, limpou e tapou o buraco do dente magoado. Só lhe faltava diploma para dentista a sério.",
+      "after": {
+        "segment": 1,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Abre bem a boca – disse ele ao crocodilo. Saltitando entre os dentes do crocodilo, como sobre um teclado de piano, o passarinho deu com o dente furado. Era, realmente, um dos últimos, já no escuro da boca enorme do crocodilo. Com muita eficiência, o passarinho brocou, limpou e tapou o buraco do dente magoado. Só lhe faltava diploma para dentista a sério. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p13",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p11",
+        "s1p12",
+        "s1p13"
+      ],
+      "evidence": "Caiu-lhe uma lágrima do olho esquerdo e outra, a seguir, do direito. – Lágrimas de crocodilo – piaram os passarinhos em bando. - Velhaco. Patife. Hipócrita. Mas, afinal, estas eram as lágrimas sinceras. O crocodilo sentia-se aliviado e agradecido.",
+      "after": {
+        "segment": 1,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Caiu-lhe uma lágrima do olho esquerdo e outra, a seguir, do direito. – Lágrimas de crocodilo – piaram os passarinhos em bando. - Velhaco. Patife. Hipócrita. Mas, afinal, estas eram as lágrimas sinceras. O crocodilo sentia-se aliviado e agradecido. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s2p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p14",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Quando o passarinho, depois de ter feito uma limpeza geral aos dentes do crocodilo, voou para o meio dos outros, foi recebido como um herói. E, daí em diante, todos os passarinhos saltitantes da beira-rio passaram a frequentar as queixadas dos crocodilos, à cata de restos de comida. Ganham os crocodilos e ganham os passarinhos. Ao contrário do que consta, na selva também há harmonia.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando o passarinho, depois de ter feito uma limpeza geral aos dentes do crocodilo, voou para o meio dos outros, foi recebido como um herói. E, daí em diante, todos os passarinhos saltitantes da beira-rio passaram a frequentar as queixadas dos crocodilos, à cata de restos de comida. Ganham os crocodilos e ganham os passarinhos. Ao contrário do que consta, na selva também há harmonia. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

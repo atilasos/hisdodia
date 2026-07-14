@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": "Portuguese children's story with a playful ball, a boy, and a girl",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Veio uma bola pelo ar que se pôs a saltitar por cima deste papel.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A bola e os seus amigos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Veio uma bola pelo ar que se pôs a saltitar por cima deste papel. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p8",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p6",
+        "s0p7",
+        "s0p8"
+      ],
+      "evidence": "ela então parou - fugir não fugiu - e ficou à espera que o menino com ela brincasse.",
+      "after": {
+        "segment": 0,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: ela então parou - fugir não fugiu - e ficou à espera que o menino com ela brincasse. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p5",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p3",
+        "s2p4",
+        "s2p5"
+      ],
+      "evidence": "- Não sei! - respondeu o menino. - Pergunta-lhe a ela. Falou então a bola: - Sou vossa, de vocês dois, mas não me partam ao meio.",
+      "after": {
+        "segment": 2,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Não sei! - respondeu o menino. - Pergunta-lhe a ela. Falou então a bola: - Sou vossa, de vocês dois, mas não me partam ao meio. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s4p3"
+      ],
+      "evidence": "e eu, então, embora não pareça, fico tão cheia de ar, de alegria, que perco a cabeça.",
+      "after": {
+        "segment": 4,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: e eu, então, embora não pareça, fico tão cheia de ar, de alegria, que perco a cabeça. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p3",
+        "s5p4",
+        "s5p5"
+      ],
+      "evidence": "- é minha, é tua agora! - saltou, correu, voltejou e voou desta página para fora.",
+      "after": {
+        "segment": 5,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - é minha, é tua agora! - saltou, correu, voltejou e voou desta página para fora. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

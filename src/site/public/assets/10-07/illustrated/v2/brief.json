@@ -1,0 +1,103 @@
+{
+  "characters": [],
+  "environment": "horta portuguesa e corrida internacional de caracóis",
+  "palette": [
+    "verde horta",
+    "castanho terra",
+    "amarelo couve",
+    "cinzento natural",
+    "vermelho discreto"
+  ],
+  "recurringObjects": [
+    "caracóis",
+    "hortaliça",
+    "couve",
+    "alface",
+    "galinha pedrês"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Li, há tempos, num jornal, que ia disputar-se, em Inglaterra, a primeira corrida internacional de caracóis. Fiquei todo entusiasmado e fui logo à minha horta contar a notícia aos caracóis que lá tenho. Eles, uns pasmados, não sabiam de nada nem queriam saber. Fiquei muito chocado: - Então vocês não sentem vontade de ir a Inglaterra, para ganhar a corrida e mostrar ao mundo o que valem os caracóis portugueses?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Caracóis Portugueses».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Li, há tempos, num jornal, que ia disputar-se, em Inglaterra, a primeira corrida internacional de caracóis. Fiquei todo entusiasmado e fui logo à minha horta contar a notícia aos caracóis que lá tenho. Eles, uns pasmados, não sabiam de nada nem queriam saber. Fiquei muito chocado: - Então vocês não sentem vontade de ir a Inglaterra, para ganhar a corrida e mostrar ao mundo o que valem os caracóis portugueses? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p6",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "Expliquei que iríamos, concorrentes e eu (o treinador, claro!), de avião. Mas eles não me ligaram. Debaixo de um rebento de alface, uma vozinha de caracol sugeriu: - Isso da corrida fica para o ano... Virei-lhe as costas, desolado. Já não queria ser treinador daquela equipa de paspalhões.",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Expliquei que iríamos, concorrentes e eu (o treinador, claro!), de avião. Mas eles não me ligaram. Debaixo de um rebento de alface, uma vozinha de caracol sugeriu: - Isso da corrida fica para o ano... Virei-lhe as costas, desolado. Já não queria ser treinador daquela equipa de paspalhões. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p2",
+        "s1p3",
+        "s1p4"
+      ],
+      "evidence": "- Que nem setas talvez seja exagero - comentei, tentando sorrir. - Sim, como setas ou até como o vento - insistiu o grilo Grilarim. - Os caracóis desta horta são uns empatas, quando se trata de tomar uma decisão, mas assim que se resolvem, parece que têm asas. Ia com eles a galinha pedrês, aquela que diz \"Eu sou a galinha pedrês, que vos salta em cima e vos faz em três\". Eles, assim que a ouvem, até voam. E não é que ganharam a corrida?! Os dez primeiros lugares preenchidos por caracóis portugueses. Um êxito que não se imagina.",
+      "after": {
+        "segment": 1,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Que nem setas talvez seja exagero - comentei, tentando sorrir. - Sim, como setas ou até como o vento - insistiu o grilo Grilarim. - Os caracóis desta horta são uns empatas, quando se trata de tomar uma decisão, mas assim que se resolvem, parece que têm asas. Ia com eles a galinha pedrês, aquela que diz \"Eu sou a galinha pedrês, que vos salta em cima e vos faz em três\". Eles, assim que a ouvem, até voam. E não é que ganharam a corrida?! Os dez primeiros lugares preenchidos por caracóis portugueses. Um êxito que não se imagina. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p6",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p4",
+        "s1p5",
+        "s1p6"
+      ],
+      "evidence": "E não é que ganharam a corrida?! Os dez primeiros lugares preenchidos por caracóis portugueses. Um êxito que não se imagina. Mas, afinal, o júri lá de Inglaterra eliminou-os e deu o trofeu da vitória a um caracol inglês, o 11º da corrida, com a desculpa de que os caracóis portugueses não tinham sido inscritos com antecedência e que levavam uma galinha atrás deles... Invejas! De qualquer forma, reconhecidos internacionalmente ou não, foram os dez caracóis da minha horta os verdadeiros, os únicos vencedores.",
+      "after": {
+        "segment": 1,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E não é que ganharam a corrida?! Os dez primeiros lugares preenchidos por caracóis portugueses. Um êxito que não se imagina. Mas, afinal, o júri lá de Inglaterra eliminou-os e deu o trofeu da vitória a um caracol inglês, o 11º da corrida, com a desculpa de que os caracóis portugueses não tinham sido inscritos com antecedência e que levavam uma galinha atrás deles... Invejas! De qualquer forma, reconhecidos internacionalmente ou não, foram os dez caracóis da minha horta os verdadeiros, os únicos vencedores. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s1p7",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p5",
+        "s1p6",
+        "s1p7"
+      ],
+      "evidence": "Mas, afinal, o júri lá de Inglaterra eliminou-os e deu o trofeu da vitória a um caracol inglês, o 11º da corrida, com a desculpa de que os caracóis portugueses não tinham sido inscritos com antecedência e que levavam uma galinha atrás deles... Invejas! De qualquer forma, reconhecidos internacionalmente ou não, foram os dez caracóis da minha horta os verdadeiros, os únicos vencedores. Bendita couve portuguesa que têm comido!",
+      "after": {
+        "segment": 1,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas, afinal, o júri lá de Inglaterra eliminou-os e deu o trofeu da vitória a um caracol inglês, o 11º da corrida, com a desculpa de que os caracóis portugueses não tinham sido inscritos com antecedência e que levavam uma galinha atrás deles... Invejas! De qualquer forma, reconhecidos internacionalmente ou não, foram os dez caracóis da minha horta os verdadeiros, os únicos vencedores. Bendita couve portuguesa que têm comido! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,122 @@
+{
+  "characters": [],
+  "environment": "Portuguese royal court and hunt, then a humbling aftermath in the palace stables and a carriage yard",
+  "palette": [
+    "gold",
+    "crimson",
+    "ivory",
+    "deep green",
+    "brown",
+    "stone gray"
+  ],
+  "recurringObjects": [
+    "horse",
+    "king",
+    "crown",
+    "lances",
+    "court attire",
+    "carriage"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um rei. Era uma vez um cavalo. O rei era um rei que andava a cavalo.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O cavalo real».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um rei. Era uma vez um cavalo. O rei era um rei que andava a cavalo. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p5",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Era muito vaidoso o cavalo real. Quando se via, nos desfiles, à frente da restante cavalaria dos lanceiros , dos arqueiros , dos alabardeiros , julgava-se não só o rei de todos os cavalos, que o seguiam medindo o trote pelo trote dele, como o comandante em chefe de toda aquela tropa. Que presunção!",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era muito vaidoso o cavalo real. Quando se via, nos desfiles, à frente da restante cavalaria dos lanceiros , dos arqueiros , dos alabardeiros , julgava-se não só o rei de todos os cavalos, que o seguiam medindo o trote pelo trote dele, como o comandante em chefe de toda aquela tropa. Que presunção! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Que presunção! O rei a cavalo passava revista à guarda real e a banda tocava o hino e os soldados apresentavam armas. Nessa altura, o cavalo levantava o pescoço, muito importante, com o rei às cavalitas. Lá na sua vaidade, julgava que era a ele e só a ele que os soldados, os capitães, os majores, os coronéis, os generais, os músicos e os porta-bandeiras prestavam homenagem. Já viram tolice assim?",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Que presunção! O rei a cavalo passava revista à guarda real e a banda tocava o hino e os soldados apresentavam armas. Nessa altura, o cavalo levantava o pescoço, muito importante, com o rei às cavalitas. Lá na sua vaidade, julgava que era a ele e só a ele que os soldados, os capitães, os majores, os coronéis, os generais, os músicos e os porta-bandeiras prestavam homenagem. Já viram tolice assim? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s3p0"
+      ],
+      "evidence": "O rei a cavalo passava revista à guarda real e a banda tocava o hino e os soldados apresentavam armas. Nessa altura, o cavalo levantava o pescoço, muito importante, com o rei às cavalitas. Lá na sua vaidade, julgava que era a ele e só a ele que os soldados, os capitães, os majores, os coronéis, os generais, os músicos e os porta-bandeiras prestavam homenagem. Já viram tolice assim? No pátio do palácio, diante da corte reunida, dos condes e das condessas, dos marqueses e das marquesas, dos duques e das duquesas, dos embaixadores, dos ministros e dos conselheiros, o rei passeava-se em cima do cavalo. Também nessas alturas, o tonto do cavalo supunha que todos aqueles salamaleques, todas aquelas vénias, lhe eram destinadas, a ele e só a ele, cavalo real.",
+      "after": {
+        "segment": 3,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O rei a cavalo passava revista à guarda real e a banda tocava o hino e os soldados apresentavam armas. Nessa altura, o cavalo levantava o pescoço, muito importante, com o rei às cavalitas. Lá na sua vaidade, julgava que era a ele e só a ele que os soldados, os capitães, os majores, os coronéis, os generais, os músicos e os porta-bandeiras prestavam homenagem. Já viram tolice assim? No pátio do palácio, diante da corte reunida, dos condes e das condessas, dos marqueses e das marquesas, dos duques e das duquesas, dos embaixadores, dos ministros e dos conselheiros, o rei passeava-se em cima do cavalo. Também nessas alturas, o tonto do cavalo supunha que todos aqueles salamaleques, todas aquelas vénias, lhe eram destinadas, a ele e só a ele, cavalo real. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Já imaginaram cavalo mais burro? Mas, um dia, numa caçada, o cavalo real tropeçou num tronco e deixou cair o rei, que se estatelou no chão, com a coroa à banda. Não lhe perdoou o rei o trambolhão. Deixar cair o rei é cair em desgraça. Foi o que aconteceu.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Já imaginaram cavalo mais burro? Mas, um dia, numa caçada, o cavalo real tropeçou num tronco e deixou cair o rei, que se estatelou no chão, com a coroa à banda. Não lhe perdoou o rei o trambolhão. Deixar cair o rei é cair em desgraça. Foi o que aconteceu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s5p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "Expulso das cavalariças reais, o cavalo percebeu finalmente que não lhe tinham respeito nenhum. Acabaram-se as paradas, as vénias, os desfiles. É agora um cavalo de carroça. Nem tudo se perdeu, afinal. Depois do que se passou, o cavalo ganhou juízo.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Expulso das cavalariças reais, o cavalo percebeu finalmente que não lhe tinham respeito nenhum. Acabaram-se as paradas, as vénias, os desfiles. É agora um cavalo de carroça. Nem tudo se perdeu, afinal. Depois do que se passou, o cavalo ganhou juízo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

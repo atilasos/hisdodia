@@ -1,0 +1,124 @@
+{
+  "characters": [
+    {
+      "name": "Livro fechado",
+      "appearance": "Um livro fechado, envelhecido, com capa discreta, expressão implícita de abandono e desejo de ser lido"
+    },
+    {
+      "name": "Colega de estante",
+      "appearance": "Um calhamaço respeitável, volumoso, marcado pelo uso, sugerindo ser um livro de estudo"
+    },
+    {
+      "name": "Livro estreito",
+      "appearance": "Um livrinho fino e modesto, usado como calço, com aparência frágil mas resignada"
+    },
+    {
+      "name": "Menina",
+      "appearance": "Uma criança curiosa debruçada sobre o livro ainda por abrir"
+    },
+    {
+      "name": "Pai",
+      "appearance": "Uma figura adulta com mãos firmes e atentas, segurando e abrindo o livro para ler"
+    }
+  ],
+  "environment": "Interior de uma casa com estante cheia de livros, numa atmosfera doméstica e silenciosa que evolui para um momento de leitura partilhada",
+  "palette": [
+    "tons quentes e domésticos",
+    "castanhos e ocres suaves",
+    "azuis discretos",
+    "verdes apagados",
+    "luz dourada de fim de tarde"
+  ],
+  "recurringObjects": [
+    "estante de livros",
+    "livro fechado",
+    "livros vizinhos",
+    "mãos que retiram o livro",
+    "joelhos da criança"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era uma vez um livro. Um livro fechado. Tristemente fechado. Irremediavelmente fechado. Nunca ninguém o abrira, nem sequer para ler as primeiras linhas da primeira página das muitas que o livro tinha para oferecer. Quem o comprara trouxera-o para casa e, provavelmente insensível ao que o livro valia, ao que o livro continha, enfiara-o numa prateleira, ao lado de muitos outros.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Livro fechado».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um livro. Um livro fechado. Tristemente fechado. Irremediavelmente fechado. Nunca ninguém o abrira, nem sequer para ler as primeiras linhas da primeira página das muitas que o livro tinha para oferecer. Quem o comprara trouxera-o para casa e, provavelmente insensível ao que o livro valia, ao que o livro continha, enfiara-o numa prateleira, ao lado de muitos outros. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "Ali estava. Ali ficou. Um dia, mais não podendo, queixou-se: - Ninguém me leu. Ninguém me liga.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ali estava. Ali ficou. Um dia, mais não podendo, queixou-se: - Ninguém me leu. Ninguém me liga. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "- Isso não é trabalho para livro - estranhou o calhamaço . - À falta de outro... - conformou-se o livro estreitinho. Escutando os seus companheiros de estante, o livro que nunca fora aberto sentiu uma secreta inveja. Ao menos, tinham para contar, ao passo que ele... Suspirou.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Isso não é trabalho para livro - estranhou o calhamaço . - À falta de outro... - conformou-se o livro estreitinho. Escutando os seus companheiros de estante, o livro que nunca fora aberto sentiu uma secreta inveja. Ao menos, tinham para contar, ao passo que ele... Suspirou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p2",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "Escutando os seus companheiros de estante, o livro que nunca fora aberto sentiu uma secreta inveja. Ao menos, tinham para contar, ao passo que ele... Suspirou. Não chegou ao fim do suspiro, porque duas mãos o foram buscar ao aperto da prateleira. As mãos pegaram nele e poisaram-no sobre os joelhos. - Tem bonecos esse livro? - perguntou a voz de uma menina, debruçada sobre o livro, ainda por abrir.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Escutando os seus companheiros de estante, o livro que nunca fora aberto sentiu uma secreta inveja. Ao menos, tinham para contar, ao passo que ele... Suspirou. Não chegou ao fim do suspiro, porque duas mãos o foram buscar ao aperto da prateleira. As mãos pegaram nele e poisaram-no sobre os joelhos. - Tem bonecos esse livro? - perguntou a voz de uma menina, debruçada sobre o livro, ainda por abrir. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s7p1",
+        "s7p2",
+        "s7p3"
+      ],
+      "evidence": "- Lê - exigiu a voz da menina. E o pai da menina leu. E o livro aberto deixou que o lessem, de ponta a ponta. Às vezes, vale a pena esperar.",
+      "after": {
+        "segment": 7,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Lê - exigiu a voz da menina. E o pai da menina leu. E o livro aberto deixou que o lessem, de ponta a ponta. Às vezes, vale a pena esperar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

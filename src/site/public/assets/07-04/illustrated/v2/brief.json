@@ -1,0 +1,144 @@
+{
+  "characters": [
+    {
+      "name": "Marcos",
+      "appearance": "Criança narradora, presença doméstica discreta, expressão de culpa a aliviar-se ao confessar."
+    },
+    {
+      "name": "Tiago",
+      "appearance": "Irmão de Marcos, atitude rápida e evasiva no início, depois cúmplice e leve."
+    },
+    {
+      "name": "Mãe",
+      "appearance": "Figura afectuosa e sensível, muito ligada à jarrinha, primeiro em luto, depois a suspirar e a recolher os cacos."
+    },
+    {
+      "name": "Pai",
+      "appearance": "Adulto calmo e reservado, inicialmente a negar suspeita, depois embaraçado e conciliador."
+    },
+    {
+      "name": "Bolinhas",
+      "appearance": "Gato da família, presença serena e indiferente, enrola-se e dorme com dignidade."
+    }
+  ],
+  "environment": "Interior de uma casa de família portuguesa, com sala apinhada de móveis, estante pesada, mesinha, expositor de porcelanas e uma jarrinha de flores pintadas em destaque; atmosfera doméstica, antiga e íntima.",
+  "palette": [
+    "creme",
+    "azul desbotado",
+    "verde suave",
+    "castanho quente",
+    "cinza suave",
+    "toques de vermelho apagado"
+  ],
+  "recurringObjects": [
+    "jarrinha de flores pintadas",
+    "cacos de vidro",
+    "estante de livros",
+    "mesinha",
+    "expositor de porcelanas",
+    "jornal",
+    "gato Bolinhas"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Partiu-se a jarrinha, aquela jarrinha de flores pintadas à mão, tão elegante, tão graciosa que era o enlevo de todas as pessoas que passavam por nossa casa. - Está na nossa família há séculos. Dizem que foi oferecida por uma rainha de antigamente a uma antepassada nossa - explicava a minha mãe, enternecida, a olhar para a jarrinha de flores pintadas.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A jarra partida».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Partiu-se a jarrinha, aquela jarrinha de flores pintadas à mão, tão elegante, tão graciosa que era o enlevo de todas as pessoas que passavam por nossa casa. - Está na nossa família há séculos. Dizem que foi oferecida por uma rainha de antigamente a uma antepassada nossa - explicava a minha mãe, enternecida, a olhar para a jarrinha de flores pintadas. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "O meu irmão Tiago ficou livre de qualquer suspeita. - Eu também não fui - apressou-se a dizer o meu pai. - Quando eu cheguei a casa, já a vossa mãe estava a ser consolada pelo Tiago. - Eu é que não fui - choramingou a minha mãe. - Tinha tanta estimação na jarrinha.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O meu irmão Tiago ficou livre de qualquer suspeita. - Eu também não fui - apressou-se a dizer o meu pai. - Quando eu cheguei a casa, já a vossa mãe estava a ser consolada pelo Tiago. - Eu é que não fui - choramingou a minha mãe. - Tinha tanta estimação na jarrinha. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p2",
+        "s4p3",
+        "s4p4"
+      ],
+      "evidence": "Todos se viraram para mim. - Tu, Marcos? E estavas calado? Suspirei fundo e comecei a contar o que acontecera.",
+      "after": {
+        "segment": 4,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Todos se viraram para mim. - Tu, Marcos? E estavas calado? Suspirei fundo e comecei a contar o que acontecera. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s7p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s5p1",
+        "s6p0",
+        "s7p0"
+      ],
+      "evidence": "Tinha sido um azar. É sempre um azar. Para meter a ficha do gravador de vídeo na tomada da parede tive de arredar um bocadinho a estante. Não contava que fosse tão pesada. Com a inclinação da estante, os livros escorregaram. Precipitei-me sobre eles, para evitar o desmoronamento. Não medindo os gestos, dei um encontrão numa mesinha que abalou o expositor onde estava a jarrinha. Estremeceram as bonecas de Saxe e saltaram as chávenas de café nos respectivos pires... A jarrinha, como a casca de um ovo, partiu-se. Acho que ela estava, há muito tempo, à espera de partir-se. Qualquer estremecimento lhe daria o pretexto. Dei eu. A culpa foi minha.",
+      "after": {
+        "segment": 7,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Tinha sido um azar. É sempre um azar. Para meter a ficha do gravador de vídeo na tomada da parede tive de arredar um bocadinho a estante. Não contava que fosse tão pesada. Com a inclinação da estante, os livros escorregaram. Precipitei-me sobre eles, para evitar o desmoronamento. Não medindo os gestos, dei um encontrão numa mesinha que abalou o expositor onde estava a jarrinha. Estremeceram as bonecas de Saxe e saltaram as chávenas de café nos respectivos pires... A jarrinha, como a casca de um ovo, partiu-se. Acho que ela estava, há muito tempo, à espera de partir-se. Qualquer estremecimento lhe daria o pretexto. Dei eu. A culpa foi minha. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s11p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s10p1",
+        "s11p0",
+        "s11p1"
+      ],
+      "evidence": "Por aquela não esperava eu. - Tu tiveste muita coragem em confessar - continuou o meu pai. - De aqui a bocado, ao jantar, quando estivermos todos juntos, vou ser eu a precisar de coragem. E desculpa... O meu pai abriu à sua frente as longas páginas do jornal, não sei se para lê-las, se para esconder a cara do embaraço.",
+      "after": {
+        "segment": 11,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Por aquela não esperava eu. - Tu tiveste muita coragem em confessar - continuou o meu pai. - De aqui a bocado, ao jantar, quando estivermos todos juntos, vou ser eu a precisar de coragem. E desculpa... O meu pai abriu à sua frente as longas páginas do jornal, não sei se para lê-las, se para esconder a cara do embaraço. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s12p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s11p0",
+        "s11p1",
+        "s12p0"
+      ],
+      "evidence": "- Tu tiveste muita coragem em confessar - continuou o meu pai. - De aqui a bocado, ao jantar, quando estivermos todos juntos, vou ser eu a precisar de coragem. E desculpa... O meu pai abriu à sua frente as longas páginas do jornal, não sei se para lê-las, se para esconder a cara do embaraço. Também é preciso coragem para pedir desculpa.",
+      "after": {
+        "segment": 12,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Tu tiveste muita coragem em confessar - continuou o meu pai. - De aqui a bocado, ao jantar, quando estivermos todos juntos, vou ser eu a precisar de coragem. E desculpa... O meu pai abriu à sua frente as longas páginas do jornal, não sei se para lê-las, se para esconder a cara do embaraço. Também é preciso coragem para pedir desculpa. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

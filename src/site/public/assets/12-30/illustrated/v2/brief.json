@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": "Interior of a tea-and-cake house, then the path home and the family kitchen",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O Joca, quando vai visitar a avó, vem de lá sempre de barriga cheia. É que a avó do Joca é doceira e tem uma casa de chá. A bem dizer, a casa é de bolos, com chá para ensopar os bolos. - Já provaste este bolinho de amêndoas? - pergunta a avó do Joca ao Joca. Mesmo que já tenha provado, o Joca volta a provar.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Joca e Bolos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Joca, quando vai visitar a avó, vem de lá sempre de barriga cheia. É que a avó do Joca é doceira e tem uma casa de chá. A bem dizer, a casa é de bolos, com chá para ensopar os bolos. - Já provaste este bolinho de amêndoas? - pergunta a avó do Joca ao Joca. Mesmo que já tenha provado, o Joca volta a provar. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O Joca, quando vai visitar a avó, vem de lá sempre de barriga cheia. É que a avó do Joca é doceira e tem uma casa de chá. A bem dizer, a casa é de bolos, com chá para ensopar os bolos. - Já provaste este bolinho de amêndoas? - pergunta a avó do Joca ao Joca. Mesmo que já tenha provado, o Joca volta a provar.",
+      "after": {
+        "segment": 0,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Joca, quando vai visitar a avó, vem de lá sempre de barriga cheia. É que a avó do Joca é doceira e tem uma casa de chá. A bem dizer, a casa é de bolos, com chá para ensopar os bolos. - Já provaste este bolinho de amêndoas? - pergunta a avó do Joca ao Joca. Mesmo que já tenha provado, o Joca volta a provar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "Não havia ele de querer... Mas a avó doce e terna não se esquece da filha, mãe do Joca, muito gulosa também. É de família. - Vais levar para casa esta meia dúzia de nozes douradas, que acabei de fazer - diz a avó ao neto.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não havia ele de querer... Mas a avó doce e terna não se esquece da filha, mãe do Joca, muito gulosa também. É de família. - Vais levar para casa esta meia dúzia de nozes douradas, que acabei de fazer - diz a avó ao neto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s2p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Ele não se incomoda com o peso, tanto mais que, a meio caminho, a meia dúzia está reduzida a metade... Quem já comeu três nozes entre uma casa e outra não poderá ainda, à porta de casa, comer mais uma? Pois pode. - Trago-te uma noz dourada que mandou a avó - diz à mãe o Joca, um descarado. - Só uma? - estranhou a mãe.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ele não se incomoda com o peso, tanto mais que, a meio caminho, a meia dúzia está reduzida a metade... Quem já comeu três nozes entre uma casa e outra não poderá ainda, à porta de casa, comer mais uma? Pois pode. - Trago-te uma noz dourada que mandou a avó - diz à mãe o Joca, um descarado. - Só uma? - estranhou a mãe. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s3p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p2",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "- Só uma? - estranhou a mãe. - Não me digas que comeste as outras? Como fizeste isso? - Fiz assim - e o Joca mete à boca a última noz do embrulho.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Só uma? - estranhou a mãe. - Não me digas que comeste as outras? Como fizeste isso? - Fiz assim - e o Joca mete à boca a última noz do embrulho. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

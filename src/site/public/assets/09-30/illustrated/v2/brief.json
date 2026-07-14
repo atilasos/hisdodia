@@ -1,0 +1,139 @@
+{
+  "characters": [
+    {
+      "name": "Sabonete novo",
+      "appearance": "Pequeno, fresco, inicialmente inteiro e depois cada vez mais gasto"
+    },
+    {
+      "name": "Sabonete velho de alcatrão",
+      "appearance": "Velho, experiente, escuro, de aspeto robusto"
+    },
+    {
+      "name": "Sabonete contra a caspa",
+      "appearance": "Do grupo da drogaria, com ar rezingão"
+    },
+    {
+      "name": "Menino",
+      "appearance": "Criança curiosa que prepara a mistura para bolhas de sabão"
+    }
+  ],
+  "environment": "Drogaria com gaveta de sabonetes, casa de banho com banheira e lavatório, e exterior luminoso com céu azul",
+  "palette": [
+    "creme",
+    "azul claro",
+    "branco",
+    "âmbar",
+    "castanho escuro"
+  ],
+  "recurringObjects": [
+    "sabonete",
+    "banheira",
+    "lavatório",
+    "espuma",
+    "tigela",
+    "canudo",
+    "bolhas de sabão"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era um sabonete novo, fresquíssimo, por estrear. Nunca tinha tomado banho. Naquela gaveta de drogaria, onde ele, junto com muitos outros colegas, aguardava a vez de ser vendido, já tinha perguntado, ainda que timidamente: - Afinal, para o que é que eu servi?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Vida de sabonete».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era um sabonete novo, fresquíssimo, por estrear. Nunca tinha tomado banho. Naquela gaveta de drogaria, onde ele, junto com muitos outros colegas, aguardava a vez de ser vendido, já tinha perguntado, ainda que timidamente: - Afinal, para o que é que eu servi? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s1p0"
+      ],
+      "evidence": "Naquela gaveta de drogaria, onde ele, junto com muitos outros colegas, aguardava a vez de ser vendido, já tinha perguntado, ainda que timidamente: - Afinal, para o que é que eu servi? - Serves para lavar e perfumar - respondeu-lhe um velho sabonete de alcatrão, muito sabedor das coisas da vida. - Vais dar banho, tomar banho... Descansa que o que te espera vai ser bom.",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Naquela gaveta de drogaria, onde ele, junto com muitos outros colegas, aguardava a vez de ser vendido, já tinha perguntado, ainda que timidamente: - Afinal, para o que é que eu servi? - Serves para lavar e perfumar - respondeu-lhe um velho sabonete de alcatrão, muito sabedor das coisas da vida. - Vais dar banho, tomar banho... Descansa que o que te espera vai ser bom. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p3",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "O sabonete novo teve a oportunidade de confirmar as previsões do velho sabonete. Tudo aconteceu como ele dissera. Deu banhos e tomou banhos, escorregou vezes sem conta pelo mármore polido da banheira, conviveu com esponjas, escovas macias e conheceu da anatomia do corpo mais do que um pintor de nus. Mas, redondo que tinha sido, estava agora delgadito. Ainda foi parar à beira de um lavatório, a par de outros tão magros quanto ele.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O sabonete novo teve a oportunidade de confirmar as previsões do velho sabonete. Tudo aconteceu como ele dissera. Deu banhos e tomou banhos, escorregou vezes sem conta pelo mármore polido da banheira, conviveu com esponjas, escovas macias e conheceu da anatomia do corpo mais do que um pintor de nus. Mas, redondo que tinha sido, estava agora delgadito. Ainda foi parar à beira de um lavatório, a par de outros tão magros quanto ele. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "- Somos, agora, sabonetes de lavar as mãos - avisaram-no os companheiros. Até ver... Tudo o que é bom também acaba. Lá estava o aviso, de novo a insinuar-se, a dar que pensar. Ele e os outros da saboneteira foram-se desfazendo em espuma. \"Tudo o que é bom também acaba\".",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Somos, agora, sabonetes de lavar as mãos - avisaram-no os companheiros. Até ver... Tudo o que é bom também acaba. Lá estava o aviso, de novo a insinuar-se, a dar que pensar. Ele e os outros da saboneteira foram-se desfazendo em espuma. \"Tudo o que é bom também acaba\". Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p2",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "Ele e os outros da saboneteira foram-se desfazendo em espuma. \"Tudo o que é bom também acaba\". O sabonetinho, que tinha sido novo, começava a perceber. Até que veio um menino que queria fazer uma caldeirada. No dizer desse menino \"caldeirada\" era juntar, numa tigela, sobras de sabão e de sabonetes, acrescentar água, remexer com uma cana e, depois da calda pronta, soprar por um canudo bolas de sabão.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ele e os outros da saboneteira foram-se desfazendo em espuma. \"Tudo o que é bom também acaba\". O sabonetinho, que tinha sido novo, começava a perceber. Até que veio um menino que queria fazer uma caldeirada. No dizer desse menino \"caldeirada\" era juntar, numa tigela, sobras de sabão e de sabonetes, acrescentar água, remexer com uma cana e, depois da calda pronta, soprar por um canudo bolas de sabão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s6p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p1",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "Até que veio um menino que queria fazer uma caldeirada. No dizer desse menino \"caldeirada\" era juntar, numa tigela, sobras de sabão e de sabonetes, acrescentar água, remexer com uma cana e, depois da calda pronta, soprar por um canudo bolas de sabão. Subiram pelo ar, atraídas pela luz rolaram, soltas, leves, felizes, grandes e pequenas bolas de sabão, como gotas ou lágrimas do arco-íris. Voaram, perderam-se pelo azul do céu... Tudo o que é bom também acaba. Mas, às vezes, acaba bem.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Até que veio um menino que queria fazer uma caldeirada. No dizer desse menino \"caldeirada\" era juntar, numa tigela, sobras de sabão e de sabonetes, acrescentar água, remexer com uma cana e, depois da calda pronta, soprar por um canudo bolas de sabão. Subiram pelo ar, atraídas pela luz rolaram, soltas, leves, felizes, grandes e pequenas bolas de sabão, como gotas ou lágrimas do arco-íris. Voaram, perderam-se pelo azul do céu... Tudo o que é bom também acaba. Mas, às vezes, acaba bem. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

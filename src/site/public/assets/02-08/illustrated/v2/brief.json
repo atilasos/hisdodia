@@ -1,0 +1,118 @@
+{
+  "characters": [
+    {
+      "name": "camponês",
+      "appearance": "homem rural das serras, trabalhador, com sachola"
+    },
+    {
+      "name": "filha do camponês",
+      "appearance": "rapariga bonita, gentil e compassiva"
+    },
+    {
+      "name": "morcego/príncipe encantado",
+      "appearance": "morcego que depois se transforma num príncipe"
+    }
+  ],
+  "environment": "serras rurais, casa modesta de camponês, gruta com tesouro, cozinha e janela do quarto, palácio distante, batatal final",
+  "palette": [
+    "tons terrosos",
+    "ocres",
+    "castanhos escuros",
+    "dourado do tesouro",
+    "verdes de campo",
+    "azuis suaves"
+  ],
+  "recurringObjects": [
+    "sachola",
+    "cofre do tesouro",
+    "chave do cofre",
+    "cesto da cozinha",
+    "janela do quarto",
+    "batatas de semente"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Um camponês, que vivia no meio das serras, só tinha a filha por companhia. Por sinal que era uma linda menina. Estava ele a semear batatas e apareceu-lhe um morcego. - Vou casar com a tua filha - disse-lhe o morcego.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Uma História de Encantar com Batatas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um camponês, que vivia no meio das serras, só tinha a filha por companhia. Por sinal que era uma linda menina. Estava ele a semear batatas e apareceu-lhe um morcego. - Vou casar com a tua filha - disse-lhe o morcego. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "- Eu sou muito rico. Descobri um tesouro, numa gruta. Anda ver. Foram ver. Era verdade. O camponês ficou muito embaraçado. Ele só queria o bem da filha e aquele tesouro podia proporcionar-lhe tudo o que ela desejasse. Mas casá-la com um morcego era demais. O camponês, então, levantou a sachola e deu uma sacholada no morcego.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Eu sou muito rico. Descobri um tesouro, numa gruta. Anda ver. Foram ver. Era verdade. O camponês ficou muito embaraçado. Ele só queria o bem da filha e aquele tesouro podia proporcionar-lhe tudo o que ela desejasse. Mas casá-la com um morcego era demais. O camponês, então, levantou a sachola e deu uma sacholada no morcego. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "Com uma asa fendida , o morcego foi embater de encontro à vidraça da janela do quarto da filha do camponês. - Pobre bichinho - condoeu-se a rapariga. - Quem te teria feito tanto mal? Em socorro do morcego, a boa moça ligou-lhe a asa ferida com muita meiguice e aninhou-o num cesto da cozinha.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Com uma asa fendida , o morcego foi embater de encontro à vidraça da janela do quarto da filha do camponês. - Pobre bichinho - condoeu-se a rapariga. - Quem te teria feito tanto mal? Em socorro do morcego, a boa moça ligou-lhe a asa ferida com muita meiguice e aninhou-o num cesto da cozinha. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p2",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Em socorro do morcego, a boa moça ligou-lhe a asa ferida com muita meiguice e aninhou-o num cesto da cozinha. - Vou tratar de ti até tu ficares bom - prometeu-lhe a menina, fazendo-lhe uma festa na feia cabeça de rato. - E espero que de mim trates para sempre, gentil menina - disse o morcego, transformando-se, num repente, em príncipe, daqueles dos contos de fadas.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Em socorro do morcego, a boa moça ligou-lhe a asa ferida com muita meiguice e aninhou-o num cesto da cozinha. - Vou tratar de ti até tu ficares bom - prometeu-lhe a menina, fazendo-lhe uma festa na feia cabeça de rato. - E espero que de mim trates para sempre, gentil menina - disse o morcego, transformando-se, num repente, em príncipe, daqueles dos contos de fadas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s9p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s9p0",
+        "s9p1",
+        "s9p2"
+      ],
+      "evidence": "Então o ouro não se transformara em batatas, batatas de semente?! Mágicas... Malícias mágicas de um príncipe, que fora morcego... Podia ser pior - comentou, conformado, o camponês, que sabia o valor das batatas de semente e já imaginava o extenso batatal que aquelas batatas iriam proporcionar-lhe. Mas, para consegui-lo, muito teria ele de dar à sachola...",
+      "after": {
+        "segment": 9,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Então o ouro não se transformara em batatas, batatas de semente?! Mágicas... Malícias mágicas de um príncipe, que fora morcego... Podia ser pior - comentou, conformado, o camponês, que sabia o valor das batatas de semente e já imaginava o extenso batatal que aquelas batatas iriam proporcionar-lhe. Mas, para consegui-lo, muito teria ele de dar à sachola... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

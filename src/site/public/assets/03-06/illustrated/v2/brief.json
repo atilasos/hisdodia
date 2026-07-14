@@ -1,0 +1,143 @@
+{
+  "characters": [
+    {
+      "name": "Nabucodonosor",
+      "appearance": "rei babilónio, coroado, manto real, expressão autoritária e depois alarmada"
+    },
+    {
+      "name": "Daniel",
+      "appearance": "judeu jovem, sábio, postura calma, túnica simples"
+    },
+    {
+      "name": "Sábios do reino",
+      "appearance": "grupo de anciãos eruditos, vestes formais, ar apreensivo"
+    }
+  ],
+  "environment": "Babilónia antiga, palácio real, corte cerimonial e sala de audiência solene",
+  "palette": [
+    "ouro",
+    "prata",
+    "bronze",
+    "ferro",
+    "barro",
+    "azul profundo",
+    "ocre",
+    "mármore escuro"
+  ],
+  "recurringObjects": [
+    "coroa",
+    "manto real",
+    "lanças",
+    "estátua colossal",
+    "pedra",
+    "poeira"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Há mais de dois milhares de anos que aconteceu esta história ou outra parecida com a que eu vou contar. Milhares de anos depois, vai-se lá saber. O rei Nabucodonosor, imperador dos caldeus, senhor da Babilónia, conquistador do Líbano, dominador da Fenícia, protector da Judeia, cobria com o seu manto e mando meio mundo. Ou quase... Os muitos escravos, que trouxera das suas expedições guerreiras, eram a sua ostentação , quando o cortejo real percorria as ruas e alamedas da Babilónia, ladeadas de lanças, ramos de palmeiras e aclamações. Escolhera-os um por um, de entre os mais jovens, nobres e bem parecidos. Vestidos com túnicas debruadas a ouro, pareciam príncipes. Mas eram escravos.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O sonho do rei».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Há mais de dois milhares de anos que aconteceu esta história ou outra parecida com a que eu vou contar. Milhares de anos depois, vai-se lá saber. O rei Nabucodonosor, imperador dos caldeus, senhor da Babilónia, conquistador do Líbano, dominador da Fenícia, protector da Judeia, cobria com o seu manto e mando meio mundo. Ou quase... Os muitos escravos, que trouxera das suas expedições guerreiras, eram a sua ostentação , quando o cortejo real percorria as ruas e alamedas da Babilónia, ladeadas de lanças, ramos de palmeiras e aclamações. Escolhera-os um por um, de entre os mais jovens, nobres e bem parecidos. Vestidos com túnicas debruadas a ouro, pareciam príncipes. Mas eram escravos. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Há mais de dois milhares de anos que aconteceu esta história ou outra parecida com a que eu vou contar. Milhares de anos depois, vai-se lá saber. O rei Nabucodonosor, imperador dos caldeus, senhor da Babilónia, conquistador do Líbano, dominador da Fenícia, protector da Judeia, cobria com o seu manto e mando meio mundo. Ou quase... Os muitos escravos, que trouxera das suas expedições guerreiras, eram a sua ostentação , quando o cortejo real percorria as ruas e alamedas da Babilónia, ladeadas de lanças, ramos de palmeiras e aclamações. Escolhera-os um por um, de entre os mais jovens, nobres e bem parecidos. Vestidos com túnicas debruadas a ouro, pareciam príncipes. Mas eram escravos.",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Há mais de dois milhares de anos que aconteceu esta história ou outra parecida com a que eu vou contar. Milhares de anos depois, vai-se lá saber. O rei Nabucodonosor, imperador dos caldeus, senhor da Babilónia, conquistador do Líbano, dominador da Fenícia, protector da Judeia, cobria com o seu manto e mando meio mundo. Ou quase... Os muitos escravos, que trouxera das suas expedições guerreiras, eram a sua ostentação , quando o cortejo real percorria as ruas e alamedas da Babilónia, ladeadas de lanças, ramos de palmeiras e aclamações. Escolhera-os um por um, de entre os mais jovens, nobres e bem parecidos. Vestidos com túnicas debruadas a ouro, pareciam príncipes. Mas eram escravos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s2p0",
+        "s3p0"
+      ],
+      "evidence": "Os muitos escravos, que trouxera das suas expedições guerreiras, eram a sua ostentação , quando o cortejo real percorria as ruas e alamedas da Babilónia, ladeadas de lanças, ramos de palmeiras e aclamações. Escolhera-os um por um, de entre os mais jovens, nobres e bem parecidos. Vestidos com túnicas debruadas a ouro, pareciam príncipes. Mas eram escravos. Um deles, proveniente da Judeia, chamava-se Daniel. Os companheiros devotavam-lhe uma grande amizade e respeitavam-no como o melhor de todos, porque ele era o mais inteligente e o mais generoso. Aconteceu que, numa manhã tempestuosa, o rei acordou em cólera. Tinha tido um sonho esquisito e apavorante, que se desvanecera, à luz do dia. Do que tratava? Donde viera? Como findara? Do que tratava? Donde viera? Como findara? O rei tentava a todo o custo recordar-se, mas sem êxito.",
+      "after": {
+        "segment": 3,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os muitos escravos, que trouxera das suas expedições guerreiras, eram a sua ostentação , quando o cortejo real percorria as ruas e alamedas da Babilónia, ladeadas de lanças, ramos de palmeiras e aclamações. Escolhera-os um por um, de entre os mais jovens, nobres e bem parecidos. Vestidos com túnicas debruadas a ouro, pareciam príncipes. Mas eram escravos. Um deles, proveniente da Judeia, chamava-se Daniel. Os companheiros devotavam-lhe uma grande amizade e respeitavam-no como o melhor de todos, porque ele era o mais inteligente e o mais generoso. Aconteceu que, numa manhã tempestuosa, o rei acordou em cólera. Tinha tido um sonho esquisito e apavorante, que se desvanecera, à luz do dia. Do que tratava? Donde viera? Como findara? Do que tratava? Donde viera? Como findara? O rei tentava a todo o custo recordar-se, mas sem êxito. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "Por mais sábio que se seja, ninguém pode adivinhar os sonhos alheios. Foi isto, tal e qual, o que disseram os sábios. Enfureceu-se o rei: - Mando cortar-vos a cabeça se até amanhã, ao raiar do sol, não descobrirem a charada do meu sonho.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Por mais sábio que se seja, ninguém pode adivinhar os sonhos alheios. Foi isto, tal e qual, o que disseram os sábios. Enfureceu-se o rei: - Mando cortar-vos a cabeça se até amanhã, ao raiar do sol, não descobrirem a charada do meu sonho. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s8p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s8p0",
+        "s8p1",
+        "s8p2"
+      ],
+      "evidence": "Daniel prosseguiu: - O colosso tinha a cabeça moldada em ouro maciço, os braços e o peito eram de prata, o ventre e as coxas de bronze, as pernas de ferro e os pés... - ... de barro! - exclamou o rei, dando uma pancada na testa. - Agora me lembro que atiraram uma pedra à estátua.",
+      "after": {
+        "segment": 8,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Daniel prosseguiu: - O colosso tinha a cabeça moldada em ouro maciço, os braços e o peito eram de prata, o ventre e as coxas de bronze, as pernas de ferro e os pés... - ... de barro! - exclamou o rei, dando uma pancada na testa. - Agora me lembro que atiraram uma pedra à estátua. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s11p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s10p2",
+        "s11p0",
+        "s11p1"
+      ],
+      "evidence": "- Grande e nobre rei, senhor de um império colossal, o sonho anunciou-te o que tu já pressentiste. Todo o poder tem pés de barro. Toda a grandeza é perecível . Toda a majestade há-de transformar-se em pó. Nabucodonosor despediu com um gesto o escravo Daniel e escondeu a cabeça debaixo do manto, apavorado. Pela primeira vez na vida teve medo de ser rei. Não conta a história se a lição lhe serviu para o resto do seu reinado, mas é de crer que sim.",
+      "after": {
+        "segment": 11,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Grande e nobre rei, senhor de um império colossal, o sonho anunciou-te o que tu já pressentiste. Todo o poder tem pés de barro. Toda a grandeza é perecível . Toda a majestade há-de transformar-se em pó. Nabucodonosor despediu com um gesto o escravo Daniel e escondeu a cabeça debaixo do manto, apavorado. Pela primeira vez na vida teve medo de ser rei. Não conta a história se a lição lhe serviu para o resto do seu reinado, mas é de crer que sim. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": [
+    {
+      "sceneId": "scene-4",
+      "attempt": 1,
+      "message": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 5ea2987e-0ec8-4769-8e27-0901b2015eb6. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    }
+  ]
+}

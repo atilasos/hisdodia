@@ -1,0 +1,121 @@
+{
+  "characters": [],
+  "environment": "A surreal Portuguese countryside where a Flemish cheese rolls through roads, shops, a football pitch, the sky, and back to its tree.",
+  "palette": [
+    "warm red",
+    "cream",
+    "golden sunlight",
+    "green countryside",
+    "stone gray",
+    "sky blue"
+  ],
+  "recurringObjects": [
+    "round red Flemish cheese",
+    "cheese tree",
+    "country road",
+    "football goal",
+    "airplane trail"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Se acharem esta história mais disparatada e patusca do que as outras, não é culpa minha. Ela passou-se num sítio onde as histórias patuscas parecem histórias muito certinhas. Lá, nesse sítio, as nossas histórias muito certinhas também parecem patuscas... Acontece. Mas vamos à história, que se faz tarde. Era uma vez um queijo flamengo, redondo e vermelhinho, ainda por encetar . Estava pendurado numa árvore, porque, nas histórias patuscas, os queijos nascem e crescem nas árvores. Era um queijo muito maduro, quase a cair, de maduro que estava. E caiu.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A história do queijo flamengo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Se acharem esta história mais disparatada e patusca do que as outras, não é culpa minha. Ela passou-se num sítio onde as histórias patuscas parecem histórias muito certinhas. Lá, nesse sítio, as nossas histórias muito certinhas também parecem patuscas... Acontece. Mas vamos à história, que se faz tarde. Era uma vez um queijo flamengo, redondo e vermelhinho, ainda por encetar . Estava pendurado numa árvore, porque, nas histórias patuscas, os queijos nascem e crescem nas árvores. Era um queijo muito maduro, quase a cair, de maduro que estava. E caiu. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Mas vamos à história, que se faz tarde. Era uma vez um queijo flamengo, redondo e vermelhinho, ainda por encetar . Estava pendurado numa árvore, porque, nas histórias patuscas, os queijos nascem e crescem nas árvores. Era um queijo muito maduro, quase a cair, de maduro que estava. E caiu. Caiu, mas não se espalmou, porque tinha a casca dura.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas vamos à história, que se faz tarde. Era uma vez um queijo flamengo, redondo e vermelhinho, ainda por encetar . Estava pendurado numa árvore, porque, nas histórias patuscas, os queijos nascem e crescem nas árvores. Era um queijo muito maduro, quase a cair, de maduro que estava. E caiu. Caiu, mas não se espalmou, porque tinha a casca dura. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Caiu, mas não se espalmou, porque tinha a casca dura. Caiu e pôs-se a rebolar pela encosta abaixo. Assim foi ter a uma estrada alcatroada, com óptimo piso para queijos flamengos. Rebolando sempre, passou por uma leitaria, onde estavam alinhados, na montra, muitos queijos da serra.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Caiu, mas não se espalmou, porque tinha a casca dura. Caiu e pôs-se a rebolar pela encosta abaixo. Assim foi ter a uma estrada alcatroada, com óptimo piso para queijos flamengos. Rebolando sempre, passou por uma leitaria, onde estavam alinhados, na montra, muitos queijos da serra. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "O dono da leitaria viu o queijo flamengo em liberdade, saltou do balcão e desatou a correr e a gritar: - Agarra, agarra, que o queijo é meu. Por azar, escorregou numa casca, talvez de queijo, e estatelou-se no chão. Puseram-se a rir os queijos da serra da montra e de tanto se rirem até se babaram todos.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O dono da leitaria viu o queijo flamengo em liberdade, saltou do balcão e desatou a correr e a gritar: - Agarra, agarra, que o queijo é meu. Por azar, escorregou numa casca, talvez de queijo, e estatelou-se no chão. Puseram-se a rir os queijos da serra da montra e de tanto se rirem até se babaram todos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p0",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "Mas já não atiraram a tempo. O queijo flamengo tinha escorregado por uma ladeira, enfiado numa escada e, ploc, ploc, ploc, descia os degraus aos saltos, o que é sempre perigoso. Nunca desçam as escadas aos saltos, sobretudo se ainda não tiverem a casca suficientemente dura. Os degraus, por sinal, eram os da bancada de um campo de futebol, onde o público gritou GOOLO! quando viu o queijo saltar para dentro da baliza. O guarda-redes é que ficou danado, por ter consentido naquele \"frango\", que, afinal, até era um queijo.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas já não atiraram a tempo. O queijo flamengo tinha escorregado por uma ladeira, enfiado numa escada e, ploc, ploc, ploc, descia os degraus aos saltos, o que é sempre perigoso. Nunca desçam as escadas aos saltos, sobretudo se ainda não tiverem a casca suficientemente dura. Os degraus, por sinal, eram os da bancada de um campo de futebol, onde o público gritou GOOLO! quando viu o queijo saltar para dentro da baliza. O guarda-redes é que ficou danado, por ter consentido naquele \"frango\", que, afinal, até era um queijo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s12p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s11p1",
+        "s12p0",
+        "s12p1"
+      ],
+      "evidence": "Caiu num jardim, onde um famoso ponta-de-lança, tão famoso que eu nem preciso dizer o nome (até porque não me lembro...), onde o tal futebolista jogava à bola com o filho. O futebolista, supondo que o queijo era a bola, deu-lhe um chuto valente. À conta deste novo impulso, o queijo executou um grande arco no ar e foi ter... adivinhem onde? Foi ter à árvore dos queijos flamengos, donde tinha partido, quando esta história começou.",
+      "after": {
+        "segment": 12,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Caiu num jardim, onde um famoso ponta-de-lança, tão famoso que eu nem preciso dizer o nome (até porque não me lembro...), onde o tal futebolista jogava à bola com o filho. O futebolista, supondo que o queijo era a bola, deu-lhe um chuto valente. À conta deste novo impulso, o queijo executou um grande arco no ar e foi ter... adivinhem onde? Foi ter à árvore dos queijos flamengos, donde tinha partido, quando esta história começou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

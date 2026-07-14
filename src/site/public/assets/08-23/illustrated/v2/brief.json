@@ -1,0 +1,96 @@
+{
+  "characters": [
+    {
+      "name": "Senhor Marcolino",
+      "appearance": "Homem idoso, reformado, sozinho, de aspeto sereno e casmurro, frequentemente em casa ou na praia sem a sombra"
+    },
+    {
+      "name": "A sombra de Marcolino",
+      "appearance": "Sombra autónoma e expressiva, separando-se dele e movendo-se com vontade própria"
+    }
+  ],
+  "environment": "Uma pequena casa e depois espaços ao ar livre muito luminosos, com inverno frio, primavera solarenga, ruas, praças, estrada e praia ao pôr do sol.",
+  "palette": [
+    "tons frios de inverno",
+    "amarelos e dourados de sol de inverno",
+    "azuis e ocres de rua e praça",
+    "azul-mar e laranja do pôr do sol",
+    "contraste entre sombra escura e luz forte"
+  ],
+  "recurringObjects": [
+    "cama",
+    "porta",
+    "sol",
+    "jornal",
+    "praia",
+    "mar"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O senhor Marcolino já tinha uma certa idade. Outros diriam que o senhor Marcolino era um velho, mas se ele, um dia, vier a ler esta história, talvez não goste de assim ser tratado. Os velhos – perdão!, as pessoas de idade – têm destes melindres. Compreensíveis. Pois o senhor Marcolino, idoso, reformado, sozinho, resolvera-se a pôr em prática um plano que há muito vinha congeminando. Era assim: aos primeiros arrepios de Novembro, o senhor Marcolino metia-se na cama. Bem quentinho. Só voltava a levantar-se lá para meados de Março, quando sentia que dois cobertores já eram peso de mais.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Sombra do Marcolino».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O senhor Marcolino já tinha uma certa idade. Outros diriam que o senhor Marcolino era um velho, mas se ele, um dia, vier a ler esta história, talvez não goste de assim ser tratado. Os velhos – perdão!, as pessoas de idade – têm destes melindres. Compreensíveis. Pois o senhor Marcolino, idoso, reformado, sozinho, resolvera-se a pôr em prática um plano que há muito vinha congeminando. Era assim: aos primeiros arrepios de Novembro, o senhor Marcolino metia-se na cama. Bem quentinho. Só voltava a levantar-se lá para meados de Março, quando sentia que dois cobertores já eram peso de mais. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p11",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p9",
+        "s0p10",
+        "s0p11"
+      ],
+      "evidence": "– A mim bem me importa – repontava a sombra. – Eu procuro sempre o lado do sol. Gosto de apanhar ar, de espairecer, até de passear à noite, à luz dos candeeiros. – Então vai passear e deixa-me em paz – arreliou-se o senhor Marcolino, farto daquela sombra pespontona. Nem foi preciso dizer-lhe segunda vez. A sombra descolou-se do senhor Marcolino e escapuliu-se por debaixo da porta. Um solzinho de Inverno, mesmo tentador, chamava-a, da rua...",
+      "after": {
+        "segment": 0,
+        "paragraph": 11
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – A mim bem me importa – repontava a sombra. – Eu procuro sempre o lado do sol. Gosto de apanhar ar, de espairecer, até de passear à noite, à luz dos candeeiros. – Então vai passear e deixa-me em paz – arreliou-se o senhor Marcolino, farto daquela sombra pespontona. Nem foi preciso dizer-lhe segunda vez. A sombra descolou-se do senhor Marcolino e escapuliu-se por debaixo da porta. Um solzinho de Inverno, mesmo tentador, chamava-a, da rua... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p19",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p17",
+        "s0p18",
+        "s0p19"
+      ],
+      "evidence": "Se me perdoares, também estás perdoada Mas sem grande esperança... O Verão a acabar e ele sem sombra. Pôs-se a andar ao acaso por largos e praças batidas pelo sol. Palmilhou ruas e estradas rasgadas pelo sol. Da sua sombra nem sombra.",
+      "after": {
+        "segment": 0,
+        "paragraph": 19
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Se me perdoares, também estás perdoada Mas sem grande esperança... O Verão a acabar e ele sem sombra. Pôs-se a andar ao acaso por largos e praças batidas pelo sol. Palmilhou ruas e estradas rasgadas pelo sol. Da sua sombra nem sombra. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p22",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p20",
+        "s0p21",
+        "s0p22"
+      ],
+      "evidence": "Sentiu-se muito só. Estava ele, sentado numa duna da praia, a olhar para o mar, quando uma voz lhe interrompeu os pensamentos tristes: – Olá, Marcolino. Afinal, velho urso, também gostas de apanhar sol. Era ela, a sua querida sombra, alargando-se e ondulando pela areia, à luz do sol pôr. Foi uma festa o encontro.",
+      "after": {
+        "segment": 0,
+        "paragraph": 22
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Sentiu-se muito só. Estava ele, sentado numa duna da praia, a olhar para o mar, quando uma voz lhe interrompeu os pensamentos tristes: – Olá, Marcolino. Afinal, velho urso, também gostas de apanhar sol. Era ela, a sua querida sombra, alargando-se e ondulando pela areia, à luz do sol pôr. Foi uma festa o encontro. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

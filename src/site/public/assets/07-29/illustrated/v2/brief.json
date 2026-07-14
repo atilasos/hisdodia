@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": "Portuguese village fair and holiday setting",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Chegaram as férias. Chegaram as férias para todos, menos para o Joca. Realmente, já não tem de ir à escola. Mas, em contrapartida, nem fazem ideia do que o rapaz tem agora que fazer! Para o Joca não há parança . Avaliem se tenho ou não tenho razão...",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Os trabalhos do Joca».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Chegaram as férias. Chegaram as férias para todos, menos para o Joca. Realmente, já não tem de ir à escola. Mas, em contrapartida, nem fazem ideia do que o rapaz tem agora que fazer! Para o Joca não há parança . Avaliem se tenho ou não tenho razão... Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "Às 2ª feiras, o Joca é bombeiro, ao volante da ambulância vermelha. Às 3ª feiras, é maquinista, a contas com os manípulos da locomotiva. Às 4ª feiras, é ciclista e farta-se de correr, isto é, de pedalar.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Às 2ª feiras, o Joca é bombeiro, ao volante da ambulância vermelha. Às 3ª feiras, é maquinista, a contas com os manípulos da locomotiva. Às 4ª feiras, é ciclista e farta-se de correr, isto é, de pedalar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "Às 6ª feiras, é aviador, aos comandos de uma bela avioneta. Aos sábados, é cow-boy e monta um cavalo branco, com arreios dourados. Aos domingos - calculem que até aos domingos!",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Às 6ª feiras, é aviador, aos comandos de uma bela avioneta. Aos sábados, é cow-boy e monta um cavalo branco, com arreios dourados. Aos domingos - calculem que até aos domingos! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "- é astronauta, dirigindo pelo espaço o foguetão de prata. Às 2ª feiras... Às 2ª feiras, que desolação! Quando se preparava para regressar ao trabalho, o Joca dá conta de que, no largo da vila, o carrossel vai ser desmanchado. A voz que o animava a \"mais uma corrida! Mais uma viagem!\" emudeceu.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - é astronauta, dirigindo pelo espaço o foguetão de prata. Às 2ª feiras... Às 2ª feiras, que desolação! Quando se preparava para regressar ao trabalho, o Joca dá conta de que, no largo da vila, o carrossel vai ser desmanchado. A voz que o animava a \"mais uma corrida! Mais uma viagem!\" emudeceu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p0",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "E a ambulância dos bombeiros, a locomotiva, a bicicleta, a camioneta, o avião, o cavalo, o foguetão, rodando, uns atrás dos outros, rodando sempre, vão pôr a andar à roda as cabeças de mais meninos. De olhos fechados, eles sentem-se, de repente, bombeiros, maquinistas, ciclistas, motoristas, aviadores, cow-boys, astronautas... O Joca vê partir o carrossel e tem pena. Mas, paciência! Há mais coisas a fazer durante as férias - por exemplo, brincar. E, a esse respeito, o Joca não se perde.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E a ambulância dos bombeiros, a locomotiva, a bicicleta, a camioneta, o avião, o cavalo, o foguetão, rodando, uns atrás dos outros, rodando sempre, vão pôr a andar à roda as cabeças de mais meninos. De olhos fechados, eles sentem-se, de repente, bombeiros, maquinistas, ciclistas, motoristas, aviadores, cow-boys, astronautas... O Joca vê partir o carrossel e tem pena. Mas, paciência! Há mais coisas a fazer durante as férias - por exemplo, brincar. E, a esse respeito, o Joca não se perde. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

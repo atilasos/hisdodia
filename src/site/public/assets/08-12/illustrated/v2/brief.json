@@ -1,0 +1,102 @@
+{
+  "characters": [],
+  "environment": "aquatic interior and adjacent shore setting with a glass vessel and a lake or basin",
+  "palette": [
+    "silver",
+    "blue-green",
+    "warm brown",
+    "soft gray",
+    "black"
+  ],
+  "recurringObjects": [
+    "glass vessel",
+    "water",
+    "fish scales",
+    "cat silhouette"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um peixe. Era uma vez um gato, um gato gaiato com sonhos e cócegas de gato macaco.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O peixe e o gato».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um peixe. Era uma vez um gato, um gato gaiato com sonhos e cócegas de gato macaco. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p3",
+        "s1p4",
+        "s1p5"
+      ],
+      "evidence": "Estou vivo e bem vivo e bem protegido\" Bolinhas subiam em ondas de ornato...",
+      "after": {
+        "segment": 1,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Estou vivo e bem vivo e bem protegido\" Bolinhas subiam em ondas de ornato... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p2",
+        "s2p3",
+        "s2p4"
+      ],
+      "evidence": "- Troquemos, peixinho, e já, sem demora, eu vou para a redoma, tu vens cá para fora.",
+      "after": {
+        "segment": 2,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Troquemos, peixinho, e já, sem demora, eu vou para a redoma, tu vens cá para fora. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p4",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p2",
+        "s5p3",
+        "s5p4"
+      ],
+      "evidence": "Então, mais sensato, o gato-pingado gritou para o buraco: - Quebrou-se o contrato. Não brinco contigo.",
+      "after": {
+        "segment": 5,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Então, mais sensato, o gato-pingado gritou para o buraco: - Quebrou-se o contrato. Não brinco contigo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s7p3",
+        "s7p4",
+        "s7p5"
+      ],
+      "evidence": "nadava de largo em largo no lago feito baía. E cada escama lhe ria...",
+      "after": {
+        "segment": 7,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: nadava de largo em largo no lago feito baía. E cada escama lhe ria... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

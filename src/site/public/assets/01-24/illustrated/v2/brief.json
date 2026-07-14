@@ -1,0 +1,94 @@
+{
+  "characters": [
+    {
+      "name": "Senhor Alípio",
+      "appearance": "Homem trabalhador, de meia-idade, roupa simples de obra, ar cansado, chapéu gasto e desbotado"
+    },
+    {
+      "name": "Caixeiro",
+      "appearance": "Funcionário de loja atento, atrás do balcão, postura paciente mas cada vez mais perplexa"
+    }
+  ],
+  "environment": "Interior de uma loja de bonés, com espelho, balcão e vários bonés expostos ou rejeitados; abertura e saída remetem ao exterior urbano de obras e rua.",
+  "palette": [
+    "azuis gastos",
+    "castanhos ruços",
+    "verde escuro",
+    "cinzento deslavado",
+    "tons quentes de loja antiga"
+  ],
+  "recurringObjects": [
+    "boné gasto",
+    "espelho da loja",
+    "balcão",
+    "monte de bonés rejeitados"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O senhor Alípio foi comprar um boné. O que usava já tinha perdido a cor de tanto sol e tanta chuva que apanhara. O senhor Alípio trabalhava ao ar livre, nas obras, é preciso que se saiba. - Quero um boné com pala - pediu o senhor Alípio, quando chegou à loja. O caixeiro da loja terá pensado que todos os bonés têm pala. Sem pala, só boinas.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Boné».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O senhor Alípio foi comprar um boné. O que usava já tinha perdido a cor de tanto sol e tanta chuva que apanhara. O senhor Alípio trabalhava ao ar livre, nas obras, é preciso que se saiba. - Quero um boné com pala - pediu o senhor Alípio, quando chegou à loja. O caixeiro da loja terá pensado que todos os bonés têm pala. Sem pala, só boinas. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "- E este às risquinhas encarnadas? O senhor Alípio provou, viu-se ao espelho e não gostou. O caixeiro começava a achar que aquele freguês não era fácil de contentar. Sobre o balcão, um monte de bonés abandonados...",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - E este às risquinhas encarnadas? O senhor Alípio provou, viu-se ao espelho e não gostou. O caixeiro começava a achar que aquele freguês não era fácil de contentar. Sobre o balcão, um monte de bonés abandonados... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p4",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p2",
+        "s3p3",
+        "s3p4"
+      ],
+      "evidence": "- Levo este. - Mas é o que o senhor trazia na cabeça, quando entrou na loja - disse-lhe o desolado caixeiro. - Ai, é?",
+      "after": {
+        "segment": 3,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Levo este. - Mas é o que o senhor trazia na cabeça, quando entrou na loja - disse-lhe o desolado caixeiro. - Ai, é? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p3",
+        "s3p4",
+        "s4p0"
+      ],
+      "evidence": "- Mas é o que o senhor trazia na cabeça, quando entrou na loja - disse-lhe o desolado caixeiro. - Ai, é? Levo na mesma - e saiu da loja, muito satisfeito, com um boné ou cinzento deslavado ou castanho ruço ou antes assim-assim.",
+      "after": {
+        "segment": 4,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Mas é o que o senhor trazia na cabeça, quando entrou na loja - disse-lhe o desolado caixeiro. - Ai, é? Levo na mesma - e saiu da loja, muito satisfeito, com um boné ou cinzento deslavado ou castanho ruço ou antes assim-assim. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

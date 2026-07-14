@@ -1,0 +1,99 @@
+{
+  "characters": [
+    {
+      "name": "cavalinho",
+      "appearance": "young foal"
+    },
+    {
+      "name": "cavalo",
+      "appearance": "race horse father"
+    },
+    {
+      "name": "motorista",
+      "appearance": "smiling unseen driver"
+    }
+  ],
+  "environment": "Portuguese countryside, prado with cerca, estrada, caminho de mau piso, and a Grande Prova Internacional a Todo o Galope racetrack",
+  "palette": [
+    "terra molhada",
+    "castanho",
+    "poeira",
+    "verde do prado",
+    "cinzento da estrada"
+  ],
+  "recurringObjects": [
+    "cerca do prado",
+    "automóvel",
+    "barreira da corrida",
+    "ligadura na perna",
+    "poeira"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Ocavalinho foi ver o pai às corridas. Tinham-lhe dito que o pai ia concorrer, na Grande Prova Internacional a Todo o Galope, e o cavalinho, que nunca tinha vencido a cerca do prado onde vivia, deu um salto e pronto. Estava do outro lado. – Se fosse o meu pai, melhor ele saltaria – disse de si para si o cavalinho. – O meu pai é um grande saltador.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Cavalinho e Cavalo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ocavalinho foi ver o pai às corridas. Tinham-lhe dito que o pai ia concorrer, na Grande Prova Internacional a Todo o Galope, e o cavalinho, que nunca tinha vencido a cerca do prado onde vivia, deu um salto e pronto. Estava do outro lado. – Se fosse o meu pai, melhor ele saltaria – disse de si para si o cavalinho. – O meu pai é um grande saltador. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p6",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "– Ó cavalicoque, posso dar uma voltinha? – perguntou uma risonha voz de dentro do carro. O cavalinho assustou-se e fugiu. Correu. O automóvel atrás dele. Se não tivesse inflectido para um caminho de mau piso, o automóvel tinha-o apanhado. Assim, escapou.",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Ó cavalicoque, posso dar uma voltinha? – perguntou uma risonha voz de dentro do carro. O cavalinho assustou-se e fugiu. Correu. O automóvel atrás dele. Se não tivesse inflectido para um caminho de mau piso, o automóvel tinha-o apanhado. Assim, escapou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p12",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p10",
+        "s0p11",
+        "s0p12"
+      ],
+      "evidence": "– Deve ser o meu pai – dizia o cavalinho. Fosse ou não fosse, o certo é que, numa curva, depois de terem saltado uma barreira, os cavalos tropeçaram uns nos outros e caíram. E magoaram-se. Entre eles, o pai do cavalinho. Foi interrompida e anulada a corrida.",
+      "after": {
+        "segment": 0,
+        "paragraph": 12
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Deve ser o meu pai – dizia o cavalinho. Fosse ou não fosse, o certo é que, numa curva, depois de terem saltado uma barreira, os cavalos tropeçaram uns nos outros e caíram. E magoaram-se. Entre eles, o pai do cavalinho. Foi interrompida e anulada a corrida. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p15",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p13",
+        "s0p14",
+        "s0p15"
+      ],
+      "evidence": "Agora de novo no prado com a cerca à volta, o cavalinho faz companhia ao pai, que coxeia, de perna ligada, para que se cure depressa. – Se não tivesse havido aquela confusão, depois da barreira, tu é que tinhas ganho – disse-lhe o filho. O cavalo de corrida faz que sim com a cabeça e relincha. O pescoço musculoso brilha como seda. As crinas ondeiam. É um lindo cavalo castanho, cor de terra molhada. O filho sai a ele.",
+      "after": {
+        "segment": 0,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Agora de novo no prado com a cerca à volta, o cavalinho faz companhia ao pai, que coxeia, de perna ligada, para que se cure depressa. – Se não tivesse havido aquela confusão, depois da barreira, tu é que tinhas ganho – disse-lhe o filho. O cavalo de corrida faz que sim com a cabeça e relincha. O pescoço musculoso brilha como seda. As crinas ondeiam. É um lindo cavalo castanho, cor de terra molhada. O filho sai a ele. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

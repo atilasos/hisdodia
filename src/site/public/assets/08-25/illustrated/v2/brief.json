@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Isto passou-se num tempo em que mouros e cristãos andavam à bulha pela mesma terra, por sinal a mesma que, mais tarde, se chamou de Portugal. Uns de um lado, outros do outro, conquistavam vilas e aldeias, que logo a seguir tinham de abandonar, para mais depois reconquistarem, numa luta desenfreada e sem fronteiras certas. Alfanges e espadas cruzavam-se com raiva, corria sangue, perdiam-se muitas vidas. Aconteceu que, uma vez, não sei onde, uma mulher sarracena estava para dar à luz. O marido, aflito, procurou entre as mulheres mouriscas quem a socorresse, mas nenhuma tinha experiência para tal. Falaram-lhe, no entanto, de uma parteira cristã, que vivia do outro lado da guerra.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Um Avental Cheio».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Isto passou-se num tempo em que mouros e cristãos andavam à bulha pela mesma terra, por sinal a mesma que, mais tarde, se chamou de Portugal. Uns de um lado, outros do outro, conquistavam vilas e aldeias, que logo a seguir tinham de abandonar, para mais depois reconquistarem, numa luta desenfreada e sem fronteiras certas. Alfanges e espadas cruzavam-se com raiva, corria sangue, perdiam-se muitas vidas. Aconteceu que, uma vez, não sei onde, uma mulher sarracena estava para dar à luz. O marido, aflito, procurou entre as mulheres mouriscas quem a socorresse, mas nenhuma tinha experiência para tal. Falaram-lhe, no entanto, de uma parteira cristã, que vivia do outro lado da guerra. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s0p4",
+        "s0p5"
+      ],
+      "evidence": "O homem arriscou-se. A coberto da noite, evitou as sentinelas e conseguiu chegar a casa da parteira. Com muito bons modos, pediu-lhe que lhe acudisse à mulher e ao filho que estava para nascer. – Prometo encher-te o avental de riquezas – disse ele, a convencê-la. A parteira, ou por cobiça ou por condoimento, foi com o mouro, passando, no entanto, pelos mesmos riscos por que ele tinha passado.",
+      "after": {
+        "segment": 0,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O homem arriscou-se. A coberto da noite, evitou as sentinelas e conseguiu chegar a casa da parteira. Com muito bons modos, pediu-lhe que lhe acudisse à mulher e ao filho que estava para nascer. – Prometo encher-te o avental de riquezas – disse ele, a convencê-la. A parteira, ou por cobiça ou por condoimento, foi com o mouro, passando, no entanto, pelos mesmos riscos por que ele tinha passado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p8",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p6",
+        "s0p7",
+        "s0p8"
+      ],
+      "evidence": "Concluído o parto, sossegada a mãe com o bebé nos braços, o mouro mandou-a levantar o avental e despejou-lhe para a abada dele uma cesta cheia de carvão de lenha. – Guarda-a até chegares a casa – avisou-a o pai do menino que ela ajudara a nascer. A mulher sentiu-se lograda, mas temeu-se de protestar, receosa de que o mouro lhe levasse a mal. No seu íntimo, resmungava: \"Então este montinho de carvões, que me sujam o aventalinho de chita, é que valem a riqueza prometida? Da próxima não torno, ai não torno não, mouro velhaco\".",
+      "after": {
+        "segment": 0,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Concluído o parto, sossegada a mãe com o bebé nos braços, o mouro mandou-a levantar o avental e despejou-lhe para a abada dele uma cesta cheia de carvão de lenha. – Guarda-a até chegares a casa – avisou-a o pai do menino que ela ajudara a nascer. A mulher sentiu-se lograda, mas temeu-se de protestar, receosa de que o mouro lhe levasse a mal. No seu íntimo, resmungava: \"Então este montinho de carvões, que me sujam o aventalinho de chita, é que valem a riqueza prometida? Da próxima não torno, ai não torno não, mouro velhaco\". Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p13",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p11",
+        "s0p12",
+        "s0p13"
+      ],
+      "evidence": "Ela benzeu-se diante deles e mostrou-lhes o seu leve carrego de carvões, desculpando-se: – Sou uma pobre mulher que anda a colher gravetos de uma queimada, para conforto da casa e meu e de meu gato, que gosta de dormir ao borralho. Deixaram-na ir. Quando chegou a casa e fechou a porta atrás dela, de coração ainda a bater de susto, ia para deitar os carvões para a lareira e viu que – olhai a surpresa! – tinha o avental cheio de barras de ouro. Até o pó de carvão se tinha transformado em ouro em pó. Afinal o mouro era um mágico e não lhe falhara a paga.",
+      "after": {
+        "segment": 0,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ela benzeu-se diante deles e mostrou-lhes o seu leve carrego de carvões, desculpando-se: – Sou uma pobre mulher que anda a colher gravetos de uma queimada, para conforto da casa e meu e de meu gato, que gosta de dormir ao borralho. Deixaram-na ir. Quando chegou a casa e fechou a porta atrás dela, de coração ainda a bater de susto, ia para deitar os carvões para a lareira e viu que – olhai a surpresa! – tinha o avental cheio de barras de ouro. Até o pó de carvão se tinha transformado em ouro em pó. Afinal o mouro era um mágico e não lhe falhara a paga. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p14",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p12",
+        "s0p13",
+        "s0p14"
+      ],
+      "evidence": "– Sou uma pobre mulher que anda a colher gravetos de uma queimada, para conforto da casa e meu e de meu gato, que gosta de dormir ao borralho. Deixaram-na ir. Quando chegou a casa e fechou a porta atrás dela, de coração ainda a bater de susto, ia para deitar os carvões para a lareira e viu que – olhai a surpresa! – tinha o avental cheio de barras de ouro. Até o pó de carvão se tinha transformado em ouro em pó. Afinal o mouro era um mágico e não lhe falhara a paga. Parece que o único que não apreciou a transformação foi o gato que gostava de dormir ao calor do borralho.",
+      "after": {
+        "segment": 0,
+        "paragraph": 14
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Sou uma pobre mulher que anda a colher gravetos de uma queimada, para conforto da casa e meu e de meu gato, que gosta de dormir ao borralho. Deixaram-na ir. Quando chegou a casa e fechou a porta atrás dela, de coração ainda a bater de susto, ia para deitar os carvões para a lareira e viu que – olhai a surpresa! – tinha o avental cheio de barras de ouro. Até o pó de carvão se tinha transformado em ouro em pó. Afinal o mouro era um mágico e não lhe falhara a paga. Parece que o único que não apreciou a transformação foi o gato que gostava de dormir ao calor do borralho. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,116 @@
+{
+  "characters": [
+    {
+      "name": "pardalito",
+      "appearance": "small young sparrow, curious and adventurous"
+    },
+    {
+      "name": "pardoca velha",
+      "appearance": "older sparrow, experienced and observant"
+    },
+    {
+      "name": "homem do automóvel",
+      "appearance": "man arriving by car to collect water in plastic jugs"
+    }
+  ],
+  "environment": "Rural roadside fountain near trees, with a curving road, a simple roadside stall with produce and water jugs, and a bright open-air Portuguese countryside atmosphere.",
+  "palette": [
+    "earthy browns",
+    "dusty greens",
+    "sunlit ochres",
+    "soft blues",
+    "muted reds"
+  ],
+  "recurringObjects": [
+    "fonte de pedra",
+    "automóvel",
+    "garrafões de plástico",
+    "árvores",
+    "telheiro de venda"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma fonte à beira da estrada. Os pardais das árvores vizinhas tinham ali o seu ponto de encontro. Matavam a sede, tomavam banho, chilreavam uns com os outros. De semana a semana, vinha um homem, sempre de automóvel, buscar água à fonte. Enchia uma quantidade de garrafões de plástico e, depois, abalava.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Fonte dos Pardais».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma fonte à beira da estrada. Os pardais das árvores vizinhas tinham ali o seu ponto de encontro. Matavam a sede, tomavam banho, chilreavam uns com os outros. De semana a semana, vinha um homem, sempre de automóvel, buscar água à fonte. Enchia uma quantidade de garrafões de plástico e, depois, abalava. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s0p3"
+      ],
+      "evidence": "Matavam a sede, tomavam banho, chilreavam uns com os outros. De semana a semana, vinha um homem, sempre de automóvel, buscar água à fonte. Enchia uma quantidade de garrafões de plástico e, depois, abalava. Nessas alturas, a pardalada fugia para o poiso das árvores e ficava a observar.",
+      "after": {
+        "segment": 0,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Matavam a sede, tomavam banho, chilreavam uns com os outros. De semana a semana, vinha um homem, sempre de automóvel, buscar água à fonte. Enchia uma quantidade de garrafões de plástico e, depois, abalava. Nessas alturas, a pardalada fugia para o poiso das árvores e ficava a observar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p15",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p13",
+        "s0p14",
+        "s0p15"
+      ],
+      "evidence": "Se o pardal soubesse ler, leria no rótulo dos garrafões: \"ÁGUA DA FONTE DA SAÚDE - Graças a ela, os novos crescem e os velhos não encolhem\". Aos saltinhos, diante dos garrafões, o pardalito admirava a fotografia do rótulo. Lá estava a fonte, centro da sua vida, e uns passarinhos a beber água no rebordo do tanque. Vendo bem, aquele mais pequeno, à direita, podia ser ele, o pardalito aventureiro.",
+      "after": {
+        "segment": 0,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Se o pardal soubesse ler, leria no rótulo dos garrafões: \"ÁGUA DA FONTE DA SAÚDE - Graças a ela, os novos crescem e os velhos não encolhem\". Aos saltinhos, diante dos garrafões, o pardalito admirava a fotografia do rótulo. Lá estava a fonte, centro da sua vida, e uns passarinhos a beber água no rebordo do tanque. Vendo bem, aquele mais pequeno, à direita, podia ser ele, o pardalito aventureiro. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p18",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p16",
+        "s0p17",
+        "s0p18"
+      ],
+      "evidence": "Muito orgulhoso da sua descoberta, o pardal voou muito alto, tão alto que, lá de cima, viu o telheiro dos garrafões, a estrada às curvas e a fonte da Saúde ou dos pardais, donde ele viera. Disparou em direcção ao ponto de partida e muito excitado piou para os companheiros: - Já sei o segredo dos garrafões. O homem anda a vender o nosso retrato mais o retrato da nossa fonte.",
+      "after": {
+        "segment": 0,
+        "paragraph": 18
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Muito orgulhoso da sua descoberta, o pardal voou muito alto, tão alto que, lá de cima, viu o telheiro dos garrafões, a estrada às curvas e a fonte da Saúde ou dos pardais, donde ele viera. Disparou em direcção ao ponto de partida e muito excitado piou para os companheiros: - Já sei o segredo dos garrafões. O homem anda a vender o nosso retrato mais o retrato da nossa fonte. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p20",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p18",
+        "s0p19",
+        "s0p20"
+      ],
+      "evidence": "- Já sei o segredo dos garrafões. O homem anda a vender o nosso retrato mais o retrato da nossa fonte. - E a água para que serve? - perguntou um companheiro. - Para segurar o nosso retrato - respondeu, prontamente, o pardalito.",
+      "after": {
+        "segment": 0,
+        "paragraph": 20
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Já sei o segredo dos garrafões. O homem anda a vender o nosso retrato mais o retrato da nossa fonte. - E a água para que serve? - perguntou um companheiro. - Para segurar o nosso retrato - respondeu, prontamente, o pardalito. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

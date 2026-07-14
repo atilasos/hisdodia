@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "\"Quem disse que não há dragões? Eu vi um pequenino a sair debaixo de um vaso de sardinheiras. Deitou-me a língua de fora e foi-se embora, a correr. Ainda está verde. Quando crescer, vão ver.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O dragão Arnaldo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: \"Quem disse que não há dragões? Eu vi um pequenino a sair debaixo de um vaso de sardinheiras. Deitou-me a língua de fora e foi-se embora, a correr. Ainda está verde. Quando crescer, vão ver. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "Vai ter o corpo todo coberto de escamas a valer e em cada escama o monograma: 'D A' entrelaçados - Dragão Arnaldo. Muito prazer em conhecer.\" - Que estás para aí a inventar? - perguntou a mãe ao Joca, que isto estava a contar. - Fui eu que vi um dragão, mãe, um dragão pequenino. Quando crescer, vai tomar conta desta varanda. Vais ver.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Vai ter o corpo todo coberto de escamas a valer e em cada escama o monograma: 'D A' entrelaçados - Dragão Arnaldo. Muito prazer em conhecer.\" - Que estás para aí a inventar? - perguntou a mãe ao Joca, que isto estava a contar. - Fui eu que vi um dragão, mãe, um dragão pequenino. Quando crescer, vai tomar conta desta varanda. Vais ver. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "- Porquê? - quis saber a mãe, um pouco intrigada. - Porque, quando quiseres assar um pargo ou fazer carne assada, basta que abras a boca do dragão, que é um forno sempre aceso, como não há outro. - E, se ele me comer o peixe ou a carne, que jantamos nós?",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Porquê? - quis saber a mãe, um pouco intrigada. - Porque, quando quiseres assar um pargo ou fazer carne assada, basta que abras a boca do dragão, que é um forno sempre aceso, como não há outro. - E, se ele me comer o peixe ou a carne, que jantamos nós? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "- Pois é, mãe. Não me tinha lembrado. Vamos ter de levá-lo a passear até à Tapada da Ajuda, para se alimentar de relva e de verduras. Para pastar. Neste ponto, disse a mãe: - Mas assim que o vissem, os meninos fugiam e, mais dia menos dia, ficava a Tapada vazia de pessoas e vegetação.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Pois é, mãe. Não me tinha lembrado. Vamos ter de levá-lo a passear até à Tapada da Ajuda, para se alimentar de relva e de verduras. Para pastar. Neste ponto, disse a mãe: - Mas assim que o vissem, os meninos fugiam e, mais dia menos dia, ficava a Tapada vazia de pessoas e vegetação. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p0",
+        "s6p1",
+        "s6p2"
+      ],
+      "evidence": "As árvores despidas, as crianças assustadas, porque o dragão tudo comia e não deixava nada. - Pois é, mãe. Não me tinha lembrado. Afinal o dragão era uma complicação. Vou dizer à lagartixa que fique como está. Já não precisa de crescer. Nessa altura, a lagartixa passou a correr e esta história acaba como deve de ser.",
+      "after": {
+        "segment": 6,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: As árvores despidas, as crianças assustadas, porque o dragão tudo comia e não deixava nada. - Pois é, mãe. Não me tinha lembrado. Afinal o dragão era uma complicação. Vou dizer à lagartixa que fique como está. Já não precisa de crescer. Nessa altura, a lagartixa passou a correr e esta história acaba como deve de ser. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

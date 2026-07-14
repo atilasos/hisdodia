@@ -1,0 +1,120 @@
+{
+  "characters": [],
+  "environment": "Contemporary Portuguese town with a tailor's workshop and an architect's home under construction, shown in a clean modern illustrated style",
+  "palette": [
+    "warm neutrals",
+    "brick red",
+    "muted blue",
+    "soft ochre",
+    "sage green"
+  ],
+  "recurringObjects": [
+    "button",
+    "brick",
+    "house plans",
+    "tailor's tools",
+    "construction materials"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um alfaiate e um arquitecto que eram amigos. Um dia, por brincadeira, o arquitecto disse ao alfaiate: - Toma este botão. Podes fazer-me um casaco?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A casa do botão».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um alfaiate e um arquitecto que eram amigos. Um dia, por brincadeira, o arquitecto disse ao alfaiate: - Toma este botão. Podes fazer-me um casaco? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "O mais engraçado é que os dois levaram a brincadeira a sério. Para fazer uma casa, não basta um tijolo. Falta tudo o resto: o terreno, o projecto, todos os materiais de construção, descontando um tijolo. Para fazer um casaco, não basta um botão.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O mais engraçado é que os dois levaram a brincadeira a sério. Para fazer uma casa, não basta um tijolo. Falta tudo o resto: o terreno, o projecto, todos os materiais de construção, descontando um tijolo. Para fazer um casaco, não basta um botão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p3",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "O arquitecto sozinho nunca conseguiria construir a casa. Precisou da ajuda de desenhadores, pedreiros, carpinteiros, electricistas, pintores e de outros profissionais do ramo da construção civil. O alfaiate sozinho talvez conseguisse fazer o casaco, mas preferiu a ajuda de oficiais e costureiras de alfaiate, profissionais do ramo de alfaiataria.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O arquitecto sozinho nunca conseguiria construir a casa. Precisou da ajuda de desenhadores, pedreiros, carpinteiros, electricistas, pintores e de outros profissionais do ramo da construção civil. O alfaiate sozinho talvez conseguisse fazer o casaco, mas preferiu a ajuda de oficiais e costureiras de alfaiate, profissionais do ramo de alfaiataria. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "O alfaiate sozinho talvez conseguisse fazer o casaco, mas preferiu a ajuda de oficiais e costureiras de alfaiate, profissionais do ramo de alfaiataria. Enquanto a casa demorou a construir, muitos casacos saíram da oficina do alfaiate. O contrário é que seria de estranhar. Para pagar a construção da casa e para pagar a todos os que nela trabalharam, o alfaiate teve de vender imensos casacos, calças e coletes. Era de prever.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O alfaiate sozinho talvez conseguisse fazer o casaco, mas preferiu a ajuda de oficiais e costureiras de alfaiate, profissionais do ramo de alfaiataria. Enquanto a casa demorou a construir, muitos casacos saíram da oficina do alfaiate. O contrário é que seria de estranhar. Para pagar a construção da casa e para pagar a todos os que nela trabalharam, o alfaiate teve de vender imensos casacos, calças e coletes. Era de prever. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p1",
+        "s5p2",
+        "s5p3"
+      ],
+      "evidence": "Perguntou-lhe o alfaiate: - Ouve lá, onde puseste o tijolo que eu te dei? - Guardei-o, para recordação - respondeu o arquitecto.",
+      "after": {
+        "segment": 5,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Perguntou-lhe o alfaiate: - Ouve lá, onde puseste o tijolo que eu te dei? - Guardei-o, para recordação - respondeu o arquitecto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s6p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p3",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "- Guardei-o, para recordação - respondeu o arquitecto. - Tem graça - comentou o alfaiate. - Eu fiz o mesmo ao botão que tu me deste. Também o guardei, para recordação. Por aqui se vê como um botão teve uma casa construída por um arquitecto.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Guardei-o, para recordação - respondeu o arquitecto. - Tem graça - comentou o alfaiate. - Eu fiz o mesmo ao botão que tu me deste. Também o guardei, para recordação. Por aqui se vê como um botão teve uma casa construída por um arquitecto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

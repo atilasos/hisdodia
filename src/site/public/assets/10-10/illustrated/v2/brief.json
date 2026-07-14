@@ -1,0 +1,84 @@
+{
+  "characters": [],
+  "environment": "A Portuguese village square and the wall that “has ears,” framed as a small-town public celebration with a mysterious speaker hidden on the wall.",
+  "palette": [
+    "warm festival colors",
+    "dusty stone gray",
+    "muted earth tones",
+    "bright pop accents from lights and music equipment"
+  ],
+  "recurringObjects": [
+    "the wall",
+    "the mounted loudspeaker",
+    "festival lights",
+    "the village square"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma parede que tinha ouvidos. Nada de estranhar. Ele há gente que se pela por contar segredos, próprios ou alheios, sem ligar ao aviso dos mais prudentes: \"Cuidado que as paredes têm ouvidos\". Alguma vez acabaria por ser verdade. Esta tinha ouvidos e até olhos, calculem. Só lhe faltava a boca e, já agora, o nariz.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Parede com Ouvidos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma parede que tinha ouvidos. Nada de estranhar. Ele há gente que se pela por contar segredos, próprios ou alheios, sem ligar ao aviso dos mais prudentes: \"Cuidado que as paredes têm ouvidos\". Alguma vez acabaria por ser verdade. Esta tinha ouvidos e até olhos, calculem. Só lhe faltava a boca e, já agora, o nariz. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "A meio da musicata, ouviu-se uma voz dizer em segredo, mas de modo que todos ouvissem: – A Tia Hermínia só toma banho na Páscoa. O pessoal riu-se. Aquilo seria brincadeira de garotos…",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A meio da musicata, ouviu-se uma voz dizer em segredo, mas de modo que todos ouvissem: – A Tia Hermínia só toma banho na Páscoa. O pessoal riu-se. Aquilo seria brincadeira de garotos… Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p11",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p9",
+        "s1p10",
+        "s1p11"
+      ],
+      "evidence": "– A Dona Camila já não paga aos criados há três meses, mas não quer que se saiba. Aquilo já soava a escândalo. Foi a própria Dona Camila que apontou para o altifalante, pendurado na parede, a tal que tinha ouvidos: – A voz vem dali.",
+      "after": {
+        "segment": 1,
+        "paragraph": 11
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – A Dona Camila já não paga aos criados há três meses, mas não quer que se saiba. Aquilo já soava a escândalo. Foi a própria Dona Camila que apontou para o altifalante, pendurado na parede, a tal que tinha ouvidos: – A voz vem dali. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p13",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p11",
+        "s1p12",
+        "s1p13"
+      ],
+      "evidence": "– A voz vem dali. Pois vinha. Arrancaram os fios ao altifalante e a voz calou-se. Acabaram-se as novidades, as inconfidências. E, à cautela, quando voltou a haver festa na terra, nenhum altifalante coube à parede que sabia demais.",
+      "after": {
+        "segment": 1,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – A voz vem dali. Pois vinha. Arrancaram os fios ao altifalante e a voz calou-se. Acabaram-se as novidades, as inconfidências. E, à cautela, quando voltou a haver festa na terra, nenhum altifalante coube à parede que sabia demais. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

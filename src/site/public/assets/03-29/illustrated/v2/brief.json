@@ -1,0 +1,115 @@
+{
+  "characters": [
+    {
+      "name": "Three clay figurines",
+      "appearance": "Small molded clay dolls with painted jackets, caps, white trousers, moustaches, and formal, slightly aristocratic styling"
+    },
+    {
+      "name": "Cat Iniguês",
+      "appearance": "A cat that appears suddenly in motion, the force that shatters the figurines"
+    }
+  ],
+  "environment": "A shelf-like interior display with staged clay figurines, then a brief moment of chaos as the cat jumps in and leaves broken terracotta shards on the floor; the final image is the aftermath with the figures reduced to pieces near their feet",
+  "palette": [
+    "terracotta",
+    "warm beige",
+    "pale white",
+    "dusty blue",
+    "faded brown",
+    "soft gray"
+  ],
+  "recurringObjects": [
+    "clay figurines",
+    "caps",
+    "jackets",
+    "white trousers",
+    "shelf",
+    "cat",
+    "broken terracotta shards"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "São três bonecos de barro, três jaquetas, três bonés, três calças brancas, lavadas,",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Eram três».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: São três bonecos de barro, três jaquetas, três bonés, três calças brancas, lavadas, Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p7",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p5",
+        "s1p6",
+        "s1p7"
+      ],
+      "evidence": "muito graves todos três. Usam polainas de estado e calçam quarenta e três.",
+      "after": {
+        "segment": 1,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: muito graves todos três. Usam polainas de estado e calçam quarenta e três. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p7",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p5",
+        "s2p6",
+        "s2p7"
+      ],
+      "evidence": "de barro, digo outra vez, Na prateleira aprumados, mas ocos de altivez.",
+      "after": {
+        "segment": 2,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: de barro, digo outra vez, Na prateleira aprumados, mas ocos de altivez. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p7",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p5",
+        "s3p6",
+        "s3p7"
+      ],
+      "evidence": "mas veio o gato Iniguês e num salto desastrado em cacos de telha os fez.",
+      "after": {
+        "segment": 3,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: mas veio o gato Iniguês e num salto desastrado em cacos de telha os fez. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s4p3"
+      ],
+      "evidence": "com apito rés aos pés. Dantes, ainda apitavam. Agora: é o que vês...",
+      "after": {
+        "segment": 4,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: com apito rés aos pés. Dantes, ainda apitavam. Agora: é o que vês... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

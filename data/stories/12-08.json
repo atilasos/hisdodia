@@ -75,5 +75,59 @@
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
     "Texto extraído automaticamente do PDF original arquivado; cabeçalhos, rodapés, hifenização e quebras de linha foram normalizados.",
     "A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
-  ]
+  ],
+  "illustratedEdition": {
+    "status": "complete",
+    "credit": "Edição ilustrada contemporânea gerada com IA",
+    "artDirectionVersion": "2",
+    "planningModel": "gpt-5.4-mini",
+    "visualBrief": "/assets/12-08/illustrated/v2/brief.json",
+    "scenes": [
+      {
+        "id": "opening",
+        "status": "complete",
+        "attempts": 1,
+        "after": null,
+        "layout": "opening",
+        "image": "/assets/12-08/illustrated/v2/opening.webp",
+        "alt": "Ilustração de abertura da história «Duas Mulheres»."
+      },
+      {
+        "id": "scene-2",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 0,
+          "paragraph": 4
+        },
+        "layout": "double-page",
+        "image": "/assets/12-08/illustrated/v2/scene-2.webp",
+        "alt": ""
+      },
+      {
+        "id": "scene-3",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 1,
+          "paragraph": 10
+        },
+        "layout": "double-page",
+        "image": "/assets/12-08/illustrated/v2/scene-3.webp",
+        "alt": ""
+      },
+      {
+        "id": "scene-4",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 2,
+          "paragraph": 1
+        },
+        "layout": "vignette",
+        "image": "/assets/12-08/illustrated/v2/scene-4.webp",
+        "alt": ""
+      }
+    ]
+  }
 }

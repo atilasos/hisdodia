@@ -1,0 +1,94 @@
+{
+  "characters": [
+    {
+      "name": "Pomba do leque",
+      "appearance": "Pomba citadina com enfeite em leque na cauda"
+    },
+    {
+      "name": "Pomba viajante",
+      "appearance": "Pomba sem enfeite, com anilha larga de alumínio na pata"
+    }
+  ],
+  "environment": "Telhado de uma cidade, com o largo ao fundo, uma estátua ao centro e céu frio e carregado",
+  "palette": [
+    "cinzentos suaves",
+    "azuis frios",
+    "brancos sujos",
+    "ocres discretos"
+  ],
+  "recurringObjects": [
+    "telhado",
+    "estátua no largo",
+    "anilha de alumínio",
+    "cesto de comida",
+    "asas em voo"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Duas pombas encontraram-se em cima do mesmo telhado. Vinha cada uma da sua banda e não se conheciam. As duas pombas não eram exactamente iguais. Uma usava penteado na cauda, em feitio de leque, ao passo que a outra não usava nenhum enfeite. Dizia a pomba de leque:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «As Duas Pombas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Duas pombas encontraram-se em cima do mesmo telhado. Vinha cada uma da sua banda e não se conheciam. As duas pombas não eram exactamente iguais. Uma usava penteado na cauda, em feitio de leque, ao passo que a outra não usava nenhum enfeite. Dizia a pomba de leque: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p11",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p9",
+        "s1p10",
+        "s1p11"
+      ],
+      "evidence": "– Não posso. Tenho de ir - assegurava, muito firme, a pombinha. – Uma misteriosa me saiu a minha amiga. Qual é a pressa? – perguntou a pomba de leque, também de cabeça ao lado. Em resposta, a pomba viajante levantou uma patinha e mostrou uma anilha larga, de alumínio. Espantou-se a pomba de leque:",
+      "after": {
+        "segment": 1,
+        "paragraph": 11
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Não posso. Tenho de ir - assegurava, muito firme, a pombinha. – Uma misteriosa me saiu a minha amiga. Qual é a pressa? – perguntou a pomba de leque, também de cabeça ao lado. Em resposta, a pomba viajante levantou uma patinha e mostrou uma anilha larga, de alumínio. Espantou-se a pomba de leque: Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p11",
+        "s1p12",
+        "s2p0"
+      ],
+      "evidence": "Em resposta, a pomba viajante levantou uma patinha e mostrou uma anilha larga, de alumínio. Espantou-se a pomba de leque: – Como? Será que a minha amiga leva aí uma mensagem? Então é um pombo-correio, aliás, uma pomba-correio. Que engraçado. A pomba de pombal confirmou. Levava, preso à pata, um recado, uma mensagem ou uma carta de alguém para alguém. E como a pomba da cidade se mostrasse muito interessada em saber mais pormenores, ela contou-lhe os tratos todos da vida de um pombo-correio:",
+      "after": {
+        "segment": 2,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Em resposta, a pomba viajante levantou uma patinha e mostrou uma anilha larga, de alumínio. Espantou-se a pomba de leque: – Como? Será que a minha amiga leva aí uma mensagem? Então é um pombo-correio, aliás, uma pomba-correio. Que engraçado. A pomba de pombal confirmou. Levava, preso à pata, um recado, uma mensagem ou uma carta de alguém para alguém. E como a pomba da cidade se mostrasse muito interessada em saber mais pormenores, ela contou-lhe os tratos todos da vida de um pombo-correio: Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s2p6",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p4",
+        "s2p5",
+        "s2p6"
+      ],
+      "evidence": "– Olhe: o homem do cesto já chegou ao largo – exclamou a pomba de leque, muito agitada. – Venha atrás de mim, que os petiscos estão à nossa espera. Venha. Não seja tola. – Não posso - respondeu-lhe a pomba sem leque. – Tenho de continuar a minha viagem. Não posso. As duas pombas abriram as asas ao mesmo tempo e voaram, mas foi cada uma para o seu lado.",
+      "after": {
+        "segment": 2,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Olhe: o homem do cesto já chegou ao largo – exclamou a pomba de leque, muito agitada. – Venha atrás de mim, que os petiscos estão à nossa espera. Venha. Não seja tola. – Não posso - respondeu-lhe a pomba sem leque. – Tenho de continuar a minha viagem. Não posso. As duas pombas abriram as asas ao mesmo tempo e voaram, mas foi cada uma para o seu lado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

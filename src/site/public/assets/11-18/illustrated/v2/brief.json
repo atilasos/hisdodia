@@ -1,0 +1,96 @@
+{
+  "characters": [],
+  "environment": "Portuguese children's story world centered on a pátio, a pires de leite, and three flies; simple domestic outdoor setting",
+  "palette": [],
+  "recurringObjects": [
+    "pires de leite",
+    "balde",
+    "moscas",
+    "pátio"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Uma mosca. Duas moscas. Três moscas. Três moscas paradas a conversar. De que falavam? Falavam do problema da alimentação. Dizia uma: – Tem sido uma crise, colegas. Toda a comida guardada em frigoríficos e armários, trancada a sete chaves. Ninguém lhe chega.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «As Moscas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Uma mosca. Duas moscas. Três moscas. Três moscas paradas a conversar. De que falavam? Falavam do problema da alimentação. Dizia uma: – Tem sido uma crise, colegas. Toda a comida guardada em frigoríficos e armários, trancada a sete chaves. Ninguém lhe chega. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "As duas moscas esfomeadas comentaram: – Ela esconde-nos alguma coisa. Vamos atrás dela. Voaram também, dançaram no ar, disfarçando os seus intentos, enquanto a outra se distanciava. Quando a viram dobrar uma esquina, voaram em sua perseguição, sem que a mosca gorda e bem parecida se apercebesse. Repare, colega, repare como ela se refastela com aquele pires de leite.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: As duas moscas esfomeadas comentaram: – Ela esconde-nos alguma coisa. Vamos atrás dela. Voaram também, dançaram no ar, disfarçando os seus intentos, enquanto a outra se distanciava. Quando a viram dobrar uma esquina, voaram em sua perseguição, sem que a mosca gorda e bem parecida se apercebesse. Repare, colega, repare como ela se refastela com aquele pires de leite. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p14",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p12",
+        "s1p13",
+        "s1p14"
+      ],
+      "evidence": "E desapareceram. A outra, a mosca gorda e bem parecida, má camarada, pouco amiga de partilhas, ficou sozinha a remorder vingança. \"Esperem pela pancada, esperem!\" No dia seguinte foi ela a primeira a chegar ao pátio, onde a D. Zulmira deixava, como habitualmente, o pires de sopas de leite para o seu Tareco. Mas desta vez, no lugar do pires de leite estava um enorme balde.",
+      "after": {
+        "segment": 1,
+        "paragraph": 14
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E desapareceram. A outra, a mosca gorda e bem parecida, má camarada, pouco amiga de partilhas, ficou sozinha a remorder vingança. \"Esperem pela pancada, esperem!\" No dia seguinte foi ela a primeira a chegar ao pátio, onde a D. Zulmira deixava, como habitualmente, o pires de sopas de leite para o seu Tareco. Mas desta vez, no lugar do pires de leite estava um enorme balde. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "– Oh! Oh! Um balde cheio de leite – exclamou a mosca gorda e bem parecida. – Toca a bebê-lo todo, antes que venham aquelas fedúncias, aquelas invejosas… E sem pensar duas vezes lançou-se sobre o balde, em voo picado. Mosca tola. Mosca sôfrega. O balde continha não leite, mas cal, cal de caiar as paredes. A mosca gorda e bem parecida engoliu cal em vez de leite. Na cal caiu, na cal morreu. As outras duas moscas, as moscas laricas, ao aproximarem-se, ainda ouviram uns vagos pedidos de socorro, que se perderam no ar. Quando chegaram, a mosca gorda e bem parecida estava morta.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Oh! Oh! Um balde cheio de leite – exclamou a mosca gorda e bem parecida. – Toca a bebê-lo todo, antes que venham aquelas fedúncias, aquelas invejosas… E sem pensar duas vezes lançou-se sobre o balde, em voo picado. Mosca tola. Mosca sôfrega. O balde continha não leite, mas cal, cal de caiar as paredes. A mosca gorda e bem parecida engoliu cal em vez de leite. Na cal caiu, na cal morreu. As outras duas moscas, as moscas laricas, ao aproximarem-se, ainda ouviram uns vagos pedidos de socorro, que se perderam no ar. Quando chegaram, a mosca gorda e bem parecida estava morta. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s2p8",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p6",
+        "s2p7",
+        "s2p8"
+      ],
+      "evidence": "– Isso, isso, colega! Se ela assim pensasse, não teria morrido e se todos assim pensassem, o mundo seria muito melhor, olá se seria! A mosca triste e pensativa concluiu: – Bem, bem, vamos beber depressa o nosso leite, antes que venha o gato, ou alguma mosca esfomeada e invejosa da felicidade das outras…",
+      "after": {
+        "segment": 2,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Isso, isso, colega! Se ela assim pensasse, não teria morrido e se todos assim pensassem, o mundo seria muito melhor, olá se seria! A mosca triste e pensativa concluiu: – Bem, bem, vamos beber depressa o nosso leite, antes que venha o gato, ou alguma mosca esfomeada e invejosa da felicidade das outras… Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

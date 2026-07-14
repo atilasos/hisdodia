@@ -1,0 +1,85 @@
+{
+  "characters": [],
+  "environment": "um açafate com ovos, uma mesa e uma cena histórica com Colombo e fidalgos",
+  "palette": [
+    "tons quentes",
+    "creme",
+    "castanho",
+    "amarelo dourado",
+    "vermelho discreto"
+  ],
+  "recurringObjects": [
+    "ovos",
+    "açafate",
+    "mesa",
+    "ovo em pé"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um açafate com ovos. Puseram-se à conversa. Eram ovos ainda frescos e tinham ambições. Um deles disse: - Quem me dera a mim fazer-me em fios de ovos, a enfeitar um bolo... - Não está má a pretensão - comentou um outro. - Pois eu preferia ajudar umas fatias douradas a ficar mais douradinhas.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Ovos frescos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um açafate com ovos. Puseram-se à conversa. Eram ovos ainda frescos e tinham ambições. Um deles disse: - Quem me dera a mim fazer-me em fios de ovos, a enfeitar um bolo... - Não está má a pretensão - comentou um outro. - Pois eu preferia ajudar umas fatias douradas a ficar mais douradinhas. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "Outro ovo confessou: - Gostava tanto de ser ovo estrelado. Estrelado vem de estrela... Deve ser bonito. Mas, não podendo ser, qualquer uso serve. Um ovo nunca passa despercebido. Só faltava um.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Outro ovo confessou: - Gostava tanto de ser ovo estrelado. Estrelado vem de estrela... Deve ser bonito. Mas, não podendo ser, qualquer uso serve. Um ovo nunca passa despercebido. Só faltava um. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p2",
+        "s3p3",
+        "s3p4"
+      ],
+      "evidence": "Eles tentaram. Insistiram. Obstinaram-se. - Não é possível - concluíram. - Pois eu consigo - disse Colombo.",
+      "after": {
+        "segment": 3,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eles tentaram. Insistiram. Obstinaram-se. - Não é possível - concluíram. - Pois eu consigo - disse Colombo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "Cabe-me o mérito a mim. Aqui têm como eu fiz a vontade ao ovo que queria ser ovo de Colombo. E agora? Agora, já satisfeito, vai juntar-se aos outros e, todos juntos, vão fazer uma omeleta.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Cabe-me o mérito a mim. Aqui têm como eu fiz a vontade ao ovo que queria ser ovo de Colombo. E agora? Agora, já satisfeito, vai juntar-se aos outros e, todos juntos, vão fazer uma omeleta. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

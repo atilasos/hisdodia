@@ -1,0 +1,124 @@
+{
+  "characters": [
+    {
+      "name": "pastor",
+      "appearance": "figura humana simples, observadora, ligada ao relato oral"
+    },
+    {
+      "name": "ovelhas",
+      "appearance": "rebanho de ovinos claros, com cordeiros e carneiros"
+    },
+    {
+      "name": "lobos",
+      "appearance": "lobos escuros, ameaçadores, incluindo lobinhos"
+    },
+    {
+      "name": "cordeiros",
+      "appearance": "crias pequenas, depois carneiros e ovelhas robustos"
+    },
+    {
+      "name": "lobinhos",
+      "appearance": "crias de lobo, depois lobos crescidos"
+    }
+  ],
+  "environment": "paisagem pastoral antiga com rebanho, covil de lobos e espaço de negociação entre os dois grupos",
+  "palette": [
+    "creme",
+    "bege",
+    "castanho",
+    "cinzento-escuro",
+    "verde apagado",
+    "ocre"
+  ],
+  "recurringObjects": [
+    "rebanho",
+    "covil",
+    "trégua",
+    "reféns"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Esta história custa a contar, mas há histórias assim, tristes, que servem de lição e aviso, para que não voltem a repetir-se os aconteceres que elas relatam. Nem pouco mais ou menos. Quem me confiou a fábula que vão ouvir foi um pastor. Soubera-a do avô, que também tinha sido pastor, que a ouvira do avô e ele, por sua vez, do avô dele, numa correnteza de netos e avós que mergulhava no princípio dos tempos. Tão antes de tudo a história se passara, que vinha do tempo em que os animais falavam ou, dito de outro modo, em que os homens e os bichos na mesma língua se entendiam.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Negócios com Lobos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Esta história custa a contar, mas há histórias assim, tristes, que servem de lição e aviso, para que não voltem a repetir-se os aconteceres que elas relatam. Nem pouco mais ou menos. Quem me confiou a fábula que vão ouvir foi um pastor. Soubera-a do avô, que também tinha sido pastor, que a ouvira do avô e ele, por sua vez, do avô dele, numa correnteza de netos e avós que mergulhava no princípio dos tempos. Tão antes de tudo a história se passara, que vinha do tempo em que os animais falavam ou, dito de outro modo, em que os homens e os bichos na mesma língua se entendiam. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "E chega de prólogos . Vamos ao que interessa. As ovelhas e os lobos, que andavam em guerra, resolveram fazer uma trégua na luta. Foram os lobos que a propuseram. Reuniram-se as duas partes em negociações e, ainda por sugestão dos lobos, decidiram trocar reféns .",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E chega de prólogos . Vamos ao que interessa. As ovelhas e os lobos, que andavam em guerra, resolveram fazer uma trégua na luta. Foram os lobos que a propuseram. Reuniram-se as duas partes em negociações e, ainda por sugestão dos lobos, decidiram trocar reféns . Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p2",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "As ovelhas concordaram. Custava-lhes a separação dos seus cordeirinhos, mas admitiram que não custaria menos aos lobos o apartarem-se dos filhos. Igual por igual. Foram os lobos pequenos viver para o meio do rebanho das ovelhas. Eram tratados com toda as atenções. Identicamente, os cordeiros, no covil dos lobos, recebiam alimento em abundância, com que encorpavam e cresciam.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: As ovelhas concordaram. Custava-lhes a separação dos seus cordeirinhos, mas admitiram que não custaria menos aos lobos o apartarem-se dos filhos. Igual por igual. Foram os lobos pequenos viver para o meio do rebanho das ovelhas. Eram tratados com toda as atenções. Identicamente, os cordeiros, no covil dos lobos, recebiam alimento em abundância, com que encorpavam e cresciam. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p1",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "Foram os lobos pequenos viver para o meio do rebanho das ovelhas. Eram tratados com toda as atenções. Identicamente, os cordeiros, no covil dos lobos, recebiam alimento em abundância, com que encorpavam e cresciam. Quando, gordos que estavam, os cordeiros se transformaram em belos carneiros e formosas ovelhas, os lobos saltaram sobre eles e comeram-nos. Pela mesma altura, os lobinhos, que já estavam lobos crescidos, fizeram igual razia , no rebanho das ovelhas.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Foram os lobos pequenos viver para o meio do rebanho das ovelhas. Eram tratados com toda as atenções. Identicamente, os cordeiros, no covil dos lobos, recebiam alimento em abundância, com que encorpavam e cresciam. Quando, gordos que estavam, os cordeiros se transformaram em belos carneiros e formosas ovelhas, os lobos saltaram sobre eles e comeram-nos. Pela mesma altura, os lobinhos, que já estavam lobos crescidos, fizeram igual razia , no rebanho das ovelhas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p1",
+        "s5p2",
+        "s6p0"
+      ],
+      "evidence": "Pela mesma altura, os lobinhos, que já estavam lobos crescidos, fizeram igual razia , no rebanho das ovelhas. História terrível, como eu tinha avisado. Mas a partir dela nunca mais nenhuma ovelha nem nenhum bicho pacífico quis ter negócios com lobos. Para que se saiba.",
+      "after": {
+        "segment": 6,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Pela mesma altura, os lobinhos, que já estavam lobos crescidos, fizeram igual razia , no rebanho das ovelhas. História terrível, como eu tinha avisado. Mas a partir dela nunca mais nenhuma ovelha nem nenhum bicho pacífico quis ter negócios com lobos. Para que se saiba. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

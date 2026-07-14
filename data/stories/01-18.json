@@ -126,5 +126,71 @@
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
     "A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
-  ]
+  ],
+  "illustratedEdition": {
+    "status": "complete",
+    "credit": "Edição ilustrada contemporânea gerada com IA",
+    "artDirectionVersion": "2",
+    "planningModel": "gpt-5.4-mini",
+    "visualBrief": "/assets/01-18/illustrated/v2/brief.json",
+    "scenes": [
+      {
+        "id": "opening",
+        "status": "complete",
+        "attempts": 1,
+        "after": null,
+        "layout": "opening",
+        "image": "/assets/01-18/illustrated/v2/opening.webp",
+        "alt": "Ilustração de abertura da história «Não é Camelo»."
+      },
+      {
+        "id": "scene-2",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 1,
+          "paragraph": 3
+        },
+        "layout": "double-page",
+        "image": "/assets/01-18/illustrated/v2/scene-2.webp",
+        "alt": ""
+      },
+      {
+        "id": "scene-3",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 3,
+          "paragraph": 4
+        },
+        "layout": "double-page",
+        "image": "/assets/01-18/illustrated/v2/scene-3.webp",
+        "alt": ""
+      },
+      {
+        "id": "scene-4",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 5,
+          "paragraph": 2
+        },
+        "layout": "vignette",
+        "image": "/assets/01-18/illustrated/v2/scene-4.webp",
+        "alt": ""
+      },
+      {
+        "id": "scene-5",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 8,
+          "paragraph": 2
+        },
+        "layout": "double-page",
+        "image": "/assets/01-18/illustrated/v2/scene-5.webp",
+        "alt": ""
+      }
+    ]
+  }
 }

@@ -1,0 +1,106 @@
+{
+  "characters": [
+    {
+      "name": "galinha",
+      "appearance": "ave pequena e branca, em fuga, expressão assustada"
+    },
+    {
+      "name": "pato",
+      "appearance": "ave de porte médio, postura apressada, expressão apreensiva"
+    },
+    {
+      "name": "cão",
+      "appearance": "cão castanho ou escuro, atento, primeiro inquieto e depois decidido"
+    },
+    {
+      "name": "burro",
+      "appearance": "burro cinzento, robusto, calmo, com dentes visíveis no final"
+    },
+    {
+      "name": "polícia",
+      "appearance": "agente de uniforme, desconfiado, autoritário, depois caído no chão"
+    }
+  ],
+  "environment": "estrada de campo ou caminho rural, em corrida e perseguição, com sensação de movimento e tensão cómica",
+  "palette": [
+    "castanhos terrosos",
+    "cinzentos suaves",
+    "azuis discretos",
+    "amarelos quentes",
+    "verdes apagados"
+  ],
+  "recurringObjects": [
+    "estrada",
+    "uniforme de polícia",
+    "mãos presas aos animais",
+    "poeira de corrida"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Uma galinha, um pato, um cão e um burro iam a fugir por uma estrada fora. Corta-lhes a correria um polícia: – Alto lá, seus fugitivos. Para irem com essa pressa, alguma maroteira fizeram. Eles protestaram que não, mas o polícia, desconfiado, quis saber pormenores. Então, a galinha explicou:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Por Bem».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Uma galinha, um pato, um cão e um burro iam a fugir por uma estrada fora. Corta-lhes a correria um polícia: – Alto lá, seus fugitivos. Para irem com essa pressa, alguma maroteira fizeram. Eles protestaram que não, mas o polícia, desconfiado, quis saber pormenores. Então, a galinha explicou: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p9",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p7",
+        "s0p8",
+        "s0p9"
+      ],
+      "evidence": "– O meu dono ia mandar-me para o canil. – E o meu dizia que eu estava velho e ia mandar-me abater – disse o burro. – Mas comigo ainda podes – disse o polícia, saltando-lhe para os costados.",
+      "after": {
+        "segment": 0,
+        "paragraph": 9
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – O meu dono ia mandar-me para o canil. – E o meu dizia que eu estava velho e ia mandar-me abater – disse o burro. – Mas comigo ainda podes – disse o polícia, saltando-lhe para os costados. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p12",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p10",
+        "s0p11",
+        "s0p12"
+      ],
+      "evidence": "Presa a cada mão, trazia o pato e a galinha. Salvara-se o cão, que o polícia não teve maneira de prender. – Toca a andar para a esquadra – comandou o polícia. – Vai tudo preso. O burro, habituado a obedecer, obedeceu. Mas o cão, que se safara, é que não se conformou. Deu uma valente mordidela numa das patas do burro, que escoiceou. O polícia caiu ao chão e largou a galinha mais o pato.",
+      "after": {
+        "segment": 0,
+        "paragraph": 12
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Presa a cada mão, trazia o pato e a galinha. Salvara-se o cão, que o polícia não teve maneira de prender. – Toca a andar para a esquadra – comandou o polícia. – Vai tudo preso. O burro, habituado a obedecer, obedeceu. Mas o cão, que se safara, é que não se conformou. Deu uma valente mordidela numa das patas do burro, que escoiceou. O polícia caiu ao chão e largou a galinha mais o pato. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p15",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p13",
+        "s0p14",
+        "s0p15"
+      ],
+      "evidence": "Correram os bichos. Mal refeito da queda, o polícia não teve forças para persegui-los. – Desculpa a dentada – disse o cão ao burro, quando se viram a salvo. – Mas foi por bem. – Não tem importância – respondeu o burro, a mostrar os grandes dentes, num riso de felicidade. – Há coisas que ardem, mas curam.",
+      "after": {
+        "segment": 0,
+        "paragraph": 15
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Correram os bichos. Mal refeito da queda, o polícia não teve forças para persegui-los. – Desculpa a dentada – disse o cão ao burro, quando se viram a salvo. – Mas foi por bem. – Não tem importância – respondeu o burro, a mostrar os grandes dentes, num riso de felicidade. – Há coisas que ardem, mas curam. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

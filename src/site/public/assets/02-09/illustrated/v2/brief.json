@@ -1,0 +1,94 @@
+{
+  "characters": [
+    {
+      "name": "Senhor Aparício",
+      "appearance": "Homem adulto, traje de festa de época, postura gulosa e pouco cerimoniosa, expressão oportunista e depois irritada"
+    },
+    {
+      "name": "Criado",
+      "appearance": "Empregado de casa, postura calma e imperturbável, atitude respeitosa mas firme"
+    }
+  ],
+  "environment": "Interior de uma festa elegante à tarde, com mesa de banquete e ambiente doméstico de cerimónia social",
+  "palette": [
+    "creme",
+    "dourado suave",
+    "castanho",
+    "azul acinzentado",
+    "vermelho discreto"
+  ],
+  "recurringObjects": [
+    "mesa de banquete",
+    "chávena ou bule de chá",
+    "bolos e croquetes",
+    "bolsos cheios de provisões"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Há pessoas que são convidadas para banquetes de muita cerimónia, mas que se portam com grande falta de cerimónia. O senhor Aparício é um deles. Há tempos, o senhor Aparício foi a uma festa. Era à tarde. Pois o senhor Aparício nem almoçou, para estar com o estômago mais vazio, quando chegasse a ocasião de enchê-lo de graça.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Senhor Aparício».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Há pessoas que são convidadas para banquetes de muita cerimónia, mas que se portam com grande falta de cerimónia. O senhor Aparício é um deles. Há tempos, o senhor Aparício foi a uma festa. Era à tarde. Pois o senhor Aparício nem almoçou, para estar com o estômago mais vazio, quando chegasse a ocasião de enchê-lo de graça. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s1p0"
+      ],
+      "evidence": "O senhor Aparício é um deles. Há tempos, o senhor Aparício foi a uma festa. Era à tarde. Pois o senhor Aparício nem almoçou, para estar com o estômago mais vazio, quando chegasse a ocasião de enchê-lo de graça. Comeu que se fartou e, para ir prevenido com o jantar, quando voltasse a casa, encheu, disfarçadamente, os bolsos de provisões. Croquetes, bolos e bolinhos, tudo ia para as algibeiras.",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O senhor Aparício é um deles. Há tempos, o senhor Aparício foi a uma festa. Era à tarde. Pois o senhor Aparício nem almoçou, para estar com o estômago mais vazio, quando chegasse a ocasião de enchê-lo de graça. Comeu que se fartou e, para ir prevenido com o jantar, quando voltasse a casa, encheu, disfarçadamente, os bolsos de provisões. Croquetes, bolos e bolinhos, tudo ia para as algibeiras. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Há tempos, o senhor Aparício foi a uma festa. Era à tarde. Pois o senhor Aparício nem almoçou, para estar com o estômago mais vazio, quando chegasse a ocasião de enchê-lo de graça. Comeu que se fartou e, para ir prevenido com o jantar, quando voltasse a casa, encheu, disfarçadamente, os bolsos de provisões. Croquetes, bolos e bolinhos, tudo ia para as algibeiras. De repente, sentiu a perna direita escaldada. Voltou-se e viu o criado entornar-lhe o bule de chá pela algibeira abaixo.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Há tempos, o senhor Aparício foi a uma festa. Era à tarde. Pois o senhor Aparício nem almoçou, para estar com o estômago mais vazio, quando chegasse a ocasião de enchê-lo de graça. Comeu que se fartou e, para ir prevenido com o jantar, quando voltasse a casa, encheu, disfarçadamente, os bolsos de provisões. Croquetes, bolos e bolinhos, tudo ia para as algibeiras. De repente, sentiu a perna direita escaldada. Voltou-se e viu o criado entornar-lhe o bule de chá pela algibeira abaixo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s2p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "Respondeu-lhe o criado, imperturbável: - Peço perdão, mas como o senhor leva os bolos, pensei que também quisesse levar o chá. Enquanto se lembrar desta vergonha, o senhor Aparício não vai voltar a fazer o mesmo. O pior é que ele é muito esquecido.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Respondeu-lhe o criado, imperturbável: - Peço perdão, mas como o senhor leva os bolos, pensei que também quisesse levar o chá. Enquanto se lembrar desta vergonha, o senhor Aparício não vai voltar a fazer o mesmo. O pior é que ele é muito esquecido. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

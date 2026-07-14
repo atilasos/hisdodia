@@ -112,5 +112,71 @@
     "A página preserva o texto HTML original quando disponível; a revisão editorial fina continua pendente para muitos dias.",
     "As ilustrações apresentadas são os ficheiros originais recuperados, normalizados para navegação no site moderno.",
     "A narração disponível foi sintetizada em pt-PT a partir do texto recuperado; não é o áudio original."
-  ]
+  ],
+  "illustratedEdition": {
+    "status": "complete",
+    "credit": "Edição ilustrada contemporânea gerada com IA",
+    "artDirectionVersion": "2",
+    "planningModel": "gpt-5.4-mini",
+    "visualBrief": "/assets/05-16/illustrated/v2/brief.json",
+    "scenes": [
+      {
+        "id": "opening",
+        "status": "complete",
+        "attempts": 1,
+        "after": null,
+        "layout": "opening",
+        "image": "/assets/05-16/illustrated/v2/opening.webp",
+        "alt": "Ilustração de abertura da história «Lili, Lulu e mais amigas»."
+      },
+      {
+        "id": "s1",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 0,
+          "paragraph": 3
+        },
+        "layout": "double-page",
+        "image": "/assets/05-16/illustrated/v2/s1.webp",
+        "alt": ""
+      },
+      {
+        "id": "s2",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 2,
+          "paragraph": 1
+        },
+        "layout": "double-page",
+        "image": "/assets/05-16/illustrated/v2/s2.webp",
+        "alt": ""
+      },
+      {
+        "id": "s3",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 3,
+          "paragraph": 3
+        },
+        "layout": "double-page",
+        "image": "/assets/05-16/illustrated/v2/s3.webp",
+        "alt": ""
+      },
+      {
+        "id": "s4",
+        "status": "complete",
+        "attempts": 1,
+        "after": {
+          "segment": 7,
+          "paragraph": 0
+        },
+        "layout": "double-page",
+        "image": "/assets/05-16/illustrated/v2/s4.webp",
+        "alt": ""
+      }
+    ]
+  }
 }

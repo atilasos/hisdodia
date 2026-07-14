@@ -1,0 +1,74 @@
+{
+  "characters": [],
+  "environment": "lago e mata",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um veado que tinha em grande apreço as suas hastes recortadas, que lhe davam à cabeça um ar de majestade. Quando ia dessedentar-se no lago, tanto bebia como se mirava. - Que gloriosos chifres os meus! Nenhum animal de cornos os tem tão formosos.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «As Hastes do Veado Vaidoso».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um veado que tinha em grande apreço as suas hastes recortadas, que lhe davam à cabeça um ar de majestade. Quando ia dessedentar-se no lago, tanto bebia como se mirava. - Que gloriosos chifres os meus! Nenhum animal de cornos os tem tão formosos. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "Debruçado para a água, comparava-as com a volumosa e artística cornadura, e dizia: - As minhas pernas estão desproporcionadas com os outros extremos do meu corpo. Não fossem elas assim tão estreitas e eu seria o mais elegante dos animais. Nisto, o veado ouviu, não longe, o uivo de trompas de caça. Ele sabia o que aquela música significava. Fugiu.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Debruçado para a água, comparava-as com a volumosa e artística cornadura, e dizia: - As minhas pernas estão desproporcionadas com os outros extremos do meu corpo. Não fossem elas assim tão estreitas e eu seria o mais elegante dos animais. Nisto, o veado ouviu, não longe, o uivo de trompas de caça. Ele sabia o que aquela música significava. Fugiu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "Ágeis, as pernas, no arremesso do medo, saltavam barrancos, venciam precipícios, quase voavam. O veado só pedia que o vigor das pernas não o abandonasse. Mas, num túnel de ramos, os galhos do veado embaraçaram-se nos troncos e suspenderam-lhe a corrida. Já se aproximavam os cavaleiros. Os belos chifres estavam a deitá-lo a perder. Sentindo-se perdido, o veado deu um sacão ao corpo e metade de um chifre, que estava preso, partiu-se. Deixá-lo. O veado livrou-se.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ágeis, as pernas, no arremesso do medo, saltavam barrancos, venciam precipícios, quase voavam. O veado só pedia que o vigor das pernas não o abandonasse. Mas, num túnel de ramos, os galhos do veado embaraçaram-se nos troncos e suspenderam-lhe a corrida. Já se aproximavam os cavaleiros. Os belos chifres estavam a deitá-lo a perder. Sentindo-se perdido, o veado deu um sacão ao corpo e metade de um chifre, que estava preso, partiu-se. Deixá-lo. O veado livrou-se. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p1",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Sentindo-se perdido, o veado deu um sacão ao corpo e metade de um chifre, que estava preso, partiu-se. Deixá-lo. O veado livrou-se. As pernas retomaram a fogosa carreira da salvação e o veado conseguiu escapar dos caçadores. Já livre de perigo, o veado pôs-se a pensar no que lhe sucedera. As pernas, que ele há pouco desprezava, tinham-no salvo. As hastes da sua vaidade por pouco que não o atraiçoavam.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Sentindo-se perdido, o veado deu um sacão ao corpo e metade de um chifre, que estava preso, partiu-se. Deixá-lo. O veado livrou-se. As pernas retomaram a fogosa carreira da salvação e o veado conseguiu escapar dos caçadores. Já livre de perigo, o veado pôs-se a pensar no que lhe sucedera. As pernas, que ele há pouco desprezava, tinham-no salvo. As hastes da sua vaidade por pouco que não o atraiçoavam. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

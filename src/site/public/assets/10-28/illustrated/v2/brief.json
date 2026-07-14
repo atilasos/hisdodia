@@ -1,0 +1,117 @@
+{
+  "characters": [
+    {
+      "name": "cavaleiro",
+      "appearance": "armadura de lata e ferro, lança comprida com bandeira, figura medieval pesada"
+    },
+    {
+      "name": "cavalo",
+      "appearance": "montada cansada, expressão prudente e exausta, corpo magro de viagem"
+    },
+    {
+      "name": "salteadores",
+      "appearance": "ladrões de estrada, presença ameaçadora e apressada"
+    }
+  ],
+  "environment": "caminho de campo junto a um regato, depois margem com salteadores escondidos e estrada poeirenta de viagem medieval",
+  "palette": [
+    "tons terrosos",
+    "cinzentos de ferro",
+    "azuis suaves de água",
+    "castanhos secos",
+    "vermelho discreto da bandeira"
+  ],
+  "recurringObjects": [
+    "armadura",
+    "lança",
+    "bandeira",
+    "espada",
+    "regato",
+    "macho"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um cavaleiro, desses que havia dantes, de lata por fora, fechados por dentro, e de comprida lança levantada, com uma bandeira na ponta, a flutuar ao vento… Estão a ver, não estão? O cavalo que suportava este cavaleiro não tinha grande vocação para cavalarias altas. \"Se o meu dono dispensasse a armadura, até o caminho passava a ser mais macio.\"",
+      "after": null,
+      "alt": "Ilustração de abertura da história «História de 28 de Outubro».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um cavaleiro, desses que havia dantes, de lata por fora, fechados por dentro, e de comprida lança levantada, com uma bandeira na ponta, a flutuar ao vento… Estão a ver, não estão? O cavalo que suportava este cavaleiro não tinha grande vocação para cavalarias altas. \"Se o meu dono dispensasse a armadura, até o caminho passava a ser mais macio.\" Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "\"Se o meu dono dispensasse a armadura, até o caminho passava a ser mais macio.\" Conversa de cavalo cansado… Talvez o tivesse percebido o cavaleiro, porque à beira de um regato susteve a marcha do cavalicoque e apeou-se. Apetecia-lhe tomar um banho. Desfez-se da pesada armadura, enquanto o cavalo pastava, e foi procurar um sítio mais fundo, onde pudesse banhar-se a seu gosto.",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: \"Se o meu dono dispensasse a armadura, até o caminho passava a ser mais macio.\" Conversa de cavalo cansado… Talvez o tivesse percebido o cavaleiro, porque à beira de um regato susteve a marcha do cavalicoque e apeou-se. Apetecia-lhe tomar um banho. Desfez-se da pesada armadura, enquanto o cavalo pastava, e foi procurar um sítio mais fundo, onde pudesse banhar-se a seu gosto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s1p0"
+      ],
+      "evidence": "Talvez o tivesse percebido o cavaleiro, porque à beira de um regato susteve a marcha do cavalicoque e apeou-se. Apetecia-lhe tomar um banho. Desfez-se da pesada armadura, enquanto o cavalo pastava, e foi procurar um sítio mais fundo, onde pudesse banhar-se a seu gosto. \"Quem me dera que a história se ficasse por aqui\", suspirava o cavalo, aliviado. Uns meliantes, salteadores de estrada, que por ali estavam escondidos, viram o cavaleiro afastar-se e acharam que era boa altura para agir. Cobiçaram a armadura e cobiçaram o cavalo. Este, adivinhando-lhes as intenções, fugiu-lhes a tempo. Que levassem a armadura! Era da maneira que o resto da jornada menos custaria. Carregar um cavaleiro, sem a casca-carapaça de ferro e lata, valia por um passeio.",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Talvez o tivesse percebido o cavaleiro, porque à beira de um regato susteve a marcha do cavalicoque e apeou-se. Apetecia-lhe tomar um banho. Desfez-se da pesada armadura, enquanto o cavalo pastava, e foi procurar um sítio mais fundo, onde pudesse banhar-se a seu gosto. \"Quem me dera que a história se ficasse por aqui\", suspirava o cavalo, aliviado. Uns meliantes, salteadores de estrada, que por ali estavam escondidos, viram o cavaleiro afastar-se e acharam que era boa altura para agir. Cobiçaram a armadura e cobiçaram o cavalo. Este, adivinhando-lhes as intenções, fugiu-lhes a tempo. Que levassem a armadura! Era da maneira que o resto da jornada menos custaria. Carregar um cavaleiro, sem a casca-carapaça de ferro e lata, valia por um passeio. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "Uns meliantes, salteadores de estrada, que por ali estavam escondidos, viram o cavaleiro afastar-se e acharam que era boa altura para agir. Cobiçaram a armadura e cobiçaram o cavalo. Este, adivinhando-lhes as intenções, fugiu-lhes a tempo. Que levassem a armadura! Era da maneira que o resto da jornada menos custaria. Carregar um cavaleiro, sem a casca-carapaça de ferro e lata, valia por um passeio. De longe, o cavalo viu os ladrões alcançarem as peças da armadura para cima de um macho desgraçado. Teve um rebate. O dono tão desprevenido e ninguém que o avisasse. Só se ele, cavalo, tomado a brios… Mas para quê, se o assunto não era da sua conta? Ou seria? Afinal, talvez fosse… O cavalo relinchou um alarme. Logo o cavaleiro, que deixara a espada na margem, se apercebeu do perigo. Agarrou no espadão e, mesmo nu e a pingar, saltou para o cavalo e fez frente aos salteadores, que fugiram, mais o macho, largando tudo, numa grande balbúrdia de lata amolgada.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Uns meliantes, salteadores de estrada, que por ali estavam escondidos, viram o cavaleiro afastar-se e acharam que era boa altura para agir. Cobiçaram a armadura e cobiçaram o cavalo. Este, adivinhando-lhes as intenções, fugiu-lhes a tempo. Que levassem a armadura! Era da maneira que o resto da jornada menos custaria. Carregar um cavaleiro, sem a casca-carapaça de ferro e lata, valia por um passeio. De longe, o cavalo viu os ladrões alcançarem as peças da armadura para cima de um macho desgraçado. Teve um rebate. O dono tão desprevenido e ninguém que o avisasse. Só se ele, cavalo, tomado a brios… Mas para quê, se o assunto não era da sua conta? Ou seria? Afinal, talvez fosse… O cavalo relinchou um alarme. Logo o cavaleiro, que deixara a espada na margem, se apercebeu do perigo. Agarrou no espadão e, mesmo nu e a pingar, saltou para o cavalo e fez frente aos salteadores, que fugiram, mais o macho, largando tudo, numa grande balbúrdia de lata amolgada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s1p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "De longe, o cavalo viu os ladrões alcançarem as peças da armadura para cima de um macho desgraçado. Teve um rebate. O dono tão desprevenido e ninguém que o avisasse. Só se ele, cavalo, tomado a brios… Mas para quê, se o assunto não era da sua conta? Ou seria? Afinal, talvez fosse… O cavalo relinchou um alarme. Logo o cavaleiro, que deixara a espada na margem, se apercebeu do perigo. Agarrou no espadão e, mesmo nu e a pingar, saltou para o cavalo e fez frente aos salteadores, que fugiram, mais o macho, largando tudo, numa grande balbúrdia de lata amolgada. Revestido de novo da sua vaidosa armadura, o cavaleiro, fincando os joelhos de ferro nos lados da montada, incitou-a a prosseguir caminho. Carregado ao peso do dever, o cavalo obedeceu.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: De longe, o cavalo viu os ladrões alcançarem as peças da armadura para cima de um macho desgraçado. Teve um rebate. O dono tão desprevenido e ninguém que o avisasse. Só se ele, cavalo, tomado a brios… Mas para quê, se o assunto não era da sua conta? Ou seria? Afinal, talvez fosse… O cavalo relinchou um alarme. Logo o cavaleiro, que deixara a espada na margem, se apercebeu do perigo. Agarrou no espadão e, mesmo nu e a pingar, saltou para o cavalo e fez frente aos salteadores, que fugiram, mais o macho, largando tudo, numa grande balbúrdia de lata amolgada. Revestido de novo da sua vaidosa armadura, o cavaleiro, fincando os joelhos de ferro nos lados da montada, incitou-a a prosseguir caminho. Carregado ao peso do dever, o cavalo obedeceu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

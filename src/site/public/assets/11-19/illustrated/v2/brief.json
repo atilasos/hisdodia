@@ -1,0 +1,120 @@
+{
+  "characters": [
+    {
+      "name": "narrator",
+      "appearance": "adult first-person narrator"
+    },
+    {
+      "name": "amigo",
+      "appearance": "adult male friend of the narrator"
+    },
+    {
+      "name": "sobrinha de amigo, Rosa",
+      "appearance": "young adult female painter"
+    },
+    {
+      "name": "Arco-Íris",
+      "appearance": "parrot that later appears colorful and then rain-dulled to gray"
+    }
+  ],
+  "environment": "atelier at the narrator’s friend’s niece’s studio, initially crowded like a tropical aviary; later the narrator’s home with open windows during rain",
+  "palette": [
+    "bright tropical greens",
+    "parrot red",
+    "parrot yellow",
+    "parrot blue",
+    "rain gray",
+    "muted indoor browns"
+  ],
+  "recurringObjects": [
+    "papagaio ao ombro",
+    "atelier-gaiola",
+    "janelas abertas",
+    "mesinha do telefone"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "- A minha sobrinha pinta papagaios... - De papel? - perguntei eu. - Não. Pinta papagaios de penas. Maravilhosamente - respondeu o meu amigo. - Se quiseres, hoje mesmo, passamos pelo atelier dela.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Grande Pintora».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - A minha sobrinha pinta papagaios... - De papel? - perguntei eu. - Não. Pinta papagaios de penas. Maravilhosamente - respondeu o meu amigo. - Se quiseres, hoje mesmo, passamos pelo atelier dela. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p8",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p6",
+        "s0p7",
+        "s0p8"
+      ],
+      "evidence": "- E os quadros dela sobre esta passarada toda, onde é que estão? - perguntei. O meu amigo não sabia ou fazia de conta que não sabia. O melhor era esperar pela pintora. Entrementes, um papagaio com as cores da bandeira nacional simpatizou comigo, poisou-me no ombro e pôs-se-me a coçar ternamente a cabeça.",
+      "after": {
+        "segment": 0,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - E os quadros dela sobre esta passarada toda, onde é que estão? - perguntei. O meu amigo não sabia ou fazia de conta que não sabia. O melhor era esperar pela pintora. Entrementes, um papagaio com as cores da bandeira nacional simpatizou comigo, poisou-me no ombro e pôs-se-me a coçar ternamente a cabeça. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p19",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p17",
+        "s0p18",
+        "s0p19"
+      ],
+      "evidence": "Fui sentar-me junto à mesinha do telefone. Tão concentrado eu estava, à espera do prometido telefonema, que nem dei por que tinha começado a chover. E logo as janelas todas abertas... Passados uns minutos, um bicharoco encharcado e cinzento, cor de rato, fincou-me as patas nos ombros. Dei um salto de susto.",
+      "after": {
+        "segment": 0,
+        "paragraph": 19
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Fui sentar-me junto à mesinha do telefone. Tão concentrado eu estava, à espera do prometido telefonema, que nem dei por que tinha começado a chover. E logo as janelas todas abertas... Passados uns minutos, um bicharoco encharcado e cinzento, cor de rato, fincou-me as patas nos ombros. Dei um salto de susto. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p24",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p22",
+        "s0p23",
+        "s0p24"
+      ],
+      "evidence": "Não era possível. Outro papagaio, este cinzento, a cantar a mesma cantiga? Já calculam o que se passou. O Arco-Íris, com a molha, perdera as cores radiosas da bandeira nacional. Perdera-as porque, simplesmente, não lhe pertenciam. Pintado, pena a pena, pela sobrinha do meu amigo, o Arco-Íris revelava-se, afinal, um vulgar papagaio descorado.",
+      "after": {
+        "segment": 0,
+        "paragraph": 24
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não era possível. Outro papagaio, este cinzento, a cantar a mesma cantiga? Já calculam o que se passou. O Arco-Íris, com a molha, perdera as cores radiosas da bandeira nacional. Perdera-as porque, simplesmente, não lhe pertenciam. Pintado, pena a pena, pela sobrinha do meu amigo, o Arco-Íris revelava-se, afinal, um vulgar papagaio descorado. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p27",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p25",
+        "s0p26",
+        "s0p27"
+      ],
+      "evidence": "Quando contei a história ao meu amigo, ele riu-se: - Bem te avisei que a minha sobrinha era pintora de papagaios. Uma grande pintora! Em conclusão: fiquei dono de um papagaio cinzento, que ninguém percebe por que bizarria ou tolice é que eu o trato por Arco-Íris.",
+      "after": {
+        "segment": 0,
+        "paragraph": 27
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando contei a história ao meu amigo, ele riu-se: - Bem te avisei que a minha sobrinha era pintora de papagaios. Uma grande pintora! Em conclusão: fiquei dono de um papagaio cinzento, que ninguém percebe por que bizarria ou tolice é que eu o trato por Arco-Íris. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

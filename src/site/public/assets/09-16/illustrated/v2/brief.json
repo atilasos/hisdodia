@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": "Forest clearing where predator animals gather and a hunted gazelle is seized, then the scene shifts to the aftermath of the lion's meal.",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O s animais carniceiros juntaram-se todos e decidiram ir à caça. Quem teve a ideia foi o leão. Quando tal se soube, correu um ciclone de medo pela floresta. – O que vai ser de nós? – diziam os bichos ameaçados. – Se cada um por si já é um perigo terrível, o que farão todos juntos?",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Parte do Leão».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O s animais carniceiros juntaram-se todos e decidiram ir à caça. Quem teve a ideia foi o leão. Quando tal se soube, correu um ciclone de medo pela floresta. – O que vai ser de nós? – diziam os bichos ameaçados. – Se cada um por si já é um perigo terrível, o que farão todos juntos? Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s0p3"
+      ],
+      "evidence": "Quando tal se soube, correu um ciclone de medo pela floresta. – O que vai ser de nós? – diziam os bichos ameaçados. – Se cada um por si já é um perigo terrível, o que farão todos juntos? – Descansem, que a aliança pouco dura – tranquilizou-os uma velha doninha que já tinha vivido muitas histórias e lido muitas fábulas. – Não tarda que volte cada um a caçar por sua própria conta.",
+      "after": {
+        "segment": 0,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando tal se soube, correu um ciclone de medo pela floresta. – O que vai ser de nós? – diziam os bichos ameaçados. – Se cada um por si já é um perigo terrível, o que farão todos juntos? – Descansem, que a aliança pouco dura – tranquilizou-os uma velha doninha que já tinha vivido muitas histórias e lido muitas fábulas. – Não tarda que volte cada um a caçar por sua própria conta. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p6",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "Não as tomou uma gazela estarola que sem saber como se viu cercada pelos carnívoros... – E vai uma! – disse o leão, pondo uma pata sobre o corpo da vítima. – Vamos partilhá-la, que estou cheio de fome – lembrou o leopardo.",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não as tomou uma gazela estarola que sem saber como se viu cercada pelos carnívoros... – E vai uma! – disse o leão, pondo uma pata sobre o corpo da vítima. – Vamos partilhá-la, que estou cheio de fome – lembrou o leopardo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p14",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p12",
+        "s0p13",
+        "s0p14"
+      ],
+      "evidence": "Os outros já não estavam a gostar nada daquela partilha, mas que remédio tinham senão aprovar... Concluiu o leão: – A quarta e última parte pertence-me, porque não conheço nenhum bicho com força e coragem suficientes para ma disputar. E começou a banquetear-se.",
+      "after": {
+        "segment": 0,
+        "paragraph": 14
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os outros já não estavam a gostar nada daquela partilha, mas que remédio tinham senão aprovar... Concluiu o leão: – A quarta e última parte pertence-me, porque não conheço nenhum bicho com força e coragem suficientes para ma disputar. E começou a banquetear-se. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p17",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p15",
+        "s0p16",
+        "s0p17"
+      ],
+      "evidence": "Os outros animais, que não estavam dispostos a presenciar, a seco, o almoço do leão, foram-se afastando, um por um, e cada um para sua banda. – Eu não vos dizia?! – comentava, pouco depois, a doninha. – Quando há um leão na sociedade ou só come ele ou acaba a sociedade. Realmente, a doninha, apesar de pequena, era uma grande sábia adivinha. Deve ser de ter lido muitas histórias.",
+      "after": {
+        "segment": 0,
+        "paragraph": 17
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os outros animais, que não estavam dispostos a presenciar, a seco, o almoço do leão, foram-se afastando, um por um, e cada um para sua banda. – Eu não vos dizia?! – comentava, pouco depois, a doninha. – Quando há um leão na sociedade ou só come ele ou acaba a sociedade. Realmente, a doninha, apesar de pequena, era uma grande sábia adivinha. Deve ser de ter lido muitas histórias. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,115 @@
+{
+  "characters": [
+    {
+      "name": "Dona Florinda",
+      "appearance": "Mulher portuguesa idosa, expressão cuidadosa e preocupada, sempre com molho de chaves à cinta ou ao pescoço, roupa doméstica simples e arrumada."
+    },
+    {
+      "name": "Bombeiros",
+      "appearance": "Dois ou mais bombeiros em uniforme, com escada de resgate, atitude prática e segura."
+    }
+  ],
+  "environment": "Uma casa portuguesa antiga e muito fechada, com portas interiores, gavetas, caixa e caixinha, incluindo varanda e rua exterior, num tom doméstico e ligeiramente cômico.",
+  "palette": [
+    "tons quentes e envelhecidos",
+    "azuis e cinzas suaves",
+    "castanhos de madeira",
+    "vermelhos discretos de destaque",
+    "luz natural suave"
+  ],
+  "recurringObjects": [
+    "molho de chaves",
+    "chaves pequenas",
+    "gaveta",
+    "caixa",
+    "caixinha",
+    "fio ao pescoço",
+    "porta da varanda",
+    "escada dos bombeiros"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Em casa da Dona Florinda não havia nada aberto. Claro que a porta da rua estava sempre fechada. E a sete chaves. Até aqui tudo certo. Mas fechadas também estavam a porta da despensa, a porta do quarto de arrumações, a porta do quarto da Dona Florinda, a porta da casa de banho, a porta da cozinha, a porta da salinha, a porta do salão.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Dona Florinda das Sete Chaves».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Em casa da Dona Florinda não havia nada aberto. Claro que a porta da rua estava sempre fechada. E a sete chaves. Até aqui tudo certo. Mas fechadas também estavam a porta da despensa, a porta do quarto de arrumações, a porta do quarto da Dona Florinda, a porta da casa de banho, a porta da cozinha, a porta da salinha, a porta do salão. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s4p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Mas onde é que a Dona Florinda guardava as chaves, quando à noite se deitava? Guardava numa caixinha, que fechava e metia dentro de uma caixa, que fechava e metia dentro de uma gaveta, que fechava e... \"Trru, está fechada!\", mais nada. As três chaves, a da gaveta, a da caixa e a da caixinha, pendurava-as num fio que usava sempre ao pescoço, quer de dia quer de noite. Coitada! Um dia, como se está mesmo a ver, o fio partiu-se e a Dona Florinda perdeu as chaves. Sumiram-se as três chaves que abriam a gaveta, a caixa e a caixinha, a tal caixinha onde estavam guardadas todas as outras chaves. Que fazer?",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas onde é que a Dona Florinda guardava as chaves, quando à noite se deitava? Guardava numa caixinha, que fechava e metia dentro de uma caixa, que fechava e metia dentro de uma gaveta, que fechava e... \"Trru, está fechada!\", mais nada. As três chaves, a da gaveta, a da caixa e a da caixinha, pendurava-as num fio que usava sempre ao pescoço, quer de dia quer de noite. Coitada! Um dia, como se está mesmo a ver, o fio partiu-se e a Dona Florinda perdeu as chaves. Sumiram-se as três chaves que abriam a gaveta, a caixa e a caixinha, a tal caixinha onde estavam guardadas todas as outras chaves. Que fazer? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s5p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "E tudo fechado... Sim, que fazer? Arrombar a gaveta, rebentar a caixa, partir a caixinha e recuperar as outras chaves. Depois abrir as portas, as gavetas, os armários, de par em par. Isto faria qualquer pessoa, que não fosse a Dona Florinda. Desesperada de procurar as três chaves, mães das outras todas, a Dona Florinda abriu a única porta que tinha à mão.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E tudo fechado... Sim, que fazer? Arrombar a gaveta, rebentar a caixa, partir a caixinha e recuperar as outras chaves. Depois abrir as portas, as gavetas, os armários, de par em par. Isto faria qualquer pessoa, que não fosse a Dona Florinda. Desesperada de procurar as três chaves, mães das outras todas, a Dona Florinda abriu a única porta que tinha à mão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s6p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p1",
+        "s6p2",
+        "s6p3"
+      ],
+      "evidence": "- Estou fechada. Socorro. Estou fechada. Vieram os bombeiros, lançaram a escada e trouxeram a Dona Florinda da varanda à rua. E agora? Agora a Dona Florinda anda à procura de um nova casa onde morar - uma casa com novas fechaduras, novas chaves.",
+      "after": {
+        "segment": 6,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Estou fechada. Socorro. Estou fechada. Vieram os bombeiros, lançaram a escada e trouxeram a Dona Florinda da varanda à rua. E agora? Agora a Dona Florinda anda à procura de um nova casa onde morar - uma casa com novas fechaduras, novas chaves. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s6p2",
+        "s6p3",
+        "s7p0"
+      ],
+      "evidence": "Vieram os bombeiros, lançaram a escada e trouxeram a Dona Florinda da varanda à rua. E agora? Agora a Dona Florinda anda à procura de um nova casa onde morar - uma casa com novas fechaduras, novas chaves. E a casa antiga da Dona Florinda? Essa, definitivamente, trru, está fechada.",
+      "after": {
+        "segment": 7,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Vieram os bombeiros, lançaram a escada e trouxeram a Dona Florinda da varanda à rua. E agora? Agora a Dona Florinda anda à procura de um nova casa onde morar - uma casa com novas fechaduras, novas chaves. E a casa antiga da Dona Florinda? Essa, definitivamente, trru, está fechada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

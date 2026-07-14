@@ -1,0 +1,137 @@
+{
+  "characters": [
+    {
+      "name": "o fato azul-escuro",
+      "appearance": "um fato de cerimónia azul escuro, algo gasto, com uma grande nódoa persistente"
+    },
+    {
+      "name": "o dono",
+      "appearance": "um homem que guarda o fato para ocasiões solenes"
+    },
+    {
+      "name": "o amigo do dono",
+      "appearance": "um amigo embaraçado que empresta e devolve o fato"
+    },
+    {
+      "name": "o vagabundo",
+      "appearance": "um homem pobre que encontra o fato junto a um contentor e o usa com alegria"
+    }
+  ],
+  "environment": "Portugal urbano de tom contemporâneo, com interiores domésticos, lavandaria, rua junto a contentor do lixo e cidade nocturna.",
+  "palette": [
+    "azul-escuro",
+    "cinzentos urbanos",
+    "bege gasto",
+    "branco sujo",
+    "toques de amarelo nocturno"
+  ],
+  "recurringObjects": [
+    "fato azul-escuro",
+    "nódoa",
+    "guarda-vestidos ou guarda-fato",
+    "lavandaria",
+    "contentor do lixo"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era uma vez um fato que gostava muito de ir à rua, mas o dono não lhe fazia a vontade. Tratava-se de um fato azul escuro, mais ou menos de cerimónia e com muito pouco uso. O dono comprara-o para um casamento e, afora uma ou outra ocasião mais solene, nunca o tirava do guarda-vestidos ou do guarda-fato, ainda estou para saber ao certo como é que se diz. Um dia, um amigo pediu-lho para uma solenidade qualquer, banquete em embaixada ou coisa assim. Estava um bocadinho fora de moda, mas no meio de outros fatos, igualmente azuis escuros, ninguém ia reparar.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O fato azul - escuro».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um fato que gostava muito de ir à rua, mas o dono não lhe fazia a vontade. Tratava-se de um fato azul escuro, mais ou menos de cerimónia e com muito pouco uso. O dono comprara-o para um casamento e, afora uma ou outra ocasião mais solene, nunca o tirava do guarda-vestidos ou do guarda-fato, ainda estou para saber ao certo como é que se diz. Um dia, um amigo pediu-lho para uma solenidade qualquer, banquete em embaixada ou coisa assim. Estava um bocadinho fora de moda, mas no meio de outros fatos, igualmente azuis escuros, ninguém ia reparar. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p0",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Um dia, um amigo pediu-lho para uma solenidade qualquer, banquete em embaixada ou coisa assim. Estava um bocadinho fora de moda, mas no meio de outros fatos, igualmente azuis escuros, ninguém ia reparar. Lá foi o fatinho todo contente apanhar ar. Pena que não houvesse mais oportunidades semelhantes, mas para o fato, que gostava do laréu, aquele sarau mundano já era uma distracção. Logo por azar, pespegou-se uma grande nódoa no fato, das renitentes , das pertinazes , que nem com benzina saem.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um dia, um amigo pediu-lho para uma solenidade qualquer, banquete em embaixada ou coisa assim. Estava um bocadinho fora de moda, mas no meio de outros fatos, igualmente azuis escuros, ninguém ia reparar. Lá foi o fatinho todo contente apanhar ar. Pena que não houvesse mais oportunidades semelhantes, mas para o fato, que gostava do laréu, aquele sarau mundano já era uma distracção. Logo por azar, pespegou-se uma grande nódoa no fato, das renitentes , das pertinazes , que nem com benzina saem. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "Logo por azar, pespegou-se uma grande nódoa no fato, das renitentes , das pertinazes , que nem com benzina saem. O pesaroso amigo do dono do fato bem o levou à lavandaria (ao fato e não ao amigo, já se vê), mas a nódoa estava para durar e era de uma tão alastrada evidência que inutilizava o fato para todo o sempre. Que fazer? Comprar um fato igual, era o mais recomendável. Mas onde arranjá-lo da mesma fazenda e com o mesmo corte?",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Logo por azar, pespegou-se uma grande nódoa no fato, das renitentes , das pertinazes , que nem com benzina saem. O pesaroso amigo do dono do fato bem o levou à lavandaria (ao fato e não ao amigo, já se vê), mas a nódoa estava para durar e era de uma tão alastrada evidência que inutilizava o fato para todo o sempre. Que fazer? Comprar um fato igual, era o mais recomendável. Mas onde arranjá-lo da mesma fazenda e com o mesmo corte? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p1",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "Passado muito tempo, o dono do fato precisou dele, lembrou-se de que o tinha emprestado e pediu-o de volta. Embaraçado, o amigo teve de confessar tudo. Uma tão longa amizade não podia ficar manchada por uma nódoa. Os dois amigos combinaram comprar um fato a meias, que servisse para as ocasiões solenes a que um ou outro tivesse de ir por obrigação social, e decidiram desfazer-se do velho fato azul escuro.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Passado muito tempo, o dono do fato precisou dele, lembrou-se de que o tinha emprestado e pediu-o de volta. Embaraçado, o amigo teve de confessar tudo. Uma tão longa amizade não podia ficar manchada por uma nódoa. Os dois amigos combinaram comprar um fato a meias, que servisse para as ocasiões solenes a que um ou outro tivesse de ir por obrigação social, e decidiram desfazer-se do velho fato azul escuro. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p1",
+        "s6p0",
+        "s6p1"
+      ],
+      "evidence": "Os dois amigos combinaram comprar um fato a meias, que servisse para as ocasiões solenes a que um ou outro tivesse de ir por obrigação social, e decidiram desfazer-se do velho fato azul escuro. Deixado intacto à beira de um contentor do lixo, o primeiro vagabundo que o viu levou-o. Serviu-lhe às mil maravilhas. Os fatos, quando dados, costumam quase sempre cair muito bem. O fato, agora, anda nas suas setes quintas, maneira de dizer que está feliz da vida. Passeia habitualmente à noite, mas vai conhecendo a cidade de lés a lés.",
+      "after": {
+        "segment": 6,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os dois amigos combinaram comprar um fato a meias, que servisse para as ocasiões solenes a que um ou outro tivesse de ir por obrigação social, e decidiram desfazer-se do velho fato azul escuro. Deixado intacto à beira de um contentor do lixo, o primeiro vagabundo que o viu levou-o. Serviu-lhe às mil maravilhas. Os fatos, quando dados, costumam quase sempre cair muito bem. O fato, agora, anda nas suas setes quintas, maneira de dizer que está feliz da vida. Passeia habitualmente à noite, mas vai conhecendo a cidade de lés a lés. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s7p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s7p0",
+        "s7p1",
+        "s7p2"
+      ],
+      "evidence": "A nódoa, a mais antiga, já que outras, entretanto, se lhe juntaram, diz para o fato: - Vês. Se não fosse eu, não tinhas esta sorte... Dando-lhe razão, o fato agradece. E agradece o vagabundo, que tem roupa para durar. E agradecem os dois amigos, que ganharam um fato novo. E agradeço eu, que assim acabei esta história.",
+      "after": {
+        "segment": 7,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A nódoa, a mais antiga, já que outras, entretanto, se lhe juntaram, diz para o fato: - Vês. Se não fosse eu, não tinhas esta sorte... Dando-lhe razão, o fato agradece. E agradece o vagabundo, que tem roupa para durar. E agradecem os dois amigos, que ganharam um fato novo. E agradeço eu, que assim acabei esta história. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

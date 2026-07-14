@@ -1,0 +1,120 @@
+{
+  "characters": [],
+  "environment": "North African fortified cities, desert routes, and city streets around Arzila and Tânger in the early 1500s",
+  "palette": [
+    "sandy ochres",
+    "sun-baked terracotta",
+    "deep indigo night",
+    "weathered stone gray",
+    "sea-green accents"
+  ],
+  "recurringObjects": [
+    "fortified walls",
+    "caravan silhouettes",
+    "small satchel with a letter",
+    "desert dunes",
+    "a dog as the messenger"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Houve um tempo em que os reis de Portugal detinham, entre outros territórios ao seu mando, umas tantas cidades fortificadas do Norte de África. Uma delas Tânger. Outra, Arzila. Ora aí pelos começos de 1503, o governador português de Arzila soube que os mouros de Fez preparavam, às escondidas, uma expedição para cercar Tânger. Pretendiam uns tantos infiltrar-se na cidade, sob o disfarce de mercadores, para ajudarem à conquista, quando o exército mouro, a coberto da noite, tentasse escalar as muralhas da cidade. Era um bom plano, mas...",
+      "after": null,
+      "alt": "Ilustração de abertura da história «De Arzila a Tânger».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Houve um tempo em que os reis de Portugal detinham, entre outros territórios ao seu mando, umas tantas cidades fortificadas do Norte de África. Uma delas Tânger. Outra, Arzila. Ora aí pelos começos de 1503, o governador português de Arzila soube que os mouros de Fez preparavam, às escondidas, uma expedição para cercar Tânger. Pretendiam uns tantos infiltrar-se na cidade, sob o disfarce de mercadores, para ajudarem à conquista, quando o exército mouro, a coberto da noite, tentasse escalar as muralhas da cidade. Era um bom plano, mas... Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Nessa época não havia correios nem telégrafos nem faxes nem telefones. Podiam enviar um emissário , pois podiam. O pior era se o cavaleiro era interceptado pelas hostes inimigas, que iam já a caminho. Estava o governador de Arzila a congeminar , sem se decidir, quando ouviu uns latidos, vindos da cerca do quartel.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Nessa época não havia correios nem telégrafos nem faxes nem telefones. Podiam enviar um emissário , pois podiam. O pior era se o cavaleiro era interceptado pelas hostes inimigas, que iam já a caminho. Estava o governador de Arzila a congeminar , sem se decidir, quando ouviu uns latidos, vindos da cerca do quartel. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "Eles já nasceram, já os amamentou e agora, se a gente a desprendesse, era capaz de saltar tudo para ir ter com o dono. - E há-de ir - disse o governador, tomado de uma súbita ideia. Trouxeram a cadela, muito esperta e meiga, ataram-lhe aos pescoço um saco pequeno, que continha uma carta enrolada, e levaram-na para as portas da cidade de Arzila.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Eles já nasceram, já os amamentou e agora, se a gente a desprendesse, era capaz de saltar tudo para ir ter com o dono. - E há-de ir - disse o governador, tomado de uma súbita ideia. Trouxeram a cadela, muito esperta e meiga, ataram-lhe aos pescoço um saco pequeno, que continha uma carta enrolada, e levaram-na para as portas da cidade de Arzila. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p2",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "Trouxeram a cadela, muito esperta e meiga, ataram-lhe aos pescoço um saco pequeno, que continha uma carta enrolada, e levaram-na para as portas da cidade de Arzila. - Vai avisar o teu dono - disseram à cadela, dando-lhe uma palmada no lombo. Foi o que ela quis ouvir. Fareja aqui, fareja ali, a cadela correu pelo deserto, ultrapassou caravanas, ladeou oásis, venceu dunas e passou, sem se dar a conhecer pelo exército mouro, acampado num desfiladeiro , à espera da noite do ataque.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Trouxeram a cadela, muito esperta e meiga, ataram-lhe aos pescoço um saco pequeno, que continha uma carta enrolada, e levaram-na para as portas da cidade de Arzila. - Vai avisar o teu dono - disseram à cadela, dando-lhe uma palmada no lombo. Foi o que ela quis ouvir. Fareja aqui, fareja ali, a cadela correu pelo deserto, ultrapassou caravanas, ladeou oásis, venceu dunas e passou, sem se dar a conhecer pelo exército mouro, acampado num desfiladeiro , à espera da noite do ataque. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p0",
+        "s6p1",
+        "s6p2"
+      ],
+      "evidence": "Muito cansada e dorida, entrou em Tânger, orientou-se por ruas e ruelas e foi descobrir Pedro de Castro, a almoçar com o governador. Que grande alegria para o bicho e para o dono! - Ela traz um saquitel pendurado ao pescoço - chamaram à atenção alguns dos presentes. Foram ver. Era a carta com o aviso.",
+      "after": {
+        "segment": 6,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Muito cansada e dorida, entrou em Tânger, orientou-se por ruas e ruelas e foi descobrir Pedro de Castro, a almoçar com o governador. Que grande alegria para o bicho e para o dono! - Ela traz um saquitel pendurado ao pescoço - chamaram à atenção alguns dos presentes. Foram ver. Era a carta com o aviso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s7p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s7p0",
+        "s7p1",
+        "s7p2"
+      ],
+      "evidence": "Logo o governador de Tânger mandou tomar providências. Fecharam as portas da cidade. Dobraram as atalaias , redobraram as defesas e, assim, a cilada que os mouros queriam armar não surtiu efeito. A cadelinha salvara muitas vidas e uma fortaleza do reino. Era uma heroína, com direito a título de registo, na História de Portugal. Mas se nem sequer lhe sabemos o nome...",
+      "after": {
+        "segment": 7,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Logo o governador de Tânger mandou tomar providências. Fecharam as portas da cidade. Dobraram as atalaias , redobraram as defesas e, assim, a cilada que os mouros queriam armar não surtiu efeito. A cadelinha salvara muitas vidas e uma fortaleza do reino. Era uma heroína, com direito a título de registo, na História de Portugal. Mas se nem sequer lhe sabemos o nome... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

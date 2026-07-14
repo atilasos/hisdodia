@@ -1,0 +1,128 @@
+{
+  "characters": [
+    {
+      "name": "rapazinho",
+      "appearance": "menino pequeno, apressado, curioso"
+    },
+    {
+      "name": "bibliotecário",
+      "appearance": "adulto, paciente, atento"
+    }
+  ],
+  "environment": "biblioteca pública com estantes de livros de cozinha e uma zona de empréstimo",
+  "palette": [
+    "tons quentes de papel e madeira",
+    "verdes suaves",
+    "azuis discretos",
+    "amarelos acolhedores"
+  ],
+  "recurringObjects": [
+    "livros de cozinha",
+    "livro de histórias",
+    "frigideira",
+    "ovo",
+    "margarina"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O rapazinho entrou, à pressa, na biblioteca e pediu: - Têm livros de cozinha? O bibliotecário levou-o a uma prateleira, onde havia uma quantidade de livros de receitas ou para fazer doces ou para preparar grandes banquetes ou para cozinhar pratos que não engordem...",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Tintim por tintim».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O rapazinho entrou, à pressa, na biblioteca e pediu: - Têm livros de cozinha? O bibliotecário levou-o a uma prateleira, onde havia uma quantidade de livros de receitas ou para fazer doces ou para preparar grandes banquetes ou para cozinhar pratos que não engordem... Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "O rapazinho folheou uns, folheou outros, mas não se decidia. Pacientemente, o bibliotecário esperou e, de caminho, ia informando: - Este é de comida regional... Este é só de saladas... Este é de comida japonesa... Tantos livros de cozinha!",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O rapazinho folheou uns, folheou outros, mas não se decidia. Pacientemente, o bibliotecário esperou e, de caminho, ia informando: - Este é de comida regional... Este é só de saladas... Este é de comida japonesa... Tantos livros de cozinha! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "- Para que queres, então, um livro de cozinha? Aqui, o rapazinho esclareceu, um pouco embaraçado: - Queria estrelar um ovo e não sei se hei-de deitar primeiro, na frigideira, o ovo ou a margarina...",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Para que queres, então, um livro de cozinha? Aqui, o rapazinho esclareceu, um pouco embaraçado: - Queria estrelar um ovo e não sei se hei-de deitar primeiro, na frigideira, o ovo ou a margarina... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "O bibliotecário fez um \"Ah\" de admiração e aprontou-se a responder: - Primeiro deitas a margarina e esperas que ela derreta. E cuidado com o bico do gás. Lume brando. Só depois é que deitas o ovo. - Ah! - foi, agora, a vez de fazer o rapazinho.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O bibliotecário fez um \"Ah\" de admiração e aprontou-se a responder: - Primeiro deitas a margarina e esperas que ela derreta. E cuidado com o bico do gás. Lume brando. Só depois é que deitas o ovo. - Ah! - foi, agora, a vez de fazer o rapazinho. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "Largou os livros de cozinha e já se ia embora, quando o bibliotecário lhe perguntou: - Não queres, então, levar outro livro? Um livro de histórias, por exemplo? - Só se for com histórias pequenas - disse o rapazinho.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Largou os livros de cozinha e já se ia embora, quando o bibliotecário lhe perguntou: - Não queres, então, levar outro livro? Um livro de histórias, por exemplo? - Só se for com histórias pequenas - disse o rapazinho. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s7p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s6p1",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "Não acaba, porque o rapazinho não conseguiu estrelar o ovo, apesar de ter seguido à risca as recomendações do bibliotecário: lume brando, margarina a derreter-se... ovo, no fim. Mas como o rapazinho deitou o ovo inteiro, com casca e tudo, para dentro da frigideira, o cozinhado não ficou grande coisa. Em certas ocasiões, tem de se explicar tudo, tintim por tintim.",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não acaba, porque o rapazinho não conseguiu estrelar o ovo, apesar de ter seguido à risca as recomendações do bibliotecário: lume brando, margarina a derreter-se... ovo, no fim. Mas como o rapazinho deitou o ovo inteiro, com casca e tudo, para dentro da frigideira, o cozinhado não ficou grande coisa. Em certas ocasiões, tem de se explicar tudo, tintim por tintim. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

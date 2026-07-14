@@ -1,0 +1,89 @@
+{
+  "characters": [
+    {
+      "name": "rã",
+      "appearance": "uma rã pequena e solitária"
+    }
+  ],
+  "environment": "um pequeno charco que depois se transforma numa paisagem inundada e, por fim, num lago amplo com muitas rãs",
+  "palette": [
+    "verdes suaves",
+    "castanhos úmidos",
+    "azuis de chuva",
+    "cinzas de tempestade",
+    "tons claros de água"
+  ],
+  "recurringObjects": [
+    "charco",
+    "água da chuva",
+    "lago"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma rã que vivia num charco. Vivia sozinha. O charco também era pequeno. Sentia a falta de outras rãs, para lhe fazerem companhia e coaxarem ao despique nas noites de Lua cheia. Sentia que, se outras rãs vivessem com ela, podia nadar de bruços com mais folgança, velocidade, estilo... Sentia que os saltos que dava para dentro de água, à falta de espectadores, nem jeito nem graça tinham.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Rã Solitária».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma rã que vivia num charco. Vivia sozinha. O charco também era pequeno. Sentia a falta de outras rãs, para lhe fazerem companhia e coaxarem ao despique nas noites de Lua cheia. Sentia que, se outras rãs vivessem com ela, podia nadar de bruços com mais folgança, velocidade, estilo... Sentia que os saltos que dava para dentro de água, à falta de espectadores, nem jeito nem graça tinham. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s0p4",
+        "s0p5"
+      ],
+      "evidence": "Enfim, a rã deste pequeno charco sentia-se muito só. Desamparada. Infeliz. Perguntem, se fazem favor, porque é que a rã se não mudava para charco mais amplo e povoado? Porque temia que tão perto não houvesse outro. Ora, como devem saber, as rãs detestam perder tempo a saltar em seco. A água faz-lhes falta. Sem ela, perdem o luzidio da pele e a força de vida. Não sabiam?",
+      "after": {
+        "segment": 0,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Enfim, a rã deste pequeno charco sentia-se muito só. Desamparada. Infeliz. Perguntem, se fazem favor, porque é que a rã se não mudava para charco mais amplo e povoado? Porque temia que tão perto não houvesse outro. Ora, como devem saber, as rãs detestam perder tempo a saltar em seco. A água faz-lhes falta. Sem ela, perdem o luzidio da pele e a força de vida. Não sabiam? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p7",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p5",
+        "s0p6",
+        "s0p7"
+      ],
+      "evidence": "Porque temia que tão perto não houvesse outro. Ora, como devem saber, as rãs detestam perder tempo a saltar em seco. A água faz-lhes falta. Sem ela, perdem o luzidio da pele e a força de vida. Não sabiam? Um dia, começou a chover que nunca mais parava. Dia e noite. Noite e dia. Os campos ficaram alagados. Os rios sobraram do leito. Pequenos charcos, afastados uns dos outros, juntaram-se num enorme lago.",
+      "after": {
+        "segment": 0,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Porque temia que tão perto não houvesse outro. Ora, como devem saber, as rãs detestam perder tempo a saltar em seco. A água faz-lhes falta. Sem ela, perdem o luzidio da pele e a força de vida. Não sabiam? Um dia, começou a chover que nunca mais parava. Dia e noite. Noite e dia. Os campos ficaram alagados. Os rios sobraram do leito. Pequenos charcos, afastados uns dos outros, juntaram-se num enorme lago. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p10",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p8",
+        "s0p9",
+        "s0p10"
+      ],
+      "evidence": "Foi uma inundação terrível. Veio nos jornais e a televisão deu notícia. Casas de que só o telhado se via. Animais afogados. Gente a ser salva em barcaças por bombeiros. Uma desgraça. Mas como esta história pertence à rã, esta história tem um fim feliz. A rã, passada a tempestade, encontrou companhia. Dezenas de rãs coaxam agora, em coro, glorificando a chuva, a abundância das águas, o abraço do lago imenso que as juntou.",
+      "after": {
+        "segment": 0,
+        "paragraph": 10
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Foi uma inundação terrível. Veio nos jornais e a televisão deu notícia. Casas de que só o telhado se via. Animais afogados. Gente a ser salva em barcaças por bombeiros. Uma desgraça. Mas como esta história pertence à rã, esta história tem um fim feliz. A rã, passada a tempestade, encontrou companhia. Dezenas de rãs coaxam agora, em coro, glorificando a chuva, a abundância das águas, o abraço do lago imenso que as juntou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

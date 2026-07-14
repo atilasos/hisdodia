@@ -1,0 +1,129 @@
+{
+  "characters": [
+    {
+      "name": "sapo",
+      "appearance": "sapo saparrão"
+    },
+    {
+      "name": "raposa",
+      "appearance": "raposa raposeca"
+    }
+  ],
+  "environment": "terrerrenos herdados, campos agrícolas, eira, oliveira, manhã de trabalho rural",
+  "palette": [
+    "verdes terrosos",
+    "castanhos quentes",
+    "dourado de trigo",
+    "laranja da raposa",
+    "azuis suaves"
+  ],
+  "recurringObjects": [
+    "trigo",
+    "palha",
+    "foice",
+    "cântaro da água",
+    "oliveira"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O sapo e a raposa herdaram umas terrinhas de uma velha bruxa, muito velha, que gostava de sapos e raposas. Mas isso faz parte de outra história. Aquela que para aqui trazemos conta-nos como foi essa sociedade entre um sapo saparrão e uma raposa raposeca. - Vamos colher a nossa fortuna nestas terras, compadre - dizia a raposa.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O sapo e a raposa».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O sapo e a raposa herdaram umas terrinhas de uma velha bruxa, muito velha, que gostava de sapos e raposas. Mas isso faz parte de outra história. Aquela que para aqui trazemos conta-nos como foi essa sociedade entre um sapo saparrão e uma raposa raposeca. - Vamos colher a nossa fortuna nestas terras, compadre - dizia a raposa. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "- Mas antes de colhermos, temos de semear... - lembrava o sapo. - Acertado preceito, compadre! Vejo que os demorados mergulhos nos charcos não lhe embotaram juízo. E como se faz a sementeira? O sapo tratou de tudo. Mondou, lavrou, sachou, semeou e, depois, esperou.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Mas antes de colhermos, temos de semear... - lembrava o sapo. - Acertado preceito, compadre! Vejo que os demorados mergulhos nos charcos não lhe embotaram juízo. E como se faz a sementeira? O sapo tratou de tudo. Mondou, lavrou, sachou, semeou e, depois, esperou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "O sapo ceifou, debulhou e juntou um belo monte de trigo e outro de palha. - Aqui está a nossa fortuna - dizia a raposa, muito risonha. Depois de tudo arranjado, os dois sócios foram deitar-se.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O sapo ceifou, debulhou e juntou um belo monte de trigo e outro de palha. - Aqui está a nossa fortuna - dizia a raposa, muito risonha. Depois de tudo arranjado, os dois sócios foram deitar-se. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s6p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s6p0",
+        "s6p1",
+        "s6p2"
+      ],
+      "evidence": "- Somos tão semelhantes que a raposa não consegue diferençar-nos. Eu parto já para a eira e trato de ensacar o trigo. Tu vais ter com a raposa e, depois de longa discussão, para me dares tempo, aceitas a proposta. Assim se fez. - Um, dois, três... - gritou a raposa, ao dar início à corrida - Quem lá chegar primeiro fica com tudo.",
+      "after": {
+        "segment": 6,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Somos tão semelhantes que a raposa não consegue diferençar-nos. Eu parto já para a eira e trato de ensacar o trigo. Tu vais ter com a raposa e, depois de longa discussão, para me dares tempo, aceitas a proposta. Assim se fez. - Um, dois, três... - gritou a raposa, ao dar início à corrida - Quem lá chegar primeiro fica com tudo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p2",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "- Um, dois, três... - gritou a raposa, ao dar início à corrida - Quem lá chegar primeiro fica com tudo. A espertalhona fiava-se na sua velocidade e na pouca ligeireza do sapo. Ela, que não ajudara nada no trabalho, ia, numa corrida, arrebatar tudo só para ela... Quando chegou à eira e viu o sapo, um sapo a ensacar o trigo, ficou banzada .",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Um, dois, três... - gritou a raposa, ao dar início à corrida - Quem lá chegar primeiro fica com tudo. A espertalhona fiava-se na sua velocidade e na pouca ligeireza do sapo. Ela, que não ajudara nada no trabalho, ia, numa corrida, arrebatar tudo só para ela... Quando chegou à eira e viu o sapo, um sapo a ensacar o trigo, ficou banzada . Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s8p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s8p0",
+        "s8p1",
+        "s8p2"
+      ],
+      "evidence": "- Então eu deixei o compadre para trás. Como é que me ultrapassou? - Por cima - explicou o sapo. - É que eu salto muito alto. A raposa teve de se render. Afinal a esperteza e a malandrice não lhe valeram de nada. Bem feito!",
+      "after": {
+        "segment": 8,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Então eu deixei o compadre para trás. Como é que me ultrapassou? - Por cima - explicou o sapo. - É que eu salto muito alto. A raposa teve de se render. Afinal a esperteza e a malandrice não lhe valeram de nada. Bem feito! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

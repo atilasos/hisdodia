@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": " ",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Vou contar-vos, hoje, a história desta carica. Não é uma carica qualquer. Desde que nascera que sabia que estava reservada para altos destinos. Descendia da lata, pois descendia, mas à lata não voltaria. Amoldada, como milhares das suas irmãs, à boca de uma garrafa, foi à vida com a garrafa a que a juntaram. Um dia, uma pressão - tche!",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Uma Carica e Tanto».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Vou contar-vos, hoje, a história desta carica. Não é uma carica qualquer. Desde que nascera que sabia que estava reservada para altos destinos. Descendia da lata, pois descendia, mas à lata não voltaria. Amoldada, como milhares das suas irmãs, à boca de uma garrafa, foi à vida com a garrafa a que a juntaram. Um dia, uma pressão - tche! Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "Quem disse que já não serve para nada? Agora é que ela ia começar a viver. Que aventura! Primeiro, foi moeda de troca. \"Dou-te uma carica destas. Dá-me duas das outras.\" Andou por várias colecções, conheceu muitos bolsos, muitas mãos...",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quem disse que já não serve para nada? Agora é que ela ia começar a viver. Que aventura! Primeiro, foi moeda de troca. \"Dou-te uma carica destas. Dá-me duas das outras.\" Andou por várias colecções, conheceu muitos bolsos, muitas mãos... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p3",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "Andou por várias colecções, conheceu muitos bolsos, muitas mãos... Sentiu-se moeda de peso, das fortes, das que não se desvalorizam, libra, dobrão de ouro ou mais ainda. Depois, conheceu o entusiasmo das corridas, na beira dos passeios. Ganhou provas, fez-se notar. Bastava um piparote e lá ia ela, a carica motorizada, a caminho da vitória.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Andou por várias colecções, conheceu muitos bolsos, muitas mãos... Sentiu-se moeda de peso, das fortes, das que não se desvalorizam, libra, dobrão de ouro ou mais ainda. Depois, conheceu o entusiasmo das corridas, na beira dos passeios. Ganhou provas, fez-se notar. Bastava um piparote e lá ia ela, a carica motorizada, a caminho da vitória. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p4",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p2",
+        "s3p3",
+        "s3p4"
+      ],
+      "evidence": "- Carica, quanto vales? Ela responderia: - Tanto ou mais do que peso.",
+      "after": {
+        "segment": 3,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Carica, quanto vales? Ela responderia: - Tanto ou mais do que peso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p4",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "- Tanto ou mais do que peso. A minha fortuna está no que sirvo. Entrei em muitas corridas, participei em muitas colecções, viajei muito, conheci imensa gente. Não tenho preço. Fui moeda, peso, monóculo, prato, chávena, pires, taça, medalha, automóvel... Para ser isto tudo e mais ainda, hás-de concordar que é preciso ter muita lata.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Tanto ou mais do que peso. A minha fortuna está no que sirvo. Entrei em muitas corridas, participei em muitas colecções, viajei muito, conheci imensa gente. Não tenho preço. Fui moeda, peso, monóculo, prato, chávena, pires, taça, medalha, automóvel... Para ser isto tudo e mais ainda, hás-de concordar que é preciso ter muita lata. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

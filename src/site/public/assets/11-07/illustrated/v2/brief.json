@@ -1,0 +1,102 @@
+{
+  "characters": [],
+  "environment": "Gabinete de trabalho antigo, silencioso e espaçoso, com estantes de livros, secretária de tampo de vidro, balança de pesar cartas, mapa da Europa sob o vidro e ambiente doméstico formal.",
+  "palette": [
+    "tons quentes e naturais",
+    "madeiras escuras",
+    "azuis e verdes suaves",
+    "acento vermelho discreto"
+  ],
+  "recurringObjects": [
+    "balança de cartas",
+    "frasco",
+    "mapa da Europa",
+    "livros",
+    "pulga"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Vocês conhecem aquela cantilena: \"Salta a pulga da balança e vai ter até à França... Os cavalos a correr, as meninas a aprender... Qual será a mais bonita que se vai esconder?\" Claro que conhecem. Pois quando eu era assim mais ou menos da vossa idade gostava muito de ir até ao gabinete de trabalho do meu pai, sobretudo quando ele lá não estava.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Salta a Pulga».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Vocês conhecem aquela cantilena: \"Salta a pulga da balança e vai ter até à França... Os cavalos a correr, as meninas a aprender... Qual será a mais bonita que se vai esconder?\" Claro que conhecem. Pois quando eu era assim mais ou menos da vossa idade gostava muito de ir até ao gabinete de trabalho do meu pai, sobretudo quando ele lá não estava. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s0p4",
+        "s0p5"
+      ],
+      "evidence": "Era uma divisão espaçosa, com muitos livros nas estantes. Nela reinava o silêncio e uma certa solenidade. Eu não desgostava. Sobre a secretária do escritório, toda de tampo de vidro, havia, entre outros objectos atraentes, uma pequena balança de pesar cartas e volumes, antes de irem para o correio. Debaixo do vidro transparente da secretária, um belo mapa da Europa, por onde eu me punha a passear os olhos, imaginando viagens... França, por exemplo. \"Salta a pulga da balança e vai ter até à França...\"",
+      "after": {
+        "segment": 0,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma divisão espaçosa, com muitos livros nas estantes. Nela reinava o silêncio e uma certa solenidade. Eu não desgostava. Sobre a secretária do escritório, toda de tampo de vidro, havia, entre outros objectos atraentes, uma pequena balança de pesar cartas e volumes, antes de irem para o correio. Debaixo do vidro transparente da secretária, um belo mapa da Europa, por onde eu me punha a passear os olhos, imaginando viagens... França, por exemplo. \"Salta a pulga da balança e vai ter até à França...\" Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p7",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p5",
+        "s0p6",
+        "s0p7"
+      ],
+      "evidence": "Debaixo do vidro transparente da secretária, um belo mapa da Europa, por onde eu me punha a passear os olhos, imaginando viagens... França, por exemplo. \"Salta a pulga da balança e vai ter até à França...\" Apeteceu-me fazer uma experiência. Pedi emprestada uma pulga à minha cadela Balalaica, meti a pulga num frasquinho e, secretamente, fui ao escritório. Pus o frasco em cima do prato da tal balança. Sempre queria ver se, ao destapá-lo, e assim que dissesse as tais palavras mágicas, \"Salta a pulga da balança...\", a pulguinha daria com o caminho da França, o do mapa, já se vê.",
+      "after": {
+        "segment": 0,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Debaixo do vidro transparente da secretária, um belo mapa da Europa, por onde eu me punha a passear os olhos, imaginando viagens... França, por exemplo. \"Salta a pulga da balança e vai ter até à França...\" Apeteceu-me fazer uma experiência. Pedi emprestada uma pulga à minha cadela Balalaica, meti a pulga num frasquinho e, secretamente, fui ao escritório. Pus o frasco em cima do prato da tal balança. Sempre queria ver se, ao destapá-lo, e assim que dissesse as tais palavras mágicas, \"Salta a pulga da balança...\", a pulguinha daria com o caminho da França, o do mapa, já se vê. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p10",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p8",
+        "s0p9",
+        "s0p10"
+      ],
+      "evidence": "Nisto, entrou o pai: - Que estás aí a fazer, garoto? - perguntou-me ele. - Estava a pesar este frasco - respondi eu, destapando-o.",
+      "after": {
+        "segment": 0,
+        "paragraph": 10
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Nisto, entrou o pai: - Que estás aí a fazer, garoto? - perguntou-me ele. - Estava a pesar este frasco - respondi eu, destapando-o. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p16",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p14",
+        "s0p15",
+        "s0p16"
+      ],
+      "evidence": "Não mentia. Realmente, o frasco já não tinha... O meu pai fez-me uma festa e disse, coçando a orelha: - Agora o menino vai-se embora, porque estou cheio de pressa. Calcula que, por causa de uns negócios urgentes, tenho, hoje à tarde, de tomar o avião para Paris. Não estava nada a contar com esta viagem. Nem a pulga... E foi assim que se concretizou o que a cantilena anunciava: saltou a pulga da balança e foi ter até à França...",
+      "after": {
+        "segment": 0,
+        "paragraph": 16
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não mentia. Realmente, o frasco já não tinha... O meu pai fez-me uma festa e disse, coçando a orelha: - Agora o menino vai-se embora, porque estou cheio de pressa. Calcula que, por causa de uns negócios urgentes, tenho, hoje à tarde, de tomar o avião para Paris. Não estava nada a contar com esta viagem. Nem a pulga... E foi assim que se concretizou o que a cantilena anunciava: saltou a pulga da balança e foi ter até à França... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

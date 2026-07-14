@@ -1,0 +1,116 @@
+{
+  "characters": [
+    {
+      "name": "Três reis",
+      "appearance": "Três soberanos viajantes com mantos e coroas, acompanhados por caravanas de camelos e cavalos."
+    },
+    {
+      "name": "Herodes",
+      "appearance": "Rei em palácio, expressão temerosa e depois furiosa."
+    },
+    {
+      "name": "Menino",
+      "appearance": "Criança sagrada em Belém, associada à estrela."
+    }
+  ],
+  "environment": "Cruzamento de três caminhos sob uma estrela nova, cidade e palácio de Jerusalém, caminhos humildes até Belém da Judeia, e o ambiente final de ameaça e salvação.",
+  "palette": [
+    "Azuis noturnos",
+    "Dourados da estrela",
+    "Terras quentes",
+    "Vermelhos profundos",
+    "Luzes suaves de interior"
+  ],
+  "recurringObjects": [
+    "Estrela",
+    "Caravanas",
+    "Coroas",
+    "Cofres das oferendas",
+    "Palácio"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Três reis, vindo cada qual do seu extremo do mundo, encontraram-se num cruzamento de três caminhos. Uma grande estrela, nova no céu, tinha-os atraído para o mesmo destino. Juntaram as respectivas caravanas de camelos e cavalos e prosseguiram a viagem juntos. Sempre no rasto da estrela, foram dar a uma cidade e a um palácio, onde vivia um rei, chamado Herodes. - Vimos uma estrela que anuncia o nascimento do rei dos Judeus - disseram os três reis.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «No Rasto da Estrela».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Três reis, vindo cada qual do seu extremo do mundo, encontraram-se num cruzamento de três caminhos. Uma grande estrela, nova no céu, tinha-os atraído para o mesmo destino. Juntaram as respectivas caravanas de camelos e cavalos e prosseguiram a viagem juntos. Sempre no rasto da estrela, foram dar a uma cidade e a um palácio, onde vivia um rei, chamado Herodes. - Vimos uma estrela que anuncia o nascimento do rei dos Judeus - disseram os três reis. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Juntaram as respectivas caravanas de camelos e cavalos e prosseguiram a viagem juntos. Sempre no rasto da estrela, foram dar a uma cidade e a um palácio, onde vivia um rei, chamado Herodes. - Vimos uma estrela que anuncia o nascimento do rei dos Judeus - disseram os três reis. Herodes, ao ouvir tal notícia, assustou-se. Rei dos Judeus era ele e temia que lhe roubassem o trono.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Juntaram as respectivas caravanas de camelos e cavalos e prosseguiram a viagem juntos. Sempre no rasto da estrela, foram dar a uma cidade e a um palácio, onde vivia um rei, chamado Herodes. - Vimos uma estrela que anuncia o nascimento do rei dos Judeus - disseram os três reis. Herodes, ao ouvir tal notícia, assustou-se. Rei dos Judeus era ele e temia que lhe roubassem o trono. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s2p0"
+      ],
+      "evidence": "- Vimos uma estrela que anuncia o nascimento do rei dos Judeus - disseram os três reis. Herodes, ao ouvir tal notícia, assustou-se. Rei dos Judeus era ele e temia que lhe roubassem o trono. Mas fingiu-se interessado e pediu aos três reis viajantes que fossem e procurassem saber mais acerca desse acontecimento espantoso, porque também ele queria adorar o Menino, fadado pelo Céu. Era mentira. Percebia-se pelos olhos furibundos de Herodes que era tudo mentira.",
+      "after": {
+        "segment": 2,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Vimos uma estrela que anuncia o nascimento do rei dos Judeus - disseram os três reis. Herodes, ao ouvir tal notícia, assustou-se. Rei dos Judeus era ele e temia que lhe roubassem o trono. Mas fingiu-se interessado e pediu aos três reis viajantes que fossem e procurassem saber mais acerca desse acontecimento espantoso, porque também ele queria adorar o Menino, fadado pelo Céu. Era mentira. Percebia-se pelos olhos furibundos de Herodes que era tudo mentira. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p0",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "Mas fingiu-se interessado e pediu aos três reis viajantes que fossem e procurassem saber mais acerca desse acontecimento espantoso, porque também ele queria adorar o Menino, fadado pelo Céu. Era mentira. Percebia-se pelos olhos furibundos de Herodes que era tudo mentira. Os três reis sábios deixaram a cidade e continuaram por caminhos humildes atrás da estrela anunciadora, até que foram encontrar, em Belém da Judeia, o Menino. Sobre o telhado da casa onde vivia o Menino a estrela parou. Os três reis, que se chamavam Gaspar, Melchior e Baltasar, ajoelharam-se em adoração e abriram os cofres das oferendas.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas fingiu-se interessado e pediu aos três reis viajantes que fossem e procurassem saber mais acerca desse acontecimento espantoso, porque também ele queria adorar o Menino, fadado pelo Céu. Era mentira. Percebia-se pelos olhos furibundos de Herodes que era tudo mentira. Os três reis sábios deixaram a cidade e continuaram por caminhos humildes atrás da estrela anunciadora, até que foram encontrar, em Belém da Judeia, o Menino. Sobre o telhado da casa onde vivia o Menino a estrela parou. Os três reis, que se chamavam Gaspar, Melchior e Baltasar, ajoelharam-se em adoração e abriram os cofres das oferendas. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "O seu futuro rival - julgava ele - também estaria entre esses inocentes. E Herodes ria da sua malvadez. Mas o Menino, que a estrela iluminara, salvou-se. E Herodes perdeu.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O seu futuro rival - julgava ele - também estaria entre esses inocentes. E Herodes ria da sua malvadez. Mas o Menino, que a estrela iluminara, salvou-se. E Herodes perdeu. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

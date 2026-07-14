@@ -1,0 +1,94 @@
+{
+  "characters": [
+    {
+      "name": "rei Olindo",
+      "appearance": "rei vaidoso, de porte elegante, com cabeleira abundante e mais tarde uma pesada coroa sobre a cabeça"
+    },
+    {
+      "name": "nobres e criados da corte",
+      "appearance": "figuras de corte setecentista, com perucas empoadas, roupas formais e movimento apressado"
+    }
+  ],
+  "environment": "um palácio real antigo, amplo e solene, com muitas janelas e portas, exposto a correntes de ar e atmosfera de vento constante",
+  "palette": [
+    "dourado envelhecido",
+    "creme",
+    "azul acinzentado",
+    "castanho quente",
+    "branco empoados"
+  ],
+  "recurringObjects": [
+    "perucas empoadas",
+    "janelas do palácio",
+    "portas abertas pelo vento",
+    "coroa pesada"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s1p0",
+        "s2p0"
+      ],
+      "evidence": "Dantes os homens usavam cabeleiras. Eram as perucas. Já se vê que nem todos os homens usavam cabeleiras. Apenas os grandes fidalgos, os reis, os nobres da corte. E só em determinadas épocas da História. Noutras, usavam o cabelo ou comprido ou curto, mas deles, sem disfarce. Luís XIV, um grande rei francês, mas também muito vaidoso, tinha ao seu serviço quarenta cabeleireiros de perucas, que só trabalhavam para ele. Os nobres da corte ultrapassavam-se em presunção, para ostentarem as mais belas cabeleiras, umas frisadas, outras escorridas, quase todas empoadas e algumas com lacinhos e laçadas coloridas. Cavaleiros, generais, espadachins, mosqueteiros usavam perucas e, no intervalo das guerras, penteavam-nas sobre os joelhos.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Fechem essa janela».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Dantes os homens usavam cabeleiras. Eram as perucas. Já se vê que nem todos os homens usavam cabeleiras. Apenas os grandes fidalgos, os reis, os nobres da corte. E só em determinadas épocas da História. Noutras, usavam o cabelo ou comprido ou curto, mas deles, sem disfarce. Luís XIV, um grande rei francês, mas também muito vaidoso, tinha ao seu serviço quarenta cabeleireiros de perucas, que só trabalhavam para ele. Os nobres da corte ultrapassavam-se em presunção, para ostentarem as mais belas cabeleiras, umas frisadas, outras escorridas, quase todas empoadas e algumas com lacinhos e laçadas coloridas. Cavaleiros, generais, espadachins, mosqueteiros usavam perucas e, no intervalo das guerras, penteavam-nas sobre os joelhos. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s3p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "Uma vez, perguntaram-nos se o Marquês de Pombal usava o cabelo caído para os ombros, como vemos nas gravuras que o representam. Não há a certeza, mas, segundo consta, o Marquês de Pombal até era careca... Ora o rei da nossa história, o rei Olindo - rei de um reino qualquer, lá para algures ou mais longe ainda -, também tinha em muita estima os seus caracóis. Vivia ele num palácio admirável, num palácio de sonho, mas não de todos os sonhos, num palácio de alto lá com ele, não fossem as correntes de ar.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Uma vez, perguntaram-nos se o Marquês de Pombal usava o cabelo caído para os ombros, como vemos nas gravuras que o representam. Não há a certeza, mas, segundo consta, o Marquês de Pombal até era careca... Ora o rei da nossa história, o rei Olindo - rei de um reino qualquer, lá para algures ou mais longe ainda -, também tinha em muita estima os seus caracóis. Vivia ele num palácio admirável, num palácio de sonho, mas não de todos os sonhos, num palácio de alto lá com ele, não fossem as correntes de ar. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p1",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Vivia ele num palácio admirável, num palácio de sonho, mas não de todos os sonhos, num palácio de alto lá com ele, não fossem as correntes de ar. Como o palácio tinha muitas janelas - 365 janelas, mais precisamente - e muitas portas e muitos criados, que iam e vinham e abriam portas e fechavam portas, as salas do palácio eram mais desconfortáveis do que uma praça pública, em dia de vendaval... Pois era.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Vivia ele num palácio admirável, num palácio de sonho, mas não de todos os sonhos, num palácio de alto lá com ele, não fossem as correntes de ar. Como o palácio tinha muitas janelas - 365 janelas, mais precisamente - e muitas portas e muitos criados, que iam e vinham e abriam portas e fechavam portas, as salas do palácio eram mais desconfortáveis do que uma praça pública, em dia de vendaval... Pois era. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s6p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s6p1",
+        "s6p2",
+        "s6p3"
+      ],
+      "evidence": "- Onde se teria metido a minha cabeleira? Onde se teria metido? - balbuciava , de gatas, o rei Olindo, um pouco menos lindo do que era costume. Quando a encontraram, o rei deu por finda a audiência. Que desastre!",
+      "after": {
+        "segment": 6,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Onde se teria metido a minha cabeleira? Onde se teria metido? - balbuciava , de gatas, o rei Olindo, um pouco menos lindo do que era costume. Quando a encontraram, o rei deu por finda a audiência. Que desastre! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

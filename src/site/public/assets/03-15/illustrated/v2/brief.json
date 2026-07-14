@@ -1,0 +1,100 @@
+{
+  "characters": [
+    {
+      "name": "senhora",
+      "appearance": "mulher adulta, figura simples de conto infantil, expressão prática depois aflita, roupas portuguesas discretas do quotidiano"
+    },
+    {
+      "name": "cão pequenino",
+      "appearance": "cão minúsculo, quase do tamanho de uma migalha, presença delicada e escondível"
+    },
+    {
+      "name": "outras senhoras",
+      "appearance": "várias mulheres adultas, observadoras, com cães maiores ao lado, atitude de comparação e preocupação"
+    }
+  ],
+  "environment": "Ambientes domésticos e de rua de vila portuguesa, com sensação de quotidiano antigo e íntimo, alternando observação, perda e revelação doméstica.",
+  "palette": [
+    "creme",
+    "azul desbotado",
+    "castanho quente",
+    "vermelho suave",
+    "verde sálvia",
+    "cinzento claro"
+  ],
+  "recurringObjects": [
+    "lupa",
+    "migalhas",
+    "lenço",
+    "buraco no lenço",
+    "dedal"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Ele há cães de muitas raças. Cães de muito pêlo. Cães de pêlo raso. Cães de grandes orelhas caídas. Cães de pequenas orelhas espetadas. Cães enormes. Cães minúsculos. Pois, há tempos, eu conheci uma senhora que tinha um cão muito pequeno. Tão pequeno, tão pequeno que a dona do cão só com lupa conseguia vê-lo. - Não me dá despesa nenhuma - dizia a senhora. - Com duas migalhas fica com a barriga cheia.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O cão pequenino».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ele há cães de muitas raças. Cães de muito pêlo. Cães de pêlo raso. Cães de grandes orelhas caídas. Cães de pequenas orelhas espetadas. Cães enormes. Cães minúsculos. Pois, há tempos, eu conheci uma senhora que tinha um cão muito pequeno. Tão pequeno, tão pequeno que a dona do cão só com lupa conseguia vê-lo. - Não me dá despesa nenhuma - dizia a senhora. - Com duas migalhas fica com a barriga cheia. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Pois, há tempos, eu conheci uma senhora que tinha um cão muito pequeno. Tão pequeno, tão pequeno que a dona do cão só com lupa conseguia vê-lo. - Não me dá despesa nenhuma - dizia a senhora. - Com duas migalhas fica com a barriga cheia. E as outras senhoras, que tinham cães, todos eles muito maiores, e enormes contas no talho para pagar, deitavam contas à vida e ao preço da carne e dos ossos.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Pois, há tempos, eu conheci uma senhora que tinha um cão muito pequeno. Tão pequeno, tão pequeno que a dona do cão só com lupa conseguia vê-lo. - Não me dá despesa nenhuma - dizia a senhora. - Com duas migalhas fica com a barriga cheia. E as outras senhoras, que tinham cães, todos eles muito maiores, e enormes contas no talho para pagar, deitavam contas à vida e ao preço da carne e dos ossos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p6",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p4",
+        "s2p5",
+        "s2p6"
+      ],
+      "evidence": "E o cãozinho, nada. Não aparecia. Então a dona do cão ficou só. Sem cão. Chorou.",
+      "after": {
+        "segment": 2,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E o cãozinho, nada. Não aparecia. Então a dona do cão ficou só. Sem cão. Chorou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "Chorou mais e foi buscar um lenço para se assoar e limpar as lágrimas. Mas o lenço tinha um buraco. A dona do cão foi coser o buraco. Foi buscar o dedal. Meteu o dedo no dedal e - vejam só! - estava lá o cão a dormir.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Chorou mais e foi buscar um lenço para se assoar e limpar as lágrimas. Mas o lenço tinha um buraco. A dona do cão foi coser o buraco. Foi buscar o dedal. Meteu o dedo no dedal e - vejam só! - estava lá o cão a dormir. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

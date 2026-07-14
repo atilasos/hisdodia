@@ -1,0 +1,99 @@
+{
+  "characters": [
+    {
+      "name": "Príncipe",
+      "appearance": "Jovem príncipe indiano cego, de presença nobre e trágica."
+    },
+    {
+      "name": "Marajá",
+      "appearance": "Pai do príncipe, rei da Índia, com porte régio e expressão de tristeza."
+    },
+    {
+      "name": "Peregrino",
+      "appearance": "Viajante humilde, sereno e enigmático."
+    }
+  ],
+  "environment": "Palácio e reino da Índia antiga, alternando entre a corte, ruas e campos pobres.",
+  "palette": [
+    "ocre",
+    "safira",
+    "verde-escuro",
+    "dourado",
+    "cristal",
+    "terra queimado"
+  ],
+  "recurringObjects": [
+    "taça de cristal",
+    "palácio",
+    "corte real",
+    "ruas e campos pobres"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Veio esta história de longe, da Índia, que é terra fértil em histórias de encantar. Aí se conta de um príncipe filho do poderoso marajá (que era um rei da Índia, de antigamente), aí se fala de um príncipe cego. Inexplicável doença roubara-lhe a luz dos olhos e nenhum sábio ou médico dos mais eminentes conseguia atinar com a cura do seu mal.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A Cegueira do Príncipe».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Veio esta história de longe, da Índia, que é terra fértil em histórias de encantar. Aí se conta de um príncipe filho do poderoso marajá (que era um rei da Índia, de antigamente), aí se fala de um príncipe cego. Inexplicável doença roubara-lhe a luz dos olhos e nenhum sábio ou médico dos mais eminentes conseguia atinar com a cura do seu mal. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s0p4",
+        "s0p5"
+      ],
+      "evidence": "O rei (o marajá) só vivia para o seu desgosto e toda a corte mergulhara também em grande tristeza. Mas, um dia, apresentou-se no palácio um peregrino que disse: – Sei do remédio que cura o príncipe.",
+      "after": {
+        "segment": 0,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O rei (o marajá) só vivia para o seu desgosto e toda a corte mergulhara também em grande tristeza. Mas, um dia, apresentou-se no palácio um peregrino que disse: – Sei do remédio que cura o príncipe. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "– Preciso apenas de uma taça de cristal – respondeu o peregrino – e que Vossa Majestade me acompanhe numa viagem, através do reino. Rei e peregrino desceram às ruas e aos campos miseráveis do reino. Por onde passavam, onde houvesse lágrimas vertidas pelo povo, lágrimas de sofrimentos, de misérias, de injustiças sofridas e caladas, o peregrino colhia-as na sua taça de cristal. Quando tiveram a taça quase cheia de lágrimas – o que não foi difícil, porque o povo daquele reino era pobre e vivia abandonado, no meio da sua pobreza -, quando deram por finda a viagem e regressaram ao palácio, o peregrino banhou os olhos do príncipe com o conteúdo da taça. Que ninguém se admire com o que sucedeu…",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Preciso apenas de uma taça de cristal – respondeu o peregrino – e que Vossa Majestade me acompanhe numa viagem, através do reino. Rei e peregrino desceram às ruas e aos campos miseráveis do reino. Por onde passavam, onde houvesse lágrimas vertidas pelo povo, lágrimas de sofrimentos, de misérias, de injustiças sofridas e caladas, o peregrino colhia-as na sua taça de cristal. Quando tiveram a taça quase cheia de lágrimas – o que não foi difícil, porque o povo daquele reino era pobre e vivia abandonado, no meio da sua pobreza -, quando deram por finda a viagem e regressaram ao palácio, o peregrino banhou os olhos do príncipe com o conteúdo da taça. Que ninguém se admire com o que sucedeu… Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "Rei e peregrino desceram às ruas e aos campos miseráveis do reino. Por onde passavam, onde houvesse lágrimas vertidas pelo povo, lágrimas de sofrimentos, de misérias, de injustiças sofridas e caladas, o peregrino colhia-as na sua taça de cristal. Quando tiveram a taça quase cheia de lágrimas – o que não foi difícil, porque o povo daquele reino era pobre e vivia abandonado, no meio da sua pobreza -, quando deram por finda a viagem e regressaram ao palácio, o peregrino banhou os olhos do príncipe com o conteúdo da taça. Que ninguém se admire com o que sucedeu… Imaginem que logo, naquele instante, o príncipe voltou a ver.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Rei e peregrino desceram às ruas e aos campos miseráveis do reino. Por onde passavam, onde houvesse lágrimas vertidas pelo povo, lágrimas de sofrimentos, de misérias, de injustiças sofridas e caladas, o peregrino colhia-as na sua taça de cristal. Quando tiveram a taça quase cheia de lágrimas – o que não foi difícil, porque o povo daquele reino era pobre e vivia abandonado, no meio da sua pobreza -, quando deram por finda a viagem e regressaram ao palácio, o peregrino banhou os olhos do príncipe com o conteúdo da taça. Que ninguém se admire com o que sucedeu… Imaginem que logo, naquele instante, o príncipe voltou a ver. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,111 @@
+{
+  "characters": [
+    {
+      "name": "Piloto",
+      "appearance": "cão"
+    },
+    {
+      "name": "gato",
+      "appearance": "gato preto"
+    }
+  ],
+  "environment": "Estrada e árvore num espaço aberto, com distância visual entre cão e gato e subida para a copa.",
+  "palette": [
+    "tons naturais",
+    "castanhos",
+    "preto",
+    "cinzas suaves",
+    "verdes discretos"
+  ],
+  "recurringObjects": [
+    "árvore",
+    "estrada",
+    "cão",
+    "gato"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um cão com dono... Era uma vez um gato sem dono... - Quem vem lá? - pergunta o cão, de focinho no ar, a farejar, a farejar...",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Sape, Cão!».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um cão com dono... Era uma vez um gato sem dono... - Quem vem lá? - pergunta o cão, de focinho no ar, a farejar, a farejar... Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Claro que esta pergunta a fez ele muito antes de tudo isto começar - aí a uns duzentos metros desta história. O gato não tem o faro tão apurado, mas os olhos dele atravessam a distância e pressentem sombras e ameaças, que só ele conhece. Por acaso, desta vez, o gato não ia a olhar para onde devia. Era um gato distraído. Ou míope. Quando se lhe eriçaram os bigodes, já era tarde. À sua frente, de supetão, um cão cãozarrão, voz de trovão...",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Claro que esta pergunta a fez ele muito antes de tudo isto começar - aí a uns duzentos metros desta história. O gato não tem o faro tão apurado, mas os olhos dele atravessam a distância e pressentem sombras e ameaças, que só ele conhece. Por acaso, desta vez, o gato não ia a olhar para onde devia. Era um gato distraído. Ou míope. Quando se lhe eriçaram os bigodes, já era tarde. À sua frente, de supetão, um cão cãozarrão, voz de trovão... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p4",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p2",
+        "s2p3",
+        "s2p4"
+      ],
+      "evidence": "Antes que lhe dissessem, já ele tinha fugido. As patas iam à frente, e ele com elas. Tal como nos filmes de desenhos animados. Este filme é curto. Acaba numa árvore sem frutos, sem folhas, uma árvore mesmo a propósito para salvar gatos. Correu por ela acima e não deu por que subia.",
+      "after": {
+        "segment": 2,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Antes que lhe dissessem, já ele tinha fugido. As patas iam à frente, e ele com elas. Tal como nos filmes de desenhos animados. Este filme é curto. Acaba numa árvore sem frutos, sem folhas, uma árvore mesmo a propósito para salvar gatos. Correu por ela acima e não deu por que subia. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s4p3"
+      ],
+      "evidence": "Ele era preto, como o corvo da fábula, enquanto o cão, mal acomparado, fazia as vezes da raposa. Faltava apenas o queijo. E a manha. - E agora? - perguntou de novo o gato, mais seguro do seu poiso. - Agora fico à espera que a árvore dê frutos e os frutos caiam de maduros...",
+      "after": {
+        "segment": 4,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ele era preto, como o corvo da fábula, enquanto o cão, mal acomparado, fazia as vezes da raposa. Faltava apenas o queijo. E a manha. - E agora? - perguntou de novo o gato, mais seguro do seu poiso. - Agora fico à espera que a árvore dê frutos e os frutos caiam de maduros... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s6p4",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "- Piloto, venha já ao dono! - gritou a voz ameaçadoramente perto. E o Piloto, de cabeça baixa, lá foi, suspirando...",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Piloto, venha já ao dono! - gritou a voz ameaçadoramente perto. E o Piloto, de cabeça baixa, lá foi, suspirando... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

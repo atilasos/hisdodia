@@ -1,0 +1,101 @@
+{
+  "characters": [
+    {
+      "name": "O senhor",
+      "appearance": "Homem adulto, chapéu ou sobretudo clássico, atitude confiante no início e cada vez mais desgastada pela sucessão de contratempos"
+    },
+    {
+      "name": "A mulher",
+      "appearance": "Mulher adulta, prática e irónica, presença doméstica firme"
+    },
+    {
+      "name": "O automobilista",
+      "appearance": "Condutor aborrecido, surgindo apenas no desfecho"
+    }
+  ],
+  "environment": "Portugal urbano e doméstico de tom contemporâneo, com interior de casa simples, porta de entrada, janela, gaveta, rua e automóvel visto de passagem",
+  "palette": [
+    "castanhos quentes",
+    "cinzentos suaves",
+    "verdes dessaturados",
+    "azuis discretos",
+    "vermelho ferrugem",
+    "amarelo apagado"
+  ],
+  "recurringObjects": [
+    "ferradura velha",
+    "sobretudo",
+    "porta de entrada",
+    "gaveta",
+    "janela",
+    "automóvel"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma velha ferradura. Um senhor encontrou-a, levantou-a do chão e meteu-a no bolso do sobretudo. – É para dar sorte – disse o senhor de si para si, muito convencido do que dizia.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «História de 24 de Outubro».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma velha ferradura. Um senhor encontrou-a, levantou-a do chão e meteu-a no bolso do sobretudo. – É para dar sorte – disse o senhor de si para si, muito convencido do que dizia. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p8",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p6",
+        "s0p7",
+        "s0p8"
+      ],
+      "evidence": "– É para dar sorte. – Se dá sorte, não sei – repontou a ela. – O que sei é que o peso da ferradura rompeu o bolso do sobretudo. Tirá-la de dentro do forro vai ser o cabo dos trabalhos. O senhor, pacientemente, recuperou a ferradura do sobretudo, que foi para coser, e pendurou-a num prego atrás da porta.",
+      "after": {
+        "segment": 0,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – É para dar sorte. – Se dá sorte, não sei – repontou a ela. – O que sei é que o peso da ferradura rompeu o bolso do sobretudo. Tirá-la de dentro do forro vai ser o cabo dos trabalhos. O senhor, pacientemente, recuperou a ferradura do sobretudo, que foi para coser, e pendurou-a num prego atrás da porta. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p8",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p6",
+        "s1p7",
+        "s1p8"
+      ],
+      "evidence": "Passado tempo, a mulher veio mostrar-lhe umas camisas todas manchadas: – Puseste a maldita da ferradura na gaveta, encheu-se de ferrugem e deu cabo destas camisas. As melhores que tinhas… Então o senhor aborreceu-se. Estava desiludido com a ferradura que só o metera em trabalhos.",
+      "after": {
+        "segment": 1,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Passado tempo, a mulher veio mostrar-lhe umas camisas todas manchadas: – Puseste a maldita da ferradura na gaveta, encheu-se de ferrugem e deu cabo destas camisas. As melhores que tinhas… Então o senhor aborreceu-se. Estava desiludido com a ferradura que só o metera em trabalhos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p13",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p11",
+        "s1p12",
+        "s1p13"
+      ],
+      "evidence": "Veio o automobilista pedir explicações: – Quem é a besta que anda a atirar os sapatos para o meio da rua? O senhor, que achara a ferradura, teve de pedir muitas desculpas e pagar uma indemnização, para que o caso ficasse por ali. E para que a história acabasse aqui.",
+      "after": {
+        "segment": 1,
+        "paragraph": 13
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Veio o automobilista pedir explicações: – Quem é a besta que anda a atirar os sapatos para o meio da rua? O senhor, que achara a ferradura, teve de pedir muitas desculpas e pagar uma indemnização, para que o caso ficasse por ali. E para que a história acabasse aqui. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

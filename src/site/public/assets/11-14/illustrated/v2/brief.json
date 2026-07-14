@@ -1,0 +1,104 @@
+{
+  "characters": [
+    {
+      "name": "Pau de fósforo",
+      "appearance": "Small broken matchstick with its head burned away, plain wooden body, forlorn posture"
+    },
+    {
+      "name": "Senhor optimista",
+      "appearance": "Adult man with bright, encouraging demeanor"
+    },
+    {
+      "name": "Senhor pessimista",
+      "appearance": "Adult man with wary, gloomy demeanor"
+    },
+    {
+      "name": "Andorinha",
+      "appearance": "Swift swallow in flight, carrying the matchstick in its beak"
+    }
+  ],
+  "environment": "A modest Portuguese outdoor setting shifting from empty ground to a roadside scene with a passing swallow and then a roof eave with a nest under construction",
+  "palette": [
+    "warm ochres",
+    "soft browns",
+    "muted blue-gray",
+    "chalky white",
+    "sunlit yellow",
+    "dark charcoal accents"
+  ],
+  "recurringObjects": [
+    "broken matchstick",
+    "small bridge-like wooden form",
+    "swallow in flight",
+    "nest under a roof eave",
+    "thin twigs and ramos"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um fósforo, um pau de fósforo - vejam bem que com tão pouco se começa uma história. O pau de fósforo perdera a cabeça num fogaréu - história antiga, dolorosa, que nem convém lembrar - e estava ali, que nem para palito servia. - Não presto para nada - suspirava, muito desconsoladamente, o pau de fósforo.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Pau de Fósforo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um fósforo, um pau de fósforo - vejam bem que com tão pouco se começa uma história. O pau de fósforo perdera a cabeça num fogaréu - história antiga, dolorosa, que nem convém lembrar - e estava ali, que nem para palito servia. - Não presto para nada - suspirava, muito desconsoladamente, o pau de fósforo. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p6",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s0p6"
+      ],
+      "evidence": "- Você pode ser aproveitado, como obra de engenharia, para ajudar um carreiro de formigas a vencer um riacho... de formigas, já se vê. - Que disparate! - contrapôs outro senhor, mas muito pessimista, muito pessimista, muito pessimista. - Passa um pé por perto e salta a ponte de pau e afogam-se as formigas... Uma desgraça! O pau de fósforo, de cabeça perdida, não sabia por qual se guiar. Pelo optimista? Pelo pessimista? Valia a pena oferecer-se à aventura? Ai, quanto custa decidir!",
+      "after": {
+        "segment": 0,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Você pode ser aproveitado, como obra de engenharia, para ajudar um carreiro de formigas a vencer um riacho... de formigas, já se vê. - Que disparate! - contrapôs outro senhor, mas muito pessimista, muito pessimista, muito pessimista. - Passa um pé por perto e salta a ponte de pau e afogam-se as formigas... Uma desgraça! O pau de fósforo, de cabeça perdida, não sabia por qual se guiar. Pelo optimista? Pelo pessimista? Valia a pena oferecer-se à aventura? Ai, quanto custa decidir! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p8",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p6",
+        "s0p7",
+        "s0p8"
+      ],
+      "evidence": "O pau de fósforo, de cabeça perdida, não sabia por qual se guiar. Pelo optimista? Pelo pessimista? Valia a pena oferecer-se à aventura? Ai, quanto custa decidir! Neste entretanto, passou a rasar por ele uma andorinha. Zás, em voo de reconhecimento... Passou outra vez, em sentido contrário e levou-o no bico. Estava a construir o ninho num beiral de telhado e aquele pauzinho vinha mesmo a calhar, entrelaçado com outros paus e ramos.",
+      "after": {
+        "segment": 0,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O pau de fósforo, de cabeça perdida, não sabia por qual se guiar. Pelo optimista? Pelo pessimista? Valia a pena oferecer-se à aventura? Ai, quanto custa decidir! Neste entretanto, passou a rasar por ele uma andorinha. Zás, em voo de reconhecimento... Passou outra vez, em sentido contrário e levou-o no bico. Estava a construir o ninho num beiral de telhado e aquele pauzinho vinha mesmo a calhar, entrelaçado com outros paus e ramos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p9",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p7",
+        "s0p8",
+        "s0p9"
+      ],
+      "evidence": "Neste entretanto, passou a rasar por ele uma andorinha. Zás, em voo de reconhecimento... Passou outra vez, em sentido contrário e levou-o no bico. Estava a construir o ninho num beiral de telhado e aquele pauzinho vinha mesmo a calhar, entrelaçado com outros paus e ramos. Tudo se aproveita, até um pau de fósforo. Que ninguém diga que não serve para nada.",
+      "after": {
+        "segment": 0,
+        "paragraph": 9
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Neste entretanto, passou a rasar por ele uma andorinha. Zás, em voo de reconhecimento... Passou outra vez, em sentido contrário e levou-o no bico. Estava a construir o ninho num beiral de telhado e aquele pauzinho vinha mesmo a calhar, entrelaçado com outros paus e ramos. Tudo se aproveita, até um pau de fósforo. Que ninguém diga que não serve para nada. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

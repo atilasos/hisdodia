@@ -1,0 +1,135 @@
+{
+  "characters": [
+    {
+      "name": "mãe gata",
+      "appearance": "adult cat, calm but protective, warm expression"
+    },
+    {
+      "name": "três gatinhos",
+      "appearance": "three small kittens, distinct but closely related, playful and expressive"
+    },
+    {
+      "name": "donos da gata",
+      "appearance": "human caretakers, rural domestic figures, practical and affectionate"
+    }
+  ],
+  "environment": "A rural Portuguese home with a kitchen interior, a yard, rooftops, and cozy resting spots; the mood shifts from playful kittenhood to seasoned old age and domestic warmth.",
+  "palette": [
+    "warm cream",
+    "soft terracotta",
+    "muted ochre",
+    "dusty gray",
+    "warm brown",
+    "sage green"
+  ],
+  "recurringObjects": [
+    "reposteiro",
+    "cadeira",
+    "almofada",
+    "telhado",
+    "sininho ao pescoço",
+    "tigela de sopa quente"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma gata que teve três gatinhos. Os donos da gata disseram: - Há que dar-lhes nomes. Gatos sem nomes são gatos vadios. E os nossos gatos não são desses, ora essa!",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Os três gatos».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma gata que teve três gatinhos. Os donos da gata disseram: - Há que dar-lhes nomes. Gatos sem nomes são gatos vadios. E os nossos gatos não são desses, ora essa! Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "Os gatos não se importaram. Eram pequeninos. Estavam por tudo. Mas a mãe não gostou: - Que disparate de nomes. Eu não tenho nenhum filho Badameco, muito menos Pimpão e nem por sombras Arranhão. Eles que dêem esses nomes aos filhos deles, que para os meus não os quero.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os gatos não se importaram. Eram pequeninos. Estavam por tudo. Mas a mãe não gostou: - Que disparate de nomes. Eu não tenho nenhum filho Badameco, muito menos Pimpão e nem por sombras Arranhão. Eles que dêem esses nomes aos filhos deles, que para os meus não os quero. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s3p0"
+      ],
+      "evidence": "E, em segredo e com muito carinho, chamou-os respectivamente de Pimpim, Pompom e Totó. Não foi fácil aos gatos habituarem-se aos vários nomes que tinham. Às vezes, dava confusão. Quando chegaram à idade de andar pelo telhado, o Pimpim Badameco, o Pompom Pimpão e o Totó Arranhão sentiram-se mal dentro destes nomes, mais de palhaços do que de felinos. Não dava jeito chegarem à fala com uma gatinha e, na altura das apresentações, dizerem que se chamavam Pimpim ou Badameco ou Totó ou Pimpão. Era ridículo.",
+      "after": {
+        "segment": 3,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E, em segredo e com muito carinho, chamou-os respectivamente de Pimpim, Pompom e Totó. Não foi fácil aos gatos habituarem-se aos vários nomes que tinham. Às vezes, dava confusão. Quando chegaram à idade de andar pelo telhado, o Pimpim Badameco, o Pompom Pimpão e o Totó Arranhão sentiram-se mal dentro destes nomes, mais de palhaços do que de felinos. Não dava jeito chegarem à fala com uma gatinha e, na altura das apresentações, dizerem que se chamavam Pimpim ou Badameco ou Totó ou Pimpão. Era ridículo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Quando chegaram à idade de andar pelo telhado, o Pimpim Badameco, o Pompom Pimpão e o Totó Arranhão sentiram-se mal dentro destes nomes, mais de palhaços do que de felinos. Não dava jeito chegarem à fala com uma gatinha e, na altura das apresentações, dizerem que se chamavam Pimpim ou Badameco ou Totó ou Pimpão. Era ridículo. Para que os tomassem a sério, crismaram-se com os seguintes nomes de guerra e conquista: Gatafunho, Alpergato e Zé do Telhado. Foi tempo. Agora que estão velhos e fartos de aventuras, só querem festas e sopas quentes.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Quando chegaram à idade de andar pelo telhado, o Pimpim Badameco, o Pompom Pimpão e o Totó Arranhão sentiram-se mal dentro destes nomes, mais de palhaços do que de felinos. Não dava jeito chegarem à fala com uma gatinha e, na altura das apresentações, dizerem que se chamavam Pimpim ou Badameco ou Totó ou Pimpão. Era ridículo. Para que os tomassem a sério, crismaram-se com os seguintes nomes de guerra e conquista: Gatafunho, Alpergato e Zé do Telhado. Foi tempo. Agora que estão velhos e fartos de aventuras, só querem festas e sopas quentes. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p0",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p1",
+        "s5p0",
+        "s6p0"
+      ],
+      "evidence": "Foi tempo. Agora que estão velhos e fartos de aventuras, só querem festas e sopas quentes. O Gatafunho é o Senhor Borralho. O Alpergato é o Doutor Pantufa. E o Zé do Telhado, que consentiu recentemente na condecoração de um sininho ao pescoço, é o Dom Guizo, com todo o respeito. O Pimpim Badameco de Gatafunho e Borralho, o Pompom Pimpão de Alpergato Pantufa e o Totó Arranhão Zé do Telhado e Guizo passam o dia enrolados, a dormir. Mas apesar de estarem duros de ouvido, se alguém os chama, com voz meiga: \"Bichinho gato! Bichinho gato!\", eles acordam logo. Já não são de cerimónias.",
+      "after": {
+        "segment": 6,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Foi tempo. Agora que estão velhos e fartos de aventuras, só querem festas e sopas quentes. O Gatafunho é o Senhor Borralho. O Alpergato é o Doutor Pantufa. E o Zé do Telhado, que consentiu recentemente na condecoração de um sininho ao pescoço, é o Dom Guizo, com todo o respeito. O Pimpim Badameco de Gatafunho e Borralho, o Pompom Pimpão de Alpergato Pantufa e o Totó Arranhão Zé do Telhado e Guizo passam o dia enrolados, a dormir. Mas apesar de estarem duros de ouvido, se alguém os chama, com voz meiga: \"Bichinho gato! Bichinho gato!\", eles acordam logo. Já não são de cerimónias. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s7p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p0",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "O Pimpim Badameco de Gatafunho e Borralho, o Pompom Pimpão de Alpergato Pantufa e o Totó Arranhão Zé do Telhado e Guizo passam o dia enrolados, a dormir. Mas apesar de estarem duros de ouvido, se alguém os chama, com voz meiga: \"Bichinho gato! Bichinho gato!\", eles acordam logo. Já não são de cerimónias. No meio dos sonhos, ouvem a voz da mãe: \"Pimpim, larga o reposteiro!\", \"Pompom, não te debruces da cadeira!\", \"Totó, não arranhes a almofada!\". Quem lhes dera! Pois é. Os gatos velhos têm destes quebrantos , destas fraquezas. E não só os gatos...",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Pimpim Badameco de Gatafunho e Borralho, o Pompom Pimpão de Alpergato Pantufa e o Totó Arranhão Zé do Telhado e Guizo passam o dia enrolados, a dormir. Mas apesar de estarem duros de ouvido, se alguém os chama, com voz meiga: \"Bichinho gato! Bichinho gato!\", eles acordam logo. Já não são de cerimónias. No meio dos sonhos, ouvem a voz da mãe: \"Pimpim, larga o reposteiro!\", \"Pompom, não te debruces da cadeira!\", \"Totó, não arranhes a almofada!\". Quem lhes dera! Pois é. Os gatos velhos têm destes quebrantos , destas fraquezas. E não só os gatos... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

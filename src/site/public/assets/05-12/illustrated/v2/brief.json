@@ -1,0 +1,116 @@
+{
+  "characters": [
+    {
+      "name": "menina",
+      "appearance": "Criança curiosa, expressão determinada, corpo normal no início, depois surgindo como sereia invertida e, no fim, novamente menina"
+    },
+    {
+      "name": "médico",
+      "appearance": "Adulto especialista, aparência prática e segura, postura de profissional que examina e trata"
+    },
+    {
+      "name": "sereia invertida",
+      "appearance": "Versão cômica e estranha da menina, com peixe na metade superior e pessoa na inferior"
+    }
+  ],
+  "environment": "Casa e cozinha para a preparação da poção, seguida por um espaço clínico de consulta e recuperação, terminando junto a uma piscina clara.",
+  "palette": [
+    "azuis marítimos",
+    "verdes algas",
+    "tons de sal e espuma",
+    "pele quente e natural",
+    "brancos clínicos suaves"
+  ],
+  "recurringObjects": [
+    "livro de receitas",
+    "poção",
+    "espelho",
+    "instrumentos médicos",
+    "piscina"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez uma menina que queria ser sereia. Mas se ela nem sequer sabia nadar... Tinha lido histórias de sereias, esses estranhos seres, metade mulheres, da cintura para cima, e metade peixes, da cintura para baixo. Num dos seus livros predilectos descobriu a receita para transformar meninas em sereias.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «A menina sereia».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma menina que queria ser sereia. Mas se ela nem sequer sabia nadar... Tinha lido histórias de sereias, esses estranhos seres, metade mulheres, da cintura para cima, e metade peixes, da cintura para baixo. Num dos seus livros predilectos descobriu a receita para transformar meninas em sereias. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Num dos seus livros predilectos descobriu a receita para transformar meninas em sereias. Era uma fórmula muito complicada que metia escamas de salmonete em pó, algas de uma espécie rara, cristais de sal, contados um por um, e outros elementos que não sei ao certo. A menina misturou o preparado, segundo as recomendações da receita, levou-o ao lume, deixou arrefecer e, depois, bebeu-o de um trago.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Num dos seus livros predilectos descobriu a receita para transformar meninas em sereias. Era uma fórmula muito complicada que metia escamas de salmonete em pó, algas de uma espécie rara, cristais de sal, contados um por um, e outros elementos que não sei ao certo. A menina misturou o preparado, segundo as recomendações da receita, levou-o ao lume, deixou arrefecer e, depois, bebeu-o de um trago. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p1",
+        "s2p0",
+        "s2p1"
+      ],
+      "evidence": "A menina misturou o preparado, segundo as recomendações da receita, levou-o ao lume, deixou arrefecer e, depois, bebeu-o de um trago. Sentiu o borbulhar de um grande fervedouro dentro dela, arrotou várias vezes, os olhos encarniçaram-se-lhe e estremeceu dos pés à cabeça. Estava a transformar-se no que queria. Não foi bem assim.",
+      "after": {
+        "segment": 2,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: A menina misturou o preparado, segundo as recomendações da receita, levou-o ao lume, deixou arrefecer e, depois, bebeu-o de um trago. Sentiu o borbulhar de um grande fervedouro dentro dela, arrotou várias vezes, os olhos encarniçaram-se-lhe e estremeceu dos pés à cabeça. Estava a transformar-se no que queria. Não foi bem assim. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s4p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p0",
+        "s4p1",
+        "s4p2"
+      ],
+      "evidence": "E nada elegante. De modo que a menina teve de consultar um médico, um especialista destas situações anormais. Entre outros êxitos, já tinha curado um homem que estava a transformar-se num grande porco e um burro, muito burro, que se dizia doutor. - Como a transmutação é muito fresca, ainda vem a tempo de acudir-lhe - disse o médico.",
+      "after": {
+        "segment": 4,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E nada elegante. De modo que a menina teve de consultar um médico, um especialista destas situações anormais. Entre outros êxitos, já tinha curado um homem que estava a transformar-se num grande porco e um burro, muito burro, que se dizia doutor. - Como a transmutação é muito fresca, ainda vem a tempo de acudir-lhe - disse o médico. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p1",
+        "s5p2",
+        "s6p0"
+      ],
+      "evidence": "Nunca mais quis ser sereia. Aquela experiência bastara-lhe. Anda agora a aprender a nadar. De costas ou de bruços, a cortar a água da piscina, ela é uma autêntica sereia, sem deixar de ser menina.",
+      "after": {
+        "segment": 6,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Nunca mais quis ser sereia. Aquela experiência bastara-lhe. Anda agora a aprender a nadar. De costas ou de bruços, a cortar a água da piscina, ela é uma autêntica sereia, sem deixar de ser menina. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

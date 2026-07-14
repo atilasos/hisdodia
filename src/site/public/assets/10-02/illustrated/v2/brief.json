@@ -1,0 +1,112 @@
+{
+  "characters": [
+    {
+      "name": "astronauta",
+      "appearance": "astronauta em fato acolchoado, com fecho éclair, chave no bolso"
+    },
+    {
+      "name": "canário amarelo",
+      "appearance": "canarinho pequeno, amarelo, esperto, numa gaiola"
+    }
+  ],
+  "environment": "Terra e espaço num registo contemporâneo, com sala de controle, cápsula/aparelho de astronáutica e interior de casa.",
+  "palette": [
+    "branco",
+    "amarelo",
+    "azul profundo",
+    "cinzento metálico",
+    "laranja suave"
+  ],
+  "recurringObjects": [
+    "fato de astronauta com fecho éclair",
+    "chave",
+    "gaiola",
+    "ecrãs de controle",
+    "aparelho espacial"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "O astronauta, lá de cima, olhou para a Terra, cá em baixo, e exclamou: - Ai que me esqueci de deitar alpista ao canário. E agora? A casa fechada e sem ninguém, ele com a chave no bolso e o coitado do canário tão longe, tão inacessível... E sem alpista. Um canarinho novo, ainda nem nome tinha.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O Tê Dois Três».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O astronauta, lá de cima, olhou para a Terra, cá em baixo, e exclamou: - Ai que me esqueci de deitar alpista ao canário. E agora? A casa fechada e sem ninguém, ele com a chave no bolso e o coitado do canário tão longe, tão inacessível... E sem alpista. Um canarinho novo, ainda nem nome tinha. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p8",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p6",
+        "s0p7",
+        "s0p8"
+      ],
+      "evidence": "- Confere o motor T2.3., com problemas - disseram-lhe da Terra... - Reconfere. O astronauta reconferiu. - Continua com problemas - insistiram da Terra.",
+      "after": {
+        "segment": 0,
+        "paragraph": 8
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Confere o motor T2.3., com problemas - disseram-lhe da Terra... - Reconfere. O astronauta reconferiu. - Continua com problemas - insistiram da Terra. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "- Missão cancelada. Regressar à base - ordenaram da Terra. Com esta informação de que a viagem tinha sido interrompida, o astronauta devia ficar triste, mas não ficou. E nós sabemos porquê. Desceu. Aterrou. Saiu do aparelho, onde, no meio de tanta perfeição técnica, um motor T2.3., por qualquer berbicacho incompreensível, se tinha avariado. Grande era o desânimo de todos os que trabalhavam naquele centro de astronáutica. Todos, menos um.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Missão cancelada. Regressar à base - ordenaram da Terra. Com esta informação de que a viagem tinha sido interrompida, o astronauta devia ficar triste, mas não ficou. E nós sabemos porquê. Desceu. Aterrou. Saiu do aparelho, onde, no meio de tanta perfeição técnica, um motor T2.3., por qualquer berbicacho incompreensível, se tinha avariado. Grande era o desânimo de todos os que trabalhavam naquele centro de astronáutica. Todos, menos um. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p2",
+        "s1p3",
+        "s1p4"
+      ],
+      "evidence": "Com esta informação de que a viagem tinha sido interrompida, o astronauta devia ficar triste, mas não ficou. E nós sabemos porquê. Desceu. Aterrou. Saiu do aparelho, onde, no meio de tanta perfeição técnica, um motor T2.3., por qualquer berbicacho incompreensível, se tinha avariado. Grande era o desânimo de todos os que trabalhavam naquele centro de astronáutica. Todos, menos um. Mal correu o fecho éclair do seu fato acolchoado, o astronauta nem quis ouvir as palavras de consolo dos seus colegas. Foi direito a casa, de chave na mão.",
+      "after": {
+        "segment": 1,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Com esta informação de que a viagem tinha sido interrompida, o astronauta devia ficar triste, mas não ficou. E nós sabemos porquê. Desceu. Aterrou. Saiu do aparelho, onde, no meio de tanta perfeição técnica, um motor T2.3., por qualquer berbicacho incompreensível, se tinha avariado. Grande era o desânimo de todos os que trabalhavam naquele centro de astronáutica. Todos, menos um. Mal correu o fecho éclair do seu fato acolchoado, o astronauta nem quis ouvir as palavras de consolo dos seus colegas. Foi direito a casa, de chave na mão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s1p6",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p4",
+        "s1p5",
+        "s1p6"
+      ],
+      "evidence": "Mal correu o fecho éclair do seu fato acolchoado, o astronauta nem quis ouvir as palavras de consolo dos seus colegas. Foi direito a casa, de chave na mão. Ainda hoje os colegas do astronauta não percebem porque é que ele chama ao canário amarelo e esperto, que saltita na gaiola, o Tê Dois Três. Com tantos nomes engraçados, dar ao canário o nome de um motor, ainda por cima um motor sujeito a avarias, é sinal de falta de sensatez. Será?",
+      "after": {
+        "segment": 1,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mal correu o fecho éclair do seu fato acolchoado, o astronauta nem quis ouvir as palavras de consolo dos seus colegas. Foi direito a casa, de chave na mão. Ainda hoje os colegas do astronauta não percebem porque é que ele chama ao canário amarelo e esperto, que saltita na gaiola, o Tê Dois Três. Com tantos nomes engraçados, dar ao canário o nome de um motor, ainda por cima um motor sujeito a avarias, é sinal de falta de sensatez. Será? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

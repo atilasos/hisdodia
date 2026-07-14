@@ -1,0 +1,135 @@
+{
+  "characters": [
+    {
+      "name": "Joca",
+      "appearance": "menino curioso, imaginativo, em idade escolar, expressão viva e mutável conforme as brincadeiras"
+    },
+    {
+      "name": "Neco",
+      "appearance": "primo mais novo do Joca, enérgico e atento, em atitude de seguir o primo"
+    },
+    {
+      "name": "senhores adultos",
+      "appearance": "adultos conversadores, presença de fundo nas perguntas, sem destaque individual"
+    }
+  ],
+  "environment": "Interiores domésticos e televisivos de um quotidiano urbano português, com sala de estar, rua ao fundo, imagens de televisão e um fecho poético de imaginação infantil.",
+  "palette": [
+    "cores quentes e caseiras",
+    "azul e vermelho de ambulância e bombeiros",
+    "tons de céu e aeronave",
+    "vermelhos e verdes de futebol",
+    "cinzentos e azuis de desfile militar",
+    "contrastes suaves entre realidade e fantasia"
+  ],
+  "recurringObjects": [
+    "ambulância",
+    "avião",
+    "televisão",
+    "bola de futebol",
+    "uniforme militar",
+    "elementos de disfarce e brincadeira"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Perguntaram ao Joca o que é que ele queria ser quando fosse grande. São, às vezes, muito impertinentes os senhores adultos. Fez-se silêncio na sala, à espera da resposta do menino. Nisto, ouviu-se, na rua, uma ambulância a apitar:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Joca quer ser».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Perguntaram ao Joca o que é que ele queria ser quando fosse grande. São, às vezes, muito impertinentes os senhores adultos. Fez-se silêncio na sala, à espera da resposta do menino. Nisto, ouviu-se, na rua, uma ambulância a apitar: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p3",
+        "s1p4",
+        "s1p5"
+      ],
+      "evidence": "- Roooooooommm... Logo o Joca respondeu: - Aviador.",
+      "after": {
+        "segment": 1,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Roooooooommm... Logo o Joca respondeu: - Aviador. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p3",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "- Goooooolooooo! E o Joca também gritou: - Futebolista.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Goooooolooooo! E o Joca também gritou: - Futebolista. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p1",
+        "s5p2",
+        "s5p3"
+      ],
+      "evidence": "- Presidente da República. Bombeiro, aviador, músico, futebolista, soldado, Presidente da República... Em que ficamos Joca? - Agora vou brincar - disse o Joca, cansado de ter passado por tantas profissões, em tão pouco tempo.",
+      "after": {
+        "segment": 5,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Presidente da República. Bombeiro, aviador, músico, futebolista, soldado, Presidente da República... Em que ficamos Joca? - Agora vou brincar - disse o Joca, cansado de ter passado por tantas profissões, em tão pouco tempo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s8p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s8p1",
+        "s8p2",
+        "s8p3"
+      ],
+      "evidence": "- Vamos antes brincar aos músicos. E por aí fora, por aí fora, sem se decidir por uma brincadeira... Em que ficamos, Joca? Se ele aqui estivesse e lhe apetecesse responder, talvez a resposta lhe saísse em verso, em forma de canção ou pouco mais ou menos.",
+      "after": {
+        "segment": 8,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Vamos antes brincar aos músicos. E por aí fora, por aí fora, sem se decidir por uma brincadeira... Em que ficamos, Joca? Se ele aqui estivesse e lhe apetecesse responder, talvez a resposta lhe saísse em verso, em forma de canção ou pouco mais ou menos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s10p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s10p2",
+        "s10p3",
+        "s10p4"
+      ],
+      "evidence": "mas cá por dentro nunca deixar de ser miúdo.",
+      "after": {
+        "segment": 10,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: mas cá por dentro nunca deixar de ser miúdo. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

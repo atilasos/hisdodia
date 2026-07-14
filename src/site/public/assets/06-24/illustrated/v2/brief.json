@@ -1,0 +1,94 @@
+{
+  "characters": [
+    {
+      "name": "monstros",
+      "appearance": "ogres, lobisomens, ciclope e gigantones amontoados, cansados e desanimados"
+    },
+    {
+      "name": "director do canal televisivo",
+      "appearance": "figura de direção, postura segura, associada a bastidores mediáticos"
+    }
+  ],
+  "environment": "Um universo de histórias em tom contemporâneo, com monstros expulsos e reunidos num aperto, passando depois para um contexto de televisão e bastidores de produção, tudo com humor melancólico.",
+  "palette": [
+    "tons escuros e terrosos",
+    "verdes gastos",
+    "cinzentos fumados",
+    "amarelos artificiais de estúdio",
+    "vermelhos discretos de aviso"
+  ],
+  "recurringObjects": [
+    "olho único",
+    "caretas monstruosas",
+    "marcas de televisão e estúdio",
+    "multidão apertada de monstros"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Há muitos monstros nesta história. É um aviso, a tempo. Não querendo, não conto. Estava a apetecer-me, mas desisto. Mudo para uma história sem monstros. Pronto, acabou-se. Ele há tantas histórias por contar... Por sinal que nesta até havia monstros simpáticos. Coitados. Que culpa tinham eles, se os enfiaram a todos na mesma história, empurrados, varridos, enxotados, expulsos, desterrados das histórias onde estão proibidos os monstros.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Era para Ser».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Há muitos monstros nesta história. É um aviso, a tempo. Não querendo, não conto. Estava a apetecer-me, mas desisto. Mudo para uma história sem monstros. Pronto, acabou-se. Ele há tantas histórias por contar... Por sinal que nesta até havia monstros simpáticos. Coitados. Que culpa tinham eles, se os enfiaram a todos na mesma história, empurrados, varridos, enxotados, expulsos, desterrados das histórias onde estão proibidos os monstros. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s0p3",
+        "s0p4"
+      ],
+      "evidence": "Por sinal que nesta até havia monstros simpáticos. Coitados. Que culpa tinham eles, se os enfiaram a todos na mesma história, empurrados, varridos, enxotados, expulsos, desterrados das histórias onde estão proibidos os monstros. A monte, num grande aperto, ogres, lobisomens, monstrengos e gigantones eram um espectáculo desolador. Já não metiam medo. Quanto muito, metiam dó.",
+      "after": {
+        "segment": 0,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Por sinal que nesta até havia monstros simpáticos. Coitados. Que culpa tinham eles, se os enfiaram a todos na mesma história, empurrados, varridos, enxotados, expulsos, desterrados das histórias onde estão proibidos os monstros. A monte, num grande aperto, ogres, lobisomens, monstrengos e gigantones eram um espectáculo desolador. Já não metiam medo. Quanto muito, metiam dó. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p16",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p14",
+        "s0p15",
+        "s0p16"
+      ],
+      "evidence": "– Mas isso não era possível, porque estamos cá todos. Não há mais monstros por fora – disseram os monstros. – Vocês esquecem-se de que a concorrência é terrível e bem capaz de inventar um concurso de falsos monstros – lembrou o director da estação, que sabia do que falava. Mas, afinal, não chegou a haver concurso, para grande desolação dos monstros concorrentes. Sabem porquê? Porque não se conseguiu juntar um júri à altura.",
+      "after": {
+        "segment": 0,
+        "paragraph": 16
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Mas isso não era possível, porque estamos cá todos. Não há mais monstros por fora – disseram os monstros. – Vocês esquecem-se de que a concorrência é terrível e bem capaz de inventar um concurso de falsos monstros – lembrou o director da estação, que sabia do que falava. Mas, afinal, não chegou a haver concurso, para grande desolação dos monstros concorrentes. Sabem porquê? Porque não se conseguiu juntar um júri à altura. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p19",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s0p17",
+        "s0p18",
+        "s0p19"
+      ],
+      "evidence": "Os jurados ou se amedrontavam ou desatavam a rir, para não se amedrontarem. Vieram levas sucessivas, à experiência, de óculos escuros, sem óculos escuros, de lenço ao pescoço, sem lenço ao pescoço, e ninguém ficou para as provas finais. Em conclusão: os monstros voltaram ao mesmo desânimo. Se os deixassem passear, nem que fosse só um bocadinho, entrada por saída, vou ali e já venho, pelas histórias donde tinham sido expulsos, talvez arribassem, ganhassem melhor parecer, mais verdes, mais escamosos, mais peludos... Qual quê! Ninguém os pode convidar para semelhante passeio. Até eu, que, às vezes, tenho ganas de contar histórias de monstros, sou sempre obrigado a desistir. Como agora.",
+      "after": {
+        "segment": 0,
+        "paragraph": 19
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Os jurados ou se amedrontavam ou desatavam a rir, para não se amedrontarem. Vieram levas sucessivas, à experiência, de óculos escuros, sem óculos escuros, de lenço ao pescoço, sem lenço ao pescoço, e ninguém ficou para as provas finais. Em conclusão: os monstros voltaram ao mesmo desânimo. Se os deixassem passear, nem que fosse só um bocadinho, entrada por saída, vou ali e já venho, pelas histórias donde tinham sido expulsos, talvez arribassem, ganhassem melhor parecer, mais verdes, mais escamosos, mais peludos... Qual quê! Ninguém os pode convidar para semelhante passeio. Até eu, que, às vezes, tenho ganas de contar histórias de monstros, sou sempre obrigado a desistir. Como agora. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

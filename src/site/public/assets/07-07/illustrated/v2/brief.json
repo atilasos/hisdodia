@@ -1,0 +1,122 @@
+{
+  "characters": [
+    {
+      "name": "Narrador",
+      "appearance": "Voz implícita da história, associada à roda de ouvintes junto à fogueira"
+    },
+    {
+      "name": "Leão",
+      "appearance": "Leão africano com pele às riscas no início, depois com pele de zebra após a troca"
+    },
+    {
+      "name": "Zebra",
+      "appearance": "Zebra africana que no início tem pele lisa como a do leão, depois fica às riscas"
+    },
+    {
+      "name": "Bicharia",
+      "appearance": "Grupo variado de animais africanos, presença de fundo na aldeia/savana"
+    }
+  ],
+  "environment": "África em tom de conto tradicional, com fogueira, savana e uma atmosfera oral e noturna no arranque, evoluindo para espaço aberto de vida animal na savana.",
+  "palette": [
+    "Laranja queimado",
+    "Ocre",
+    "Castanho terra",
+    "Preto carvão",
+    "Creme",
+    "Branco sujo",
+    "Dourado suave"
+  ],
+  "recurringObjects": [
+    "Fogueira",
+    "Corá",
+    "Savana",
+    "Pele às riscas",
+    "Pele lisa"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Contam esta história em África, à volta da fogueira. Façam de conta que também lá estamos a ouvir o contador desfiar a história, enquanto tange o corá, que é um especial instrumento de cordas esticadas sobre uma caixa de ressonância , feita de meia cabaça revestida de couro. Plim... Plam... Plim... Conseguem ouvir? Dantes, muito antes de os homens se terem espalhado pela Terra, os bichos não eram como são hoje. Por exemplo: a zebra tinha a pele igual à que o leão tem e o leão, imaginem a excentricidade , tinha a pele às riscas como tem a zebra. Devia ficar-lhe bem...",
+      "after": null,
+      "alt": "Ilustração de abertura da história «O leão às riscas».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Contam esta história em África, à volta da fogueira. Façam de conta que também lá estamos a ouvir o contador desfiar a história, enquanto tange o corá, que é um especial instrumento de cordas esticadas sobre uma caixa de ressonância , feita de meia cabaça revestida de couro. Plim... Plam... Plim... Conseguem ouvir? Dantes, muito antes de os homens se terem espalhado pela Terra, os bichos não eram como são hoje. Por exemplo: a zebra tinha a pele igual à que o leão tem e o leão, imaginem a excentricidade , tinha a pele às riscas como tem a zebra. Devia ficar-lhe bem... Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s3p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p0",
+        "s3p1",
+        "s3p2"
+      ],
+      "evidence": "O leão reconheceu que, efectivamente, já sofrera alguns desaires na caça à conta da sua bizarra pele às riscas. - Queres trocar pela minha? - propôs a zebra. Ela, sem riscas, parecia-se mais com um burro, o que não era nada lisonjeiro para a vaidade da zebra. No fundo, ela invejava a pele listada do leão.",
+      "after": {
+        "segment": 3,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O leão reconheceu que, efectivamente, já sofrera alguns desaires na caça à conta da sua bizarra pele às riscas. - Queres trocar pela minha? - propôs a zebra. Ela, sem riscas, parecia-se mais com um burro, o que não era nada lisonjeiro para a vaidade da zebra. No fundo, ela invejava a pele listada do leão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p1",
+        "s4p2",
+        "s4p3"
+      ],
+      "evidence": "Vendo-se vestida de riscado, como tanto ambicionara, a zebra foi ter com a restante bicharia, a avisar, a torto e a direito: - Cuidado que, agora, o leão é que anda com a minha pele. O leão não gostou.",
+      "after": {
+        "segment": 4,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Vendo-se vestida de riscado, como tanto ambicionara, a zebra foi ter com a restante bicharia, a avisar, a torto e a direito: - Cuidado que, agora, o leão é que anda com a minha pele. O leão não gostou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p3",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "O leão não gostou. Aquela badalação era prejudicial aos seus intentos e aos seus pergaminhos de majestade. De modo que, desde essa altura, que ele anda a exigir à zebra a devolução da pele. Onde quer que veja uma a jeito, salta-lhe para os lombos e tenta com as garras arrancar-lhe a pele.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O leão não gostou. Aquela badalação era prejudicial aos seus intentos e aos seus pergaminhos de majestade. De modo que, desde essa altura, que ele anda a exigir à zebra a devolução da pele. Onde quer que veja uma a jeito, salta-lhe para os lombos e tenta com as garras arrancar-lhe a pele. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s6p0",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s6p0"
+      ],
+      "evidence": "Aquela badalação era prejudicial aos seus intentos e aos seus pergaminhos de majestade. De modo que, desde essa altura, que ele anda a exigir à zebra a devolução da pele. Onde quer que veja uma a jeito, salta-lhe para os lombos e tenta com as garras arrancar-lhe a pele. Até agora ainda não conseguiu recuperá-la, o que é pena. Quem é que não gostava de ver um leão às riscas?",
+      "after": {
+        "segment": 6,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Aquela badalação era prejudicial aos seus intentos e aos seus pergaminhos de majestade. De modo que, desde essa altura, que ele anda a exigir à zebra a devolução da pele. Onde quer que veja uma a jeito, salta-lhe para os lombos e tenta com as garras arrancar-lhe a pele. Até agora ainda não conseguiu recuperá-la, o que é pena. Quem é que não gostava de ver um leão às riscas? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

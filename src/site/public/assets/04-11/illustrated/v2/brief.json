@@ -1,0 +1,108 @@
+{
+  "characters": [],
+  "environment": "praia deserta antes do verão",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s1p0"
+      ],
+      "evidence": "Era uma vez uma gaivota na praia. Sozinha. Não havia banhistas, porque ainda não era o tempo deles. Nas praias desertas, antes do Verão, a areia muito lisa até parece passada a ferro. Sem uma única ruga. Sem um único sinal de vida. Nisto pensava a gaivota, enquanto se entretinha, saltinho sobre saltinho, a imprimir na areia as suas pegadas de gaivota nova.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Pegadas de gaivota».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez uma gaivota na praia. Sozinha. Não havia banhistas, porque ainda não era o tempo deles. Nas praias desertas, antes do Verão, a areia muito lisa até parece passada a ferro. Sem uma única ruga. Sem um único sinal de vida. Nisto pensava a gaivota, enquanto se entretinha, saltinho sobre saltinho, a imprimir na areia as suas pegadas de gaivota nova. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p0",
+        "s1p1",
+        "s1p2"
+      ],
+      "evidence": "Nisto pensava a gaivota, enquanto se entretinha, saltinho sobre saltinho, a imprimir na areia as suas pegadas de gaivota nova. Três dedos espetados para a frente e zás! Eu estive aqui. E aqui. E aqui. Atrás da gaivota, o rasto dos seus passos.",
+      "after": {
+        "segment": 1,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Nisto pensava a gaivota, enquanto se entretinha, saltinho sobre saltinho, a imprimir na areia as suas pegadas de gaivota nova. Três dedos espetados para a frente e zás! Eu estive aqui. E aqui. E aqui. Atrás da gaivota, o rasto dos seus passos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p2",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p0",
+        "s2p1",
+        "s2p2"
+      ],
+      "evidence": "Mais logo, as ondas do mar, na maré cheia, apagariam a passagem da gaivota por aquela praia sem ninguém. Mas, até lá, muita coisa iria suceder. Chegada à beira de um rochedo, a gaivota virou-se para trás e contemplou o caminho que fizera pela praia toda. Suspirou. Pois é. As gaivotas também suspiram. Suspiram de tristeza, quando estão sós.",
+      "after": {
+        "segment": 2,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mais logo, as ondas do mar, na maré cheia, apagariam a passagem da gaivota por aquela praia sem ninguém. Mas, até lá, muita coisa iria suceder. Chegada à beira de um rochedo, a gaivota virou-se para trás e contemplou o caminho que fizera pela praia toda. Suspirou. Pois é. As gaivotas também suspiram. Suspiram de tristeza, quando estão sós. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p2",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "Pois é. As gaivotas também suspiram. Suspiram de tristeza, quando estão sós. Virou-se para a frente, para continuar o seu passeio descuidado, quando sentiu um baque de susto. Não que tivesse visto um bicho, mas viu, na areia molhada, à sua frente, a marca de outras pegadas iguais às dela. Os mesmos três dedos espetados para a frente. Tal e qual. Esvoaçou.",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Pois é. As gaivotas também suspiram. Suspiram de tristeza, quando estão sós. Virou-se para a frente, para continuar o seu passeio descuidado, quando sentiu um baque de susto. Não que tivesse visto um bicho, mas viu, na areia molhada, à sua frente, a marca de outras pegadas iguais às dela. Os mesmos três dedos espetados para a frente. Tal e qual. Esvoaçou. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s4p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p1",
+        "s4p0",
+        "s4p1"
+      ],
+      "evidence": "Esvoaçou. Mediu de cima o terreno em volta e foi então que deu com outra gaivota, aninhada atrás de uma rocha. Era uma gaivota fêmea. E ela, a gaivota da nossa história, uma gaivota macho. Já não estava sozinha. Já não estavam sozinhas. Entraram à fala uma com a outra.",
+      "after": {
+        "segment": 4,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Esvoaçou. Mediu de cima o terreno em volta e foi então que deu com outra gaivota, aninhada atrás de uma rocha. Era uma gaivota fêmea. E ela, a gaivota da nossa história, uma gaivota macho. Já não estava sozinha. Já não estavam sozinhas. Entraram à fala uma com a outra. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s5p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p1",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "Já não estava sozinha. Já não estavam sozinhas. Entraram à fala uma com a outra. Falaram do mar, das ondas, dos peixes e da friagem da noite, quando, sem o calor de outras penas, se abrigavam numa fenda da falésia. O resto não tem conto. Adivinha-se. Estavam feitas uma para a outra, como se costuma dizer.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Já não estava sozinha. Já não estavam sozinhas. Entraram à fala uma com a outra. Falaram do mar, das ondas, dos peixes e da friagem da noite, quando, sem o calor de outras penas, se abrigavam numa fenda da falésia. O resto não tem conto. Adivinha-se. Estavam feitas uma para a outra, como se costuma dizer. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

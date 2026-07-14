@@ -1,0 +1,106 @@
+{
+  "characters": [
+    {
+      "name": "o senhor",
+      "appearance": "um senhor de idade indefinida, postura cuidadosa, com bigodes enormes no início e depois sem bigode no final"
+    }
+  ],
+  "environment": "casa do senhor, autocarro apinhado e espaço doméstico com espelho; ambiente quotidiano português, observado com humor leve",
+  "palette": [
+    "tons quentes e suaves",
+    "azuis e cinzentos discretos",
+    "bege e castanho",
+    "vermelho pequeno como acento"
+  ],
+  "recurringObjects": [
+    "bigodes enormes",
+    "espelho",
+    "tesoura",
+    "autocarro"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era um senhor com uns grandes bigodes. Tinha muita vaidade nos seus imensos bigodes, muito espetados, metade para cada lado e um risco ao meio para se assoar à vontade. À noite, dormia de barriga para o ar, porque não queria amachucar os bigodes. De manhã, demorava mais tempo a pentear e alisar os bigodes do que a lavar-se. Mas lavava-se, podem crer!",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Grandes Bigodes».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era um senhor com uns grandes bigodes. Tinha muita vaidade nos seus imensos bigodes, muito espetados, metade para cada lado e um risco ao meio para se assoar à vontade. À noite, dormia de barriga para o ar, porque não queria amachucar os bigodes. De manhã, demorava mais tempo a pentear e alisar os bigodes do que a lavar-se. Mas lavava-se, podem crer! Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p1",
+        "s0p2",
+        "s0p3"
+      ],
+      "evidence": "À noite, dormia de barriga para o ar, porque não queria amachucar os bigodes. De manhã, demorava mais tempo a pentear e alisar os bigodes do que a lavar-se. Mas lavava-se, podem crer! No autocarro para o emprego, sempre muito cheio de gente, acotovelava à esquerda e à direita, para que não fossem de encontro aos seus belos bigodes.",
+      "after": {
+        "segment": 0,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: À noite, dormia de barriga para o ar, porque não queria amachucar os bigodes. De manhã, demorava mais tempo a pentear e alisar os bigodes do que a lavar-se. Mas lavava-se, podem crer! No autocarro para o emprego, sempre muito cheio de gente, acotovelava à esquerda e à direita, para que não fossem de encontro aos seus belos bigodes. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s1p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p4",
+        "s0p5",
+        "s1p0"
+      ],
+      "evidence": "Ao almoço, não comia sopa, para não sujar os bigodes. Nem ao jantar. – Parece que está com uma guia do bigode mais comprida do que a outra – disseram-lhe, uma vez. O senhor dos grandes bigodes não descansou enquanto não chegou a casa. Mirou-se e remirou-se ao espelho e, de tesoura na mão, cortou uma pontinha de um dos lados do bigode.",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ao almoço, não comia sopa, para não sujar os bigodes. Nem ao jantar. – Parece que está com uma guia do bigode mais comprida do que a outra – disseram-lhe, uma vez. O senhor dos grandes bigodes não descansou enquanto não chegou a casa. Mirou-se e remirou-se ao espelho e, de tesoura na mão, cortou uma pontinha de um dos lados do bigode. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s1p6",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s1p4",
+        "s1p5",
+        "s1p6"
+      ],
+      "evidence": "– Agora é que está – disse. Mas parecia que ainda não estava... Passou a noite a cortar, ora dum lado ora do outro, sempre descontente, sempre impaciente.",
+      "after": {
+        "segment": 1,
+        "paragraph": 6
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: – Agora é que está – disse. Mas parecia que ainda não estava... Passou a noite a cortar, ora dum lado ora do outro, sempre descontente, sempre impaciente. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s1p7",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s1p5",
+        "s1p6",
+        "s1p7"
+      ],
+      "evidence": "Mas parecia que ainda não estava... Passou a noite a cortar, ora dum lado ora do outro, sempre descontente, sempre impaciente. E, quando chegou a manhã, o senhor dos grande bigodes já não tinha bigode.",
+      "after": {
+        "segment": 1,
+        "paragraph": 7
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas parecia que ainda não estava... Passou a noite a cortar, ora dum lado ora do outro, sempre descontente, sempre impaciente. E, quando chegou a manhã, o senhor dos grande bigodes já não tinha bigode. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

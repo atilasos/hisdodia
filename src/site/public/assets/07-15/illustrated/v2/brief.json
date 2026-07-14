@@ -1,0 +1,91 @@
+{
+  "characters": [],
+  "environment": "Contemporary Portuguese street scene, then escalating public interruption and a concluding ballet classroom beat.",
+  "palette": [],
+  "recurringObjects": [],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma senhora que tinha uma menina. Era uma menina que tinha um cão. Era um cão que tinha uma pulga. Era uma pulga que tinha uma ideia. Que ideia seria? Não sabemos. E, como não sabemos, o melhor é perguntar:",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Uma ideia de pulga».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma senhora que tinha uma menina. Era uma menina que tinha um cão. Era um cão que tinha uma pulga. Era uma pulga que tinha uma ideia. Que ideia seria? Não sabemos. E, como não sabemos, o melhor é perguntar: Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p0",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s0p4",
+        "s1p0"
+      ],
+      "evidence": "- Ó pulga, que ideia é a tua? - Uma grande ideia, uma ideia que vai mudar tudo. Uma ideia ex-tra-or-di-ná-ri-a! E, ao dizer isto, a pulga saltitava de entusiasmo. Saltos de pulga em pêlo de cão dão comichão. O cão, que não era de cócegas, parou e coçou-se. A menina do cão parou, à espera do cão. A senhora, que levava a menina pela mão, parou também. Como iam a atravessar uma rua de muito movimento, parou o trânsito.",
+      "after": {
+        "segment": 1,
+        "paragraph": 0
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Ó pulga, que ideia é a tua? - Uma grande ideia, uma ideia que vai mudar tudo. Uma ideia ex-tra-or-di-ná-ri-a! E, ao dizer isto, a pulga saltitava de entusiasmo. Saltos de pulga em pêlo de cão dão comichão. O cão, que não era de cócegas, parou e coçou-se. A menina do cão parou, à espera do cão. A senhora, que levava a menina pela mão, parou também. Como iam a atravessar uma rua de muito movimento, parou o trânsito. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s2p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "- Então esta história anda ou não anda? E nós, para a pulga: - Deixa-te de saltinhos e salta lá com essa ideia extraordinária, que estamos todos à espera.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Então esta história anda ou não anda? E nós, para a pulga: - Deixa-te de saltinhos e salta lá com essa ideia extraordinária, que estamos todos à espera. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s3p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s2p3",
+        "s3p0",
+        "s3p1"
+      ],
+      "evidence": "- Deixa-te de saltinhos e salta lá com essa ideia extraordinária, que estamos todos à espera. - É muito simples - disse ela. - Para que as histórias com cães, meninas e senhoras possam ir à sua vida, sem serem interrompidas pelos saltos de uma pulga, eu proponho, eu exijo, que, daqui em diante, as pulgas deixem de usar saltos altos. - Ah!",
+      "after": {
+        "segment": 3,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Deixa-te de saltinhos e salta lá com essa ideia extraordinária, que estamos todos à espera. - É muito simples - disse ela. - Para que as histórias com cães, meninas e senhoras possam ir à sua vida, sem serem interrompidas pelos saltos de uma pulga, eu proponho, eu exijo, que, daqui em diante, as pulgas deixem de usar saltos altos. - Ah! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s5p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p2",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "- Nós, de saltos altos, não conseguimos passar despercebidas, quando pisamos, quando saltamos. Por isso eu proponho, eu exijo, que as pulgas, em vez de sapatos de saltos altos, passem a calçar pan-tu-fas ou sapatinhos leves, que não chamem a atenção ao pisar. Mas parece que a ideia não pegou. Ainda ontem vimos um cão a coçar-se, furiosamente. Ter-se-ão esgotado as pantufas, no mercado das pulgas? Nada disso.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Nós, de saltos altos, não conseguimos passar despercebidas, quando pisamos, quando saltamos. Por isso eu proponho, eu exijo, que as pulgas, em vez de sapatos de saltos altos, passem a calçar pan-tu-fas ou sapatinhos leves, que não chamem a atenção ao pisar. Mas parece que a ideia não pegou. Ainda ontem vimos um cão a coçar-se, furiosamente. Ter-se-ão esgotado as pantufas, no mercado das pulgas? Nada disso. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

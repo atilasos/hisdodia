@@ -1,0 +1,115 @@
+{
+  "characters": [
+    {
+      "name": "Dromedário",
+      "appearance": "Camelo de uma bossa, expressivo e irritado em alguns momentos, mais tarde inquieto e depois aliviado."
+    },
+    {
+      "name": "Turistas",
+      "appearance": "Grupo de visitantes com máquinas fotográficas, curiosos e excitados."
+    },
+    {
+      "name": "Polícia árabe",
+      "appearance": "Polícia atento, em movimento, com ar decidido."
+    }
+  ],
+  "environment": "Ambiente misto de estrada, zona turística e paredes com cartazes, com a confusão pública a crescer entre o cenário urbano e o percurso do dromedário.",
+  "palette": [
+    "areias quentes",
+    "ocres",
+    "azuis claros",
+    "vermelhos de aviso",
+    "brancos e cinzentos neutros"
+  ],
+  "recurringObjects": [
+    "máquinas fotográficas",
+    "cartazes",
+    "passagens zebradas",
+    "máximo de uma bossa visível no dromedário"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Ninguém gosta que o tratem por camelo. - Seu camelo, não sabe parar nas zebras? Não é conversa de savana nem de jardim zoológico, mas fala de peão furioso para automobilista desastroso, perigoso, criminoso, que não sabe abrandar nas passagens zebradas.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Não é Camelo».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Ninguém gosta que o tratem por camelo. - Seu camelo, não sabe parar nas zebras? Não é conversa de savana nem de jardim zoológico, mas fala de peão furioso para automobilista desastroso, perigoso, criminoso, que não sabe abrandar nas passagens zebradas. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s1p1",
+        "s1p2",
+        "s1p3"
+      ],
+      "evidence": "De facto, ninguém gosta que o tratem por camelo. Principalmente o dromedário. - Não sou camelo - enerva-se o dromedário. - Eu só tenho uma bossa. O camelo tem duas. Mas há sempre quem faça confusão.",
+      "after": {
+        "segment": 1,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: De facto, ninguém gosta que o tratem por camelo. Principalmente o dromedário. - Não sou camelo - enerva-se o dromedário. - Eu só tenho uma bossa. O camelo tem duas. Mas há sempre quem faça confusão. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s3p2",
+        "s3p3",
+        "s3p4"
+      ],
+      "evidence": "Não acabaram. - Olha: os camelos ganharam aos dromedários por dois a um - diziam os turistas. - Camelos! Camelos! Camelos!",
+      "after": {
+        "segment": 3,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não acabaram. - Olha: os camelos ganharam aos dromedários por dois a um - diziam os turistas. - Camelos! Camelos! Camelos! Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p2",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "Vieram, muito zangados, pedir explicações ao dromedário. Ou ele desistia do afrontoso cartaz ou havia guerra. O dromedário, que era pacífico, mandou arrancar os cartazes. Vendo bem, os camelos tinham alguma razão. - Olha um camelo - gritava um turista, apontando-lhe a máquina fotográfica.",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Vieram, muito zangados, pedir explicações ao dromedário. Ou ele desistia do afrontoso cartaz ou havia guerra. O dromedário, que era pacífico, mandou arrancar os cartazes. Vendo bem, os camelos tinham alguma razão. - Olha um camelo - gritava um turista, apontando-lhe a máquina fotográfica. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s8p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s8p0",
+        "s8p1",
+        "s8p2"
+      ],
+      "evidence": "- Não reparei - disfarçou o dromedário. - Porquê? - Porque parece que esse camelo deu um coice a um turista. Se eu o apanho... - ameaçou o polícia com o chanfalho , apressando o passo. O dromedário viu-lhe os calcanhares e suspirou fundo. Pela primeira vez sentia que a confusão entre camelos e dromedários lhe tinha sido favorável.",
+      "after": {
+        "segment": 8,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Não reparei - disfarçou o dromedário. - Porquê? - Porque parece que esse camelo deu um coice a um turista. Se eu o apanho... - ameaçou o polícia com o chanfalho , apressando o passo. O dromedário viu-lhe os calcanhares e suspirou fundo. Pela primeira vez sentia que a confusão entre camelos e dromedários lhe tinha sido favorável. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

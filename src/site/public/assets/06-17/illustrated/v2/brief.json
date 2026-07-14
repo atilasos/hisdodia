@@ -1,0 +1,122 @@
+{
+  "characters": [
+    {
+      "name": "Narrador",
+      "appearance": "Pessoa adulta a recolher nomes e a observar famílias"
+    },
+    {
+      "name": "Família Barriga",
+      "appearance": "Várias gerações de uma família portuguesa"
+    },
+    {
+      "name": "Maria das Dores de Barriga",
+      "appearance": "Senhora descendente da família Barriga"
+    },
+    {
+      "name": "Casal do bebé",
+      "appearance": "Pais, avós e recém-nascido em torno do registo e do baptizado"
+    },
+    {
+      "name": "Avó Olívia Torrado",
+      "appearance": "Avó idosa que conta a história e comenta o nome"
+    }
+  ],
+  "environment": "Portugal, com referências domésticas e comunitárias tradicionais, listas telefónicas, casa de família, baptizado e livro de registos.",
+  "palette": [
+    "tons quentes e terrosos",
+    "azuis e verdes suaves",
+    "cremes e ocres",
+    "vermelhos discretos"
+  ],
+  "recurringObjects": [
+    "listas telefónicas",
+    "livro de registos",
+    "berço ou bebé",
+    "papel e pena"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Há nomes que nem inventados. Mas são verdadeiros. Eu garanto, porque os colecciono e cato , um a um, pelas listas telefónicas do país. A família Barriga, por exemplo, tão velha como Portugal. Já no tempo do nosso primeiro rei, o bravo D. Afonso Henriques, vivia, na província da Beira, um Martim de Barriga. Que ninguém se admire.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Ele há cada nome».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Há nomes que nem inventados. Mas são verdadeiros. Eu garanto, porque os colecciono e cato , um a um, pelas listas telefónicas do país. A família Barriga, por exemplo, tão velha como Portugal. Já no tempo do nosso primeiro rei, o bravo D. Afonso Henriques, vivia, na província da Beira, um Martim de Barriga. Que ninguém se admire. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s1p1",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p2",
+        "s1p0",
+        "s1p1"
+      ],
+      "evidence": "Que ninguém se admire. Se há tantos Costas, porque é que não há-de haver alguns Barrigas? A família cresceu, espalhou-se e chegou aos nossos dias. Conheci, há tempos, uma senhora, descendente do remoto beirão Martim de Barriga. Chama-se Maria das Dores, mais precisamente Maria das Dores de Barriga, o que talvez lhe cause alguma indisposição.",
+      "after": {
+        "segment": 1,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Que ninguém se admire. Se há tantos Costas, porque é que não há-de haver alguns Barrigas? A família cresceu, espalhou-se e chegou aos nossos dias. Conheci, há tempos, uma senhora, descendente do remoto beirão Martim de Barriga. Chama-se Maria das Dores, mais precisamente Maria das Dores de Barriga, o que talvez lhe cause alguma indisposição. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s4p4",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s4p2",
+        "s4p3",
+        "s4p4"
+      ],
+      "evidence": "- Manuel João - disse uma avó. - João Manuel - disse a outra avó. Não se entenderam.",
+      "after": {
+        "segment": 4,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Manuel João - disse uma avó. - João Manuel - disse a outra avó. Não se entenderam. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p1",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s4p4",
+        "s5p0",
+        "s5p1"
+      ],
+      "evidence": "Não se entenderam. Quando, na cerimónia do baptizado, foi preciso assentar o nome do bebé no livro dos registos, ainda a família não tinha chegado a uma decisão. Até que a mãe, para safar a encrenca , ditou ao sacristão, que estava de pena suspensa sobre o livro dos registos: - Olhe, senhor sacristão, o nome do meu filho fica João, até ver.",
+      "after": {
+        "segment": 5,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Não se entenderam. Quando, na cerimónia do baptizado, foi preciso assentar o nome do bebé no livro dos registos, ainda a família não tinha chegado a uma decisão. Até que a mãe, para safar a encrenca , ditou ao sacristão, que estava de pena suspensa sobre o livro dos registos: - Olhe, senhor sacristão, o nome do meu filho fica João, até ver. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s7p1",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s6p2",
+        "s7p0",
+        "s7p1"
+      ],
+      "evidence": "- Pouco importa - concluía a minha avó, que esta história me contou. - O que vale é que cada um seja conhecido pelo que de bom fizer. Se for pelo que de mal fizer, então, sim, já terá razão para envergonhar-se do nome. Grandes verdades ensinava a minha avó, de nome Olívia Torrado, que, todos concordarão, não é um nome assim muito vulgar...",
+      "after": {
+        "segment": 7,
+        "paragraph": 1
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Pouco importa - concluía a minha avó, que esta história me contou. - O que vale é que cada um seja conhecido pelo que de bom fizer. Se for pelo que de mal fizer, então, sim, já terá razão para envergonhar-se do nome. Grandes verdades ensinava a minha avó, de nome Olívia Torrado, que, todos concordarão, não é um nome assim muito vulgar... Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

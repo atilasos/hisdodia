@@ -1,0 +1,121 @@
+{
+  "characters": [],
+  "environment": "África, com início em mato, passagem pelo deserto e chegada a um oásis.",
+  "palette": [
+    "ocres da terra",
+    "dourados quentes",
+    "castanhos gastos",
+    "azuis muito discretos",
+    "verdes secos"
+  ],
+  "recurringObjects": [
+    "farrapos",
+    "passarinho",
+    "antílope",
+    "gazela",
+    "azagaia",
+    "areia"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Era uma vez um homem muito pobre. Não tinha nada de seu e vagabundeava, todo esfarrapado e de longas barbas cinzentas, de terra em terra, vivendo de esmolas. Chamavam-lhe Zé Desgraçado e, com o tempo, esse passou a ser o seu verdadeiro nome. Há também que dizer, à partida, que a história se passa em África. Zé Desgraçado ia pelo meio do mato quando encontrou um antílope morto, trespassado por uma azagaia. Pensou: \"Escapou-se, escondeu-se e morreu. E o caçador passo a ser eu\".",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Zé Desgraçado».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Era uma vez um homem muito pobre. Não tinha nada de seu e vagabundeava, todo esfarrapado e de longas barbas cinzentas, de terra em terra, vivendo de esmolas. Chamavam-lhe Zé Desgraçado e, com o tempo, esse passou a ser o seu verdadeiro nome. Há também que dizer, à partida, que a história se passa em África. Zé Desgraçado ia pelo meio do mato quando encontrou um antílope morto, trespassado por uma azagaia. Pensou: \"Escapou-se, escondeu-se e morreu. E o caçador passo a ser eu\". Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s0p5",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p3",
+        "s0p4",
+        "s0p5"
+      ],
+      "evidence": "Todo contente, começou a juntar lenha para fazer uma fogueira onde assar o antílope. Nisto, um passarinho poisou-lhe no ombro e disse: - Zé Desgraçado, não comas essa carne. Continua em frente, que o melhor está para vir.",
+      "after": {
+        "segment": 0,
+        "paragraph": 5
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Todo contente, começou a juntar lenha para fazer uma fogueira onde assar o antílope. Nisto, um passarinho poisou-lhe no ombro e disse: - Zé Desgraçado, não comas essa carne. Continua em frente, que o melhor está para vir. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s0p12",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p10",
+        "s0p11",
+        "s0p12"
+      ],
+      "evidence": "Mas, de novo, o passarinho lhe disse: - Zé Desgraçado, não comas essa carne. Continua em frente, que o melhor está para vir.",
+      "after": {
+        "segment": 0,
+        "paragraph": 12
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Mas, de novo, o passarinho lhe disse: - Zé Desgraçado, não comas essa carne. Continua em frente, que o melhor está para vir. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s0p18",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p16",
+        "s0p17",
+        "s0p18"
+      ],
+      "evidence": "Até que chegou a um oásis. Como se estivesse à espera dele, um rancho de criados despojou-o dos farrapos, mergulhou-o numa tina de água perfumada e cobriu-o, depois, de ricas vestes. O vagabundo já não parecia o mesmo, embora continuasse com fome. Os mesmos criados conduziram-no a uma grande tenda, onde estava uma bela senhora vestida de penas. Ela falou, a desejar-lhes as boas-vindas, e o Zé Desgraçado reconheceu a voz do pássaro que o conduzira. Era viúva e única dona do oásis e da mina de ouro que nele havia.",
+      "after": {
+        "segment": 0,
+        "paragraph": 18
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Até que chegou a um oásis. Como se estivesse à espera dele, um rancho de criados despojou-o dos farrapos, mergulhou-o numa tina de água perfumada e cobriu-o, depois, de ricas vestes. O vagabundo já não parecia o mesmo, embora continuasse com fome. Os mesmos criados conduziram-no a uma grande tenda, onde estava uma bela senhora vestida de penas. Ela falou, a desejar-lhes as boas-vindas, e o Zé Desgraçado reconheceu a voz do pássaro que o conduzira. Era viúva e única dona do oásis e da mina de ouro que nele havia. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s0p27",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s0p25",
+        "s0p26",
+        "s0p27"
+      ],
+      "evidence": "- No caminho para cá, encontrei um antílope e uma gazela, iguais a estes. E apontou para trás. E olhou para trás. Logo tudo se desvaneceu. Nem que fosse um sonho.",
+      "after": {
+        "segment": 0,
+        "paragraph": 27
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - No caminho para cá, encontrei um antílope e uma gazela, iguais a estes. E apontou para trás. E olhou para trás. Logo tudo se desvaneceu. Nem que fosse um sonho. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-6",
+      "evidenceRef": "s0p28",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s0p26",
+        "s0p27",
+        "s0p28"
+      ],
+      "evidence": "E apontou para trás. E olhou para trás. Logo tudo se desvaneceu. Nem que fosse um sonho. Zé Desgraçado voltou a encontrar-se no meio do mato, sozinho e cheio de fome.",
+      "after": {
+        "segment": 0,
+        "paragraph": 28
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: E apontou para trás. E olhou para trás. Logo tudo se desvaneceu. Nem que fosse um sonho. Zé Desgraçado voltou a encontrar-se no meio do mato, sozinho e cheio de fome. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}

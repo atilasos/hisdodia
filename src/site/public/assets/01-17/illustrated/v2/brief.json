@@ -1,0 +1,112 @@
+{
+  "characters": [
+    {
+      "name": "Joanete",
+      "appearance": "vagabundo magro, roupa gasta, postura ativa, expressão desconfiada"
+    },
+    {
+      "name": "Pé-leve",
+      "appearance": "vagabundo magro, roupa gasta, postura ágil, expressão teimosa"
+    }
+  ],
+  "environment": "terreno isolado e recatado, com obra improvisada de uma pequena casa em construção numa terra de ninguém",
+  "palette": [
+    "tons terrosos",
+    "castanhos escuros",
+    "ocre",
+    "cinza poeirento",
+    "azul desbotado"
+  ],
+  "recurringObjects": [
+    "troncos grossos",
+    "buracos das fundações",
+    "pilhas de madeira",
+    "pregos",
+    "telhado incompleto"
+  ],
+  "scenes": [
+    {
+      "id": "opening",
+      "evidenceRef": "s0p0",
+      "layout": "opening",
+      "evidenceRefs": [
+        "s0p0",
+        "s0p1",
+        "s0p2"
+      ],
+      "evidence": "Um vagabundo resolveu arranjar casa. - Chega de dormir ao relento e de andar por aí, a vadiar, sem eira nem beira - disse o vagabundo. - Vou fazer uma casa só para mim. Escolheu um sítio recatado, numa terra de ninguém, e lançou-se ao trabalho. No primeiro dia, desbastou o terreno e alisou-o. Depois, foi à vida.",
+      "after": null,
+      "alt": "Ilustração de abertura da história «Os Anjos-da-Guarda».",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Um vagabundo resolveu arranjar casa. - Chega de dormir ao relento e de andar por aí, a vadiar, sem eira nem beira - disse o vagabundo. - Vou fazer uma casa só para mim. Escolheu um sítio recatado, numa terra de ninguém, e lançou-se ao trabalho. No primeiro dia, desbastou o terreno e alisou-o. Depois, foi à vida. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-2",
+      "evidenceRef": "s2p3",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s2p1",
+        "s2p2",
+        "s2p3"
+      ],
+      "evidence": "- Foi o que fez. Depois, foi à vida. - Este vagabundo chamava-se Pé-leve. Quando o primeiro vagabundo, o Joanete, regressou ao trabalho e viu os buracos feitos e os troncos alinhados, ficou, como é de imaginar, muito contente.",
+      "after": {
+        "segment": 2,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - Foi o que fez. Depois, foi à vida. - Este vagabundo chamava-se Pé-leve. Quando o primeiro vagabundo, o Joanete, regressou ao trabalho e viu os buracos feitos e os troncos alinhados, ficou, como é de imaginar, muito contente. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-3",
+      "evidenceRef": "s3p3",
+      "layout": "marginal",
+      "evidenceRefs": [
+        "s3p1",
+        "s3p2",
+        "s3p3"
+      ],
+      "evidence": "Aplicou os troncos e foi cortar madeira para as paredes. Depois, como não tinha pregos para pregá-las, foi comprá-los. O Pé-leve, quando chegou e viu os troncos enterrados nos buracos e a madeira empilhada, pensou: - Tenho um anjo ao meu serviço.",
+      "after": {
+        "segment": 3,
+        "paragraph": 3
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: Aplicou os troncos e foi cortar madeira para as paredes. Depois, como não tinha pregos para pregá-las, foi comprá-los. O Pé-leve, quando chegou e viu os troncos enterrados nos buracos e a madeira empilhada, pensou: - Tenho um anjo ao meu serviço. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-4",
+      "evidenceRef": "s5p2",
+      "layout": "double-page",
+      "evidenceRefs": [
+        "s5p0",
+        "s5p1",
+        "s5p2"
+      ],
+      "evidence": "O Joanete, acabado o passeio, vendo o telhado pronto, disse: - O meu anjo é um portento . Só falta o soalho e uns móveis. Foi no que se aplicou. Assoalhada a casa e mobilada, no seu essencial, só faltava habitá-la. Estava uma lindeza. Uma porta, duas janelas, uma chaminé. Que mais queria?",
+      "after": {
+        "segment": 5,
+        "paragraph": 2
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: O Joanete, acabado o passeio, vendo o telhado pronto, disse: - O meu anjo é um portento . Só falta o soalho e uns móveis. Foi no que se aplicou. Assoalhada a casa e mobilada, no seu essencial, só faltava habitá-la. Estava uma lindeza. Uma porta, duas janelas, uma chaminé. Que mais queria? Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    },
+    {
+      "id": "scene-5",
+      "evidenceRef": "s8p4",
+      "layout": "vignette",
+      "evidenceRefs": [
+        "s8p2",
+        "s8p3",
+        "s8p4"
+      ],
+      "evidence": "- O meu anjo da guarda eras tu? - apontou o Pé-leve para o Joanete. Caíram nos braços um do outro. E ficaram a viver juntos.",
+      "after": {
+        "segment": 8,
+        "paragraph": 4
+      },
+      "alt": "",
+      "prompt": "soft watercolour, pencil texture, irregular fine lines, warm paper, pale incomplete backgrounds, expressive lightly caricatured anatomy, gentle humour, and generous negative space. Story evidence: - O meu anjo da guarda eras tu? - apontou o Pé-leve para o Joanete. Caíram nos braços um do outro. E ficaram a viver juntos. Maintain the established characters, clothes, recurring objects, setting, and palette from the opening and previous scenes. Do not imitate any named artist; no words, lettering, logos, or signatures."
+    }
+  ],
+  "errors": []
+}
