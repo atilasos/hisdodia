@@ -1,7 +1,7 @@
 import { after, describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
-import { renderSite, safeAssetUrl } from '../../src/site/render.mjs';
+import { normalizeBasePath, renderSite, safeAssetUrl } from '../../src/site/render.mjs';
 
 function sectionMarkup(html, id) {
   const start = html.indexOf(`<section id="${id}"`);
@@ -47,9 +47,14 @@ describe('renderSite', () => {
         illustrator: 'Cristina Malaquias',
         textSegments: [{ layer: 1, paragraphs: ['Um moleiro encontrou um carvoeiro.'] }],
         glossary: [{ term: 'moleiro', definition: 'Pessoa que trabalha num moinho.' }],
-        assets: {},
+        assets: {
+          background: '/assets/01-01/illustration-original.jpg',
+          printPdf: '/assets/01-01/imprimir.pdf',
+          rerecordedAudio: '/assets/01-01/narracao-tts.mp3',
+          captions: '/assets/01-01/narracao-tts.vtt'
+        },
         recovery: { text: 'recovered' },
-        provenance: {}
+        provenance: { storyPage: '/recovered/0000/01/01/historia.aspx' }
       })
     );
 
@@ -57,11 +62,20 @@ describe('renderSite', () => {
       storiesDir: 'tmp/render-activities/stories',
       activitiesDir: 'tests/fixtures/activities',
       outDir: 'tmp/render-activities/with-activities',
-      recoveredArchiveDir: null
+      recoveredArchiveDir: null,
+      basePath: '/hisdodia'
     });
 
     const withActivities = await readFile(
       'tmp/render-activities/with-activities/stories/01-01/index.html',
+      'utf8'
+    );
+    const prefixedHomepage = await readFile(
+      'tmp/render-activities/with-activities/index.html',
+      'utf8'
+    );
+    const prefixedArchive = await readFile(
+      'tmp/render-activities/with-activities/archive/index.html',
       'utf8'
     );
     const embeddedMatch = withActivities.match(
@@ -73,13 +87,32 @@ describe('renderSite', () => {
     assert.match(withActivities, /id="activities-root"/);
     assert.match(withActivities, /<noscript>/);
     assert.match(withActivities, /href="#brincar"[^>]*>Brincar<\/a>/);
-    assert.match(withActivities, /<script src="\/brincar\.js" defer><\/script>/);
+    assert.match(withActivities, /<script src="\/hisdodia\/brincar\.js" defer><\/script>/);
+    assert.match(withActivities, /href="\/hisdodia\/styles\.css"/);
+    assert.match(withActivities, /src="\/hisdodia\/app\.js"/);
+    assert.match(withActivities, /href="\/hisdodia\/"/);
+    assert.match(withActivities, /href="\/hisdodia\/archive\/"/);
+    assert.match(withActivities, /src="\/hisdodia\/assets\/01-01\/illustration-original\.jpg"/);
+    assert.match(withActivities, /src="\/hisdodia\/assets\/01-01\/narracao-tts\.mp3"/);
+    assert.match(withActivities, /src="\/hisdodia\/assets\/01-01\/narracao-tts\.vtt"/);
+    assert.match(withActivities, /href="\/hisdodia\/assets\/01-01\/imprimir\.pdf"/);
+    assert.match(withActivities, /href="\/hisdodia\/recovered\/0000\/01\/01\/historia\.aspx"/);
+    assert.doesNotMatch(withActivities, /\/hisdodia\/hisdodia\//);
+    assert.match(prefixedHomepage, /href="\/hisdodia\/stories\/01-01\/"/);
+    assert.match(prefixedHomepage, /src="\/hisdodia\/assets\/01-01\/illustration-original\.jpg"/);
+    assert.match(prefixedArchive, /href="\/hisdodia\/stories\/01-01\/"/);
     assert.ok(embeddedMatch, 'expected embedded activities JSON');
     assert.doesNotMatch(embeddedMatch[1], /<\/script>/);
     assert.match(embeddedMatch[1], /<\\\/script>/);
+    const embeddedActivities = JSON.parse(embeddedMatch[1]);
+
     assert.equal(
-      JSON.parse(embeddedMatch[1]).activities[0].rounds[0].sentence,
+      embeddedActivities.activities[0].rounds[0].sentence,
       'Está na história: </script> um moleiro, todo enfarinhado.'
+    );
+    assert.equal(
+      embeddedActivities.activities.find((activity) => activity.type === 'puzzle-ilustracao').image,
+      '/hisdodia/assets/01-01/illustration-original.jpg'
     );
     assert.ok(
       withActivities.indexOf('class="glossary"') < withActivities.indexOf('id="brincar"'),
@@ -159,6 +192,17 @@ describe('renderSite', () => {
     );
   });
 
+  it('normalizes safe project-site paths and rejects unsafe values', () => {
+    assert.equal(normalizeBasePath(''), '');
+    assert.equal(normalizeBasePath('/'), '');
+    assert.equal(normalizeBasePath('hisdodia/'), '/hisdodia');
+    assert.equal(normalizeBasePath('/atelie/hisdodia'), '/atelie/hisdodia');
+
+    for (const unsafe of ['https://example.com', '/../fora', '/hisdodia?debug=1', '/hisdodia#topo']) {
+      assert.throws(() => normalizeBasePath(unsafe), /Invalid site base path/);
+    }
+  });
+
   it('renders homepage, archive, and story page from story data', async () => {
     await rm('dist', { recursive: true, force: true });
     const storyData = JSON.parse(await readFile('data/stories/01-01.json', 'utf8'));
@@ -203,6 +247,13 @@ describe('renderSite', () => {
     assert.doesNotMatch(story, /historiadodia\.pt:80\/assets/);
     assert.match(homepage, /lang="pt-PT"/);
     assert.match(homepage, /class="skip-link"/);
+    assert.match(homepage, /Conteúdo original do projeto sob/);
+    assert.match(homepage, />CC BY-SA 4\.0<\/a>/);
+    assert.match(homepage, /href="https:\/\/creativecommons\.org\/licenses\/by-sa\/4\.0\/deed\.pt"/);
+    assert.match(homepage, /As novas ilustrações desta edição foram geradas com inteligência artificial/);
+    assert.match(homepage, /Materiais históricos recuperados podem estar sujeitos a direitos de terceiros/);
+    assert.match(homepage, /Projeto independente de preservação e experimentação educativa/);
+    assert.equal(countOccurrences(homepage, '<footer class="site-footer">'), 1);
     assert.match(stylesheet, /Atelier de papel/);
     assert.match(script, /glossary/);
     assert.match(script, /data-edition-target/);
@@ -287,6 +338,7 @@ describe('renderSite', () => {
     assert.match(story, /class="edition-switcher"/);
     assert.equal((story.match(/<h1(?:\s|>)/g) ?? []).length, 1);
     assert.match(story, /Edição ilustrada contemporânea gerada com IA/);
+    assert.match(story, /Ilustrações desta edição geradas com inteligência artificial/);
     assert.match(story, /middle\.webp" alt=""/);
     assert.match(story, /Autora Original escreveu\. Ilustrador Original ilustrou\./);
     assert.ok(story.indexOf('class="edition-switcher"') < story.indexOf('id="edicao-ilustrada"'));

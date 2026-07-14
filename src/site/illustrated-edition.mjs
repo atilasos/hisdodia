@@ -66,6 +66,7 @@ ${(segment.paragraphs ?? []).map((paragraph, paragraphIndex) => {
           <h1>${escapeHtml(story.title)}</h1>
           <p class="credits">${escapeHtml(story.author)} escreveu.</p>
           <p class="illustrated-credit">${escapeHtml(story.illustratedEdition.credit)}</p>
+          <p class="ai-disclosure">Ilustrações desta edição geradas com inteligência artificial.</p>
         </div>
       </header>
 ${text}
