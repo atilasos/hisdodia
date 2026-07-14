@@ -309,17 +309,10 @@ export async function planStories(options = {}) {
     throw new Error(`No stories matched requested month ${month}`);
   }
 
-  const planned = [];
-  const skipped = [];
-  for (const filename of filenames) {
-    const storyPath = path.join(storiesDir, filename);
-    const story = JSON.parse(await readFile(storyPath, 'utf8'));
-    assertStoryIdMatches(story, filename.slice(0, -5));
-    if (story.illustratedEdition && story.illustratedEdition.status !== 'planning' && !force) {
-      skipped.push(story.id);
-      continue;
-    }
-    if (force) {
+  if (force) {
+    for (const filename of filenames) {
+      const story = JSON.parse(await readFile(path.join(storiesDir, filename), 'utf8'));
+      assertStoryIdMatches(story, filename.slice(0, -5));
       const currentAssetDirectory = illustrationAssetDirectory(story.id, ART_DIRECTION_VERSION);
       const currentAssetPath = path.join(publicDir, ...currentAssetDirectory.split('/').filter(Boolean));
       let entries = [];
@@ -332,7 +325,18 @@ export async function planStories(options = {}) {
         throw new Error(`${story.id}: current v${ART_DIRECTION_VERSION} illustration assets already exist`);
       }
     }
+  }
 
+  const planned = [];
+  const skipped = [];
+  for (const filename of filenames) {
+    const storyPath = path.join(storiesDir, filename);
+    const story = JSON.parse(await readFile(storyPath, 'utf8'));
+    assertStoryIdMatches(story, filename.slice(0, -5));
+    if (story.illustratedEdition && story.illustratedEdition.status !== 'planning' && !force) {
+      skipped.push(story.id);
+      continue;
+    }
     const returnedPlan = await runPlanner(buildPlanningPrompt(story), { planningModel });
     const derivedScenes = deriveScenes(story, returnedPlan?.scenes);
     const plan = {

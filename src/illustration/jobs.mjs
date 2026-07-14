@@ -193,7 +193,10 @@ function finalizeEdition(story) {
 
 function sameAnchor(left, right) {
   if (left === null || right === null) return left === right;
-  return left?.segment === right?.segment
+  const leftIsObject = typeof left === 'object' && left !== null && !Array.isArray(left);
+  const rightIsObject = typeof right === 'object' && right !== null && !Array.isArray(right);
+  if (!leftIsObject || !rightIsObject) return false;
+  return left.segment === right.segment
     && left?.paragraph === right?.paragraph
     && Object.keys(left).length === 2
     && Object.keys(right).length === 2;
@@ -215,9 +218,26 @@ function metadataMatchesBrief(story, brief) {
 }
 
 function expectedEditionStatus(scenes) {
-  if (scenes.find(({ id }) => id === 'opening')?.status === 'failed') return 'failed';
-  if (scenes.some(({ status }) => status === 'pending' || status === 'generating')) return 'generating';
+  if (!Array.isArray(scenes)) return null;
+  if (scenes.find((scene) => scene?.id === 'opening')?.status === 'failed') return 'failed';
+  if (scenes.some((scene) => scene?.status === 'pending' || scene?.status === 'generating')) return 'generating';
   return 'complete';
+}
+
+function assertCurrentGeneratingEdition(story) {
+  const edition = story.illustratedEdition;
+  illustrationAssetDirectory(story.id, edition.artDirectionVersion);
+  if (edition.artDirectionVersion !== ART_DIRECTION_VERSION) {
+    throw new Error(`${story.id}: art direction version must be ${ART_DIRECTION_VERSION}`);
+  }
+  if (edition.planningModel !== PLANNING_MODEL) {
+    throw new Error(`${story.id}: planning model must be ${PLANNING_MODEL}`);
+  }
+  const expectedStatus = expectedEditionStatus(edition.scenes);
+  if (expectedStatus === null) throw new Error(`${story.id}: invalid illustrated edition scenes`);
+  if (edition.status !== expectedStatus) {
+    throw new Error(`${story.id}: edition status ${edition.status} does not match ${expectedStatus}`);
+  }
 }
 
 function validateMonth(month) {
@@ -288,13 +308,14 @@ export async function nextIllustrationJob(options = {}) {
     const story = JSON.parse(await readFile(storyPath, 'utf8'));
     assertStoryIdMatches(story, filename.slice(0, -5));
     if (story.illustratedEdition?.status !== 'generating') continue;
+    assertCurrentGeneratingEdition(story);
     const files = pathsFor(options, story);
-    await reconcileTechnicalError(files, story, options);
     const brief = JSON.parse(await readFile(files.brief, 'utf8'));
     validateScenePlan(story, brief);
     if (!metadataMatchesBrief(story, brief)) {
       throw new Error(`Illustration metadata does not match visual brief: ${story.id}`);
     }
+    await reconcileTechnicalError(files, story, options);
     while (story.illustratedEdition.status === 'generating') {
       const scene = story.illustratedEdition.scenes?.find(
         (candidate) => (candidate.status === 'pending' || candidate.status === 'generating')
@@ -605,22 +626,25 @@ function parseArguments(argv) {
       options.help = true;
     } else if (argument === '--story') {
       options.storyId = argv[index += 1];
+      if (!/^\d{2}-\d{2}$/u.test(options.storyId ?? '')) throw new Error('--story requires MM-DD');
     } else if (argument === '--month') {
       options.month = argv[index += 1];
+      if (!/^(?:0[1-9]|1[0-2])$/u.test(options.month ?? '')) throw new Error('--month requires 01 through 12');
     } else if (argument === '--all') {
       options.all = true;
     } else if (argument === '--scene') {
       options.sceneId = argv[index += 1];
+      if (!options.sceneId || options.sceneId.startsWith('--')) throw new Error('--scene requires an ID');
     } else if (argument === '--source') {
       options.sourcePath = argv[index += 1];
+      if (!options.sourcePath || options.sourcePath.startsWith('--')) throw new Error('--source requires a path');
     } else if (argument === '--message') {
       options.message = argv[index += 1];
+      if (!options.message || options.message.startsWith('--')) throw new Error('--message requires text');
     } else {
       throw new Error(`Unknown argument: ${argument}`);
     }
   }
-  if (options.storyId && !/^\d{2}-\d{2}$/u.test(options.storyId)) throw new Error('--story requires MM-DD');
-  if (options.month && !/^(?:0[1-9]|1[0-2])$/u.test(options.month)) throw new Error('--month requires 01 through 12');
   if ([options.storyId, options.month, options.all].filter(Boolean).length > 1) {
     throw new Error('Choose at most one scope: --story, --month, or --all');
   }

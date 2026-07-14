@@ -609,6 +609,34 @@ describe('Luna planner', () => {
     assert.equal(await readFile(`${assetDirectory}/opening.webp`, 'utf8'), 'current sentinel');
   });
 
+  it('preflights every forced story before planning or writing any of them', async () => {
+    const base = `${root}/force-scope-preflight`;
+    const directory = `${base}/stories`;
+    await rm(base, { recursive: true, force: true });
+    await writeStoryWithId(directory, '01-01');
+    await writeStoryWithId(directory, '01-02');
+    const blockedAssets = `${base}/public/assets/01-02/illustrated/v2`;
+    await mkdir(blockedAssets, { recursive: true });
+    await writeFile(`${blockedAssets}/opening.webp`, 'current sentinel');
+    let calls = 0;
+    let writes = 0;
+
+    await assert.rejects(
+      () => planStories({
+        month: '01',
+        force: true,
+        storiesDir: directory,
+        publicDir: `${base}/public`,
+        runPlanner: async () => { calls += 1; return validPlan(); },
+        writeJsonImpl: async () => { writes += 1; }
+      }),
+      /01-02: current v2 illustration assets already exist/u
+    );
+    assert.equal(calls, 0);
+    assert.equal(writes, 0);
+    assert.equal(JSON.parse(await readFile(`${directory}/01-01.json`, 'utf8')).illustratedEdition, undefined);
+  });
+
   it('requires exactly one story scope', async () => {
     await assert.rejects(
       () => planStories({ storyId: '01-01', month: '01', all: true }),

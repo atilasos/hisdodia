@@ -131,7 +131,7 @@ async function assertJobMutationRejectsMismatchedStoryId(operation) {
 }
 
 const readStory = async () => JSON.parse(await readFile(`${root}/stories/01-01.json`, 'utf8'));
-const readBrief = async () => JSON.parse(await readFile(`${root}/public/assets/01-01/illustrated/brief.json`, 'utf8'));
+const readBrief = async () => JSON.parse(await readFile(`${root}/public/assets/01-01/illustrated/v2/brief.json`, 'utf8'));
 const compress = async (_source, destination) => {
   await mkdir(destination.slice(0, destination.lastIndexOf('/')), { recursive: true });
   await writeFile(destination, 'webp');
@@ -153,7 +153,7 @@ async function completeOpening() {
 }
 
 describe('illustration jobs', () => {
-  beforeEach(seed);
+  beforeEach(seedV2);
 
   it('leases opening first and supplies it as reference for later scenes', async () => {
     const first = await nextIllustrationJob(jobOptions);
@@ -162,7 +162,7 @@ describe('illustration jobs', () => {
     await completeIllustrationJob({ ...jobOptions, storyId: '01-01', sceneId: 'opening', sourcePath: fixture });
     const second = await nextIllustrationJob(jobOptions);
     assert.equal(second.sceneId, 'middle');
-    assert.deepEqual(second.references, [path.resolve(`${root}/public/assets/01-01/illustrated/opening.webp`)]);
+    assert.deepEqual(second.references, [path.resolve(`${root}/public/assets/01-01/illustrated/v2/opening.webp`)]);
   });
 
   it('leases, references, completes, reconciles, and audits v2 assets without using v1', async () => {
@@ -249,7 +249,7 @@ describe('illustration jobs', () => {
     const story = await readStory();
     story.illustratedEdition.planningModel = 'gpt-5.6-luna';
     story.illustratedEdition.status = 'complete';
-    story.illustratedEdition.scenes[1].layout = 'double-page';
+    delete story.illustratedEdition.scenes[1].after;
     await writeFile(`${root}/stories/01-01.json`, JSON.stringify(story));
     const briefPath = `${root}/public/assets/01-01/illustrated/v2/brief.json`;
     const brief = JSON.parse(await readFile(briefPath, 'utf8'));
@@ -265,9 +265,16 @@ describe('illustration jobs', () => {
   });
 
   it('rejects a non-canonical brief before leasing a generation job', async () => {
+    const story = await readStory();
+    story.illustratedEdition.lastTechnicalError = {
+      sceneId: 'opening',
+      attempt: 1,
+      message: 'pending journal'
+    };
+    await writeFile(`${root}/stories/01-01.json`, JSON.stringify(story));
     const brief = await readBrief();
     brief.scenes[1].prompt = 'Invented prompt.';
-    await writeFile(`${root}/public/assets/01-01/illustrated/brief.json`, JSON.stringify(brief));
+    await writeFile(`${root}/public/assets/01-01/illustrated/v2/brief.json`, JSON.stringify(brief));
     let writes = 0;
 
     await assert.rejects(
@@ -276,6 +283,39 @@ describe('illustration jobs', () => {
         writeJsonImpl: async () => { writes += 1; }
       }),
       /canonical scene prompt/u
+    );
+    assert.equal(writes, 0);
+  });
+
+  it('rejects non-current or internally terminal editions before reconciliation or leasing', async () => {
+    let writes = 0;
+    const story = await readStory();
+    story.illustratedEdition.artDirectionVersion = '1';
+    await writeFile(`${root}/stories/01-01.json`, JSON.stringify(story));
+    await assert.rejects(
+      () => nextIllustrationJob({ ...jobOptions, writeJsonImpl: async () => { writes += 1; } }),
+      /art direction version must be 2/u
+    );
+    assert.equal(writes, 0);
+
+    await seedV2();
+    const wrongModel = await readStory();
+    wrongModel.illustratedEdition.planningModel = 'wrong-model';
+    await writeFile(`${root}/stories/01-01.json`, JSON.stringify(wrongModel));
+    await assert.rejects(
+      () => nextIllustrationJob({ ...jobOptions, writeJsonImpl: async () => { writes += 1; } }),
+      /planning model must be gpt-5.4-mini/u
+    );
+    assert.equal(writes, 0);
+
+    await seedV2();
+    const terminal = await readStory();
+    terminal.illustratedEdition.scenes[0].status = 'failed';
+    terminal.illustratedEdition.scenes[0].attempts = 2;
+    await writeFile(`${root}/stories/01-01.json`, JSON.stringify(terminal));
+    await assert.rejects(
+      () => nextIllustrationJob({ ...jobOptions, writeJsonImpl: async () => { writes += 1; } }),
+      /edition status generating does not match failed/u
     );
     assert.equal(writes, 0);
   });
@@ -410,7 +450,7 @@ describe('illustration jobs', () => {
   it('reconciles one technical error after a crash at every persistence stage', async () => {
     const stages = ['story-error-journaled', 'brief-error-upserted', 'story-error-cleared'];
     for (const stageToFail of stages) {
-      await seed();
+      await seedV2();
       await nextIllustrationJob(jobOptions);
       await assert.rejects(
         failIllustrationJob({
@@ -451,7 +491,7 @@ describe('illustration jobs', () => {
     );
     const brief = await readBrief();
     brief.errors.push({ ...brief.errors[0] });
-    await writeFile(`${root}/public/assets/01-01/illustrated/brief.json`, JSON.stringify(brief));
+    await writeFile(`${root}/public/assets/01-01/illustrated/v2/brief.json`, JSON.stringify(brief));
 
     await nextIllustrationJob(jobOptions);
     assert.deepEqual((await readBrief()).errors, [
@@ -512,9 +552,9 @@ describe('illustration jobs', () => {
 
   it('reconciles a published asset and removes its canonical work source', async () => {
     const first = await nextIllustrationJob(options);
-    const sourcePath = `${options.workDir}/01-01/opening.png`;
+    const sourcePath = `${options.workDir}/01-01/v2/opening.png`;
     assert.equal(first.sourceOutput, sourcePath);
-    await mkdir(`${options.workDir}/01-01`, { recursive: true });
+    await mkdir(`${options.workDir}/01-01/v2`, { recursive: true });
     await copyFile(fixture, sourcePath);
     await assert.rejects(
       completeIllustrationJob({
@@ -536,7 +576,7 @@ describe('illustration jobs', () => {
     const opening = (await readStory()).illustratedEdition.scenes[0];
     assert.equal(opening.status, 'complete');
     assert.equal(opening.attempts, 1);
-    assert.equal((await inspectFinalAsset(`${root}/public/assets/01-01/illustrated/opening.webp`)).valid, true);
+    assert.equal((await inspectFinalAsset(`${root}/public/assets/01-01/illustrated/v2/opening.webp`)).valid, true);
     await assert.rejects(stat(sourcePath), { code: 'ENOENT' });
   });
 
@@ -544,7 +584,7 @@ describe('illustration jobs', () => {
     const outsideSource = `${root}/outside/01-01/opening.png`;
     await mkdir(`${root}/outside/01-01`, { recursive: true });
     await copyFile(fixture, outsideSource);
-    await compressIllustration(fixture, `${root}/public/assets/01-01/illustrated/opening.webp`);
+    await compressIllustration(fixture, `${root}/public/assets/01-01/illustrated/v2/opening.webp`);
 
     const next = await nextIllustrationJob(options);
     assert.equal(next.sceneId, 'middle');
@@ -553,12 +593,12 @@ describe('illustration jobs', () => {
 
   it('does not follow a workDir parent symlink outside during reconciliation', async () => {
     const externalDirectory = path.resolve(`${root}/external-parent`);
-    const externalSource = `${externalDirectory}/opening.png`;
-    await mkdir(externalDirectory, { recursive: true });
+    const externalSource = `${externalDirectory}/v2/opening.png`;
+    await mkdir(`${externalDirectory}/v2`, { recursive: true });
     await mkdir(options.workDir, { recursive: true });
     await copyFile(fixture, externalSource);
     await symlink(externalDirectory, `${options.workDir}/01-01`, 'dir');
-    await compressIllustration(fixture, `${root}/public/assets/01-01/illustrated/opening.webp`);
+    await compressIllustration(fixture, `${root}/public/assets/01-01/illustrated/v2/opening.webp`);
 
     const next = await nextIllustrationJob(options);
     assert.equal(next.sceneId, 'middle');
@@ -567,8 +607,8 @@ describe('illustration jobs', () => {
 
   it('does not follow a workDir parent symlink outside during complete cleanup', async () => {
     const externalDirectory = path.resolve(`${root}/external-complete`);
-    const externalSource = `${externalDirectory}/opening.png`;
-    await mkdir(externalDirectory, { recursive: true });
+    const externalSource = `${externalDirectory}/v2/opening.png`;
+    await mkdir(`${externalDirectory}/v2`, { recursive: true });
     await mkdir(options.workDir, { recursive: true });
     await copyFile(fixture, externalSource);
     await symlink(externalDirectory, `${options.workDir}/01-01`, 'dir');
@@ -586,12 +626,12 @@ describe('illustration jobs', () => {
   it('leaves a source-file symlink to an external file untouched', async () => {
     const externalDirectory = path.resolve(`${root}/external-file`);
     const externalSource = `${externalDirectory}/opening.png`;
-    const canonicalSource = `${options.workDir}/01-01/opening.png`;
-    await mkdir(externalDirectory, { recursive: true });
-    await mkdir(`${options.workDir}/01-01`, { recursive: true });
+    const canonicalSource = `${options.workDir}/01-01/v2/opening.png`;
+    await mkdir(`${externalDirectory}/v2`, { recursive: true });
+    await mkdir(`${options.workDir}/01-01/v2`, { recursive: true });
     await copyFile(fixture, externalSource);
     await symlink(externalSource, canonicalSource, 'file');
-    await compressIllustration(fixture, `${root}/public/assets/01-01/illustrated/opening.webp`);
+    await compressIllustration(fixture, `${root}/public/assets/01-01/illustrated/v2/opening.webp`);
 
     await nextIllustrationJob(options);
     assert.ok((await stat(externalSource)).isFile());
@@ -601,11 +641,11 @@ describe('illustration jobs', () => {
   it('cleans a canonical source when workDir itself is a symlink', async () => {
     const realWorkDir = path.resolve(`${root}/real-work`);
     const linkedWorkDir = `${root}/linked-work`;
-    const sourcePath = `${realWorkDir}/01-01/opening.png`;
-    await mkdir(`${realWorkDir}/01-01`, { recursive: true });
+    const sourcePath = `${realWorkDir}/01-01/v2/opening.png`;
+    await mkdir(`${realWorkDir}/01-01/v2`, { recursive: true });
     await copyFile(fixture, sourcePath);
     await symlink(realWorkDir, linkedWorkDir, 'dir');
-    await compressIllustration(fixture, `${root}/public/assets/01-01/illustrated/opening.webp`);
+    await compressIllustration(fixture, `${root}/public/assets/01-01/illustrated/v2/opening.webp`);
 
     const next = await nextIllustrationJob({ ...options, workDir: linkedWorkDir });
     assert.equal(next.sceneId, 'middle');
@@ -614,7 +654,7 @@ describe('illustration jobs', () => {
 
   it('does not overwrite an existing valid final asset on complete', async () => {
     await nextIllustrationJob(options);
-    await compressIllustration(fixture, `${root}/public/assets/01-01/illustrated/opening.webp`);
+    await compressIllustration(fixture, `${root}/public/assets/01-01/illustrated/v2/opening.webp`);
     let compressionCalled = false;
     await assert.rejects(
       completeIllustrationJob({
@@ -716,8 +756,8 @@ describe('illustration jobs', () => {
       { sceneId: 'ending', attempt: 1, message: 'one' },
       { sceneId: 'ending', attempt: 2, message: 'two' }
     ];
-    await writeFile(`${root}/public/assets/01-01/illustrated/brief.json`, JSON.stringify(brief));
-    await compressIllustration(fixture, `${root}/public/assets/01-01/illustrated/opening.webp`);
+    await writeFile(`${root}/public/assets/01-01/illustrated/v2/brief.json`, JSON.stringify(brief));
+    await compressIllustration(fixture, `${root}/public/assets/01-01/illustrated/v2/opening.webp`);
 
     const result = await auditIllustrations(options);
     assert.deepEqual(result.problems, []);
@@ -750,8 +790,8 @@ describe('illustration jobs', () => {
       { sceneId: 'opening', attempt: 1, message: 'one' },
       { sceneId: 'opening', attempt: 2, message: 'two' }
     ];
-    await writeFile(`${root}/public/assets/01-01/illustrated/brief.json`, JSON.stringify(brief));
-    await copyFile(fixture, `${root}/public/assets/01-01/illustrated/ending.webp`);
+    await writeFile(`${root}/public/assets/01-01/illustrated/v2/brief.json`, JSON.stringify(brief));
+    await copyFile(fixture, `${root}/public/assets/01-01/illustrated/v2/ending.webp`);
 
     const result = await auditIllustrations(options);
     assert.ok(result.problems.some((problem) => problem.includes('01-01/middle') && problem.includes('missing file')));
@@ -769,7 +809,7 @@ describe('illustration jobs', () => {
       { sceneId: 'opening', attempt: 1, message: 'one' },
       { sceneId: 'opening', attempt: 1, message: 'duplicate one' }
     ];
-    await writeFile(`${root}/public/assets/01-01/illustrated/brief.json`, JSON.stringify(brief));
+    await writeFile(`${root}/public/assets/01-01/illustrated/v2/brief.json`, JSON.stringify(brief));
 
     const result = await auditIllustrations(options);
     assert.ok(result.problems.some((problem) => problem.includes('edition status must be failed')));
@@ -787,7 +827,7 @@ describe('illustration jobs', () => {
       { sceneId: 'opening', attempt: 1, message: 'one' },
       { sceneId: 'opening', attempt: 2, message: 'two' }
     ];
-    await writeFile(`${root}/public/assets/01-01/illustrated/brief.json`, JSON.stringify(brief));
+    await writeFile(`${root}/public/assets/01-01/illustrated/v2/brief.json`, JSON.stringify(brief));
 
     const result = await auditIllustrations(options);
     assert.deepEqual(result.problems, []);
@@ -810,5 +850,12 @@ describe('illustration jobs', () => {
     ]);
 
     assert.match(stdout, /audit \[--story MM-DD \| --month MM \| --all\]/u);
+  });
+
+  it('rejects a jobs CLI scope flag without its value', async () => {
+    await assert.rejects(
+      () => execute(process.execPath, ['src/illustration/jobs.mjs', 'next', '--month']),
+      /--month requires 01 through 12/u
+    );
   });
 });

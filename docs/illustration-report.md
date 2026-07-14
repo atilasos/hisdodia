@@ -63,8 +63,8 @@ The failed openings are `05-02/opening` and `10-30/opening`. Their original reco
 ## Verification
 
 - `npm run illustrations:audit -- --all`: passed — 366 stories, 1,791 complete scenes, 2 failed openings, and 9 failed non-opening scenes.
-- `node --test tests/illustration/jobs.test.mjs`: passed — 41/41 tests.
-- `npm test`: passed — 206/206 tests across 24 suites.
+- `node --test tests/illustration/jobs.test.mjs`: passed — 43/43 tests.
+- `npm test`: passed — 209/209 tests across 24 suites.
 - `npm run build`: passed and wrote `dist/`.
 - `git diff --check`: passed with no output.
 - Monthly reconciliation found no missing completed assets, unexpected v2 WebPs, duplicate current WebP content, or temporary illustration files.
