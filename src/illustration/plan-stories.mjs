@@ -2,6 +2,7 @@
 
 import { execFile } from 'node:child_process';
 import {
+  lstat,
   mkdir,
   mkdtemp,
   readFile,
@@ -315,13 +316,27 @@ export async function planStories(options = {}) {
       assertStoryIdMatches(story, filename.slice(0, -5));
       const currentAssetDirectory = illustrationAssetDirectory(story.id, ART_DIRECTION_VERSION);
       const currentAssetPath = path.join(publicDir, ...currentAssetDirectory.split('/').filter(Boolean));
-      let entries = [];
-      try {
-        entries = await readdir(currentAssetPath, { withFileTypes: true });
-      } catch (error) {
-        if (error.code !== 'ENOENT') throw error;
+      const relativeAssetPath = path.relative(path.resolve(publicDir), path.resolve(currentAssetPath));
+      let inspectedPath = path.resolve(publicDir);
+      let directoryExists = true;
+      for (const part of relativeAssetPath.split(path.sep).filter(Boolean)) {
+        inspectedPath = path.join(inspectedPath, part);
+        try {
+          const info = await lstat(inspectedPath);
+          if (info.isSymbolicLink()) {
+            throw new Error(`${story.id}: current asset path contains a symbolic link`);
+          }
+          if (!info.isDirectory()) {
+            throw new Error(`${story.id}: current asset path contains a non-directory component`);
+          }
+        } catch (error) {
+          if (error.code !== 'ENOENT') throw error;
+          directoryExists = false;
+          break;
+        }
       }
-      if (entries.some((entry) => entry.isFile() && entry.name.endsWith('.webp'))) {
+      const entries = directoryExists ? await readdir(currentAssetPath, { withFileTypes: true }) : [];
+      if (entries.some((entry) => entry.name.endsWith('.webp'))) {
         throw new Error(`${story.id}: current v${ART_DIRECTION_VERSION} illustration assets already exist`);
       }
     }

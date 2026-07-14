@@ -240,6 +240,18 @@ function assertCurrentGeneratingEdition(story) {
   }
 }
 
+function assertEditionAssetUrls(story, files) {
+  const edition = story.illustratedEdition;
+  if (edition.visualBrief !== files.briefUrl) {
+    throw new Error(`${story.id}: visual brief URL does not match art direction version`);
+  }
+  for (const scene of edition.scenes) {
+    if (scene?.image !== files.imageUrl(scene?.id)) {
+      throw new Error(`${story.id}/${scene?.id ?? 'unknown'}: image URL does not match art direction version`);
+    }
+  }
+}
+
 function validateMonth(month) {
   if (month !== undefined && !/^(?:0[1-9]|1[0-2])$/u.test(month)) {
     throw new Error('month must be 01 through 12');
@@ -310,6 +322,7 @@ export async function nextIllustrationJob(options = {}) {
     if (story.illustratedEdition?.status !== 'generating') continue;
     assertCurrentGeneratingEdition(story);
     const files = pathsFor(options, story);
+    assertEditionAssetUrls(story, files);
     const brief = JSON.parse(await readFile(files.brief, 'utf8'));
     validateScenePlan(story, brief);
     if (!metadataMatchesBrief(story, brief)) {
@@ -499,6 +512,7 @@ export async function auditIllustrations(options = {}) {
   }
 
   for (const filename of filenames) {
+    try {
     const story = JSON.parse(await readFile(path.join(storiesDir, filename), 'utf8'));
     assertStoryIdMatches(story, filename.slice(0, -5));
     const edition = story.illustratedEdition;
@@ -592,6 +606,9 @@ export async function auditIllustrations(options = {}) {
         problems.push(`${label}: invalid scene status ${scene.status}`);
       }
     }
+    } catch (error) {
+      problems.push(`${filename.slice(0, -5)}: audit could not validate: ${error.message}`);
+    }
   }
 
   return {
@@ -634,13 +651,13 @@ function parseArguments(argv) {
       options.all = true;
     } else if (argument === '--scene') {
       options.sceneId = argv[index += 1];
-      if (!options.sceneId || options.sceneId.startsWith('--')) throw new Error('--scene requires an ID');
+      if (!options.sceneId || options.sceneId.startsWith('-')) throw new Error('--scene requires an ID');
     } else if (argument === '--source') {
       options.sourcePath = argv[index += 1];
-      if (!options.sourcePath || options.sourcePath.startsWith('--')) throw new Error('--source requires a path');
+      if (!options.sourcePath || options.sourcePath.startsWith('-')) throw new Error('--source requires a path');
     } else if (argument === '--message') {
       options.message = argv[index += 1];
-      if (!options.message || options.message.startsWith('--')) throw new Error('--message requires text');
+      if (!options.message || options.message.startsWith('-')) throw new Error('--message requires text');
     } else {
       throw new Error(`Unknown argument: ${argument}`);
     }

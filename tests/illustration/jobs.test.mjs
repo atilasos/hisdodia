@@ -320,6 +320,54 @@ describe('illustration jobs', () => {
     assert.equal(writes, 0);
   });
 
+  it('rejects stale edition asset URLs before reconciliation or leasing', async () => {
+    let writes = 0;
+    const story = await readStory();
+    story.illustratedEdition.visualBrief = '/assets/01-01/illustrated/brief.json';
+    story.illustratedEdition.scenes[0].image = '/assets/01-01/illustrated/opening.webp';
+    await writeFile(`${root}/stories/01-01.json`, JSON.stringify(story));
+
+    await assert.rejects(
+      () => nextIllustrationJob({ ...jobOptions, writeJsonImpl: async () => { writes += 1; } }),
+      /visual brief URL does not match art direction version/u
+    );
+    assert.equal(writes, 0);
+
+    await seedV2();
+    const staleImage = await readStory();
+    staleImage.illustratedEdition.scenes[0].image = '/assets/01-01/illustrated/opening.webp';
+    await writeFile(`${root}/stories/01-01.json`, JSON.stringify(staleImage));
+    await assert.rejects(
+      () => nextIllustrationJob({ ...jobOptions, writeJsonImpl: async () => { writes += 1; } }),
+      /opening: image URL does not match art direction version/u
+    );
+    assert.equal(writes, 0);
+  });
+
+  it('reports deeply malformed audit metadata instead of throwing', async () => {
+    const mutations = [
+      async (story) => { delete story.illustratedEdition.artDirectionVersion; },
+      async (story) => { story.illustratedEdition.scenes[1] = null; },
+      async (story) => {
+        story.illustratedEdition.scenes[1].status = 'failed';
+        story.illustratedEdition.scenes[1].attempts = 2;
+        const briefPath = `${root}/public/assets/01-01/illustrated/v2/brief.json`;
+        const brief = JSON.parse(await readFile(briefPath, 'utf8'));
+        brief.errors = [null];
+        await writeFile(briefPath, JSON.stringify(brief));
+      }
+    ];
+
+    for (const mutate of mutations) {
+      await seedV2();
+      const story = await readStory();
+      await mutate(story);
+      await writeFile(`${root}/stories/01-01.json`, JSON.stringify(story));
+      const result = await auditIllustrations({ ...jobOptions, all: true });
+      assert.ok(result.problems.some((problem) => problem.includes('audit could not validate')));
+    }
+  });
+
   it('rejects a persisted story id mismatch before complete side effects', async () => {
     await assertJobMutationRejectsMismatchedStoryId((guarded) => completeIllustrationJob({
       ...guarded,
@@ -364,19 +412,19 @@ describe('illustration jobs', () => {
     await assert.rejects(stat(`${root}/outside`), { code: 'ENOENT' });
   });
 
-  it('rejects a persisted story id mismatch before audit inspects or writes assets', async () => {
+  it('reports a persisted story id mismatch before audit inspects or writes assets', async () => {
     await makePersistedStoryIdMalicious({ terminal: true });
     let inspections = 0;
     let writes = 0;
 
-    await assert.rejects(
-      () => auditIllustrations({
-        ...jobOptions,
-        inspectFinalAssetImpl: async () => { inspections += 1; return inspectFakeAsset('missing'); },
-        writeJsonImpl: async () => { writes += 1; }
-      }),
-      /Story id mismatch: expected 01-01, found \.\.\/\.\.\/outside/u
-    );
+    const result = await auditIllustrations({
+      ...jobOptions,
+      inspectFinalAssetImpl: async () => { inspections += 1; return inspectFakeAsset('missing'); },
+      writeJsonImpl: async () => { writes += 1; }
+    });
+    assert.ok(result.problems.some((problem) => (
+      /Story id mismatch: expected 01-01, found \.\.\/\.\.\/outside/u.test(problem)
+    )));
     assert.equal(inspections, 0);
     assert.equal(writes, 0);
     await assert.rejects(stat(`${root}/outside`), { code: 'ENOENT' });
@@ -856,6 +904,13 @@ describe('illustration jobs', () => {
     await assert.rejects(
       () => execute(process.execPath, ['src/illustration/jobs.mjs', 'next', '--month']),
       /--month requires 01 through 12/u
+    );
+  });
+
+  it('does not consume a short option as a jobs CLI value', async () => {
+    await assert.rejects(
+      () => execute(process.execPath, ['src/illustration/jobs.mjs', 'defer', '--story', '01-01', '--scene', '-h']),
+      /--scene requires an ID/u
     );
   });
 });

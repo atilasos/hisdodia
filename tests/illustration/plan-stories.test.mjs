@@ -2,7 +2,8 @@ import { after, describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 import { execFile } from 'node:child_process';
 import { writeFileSync } from 'node:fs';
-import { mkdir, readFile, rename, rm, stat, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, rename, rm, stat, symlink, writeFile } from 'node:fs/promises';
+import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { promisify } from 'node:util';
 import {
@@ -635,6 +636,51 @@ describe('Luna planner', () => {
     assert.equal(calls, 0);
     assert.equal(writes, 0);
     assert.equal(JSON.parse(await readFile(`${directory}/01-01.json`, 'utf8')).illustratedEdition, undefined);
+  });
+
+  it('rejects symlinks in the current asset directory during forced preflight', async () => {
+    const base = `${root}/force-symlink-preflight`;
+    const directory = `${base}/stories`;
+    const external = `${base}/external`;
+    await rm(base, { recursive: true, force: true });
+    await writeStory(directory, { status: 'complete', artDirectionVersion: '1' });
+    await mkdir(`${base}/public/assets/01-01/illustrated`, { recursive: true });
+    await mkdir(external, { recursive: true });
+    await symlink(path.resolve(external), `${base}/public/assets/01-01/illustrated/v2`, 'dir');
+    let calls = 0;
+
+    await assert.rejects(
+      () => planStories({
+        storyId: '01-01',
+        force: true,
+        storiesDir: directory,
+        publicDir: `${base}/public`,
+        runPlanner: async () => { calls += 1; return validPlan(); }
+      }),
+      /current asset path contains a symbolic link/u
+    );
+    assert.equal(calls, 0);
+    await assert.rejects(stat(`${external}/brief.json`), { code: 'ENOENT' });
+
+    await rm(`${base}/public/assets/01-01/illustrated/v2`, { force: true });
+    await mkdir(`${base}/public/assets/01-01/illustrated/v2`, { recursive: true });
+    await writeFile(`${external}/opening.webp`, 'external sentinel');
+    await symlink(
+      path.resolve(`${external}/opening.webp`),
+      `${base}/public/assets/01-01/illustrated/v2/opening.webp`,
+      'file'
+    );
+    await assert.rejects(
+      () => planStories({
+        storyId: '01-01',
+        force: true,
+        storiesDir: directory,
+        publicDir: `${base}/public`,
+        runPlanner: async () => { calls += 1; return validPlan(); }
+      }),
+      /current v2 illustration assets already exist/u
+    );
+    assert.equal(calls, 0);
   });
 
   it('requires exactly one story scope', async () => {
