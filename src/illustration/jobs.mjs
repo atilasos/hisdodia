@@ -536,6 +536,10 @@ export async function auditIllustrations(options = {}) {
       problems.push(`${story.id}: invalid scene count`);
       continue;
     }
+    const expectedStatus = expectedEditionStatus(scenes);
+    if (edition.status !== expectedStatus) {
+      problems.push(`${story.id}: edition status ${edition.status} does not match ${expectedStatus}`);
+    }
 
     let brief;
     try {
@@ -544,14 +548,18 @@ export async function auditIllustrations(options = {}) {
       problems.push(`${story.id}: missing visual brief`);
       brief = { errors: [] };
     }
+    let sceneContractValid = true;
     try {
       validateScenePlan(story, brief);
     } catch (error) {
+      sceneContractValid = false;
       problems.push(`${story.id}: visual brief violates the canonical scene contract: ${error.message}`);
     }
     if (!metadataMatchesBrief(story, brief)) {
+      sceneContractValid = false;
       problems.push(`${story.id}: illustration metadata does not match visual brief`);
     }
+    if (!sceneContractValid) continue;
     const errors = Array.isArray(brief.errors) ? brief.errors : [];
     const opening = scenes.find(({ id }) => id === 'opening');
     const degradedOpening = opening?.status === 'failed'
@@ -563,11 +571,6 @@ export async function auditIllustrations(options = {}) {
     if (degradedOpening) {
       counts.failedOpenings += 1;
     }
-    const expectedStatus = expectedEditionStatus(scenes);
-    if (edition.status !== expectedStatus) {
-      problems.push(`${story.id}: edition status ${edition.status} does not match ${expectedStatus}`);
-    }
-
     for (const scene of scenes) {
       const label = `${story.id}/${scene.id}`;
       if (scene.image !== files.imageUrl(scene.id)) {

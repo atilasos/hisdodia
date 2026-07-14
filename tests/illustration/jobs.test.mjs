@@ -368,6 +368,26 @@ describe('illustration jobs', () => {
     }
   });
 
+  it('does not inspect scene paths after the audit detects an unsafe scene id', async () => {
+    const story = await readStory();
+    story.illustratedEdition.scenes[1].id = '../../../../outside';
+    story.illustratedEdition.scenes[1].status = 'complete';
+    story.illustratedEdition.scenes[1].attempts = 1;
+    await writeFile(`${root}/stories/01-01.json`, JSON.stringify(story));
+    let inspections = 0;
+
+    const result = await auditIllustrations({
+      ...jobOptions,
+      all: true,
+      inspectFinalAssetImpl: async () => {
+        inspections += 1;
+        return inspectFakeAsset('missing');
+      }
+    });
+    assert.ok(result.problems.some((problem) => problem.includes('metadata does not match visual brief')));
+    assert.equal(inspections, 0);
+  });
+
   it('rejects a persisted story id mismatch before complete side effects', async () => {
     await assertJobMutationRejectsMismatchedStoryId((guarded) => completeIllustrationJob({
       ...guarded,

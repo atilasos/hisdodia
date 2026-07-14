@@ -316,10 +316,12 @@ export async function planStories(options = {}) {
       assertStoryIdMatches(story, filename.slice(0, -5));
       const currentAssetDirectory = illustrationAssetDirectory(story.id, ART_DIRECTION_VERSION);
       const currentAssetPath = path.join(publicDir, ...currentAssetDirectory.split('/').filter(Boolean));
-      const relativeAssetPath = path.relative(path.resolve(publicDir), path.resolve(currentAssetPath));
-      let inspectedPath = path.resolve(publicDir);
+      const absoluteAssetPath = path.resolve(currentAssetPath);
+      const pathRoot = path.parse(absoluteAssetPath).root;
+      const assetPathParts = absoluteAssetPath.slice(pathRoot.length).split(path.sep).filter(Boolean);
+      let inspectedPath = pathRoot;
       let directoryExists = true;
-      for (const part of relativeAssetPath.split(path.sep).filter(Boolean)) {
+      for (const part of assetPathParts) {
         inspectedPath = path.join(inspectedPath, part);
         try {
           const info = await lstat(inspectedPath);
@@ -335,7 +337,7 @@ export async function planStories(options = {}) {
           break;
         }
       }
-      const entries = directoryExists ? await readdir(currentAssetPath, { withFileTypes: true }) : [];
+      const entries = directoryExists ? await readdir(absoluteAssetPath, { withFileTypes: true }) : [];
       if (entries.some((entry) => entry.name.endsWith('.webp'))) {
         throw new Error(`${story.id}: current v${ART_DIRECTION_VERSION} illustration assets already exist`);
       }

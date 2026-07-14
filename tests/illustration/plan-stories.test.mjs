@@ -683,6 +683,31 @@ describe('Luna planner', () => {
     assert.equal(calls, 0);
   });
 
+  it('rejects a symlinked publicDir during forced preflight', async () => {
+    const base = `${root}/force-public-symlink`;
+    const directory = `${base}/stories`;
+    const realPublic = `${base}/real-public`;
+    const linkedPublic = `${base}/linked-public`;
+    await rm(base, { recursive: true, force: true });
+    await writeStory(directory, { status: 'complete', artDirectionVersion: '1' });
+    await mkdir(realPublic, { recursive: true });
+    await symlink(path.resolve(realPublic), linkedPublic, 'dir');
+    let calls = 0;
+
+    await assert.rejects(
+      () => planStories({
+        storyId: '01-01',
+        force: true,
+        storiesDir: directory,
+        publicDir: linkedPublic,
+        runPlanner: async () => { calls += 1; return validPlan(); }
+      }),
+      /current asset path contains a symbolic link/u
+    );
+    assert.equal(calls, 0);
+    await assert.rejects(stat(`${realPublic}/assets/01-01/illustrated/v2/brief.json`), { code: 'ENOENT' });
+  });
+
   it('requires exactly one story scope', async () => {
     await assert.rejects(
       () => planStories({ storyId: '01-01', month: '01', all: true }),
