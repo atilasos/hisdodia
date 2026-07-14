@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: 24
       - name: Testar
-        run: npm test
+        run: npm run test:site
       - name: Configurar GitHub Pages
         id: pages
         uses: actions/configure-pages@v6

@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "node --test tests/**/*.test.mjs",
+    "test:site": "node --test tests/site/*.test.mjs",
     "build": "node src/site/render.mjs",
     "serve": "node src/site/dev-server.mjs",
     "recover:audio": "node src/recovery/recover-audio.mjs",
